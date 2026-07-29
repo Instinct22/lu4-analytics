@@ -1,0 +1,1715 @@
+# Updated SA effects
+
+- Source: https://masterwork.wiki/lu4/posts/post/450-updated-sa-effects
+- Path: /lu4/posts/post/450-updated-sa-effects
+- Type: None
+- Key: page:lu4_posts_post_450_updated_sa_effects
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Articles
+Items
+Updated SA effects
+Lu4
+Eternal
+MasterWork
+Updated SA effects
+Items
+22.06.2026
+Basics
+To add variety to gameplay and expand your character’s development options, the Lu4 team
+has revamped outdated effects from Soul Crystals (SA). The questionable effects Critical Vampire
+and Rsk. Evasion have been replaced with popular and useful effects such as Health, Focus, and more.
+Attention!
+For detailed information on the new SA effects, read the article
+New SA Effects
+C-grade
+Swords
+High Five
+Lu4
+Stormbringer
+Crit. Anger
+C
+HP -12, P. Atk. on Crit. hit +248.
+Stormbringer
+Haste
+C
+Atk. Spd. +7%.
+Stormbringer
+Light
+C
+Weight Limit +20%.
+Stormbringer
+Health
+C
+Max HP +25%.
+Flamberge
+Crit. Damage
+C
+P. Atk. on Crit. hit +174.
+Flamberge
+Health
+C
+Max HP +25%.
+Flamberge
+Light
+C
+Weight Limit +20%.
+Flamberge
+Haste
+C
+Atk. Spd. +7%.
+Mysterious Sword
+Magic Power
+C
+Increases MP consumption by 15% and M. Atk. by 75.
+Mysterious Sword
+Conversion
+C
+Decreases Max HP -40% and increases Max MP +60%.
+Shamshir
+Back blow
+C
+Crit. Atk. Chance +67 when attacking from behind.
+Shamshir
+Focus
+C
+P. Crit. Rate +60.
+Shamshir
+Rsk. Evasion
+C
+Evasion +7 when HP < 60%.
+Shamshir
+Health
+C
+Max HP +25%.
+Spirit Sword
+Crit. Poison
+C
+15% chance to poison an enemy during a critical attack. Effect 5.
+Spirit Sword
+Focus
+C
+P. Crit. Rate +60.
+Raid Sword
+Crit. HP Drain
+C
+Absorbs 9 HP from the enemy with each critical hit.
+Raid Sword
+Haste
+C
+Atk. Spd. +7%.
+Raid Sword
+Crit. Poison
+C
+15% chance to poison an enemy during a critical attack. Effect 5.
+Raid Sword
+Health
+C
+Max HP +25%.
+Sword of Whispering Death
+Empower
+C
+Increases M. Atk. by 24
+Sword of Whispering Death
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Sword of Whispering Death
+Magic Power
+C
+Increases MP consumption by 15% and increases M. Atk. by 99
+Sword of Whispering Death
+Haste
+C
+Atk. Spd. +7%.
+Sword of Whispering Death
+Magic Silence
+C
+Grants a 10% chance to cast Magic Silence when using a skill on the target.
+Sword of Whispering Death
+Acumen
+C
+Casting Spd. +15%.
+Pa'agrian Sword
+Crit. HP Drain
+C
+Absorbs 9 HP of the target during Crit. Atk.
+Pa'agrian Sword
+Haste
+C
+Atk. Spd. +7%.
+Sword of Nightmare
+Light
+C
+Weight Limit +20%.
+Sword of Nightmare
+Haste
+C
+Atk. Spd. +7%.
+Sword of Limit
+Crit. HP Drain
+C
+Absorbs 9 HP of the target during Crit. Atk.
+Sword of Limit
+Haste
+C
+Atk. Spd. +7%.
+Ecliptic Sword
+Empower
+C
+Increases M. Atk. by 26
+Ecliptic Sword
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Ecliptic Sword
+Magic Power
+C
+Increases MP consumption by 15% and M. Atk. by 112.
+Ecliptic Sword
+Acumen
+C
+Casting Spd. +15%.
+Berserker Blade
+Crit. Damage
+C
+Increases P. Atk. by 270 during a critical attack.
+Berserker Blade
+Health
+C
+Max HP +25%.
+Blunts
+High Five
+Lu4
+Big Hammer
+Rsk. Focus
+C
+P. Crit. Chance +138 when HP < 60%.
+Big Hammer
+Focus
+C
+P. Crit. Rate +60.
+Battle Axe
+Anger
+C
+P. Atk. +20, Max. HP -15%
+Battle Axe
+Health
+C
+Max HP +25%.
+Battle Axe
+Rsk. Focus
+C
+P. Crit. Chance +138 when HP < 60%.
+Battle Axe
+Focus
+C
+P. Crit. Rate +60.
+Silver Axe
+Anger
+C
+P. Atk. +20, Max. HP -15%
+Silver Axe
+Health
+C
+Max HP +25%.
+Silver Axe
+Rsk. Focus
+C
+P. Crit. Chance +138 when HP < 60%.
+Silver Axe
+Focus
+C
+P. Crit. Rate +60.
+Skull Graver
+Anger
+C
+P. Atk. +20, Max. HP -15%
+Skull Graver
+Haste
+C
+Atk. Spd. +7%.
+Skull Graver
+Anger
+C
+P. Crit. Chance +138 when HP < 60%.
+Skull Graver
+Focus
+C
+P. Crit. Rate +60.
+Heavy Doom Hammer
+Magic Regeneration
+C
+30% chance to gain the Regeneration effect when using a beneficial skill by target.
+Heavy Doom Hammer
+Acumen
+C
+Casting Spd. +15%.
+Heavy Doom Axe
+Poison
+C
+8% chance to inflict Poison when using a harmful skill on the target.
+Heavy Doom Axe
+Health
+C
+Max HP +25%.
+Heavy Doom Axe
+Magic Weakness
+C
+8% chance to inflict Weakness when using a harmful skill on the target.
+Heavy Doom Axe
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Heavy Doom Axe
+Magic Chaos
+C
+8% chance to inflict Fear when using a harmful skill on the target.
+Heavy Doom Axe
+Acumen
+C
+Casting Spd. +15%.
+Crystal Staff
+Rsk. Evasion
+C
+Evasion +7 when HP < 60%.
+Crystal Staff
+Acumen
+C
+Casting Spd. +15%.
+Stick of Faith
+Mana up
+C
+Increase Max MP by 30%.
+Stick of Faith
+Acumen
+C
+Casting Spd. +15%.
+Stick of Faith
+Hold
+C
+10% chance to cast Dryad's Root when using a harmful skill on the target.
+Stick of Faith
+Mana Up
+C
+Max MP +30%.
+Dwarven War Hammer
+Anger
+C
+P. Atk. +22, Max. HP -15%
+Dwarven War Hammer
+Focus
+C
+P. Crit. Rate +60.
+Cursed Staff
+Hold
+C
+10% chance to cast Dryad's Root when using a harmful skill on the target.
+Cursed Staff
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Cursed Staff
+Poison
+C
+8% chance to inflict Poison when using a harmful skill on the target.
+Cursed Staff
+Acumen
+C
+Casting Spd. +15%.
+Nirvana Axe
+Poison
+C
+7% chance to poison the target when using a harmful skill.
+Nirvana Axe
+Acumen
+C
+Casting Spd. +15%.
+Nirvana Axe
+Magic Power
+C
+MP consumption is increased when using magic by 15% and M. Atk. increased by 99.
+Nirvana Axe
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Mace of Underworld
+Magic Silence
+C
+10% chance to apply Silence when using a harmful skill by target.
+Mace of Underworld
+Acumen
+C
+Casting Spd. +15%.
+Pa'agrian Hammer
+Rsk. Evasion
+C
+Evasion +6 when HP < 60%.
+Pa'agrian Hammer
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Pa'agrian Hammer
+Poison
+C
+7% chance to inflict Poison when using a harmful skill on the target.
+Pa'agrian Hammer
+Acumen
+C
+Casting Spd. +15%.
+Pa'agrian Axe
+Magic Weakness
+C
+7% chance to inflict Weakness when using a harmful skill on the target.
+Pa'agrian Axe
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Karik Horn
+Crit. HP Drain
+C
+Absorbs 9 HP of the target during Crit. Atk.
+Karik Horn
+Rsk. Focus
+C
+P. Crit. Rate +100 when HP < 60%.
+War Axe
+Anger
+C
+P. Atk. +24, Max. HP -15%
+War Axe
+Focus
+C
+P. Crit. Rate +60.
+Stick of Eternity
+Empower
+C
+Increase in M. Atk. by 24.
+Stick of Eternity
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Stick of Eternity
+Rsk. Evasion
+C
+Increase Evasion by 7 when HP is less than 60%.
+Stick of Eternity
+Acumen
+C
+Casting Spd. +15%.
+Inferno Staff
+Magic Silence
+C
+10% chance to apply Silence when using a harmful skill by target.
+Inferno Staff
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Paradia Staff
+Hold
+C
+10% chance to cast Dryad's Root when using a harmful skill on the target.
+Paradia Staff
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Sage's Staff
+Poison
+C
+7% chance to inflict Poison when using a harmful skill on the target.
+Sage's Staff
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Sage's Staff
+Magic Weakness
+C
+7% chance to inflict Weakness when using a harmful skill on the target.
+Sage's Staff
+Acumen
+C
+Casting Spd. +15%.
+Ecliptic Axe
+Magic Power
+C
+MP consumption is increased when using magic by 15% and M. Atk. increased by 112.
+Ecliptic Axe
+M. Atk.
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Dwarven Hammer
+Anger
+C
+Decreases Max. HP by 15% and increases P. Atk. by 26.
+Dwarven Hammer
+Haste
+C
+Atk. Spd. +7%.
+Dwarven Hammer
+Crit. Bleed
+C
+On Crit. Atk., causes the target to bleed with a 42% chance.
+Dwarven Hammer
+Rsk. Focus
+C
+P. Crit. Rate +100 when HP < 60%.
+Yaksa Mace
+Anger
+C
+P. Atk. +26, Max. HP -15%
+Yaksa Mace
+Haste
+C
+Atk. Spd. +7%.
+Yaksa Mace
+Rsk. Focus
+C
+P. Crit. Chance +115 when HP < 60%.
+Yaksa Mace
+Focus
+C
+P. Crit. Rate +60.
+Deadman's Staff
+Magic Regeneration
+C
+30% chance to gain the Regeneration effect when using a beneficial skill by target.
+Deadman's Staff
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Deadman's Staff
+Hold
+C
+10% chance to cast Dryad's Root when using a harmful skill on the target.
+Deadman's Staff
+Health
+C
+Max HP +25%.
+Ghoul's Staff
+Rsk. Evasion
+C
+Evasion +6 when HP < 60%.
+Ghoul's Staff
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Ghoul's Staff
+Mana up
+C
+Increase Max MP by 30%.
+Ghoul's Staff
+Health
+C
+Max HP +25%.
+Demon's Staff
+Magic Weakness
+C
+7% chance to inflict Weakness when using a harmful skill on the target.
+Demon's Staff
+Health
+C
+Max HP +25%.
+Demon's Staff
+Magic Chaos
+C
+7% chance to inflict Fear when using a harmful skill on the target.
+Demon's Staff
+Empower
+C
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Daggers
+High Five
+Lu4
+Cursed Dagger
+Crit. Bleed
+C
+17% chance to cause bleeding on Critical hit.
+Cursed Dagger
+Critical Damage
+C
+P. Crit. Damage +140.
+Cursed Dagger
+Crit. Poison
+C
+9% chance to poison the target on a Critical hit.
+Cursed Dagger
+Focus
+C
+P. Crit. Rate +60.
+Cursed Dagger
+Rsk. Haste
+C
+Atk. Spd. +13% when HP < 60%.
+Cursed Dagger
+Haste
+C
+Atk. Spd. +7%.
+Dark Elven Dagger
+Back blow
+C
+P. Crit. Chance + 50% when attacking from behind.
+Dark Elven Dagger
+Critical Damage
+C
+P. Crit. Damage +140.
+Dark Elven Dagger
+Rsk. Haste
+C
+Increases Atk. Spd. by 13%, when HP falls below 60%
+Dark Elven Dagger
+Haste
+C
+Atk. Spd. +7%.
+Soulfire Dirk
+Mana up
+C
+Increases Max. MP by 30%.
+Soulfire Dirk
+Acumen
+C
+Casting Spd. +15%.
+Soulfire Dirk
+Hold
+C
+Grants a 10% chance to cast Dryad's Root when using a harmful skill on the target.
+Soulfire Dirk
+Focus
+C
+P. Crit. Rate +60.
+Soulfire Dirk
+Magic Silence
+C
+Grants a 10% chance to Silence when using a harmful skill on the target.
+Soulfire Dirk
+Haste
+C
+Atk. Spd. +7%.
+Stiletto
+Crit. Bleed
+C
+17% chance to cause bleeding on Critical hit.
+Stiletto
+Critical Damage
+C
+P. Crit. Damage +140.
+Stiletto
+Crit. Poison
+C
+9% chance to poison the target on a Critical hit.
+Stiletto
+Focus
+C
+P. Crit. Rate +60.
+Stiletto
+Rsk. Haste
+C
+Increases Atk. Spd. by 12% when HP drops below 60%
+Stiletto
+Haste
+C
+Atk. Spd. +7%.
+Grace Dagger
+Evasion
+C
+Evasion +2.
+Grace Dagger
+Haste
+C
+Atk. Spd. +7%.
+Grace Dagger
+Back blow
+C
+P. Crit. Chance + 45% when attacking from behind.
+Grace Dagger
+Critical Damage
+C
+P. Crit. Damage +140.
+Dark Screamer
+Evasion
+C
+Evasion +2.
+Dark Screamer
+Critical Damage
+C
+P. Crit. Damage +140.
+Dark Screamer
+Crit. Bleed
+C
+14% chance to cause bleeding on Critical hit.
+Dark Screamer
+Haste
+C
+Atk. Spd. +7%.
+Crystal Dagger
+Crit. Bleed
+C
+14% chance to cause bleeding on Critical hit.
+Crystal Dagger
+Focus
+C
+P. Crit. Rate +60.
+Crystal Dagger
+Crit. Poison
+C
+7% chance to poison the target on a Critical hit.
+Crystal Dagger
+Haste
+C
+Atk. Spd. +7%.
+Bows
+High Five
+Lu4
+Crystallized Ice Bow
+Evasion
+C
+Evasion +2.
+Crystallized Ice Bow
+Cheap Shot
+C
+Consumption MP for P. Skills -12%.
+Elemental Bow
+Miser
+C
+59% chance to reduce Soul Shot consumption to 7.
+Elemental Bow
+Focus
+C
+P. Crit. Rate +35.
+Noble Elven Bow
+Miser
+C
+59% chance to reduce Soul Shot consumption to 7.
+Noble Elven Bow
+Focus
+C
+P. Crit. Rate +35.
+Akat Long Bow
+Miser
+C
+59% chance to reduce Soul Shot consumption to 7.
+Akat Long Bow
+Focus
+C
+P. Crit. Rate +38.
+Eminence Bow
+Miser
+C
+59% chance to reduce Soul Shot consumption to 7.
+Eminence Bow
+Focus
+C
+P. Crit. Rate +40.
+Spears
+High Five
+Lu4
+Scythe
+Anger
+C
+P. Atk. +20, Max. HP -15%.
+Scythe
+Health
+C
+Max HP +25%.
+Scythe
+Light
+C
+Weight Limit +20%.
+Scythe
+Haste
+C
+Atk. Spd. +7%.
+Orcish Glaive
+Anger
+C
+P. Atk. +20, Max. HP -15%.
+Orcish Glaive
+Health
+C
+Max HP +25%.
+Bec de Corbin
+Light
+C
+Weight Limit +20%.
+Bec de Corbin
+Haste
+C
+Atk. Spd. +7%.
+Scorpion
+Anger
+C
+P. Atk. +24, Max. HP -15%.
+Scorpion
+Health
+C
+Max HP +25%.
+Poleaxe
+Wide Blow
+C
+Increase attack range.
+Poleaxe
+Haste
+C
+Atk. Spd. +7%.
+Widow Maker
+Wide Blow
+C
+Increased attack radius.
+Widow Maker
+Health
+C
+Max HP +25%.
+Fists
+High Five
+Lu4
+Chakram
+Crit. HP Drain
+C
+Absorbs 6 HP from the target during a Critical attack.
+Chakram
+Health
+C
+Max HP +25%.
+Chakram
+Crit. Poison
+C
+17% chance to poison the target on a Critical hit.
+Chakram
+Haste
+C
+Atk. Spd. +7%.
+Knuckle Duster
+Rsk. Evasion
+C
+Evasion +7 when HP < 60%.
+Knuckle Duster
+Health
+C
+Max HP +25%.
+Fisted Blade
+Rsk. Evasion
+C
+Evasion +6 when HP < 60%.
+Fisted Blade
+Health
+C
+Max HP +25%.
+Great Pata
+Crit. HP Drain
+C
+Absorbs 10 HP from the target on Critical hit.
+Great Pata
+Health
+C
+Max HP +25%.
+Great Pata
+Crit. Poison
+C
+14% chance to poison the target on a Critical hit.
+Great Pata
+Haste
+C
+Atk. Spd. +7%.
+B-grade
+Swords
+High Five
+Lu4
+Keshanberk
+Accuracy
+B
+Accuracy +5.
+Keshanberk
+Haste
+B
+Atk. Spd. +7%.
+Keshanberk
+Back blow
+B
+Crit. Atk. Chance +56 when attacking from behind.
+Keshanberk
+Health
+B
+Max HP +25%.
+Great Sword
+Crit. Damage
+B
+P. Atk. on Crit. +247.
+Great Sword
+Haste
+B
+Atk. Spd. +7%.
+Sword of Valhalla
+Magic Weakness
+B
+7% chance to apply Weaken when using a harmful skill by target.
+Sword of Valhalla
+Haste
+B
+Atk. Spd. +7%.
+Sword of Valhalla
+Magic Regeneration
+B
+30% chance to cast Regeneration when using a beneficial skill on the target.
+Sword of Valhalla
+Focus
+B
+P. Crit. Rate +65.
+Guardian Sword
+Crit. HP Drain
+B
+Absorbs 8 HP of the target at Crit. Atk.
+Guardian Sword
+Focus
+B
+P. Crit. Rate +65.
+Guardian Sword
+Crit. Bleed
+B
+On Crit. Atk., causes the target to bleed with a 24% chance.
+Guardian Sword
+Haste
+B
+Atk. Spd. +7%.
+Sword of Damascus
+Crit. Damage
+B
+P. Atk. on Crit. +262.
+Sword of Damascus
+Health
+B
+Max HP +25%.
+Wizard's Tear
+Magic Power
+B
+When using magic, MP consumption increases by 15% and M. Atk. by 139.
+Wizard's Tear
+Haste
+B
+Atk. Spd. +7%.
+Blunts
+High Five
+Lu4
+Heavy War Axe
+Anger
+B
+P. Atk. +28, Max. HP -15%
+Heavy War Axe
+Haste
+B
+Atk. Spd. +7%.
+Heavy War Axe
+Rsk. Focus
+B
+P. Crit. Chance +107 when HP < 60%.
+Heavy War Axe
+Focus
+B
+P. Crit. Rate +65.
+Ice Storm Hammer
+Anger
+B
+Decreases Max. HP by 15% and increases P. Atk. by 28.
+Ice Storm Hammer
+Rsk. Focus
+B
+P. Crit. Rate +110 when HP < 60%.
+Ice Storm Hammer
+Crit. Bleed
+B
+During the Crit. Atk., causes the target to bleed with a 41% chance.
+Ice Storm Hammer
+Health
+B
+Max HP +25%.
+Spell Breaker
+Hold
+B
+Grants a 10% chance to cast Dryad's Root when using a harmful skill on the target.
+Spell Breaker
+Health
+B
+Max HP +25%.
+Sprite's Staff
+Magic Regeneration
+B
+30% chance to cast Regeneration when using a beneficial skill on the target.
+Sprite's Staff
+Acumen
+B
+Casting Spd. +15%.
+Sprite's Staff
+Hold
+B
+10% chance to cast Dryad's Root when using a harmful skill on the target.
+Sprite's Staff
+Empower
+B
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Deadman's Glory
+Anger
+B
+P. Atk. +30, Max. HP -15%
+Deadman's Glory
+Focus
+B
+P. Crit. Rate +65.
+Art of Battle Axe
+Rsk. Focus
+B
+P. Crit. Chance +99 when HP < 60%.
+Art of Battle Axe
+Focus
+B
+P. Crit. Rate +65.
+Kaim Vanul's Bones
+Magic Silence
+B
+Grants a 10% chance to Silence when using a harmful skill on the target.
+Kaim Vanul's Bones
+Acumen
+B
+Casting Spd. +15%.
+Staff of Evil Spirits
+Poison
+B
+6% chance to inflict Poison when using a harmful skill on the target.
+Staff of Evil Spirits
+Empower
+B
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Daggers
+High Five
+Lu4
+Kris
+Back blow
+B
+P. Crit. Chance + 40% when attacking from behind.
+Kris
+Critical Damage
+B
+P. Crit. Damage +150.
+Hell Knife
+Magic Weakness
+B
+Grants a 7% chance to cast Curse of Weakness when using a harmful skill on the target.
+Hell Knife
+Haste
+B
+Atk. Spd. +7%.
+Hell Knife
+Magic Regeneration
+B
+Grants a 30% chance to cast Regeneration when using a beneficial skill on the target.
+Hell Knife
+Acumen
+B
+Casting Spd. +15%.
+Demon's Dagger
+Crit. Bleed
+B
+12% chance to cause bleeding on Critical hit.
+Demon's Dagger
+Haste
+B
+Atk. Spd. +7%.
+Demon's Dagger
+Crit. Poison
+B
+6% chance to poison the target on a Critical hit.
+Demon's Dagger
+Focus
+B
+P. Crit. Rate +65.
+Bows
+High Five
+Lu4
+Dark Elven Long Bow
+Evasion
+B
+Evasion +2.
+Dark Elven Long Bow
+Guidance
+B
+Accuracy +7.
+Dark Elven Long Bow
+Crit. Bleed
+B
+41% chance to cause bleeding on Critical hit.
+Dark Elven Long Bow
+Cheap Shot
+B
+Consumption MP for P. Skills -15%.
+Dark Elven Long Bow
+Miser
+B
+19% chance to reduce Soul Shot consumption to 2.
+Dark Elven Long Bow
+Focus
+B
+P. Crit. Rate +45.
+Bow of Peril
+Cheap Shot
+B
+42% chance to reduce MP consumption to 1 during normal attack.
+Bow of Peril
+Focus
+B
+P. Crit. Rate +50.
+Spears
+High Five
+Lu4
+Lance
+Anger
+B
+P. Atk. +30, Max. HP -15%.
+Lance
+Health
+B
+Max HP +25%.
+Fists
+High Five
+Lu4
+Arthro Nail
+Crit. Poison
+B
+14% chance to poison the target on a Critical hit.
+Arthro Nail
+Health
+B
+Max HP +25%.
+Arthro Nail
+Rsk. Evasion
+B
+Evasion +6 when HP < 60%.
+Arthro Nail
+Focus
+B
+P. Crit. Rate +65.
+Bellion Cestus
+Crit. HP Drain
+B
+Absorbs 14 HP from the target on a Critical hit.
+Bellion Cestus
+Health
+B
+Max HP +25%.
+Bellion Cestus
+Crit. Poison
+B
+12% chance to poison the target on a Critical hit.
+Bellion Cestus
+Focus
+B
+P. Crit. Rate +65.
+Dual
+Weapon
+New effect
+Stormbringer*Caliburs
+B
++4
+Accuracy +7.
+Shamshir*Caliburs
+B
++4
+Accuracy +7.
+Katana*Caliburs
+B
++4
+Accuracy +7.
+Spirit Sword*Caliburs
+B
++4
+Accuracy +7.
+Raid Sword*Caliburs
+B
++4
+Accuracy +7.
+Stormbringer*Samurai Long sword
+B
++4
+Accuracy +7.
+Caliburs*Tsurugi
+B
++4
+Accuracy +7.
+Sword of Delusion*Sword of Delusion
+B
++4
+Accuracy +7.
+Shamshir*Samurai Long Sword
+B
++4
+Accuracy +7.
+Sword of Limit*Samurai Long Sword
+B
++4
+Accuracy +7.
+Stormbringer*Sword of Limit
+B
++4
+P. Crit. Damage +150.
+Shamshir*Sword of Limit
+B
++4
+P. Crit. Damage +150.
+Katana*Sword of Limit
+B
++4
+P. Crit. Damage +150.
+Spirit Sword*Sword of Limit
+B
++4
+P. Crit. Damage +150.
+Raid Sword*Sword of Limit
+B
++4
+P. Crit. Damage +150.
+Caliburs*Caliburs
+B
++4
+P. Crit. Damage +150.
+Sword of Limit*Sword of Limit
+B
++4
+P. Crit. Damage +150.
+Sword of Delusion*Sword of Nightmare
+B
++4
+P. Crit. Damage +150.
+Katana*Samurai Long Sword
+B
++4
+P. Crit. Damage +150.
+Sword of Delusion*Samurai Long Sword
+B
++4
+P. Crit. Damage +150.
+Stormbringer*Sword of Nightmare
+B
++4
+P. Crit. Rate +65.
+Shamshir*Sword of Nightmare
+B
++4
+P. Crit. Rate +65.
+Katana*Sword of Nightmare
+B
++4
+P. Crit. Rate +65.
+Spirit Sword*Sword of Nightmare
+B
++4
+P. Crit. Rate +65.
+Raid Sword*Sword of Nightmare
+B
++4
+P. Crit. Rate +65.
+Caliburs*Sword of Delusion
+B
++4
+P. Crit. Rate +65.
+Sword of Limit*Sword of Nightmare
+B
++4
+P. Crit. Rate +65.
+Sword of Nightmare*Sword of Nightmare
+B
++4
+P. Crit. Rate +65.
+Tsurugi*Tsurugi
+B
++4
+P. Crit. Rate +65.
+Raid Sword*Samurai Long Sword
+B
++4
+P. Crit. Rate +65.
+Tsurugi*Samurai Long Sword
+B
++4
+P. Crit. Rate +65.
+War Axe*War Axe
+B
++4
+P. Crit. Rate +65.
+Demon's Dagger*Dark Screamer
+B
++4
+P. Crit. Rate +65.
+Stormbringer*Tsurugi
+B
++4
+Atk. Spd. +7%.
+Shamshir*Tsurugi
+B
++4
+Atk. Spd. +7%.
+Katana*Tsurugi
+B
++4
+Atk. Spd. +7%.
+Spirit Sword*Tsurugi
+B
++4
+Atk. Spd. +7%.
+Raid Sword*Tsurugi
+B
++4
+Atk. Spd. +7%.
+Caliburs*Sword of Nightmare
+B
++4
+Atk. Spd. +7%.
+Sword of Limit*Tsurugi
+B
++4
+Atk. Spd. +7%.
+Sword of Nightmare*Tsurugi
+B
++4
+Atk. Spd. +7%.
+Caliburs*Samurai Long Sword
+B
++4
+Atk. Spd. +7%.
+Samurai Long Sword*Samurai Long Sword
+B
++4
+Atk. Spd. +7%.
+A-grade
+Swords
+High Five
+Lu4
+Tallum Blade
+Anger
+A
+Max. HP -15%; P. Atk. +31. Deals additional PvP Damage.
+Tallum Blade
+Health
+A
+Max HP +25%.
+PvP Damage +5%.
+Tallum Blade
+Crit. Poison
+A
+10% chance to poison the enemy on a critical attack.
+Deals additional PvP Damage.
+Tallum Blade
+Focus
+A
+P. Crit. Rate +65.
+PvP Damage +5%.
+Elemental Sword
+Magic Power
+A
+MP consumption is increased when using magic by 15% and M. Atk. increased by 153.
+Deals additional PvP Damage.
+Elemental Sword
+Empower
+A
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+PvP Damage +5%.
+Elemental Sword
+Magic Paralyze
+A
+5% chance to paralyze the enemy when using a harmful skill by target.
+Deals additional PvP Damage.
+Elemental Sword
+Acumen
+A
+Casting Spd. +15%.
+PvP Damage +5%.
+Elemental Sword
+Empower
+A
+M. Atk. +30.
+Deals additional PvP Damage.
+Elemental Sword
+Haste
+A
+Atk. Spd. +7%.
+PvP Damage +5%.
+Sword of Miracles
+Magic Power
+A
+MP consumption is increased when using magic by 15% and M. Atk. increased by 153.
+Deals additional PvP Damage.
+Sword of Miracles
+Empower
+A
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+PvP Damage +5%.
+Themis' Tongue
+Magic Focus
+A
+Grants a 20% chance to apply Focus when using a beneficial skill on the target.
+Deals additional PvP Damage.
+Themis' Tongue
+Acumen
+A
+Casting Spd. +15%.
+PvP Damage +5%.
+Dark Legion's Edge
+Crit. Damage
+A
+P. Atk. +326 on critical attack. Deals additional PvP Damage.
+Dark Legion's Edge
+Haste
+A
+Atk. Spd. +7%.
+PvP Damage +5%.
+Dark Legion's Edge
+Rsk. Focus
+A
+P. Crit. Chance +130 when HP < 60%. Deals additional PvP Damage.
+Dark Legion's Edge
+Focus
+A
+P. Crit. Rate +65.
+PvP Damage +5%.
+Sirra's Blade
+Crit. Poison
+A
+Increases the chance that the target will be poisoned by 15% during normal Crit. Atk.
+Deals additional PvP Damage.
+Sirra's Blade
+Focus
+A
+P. Crit. Rate +65.
+PvP Damage +5%.
+Dragon Slayer
+Crit. Bleed
+A
+24% chance to cause the enemy to bleed on a critical attack.
+Deals additional PvP Damage.
+Dragon Slayer
+Haste
+A
+Atk. Spd. +7%.
+PvP Damage +5%.
+Dragon Slayer
+Crit. HP Drain
+A
+Absorbs 11 HP from the enemy during a critical attack. Deals additional PvP damage.
+Dragon Slayer
+Focus
+A
+PvP Damage +5%.
+Blunts
+High Five
+Lu4
+Destroyer Hammer
+Crit. HP Drain
+A
+Absorbs 18 HP from the target during Crit. Atk. Deals additional PvP damage.
+Destroyer Hammer
+Rsk. Focus
+A
+P. Crit. Rate +120 when HP < 60%.
+PvP Damage +5%.
+Meteor Shower
+Crit. Bleed
+A
+42% chance to cause the enemy to bleed on a critical attack.
+Deals additional PvP Damage.
+Meteor Shower
+Health
+A
+Max HP +25%.
+PvP Damage +5%.
+Meteor Shower
+Rsk. Haste
+A
+Atk. Spd. +11% when HP < 60%.
+Наносит дополнительный урон в PvP.
+Meteor Shower
+Haste
+A
+Atk. Spd. +7%.
+PvP Damage +5%.
+Elysian
+Anger
+A
+Max. HP -15%; P. Atk. +31. Deals additional PvP Damage.
+Elysian
+Haste
+A
+Atk. Spd. +7%.
+PvP Damage +5%.
+Elysian
+Crit. HP Drain
+A
+Absorbs 19 HP from the target on each critical hit. Deals additional PvP damage.
+Elysian
+Focus
+A
+P. Crit. Rate +60.
+PvP Damage +5%.
+Cabrio's Hand
+Magic Silence
+A
+Grants a 10% chance to Silence when using a harmful ability on the target.
+Deals additional PvP damage.
+Cabrio's Hand
+Acumen
+A
+Casting Spd. +15%.
+PvP Damage +5%.
+Doom Crusher
+Anger
+A
+Decreases Max. HP by 15% and increases P. Atk. by 11% and damage dealt in PvP.
+Doom Crusher
+Rsk. Focus
+A
+P. Crit. Rate +110 when HP < 60%.
+PvP Damage +5%.
+Behemoth's Tuning Fork
+Anger
+A
+P. Atk. +32.05, Max HP -15%, Damage in PvP +5%.
+Behemoth's Tuning Fork
+Haste
+A
+Atk. Spd. +7%.
+PvP Damage +5%.
+Flaming Dragon Skull
+Magic Power
+A
+When using magic, MP cost is increased by 15% and M. Atk. is increased by 167.
+Deals additional PvP damage.
+Flaming Dragon Skull
+Empower
+A
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+PvP Damage +5%.
+Branch of the Mother Tree
+Magic Damage
+A
+Grants a 30% chance to deal additional 8 magic damage when using a harmful skill
+on a target. Deals additional PvP damage.
+Branch of the Mother Tree
+Empower
+A
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+PvP Damage +5%.
+Daimon Crystal
+Mental Shield
+A
+Grants a 50% chance to apply Mental Shield when using a beneficial skill on a target.
+Deals additional PvP damage.
+Daimon Crystal
+Empower
+A
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+PvP Damage +5%.
+Daggers
+High Five
+Lu4
+Bloody Orchid
+Back Blow
+A
+P. Crit. Rate to back 37%, Damage in PvP +5%.
+Bloody Orchid
+Critical Damage
+A
+P. Crit. Damage +200.
+PvP Damage +5%.
+Bloody Orchid
+Crit. Bleed
+A
+12% chance to cause the enemy to bleed on a critical attack.
+Deals additional PvP Damage.
+Bloody Orchid
+Mana Up
+A
+Max MP +30%.
+PvP Damage +5%.
+Soul Separator
+Accuracy
+A
+Accuracy +4. Deals additional PvP Damage.
+Soul Separator
+Focus
+A
+P. Crit. Rate +65.
+PvP Damage +5%.
+Soul Separator
+Rsk. Haste
+A
+Atk. Spd. +11% when HP < 60%. Deals additional PvP Damage.
+Soul Separator
+Haste
+A
+Atk. Spd. +7%.
+PvP Damage +5%.
+Naga Storm
+Back Blow
+A
+P. Crit. Rate to back 37%, Damage in PvP +5%.
+Naga Storm
+Haste
+A
+Atk. Spd. +7%.
+PvP Damage +5%.
+Bows
+High Five
+Lu4
+Carnage Bow
+Light
+A
+Weight Limit +20%. Deals additional PvP Damage.
+Carnage Bow
+Focus
+A
+P. Crit. Rate +60.
+PvP Damage +5%.
+Soul Bow
+Crit. Poison
+A
+18% chance to poison the target on a critical attack. Deals additional PvP damage.
+Soul Bow
+Focus
+A
+P. Crit. Rate +60.
+PvP Damage +5%.
+Spears
+High Five
+Lu4
+Tiphon's Spear
+Wide Blow
+A
+Increases attack range. Deals additional PvP damage.
+Tiphon's Spear
+Health
+A
+Max HP +25%.
+Additional targets with Polearm +4.
+PvP Damage +5%.
+Fists
+High Five
+Lu4
+Blood Tornado
+Anger
+A
+P. Atk. +38.09, Max HP -15%, Damage in PvP +5%
+Blood Tornado
+Health
+A
+P. Crit. Rate +60.
+PvP Damage +5%.
+Dragon Grinder
+Rsk. Evasion
+A
+Evasion +7 when HP < 60%, Damage in PvP +5%.
+Dragon Grinder
+Focus
+A
+P. Crit. Rate +60.
+PvP Damage +5%.
+Dragon Grinder
+Guidance
+A
+Accuracy +8, Damage in PvP +5%.
+Dragon Grinder
+Haste
+A
+Atk. Spd. +7%.
+PvP Damage +5%.
+Sobekk's Hurricane
+Rsk. Haste
+A
+Atk. Spd. +11% when HP < 60%, Damage in PvP +5%.
+Sobekk's Hurricane
+Focus
+A
+P. Crit. Rate +60.
+PvP Damage +5%.
+Sobekk's Hurricane
+Crit. HP Drain
+A
+Increases the ability to absorb 14 HP during Crit. Atk.
+Deals additional PvP Damage.
+Sobekk's Hurricane
+Health
+A
+Max HP +25%.
+PvP Damage +5%.
+Can be interesting
+Soul Crystal (SA) Enhancement
+Lu4: Raid Bosses
+Lu4: Alligator Hunter 40+
+Lu4: Under the Shadow of the Ivory Tower 40+
+Lu4: Quest 1000 years, the End of Lamentation 48+
+Categories
+Items
+New S-Grade Sets Bonuses
+Enchantment bonuses for sets D/C/B/A/S Grade
+New S80-84 Grade Sets Bonuses
+Blacksmith of Mammon: Weapon Upgrade/Exchange
+Masterwork Item Bonuses
+MasterWork Crystals: Equipment Upgrade
+Hellbound: Caravan Certificates
+Eternal Weapons
+Vitality System
+Autoloot Agathions MasterWork
+Slots expansion and weight limit
+Compound of belts
+Pets: Wolf and Fenrir
+Library: Books of Exp
+Pets: Kookaburra, Cougar, Buffalo
+Dual daggers and blunts
+Soul Crystal (SA) Enhancement
+Pets: new skins
+Life Stones on Masterwork
+Updated SA effects
+C/B/A-Grade Sets Upgrades
+PvP enhance
+Unique Boss Weapons
+Talismans
+Vorpal Armor. Assembly and improvement
+"Protectors of Eternity". Eternal armor
+Tattoo Guide
+Weapons for Olympiad
+Cloaks on MasterWork
+Ng/D-Grade Sets Upgrades
+Ng/D Equipment upgrade
+New SA effects
+Hero Weapons
+Masterwork Weapon Bonuses
+Unsealing Cost
+MasterWork 2026
+All rights reserved

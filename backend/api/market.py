@@ -1,0 +1,156 @@
+"""HTTP layer for market timeline, trading analytics, and craft prices."""
+
+import uuid
+from datetime import datetime
+from typing import Annotated
+
+from fastapi import APIRouter, Depends, Query
+
+from api.deps import DbSession, require_any_permission, require_permission
+from models.user import User
+from schemas.market import MarketItemsResponse, MarketTimelineResponse
+from schemas.trading import (
+    ItemsOverviewResponse,
+    LuckyMomentsResponse,
+    OrderBookResponse,
+    TradesListResponse,
+    TradingAnalyticsResponse,
+    TradingChartResponse,
+)
+from services import market_service
+
+router = APIRouter()
+
+MarketUser = Annotated[
+    User,
+    Depends(
+        require_any_permission(
+            "nav.dashboard",
+            "nav.charts",
+            "nav.statistics",
+            "feature.craft_prices",
+        )
+    ),
+]
+CraftPricesUser = Annotated[User, Depends(require_permission("feature.craft_prices"))]
+
+
+@router.get("/timeline", response_model=MarketTimelineResponse)
+def market_timeline(
+    db: DbSession,
+    user: MarketUser,
+    entity_id: uuid.UUID,
+    interval: str = Query("5m"),
+    from_date: datetime | None = Query(None, alias="from"),
+    to_date: datetime | None = Query(None, alias="to"),
+):
+    return market_service.market_timeline(db, entity_id, interval, from_date, to_date)
+
+
+@router.get("/items", response_model=MarketItemsResponse)
+def market_items(
+    db: DbSession,
+    user: MarketUser,
+    q: str | None = Query(None),
+    limit: int = Query(30, ge=1, le=100),
+):
+    return market_service.market_items(db, q, limit)
+
+
+@router.get("/prices-by-ids")
+def prices_by_ids(
+    db: DbSession,
+    user: CraftPricesUser,
+    ids: str = Query(..., description="Comma-separated item external IDs"),
+):
+    return market_service.prices_by_ids(db, ids)
+
+
+@router.get("/chart", response_model=TradingChartResponse)
+def trading_chart(
+    db: DbSession,
+    user: MarketUser,
+    entity_id: uuid.UUID,
+    period: str = Query("24h"),
+    from_date: datetime | None = Query(None, alias="from"),
+    to_date: datetime | None = Query(None, alias="to"),
+):
+    return market_service.trading_chart(db, entity_id, period, from_date, to_date)
+
+
+@router.get("/analytics", response_model=TradingAnalyticsResponse)
+def trading_analytics(
+    db: DbSession,
+    user: MarketUser,
+    entity_id: uuid.UUID,
+    period: str = Query("24h"),
+    from_date: datetime | None = Query(None, alias="from"),
+    to_date: datetime | None = Query(None, alias="to"),
+):
+    return market_service.trading_analytics(db, entity_id, period, from_date, to_date)
+
+
+@router.get("/order-book", response_model=OrderBookResponse)
+def order_book(
+    db: DbSession,
+    user: MarketUser,
+    entity_id: uuid.UUID,
+    period: str = Query("24h"),
+    from_date: datetime | None = Query(None, alias="from"),
+    to_date: datetime | None = Query(None, alias="to"),
+):
+    return market_service.order_book(db, entity_id, period, from_date, to_date)
+
+
+@router.get("/lucky-moments", response_model=LuckyMomentsResponse)
+def lucky_moments(
+    db: DbSession,
+    user: MarketUser,
+    entity_id: uuid.UUID,
+    period: str = Query("24h"),
+    from_date: datetime | None = Query(None, alias="from"),
+    to_date: datetime | None = Query(None, alias="to"),
+):
+    return market_service.lucky_moments(db, entity_id, period, from_date, to_date)
+
+
+@router.get("/items-overview", response_model=ItemsOverviewResponse)
+def items_overview(
+    db: DbSession,
+    user: MarketUser,
+    period: str = Query("24h"),
+    from_date: datetime | None = Query(None, alias="from"),
+    to_date: datetime | None = Query(None, alias="to"),
+    limit: int = Query(60, ge=1, le=200),
+):
+    return market_service.items_overview(db, period, from_date, to_date, limit)
+
+
+@router.get("/trades", response_model=TradesListResponse)
+def list_trades(
+    db: DbSession,
+    user: MarketUser,
+    entity_id: uuid.UUID,
+    side: str = Query(..., pattern="^(buy|sell)$"),
+    period: str = Query("24h"),
+    from_date: datetime | None = Query(None, alias="from"),
+    to_date: datetime | None = Query(None, alias="to"),
+    search: str | None = Query(None),
+    sort_by: str = Query("recorded_at", pattern="^(recorded_at|price|quantity|seller_name)$"),
+    sort_order: str = Query("desc", pattern="^(asc|desc)$"),
+    page: int = Query(1, ge=1),
+    limit: int = Query(50, ge=1, le=500),
+):
+    return market_service.list_trades(
+        db,
+        entity_id=entity_id,
+        side=side,
+        period=period,
+        from_date=from_date,
+        to_date=to_date,
+        search=search,
+        sort_by=sort_by,
+        sort_order=sort_order,
+        page=page,
+        limit=limit,
+    )

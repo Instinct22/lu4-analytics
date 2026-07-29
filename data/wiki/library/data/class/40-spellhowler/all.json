@@ -1,0 +1,545 @@
+{
+  "key": "class:40",
+  "type": "class",
+  "id": 40,
+  "name": "Lu4 Wiki: Class Spellhowler",
+  "url": "/lu4/class/40-spellhowler/all",
+  "source_url": "https://masterwork.wiki/lu4/class/40-spellhowler/all",
+  "raw_html": "library/raw/lu4/class/40-spellhowler/all.html",
+  "stats": {},
+  "materials": [],
+  "links": [
+    {
+      "key": "class:40",
+      "type": "class",
+      "id": 40,
+      "name": "Lu4",
+      "url": "/lu4/class/40-spellhowler/all"
+    },
+    {
+      "key": "skill:1011",
+      "type": "skill",
+      "id": 1011,
+      "name": "Heal Lv. 1 Restores the target's HP with 50 Power.",
+      "url": "/lu4/skill/1011-heal/1"
+    },
+    {
+      "key": "skill:1012",
+      "type": "skill",
+      "id": 1012,
+      "name": "Cure Poison Lv. 1 Cures the target of minor poisoning.",
+      "url": "/lu4/skill/1012-cure-poison/1"
+    },
+    {
+      "key": "skill:1015",
+      "type": "skill",
+      "id": 1015,
+      "name": "Battle Heal Lv. 1 Immediately restores the target's HP with 83 Power.",
+      "url": "/lu4/skill/1015-battle-heal/1"
+    },
+    {
+      "key": "skill:1027",
+      "type": "skill",
+      "id": 1027,
+      "name": "Group Heal Lv. 1 Restores all party members' HP with 66 Power.",
+      "url": "/lu4/skill/1027-group-heal/1"
+    },
+    {
+      "key": "skill:1126",
+      "type": "skill",
+      "id": 1126,
+      "name": "Servitor Recharge Lv. 1 Recovers the servitor's MP with up to 41 Power depending on the servitor's level.",
+      "url": "/lu4/skill/1126-servitor-recharge/1"
+    },
+    {
+      "key": "skill:1127",
+      "type": "skill",
+      "id": 1127,
+      "name": "Servitor Heal Lv. 1 Recovers the servitor's HP with 169 Power.",
+      "url": "/lu4/skill/1127-servitor-heal/1"
+    },
+    {
+      "key": "skill:1128",
+      "type": "skill",
+      "id": 1128,
+      "name": "Summon Shadow Lv. 1 Summons a Shadow.",
+      "url": "/lu4/skill/1128-summon-shadow/1"
+    },
+    {
+      "key": "skill:1148",
+      "type": "skill",
+      "id": 1148,
+      "name": "Death Spike Lv. 1 Throws a bone to inflict dark damage on an enemy with 49 Power added to M. Atk.",
+      "url": "/lu4/skill/1148-death-spike/1"
+    },
+    {
+      "key": "skill:1151",
+      "type": "skill",
+      "id": 1151,
+      "name": "Corpse Life Drain Lv. 1 Absorbs residual life energy from a corpse to restore the user's HP with 260 Power.",
+      "url": "/lu4/skill/1151-corpse-life-drain/1"
+    },
+    {
+      "key": "skill:1157",
+      "type": "skill",
+      "id": 1157,
+      "name": "Body To Mind Lv. 1 Sacrifices HP to regenerate 22 MP.",
+      "url": "/lu4/skill/1157-body-to-mind/1"
+    },
+    {
+      "key": "skill:1159",
+      "type": "skill",
+      "id": 1159,
+      "name": "Curse Death Link Lv. 1 Transfers user's pain, using 68 Power to inflict dark damage on an enemy. Power increases as HP decreases.",
+      "url": "/lu4/skill/1159-curse-death-link/1"
+    },
+    {
+      "key": "skill:1176",
+      "type": "skill",
+      "id": 1176,
+      "name": "Tempest Lv. 1 Stirs up a hurricane that inflicts Wind damage near an enemy with 31 Power added to M. Atk.",
+      "url": "/lu4/skill/1176-tempest/1"
+    },
+    {
+      "key": "skill:1177",
+      "type": "skill",
+      "id": 1177,
+      "name": "Wind Strike Lv. 1 Supplements the user's M. Atk. with 12 Power to create a powerful hurricane that inflicts Wind damage on an enemy.",
+      "url": "/lu4/skill/1177-wind-strike/1"
+    },
+    {
+      "key": "skill:1228",
+      "type": "skill",
+      "id": 1228,
+      "name": "Summon Silhouette Lv. 1 Summons a Silhouette for assistance in combat.",
+      "url": "/lu4/skill/1228-summon-silhouette/1"
+    },
+    {
+      "key": "skill:1234",
+      "type": "skill",
+      "id": 1234,
+      "name": "Vampiric Claw Lv. 1 Inflicts dark damage on an enemy with 49 Power added to M. Atk. Absorbs 40% of the damage as HP.",
+      "url": "/lu4/skill/1234-vampiric-claw/1"
+    },
+    {
+      "key": "skill:1239",
+      "type": "skill",
+      "id": 1239,
+      "name": "Hurricane Lv. 1 Creates a whirlwind that uses 49 Power to inflict Wind damage to an enemy.",
+      "url": "/lu4/skill/1239-hurricane/1"
+    },
+    {
+      "key": "skill:1267",
+      "type": "skill",
+      "id": 1267,
+      "name": "Shadow Flare Lv. 1 Inflicts dark damage on an enemy with 65 Power added to M. Atk. Over-hit is possible.",
+      "url": "/lu4/skill/1267-shadow-flare/1"
+    },
+    {
+      "key": "skill:1291",
+      "type": "skill",
+      "id": 1291,
+      "name": "Demon Wind Lv. 1 Inflicts magic damage. Power: 150. Applies to enemy: Incoming Heal Power -50%. Over-hit is possible.",
+      "url": "/lu4/skill/1291-demon-wind/1"
+    },
+    {
+      "key": "skill:1341",
+      "type": "skill",
+      "id": 1341,
+      "name": "Wind Vortex Lv. 1 Inflicts magic damage. Power: 126. Applies to enemy: Resistance to Wind -15% Speed -10% Atk. Spd. -10% Cast. Spd. -30% Burns 12 MP every sec. Over-hit is possible.",
+      "url": "/lu4/skill/1341-wind-vortex/1"
+    },
+    {
+      "key": "skill:1417",
+      "type": "skill",
+      "id": 1417,
+      "name": "Aura Flash Lv. 1 Inflicts non-Attribute damage on nearby enemies with 49 Power added to M. Atk. Additionally cancel targets of nearby enemies.",
+      "url": "/lu4/skill/1417-aura-flash/1"
+    },
+    {
+      "key": "skill:1468",
+      "type": "skill",
+      "id": 1468,
+      "name": "Star Fall Lv. 1 Inflicts magic damage around enemy. Power: 127. Burns 100 HP every second. Over-hit is possible.",
+      "url": "/lu4/skill/1468-star-fall/1"
+    },
+    {
+      "key": "skill:1554",
+      "type": "skill",
+      "id": 1554,
+      "name": "Aura Blast Lv. 1 Inflicts magic damage around enemy. Power: 76 in PvP, 106 in PvE. Restores 50 MP to user instantly. Over-hit is possible.",
+      "url": "/lu4/skill/1554-aura-blast/1"
+    },
+    {
+      "key": "skill:28005",
+      "type": "skill",
+      "id": 28005,
+      "name": "Squall Lv. 1 Directs streams of squall wind at enemies with 48 Power added to M. Atk.",
+      "url": "/lu4/skill/28005-squall/1"
+    },
+    {
+      "key": "skill:1078",
+      "type": "skill",
+      "id": 1078,
+      "name": "Concentration Lv. 1 Chance to interrupt magic casting -18%.",
+      "url": "/lu4/skill/1078-concentration/1"
+    },
+    {
+      "key": "skill:1146",
+      "type": "skill",
+      "id": 1146,
+      "name": "Mighty Servitor Lv. 1 Increases the servitor's P. Atk. by 10%.",
+      "url": "/lu4/skill/1146-mighty-servitor/1"
+    },
+    {
+      "key": "skill:1189",
+      "type": "skill",
+      "id": 1189,
+      "name": "Resist Wind Lv. 1 Resistance to Wind +12% Resistance to Fire, Water and Earth -3%.",
+      "url": "/lu4/skill/1189-resist-wind/1"
+    },
+    {
+      "key": "skill:1457",
+      "type": "skill",
+      "id": 1457,
+      "name": "Empowering Echo Lv. 1 M. Atk. +15% M. Skills MP Consumption +25%.",
+      "url": "/lu4/skill/1457-empowering-echo/1"
+    },
+    {
+      "key": "skill:1494",
+      "type": "skill",
+      "id": 1494,
+      "name": "Hurricane Armor Lv. 1 Resistance to Wind +12%. When taking 50 or more damage in range 400, 30% chance to enemy: Atk. Spd. -15%. Duration: 10 sec. Reuse time: 5 sec.",
+      "url": "/lu4/skill/1494-hurricane-armor/1"
+    },
+    {
+      "key": "skill:1499",
+      "type": "skill",
+      "id": 1499,
+      "name": "Improved Combat Lv. 1 Combines 'Might' and 'Shield' effects. P. Atk. +6% P. Def. +6%.",
+      "url": "/lu4/skill/1499-improved-combat/1"
+    },
+    {
+      "key": "skill:1532",
+      "type": "skill",
+      "id": 1532,
+      "name": "Enlightenment Lv. 1 M. Atk. +50% Cast. Spd. +30% M. Crit. Rate +50% Chance to interrupt magic casting -50% M. Skills MP Consumption +30% Speed -30%.",
+      "url": "/lu4/skill/1532-enlightenment/1"
+    },
+    {
+      "key": "skill:27217",
+      "type": "skill",
+      "id": 27217,
+      "name": "Mass Improved Combat Lv. 1 Combines 'Might' and 'Shield' effects. For party members: P. Atk. +6% P. Def. +6%.",
+      "url": "/lu4/skill/27217-mass-improved-combat/1"
+    },
+    {
+      "key": "skill:28006",
+      "type": "skill",
+      "id": 28006,
+      "name": "Mage Attention Lv. 1 Focusing on magical powers increases Skill Range by 30% and M. Def. by 10%, decrease Magic Cancel Rate by 50%. Decreases P. Def. by 15% and Speed by 30%.",
+      "url": "/lu4/skill/28006-mage-attention/1"
+    },
+    {
+      "key": "skill:1064",
+      "type": "skill",
+      "id": 1064,
+      "name": "Silence Lv. 1 Blocks an enemy's use of magic.",
+      "url": "/lu4/skill/1064-silence/1"
+    },
+    {
+      "key": "skill:1069",
+      "type": "skill",
+      "id": 1069,
+      "name": "Sleep Lv. 1 Causes an enemy to sleep.",
+      "url": "/lu4/skill/1069-sleep/1"
+    },
+    {
+      "key": "skill:1074",
+      "type": "skill",
+      "id": 1074,
+      "name": "Surrender to Wind Lv. 1 Resistance to Wind -15%. When applied, cancels 'Resist Wind' from the target.",
+      "url": "/lu4/skill/1074-surrender-to-wind/1"
+    },
+    {
+      "key": "skill:1160",
+      "type": "skill",
+      "id": 1160,
+      "name": "Slow Lv. 1 Decreases an enemy's Speed by 20%.",
+      "url": "/lu4/skill/1160-slow/1"
+    },
+    {
+      "key": "skill:1167",
+      "type": "skill",
+      "id": 1167,
+      "name": "Poisonous Cloud Lv. 1 Creates a poison cloud around an enemy, causing loss of 24 HP per second.",
+      "url": "/lu4/skill/1167-poisonous-cloud/1"
+    },
+    {
+      "key": "skill:1168",
+      "type": "skill",
+      "id": 1168,
+      "name": "Curse Poison Lv. 1 Poisons an enemy, causing loss of 11 HP every second.",
+      "url": "/lu4/skill/1168-curse-poison/1"
+    },
+    {
+      "key": "skill:1169",
+      "type": "skill",
+      "id": 1169,
+      "name": "Curse Fear Lv. 1 Frightens an enemy into fleeing.",
+      "url": "/lu4/skill/1169-curse-fear/1"
+    },
+    {
+      "key": "skill:1184",
+      "type": "skill",
+      "id": 1184,
+      "name": "Ice Bolt Lv. 1 Supplements the user's M. Atk. with 8 Power to temporarily freeze the surrounding air, inflicting Water damage on an enemy and decreasing their Speed by 20%.",
+      "url": "/lu4/skill/1184-ice-bolt/1"
+    },
+    {
+      "key": "skill:1222",
+      "type": "skill",
+      "id": 1222,
+      "name": "Curse Chaos Lv. 1 Decreases an enemy's Accuracy by 9.",
+      "url": "/lu4/skill/1222-curse-chaos/1"
+    },
+    {
+      "key": "skill:1338",
+      "type": "skill",
+      "id": 1338,
+      "name": "Arcane Chaos Lv. 1 Resistance to debuffs -30% Resistance to buff-canceling attacks -30% P. Skills and Rhythms MP Consumption +10% M. Skills MP Consumption +30% Burns 30 MP every sec.",
+      "url": "/lu4/skill/1338-arcane-chaos/1"
+    },
+    {
+      "key": "skill:1322",
+      "type": "skill",
+      "id": 1322,
+      "name": "Common Craft Lv. 1 Can read common recipe books.",
+      "url": "/lu4/skill/1322-common-craft/1"
+    },
+    {
+      "key": "skill:337",
+      "type": "skill",
+      "id": 337,
+      "name": "Arcane Power Lv. 1 M. Atk. +30% M. Skills MP Consumption +10%. Consumes 35 HP per second.",
+      "url": "/lu4/skill/337-arcane-power/1"
+    },
+    {
+      "key": "skill:24314",
+      "type": "skill",
+      "id": 24314,
+      "name": "Block Buff Lv. 1 Switchable skill. Your character cannot receive external buff effects.",
+      "url": "/lu4/skill/24314-block-buff/1"
+    },
+    {
+      "key": "skill:25235",
+      "type": "skill",
+      "id": 25235,
+      "name": "Magic Firework Lv. 1 Magic outside of Hogwarts!",
+      "url": "/lu4/skill/25235-magic-firework/1"
+    },
+    {
+      "key": "skill:118",
+      "type": "skill",
+      "id": 118,
+      "name": "Magician's Movement Lv. 1 Without Robe Armor: Atk. Spd. -20%.",
+      "url": "/lu4/skill/118-magicians-movement/1"
+    },
+    {
+      "key": "skill:163",
+      "type": "skill",
+      "id": 163,
+      "name": "Spellcraft Lv. 1 Without Robe Armor: Cast. Spd. -50%.",
+      "url": "/lu4/skill/163-spellcraft/1"
+    },
+    {
+      "key": "skill:214",
+      "type": "skill",
+      "id": 214,
+      "name": "Mana Recovery Lv. 1 With Robe Armor: MP Regeneration +20%.",
+      "url": "/lu4/skill/214-mana-recovery/1"
+    },
+    {
+      "key": "skill:234",
+      "type": "skill",
+      "id": 234,
+      "name": "Robe Mastery Lv. 1 With Robe Armor: P. Def. +2 M. Def. +1%.",
+      "url": "/lu4/skill/234-robe-mastery/1"
+    },
+    {
+      "key": "skill:239",
+      "type": "skill",
+      "id": 239,
+      "name": "Expertise D Lv. 1 Increases expertise in using D-grade equipment.",
+      "url": "/lu4/skill/239-expertise-d/1"
+    },
+    {
+      "key": "skill:244",
+      "type": "skill",
+      "id": 244,
+      "name": "Armor Mastery Lv. 1 P. Def. +6.7.",
+      "url": "/lu4/skill/244-armor-mastery/1"
+    },
+    {
+      "key": "skill:249",
+      "type": "skill",
+      "id": 249,
+      "name": "Weapon Mastery Lv. 1 Increases P. Atk. by 1.5 and M. Atk. by 1.9.",
+      "url": "/lu4/skill/249-weapon-mastery/1"
+    },
+    {
+      "key": "skill:1320",
+      "type": "skill",
+      "id": 1320,
+      "name": "Create Common Item Lv. 1 Creates level 1 common items.",
+      "url": "/lu4/skill/1320-create-common-item/1"
+    },
+    {
+      "key": "skill:24432",
+      "type": "skill",
+      "id": 24432,
+      "name": "Wizard's Ward Lv. 1 When your Shield Block is triggered, 33% chance: P. Crit. Def. +6%. Duration: 10 sec. Reuse time: 30 sec.",
+      "url": "/lu4/skill/24432-wizards-ward/1"
+    },
+    {
+      "key": "skill:146",
+      "type": "skill",
+      "id": 146,
+      "name": "Anti Magic Lv. 1 M. Def. +10.",
+      "url": "/lu4/skill/146-anti-magic/1"
+    },
+    {
+      "key": "skill:164",
+      "type": "skill",
+      "id": 164,
+      "name": "Quick Recycle Lv. 1 Decreases Reuse Delay for magic by 10%.",
+      "url": "/lu4/skill/164-quick-recycle/1"
+    },
+    {
+      "key": "skill:194",
+      "type": "skill",
+      "id": 194,
+      "name": "Lucky Lv. 1 At lv 10 or lower, the user will not experience loss of Exp, and after-death effect upon death.",
+      "url": "/lu4/skill/194-lucky/1"
+    },
+    {
+      "key": "skill:212",
+      "type": "skill",
+      "id": 212,
+      "name": "Fast HP Recovery Lv. 1 Increases HP Recovery Bonus by 1.1.",
+      "url": "/lu4/skill/212-fast-hp-recovery/1"
+    },
+    {
+      "key": "skill:213",
+      "type": "skill",
+      "id": 213,
+      "name": "Boost Mana Lv. 1 Increases Max MP by 30.",
+      "url": "/lu4/skill/213-boost-mana/1"
+    },
+    {
+      "key": "skill:228",
+      "type": "skill",
+      "id": 228,
+      "name": "Fast Spell Casting Lv. 1 Cast. Spd. +5%.",
+      "url": "/lu4/skill/228-fast-spell-casting/1"
+    },
+    {
+      "key": "skill:229",
+      "type": "skill",
+      "id": 229,
+      "name": "Fast Mana Recovery Lv. 1 Increases MP Recovery Bonus by 1.1.",
+      "url": "/lu4/skill/229-fast-mana-recovery/1"
+    },
+    {
+      "key": "skill:285",
+      "type": "skill",
+      "id": 285,
+      "name": "Higher Mana Gain Lv. 1 Additionally increases recovery +22 MP when used Recharge skill.",
+      "url": "/lu4/skill/285-higher-mana-gain/1"
+    },
+    {
+      "key": "skill:328",
+      "type": "skill",
+      "id": 328,
+      "name": "Wisdom Lv. 1 Resistance to Hold +10% Resistance to Sleep +10% Resistance to Mental attacks +10%.",
+      "url": "/lu4/skill/328-wisdom/1"
+    },
+    {
+      "key": "skill:329",
+      "type": "skill",
+      "id": 329,
+      "name": "Health Lv. 1 Resistance to Poison +10% Resistance to Bleeding +10%.",
+      "url": "/lu4/skill/329-health/1"
+    },
+    {
+      "key": "skill:964",
+      "type": "skill",
+      "id": 964,
+      "name": "Children of Shilen Lv. 1 Cast. Spd. +13 and MP Recovery Bonus by 2%.",
+      "url": "/lu4/skill/964-children-of-shilen/1"
+    },
+    {
+      "key": "skill:758",
+      "type": "skill",
+      "id": 758,
+      "name": "Fighter's Will Lv. 1 With any weapon: P. Skills Power +5% P. Crit. Rate +5%. With short-range weapon: P. Atk. +5% Atk. Spd. +5%.",
+      "url": "/lu4/skill/758-fighters-will/1"
+    },
+    {
+      "key": "skill:759",
+      "type": "skill",
+      "id": 759,
+      "name": "Archer's Will Lv. 1 With any weapon: Speed +2 Accuracy +3. Only with Bow: P. Atk. +5% Skills Range +5% Attack Range +50.",
+      "url": "/lu4/skill/759-archers-will/1"
+    },
+    {
+      "key": "skill:945",
+      "type": "skill",
+      "id": 945,
+      "name": "Magician's Will Lv. 1 M. Atk. +5% Cast. Spd. +5% M. Crit. Rate +5% All skills MP Consumption -5%.",
+      "url": "/lu4/skill/945-magicians-will/1"
+    },
+    {
+      "key": "skill:1297",
+      "type": "skill",
+      "id": 1297,
+      "name": "Clear Mind Lv. 1 MP Recovery Bonus is 2.6 while standing and increases to 3.2 when walking.",
+      "url": "/lu4/skill/1297-clear-mind/1"
+    },
+    {
+      "key": "skill:1405",
+      "type": "skill",
+      "id": 1405,
+      "name": "Divine Inspiration Lv. 1 Increases the number of buffs an individual can receive by 1 (+1: 20 => 21).",
+      "url": "/lu4/skill/1405-divine-inspiration/1"
+    },
+    {
+      "key": "skill:331",
+      "type": "skill",
+      "id": 331,
+      "name": "Spell Mastery Lv. 1 Depending on user's INT, the re-use time resets or the duration doubles.",
+      "url": "/lu4/skill/331-spell-mastery/1"
+    },
+    {
+      "key": "skill:433",
+      "type": "skill",
+      "id": 433,
+      "name": "Arcane Roar Lv. 1 M. Atk. +2% Resistance to Fire, Water, Wind and Earth +2%.",
+      "url": "/lu4/skill/433-arcane-roar/1"
+    },
+    {
+      "key": "skill:24326",
+      "type": "skill",
+      "id": 24326,
+      "name": "PvE Clarity Lv. 1 Single target's M. Skills MP Consumption in PvE only: -30%.",
+      "url": "/lu4/skill/24326-pve-clarity/1"
+    },
+    {
+      "key": "skill:28003",
+      "type": "skill",
+      "id": 28003,
+      "name": "Pestilence Lv. 1 When the skill 'Hurricane' is used, applies to enemy: Incoming Heal Power -5%. Effect stacks up to 5 times, reducing Incoming Heal Power by 5% per stack, up to -25% total. Duration of each stack: 5 sec.",
+      "url": "/lu4/skill/28003-pestilence/1"
+    }
+  ]
+}

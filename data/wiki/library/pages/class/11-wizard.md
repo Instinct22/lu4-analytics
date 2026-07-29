@@ -1,0 +1,160 @@
+# Lu4 Wiki: Class Wizard
+
+- Source: https://masterwork.wiki/lu4/class/11-wizard
+- Path: /lu4/class/11-wizard
+- Type: class
+- Key: class:11
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Classes (Lu4)
+Wizard
+Wizard
+Placeholder for class Wizard.
+Role:
+Novice
+Weapon:
+role-0
+Armor:
+role-0
+Solo Gaming
+0
+Party Farm
+0
+Party PvP
+0
+Support
+0
+Survivability
+0
+Control
+0
+By Levels
+All Skills
+20
+21
+22
+23
+25
+26
+27
+28
+30
+31
+32
+33
+35
+36
+37
+38
+Anti Magic
+Lv. 5
+x1.400
+Aura Burn
+Lv. 1
+Spellbook: Aura Burn
+NG
+x1.400
+Blaze
+Lv. 1
+Spellbook: Blaze
+NG
+x1.400
+Boost Mana
+Lv. 1
+x2.900
+Concentration
+Lv. 1
+Spellbook: Concentration
+NG
+x2.900
+Curse Poison
+Lv. 2
+x2.900
+Curse Weakness
+Lv. 2
+x2.900
+Energy Bolt
+Lv. 1
+Spellbook: Energy Bolt
+NG
+x2.900
+Quick Recycle
+Lv. 1
+x2.900
+Flame Strike
+Lv. 1
+Spellbook: Flame Strike
+NG
+x2.900
+Higher Mana Gain
+Lv. 1
+x1.400
+Ice Bolt
+Lv. 5
+x1.400
+Robe Mastery
+Lv. 1
+x1.400
+Servitor Heal
+Lv. 1
+Spellbook: Servitor Heal
+NG
+x960
+Summon Kat the Cat
+Lv. 1
+Spellbook: Summon Kat the Cat
+NG
+x2.900
+Summon Mew the Cat
+Lv. 1
+Spellbook: Summon Mew the Cat
+NG
+x2.900
+Magic Firework
+Lv. 1
+Spirit Ore
+NG
+(10 pcs.)
+x100
+Vampiric Touch
+Lv. 3
+x1.400
+Weapon Mastery
+Lv. 3
+x2.900
+MasterWork 2026
+All rights reserved

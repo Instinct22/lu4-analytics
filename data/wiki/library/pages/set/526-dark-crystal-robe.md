@@ -1,0 +1,88 @@
+# Lu4 Wiki: Set Dark Crystal Robe
+
+- Source: https://masterwork.wiki/lu4/set/526-dark-crystal-robe
+- Path: /lu4/set/526-dark-crystal-robe
+- Type: set
+- Key: set:526
+
+## Stats
+- Set Parts: Dark Crystal Helmet A Dark Crystal Gloves Robe A Dark Crystal Boots Robe A Dark Crystal Gloves Robe A Foundation Dark Crystal Robe A Foundation Dark Crystal Boots Robe A Foundation Dark Crystal Helmet Robe A Foundation
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Items (Lu4)
+Dark Crystal Robe
+Lu4
+Eternal
+MasterWork
+Dark Crystal Robe
+A
+WIT +2
+MEN -2
+Cast. Spd. +15%
+P. Def. +8%
+Speed +7
+Chance to interrupt magic casting -50%
+Resistance to Paralyze +50%
+Resistance to Turn to Stone (Medusa) +30%.
+Set Parts
+Dark Crystal Helmet
+A
+Dark Crystal Gloves
+Robe
+A
+Dark Crystal Boots
+Robe
+A
+Dark Crystal Gloves
+Robe
+A
+Foundation
+Dark Crystal Robe
+A
+Foundation
+Dark Crystal Boots
+Robe
+A
+Foundation
+Dark Crystal Helmet
+Robe
+A
+Foundation
+Enchant Bonuses
+Learn More
+MasterWork 2026
+All rights reserved

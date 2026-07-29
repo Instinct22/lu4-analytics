@@ -1,0 +1,132 @@
+# Lu4 Wiki: Class Elven Scout
+
+- Source: https://masterwork.wiki/lu4/class/22-elvenscout
+- Path: /lu4/class/22-elvenscout
+- Type: class
+- Key: class:22
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Classes (Lu4)
+Elven Scout
+Elven Scout
+Placeholder for class Elven Scout.
+Role:
+Novice
+Weapon:
+role-0
+Armor:
+role-0
+Solo Gaming
+0
+Party Farm
+0
+Party PvP
+0
+Support
+0
+Survivability
+0
+Control
+0
+By Levels
+All Skills
+20
+21
+22
+24
+25
+26
+28
+29
+30
+32
+33
+34
+35
+36
+37
+38
+Acrobatics
+Lv. 1
+x2.800
+Bow Mastery
+Lv. 1
+x950
+Charm
+Lv. 1
+Spellbook: Charm
+NG
+x950
+Dagger Mastery
+Lv. 1
+x2.800
+Elemental Heal
+Lv. 4
+x1.200
+Light Armor Mastery
+Lv. 1
+x1.400
+Long Shot
+Lv. 1
+x2.800
+Boost Breath
+Lv. 1
+x2.800
+Mortal Blow
+Lv. 10
+x1.200
+Power Shot
+Lv. 10
+x1.200
+Sprint
+Lv. 1
+Spellbook: Sprint
+NG
+x2.000
+Spirit Barrier
+Lv. 1
+Spellbook: Spirit Barrier
+NG
+x2.000
+Unlock
+Lv. 1
+x2.800
+Vicious Stance
+Lv. 1
+x2.800
+MasterWork 2026
+All rights reserved

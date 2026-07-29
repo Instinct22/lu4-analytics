@@ -1,0 +1,237 @@
+# Premium Account
+
+- Source: https://masterwork.wiki/lu4/posts/post/587-premium-account
+- Path: /lu4/posts/post/587-premium-account
+- Type: None
+- Key: page:lu4_posts_post_587_premium_account
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Articles
+For Newbies
+Premium Account
+Lu4
+Eternal
+MasterWork
+Premium Account
+Masterwork
+18.05.2026
+Базовая информация
+Премиум Аккаунт — специальный статус игрового аккаунта. Обладатели ПА получают дополнительные бонусы к опыту и
+дропу, доступ к магической поддержке и другие преимущества. Команда Lu4 постаралась создать сбалансированную
+систему, которая будет учитывать особенности игры в группе и окажется честной для всех игроков.
+Премиум Аккаунт — индивидуальный статус персонажа.
+Влияние ПА на игру в группе подробно описано в конце статьи.
+Стоимость Премиума
+Длительность
+Стоимость
+Премиум на 1 день
+Master Coin
+NG
+Foundation
+x 20
+Премиум на 3 дня
+Master Coin
+NG
+Foundation
+x 50
+Премиум на 7 дней
+Master Coin
+NG
+Foundation
+x 100
+Премиум на 14 дней
+Master Coin
+NG
+Foundation
+x 150
+Премиум на 30 дней
+Master Coin
+NG
+Foundation
+x 250
+Премиум на 100 дней (бонус:
+Shine Pixel Hat
+NG
+)
+Master Coin
+NG
+Foundation
+x 500
+Бонусы
+Параметр
+Премиум
+Примечание
+EXP
++50%
+Увеличение количества EXP.
+Персональный бонус, прибавка при убийстве монстров и РБ.
+SP
++50%
+Увеличение количества SP.
+Персональный бонус, прибавка при убийстве монстров и РБ.
+Drop
++50%
+Увеличение шанса выпадения.
+Делится на группу, прибавка при убийстве монстров и РБ.
+Spoil
++50%
+Увеличение шанса споила.
+Персональный бонус, ПА должен быть на самом Спойлере.
+Лимит Веса
++50%
+Увеличивает переносимый вес на 50%.
+Расширение Инвентаря
++50
+Увеличивает количество слотов в инвентаре.
+Расширение Склада
++50
+Увеличивает количество слотов личного склада.
+Расширение Торговли
++5
+Увеличивает количество слотов для торговой лавки.
+Расширение Книги Рецептов
++5
+Увеличивает количество слотов в книге рецептов.
+Глобальный чат
+Доступ к чату
+Глобальный чат золотого цвета (символ >) для игроков всех уровней.
+Сервисы
+Доступ к сервисам
+Бесплатная Магическая поддержка.
+50% скидка для базовых телепортов.
+Бесплатные телепорты между городами.
+Лимит окон
+Возможность запускать дополнительные окна
+Лимит на серверах Lu4 1 окно.
+ПА добавляет +1 доступное окно.
+Расчеты
+Расчет рейтов
+Чем отличается +50% и х50 или как посчитать бонус от Премиума?
+Правильно:
+Рейт x1 + бонус 50% = х1,5
+Неправильно:
+Рейт x1 умножить на 50 = х50
+Итого получаем: бонус = х1,5
+Бонусы от группы
+Логика работы Премиум Аккаунта в группе:
+EXP/ SP — персональный бонус и не зависит от наличия ПА у других персонажей в группе
+Spoil — для расчета используются только бонусы спойлера, бонусы всех других персонажей
+не влияют на спойл
+Drop — итоговый бонус зависит от количества урона, нанесенного по монстру каждым персонажем в группе
+Расчет урона
+Бонусы Drop зависят от наличия ПА каждого персонажа,
+который наносит урон по монстру.
+В расчетах используется процент нанесенного урона от общего количества HP монстра.
+Формула: (R * X1 * Y1) + (R * X2 * Y2) + (R * X3 * Y3) ... = Z
+Z = Итоговый бонус в группе
+R = Базовый рейт сервера, по умолчанию = 1
+X = Процент нанесенного урона. 100% = 1 / 50% = 0.5 / 30% = 0.3
+Y = Рейт персонажа, включая бонусы ПА
+1, 2, 3...9 = Персонаж группы
+Примеры расчета на основе бонусов дропа:
+Пример 1:
+Персонаж 1 с ПА нанес монстру 50% урона
+Персонаж 2 без ПА нанес монстру 50% урона
+Другие персонажи не наносили урона по монстру
+Z = (1 * 0.5 * 1.5) + (1 * 0.5 * 1) + (1 * 0 * 1) = 0.75 + 0.5 + 0 = 1.25
+= 125%
+Пример 2:
+Персонаж 1 с ПА нанес монстру 90% урона
+Персонаж 2 без ПА нанес монстру 10% урона
+Другие персонажи не наносили урона по монстру
+Z = (1 * 0.9 * 1.5) + (1 * 0.1 * 1) + (1 * 0 * 1) = 1.35 + 0.1 + 0 = 1.45
+= 145%
+Пример 3:
+Персонаж 1 с ПА нанес монстру 30% урона
+Персонаж 2 без ПА нанес монстру 70% урона
+Другие персонажи не наносили урона по монстру
+Z = (1 * 0.3 * 1.5) + (1 * 0.7 * 1) + (1 * 0 * 1) = 0.45 + 0.7 + 0 = 1.15
+= 115%
+Обрати внимание!
+Персонажи, которые не наносили урона по монстру, не влияют на бонусы в группе.
+ПА влияют на бонусы от Рейдовых Боссов в открытом мире, но не влияют на Эпик Боссов.
+Can be interesting
+How to Start Playing
+Lu4 Game shop
+Donate, Discounts and Bonuses
+Command .lock — protecting your character
+Gaining Experience and Penalties
+Categories
+Masterwork
+MasterWork Club
+Premium Account VIP
+MasterWork Game shop
+Donate, Discounts and Bonuses
+Ingame Market MasterWork
+Autoloot Agathions MasterWork
+Slots expansion and weight limit
+Useful additions to the interface and game
+Command .lock — protecting your character
+How to Start Playing
+Правила E-Global
+For Newbies
+Pona: Jewelry Upgrade
+Ingame calendar
+Achievements
+Clan Academy
+MasterWork Club
+Premium Account VIP
+Vitality System
+Autoloot Agathions MasterWork
+Slots expansion and weight limit
+Useful additions to the interface and game
+Pets: Wolf and Fenrir
+Quests for 1, 2 and 3 classes
+Beginner's path 1-40 level
+Library: Books of Exp
+Pets: Kookaburra, Cougar, Buffalo
+Training Olympiad
+Life Stones on Masterwork
+Cyclic Macros and Assist Manager
+Missions
+Starter quest Eternal
+PvP enhance
+Useful Diseases of Hot Springs
+Attribute System
+No More Soup For You
+Tattoo Guide
+Exp Boost Guide
+How to Start Playing
+Lu4: Quests in Starter Zones (1-19)
+Правила E-Global
+MasterWork 2026
+All rights reserved

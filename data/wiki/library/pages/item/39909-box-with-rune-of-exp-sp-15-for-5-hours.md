@@ -1,0 +1,79 @@
+# Lu4 Wiki: Item Box with Rune of EXP &amp; SP +15% for 5 hours
+
+- Source: https://masterwork.wiki/lu4/item/39909-box-with-rune-of-exp-sp-15-for-5-hours
+- Path: /lu4/item/39909-box-with-rune-of-exp-sp-15-for-5-hours
+- Type: item
+- Key: item:39909
+
+## Stats
+- Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Items (Lu4)
+Box with Rune of EXP &amp; SP +15% for 5 hours
+Lu4
+Box with Rune of EXP & SP +15% for 5 hours
+Personal item
+NG
+Other
+When opened you will receive a personal Rune for 5 hours:
+EXP +15%
+SP +15%.
+The remaining period of Rune decreases even during log-off state.
+Weight
+0
+Restrictions
+Private Warehouse
+Clan Warehouse
+Transfer within Game Account
+Trade
+Drop
+Private Store
+Enchant
+Attribute
+Olympiad Use
+Contains
+Item
+Amount
+Get Type
+Rune of EXP & SP +15%
+5 hours
+NG
+1
+Guaranteed
+MasterWork 2026
+All rights reserved

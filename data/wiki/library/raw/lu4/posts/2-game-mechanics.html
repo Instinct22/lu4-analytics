@@ -1,0 +1,679 @@
+<!-- saved-from: https://masterwork.wiki/lu4/posts/2-game-mechanics
+     fetched-at: 2026-07-25T01:40:07 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="alternate" hreflang="en" href="https://masterwork.wiki/en/lu4/posts/2-game-mechanics">
+		<link rel="alternate" hreflang="ru" href="https://masterwork.wiki/ru/lu4/posts/2-game-mechanics">
+		<link rel="alternate" hreflang="uk" href="https://masterwork.wiki/uk/lu4/posts/2-game-mechanics">
+			<title>Lu4 Wiki: Posts</title>
+	<meta name="data-meta-route" content="wiki:posts/index/lu4/2">
+<meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="_UFdDV0hk_9RfCg-BpUhezY94RXfkwQTWZ375pDHiqSaNDFLLFjBhjVRS1023RECYHKncJ7QVEse5ZKBxqXS5Q==">
+
+<link href="https://masterwork.wiki/lu4/posts/2-game-mechanics" rel="canonical">
+<link href="/assets/a1a4f193/dist/slick/slick.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/dist/slick/slick-theme.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/dist/perfect-scrollbar/css/perfect-scrollbar.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/core.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/margins.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/header.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/footer.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/main.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/articles.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/other.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/item.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/class.css?v=1783723552" rel="stylesheet">
+<script>window._searchItemData = {"1":{"1":"Light","2":"Heavy","3":"Robe","4":"Sigil"},"2":{"2":"Earring","16":"Ring","8":"Necklace"},"5":{"1":"Scroll","2":"Arrow / Bolt","3":"Potion","4":"Spellbook","5":"Recipe","6":"Material","7":"Pet Collar","9":"Dye","23":"Coupon","16":"Lure","17":"Crop","20":"Enchant Scroll","24":"Elixir","25":"Attribute","27":"Enchant Stone","29":"Crystal Enchant Scroll","33":"Rune"},"0":{"1":"Sword","2":"Blunt","3":"Dagger","6":"Bow","4":"Polearm","7":"Etc.","9":"Dual Fist","8":"Dual Sword","10":"Fishing Rod","24":"Dual Blunt","15":"Dual Dagger","13":"Ancient Sword","11":"Rapier","12":"Crossbow","14":"Flag / Ownthing"}};
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-K2NCJQW5');</script></head>
+<body>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2NCJQW5" height="0" width="0" style="display:none;visibility:hidden"></iframe>    
+    <div class="cube_bg">
+        
+<header id="header">
+    <div class="header_wrapper">
+        <div class="header_left">
+            <a class="header_logo" href="/lu4/main"></a>
+            <div class="header_server_menu">
+                <a href="#" class="dropdown-toggle" id="dropdown-server">
+                    Lu4                </a>
+                <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="/lu4/posts/2-game-mechanics">Lu4</a>                                        <a class="dropdown-item" href="/eternal/posts/2-game-mechanics">Eternal</a>                                        <a class="dropdown-item" href="/masterwork/posts/2-game-mechanics">MasterWork</a>                                    </div>
+            </div>
+        </div>
+        <div class="header_center">
+            <a class="header_center_link" href="/lu4/classes">Classes</a>            <a class="header_center_link" href="/lu4/search?Search%5Bsearch_type%5D=2">Skills</a>            <a class="header_center_link" href="/lu4/search?Search%5Bsearch_type%5D=0">Items</a>            <a class="header_center_link" href="/lu4/search?Search%5Bsearch_type%5D=1">NPC</a>            <a class="header_center_link" href="/lu4/search?Search%5Bsearch_type%5D=4">Quests</a>            <a class="header_center_link" href="/lu4/posts">Articles</a>            <div class="header_center_search">
+                <div class="search_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M19 19L15.5001 15.5M18 9.5C18 14.1944 14.1944 18 9.5 18C4.80558 18 1 14.1944 1 9.5C1 4.80558 4.80558 1 9.5 1C14.1944 1 18 4.80558 18 9.5Z" stroke="#AEAEAE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+                <div class="search_field_input modal_open" data-url="/wiki2025/search/bar?project=lu4">
+                    Search                </div>
+                <div class="search_field_button" type="submit">Ctrl+K</div>
+            </div>
+        </div>
+        <div class="header_right">
+            <div class="header_language_menu">
+                <a href="#" id="dropdown-language" data-toggle="dropdown-toggle">
+                    English                </a>
+                <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"en"}'>English</a>                                        <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"ru"}'>Русский</a>                                        <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"uk"}'>Українська</a>                                    </div>
+            </div>
+            <a class="header_button" href="https://mw2.global/profile/signup" target="_blank">
+                Start to Play            </a>
+        </div>
+        <div class="search_lupa modal_open" data-url="/wiki2025/search/bar?project=lu4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M19 19L15.5001 15.5M18 9.5C18 14.1944 14.1944 18 9.5 18C4.80558 18 1 14.1944 1 9.5C1 4.80558 4.80558 1 9.5 1C14.1944 1 18 4.80558 18 9.5Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            </svg>
+        </div>
+        <input id="burger" type="checkbox">
+        <label for="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <div class="burger_menu">
+                <div class="burger_first_part">
+                    <a class="burgernav" href="/lu4/classes">Classes</a>                    <a class="burgernav" href="/lu4/search?Search%5Bsearch_type%5D=2">Skills</a>                    <a class="burgernav" href="/lu4/search?Search%5Bsearch_type%5D=0">Items</a>                    <a class="burgernav" href="/lu4/search?Search%5Bsearch_type%5D=1">NPC</a>                    <a class="burgernav" href="/lu4/search?Search%5Bsearch_type%5D=4">Quests</a>                    <a class="burgernav" href="/lu4/posts">Articles</a>                </div>
+                <div class="burger_second_part">
+                    <div class="burger_trio">
+                        <div class="header_language_menu">
+                            <a href="#" id="dropdown-language" data-toggle="dropdown-toggle">
+                                English                            </a>
+                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"en"}'>English</a>                                                                <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"ru"}'>Русский</a>                                                                <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"uk"}'>Українська</a>                                                            </div>
+                        </div>
+                        <div class="header_center_search">
+                            <div class="search_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M19 19L15.5001 15.5M18 9.5C18 14.1944 14.1944 18 9.5 18C4.80558 18 1 14.1944 1 9.5C1 4.80558 4.80558 1 9.5 1C14.1944 1 18 4.80558 18 9.5Z" stroke="#AEAEAE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                </svg>
+                            </div>
+                            <div class="search_field_input modal_open" data-url="/wiki2025/search/bar?project=lu4">
+                                Search                            </div>
+                        </div>
+                        <div class="header_server_menu">
+                            <a href="#" class="dropdown-toggle" id="dropdown-server">
+                                Lu4                            </a>
+                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="/lu4/posts/2-game-mechanics">Lu4</a>                                                                <a class="dropdown-item" href="/eternal/posts/2-game-mechanics">Eternal</a>                                                                <a class="dropdown-item" href="/masterwork/posts/2-game-mechanics">MasterWork</a>                                                            </div>
+                        </div>
+                    </div>
+                    <a class="header_button" href="https://mw2.global/profile/signup" target="_blank">
+                        Start to Play                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>        <div class="alert-container">
+                    </div>
+        <section id="other">
+                            <div class="breadcrumbs"><img src="/assets/a1a4f193/assets/breadcrumbs_home.svg"><span class='breadcrumbs_step'><a href="/wiki2025/main/index">Main</a></span>
+<span class='breadcrumbs_step'><a href="/lu4/posts">Articles</a></span>
+<span class='breadcrumbs_step'>Game mechanics</span>
+</div>                        
+
+<form id="search-form-1784932808" class="search_block" action="/lu4/search/result" method="GET" data-id="1784932808">    <div class="search_wrapper">
+        <div class="main_search">
+            <div class="form-group field-search-query">
+
+<input type="search" id="search-query" class="main_search_input" name="Search[query]" placeholder="Arcana Mace" autofocus>
+
+<div class="help-block"></div>
+</div>        </div>
+        <div class="main_search_bottom">
+            <div class="main_search_filters">
+                <div class="main_search_category search_item">
+                    <div class="search_body">All Categories</div>
+                    <div class="close_but"></div>
+                    <div class="form-group field-search-search_type">
+
+<input type="hidden" name="Search[search_type]" value="0"><div id="search-search_type" class="main_search_drop ps-element" role="radiogroup"><label for="search_type-0-1784932808">Item<input type="radio" id="search_type-0-1784932808" name="Search[search_type]" value="0"></label>
+<label for="search_type-1-1784932808">NPC<input type="radio" id="search_type-1-1784932808" name="Search[search_type]" value="1"></label>
+<label for="search_type-2-1784932808">Skill<input type="radio" id="search_type-2-1784932808" name="Search[search_type]" value="2"></label>
+<label for="search_type-3-1784932808">Recipe<input type="radio" id="search_type-3-1784932808" name="Search[search_type]" value="3"></label>
+<label for="search_type-4-1784932808">Quest<input type="radio" id="search_type-4-1784932808" name="Search[search_type]" value="4"></label>
+<label for="search_type-5-1784932808">Articles<input type="radio" id="search_type-5-1784932808" name="Search[search_type]" value="5" checked></label></div>
+
+<div class="help-block"></div>
+</div>                </div>
+                <div class="main_search_rang search_item">
+                    <div class="search_body">Grade</div>
+                    <div class="close_but"></div>
+                    <div class="form-group field-search-item_crystal_type">
+
+<div id="search-item_crystal_type" class="main_search_drop ps-element" role="radiogroup"><label for="item_crystal_type--1-1784932808">Any<input type="radio" id="item_crystal_type--1-1784932808" name="Search[item_crystal_type]" value="-1"></label>
+<label for="item_crystal_type-0-1784932808">None<input type="radio" id="item_crystal_type-0-1784932808" name="Search[item_crystal_type]" value="0"></label>
+<label for="item_crystal_type-1-1784932808">D<input type="radio" id="item_crystal_type-1-1784932808" name="Search[item_crystal_type]" value="1"></label>
+<label for="item_crystal_type-2-1784932808">C<input type="radio" id="item_crystal_type-2-1784932808" name="Search[item_crystal_type]" value="2"></label>
+<label for="item_crystal_type-3-1784932808">B<input type="radio" id="item_crystal_type-3-1784932808" name="Search[item_crystal_type]" value="3"></label>
+<label for="item_crystal_type-4-1784932808">A<input type="radio" id="item_crystal_type-4-1784932808" name="Search[item_crystal_type]" value="4"></label>
+<label for="item_crystal_type-5-1784932808">S<input type="radio" id="item_crystal_type-5-1784932808" name="Search[item_crystal_type]" value="5"></label>
+<label for="item_crystal_type-6-1784932808">S80<input type="radio" id="item_crystal_type-6-1784932808" name="Search[item_crystal_type]" value="6"></label>
+<label for="item_crystal_type-7-1784932808">S84<input type="radio" id="item_crystal_type-7-1784932808" name="Search[item_crystal_type]" value="7"></label></div>
+
+<div class="help-block"></div>
+</div>                </div>
+                <div class="main_search_type search_item">
+                    <div class="search_body">Type</div>
+                    <div class="close_but"></div>
+                    <div class="form-group field-search-item_type">
+
+<div id="search-item_type" class="main_search_drop ps-element" role="radiogroup"><label for="item_type--1-1784932808">Any<input type="radio" id="item_type--1-1784932808" name="Search[item_type]" value="-1"></label>
+<label for="item_type-0-1784932808">Weapon<input type="radio" id="item_type-0-1784932808" name="Search[item_type]" value="0"></label>
+<label for="item_type-1-1784932808">Armor<input type="radio" id="item_type-1-1784932808" name="Search[item_type]" value="1"></label>
+<label for="item_type-2-1784932808">Accessory<input type="radio" id="item_type-2-1784932808" name="Search[item_type]" value="2"></label>
+<label for="item_type-3-1784932808">Quest Item<input type="radio" id="item_type-3-1784932808" name="Search[item_type]" value="3"></label>
+<label for="item_type-4-1784932808">Money<input type="radio" id="item_type-4-1784932808" name="Search[item_type]" value="4"></label>
+<label for="item_type-5-1784932808">Other<input type="radio" id="item_type-5-1784932808" name="Search[item_type]" value="5"></label></div>
+
+<div class="help-block"></div>
+</div>                </div>
+                <div class="main_search_subtype search_item">
+                    <div class="search_body" data-initial="Subtype">Subtype</div>
+                    <div class="close_but"></div>
+                    <div class="form-group field-search-item_subtype">
+
+<div id="search-item_subtype" class="main_search_drop ps-element" role="radiogroup"></div>
+
+<div class="help-block"></div>
+</div>                </div>
+                <div class="main_search_npc search_item">
+                    <div class="search_body">Type</div>
+                    <div class="close_but"></div>
+                    <div class="form-group field-search-npc_type">
+
+<div id="search-npc_type" class="main_search_drop ps-element" role="radiogroup"><label for="npc_type--1-1784932808">Any<input type="radio" id="npc_type--1-1784932808" name="Search[npc_type]" value="-1"></label>
+<label for="npc_type-0-1784932808">Monster<input type="radio" id="npc_type-0-1784932808" name="Search[npc_type]" value="0"></label>
+<label for="npc_type-1-1784932808">Boss<input type="radio" id="npc_type-1-1784932808" name="Search[npc_type]" value="1"></label>
+<label for="npc_type-2-1784932808">Citizen<input type="radio" id="npc_type-2-1784932808" name="Search[npc_type]" value="2"></label></div>
+
+<div class="help-block"></div>
+</div>                </div>
+                <div class="main_search_race search_item">
+                    <div class="search_body">Race</div>
+                    <div class="close_but"></div>
+                    <div class="form-group field-search-npc_race">
+
+<div id="search-npc_race" class="main_search_drop ps-element" role="radiogroup"><label for="npc_race--1-1784932808">Any<input type="radio" id="npc_race--1-1784932808" name="Search[npc_race]" value="-1"></label>
+<label for="npc_race-0-1784932808">Human<input type="radio" id="npc_race-0-1784932808" name="Search[npc_race]" value="0"></label>
+<label for="npc_race-1-1784932808">Elf<input type="radio" id="npc_race-1-1784932808" name="Search[npc_race]" value="1"></label>
+<label for="npc_race-2-1784932808">Dark Elf<input type="radio" id="npc_race-2-1784932808" name="Search[npc_race]" value="2"></label>
+<label for="npc_race-3-1784932808">Orc<input type="radio" id="npc_race-3-1784932808" name="Search[npc_race]" value="3"></label>
+<label for="npc_race-4-1784932808">Dwarf<input type="radio" id="npc_race-4-1784932808" name="Search[npc_race]" value="4"></label>
+<label for="npc_race-5-1784932808">Kamael<input type="radio" id="npc_race-5-1784932808" name="Search[npc_race]" value="5"></label>
+<label for="npc_race-6-1784932808">Humanoid<input type="radio" id="npc_race-6-1784932808" name="Search[npc_race]" value="6"></label>
+<label for="npc_race-7-1784932808">Animal<input type="radio" id="npc_race-7-1784932808" name="Search[npc_race]" value="7"></label>
+<label for="npc_race-9-1784932808">Creature<input type="radio" id="npc_race-9-1784932808" name="Search[npc_race]" value="9"></label>
+<label for="npc_race-10-1784932808">Undead<input type="radio" id="npc_race-10-1784932808" name="Search[npc_race]" value="10"></label>
+<label for="npc_race-11-1784932808">Elemental<input type="radio" id="npc_race-11-1784932808" name="Search[npc_race]" value="11"></label>
+<label for="npc_race-13-1784932808">Dragon<input type="radio" id="npc_race-13-1784932808" name="Search[npc_race]" value="13"></label>
+<label for="npc_race-14-1784932808">Angel<input type="radio" id="npc_race-14-1784932808" name="Search[npc_race]" value="14"></label>
+<label for="npc_race-15-1784932808">Construct<input type="radio" id="npc_race-15-1784932808" name="Search[npc_race]" value="15"></label>
+<label for="npc_race-16-1784932808">Beast<input type="radio" id="npc_race-16-1784932808" name="Search[npc_race]" value="16"></label>
+<label for="npc_race-17-1784932808">Plant<input type="radio" id="npc_race-17-1784932808" name="Search[npc_race]" value="17"></label>
+<label for="npc_race-18-1784932808">Divine<input type="radio" id="npc_race-18-1784932808" name="Search[npc_race]" value="18"></label>
+<label for="npc_race-19-1784932808">Demonic<input type="radio" id="npc_race-19-1784932808" name="Search[npc_race]" value="19"></label>
+<label for="npc_race-20-1784932808">Giant<input type="radio" id="npc_race-20-1784932808" name="Search[npc_race]" value="20"></label>
+<label for="npc_race-21-1784932808">Bug<input type="radio" id="npc_race-21-1784932808" name="Search[npc_race]" value="21"></label>
+<label for="npc_race-22-1784932808">Fairy<input type="radio" id="npc_race-22-1784932808" name="Search[npc_race]" value="22"></label>
+<label for="npc_race-23-1784932808">Siege Weapon<input type="radio" id="npc_race-23-1784932808" name="Search[npc_race]" value="23"></label>
+<label for="npc_race-24-1784932808">Mercenary<input type="radio" id="npc_race-24-1784932808" name="Search[npc_race]" value="24"></label>
+<label for="npc_race-25-1784932808">Castle Guard<input type="radio" id="npc_race-25-1784932808" name="Search[npc_race]" value="25"></label>
+<label for="npc_race-27-1784932808">Etc.<input type="radio" id="npc_race-27-1784932808" name="Search[npc_race]" value="27"></label></div>
+
+<div class="help-block"></div>
+</div>                </div>
+                <div class="main_search_lvl search_item">
+                    <div class="search_body">
+                        <span>Level</span>
+                        <div class="sub__search-field">
+                            <div class="form-group field-search-npc_level_min">
+
+<input type="number" id="search-npc_level_min" class="form-control" name="Search[npc_level_min]" placeholder="1">
+
+<div class="help-block"></div>
+</div>                        </div>
+                        <span class="sub__search-divider"></span>
+                        <div class="sub__search-field">
+                            <div class="form-group field-search-npc_level_max">
+
+<input type="number" id="search-npc_level_max" class="form-control" name="Search[npc_level_max]" placeholder="99">
+
+<div class="help-block"></div>
+</div>                        </div>
+                    </div>
+                </div>
+                <div class="main_search_npc_has_drop search_item">
+                    <div class="search_body">
+                        <div class="form-group field-search-npc_has_drop">
+
+<label><input type="checkbox" id="search-npc_has_drop" name="Search[npc_has_drop]" value="1"> Has Drop/Spoil</label>
+
+<div class="help-block"></div>
+</div>                    </div>
+                </div>
+                <div class="main_search_npc_has_spawn search_item">
+                    <div class="search_body">
+                        <div class="form-group field-search-npc_has_spawn">
+
+<label><input type="checkbox" id="search-npc_has_spawn" name="Search[npc_has_spawn]" value="1"> Has a spawn point</label>
+
+<div class="help-block"></div>
+</div>                    </div>
+                </div>
+                <div class="main_search_recipe_type search_item">
+                    <div class="search_body">Type</div>
+                    <div class="close_but"></div>
+                    <div class="form-group field-search-recipe_type">
+
+<div id="search-recipe_type" class="main_search_drop ps-element" role="radiogroup"><label for="recipe_type--1-1784932808">Any<input type="radio" id="recipe_type--1-1784932808" name="Search[recipe_type]" value="-1"></label>
+<label for="recipe_type-0-1784932808">Weapon<input type="radio" id="recipe_type-0-1784932808" name="Search[recipe_type]" value="0"></label>
+<label for="recipe_type-1-1784932808">Armor<input type="radio" id="recipe_type-1-1784932808" name="Search[recipe_type]" value="1"></label>
+<label for="recipe_type-2-1784932808">Accessory<input type="radio" id="recipe_type-2-1784932808" name="Search[recipe_type]" value="2"></label>
+<label for="recipe_type-3-1784932808">Etc<input type="radio" id="recipe_type-3-1784932808" name="Search[recipe_type]" value="3"></label></div>
+
+<div class="help-block"></div>
+</div>                </div>
+                <div class="main_search_skill_type search_item">
+                    <div class="search_body">Skill Type</div>
+                    <div class="close_but"></div>
+                    <div class="form-group field-search-skill_type">
+
+<div id="search-skill_type" class="main_search_drop ps-element" role="radiogroup"><label for="skill_type--1-1784932808">Any<input type="radio" id="skill_type--1-1784932808" name="Search[skill_type]" value="-1"></label>
+<label for="skill_type-0-1784932808">Active<input type="radio" id="skill_type-0-1784932808" name="Search[skill_type]" value="0"></label>
+<label for="skill_type-1-1784932808">Passive<input type="radio" id="skill_type-1-1784932808" name="Search[skill_type]" value="1"></label></div>
+
+<div class="help-block"></div>
+</div>                </div>
+                <div class="main_search_skill_trait search_item">
+                    <div class="search_body">Skill Trait</div>
+                    <div class="close_but"></div>
+                    <div class="form-group field-search-skill_trait">
+
+<div id="search-skill_trait" class="main_search_drop ps-element" role="radiogroup"><label for="skill_trait-1-1784932808">Sword<input type="radio" id="skill_trait-1-1784932808" name="Search[skill_trait]" value="1"></label>
+<label for="skill_trait-2-1784932808">Blunt<input type="radio" id="skill_trait-2-1784932808" name="Search[skill_trait]" value="2"></label>
+<label for="skill_trait-3-1784932808">Dagger<input type="radio" id="skill_trait-3-1784932808" name="Search[skill_trait]" value="3"></label>
+<label for="skill_trait-4-1784932808">Polearm<input type="radio" id="skill_trait-4-1784932808" name="Search[skill_trait]" value="4"></label>
+<label for="skill_trait-5-1784932808">Fist<input type="radio" id="skill_trait-5-1784932808" name="Search[skill_trait]" value="5"></label>
+<label for="skill_trait-6-1784932808">Bow<input type="radio" id="skill_trait-6-1784932808" name="Search[skill_trait]" value="6"></label>
+<label for="skill_trait-7-1784932808">Etc<input type="radio" id="skill_trait-7-1784932808" name="Search[skill_trait]" value="7"></label>
+<label for="skill_trait-8-1784932808">ManaBurn<input type="radio" id="skill_trait-8-1784932808" name="Search[skill_trait]" value="8"></label>
+<label for="skill_trait-9-1784932808">Poison<input type="radio" id="skill_trait-9-1784932808" name="Search[skill_trait]" value="9"></label>
+<label for="skill_trait-10-1784932808">Hold<input type="radio" id="skill_trait-10-1784932808" name="Search[skill_trait]" value="10"></label>
+<label for="skill_trait-11-1784932808">Bleed<input type="radio" id="skill_trait-11-1784932808" name="Search[skill_trait]" value="11"></label>
+<label for="skill_trait-12-1784932808">Sleep<input type="radio" id="skill_trait-12-1784932808" name="Search[skill_trait]" value="12"></label>
+<label for="skill_trait-13-1784932808">Shock<input type="radio" id="skill_trait-13-1784932808" name="Search[skill_trait]" value="13"></label>
+<label for="skill_trait-14-1784932808">Derangement<input type="radio" id="skill_trait-14-1784932808" name="Search[skill_trait]" value="14"></label>
+<label for="skill_trait-15-1784932808">BugWeakness<input type="radio" id="skill_trait-15-1784932808" name="Search[skill_trait]" value="15"></label>
+<label for="skill_trait-16-1784932808">AnimalWeakness<input type="radio" id="skill_trait-16-1784932808" name="Search[skill_trait]" value="16"></label>
+<label for="skill_trait-17-1784932808">PlantWeakness<input type="radio" id="skill_trait-17-1784932808" name="Search[skill_trait]" value="17"></label>
+<label for="skill_trait-18-1784932808">BeastWeakness<input type="radio" id="skill_trait-18-1784932808" name="Search[skill_trait]" value="18"></label>
+<label for="skill_trait-19-1784932808">DragonWeakness<input type="radio" id="skill_trait-19-1784932808" name="Search[skill_trait]" value="19"></label>
+<label for="skill_trait-20-1784932808">Paralyze<input type="radio" id="skill_trait-20-1784932808" name="Search[skill_trait]" value="20"></label>
+<label for="skill_trait-21-1784932808">Dual<input type="radio" id="skill_trait-21-1784932808" name="Search[skill_trait]" value="21"></label>
+<label for="skill_trait-22-1784932808">Dualfist<input type="radio" id="skill_trait-22-1784932808" name="Search[skill_trait]" value="22"></label>
+<label for="skill_trait-23-1784932808">Boss<input type="radio" id="skill_trait-23-1784932808" name="Search[skill_trait]" value="23"></label>
+<label for="skill_trait-24-1784932808">GiantWeakness<input type="radio" id="skill_trait-24-1784932808" name="Search[skill_trait]" value="24"></label>
+<label for="skill_trait-25-1784932808">ConstructWeakness<input type="radio" id="skill_trait-25-1784932808" name="Search[skill_trait]" value="25"></label>
+<label for="skill_trait-26-1784932808">Death<input type="radio" id="skill_trait-26-1784932808" name="Search[skill_trait]" value="26"></label>
+<label for="skill_trait-27-1784932808">Valakas<input type="radio" id="skill_trait-27-1784932808" name="Search[skill_trait]" value="27"></label>
+<label for="skill_trait-28-1784932808">Anesthesia<input type="radio" id="skill_trait-28-1784932808" name="Search[skill_trait]" value="28"></label>
+<label for="skill_trait-29-1784932808">CriticalPoison<input type="radio" id="skill_trait-29-1784932808" name="Search[skill_trait]" value="29"></label>
+<label for="skill_trait-30-1784932808">RootPhysically<input type="radio" id="skill_trait-30-1784932808" name="Search[skill_trait]" value="30"></label>
+<label for="skill_trait-31-1784932808">RootMagically<input type="radio" id="skill_trait-31-1784932808" name="Search[skill_trait]" value="31"></label>
+<label for="skill_trait-32-1784932808">Rapier<input type="radio" id="skill_trait-32-1784932808" name="Search[skill_trait]" value="32"></label>
+<label for="skill_trait-33-1784932808">Crossbow<input type="radio" id="skill_trait-33-1784932808" name="Search[skill_trait]" value="33"></label>
+<label for="skill_trait-34-1784932808">Ancientsword<input type="radio" id="skill_trait-34-1784932808" name="Search[skill_trait]" value="34"></label>
+<label for="skill_trait-35-1784932808">TurnStone<input type="radio" id="skill_trait-35-1784932808" name="Search[skill_trait]" value="35"></label>
+<label for="skill_trait-36-1784932808">Gust<input type="radio" id="skill_trait-36-1784932808" name="Search[skill_trait]" value="36"></label>
+<label for="skill_trait-37-1784932808">PhysicalBlockade<input type="radio" id="skill_trait-37-1784932808" name="Search[skill_trait]" value="37"></label>
+<label for="skill_trait-38-1784932808">Target<input type="radio" id="skill_trait-38-1784932808" name="Search[skill_trait]" value="38"></label>
+<label for="skill_trait-39-1784932808">PhysicalWeakness<input type="radio" id="skill_trait-39-1784932808" name="Search[skill_trait]" value="39"></label>
+<label for="skill_trait-40-1784932808">MagicalWeakness<input type="radio" id="skill_trait-40-1784932808" name="Search[skill_trait]" value="40"></label>
+<label for="skill_trait-41-1784932808">DualDagger<input type="radio" id="skill_trait-41-1784932808" name="Search[skill_trait]" value="41"></label>
+<label for="skill_trait-42-1784932808">None<input type="radio" id="skill_trait-42-1784932808" name="Search[skill_trait]" value="42"></label>
+<label for="skill_trait-43-1784932808">Fire<input type="radio" id="skill_trait-43-1784932808" name="Search[skill_trait]" value="43"></label>
+<label for="skill_trait-44-1784932808">Water<input type="radio" id="skill_trait-44-1784932808" name="Search[skill_trait]" value="44"></label>
+<label for="skill_trait-45-1784932808">Wind<input type="radio" id="skill_trait-45-1784932808" name="Search[skill_trait]" value="45"></label>
+<label for="skill_trait-46-1784932808">Earth<input type="radio" id="skill_trait-46-1784932808" name="Search[skill_trait]" value="46"></label>
+<label for="skill_trait-47-1784932808">Holy<input type="radio" id="skill_trait-47-1784932808" name="Search[skill_trait]" value="47"></label>
+<label for="skill_trait-48-1784932808">Unholy<input type="radio" id="skill_trait-48-1784932808" name="Search[skill_trait]" value="48"></label>
+<label for="skill_trait-49-1784932808">FireWeapon<input type="radio" id="skill_trait-49-1784932808" name="Search[skill_trait]" value="49"></label>
+<label for="skill_trait-50-1784932808">WaterWeapon<input type="radio" id="skill_trait-50-1784932808" name="Search[skill_trait]" value="50"></label>
+<label for="skill_trait-51-1784932808">WindWeapon<input type="radio" id="skill_trait-51-1784932808" name="Search[skill_trait]" value="51"></label>
+<label for="skill_trait-52-1784932808">EarthWeapon<input type="radio" id="skill_trait-52-1784932808" name="Search[skill_trait]" value="52"></label>
+<label for="skill_trait-53-1784932808">HolyWeapon<input type="radio" id="skill_trait-53-1784932808" name="Search[skill_trait]" value="53"></label>
+<label for="skill_trait-54-1784932808">UnholyWeapon<input type="radio" id="skill_trait-54-1784932808" name="Search[skill_trait]" value="54"></label>
+<label for="skill_trait-55-1784932808">DemonicWeakness<input type="radio" id="skill_trait-55-1784932808" name="Search[skill_trait]" value="55"></label>
+<label for="skill_trait-56-1784932808">DivineWeakness<input type="radio" id="skill_trait-56-1784932808" name="Search[skill_trait]" value="56"></label>
+<label for="skill_trait-57-1784932808">ElementalWeakness<input type="radio" id="skill_trait-57-1784932808" name="Search[skill_trait]" value="57"></label>
+<label for="skill_trait-58-1784932808">FairyWeakness<input type="radio" id="skill_trait-58-1784932808" name="Search[skill_trait]" value="58"></label>
+<label for="skill_trait-59-1784932808">HumanWeakness<input type="radio" id="skill_trait-59-1784932808" name="Search[skill_trait]" value="59"></label>
+<label for="skill_trait-60-1784932808">HumanoidWeakness<input type="radio" id="skill_trait-60-1784932808" name="Search[skill_trait]" value="60"></label>
+<label for="skill_trait-61-1784932808">UndeadWeakness<input type="radio" id="skill_trait-61-1784932808" name="Search[skill_trait]" value="61"></label>
+<label for="skill_trait-62-1784932808">Pull<input type="radio" id="skill_trait-62-1784932808" name="Search[skill_trait]" value="62"></label>
+<label for="skill_trait-63-1784932808">KnockBack<input type="radio" id="skill_trait-63-1784932808" name="Search[skill_trait]" value="63"></label>
+<label for="skill_trait-64-1784932808">KnockDown<input type="radio" id="skill_trait-64-1784932808" name="Search[skill_trait]" value="64"></label>
+<label for="skill_trait-65-1784932808">Twohandcrossbow<input type="radio" id="skill_trait-65-1784932808" name="Search[skill_trait]" value="65"></label>
+<label for="skill_trait-66-1784932808">Dualblunt<input type="radio" id="skill_trait-66-1784932808" name="Search[skill_trait]" value="66"></label>
+<label for="skill_trait-67-1784932808">Disarm<input type="radio" id="skill_trait-67-1784932808" name="Search[skill_trait]" value="67"></label>
+<label for="skill_trait-68-1784932808">Airbind<input type="radio" id="skill_trait-68-1784932808" name="Search[skill_trait]" value="68"></label>
+<label for="skill_trait-69-1784932808">Deport<input type="radio" id="skill_trait-69-1784932808" name="Search[skill_trait]" value="69"></label>
+<label for="skill_trait-70-1784932808">Changebody<input type="radio" id="skill_trait-70-1784932808" name="Search[skill_trait]" value="70"></label>
+<label for="skill_trait-71-1784932808">Fear<input type="radio" id="skill_trait-71-1784932808" name="Search[skill_trait]" value="71"></label></div>
+
+<div class="help-block"></div>
+</div>                </div>
+                <div class="main_search_recipe_level search_item">
+                    <div class="search_body">
+                        <span>Level</span>
+                        <div class="sub__search-field">
+                            <span>from</span>
+                            <div class="form-group field-search-recipe_level_min">
+
+<input type="number" id="search-recipe_level_min" class="form-control" name="Search[recipe_level_min]" placeholder="1">
+
+<div class="help-block"></div>
+</div>                        </div>
+                        <div class="sub__search-field">
+                            <span>to</span>
+                            <div class="form-group field-search-recipe_level_max">
+
+<input type="number" id="search-recipe_level_max" class="form-control" name="Search[recipe_level_max]" placeholder="12">
+
+<div class="help-block"></div>
+</div>                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="popup_search_button">Search</button>        </div>
+    </div>
+</form>
+<div class="popular_articles">
+    <h2 class="articles_list_heading">Categories</h2>
+    <div class="categories_wrapper">
+        
+<a href="/lu4/posts" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/i64/etc_scroll_gray_i00.png" alt>
+        </div>
+        <span class="item-name__content">
+            All Articles        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/1-for-newbies" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/etc_spellbook_blue_i00.png" alt>
+        </div>
+        <span class="item-name__content">
+            For Newbies        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/2-game-mechanics" class="article_category active">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/etc_crystal_cave_key_i01.png" alt>
+        </div>
+        <span class="item-name__content">
+            Game mechanics        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/3-custom-mechanics" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/yellow_regen_32.png" alt>
+        </div>
+        <span class="item-name__content">
+            Custom mechanics        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/4-locations" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/etc_map_ivory_i00.png" alt>
+        </div>
+        <span class="item-name__content">
+            Locations        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/5-useful-quests" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/etc_scroll_white_i00.png" alt>
+        </div>
+        <span class="item-name__content">
+            Useful quests        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/6-quests-to-change-class" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/etc_jewel_green_i00.png" alt>
+        </div>
+        <span class="item-name__content">
+            Quests to change class        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/7-basic-mechanics" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/etc_instrument_i00.png" alt>
+        </div>
+        <span class="item-name__content">
+            Basic mechanics        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/8-masterwork" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/etc_royal_membership_i00.png" alt>
+        </div>
+        <span class="item-name__content">
+            Masterwork        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/9-skills" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/skill1062.png" alt>
+        </div>
+        <span class="item-name__content">
+            Skills        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/10-items" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/etc_soul_stone_i01.png" alt>
+        </div>
+        <span class="item-name__content">
+            Items        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/11-npc" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/skill4416_human.png" alt>
+        </div>
+        <span class="item-name__content">
+            NPC        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/12-instant-zone" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/ticket_i00.png" alt>
+        </div>
+        <span class="item-name__content">
+            Instant zone        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/13-classes" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/skill0337.png" alt>
+        </div>
+        <span class="item-name__content">
+            Classes        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/14-guide" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/etc_question_mark_i00.png" alt>
+        </div>
+        <span class="item-name__content">
+            Guide        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/15-events" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/icon64/action049.png" alt>
+        </div>
+        <span class="item-name__content">
+            Events        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/16-clan" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/i64/etc_bloodpledge_point_i00.png" alt>
+        </div>
+        <span class="item-name__content">
+            Clan        </span>
+    </div>
+</a>                
+<a href="/lu4/posts/17-eternal-update" class="article_category ">
+    <div class="item-name">
+        <div class="item-icon">
+            <img src="/i64/soul_crystal.png" alt>
+        </div>
+        <span class="item-name__content">
+            Eternal update        </span>
+    </div>
+</a>            </div>
+    <h2 class="articles_list_heading">Articles: Game mechanics</h2>
+    <div class="popular_articles_wrapper">
+                
+<a class="article" href="/lu4/posts/post/45-subclasses-on-masterwork" style="--card-bg: url(/upload/035-subclass-6373a3b6c13e7.jpg)">
+    <div class="article_content">
+        <div class="article_title">Subclasses on Masterwork</div>
+        <div class="article_meta">
+                        <div class="article_date">Game mechanics</div>
+                        <div class="article_views">
+                <img src="/assets/a1a4f193/assets/mdi_eye.svg">
+                70.9k            </div>
+        </div>
+    </div>
+</a>                
+<a class="article" href="/lu4/posts/post/397-clan-passive-skills" style="--card-bg: url(/file/35971_1520793711_1768597069.jpg)">
+    <div class="article_content">
+        <div class="article_title">Clan passive skills</div>
+        <div class="article_meta">
+                        <div class="article_date">Clan</div>
+                        <div class="article_views">
+                <img src="/assets/a1a4f193/assets/mdi_eye.svg">
+                5.6k            </div>
+        </div>
+    </div>
+</a>                
+<a class="article" href="/lu4/posts/post/363-clan-system" style="--card-bg: url(/file/13007_5940633519_1750010809.jpg)">
+    <div class="article_content">
+        <div class="article_title">Clan system</div>
+        <div class="article_meta">
+                        <div class="article_date">Clan</div>
+                        <div class="article_views">
+                <img src="/assets/a1a4f193/assets/mdi_eye.svg">
+                19.3k            </div>
+        </div>
+    </div>
+</a>                
+<a class="article" href="/lu4/posts/post/329-exp-and-penalties-in-a-party" style="--card-bg: url(/file/7472_1329176828_1733892262.jpg)">
+    <div class="article_content">
+        <div class="article_title">EXP and penalties in a party</div>
+        <div class="article_meta">
+                        <div class="article_date">Basic mechanics</div>
+                        <div class="article_views">
+                <img src="/assets/a1a4f193/assets/mdi_eye.svg">
+                25.3k            </div>
+        </div>
+    </div>
+</a>                
+<a class="article" href="/lu4/posts/post/237-enchanting-skills" style="--card-bg: url(/file/6547_7797936003_1732535829.jpg)">
+    <div class="article_content">
+        <div class="article_title">Enchanting Skills</div>
+        <div class="article_meta">
+                        <div class="article_date">Game mechanics</div>
+                        <div class="article_views">
+                <img src="/assets/a1a4f193/assets/mdi_eye.svg">
+                37.1k            </div>
+        </div>
+    </div>
+</a>                
+<a class="article" href="/lu4/posts/post/228-clan-halls" style="--card-bg: url(/upload/128-Clan-halls-663bc493e47c1.jpg)">
+    <div class="article_content">
+        <div class="article_title">Clan Halls</div>
+        <div class="article_meta">
+                        <div class="article_date">Guide</div>
+                        <div class="article_views">
+                <img src="/assets/a1a4f193/assets/mdi_eye.svg">
+                13.9k            </div>
+        </div>
+    </div>
+</a>                
+<a class="article" href="/lu4/posts/post/172-healers-skill-transfer" style="--card-bg: url(/file/10833_8945369539_1739735686)">
+    <div class="article_content">
+        <div class="article_title">Healers skill transfer</div>
+        <div class="article_meta">
+                        <div class="article_date">Skills</div>
+                        <div class="article_views">
+                <img src="/assets/a1a4f193/assets/mdi_eye.svg">
+                21.5k            </div>
+        </div>
+    </div>
+</a>                
+<a class="article" href="/lu4/posts/post/169-attribute-system" style="--card-bg: url(/upload/55-Attribute-System-659854dae8a8e.jpg)">
+    <div class="article_content">
+        <div class="article_title">Attribute System</div>
+        <div class="article_meta">
+                        <div class="article_date">Guide</div>
+                        <div class="article_views">
+                <img src="/assets/a1a4f193/assets/mdi_eye.svg">
+                40.8k            </div>
+        </div>
+    </div>
+</a>            </div>
+</div>        </section>
+    </div>
+    
+<footer id="footer">
+    <div class="footer_wrapper">
+        <div class="footer_item">MasterWork 2026</div>
+        <div class="footer_item">All rights reserved</div>
+    </div>
+</footer><script src="/assets/11cd3e4d/jquery.js?v=1782332351"></script>
+<script src="/assets/91014328/yii.js?v=1782332351"></script>
+<script src="/assets/91014328/yii.validation.js?v=1782332351"></script>
+<script src="/assets/91014328/yii.activeForm.js?v=1782332351"></script>
+<script src="/assets/a1a4f193/dist/slick/slick.min.js?v=1783723552"></script>
+<script src="/assets/a1a4f193/dist/perfect-scrollbar/js/perfect-scrollbar.min.js?v=1783723552"></script>
+<script src="/assets/a1a4f193/dist/chart-js/chart.umd.min.js?v=1783723552"></script>
+<script src="/assets/a1a4f193/js/app.js?v=1783723552"></script>
+<script>jQuery(function ($) {
+const container = document.querySelector('#search-form-1784932808'); initSearchForm(container)
+jQuery('#search-form-1784932808').yiiActiveForm([{"id":"search-query","name":"query","container":".field-search-query","input":"#search-query","validate":function (attribute, value, messages, deferred, $form) {yii.validation.string(value, messages, {"message":"Query must be a string.","max":255,"tooLong":"Query should contain at most 255 characters.","skipOnEmpty":1});}},{"id":"search-search_type","name":"search_type","container":".field-search-search_type","input":"#search-search_type","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"All Categories must be an integer.","skipOnEmpty":1});yii.validation.range(value, messages, {"range":["0","1","2","3","4","5"],"not":false,"message":"All Categories is invalid.","skipOnEmpty":1});}},{"id":"search-item_crystal_type","name":"item_crystal_type","container":".field-search-item_crystal_type","input":"#search-item_crystal_type","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Grade must be an integer.","skipOnEmpty":1});yii.validation.range(value, messages, {"range":["-1","0","1","2","3","4","5","6","7"],"not":false,"message":"Grade is invalid.","skipOnEmpty":1});}},{"id":"search-item_type","name":"item_type","container":".field-search-item_type","input":"#search-item_type","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Type must be an integer.","skipOnEmpty":1});yii.validation.range(value, messages, {"range":["-1","0","1","2","3","4","5"],"not":false,"message":"Type is invalid.","skipOnEmpty":1});}},{"id":"search-item_subtype","name":"item_subtype","container":".field-search-item_subtype","input":"#search-item_subtype","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Subtype must be an integer.","skipOnEmpty":1});yii.validation.range(value, messages, {"range":["-1","0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36"],"not":false,"message":"Subtype is invalid.","skipOnEmpty":1});}},{"id":"search-npc_type","name":"npc_type","container":".field-search-npc_type","input":"#search-npc_type","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Type must be an integer.","skipOnEmpty":1});yii.validation.range(value, messages, {"range":["-1","0","1","2"],"not":false,"message":"Type is invalid.","skipOnEmpty":1});}},{"id":"search-npc_race","name":"npc_race","container":".field-search-npc_race","input":"#search-npc_race","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Race must be an integer.","skipOnEmpty":1});yii.validation.range(value, messages, {"range":["-1","0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","27"],"not":false,"message":"Race is invalid.","skipOnEmpty":1});}},{"id":"search-npc_level_min","name":"npc_level_min","container":".field-search-npc_level_min","input":"#search-npc_level_min","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Level must be an integer.","min":1,"tooSmall":"Level must be no less than 1.","max":99,"tooBig":"Level must be no greater than 99.","skipOnEmpty":1});}},{"id":"search-npc_level_max","name":"npc_level_max","container":".field-search-npc_level_max","input":"#search-npc_level_max","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":" must be an integer.","min":1,"tooSmall":" must be no less than 1.","max":99,"tooBig":" must be no greater than 99.","skipOnEmpty":1});}},{"id":"search-npc_has_drop","name":"npc_has_drop","container":".field-search-npc_has_drop","input":"#search-npc_has_drop","validate":function (attribute, value, messages, deferred, $form) {yii.validation.boolean(value, messages, {"trueValue":"1","falseValue":"0","message":"Has Drop\/Spoil must be either \u00221\u0022 or \u00220\u0022.","skipOnEmpty":1});}},{"id":"search-npc_has_spawn","name":"npc_has_spawn","container":".field-search-npc_has_spawn","input":"#search-npc_has_spawn","validate":function (attribute, value, messages, deferred, $form) {yii.validation.boolean(value, messages, {"trueValue":"1","falseValue":"0","message":"Has a spawn point must be either \u00221\u0022 or \u00220\u0022.","skipOnEmpty":1});}},{"id":"search-recipe_type","name":"recipe_type","container":".field-search-recipe_type","input":"#search-recipe_type","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Type must be an integer.","skipOnEmpty":1});yii.validation.range(value, messages, {"range":["-1","0","1","2","3"],"not":false,"message":"Type is invalid.","skipOnEmpty":1});}},{"id":"search-skill_type","name":"skill_type","container":".field-search-skill_type","input":"#search-skill_type","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Skill Type must be an integer.","skipOnEmpty":1});yii.validation.range(value, messages, {"range":["-1","0","1"],"not":false,"message":"Skill Type is invalid.","skipOnEmpty":1});}},{"id":"search-skill_trait","name":"skill_trait","container":".field-search-skill_trait","input":"#search-skill_trait","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Skill Trait must be an integer.","skipOnEmpty":1});yii.validation.range(value, messages, {"range":["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60","61","62","63","64","65","66","67","68","69","70","71"],"not":false,"message":"Skill Trait is invalid.","skipOnEmpty":1});}},{"id":"search-recipe_level_min","name":"recipe_level_min","container":".field-search-recipe_level_min","input":"#search-recipe_level_min","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":"Level must be an integer.","min":1,"tooSmall":"Level must be no less than 1.","max":12,"tooBig":"Level must be no greater than 12.","skipOnEmpty":1});}},{"id":"search-recipe_level_max","name":"recipe_level_max","container":".field-search-recipe_level_max","input":"#search-recipe_level_max","validate":function (attribute, value, messages, deferred, $form) {yii.validation.number(value, messages, {"pattern":/^[+-]?\d+$/,"message":" must be an integer.","min":1,"tooSmall":" must be no less than 1.","max":12,"tooBig":" must be no greater than 12.","skipOnEmpty":1});}}], []);
+});</script></body>
+</html>

@@ -1,0 +1,17 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y --no-install-recommends libpq-dev gcc curl && rm -rf /var/lib/apt/lists/*
+
+COPY backend/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY backend/ /app/
+COPY scripts/ /scripts/
+COPY database/ /database/
+RUN chmod +x /scripts/*.sh && sed -i "s/\r$//" /scripts/*.sh
+
+ENV PYTHONPATH=/app
+
+CMD ["bash", "/scripts/docker-entrypoint.sh"]

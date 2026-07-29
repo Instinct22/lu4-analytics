@@ -1,0 +1,300 @@
+# Lu4 Wiki: Item Healing Potion
+
+- Source: https://masterwork.wiki/lu4/item/1061-healing-potion?dropPage=2
+- Path: /lu4/item/1061-healing-potion?dropPage=2
+- Type: item
+- Key: item:1061
+
+## Stats
+- Item Skills: Healing Potion Lv. 1
+- Recipes: Recipe: Healing Potion (100%) NG
+- Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Items (Lu4)
+Healing Potion
+Lu4
+Eternal
+MasterWork
+Healing Potion
+NG
+Other / Potion
+Magical potion that restores 360 HP.
+Duration: 15 seconds.
+NPC Sell Price
+165 Adena
+Weight
+5
+Item Skills
+Healing Potion
+Lv. 1
+Recipes
+Recipe: Healing Potion (100%)
+NG
+Restrictions
+Private Warehouse
+Clan Warehouse
+Transfer within Game Account
+Trade
+Drop
+Private Store
+Enchant
+Attribute
+Olympiad Use
+Drop
+Spoil
+Reward for Quest
+Contained In
+NPC
+Amount
+Chance
+Mandragora Blossom
+Lv. 25
+1
+2.600270%
+Ant
+Lv. 30
+1
+3.140240%
+Treasures of the Festival
+Lv. 41
+1
+5.000030%
+Treasures of the Festival
+Lv. 30
+1
+5.000000%
+Treasures of the Festival
+Lv. 41
+1
+5.000030%
+Treasures of the Festival
+Lv. 30
+1
+5.000000%
+«
+1
+2
+»
+NPC
+Amount
+Chance
+Dire Wolf
+Lv. 29
+1
+20.516700%
+Cave Basilisk
+Lv. 30
+1
+47.665300%
+Grave Robber Guard
+Lv. 29
+1
+2.612900%
+Treasure Chest
+Lv. 30
+1
+17.701000%
+Otherworldly Invader Soldier
+Lv. 30
+1
+77.074400%
+Barrow Sentinel
+Lv. 30
+1
+78.439800%
+Gigant Footman
+Lv. 30
+1
+88.178300%
+Lith Guard
+Lv. 30
+1
+88.178300%
+Delu Lizardman Supplier
+Lv. 32
+1
+28.427300%
+Ol Mahum Van Archer
+Lv. 32
+1
+31.113700%
+Talakin
+Lv. 30
+1
+32.290100%
+Fire Archer
+Lv. 29
+1
+20.516700%
+Roxide Cohort
+Lv. 29
+1
+44.542600%
+Young Gigantiops
+Lv. 31
+1
+33.629700%
+Breka Orc
+Lv. 31
+1
+27.348600%
+Delu Lizardman Scout
+Lv. 29
+1
+20.313600%
+Stinger Wasp
+Lv. 30
+1
+47.665300%
+Strain
+Lv. 31
+1
+22.564900%
+Silenos
+Lv. 30
+1
+21.453600%
+Ant Overseer
+Lv. 32
+1
+38.893300%
+«
+1
+2
+»
+Quest
+Levels
+Shadow Fox - 1
+37 ~ 45
+Shadow Fox - 2
+37 ~ 45
+Seed of Evil
+21 ~ 26
+Trial of the Challenger
+35 ~ 85
+Trial of Duty
+35 ~ 85
+Trial of the Seeker
+35 ~ 85
+Trial of the Scholar
+35 ~ 85
+Trial of the Pilgrim
+35 ~ 85
+Trial of the Guildsman
+35 ~ 85
+Testimony of Trust
+35 ~ 85
+Testimony of Life
+35 ~ 85
+Testimony of Fate
+35 ~ 85
+Testimony of Glory
+35 ~ 85
+Testimony of Prosperity
+35 ~ 85
+Test of the Duelist
+35 ~ 85
+Test of the Champion
+35 ~ 85
+Test of Sagittarius
+35 ~ 85
+Test of the Searcher
+35 ~ 85
+Test of the Healer
+35 ~ 85
+Test of the Reformer
+35 ~ 85
+Test of Magus
+35 ~ 85
+Test of Witchcraft
+35 ~ 85
+Test of the Summoner
+35 ~ 85
+Test of the Maestro
+35 ~ 85
+Test of the Lord
+35 ~ 85
+Test of the War Spirit
+35 ~ 85
+Path to a Warrior
+18 ~ 85
+Path to a Human Knight
+18 ~ 85
+Path to a Rogue
+18 ~ 85
+Path to a Human Wizard
+18 ~ 85
+Path to a Cleric
+18 ~ 85
+Path to an Elven Knight
+18 ~ 85
+Path to an Elven Scout
+18 ~ 85
+Path to an Elven Wizard
+18 ~ 85
+Path to an Elven Oracle
+18 ~ 85
+Path to a Palus Knight
+18 ~ 85
+Path to an Assassin
+18 ~ 85
+Path to a Dark Wizard
+18 ~ 85
+Path to a Shillien Oracle
+18 ~ 85
+Path to an Orc Raider
+18 ~ 85
+Path to a Monk
+18 ~ 85
+Path to an Orc Shaman
+18 ~ 85
+Path to become a Scavenger
+18 ~ 85
+Path to an Artisan
+18 ~ 85
+Trial of Geomancer
+18 ~ 85
+Item
+Amount
+Get Type
+Booty - Gray Pouch
+NG
+1
+Chance-based
+MasterWork 2026
+All rights reserved

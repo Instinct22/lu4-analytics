@@ -1,0 +1,68 @@
+# Lu4 Wiki: Location Башня Дерзости: 7-й этаж
+
+- Source: https://masterwork.wiki/lu4/location/90-basna-derzosti-7-j-etaz
+- Path: /lu4/location/90-basna-derzosti-7-j-etaz
+- Type: location
+- Key: location:90
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Башня Дерзости: 7-й этаж
+Lu4
+Eternal
+MasterWork
+Башня Дерзости: 7-й этаж
+Location
+Warrior
+Platinum Tribe Shaman
+Lv. 69
+Platinum Tribe Overlord
+Lv. 69
+Guardian Angel
+Lv. 69
+Messenger Angel
+Lv. 70
+Platinum Guardian Archer
+Lv. 70
+Platinum Guardian Warrior
+Lv. 70
+Magus Valac
+Lv. 69
+Teleporter
+Dimensional Vortex
+Lv. 70
+MasterWork 2026
+All rights reserved

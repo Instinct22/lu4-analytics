@@ -1,0 +1,575 @@
+<!-- saved-from: https://masterwork.wiki/lu4/posts/post/145-game-mechanics-damage-from-front-side-back
+     fetched-at: 2026-07-25T01:42:06 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="alternate" hreflang="en" href="https://masterwork.wiki/en/lu4/posts/post/145-game-mechanics-damage-from-front-side-back">
+		<link rel="alternate" hreflang="ru" href="https://masterwork.wiki/ru/lu4/posts/post/145-game-mechanics-damage-from-front-side-back">
+		<link rel="alternate" hreflang="uk" href="https://masterwork.wiki/uk/lu4/posts/post/145-game-mechanics-damage-from-front-side-back">
+			<title>Lu4 Wiki: Game mechanics: Damage from front, side, back</title>
+	<meta name="data-meta-route" content="wiki:posts/post/lu4/145">
+<meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="AoThbvUDOu1vM8GItMqxU-2hczlPp8IyXyt3Q-GEIMBl8Y0ohHpolAseouuEgoEqu-41XA7kkmoYUx4kt-Z4gQ==">
+
+<link href="https://masterwork.wiki/lu4/posts/post/145-game-mechanics-damage-from-front-side-back" rel="canonical">
+<link href="/assets/83ba1e3b/css/plyr.css?v=1782332355" rel="stylesheet">
+<link href="/assets/a1a4f193/dist/slick/slick.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/dist/slick/slick-theme.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/dist/perfect-scrollbar/css/perfect-scrollbar.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/core.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/margins.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/header.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/footer.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/main.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/articles.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/other.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/item.css?v=1783723552" rel="stylesheet">
+<link href="/assets/a1a4f193/css/class.css?v=1783723552" rel="stylesheet">
+<script>window._post = 145;
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                    })(window,document,'script','dataLayer','GTM-K2NCJQW5');</script></head>
+<body>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2NCJQW5" height="0" width="0" style="display:none;visibility:hidden"></iframe>    
+    <div class="cube_bg">
+        
+<header id="header">
+    <div class="header_wrapper">
+        <div class="header_left">
+            <a class="header_logo" href="/lu4/main"></a>
+            <div class="header_server_menu">
+                <a href="#" class="dropdown-toggle" id="dropdown-server">
+                    Lu4                </a>
+                <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="/lu4/posts/post/145-game-mechanics-damage-from-front-side-back">Lu4</a>                                        <a class="dropdown-item" href="/eternal/posts/post/145-game-mechanics-damage-from-front-side-back">Eternal</a>                                        <a class="dropdown-item" href="/masterwork/posts/post/145-game-mechanics-damage-from-front-side-back">MasterWork</a>                                    </div>
+            </div>
+        </div>
+        <div class="header_center">
+            <a class="header_center_link" href="/lu4/classes">Classes</a>            <a class="header_center_link" href="/lu4/search?Search%5Bsearch_type%5D=2">Skills</a>            <a class="header_center_link" href="/lu4/search?Search%5Bsearch_type%5D=0">Items</a>            <a class="header_center_link" href="/lu4/search?Search%5Bsearch_type%5D=1">NPC</a>            <a class="header_center_link" href="/lu4/search?Search%5Bsearch_type%5D=4">Quests</a>            <a class="header_center_link" href="/lu4/posts">Articles</a>            <div class="header_center_search">
+                <div class="search_icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M19 19L15.5001 15.5M18 9.5C18 14.1944 14.1944 18 9.5 18C4.80558 18 1 14.1944 1 9.5C1 4.80558 4.80558 1 9.5 1C14.1944 1 18 4.80558 18 9.5Z" stroke="#AEAEAE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+                <div class="search_field_input modal_open" data-url="/wiki2025/search/bar?project=lu4">
+                    Search                </div>
+                <div class="search_field_button" type="submit">Ctrl+K</div>
+            </div>
+        </div>
+        <div class="header_right">
+            <div class="header_language_menu">
+                <a href="#" id="dropdown-language" data-toggle="dropdown-toggle">
+                    English                </a>
+                <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"en"}'>English</a>                                        <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"ru"}'>Русский</a>                                        <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"uk"}'>Українська</a>                                    </div>
+            </div>
+            <a class="header_button" href="https://mw2.global/profile/signup" target="_blank">
+                Start to Play            </a>
+        </div>
+        <div class="search_lupa modal_open" data-url="/wiki2025/search/bar?project=lu4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M19 19L15.5001 15.5M18 9.5C18 14.1944 14.1944 18 9.5 18C4.80558 18 1 14.1944 1 9.5C1 4.80558 4.80558 1 9.5 1C14.1944 1 18 4.80558 18 9.5Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            </svg>
+        </div>
+        <input id="burger" type="checkbox">
+        <label for="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav>
+            <div class="burger_menu">
+                <div class="burger_first_part">
+                    <a class="burgernav" href="/lu4/classes">Classes</a>                    <a class="burgernav" href="/lu4/search?Search%5Bsearch_type%5D=2">Skills</a>                    <a class="burgernav" href="/lu4/search?Search%5Bsearch_type%5D=0">Items</a>                    <a class="burgernav" href="/lu4/search?Search%5Bsearch_type%5D=1">NPC</a>                    <a class="burgernav" href="/lu4/search?Search%5Bsearch_type%5D=4">Quests</a>                    <a class="burgernav" href="/lu4/posts">Articles</a>                </div>
+                <div class="burger_second_part">
+                    <div class="burger_trio">
+                        <div class="header_language_menu">
+                            <a href="#" id="dropdown-language" data-toggle="dropdown-toggle">
+                                English                            </a>
+                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"en"}'>English</a>                                                                <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"ru"}'>Русский</a>                                                                <a class="dropdown-item" href="/wiki2025/main/language" data-method="POST" data-params='{"language":"uk"}'>Українська</a>                                                            </div>
+                        </div>
+                        <div class="header_center_search">
+                            <div class="search_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M19 19L15.5001 15.5M18 9.5C18 14.1944 14.1944 18 9.5 18C4.80558 18 1 14.1944 1 9.5C1 4.80558 4.80558 1 9.5 1C14.1944 1 18 4.80558 18 9.5Z" stroke="#AEAEAE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                </svg>
+                            </div>
+                            <div class="search_field_input modal_open" data-url="/wiki2025/search/bar?project=lu4">
+                                Search                            </div>
+                        </div>
+                        <div class="header_server_menu">
+                            <a href="#" class="dropdown-toggle" id="dropdown-server">
+                                Lu4                            </a>
+                            <div class="dropdown-menu">
+                                                                <a class="dropdown-item" href="/lu4/posts/post/145-game-mechanics-damage-from-front-side-back">Lu4</a>                                                                <a class="dropdown-item" href="/eternal/posts/post/145-game-mechanics-damage-from-front-side-back">Eternal</a>                                                                <a class="dropdown-item" href="/masterwork/posts/post/145-game-mechanics-damage-from-front-side-back">MasterWork</a>                                                            </div>
+                        </div>
+                    </div>
+                    <a class="header_button" href="https://mw2.global/profile/signup" target="_blank">
+                        Start to Play                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>        <div class="alert-container">
+                    </div>
+        <section id="other">
+                            <div class="breadcrumbs"><img src="/assets/a1a4f193/assets/breadcrumbs_home.svg"><span class='breadcrumbs_step'><a href="/wiki2025/main/index">Main</a></span>
+<span class='breadcrumbs_step'><a href="/lu4/posts">Articles</a></span>
+<span class='breadcrumbs_step'><a href="/lu4/posts/7-basic-mechanics">Basic mechanics</a></span>
+<span class='breadcrumbs_step'>Game mechanics: Damage from front, side, back</span>
+</div>                        
+<div id="article-menu">
+    <div id="article-menu-toggler"></div>
+    <div id="article-menu-content" class="ps-element"></div>
+</div>
+
+
+<div class="servers_row">
+    </div>
+<div id="article" class="article_part">
+    <div class="article-section">
+        <h1>Game mechanics: Damage from front, side, back</h1>
+        <p class="article-section__subheading">
+                        Basic mechanics            <span class="dot_divider"></span>
+                        28.03.2025        </p>
+            </div>
+    <div id="article-content">
+        
+<div class="mb-32">
+    <h2 id="heading-id-1">Basics</h2>
+
+    <p>This article is devoted to the dependence of damage on the enemy's position relative to your character.
+        The way it was conceived and implemented by the Korean developers NCSoft. You may encounter this mechanic
+        on official and PTS servers, and it works the same way on the servers
+        of the E-Global MasterWork project. </p>
+
+    <p>First, let's define the concepts of "face", "side" and "back". If you put the character in the centre
+        of the circle, you can divide it into sectors: </p>
+
+    <ul>
+        <li>
+            Face - front quarter, 90 degrees from 315° to 45°
+        </li>
+        <li>
+            Right side - right quarter, 90 degrees from 45° to 135°
+        </li>
+        <li>
+            Back - rear quarter, 90 degrees from 135° to 225°
+        </li>
+        <li>
+            Left side - left quarter, 90 degrees from 225° to 315°
+        </li>
+    </ul>
+
+    <div class="alarm mb-16">
+        <p><strong style="color: #34fca6">Pay attention!</strong></p>
+
+        <p>This mechanic applies not only to characters, but also to monsters. </p>
+    </div>
+
+    <figure>
+        <img src="/upload/char-side-650dab50a5e1f.png"
+             alt="Sectors for impact" class="lightbox">
+    </figure>
+
+    <hr>
+</div>
+<div class="mb-32">
+    <h2 id="heading-id-2">Sides and damage</h2>
+
+    <p>The direction of the attack determines the chances of certain variables when calculating damage. </p>
+
+    <p>Side (left, right):</p>
+
+    <ul>
+        <li>
+            +20% to regular Attack Accuracy (auto attack)
+        </li>
+        <li>
+            +20% P. Critical Rate
+        </li>
+        <li>
+            +10% to the chance of Blow skills
+        </li>
+    </ul>
+
+    <p>Back:</p>
+
+    <ul>
+        <li>
+            +30% to regular Attack Accuracy (auto attack)
+        </li>
+        <li>
+            +30% P. Critical Rate
+        </li>
+        <li>
+            +30% to the chance of Blow skills
+        </li>
+    </ul>
+
+    <details>
+        <summary>
+            Blow skill class including:
+        </summary>
+
+        <ul>
+            <li>
+                
+<a href="/masterwork/skill/16-mortal-blow/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0016.png" alt="Mortal Blow">
+                		    </span>
+    <span class="item-name__content">
+        Mortal Blow        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/263-deadly-blow/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0263.png" alt="Deadly Blow">
+                		    </span>
+    <span class="item-name__content">
+        Deadly Blow        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/321-blinding-blow/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0321.png" alt="Blinding Blow">
+                		    </span>
+    <span class="item-name__content">
+        Blinding Blow        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/344-lethal-blow/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0344.png" alt="Lethal Blow">
+                		    </span>
+    <span class="item-name__content">
+        Lethal Blow        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/409-critical-blow/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0409.png" alt="Critical Blow">
+                		    </span>
+    <span class="item-name__content">
+        Critical Blow        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/505-shining-edge/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0505.png" alt="Shining Edge">
+                		    </span>
+    <span class="item-name__content">
+        Shining Edge        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/580-death-blow/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill_transform_s_attack.png" alt="Death Blow">
+                		    </span>
+    <span class="item-name__content">
+        Death Blow        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/689-divine-rogue-deadly-blow/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill_transform_s_attack.png" alt="Divine Rogue Deadly Blow">
+                		    </span>
+    <span class="item-name__content">
+        Divine Rogue Deadly Blow        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/928-dual-blow/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0928_1.png" alt="Dual Blow">
+                		    </span>
+    <span class="item-name__content">
+        Dual Blow        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/1560-lucky-blow/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill1560.png" alt="Lucky Blow">
+                		    </span>
+    <span class="item-name__content">
+        Lucky Blow        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/31433-spirit-blow/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0263.png" alt="Spirit Blow">
+                		    </span>
+    <span class="item-name__content">
+        Spirit Blow        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/31434-spirit-stab/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0030.png" alt="Spirit Stab">
+                		    </span>
+    <span class="item-name__content">
+        Spirit Stab        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+            <li>
+                
+<a href="/masterwork/skill/32362-razor-rain/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill10513.png" alt="Razor Rain">
+                		    </span>
+    <span class="item-name__content">
+        Razor Rain        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+            </li>
+        </ul>
+
+    </details>
+    <br>
+
+    <figure>
+        <img src="/upload/side-damage-650dac2bdfb60.png"
+             alt="Damage bonus from strike position" class="lightbox">
+    </figure>
+
+    <div class="alarm">
+        <p><strong style="color: #34fca6">Pay attention!</strong><br>
+            Damage effectiveness zones work differently for "Backstab" class skills. </p>
+
+        <p>The area around the character is divided into two hemispheres - the front (from 270° to 90°) and the back (from 90° to 270°). </p>
+
+        <ul>
+            <li>
+                When attacking the front hemisphere, the success chance of the skill is 3%
+            </li>
+            <li>
+                When attacking the rear hemisphere, the success chance of the skill is 100%
+            </li>
+        </ul>
+
+        <p>The "Backstab" class includes skills
+
+            
+<a href="/masterwork/skill/30-backstab/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0030.png" alt="Backstab">
+                		    </span>
+    <span class="item-name__content">
+        Backstab        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+
+            and
+
+            
+<a href="/masterwork/skill/31190-knives-out/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/knivesout.png" alt="Knives Out">
+                		    </span>
+    <span class="item-name__content">
+        Knives Out        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a> </p>
+
+    </div>
+
+    <figure>
+        <img src="/upload/char-side-2-65116e239d15f.png"
+             alt="Backstab skill success chance" class="lightbox">
+    </figure>
+
+</div>
+<div class="mb-32">
+    <h2 id="heading-id-3">Sides and defense</h2>
+
+    <p>Blocking with a shield only works when attacking the character's front side. When attacking from the
+        side or the back, the chance of blocking with a shield is zero. </p>
+
+    <p>Some skills increase the shield blocking zone to full (360°). While these skills are in effect,
+        blocking with a shield is equally effective when attacking any side of the character. Such skills include: </p>
+
+    <ul>
+        <li>
+            
+<a href="/masterwork/skill/316-aegis/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0316.png" alt="Aegis">
+                		    </span>
+    <span class="item-name__content">
+        Aegis        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+        </li>
+        <li>
+            
+<a href="/masterwork/skill/318-aegis-stance/1" class="item-name ">
+    <span class="item-icon">
+                <img src="/i64/skill0318.png" alt="Aegis Stance">
+                		    </span>
+    <span class="item-name__content">
+        Aegis Stance        <span class="item-name__additional">
+			Lv. 1					</span>
+	</span>
+</a>
+        </li>
+    </ul>
+
+    <hr>
+</div>
+    </div>
+</div>
+
+<div class="article_part">
+    <div class="article-section">
+		<h1>Can be interesting</h1>
+    </div>
+	<div class="flex-table">
+				<div class="flex-row">
+            <div class="flex-cell">
+                <div class="item-name">
+    				                    <div class="item-icon">
+    	    			<img src="/icon64/skill0113.png" alt>
+                    </div>
+		    		                    <span class="item-name__content">
+				        <a href="/lu4/posts/post/144-game-mechanics-damage-from-shot-range">Game mechanics: Damage from shot range</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+				<div class="flex-row">
+            <div class="flex-cell">
+                <div class="item-name">
+    				                    <div class="item-icon">
+    	    			<img src="/icon64/skill0992.png" alt>
+                    </div>
+		    		                    <span class="item-name__content">
+				        <a href="/lu4/posts/post/146-game-mechanics-physical-skills-damage">Game Mechanics: Physical Skills Damage</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+				<div class="flex-row">
+            <div class="flex-cell">
+                <div class="item-name">
+    				                    <div class="item-icon">
+    	    			<img src="/icon64/etc_question_mark_i00.png" alt>
+                    </div>
+		    		                    <span class="item-name__content">
+				        <a href="/lu4/posts/post/147-game-mechanics-hidden-weapon-parameters">Game mechanics: Hidden weapon parameters</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+				<div class="flex-row">
+            <div class="flex-cell">
+                <div class="item-name">
+    				                    <div class="item-icon">
+    	    			<img src="/icon64/weapon_r_dualblunt_i00.png" alt>
+                    </div>
+		    		                    <span class="item-name__content">
+				        <a href="/masterwork/posts/post/63-dual-daggers-and-blunts">Dual daggers and blunts</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+				<div class="flex-row">
+            <div class="flex-cell">
+                <div class="item-name">
+    				                    <div class="item-icon">
+    	    			<img src="/icon64/armor_t90_ul_i00.png" alt>
+                    </div>
+		    		                    <span class="item-name__content">
+				        <a href="/masterwork/posts/post/2-enchantment-bonuses-for-sets-dcbas-grade">Enchantment bonuses for sets D/C/B/A/S Grade</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+		    </div>
+</div>
+
+<div class="article_part">
+    <div class="article-section">
+        <h1>Categories</h1>
+    </div>
+    <div class="flex-table flex-table-responsive">
+                <div class="flex-row">
+            <div class="flex-cell article_categories_name">
+                <a href="/lu4/posts/7-basic-mechanics">
+                    Basic mechanics                </a>
+            </div>
+            <div class="flex-cell article_categories_posts">
+                <a class="article_categories_post" href="/masterwork/posts/post/34-gaining-experience-and-penalties"><span><img src="/icon64/etc_exp_point_i00.png" alt="">Gaining Experience and Penalties</span></a><a class="article_categories_post" href="/lu4/posts/post/144-game-mechanics-damage-from-shot-range"><span><img src="/icon64/skill0113.png" alt="">Game mechanics: Damage from shot range</span></a><a class="article_categories_post" href="/lu4/posts/post/145-game-mechanics-damage-from-front-side-back"><span><img src="/icon64/skill0321.png" alt="">Game mechanics: Damage from front, side, back</span></a><a class="article_categories_post" href="/lu4/posts/post/146-game-mechanics-physical-skills-damage"><span><img src="/icon64/skill0992.png" alt="">Game Mechanics: Physical Skills Damage</span></a><a class="article_categories_post" href="/lu4/posts/post/147-game-mechanics-hidden-weapon-parameters"><span><img src="/icon64/etc_question_mark_i00.png" alt="">Game mechanics: Hidden weapon parameters</span></a><a class="article_categories_post" href="/lu4/posts/post/169-attribute-system"><span><img src="/icon64/etc_fire_stone_i00.png" alt="">Attribute System</span></a><a class="article_categories_post" href="/lu4/posts/post/237-enchanting-skills"><span><img src="/upload/SkillWnd_DF_Icon_Enchant_dual-6641f9cac1e0b.png" alt="">Enchanting Skills</span></a><a class="article_categories_post" href="/lu4/posts/post/329-exp-and-penalties-in-a-party"><span><img src="/icon64/etc_exp_point_i00.png" alt="">EXP and penalties in a party</span></a>            </div>
+        </div>
+            </div>
+</div>
+        </section>
+    </div>
+    
+<footer id="footer">
+    <div class="footer_wrapper">
+        <div class="footer_item">MasterWork 2026</div>
+        <div class="footer_item">All rights reserved</div>
+    </div>
+</footer><script src="/assets/11cd3e4d/jquery.js?v=1782332351"></script>
+<script src="/assets/83ba1e3b/js/plyr.js?v=1782332355"></script>
+<script src="/assets/91014328/yii.js?v=1782332351"></script>
+<script src="/assets/a1a4f193/dist/slick/slick.min.js?v=1783723552"></script>
+<script src="/assets/a1a4f193/dist/perfect-scrollbar/js/perfect-scrollbar.min.js?v=1783723552"></script>
+<script src="/assets/a1a4f193/dist/chart-js/chart.umd.min.js?v=1783723552"></script>
+<script src="/assets/a1a4f193/js/app.js?v=1783723552"></script></body>
+</html>

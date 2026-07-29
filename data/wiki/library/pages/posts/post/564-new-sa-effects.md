@@ -1,0 +1,957 @@
+# New SA effects
+
+- Source: https://masterwork.wiki/lu4/posts/post/564-new-sa-effects
+- Path: /lu4/posts/post/564-new-sa-effects
+- Type: None
+- Key: page:lu4_posts_post_564_new_sa_effects
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Articles
+Items
+New SA effects
+Lu4
+Eternal
+MasterWork
+New SA effects
+Items
+22.04.2026
+Basics
+The Lu4 team has added the ability to insert a Soul Crystal into D-grade and C-grade weapons.
+Dual weapons of D and C grades, similar to high-grade dual weapons, now gain effects when modified to +4.
+This makes early-season gameplay more varied and dynamic.
+Pay attention!
+For detailed information on the updated SA effects, read the article
+Updated SA effects
+D-grade
+Swords
+Weapon
+SA
+Effect
+Crimson Sword
+Focus
+D
+P. Crit. Rate +50.
+Crimson Sword
+Health
+D
+Max HP +25%.
+Crimson Sword
+Haste
+D
+Atk. Spd. +7%.
+Elven Sword
+Focus
+D
+P. Crit. Rate +50.
+Elven Sword
+Health
+D
+Max HP +25%.
+Elven Sword
+Haste
+D
+Atk. Spd. +7%.
+Sword of Revolution
+Focus
+D
+P. Crit. Rate +50.
+Sword of Revolution
+Health
+D
+Max HP +25%.
+Sword of Revolution
+Haste
+D
+Atk. Spd. +7%.
+Elven Long Sword
+Focus
+D
+P. Crit. Rate +50.
+Elven Long Sword
+Health
+D
+Max HP +25%.
+Elven Long Sword
+Haste
+D
+Atk. Spd. +7%.
+Two-Handed Sword
+Health
+D
+Max HP +25%.
+Two-Handed Sword
+Focus
+D
+P. Crit. Rate +50.
+Two-Handed Sword
+Haste
+D
+Atk. Spd. +7%.
+Titan Sword
+Health
+D
+Max HP +25%.
+Titan Sword
+Focus
+D
+P. Crit. Rate +50.
+Titan Sword
+Haste
+D
+Atk. Spd. +7%.
+Claymore
+Health
+D
+Max HP +25%.
+Claymore
+Focus
+D
+P. Crit. Rate +50.
+Claymore
+Haste
+D
+Atk. Spd. +7%.
+Sword of Magic Fog
+Acumen
+D
+Casting Spd. +15%.
+Sword of Magic Fog
+Conversion
+D
+Decreases Max HP -40% and increases Max MP +60%.
+Sword of Magic Fog
+Mana Up
+D
+Max MP +30%.
+Blunts
+Weapon
+SA
+Effect
+Spiked Club
+Health
+D
+Max HP +25%.
+Spiked Club
+Focus
+D
+P. Crit. Rate +50.
+Spiked Club
+Haste
+D
+Atk. Spd. +7%.
+Skull Breaker
+Health
+D
+Max HP +25%.
+Skull Breaker
+Focus
+D
+P. Crit. Rate +50.
+Skull Breaker
+Haste
+D
+Atk. Spd. +7%.
+Heavy Bone Club
+Health
+D
+Max HP +25%.
+Heavy Bone Club
+Focus
+D
+P. Crit. Rate +50.
+Heavy Bone Club
+Haste
+D
+Atk. Spd. +7%.
+Morning Star
+Health
+D
+Max HP +25%.
+Morning Star
+Focus
+D
+P. Crit. Rate +50.
+Morning Star
+Haste
+D
+Atk. Spd. +7%.
+Tarbar
+Health
+D
+Max HP +25%.
+Tarbar
+Focus
+D
+P. Crit. Rate +50.
+Tarbar
+Haste
+D
+Atk. Spd. +7%.
+Bonebreaker
+Health
+D
+Max HP +25%.
+Bonebreaker
+Focus
+D
+P. Crit. Rate +50.
+Bonebreaker
+Haste
+D
+Atk. Spd. +7%.
+Titan Hammer
+Rsk. Focus
+D
+P. Crit. Rate +85 when HP < 60%.
+Titan Hammer
+Health
+D
+Max HP +25%.
+Titan Hammer
+Rsk. Haste
+D
+Atk. Spd. +12% when HP < 60%.
+Daggers
+Weapon
+SA
+Effect
+Dagger of Mana
+Acumen
+D
+Casting Spd. +15%.
+Dagger of Mana
+Focus
+D
+P. Crit. Rate +50.
+Dagger of Mana
+Haste
+D
+Atk. Spd. +7%.
+Conjurer's Knife
+Acumen
+D
+Casting Spd. +15%.
+Conjurer's Knife
+Focus
+D
+P. Crit. Rate +50.
+Conjurer's Knife
+Haste
+D
+Atk. Spd. +7%.
+Shilen Knife
+Acumen
+D
+Casting Spd. +15%.
+Shilen Knife
+Focus
+D
+P. Crit. Rate +50.
+Shilen Knife
+Haste
+D
+Atk. Spd. +7%.
+Kukuri
+Critical Damage
+D
+P. Crit. Damage +120.
+Kukuri
+Focus
+D
+P. Crit. Rate +50.
+Kukuri
+Haste
+D
+Atk. Spd. +7%.
+Maingauche
+Critical Damage
+D
+P. Crit. Damage +120.
+Maingauche
+Focus
+D
+P. Crit. Rate +50.
+Maingauche
+Haste
+D
+Atk. Spd. +7%.
+Mithril Dagger
+Critical Damage
+D
+P. Crit. Damage +120.
+Mithril Dagger
+Focus
+D
+P. Crit. Rate +50.
+Mithril Dagger
+Haste
+D
+Atk. Spd. +7%.
+Bows
+Weapon
+SA
+Effect
+Gastraphetes
+Guidance
+D
+Accuracy +5.
+Gastraphetes
+Cheap Shot
+D
+Consumption MP for P. Skills -12%.
+Gastraphetes
+Quick Recovery
+D
+Bow Reuse Delay -15%.
+Reinforced Long Bow
+Guidance
+D
+Accuracy +5.
+Reinforced Long Bow
+Cheap Shot
+D
+Consumption MP for P. Skills -12%.
+Reinforced Long Bow
+Quick Recovery
+D
+Bow Reuse Delay -15%.
+Light Crossbow
+Guidance
+D
+Accuracy +5.
+Light Crossbow
+Cheap Shot
+D
+Consumption MP for P. Skills -12%.
+Light Crossbow
+Quick Recovery
+D
+Bow Reuse Delay -15%.
+Spears
+Weapon
+SA
+Effect
+Dwarven Pike
+Wide Blow
+D
+Attack Angle +60 degrees.
+Dwarven Pike
+Health
+D
+Max HP +25%.
+Dwarven Pike
+Guidance
+D
+Accuracy +5.
+War Hammer
+Wide Blow
+D
+Attack Angle +60 degrees.
+War Hammer
+Health
+D
+Max HP +25%.
+War Hammer
+Guidance
+D
+Accuracy +5.
+Winged Spear
+Wide Blow
+D
+Attack Angle +60 degrees.
+Winged Spear
+Health
+D
+Max HP +25%.
+Winged Spear
+Guidance
+D
+Accuracy +5.
+War Pick
+Wide Blow
+D
+Attack Angle +60 degrees.
+War Pick
+Health
+D
+Max HP +25%.
+War Pick
+Guidance
+D
+Accuracy +5.
+Glaive
+Wide Blow
+D
+Attack Angle +60 degrees.
+Glaive
+Health
+D
+Max HP +25%.
+Glaive
+Guidance
+D
+Accuracy +5.
+Fists
+Weapon
+SA
+Effect
+Triple-Edged Jamadhr
+Health
+D
+Max HP +25%.
+Triple-Edged Jamadhr
+Rsk. Haste
+D
+Atk. Spd. +12% when HP < 60%.
+Triple-Edged Jamadhr
+Haste
+D
+Atk. Spd. +7%.
+Bich'Hwa
+Health
+D
+Max HP +25%.
+Bich'Hwa
+Rsk. Haste
+D
+Atk. Spd. +12% when HP < 60%.
+Bich'Hwa
+Haste
+D
+Atk. Spd. +7%.
+Scallop Jamadhr
+Health
+D
+Max HP +25%.
+Scallop Jamadhr
+Rsk. Haste
+D
+Atk. Spd. +12% when HP < 60%.
+Scallop Jamadhr
+Haste
+D
+Atk. Spd. +7%.
+Staves
+Weapon
+SA
+Effect
+Sage's Blood
+Acumen
+D
+Casting Spd. +15%.
+Sage's Blood
+Conversion
+D
+Decreases Max HP -40% and increases Max MP +60%.
+Sage's Blood
+Mana Up
+D
+Max MP +30%.
+Tome of Blood
+Acumen
+D
+Casting Spd. +15%.
+Tome of Blood
+Conversion
+D
+Decreases Max HP -40% and increases Max MP +60%.
+Tome of Blood
+Mana Up
+D
+Max MP +30%.
+Crucifix of Blood
+Acumen
+D
+Casting Spd. +15%.
+Crucifix of Blood
+Conversion
+D
+Decreases Max HP -40% and increases Max MP +60%.
+Crucifix of Blood
+Mana Up
+D
+Max MP +30%.
+Demon Fangs
+Acumen
+D
+Casting Spd. +15%.
+Demon Fangs
+Conversion
+D
+Decreases Max HP -40% and increases Max MP +60%.
+Demon Fangs
+Mana Up
+D
+Max MP +30%.
+Priest Mace
+Acumen
+D
+Casting Spd. +15%.
+Priest Mace
+Conversion
+D
+Decreases Max HP -40% and increases Max MP +60%.
+Priest Mace
+Mana Up
+D
+Max MP +30%.
+Staff of Life
+Acumen
+D
+Casting Spd. +15%.
+Staff of Life
+Conversion
+D
+Decreases Max HP -40% and increases Max MP +60%.
+Staff of Life
+Mana Up
+D
+Max MP +30%.
+Staff of Magic
+Empower
+D
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Staff of Magic
+Acumen
+D
+Casting Spd. +15%.
+Staff of Magic
+Mana Up
+D
+Max MP +30%.
+Goat Head Staff
+Empower
+D
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Goat Head Staff
+Acumen
+D
+Casting Spd. +15%.
+Goat Head Staff
+Mana Up
+D
+Max MP +30%.
+Atuba Hammer
+Empower
+D
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Atuba Hammer
+Health
+D
+Max HP +25%.
+Atuba Hammer
+Mana Up
+D
+Max MP +30%.
+Atuba Mace
+Empower
+D
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Atuba Mace
+Health
+D
+Max HP +25%.
+Atuba Mace
+Mana Up
+D
+Max MP +30%.
+Ghost Staff
+Empower
+D
+M. Atk. +20%, Consumption MP for M. Skills +10%.
+Ghost Staff
+Health
+D
+Max HP +25%.
+Ghost Staff
+Mana Up
+D
+Max MP +30%.
+Dual
+Pay attention!
+Dual weapons gain additional effects when modified to +4.
+Inserting Soul Crystals into dual weapons is not possible.
+Weapon
+Effect
+Saber*Bastard Sword
+D
++4
+Max HP +25%.
+Saber*Crimson Sword
+D
++4
+Max HP +25%.
+Saber*Elven Sword
+D
++4
+Max HP +25%.
+Knight's Sword*Crimson Sword
+D
++4
+Max HP +25%.
+Knight's Sword*Elven Sword
+D
++4
+Max HP +25%.
+Saber*Spinebone Sword
+D
++4
+Accuracy +5.
+Bastard Sword*Spinebone Sword
+D
++4
+Accuracy +5.
+Bastard Sword*Artisan's Sword
+D
++4
+Accuracy +5.
+Bastard Sword*Knight's Sword
+D
++4
+Accuracy +5.
+Artisan's Sword*Crimson Sword
+D
++4
+Accuracy +5.
+Saber*Artisan's Sword
+D
++4
+P. Crit. Rate +50.
+Spinebone Sword*Spinebone Sword
+D
++4
+P. Crit. Rate +50.
+Spinebone Sword*Artisan's Sword
+D
++4
+P. Crit. Rate +50.
+Spinebone Sword*Knight's Sword
+D
++4
+P. Crit. Rate +50.
+Spinebone Sword*Elven Sword
+D
++4
+P. Crit. Rate +50.
+Spinebone Sword*Crimson Sword
+D
++4
+P. Crit. Rate +50.
+Saber*Knight's Sword
+D
++4
+Atk. Spd. +7%.
+Artisan's Sword*Artisan's Sword
+D
++4
+Atk. Spd. +7%.
+Artisan's Sword*Knight's Sword
+D
++4
+Atk. Spd. +7%.
+Knight's Sword*Knight's Sword
+D
++4
+Atk. Spd. +7%.
+Bastard Sword*Crimson Sword
+D
++4
+Atk. Spd. +7%.
+Bastard Sword*Elven Sword
+D
++4
+Atk. Spd. +7%.
+Bastard Sword*Bastard Sword
+D
++4
+Casting Spd. +15%.
+Artisan's Sword*Elven Sword
+D
++4
+Casting Spd. +15%.
+Spiked Club*Tomahawk
+D
++4
+P. Crit. Rate +50.
+Tarbar*Hand Axe
+D
++4
+Atk. Spd. +7%.
+Tarbar*Work Hammer
+D
++4
+Max HP +25%.
+Maingauche*Assassin Knife
+D
++4
+P. Crit. Rate +50.
+C-grade
+Staves
+Weapon
+SA
+Effect
+Horn of Glory
+Haste
+C
+Atk. Spd. +7%.
+Horn of Glory
+Health
+C
+Max HP +25%.
+Horn of Glory
+Acumen
+C
+Casting Spd. +15%.
+Heathen's Book
+Haste
+C
+Atk. Spd. +7%.
+Heathen's Book
+Health
+C
+Max HP +25%.
+Heathen's Book
+Acumen
+C
+Casting Spd. +15%.
+Dual
+Pay attention!
+Dual weapons gain effects when modified to +4.
+Inserting Soul Crystals into dual weapons is not possible.
+Weapon
+Effect
+Saber*Sword of Revolution
+C
++4
+Max HP +25%.
+Knight's Sword*Sword of Revolution
+C
++4
+Max HP +25%.
+Elven Sword*Sword of Revolution
+C
++4
+Max HP +25%.
+Sword of Revolution*Sword of Revolution
+C
++4
+Max HP +25%.
+Stormbringer*Katana
+C
++4
+Max HP +25%.
+Shamshir*Spirit Sword
+C
++4
+Max HP +25%.
+Spirit Sword*Spirit Sword
+C
++4
+Max HP +25%.
+Bastard Sword*Sword of Revolution
+C
++4
+Accuracy +6.
+Crimson Sword*Elven Sword
+C
++4
+Accuracy +6.
+Crimson Sword*Sword of Revolution
+C
++4
+Accuracy +6.
+Crimson Sword*Elven Long Sword
+C
++4
+Accuracy +6.
+Katana*Spirit Sword
+C
++4
+Accuracy +6.
+Saber*Elven Long Sword
+C
++4
+P. Crit. Rate +60.
+Spinebone Sword*Elven Long Sword
+C
++4
+P. Crit. Rate +60.
+Crimson Sword*Crimson Sword
+C
++4
+P. Crit. Rate +60.
+Sword of Revolution*Elven Long Sword
+C
++4
+P. Crit. Rate +60.
+Stormbringer*Spirit Sword
+C
++4
+P. Crit. Rate +60.
+Shamshir*Raid Sword
+C
++4
+P. Crit. Rate +60.
+Spirit Sword*Raid Sword
+C
++4
+P. Crit. Rate +60.
+Spinebone Sword*Sword of Revolution
+C
++4
+Atk. Spd. +7%.
+Knight's Sword*Elven Long Sword
+C
++4
+Atk. Spd. +7%.
+Stormbringer*Raid Sword
+C
++4
+Atk. Spd. +7%.
+Katana*Katana
+C
++4
+Atk. Spd. +7%.
+Raid Sword*Raid Sword
+C
++4
+Atk. Spd. +7%.
+Bastard Sword*Elven Long Sword
+C
++4
+P. Crit. Damage +140.
+Artisan's Sword*Sword of Revolution
+C
++4
+P. Crit. Damage +140.
+Artisan's Sword*Elven Long Sword
+C
++4
+P. Crit. Damage +140.
+Elven Sword*Elven Long Sword
+C
++4
+P. Crit. Damage +140.
+Stormbringer*Shamshir
+C
++4
+P. Crit. Damage +140.
+Shamshir*Katana
+C
++4
+P. Crit. Damage +140.
+Katana*Raid Sword
+C
++4
+P. Crit. Damage +140.
+Elven Sword*Elven Sword
+C
++4
+Casting Spd. +15%.
+Elven Long Sword*Elven Long Sword
+C
++4
+Casting Spd. +15%.
+Stormbringer*Stormbringer
+C
++4
+Casting Spd. +15%.
+Shamshir*Shamshir
+C
++4
+Casting Spd. +15%.
+Battle Axe*Battle Axe
+C
++4
+P. Crit. Rate +60.
+Tarbar*Tarbar
+C
++4
+Atk. Spd. +7%.
+Dwarven War Hammer*Dwarven War Hammer
+C
++4
+Max HP +25%.
+Crystal Dagger*Cursed Dagger
+C
++4
+P. Crit. Rate +60.
+Can be interesting
+Updated SA effects
+C/B/A-Grade Sets Upgrades
+Soul Crystal (SA) Enhancement
+Enchantment bonuses for sets D/C/B/A Grade
+Quests for 1, 2 and 3 classes
+Categories
+Items
+New S-Grade Sets Bonuses
+Enchantment bonuses for sets D/C/B/A/S Grade
+New S80-84 Grade Sets Bonuses
+Blacksmith of Mammon: Weapon Upgrade/Exchange
+Masterwork Item Bonuses
+MasterWork Crystals: Equipment Upgrade
+Hellbound: Caravan Certificates
+Eternal Weapons
+Vitality System
+Autoloot Agathions MasterWork
+Slots expansion and weight limit
+Compound of belts
+Pets: Wolf and Fenrir
+Library: Books of Exp
+Pets: Kookaburra, Cougar, Buffalo
+Dual daggers and blunts
+Soul Crystal (SA) Enhancement
+Pets: new skins
+Life Stones on Masterwork
+Updated SA effects
+C/B/A-Grade Sets Upgrades
+PvP enhance
+Unique Boss Weapons
+Talismans
+Vorpal Armor. Assembly and improvement
+"Protectors of Eternity". Eternal armor
+Tattoo Guide
+Weapons for Olympiad
+Cloaks on MasterWork
+Ng/D-Grade Sets Upgrades
+Ng/D Equipment upgrade
+New SA effects
+Hero Weapons
+Masterwork Weapon Bonuses
+Unsealing Cost
+MasterWork 2026
+All rights reserved

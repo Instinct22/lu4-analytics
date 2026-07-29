@@ -1,0 +1,230 @@
+# Lu4 Wiki: Item Asofe
+
+- Source: https://masterwork.wiki/lu4/item/4043-asofe?dropPage=8&spoilPage=2
+- Path: /lu4/item/4043-asofe?dropPage=8&spoilPage=2
+- Type: item
+- Key: item:4043
+
+## Stats
+- Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Items (Lu4)
+Asofe
+Lu4
+Eternal
+MasterWork
+Asofe
+NG
+Other / Material
+Crystal representing life and protection. Used for making items of B-Grade and above and
+NPC Sell Price
+3 000 Adena
+Weight
+2
+Restrictions
+Private Warehouse
+Clan Warehouse
+Transfer within Game Account
+Trade
+Drop
+Private Store
+Enchant
+Attribute
+Olympiad Use
+Drop
+Spoil
+Contained In
+NPC
+Amount
+Chance
+Lesser Giant Shooter
+Lv. 63
+1
+0.795196%
+Leogul
+Lv. 61
+1
+0.532188%
+Harit Lizardman Matriarch
+Lv. 55
+1
+0.725240%
+Forest of Mirrors Ghost
+Lv. 47
+1
+0.312292%
+Limal Karinness
+Lv. 64
+1
+2.136720%
+Fline Elder
+Lv. 51
+1
+0.530283%
+Oel Mahum Warrior
+Lv. 54
+1
+0.286328%
+Elder Tarlk Basilisk
+Lv. 51
+1
+0.287705%
+Spore Zombie
+Lv. 47
+1
+0.267115%
+Cave Keeper
+Lv. 58
+1
+0.461797%
+Thunder Wyrm
+Lv. 56
+1
+0.430616%
+Cave Servant Archer
+Lv. 47
+1
+0.374250%
+Cave Servant
+Lv. 46
+1
+0.395674%
+Validus
+Lv. 46
+1
+0.530828%
+Drake
+Lv. 57
+1
+0.314889%
+Death Knight
+Lv. 50
+1
+0.784013%
+Halisha's Treasure Chest
+Lv. 78
+1
+0.639995%
+Limal Karinness
+Lv. 69
+1
+1.260440%
+Giant Nightblade
+Lv. 75
+1
+1.370130%
+Blackbanner Marshal
+Lv. 57
+1
+0.314875%
+«
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+»
+NPC
+Amount
+Chance
+Decayed Ancient Knight
+Lv. 50
+1
+18.706100%
+Hames Orc Scout
+Lv. 72
+1
+13.736000%
+Garden Guard Leader
+Lv. 50
+1
+14.509600%
+Sairon
+Lv. 54
+1
+14.544500%
+Chimera Piece
+Lv. 73
+1
+20.294300%
+Platinum Tribe Soldier
+Lv. 68
+1
+37.101000%
+Doll Master
+Lv. 50
+1
+13.753800%
+Water Giant
+Lv. 45
+1
+6.820600%
+Taik Orc Supply
+Lv. 51
+1
+7.374900%
+Leogul
+Lv. 61
+1
+14.412800%
+Maluk Knight
+Lv. 62
+1
+27.206900%
+«
+1
+2
+»
+Item
+Amount
+Get Type
+Looted Goods - Gray Pouch
+NG
+4
+Chance-based
+Booty - Brown Pouch
+NG
+4
+Chance-based
+MasterWork 2026
+All rights reserved

@@ -1,0 +1,73 @@
+# Lu4 Wiki: Item Spellbook: Spirit Barrier
+
+- Source: https://masterwork.wiki/lu4/item/3051-spellbook-spirit-barrier
+- Path: /lu4/item/3051-spellbook-spirit-barrier
+- Type: item
+- Key: item:3051
+
+## Stats
+- Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Items (Lu4)
+Spellbook: Spirit Barrier
+Lu4
+Eternal
+MasterWork
+Spellbook: Spirit Barrier
+NG
+Other / Spellbook
+Spellbook needed to learn 'Spirit Barrier'.
+Required:
+Elven Knight - Lv. 20
+Elven Scout - Lv. 20
+NPC Sell Price
+400 Adena
+Weight
+120
+Restrictions
+Private Warehouse
+Clan Warehouse
+Transfer within Game Account
+Trade
+Drop
+Private Store
+Enchant
+Attribute
+Olympiad Use
+MasterWork 2026
+All rights reserved

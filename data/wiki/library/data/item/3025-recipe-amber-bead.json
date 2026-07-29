@@ -1,0 +1,55 @@
+{
+  "key": "item:3025",
+  "type": "item",
+  "id": 3025,
+  "name": "Recipe",
+  "url": "/lu4/item/3025-recipe-amber-bead",
+  "source_url": "https://masterwork.wiki/lu4/item/3025-recipe-amber-bead",
+  "raw_html": "library/raw/lu4/item/3025-recipe-amber-bead.html",
+  "stats": {
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Level": "2",
+    "MP Consume": "100",
+    "Success Rate": "100%",
+    "Result": "Amber Bead NG (5 pcs.)"
+  },
+  "materials": [
+    {
+      "key": "item:3137",
+      "type": "item",
+      "id": 3137,
+      "name": "Amber Lump NG",
+      "amount": "1"
+    }
+  ],
+  "links": [
+    {
+      "key": "item:3025",
+      "type": "item",
+      "id": 3025,
+      "name": "Lu4",
+      "url": "/lu4/item/3025-recipe-amber-bead"
+    },
+    {
+      "key": "item:3137",
+      "type": "item",
+      "id": 3137,
+      "name": "Amber Lump NG",
+      "url": "/lu4/item/3137-amber-lump"
+    },
+    {
+      "key": "item:3136",
+      "type": "item",
+      "id": 3136,
+      "name": "Amber Bead NG (5 pcs.)",
+      "url": "/lu4/item/3136-amber-bead"
+    },
+    {
+      "key": "quest:216",
+      "type": "quest",
+      "id": 216,
+      "name": "Trial of the Guildsman",
+      "url": "/lu4/quest/216-trial-of-the-guildsman"
+    }
+  ]
+}

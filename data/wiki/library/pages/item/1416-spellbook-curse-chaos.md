@@ -1,0 +1,74 @@
+# Lu4 Wiki: Item Spellbook: Curse Chaos
+
+- Source: https://masterwork.wiki/lu4/item/1416-spellbook-curse-chaos
+- Path: /lu4/item/1416-spellbook-curse-chaos
+- Type: item
+- Key: item:1416
+
+## Stats
+- Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Items (Lu4)
+Spellbook: Curse Chaos
+Lu4
+Eternal
+MasterWork
+Spellbook: Curse Chaos
+NG
+Other / Spellbook
+Spellbook needed to learn 'Curse Chaos'.
+Required:
+Human Wizard - Lv. 35
+Dark Wizard - Lv. 35
+Geomancer - Lv. 35
+NPC Sell Price
+1 225 Adena
+Weight
+120
+Restrictions
+Private Warehouse
+Clan Warehouse
+Transfer within Game Account
+Trade
+Drop
+Private Store
+Enchant
+Attribute
+Olympiad Use
+MasterWork 2026
+All rights reserved

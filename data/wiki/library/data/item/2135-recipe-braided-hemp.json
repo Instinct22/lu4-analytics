@@ -1,0 +1,69 @@
+{
+  "key": "item:2135",
+  "type": "item",
+  "id": 2135,
+  "name": "Recipe",
+  "url": "/lu4/item/2135-recipe-braided-hemp",
+  "source_url": "https://masterwork.wiki/lu4/item/2135-recipe-braided-hemp",
+  "raw_html": "library/raw/lu4/item/2135-recipe-braided-hemp.html",
+  "stats": {
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Level": "1",
+    "MP Consume": "10",
+    "Success Rate": "100%",
+    "Result": "Braided Hemp NG"
+  },
+  "materials": [
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "amount": "5"
+    }
+  ],
+  "links": [
+    {
+      "key": "item:2135",
+      "type": "item",
+      "id": 2135,
+      "name": "Lu4",
+      "url": "/lu4/item/2135-recipe-braided-hemp"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "npc:20470",
+      "type": "npc",
+      "id": 20470,
+      "name": "Kaboo Orc Grunt Lv. 7",
+      "url": "/lu4/npc/20470-kaboo-orc-grunt"
+    },
+    {
+      "key": "npc:20450",
+      "type": "npc",
+      "id": 20450,
+      "name": "Relic Werewolf Lv. 9",
+      "url": "/lu4/npc/20450-relic-werewolf"
+    },
+    {
+      "key": "npc:20326",
+      "type": "npc",
+      "id": 20326,
+      "name": "Goblin Scout Lv. 8",
+      "url": "/lu4/npc/20326-goblin-scout"
+    }
+  ]
+}

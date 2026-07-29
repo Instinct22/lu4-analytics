@@ -1,0 +1,76 @@
+{
+  "key": "item:1814",
+  "type": "item",
+  "id": 1814,
+  "name": "Recipe",
+  "url": "/lu4/item/1814-recipe-leather",
+  "source_url": "https://masterwork.wiki/lu4/item/1814-recipe-leather",
+  "raw_html": "library/raw/lu4/item/1814-recipe-leather.html",
+  "stats": {
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Level": "1",
+    "MP Consume": "10",
+    "Success Rate": "100%",
+    "Result": "Leather NG"
+  },
+  "materials": [
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "amount": "6"
+    }
+  ],
+  "links": [
+    {
+      "key": "item:1814",
+      "type": "item",
+      "id": 1814,
+      "name": "Lu4",
+      "url": "/lu4/item/1814-recipe-leather"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "npc:20372",
+      "type": "npc",
+      "id": 20372,
+      "name": "Baraq Orc Fighter Lv. 10",
+      "url": "/lu4/npc/20372-baraq-orc-fighter"
+    },
+    {
+      "key": "npc:20363",
+      "type": "npc",
+      "id": 20363,
+      "name": "Maraku Werewolf Lv. 9",
+      "url": "/lu4/npc/20363-maraku-werewolf"
+    },
+    {
+      "key": "npc:20468",
+      "type": "npc",
+      "id": 20468,
+      "name": "Kaboo Orc Lv. 6",
+      "url": "/lu4/npc/20468-kaboo-orc"
+    },
+    {
+      "key": "npc:20313",
+      "type": "npc",
+      "id": 20313,
+      "name": "Rakeclaw Imp Chieftain Lv. 10",
+      "url": "/lu4/npc/20313-rakeclaw-imp-chieftain"
+    }
+  ]
+}

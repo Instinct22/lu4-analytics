@@ -1,0 +1,80 @@
+# Lu4 Wiki: Item Mark of Magus
+
+- Source: https://masterwork.wiki/lu4/item/2840-mark-of-magus
+- Path: /lu4/item/2840-mark-of-magus
+- Type: item
+- Key: item:2840
+
+## Stats
+- Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Items (Lu4)
+Mark of Magus
+Lu4
+Eternal
+MasterWork
+Mark of Magus
+NG
+Quest Item
+A mark given to those who have passed the Trial of the Magus.
+Necessary for the professions:
+Sorcerer, Spellsinger, Spellhowler, Terramancer.
+Weight
+0
+Restrictions
+Private Warehouse
+Clan Warehouse
+Transfer within Game Account
+Trade
+Drop
+Private Store
+Enchant
+Attribute
+Olympiad Use
+Reward for Quest
+Used in Quests
+Quest
+Levels
+Test of Magus
+35 ~ 85
+Quest
+Levels
+Test of Magus
+35 ~ 85
+MasterWork 2026
+All rights reserved

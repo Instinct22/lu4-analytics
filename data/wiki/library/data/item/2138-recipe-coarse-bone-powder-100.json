@@ -1,0 +1,76 @@
+{
+  "key": "item:2138",
+  "type": "item",
+  "id": 2138,
+  "name": "Recipe",
+  "url": "/lu4/item/2138-recipe-coarse-bone-powder-100",
+  "source_url": "https://masterwork.wiki/lu4/item/2138-recipe-coarse-bone-powder-100",
+  "raw_html": "library/raw/lu4/item/2138-recipe-coarse-bone-powder-100.html",
+  "stats": {
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Level": "1",
+    "MP Consume": "10",
+    "Success Rate": "100%",
+    "Result": "Coarse Bone Powder NG"
+  },
+  "materials": [
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "amount": "10"
+    }
+  ],
+  "links": [
+    {
+      "key": "item:2138",
+      "type": "item",
+      "id": 2138,
+      "name": "Lu4",
+      "url": "/lu4/item/2138-recipe-coarse-bone-powder-100"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1881",
+      "type": "item",
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
+    },
+    {
+      "key": "npc:20427",
+      "type": "npc",
+      "id": 20427,
+      "name": "Evil Eye Watcher Lv. 10",
+      "url": "/lu4/npc/20427-evil-eye-watcher"
+    },
+    {
+      "key": "npc:20326",
+      "type": "npc",
+      "id": 20326,
+      "name": "Goblin Scout Lv. 8",
+      "url": "/lu4/npc/20326-goblin-scout"
+    },
+    {
+      "key": "npc:20093",
+      "type": "npc",
+      "id": 20093,
+      "name": "Orc Fighter Lv. 10",
+      "url": "/lu4/npc/20093-orc-fighter"
+    },
+    {
+      "key": "npc:20447",
+      "type": "npc",
+      "id": 20447,
+      "name": "Utuku Orc Archer Lv. 8",
+      "url": "/lu4/npc/20447-utuku-orc-archer"
+    }
+  ]
+}

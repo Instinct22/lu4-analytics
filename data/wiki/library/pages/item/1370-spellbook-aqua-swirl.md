@@ -1,0 +1,72 @@
+# Lu4 Wiki: Item Spellbook: Aqua Swirl
+
+- Source: https://masterwork.wiki/lu4/item/1370-spellbook-aqua-swirl
+- Path: /lu4/item/1370-spellbook-aqua-swirl
+- Type: item
+- Key: item:1370
+
+## Stats
+- Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Items (Lu4)
+Spellbook: Aqua Swirl
+Lu4
+Eternal
+MasterWork
+Spellbook: Aqua Swirl
+NG
+Other / Spellbook
+Spellbook needed to learn 'Aqua Swirl'.
+Required:
+Elven Wizard - Lv. 20
+NPC Sell Price
+400 Adena
+Weight
+120
+Restrictions
+Private Warehouse
+Clan Warehouse
+Transfer within Game Account
+Trade
+Drop
+Private Store
+Enchant
+Attribute
+Olympiad Use
+MasterWork 2026
+All rights reserved

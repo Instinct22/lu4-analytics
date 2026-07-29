@@ -1,0 +1,84 @@
+# Lu4 Wiki: Item Greater Compressed Package of Spiritshots (D-Grade)
+
+- Source: https://masterwork.wiki/lu4/item/5257-greater-compressed-package-of-spiritshots-d-grade
+- Path: /lu4/item/5257-greater-compressed-package-of-spiritshots-d-grade
+- Type: item
+- Key: item:5257
+
+## Stats
+- Item Skills: Greater Compressed Package of Spiritshots: D-grade Lv. 1
+- Recipes: Recipe: Greater Spiritshot (D) Compressed Package(100%) NG
+- Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Items (Lu4)
+Greater Compressed Package of Spiritshots (D-Grade)
+Lu4
+Eternal
+MasterWork
+Greater Compressed Package of Spiritshots (D-Grade)
+NG
+Other
+A small package of compressed spiritshots. Upon use, changes into 1000 D-grade spiritshots.
+Weight
+750
+Item Skills
+Greater Compressed Package of Spiritshots: D-grade
+Lv. 1
+Recipes
+Recipe: Greater Spiritshot (D) Compressed Package(100%)
+NG
+Restrictions
+Private Warehouse
+Clan Warehouse
+Transfer within Game Account
+Trade
+Drop
+Private Store
+Enchant
+Attribute
+Olympiad Use
+Contains
+Item
+Amount
+Get Type
+Spiritshot (D-Grade)
+D
+1 000
+Guaranteed
+MasterWork 2026
+All rights reserved

@@ -1,0 +1,173 @@
+# Lu4 Wiki: Item Unidentified Spiritual Eye
+
+- Source: https://masterwork.wiki/lu4/item/32435-unidentified-spiritual-eye
+- Path: /lu4/item/32435-unidentified-spiritual-eye
+- Type: item
+- Key: item:32435
+
+## Stats
+- Item Skills: Identify Spiritual Eye Lv. 1
+- Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+Items (Lu4)
+Unidentified Spiritual Eye
+Lu4
+Eternal
+MasterWork
+Unidentified Spiritual Eye
+A
+Other
+Double-click to identify this item. It can be either normal or foundation.
+Weight
+10
+Item Skills
+Identify Spiritual Eye
+Lv. 1
+Restrictions
+Private Warehouse
+Clan Warehouse
+Transfer within Game Account
+Trade
+Drop
+Private Store
+Enchant
+Attribute
+Olympiad Use
+Drop
+Contains
+NPC
+Amount
+Chance
+Kaldrak, Fire Spirit
+Lv. 65
+1
+0.212500%
+Orfen
+Lv. 66
+1
+9.100000%
+Core
+Lv. 66
+1
+9.100000%
+Queen Ant
+Lv. 66
+1
+9.100000%
+Kernon's Faithful Servant Kelone
+Lv. 67
+1
+0.212500%
+Ancient Drake
+Lv. 64
+1
+0.212500%
+Guardian of the Statue of Giant Karum
+Lv. 62
+1
+0.212500%
+Fierce Tiger King Angel
+Lv. 65
+1
+0.212500%
+Ghost of the Well Lidia
+Lv. 64
+1
+0.212500%
+Spiked Stakato
+Lv. 72
+1
+0.001543%
+Vassal Ghost
+Lv. 77
+1
+0.000800%
+Ghost of a Doorman
+Lv. 76
+1
+0.001599%
+Dark Omen Invader Elite Soldier
+Lv. 75
+1
+0.002598%
+Dark Omen Invader Food
+Lv. 70
+1
+0.000324%
+Shrine Guard
+Lv. 75
+1
+0.000519%
+Requiem Behemoth
+Lv. 70
+1
+0.000592%
+Bone Scavenger
+Lv. 72
+1
+0.000580%
+Bone Scavenger
+Lv. 72
+1
+0.000799%
+Needle Stakato Worker
+Lv. 71
+1
+0.000562%
+Splinter Stakato Drone
+Lv. 69
+1
+0.000595%
+«
+1
+2
+»
+Item
+Amount
+Get Type
+Spiritual Eye
+A
+1
+Chance-based
+Spiritual Eye - Earth
+A
+Foundation
+1
+Chance-based
+MasterWork 2026
+All rights reserved

@@ -1,0 +1,94 @@
+# Lu4 Wiki: NPC Road Collector
+
+- Source: https://masterwork.wiki/lu4/npc/27089-road-collector
+- Path: /lu4/npc/27089-road-collector
+- Type: npc
+- Key: npc:27089
+
+## Content
+Lu4
+Lu4
+Eternal
+MasterWork
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+Search
+Ctrl+K
+English
+English
+Русский
+Українська
+Start to Play
+Classes
+Skills
+Items
+NPC
+Quests
+Articles
+English
+English
+Русский
+Українська
+Search
+Lu4
+Lu4
+Eternal
+MasterWork
+Start to Play
+Main
+NPCs (Lu4)
+Road Collector
+Lu4
+Eternal
+MasterWork
+Road Collector
+Quest Monster
+Humanoid, Lv. 36
+HP / MP
+1 279 / 509
+P. Atk. / M. Atk.
+207 / 97
+P. Def. / M. Def.
+172 / 157
+Accuracy / Evasion
+72 / 71
+Exp / SP
+0 / 0
+Attack Attribute
+None
+Defense Attributes
+Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20
+Skills
+Humanoids
+Lv. 6
+Takes 15% increased damage from attacks that are effective against Humanoids.
+Atk. Spd. +2.5%
+Accuracy +3
+Evasion +2
+P. Def. -5%
+Received Critical Damage +5%
+Resistance to Bleed -10%
+HP Increase (1x)
+Lv. 1
+MP Increase (1x)
+Lv. 1
+Average P. Atk.
+Lv. 11
+Average M. Atk.
+Lv. 11
+Average P. Def.
+Lv. 11
+Average M. Def.
+Lv. 11
+Standard Type
+Lv. 2
+Normal P. Def. and Evasion.
+One-handed Sword
+Lv. 3
+One-handed Sword
+MasterWork 2026
+All rights reserved
