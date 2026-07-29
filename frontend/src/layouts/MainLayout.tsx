@@ -1,12 +1,34 @@
 import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../hooks/useAuth";
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { LoadingState } from "../components/ui";
 
-const links = [
-  { to: "/", label: "Dashboard", icon: "◈", permission: "nav.dashboard" },
-  { to: "/charts", label: "Графики", icon: "◉", permission: "nav.charts" },
-  { to: "/statistics", label: "Статистика", icon: "▤", permission: "nav.statistics" },
+type NavLinkItem = {
+  to: string;
+  label: string;
+  icon: string;
+  permission: string;
+};
+
+type NavGroup = {
+  id: string;
+  label: string;
+  icon: string;
+  children: NavLinkItem[];
+};
+
+const analyticsGroup: NavGroup = {
+  id: "analytics",
+  label: "Аналитика",
+  icon: "◈",
+  children: [
+    { to: "/", label: "Dashboard", icon: "◈", permission: "nav.dashboard" },
+    { to: "/charts", label: "Графики", icon: "◉", permission: "nav.charts" },
+    { to: "/statistics", label: "Статистика", icon: "▤", permission: "nav.statistics" },
+  ],
+};
+
+const topLevelLinks: NavLinkItem[] = [
   { to: "/craft", label: "Крафт", icon: "⚒", permission: "nav.craft" },
   { to: "/items", label: "Предметы", icon: "▣", permission: "nav.items" },
   { to: "/character", label: "Персонаж", icon: "⚔", permission: "nav.character" },
@@ -28,7 +50,21 @@ export default function MainLayout() {
   const navigate = useNavigate();
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
-  const visibleLinks = links.filter((l) => hasPermission(l.permission));
+
+  const visibleAnalyticsChildren = analyticsGroup.children.filter((l) => hasPermission(l.permission));
+  const showAnalyticsGroup = visibleAnalyticsChildren.length > 0;
+  const visibleTopLevelLinks = topLevelLinks.filter((l) => hasPermission(l.permission));
+
+  const analyticsActive = useMemo(
+    () => visibleAnalyticsChildren.some((l) => location.pathname === l.to || (l.to === "/" && location.pathname === "/")),
+    [location.pathname, visibleAnalyticsChildren],
+  );
+
+  const [analyticsOpen, setAnalyticsOpen] = useState(analyticsActive);
+
+  useEffect(() => {
+    if (analyticsActive) setAnalyticsOpen(true);
+  }, [analyticsActive]);
 
   useEffect(() => {
     document.documentElement.classList.add("dark");
@@ -76,11 +112,55 @@ export default function MainLayout() {
         </div>
 
         <nav className="flex-1 space-y-1 overflow-y-auto p-4">
-          {visibleLinks.map((l) => (
+          {showAnalyticsGroup && (
+            <div className="space-y-1">
+              <button
+                type="button"
+                onClick={() => setAnalyticsOpen((open) => !open)}
+                className={[
+                  "group flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-200",
+                  analyticsActive
+                    ? "bg-amber-500/10 text-amber-400 ring-1 ring-amber-500/20 shadow-sm"
+                    : "text-zinc-400 hover:bg-zinc-800/60 hover:text-zinc-200",
+                ].join(" ")}
+              >
+                <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-zinc-800/80 text-xs text-inherit opacity-70 transition-opacity group-hover:opacity-100">
+                  {analyticsGroup.icon}
+                </span>
+                <span className="flex-1 text-left">{analyticsGroup.label}</span>
+                <span className={`text-xs transition-transform ${analyticsOpen ? "rotate-90" : ""}`}>›</span>
+              </button>
+              {analyticsOpen && (
+                <div className="ml-3 space-y-1 border-l border-zinc-800/80 pl-2">
+                  {visibleAnalyticsChildren.map((l) => (
+                    <NavLink
+                      key={l.to}
+                      to={l.to}
+                      end={l.to === "/"}
+                      className={({ isActive }) =>
+                        [
+                          "group flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium transition-all duration-200",
+                          isActive
+                            ? "bg-amber-500/10 text-amber-400 ring-1 ring-amber-500/20 shadow-sm"
+                            : "text-zinc-400 hover:bg-zinc-800/60 hover:text-zinc-200",
+                        ].join(" ")
+                      }
+                    >
+                      <span className="flex h-6 w-6 items-center justify-center rounded-lg bg-zinc-800/80 text-[0.65rem] text-inherit opacity-70 transition-opacity group-hover:opacity-100">
+                        {l.icon}
+                      </span>
+                      {l.label}
+                    </NavLink>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+
+          {visibleTopLevelLinks.map((l) => (
             <NavLink
               key={l.to}
               to={l.to}
-              end={l.to === "/"}
               className={({ isActive }) =>
                 [
                   "group flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition-all duration-200",

@@ -140,27 +140,49 @@ export function parseKillTimeInput(hhmm: string, now = new Date()): Date | null 
 
 /**
  * Mask raw keystrokes into HH:MM.
- * Digits only; auto-inserts `:`; clamps hours 00–23 and minutes 00–59.
+ * Preserves `:` so hour/minute segments stay in place while editing.
+ * Auto-inserts `:` after two hour digits when typing without a separator.
+ * Clamps hours 00–23 and minutes 00–59 once a segment is complete.
  */
 export function maskTimeInput(raw: string): string {
-  const digits = raw.replace(/\D/g, "").slice(0, 4);
-  if (!digits) return "";
+  const cleaned = raw.replace(/[^\d:]/g, "");
+  if (!cleaned) return "";
 
-  if (digits.length === 1) return digits;
+  const colonIdx = cleaned.indexOf(":");
+  let hours: string;
+  let minutes: string;
+  let showColon: boolean;
 
-  let hh = Number(digits.slice(0, 2));
-  if (hh > 23) hh = 23;
-  const hour = String(hh).padStart(2, "0");
+  if (colonIdx >= 0) {
+    showColon = true;
+    hours = cleaned.slice(0, colonIdx).replace(/\D/g, "").slice(0, 2);
+    minutes = cleaned.slice(colonIdx + 1).replace(/\D/g, "").slice(0, 2);
+  } else {
+    const digits = cleaned.replace(/\D/g, "").slice(0, 4);
+    if (digits.length <= 2) {
+      hours = digits;
+      minutes = "";
+      showColon = false;
+    } else {
+      hours = digits.slice(0, 2);
+      minutes = digits.slice(2);
+      showColon = true;
+    }
+  }
 
-  if (digits.length === 2) return hour;
+  if (hours.length === 2) {
+    const h = Math.min(23, Number(hours));
+    hours = String(h).padStart(2, "0");
+  }
 
-  let m1 = digits[2]!;
-  if (Number(m1) > 5) m1 = "5";
-  if (digits.length === 3) return `${hour}:${m1}`;
+  if (minutes.length === 2) {
+    const m = Math.min(59, Number(minutes));
+    minutes = String(m).padStart(2, "0");
+  }
 
-  let mm = Number(m1 + digits[3]!);
-  if (mm > 59) mm = 59;
-  return `${hour}:${String(mm).padStart(2, "0")}`;
+  if (!showColon) return hours;
+  if (!minutes) return `${hours}:`;
+  return `${hours}:${minutes}`;
 }
 
 export function formatHm(date: Date): string {
