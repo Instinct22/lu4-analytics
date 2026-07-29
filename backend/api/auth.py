@@ -1,6 +1,8 @@
 import uuid
 
 from fastapi import APIRouter, HTTPException, Request, status
+
+from core.client_ip import client_ip
 from sqlalchemy import select
 
 from api.deps import (
@@ -20,18 +22,6 @@ from schemas.auth import LoginRequest, MeResponse, RefreshRequest, TokenResponse
 router = APIRouter()
 
 
-def _client_ip(request: Request) -> str:
-    real = request.headers.get("x-real-ip")
-    if real:
-        return real.strip()[:64]
-    forwarded = request.headers.get("x-forwarded-for")
-    if forwarded:
-        return forwarded.split(",")[0].strip()[:64]
-    if request.client and request.client.host:
-        return request.client.host[:64]
-    return ""
-
-
 @router.post("/login", response_model=TokenResponse)
 def login(body: LoginRequest, request: Request, db: DbSession):
     user = db.scalar(select(User).where(User.username == body.username))
@@ -45,7 +35,7 @@ def login(body: LoginRequest, request: Request, db: DbSession):
             id=uuid.uuid4(),
             user_id=user.id,
             username=user.username,
-            ip_address=_client_ip(request),
+            ip_address=client_ip(request),
         )
     )
     db.commit()

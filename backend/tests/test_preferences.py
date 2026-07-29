@@ -68,5 +68,18 @@ def test_oversized_payload_is_refused(client, mock_db):
     assert not mock_db.commit.called
 
 
+def test_craft_cart_scope(client, mock_db, test_user):
+    mock_db.get.return_value = None
+    payload = {"2424": {"qty": 3, "variant": 0}, "5293": {"qty": 1}}
+    r = client.put("/api/me/preferences/craft_cart", json={"payload": payload})
+    assert r.status_code == 200
+    assert r.json()["payload"] == payload
+
+    added = mock_db.add.call_args[0][0]
+    assert added.user_id == test_user.id
+    assert added.scope == "craft_cart"
+    assert added.payload == payload
+
+
 def test_preferences_require_auth(anon_client):
     assert anon_client.get("/api/me/preferences").status_code == 401

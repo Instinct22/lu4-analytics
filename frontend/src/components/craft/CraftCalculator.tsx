@@ -12,12 +12,13 @@ import { masterworkItemUrl } from "../../lib/itemEncyclopedia";
 import { useCraftPrices } from "../../hooks/useCraftPrices";
 import { useAuth } from "../../hooks/useAuth";
 import { usePreference } from "../../hooks/usePreferences";
-import { useItemDetail } from "../../hooks/useItemEncyclopedia";
+import { useCraftCart } from "../../hooks/useCraftCart";
 import CraftCostBar, { GradePill, HaveInput, ItemIcon } from "./CraftCostBar";
 import CraftMaterialSources from "./CraftMaterialSources";
 import { CraftItemDescription, CraftItemStatsPanel } from "./CraftItemStats";
 import CraftShoppingList from "./CraftShoppingList";
 import CraftTreeNode from "./CraftTreeNode";
+import { useItemDetail } from "../../hooks/useItemEncyclopedia";
 import SplitPane from "../ui/SplitPane";
 
 interface Props {
@@ -34,6 +35,7 @@ function collectIds(node: CalcNode | null, acc: Set<number>) {
 
 export default function CraftCalculator({ catalog, productId, onClose }: Props) {
   const { hasPermission } = useAuth();
+  const { add: addToCart } = useCraftCart();
   const canSeePrices = hasPermission("feature.craft_prices");
   const [qty, setQty] = useState(1);
   const [owned, setOwned] = usePreference("craft_owned");
@@ -150,6 +152,13 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
         </div>
         <button
           type="button"
+          onClick={() => addToCart(productId, qty, variantIdx)}
+          className="rounded-lg border border-amber-600/50 bg-amber-950/40 px-3 py-1.5 text-xs font-semibold text-amber-300 transition-colors hover:bg-amber-900/50"
+        >
+          + В корзину
+        </button>
+        <button
+          type="button"
           onClick={onClose}
           className="rounded-lg px-3 py-1.5 text-sm text-zinc-500 transition-colors hover:bg-zinc-800 hover:text-zinc-200"
           aria-label="Закрыть"
@@ -232,7 +241,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
             <p className="mb-2 text-xs text-zinc-600">
               Укажите «Есть» — составляющие пересчитаются пропорционально
             </p>
-            <div className="space-y-0.5">
+            <div className="space-y-1">
               {tree.children.map((ch, i) => (
                 <CraftTreeNode
                   key={`${ch.id}-${i}`}
@@ -272,7 +281,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
                 <p className="mb-2 text-xs text-zinc-600">
                   Укажите «Есть» — составляющие пересчитаются пропорционально
                 </p>
-                <div className="space-y-0.5">
+                <div className="space-y-1">
                   {tree.children.map((ch, i) => (
                     <CraftTreeNode
                       key={`${ch.id}-${i}`}

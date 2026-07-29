@@ -4,6 +4,10 @@ export function itemPagePath(id: number): string {
   return `/items?id=${id}`;
 }
 
+export function resourcePagePath(id: number): string {
+  return `/resources?id=${id}`;
+}
+
 export function setPagePath(setId: string): string {
   return `/items?set=${encodeURIComponent(setId)}`;
 }

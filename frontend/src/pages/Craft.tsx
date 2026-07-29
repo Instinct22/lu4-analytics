@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import CraftCalculator from "../components/craft/CraftCalculator";
+import CraftCartWidget from "../components/craft/CraftCartWidget";
 import CraftPicker from "../components/craft/CraftPicker";
 import CraftProfitability from "../components/craft/CraftProfitability";
 import { ErrorState, LoadingState, PageHeader } from "../components/ui";
@@ -50,7 +51,9 @@ export default function CraftPage() {
 
   return (
     <div className="min-h-full">
-      <PageHeader title="Крафт" />
+      <PageHeader title="Крафт предметов">
+        <CraftCartWidget catalog={catalog} />
+      </PageHeader>
 
       <div className="flex flex-col gap-5 xl:flex-row xl:items-start">
         <div

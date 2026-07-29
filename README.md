@@ -70,14 +70,23 @@ py -3 scripts/import_datasets.py items_encyclopedia
 ### Требования
 
 - Docker Desktop (или Docker Engine + Compose v2)
-- Git
+- Данные в `data/wiki/` и `data/datasets/`
 
-### Установка
+### Быстрый старт (локальная сборка из исходников)
+
+**Windows:**
+
+```powershell
+cd F:\Lu4_analitics
+copy .env.example .env
+.\scripts\docker-dev.ps1
+```
+
+**Linux / macOS:**
 
 ```bash
 cp .env.example .env
-# Положите wiki-данные в data/wiki/ и datasets в data/datasets/
-bash scripts/setup-local.sh
+bash scripts/docker-dev.sh
 ```
 
 Или вручную:
@@ -86,17 +95,34 @@ bash scripts/setup-local.sh
 docker compose up -d --build --wait
 ```
 
-### Доступ
-
 | URL | Описание |
 |-----|----------|
-| http://localhost | Приложение |
+| http://localhost | Приложение (собранный frontend) |
 | http://localhost/api/docs | Swagger |
 | `admin` / `admin123` | из `SEED_USERS` |
 
+### Обновление после правок кода
+
+| Что изменили | Команда |
+|--------------|---------|
+| React / UI | `.\scripts\docker-dev.ps1 frontend` |
+| Python backend | перезапуск не нужен — `DEV_RELOAD=true`, код монтируется |
+| Всё сразу | `.\scripts\docker-dev.ps1 update` |
+
+**Hot-reload UI** (без пересборки образа):
+
+```powershell
+.\scripts\docker-dev.ps1 dev
+# → http://localhost:5173
+```
+
+### Prod-образы с Docker Hub
+
+Для деплоя на сервер используйте [`docker-compose.prod.yml`](docker-compose.prod.yml) и [`start.sh`](start.sh) — там `pull` готовых образов, без локальной сборки.
+
 ```bash
-docker compose ps
-docker compose logs -f backend
+docker compose -f docker-compose.prod.yml ps
+docker compose -f docker-compose.prod.yml logs -f backend
 cd backend && PYTHONPATH=. pytest tests/ -v
 ```
 

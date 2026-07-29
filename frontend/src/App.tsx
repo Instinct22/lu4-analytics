@@ -14,6 +14,7 @@ const WikiArticle = lazy(() => import("./pages/WikiArticle"));
 const Statistics = lazy(() => import("./pages/Statistics"));
 const SearchPage = lazy(() => import("./pages/Search"));
 const CraftPage = lazy(() => import("./pages/Craft"));
+const CraftBulkPage = lazy(() => import("./pages/CraftBulk"));
 const ItemsPage = lazy(() => import("./pages/Items"));
 const ResourcesPage = lazy(() => import("./pages/Resources"));
 const CharacterPage = lazy(() => import("./pages/Character"));
@@ -88,6 +89,15 @@ export default function App() {
                 element={
                   <RequirePermission permission="nav.search">
                     <SearchPage />
+                  </RequirePermission>
+                }
+              />
+              <Route path="/craft/warehouse" element={<Navigate to="/craft/bulk" replace />} />
+              <Route
+                path="/craft/bulk"
+                element={
+                  <RequirePermission permission="nav.craft">
+                    <CraftBulkPage />
                   </RequirePermission>
                 }
               />

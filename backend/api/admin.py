@@ -16,6 +16,7 @@ from core.permissions import (
     default_allowed,
 )
 from models.login_log import LoginLog
+from models.raid_timer_log import RaidTimerLog
 from models.permissions import RolePermission
 from models.user import User
 from schemas.auth import (
@@ -23,6 +24,8 @@ from schemas.auth import (
     LoginLogItem,
     LoginLogsResponse,
     PermissionEntry,
+    RaidTimerLogItem,
+    RaidTimerLogsResponse,
     RolePermissionsResponse,
     UpdateRolePermissionsRequest,
     UpdateUserRequest,
@@ -120,6 +123,30 @@ def list_login_logs(
     ).all()
     return LoginLogsResponse(
         items=[LoginLogItem.model_validate(r) for r in rows],
+        total=total,
+        page=page,
+        limit=limit,
+    )
+
+
+@router.get("/raid-timer-logs", response_model=RaidTimerLogsResponse)
+def list_raid_timer_logs(
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+    page: int = Query(1, ge=1),
+    limit: int = Query(25, ge=1, le=100),
+):
+    if admin.username != "admin":
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Only primary admin")
+    total = db.scalar(select(func.count()).select_from(RaidTimerLog)) or 0
+    rows = db.scalars(
+        select(RaidTimerLog)
+        .order_by(RaidTimerLog.logged_at.desc())
+        .offset((page - 1) * limit)
+        .limit(limit)
+    ).all()
+    return RaidTimerLogsResponse(
+        items=[RaidTimerLogItem.model_validate(r) for r in rows],
         total=total,
         page=page,
         limit=limit,

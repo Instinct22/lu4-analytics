@@ -12,16 +12,21 @@ import {
   type RollupEntry,
 } from "../../lib/craftCalc";
 import { GradePill, HaveInput, ItemIcon } from "./CraftCostBar";
+import CraftItemLink from "./CraftItemLink";
 import CraftTreeNode from "./CraftTreeNode";
+import ExpandChevron from "./ExpandChevron";
 
 interface Props {
   catalog: CraftCatalog;
-  tree: CalcNode;
+  tree?: CalcNode;
+  entries?: RollupEntry[];
   owned: Record<string, number>;
   prices: Record<string, PriceInfo>;
   manual: Record<string, number>;
   onOwnedChange: (id: number, val: number) => void;
   showPrices?: boolean;
+  title?: string;
+  subtitle?: string;
 }
 
 function ShoppingRow({
@@ -63,18 +68,24 @@ function ShoppingRow({
         {canExpand ? (
           <button
             type="button"
-            className="w-4 shrink-0 text-xs text-zinc-500 hover:text-amber-400"
+            className={`expand-toggle ${expanded ? "expand-toggle--open" : ""}`}
             onClick={() => setExpanded(!expanded)}
+            aria-label={expanded ? "Свернуть" : "Развернуть"}
           >
-            {expanded ? "▼" : "▶"}
+            <ExpandChevron open={expanded} />
           </button>
         ) : (
-          <span className="w-4 shrink-0" />
+          <span className="w-5 shrink-0" />
         )}
         <ItemIcon id={entry.id} size={36} />
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-1.5">
-            <span className="break-words font-semibold text-zinc-100">{info.name}</span>
+            <CraftItemLink
+              id={entry.id}
+              name={info.name}
+              catalog={catalog}
+              className="break-words font-semibold text-zinc-100 hover:text-amber-400 hover:underline"
+            />
             <GradePill grade={info.grade} />
             {canExpand && (
               <span className="rounded-full bg-amber-950/80 px-2 py-0.5 text-[0.65rem] font-medium text-amber-300">
@@ -133,22 +144,25 @@ function ShoppingRow({
 export default function CraftShoppingList({
   catalog,
   tree,
+  entries: entriesProp,
   owned,
   prices,
   manual,
   onOwnedChange,
   showPrices = false,
+  title = "Список покупок",
+  subtitle = "Одинаковые ресурсы из разных веток объединены. Разверните крафтовые — чтобы увидеть состав.",
 }: Props) {
-  const items = shoppingItems(catalog, tree);
+  const items = entriesProp ?? (tree ? shoppingItems(catalog, tree) : []);
 
   return (
     <div className="space-y-2">
-      <div className="mb-3">
-        <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-500">Список покупок</h3>
-        <p className="mt-0.5 text-xs text-zinc-600">
-          Одинаковые ресурсы из разных веток объединены. Разверните крафтовые — чтобы увидеть состав.
-        </p>
-      </div>
+      {title ? (
+        <div className="mb-3">
+          <h3 className="text-xs font-bold uppercase tracking-wider text-zinc-500">{title}</h3>
+          {subtitle && <p className="mt-0.5 text-xs text-zinc-600">{subtitle}</p>}
+        </div>
+      ) : null}
       {items.length === 0 && (
         <p className="rounded-xl border border-dashed border-zinc-700 px-4 py-6 text-center text-sm text-zinc-500">
           Все материалы уже есть

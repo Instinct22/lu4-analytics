@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import type { CraftResourcesPayload, ResourceEntry } from "../../lib/craftResources";
-import { allResources, npcLevelBounds } from "../../lib/craftResources";
+import { allResources, materialHasFarmSources, npcLevelBounds } from "../../lib/craftResources";
 import { ItemIcon } from "../craft/CraftCostBar";
 
 interface Props {
@@ -11,7 +11,7 @@ interface Props {
 }
 
 function hasFarmSources(entry: ResourceEntry): boolean {
-  return entry.material.spoil_count > 0 || entry.material.drop_count > 0;
+  return materialHasFarmSources(entry.material);
 }
 
 function ResourceChip({
