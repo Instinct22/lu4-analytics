@@ -17,46 +17,13 @@ env:
   IMAGE_PREFIX: lu4-analytics
 
 jobs:
-  changes:
-    runs-on: ubuntu-latest
-    outputs:
-      backend: ${{ steps.filter.outputs.backend }}
-      frontend: ${{ steps.filter.outputs.frontend }}
-      nginx: ${{ steps.filter.outputs.nginx }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Path filters
-        uses: dorny/paths-filter@v3
-        id: filter
-        with:
-          filters: |
-            backend:
-              - 'backend/**'
-              - 'scripts/**'
-              - 'database/**'
-              - 'backend/Dockerfile.prod'
-            frontend:
-              - 'frontend/**'
-            nginx:
-              - 'nginx/**'
-              - 'data/**'
-
   build-and-push:
-    needs: changes
     runs-on: ubuntu-latest
     if: |
-      (github.event_name == 'workflow_dispatch' ||
-        (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
-        (github.event_name == 'pull_request' &&
-          github.event.pull_request.head.repo.full_name == github.repository)) &&
-      (github.event_name == 'workflow_dispatch' ||
-        (matrix.name == 'backend' && needs.changes.outputs.backend == 'true') ||
-        (matrix.name == 'frontend' && needs.changes.outputs.frontend == 'true') ||
-        (matrix.name == 'nginx' && needs.changes.outputs.nginx == 'true'))
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
+      (github.event_name == 'pull_request' &&
+        github.event.pull_request.head.repo.full_name == github.repository)
     strategy:
       fail-fast: false
       matrix:
