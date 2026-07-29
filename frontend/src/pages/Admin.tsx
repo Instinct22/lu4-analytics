@@ -8,6 +8,7 @@ import {
   listUsers,
   updateRolePermissions,
   updateUser,
+  type PermissionEntry,
   type RolePermissions,
 } from "../api/admin";
 import type { Role } from "../api/auth";
@@ -20,6 +21,14 @@ const ROLE_OPTIONS: { value: Role; label: string }[] = [
   { value: "driver", label: "Драйвер" },
   { value: "other", label: "Другое" },
 ];
+
+const ANALYTICS_PERMISSIONS = ["nav.dashboard", "nav.charts", "nav.statistics"] as const;
+
+const PERMISSION_GROUPS: { id: string; label: string; permissions: readonly string[] }[] = [
+  { id: "analytics", label: "Аналитика", permissions: ANALYTICS_PERMISSIONS },
+];
+
+const GROUPED_PERMISSIONS = new Set(PERMISSION_GROUPS.flatMap((g) => g.permissions));
 
 const LOGIN_LOGS_LIMIT = 25;
 
@@ -47,6 +56,8 @@ export default function AdminPage() {
   const [formError, setFormError] = useState("");
   const [selectedRole, setSelectedRole] = useState<Role>("user");
   const [loginPage, setLoginPage] = useState(1);
+  const [passwordEditId, setPasswordEditId] = useState<string | null>(null);
+  const [newPassword, setNewPassword] = useState("");
 
   const usersQuery = useQuery({ queryKey: ["admin-users"], queryFn: listUsers });
   const rolesQuery = useQuery({ queryKey: ["admin-roles"], queryFn: listRolePermissions });
@@ -105,13 +116,54 @@ export default function AdminPage() {
     createMut.mutate({ username: username.trim(), password, role });
   };
 
-  const togglePerm = (permission: string, allowed: boolean) => {
+  const permMap = useMemo(() => {
+    if (!roleMatrix) return new Map<string, PermissionEntry>();
+    return new Map(roleMatrix.permissions.map((p) => [p.permission, p]));
+  }, [roleMatrix]);
+
+  const standalonePermissions = useMemo(
+    () => roleMatrix?.permissions.filter((p) => !GROUPED_PERMISSIONS.has(p.permission)) ?? [],
+    [roleMatrix],
+  );
+
+  const applyPermissions = (updates: Record<string, boolean>) => {
     if (!roleMatrix) return;
     const next: Record<string, boolean> = {};
     for (const p of roleMatrix.permissions) {
-      next[p.permission] = p.permission === permission ? allowed : p.allowed;
+      next[p.permission] = updates[p.permission] ?? p.allowed;
     }
     rolesMut.mutate({ role: selectedRole, permissions: next });
+  };
+
+  const togglePerm = (permission: string, allowed: boolean) => {
+    applyPermissions({ [permission]: allowed });
+  };
+
+  const toggleGroup = (permissions: readonly string[]) => {
+    const allAllowed = permissions.every((perm) => permMap.get(perm)?.allowed);
+    const updates = Object.fromEntries(permissions.map((perm) => [perm, !allAllowed]));
+    applyPermissions(updates);
+  };
+
+  const groupChecked = (permissions: readonly string[]) =>
+    permissions.some((perm) => permMap.get(perm)?.allowed);
+
+  const groupIndeterminate = (permissions: readonly string[]) => {
+    const allowedCount = permissions.filter((perm) => permMap.get(perm)?.allowed).length;
+    return allowedCount > 0 && allowedCount < permissions.length;
+  };
+
+  const savePassword = (userId: string) => {
+    if (!newPassword.trim()) return;
+    updateMut.mutate(
+      { id: userId, body: { password: newPassword } },
+      {
+        onSuccess: () => {
+          setPasswordEditId(null);
+          setNewPassword("");
+        },
+      },
+    );
   };
 
   if (usersQuery.isLoading || rolesQuery.isLoading) return <LoadingState />;
@@ -249,18 +301,61 @@ export default function AdminPage() {
                         </button>
                       </td>
                       <td className="px-5 py-3">
-                        <button
-                          type="button"
-                          className="text-xs text-red-400 hover:text-red-300 disabled:opacity-40"
-                          disabled={u.id === user?.id || deleteMut.isPending}
-                          onClick={() => {
-                            if (confirm(`Удалить пользователя ${u.username}?`)) {
-                              deleteMut.mutate(u.id);
-                            }
-                          }}
-                        >
-                          Удалить
-                        </button>
+                        <div className="flex flex-wrap items-center gap-2">
+                          {passwordEditId === u.id ? (
+                            <>
+                              <input
+                                className="input w-36 py-1.5 text-sm"
+                                type="password"
+                                placeholder="Новый пароль"
+                                value={newPassword}
+                                onChange={(e) => setNewPassword(e.target.value)}
+                                autoComplete="new-password"
+                              />
+                              <button
+                                type="button"
+                                className="text-xs text-amber-400 hover:text-amber-300 disabled:opacity-40"
+                                disabled={!newPassword.trim() || updateMut.isPending}
+                                onClick={() => savePassword(u.id)}
+                              >
+                                Сохранить
+                              </button>
+                              <button
+                                type="button"
+                                className="text-xs text-zinc-500 hover:text-zinc-300"
+                                onClick={() => {
+                                  setPasswordEditId(null);
+                                  setNewPassword("");
+                                }}
+                              >
+                                Отмена
+                              </button>
+                            </>
+                          ) : (
+                            <button
+                              type="button"
+                              className="text-xs text-zinc-400 hover:text-zinc-200"
+                              onClick={() => {
+                                setPasswordEditId(u.id);
+                                setNewPassword("");
+                              }}
+                            >
+                              Пароль
+                            </button>
+                          )}
+                          <button
+                            type="button"
+                            className="text-xs text-red-400 hover:text-red-300 disabled:opacity-40"
+                            disabled={u.id === user?.id || deleteMut.isPending}
+                            onClick={() => {
+                              if (confirm(`Удалить пользователя ${u.username}?`)) {
+                                deleteMut.mutate(u.id);
+                              }
+                            }}
+                          >
+                            Удалить
+                          </button>
+                        </div>
                       </td>
                     </tr>
                   ))}
@@ -273,21 +368,21 @@ export default function AdminPage() {
 
       {activeTab === "roles" && roleMatrix && (
         <div className="space-y-4">
-          <div className="flex flex-wrap gap-2">
-            {ROLE_OPTIONS.map((o) => (
-              <button
-                key={o.value}
-                type="button"
-                className={`rounded-lg border px-3 py-1.5 text-sm font-semibold transition-colors ${
-                  selectedRole === o.value
-                    ? "border-amber-500 bg-amber-600 text-zinc-950"
-                    : "border-zinc-700 bg-zinc-800/80 text-zinc-300 hover:border-amber-500/50"
-                }`}
-                onClick={() => setSelectedRole(o.value)}
-              >
-                {o.label}
-              </button>
-            ))}
+          <div className="panel p-5">
+            <label className="mb-2 block text-xs font-medium uppercase tracking-wider text-zinc-500">
+              Роль
+            </label>
+            <select
+              className="input max-w-xs"
+              value={selectedRole}
+              onChange={(e) => setSelectedRole(e.target.value as Role)}
+            >
+              {ROLE_OPTIONS.map((o) => (
+                <option key={o.value} value={o.value}>
+                  {o.label}
+                </option>
+              ))}
+            </select>
           </div>
 
           <div className="panel p-5">
@@ -298,7 +393,61 @@ export default function AdminPage() {
               Включите или отключите доступ к разделам и функциям для этой роли
             </p>
             <div className="space-y-2">
-              {roleMatrix.permissions.map((p) => (
+              {PERMISSION_GROUPS.map((group) => {
+                const children = group.permissions
+                  .map((perm) => permMap.get(perm))
+                  .filter((p): p is PermissionEntry => p != null);
+                if (children.length === 0) return null;
+
+                const parentChecked = groupChecked(group.permissions);
+                const parentIndeterminate = groupIndeterminate(group.permissions);
+
+                return (
+                  <div
+                    key={group.id}
+                    className="overflow-hidden rounded-xl border border-zinc-800/80 bg-zinc-900/40"
+                  >
+                    <label className="flex cursor-pointer items-center justify-between px-4 py-3 transition-colors hover:border-zinc-700">
+                      <div>
+                        <p className="text-sm font-medium text-zinc-200">{group.label}</p>
+                        <p className="text-[0.7rem] text-zinc-600">Раздел меню с подпунктами</p>
+                      </div>
+                      <input
+                        type="checkbox"
+                        className="h-4 w-4 accent-amber-500"
+                        checked={parentChecked}
+                        ref={(el) => {
+                          if (el) el.indeterminate = parentIndeterminate;
+                        }}
+                        disabled={rolesMut.isPending}
+                        onChange={() => toggleGroup(group.permissions)}
+                      />
+                    </label>
+                    <div className="space-y-1 border-t border-zinc-800/80 px-4 py-2">
+                      {children.map((p) => (
+                        <label
+                          key={p.permission}
+                          className="flex cursor-pointer items-center justify-between rounded-lg px-3 py-2.5 transition-colors hover:bg-zinc-800/40"
+                        >
+                          <div className="pl-2">
+                            <p className="text-sm text-zinc-300">{p.label ?? p.permission}</p>
+                            <p className="text-[0.65rem] text-zinc-600">{p.permission}</p>
+                          </div>
+                          <input
+                            type="checkbox"
+                            className="h-4 w-4 accent-amber-500"
+                            checked={p.allowed}
+                            disabled={rolesMut.isPending}
+                            onChange={(e) => togglePerm(p.permission, e.target.checked)}
+                          />
+                        </label>
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
+
+              {standalonePermissions.map((p) => (
                 <label
                   key={p.permission}
                   className="flex cursor-pointer items-center justify-between rounded-xl border border-zinc-800/80 bg-zinc-900/40 px-4 py-3 transition-colors hover:border-zinc-700"

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { GradePill, ItemIcon } from "../craft/CraftCostBar";
 import {
@@ -12,8 +11,6 @@ import { masterworkItemUrl } from "../../lib/itemEncyclopedia";
 import { useItemSources } from "../../hooks/useItemEncyclopedia";
 import { LoadingState } from "../ui";
 
-type DetailTab = "stats" | "sources" | "craft" | "set" | "enchant" | "links";
-
 interface Props {
   entry: ItemEncyclopediaEntry;
   onClose: () => void;
@@ -22,10 +19,22 @@ interface Props {
   headerExtra?: React.ReactNode;
 }
 
-const tabBtn = (active: boolean) =>
-  `rounded-lg px-2.5 py-1.5 text-xs font-semibold transition-colors ${
-    active ? "bg-amber-600 text-zinc-950" : "text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
-  }`;
+function DetailSection({
+  title,
+  children,
+}: {
+  title: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <section>
+      <h3 className="mb-3 border-b border-zinc-800/80 pb-2 text-xs font-semibold uppercase tracking-wide text-zinc-500">
+        {title}
+      </h3>
+      {children}
+    </section>
+  );
+}
 
 function SourceTable({
   title,
@@ -135,18 +144,15 @@ export default function ItemEncyclopediaPanel({
     Boolean(entry.has_drop) ||
     Boolean(entry.has_spoil);
 
-  const tabs: DetailTab[] = ["stats"];
-  if (hasSources) tabs.push("sources");
-  if (entry.craft?.craftable) tabs.push("craft");
-  if (entry.set || entry.set_name || setLinks?.length) tabs.push("set");
-  if ((entry.enchant?.length ?? 0) > 0) tabs.push("enchant");
-  if (entry.sealed_group || entry.links) tabs.push("links");
-
-  const [activeTab, setActiveTab] = useState<DetailTab>("stats");
   const needFetchSources =
-    activeTab === "sources" &&
+    hasSources &&
     (entry.drops == null || entry.spoils == null) &&
     (Boolean(entry.has_drop) || Boolean(entry.has_spoil));
+
+  const showCraft = Boolean(entry.craft?.craftable && craftLink);
+  const showSet = Boolean(entry.set || entry.set_name || setLinks?.length);
+  const showEnchant = (entry.enchant?.length ?? 0) > 0;
+  const showLinks = Boolean(entry.sealed_group);
   const { data: fetchedSources, isLoading: sourcesLoading } = useItemSources(
     entry.id,
     needFetchSources,
@@ -219,22 +225,9 @@ export default function ItemEncyclopediaPanel({
         </button>
       </div>
 
-      <div className="flex flex-wrap gap-1 border-b border-zinc-800/80 px-4 py-2">
-        {tabs.map((t) => (
-          <button key={t} type="button" className={tabBtn(activeTab === t)} onClick={() => setActiveTab(t)}>
-            {t === "stats" && "Характеристики"}
-            {t === "sources" && "Источники"}
-            {t === "craft" && "Крафт"}
-            {t === "set" && "Сет"}
-            {t === "enchant" && "Заточка"}
-            {t === "links" && "Связи"}
-          </button>
-        ))}
-      </div>
-
-      <div className="max-h-[70vh] space-y-4 overflow-y-auto p-4">
-        {activeTab === "stats" && (
-          <>
+      <div className="max-h-[70vh] space-y-6 overflow-y-auto p-4">
+        <DetailSection title="Характеристики">
+          <div className="space-y-4">
             {entry.variant_of != null && (
               <div className="rounded-xl border border-zinc-700/80 bg-zinc-800/40 px-3 py-2.5 text-sm">
                 <p className="text-zinc-400">
@@ -398,95 +391,105 @@ export default function ItemEncyclopediaPanel({
                 )}
               </div>
             ))}
-          </>
-        )}
-
-        {activeTab === "sources" && (
-          <div className="space-y-4">
-            {sourcesLoading && drops.length === 0 && spoils.length === 0 ? (
-              <LoadingState />
-            ) : (
-              <>
-                <SourceTable title="Дроп" rows={drops} />
-                <SourceTable title="Спойл" rows={spoils} />
-              </>
-            )}
           </div>
+        </DetailSection>
+
+        {hasSources && (
+          <DetailSection title="Источники">
+            <div className="space-y-4">
+              {sourcesLoading && drops.length === 0 && spoils.length === 0 ? (
+                <LoadingState />
+              ) : (
+                <>
+                  <SourceTable title="Дроп" rows={drops} />
+                  <SourceTable title="Спойл" rows={spoils} />
+                </>
+              )}
+            </div>
+          </DetailSection>
         )}
 
-        {activeTab === "craft" && craftLink && (
-          <Link to={craftLink} className="inline-flex rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-zinc-950">
-            Открыть калькулятор крафта →
-          </Link>
+        {showCraft && craftLink && (
+          <DetailSection title="Крафт">
+            <Link
+              to={craftLink}
+              className="inline-flex rounded-lg bg-amber-600 px-4 py-2 text-sm font-semibold text-zinc-950"
+            >
+              Открыть калькулятор крафта →
+            </Link>
+          </DetailSection>
         )}
 
-        {activeTab === "set" && (
-          <div className="space-y-2">
-            {setLinks?.length ? (
-              <div className="space-y-1">
-                {setLinks.length > 1 && (
-                  <p className="text-xs text-zinc-500">
-                    Часть используется в нескольких комплектах:
-                  </p>
-                )}
-                {setLinks.map((link) => (
-                  <button
-                    key={link.name}
-                    type="button"
-                    onClick={link.onClick}
-                    className="block text-sm font-medium text-amber-400 hover:underline"
-                  >
-                    {link.name}
-                  </button>
-                ))}
-              </div>
-            ) : (
-              entry.set_name && <p className="text-sm text-zinc-300">{entry.set_name}</p>
-            )}
-            {entry.set && typeof entry.set === "object" && "effect" in entry.set && (
-              <ul className="list-inside list-disc text-sm text-zinc-400">
-                {((entry.set as { effect?: string[] }).effect ?? []).map((e) => (
-                  <li key={e}>{e}</li>
-                ))}
-              </ul>
-            )}
-          </div>
+        {showSet && (
+          <DetailSection title="Сет">
+            <div className="space-y-2">
+              {setLinks?.length ? (
+                <div className="space-y-1">
+                  {setLinks.length > 1 && (
+                    <p className="text-xs text-zinc-500">
+                      Часть используется в нескольких комплектах:
+                    </p>
+                  )}
+                  {setLinks.map((link) => (
+                    <button
+                      key={link.name}
+                      type="button"
+                      onClick={link.onClick}
+                      className="block text-sm font-medium text-amber-400 hover:underline"
+                    >
+                      {link.name}
+                    </button>
+                  ))}
+                </div>
+              ) : (
+                entry.set_name && <p className="text-sm text-zinc-300">{entry.set_name}</p>
+              )}
+              {entry.set && typeof entry.set === "object" && "effect" in entry.set && (
+                <ul className="list-inside list-disc text-sm text-zinc-400">
+                  {((entry.set as { effect?: string[] }).effect ?? []).map((e) => (
+                    <li key={e}>{e}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </DetailSection>
         )}
 
-        {activeTab === "enchant" && (
-          <div className="overflow-x-auto rounded-lg border border-zinc-800">
-            <table className="w-full text-left text-sm">
-              <thead className="bg-zinc-900/80 text-xs uppercase text-zinc-500">
-                <tr>
-                  <th className="px-3 py-2">+</th>
-                  <th className="px-3 py-2">Кристаллы</th>
-                  <th className="px-3 py-2">Fail</th>
-                  <th className="px-3 py-2">Статы</th>
-                </tr>
-              </thead>
-              <tbody>
-                {(entry.enchant ?? []).map((row: ItemEnchantRow) => (
-                  <tr key={row.level} className="border-t border-zinc-800/80">
-                    <td className="px-3 py-2">+{row.level}</td>
-                    <td className="px-3 py-2">{row.crystals ?? "—"}</td>
-                    <td className="px-3 py-2">{row.fail_crystals ?? "—"}</td>
-                    <td className="px-3 py-2 text-zinc-400">
-                      {Object.entries(row)
-                        .filter(([k]) => !["level", "crystals", "fail_crystals"].includes(k))
-                        .map(([k, v]) => `${k}: ${v}`)
-                        .join(", ") || "—"}
-                    </td>
+        {showEnchant && (
+          <DetailSection title="Заточка">
+            <div className="overflow-x-auto rounded-lg border border-zinc-800">
+              <table className="w-full text-left text-sm">
+                <thead className="bg-zinc-900/80 text-xs uppercase text-zinc-500">
+                  <tr>
+                    <th className="px-3 py-2">+</th>
+                    <th className="px-3 py-2">Кристаллы</th>
+                    <th className="px-3 py-2">Fail</th>
+                    <th className="px-3 py-2">Статы</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
+                </thead>
+                <tbody>
+                  {(entry.enchant ?? []).map((row: ItemEnchantRow) => (
+                    <tr key={row.level} className="border-t border-zinc-800/80">
+                      <td className="px-3 py-2">+{row.level}</td>
+                      <td className="px-3 py-2">{row.crystals ?? "—"}</td>
+                      <td className="px-3 py-2">{row.fail_crystals ?? "—"}</td>
+                      <td className="px-3 py-2 text-zinc-400">
+                        {Object.entries(row)
+                          .filter(([k]) => !["level", "crystals", "fail_crystals"].includes(k))
+                          .map(([k, v]) => `${k}: ${v}`)
+                          .join(", ") || "—"}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </DetailSection>
         )}
 
-        {activeTab === "links" && entry.sealed_group && (
-          <div className="space-y-3 text-sm">
-            <div>
-              <h4 className="mb-1 text-xs font-semibold uppercase text-zinc-500">Sealed группа</h4>
+        {showLinks && entry.sealed_group && (
+          <DetailSection title="Связи">
+            <div className="space-y-3 text-sm">
               <p className="text-zinc-400">Sealed ID: {entry.sealed_group.sealed_id}</p>
               {entry.sealed_group.variants.map((v: { id: number; name: string; armor_type?: string | null }) => (
                 <Link key={v.id} to={`/items?id=${v.id}`} className="block text-amber-400 hover:underline">
@@ -494,7 +497,7 @@ export default function ItemEncyclopediaPanel({
                 </Link>
               ))}
             </div>
-          </div>
+          </DetailSection>
         )}
       </div>
     </div>
