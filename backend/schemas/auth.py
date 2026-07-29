@@ -77,3 +77,24 @@ class LoginLogsResponse(BaseModel):
     total: int
     page: int
     limit: int
+
+
+class RaidTimerLogItem(BaseModel):
+    id: uuid.UUID
+    user_id: uuid.UUID | None = None
+    username: str
+    ip_address: str
+    boss_external_id: int
+    boss_name: str
+    action: str
+    killed_at: datetime | None = None
+    logged_at: datetime
+
+    model_config = {"from_attributes": True}
+
+
+class RaidTimerLogsResponse(BaseModel):
+    items: list[RaidTimerLogItem]
+    total: int
+    page: int
+    limit: int

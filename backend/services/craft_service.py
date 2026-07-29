@@ -58,6 +58,19 @@ def _variant_json(recipe: CraftRecipe) -> dict:
     }
 
 
+def _farm_material_ids(db: Session) -> list[int]:
+    meta = _meta(db, RESOURCES_META_KEY)
+    ids: list[int] = []
+    for material in meta.get("materials") or []:
+        spoil = material.get("spoil_count") or 0
+        drop = material.get("drop_count") or 0
+        if spoil > 0 or drop > 0:
+            mid = material.get("id")
+            if mid is not None:
+                ids.append(int(mid))
+    return sorted(ids)
+
+
 def catalog(db: Session) -> dict:
     """Light catalog for pickers: every item, no descriptions, no recipe trees."""
     items = db.scalars(select(CraftItem)).all()
@@ -80,6 +93,7 @@ def catalog(db: Session) -> dict:
         "sets": meta.get("sets") or {},
         "setMeta": meta.get("setMeta") or {},
         "craftableIds": sorted(craftable_ids),
+        "farmMaterialIds": _farm_material_ids(db),
     }
 
 

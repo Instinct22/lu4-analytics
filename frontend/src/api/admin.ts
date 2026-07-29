@@ -32,6 +32,25 @@ export interface LoginLogsResponse {
   limit: number;
 }
 
+export interface RaidTimerLogItem {
+  id: string;
+  user_id: string | null;
+  username: string;
+  ip_address: string;
+  boss_external_id: number;
+  boss_name: string;
+  action: "set" | "clear";
+  killed_at: string | null;
+  logged_at: string;
+}
+
+export interface RaidTimerLogsResponse {
+  items: RaidTimerLogItem[];
+  total: number;
+  page: number;
+  limit: number;
+}
+
 export async function listUsers() {
   const { data } = await api.get("/admin/users");
   return data as AdminUser[];
@@ -67,4 +86,9 @@ export async function updateRolePermissions(role: Role, permissions: Record<stri
 export async function listLoginLogs(page = 1, limit = 25) {
   const { data } = await api.get("/admin/login-logs", { params: { page, limit } });
   return data as LoginLogsResponse;
+}
+
+export async function listRaidTimerLogs(page = 1, limit = 25) {
+  const { data } = await api.get("/admin/raid-timer-logs", { params: { page, limit } });
+  return data as RaidTimerLogsResponse;
 }

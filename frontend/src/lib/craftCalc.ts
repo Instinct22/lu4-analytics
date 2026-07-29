@@ -50,6 +50,8 @@ export interface CraftCatalog {
   byProduct: Record<string, CatalogVariant[]>;
   /** Every craftable product, including those whose variants are not loaded. */
   craftableIds?: number[];
+  /** Materials with spoil/drop sources on the Resources tab. */
+  farmMaterialIds?: number[];
   categories: {
     weapons: Record<string, Record<string, number[]>>;
     armors: Record<string, Record<string, number[]>>;
@@ -104,6 +106,21 @@ export interface RollupEntry {
   isBase: boolean;
   fromList: { pid: number; amt: number }[];
   node?: CalcNode;
+}
+
+export interface CartEntry {
+  productId: number;
+  qty: number;
+  variantIdx?: number;
+}
+
+export function ownedToRemaining(owned: Record<string, number>): Map<number, number> {
+  const remaining = new Map<number, number>();
+  for (const [k, v] of Object.entries(owned)) {
+    const n = Math.floor(Number(v));
+    if (n > 0) remaining.set(Number(k), n);
+  }
+  return remaining;
 }
 
 export const MARKET_MARKUP = 1.5;
@@ -238,16 +255,13 @@ export function buildTree(
   owned: Record<string, number>,
   variantIdx = 0,
   chosenVariants: Record<string, number> = {},
+  sharedRemaining?: Map<number, number>,
 ): CalcNode | null {
   const variants = variantsFor(catalog, productId);
   const variant = variants[variantIdx] ?? variants[0];
   if (!variant) return null;
 
-  const remaining = new Map<number, number>();
-  for (const [k, v] of Object.entries(owned)) {
-    const n = Math.floor(Number(v));
-    if (n > 0) remaining.set(Number(k), n);
-  }
+  const remaining = sharedRemaining ?? ownedToRemaining(owned);
 
   const crafts = Math.max(1, qty);
   const children: CalcNode[] = [];
@@ -257,7 +271,7 @@ export function buildTree(
     );
   }
 
-  const rootNet = consumeOwned(remaining, productId, 0);
+  consumeOwned(remaining, productId, 0);
   return {
     id: productId,
     want: crafts,
@@ -266,6 +280,37 @@ export function buildTree(
     children,
     recipe: variant,
   };
+}
+
+export function buildMultiCraftRollup(
+  catalog: CraftCatalog,
+  cart: CartEntry[],
+  owned: Record<string, number>,
+  chosenVariants: Record<string, number> = {},
+): RollupEntry[] {
+  if (cart.length === 0) return [];
+
+  const remaining = ownedToRemaining(owned);
+  const items: RollupEntry[] = [];
+
+  for (const entry of cart) {
+    const variantIdx = entry.variantIdx ?? chosenVariants[String(entry.productId)] ?? 0;
+    const tree = buildTree(
+      catalog,
+      entry.productId,
+      entry.qty,
+      owned,
+      variantIdx,
+      chosenVariants,
+      remaining,
+    );
+    if (tree) items.push(...shoppingItems(catalog, tree));
+  }
+
+  return mergeShoppingById(items).sort((a, b) => {
+    if (a.craftable !== b.craftable) return a.craftable ? -1 : 1;
+    return itemInfo(catalog, a.id).name.localeCompare(itemInfo(catalog, b.id).name);
+  });
 }
 
 export function effectivePrice(

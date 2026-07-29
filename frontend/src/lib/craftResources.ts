@@ -77,6 +77,16 @@ export function findResource(payload: CraftResourcesPayload, id: number): Resour
   return allResources(payload).find((e) => e.material.id === id);
 }
 
+export function materialHasFarmSources(
+  material: Pick<ResourceMaterial, "spoil_count" | "drop_count">,
+): boolean {
+  return material.spoil_count > 0 || material.drop_count > 0;
+}
+
+export function farmResourceIds(payload: CraftResourcesPayload): Set<number> {
+  return new Set(payload.materials.filter(materialHasFarmSources).map((m) => m.id));
+}
+
 export interface NpcLootEntry {
   materialId: number;
   materialName: string;

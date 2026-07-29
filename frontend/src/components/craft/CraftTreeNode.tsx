@@ -9,6 +9,8 @@ import {
   type PriceInfo,
 } from "../../lib/craftCalc";
 import { GradePill, HaveInput, ItemIcon, ItemPrice } from "./CraftCostBar";
+import CraftItemLink from "./CraftItemLink";
+import ExpandChevron from "./ExpandChevron";
 
 interface Props {
   node: CalcNode;
@@ -50,19 +52,29 @@ export default function CraftTreeNode({
 
   return (
     <div style={{ marginLeft: depth * 14 }}>
-      <div className="group flex items-center gap-2 rounded-lg px-2 py-1.5 transition-colors hover:bg-zinc-800/60">
-        <button
-          type="button"
-          className="w-4 shrink-0 text-center text-xs text-zinc-500 hover:text-amber-400"
-          onClick={() => hasChildren && setExpanded(!expanded)}
-          aria-label={expanded ? "Свернуть" : "Развернуть"}
-        >
-          {hasChildren ? (expanded ? "▼" : "▶") : ""}
-        </button>
+      <div className="craft-tree-row group flex items-center gap-2">
+        {hasChildren ? (
+          <button
+            type="button"
+            className={`expand-toggle ${expanded ? "expand-toggle--open" : ""}`}
+            onClick={() => setExpanded(!expanded)}
+            aria-label={expanded ? "Свернуть" : "Развернуть"}
+            aria-expanded={expanded}
+          >
+            <ExpandChevron open={expanded} />
+          </button>
+        ) : (
+          <span className="w-5 shrink-0" aria-hidden />
+        )}
         <ItemIcon id={node.id} size={24} />
         <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-1.5">
-            <span className="break-words text-sm font-medium text-zinc-100">{info.name}</span>
+            <CraftItemLink
+              id={node.id}
+              name={info.name}
+              catalog={catalog}
+              className="break-words text-sm font-medium text-zinc-100 hover:text-amber-400 hover:underline"
+            />
             <GradePill grade={info.grade} />
             {node.recipeScroll && (
               <span className="rounded bg-amber-900/40 px-1.5 py-0.5 text-[0.6rem] font-semibold uppercase text-amber-200">

@@ -236,9 +236,17 @@ def make_item(**kwargs):
 
 def test_catalog_endpoint_lists_items_without_descriptions(client, mock_db):
     mock_db.scalars.side_effect = scalars_by_model({"CraftItem": [make_item()]})
-    mock_db.scalar.return_value = SimpleNamespace(
-        payload={"generated_at": "now", "categories": {}, "sets": {}, "variant_count": 1}
-    )
+    mock_db.scalar.side_effect = [
+        SimpleNamespace(payload={"generated_at": "now", "categories": {}, "sets": {}, "variant_count": 1}),
+        SimpleNamespace(
+            payload={
+                "materials": [
+                    {"id": 1872, "spoil_count": 51, "drop_count": 344},
+                    {"id": 9999, "spoil_count": 0, "drop_count": 0},
+                ]
+            }
+        ),
+    ]
 
     r = client.get("/api/craft/catalog")
     assert r.status_code == 200
@@ -246,6 +254,7 @@ def test_catalog_endpoint_lists_items_without_descriptions(client, mock_db):
     assert body["items"]["10"]["name"] == "Bone Sword"
     assert "description" not in body["items"]["10"]
     assert body["craftableIds"] == []
+    assert body["farmMaterialIds"] == [1872]
 
 
 def test_item_endpoint_includes_description(client, mock_db):

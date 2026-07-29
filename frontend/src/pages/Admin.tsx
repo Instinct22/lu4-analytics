@@ -4,6 +4,7 @@ import {
   createUser,
   deleteUser,
   listLoginLogs,
+  listRaidTimerLogs,
   listRolePermissions,
   listUsers,
   updateRolePermissions,
@@ -45,17 +46,22 @@ function formatLoginAt(iso: string) {
   });
 }
 
+function formatRaidAction(action: string) {
+  return action === "clear" ? "Сброс" : "Установка";
+}
+
 export default function AdminPage() {
   const { user, refreshUser } = useAuth();
   const qc = useQueryClient();
   const isPrimaryAdmin = user?.username === "admin";
-  const [tab, setTab] = useState<"users" | "roles" | "logins">("users");
+  const [tab, setTab] = useState<"users" | "roles" | "logins" | "raids">("users");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [role, setRole] = useState<Role>("user");
   const [formError, setFormError] = useState("");
   const [selectedRole, setSelectedRole] = useState<Role>("user");
   const [loginPage, setLoginPage] = useState(1);
+  const [raidPage, setRaidPage] = useState(1);
   const [passwordEditId, setPasswordEditId] = useState<string | null>(null);
   const [newPassword, setNewPassword] = useState("");
 
@@ -66,8 +72,14 @@ export default function AdminPage() {
     queryFn: () => listLoginLogs(loginPage, LOGIN_LOGS_LIMIT),
     enabled: isPrimaryAdmin && tab === "logins",
   });
+  const raidLogsQuery = useQuery({
+    queryKey: ["admin-raid-timer-logs", raidPage],
+    queryFn: () => listRaidTimerLogs(raidPage, LOGIN_LOGS_LIMIT),
+    enabled: isPrimaryAdmin && tab === "raids",
+  });
 
-  const activeTab = tab === "logins" && !isPrimaryAdmin ? "users" : tab;
+  const activeTab =
+    (tab === "logins" || tab === "raids") && !isPrimaryAdmin ? "users" : tab;
 
   const createMut = useMutation({
     mutationFn: createUser,
@@ -170,19 +182,28 @@ export default function AdminPage() {
 
   const loginTotal = loginLogsQuery.data?.total ?? 0;
   const loginTotalPages = Math.max(1, Math.ceil(loginTotal / (loginLogsQuery.data?.limit ?? LOGIN_LOGS_LIMIT)));
+  const raidTotal = raidLogsQuery.data?.total ?? 0;
+  const raidTotalPages = Math.max(1, Math.ceil(raidTotal / (raidLogsQuery.data?.limit ?? LOGIN_LOGS_LIMIT)));
 
   return (
     <div>
       <PageHeader title="Администрирование" />
       <p className="mb-6 -mt-4 text-sm text-zinc-500">
-        {isPrimaryAdmin ? "Пользователи, права ролей и журнал входов" : "Пользователи и права ролей"}
+        {isPrimaryAdmin
+          ? "Пользователи, права ролей, журнал входов и обновлений таймеров рейдов"
+          : "Пользователи и права ролей"}
       </p>
       <div className="mb-6 flex gap-1 rounded-xl bg-zinc-800/80 p-1 w-fit">
         {(
           [
             ["users", "Пользователи"],
             ["roles", "Права ролей"],
-            ...(isPrimaryAdmin ? ([["logins", "Входы"]] as const) : []),
+            ...(isPrimaryAdmin
+              ? ([
+                  ["logins", "Входы"],
+                  ["raids", "Рейды"],
+                ] as const)
+              : []),
           ] as const
         ).map(([id, label]) => (
           <button
@@ -535,6 +556,104 @@ export default function AdminPage() {
                     type="button"
                     disabled={loginPage >= loginTotalPages}
                     onClick={() => setLoginPage((p) => p + 1)}
+                    className="btn-ghost px-2 py-1 disabled:opacity-40"
+                  >
+                    →
+                  </button>
+                </div>
+              </div>
+            </>
+          )}
+        </div>
+      )}
+      {activeTab === "raids" && isPrimaryAdmin && (
+        <div className="card overflow-hidden p-0">
+          <div className="border-b border-zinc-800/80 px-5 py-4">
+            <h3 className="text-sm font-semibold text-zinc-200">Журнал таймеров рейдов</h3>
+            <p className="mt-1 text-xs text-zinc-500">
+              Кто, с какого IP и когда обновил таймер какого рейд-босса
+            </p>
+          </div>
+          {raidLogsQuery.isLoading ? (
+            <div className="p-8">
+              <LoadingState />
+            </div>
+          ) : raidLogsQuery.isError ? (
+            <p className="px-5 py-8 text-sm text-red-300">Не удалось загрузить журнал рейдов</p>
+          ) : (
+            <>
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="border-b border-zinc-800/80 bg-zinc-900/40 text-left text-xs uppercase tracking-wider text-zinc-500">
+                      <th className="px-5 py-3 font-medium">Учётная запись</th>
+                      <th className="px-5 py-3 font-medium">IP</th>
+                      <th className="px-5 py-3 font-medium">Босс</th>
+                      <th className="px-5 py-3 font-medium">Действие</th>
+                      <th className="px-5 py-3 font-medium">Время убийства</th>
+                      <th className="px-5 py-3 font-medium">Дата и время</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {(raidLogsQuery.data?.items ?? []).length === 0 ? (
+                      <tr>
+                        <td colSpan={6} className="px-5 py-8 text-center text-zinc-500">
+                          Пока нет записей об обновлениях таймеров
+                        </td>
+                      </tr>
+                    ) : (
+                      (raidLogsQuery.data?.items ?? []).map((row) => (
+                        <tr key={row.id} className="border-b border-zinc-800/50">
+                          <td className="px-5 py-3 font-medium text-zinc-200">{row.username}</td>
+                          <td className="px-5 py-3 font-mono text-xs text-zinc-300">
+                            {row.ip_address || "—"}
+                          </td>
+                          <td className="px-5 py-3 text-zinc-200">
+                            {row.boss_name}
+                            <span className="ml-1.5 text-[0.65rem] text-zinc-500">#{row.boss_external_id}</span>
+                          </td>
+                          <td className="px-5 py-3">
+                            <span
+                              className={`rounded-lg px-2 py-0.5 text-xs font-medium ${
+                                row.action === "clear"
+                                  ? "bg-zinc-800 text-zinc-400"
+                                  : "bg-amber-950/60 text-amber-300"
+                              }`}
+                            >
+                              {formatRaidAction(row.action)}
+                            </span>
+                          </td>
+                          <td className="px-5 py-3 text-zinc-300">
+                            {row.killed_at ? formatLoginAt(row.killed_at) : "—"}
+                          </td>
+                          <td className="px-5 py-3 text-zinc-300">{formatLoginAt(row.logged_at)}</td>
+                        </tr>
+                      ))
+                    )}
+                  </tbody>
+                </table>
+              </div>
+              <div className="flex items-center justify-between border-t border-zinc-800/80 px-5 py-3 text-xs text-zinc-500">
+                <span>
+                  {raidTotal.toLocaleString("ru-RU")} записей
+                  {raidLogsQuery.isFetching && " · обновление..."}
+                </span>
+                <div className="flex items-center gap-2">
+                  <button
+                    type="button"
+                    disabled={raidPage <= 1}
+                    onClick={() => setRaidPage((p) => Math.max(1, p - 1))}
+                    className="btn-ghost px-2 py-1 disabled:opacity-40"
+                  >
+                    ←
+                  </button>
+                  <span>
+                    {raidPage} / {raidTotalPages}
+                  </span>
+                  <button
+                    type="button"
+                    disabled={raidPage >= raidTotalPages}
+                    onClick={() => setRaidPage((p) => p + 1)}
                     className="btn-ghost px-2 py-1 disabled:opacity-40"
                   >
                     →

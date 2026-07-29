@@ -2,11 +2,12 @@ import { useQuery } from "@tanstack/react-query";
 import { getCraftResources, getMaterialSources, getNpcMaterials } from "../api/craft";
 
 /** Material list without spoil/drop rows: those are loaded per material. */
-export function useCraftResources() {
+export function useCraftResources(options?: { enabled?: boolean }) {
   return useQuery({
     queryKey: ["craft", "resources"],
     queryFn: getCraftResources,
     staleTime: 1000 * 60 * 60,
+    enabled: options?.enabled ?? true,
   });
 }
 

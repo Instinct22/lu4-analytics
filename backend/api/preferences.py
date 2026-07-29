@@ -10,7 +10,7 @@ from models.preferences import UserPreference
 router = APIRouter()
 
 #: Client state that used to live in localStorage.
-SCOPES = frozenset({"craft_owned", "craft_prices", "craft_variants"})
+SCOPES = frozenset({"craft_owned", "craft_prices", "craft_variants", "craft_cart"})
 
 #: Guard against a runaway client filling the table with megabytes of JSON.
 MAX_PAYLOAD_BYTES = 256 * 1024
