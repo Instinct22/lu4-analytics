@@ -22,98 +22,125 @@ function levelFromWikiText(text: string | null | undefined): string | null {
   return match?.[1] ?? null;
 }
 
-function ResourceLootRows({
-  entries,
-  onMaterialClick,
+const LOOT_CELL = "px-3 py-2";
+
+interface NpcLootTableRow {
+  id: number;
+  name: string;
+  grade: string;
+  amount: string;
+  chance: string;
+  itemUrl?: string;
+  onNameClick?: () => void;
+  nameHref?: string;
+}
+
+function NpcLootTable({
+  rows,
+  nameColumn,
+  emptyMessage,
 }: {
-  entries: NpcLootEntry[];
-  onMaterialClick: (id: number) => void;
+  rows: NpcLootTableRow[];
+  nameColumn: string;
+  emptyMessage: string;
 }) {
-  if (entries.length === 0) {
-    return <p className="text-sm italic text-zinc-500">Нет ресурсов крафта</p>;
+  if (rows.length === 0) {
+    return <p className={`${LOOT_CELL} text-sm italic text-zinc-500`}>{emptyMessage}</p>;
   }
+
   return (
-    <table className="w-full min-w-[520px] text-sm">
+    <table className="w-full min-w-[560px] table-fixed text-sm">
+      <colgroup>
+        <col className="w-10" />
+        <col />
+        <col className="w-[4.5rem]" />
+        <col className="w-[5.5rem]" />
+        <col className="w-[5.5rem]" />
+        <col className="w-12" />
+      </colgroup>
       <thead>
         <tr className="border-b border-zinc-800/80 bg-zinc-900/80 text-left text-xs uppercase tracking-wider text-zinc-500">
-          <th className="px-3 py-2">#</th>
-          <th className="px-3 py-2">Ресурс</th>
-          <th className="px-3 py-2">Grade</th>
-          <th className="px-3 py-2">Кол-во</th>
-          <th className="px-3 py-2">Шанс</th>
+          <th className={LOOT_CELL}>#</th>
+          <th className={LOOT_CELL}>{nameColumn}</th>
+          <th className={LOOT_CELL}>Grade</th>
+          <th className={LOOT_CELL}>Кол-во</th>
+          <th className={`${LOOT_CELL} text-right`}>Шанс</th>
+          <th className={`${LOOT_CELL} text-center`}>Wiki</th>
         </tr>
       </thead>
       <tbody>
-        {entries.map((entry, i) => (
-          <tr key={`${entry.materialId}-${i}`} className="border-t border-zinc-800/50 even:bg-zinc-900/30">
-            <td className="px-3 py-2 text-zinc-500">{i + 1}</td>
-            <td className="px-3 py-2">
-              <div className="flex items-center gap-2">
-                <ItemIcon id={entry.materialId} size={28} />
-                <button
-                  type="button"
-                  onClick={() => onMaterialClick(entry.materialId)}
-                  className="font-medium text-sky-400 hover:underline"
-                >
-                  {entry.materialName}
-                </button>
-              </div>
-            </td>
-            <td className="px-3 py-2 text-zinc-400">{entry.materialGrade}</td>
-            <td className="px-3 py-2 tabular-nums text-zinc-300">{entry.amount}</td>
-            <td className="px-3 py-2 font-semibold tabular-nums text-sky-300">{formatChance(entry.chance)}</td>
-          </tr>
-        ))}
+        {rows.map((row, i) => {
+          const wikiHref = row.itemUrl ? wikiUrl(row.itemUrl) : null;
+          return (
+            <tr key={`${row.id}-${i}`} className="border-t border-zinc-800/50 even:bg-zinc-900/30">
+              <td className={`${LOOT_CELL} text-zinc-500`}>{i + 1}</td>
+              <td className={LOOT_CELL}>
+                <div className="flex min-w-0 items-center gap-2">
+                  <ItemIcon id={row.id} size={28} />
+                  {row.onNameClick ? (
+                    <button
+                      type="button"
+                      onClick={row.onNameClick}
+                      className="min-w-0 truncate text-left font-medium text-sky-400 hover:underline"
+                    >
+                      {row.name}
+                    </button>
+                  ) : row.nameHref ? (
+                    <Link
+                      to={row.nameHref}
+                      className="min-w-0 truncate font-medium text-sky-400 hover:underline"
+                    >
+                      {row.name}
+                    </Link>
+                  ) : (
+                    <span className="min-w-0 truncate font-medium text-zinc-200">{row.name}</span>
+                  )}
+                </div>
+              </td>
+              <td className={`${LOOT_CELL} text-zinc-400`}>{row.grade || "—"}</td>
+              <td className={`${LOOT_CELL} tabular-nums text-zinc-300`}>{row.amount}</td>
+              <td className={`${LOOT_CELL} text-right font-semibold tabular-nums text-sky-300`}>
+                {formatChance(row.chance)}
+              </td>
+              <td className={`${LOOT_CELL} text-center`}>
+                {wikiHref ? (
+                  <a href={wikiHref} target="_blank" rel="noreferrer" className="text-amber-400 hover:underline">
+                    ↗
+                  </a>
+                ) : (
+                  <span className="text-zinc-600">—</span>
+                )}
+              </td>
+            </tr>
+          );
+        })}
       </tbody>
     </table>
   );
 }
 
-function OtherLootRows({ entries }: { entries: NpcItemLootEntry[] }) {
-  if (entries.length === 0) {
-    return <p className="text-sm italic text-zinc-500">Нет других предметов</p>;
-  }
-  return (
-    <table className="w-full min-w-[520px] text-sm">
-      <thead>
-        <tr className="border-b border-zinc-800/80 bg-zinc-900/80 text-left text-xs uppercase tracking-wider text-zinc-500">
-          <th className="px-3 py-2">#</th>
-          <th className="px-3 py-2">Предмет</th>
-          <th className="px-3 py-2">Grade</th>
-          <th className="px-3 py-2">Кол-во</th>
-          <th className="px-3 py-2">Шанс</th>
-        </tr>
-      </thead>
-      <tbody>
-        {entries.map((entry, i) => (
-          <tr key={`${entry.item_id}-${i}`} className="border-t border-zinc-800/50 even:bg-zinc-900/30">
-            <td className="px-3 py-2 text-zinc-500">{i + 1}</td>
-            <td className="px-3 py-2">
-              <div className="flex items-center gap-2">
-                <ItemIcon id={entry.item_id} size={28} />
-                <Link to={itemPagePath(entry.item_id)} className="font-medium text-sky-400 hover:underline">
-                  {entry.item_name}
-                </Link>
-                {entry.item_url ? (
-                  <a
-                    href={wikiUrl(entry.item_url)}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-xs text-amber-400/80 hover:underline"
-                  >
-                    wiki
-                  </a>
-                ) : null}
-              </div>
-            </td>
-            <td className="px-3 py-2 text-zinc-400">{entry.item_grade || "—"}</td>
-            <td className="px-3 py-2 tabular-nums text-zinc-300">{entry.amount}</td>
-            <td className="px-3 py-2 font-semibold tabular-nums text-sky-300">{formatChance(entry.chance)}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table>
-  );
+function resourceLootRows(entries: NpcLootEntry[], onMaterialClick: (id: number) => void): NpcLootTableRow[] {
+  return entries.map((entry) => ({
+    id: entry.materialId,
+    name: entry.materialName,
+    grade: entry.materialGrade,
+    amount: entry.amount,
+    chance: entry.chance,
+    itemUrl: entry.materialUrl,
+    onNameClick: () => onMaterialClick(entry.materialId),
+  }));
+}
+
+function otherLootRows(entries: NpcItemLootEntry[]): NpcLootTableRow[] {
+  return entries.map((entry) => ({
+    id: entry.item_id,
+    name: entry.item_name,
+    grade: entry.item_grade,
+    amount: entry.amount,
+    chance: entry.chance,
+    itemUrl: entry.item_url,
+    nameHref: itemPagePath(entry.item_id),
+  }));
 }
 
 function LootSection({
@@ -128,9 +155,7 @@ function LootSection({
   return (
     <section className="mt-5">
       <h4 className={`text-sm font-semibold ${titleColor}`}>{title}</h4>
-      <div className="mt-3 overflow-x-auto rounded-xl border border-zinc-800/80">
-        <div className="p-1">{children}</div>
-      </div>
+      <div className="mt-3 overflow-x-auto rounded-xl border border-zinc-800/80">{children}</div>
     </section>
   );
 }
@@ -243,10 +268,18 @@ export default function NpcDetailPanel({ source, materialName, onBack, onMateria
         ) : (
           <>
             <LootSection title="Спойл (Sweep) — ресурсы крафта" titleColor="text-emerald-400">
-              <ResourceLootRows entries={profile.spoils} onMaterialClick={onMaterialClick} />
+              <NpcLootTable
+                rows={resourceLootRows(profile.spoils, onMaterialClick)}
+                nameColumn="Ресурс"
+                emptyMessage="Нет ресурсов крафта"
+              />
             </LootSection>
             <LootSection title="Дроп — ресурсы крафта" titleColor="text-amber-400">
-              <ResourceLootRows entries={profile.drops} onMaterialClick={onMaterialClick} />
+              <NpcLootTable
+                rows={resourceLootRows(profile.drops, onMaterialClick)}
+                nameColumn="Ресурс"
+                emptyMessage="Нет ресурсов крафта"
+              />
             </LootSection>
           </>
         )}
@@ -257,12 +290,20 @@ export default function NpcDetailPanel({ source, materialName, onBack, onMateria
           <>
             {otherSpoils.length > 0 && (
               <LootSection title="Спойл — прочее" titleColor="text-emerald-300/90">
-                <OtherLootRows entries={otherSpoils} />
+                <NpcLootTable
+                  rows={otherLootRows(otherSpoils)}
+                  nameColumn="Предмет"
+                  emptyMessage="Нет других предметов"
+                />
               </LootSection>
             )}
             {otherDrops.length > 0 && (
               <LootSection title="Дроп — прочее" titleColor="text-amber-300/90">
-                <OtherLootRows entries={otherDrops} />
+                <NpcLootTable
+                  rows={otherLootRows(otherDrops)}
+                  nameColumn="Предмет"
+                  emptyMessage="Нет других предметов"
+                />
               </LootSection>
             )}
           </>
