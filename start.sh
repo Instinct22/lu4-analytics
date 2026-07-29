@@ -86,27 +86,9 @@ if grep -qE 'change-me|change-import-key' .env 2>/dev/null; then
   echo "" >&2
 fi
 
-# --- Preflight ---
-missing=0
-for path in \
-  "data/wiki/library" \
-  "data/wiki/images" \
-  "data/datasets/items_encyclopedia.json" \
-  "data/datasets/character_data.json" \
-  "data/datasets/duals_catalog.json" \
-  "data/datasets/raid_bosses.json"
-do
-  if [ ! -e "$ROOT/$path" ]; then
-    echo "Ошибка: нет $path" >&2
-    missing=1
-  fi
-done
-if [ "$missing" -ne 0 ]; then
-  echo "Распакуйте полный архив (с data/) или скопируйте wiki/datasets." >&2
-  exit 1
-fi
-
-mkdir -p data/media data/raid-bosses
+IMAGE_TAG="${IMAGE_TAG:-latest}"
+export IMAGE_TAG
+echo "Образы: IMAGE_TAG=${IMAGE_TAG} (pull с Docker Hub, data в nginx-образе)"
 
 # --- Остановить старый стек (pgdata не трогаем без --fresh-db) ---
 echo ""
@@ -136,10 +118,11 @@ fi
 rm -rf frontend/node_modules frontend/dist .pytest_cache backend/.pytest_cache data/reports 2>/dev/null || true
 find backend database scripts -type d -name '__pycache__' 2>/dev/null | while read -r d; do rm -rf "$d"; done || true
 
-# --- Сборка и запуск ---
+# --- Pull и запуск ---
 echo ""
-echo "Сборка и запуск (первый импорт wiki может занять 10–15 мин)..."
-docker compose -f "$COMPOSE_FILE" up -d --build --wait
+echo "Pull образов и запуск (первый импорт wiki может занять 10–15 мин)..."
+docker compose -f "$COMPOSE_FILE" pull
+docker compose -f "$COMPOSE_FILE" up -d --wait
 
 if [ "$REIMPORT_DATASETS" -eq 1 ]; then
   echo ""

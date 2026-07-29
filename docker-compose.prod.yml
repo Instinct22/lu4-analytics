@@ -14,10 +14,23 @@ services:
       timeout: 5s
       retries: 10
 
+  nginx:
+    image: ${DOCKER_REGISTRY:-liiiiiiiiis}/${DOCKER_IMAGE_PREFIX:-lu4-analytics}-nginx:${IMAGE_TAG:-latest}
+    restart: unless-stopped
+    ports:
+      - "${HTTP_PORT:-80}:80"
+    volumes:
+      - static_data:/data
+      - media_uploads:/data/media:ro
+    healthcheck:
+      test: ["CMD", "test", "-f", "/data/datasets/items_encyclopedia.json"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+      start_period: 120s
+
   backend:
-    build:
-      context: .
-      dockerfile: backend/Dockerfile.prod
+    image: ${DOCKER_REGISTRY:-liiiiiiiiis}/${DOCKER_IMAGE_PREFIX:-lu4-analytics}-backend:${IMAGE_TAG:-latest}
     restart: unless-stopped
     env_file: .env
     environment:
@@ -29,14 +42,12 @@ services:
       DEV_RELOAD: "false"
       UVICORN_WORKERS: ${UVICORN_WORKERS:-1}
     volumes:
-      # library/raw is only read to (re)parse NPC loot on import; requests are
-      # served from npc_loot, so it can be left out of the deploy archive.
-      - ./data/wiki:/data/wiki:ro
-      - ./data/datasets:/data/datasets:ro
-      - ./data/raid-bosses:/data/raid-bosses:ro
-      - ./data/media:/data/media
+      - static_data:/data:ro
+      - media_uploads:/data/media
     depends_on:
       db:
+        condition: service_healthy
+      nginx:
         condition: service_healthy
     healthcheck:
       test: ["CMD", "curl", "-f", "http://127.0.0.1:8000/api/health"]
@@ -46,23 +57,12 @@ services:
       start_period: 1200s
 
   frontend:
-    build: ./frontend
+    image: ${DOCKER_REGISTRY:-liiiiiiiiis}/${DOCKER_IMAGE_PREFIX:-lu4-analytics}-frontend:${IMAGE_TAG:-latest}
     restart: unless-stopped
     depends_on:
       - backend
-
-  nginx:
-    image: nginx:alpine
-    restart: unless-stopped
-    ports:
-      - "${HTTP_PORT:-80}:80"
-    volumes:
-      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
-      - ./data/wiki:/data/wiki:ro
-      - ./data/media:/data/media:ro
-    depends_on:
-      - backend
-      - frontend
 
 volumes:
   pgdata:
+  static_data:
+  media_uploads:
