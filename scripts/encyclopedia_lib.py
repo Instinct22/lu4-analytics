@@ -259,7 +259,14 @@ def finalize_payload(payload: dict[str, Any], *, craft_catalog: dict | None = No
         }
 
     if payload.get("craft"):
-        out["craft"] = {**(out.get("craft") or {}), **payload["craft"]}
+        incoming = dict(payload["craft"])
+        if craft_catalog:
+            # Fresh catalog meta wins over stale embedded craft trees.
+            incoming.pop("categories", None)
+            incoming.pop("sets", None)
+            incoming.pop("set_meta", None)
+            incoming.pop("setMeta", None)
+        out["craft"] = {**(out.get("craft") or {}), **incoming}
 
     items_in: dict[str, Any] = payload.get("items") or {}
     items_out: dict[str, Any] = {}
@@ -278,6 +285,17 @@ def finalize_payload(payload: dict[str, Any], *, craft_catalog: dict | None = No
         items_out[str(normalized.get("id", raw_id))] = normalized
 
     merge_gear_variants(items_out, craft_by_product=craft_by_product)
+
+    if craft_catalog:
+        catalog_items = craft_catalog.get("items") or {}
+        for raw_id, item in items_out.items():
+            if not isinstance(item, dict):
+                continue
+            iid = item.get("id") if isinstance(item.get("id"), int) else int(raw_id)
+            ci = catalog_items.get(str(iid)) or catalog_items.get(iid)
+            if isinstance(ci, dict) and ci.get("category"):
+                item["category"] = ci["category"]
+
     counts = {"gear": 0, "other": 0, "excluded": 0}
     for item in items_out.values():
         if isinstance(item, dict):

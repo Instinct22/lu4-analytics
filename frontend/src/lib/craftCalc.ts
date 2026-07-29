@@ -436,6 +436,7 @@ export const GRADE_COLORS: Record<string, string> = {
 export const TAB_LABELS: Record<string, string> = {
   weapons: "Оружие",
   armors: "Броня",
+  jewelry: "Бижутерия",
   materials: "Материалы",
   other: "Прочее",
   sets: "Сеты",

@@ -267,6 +267,25 @@ export default function CraftCategoryTree({
     );
   }
 
+  if (tab === "jewelry") {
+    const fromJewelry = (cats.other ?? {}).jewelry ?? [];
+    const fromSealed = ((cats.other ?? {}).sealed ?? []).filter((id) =>
+      (itemInfo(catalog, id).type || "").toLowerCase().startsWith("accessory"),
+    );
+    const ids = [...new Set([...fromJewelry, ...fromSealed])];
+    const filtered = ids.filter(
+      (id) => matchesSearch(catalog, id, q) && matchesGrade(catalog, id, gradeFilter),
+    );
+    return (
+      <ItemList
+        ids={filtered.sort((a, b) => itemInfo(catalog, a).name.localeCompare(itemInfo(catalog, b).name))}
+        catalog={catalog}
+        onSelect={onSelect}
+        selectedId={selectedId}
+      />
+    );
+  }
+
   if (tab === "materials") {
     const allIds: number[] = [];
     for (const ids of Object.values(cats.materials ?? {})) {
@@ -288,7 +307,9 @@ export default function CraftCategoryTree({
 
   return (
     <div className="space-y-5">
-      {Object.entries(cats.other ?? {}).map(([sub, ids]) => {
+      {Object.entries(cats.other ?? {})
+        .filter(([sub]) => sub !== "jewelry" && sub !== "sealed")
+        .map(([sub, ids]) => {
         const filtered = ids.filter(
           (id) => matchesSearch(catalog, id, q) && matchesGrade(catalog, id, gradeFilter),
         );

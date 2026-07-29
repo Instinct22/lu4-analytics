@@ -31,8 +31,35 @@ def test_soulshot_by_name():
     assert resolve_category("Other", "Soulshot (D-Grade)") == "other/soulshots"
 
 
-def test_sealed_accessory_by_name():
-    assert resolve_category("Accessory / Ring", "Sealed Phoenix Ring") == "other/sealed"
+def test_sealed_accessory_maps_to_jewelry():
+    assert resolve_category("Accessory / Ring", "Sealed Phoenix Ring") == "other/jewelry"
+    assert resolve_category("Accessory / Necklace", "Sealed Tateossian Necklace") == "other/jewelry"
+
+
+def test_apply_categories_puts_sealed_jewelry_in_jewelry_bucket():
+    payload = {
+        "items": {
+            "6325": {
+                "id": 6325,
+                "name": "Sealed Phoenix Ring",
+                "grade": "A",
+                "type": "Accessory / Ring",
+            },
+            "100": {
+                "id": 100,
+                "name": "Ring of Devotion",
+                "grade": "D",
+                "type": "Accessory / Ring",
+            },
+        },
+        "byProduct": {"6325": [{"recipe_id": 1}], "100": [{"recipe_id": 2}]},
+        "sets": {},
+    }
+    apply_categories(payload)
+    jewelry = payload["categories"]["other"]["jewelry"]
+    assert 6325 in jewelry
+    assert 100 in jewelry
+    assert "sealed" not in payload["categories"]["other"]
 
 
 def test_apply_categories_builds_magic_bucket():
