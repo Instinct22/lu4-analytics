@@ -84,8 +84,6 @@ def resolve_category(item_type: str, name: str = "") -> str:
         return "armors/misc"
 
     if head == "accessory":
-        if "sealed" in (name or "").lower():
-            return "other/sealed"
         return "other/jewelry"
 
     if head == "other":

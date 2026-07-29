@@ -4,7 +4,7 @@ import CraftCategoryTree from "./CraftCategoryTree";
 import { GradePill, ItemIcon } from "./CraftCostBar";
 
 const GRADES = ["", "NG", "D", "C", "B", "A", "S"];
-const TABS = ["weapons", "armors", "materials", "other", "sets"] as const;
+const TABS = ["weapons", "armors", "jewelry", "materials", "other", "sets"] as const;
 
 interface Props {
   catalog: CraftCatalog;
