@@ -1,7 +1,8 @@
 #!/bin/sh
 set -e
 
-mkdir -p /data/media
-cp -a /seed/data/. /data/
+cp -a /seed/data/wiki /data/
+cp -a /seed/data/datasets /data/
+cp -a /seed/data/raid-bosses /data/
 
 exec "$@"

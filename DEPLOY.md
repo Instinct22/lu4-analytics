@@ -50,7 +50,6 @@ cd f:\lu4_anal\lu4-analytics
 | `data/wiki/` | library + images |
 | `data/datasets/` | JSON для импорта (encyclopedia, character, duals, raid bosses) |
 | `data/raid-bosses/` | маршруты боссов |
-| `data/media/` | пустой каталог uploads |
 | `docker-compose.prod.yml` | прод-стек |
 | `.env.example` | шаблон секретов |
 | `start.sh` | единый запуск |
@@ -71,7 +70,7 @@ scp "f:\lu4_anal\lu4-analytics\dist\lu4-analytics-YYYYMMDD-HHMM.tar.gz" root@31.
 
 ## Шаг 3. Разархивация с заменой старой версии
 
-Обычный `tar xzf` поверх каталога **не удаляет** устаревшие файлы. Поэтому делаем чистую замену, сохраняя `.env`, uploads и БД (Docker volume `pgdata`).
+Обычный `tar xzf` поверх каталога **не удаляет** устаревшие файлы. Поэтому делаем чистую замену, сохраняя `.env` и БД (Docker volume `pgdata`).
 
 ```bash
 ssh root@31.76.7.61
@@ -86,9 +85,8 @@ if [ -d /opt/lu4-analytics ]; then
   docker compose -f docker-compose.prod.yml down 2>/dev/null || true
   docker compose -f docker-compose.yml down 2>/dev/null || true
 
-  # 2. Сохранить секреты и пользовательские uploads
+  # 2. Сохранить секреты
   cp -a .env /tmp/lu4.env.bak 2>/dev/null || true
-  cp -a data/media /tmp/lu4.media.bak 2>/dev/null || true
 
   # 3. Убрать старый каталог в бэкап
   cd /opt
@@ -100,15 +98,11 @@ mkdir -p /opt/lu4-analytics
 cd /opt/lu4-analytics
 tar xzf /opt/lu4-analytics-*.tar.gz
 
-# 5. Вернуть .env и media
+# 5. Вернуть .env
 if [ -f /tmp/lu4.env.bak ]; then
   cp -a /tmp/lu4.env.bak .env
 else
   cp .env.example .env
-fi
-mkdir -p data/media
-if [ -d /tmp/lu4.media.bak ]; then
-  cp -a /tmp/lu4.media.bak/. data/media/ 2>/dev/null || true
 fi
 ```
 
@@ -204,7 +198,7 @@ cd f:\lu4_anal\lu4-analytics
 scp dist\lu4-analytics-*.tar.gz root@31.76.7.61:/opt/
 ```
 
-На сервере — снова **шаг 3** (замена каталога с сохранением `.env`/media) и:
+На сервере — снова **шаг 3** (замена каталога с сохранением `.env`) и:
 
 ```bash
 cd /opt/lu4-analytics
