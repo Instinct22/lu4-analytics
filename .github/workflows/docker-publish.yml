@@ -33,7 +33,7 @@ jobs:
             file: backend/Dockerfile.prod
           - name: frontend
             context: frontend
-            file: Dockerfile
+            file: frontend/Dockerfile
           - name: nginx
             context: .
             file: nginx/Dockerfile
