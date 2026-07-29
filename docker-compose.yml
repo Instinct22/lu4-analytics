@@ -29,7 +29,6 @@ services:
       - ./data/wiki:/data/wiki:ro
       - ./data/datasets:/data/datasets:ro
       - ./data/raid-bosses:/data/raid-bosses:ro
-      - ./data/media:/data/media
     depends_on:
       backend:
         condition: service_healthy
@@ -53,7 +52,6 @@ services:
       DATABASE_URL: postgresql+psycopg2://${POSTGRES_USER:-lu4}:${POSTGRES_PASSWORD:-lu4secret}@db:5432/${POSTGRES_DB:-lu4}
       WIKI_PATH: /data/wiki
       DATASETS_PATH: /data/datasets
-      MEDIA_PATH: /data/media
       PYTHONPATH: /app
       DEV_RELOAD: ${DEV_RELOAD:-true}
       UVICORN_WORKERS: ${UVICORN_WORKERS:-1}
@@ -63,7 +61,6 @@ services:
       - ./database:/database
       - ./data/wiki:/data/wiki:ro
       - ./data/datasets:/data/datasets:ro
-      - ./data/media:/data/media
     depends_on:
       db:
         condition: service_healthy
