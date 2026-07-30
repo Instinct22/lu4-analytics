@@ -159,24 +159,26 @@ jobs:
             fi
           fi
 
+      - name: Set up Crane
+        uses: imjasonh/setup-crane@v0.4
+
       - name: Delete branch-* tags from Docker Hub
         if: steps.pr.outputs.number != ''
         env:
           PR_NUMBER: ${{ steps.pr.outputs.number }}
-          USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
-          TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+          CRANE_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          CRANE_PASSWORD: ${{ secrets.DOCKERHUB_TOKEN }}
           REGISTRY: ${{ env.REGISTRY }}
           IMAGE_PREFIX: ${{ env.IMAGE_PREFIX }}
         run: |
           set -euo pipefail
           tag="branch-${PR_NUMBER}"
-          jwt=$(curl -sf -X POST -H "Content-Type: application/json" \
-            -d "{\"username\":\"${USERNAME}\",\"password\":\"${TOKEN}\"}" \
-            https://hub.docker.com/v2/users/login/ | jq -r .token)
+          crane auth login "$CRANE_USERNAME" -p "$CRANE_PASSWORD"
           for svc in backend frontend nginx; do
-            repo="${REGISTRY}/${IMAGE_PREFIX}-${svc}"
-            code=$(curl -s -o /dev/null -w "%{http_code}" -X DELETE \
-              -H "Authorization: JWT ${jwt}" \
-              "https://hub.docker.com/v2/repositories/${repo}/tags/${tag}/")
-            echo "${repo}:${tag} -> HTTP ${code}"
+            img="${REGISTRY}/${IMAGE_PREFIX}-${svc}:${tag}"
+            if crane delete "$img" 2>/dev/null; then
+              echo "${img} -> deleted"
+            else
+              echo "${img} -> not found (skipped)"
+            fi
           done
