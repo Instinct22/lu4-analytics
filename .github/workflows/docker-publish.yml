@@ -162,23 +162,31 @@ jobs:
       - name: Set up Crane
         uses: imjasonh/setup-crane@v0.4
 
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
       - name: Delete branch-* tags from Docker Hub
         if: steps.pr.outputs.number != ''
         env:
           PR_NUMBER: ${{ steps.pr.outputs.number }}
-          CRANE_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
-          CRANE_PASSWORD: ${{ secrets.DOCKERHUB_TOKEN }}
           REGISTRY: ${{ env.REGISTRY }}
           IMAGE_PREFIX: ${{ env.IMAGE_PREFIX }}
         run: |
           set -euo pipefail
           tag="branch-${PR_NUMBER}"
-          crane auth login "$CRANE_USERNAME" -p "$CRANE_PASSWORD"
           for svc in backend frontend nginx; do
             img="${REGISTRY}/${IMAGE_PREFIX}-${svc}:${tag}"
-            if crane delete "$img" 2>/dev/null; then
+            if ! crane manifest "$img" >/dev/null 2>&1; then
+              echo "${img} -> not found (skipped)"
+              continue
+            fi
+            if crane delete "$img"; then
               echo "${img} -> deleted"
             else
-              echo "${img} -> not found (skipped)"
+              echo "${img} -> delete failed" >&2
+              exit 1
             fi
           done
