@@ -102,16 +102,14 @@ jobs:
           IMAGE: ${{ env.REGISTRY }}/${{ env.IMAGE_PREFIX }}-${{ matrix.name }}
           EVENT: ${{ github.event_name }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
-          SHORT_SHA: ${{ github.sha }}
           MANUAL_TAG: ${{ github.event.inputs.tag }}
         run: |
-          short_sha="${SHORT_SHA:0:7}"
           case "$EVENT" in
             pull_request)
               echo "tags=${IMAGE}:branch-${PR_NUMBER}" >> "$GITHUB_OUTPUT"
               ;;
             push)
-              echo "tags=${IMAGE}:latest,${IMAGE}:main-${short_sha}" >> "$GITHUB_OUTPUT"
+              echo "tags=${IMAGE}:latest" >> "$GITHUB_OUTPUT"
               ;;
             workflow_dispatch)
               echo "tags=${IMAGE}:${MANUAL_TAG}" >> "$GITHUB_OUTPUT"
