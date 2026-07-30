@@ -131,6 +131,27 @@ jobs:
           cache-from: type=gha,scope=${{ matrix.name }}
           cache-to: type=gha,mode=max,scope=${{ matrix.name }}
 
+  deploy:
+    needs: build
+    if: |
+      github.event_name == 'push' &&
+      github.ref == 'refs/heads/main' &&
+      needs.build.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to production
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: 31.76.7.61
+          username: root
+          password: ${{ secrets.DEPLOY_SSH_PASSWORD }}
+          script_stop: true
+          script: |
+            set -euo pipefail
+            cd /opt/test
+            docker compose -f docker-compose.prod.yml pull
+            docker compose -f docker-compose.prod.yml up -d --force-recreate
+
   cleanup-pr-tags:
     if: |
       (github.event_name == 'pull_request' && github.event.action == 'closed') ||
