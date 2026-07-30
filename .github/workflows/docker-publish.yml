@@ -2,7 +2,7 @@ name: Docker Publish
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened, closed]
   push:
     branches: [main]
   workflow_dispatch:
@@ -18,6 +18,10 @@ env:
 
 jobs:
   changes:
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'push' ||
+      (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -77,6 +81,7 @@ jobs:
       (github.event_name == 'workflow_dispatch' ||
         (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
         (github.event_name == 'pull_request' &&
+          github.event.action != 'closed' &&
           github.event.pull_request.head.repo.full_name == github.repository)) &&
       needs.changes.outputs.matrix != '[]'
     strategy:
@@ -125,3 +130,28 @@ jobs:
           tags: ${{ steps.tags.outputs.tags }}
           cache-from: type=gha,scope=${{ matrix.name }}
           cache-to: type=gha,mode=max,scope=${{ matrix.name }}
+
+  cleanup-pr-tags:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete branch-* tags from Docker Hub
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+          REGISTRY: ${{ env.REGISTRY }}
+          IMAGE_PREFIX: ${{ env.IMAGE_PREFIX }}
+        run: |
+          set -euo pipefail
+          tag="branch-${PR_NUMBER}"
+          jwt=$(curl -sf -X POST -H "Content-Type: application/json" \
+            -d "{\"username\":\"${USERNAME}\",\"password\":\"${TOKEN}\"}" \
+            https://hub.docker.com/v2/users/login/ | jq -r .token)
+          for svc in backend frontend nginx; do
+            repo="${REGISTRY}/${IMAGE_PREFIX}-${svc}"
+            code=$(curl -s -o /dev/null -w "%{http_code}" -X DELETE \
+              -H "Authorization: JWT ${jwt}" \
+              "https://hub.docker.com/v2/repositories/${repo}/tags/${tag}/")
+            echo "${repo}:${tag} -> HTTP ${code}"
+          done
