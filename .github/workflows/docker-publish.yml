@@ -132,12 +132,37 @@ jobs:
           cache-to: type=gha,mode=max,scope=${{ matrix.name }}
 
   cleanup-pr-tags:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    if: |
+      (github.event_name == 'pull_request' && github.event.action == 'closed') ||
+      (github.event_name == 'push' && github.ref == 'refs/heads/main')
     runs-on: ubuntu-latest
     steps:
-      - name: Delete branch-* tags from Docker Hub
+      - name: Resolve PR number
+        id: pr
         env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
+          EVENT: ${{ github.event_name }}
+          PR_FROM_EVENT: ${{ github.event.pull_request.number }}
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
+        run: |
+          if [ "$EVENT" = "pull_request" ]; then
+            echo "number=${PR_FROM_EVENT}" >> "$GITHUB_OUTPUT"
+          else
+            number=$(echo "$COMMIT_MSG" | sed -n 's/.*(#\([0-9][0-9]*\)).*/\1/p' | head -1)
+            if [ -z "$number" ]; then
+              number=$(echo "$COMMIT_MSG" | sed -n 's/Merge pull request #\([0-9][0-9]*\).*/\1/p')
+            fi
+            if [ -z "$number" ]; then
+              echo "No PR number in commit message — skip cleanup"
+              echo "number=" >> "$GITHUB_OUTPUT"
+            else
+              echo "number=${number}" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Delete branch-* tags from Docker Hub
+        if: steps.pr.outputs.number != ''
+        env:
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
           USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
           TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
           REGISTRY: ${{ env.REGISTRY }}
