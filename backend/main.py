@@ -18,6 +18,7 @@ from api import (
     raid,
     search,
     statistics,
+    upgrades,
     wiki,
 )
 from config import settings
@@ -72,6 +73,7 @@ app.include_router(duals.router, prefix="/api/duals", tags=["duals"])
 app.include_router(raid.router, prefix="/api/raid", tags=["raid"])
 app.include_router(character.router, prefix="/api/character", tags=["character"])
 app.include_router(craft.router, prefix="/api/craft", tags=["craft"])
+app.include_router(upgrades.router, prefix="/api/upgrades", tags=["upgrades"])
 app.include_router(items.router, prefix="/api/items", tags=["items"])
 app.include_router(preferences.router, prefix="/api/me", tags=["preferences"])
 

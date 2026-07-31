@@ -12,6 +12,7 @@ import {
 import type { CraftCatalog } from "../../lib/craftCalc";
 import type { DualsCatalog } from "../../lib/dualsCatalog";
 import { DUAL_TYPE_LABELS } from "../../lib/dualsCatalog";
+import type { ReturnLink } from "../../lib/internalNav";
 
 interface Props {
   catalog: CraftCatalog;
@@ -20,6 +21,8 @@ interface Props {
   sets: ArmorSetSummary[];
   onClose: () => void;
   onOpenSet: (setId: string) => void;
+  returnLink?: ReturnLink | null;
+  returnPath?: string | null;
 }
 
 export default function ItemDetailPanel({
@@ -29,6 +32,8 @@ export default function ItemDetailPanel({
   sets,
   onClose,
   onOpenSet,
+  returnLink,
+  returnPath,
 }: Props) {
   const { data: entry, isLoading, isError } = useItemDetail(item.id);
   const craftable = !item.isDual && itemCraftable(catalog, item.id);
@@ -73,6 +78,8 @@ export default function ItemDetailPanel({
       craftLink={craftable ? `/craft?id=${item.id}` : null}
       setLinks={itemSets.map((s) => ({ name: s.name, onClick: () => onOpenSet(s.id) }))}
       headerExtra={headerExtra}
+      returnLink={returnLink}
+      returnPath={returnPath}
     />
   );
 }

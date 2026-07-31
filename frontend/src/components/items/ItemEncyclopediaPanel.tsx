@@ -6,7 +6,7 @@ import {
   statRows,
 } from "../../lib/itemEncyclopedia";
 import type { ItemEncyclopediaEntry, ItemSourceRow, ItemEnchantRow } from "../../api/items";
-import { characterSkillPath, itemPagePath } from "../../lib/internalNav";
+import { characterSkillPath, itemPagePath, type ReturnLink } from "../../lib/internalNav";
 import { masterworkItemUrl } from "../../lib/itemEncyclopedia";
 import { useItemSources } from "../../hooks/useItemEncyclopedia";
 import { LoadingState } from "../ui";
@@ -17,6 +17,8 @@ interface Props {
   craftLink?: string | null;
   setLinks?: Array<{ name: string; onClick: () => void }>;
   headerExtra?: React.ReactNode;
+  returnLink?: ReturnLink | null;
+  returnPath?: string | null;
 }
 
 function DetailSection({
@@ -137,6 +139,8 @@ export default function ItemEncyclopediaPanel({
   craftLink,
   setLinks,
   headerExtra,
+  returnLink,
+  returnPath,
 }: Props) {
   const hasSources =
     (entry.drops?.length ?? 0) > 0 ||
@@ -182,6 +186,16 @@ export default function ItemEncyclopediaPanel({
 
   return (
     <div className="panel flex flex-col overflow-hidden shadow-glow">
+      {returnLink ? (
+        <div className="border-b border-zinc-800/80 bg-zinc-900/40 px-4 py-2">
+          <Link
+            to={returnLink.href}
+            className="inline-flex items-center gap-1.5 text-sm font-medium text-amber-400 transition-colors hover:text-amber-300"
+          >
+            ← {returnLink.label}
+          </Link>
+        </div>
+      ) : null}
       <div className="flex flex-wrap items-start gap-3 border-b border-zinc-800/80 bg-zinc-900/60 px-4 py-3">
         <ItemIcon id={entry.id} size={48} />
         <div className="min-w-0 flex-1">
@@ -201,7 +215,10 @@ export default function ItemEncyclopediaPanel({
             </p>
           )}
           <div className="mt-1 flex flex-wrap gap-x-3 gap-y-1 text-xs">
-            <Link to={itemPagePath(entry.id)} className="font-medium text-amber-400 hover:underline">
+            <Link
+              to={itemPagePath(entry.id, returnPath)}
+              className="font-medium text-amber-400 hover:underline"
+            >
               Локальная вики →
             </Link>
             <a
@@ -233,7 +250,7 @@ export default function ItemEncyclopediaPanel({
                 <p className="text-zinc-400">
                   {VARIANT_ORIGIN_LABELS[entry.exclude_reason ?? ""] ?? "Вариант предмета"}:{" "}
                   <Link
-                    to={itemPagePath(entry.variant_of)}
+                    to={itemPagePath(entry.variant_of, returnPath)}
                     className="font-medium text-amber-400 hover:underline"
                   >
                     ← вернуться к основному предмету
@@ -258,7 +275,7 @@ export default function ItemEncyclopediaPanel({
                 <ul className="space-y-1.5 text-sm">
                   {unsealVariants.map((v) => (
                     <li key={v.id}>
-                      <Link to={itemPagePath(v.id)} className="font-medium text-amber-400 hover:underline">
+                      <Link to={itemPagePath(v.id, returnPath)} className="font-medium text-amber-400 hover:underline">
                         {v.name}
                       </Link>
                       {v.hint && <span className="ml-2 text-xs text-zinc-500">{v.hint}</span>}
@@ -338,7 +355,7 @@ export default function ItemEncyclopediaPanel({
                 )}
                 {masterwork.baseId != null && (
                   <Link
-                    to={itemPagePath(masterwork.baseId)}
+                    to={itemPagePath(masterwork.baseId, returnPath)}
                     className="text-xs text-amber-400 hover:underline"
                   >
                     База: {masterwork.baseName || `#${masterwork.baseId}`} →
