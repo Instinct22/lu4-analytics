@@ -4,6 +4,7 @@ import {
   buildTree,
   formatPrice,
   isCraftable,
+  isCraftReady,
   itemInfo,
   treeCost,
   variantsFor,
@@ -26,6 +27,7 @@ interface Props {
   onOwnedChange: (id: number, val: number) => void;
   onQtyChange: (productId: number, qty: number) => void;
   onRemove: (productId: number) => void;
+  onCraft: (productId: number) => void;
   showPrices?: boolean;
   showApproxCost?: boolean;
   recipesLoading?: boolean;
@@ -41,6 +43,7 @@ function CraftBulkCartRow({
   onOwnedChange,
   onQtyChange,
   onRemove,
+  onCraft,
   showPrices,
   showApproxCost = true,
 }: {
@@ -53,6 +56,7 @@ function CraftBulkCartRow({
   onOwnedChange: (id: number, val: number) => void;
   onQtyChange: (productId: number, qty: number) => void;
   onRemove: (productId: number) => void;
+  onCraft: (productId: number) => void;
   showPrices?: boolean;
 }) {
   const [expanded, setExpanded] = useState(false);
@@ -75,6 +79,11 @@ function CraftBulkCartRow({
     if (!tree) return null;
     return treeCost(tree, catalog, prices, manual).cost;
   }, [tree, catalog, prices, manual]);
+
+  const canCraft = useMemo(
+    () => Boolean(tree && isCraftReady(catalog, tree)),
+    [catalog, tree],
+  );
 
   const canExpand = craftable && Boolean(tree);
 
@@ -151,6 +160,15 @@ function CraftBulkCartRow({
         </div>
         <button
           type="button"
+          disabled={!canCraft}
+          title={canCraft ? "Скрафтить и убрать из списка" : "Не хватает материалов на складе"}
+          onClick={() => onCraft(entry.productId)}
+          className="shrink-0 rounded-lg bg-emerald-600 px-2.5 py-1 text-xs font-semibold text-zinc-950 transition-colors hover:bg-emerald-500 disabled:cursor-not-allowed disabled:opacity-40"
+        >
+          Скрафтить
+        </button>
+        <button
+          type="button"
           aria-label="Удалить"
           onClick={() => onRemove(entry.productId)}
           className="shrink-0 rounded-lg px-2 py-1 text-sm text-zinc-500 transition-colors hover:bg-red-950/40 hover:text-red-400"
@@ -220,6 +238,7 @@ export default function CraftBulkCartList({
   onOwnedChange,
   onQtyChange,
   onRemove,
+  onCraft,
   showPrices = false,
   showApproxCost = true,
   recipesLoading = false,
@@ -256,6 +275,7 @@ export default function CraftBulkCartList({
           onOwnedChange={onOwnedChange}
           onQtyChange={onQtyChange}
           onRemove={onRemove}
+          onCraft={onCraft}
           showPrices={showPrices}
           showApproxCost={showApproxCost}
         />

@@ -1,14 +1,29 @@
 import { useMemo, useState } from "react";
-import { itemInfo, type CraftCatalog } from "../../lib/craftCalc";
+import {
+  effectivePrice,
+  formatPrice,
+  itemInfo,
+  warehouseTotalValue,
+  type CraftCatalog,
+  type PriceInfo,
+} from "../../lib/craftCalc";
 import { GradePill, HaveInput, ItemIcon } from "./CraftCostBar";
 
 interface Props {
   catalog: CraftCatalog;
   owned: Record<string, number>;
   onOwnedChange: (id: number, val: number) => void;
+  prices?: Record<string, PriceInfo>;
+  manual?: Record<string, number>;
 }
 
-export default function CraftWarehousePanel({ catalog, owned, onOwnedChange }: Props) {
+export default function CraftWarehousePanel({
+  catalog,
+  owned,
+  onOwnedChange,
+  prices = {},
+  manual = {},
+}: Props) {
   const [search, setSearch] = useState("");
 
   const warehouseEntries = useMemo(() => {
@@ -17,6 +32,11 @@ export default function CraftWarehousePanel({ catalog, owned, onOwnedChange }: P
       .filter((e) => Number.isFinite(e.id) && e.id > 0 && e.qty > 0)
       .sort((a, b) => itemInfo(catalog, a.id).name.localeCompare(itemInfo(catalog, b.id).name));
   }, [owned, catalog]);
+
+  const warehouseValue = useMemo(
+    () => warehouseTotalValue(catalog, owned, prices, manual),
+    [catalog, owned, prices, manual],
+  );
 
   const searchResults = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -47,6 +67,17 @@ export default function CraftWarehousePanel({ catalog, owned, onOwnedChange }: P
         <p className="mt-1 text-sm text-zinc-500">
           {warehouseEntries.length} позиций · синхронизируется с калькулятором крафта
         </p>
+        <div className="mt-2 rounded-xl border border-zinc-800/80 bg-zinc-900/50 px-3 py-2">
+          <span className="text-[0.65rem] font-medium uppercase tracking-wide text-zinc-600">
+            Стоимость склада
+          </span>
+          <p className="text-lg font-bold tabular-nums text-amber-400">
+            {warehouseValue.total != null ? formatPrice(warehouseValue.total) : "—"}
+            {warehouseValue.partial && warehouseValue.total != null && (
+              <span className="ml-2 text-xs font-normal text-zinc-500">частично</span>
+            )}
+          </p>
+        </div>
       </div>
 
       <input
@@ -82,6 +113,8 @@ export default function CraftWarehousePanel({ catalog, owned, onOwnedChange }: P
         ) : (
           warehouseEntries.map((entry) => {
             const info = itemInfo(catalog, entry.id);
+            const unitPrice = effectivePrice(entry.id, prices, manual, catalog);
+            const lineTotal = unitPrice != null ? unitPrice * entry.qty : null;
             return (
               <div
                 key={entry.id}
@@ -93,6 +126,9 @@ export default function CraftWarehousePanel({ catalog, owned, onOwnedChange }: P
                     <span className="font-semibold text-zinc-100">{info.name}</span>
                     <GradePill grade={info.grade} />
                   </div>
+                  {lineTotal != null && (
+                    <p className="text-xs tabular-nums text-zinc-500">{formatPrice(lineTotal)}</p>
+                  )}
                 </div>
                 <HaveInput
                   value={entry.qty}
