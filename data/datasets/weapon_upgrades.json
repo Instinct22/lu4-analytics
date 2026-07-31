@@ -1,0 +1,3556 @@
+{
+  "generated_at": "2026-07-31T12:12:04+00:00",
+  "source_url": "https://masterwork.wiki/lu4/posts/post/364-ngd-equipment-upgrade",
+  "info": {
+    "where": "Торговцы NPC (магазины оружия и брони)",
+    "ng_to_d_where": "NPC Newbie Guide",
+    "ng_rule": "NG-апгрейды без наценки: итоговая цена одинакова при покупке топового NG или пошаговом апгрейде.",
+    "d_rule": "D-апгрейды с небольшой наценкой: пошаговый апгрейд дороже прямой покупки финального предмета.",
+    "tax_note": "Цены без налога замка (до +15%). На NG-апгрейды налог не распространяется.",
+    "how": "Отдайте старое снаряжение, заплатите Adena и получите улучшенный предмет."
+  },
+  "upgrades": [
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "one_handed_swords",
+      "category_label": "Одноручные мечи",
+      "from_ids": [
+        1
+      ],
+      "cost_adena": 10360,
+      "to_ids": [
+        3
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "one_handed_swords",
+      "category_label": "Одноручные мечи",
+      "from_ids": [
+        3,
+        738,
+        1510,
+        743,
+        975
+      ],
+      "cost_adena": 36800,
+      "to_ids": [
+        66
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "one_handed_swords",
+      "category_label": "Одноручные мечи",
+      "from_ids": [
+        66,
+        67,
+        122
+      ],
+      "cost_adena": 72910,
+      "to_ids": [
+        2
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "one_handed_swords",
+      "category_label": "Одноручные мечи",
+      "from_ids": [
+        2,
+        120,
+        121
+      ],
+      "cost_adena": 95450,
+      "to_ids": [
+        68
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "one_handed_axes",
+      "category_label": "Одноручные топоры",
+      "from_ids": [
+        4
+      ],
+      "cost_adena": 6450,
+      "to_ids": [
+        152
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "one_handed_axes",
+      "category_label": "Одноручные топоры",
+      "from_ids": [
+        152
+      ],
+      "cost_adena": 3910,
+      "to_ids": [
+        5
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "one_handed_axes",
+      "category_label": "Одноручные топоры",
+      "from_ids": [
+        5
+      ],
+      "cost_adena": 5290,
+      "to_ids": [
+        153
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "one_handed_axes",
+      "category_label": "Одноручные топоры",
+      "from_ids": [
+        153,
+        1511
+      ],
+      "cost_adena": 31510,
+      "to_ids": [
+        154
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "one_handed_axes",
+      "category_label": "Одноручные топоры",
+      "from_ids": [
+        154
+      ],
+      "cost_adena": 72910,
+      "to_ids": [
+        2501
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "one_handed_axes",
+      "category_label": "Одноручные топоры",
+      "from_ids": [
+        2501
+      ],
+      "cost_adena": 95450,
+      "to_ids": [
+        155,
+        87
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "two_handed_swords",
+      "category_label": "Двуручные мечи",
+      "from_ids": [
+        981
+      ],
+      "cost_adena": 25415,
+      "to_ids": [
+        1333
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "two_handed_swords",
+      "category_label": "Двуручные мечи",
+      "from_ids": [
+        1333
+      ],
+      "cost_adena": 168360,
+      "to_ids": [
+        5284
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "spears",
+      "category_label": "Копья",
+      "from_ids": [
+        15
+      ],
+      "cost_adena": 95450,
+      "to_ids": [
+        16
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "fists",
+      "category_label": "Кастеты",
+      "from_ids": [
+        253
+      ],
+      "cost_adena": 10360,
+      "to_ids": [
+        254
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "fists",
+      "category_label": "Кастеты",
+      "from_ids": [
+        254
+      ],
+      "cost_adena": 11385,
+      "to_ids": [
+        2371
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "fists",
+      "category_label": "Кастеты",
+      "from_ids": [
+        2371
+      ],
+      "cost_adena": 25415,
+      "to_ids": [
+        255
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "fists",
+      "category_label": "Кастеты",
+      "from_ids": [
+        255
+      ],
+      "cost_adena": 72910,
+      "to_ids": [
+        256
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "fists",
+      "category_label": "Кастеты",
+      "from_ids": [
+        256
+      ],
+      "cost_adena": 95450,
+      "to_ids": [
+        257
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "daggers",
+      "category_label": "Кинжалы",
+      "from_ids": [
+        11
+      ],
+      "cost_adena": 10360,
+      "to_ids": [
+        215
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "daggers",
+      "category_label": "Кинжалы",
+      "from_ids": [
+        215,
+        12,
+        989,
+        2372,
+        2374
+      ],
+      "cost_adena": 36800,
+      "to_ids": [
+        216
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "daggers",
+      "category_label": "Кинжалы",
+      "from_ids": [
+        216
+      ],
+      "cost_adena": 28750,
+      "to_ids": [
+        946
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "daggers",
+      "category_label": "Кинжалы",
+      "from_ids": [
+        946
+      ],
+      "cost_adena": 44160,
+      "to_ids": [
+        217,
+        218
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "daggers",
+      "category_label": "Кинжалы",
+      "from_ids": [
+        217,
+        218
+      ],
+      "cost_adena": 95450,
+      "to_ids": [
+        219
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "bows",
+      "category_label": "Луки",
+      "from_ids": [
+        13
+      ],
+      "cost_adena": 10360,
+      "to_ids": [
+        14
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "bows",
+      "category_label": "Луки",
+      "from_ids": [
+        14
+      ],
+      "cost_adena": 36800,
+      "to_ids": [
+        271
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "bows",
+      "category_label": "Луки",
+      "from_ids": [
+        271
+      ],
+      "cost_adena": 72910,
+      "to_ids": [
+        272
+      ]
+    },
+    {
+      "grade": "NG",
+      "kind": "physical",
+      "category": "bows",
+      "category_label": "Луки",
+      "from_ids": [
+        272
+      ],
+      "cost_adena": 95450,
+      "to_ids": [
+        273
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "one_handed_swords",
+      "category_label": "Одноручные мечи",
+      "from_ids": [
+        123
+      ],
+      "cost_adena": 249090,
+      "to_ids": [
+        69,
+        128,
+        125,
+        126
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "one_handed_swords",
+      "category_label": "Одноручные мечи",
+      "from_ids": [
+        69,
+        128,
+        125,
+        126
+      ],
+      "cost_adena": 342240,
+      "to_ids": [
+        127,
+        130
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "one_handed_swords",
+      "category_label": "Одноручные мечи",
+      "from_ids": [
+        127,
+        130
+      ],
+      "cost_adena": 456090,
+      "to_ids": [
+        129
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "one_handed_swords",
+      "category_label": "Одноручные мечи",
+      "from_ids": [
+        129
+      ],
+      "cost_adena": 431940,
+      "to_ids": [
+        2499
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "axes",
+      "category_label": "Топоры",
+      "from_ids": [
+        156,
+        166,
+        168,
+        167
+      ],
+      "cost_adena": 249090,
+      "to_ids": [
+        86
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "axes",
+      "category_label": "Топоры",
+      "from_ids": [
+        86
+      ],
+      "cost_adena": 342240,
+      "to_ids": [
+        157
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "axes",
+      "category_label": "Топоры",
+      "from_ids": [
+        157
+      ],
+      "cost_adena": 456090,
+      "to_ids": [
+        169,
+        172,
+        88,
+        158,
+        7896
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "axes",
+      "category_label": "Топоры",
+      "from_ids": [
+        169,
+        172,
+        88,
+        158,
+        7896
+      ],
+      "cost_adena": 431940,
+      "to_ids": [
+        159
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "two_handed_swords",
+      "category_label": "Двуручные мечи",
+      "from_ids": [
+        5285,
+        7880
+      ],
+      "cost_adena": 591330,
+      "to_ids": [
+        124
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "two_handed_swords",
+      "category_label": "Двуручные мечи",
+      "from_ids": [
+        124
+      ],
+      "cost_adena": 456090,
+      "to_ids": [
+        7881
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "two_handed_swords",
+      "category_label": "Двуручные мечи",
+      "from_ids": [
+        7881
+      ],
+      "cost_adena": 431940,
+      "to_ids": [
+        70
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "spears",
+      "category_label": "Копья",
+      "from_ids": [
+        291
+      ],
+      "cost_adena": 249090,
+      "to_ids": [
+        292,
+        295
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "spears",
+      "category_label": "Копья",
+      "from_ids": [
+        292,
+        295
+      ],
+      "cost_adena": 342240,
+      "to_ids": [
+        293,
+        296
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "spears",
+      "category_label": "Копья",
+      "from_ids": [
+        293,
+        296
+      ],
+      "cost_adena": 456090,
+      "to_ids": [
+        93,
+        294
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "spears",
+      "category_label": "Копья",
+      "from_ids": [
+        93,
+        294
+      ],
+      "cost_adena": 431940,
+      "to_ids": [
+        297
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "fists",
+      "category_label": "Кастеты",
+      "from_ids": [
+        258
+      ],
+      "cost_adena": 249090,
+      "to_ids": [
+        259
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "fists",
+      "category_label": "Кастеты",
+      "from_ids": [
+        259
+      ],
+      "cost_adena": 342240,
+      "to_ids": [
+        260
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "fists",
+      "category_label": "Кастеты",
+      "from_ids": [
+        260
+      ],
+      "cost_adena": 456090,
+      "to_ids": [
+        261
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "fists",
+      "category_label": "Кастеты",
+      "from_ids": [
+        261
+      ],
+      "cost_adena": 431940,
+      "to_ids": [
+        262
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "daggers",
+      "category_label": "Кинжалы",
+      "from_ids": [
+        220,
+        221
+      ],
+      "cost_adena": 249090,
+      "to_ids": [
+        222
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "daggers",
+      "category_label": "Кинжалы",
+      "from_ids": [
+        222
+      ],
+      "cost_adena": 342240,
+      "to_ids": [
+        223
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "daggers",
+      "category_label": "Кинжалы",
+      "from_ids": [
+        223
+      ],
+      "cost_adena": 456090,
+      "to_ids": [
+        224,
+        1660
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "daggers",
+      "category_label": "Кинжалы",
+      "from_ids": [
+        224,
+        1660
+      ],
+      "cost_adena": 431940,
+      "to_ids": [
+        225
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "bows",
+      "category_label": "Луки",
+      "from_ids": [
+        274
+      ],
+      "cost_adena": 249090,
+      "to_ids": [
+        275,
+        276,
+        277
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "bows",
+      "category_label": "Луки",
+      "from_ids": [
+        275,
+        276,
+        277
+      ],
+      "cost_adena": 342240,
+      "to_ids": [
+        278
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "bows",
+      "category_label": "Луки",
+      "from_ids": [
+        278
+      ],
+      "cost_adena": 456090,
+      "to_ids": [
+        279
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "physical",
+      "category": "bows",
+      "category_label": "Луки",
+      "from_ids": [
+        279
+      ],
+      "cost_adena": 431940,
+      "to_ids": [
+        280
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "magic_swords_and_daggers",
+      "category_label": "Магические мечи и кинжалы",
+      "from_ids": [
+        7885
+      ],
+      "cost_adena": 325404,
+      "to_ids": [
+        83,
+        143,
+        144
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "magic_swords_and_daggers",
+      "category_label": "Магические мечи и кинжалы",
+      "from_ids": [
+        83,
+        143,
+        144
+      ],
+      "cost_adena": 265926,
+      "to_ids": [
+        238,
+        239,
+        240,
+        241
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "magic_swords_and_daggers",
+      "category_label": "Магические мечи и кинжалы",
+      "from_ids": [
+        83,
+        143,
+        144
+      ],
+      "cost_adena": 722016,
+      "to_ids": [
+        7886
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "magic_swords_and_daggers",
+      "category_label": "Магические мечи и кинжалы",
+      "from_ids": [
+        238,
+        239,
+        240,
+        241
+      ],
+      "cost_adena": 456090,
+      "to_ids": [
+        7886
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "magic_swords_and_daggers",
+      "category_label": "Магические мечи и кинжалы",
+      "from_ids": [
+        7886
+      ],
+      "cost_adena": 135102,
+      "to_ids": [
+        321
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "magic_swords_and_daggers",
+      "category_label": "Магические мечи и кинжалы",
+      "from_ids": [
+        7886
+      ],
+      "cost_adena": 431940,
+      "to_ids": [
+        189
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "one_handed_staves_and_scroll_of_wisdom",
+      "category_label": "Одноручные посохи и свитки",
+      "from_ids": [
+        178,
+        101,
+        312,
+        313,
+        314
+      ],
+      "cost_adena": 249090,
+      "to_ids": [
+        179,
+        180,
+        181,
+        182
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "one_handed_staves_and_scroll_of_wisdom",
+      "category_label": "Одноручные посохи и свитки",
+      "from_ids": [
+        179,
+        180,
+        181,
+        182,
+        315
+      ],
+      "cost_adena": 342240,
+      "to_ids": [
+        316,
+        317
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "one_handed_staves_and_scroll_of_wisdom",
+      "category_label": "Одноручные посохи и свитки",
+      "from_ids": [
+        316,
+        317
+      ],
+      "cost_adena": 456090,
+      "to_ids": [
+        7890,
+        318
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "one_handed_staves_and_scroll_of_wisdom",
+      "category_label": "Одноручные посохи и свитки",
+      "from_ids": [
+        7890,
+        318
+      ],
+      "cost_adena": 135102,
+      "to_ids": [
+        321
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "one_handed_staves_and_scroll_of_wisdom",
+      "category_label": "Одноручные посохи и свитки",
+      "from_ids": [
+        321
+      ],
+      "cost_adena": 296838,
+      "to_ids": [
+        189
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "one_handed_staves_and_scroll_of_wisdom",
+      "category_label": "Одноручные посохи и свитки",
+      "from_ids": [
+        7890,
+        318
+      ],
+      "cost_adena": 431940,
+      "to_ids": [
+        189
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "two_handed_staves",
+      "category_label": "Двуручные посохи",
+      "from_ids": [
+        178
+      ],
+      "cost_adena": 249090,
+      "to_ids": [
+        183,
+        184,
+        185
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "two_handed_staves",
+      "category_label": "Двуручные посохи",
+      "from_ids": [
+        183,
+        184,
+        185
+      ],
+      "cost_adena": 342240,
+      "to_ids": [
+        186
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "two_handed_staves",
+      "category_label": "Двуручные посохи",
+      "from_ids": [
+        186
+      ],
+      "cost_adena": 456090,
+      "to_ids": [
+        90
+      ]
+    },
+    {
+      "grade": "D",
+      "kind": "magic",
+      "category": "two_handed_staves",
+      "category_label": "Двуручные посохи",
+      "from_ids": [
+        90
+      ],
+      "cost_adena": 431940,
+      "to_ids": [
+        187,
+        190,
+        188
+      ]
+    }
+  ],
+  "ng_to_d": {
+    "coupon_id": 38214,
+    "coupon_name": "Weapon Upgrade Coupon",
+    "npc": "Newbie Guide",
+    "profession": "1st Profession",
+    "from_ids": [
+      68,
+      5284,
+      273,
+      155,
+      87,
+      257,
+      219,
+      177,
+      311,
+      100,
+      16
+    ],
+    "to_ids": [
+      123,
+      5285,
+      274,
+      168,
+      156,
+      221,
+      258,
+      291,
+      178,
+      312,
+      7885
+    ],
+    "pairs": [
+      {
+        "from_id": 68,
+        "to_id": 123
+      },
+      {
+        "from_id": 5284,
+        "to_id": 5285
+      },
+      {
+        "from_id": 273,
+        "to_id": 274
+      },
+      {
+        "from_id": 155,
+        "to_id": 168
+      },
+      {
+        "from_id": 87,
+        "to_id": 156
+      },
+      {
+        "from_id": 257,
+        "to_id": 221
+      },
+      {
+        "from_id": 219,
+        "to_id": 258
+      },
+      {
+        "from_id": 177,
+        "to_id": 291
+      },
+      {
+        "from_id": 311,
+        "to_id": 178
+      },
+      {
+        "from_id": 100,
+        "to_id": 312
+      },
+      {
+        "from_id": 16,
+        "to_id": 7885
+      }
+    ]
+  },
+  "items": {
+    "1": {
+      "id": 1,
+      "name": "Short Sword",
+      "grade": "NG",
+      "icon": "weapon_small_sword_i00.png",
+      "npc_sell": 295,
+      "p_atk": 8,
+      "m_atk": 6
+    },
+    "3": {
+      "id": 3,
+      "name": "Broadsword",
+      "grade": "NG",
+      "icon": "weapon_broad_sword_i00.png",
+      "npc_sell": 4800,
+      "p_atk": 11,
+      "m_atk": 9
+    },
+    "738": {
+      "id": 738,
+      "name": "Sword of Solidarity",
+      "grade": "NG",
+      "icon": "weapon_long_sword_i00.png",
+      "npc_sell": 7100,
+      "p_atk": 12,
+      "m_atk": 9
+    },
+    "1510": {
+      "id": 1510,
+      "name": "Butcher's Sword",
+      "grade": "NG",
+      "icon": "weapon_orcish_sword_i00.png",
+      "npc_sell": 9750,
+      "p_atk": 13,
+      "m_atk": 10
+    },
+    "743": {
+      "id": 743,
+      "name": "Sword of Sentinel",
+      "grade": "NG",
+      "icon": "weapon_broad_sword_i00.png",
+      "npc_sell": 12900,
+      "p_atk": 14,
+      "m_atk": 11
+    },
+    "975": {
+      "id": 975,
+      "name": "Blood Saber",
+      "grade": "NG",
+      "icon": "weapon_broad_sword_i00.png",
+      "npc_sell": 12900,
+      "p_atk": 14,
+      "m_atk": 11
+    },
+    "66": {
+      "id": 66,
+      "name": "Gladius",
+      "grade": "NG",
+      "icon": "weapon_gladius_i00.png",
+      "npc_sell": 20800,
+      "p_atk": 17,
+      "m_atk": 12
+    },
+    "67": {
+      "id": 67,
+      "name": "Orcish Sword",
+      "grade": "NG",
+      "icon": "weapon_orcish_sword_i00.png",
+      "npc_sell": 20800,
+      "p_atk": 17,
+      "m_atk": 12
+    },
+    "122": {
+      "id": 122,
+      "name": "Handmade Sword",
+      "grade": "NG",
+      "icon": "weapon_handmade_sword_i00.png",
+      "npc_sell": 20800,
+      "p_atk": 17,
+      "m_atk": 12
+    },
+    "2": {
+      "id": 2,
+      "name": "Long Sword",
+      "grade": "NG",
+      "icon": "weapon_long_sword_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 24,
+      "m_atk": 17
+    },
+    "120": {
+      "id": 120,
+      "name": "Sword of Reflection",
+      "grade": "NG",
+      "icon": "weapon_sword_of_watershadow_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 24,
+      "m_atk": 17
+    },
+    "121": {
+      "id": 121,
+      "name": "Sword of Watershadow",
+      "grade": "NG",
+      "icon": "weapon_sword_of_watershadow_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 24,
+      "m_atk": 17
+    },
+    "68": {
+      "id": 68,
+      "name": "Falchion",
+      "grade": "NG",
+      "icon": "weapon_falchion_i00.png",
+      "npc_sell": 94000,
+      "p_atk": 31,
+      "m_atk": 21
+    },
+    "4": {
+      "id": 4,
+      "name": "Club",
+      "grade": "NG",
+      "icon": "weapon_club_i00.png",
+      "npc_sell": 295,
+      "p_atk": 8,
+      "m_atk": 6
+    },
+    "152": {
+      "id": 152,
+      "name": "Heavy Chisel",
+      "grade": "NG",
+      "icon": "weapon_heavy_chisel_i00.png",
+      "npc_sell": 3100,
+      "p_atk": 10,
+      "m_atk": 8
+    },
+    "5": {
+      "id": 5,
+      "name": "Mace",
+      "grade": "NG",
+      "icon": "weapon_mace_i00.png",
+      "npc_sell": 4800,
+      "p_atk": 11,
+      "m_atk": 9
+    },
+    "153": {
+      "id": 153,
+      "name": "Sigil",
+      "grade": "NG",
+      "icon": "weapon_sickle_i00.png",
+      "npc_sell": 7100,
+      "p_atk": 12,
+      "m_atk": 9
+    },
+    "1511": {
+      "id": 1511,
+      "name": "Silversmith Hammer",
+      "grade": "NG",
+      "icon": "weapon_iron_hammer_i00.png",
+      "npc_sell": 9750,
+      "p_atk": 13,
+      "m_atk": 10
+    },
+    "154": {
+      "id": 154,
+      "name": "Dwarven Mace",
+      "grade": "NG",
+      "icon": "weapon_dwarven_mace_i00.png",
+      "npc_sell": 20800,
+      "p_atk": 17,
+      "m_atk": 12
+    },
+    "2501": {
+      "id": 2501,
+      "name": "Bone Club",
+      "grade": "NG",
+      "icon": "weapon_club_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 24,
+      "m_atk": 17
+    },
+    "155": {
+      "id": 155,
+      "name": "Flanged Mace",
+      "grade": "NG",
+      "icon": "weapon_buzdygan_i00.png",
+      "npc_sell": 94000,
+      "p_atk": 31,
+      "m_atk": 21
+    },
+    "87": {
+      "id": 87,
+      "name": "Iron Hammer",
+      "grade": "NG",
+      "icon": "weapon_iron_hammer_i00.png",
+      "npc_sell": 94000,
+      "p_atk": 31,
+      "m_atk": 21
+    },
+    "981": {
+      "id": 981,
+      "name": "Red Sunset Sword",
+      "grade": "NG",
+      "icon": "weapon_brandish_i00.png",
+      "npc_sell": 9750,
+      "p_atk": 16,
+      "m_atk": 10
+    },
+    "1333": {
+      "id": 1333,
+      "name": "Brandish",
+      "grade": "NG",
+      "icon": "weapon_brandish_i00.png",
+      "npc_sell": 20800,
+      "p_atk": 21,
+      "m_atk": 12
+    },
+    "5284": {
+      "id": 5284,
+      "name": "Zweihander",
+      "grade": "NG",
+      "icon": "weapon_zweihander_i00.png",
+      "npc_sell": 94000,
+      "p_atk": 38,
+      "m_atk": 21
+    },
+    "15": {
+      "id": 15,
+      "name": "Short Spear",
+      "grade": "NG",
+      "icon": "weapon_short_spear_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 24,
+      "m_atk": 17
+    },
+    "16": {
+      "id": 16,
+      "name": "Great Spear",
+      "grade": "NG",
+      "icon": "weapon_long_spear_i00.png",
+      "npc_sell": 94000,
+      "p_atk": 31,
+      "m_atk": 21
+    },
+    "253": {
+      "id": 253,
+      "name": "Spiked Gloves",
+      "grade": "NG",
+      "icon": "weapon_spike_glove_i00.png",
+      "npc_sell": 295,
+      "p_atk": 10,
+      "m_atk": 6
+    },
+    "254": {
+      "id": 254,
+      "name": "Iron Gloves",
+      "grade": "NG",
+      "icon": "weapon_iron_glove_i00.png",
+      "npc_sell": 4800,
+      "p_atk": 13,
+      "m_atk": 9
+    },
+    "2371": {
+      "id": 2371,
+      "name": "Fist of Butcher",
+      "grade": "NG",
+      "icon": "weapon_iron_glove_i00.png",
+      "npc_sell": 9750,
+      "p_atk": 16,
+      "m_atk": 10
+    },
+    "255": {
+      "id": 255,
+      "name": "Fox Claw Gloves",
+      "grade": "NG",
+      "icon": "weapon_foxs_nail_i00.png",
+      "npc_sell": 20800,
+      "p_atk": 21,
+      "m_atk": 12
+    },
+    "256": {
+      "id": 256,
+      "name": "Cestus",
+      "grade": "NG",
+      "icon": "weapon_vipers_canine_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 29,
+      "m_atk": 17
+    },
+    "257": {
+      "id": 257,
+      "name": "Viper Fang",
+      "grade": "NG",
+      "icon": "weapon_vipers_canine_i00.png",
+      "npc_sell": 94000,
+      "p_atk": 38,
+      "m_atk": 21
+    },
+    "11": {
+      "id": 11,
+      "name": "Bone Dagger",
+      "grade": "NG",
+      "icon": "weapon_bone_dagger_i00.png",
+      "npc_sell": 295,
+      "p_atk": 7,
+      "m_atk": 6
+    },
+    "215": {
+      "id": 215,
+      "name": "Doom Dagger",
+      "grade": "NG",
+      "icon": "weapon_doomed_dagger_i00.png",
+      "npc_sell": 4800,
+      "p_atk": 10,
+      "m_atk": 9
+    },
+    "12": {
+      "id": 12,
+      "name": "Knife",
+      "grade": "NG",
+      "icon": "weapon_knife_i00.png",
+      "npc_sell": 4800,
+      "p_atk": 10,
+      "m_atk": 9
+    },
+    "989": {
+      "id": 989,
+      "name": "Eldritch Dagger",
+      "grade": "NG",
+      "icon": "weapon_knife_i00.png",
+      "npc_sell": 9750,
+      "p_atk": 11,
+      "m_atk": 10
+    },
+    "2372": {
+      "id": 2372,
+      "name": "Dagger of Adept",
+      "grade": "NG",
+      "icon": "weapon_doomed_dagger_i00.png",
+      "npc_sell": 9750,
+      "p_atk": 11,
+      "m_atk": 10
+    },
+    "2374": {
+      "id": 2374,
+      "name": "Red Sunset Dagger",
+      "grade": "NG",
+      "icon": "weapon_doomed_dagger_i00.png",
+      "npc_sell": 9750,
+      "p_atk": 11,
+      "m_atk": 10
+    },
+    "216": {
+      "id": 216,
+      "name": "Dirk",
+      "grade": "NG",
+      "icon": "weapon_dirk_i00.png",
+      "npc_sell": 20800,
+      "p_atk": 15,
+      "m_atk": 12
+    },
+    "946": {
+      "id": 946,
+      "name": "Skeleton Dagger",
+      "grade": "NG",
+      "icon": "weapon_dagger_i00.png",
+      "npc_sell": 33300,
+      "p_atk": 16,
+      "m_atk": 13
+    },
+    "217": {
+      "id": 217,
+      "name": "Shining Knife",
+      "grade": "NG",
+      "icon": "weapon_shining_knife_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 21,
+      "m_atk": 17
+    },
+    "218": {
+      "id": 218,
+      "name": "Throwing Knife",
+      "grade": "NG",
+      "icon": "weapon_throw_knife_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 21,
+      "m_atk": 17
+    },
+    "219": {
+      "id": 219,
+      "name": "Sword Breaker",
+      "grade": "NG",
+      "icon": "weapon_sword_breaker_i00.png",
+      "npc_sell": 94000,
+      "p_atk": 27,
+      "m_atk": 21
+    },
+    "13": {
+      "id": 13,
+      "name": "Short Bow",
+      "grade": "NG",
+      "icon": "weapon_short_bow_i00.png",
+      "npc_sell": 295,
+      "p_atk": 16,
+      "m_atk": 6
+    },
+    "14": {
+      "id": 14,
+      "name": "Bow",
+      "grade": "NG",
+      "icon": "weapon_bow_i00.png",
+      "npc_sell": 4800,
+      "p_atk": 23,
+      "m_atk": 9
+    },
+    "271": {
+      "id": 271,
+      "name": "Hunting Bow",
+      "grade": "NG",
+      "icon": "weapon_hunting_bow_i00.png",
+      "npc_sell": 20800,
+      "p_atk": 34,
+      "m_atk": 12
+    },
+    "272": {
+      "id": 272,
+      "name": "Forest Bow",
+      "grade": "NG",
+      "icon": "weapon_short_bow_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 49,
+      "m_atk": 17
+    },
+    "273": {
+      "id": 273,
+      "name": "Composite Bow",
+      "grade": "NG",
+      "icon": "weapon_composition_bow_i00.png",
+      "npc_sell": 94000,
+      "p_atk": 64,
+      "m_atk": 21
+    },
+    "7": {
+      "id": 7,
+      "name": "Apprentice's Rod",
+      "grade": "NG",
+      "icon": "weapon_apprentices_rod_i00.png",
+      "npc_sell": 295,
+      "p_atk": 6,
+      "m_atk": 8
+    },
+    "308": {
+      "id": 308,
+      "name": "Buffalo's Horn",
+      "grade": "NG",
+      "icon": "weapon_buffalo_horn_i00.png",
+      "npc_sell": 295,
+      "p_atk": 6,
+      "m_atk": 8
+    },
+    "8": {
+      "id": 8,
+      "name": "Willow Staff",
+      "grade": "NG",
+      "icon": "weapon_willow_staff_i00.png",
+      "npc_sell": 4800,
+      "p_atk": 11,
+      "m_atk": 13
+    },
+    "99": {
+      "id": 99,
+      "name": "Apprentice's Spellbook",
+      "grade": "NG",
+      "icon": "weapon_apprentices_spellbook_i00.png",
+      "npc_sell": 4800,
+      "p_atk": 9,
+      "m_atk": 12
+    },
+    "9": {
+      "id": 9,
+      "name": "Cedar Staff",
+      "grade": "NG",
+      "icon": "weapon_cedar_staff_i00.png",
+      "npc_sell": 20800,
+      "p_atk": 16,
+      "m_atk": 18
+    },
+    "2373": {
+      "id": 2373,
+      "name": "Eldritch Staff",
+      "grade": "NG",
+      "icon": "weapon_apprentices_staff_i00.png",
+      "npc_sell": 9750,
+      "p_atk": 13,
+      "m_atk": 13
+    },
+    "747": {
+      "id": 747,
+      "name": "Wand of Adept",
+      "grade": "NG",
+      "icon": "weapon_apprentices_wand_i00.png",
+      "npc_sell": 9750,
+      "p_atk": 11,
+      "m_atk": 13
+    },
+    "754": {
+      "id": 754,
+      "name": "Red Sunset Staff",
+      "grade": "NG",
+      "icon": "weapon_cedar_staff_i00.png",
+      "npc_sell": 9750,
+      "p_atk": 13,
+      "m_atk": 14
+    },
+    "744": {
+      "id": 744,
+      "name": "Staff of Sentinel",
+      "grade": "NG",
+      "icon": "weapon_cedar_staff_i00.png",
+      "npc_sell": 12900,
+      "p_atk": 13,
+      "m_atk": 15
+    },
+    "310": {
+      "id": 310,
+      "name": "Relic of the Saints",
+      "grade": "NG",
+      "icon": "weapon_apprentices_spellbook_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 19,
+      "m_atk": 22
+    },
+    "176": {
+      "id": 176,
+      "name": "Apprentice's Staff",
+      "grade": "NG",
+      "icon": "weapon_apprentices_staff_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 23,
+      "m_atk": 24
+    },
+    "309": {
+      "id": 309,
+      "name": "Tears of Eva",
+      "grade": "NG",
+      "icon": "weapon_tears_of_eva_i00.png",
+      "npc_sell": 52500,
+      "p_atk": 19,
+      "m_atk": 22
+    },
+    "311": {
+      "id": 311,
+      "name": "Crucifix of Blessing",
+      "grade": "NG",
+      "icon": "weapon_crucifix_of_blessing_i00.png",
+      "npc_sell": 94000,
+      "p_atk": 25,
+      "m_atk": 28
+    },
+    "177": {
+      "id": 177,
+      "name": "Mage Staff",
+      "grade": "NG",
+      "icon": "weapon_apprentices_staff_i00.png",
+      "npc_sell": 94000,
+      "p_atk": 30,
+      "m_atk": 31
+    },
+    "100": {
+      "id": 100,
+      "name": "Voodoo Doll",
+      "grade": "NG",
+      "icon": "weapon_voodoo_doll_i00.png",
+      "npc_sell": 94000,
+      "p_atk": 25,
+      "m_atk": 28
+    },
+    "21": {
+      "id": 21,
+      "name": "Shirt",
+      "grade": "NG",
+      "icon": "armor_t02_u_i00.png",
+      "npc_sell": 57
+    },
+    "22": {
+      "id": 22,
+      "name": "Leather Shirt",
+      "grade": "NG",
+      "icon": "armor_t04_u_i00.png",
+      "npc_sell": 935
+    },
+    "23": {
+      "id": 23,
+      "name": "Wooden Breastplate",
+      "grade": "NG",
+      "icon": "armor_t06_u_i00.png",
+      "npc_sell": 3060
+    },
+    "24": {
+      "id": 24,
+      "name": "Bone Breastplate",
+      "grade": "NG",
+      "icon": "armor_t32_u_i00.png",
+      "npc_sell": 7800
+    },
+    "390": {
+      "id": 390,
+      "name": "Cotton Shirt",
+      "grade": "NG",
+      "icon": "armor_t07_u_i00.png",
+      "npc_sell": 7800
+    },
+    "25": {
+      "id": 25,
+      "name": "Piece Bone Breastplate",
+      "grade": "NG",
+      "icon": "armor_t33_u_i00.png",
+      "npc_sell": 12240
+    },
+    "27": {
+      "id": 27,
+      "name": "Hard Leather Shirt",
+      "grade": "NG",
+      "icon": "armor_t30_u_i00.png",
+      "npc_sell": 14200
+    },
+    "26": {
+      "id": 26,
+      "name": "Bronze Breastplate",
+      "grade": "NG",
+      "icon": "armor_t34_u_i00.png",
+      "npc_sell": 18910
+    },
+    "28": {
+      "id": 28,
+      "name": "Pants",
+      "grade": "NG",
+      "icon": "armor_t02_l_i00.png",
+      "npc_sell": 36
+    },
+    "29": {
+      "id": 29,
+      "name": "Leather Pants",
+      "grade": "NG",
+      "icon": "armor_t04_l_i00.png",
+      "npc_sell": 585
+    },
+    "2386": {
+      "id": 2386,
+      "name": "Wooden Gaiters",
+      "grade": "NG",
+      "icon": "armor_t06_l_i00.png",
+      "npc_sell": 1910
+    },
+    "30": {
+      "id": 30,
+      "name": "Hard Leather Pants",
+      "grade": "NG",
+      "icon": "armor_t06_l_i00.png",
+      "npc_sell": 1910
+    },
+    "31": {
+      "id": 31,
+      "name": "Bone Gaiters",
+      "grade": "NG",
+      "icon": "armor_t32_l_i00.png",
+      "npc_sell": 4885
+    },
+    "412": {
+      "id": 412,
+      "name": "Cotton Pants",
+      "grade": "NG",
+      "icon": "armor_t07_l_i00.png",
+      "npc_sell": 4885
+    },
+    "32": {
+      "id": 32,
+      "name": "Piece Bone Gaiters",
+      "grade": "NG",
+      "icon": "armor_t33_l_i00.png",
+      "npc_sell": 7650
+    },
+    "33": {
+      "id": 33,
+      "name": "Hard Leather Gaiters",
+      "grade": "NG",
+      "icon": "armor_t30_l_i00.png",
+      "npc_sell": 8850
+    },
+    "34": {
+      "id": 34,
+      "name": "Bronze Gaiters",
+      "grade": "NG",
+      "icon": "armor_t34_l_i00.png",
+      "npc_sell": 11800
+    },
+    "426": {
+      "id": 426,
+      "name": "Tunic",
+      "grade": "NG",
+      "icon": "armor_t03_u_i00.png",
+      "npc_sell": 57
+    },
+    "428": {
+      "id": 428,
+      "name": "Feriotic Tunic",
+      "grade": "NG",
+      "icon": "armor_t52_u_i00.png",
+      "npc_sell": 935
+    },
+    "1100": {
+      "id": 1100,
+      "name": "Cotton Tunic",
+      "grade": "NG",
+      "icon": "armor_t50_u_i00.png",
+      "npc_sell": 935
+    },
+    "429": {
+      "id": 429,
+      "name": "Leather Tunic",
+      "grade": "NG",
+      "icon": "armor_t05_u_i00.png",
+      "npc_sell": 3060
+    },
+    "1101": {
+      "id": 1101,
+      "name": "Tunic of Devotion",
+      "grade": "NG",
+      "icon": "armor_t55_u_i00.png",
+      "npc_sell": 7800
+    },
+    "1102": {
+      "id": 1102,
+      "name": "Tunic of Magic",
+      "grade": "NG",
+      "icon": "armor_t58_u_i00.png",
+      "npc_sell": 14200
+    },
+    "462": {
+      "id": 462,
+      "name": "Stockings",
+      "grade": "NG",
+      "icon": "armor_t03_l_i00.png",
+      "npc_sell": 36
+    },
+    "463": {
+      "id": 463,
+      "name": "Feriotic Stockings",
+      "grade": "NG",
+      "icon": "armor_t52_l_i00.png",
+      "npc_sell": 585
+    },
+    "1103": {
+      "id": 1103,
+      "name": "Cotton Stockings",
+      "grade": "NG",
+      "icon": "armor_t50_l_i00.png",
+      "npc_sell": 585
+    },
+    "464": {
+      "id": 464,
+      "name": "Leather Stockings",
+      "grade": "NG",
+      "icon": "armor_t05_l_i00.png",
+      "npc_sell": 1910
+    },
+    "1104": {
+      "id": 1104,
+      "name": "Stockings of Devotion",
+      "grade": "NG",
+      "icon": "armor_t55_l_i00.png",
+      "npc_sell": 4885
+    },
+    "1105": {
+      "id": 1105,
+      "name": "Stockings of Magic",
+      "grade": "NG",
+      "icon": "armor_t58_l_i00.png",
+      "npc_sell": 8850
+    },
+    "41": {
+      "id": 41,
+      "name": "Cloth Cap",
+      "grade": "NG",
+      "icon": "armor_cloth_helmet_i00.png",
+      "npc_sell": 21
+    },
+    "42": {
+      "id": 42,
+      "name": "Leather Cap",
+      "grade": "NG",
+      "icon": "armor_leather_helmet_i00.png",
+      "npc_sell": 350
+    },
+    "43": {
+      "id": 43,
+      "name": "Wooden Helmet",
+      "grade": "NG",
+      "icon": "armor_leather_helmet_i00.png",
+      "npc_sell": 1530
+    },
+    "44": {
+      "id": 44,
+      "name": "Leather Helmet",
+      "grade": "NG",
+      "icon": "armor_leather_helmet_i00.png",
+      "npc_sell": 3910
+    },
+    "1148": {
+      "id": 1148,
+      "name": "Hard Leather Helmet",
+      "grade": "NG",
+      "icon": "armor_leather_helmet_i00.png",
+      "npc_sell": 7100
+    },
+    "48": {
+      "id": 48,
+      "name": "Short Gloves",
+      "grade": "NG",
+      "icon": "armor_t02_g_i00.png",
+      "npc_sell": 14
+    },
+    "1119": {
+      "id": 1119,
+      "name": "Short Leather Gloves",
+      "grade": "NG",
+      "icon": "armor_t04_g_i00.png",
+      "npc_sell": 235
+    },
+    "49": {
+      "id": 49,
+      "name": "Gloves",
+      "grade": "NG",
+      "icon": "armor_t06_g_i00.png",
+      "npc_sell": 1020
+    },
+    "50": {
+      "id": 50,
+      "name": "Leather Gloves",
+      "grade": "NG",
+      "icon": "armor_t32_g_i00.png",
+      "npc_sell": 2605
+    },
+    "51": {
+      "id": 51,
+      "name": "Bracer",
+      "grade": "NG",
+      "icon": "armor_t30_g_i00.png",
+      "npc_sell": 4750
+    },
+    "1121": {
+      "id": 1121,
+      "name": "Apprentice's Shoes",
+      "grade": "NG",
+      "icon": "armor_t01_b_i00.png",
+      "npc_sell": 3
+    },
+    "35": {
+      "id": 35,
+      "name": "Cloth Shoes",
+      "grade": "NG",
+      "icon": "armor_t02_b_i00.png",
+      "npc_sell": 14
+    },
+    "36": {
+      "id": 36,
+      "name": "Leather Sandals",
+      "grade": "NG",
+      "icon": "armor_t03_b_i00.png",
+      "npc_sell": 14
+    },
+    "1122": {
+      "id": 1122,
+      "name": "Cotton Shoes",
+      "grade": "NG",
+      "icon": "armor_t50_b_i00.png",
+      "npc_sell": 235
+    },
+    "1129": {
+      "id": 1129,
+      "name": "Crude Leather Shoes",
+      "grade": "NG",
+      "icon": "armor_t04_b_i00.png",
+      "npc_sell": 235
+    },
+    "37": {
+      "id": 37,
+      "name": "Leather Shoes",
+      "grade": "NG",
+      "icon": "armor_t05_b_i00.png",
+      "npc_sell": 1020
+    },
+    "38": {
+      "id": 38,
+      "name": "Low Boots",
+      "grade": "NG",
+      "icon": "armor_t32_b_i00.png",
+      "npc_sell": 2605
+    },
+    "39": {
+      "id": 39,
+      "name": "Boots",
+      "grade": "NG",
+      "icon": "armor_t30_b_i00.png",
+      "npc_sell": 4750
+    },
+    "18": {
+      "id": 18,
+      "name": "Leather Shield",
+      "grade": "NG",
+      "icon": "shield_leather_shield_i00.png",
+      "npc_sell": 15
+    },
+    "19": {
+      "id": 19,
+      "name": "Small Shield",
+      "grade": "NG",
+      "icon": "shield_small_shield_i00.png",
+      "npc_sell": 245
+    },
+    "20": {
+      "id": 20,
+      "name": "Buckler",
+      "grade": "NG",
+      "icon": "shield_buckler_i00.png",
+      "npc_sell": 1070
+    },
+    "102": {
+      "id": 102,
+      "name": "Round Shield",
+      "grade": "NG",
+      "icon": "shield_round_shield_i00.png",
+      "npc_sell": 2735
+    },
+    "945": {
+      "id": 945,
+      "name": "Skeleton Buckler",
+      "grade": "NG",
+      "icon": "shield_skeleton_buckler_i00.png",
+      "npc_sell": 1320
+    },
+    "625": {
+      "id": 625,
+      "name": "Bone Shield",
+      "grade": "NG",
+      "icon": "shield_bone_shield_i00.png",
+      "npc_sell": 4950
+    },
+    "118": {
+      "id": 118,
+      "name": "Necklace of Magic",
+      "grade": "NG",
+      "icon": "accessary_necklace_of_magic_i00.png",
+      "npc_sell": 26
+    },
+    "1506": {
+      "id": 1506,
+      "name": "Necklace of Courage",
+      "grade": "NG",
+      "icon": "accessary_necklace_of_courage_i00.png",
+      "npc_sell": 26
+    },
+    "906": {
+      "id": 906,
+      "name": "Necklace of Knowledge",
+      "grade": "NG",
+      "icon": "accessary_necklace_of_knowledge_i00.png",
+      "npc_sell": 415
+    },
+    "907": {
+      "id": 907,
+      "name": "Necklace of Anguish",
+      "grade": "NG",
+      "icon": "accessary_necklace_of_anguish_i00.png",
+      "npc_sell": 1800
+    },
+    "1507": {
+      "id": 1507,
+      "name": "Necklace of Valor",
+      "grade": "NG",
+      "icon": "accessary_necklace_of_valor_i00.png",
+      "npc_sell": 1800
+    },
+    "908": {
+      "id": 908,
+      "name": "Necklace of Wisdom",
+      "grade": "NG",
+      "icon": "accessary_necklace_of_wisdom_i00.png",
+      "npc_sell": 4560
+    },
+    "909": {
+      "id": 909,
+      "name": "Blue Diamond Necklace",
+      "grade": "NG",
+      "icon": "accessary_blue_diamond_necklace_i00.png",
+      "npc_sell": 8200
+    },
+    "112": {
+      "id": 112,
+      "name": "Apprentice's Earring",
+      "grade": "NG",
+      "icon": "accessary_apprentices_earing_i00.png",
+      "npc_sell": 19
+    },
+    "113": {
+      "id": 113,
+      "name": "Mystic's Earring",
+      "grade": "NG",
+      "icon": "accessary_mage_earing_i00.png",
+      "npc_sell": 310
+    },
+    "115": {
+      "id": 115,
+      "name": "Earring of Wisdom",
+      "grade": "NG",
+      "icon": "accessary_earing_of_wisdom_i00.png",
+      "npc_sell": 1350
+    },
+    "114": {
+      "id": 114,
+      "name": "Earring of Strength",
+      "grade": "NG",
+      "icon": "accessary_earing_of_strength_i00.png",
+      "npc_sell": 1350
+    },
+    "845": {
+      "id": 845,
+      "name": "Cat's Eye Earring",
+      "grade": "NG",
+      "icon": "accessary_catseye_earing_i00.png",
+      "npc_sell": 3420
+    },
+    "846": {
+      "id": 846,
+      "name": "Coral Earring",
+      "grade": "NG",
+      "icon": "accessary_coral_earing_i00.png",
+      "npc_sell": 6150
+    },
+    "116": {
+      "id": 116,
+      "name": "Magic Ring",
+      "grade": "NG",
+      "icon": "accessary_magic_ring_i00.png",
+      "npc_sell": 13
+    },
+    "875": {
+      "id": 875,
+      "name": "Ring of Knowledge",
+      "grade": "NG",
+      "icon": "accessary_ring_of_knowledge_i00.png",
+      "npc_sell": 210
+    },
+    "876": {
+      "id": 876,
+      "name": "Ring of Anguish",
+      "grade": "NG",
+      "icon": "accessary_ring_of_anguish_i00.png",
+      "npc_sell": 900
+    },
+    "1508": {
+      "id": 1508,
+      "name": "Ring of Raccoon",
+      "grade": "NG",
+      "icon": "accessary_ring_of_raccoon_i00.png",
+      "npc_sell": 900
+    },
+    "1509": {
+      "id": 1509,
+      "name": "Ring of Firefly",
+      "grade": "NG",
+      "icon": "accessary_ring_of_firefly_i00.png",
+      "npc_sell": 900
+    },
+    "877": {
+      "id": 877,
+      "name": "Ring of Wisdom",
+      "grade": "NG",
+      "icon": "accessary_ring_of_wisdom_i00.png",
+      "npc_sell": 2280
+    },
+    "878": {
+      "id": 878,
+      "name": "Blue Coral Ring",
+      "grade": "NG",
+      "icon": "accessary_blue_coral_ring_i00.png",
+      "npc_sell": 4100
+    },
+    "38214": {
+      "id": 38214,
+      "name": "Weapon Upgrade Coupon NG to D-grade",
+      "grade": "NG",
+      "icon": "pr_weapon_change_i01.png"
+    },
+    "123": {
+      "id": 123,
+      "name": "Saber",
+      "grade": "D",
+      "icon": "weapon_saber_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 40,
+      "m_atk": 26
+    },
+    "5285": {
+      "id": 5285,
+      "name": "Heavy Sword",
+      "grade": "D",
+      "icon": "weapon_heavy_sword_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 49,
+      "m_atk": 26
+    },
+    "274": {
+      "id": 274,
+      "name": "Reinforced Bow",
+      "grade": "D",
+      "icon": "weapon_strengthening_bow_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 82,
+      "m_atk": 26
+    },
+    "168": {
+      "id": 168,
+      "name": "Work Hammer",
+      "grade": "D",
+      "icon": "weapon_work_hammer_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 40,
+      "m_atk": 26
+    },
+    "156": {
+      "id": 156,
+      "name": "Hand Axe",
+      "grade": "D",
+      "icon": "weapon_hand_axe_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 40,
+      "m_atk": 26
+    },
+    "221": {
+      "id": 221,
+      "name": "Assassin Knife",
+      "grade": "D",
+      "icon": "weapon_assassin_knife_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 35,
+      "m_atk": 26
+    },
+    "258": {
+      "id": 258,
+      "name": "Bagh-Nakh",
+      "grade": "D",
+      "icon": "weapon_baghnakh_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 49,
+      "m_atk": 26
+    },
+    "291": {
+      "id": 291,
+      "name": "Trident",
+      "grade": "D",
+      "icon": "weapon_trident_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 40,
+      "m_atk": 26
+    },
+    "178": {
+      "id": 178,
+      "name": "Bone Staff",
+      "grade": "D",
+      "icon": "weapon_apprentices_staff_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 39,
+      "m_atk": 39
+    },
+    "312": {
+      "id": 312,
+      "name": "Branch of Life",
+      "grade": "D",
+      "icon": "weapon_branch_of_life_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 32,
+      "m_atk": 35
+    },
+    "7885": {
+      "id": 7885,
+      "name": "Priest Sword",
+      "grade": "D",
+      "icon": "weapon_sword_of_priest_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 32,
+      "m_atk": 35
+    },
+    "69": {
+      "id": 69,
+      "name": "Bastard Sword",
+      "grade": "D",
+      "icon": "weapon_bastard_sword_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 51,
+      "m_atk": 32
+    },
+    "128": {
+      "id": 128,
+      "name": "Knight's Sword",
+      "grade": "D",
+      "icon": "weapon_knights_sword_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 51,
+      "m_atk": 32
+    },
+    "125": {
+      "id": 125,
+      "name": "Spinebone Sword",
+      "grade": "D",
+      "icon": "weapon_spinebone_sword_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 51,
+      "m_atk": 32
+    },
+    "126": {
+      "id": 126,
+      "name": "Artisan's Sword",
+      "grade": "D",
+      "icon": "weapon_artisans_sword_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 51,
+      "m_atk": 32
+    },
+    "127": {
+      "id": 127,
+      "name": "Crimson Sword",
+      "grade": "D",
+      "icon": "weapon_crimson_sword_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 64,
+      "m_atk": 39
+    },
+    "130": {
+      "id": 130,
+      "name": "Elven Sword",
+      "grade": "D",
+      "icon": "weapon_elven_sword_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 64,
+      "m_atk": 39
+    },
+    "129": {
+      "id": 129,
+      "name": "Sword of Revolution",
+      "grade": "D",
+      "icon": "weapon_sword_of_revolution_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 79,
+      "m_atk": 47
+    },
+    "2499": {
+      "id": 2499,
+      "name": "Elven Long Sword",
+      "grade": "D",
+      "icon": "weapon_elven_long_sword_i00.png",
+      "npc_sell": 693500,
+      "p_atk": 92,
+      "m_atk": 54
+    },
+    "166": {
+      "id": 166,
+      "name": "Heavy Mace",
+      "grade": "D",
+      "icon": "weapon_heavy_mace_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 40,
+      "m_atk": 26
+    },
+    "167": {
+      "id": 167,
+      "name": "Scalpel",
+      "grade": "D",
+      "icon": "weapon_scalpel_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 40,
+      "m_atk": 26
+    },
+    "86": {
+      "id": 86,
+      "name": "Tomahawk",
+      "grade": "D",
+      "icon": "weapon_tomahawk_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 51,
+      "m_atk": 32
+    },
+    "157": {
+      "id": 157,
+      "name": "Spiked Club",
+      "grade": "D",
+      "icon": "weapon_spike_club_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 64,
+      "m_atk": 39
+    },
+    "169": {
+      "id": 169,
+      "name": "Skull Breaker",
+      "grade": "D",
+      "icon": "weapon_skull_breaker_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 79,
+      "m_atk": 47
+    },
+    "172": {
+      "id": 172,
+      "name": "Heavy Bone Club",
+      "grade": "D",
+      "icon": "weapon_heavy_bone_club_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 79,
+      "m_atk": 47
+    },
+    "88": {
+      "id": 88,
+      "name": "Morning Star",
+      "grade": "D",
+      "icon": "weapon_morning_star_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 79,
+      "m_atk": 47
+    },
+    "158": {
+      "id": 158,
+      "name": "Tarbar",
+      "grade": "D",
+      "icon": "weapon_tarbar_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 79,
+      "m_atk": 47
+    },
+    "7896": {
+      "id": 7896,
+      "name": "Titan Hammer",
+      "grade": "D",
+      "icon": "weapon_giants_hammer_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 96,
+      "m_atk": 47
+    },
+    "159": {
+      "id": 159,
+      "name": "Bonebreaker",
+      "grade": "D",
+      "icon": "weapon_bonebreaker_i00.png",
+      "npc_sell": 693500,
+      "p_atk": 92,
+      "m_atk": 54
+    },
+    "7880": {
+      "id": 7880,
+      "name": "Steel Sword",
+      "grade": "D",
+      "icon": "weapon_iron_sword_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 49,
+      "m_atk": 26
+    },
+    "124": {
+      "id": 124,
+      "name": "Two-Handed Sword",
+      "grade": "D",
+      "icon": "weapon_two_handed_sword_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 78,
+      "m_atk": 39
+    },
+    "7881": {
+      "id": 7881,
+      "name": "Titan Sword",
+      "grade": "D",
+      "icon": "weapon_giants_sword_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 96,
+      "m_atk": 47
+    },
+    "70": {
+      "id": 70,
+      "name": "Claymore",
+      "grade": "D",
+      "icon": "weapon_claymore_i00.png",
+      "npc_sell": 693500,
+      "p_atk": 112,
+      "m_atk": 54
+    },
+    "292": {
+      "id": 292,
+      "name": "Pike",
+      "grade": "D",
+      "icon": "weapon_pike_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 51,
+      "m_atk": 32
+    },
+    "295": {
+      "id": 295,
+      "name": "Dwarven Trident",
+      "grade": "D",
+      "icon": "weapon_dwarven_trident_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 51,
+      "m_atk": 32
+    },
+    "293": {
+      "id": 293,
+      "name": "War Hammer",
+      "grade": "D",
+      "icon": "weapon_war_hammer_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 64,
+      "m_atk": 39
+    },
+    "296": {
+      "id": 296,
+      "name": "Dwarven Pike",
+      "grade": "D",
+      "icon": "weapon_dwarven_pike_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 64,
+      "m_atk": 39
+    },
+    "93": {
+      "id": 93,
+      "name": "Winged Spear",
+      "grade": "D",
+      "icon": "weapon_winged_spear_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 79,
+      "m_atk": 47
+    },
+    "294": {
+      "id": 294,
+      "name": "War Pick",
+      "grade": "D",
+      "icon": "weapon_hammer_in_flames_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 79,
+      "m_atk": 47
+    },
+    "297": {
+      "id": 297,
+      "name": "Glaive",
+      "grade": "D",
+      "icon": "weapon_glaive_i00.png",
+      "npc_sell": 693500,
+      "p_atk": 92,
+      "m_atk": 54
+    },
+    "259": {
+      "id": 259,
+      "name": "Single-Edged Jamadhr",
+      "grade": "D",
+      "icon": "weapon_single-edged_jamadhr_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 62,
+      "m_atk": 32
+    },
+    "260": {
+      "id": 260,
+      "name": "Triple-Edged Jamadhr",
+      "grade": "D",
+      "icon": "weapon_triple-edged_jamadhr_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 78,
+      "m_atk": 39
+    },
+    "261": {
+      "id": 261,
+      "name": "Bich'Hwa",
+      "grade": "D",
+      "icon": "weapon_bichhwa_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 96,
+      "m_atk": 47
+    },
+    "262": {
+      "id": 262,
+      "name": "Scallop Jamadhr",
+      "grade": "D",
+      "icon": "weapon_scallop_jamadhr_i00.png",
+      "npc_sell": 693500,
+      "p_atk": 112,
+      "m_atk": 54
+    },
+    "220": {
+      "id": 220,
+      "name": "Crafted Dagger",
+      "grade": "D",
+      "icon": "weapon_handiwork_dagger_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 35,
+      "m_atk": 26
+    },
+    "222": {
+      "id": 222,
+      "name": "Poniard Dagger",
+      "grade": "D",
+      "icon": "weapon_dirk_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 45,
+      "m_atk": 32
+    },
+    "223": {
+      "id": 223,
+      "name": "Kukuri",
+      "grade": "D",
+      "icon": "weapon_kukuri_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 56,
+      "m_atk": 39
+    },
+    "224": {
+      "id": 224,
+      "name": "Maingauche",
+      "grade": "D",
+      "icon": "weapon_maingauche_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 69,
+      "m_atk": 47
+    },
+    "1660": {
+      "id": 1660,
+      "name": "Cursed Maingauche",
+      "grade": "D",
+      "icon": "weapon_maingauche_i01.png",
+      "npc_sell": 537000,
+      "p_atk": 62,
+      "m_atk": 42
+    },
+    "225": {
+      "id": 225,
+      "name": "Mithril Dagger",
+      "grade": "D",
+      "icon": "weapon_mithril_dagger_i00.png",
+      "npc_sell": 693500,
+      "p_atk": 80,
+      "m_atk": 54
+    },
+    "275": {
+      "id": 275,
+      "name": "Long Bow",
+      "grade": "D",
+      "icon": "weapon_long_bow_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 114,
+      "m_atk": 35
+    },
+    "276": {
+      "id": 276,
+      "name": "Elven Bow",
+      "grade": "D",
+      "icon": "weapon_elven_bow_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 105,
+      "m_atk": 32
+    },
+    "277": {
+      "id": 277,
+      "name": "Dark Elven Bow",
+      "grade": "D",
+      "icon": "weapon_dark_elven_bow_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 105,
+      "m_atk": 32
+    },
+    "278": {
+      "id": 278,
+      "name": "Gastraphetes",
+      "grade": "D",
+      "icon": "weapon_gastraphetes_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 132,
+      "m_atk": 39
+    },
+    "279": {
+      "id": 279,
+      "name": "Reinforced Long Bow",
+      "grade": "D",
+      "icon": "weapon_strengthening_long_bow_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 179,
+      "m_atk": 51
+    },
+    "280": {
+      "id": 280,
+      "name": "Light Crossbow",
+      "grade": "D",
+      "icon": "weapon_cyclone_bow_i00.png",
+      "npc_sell": 693500,
+      "p_atk": 191,
+      "m_atk": 54
+    },
+    "83": {
+      "id": 83,
+      "name": "Sword of Magic",
+      "grade": "D",
+      "icon": "weapon_sword_of_magic_i00.png",
+      "npc_sell": 275400,
+      "p_atk": 43,
+      "m_atk": 45
+    },
+    "143": {
+      "id": 143,
+      "name": "Sword of Mystic",
+      "grade": "D",
+      "icon": "weapon_sword_of_mystic_i00.png",
+      "npc_sell": 275400,
+      "p_atk": 43,
+      "m_atk": 45
+    },
+    "144": {
+      "id": 144,
+      "name": "Sword of Occult",
+      "grade": "D",
+      "icon": "weapon_sword_of_occult_i00.png",
+      "npc_sell": 275400,
+      "p_atk": 43,
+      "m_atk": 45
+    },
+    "238": {
+      "id": 238,
+      "name": "Dagger of Mana",
+      "grade": "D",
+      "icon": "weapon_dagger_of_mana_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 45,
+      "m_atk": 52
+    },
+    "239": {
+      "id": 239,
+      "name": "Mystic Knife",
+      "grade": "D",
+      "icon": "weapon_mystic_knife_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 45,
+      "m_atk": 52
+    },
+    "240": {
+      "id": 240,
+      "name": "Conjurer's Knife",
+      "grade": "D",
+      "icon": "weapon_conjure_knife_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 45,
+      "m_atk": 52
+    },
+    "241": {
+      "id": 241,
+      "name": "Shilen Knife",
+      "grade": "D",
+      "icon": "weapon_knife_o__silenus_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 45,
+      "m_atk": 52
+    },
+    "7886": {
+      "id": 7886,
+      "name": "Sword of Magic Fog",
+      "grade": "D",
+      "icon": "weapon_sword_of_magic_fog_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 63,
+      "m_atk": 63
+    },
+    "321": {
+      "id": 321,
+      "name": "Demon Fangs",
+      "grade": "D",
+      "icon": "weapon_demon_fangs_i00.png",
+      "npc_sell": 585950,
+      "p_atk": 67,
+      "m_atk": 66
+    },
+    "189": {
+      "id": 189,
+      "name": "Staff of Life",
+      "grade": "D",
+      "icon": "weapon_life_stick_i00.png",
+      "npc_sell": 693500,
+      "p_atk": 74,
+      "m_atk": 72
+    },
+    "101": {
+      "id": 101,
+      "name": "Scroll of Wisdom",
+      "grade": "D",
+      "icon": "weapon_scroll_of_wisdom_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 32,
+      "m_atk": 35
+    },
+    "313": {
+      "id": 313,
+      "name": "Temptation of Abyss",
+      "grade": "D",
+      "icon": "weapon_temptation_of_abyss_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 32,
+      "m_atk": 35
+    },
+    "314": {
+      "id": 314,
+      "name": "Proof of Revenge",
+      "grade": "D",
+      "icon": "weapon_proof_of_revenge_i00.png",
+      "npc_sell": 157500,
+      "p_atk": 32,
+      "m_atk": 35
+    },
+    "179": {
+      "id": 179,
+      "name": "Mace of Prayer",
+      "grade": "D",
+      "icon": "weapon_mace_of_prayer_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 41,
+      "m_atk": 43
+    },
+    "180": {
+      "id": 180,
+      "name": "Mace of Judgment",
+      "grade": "D",
+      "icon": "weapon_mace_of_judgment_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 41,
+      "m_atk": 43
+    },
+    "181": {
+      "id": 181,
+      "name": "Mace of Miracle",
+      "grade": "D",
+      "icon": "weapon_mace_of_miracle_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 41,
+      "m_atk": 43
+    },
+    "182": {
+      "id": 182,
+      "name": "Doom Hammer",
+      "grade": "D",
+      "icon": "weapon_doom_hammer_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 41,
+      "m_atk": 43
+    },
+    "315": {
+      "id": 315,
+      "name": "Divine Tome",
+      "grade": "D",
+      "icon": "weapon_divine_tome_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 41,
+      "m_atk": 43
+    },
+    "316": {
+      "id": 316,
+      "name": "Sage's Blood",
+      "grade": "D",
+      "icon": "weapon_blood_of_saints_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 51,
+      "m_atk": 52
+    },
+    "317": {
+      "id": 317,
+      "name": "Tome of Blood",
+      "grade": "D",
+      "icon": "weapon_tome_of_blood_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 51,
+      "m_atk": 52
+    },
+    "7890": {
+      "id": 7890,
+      "name": "Priest Mace",
+      "grade": "D",
+      "icon": "weapon_mace_of_priest_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 63,
+      "m_atk": 63
+    },
+    "318": {
+      "id": 318,
+      "name": "Crucifix of Blood",
+      "grade": "D",
+      "icon": "weapon_crucifix_of_blood_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 63,
+      "m_atk": 63
+    },
+    "183": {
+      "id": 183,
+      "name": "Mystic Staff",
+      "grade": "D",
+      "icon": "weapon_mystic_staff_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 50,
+      "m_atk": 47
+    },
+    "184": {
+      "id": 184,
+      "name": "Conjuror's Staff",
+      "grade": "D",
+      "icon": "weapon_conjure_staff_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 50,
+      "m_atk": 47
+    },
+    "185": {
+      "id": 185,
+      "name": "Staff of Mana",
+      "grade": "D",
+      "icon": "weapon_staff_of_mana_i00.png",
+      "npc_sell": 247750,
+      "p_atk": 50,
+      "m_atk": 47
+    },
+    "186": {
+      "id": 186,
+      "name": "Staff of Magic",
+      "grade": "D",
+      "icon": "weapon_staff_of_magicpower_i00.png",
+      "npc_sell": 371750,
+      "p_atk": 62,
+      "m_atk": 57
+    },
+    "90": {
+      "id": 90,
+      "name": "Goat Head Staff",
+      "grade": "D",
+      "icon": "weapon_goathead_staff_i00.png",
+      "npc_sell": 537000,
+      "p_atk": 77,
+      "m_atk": 69
+    },
+    "187": {
+      "id": 187,
+      "name": "Atuba Hammer",
+      "grade": "D",
+      "icon": "weapon_atuba_hammer_i00.png",
+      "npc_sell": 693500,
+      "p_atk": 90,
+      "m_atk": 79
+    },
+    "190": {
+      "id": 190,
+      "name": "Atuba Mace",
+      "grade": "D",
+      "icon": "weapon_atuba_mace_i00.png",
+      "npc_sell": 693500,
+      "p_atk": 90,
+      "m_atk": 79
+    },
+    "188": {
+      "id": 188,
+      "name": "Ghost Staff",
+      "grade": "D",
+      "icon": "weapon_ghost_staff_i00.png",
+      "npc_sell": 693500,
+      "p_atk": 90,
+      "m_atk": 79
+    },
+    "347": {
+      "id": 347,
+      "name": "Ring Mail Breastplate",
+      "grade": "D",
+      "icon": "armor_t12_u_i00.png",
+      "npc_sell": 32105
+    },
+    "348": {
+      "id": 348,
+      "name": "Scale Mail",
+      "grade": "D",
+      "icon": "armor_t08_u_i00.png",
+      "npc_sell": 51250
+    },
+    "349": {
+      "id": 349,
+      "name": "Compound Scale Mail",
+      "grade": "D",
+      "icon": "armor_t20_u_i00.png",
+      "npc_sell": 70550
+    },
+    "350": {
+      "id": 350,
+      "name": "Dwarven Scale Mail",
+      "grade": "D",
+      "icon": "armor_t15_u_i00.png",
+      "npc_sell": 70550
+    },
+    "58": {
+      "id": 58,
+      "name": "Mithril Breastplate",
+      "grade": "D",
+      "icon": "armor_t19_u_i00.png",
+      "npc_sell": 70550
+    },
+    "352": {
+      "id": 352,
+      "name": "Brigandine Breastplate",
+      "grade": "D",
+      "icon": "armor_t43_u_i00.png",
+      "npc_sell": 114850
+    },
+    "351": {
+      "id": 351,
+      "name": "Blast Plate",
+      "grade": "D",
+      "icon": "armor_t40_u_i00.png",
+      "npc_sell": 78100
+    },
+    "353": {
+      "id": 353,
+      "name": "Half Plate Armor",
+      "grade": "D",
+      "icon": "armor_t46_u_i00.png",
+      "npc_sell": 150400
+    },
+    "376": {
+      "id": 376,
+      "name": "Iron Plate Gaiters",
+      "grade": "D",
+      "icon": "armor_t12_l_i00.png",
+      "npc_sell": 20050
+    },
+    "377": {
+      "id": 377,
+      "name": "Scale Gaiters",
+      "grade": "D",
+      "icon": "armor_t08_l_i00.png",
+      "npc_sell": 32050
+    },
+    "378": {
+      "id": 378,
+      "name": "Compound Scale Gaiters",
+      "grade": "D",
+      "icon": "armor_t20_l_i00.png",
+      "npc_sell": 48800
+    },
+    "379": {
+      "id": 379,
+      "name": "Dwarven Scale Gaiters",
+      "grade": "D",
+      "icon": "armor_t15_l_i00.png",
+      "npc_sell": 48800
+    },
+    "59": {
+      "id": 59,
+      "name": "Mithril Gaiters",
+      "grade": "D",
+      "icon": "armor_t19_l_i00.png",
+      "npc_sell": 48800
+    },
+    "2378": {
+      "id": 2378,
+      "name": "Brigandine Gaiters",
+      "grade": "D",
+      "icon": "armor_t43_l_i00.png",
+      "npc_sell": 71800
+    },
+    "2377": {
+      "id": 2377,
+      "name": "Mithril Scale Gaiters",
+      "grade": "D",
+      "icon": "armor_t40_l_i00.png",
+      "npc_sell": 71800
+    },
+    "380": {
+      "id": 380,
+      "name": "Plate Gaiters",
+      "grade": "D",
+      "icon": "armor_t46_l_i00.png",
+      "npc_sell": 94000
+    },
+    "391": {
+      "id": 391,
+      "name": "Puma Skin Shirt",
+      "grade": "D",
+      "icon": "armor_t09_u_i00.png",
+      "npc_sell": 24100
+    },
+    "392": {
+      "id": 392,
+      "name": "Lion Skin Shirt",
+      "grade": "D",
+      "icon": "armor_t18_u_i00.png",
+      "npc_sell": 38450
+    },
+    "393": {
+      "id": 393,
+      "name": "Mithril Banded Mail",
+      "grade": "D",
+      "icon": "armor_t10_u_i00.png",
+      "npc_sell": 58500
+    },
+    "394": {
+      "id": 394,
+      "name": "Reinforced Leather Shirt",
+      "grade": "D",
+      "icon": "armor_t13_u_i00.png",
+      "npc_sell": 58500
+    },
+    "395": {
+      "id": 395,
+      "name": "Manticore Skin Shirt",
+      "grade": "D",
+      "icon": "armor_t42_u_i00.png",
+      "npc_sell": 86000
+    },
+    "417": {
+      "id": 417,
+      "name": "Manticore Skin Gaiters",
+      "grade": "D",
+      "icon": "armor_t42_l_i00.png",
+      "npc_sell": 53850
+    },
+    "396": {
+      "id": 396,
+      "name": "Salamander Skin Mail",
+      "grade": "D",
+      "icon": "armor_t45_ul_i00.png",
+      "npc_sell": 183300
+    },
+    "413": {
+      "id": 413,
+      "name": "Puma Skin Gaiters",
+      "grade": "D",
+      "icon": "armor_t09_l_i00.png",
+      "npc_sell": 15050
+    },
+    "414": {
+      "id": 414,
+      "name": "Lion Skin Gaiters",
+      "grade": "D",
+      "icon": "armor_t18_l_i00.png",
+      "npc_sell": 24000
+    },
+    "415": {
+      "id": 415,
+      "name": "Mithril Banded Gaiters",
+      "grade": "D",
+      "icon": "armor_t10_l_i00.png",
+      "npc_sell": 36600
+    },
+    "416": {
+      "id": 416,
+      "name": "Reinforced Leather Gaiters",
+      "grade": "D",
+      "icon": "armor_t13_l_i00.png",
+      "npc_sell": 36600
+    },
+    "432": {
+      "id": 432,
+      "name": "Cursed Tunic",
+      "grade": "D",
+      "icon": "armor_t14_u_i00.png",
+      "npc_sell": 24100
+    },
+    "433": {
+      "id": 433,
+      "name": "Elven Tunic",
+      "grade": "D",
+      "icon": "armor_t11_u_i00.png",
+      "npc_sell": 38450
+    },
+    "434": {
+      "id": 434,
+      "name": "White Tunic",
+      "grade": "D",
+      "icon": "armor_t16_u_i00.png",
+      "npc_sell": 38450
+    },
+    "435": {
+      "id": 435,
+      "name": "Mystic's Tunic",
+      "grade": "D",
+      "icon": "armor_t17_u_i00.png",
+      "npc_sell": 38450
+    },
+    "436": {
+      "id": 436,
+      "name": "Tunic of Knowledge",
+      "grade": "D",
+      "icon": "armor_t41_u_i00.png",
+      "npc_sell": 58500
+    },
+    "437": {
+      "id": 437,
+      "name": "Elven Mithril Tunic",
+      "grade": "D",
+      "icon": "armor_t51_u_i00.png",
+      "npc_sell": 86000
+    },
+    "470": {
+      "id": 470,
+      "name": "Elven Mithril Stockings",
+      "grade": "D",
+      "icon": "armor_t51_l_i00.png",
+      "npc_sell": 53850
+    },
+    "438": {
+      "id": 438,
+      "name": "Sage's Rag",
+      "grade": "D",
+      "icon": "armor_t44_ul_i00.png",
+      "npc_sell": 183300
+    },
+    "465": {
+      "id": 465,
+      "name": "Cursed Stockings",
+      "grade": "D",
+      "icon": "armor_t14_l_i00.png",
+      "npc_sell": 15050
+    },
+    "466": {
+      "id": 466,
+      "name": "Elven Stockings",
+      "grade": "D",
+      "icon": "armor_t11_l_i00.png",
+      "npc_sell": 24000
+    },
+    "467": {
+      "id": 467,
+      "name": "Dark Stockings",
+      "grade": "D",
+      "icon": "armor_t16_l_i00.png",
+      "npc_sell": 24000
+    },
+    "468": {
+      "id": 468,
+      "name": "Mystic's Stockings",
+      "grade": "D",
+      "icon": "armor_t17_l_i00.png",
+      "npc_sell": 24000
+    },
+    "469": {
+      "id": 469,
+      "name": "Stockings of Knowledge",
+      "grade": "D",
+      "icon": "armor_t41_l_i00.png",
+      "npc_sell": 36600
+    },
+    "45": {
+      "id": 45,
+      "name": "Bone Helmet",
+      "grade": "D",
+      "icon": "armor_leather_helmet_i00.png",
+      "npc_sell": 12050
+    },
+    "46": {
+      "id": 46,
+      "name": "Bronze Helmet",
+      "grade": "D",
+      "icon": "armor_helmet_i00.png",
+      "npc_sell": 19200
+    },
+    "604": {
+      "id": 604,
+      "name": "Crafted Leather Gloves",
+      "grade": "D",
+      "icon": "armor_t09_g_i00.png",
+      "npc_sell": 8050
+    },
+    "605": {
+      "id": 605,
+      "name": "Leather Gauntlets",
+      "grade": "D",
+      "icon": "armor_t18_g_i00.png",
+      "npc_sell": 12800
+    },
+    "63": {
+      "id": 63,
+      "name": "Gauntlets",
+      "grade": "D",
+      "icon": "armor_t10_g_i00.png",
+      "npc_sell": 19550
+    },
+    "2446": {
+      "id": 2446,
+      "name": "Reinforced Leather Gloves",
+      "grade": "D",
+      "icon": "armor_t13_g_i00.png",
+      "npc_sell": 19550
+    },
+    "2447": {
+      "id": 2447,
+      "name": "Gloves of Knowledge",
+      "grade": "D",
+      "icon": "armor_t41_g_i00.png",
+      "npc_sell": 19550
+    },
+    "606": {
+      "id": 606,
+      "name": "Rip Gauntlets",
+      "grade": "D",
+      "icon": "armor_t40_g_i00.png",
+      "npc_sell": 28700
+    },
+    "2449": {
+      "id": 2449,
+      "name": "Brigandine Gauntlets",
+      "grade": "D",
+      "icon": "armor_t43_g_i00.png",
+      "npc_sell": 28700
+    },
+    "2448": {
+      "id": 2448,
+      "name": "Manticore Skin Gloves",
+      "grade": "D",
+      "icon": "armor_t42_g_i00.png",
+      "npc_sell": 28700
+    },
+    "2450": {
+      "id": 2450,
+      "name": "Elven Mithril Gloves",
+      "grade": "D",
+      "icon": "armor_t51_g_i00.png",
+      "npc_sell": 28700
+    },
+    "61": {
+      "id": 61,
+      "name": "Mithril Plate Gloves",
+      "grade": "D",
+      "icon": "armor_t46_g_i00.png",
+      "npc_sell": 37600
+    },
+    "607": {
+      "id": 607,
+      "name": "Ogre Power Gauntlets",
+      "grade": "D",
+      "icon": "armor_t45_g_i00.png",
+      "npc_sell": 37600
+    },
+    "40": {
+      "id": 40,
+      "name": "Leather Boots",
+      "grade": "D",
+      "icon": "armor_t09_b_i00.png",
+      "npc_sell": 8050
+    },
+    "1123": {
+      "id": 1123,
+      "name": "Blue Buckskin Boots",
+      "grade": "D",
+      "icon": "armor_t18_b_i00.png",
+      "npc_sell": 12800
+    },
+    "553": {
+      "id": 553,
+      "name": "Iron Boots",
+      "grade": "D",
+      "icon": "armor_t10_b_i00.png",
+      "npc_sell": 19550
+    },
+    "2423": {
+      "id": 2423,
+      "name": "Boots of Knowledge",
+      "grade": "D",
+      "icon": "armor_t41_b_i00.png",
+      "npc_sell": 19550
+    },
+    "2422": {
+      "id": 2422,
+      "name": "Reinforced Leather Boots",
+      "grade": "D",
+      "icon": "armor_t13_b_i00.png",
+      "npc_sell": 19550
+    },
+    "1124": {
+      "id": 1124,
+      "name": "Boots of Power",
+      "grade": "D",
+      "icon": "armor_t40_b_i00.png",
+      "npc_sell": 28700
+    },
+    "2425": {
+      "id": 2425,
+      "name": "Brigandine Boots",
+      "grade": "D",
+      "icon": "armor_t43_b_i00.png",
+      "npc_sell": 28700
+    },
+    "2426": {
+      "id": 2426,
+      "name": "Elven Mithril Boots",
+      "grade": "D",
+      "icon": "armor_t51_b_i00.png",
+      "npc_sell": 28700
+    },
+    "2424": {
+      "id": 2424,
+      "name": "Manticore Skin Boots",
+      "grade": "D",
+      "icon": "armor_t42_b_i00.png",
+      "npc_sell": 28700
+    },
+    "2428": {
+      "id": 2428,
+      "name": "Plate Boots",
+      "grade": "D",
+      "icon": "armor_t46_b_i00.png",
+      "npc_sell": 37600
+    },
+    "1125": {
+      "id": 1125,
+      "name": "Assault Boots",
+      "grade": "D",
+      "icon": "armor_t44_b_i00.png",
+      "npc_sell": 37600
+    },
+    "626": {
+      "id": 626,
+      "name": "Bronze Shield",
+      "grade": "D",
+      "icon": "shield_bronze_shield_i00.png",
+      "npc_sell": 8450
+    },
+    "627": {
+      "id": 627,
+      "name": "Aspis",
+      "grade": "D",
+      "icon": "shield_aspis_i00.png",
+      "npc_sell": 13450
+    },
+    "628": {
+      "id": 628,
+      "name": "Hoplon",
+      "grade": "D",
+      "icon": "shield_hoplon_i00.png",
+      "npc_sell": 20500
+    },
+    "629": {
+      "id": 629,
+      "name": "Kite Shield",
+      "grade": "D",
+      "icon": "shield_kite_shield_i00.png",
+      "npc_sell": 30150
+    },
+    "2493": {
+      "id": 2493,
+      "name": "Brigandine Shield",
+      "grade": "D",
+      "icon": "shield_brigandine_shield_i00.png",
+      "npc_sell": 30150
+    },
+    "630": {
+      "id": 630,
+      "name": "Square Shield",
+      "grade": "D",
+      "icon": "shield_square_shield_i00.png",
+      "npc_sell": 39500
+    },
+    "2494": {
+      "id": 2494,
+      "name": "Plate Shield",
+      "grade": "D",
+      "icon": "shield_plate_shield_i00.png",
+      "npc_sell": 39500
+    },
+    "910": {
+      "id": 910,
+      "name": "Necklace of Devotion",
+      "grade": "D",
+      "icon": "accessary_necklace_of_devotion_i00.png",
+      "npc_sell": 13800
+    },
+    "911": {
+      "id": 911,
+      "name": "Enchanted Necklace",
+      "grade": "D",
+      "icon": "accessary_enchanted_necklace_i00.png",
+      "npc_sell": 21850
+    },
+    "912": {
+      "id": 912,
+      "name": "Near Forest Necklace",
+      "grade": "D",
+      "icon": "accessary_near_forest_necklace_i00.png",
+      "npc_sell": 32950
+    },
+    "913": {
+      "id": 913,
+      "name": "Elven Necklace",
+      "grade": "D",
+      "icon": "accessary_elven_necklace_i00.png",
+      "npc_sell": 47900
+    },
+    "914": {
+      "id": 914,
+      "name": "Necklace of Darkness",
+      "grade": "D",
+      "icon": "accessary_necklace_of_darkness_i00.png",
+      "npc_sell": 62200
+    },
+    "847": {
+      "id": 847,
+      "name": "Red Crescent Earring",
+      "grade": "D",
+      "icon": "accessary_red_cresent_earing_i00.png",
+      "npc_sell": 10350
+    },
+    "848": {
+      "id": 848,
+      "name": "Enchanted Earring",
+      "grade": "D",
+      "icon": "accessary_enchanted_earing_i00.png",
+      "npc_sell": 16400
+    },
+    "849": {
+      "id": 849,
+      "name": "Tiger's Eye Earring",
+      "grade": "D",
+      "icon": "accessary_tigerseye_earing_i00.png",
+      "npc_sell": 24700
+    },
+    "850": {
+      "id": 850,
+      "name": "Elven Earring",
+      "grade": "D",
+      "icon": "accessary_elven_earing_i00.png",
+      "npc_sell": 35950
+    },
+    "851": {
+      "id": 851,
+      "name": "Omen Beast's Eye Earring",
+      "grade": "D",
+      "icon": "accessary_onyxbeastseye_earing_i00.png",
+      "npc_sell": 46650
+    },
+    "890": {
+      "id": 890,
+      "name": "Ring of Devotion",
+      "grade": "D",
+      "icon": "accessary_ring_of_devotion_i00.png",
+      "npc_sell": 6900
+    },
+    "879": {
+      "id": 879,
+      "name": "Enchanted Ring",
+      "grade": "D",
+      "icon": "accessary_enchanted_ring_i00.png",
+      "npc_sell": 10900
+    },
+    "880": {
+      "id": 880,
+      "name": "Black Pearl Ring",
+      "grade": "D",
+      "icon": "accessary_black_pearl_ring_i00.png",
+      "npc_sell": 16500
+    },
+    "881": {
+      "id": 881,
+      "name": "Elven Ring",
+      "grade": "D",
+      "icon": "accessary_elven_ring_i00.png",
+      "npc_sell": 23950
+    },
+    "882": {
+      "id": 882,
+      "name": "Mithril Ring",
+      "grade": "D",
+      "icon": "accessary_mithril_ring_i00.png",
+      "npc_sell": 31100
+    }
+  }
+}

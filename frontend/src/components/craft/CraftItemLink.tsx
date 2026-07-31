@@ -1,10 +1,10 @@
 import { useMemo } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useAuth } from "../../hooks/useAuth";
 import { useCraftResources } from "../../hooks/useCraftResources";
 import type { CraftCatalog } from "../../lib/craftCalc";
 import { farmResourceIds } from "../../lib/craftResources";
-import { itemPagePath, resourcePagePath } from "../../lib/internalNav";
+import { currentReturnPath, itemPagePath, resourcePagePath } from "../../lib/internalNav";
 
 interface Props {
   id: number;
@@ -14,6 +14,8 @@ interface Props {
 }
 
 export default function CraftItemLink({ id, name, catalog, className }: Props) {
+  const location = useLocation();
+  const from = currentReturnPath(location);
   const { hasPermission } = useAuth();
   const canOpenResources = hasPermission("nav.resources");
   const { data: resourcesPayload } = useCraftResources({
@@ -26,7 +28,7 @@ export default function CraftItemLink({ id, name, catalog, className }: Props) {
   }, [catalog.farmMaterialIds, resourcesPayload]);
 
   const hasResourceLink = canOpenResources && farmSet.has(id);
-  const to = hasResourceLink ? resourcePagePath(id) : itemPagePath(id);
+  const to = hasResourceLink ? resourcePagePath(id, from) : itemPagePath(id, from);
   const title = hasResourceLink
     ? "Спойл и дроп на вкладке «Ресурсы»"
     : "Энциклопедия предметов";

@@ -41,6 +41,7 @@ _SPEC_LIST: tuple[DatasetSpec, ...] = (
     DatasetSpec("duals_catalog", "duals_catalog.json"),
     # Bosses live in raid_bosses; the blob is kept only for the map config.
     DatasetSpec("raid_bosses", "raid_bosses.json"),
+    DatasetSpec("weapon_upgrades", "weapon_upgrades.json"),
 )
 
 DATASETS: dict[str, DatasetSpec] = {spec.key: spec for spec in _SPEC_LIST}

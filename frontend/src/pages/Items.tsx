@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import ArmorSetDetailPanel from "../components/items/ArmorSetDetailPanel";
 import ArmorSetsGrid from "../components/items/ArmorSetsGrid";
 import ItemDetailPanel from "../components/items/ItemDetailPanel";
@@ -26,8 +26,10 @@ import {
 import { filterOtherItems } from "../lib/itemEncyclopedia";
 import type { ItemEncyclopediaEntry } from "../api/items";
 import type { CraftCatalog } from "../lib/craftCalc";
+import { isSafeReturnPath, returnLinkFromParam } from "../lib/internalNav";
 
 export default function ItemsPage() {
+  const navigate = useNavigate();
   const { data: browse, isLoading: browseLoading, error: browseError } = useItemsBrowse();
   const [searchParams, setSearchParams] = useSearchParams();
   const [tab, setTab] = useState<ItemsTab>("items");
@@ -47,6 +49,8 @@ export default function ItemsPage() {
   }, [searchParams]);
 
   const paramSet = searchParams.get("set");
+  const returnPath = searchParams.get("from");
+  const returnLink = useMemo(() => returnLinkFromParam(returnPath), [returnPath]);
 
   const gearList = useMemo(
     () =>
@@ -130,14 +134,22 @@ export default function ItemsPage() {
   };
 
   const selectItem = (id: number) => {
-    setSearchParams({ id: String(id) }, { replace: true });
+    const params: Record<string, string> = { id: String(id) };
+    if (isSafeReturnPath(returnPath)) params.from = returnPath;
+    setSearchParams(params, { replace: true });
   };
 
   const selectSet = (id: string) => {
-    setSearchParams({ set: id }, { replace: true });
+    const params: Record<string, string> = { set: id };
+    if (isSafeReturnPath(returnPath)) params.from = returnPath;
+    setSearchParams(params, { replace: true });
   };
 
   const closeDetail = () => {
+    if (returnLink) {
+      navigate(returnLink.href);
+      return;
+    }
     setSearchParams({}, { replace: true });
   };
 
@@ -233,6 +245,8 @@ export default function ItemsPage() {
               sets={allSets}
               onClose={closeDetail}
               onOpenSet={selectSet}
+              returnLink={returnLink}
+              returnPath={returnPath}
             />
           </div>
         ) : fallbackEntry ? (
@@ -242,6 +256,8 @@ export default function ItemsPage() {
               entry={fallbackEntry}
               onClose={closeDetail}
               craftLink={fallbackEntry.craft?.craftable ? `/craft?id=${fallbackEntry.id}` : null}
+              returnLink={returnLink}
+              returnPath={returnPath}
             />
           </div>
         ) : fallbackLoading ? (

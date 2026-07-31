@@ -6,7 +6,7 @@ import { useNpcLoot, type NpcItemLootEntry } from "../../hooks/useNpcLoot";
 import { useWikiEntityByExternal } from "../../hooks/useWikiEntityByExternal";
 import type { NpcLootEntry, NpcSource } from "../../lib/craftResources";
 import { formatChance, npcProfileFromSource, wikiUrl } from "../../lib/craftResources";
-import { itemPagePath } from "../../lib/internalNav";
+import { itemPagePath, wikiPagePath, type ReturnLink } from "../../lib/internalNav";
 import { ItemIcon } from "../craft/CraftCostBar";
 import { LoadingState } from "../ui";
 
@@ -15,6 +15,8 @@ interface Props {
   materialName?: string;
   onBack: () => void;
   onMaterialClick: (id: number) => void;
+  returnLink?: ReturnLink | null;
+  returnPath?: string | null;
 }
 
 function levelFromWikiText(text: string | null | undefined): string | null {
@@ -131,7 +133,7 @@ function resourceLootRows(entries: NpcLootEntry[], onMaterialClick: (id: number)
   }));
 }
 
-function otherLootRows(entries: NpcItemLootEntry[]): NpcLootTableRow[] {
+function otherLootRows(entries: NpcItemLootEntry[], returnPath?: string | null): NpcLootTableRow[] {
   return entries.map((entry) => ({
     id: entry.item_id,
     name: entry.item_name,
@@ -139,7 +141,7 @@ function otherLootRows(entries: NpcItemLootEntry[]): NpcLootTableRow[] {
     amount: entry.amount,
     chance: entry.chance,
     itemUrl: entry.item_url,
-    nameHref: itemPagePath(entry.item_id),
+    nameHref: itemPagePath(entry.item_id, returnPath),
   }));
 }
 
@@ -160,7 +162,14 @@ function LootSection({
   );
 }
 
-export default function NpcDetailPanel({ source, materialName, onBack, onMaterialClick }: Props) {
+export default function NpcDetailPanel({
+  source,
+  materialName,
+  onBack,
+  onMaterialClick,
+  returnLink,
+  returnPath,
+}: Props) {
   const { data, isLoading, error } = useWikiEntityByExternal("npc", source.npc_id);
   const { data: npcMaterials, isLoading: materialsLoading } = useNpcMaterials(source.npc_id);
   const { data: fullLoot, isLoading: lootLoading } = useNpcLoot(source.npc_id);
@@ -182,6 +191,10 @@ export default function NpcDetailPanel({ source, materialName, onBack, onMateria
   const otherSpoils = (fullLoot?.spoils ?? []).filter((e) => !craftIds.has(e.item_id));
   const otherDrops = (fullLoot?.drops ?? []).filter((e) => !craftIds.has(e.item_id));
 
+  const backLabel = materialName
+    ? `Назад к ${materialName}`
+    : returnLink?.label ?? "Назад к ресурсам";
+
   return (
     <div className="panel flex flex-col overflow-hidden">
       <div className="border-b border-zinc-800/80 px-5 py-4">
@@ -191,7 +204,7 @@ export default function NpcDetailPanel({ source, materialName, onBack, onMateria
           className="mb-3 flex items-center gap-1.5 text-sm text-zinc-400 transition-colors hover:text-amber-400"
         >
           <span aria-hidden>←</span>
-          {materialName ? `Назад к ${materialName}` : "Назад к ресурсам"}
+          {backLabel}
         </button>
 
         <div className="flex items-start gap-4">
@@ -291,7 +304,7 @@ export default function NpcDetailPanel({ source, materialName, onBack, onMateria
             {otherSpoils.length > 0 && (
               <LootSection title="Спойл — прочее" titleColor="text-emerald-300/90">
                 <NpcLootTable
-                  rows={otherLootRows(otherSpoils)}
+                  rows={otherLootRows(otherSpoils, returnPath)}
                   nameColumn="Предмет"
                   emptyMessage="Нет других предметов"
                 />
@@ -300,7 +313,7 @@ export default function NpcDetailPanel({ source, materialName, onBack, onMateria
             {otherDrops.length > 0 && (
               <LootSection title="Дроп — прочее" titleColor="text-amber-300/90">
                 <NpcLootTable
-                  rows={otherLootRows(otherDrops)}
+                  rows={otherLootRows(otherDrops, returnPath)}
                   nameColumn="Предмет"
                   emptyMessage="Нет других предметов"
                 />
@@ -313,7 +326,7 @@ export default function NpcDetailPanel({ source, materialName, onBack, onMateria
           <div className="mt-6 flex flex-wrap gap-2 border-t border-zinc-800/80 pt-4">
             {data && (
               <Link
-                to={`/wiki/npc/${data.id}`}
+                to={wikiPagePath("npc", data.id, returnPath)}
                 className="rounded-lg border border-amber-500/30 bg-amber-500/10 px-3 py-1.5 text-sm text-amber-400 hover:bg-amber-500/20"
               >
                 Полная статья

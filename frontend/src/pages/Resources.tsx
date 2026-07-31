@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import NpcDetailPanel from "../components/resources/NpcDetailPanel";
 import ResourceDetail from "../components/resources/ResourceDetail";
 import ResourcePicker from "../components/resources/ResourcePicker";
@@ -7,6 +7,7 @@ import { ErrorState, LoadingState, PageHeader } from "../components/ui";
 import { useCraftResources, useMaterialSources, useNpcMaterials } from "../hooks/useCraftResources";
 import type { NpcLootProfile, NpcSource } from "../lib/craftResources";
 import { findResource, npcLevelBounds } from "../lib/craftResources";
+import { isSafeReturnPath, returnLinkFromParam } from "../lib/internalNav";
 
 function parseIdParam(raw: string | null): number | null {
   if (!raw) return null;
@@ -40,6 +41,7 @@ function sourceFromNpcId(npcId: number, profile?: NpcLootProfile | null): NpcSou
 }
 
 export default function ResourcesPage() {
+  const navigate = useNavigate();
   const { data: payload, isLoading, error } = useCraftResources();
   const [searchParams, setSearchParams] = useSearchParams();
   const [selectedNpc, setSelectedNpc] = useState<NpcSource | null>(null);
@@ -48,6 +50,13 @@ export default function ResourcesPage() {
 
   const selectedId = useMemo(() => parseIdParam(searchParams.get("id")), [searchParams]);
   const npcParam = useMemo(() => parseIdParam(searchParams.get("npc")), [searchParams]);
+  const returnPath = searchParams.get("from");
+  const returnLink = useMemo(() => returnLinkFromParam(returnPath), [returnPath]);
+
+  const withFrom = (params: Record<string, string>) => {
+    if (isSafeReturnPath(returnPath)) params.from = returnPath;
+    return params;
+  };
 
   const levelBounds = useMemo(() => (payload ? npcLevelBounds(payload) : { min: 1, max: 80 }), [payload]);
   const { data: sources, isLoading: sourcesLoading } = useMaterialSources(selectedId);
@@ -68,26 +77,34 @@ export default function ResourcesPage() {
   }, [npcParam, npcFromUrl]);
 
   const selectMaterial = (id: number) => {
-    setSearchParams({ id: String(id) }, { replace: true });
+    setSearchParams(withFrom({ id: String(id) }), { replace: true });
   };
 
   const selectNpc = (source: NpcSource) => {
-    const next: Record<string, string> = { npc: String(source.npc_id) };
+    const next = withFrom({ npc: String(source.npc_id) });
     if (selectedId != null) next.id = String(selectedId);
     setSelectedNpc(source);
     setSearchParams(next, { replace: true });
   };
 
   const closeMaterial = () => {
+    if (returnLink) {
+      navigate(returnLink.href);
+      return;
+    }
     setSearchParams({}, { replace: true });
   };
 
   const backFromNpc = () => {
     if (selectedId != null) {
-      setSearchParams({ id: String(selectedId) }, { replace: true });
-    } else {
-      setSearchParams({}, { replace: true });
+      setSearchParams(withFrom({ id: String(selectedId) }), { replace: true });
+      return;
     }
+    if (returnLink) {
+      navigate(returnLink.href);
+      return;
+    }
+    setSearchParams({}, { replace: true });
   };
 
   if (isLoading) return <LoadingState />;
@@ -131,6 +148,8 @@ export default function ResourcesPage() {
               materialName={selectedEntry?.material.name}
               onBack={backFromNpc}
               onMaterialClick={selectMaterial}
+              returnLink={returnLink}
+              returnPath={returnPath}
             />
           </div>
         ) : selectedEntry ? (
@@ -146,6 +165,7 @@ export default function ResourcesPage() {
               onMaxLevelChange={setMaxLevel}
               onNpcSelect={selectNpc}
               onClose={closeMaterial}
+              returnLink={returnLink}
             />
           </div>
         ) : (
