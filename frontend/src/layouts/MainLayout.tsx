@@ -1,5 +1,6 @@
 import { NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../hooks/useAuth";
+import { usePreferencesSyncState } from "../hooks/usePreferences";
 import { Suspense, useEffect, useMemo, useState } from "react";
 import { LoadingState } from "../components/ui";
 
@@ -144,6 +145,7 @@ function useNavGroup(group: NavGroup, hasPermission: (p: string) => boolean) {
 
 export default function MainLayout() {
   const { user, logout, hasPermission } = useAuth();
+  const { saveError } = usePreferencesSyncState();
   const navigate = useNavigate();
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
@@ -273,6 +275,11 @@ export default function MainLayout() {
         </div>
 
         <div className="w-full min-w-0 flex-1 p-4 sm:p-6 lg:p-8">
+          {saveError && (
+            <div className="mb-4 rounded-xl border border-red-900/50 bg-red-950/40 px-4 py-3 text-sm text-red-300">
+              {saveError}
+            </div>
+          )}
           <Suspense fallback={<LoadingState />}>
             <Outlet />
           </Suspense>

@@ -1,4 +1,4 @@
-import { useMemo, useState, useEffect } from "react";
+import { useMemo, useState, useEffect, useCallback } from "react";
 import { Link, useSearchParams } from "react-router-dom";
 import CraftBulkCartList from "../components/craft/CraftBulkCartList";
 import CraftCartWidget from "../components/craft/CraftCartWidget";
@@ -12,7 +12,7 @@ import { useCraftCart } from "../hooks/useCraftCart";
 import { useCraftCatalog } from "../hooks/useCraftCatalog";
 import { useCraftPrices } from "../hooks/useCraftPrices";
 import { usePreference } from "../hooks/usePreferences";
-import { buildMultiCraftRollup } from "../lib/craftCalc";
+import { buildMultiCraftRollup, applyWarehouseConsumption, computeWarehouseConsumption } from "../lib/craftCalc";
 
 type BulkTab = "warehouse" | "crafts" | "shopping";
 
@@ -67,6 +67,28 @@ export default function CraftBulkPage() {
     else next[k] = val;
     setOwned(next);
   };
+
+  const handleCraft = useCallback(
+    (productId: number) => {
+      const cat = bulkCatalog ?? baseCatalog;
+      if (!cat) return;
+      const entry = entries.find((e) => e.productId === productId);
+      if (!entry) return;
+      const variantIdx = entry.variantIdx ?? chosenVariants[String(productId)] ?? 0;
+      const consumed = computeWarehouseConsumption(
+        cat,
+        productId,
+        entry.qty,
+        owned,
+        variantIdx,
+        chosenVariants,
+      );
+      if (!consumed) return;
+      setOwned(applyWarehouseConsumption(owned, consumed));
+      remove(productId);
+    },
+    [bulkCatalog, baseCatalog, entries, chosenVariants, owned, setOwned, remove],
+  );
 
   if (isLoading) return <LoadingState />;
   if (error || !baseCatalog) {
@@ -142,6 +164,7 @@ export default function CraftBulkPage() {
         onOwnedChange={onOwnedChange}
         onQtyChange={setQty}
         onRemove={remove}
+        onCraft={handleCraft}
         showPrices={canSeePrices}
         showApproxCost
         recipesLoading={loadingRecipes}
@@ -163,7 +186,13 @@ export default function CraftBulkPage() {
 
       <div className="lg:hidden">
         {tab === "warehouse" && (
-          <CraftWarehousePanel catalog={catalog} owned={owned} onOwnedChange={onOwnedChange} />
+          <CraftWarehousePanel
+            catalog={catalog}
+            owned={owned}
+            onOwnedChange={onOwnedChange}
+            prices={serverPrices}
+            manual={manual}
+          />
         )}
         {tab === "crafts" && craftsSection}
         {tab === "shopping" && shoppingSection}
@@ -174,7 +203,13 @@ export default function CraftBulkPage() {
           storageKey="lu4_bulk_craft_ratio"
           defaultRatio={38}
           left={
-            <CraftWarehousePanel catalog={catalog} owned={owned} onOwnedChange={onOwnedChange} />
+            <CraftWarehousePanel
+              catalog={catalog}
+              owned={owned}
+              onOwnedChange={onOwnedChange}
+              prices={serverPrices}
+              manual={manual}
+            />
           }
           right={
             <div className="flex flex-col gap-4">

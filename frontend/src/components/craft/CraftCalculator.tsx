@@ -1,7 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
+  applyWarehouseConsumption,
   buildTree,
+  computeWarehouseConsumption,
+  isCraftReady,
   itemInfo,
   variantsFor,
   type CalcNode,
@@ -61,6 +64,11 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
     [catalog, productId, qty, owned, variantIdx, chosenVariants],
   );
 
+  const canCraft = useMemo(
+    () => Boolean(tree && isCraftReady(catalog, tree)),
+    [catalog, tree],
+  );
+
   const allIds = useMemo(() => {
     const s = new Set<number>([productId]);
     if (tree) collectIds(tree, s);
@@ -80,6 +88,19 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
   const onVariantChange = (idx: number) => {
     setVariantIdx(idx);
     setChosenVariants({ ...chosenVariants, [String(productId)]: idx });
+  };
+
+  const handleCraft = () => {
+    const consumed = computeWarehouseConsumption(
+      catalog,
+      productId,
+      qty,
+      owned,
+      variantIdx,
+      chosenVariants,
+    );
+    if (!consumed) return;
+    setOwned(applyWarehouseConsumption(owned, consumed));
   };
 
   if (!tree) return null;
@@ -154,10 +175,19 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
         </div>
         <button
           type="button"
+          disabled={!canCraft}
+          title={canCraft ? "Списать материалы со склада" : "Не хватает материалов на складе"}
+          onClick={handleCraft}
+          className="rounded-lg bg-emerald-600 px-3 py-1.5 text-xs font-semibold text-zinc-950 transition-colors hover:bg-emerald-500 disabled:cursor-not-allowed disabled:opacity-40"
+        >
+          Скрафтить
+        </button>
+        <button
+          type="button"
           onClick={() => addToCart(productId, qty, variantIdx)}
           className="rounded-lg border border-amber-600/50 bg-amber-950/40 px-3 py-1.5 text-xs font-semibold text-amber-300 transition-colors hover:bg-amber-900/50"
         >
-          + В корзину
+          В список
         </button>
         <button
           type="button"

@@ -438,6 +438,75 @@ export function shoppingItems(catalog: CraftCatalog, tree: CalcNode): RollupEntr
 }
 
 /** Sum duplicate materials (e.g. Varnish used in several craft branches). */
+export function isCraftReady(catalog: CraftCatalog, tree: CalcNode): boolean {
+  return shoppingItems(catalog, tree).every((entry) => entry.still <= 0);
+}
+
+/** Warehouse amounts consumed to craft `qty` of `productId`, or null if materials are missing. */
+export function computeWarehouseConsumption(
+  catalog: CraftCatalog,
+  productId: number,
+  qty: number,
+  owned: Record<string, number>,
+  variantIdx = 0,
+  chosenVariants: Record<string, number> = {},
+): Map<number, number> | null {
+  const remaining = ownedToRemaining(owned);
+  const before = new Map(remaining);
+  const tree = buildTree(catalog, productId, qty, owned, variantIdx, chosenVariants, remaining);
+  if (!tree || !isCraftReady(catalog, tree)) return null;
+
+  const consumed = new Map<number, number>();
+  for (const [id, startQty] of before) {
+    const used = startQty - (remaining.get(id) ?? 0);
+    if (used > 0) consumed.set(id, used);
+  }
+  return consumed;
+}
+
+export function applyWarehouseConsumption(
+  owned: Record<string, number>,
+  consumed: Map<number, number>,
+): Record<string, number> {
+  const next = { ...owned };
+  for (const [id, used] of consumed) {
+    const key = String(id);
+    const left = Math.floor(Number(next[key] ?? 0)) - used;
+    if (left <= 0) delete next[key];
+    else next[key] = left;
+  }
+  return next;
+}
+
+export function warehouseTotalValue(
+  catalog: CraftCatalog,
+  owned: Record<string, number>,
+  prices: Record<string, PriceInfo>,
+  manual: Record<string, number>,
+): { total: number | null; partial: boolean } {
+  let total = 0;
+  let pricedAny = false;
+  let partial = false;
+
+  for (const [key, qtyRaw] of Object.entries(owned)) {
+    const qty = Math.floor(Number(qtyRaw));
+    if (qty <= 0) continue;
+    const id = Number(key);
+    if (!Number.isFinite(id)) continue;
+
+    const price = effectivePrice(id, prices, manual, catalog);
+    if (price == null) {
+      partial = true;
+      continue;
+    }
+    pricedAny = true;
+    total += price * qty;
+  }
+
+  if (!pricedAny) return { total: null, partial };
+  return { total, partial };
+}
+
 export function mergeShoppingById(items: RollupEntry[]): RollupEntry[] {
   const map = new Map<number, RollupEntry>();
   for (const e of items) {
