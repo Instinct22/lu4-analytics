@@ -1,0 +1,1 @@
+import{a as t}from"./index-CiF0_09u.js";async function c(){const{data:a}=await t.get("/statistics/dashboard");return a}async function e(){const{data:a}=await t.get("/statistics/unmatched");return a}async function i(a){const{data:s}=await t.get("/search",{params:{q:a}});return s}export{e as a,c as g,i as s};

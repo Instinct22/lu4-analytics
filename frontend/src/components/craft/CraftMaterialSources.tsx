@@ -1,8 +1,9 @@
 import { useMemo } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { getItemSources } from "../../api/items";
 import { itemInfo, type CalcNode, type CraftCatalog } from "../../lib/craftCalc";
+import { currentReturnPath, resourceNpcPagePath } from "../../lib/internalNav";
 
 interface Props {
   tree: CalcNode;
@@ -18,7 +19,15 @@ function leafIds(node: CalcNode, acc: Set<number> = new Set()): Set<number> {
   return acc;
 }
 
-function MaterialSourcesBlock({ materialId, name }: { materialId: number; name: string }) {
+function MaterialSourcesBlock({
+  materialId,
+  name,
+  from,
+}: {
+  materialId: number;
+  name: string;
+  from: string;
+}) {
   const { data } = useQuery({
     queryKey: ["item-sources", materialId],
     queryFn: () => getItemSources(materialId),
@@ -33,7 +42,10 @@ function MaterialSourcesBlock({ materialId, name }: { materialId: number; name: 
       {data.spoils.slice(0, 3).map((row, i) => (
         <div key={`s-${i}`} className="text-xs text-zinc-500">
           Спойл:{" "}
-          <Link to={`/resources?npc=${row.npc_id}`} className="text-amber-400 hover:underline">
+          <Link
+            to={resourceNpcPagePath(row.npc_id, { materialId, from })}
+            className="text-amber-400 hover:underline"
+          >
             {row.npc_name}
           </Link>{" "}
           · {row.chance}
@@ -42,7 +54,10 @@ function MaterialSourcesBlock({ materialId, name }: { materialId: number; name: 
       {data.drops.slice(0, 3).map((row, i) => (
         <div key={`d-${i}`} className="text-xs text-zinc-500">
           Дроп:{" "}
-          <Link to={`/resources?npc=${row.npc_id}`} className="text-amber-400 hover:underline">
+          <Link
+            to={resourceNpcPagePath(row.npc_id, { materialId, from })}
+            className="text-amber-400 hover:underline"
+          >
             {row.npc_name}
           </Link>{" "}
           · {row.chance}
@@ -53,6 +68,8 @@ function MaterialSourcesBlock({ materialId, name }: { materialId: number; name: 
 }
 
 export default function CraftMaterialSources({ tree, catalog }: Props) {
+  const location = useLocation();
+  const from = currentReturnPath(location);
   const leaves = useMemo(() => [...leafIds(tree)].slice(0, 8), [tree]);
 
   if (!leaves.length) return null;
@@ -64,7 +81,7 @@ export default function CraftMaterialSources({ tree, catalog }: Props) {
       </summary>
       <div className="mt-3 grid gap-2 sm:grid-cols-2">
         {leaves.map((id) => (
-          <MaterialSourcesBlock key={id} materialId={id} name={itemInfo(catalog, id).name} />
+          <MaterialSourcesBlock key={id} materialId={id} name={itemInfo(catalog, id).name} from={from} />
         ))}
       </div>
     </details>

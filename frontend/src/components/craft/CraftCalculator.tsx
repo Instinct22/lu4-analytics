@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import {
   applyWarehouseConsumption,
   buildTree,
@@ -10,7 +10,7 @@ import {
   type CalcNode,
   type CraftCatalog,
 } from "../../lib/craftCalc";
-import { itemPagePath } from "../../lib/internalNav";
+import { currentReturnPath, itemPagePath } from "../../lib/internalNav";
 import { masterworkItemUrl } from "../../lib/itemEncyclopedia";
 import { useCraftPrices } from "../../hooks/useCraftPrices";
 import { useAuth } from "../../hooks/useAuth";
@@ -37,6 +37,8 @@ function collectIds(node: CalcNode | null, acc: Set<number>) {
 }
 
 export default function CraftCalculator({ catalog, productId, onClose }: Props) {
+  const location = useLocation();
+  const from = currentReturnPath(location);
   const { hasPermission } = useAuth();
   const { add: addToCart } = useCraftCart();
   const canSeePrices = hasPermission("feature.craft_prices");
@@ -137,7 +139,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
           )}
           <div className="mt-1 flex flex-wrap gap-x-3 gap-y-1 text-xs">
             <Link
-              to={itemPagePath(productId)}
+              to={itemPagePath(productId, from)}
               className="font-medium text-amber-400 underline-offset-2 hover:underline"
             >
               Локальная вики →

@@ -2,7 +2,7 @@ name: Docker Publish
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened, closed]
   push:
     branches: [main]
   workflow_dispatch:
@@ -18,6 +18,10 @@ env:
 
 jobs:
   changes:
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      github.event_name == 'push' ||
+      (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -77,6 +81,7 @@ jobs:
       (github.event_name == 'workflow_dispatch' ||
         (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
         (github.event_name == 'pull_request' &&
+          github.event.action != 'closed' &&
           github.event.pull_request.head.repo.full_name == github.repository)) &&
       needs.changes.outputs.matrix != '[]'
     strategy:
@@ -102,16 +107,14 @@ jobs:
           IMAGE: ${{ env.REGISTRY }}/${{ env.IMAGE_PREFIX }}-${{ matrix.name }}
           EVENT: ${{ github.event_name }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
-          SHORT_SHA: ${{ github.sha }}
           MANUAL_TAG: ${{ github.event.inputs.tag }}
         run: |
-          short_sha="${SHORT_SHA:0:7}"
           case "$EVENT" in
             pull_request)
               echo "tags=${IMAGE}:branch-${PR_NUMBER}" >> "$GITHUB_OUTPUT"
               ;;
             push)
-              echo "tags=${IMAGE}:latest,${IMAGE}:main-${short_sha}" >> "$GITHUB_OUTPUT"
+              echo "tags=${IMAGE}:latest" >> "$GITHUB_OUTPUT"
               ;;
             workflow_dispatch)
               echo "tags=${IMAGE}:${MANUAL_TAG}" >> "$GITHUB_OUTPUT"
@@ -127,3 +130,84 @@ jobs:
           tags: ${{ steps.tags.outputs.tags }}
           cache-from: type=gha,scope=${{ matrix.name }}
           cache-to: type=gha,mode=max,scope=${{ matrix.name }}
+
+  deploy:
+    needs: build
+    if: |
+      github.event_name == 'push' &&
+      github.ref == 'refs/heads/main' &&
+      needs.build.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to production
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: 31.76.7.61
+          username: root
+          password: ${{ secrets.DEPLOY_SSH_PASSWORD }}
+          script_stop: true
+          script: |
+            set -euo pipefail
+            cd /opt/test
+            docker compose -f docker-compose.prod.yml pull
+            docker compose -f docker-compose.prod.yml up -d --force-recreate
+
+  cleanup-pr-tags:
+    if: |
+      (github.event_name == 'pull_request' && github.event.action == 'closed') ||
+      (github.event_name == 'push' && github.ref == 'refs/heads/main')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resolve PR number
+        id: pr
+        env:
+          EVENT: ${{ github.event_name }}
+          PR_FROM_EVENT: ${{ github.event.pull_request.number }}
+          COMMIT_MSG: ${{ github.event.head_commit.message }}
+        run: |
+          if [ "$EVENT" = "pull_request" ]; then
+            echo "number=${PR_FROM_EVENT}" >> "$GITHUB_OUTPUT"
+          else
+            number=$(echo "$COMMIT_MSG" | sed -n 's/.*(#\([0-9][0-9]*\)).*/\1/p' | head -1)
+            if [ -z "$number" ]; then
+              number=$(echo "$COMMIT_MSG" | sed -n 's/Merge pull request #\([0-9][0-9]*\).*/\1/p')
+            fi
+            if [ -z "$number" ]; then
+              echo "No PR number in commit message — skip cleanup"
+              echo "number=" >> "$GITHUB_OUTPUT"
+            else
+              echo "number=${number}" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Set up Crane
+        uses: imjasonh/setup-crane@v0.4
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Delete branch-* tags from Docker Hub
+        if: steps.pr.outputs.number != ''
+        env:
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+          REGISTRY: ${{ env.REGISTRY }}
+          IMAGE_PREFIX: ${{ env.IMAGE_PREFIX }}
+        run: |
+          set -euo pipefail
+          tag="branch-${PR_NUMBER}"
+          for svc in backend frontend nginx; do
+            img="${REGISTRY}/${IMAGE_PREFIX}-${svc}:${tag}"
+            if ! crane manifest "$img" >/dev/null 2>&1; then
+              echo "${img} -> not found (skipped)"
+              continue
+            fi
+            if crane delete "$img"; then
+              echo "${img} -> deleted"
+            else
+              echo "${img} -> delete failed" >&2
+              exit 1
+            fi
+          done

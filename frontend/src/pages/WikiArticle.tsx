@@ -1,14 +1,20 @@
-import { useParams, Link } from "react-router-dom";
+import { useMemo } from "react";
+import { Link, useParams, useSearchParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import { getWikiEntity, getWikiGraph } from "../api/wiki";
 import { ItemIcon } from "../components/craft/CraftCostBar";
 import WikiArticleBody from "../components/wiki/WikiArticleBody";
 import { PageHeader, LoadingState, ErrorState } from "../components/ui";
+import { ReturnLinkBar } from "../components/ui/ReturnLinkBar";
+import { returnLinkFromParam, wikiPagePath } from "../lib/internalNav";
 
 const CONTENT_LIMIT = 12000;
 
 export default function WikiArticle() {
   const { id } = useParams();
+  const [searchParams] = useSearchParams();
+  const returnPath = searchParams.get("from");
+  const returnLink = useMemo(() => returnLinkFromParam(returnPath), [returnPath]);
 
   const { data, isLoading, error } = useQuery({
     queryKey: ["wiki-entity", id],
@@ -32,6 +38,7 @@ export default function WikiArticle() {
 
   return (
     <div>
+      <ReturnLinkBar link={returnLink} />
       <PageHeader title={data.display_name} />
       <p className="mb-4 text-sm text-zinc-500">
         {data.entity_type}
@@ -78,7 +85,10 @@ export default function WikiArticle() {
                 <ul className="space-y-1 text-sm">
                   {related.map((r: { id: string; entity_type: string; display_name: string }) => (
                     <li key={r.id}>
-                      <Link to={`/wiki/${r.entity_type}/${r.id}`} className="text-amber-400 hover:underline">
+                      <Link
+                        to={wikiPagePath(r.entity_type, r.id, returnPath)}
+                        className="text-amber-400 hover:underline"
+                      >
                         {r.display_name}
                       </Link>
                     </li>

@@ -24,8 +24,7 @@ server/
 ├── nginx/
 ├── data/
 │   ├── wiki/          # library/ + images/ (runtime)
-│   ├── datasets/      # craft/character JSON для import
-│   └── media/         # загружаемые файлы
+│   └── datasets/      # craft/character JSON для import
 └── docker-compose.yml
 ```
 
@@ -35,7 +34,6 @@ server/
 |------|-----|--------|
 | `data/wiki/` | `WIKI_PATH` | `library/` (import + NPC loot raw HTML), `images/` (иконки) |
 | `data/datasets/` | `DATASETS_PATH` | craft/character analytics JSON |
-| `data/media/` | `MEDIA_PATH` | uploads |
 
 Scrape-скрипты и отчёты (`.py`, `.xlsx`, `.html`) в runtime **не нужны** — живут только в offline-пайплайне `chat_bot/` (вне `server/`).
 

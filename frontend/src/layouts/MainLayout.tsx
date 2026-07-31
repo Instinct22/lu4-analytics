@@ -39,6 +39,7 @@ const craftGroup: NavGroup = {
   icon: "⚒",
   children: [
     { to: "/craft", label: "Крафт предметов", icon: "⚒", permission: "nav.craft", end: true },
+    { to: "/craft/upgrades", label: "Апгрейд NG/D", icon: "↑", permission: "nav.craft" },
     { to: "/craft/bulk?tab=warehouse", label: "Склад", icon: "▦", permission: "nav.craft" },
   ],
   isActive: (pathname) => pathname.startsWith("/craft"),

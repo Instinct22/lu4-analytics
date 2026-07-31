@@ -13,7 +13,6 @@ class Settings(BaseSettings):
     cors_origins: str = "http://localhost,http://localhost:5173"
     wiki_path: str = "/data/wiki"
     datasets_path: str = "/data/datasets"
-    media_path: str = "/data/media"
 
     seed_users: str = "admin:admin123,user1:pass123"
 

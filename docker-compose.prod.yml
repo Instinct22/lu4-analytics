@@ -21,7 +21,6 @@ services:
       - "${HTTP_PORT:-80}:80"
     volumes:
       - static_data:/data
-      - media_uploads:/data/media:ro
     healthcheck:
       test: ["CMD", "test", "-f", "/data/datasets/items_encyclopedia.json"]
       interval: 5s
@@ -37,13 +36,11 @@ services:
       DATABASE_URL: postgresql+psycopg2://${POSTGRES_USER:-lu4}:${POSTGRES_PASSWORD:-lu4secret}@db:5432/${POSTGRES_DB:-lu4}
       WIKI_PATH: /data/wiki
       DATASETS_PATH: /data/datasets
-      MEDIA_PATH: /data/media
       PYTHONPATH: /app
       DEV_RELOAD: "false"
       UVICORN_WORKERS: ${UVICORN_WORKERS:-1}
     volumes:
       - static_data:/data:ro
-      - media_uploads:/data/media
     depends_on:
       db:
         condition: service_healthy
@@ -65,4 +62,3 @@ services:
 volumes:
   pgdata:
   static_data:
-  media_uploads:

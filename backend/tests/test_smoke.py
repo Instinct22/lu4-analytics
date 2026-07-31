@@ -78,6 +78,26 @@ def test_duals_catalog_requires_auth(anon_client):
     assert anon_client.get("/api/duals/catalog").status_code == 401
 
 
+def test_weapon_upgrades_catalog_ok(client, mock_db):
+    mock_db.scalar.return_value = SimpleNamespace(
+        dataset_key="weapon_upgrades",
+        generated_at=None,
+        payload={"upgrades": [], "items": {}, "info": {}, "ng_to_d": None},
+    )
+    r = client.get("/api/upgrades/catalog")
+    assert r.status_code == 200
+    assert r.json()["upgrades"] == []
+
+
+def test_weapon_upgrades_catalog_not_loaded(client, mock_db):
+    mock_db.scalar.return_value = None
+    assert client.get("/api/upgrades/catalog").status_code == 404
+
+
+def test_weapon_upgrades_requires_auth(anon_client):
+    assert anon_client.get("/api/upgrades/catalog").status_code == 401
+
+
 def test_market_items_empty(client, mock_db):
     mock_db.execute.return_value.all.return_value = []
     r = client.get("/api/market/items")

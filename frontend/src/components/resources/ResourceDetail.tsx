@@ -3,6 +3,8 @@ import type { MaterialSources, NpcSource, ResourceEntry } from "../../lib/craftR
 import { filterSourcesByLevel, wikiUrl } from "../../lib/craftResources";
 import { ItemIcon } from "../craft/CraftCostBar";
 import ResourceSourceTable from "./ResourceSourceTable";
+import { ReturnLinkBar } from "../ui/ReturnLinkBar";
+import type { ReturnLink } from "../../lib/internalNav";
 
 interface Props {
   entry: ResourceEntry;
@@ -15,6 +17,7 @@ interface Props {
   onMaxLevelChange: (level: number) => void;
   onNpcSelect: (source: NpcSource) => void;
   onClose: () => void;
+  returnLink?: ReturnLink | null;
 }
 
 export default function ResourceDetail({
@@ -28,6 +31,7 @@ export default function ResourceDetail({
   onMaxLevelChange,
   onNpcSelect,
   onClose,
+  returnLink,
 }: Props) {
   const { material } = entry;
 
@@ -42,6 +46,7 @@ export default function ResourceDetail({
 
   return (
     <div className="panel overflow-hidden">
+      <ReturnLinkBar link={returnLink} />
       <div className="flex items-start justify-between gap-3 border-b border-zinc-800/80 px-5 py-4">
         <div className="flex min-w-0 flex-1 items-start gap-3">
           <ItemIcon id={material.id} size={48} />
