@@ -1,3 +1,5 @@
+export type UpgradeKind = "physical" | "magic" | "armor" | "jewelry";
+
 export interface UpgradeItem {
   id: number;
   name: string;
@@ -6,11 +8,13 @@ export interface UpgradeItem {
   npc_sell?: number | null;
   p_atk?: number | null;
   m_atk?: number | null;
+  p_def?: number | null;
+  m_def?: number | null;
 }
 
 export interface WeaponUpgradeRow {
   grade: string;
-  kind: "physical" | "magic";
+  kind: UpgradeKind;
   category: string;
   category_label: string;
   from_ids: number[];
@@ -57,9 +61,18 @@ export const UPGRADE_TABS: { id: UpgradeTab; label: string }[] = [
   { id: "NG_TO_D", label: "NG → D обмен" },
 ];
 
+export const UPGRADE_KINDS: { id: UpgradeKind; label: string; icon: string }[] = [
+  { id: "physical", label: "Оружие физ.", icon: "⚔" },
+  { id: "magic", label: "Оружие маг.", icon: "✦" },
+  { id: "armor", label: "Броня", icon: "🛡" },
+  { id: "jewelry", label: "Бижутерия", icon: "💍" },
+];
+
 export const KIND_LABELS: Record<string, string> = {
-  physical: "Физическое",
-  magic: "Магическое",
+  physical: "Физическое оружие",
+  magic: "Магическое оружие",
+  armor: "Броня",
+  jewelry: "Бижутерия",
 };
 
 export function upgradeItem(catalog: WeaponUpgradesCatalog, id: number): UpgradeItem | null {
@@ -74,8 +87,10 @@ export function formatAdena(n: number | null | undefined): string {
 export function weaponStatParts(item: UpgradeItem | null): string[] {
   if (!item) return [];
   const parts: string[] = [];
-  if (item.p_atk != null) parts.push(`Физ. ${item.p_atk}`);
-  if (item.m_atk != null) parts.push(`Маг. ${item.m_atk}`);
+  if (item.p_atk != null) parts.push(`Ф.атк ${item.p_atk}`);
+  if (item.m_atk != null) parts.push(`М.атк ${item.m_atk}`);
+  if (item.p_def != null) parts.push(`Ф.защ ${item.p_def}`);
+  if (item.m_def != null) parts.push(`М.защ ${item.m_def}`);
   return parts;
 }
 
@@ -84,27 +99,48 @@ export function weaponStatLine(item: UpgradeItem | null): string | null {
   return parts.length ? parts.join(" · ") : null;
 }
 
+const STAT_DELTA_LABELS: { key: keyof UpgradeItem; label: string }[] = [
+  { key: "p_atk", label: "Ф.атк" },
+  { key: "m_atk", label: "М.атк" },
+  { key: "p_def", label: "Ф.защ" },
+  { key: "m_def", label: "М.защ" },
+];
+
 export function weaponStatDelta(from: UpgradeItem | null, to: UpgradeItem | null): string | null {
   if (!from || !to) return null;
   const chunks: string[] = [];
-  if (from.p_atk != null && to.p_atk != null && from.p_atk !== to.p_atk) {
-    const diff = to.p_atk - from.p_atk;
-    chunks.push(`Физ. ${diff > 0 ? "+" : ""}${diff}`);
-  }
-  if (from.m_atk != null && to.m_atk != null && from.m_atk !== to.m_atk) {
-    const diff = to.m_atk - from.m_atk;
-    chunks.push(`Маг. ${diff > 0 ? "+" : ""}${diff}`);
+  for (const { key, label } of STAT_DELTA_LABELS) {
+    const a = from[key];
+    const b = to[key];
+    if (typeof a === "number" && typeof b === "number" && a !== b) {
+      const diff = b - a;
+      chunks.push(`${label} ${diff > 0 ? "+" : ""}${diff}`);
+    }
   }
   return chunks.length ? chunks.join(" · ") : null;
+}
+
+export function availableGradesForKind(
+  catalog: WeaponUpgradesCatalog,
+  kind: UpgradeKind,
+): ("NG" | "D")[] {
+  const grades: ("NG" | "D")[] = [];
+  for (const grade of ["NG", "D"] as const) {
+    if (catalog.upgrades.some((u) => u.kind === kind && u.grade === grade)) {
+      grades.push(grade);
+    }
+  }
+  return grades;
 }
 
 export function categoriesForTab(
   catalog: WeaponUpgradesCatalog,
   tab: "NG" | "D",
+  kind: UpgradeKind,
 ): { id: string; label: string; kind: string }[] {
   const seen = new Map<string, { id: string; label: string; kind: string }>();
   for (const row of catalog.upgrades) {
-    if (row.grade !== tab) continue;
+    if (row.grade !== tab || row.kind !== kind) continue;
     const key = `${row.kind}:${row.category}`;
     if (!seen.has(key)) {
       seen.set(key, { id: row.category, label: row.category_label, kind: row.kind });
@@ -117,6 +153,9 @@ export function upgradesForCategory(
   catalog: WeaponUpgradesCatalog,
   grade: "NG" | "D",
   category: string,
+  kind: UpgradeKind,
 ): WeaponUpgradeRow[] {
-  return catalog.upgrades.filter((u) => u.grade === grade && u.category === category);
+  return catalog.upgrades.filter(
+    (u) => u.grade === grade && u.category === category && u.kind === kind,
+  );
 }

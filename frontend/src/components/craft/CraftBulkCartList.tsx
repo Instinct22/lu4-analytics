@@ -7,6 +7,8 @@ import {
   isCraftReady,
   itemInfo,
   treeCost,
+  cartEntryKey,
+  formatVariantRate,
   variantsFor,
   type CartEntry,
   type CraftCatalog,
@@ -25,9 +27,9 @@ interface Props {
   prices: Record<string, PriceInfo>;
   manual: Record<string, number>;
   onOwnedChange: (id: number, val: number) => void;
-  onQtyChange: (productId: number, qty: number) => void;
-  onRemove: (productId: number) => void;
-  onCraft: (productId: number) => void;
+  onQtyChange: (productId: number, qty: number, variantIdx: number) => void;
+  onRemove: (productId: number, variantIdx: number) => void;
+  onCraft: (productId: number, variantIdx: number) => void;
   showPrices?: boolean;
   showApproxCost?: boolean;
   recipesLoading?: boolean;
@@ -54,17 +56,20 @@ function CraftBulkCartRow({
   prices: Record<string, PriceInfo>;
   manual: Record<string, number>;
   onOwnedChange: (id: number, val: number) => void;
-  onQtyChange: (productId: number, qty: number) => void;
-  onRemove: (productId: number) => void;
-  onCraft: (productId: number) => void;
+  onQtyChange: (productId: number, qty: number, variantIdx: number) => void;
+  onRemove: (productId: number, variantIdx: number) => void;
+  onCraft: (productId: number, variantIdx: number) => void;
   showPrices?: boolean;
+  showApproxCost?: boolean;
 }) {
   const [expanded, setExpanded] = useState(false);
   const [detailTab, setDetailTab] = useState<"tree" | "list">("tree");
 
-  const variantIdx = entry.variantIdx ?? chosenVariants[String(entry.productId)] ?? 0;
+  const variantIdx = entry.variantIdx;
   const info = itemInfo(catalog, entry.productId);
   const variants = variantsFor(catalog, entry.productId);
+  const variant = variants[variantIdx];
+  const variantLabel = formatVariantRate(variant);
   const craftable = isCraftable(catalog, entry.productId);
 
   const tree = useMemo(
@@ -126,7 +131,7 @@ function CraftBulkCartRow({
             <GradePill grade={info.grade} />
             {variants.length > 1 && (
               <span className="rounded bg-zinc-800 px-1.5 py-0.5 text-[0.65rem] text-zinc-400">
-                вариант {variantIdx + 1}/{variants.length}
+                {variantLabel || `вариант ${variantIdx + 1}/${variants.length}`}
               </span>
             )}
           </div>
@@ -143,7 +148,7 @@ function CraftBulkCartRow({
           <button
             type="button"
             className="flex h-6 w-6 items-center justify-center rounded-lg text-zinc-300 transition-colors hover:bg-zinc-700"
-            onClick={() => onQtyChange(entry.productId, entry.qty - 1)}
+            onClick={() => onQtyChange(entry.productId, entry.qty - 1, variantIdx)}
           >
             −
           </button>
@@ -153,7 +158,7 @@ function CraftBulkCartRow({
           <button
             type="button"
             className="flex h-6 w-6 items-center justify-center rounded-lg text-zinc-300 transition-colors hover:bg-zinc-700"
-            onClick={() => onQtyChange(entry.productId, entry.qty + 1)}
+            onClick={() => onQtyChange(entry.productId, entry.qty + 1, variantIdx)}
           >
             +
           </button>
@@ -162,7 +167,7 @@ function CraftBulkCartRow({
           type="button"
           disabled={!canCraft}
           title={canCraft ? "Скрафтить и убрать из списка" : "Не хватает материалов на складе"}
-          onClick={() => onCraft(entry.productId)}
+          onClick={() => onCraft(entry.productId, variantIdx)}
           className="shrink-0 rounded-lg bg-emerald-600 px-2.5 py-1 text-xs font-semibold text-zinc-950 transition-colors hover:bg-emerald-500 disabled:cursor-not-allowed disabled:opacity-40"
         >
           Скрафтить
@@ -170,7 +175,7 @@ function CraftBulkCartRow({
         <button
           type="button"
           aria-label="Удалить"
-          onClick={() => onRemove(entry.productId)}
+          onClick={() => onRemove(entry.productId, variantIdx)}
           className="shrink-0 rounded-lg px-2 py-1 text-sm text-zinc-500 transition-colors hover:bg-red-950/40 hover:text-red-400"
         >
           ✕
@@ -265,7 +270,7 @@ export default function CraftBulkCartList({
       </div>
       {entries.map((entry) => (
         <CraftBulkCartRow
-          key={entry.productId}
+          key={cartEntryKey(entry.productId, entry.variantIdx)}
           catalog={catalog}
           entry={entry}
           owned={owned}

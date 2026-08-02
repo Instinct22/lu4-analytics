@@ -17,6 +17,12 @@ export interface RolePermissions {
   permissions: PermissionEntry[];
 }
 
+export interface PermissionGroup {
+  id: string;
+  label: string;
+  permissions: string[];
+}
+
 export interface LoginLogItem {
   id: string;
   user_id: string | null;
@@ -51,6 +57,30 @@ export interface RaidTimerLogsResponse {
   limit: number;
 }
 
+export interface UserCreationLogItem {
+  id: string;
+  creator_id: string | null;
+  creator_username: string;
+  created_user_id: string | null;
+  created_username: string;
+  role: string;
+  ip_address: string;
+  logged_at: string;
+}
+
+export interface UserCreationLogsResponse {
+  items: UserCreationLogItem[];
+  total: number;
+  page: number;
+  limit: number;
+}
+
+export interface QuickCreateResult {
+  username: string;
+  password: string;
+  user: AdminUser;
+}
+
 export async function listUsers() {
   const { data } = await api.get("/admin/users");
   return data as AdminUser[];
@@ -59,6 +89,11 @@ export async function listUsers() {
 export async function createUser(body: { username: string; password: string; role: Role }) {
   const { data } = await api.post("/admin/users", body);
   return data as AdminUser;
+}
+
+export async function quickCreateUser(role: Role) {
+  const { data } = await api.post("/admin/users/quick-create", { role });
+  return data as QuickCreateResult;
 }
 
 export async function updateUser(
@@ -73,14 +108,77 @@ export async function deleteUser(id: string) {
   await api.delete(`/admin/users/${id}`);
 }
 
+export interface CustomRoleItem {
+  key: string;
+  label: string;
+}
+
+export async function listCustomRoles() {
+  const { data } = await api.get("/admin/custom-roles");
+  return data as { items: CustomRoleItem[] };
+}
+
+export async function createCustomRole(body: {
+  label: string;
+  preset_role: string;
+  key?: string;
+}) {
+  const { data } = await api.post("/admin/custom-roles", body);
+  return data as CustomRoleItem;
+}
+
+export async function deleteCustomRole(key: string) {
+  await api.delete(`/admin/custom-roles/${encodeURIComponent(key)}`);
+}
+
 export async function listRolePermissions() {
   const { data } = await api.get("/admin/roles");
   return data as RolePermissions[];
 }
 
-export async function updateRolePermissions(role: Role, permissions: Record<string, boolean>) {
+export async function updateRolePermissions(role: string, permissions: Record<string, boolean>) {
   const { data } = await api.put(`/admin/roles/${role}`, { permissions });
   return data as RolePermissions;
+}
+
+export async function getPublicRoles() {
+  const { data } = await api.get("/admin/settings/public-roles");
+  return data as { roles: Role[] };
+}
+
+export async function updatePublicRoles(roles: Role[]) {
+  const { data } = await api.put("/admin/settings/public-roles", { roles });
+  return data as { roles: Role[] };
+}
+
+export async function getPermissionGroups() {
+  const { data } = await api.get("/admin/settings/permission-groups");
+  return data as { groups: PermissionGroup[] };
+}
+
+export async function updatePermissionGroups(groups: PermissionGroup[]) {
+  const { data } = await api.put("/admin/settings/permission-groups", { groups });
+  return data as { groups: PermissionGroup[] };
+}
+
+export async function getAdminLevelRestriction() {
+  const { data } = await api.get("/admin/settings/level-restriction");
+  return data as { min: number; max: number };
+}
+
+export async function updateAdminLevelRestriction(body: { min: number; max: number }) {
+  const { data } = await api.put("/admin/settings/level-restriction", body);
+  return data as { min: number; max: number };
+}
+
+export async function getAdminLevelPreset() {
+  const { data } = await api.get("/admin/settings/level-preset");
+  return data as { min: number; max: number };
+}
+
+export async function updateAdminLevelPreset(body: { min: number; max: number }) {
+  const { data } = await api.put("/admin/settings/level-preset", body);
+  return data as { min: number; max: number };
 }
 
 export async function listLoginLogs(page = 1, limit = 25) {
@@ -91,4 +189,9 @@ export async function listLoginLogs(page = 1, limit = 25) {
 export async function listRaidTimerLogs(page = 1, limit = 25) {
   const { data } = await api.get("/admin/raid-timer-logs", { params: { page, limit } });
   return data as RaidTimerLogsResponse;
+}
+
+export async function listUserCreationLogs(page = 1, limit = 25) {
+  const { data } = await api.get("/admin/user-creation-logs", { params: { page, limit } });
+  return data as UserCreationLogsResponse;
 }

@@ -1,11 +1,14 @@
 import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 import RaidBossDetail from "../components/raid/RaidBossDetail";
 import RaidBossMap from "../components/raid/RaidBossMap";
 import RaidTimerBanners from "../components/raid/RaidTimerBanners";
+import LevelRangeControl from "../components/settings/LevelRangeControl";
 import { PageHeader } from "../components/ui";
 import { getRaidBosses } from "../api/raid";
 import { useAuth } from "../hooks/useAuth";
+import { useLevelRange } from "../hooks/useLevelRange";
 import { useRaidTimers } from "../hooks/useRaidTimers";
 import type { RaidBoss } from "../lib/raidBosses";
 
@@ -13,11 +16,11 @@ const EMPTY_BOSSES: RaidBoss[] = [];
 
 export default function RaidBossesPage() {
   const [query, setQuery] = useState("");
-  const [minLevel, setMinLevel] = useState(20);
-  const [maxLevel, setMaxLevel] = useState(85);
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const { hasPermission } = useAuth();
   const canWrite = hasPermission("feature.raid_timers_write");
+  const canViewTimers = hasPermission("feature.raid_timers_view");
+  const canViewRoute = hasPermission("feature.raid_route");
 
   const { data: payload, isLoading, isError } = useQuery({
     queryKey: ["raid", "bosses"],
@@ -26,13 +29,19 @@ export default function RaidBossesPage() {
   });
 
   const bosses = payload?.bosses ?? EMPTY_BOSSES;
-  const { snapshots, startFromInput, startAuto, clearTimer } = useRaidTimers(bosses, canWrite);
+  const { snapshots, startFromInput, startAuto, clearTimer } = useRaidTimers(
+    bosses,
+    canWrite,
+    canViewTimers,
+  );
 
   const levels = useMemo(() => {
     const vals = bosses.map((b) => b.level).filter((n): n is number => n != null);
     if (vals.length === 0) return { min: 20, max: 85 };
     return { min: Math.min(...vals), max: Math.max(...vals) };
   }, [bosses]);
+
+  const { levelRange, setLevelRange, minLevel, maxLevel, sliderBounds } = useLevelRange(levels);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -79,12 +88,16 @@ export default function RaidBossesPage() {
         <div className="card mb-5 text-sm text-red-400">Не удалось загрузить рейд-боссов.</div>
       )}
 
-      <RaidTimerBanners
-        active={bannerGroups.active}
-        waiting={bannerGroups.waiting}
-        overdue={bannerGroups.overdue}
-        onSelect={setSelectedId}
-      />
+      {canViewTimers && (
+        <RaidTimerBanners
+          active={bannerGroups.active}
+          waiting={bannerGroups.waiting}
+          overdue={bannerGroups.overdue}
+          onSelect={setSelectedId}
+          canClear={canWrite}
+          onClear={clearTimer}
+        />
+      )}
 
       <div className="flex flex-col gap-5 xl:flex-row xl:items-stretch">
         <aside className="flex w-full shrink-0 flex-col gap-3 xl:w-80 2xl:w-96">
@@ -96,36 +109,19 @@ export default function RaidBossesPage() {
               onChange={(e) => setQuery(e.target.value)}
             />
             <div>
-              <div className="mb-1.5 flex justify-between text-[0.7rem] text-zinc-500">
+              <div className="mb-1.5 flex items-center justify-between gap-2 text-[0.7rem] text-zinc-500">
                 <span>Уровень</span>
-                <span className="tabular-nums text-zinc-400">
-                  {minLevel} – {maxLevel}
-                </span>
+                <Link to="/settings" className="text-amber-400/80 hover:text-amber-300">
+                  Настройки
+                </Link>
               </div>
-              <div className="flex gap-2">
-                <input
-                  type="range"
-                  min={levels.min}
-                  max={levels.max}
-                  value={minLevel}
-                  onChange={(e) => {
-                    const v = Number(e.target.value);
-                    setMinLevel(Math.min(v, maxLevel));
-                  }}
-                  className="w-full accent-amber-500"
-                />
-                <input
-                  type="range"
-                  min={levels.min}
-                  max={levels.max}
-                  value={maxLevel}
-                  onChange={(e) => {
-                    const v = Number(e.target.value);
-                    setMaxLevel(Math.max(v, minLevel));
-                  }}
-                  className="w-full accent-amber-500"
-                />
-              </div>
+              <LevelRangeControl
+                value={levelRange}
+                onChange={setLevelRange}
+                sliderMin={sliderBounds.min}
+                sliderMax={sliderBounds.max}
+                compact
+              />
             </div>
           </div>
 
@@ -157,7 +153,7 @@ export default function RaidBossesPage() {
                           </span>
                         )}
                       </span>
-                      {timer && (
+                      {canViewTimers && timer && (
                         <span
                           className={`shrink-0 font-mono text-xs font-semibold tabular-nums ${timer.colorClass}`}
                         >
@@ -184,7 +180,7 @@ export default function RaidBossesPage() {
               bosses={filtered}
               selectedId={selectedId}
               onSelect={setSelectedId}
-              timers={snapshots}
+              timers={canViewTimers ? snapshots : new Map()}
             />
           )}
         </div>
@@ -193,8 +189,9 @@ export default function RaidBossesPage() {
           <div className="flex h-[min(40rem,calc(100vh-8rem))] w-full shrink-0 flex-col xl:h-[calc(100vh-12rem)] xl:w-[26rem] 2xl:w-[32rem]">
             <RaidBossDetail
               boss={selected}
-              timer={snapshots.get(selected.id) ?? null}
+              timer={canViewTimers ? snapshots.get(selected.id) ?? null : null}
               canWrite={canWrite}
+              canViewRoute={canViewRoute}
               onClose={() => setSelectedId(null)}
               onStart={(hhmm) => startFromInput(selected.id, hhmm)}
               onAuto={() => startAuto(selected.id)}

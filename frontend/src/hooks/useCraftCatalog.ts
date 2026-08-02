@@ -7,7 +7,10 @@ import type { CraftCatalog } from "../lib/craftCalc";
 export function useCraftCatalog() {
   return useQuery({
     queryKey: ["craft", "catalog"],
-    queryFn: getCraftCatalog,
+    queryFn: async () => {
+      const data = await getCraftCatalog();
+      return { ...data, byProduct: data.byProduct ?? {} };
+    },
     staleTime: 1000 * 60 * 5,
   });
 }
@@ -29,8 +32,8 @@ export function useCraftProduct(catalog: CraftCatalog | undefined, productId: nu
     if (!closure.data) return catalog;
     return {
       ...catalog,
+      byProduct: { ...(catalog.byProduct ?? {}), ...closure.data.byProduct },
       items: { ...catalog.items, ...closure.data.items },
-      byProduct: { ...catalog.byProduct, ...closure.data.byProduct },
     };
   }, [catalog, closure.data]);
 

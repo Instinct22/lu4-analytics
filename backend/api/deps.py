@@ -10,7 +10,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from config import settings
-from core.permissions import DEFAULT_PERMISSIONS, PERMISSIONS, default_allowed
+from core.permissions import DEFAULT_PERMISSIONS, PERMISSIONS, default_allowed, is_superadmin
 from database import get_db
 from models.permissions import RolePermission
 from models.user import User
@@ -70,6 +70,8 @@ CurrentUser = Annotated[User, Depends(get_current_user)]
 
 
 def get_role_permissions(db: Session, role: str) -> set[str]:
+    if is_superadmin(role):
+        return set(PERMISSIONS)
     rows = db.scalars(select(RolePermission).where(RolePermission.role == role)).all()
     if not rows:
         return set(DEFAULT_PERMISSIONS.get(role, frozenset()))
@@ -82,6 +84,8 @@ def get_role_permissions(db: Session, role: str) -> set[str]:
 
 
 def user_has_permission(db: Session, user: User, permission: str) -> bool:
+    if is_superadmin(user.role):
+        return True
     return permission in get_role_permissions(db, user.role)
 
 
@@ -93,9 +97,10 @@ def require_permission(permission: str) -> Callable:
 
     return dependency
 
-
 def require_any_permission(*permissions: str) -> Callable:
     def dependency(user: CurrentUser, db: DbSession) -> User:
+        if is_superadmin(user.role):
+            return user
         perms = get_role_permissions(db, user.role)
         if not any(p in perms for p in permissions):
             raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Forbidden")

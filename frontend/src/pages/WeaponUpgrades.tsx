@@ -1,16 +1,19 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { getWeaponUpgradesCatalog } from "../api/upgrades";
 import { ErrorState, LoadingState, PageHeader } from "../components/ui";
 import { UpgradeInfoBanner, UpgradeItemChip, UpgradeItemStack } from "../components/upgrades/UpgradeItems";
 import {
+  availableGradesForKind,
   categoriesForTab,
   formatAdena,
   KIND_LABELS,
+  UPGRADE_KINDS,
   UPGRADE_TABS,
   upgradeItem,
   upgradesForCategory,
   weaponStatDelta,
+  type UpgradeKind,
   type UpgradeTab,
   type WeaponUpgradesCatalog,
 } from "../lib/weaponUpgrades";
@@ -25,19 +28,23 @@ function tabClass(active: boolean) {
 function GradeUpgradesPanel({
   catalog,
   grade,
+  kind,
+  searchHint,
 }: {
   catalog: WeaponUpgradesCatalog;
   grade: "NG" | "D";
+  kind: UpgradeKind;
+  searchHint: string;
 }) {
-  const categories = useMemo(() => categoriesForTab(catalog, grade), [catalog, grade]);
+  const categories = useMemo(() => categoriesForTab(catalog, grade, kind), [catalog, grade, kind]);
   const [category, setCategory] = useState(categories[0]?.id ?? "");
   const [search, setSearch] = useState("");
 
   const activeCategory = categories.find((c) => c.id === category) ?? categories[0];
   const rows = useMemo(() => {
     if (!activeCategory) return [];
-    return upgradesForCategory(catalog, grade, activeCategory.id);
-  }, [catalog, grade, activeCategory]);
+    return upgradesForCategory(catalog, grade, activeCategory.id, kind);
+  }, [catalog, grade, activeCategory, kind]);
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
@@ -73,7 +80,6 @@ function GradeUpgradesPanel({
               ].join(" ")}
             >
               <span className="block font-medium">{cat.label}</span>
-              <span className="text-[0.65rem] text-zinc-500">{KIND_LABELS[cat.kind] ?? cat.kind}</span>
             </button>
           ))}
         </div>
@@ -90,7 +96,7 @@ function GradeUpgradesPanel({
           </div>
           <input
             type="search"
-            placeholder="Поиск оружия..."
+            placeholder={`Поиск ${searchHint}...`}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             className="input max-w-xs"
@@ -205,7 +211,24 @@ function NgToDPanel({ catalog }: { catalog: WeaponUpgradesCatalog }) {
   );
 }
 
+const KIND_SEARCH_HINTS: Record<UpgradeKind, string> = {
+  physical: "оружия",
+  magic: "маг. оружия",
+  armor: "брони",
+  jewelry: "бижутерии",
+};
+
+function kindButtonClass(active: boolean) {
+  return [
+    "flex items-center gap-2 rounded-lg px-3 py-2 text-sm font-semibold transition-colors",
+    active
+      ? "bg-amber-500/15 text-amber-300 ring-1 ring-amber-500/30"
+      : "text-zinc-400 hover:bg-zinc-800/80 hover:text-zinc-200",
+  ].join(" ");
+}
+
 export default function WeaponUpgradesPage() {
+  const [kind, setKind] = useState<UpgradeKind>("physical");
   const [tab, setTab] = useState<UpgradeTab>("NG");
 
   const { data: catalog, isLoading, isError } = useQuery({
@@ -214,12 +237,34 @@ export default function WeaponUpgradesPage() {
     staleTime: 1000 * 60 * 60,
   });
 
+  const grades = useMemo(
+    () => (catalog ? availableGradesForKind(catalog, kind) : []),
+    [catalog, kind],
+  );
+
+  const hasExchange = kind === "physical" && !!catalog?.ng_to_d?.pairs.length;
+
+  const tabs = useMemo<{ id: UpgradeTab; label: string }[]>(() => {
+    const list = UPGRADE_TABS.filter(
+      (t) => (t.id === "NG_TO_D" ? hasExchange : grades.includes(t.id as "NG" | "D")),
+    );
+    return list;
+  }, [grades, hasExchange]);
+
+  // Keep the active grade tab valid whenever the type filter changes.
+  useEffect(() => {
+    if (tabs.length && !tabs.some((t) => t.id === tab)) {
+      setTab(tabs[0].id);
+    }
+  }, [tabs, tab]);
+
   const stats = useMemo(() => {
     if (!catalog) return null;
-    const ng = catalog.upgrades.filter((u) => u.grade === "NG").length;
-    const d = catalog.upgrades.filter((u) => u.grade === "D").length;
-    return { ng, d, pairs: catalog.ng_to_d?.pairs.length ?? 0 };
-  }, [catalog]);
+    const rows = catalog.upgrades.filter((u) => u.kind === kind);
+    const ng = rows.filter((u) => u.grade === "NG").length;
+    const d = rows.filter((u) => u.grade === "D").length;
+    return { ng, d, pairs: hasExchange ? (catalog.ng_to_d?.pairs.length ?? 0) : 0 };
+  }, [catalog, kind, hasExchange]);
 
   if (isLoading) return <LoadingState />;
   if (isError || !catalog) {
@@ -228,29 +273,52 @@ export default function WeaponUpgradesPage() {
     );
   }
 
+  const searchHint = KIND_SEARCH_HINTS[kind];
+
   return (
     <div className="min-h-full">
-      <PageHeader title="Апгрейд оружия NG / D">
+      <PageHeader title="Апгрейд снаряжения NG / D">
         {stats ? (
           <p className="text-sm text-zinc-500">
-            {stats.ng} NG · {stats.d} D · {stats.pairs} обменов NG→D
+            {KIND_LABELS[kind]}: {stats.ng} NG · {stats.d} D
+            {stats.pairs > 0 ? ` · ${stats.pairs} обменов NG→D` : ""}
           </p>
         ) : null}
       </PageHeader>
 
       <UpgradeInfoBanner catalog={catalog} />
 
-      <div className="mb-4 flex gap-1 rounded-xl bg-zinc-800/80 p-1">
-        {UPGRADE_TABS.map((t) => (
-          <button key={t.id} type="button" className={tabClass(tab === t.id)} onClick={() => setTab(t.id)}>
-            {t.label}
+      <div className="mb-4 flex flex-wrap gap-1 rounded-xl bg-zinc-900/60 p-1 ring-1 ring-zinc-800/80">
+        {UPGRADE_KINDS.map((k) => (
+          <button
+            key={k.id}
+            type="button"
+            className={kindButtonClass(kind === k.id)}
+            onClick={() => setKind(k.id)}
+          >
+            <span aria-hidden>{k.icon}</span>
+            {k.label}
           </button>
         ))}
       </div>
 
-      {tab === "NG" ? <GradeUpgradesPanel catalog={catalog} grade="NG" /> : null}
-      {tab === "D" ? <GradeUpgradesPanel catalog={catalog} grade="D" /> : null}
-      {tab === "NG_TO_D" ? <NgToDPanel catalog={catalog} /> : null}
+      {tabs.length > 1 ? (
+        <div className="mb-4 flex gap-1 rounded-xl bg-zinc-800/80 p-1">
+          {tabs.map((t) => (
+            <button key={t.id} type="button" className={tabClass(tab === t.id)} onClick={() => setTab(t.id)}>
+              {t.label}
+            </button>
+          ))}
+        </div>
+      ) : null}
+
+      {tab === "NG" && grades.includes("NG") ? (
+        <GradeUpgradesPanel catalog={catalog} grade="NG" kind={kind} searchHint={searchHint} />
+      ) : null}
+      {tab === "D" && grades.includes("D") ? (
+        <GradeUpgradesPanel catalog={catalog} grade="D" kind={kind} searchHint={searchHint} />
+      ) : null}
+      {tab === "NG_TO_D" && hasExchange ? <NgToDPanel catalog={catalog} /> : null}
     </div>
   );
 }

@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useCraftCart } from "../../hooks/useCraftCart";
-import { itemInfo, type CraftCatalog } from "../../lib/craftCalc";
+import { useAuth } from "../../hooks/useAuth";
+import { cartEntryKey, formatVariantRate, itemInfo, variantsFor, type CraftCatalog } from "../../lib/craftCalc";
 import BulkCraftIcon from "./BulkCraftIcon";
 import { GradePill, ItemIcon } from "./CraftCostBar";
 
@@ -10,10 +11,13 @@ interface Props {
 }
 
 export default function CraftCartWidget({ catalog }: Props) {
+  const { hasPermission } = useAuth();
   const { entries, totalCount, isEmpty, remove } = useCraftCart();
   const [open, setOpen] = useState(false);
   const rootRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
+
+  if (!hasPermission("feature.craft_bulk")) return null;
 
   useEffect(() => {
     if (!open) return;
@@ -58,9 +62,11 @@ export default function CraftCartWidget({ catalog }: Props) {
             ) : (
               entries.map((entry) => {
                 const info = catalog ? itemInfo(catalog, entry.productId) : null;
+                const variants = catalog ? variantsFor(catalog, entry.productId) : [];
+                const variantLabel = formatVariantRate(variants[entry.variantIdx]);
                 return (
                   <div
-                    key={entry.productId}
+                    key={cartEntryKey(entry.productId, entry.variantIdx)}
                     className="flex items-center gap-2 rounded-lg px-2 py-2 hover:bg-zinc-800/60"
                   >
                     <ItemIcon id={entry.productId} size={32} />
@@ -70,13 +76,18 @@ export default function CraftCartWidget({ catalog }: Props) {
                           {info?.name ?? `#${entry.productId}`}
                         </span>
                         {info?.grade && <GradePill grade={info.grade} />}
+                        {variantLabel && (
+                          <span className="rounded bg-zinc-800 px-1 py-0.5 text-[0.6rem] text-zinc-400">
+                            {variantLabel}
+                          </span>
+                        )}
                       </div>
                       <span className="text-xs tabular-nums text-zinc-500">×{entry.qty}</span>
                     </div>
                     <button
                       type="button"
                       aria-label="Удалить"
-                      onClick={() => remove(entry.productId)}
+                      onClick={() => remove(entry.productId, entry.variantIdx)}
                       className="shrink-0 rounded-lg px-2 py-1 text-sm text-zinc-500 transition-colors hover:bg-red-950/40 hover:text-red-400"
                     >
                       ✕

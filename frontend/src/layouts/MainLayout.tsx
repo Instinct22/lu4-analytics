@@ -40,9 +40,21 @@ const craftGroup: NavGroup = {
   children: [
     { to: "/craft", label: "Крафт предметов", icon: "⚒", permission: "nav.craft", end: true },
     { to: "/craft/upgrades", label: "Апгрейд NG/D", icon: "↑", permission: "nav.craft" },
-    { to: "/craft/bulk?tab=warehouse", label: "Склад", icon: "▦", permission: "nav.craft" },
+    { to: "/craft/bulk", label: "Мультикрафт", icon: "☰", permission: "feature.craft_bulk" },
+    { to: "/craft/bulk?tab=warehouse", label: "Склад", icon: "▦", permission: "feature.craft_warehouse" },
   ],
   isActive: (pathname) => pathname.startsWith("/craft"),
+};
+
+const adminGroup: NavGroup = {
+  id: "admin",
+  label: "Администрирование",
+  icon: "⚙",
+  children: [
+    { to: "/admin", label: "Управление", icon: "⚙", permission: "nav.admin", end: true },
+    { to: "/settings", label: "Настройки", icon: "◎", permission: "nav.admin" },
+  ],
+  isActive: (pathname) => pathname.startsWith("/admin") || pathname === "/settings",
 };
 
 const topLevelLinks: NavLinkItem[] = [
@@ -51,15 +63,35 @@ const topLevelLinks: NavLinkItem[] = [
   { to: "/resources", label: "Ресурсы", icon: "◆", permission: "nav.resources" },
   { to: "/search", label: "Поиск", icon: "⌕", permission: "nav.search" },
   { to: "/raid-bosses", label: "Рейд Боссы", icon: "⚑", permission: "nav.raid_bosses" },
-  { to: "/admin", label: "Администрирование", icon: "⚙", permission: "nav.admin" },
+  { to: "/settings", label: "Настройки", icon: "◎", permission: "nav.settings" },
 ];
 
 const ROLE_LABELS: Record<string, string> = {
+  superadmin: "Суперадмин",
   admin: "Админ",
   user: "Пользователь",
   driver: "Драйвер",
   other: "Другое",
 };
+
+function navPath(to: string): string {
+  return to.split("?")[0];
+}
+
+/** Склад — вкладка на странице мультикрафта; при доступе к обоим показываем один пункт. */
+function dedupeCraftChildren(items: NavLinkItem[]): NavLinkItem[] {
+  const hasBulk = items.some((i) => i.permission === "feature.craft_bulk");
+  const hasWarehouse = items.some((i) => i.permission === "feature.craft_warehouse");
+  if (hasBulk && hasWarehouse) {
+    return items.filter((i) => i.permission !== "feature.craft_warehouse");
+  }
+  return items;
+}
+
+function filterTopLevelLinks(links: NavLinkItem[], submenuItems: NavLinkItem[]): NavLinkItem[] {
+  const submenuPaths = new Set(submenuItems.map((l) => navPath(l.to)));
+  return links.filter((l) => !submenuPaths.has(navPath(l.to)));
+}
 
 function SidebarNavGroup({
   group,
@@ -127,9 +159,16 @@ function SidebarNavGroup({
   );
 }
 
-function useNavGroup(group: NavGroup, hasPermission: (p: string) => boolean) {
+function useNavGroup(
+  group: NavGroup,
+  hasPermission: (p: string) => boolean,
+  transformChildren?: (items: NavLinkItem[]) => NavLinkItem[],
+) {
   const location = useLocation();
-  const visibleChildren = group.children.filter((l) => hasPermission(l.permission));
+  const visibleChildren = useMemo(() => {
+    const filtered = group.children.filter((l) => hasPermission(l.permission));
+    return transformChildren ? transformChildren(filtered) : filtered;
+  }, [group.children, hasPermission, transformChildren]);
   const active = useMemo(
     () => group.isActive?.(location.pathname) ?? visibleChildren.some((l) => location.pathname === l.to),
     [group, location.pathname, visibleChildren],
@@ -151,8 +190,17 @@ export default function MainLayout() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const analytics = useNavGroup(analyticsGroup, hasPermission);
-  const craft = useNavGroup(craftGroup, hasPermission);
-  const visibleTopLevelLinks = topLevelLinks.filter((l) => hasPermission(l.permission));
+  const craft = useNavGroup(craftGroup, hasPermission, dedupeCraftChildren);
+  const admin = useNavGroup(adminGroup, hasPermission);
+  const visibleTopLevelLinks = useMemo(() => {
+    const permitted = topLevelLinks.filter((l) => hasPermission(l.permission));
+    const submenuItems = [
+      ...analytics.visibleChildren,
+      ...craft.visibleChildren,
+      ...admin.visibleChildren,
+    ];
+    return filterTopLevelLinks(permitted, submenuItems);
+  }, [hasPermission, analytics.visibleChildren, craft.visibleChildren, admin.visibleChildren]);
 
   useEffect(() => {
     document.documentElement.classList.add("dark");
@@ -213,6 +261,13 @@ export default function MainLayout() {
             open={craft.open}
             onToggle={() => craft.setOpen((v) => !v)}
             active={craft.active}
+          />
+          <SidebarNavGroup
+            group={adminGroup}
+            items={admin.visibleChildren}
+            open={admin.open}
+            onToggle={() => admin.setOpen((v) => !v)}
+            active={admin.active}
           />
 
           {visibleTopLevelLinks.map((l) => (

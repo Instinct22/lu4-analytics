@@ -1,10 +1,11 @@
 import { useEffect, useMemo, useState } from "react";
-import { useNavigate, useSearchParams } from "react-router-dom";
+import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import NpcDetailPanel from "../components/resources/NpcDetailPanel";
 import ResourceDetail from "../components/resources/ResourceDetail";
 import ResourcePicker from "../components/resources/ResourcePicker";
 import { ErrorState, LoadingState, PageHeader } from "../components/ui";
 import { useCraftResources, useMaterialSources, useNpcMaterials } from "../hooks/useCraftResources";
+import { useLevelRange } from "../hooks/useLevelRange";
 import type { NpcLootProfile, NpcSource } from "../lib/craftResources";
 import { findResource, npcLevelBounds } from "../lib/craftResources";
 import { isSafeReturnPath, returnLinkFromParam } from "../lib/internalNav";
@@ -45,8 +46,6 @@ export default function ResourcesPage() {
   const { data: payload, isLoading, error } = useCraftResources();
   const [searchParams, setSearchParams] = useSearchParams();
   const [selectedNpc, setSelectedNpc] = useState<NpcSource | null>(null);
-  const [minLevel, setMinLevel] = useState<number | null>(null);
-  const [maxLevel, setMaxLevel] = useState<number | null>(null);
 
   const selectedId = useMemo(() => parseIdParam(searchParams.get("id")), [searchParams]);
   const npcParam = useMemo(() => parseIdParam(searchParams.get("npc")), [searchParams]);
@@ -59,14 +58,9 @@ export default function ResourcesPage() {
   };
 
   const levelBounds = useMemo(() => (payload ? npcLevelBounds(payload) : { min: 1, max: 80 }), [payload]);
+  const { minLevel, maxLevel, setLevelRange, sliderBounds } = useLevelRange(levelBounds);
   const { data: sources, isLoading: sourcesLoading } = useMaterialSources(selectedId);
   const { data: npcFromUrl } = useNpcMaterials(npcParam);
-
-  useEffect(() => {
-    if (!payload) return;
-    setMinLevel((prev) => (prev == null ? levelBounds.min : Math.max(levelBounds.min, Math.min(prev, levelBounds.max))));
-    setMaxLevel((prev) => (prev == null ? levelBounds.max : Math.max(levelBounds.min, Math.min(prev, levelBounds.max))));
-  }, [payload, levelBounds.min, levelBounds.max]);
 
   useEffect(() => {
     if (npcParam == null) {
@@ -115,15 +109,17 @@ export default function ResourcesPage() {
   }
 
   const selectedEntry = selectedId != null ? findResource(payload, selectedId) : undefined;
-  const resolvedMin = minLevel ?? levelBounds.min;
-  const resolvedMax = maxLevel ?? levelBounds.max;
   const showNpc = selectedNpc != null && npcParam != null;
 
   return (
     <div className="min-h-full">
       <PageHeader title="Ресурсы">
         <p className="text-sm text-zinc-500">
-          Материалы крафта · спойл и дроп с мобов · {levelBounds.min}–{levelBounds.max} lvl · без рейд-боссов
+          Материалы крафта · спойл и дроп с мобов · фильтр {minLevel}–{maxLevel} lvl ·{" "}
+          <Link to="/settings" className="text-amber-400/80 hover:text-amber-300">
+            настройки
+          </Link>{" "}
+          · без рейд-боссов
         </p>
       </PageHeader>
 
@@ -158,11 +154,13 @@ export default function ResourcesPage() {
               entry={selectedEntry}
               sources={sources}
               sourcesLoading={sourcesLoading}
-              minLevel={resolvedMin}
-              maxLevel={resolvedMax}
+              minLevel={minLevel}
+              maxLevel={maxLevel}
               levelBounds={levelBounds}
-              onMinLevelChange={setMinLevel}
-              onMaxLevelChange={setMaxLevel}
+              onMinLevelChange={(min) => setLevelRange({ min, max: maxLevel })}
+              onMaxLevelChange={(max) => setLevelRange({ min: minLevel, max })}
+              onLevelRangeChange={setLevelRange}
+              sliderBounds={sliderBounds}
               onNpcSelect={selectNpc}
               onClose={closeMaterial}
               returnLink={returnLink}

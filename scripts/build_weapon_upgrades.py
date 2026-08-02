@@ -17,16 +17,7 @@ ENCYCLOPEDIA_PATH = ROOT / "data" / "datasets" / "items_encyclopedia.json"
 ITEM_HREF_RE = re.compile(r"/lu4/item/(\d+)-")
 ADENA_COST_RE = re.compile(r"x\s*([\d\s\u00a0]+)")
 
-SKIP_HEADINGS = {
-    "armor for warriors",
-    "armor for mages",
-    "helmets, gloves, boots",
-    "shields and jewelry",
-    "heavy armor",
-    "light armor",
-    "magic armor",
-}
-
+# Weapon subcategory labels (from the <b> headings under Physical/Magic weapon).
 CATEGORY_LABELS: dict[str, str] = {
     "one-handed swords": "Одноручные мечи",
     "one-handed axes": "Одноручные топоры",
@@ -42,9 +33,54 @@ CATEGORY_LABELS: dict[str, str] = {
     "two-handed staves": "Двуручные посохи",
 }
 
+# h3 group headings for armor / jewelry sections.
+ARMOR_GROUP_LABELS: dict[str, str] = {
+    "armor for warriors": "Броня воинов",
+    "armor for mages": "Броня магов",
+    "heavy armor": "Тяжёлая броня",
+    "light armor": "Лёгкая броня",
+    "magic armor": "Магическая броня",
+    "helmets, gloves, boots": "Шлемы, перчатки, ботинки",
+    "shields and jewelry": "Щиты и бижутерия",
+}
+
+# <b> subcategory labels inside armor / jewelry groups.
+SUB_LABELS: dict[str, str] = {
+    "upper armor": "Верхняя броня",
+    "lower armor": "Нижняя броня",
+    "helmets": "Шлемы",
+    "gloves": "Перчатки",
+    "boots": "Ботинки",
+    "shields": "Щиты",
+    "necklaces": "Ожерелья",
+    "earrings": "Серьги",
+    "rings": "Кольца",
+}
+
 
 def slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "_", text.lower()).strip("_")
+
+
+def classify_armor_sub(
+    group_key: str, sub_key: str, sub_raw: str
+) -> tuple[str, str, str]:
+    """Map an armor/jewelry <b> subheading to (kind, category, category_label)."""
+    group_label = ARMOR_GROUP_LABELS.get(group_key, group_key)
+    sub_label = SUB_LABELS.get(sub_key, sub_raw)
+    if sub_key.startswith("shield"):
+        return "armor", "shields", "Щиты"
+    if sub_key.startswith("necklace"):
+        return "jewelry", "necklaces", "Ожерелья"
+    if sub_key.startswith("earring"):
+        return "jewelry", "earrings", "Серьги"
+    if sub_key.startswith("ring"):
+        return "jewelry", "rings", "Кольца"
+    # Helmets/Gloves/Boots need no group prefix — the piece name is self-explanatory.
+    if group_key == "helmets, gloves, boots":
+        return "armor", slugify(sub_key), sub_label
+    # Upper/Lower armor belongs to a specific armor group (warriors, heavy, ...).
+    return "armor", slugify(f"{group_key} {sub_key}"), f"{group_label}: {sub_label}"
 
 
 def parse_item_links(cell: Tag | None) -> list[int]:
@@ -104,14 +140,6 @@ def collect_items(root: Tag, items: dict[str, dict]) -> None:
 
 def heading_text(tag: Tag) -> str:
     return unescape(tag.get_text(" ", strip=True))
-
-
-def is_weapon_section(grade: str | None, kind: str | None, category: str | None) -> bool:
-    if grade not in {"NG", "D"}:
-        return False
-    if kind not in {"physical", "magic"}:
-        return False
-    return category is not None
 
 
 def parse_upgrade_table(
@@ -178,10 +206,9 @@ def enrich_items_from_encyclopedia(items: dict[str, dict]) -> None:
             entry["npc_sell"] = wiki["npc_sell"]
         stats = wiki.get("stats")
         if isinstance(stats, dict):
-            if stats.get("p_atk") is not None:
-                entry["p_atk"] = stats["p_atk"]
-            if stats.get("m_atk") is not None:
-                entry["m_atk"] = stats["m_atk"]
+            for stat in ("p_atk", "m_atk", "p_def", "m_def"):
+                if stats.get(stat) is not None:
+                    entry[stat] = stats[stat]
 
 
 def build() -> dict:
@@ -196,66 +223,64 @@ def build() -> dict:
 
     grade: str | None = None
     kind: str | None = None
+    group_key: str | None = None
     category: str | None = None
     category_label: str | None = None
     upgrades: list[dict] = []
     ng_to_d: dict | None = None
     in_ng_to_d = False
-    weapon_mode = False
+    section_mode = False
 
     for node in content.find_all(["h2", "h3", "p", "table"]):
         if node.name == "h2":
             title = heading_text(node).lower()
             in_ng_to_d = "ng" in title and "d" in title and "weapon" in title
+            kind = group_key = category = category_label = None
+            section_mode = False
             if in_ng_to_d:
-                grade = kind = category = category_label = None
-                weapon_mode = False
-                continue
-            if title.startswith("no-grade"):
-                grade, kind, category, category_label = "NG", None, None, None
-                in_ng_to_d = False
-                weapon_mode = False
-                continue
-            if title.startswith("d-grade"):
-                grade, kind, category, category_label = "D", None, None, None
-                in_ng_to_d = False
-                weapon_mode = False
-                continue
-            weapon_mode = False
+                grade = None
+            elif title.startswith("no-grade"):
+                grade = "NG"
+            elif title.startswith("d-grade"):
+                grade = "D"
             continue
 
         if node.name == "h3":
             title = heading_text(node).lower()
-            if any(skip in title for skip in SKIP_HEADINGS):
-                weapon_mode = False
-                kind = category = category_label = None
-                continue
+            in_ng_to_d = False
+            kind = group_key = category = category_label = None
+            section_mode = False
             if "physical weapon" in title:
                 kind = "physical"
-                category = category_label = None
-                weapon_mode = True
+                section_mode = True
                 continue
-            if title == "magic weapon":
+            if "magic weapon" in title:
                 kind = "magic"
-                category = category_label = None
-                weapon_mode = True
+                # NG magic weapons use one table without subcategory headings.
+                category = "magic_weapon"
+                category_label = CATEGORY_LABELS.get("magic weapon", "Магическое оружие")
+                section_mode = True
                 continue
-            weapon_mode = False
+            for gk in ARMOR_GROUP_LABELS:
+                if gk in title:
+                    group_key = gk
+                    section_mode = True
+                    break
             continue
 
         if node.name == "p":
-            if not weapon_mode or kind is None:
+            if not section_mode:
                 continue
             bold = node.find("b")
             if bold is None:
                 continue
-            label_raw = heading_text(bold)
-            label_key = label_raw.lower()
-            if any(skip in label_key for skip in SKIP_HEADINGS):
-                weapon_mode = False
-                continue
-            category = slugify(label_raw)
-            category_label = CATEGORY_LABELS.get(label_key, label_raw)
+            sub_raw = heading_text(bold)
+            sub_key = sub_raw.lower()
+            if group_key is not None:
+                kind, category, category_label = classify_armor_sub(group_key, sub_key, sub_raw)
+            elif kind in ("physical", "magic"):
+                category = slugify(sub_raw)
+                category_label = CATEGORY_LABELS.get(sub_key, sub_raw)
             continue
 
         if node.name != "table":
@@ -288,14 +313,14 @@ def build() -> dict:
             }
             continue
 
-        if not is_weapon_section(grade, kind, category):
+        if grade not in {"NG", "D"} or kind is None or category is None:
             continue
         parse_upgrade_table(
             node,
-            grade=grade or "NG",
-            kind=kind or "physical",
-            category=category or "unknown",
-            category_label=category_label or category or "Unknown",
+            grade=grade,
+            kind=kind,
+            category=category,
+            category_label=category_label or category,
             upgrades=upgrades,
         )
 
@@ -324,7 +349,14 @@ def main() -> None:
     OUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     ng = sum(1 for u in payload["upgrades"] if u["grade"] == "NG")
     d = sum(1 for u in payload["upgrades"] if u["grade"] == "D")
-    print(f"Wrote {OUT_PATH.name}: {ng} NG + {d} D weapon upgrade rows, {len(payload['items'])} items")
+    by_kind: dict[str, int] = {}
+    for u in payload["upgrades"]:
+        by_kind[u["kind"]] = by_kind.get(u["kind"], 0) + 1
+    kinds = ", ".join(f"{k}={v}" for k, v in sorted(by_kind.items()))
+    print(
+        f"Wrote {OUT_PATH.name}: {ng} NG + {d} D upgrade rows ({kinds}), "
+        f"{len(payload['items'])} items"
+    )
 
 
 if __name__ == "__main__":

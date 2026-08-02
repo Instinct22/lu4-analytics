@@ -38,3 +38,61 @@ export function PageHeader({ title, children }: { title: string; children?: Reac
     </div>
   );
 }
+
+type ConfirmDialogProps = {
+  open: boolean;
+  title: string;
+  message: string;
+  confirmLabel?: string;
+  cancelLabel?: string;
+  tone?: "danger" | "default";
+  onConfirm: () => void;
+  onCancel: () => void;
+};
+
+export function ConfirmDialog({
+  open,
+  title,
+  message,
+  confirmLabel = "Подтвердить",
+  cancelLabel = "Отмена",
+  tone = "default",
+  onConfirm,
+  onCancel,
+}: ConfirmDialogProps) {
+  if (!open) return null;
+
+  const confirmClass =
+    tone === "danger"
+      ? "rounded-xl border border-red-800/60 bg-red-900/80 px-4 py-2 text-sm font-semibold text-red-100 transition hover:bg-red-800"
+      : "btn-primary";
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
+      onClick={onCancel}
+      role="presentation"
+    >
+      <div
+        className="panel w-full max-w-md space-y-4 p-6"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="confirm-dialog-title"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <h3 id="confirm-dialog-title" className="text-lg font-semibold text-zinc-100">
+          {title}
+        </h3>
+        <p className="text-sm text-zinc-400">{message}</p>
+        <div className="flex justify-end gap-2 pt-1">
+          <button type="button" className="btn-ghost" onClick={onCancel}>
+            {cancelLabel}
+          </button>
+          <button type="button" className={confirmClass} onClick={onConfirm}>
+            {confirmLabel}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}

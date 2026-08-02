@@ -1,6 +1,8 @@
 import { useMemo } from "react";
+import { Link } from "react-router-dom";
 import type { MaterialSources, NpcSource, ResourceEntry } from "../../lib/craftResources";
 import { filterSourcesByLevel, wikiUrl } from "../../lib/craftResources";
+import LevelRangeControl from "../settings/LevelRangeControl";
 import { ItemIcon } from "../craft/CraftCostBar";
 import ResourceSourceTable from "./ResourceSourceTable";
 import { ReturnLinkBar } from "../ui/ReturnLinkBar";
@@ -15,6 +17,8 @@ interface Props {
   levelBounds: { min: number; max: number };
   onMinLevelChange: (level: number) => void;
   onMaxLevelChange: (level: number) => void;
+  onLevelRangeChange?: (next: { min: number; max: number }) => void;
+  sliderBounds?: { min: number; max: number };
   onNpcSelect: (source: NpcSource) => void;
   onClose: () => void;
   returnLink?: ReturnLink | null;
@@ -29,6 +33,8 @@ export default function ResourceDetail({
   levelBounds,
   onMinLevelChange,
   onMaxLevelChange,
+  onLevelRangeChange,
+  sliderBounds,
   onNpcSelect,
   onClose,
   returnLink,
@@ -81,38 +87,25 @@ export default function ResourceDetail({
 
       <div className="max-h-[75vh] overflow-y-auto p-5">
         <div className="rounded-xl border border-zinc-800/80 bg-zinc-900/40 px-4 py-3">
-          <div className="mb-1.5 flex justify-between text-[0.7rem] text-zinc-500">
+          <div className="mb-1.5 flex items-center justify-between gap-2 text-[0.7rem] text-zinc-500">
             <span>Уровень монстров</span>
-            <span className="tabular-nums text-zinc-400">
-              {minLevel} – {maxLevel}
-            </span>
+            <Link to="/settings" className="text-amber-400/80 hover:text-amber-300">
+              Настройки
+            </Link>
           </div>
-          <div className="flex gap-2">
-            <input
-              type="range"
-              min={levelBounds.min}
-              max={levelBounds.max}
-              value={minLevel}
-              onChange={(e) => {
-                const v = Number(e.target.value);
-                onMinLevelChange(Math.min(v, maxLevel));
-              }}
-              className="w-full accent-amber-500"
-              aria-label="Минимальный уровень монстров"
-            />
-            <input
-              type="range"
-              min={levelBounds.min}
-              max={levelBounds.max}
-              value={maxLevel}
-              onChange={(e) => {
-                const v = Number(e.target.value);
-                onMaxLevelChange(Math.max(v, minLevel));
-              }}
-              className="w-full accent-amber-500"
-              aria-label="Максимальный уровень монстров"
-            />
-          </div>
+          <LevelRangeControl
+            value={{ min: minLevel, max: maxLevel }}
+            onChange={
+              onLevelRangeChange ??
+              ((next) => {
+                onMinLevelChange(next.min);
+                onMaxLevelChange(next.max);
+              })
+            }
+            sliderMin={sliderBounds?.min ?? levelBounds.min}
+            sliderMax={sliderBounds?.max ?? levelBounds.max}
+            compact
+          />
         </div>
 
         {sourcesLoading && !sources ? (

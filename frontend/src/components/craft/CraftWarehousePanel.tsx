@@ -15,6 +15,7 @@ interface Props {
   onOwnedChange: (id: number, val: number) => void;
   prices?: Record<string, PriceInfo>;
   manual?: Record<string, number>;
+  showPrices?: boolean;
 }
 
 export default function CraftWarehousePanel({
@@ -23,6 +24,7 @@ export default function CraftWarehousePanel({
   onOwnedChange,
   prices = {},
   manual = {},
+  showPrices = false,
 }: Props) {
   const [search, setSearch] = useState("");
 
@@ -72,8 +74,8 @@ export default function CraftWarehousePanel({
             Стоимость склада
           </span>
           <p className="text-lg font-bold tabular-nums text-amber-400">
-            {warehouseValue.total != null ? formatPrice(warehouseValue.total) : "—"}
-            {warehouseValue.partial && warehouseValue.total != null && (
+            {showPrices && warehouseValue.total != null ? formatPrice(warehouseValue.total) : "—"}
+            {showPrices && warehouseValue.partial && warehouseValue.total != null && (
               <span className="ml-2 text-xs font-normal text-zinc-500">частично</span>
             )}
           </p>
@@ -126,7 +128,7 @@ export default function CraftWarehousePanel({
                     <span className="font-semibold text-zinc-100">{info.name}</span>
                     <GradePill grade={info.grade} />
                   </div>
-                  {lineTotal != null && (
+                  {showPrices && lineTotal != null && (
                     <p className="text-xs tabular-nums text-zinc-500">{formatPrice(lineTotal)}</p>
                   )}
                 </div>

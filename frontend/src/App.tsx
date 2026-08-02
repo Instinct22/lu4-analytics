@@ -3,6 +3,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { AuthProvider, defaultHomePath, useAuth } from "./hooks/useAuth";
 import { PreferencesProvider } from "./hooks/usePreferences";
+import { LevelRangeProvider } from "./hooks/useLevelRange";
 import MainLayout from "./layouts/MainLayout";
 import Login from "./pages/Login";
 
@@ -21,6 +22,7 @@ const ResourcesPage = lazy(() => import("./pages/Resources"));
 const CharacterPage = lazy(() => import("./pages/Character"));
 const AdminPage = lazy(() => import("./pages/Admin"));
 const RaidBossesPage = lazy(() => import("./pages/RaidBosses"));
+const SettingsPage = lazy(() => import("./pages/Settings"));
 
 const queryClient = new QueryClient();
 
@@ -45,6 +47,20 @@ function RequirePermission({
   return <>{children}</>;
 }
 
+function RequireAnyPermission({
+  permissions,
+  children,
+}: {
+  permissions: string[];
+  children: React.ReactNode;
+}) {
+  const { user, hasPermission } = useAuth();
+  if (!permissions.some((p) => hasPermission(p))) {
+    return <Navigate to={defaultHomePath(user?.permissions)} replace />;
+  }
+  return <>{children}</>;
+}
+
 function HomeRedirect() {
   const { user } = useAuth();
   if (user?.permissions?.includes("nav.dashboard")) return <Dashboard />;
@@ -62,7 +78,9 @@ export default function App() {
               element={
                 <ProtectedRoute>
                   <PreferencesProvider>
-                    <MainLayout />
+                    <LevelRangeProvider>
+                      <MainLayout />
+                    </LevelRangeProvider>
                   </PreferencesProvider>
                 </ProtectedRoute>
               }
@@ -93,15 +111,16 @@ export default function App() {
                   </RequirePermission>
                 }
               />
-              <Route path="/craft/warehouse" element={<Navigate to="/craft/bulk" replace />} />
+              <Route path="/craft/warehouse" element={<Navigate to="/craft/bulk?tab=warehouse" replace />} />
               <Route
                 path="/craft/bulk"
                 element={
-                  <RequirePermission permission="nav.craft">
+                  <RequireAnyPermission permissions={["feature.craft_bulk", "feature.craft_warehouse"]}>
                     <CraftBulkPage />
-                  </RequirePermission>
+                  </RequireAnyPermission>
                 }
               />
+              <Route path="/craft/upgrades/magic" element={<Navigate to="/craft/upgrades" replace />} />
               <Route
                 path="/craft/upgrades"
                 element={
@@ -149,6 +168,14 @@ export default function App() {
                   <RequirePermission permission="nav.raid_bosses">
                     <RaidBossesPage />
                   </RequirePermission>
+                }
+              />
+              <Route
+                path="/settings"
+                element={
+                  <RequireAnyPermission permissions={["nav.settings", "nav.admin"]}>
+                    <SettingsPage />
+                  </RequireAnyPermission>
                 }
               />
               <Route

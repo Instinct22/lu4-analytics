@@ -4,6 +4,7 @@ import { bossRespawn, formatHm, maskTimeInput } from "../../lib/raidTimers";
 import type { TimerSnapshot } from "../../lib/raidTimers";
 import { dropIconUrl, raidBossImageUrl } from "../../lib/raidTimers";
 import { ItemIcon } from "../craft/CraftCostBar";
+import { ConfirmDialog } from "../ui";
 
 function Stat({ label, value }: { label: string; value: string | null | undefined }) {
   if (!value) return null;
@@ -45,6 +46,7 @@ type Props = {
   boss: RaidBoss;
   timer: TimerSnapshot | null;
   canWrite: boolean;
+  canViewRoute?: boolean;
   onClose: () => void;
   onStart: (hhmm: string) => boolean;
   onAuto: () => boolean;
@@ -55,6 +57,7 @@ export default function RaidBossDetail({
   boss,
   timer,
   canWrite,
+  canViewRoute = true,
   onClose,
   onStart,
   onAuto,
@@ -64,6 +67,7 @@ export default function RaidBossDetail({
   const respawn = bossRespawn(boss);
   const [timeInput, setTimeInput] = useState(() => formatHm(new Date()));
   const [inputError, setInputError] = useState("");
+  const [clearConfirmOpen, setClearConfirmOpen] = useState(false);
 
   useEffect(() => {
     setTimeInput(formatHm(new Date()));
@@ -78,6 +82,7 @@ export default function RaidBossDetail({
   const bossImage = raidBossImageUrl(boss.image);
 
   return (
+    <>
     <div className="panel flex h-full min-h-0 flex-col overflow-hidden">
       <div className="shrink-0 border-b border-zinc-800/80 p-4">
         <div className="mb-3 flex items-start justify-between gap-2">
@@ -186,7 +191,7 @@ export default function RaidBossDetail({
                 <button
                   type="button"
                   className="btn-ghost !px-3 !py-1.5 text-xs text-zinc-400"
-                  onClick={onClear}
+                  onClick={() => setClearConfirmOpen(true)}
                   title="Сбросить общий таймер этого босса"
                 >
                   Сброс
@@ -229,7 +234,7 @@ export default function RaidBossDetail({
           )}
         </section>
 
-        {boss.howToReach && (
+        {canViewRoute && boss.howToReach && (
           <section className="rounded-xl bg-amber-500/10 p-3 ring-1 ring-amber-500/25">
             <h4 className="mb-2 text-xs font-medium uppercase tracking-wider text-amber-400">
               Как добраться
@@ -308,5 +313,19 @@ export default function RaidBossDetail({
         </a>
       </div>
     </div>
+
+    <ConfirmDialog
+      open={clearConfirmOpen}
+      title="Сброс таймера"
+      message={`Сбросить таймер «${boss.name}»?`}
+      confirmLabel="Сбросить"
+      tone="danger"
+      onConfirm={() => {
+        onClear();
+        setClearConfirmOpen(false);
+      }}
+      onCancel={() => setClearConfirmOpen(false)}
+    />
+    </>
   );
 }

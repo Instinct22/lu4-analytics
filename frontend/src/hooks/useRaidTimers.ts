@@ -14,7 +14,7 @@ import {
 const TIMERS_KEY = ["raid", "timers"];
 
 /** Timers are shared by the whole server, so they live in the database. */
-export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean) {
+export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean, canView = true) {
   const queryClient = useQueryClient();
   const [now, setNow] = useState(() => Date.now());
 
@@ -22,6 +22,7 @@ export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean) {
     queryKey: TIMERS_KEY,
     queryFn: getRaidTimers,
     refetchInterval: 30_000,
+    enabled: canView,
   });
 
   useEffect(() => {
