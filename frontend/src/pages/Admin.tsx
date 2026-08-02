@@ -37,6 +37,7 @@ const FALLBACK_PERMISSION_GROUPS = [
       "feature.raid_timers_view",
       "feature.raid_route",
       "feature.raid_timers_write",
+      "feature.raid_visibility",
       "feature.level_unrestricted",
     ],
   },
@@ -76,6 +77,7 @@ const PRESET_ROLE_OPTIONS: { value: Role; label: string }[] = [
 /** Permission cannot be enabled unless its prerequisite is enabled. */
 const PERMISSION_REQUIRES: Record<string, string> = {
   "feature.raid_timers_write": "feature.raid_timers_view",
+  "feature.raid_visibility": "nav.raid_bosses",
 };
 
 function applyPermissionRules(draft: Record<string, boolean>): Record<string, boolean> {

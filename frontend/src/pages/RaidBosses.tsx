@@ -1,26 +1,33 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import RaidBossDetail from "../components/raid/RaidBossDetail";
 import RaidBossMap from "../components/raid/RaidBossMap";
 import RaidTimerBanners from "../components/raid/RaidTimerBanners";
+import RaidVisibilitySettings from "../components/raid/RaidVisibilitySettings";
 import LevelRangeControl from "../components/settings/LevelRangeControl";
 import { PageHeader } from "../components/ui";
-import { getRaidBosses } from "../api/raid";
+import { getRaidBosses, getRaidVisibility, putRaidVisibility } from "../api/raid";
 import { useAuth } from "../hooks/useAuth";
 import { useLevelRange } from "../hooks/useLevelRange";
 import { useRaidTimers } from "../hooks/useRaidTimers";
 import type { RaidBoss } from "../lib/raidBosses";
 
 const EMPTY_BOSSES: RaidBoss[] = [];
+const VISIBILITY_KEY = ["raid", "visibility"] as const;
+const SAVE_DEBOUNCE_MS = 400;
 
 export default function RaidBossesPage() {
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState<number | null>(null);
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const { hasPermission } = useAuth();
   const canWrite = hasPermission("feature.raid_timers_write");
   const canViewTimers = hasPermission("feature.raid_timers_view");
   const canViewRoute = hasPermission("feature.raid_route");
+  const canManageVisibility = hasPermission("feature.raid_visibility");
+  const queryClient = useQueryClient();
+  const saveTimer = useRef<number | null>(null);
 
   const { data: payload, isLoading, isError } = useQuery({
     queryKey: ["raid", "bosses"],
@@ -28,11 +35,34 @@ export default function RaidBossesPage() {
     staleTime: 1000 * 60 * 30,
   });
 
+  const { data: visibility } = useQuery({
+    queryKey: VISIBILITY_KEY,
+    queryFn: getRaidVisibility,
+    staleTime: 1000 * 30,
+  });
+
+  const visibilityMutation = useMutation({
+    mutationFn: putRaidVisibility,
+    onSuccess: (data) => {
+      queryClient.setQueryData(VISIBILITY_KEY, data);
+    },
+    onError: () => {
+      void queryClient.invalidateQueries({ queryKey: VISIBILITY_KEY });
+    },
+  });
+
   const bosses = payload?.bosses ?? EMPTY_BOSSES;
   const { snapshots, startFromInput, startAuto, clearTimer } = useRaidTimers(
     bosses,
     canWrite,
     canViewTimers,
+  );
+
+  const hiddenIds = useMemo(() => new Set(visibility?.hiddenIds ?? []), [visibility]);
+
+  const visibleBosses = useMemo(
+    () => bosses.filter((b) => !hiddenIds.has(b.id)),
+    [bosses, hiddenIds],
   );
 
   const levels = useMemo(() => {
@@ -45,7 +75,7 @@ export default function RaidBossesPage() {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return bosses.filter((b) => {
+    return visibleBosses.filter((b) => {
       const lvl = b.level ?? 0;
       if (lvl < minLevel || lvl > maxLevel) return false;
       if (!q) return true;
@@ -55,7 +85,7 @@ export default function RaidBossesPage() {
         (b.howToReach?.toLowerCase().includes(q) ?? false)
       );
     });
-  }, [bosses, query, minLevel, maxLevel]);
+  }, [visibleBosses, query, minLevel, maxLevel]);
 
   const selected = useMemo(
     () => bosses.find((b) => b.id === selectedId) ?? null,
@@ -66,7 +96,7 @@ export default function RaidBossesPage() {
     const active: { boss: RaidBoss; timer: NonNullable<ReturnType<typeof snapshots.get>> }[] = [];
     const waiting: typeof active = [];
     const overdue: typeof active = [];
-    for (const boss of bosses) {
+    for (const boss of visibleBosses) {
       const timer = snapshots.get(boss.id);
       if (!timer) continue;
       if (timer.phase === "overdue") overdue.push({ boss, timer });
@@ -74,13 +104,52 @@ export default function RaidBossesPage() {
       else if (timer.phase === "waiting") waiting.push({ boss, timer });
     }
     return { active, waiting, overdue };
-  }, [bosses, snapshots]);
+  }, [visibleBosses, snapshots]);
+
+  useEffect(
+    () => () => {
+      if (saveTimer.current != null) window.clearTimeout(saveTimer.current);
+    },
+    [],
+  );
+
+  const openSettings = () => {
+    setSelectedId(null);
+    setSettingsOpen(true);
+  };
+
+  const closeSettings = () => setSettingsOpen(false);
+
+  const selectBoss = (id: number) => {
+    setSettingsOpen(false);
+    setSelectedId(id);
+  };
+
+  const toggleVisibility = (bossId: number, visible: boolean) => {
+    if (!canManageVisibility) return;
+    const current = new Set(queryClient.getQueryData<{ hiddenIds: number[] }>(VISIBILITY_KEY)?.hiddenIds ?? []);
+    if (visible) current.delete(bossId);
+    else current.add(bossId);
+    const nextIds = [...current].sort((a, b) => a - b);
+    queryClient.setQueryData(VISIBILITY_KEY, { hiddenIds: nextIds });
+
+    if (saveTimer.current != null) window.clearTimeout(saveTimer.current);
+    saveTimer.current = window.setTimeout(() => {
+      visibilityMutation.mutate(nextIds);
+    }, SAVE_DEBOUNCE_MS);
+  };
+
+  const showRightPanel = settingsOpen || selected != null;
 
   return (
     <div className="min-h-full">
       <PageHeader title="Рейд Боссы">
         <p className="text-sm text-zinc-500">
-          {isLoading ? "Загрузка…" : `${filtered.length} из ${bosses.length} · карта и дроп`}
+          {isLoading
+            ? "Загрузка…"
+            : `${filtered.length} из ${visibleBosses.length}${
+                hiddenIds.size > 0 ? ` · скрыто ${hiddenIds.size}` : ""
+              } · карта и дроп`}
         </p>
       </PageHeader>
 
@@ -93,7 +162,7 @@ export default function RaidBossesPage() {
           active={bannerGroups.active}
           waiting={bannerGroups.waiting}
           overdue={bannerGroups.overdue}
-          onSelect={setSelectedId}
+          onSelect={selectBoss}
           canClear={canWrite}
           onClear={clearTimer}
         />
@@ -111,9 +180,20 @@ export default function RaidBossesPage() {
             <div>
               <div className="mb-1.5 flex items-center justify-between gap-2 text-[0.7rem] text-zinc-500">
                 <span>Уровень</span>
-                <Link to="/settings" className="text-amber-400/80 hover:text-amber-300">
-                  Настройки
-                </Link>
+                <span className="flex items-center gap-2">
+                  {canManageVisibility && (
+                    <button
+                      type="button"
+                      onClick={openSettings}
+                      className="text-amber-400/80 hover:text-amber-300"
+                    >
+                      Список РБ
+                    </button>
+                  )}
+                  <Link to="/settings" className="text-amber-400/80 hover:text-amber-300">
+                    Настройки
+                  </Link>
+                </span>
               </div>
               <LevelRangeControl
                 value={levelRange}
@@ -128,13 +208,13 @@ export default function RaidBossesPage() {
           <div className="panel max-h-[28rem] overflow-y-auto xl:max-h-[calc(100vh-17rem)]">
             <ul className="divide-y divide-zinc-800/70">
               {filtered.map((boss) => {
-                const active = boss.id === selectedId;
+                const active = !settingsOpen && boss.id === selectedId;
                 const timer = snapshots.get(boss.id);
                 return (
                   <li key={boss.id}>
                     <button
                       type="button"
-                      onClick={() => setSelectedId(boss.id)}
+                      onClick={() => selectBoss(boss.id)}
                       className={[
                         "flex w-full items-center gap-2 px-3 py-2.5 text-left transition-colors",
                         active
@@ -178,25 +258,35 @@ export default function RaidBossesPage() {
             <RaidBossMap
               payload={payload}
               bosses={filtered}
-              selectedId={selectedId}
-              onSelect={setSelectedId}
+              selectedId={settingsOpen ? null : selectedId}
+              onSelect={selectBoss}
               timers={canViewTimers ? snapshots : new Map()}
             />
           )}
         </div>
 
-        {selected && (
+        {showRightPanel && (
           <div className="flex h-[min(40rem,calc(100vh-8rem))] w-full shrink-0 flex-col xl:h-[calc(100vh-12rem)] xl:w-[26rem] 2xl:w-[32rem]">
-            <RaidBossDetail
-              boss={selected}
-              timer={canViewTimers ? snapshots.get(selected.id) ?? null : null}
-              canWrite={canWrite}
-              canViewRoute={canViewRoute}
-              onClose={() => setSelectedId(null)}
-              onStart={(hhmm) => startFromInput(selected.id, hhmm)}
-              onAuto={() => startAuto(selected.id)}
-              onClear={() => clearTimer(selected.id)}
-            />
+            {settingsOpen && canManageVisibility ? (
+              <RaidVisibilitySettings
+                bosses={bosses}
+                hiddenIds={hiddenIds}
+                onToggle={toggleVisibility}
+                onClose={closeSettings}
+                saving={visibilityMutation.isPending}
+              />
+            ) : selected ? (
+              <RaidBossDetail
+                boss={selected}
+                timer={canViewTimers ? snapshots.get(selected.id) ?? null : null}
+                canWrite={canWrite}
+                canViewRoute={canViewRoute}
+                onClose={() => setSelectedId(null)}
+                onStart={(hhmm) => startFromInput(selected.id, hhmm)}
+                onAuto={() => startAuto(selected.id)}
+                onClear={() => clearTimer(selected.id)}
+              />
+            ) : null}
           </div>
         )}
       </div>

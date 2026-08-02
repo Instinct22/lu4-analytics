@@ -109,7 +109,7 @@ function CollapsibleTimerSection({
           <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg border border-zinc-700/80 bg-zinc-900/60 text-sm font-semibold text-zinc-300">
             {open ? "−" : "+"}
           </span>
-          <div className="flex min-w-0 flex-1 items-center justify-end gap-2">
+          <div className="flex min-w-0 flex-1 items-center gap-2">
             <p className={`text-[0.7rem] font-medium uppercase tracking-wider ${titleClassName}`}>
               {title}
             </p>
@@ -203,7 +203,7 @@ export default function RaidTimerBanners({
       <div className="mb-5 space-y-2">
         {sortedActive.length > 0 && (
           <div className="rounded-2xl border border-amber-500/25 bg-amber-500/5 shadow-panel">
-            <div className="flex items-center justify-end px-4 py-3">
+            <div className="flex items-center px-4 py-3">
               <p className="text-[0.7rem] font-medium uppercase tracking-wider text-amber-400/90">
                 Скоро / окно респа
               </p>

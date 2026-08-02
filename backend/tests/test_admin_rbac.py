@@ -152,6 +152,28 @@ def test_craft_cart_sync_allowed_for_user(craft_client, mock_db):
     assert r.status_code == 200
 
 
+def test_raid_visibility_write_blocked_for_admin(client, mock_db, regular_admin):
+    app.dependency_overrides[get_current_user] = lambda: regular_admin
+    mock_db.scalars.side_effect = scalars_by_model({"RolePermission": []})
+    r = client.put("/api/raid/visibility", json={"hiddenIds": [25025]})
+    assert r.status_code == 403
+    app.dependency_overrides.clear()
+
+
+def test_raid_visibility_write_allowed_for_user(craft_client, mock_db):
+    mock_db.get.return_value = None
+    r = craft_client.put("/api/raid/visibility", json={"hiddenIds": [25025, 25044]})
+    assert r.status_code == 200
+    assert r.json()["hiddenIds"] == [25025, 25044]
+
+
+def test_raid_visibility_read_returns_global_list(craft_client, mock_db):
+    mock_db.get.return_value = SimpleNamespace(key="raid_hidden", value={"hiddenIds": [25025]})
+    r = craft_client.get("/api/raid/visibility")
+    assert r.status_code == 200
+    assert r.json() == {"hiddenIds": [25025]}
+
+
 def test_quick_create_requires_permission(client, mock_db):
     driver = User(
         id=uuid.uuid4(),

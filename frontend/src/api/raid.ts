@@ -27,3 +27,17 @@ export async function setRaidTimer(bossId: number, killedAt?: Date): Promise<Rai
 export async function clearRaidTimer(bossId: number): Promise<void> {
   await api.delete(`/raid/timers/${bossId}`);
 }
+
+export type RaidVisibilityPayload = {
+  hiddenIds: number[];
+};
+
+export async function getRaidVisibility(): Promise<RaidVisibilityPayload> {
+  const { data } = await api.get("/raid/visibility");
+  return { hiddenIds: Array.isArray(data?.hiddenIds) ? data.hiddenIds : [] };
+}
+
+export async function putRaidVisibility(hiddenIds: number[]): Promise<RaidVisibilityPayload> {
+  const { data } = await api.put("/raid/visibility", { hiddenIds });
+  return { hiddenIds: Array.isArray(data?.hiddenIds) ? data.hiddenIds : [] };
+}
