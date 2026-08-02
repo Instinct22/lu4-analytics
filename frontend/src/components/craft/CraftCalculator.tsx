@@ -42,6 +42,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
   const { hasPermission } = useAuth();
   const { add: addToCart } = useCraftCart();
   const canSeePrices = hasPermission("feature.craft_prices");
+  const canBulk = hasPermission("feature.craft_bulk");
   const [qty, setQty] = useState(1);
   const [owned, setOwned] = usePreference("craft_owned");
   const [chosenVariants, setChosenVariants] = usePreference("craft_variants");
@@ -182,13 +183,15 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
         >
           Скрафтить
         </button>
-        <button
-          type="button"
-          onClick={() => addToCart(productId, qty, variantIdx)}
-          className="rounded-lg border border-amber-600/50 bg-amber-950/40 px-3 py-1.5 text-xs font-semibold text-amber-300 transition-colors hover:bg-amber-900/50"
-        >
-          В список
-        </button>
+        {canBulk && (
+          <button
+            type="button"
+            onClick={() => addToCart(productId, qty, variantIdx)}
+            className="rounded-lg border border-amber-600/50 bg-amber-950/40 px-3 py-1.5 text-xs font-semibold text-amber-300 transition-colors hover:bg-amber-900/50"
+          >
+            В список
+          </button>
+        )}
         <button
           type="button"
           onClick={onClose}

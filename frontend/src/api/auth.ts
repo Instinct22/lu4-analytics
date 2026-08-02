@@ -1,6 +1,6 @@
 import api from "./client";
 
-export type Role = "admin" | "user" | "driver" | "other";
+export type Role = "superadmin" | "admin" | "user" | "driver" | "other" | (string & {});
 
 export interface User {
   id: string;

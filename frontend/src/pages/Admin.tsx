@@ -1,12 +1,19 @@
-import { FormEvent, useMemo, useState } from "react";
+import { FormEvent, useEffect, useMemo, useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import {
+  createCustomRole,
   createUser,
+  deleteCustomRole,
   deleteUser,
+  getPublicRoles,
+  listCustomRoles,
   listLoginLogs,
   listRaidTimerLogs,
   listRolePermissions,
+  listUserCreationLogs,
   listUsers,
+  quickCreateUser,
+  updatePublicRoles,
   updateRolePermissions,
   updateUser,
   type PermissionEntry,
@@ -16,22 +23,83 @@ import type { Role } from "../api/auth";
 import { PageHeader, LoadingState } from "../components/ui";
 import { useAuth } from "../hooks/useAuth";
 
-const ROLE_OPTIONS: { value: Role; label: string }[] = [
+const FALLBACK_PERMISSION_GROUPS = [
+  {
+    id: "analytics",
+    label: "Аналитика",
+    permissions: ["nav.dashboard", "nav.charts", "nav.statistics"],
+  },
+  {
+    id: "raid",
+    label: "Рейд-боссы",
+    permissions: [
+      "nav.raid_bosses",
+      "feature.raid_timers_view",
+      "feature.raid_route",
+      "feature.raid_timers_write",
+      "feature.level_unrestricted",
+    ],
+  },
+  {
+    id: "craft",
+    label: "Крафт",
+    permissions: [
+      "nav.craft",
+      "feature.craft_prices",
+      "feature.craft_bulk",
+      "feature.craft_warehouse",
+    ],
+  },
+  {
+    id: "administration",
+    label: "Администрирование",
+    permissions: ["nav.admin", "admin.users_quick_create", "admin.roles_manage", "admin.logs_view", "admin.level_preset", "admin.level_restriction"],
+  },
+] as const;
+
+const BUILTIN_ROLE_OPTIONS: { value: Role; label: string }[] = [
   { value: "admin", label: "Админ" },
   { value: "user", label: "Пользователь" },
   { value: "driver", label: "Драйвер" },
   { value: "other", label: "Другое" },
 ];
 
-const ANALYTICS_PERMISSIONS = ["nav.dashboard", "nav.charts", "nav.statistics"] as const;
+const LOGIN_LOGS_LIMIT = 25;
 
-const PERMISSION_GROUPS: { id: string; label: string; permissions: readonly string[] }[] = [
-  { id: "analytics", label: "Аналитика", permissions: ANALYTICS_PERMISSIONS },
+const PRESET_ROLE_OPTIONS: { value: Role; label: string }[] = [
+  { value: "user", label: "Пользователь" },
+  { value: "driver", label: "Драйвер" },
+  { value: "other", label: "Другое" },
+  { value: "admin", label: "Админ" },
 ];
 
-const GROUPED_PERMISSIONS = new Set(PERMISSION_GROUPS.flatMap((g) => g.permissions));
+/** Permission cannot be enabled unless its prerequisite is enabled. */
+const PERMISSION_REQUIRES: Record<string, string> = {
+  "feature.raid_timers_write": "feature.raid_timers_view",
+};
 
-const LOGIN_LOGS_LIMIT = 25;
+function applyPermissionRules(draft: Record<string, boolean>): Record<string, boolean> {
+  const next = { ...draft };
+  for (const [perm, required] of Object.entries(PERMISSION_REQUIRES)) {
+    if (next[perm] && !next[required]) {
+      next[required] = true;
+    }
+  }
+  for (const [perm, required] of Object.entries(PERMISSION_REQUIRES)) {
+    if (!next[required]) {
+      next[perm] = false;
+    }
+  }
+  return next;
+}
+
+function isPermissionDisabled(permission: string, draft: Record<string, boolean>): boolean {
+  const required = PERMISSION_REQUIRES[permission];
+  return Boolean(required && !draft[required]);
+}
+
+type AdminTab = "users" | "roles" | "publicRoles" | "customRoles" | "logs";
+type LogSubTab = "logins" | "raids" | "creations";
 
 function formatLoginAt(iso: string) {
   const d = new Date(iso);
@@ -51,10 +119,13 @@ function formatRaidAction(action: string) {
 }
 
 export default function AdminPage() {
-  const { user, refreshUser } = useAuth();
+  const { user, refreshUser, hasPermission, isSuperadmin } = useAuth();
   const qc = useQueryClient();
-  const isPrimaryAdmin = user?.username === "admin";
-  const [tab, setTab] = useState<"users" | "roles" | "logins" | "raids">("users");
+  const canManageRoles = hasPermission("admin.roles_manage");
+  const canViewLogs = hasPermission("admin.logs_view");
+  const canQuickCreate = hasPermission("admin.users_quick_create");
+  const [tab, setTab] = useState<AdminTab>("users");
+  const [logSubTab, setLogSubTab] = useState<LogSubTab>("logins");
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [role, setRole] = useState<Role>("user");
@@ -62,24 +133,91 @@ export default function AdminPage() {
   const [selectedRole, setSelectedRole] = useState<Role>("user");
   const [loginPage, setLoginPage] = useState(1);
   const [raidPage, setRaidPage] = useState(1);
+  const [creationPage, setCreationPage] = useState(1);
   const [passwordEditId, setPasswordEditId] = useState<string | null>(null);
   const [newPassword, setNewPassword] = useState("");
+  const [quickCreateOpen, setQuickCreateOpen] = useState(false);
+  const [quickCreateResult, setQuickCreateResult] = useState<{
+    username: string;
+    password: string;
+  } | null>(null);
+  const [publicRolesDraft, setPublicRolesDraft] = useState<Role[]>([]);
+  const [customRoleLabel, setCustomRoleLabel] = useState("");
+  const [customRolePreset, setCustomRolePreset] = useState<Role>("user");
+  const [customRoleError, setCustomRoleError] = useState("");
+  const [permDraft, setPermDraft] = useState<Record<string, boolean>>({});
+  const [expandedGroups, setExpandedGroups] = useState<Record<string, boolean>>({});
+  const [permSaveMessage, setPermSaveMessage] = useState<{
+    type: "success" | "error";
+    text: string;
+  } | null>(null);
 
   const usersQuery = useQuery({ queryKey: ["admin-users"], queryFn: listUsers });
-  const rolesQuery = useQuery({ queryKey: ["admin-roles"], queryFn: listRolePermissions });
+  const rolesQuery = useQuery({
+    queryKey: ["admin-roles"],
+    queryFn: listRolePermissions,
+    enabled: canManageRoles,
+  });
+  const publicRolesQuery = useQuery({
+    queryKey: ["admin-public-roles"],
+    queryFn: getPublicRoles,
+    enabled: isSuperadmin,
+  });
+  const customRolesQuery = useQuery({
+    queryKey: ["admin-custom-roles"],
+    queryFn: listCustomRoles,
+    enabled: isSuperadmin,
+  });
   const loginLogsQuery = useQuery({
     queryKey: ["admin-login-logs", loginPage],
     queryFn: () => listLoginLogs(loginPage, LOGIN_LOGS_LIMIT),
-    enabled: isPrimaryAdmin && tab === "logins",
+    enabled: canViewLogs && tab === "logs" && logSubTab === "logins",
   });
   const raidLogsQuery = useQuery({
     queryKey: ["admin-raid-timer-logs", raidPage],
     queryFn: () => listRaidTimerLogs(raidPage, LOGIN_LOGS_LIMIT),
-    enabled: isPrimaryAdmin && tab === "raids",
+    enabled: canViewLogs && tab === "logs" && logSubTab === "raids",
+  });
+  const creationLogsQuery = useQuery({
+    queryKey: ["admin-user-creation-logs", creationPage],
+    queryFn: () => listUserCreationLogs(creationPage, LOGIN_LOGS_LIMIT),
+    enabled: canViewLogs && tab === "logs" && logSubTab === "creations",
   });
 
-  const activeTab =
-    (tab === "logins" || tab === "raids") && !isPrimaryAdmin ? "users" : tab;
+  const allRoleOptions = useMemo(() => {
+    const custom =
+      customRolesQuery.data?.items.map((r) => ({ value: r.key as Role, label: r.label })) ?? [];
+    return [...BUILTIN_ROLE_OPTIONS, ...custom];
+  }, [customRolesQuery.data?.items]);
+
+  const roleOptions = useMemo(() => {
+    if (isSuperadmin) return allRoleOptions;
+    const roles = publicRolesQuery.data?.roles ?? ["user", "driver", "other"];
+    return allRoleOptions.filter((o) => roles.includes(o.value));
+  }, [isSuperadmin, publicRolesQuery.data?.roles, allRoleOptions]);
+
+  const matrixRoleOptions = useMemo(
+    () =>
+      rolesQuery.data?.map((r) => ({ value: r.role as Role, label: r.label })) ??
+      BUILTIN_ROLE_OPTIONS.filter((o) => o.value !== "superadmin"),
+    [rolesQuery.data],
+  );
+
+  const permissionGroups = FALLBACK_PERMISSION_GROUPS;
+
+  const groupedPermissions = useMemo(
+    () => new Set(permissionGroups.flatMap((g) => g.permissions)),
+    [permissionGroups],
+  );
+
+  const activeTab = useMemo(() => {
+    if ((tab === "roles" || tab === "publicRoles" || tab === "customRoles") && !isSuperadmin) {
+      return canManageRoles && tab === "roles" ? "roles" : "users";
+    }
+    if (tab === "logs" && !canViewLogs) return "users";
+    if (tab === "roles" && !canManageRoles) return "users";
+    return tab;
+  }, [tab, isSuperadmin, canManageRoles, canViewLogs]);
 
   const createMut = useMutation({
     mutationFn: createUser,
@@ -113,10 +251,58 @@ export default function AdminPage() {
     },
   });
 
+  const quickCreateMut = useMutation({
+    mutationFn: (r: Role) => quickCreateUser(r),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["admin-users"] });
+    },
+  });
+
+  const publicRolesMut = useMutation({
+    mutationFn: updatePublicRoles,
+    onSuccess: () => qc.invalidateQueries({ queryKey: ["admin-public-roles"] }),
+  });
+
+  const customRoleCreateMut = useMutation({
+    mutationFn: createCustomRole,
+    onSuccess: () => {
+      setCustomRoleLabel("");
+      setCustomRolePreset("user");
+      setCustomRoleError("");
+      qc.invalidateQueries({ queryKey: ["admin-custom-roles"] });
+      qc.invalidateQueries({ queryKey: ["admin-roles"] });
+      qc.invalidateQueries({ queryKey: ["admin-public-roles"] });
+    },
+    onError: () => setCustomRoleError("Не удалось создать роль"),
+  });
+
+  const customRoleDeleteMut = useMutation({
+    mutationFn: deleteCustomRole,
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ["admin-custom-roles"] });
+      qc.invalidateQueries({ queryKey: ["admin-roles"] });
+      qc.invalidateQueries({ queryKey: ["admin-public-roles"] });
+      qc.invalidateQueries({ queryKey: ["admin-users"] });
+    },
+  });
+
   const roleMatrix: RolePermissions | undefined = useMemo(
     () => rolesQuery.data?.find((r) => r.role === selectedRole),
     [rolesQuery.data, selectedRole],
   );
+
+  useEffect(() => {
+    if (!roleMatrix) {
+      setPermDraft({});
+      return;
+    }
+    const draft: Record<string, boolean> = {};
+    for (const p of roleMatrix.permissions) {
+      draft[p.permission] = p.allowed;
+    }
+    setPermDraft(applyPermissionRules(draft));
+    setPermSaveMessage(null);
+  }, [roleMatrix, selectedRole]);
 
   const onCreate = (e: FormEvent) => {
     e.preventDefault();
@@ -128,40 +314,55 @@ export default function AdminPage() {
     createMut.mutate({ username: username.trim(), password, role });
   };
 
-  const permMap = useMemo(() => {
-    if (!roleMatrix) return new Map<string, PermissionEntry>();
-    return new Map(roleMatrix.permissions.map((p) => [p.permission, p]));
-  }, [roleMatrix]);
+  const permDirty = useMemo(() => {
+    if (!roleMatrix) return false;
+    return roleMatrix.permissions.some((p) => permDraft[p.permission] !== p.allowed);
+  }, [roleMatrix, permDraft]);
 
-  const standalonePermissions = useMemo(
-    () => roleMatrix?.permissions.filter((p) => !GROUPED_PERMISSIONS.has(p.permission)) ?? [],
-    [roleMatrix],
-  );
-
-  const applyPermissions = (updates: Record<string, boolean>) => {
-    if (!roleMatrix) return;
-    const next: Record<string, boolean> = {};
-    for (const p of roleMatrix.permissions) {
-      next[p.permission] = updates[p.permission] ?? p.allowed;
-    }
-    rolesMut.mutate({ role: selectedRole, permissions: next });
-  };
+  const standalonePermissions = useMemo(() => {
+    if (!roleMatrix) return [];
+    return roleMatrix.permissions
+      .filter((p) => !groupedPermissions.has(p.permission))
+      .map((p) => ({ ...p, allowed: permDraft[p.permission] ?? p.allowed }));
+  }, [roleMatrix, groupedPermissions, permDraft]);
 
   const togglePerm = (permission: string, allowed: boolean) => {
-    applyPermissions({ [permission]: allowed });
+    if (allowed && isPermissionDisabled(permission, permDraft)) return;
+    setPermDraft((prev) => applyPermissionRules({ ...prev, [permission]: allowed }));
+    setPermSaveMessage(null);
   };
 
   const toggleGroup = (permissions: readonly string[]) => {
-    const allAllowed = permissions.every((perm) => permMap.get(perm)?.allowed);
+    const allAllowed = permissions.every((perm) => permDraft[perm]);
     const updates = Object.fromEntries(permissions.map((perm) => [perm, !allAllowed]));
-    applyPermissions(updates);
+    setPermDraft((prev) => applyPermissionRules({ ...prev, ...updates }));
+    setPermSaveMessage(null);
+  };
+
+  const toggleGroupExpanded = (groupId: string) => {
+    setExpandedGroups((prev) => ({ ...prev, [groupId]: !prev[groupId] }));
+  };
+
+  const savePermissions = () => {
+    if (!roleMatrix || !permDirty) return;
+    rolesMut.mutate(
+      { role: selectedRole, permissions: applyPermissionRules(permDraft) },
+      {
+        onSuccess: () => {
+          setPermSaveMessage({ type: "success", text: "Права успешно сохранены" });
+        },
+        onError: () => {
+          setPermSaveMessage({ type: "error", text: "Не удалось сохранить права" });
+        },
+      },
+    );
   };
 
   const groupChecked = (permissions: readonly string[]) =>
-    permissions.some((perm) => permMap.get(perm)?.allowed);
+    permissions.some((perm) => permDraft[perm]);
 
   const groupIndeterminate = (permissions: readonly string[]) => {
-    const allowedCount = permissions.filter((perm) => permMap.get(perm)?.allowed).length;
+    const allowedCount = permissions.filter((perm) => permDraft[perm]).length;
     return allowedCount > 0 && allowedCount < permissions.length;
   };
 
@@ -178,8 +379,29 @@ export default function AdminPage() {
     );
   };
 
-  if (usersQuery.isLoading || rolesQuery.isLoading) return <LoadingState />;
+  if (usersQuery.isLoading || (canManageRoles && rolesQuery.isLoading)) return <LoadingState />;
 
+  const creationTotal = creationLogsQuery.data?.total ?? 0;
+  const creationTotalPages = Math.max(
+    1,
+    Math.ceil(creationTotal / (creationLogsQuery.data?.limit ?? LOGIN_LOGS_LIMIT)),
+  );
+
+  const copyCredentials = async (text: string) => {
+    try {
+      await navigator.clipboard.writeText(text);
+    } catch {
+      // ignore
+    }
+  };
+
+  const tabButtons: { id: AdminTab; label: string; show: boolean }[] = [
+    { id: "users", label: "Пользователи", show: true },
+    { id: "roles", label: "Права ролей", show: canManageRoles },
+    { id: "publicRoles", label: "Публичные роли", show: isSuperadmin },
+    { id: "customRoles", label: "Создание ролей", show: isSuperadmin },
+    { id: "logs", label: "Журналы", show: canViewLogs },
+  ];
   const loginTotal = loginLogsQuery.data?.total ?? 0;
   const loginTotalPages = Math.max(1, Math.ceil(loginTotal / (loginLogsQuery.data?.limit ?? LOGIN_LOGS_LIMIT)));
   const raidTotal = raidLogsQuery.data?.total ?? 0;
@@ -189,42 +411,55 @@ export default function AdminPage() {
     <div>
       <PageHeader title="Администрирование" />
       <p className="mb-6 -mt-4 text-sm text-zinc-500">
-        {isPrimaryAdmin
-          ? "Пользователи, права ролей, журнал входов и обновлений таймеров рейдов"
-          : "Пользователи и права ролей"}
+        {isSuperadmin
+          ? "Полное управление пользователями, правами, настройками и журналами"
+          : canManageRoles
+            ? "Пользователи и права ролей"
+            : "Управление созданными пользователями"}
       </p>
-      <div className="mb-6 flex gap-1 rounded-xl bg-zinc-800/80 p-1 w-fit">
-        {(
-          [
-            ["users", "Пользователи"],
-            ["roles", "Права ролей"],
-            ...(isPrimaryAdmin
-              ? ([
-                  ["logins", "Входы"],
-                  ["raids", "Рейды"],
-                ] as const)
-              : []),
-          ] as const
-        ).map(([id, label]) => (
-          <button
-            key={id}
-            type="button"
-            className={`rounded-lg px-4 py-2 text-sm font-semibold transition-colors ${
-              activeTab === id
-                ? "bg-amber-600 text-zinc-950 shadow-sm"
-                : "text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
-            }`}
-            onClick={() => setTab(id)}
-          >
-            {label}
-          </button>
-        ))}
+      <div className="mb-6 flex flex-wrap gap-1 rounded-xl bg-zinc-800/80 p-1 w-fit">
+        {tabButtons
+          .filter((t) => t.show)
+          .map(({ id, label }) => (
+            <button
+              key={id}
+              type="button"
+              className={`rounded-lg px-4 py-2 text-sm font-semibold transition-colors ${
+                activeTab === id
+                  ? "bg-amber-600 text-zinc-950 shadow-sm"
+                  : "text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
+              }`}
+              onClick={() => setTab(id)}
+            >
+              {label}
+            </button>
+          ))}
       </div>
 
       {activeTab === "users" && (
         <div className="space-y-6">
           <form onSubmit={onCreate} className="panel space-y-4 p-5 2xl:max-w-5xl">
-            <h3 className="text-sm font-semibold text-zinc-200">Новый пользователь</h3>
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <h3 className="text-sm font-semibold text-zinc-200">Новый пользователь</h3>
+              {canQuickCreate && (
+                <button
+                  type="button"
+                  className="btn-ghost text-xs text-amber-400"
+                  onClick={() => {
+                    setQuickCreateResult(null);
+                    quickCreateMut.mutate(role, {
+                      onSuccess: (data) => {
+                        setQuickCreateOpen(true);
+                        setQuickCreateResult({ username: data.username, password: data.password });
+                      },
+                    });
+                  }}
+                  disabled={quickCreateMut.isPending}
+                >
+                  Быстрое создание
+                </button>
+              )}
+            </div>
             <p className="text-xs text-zinc-500">Только логин и пароль — остальное настраивается ролью</p>
             {formError && (
               <p className="rounded-xl border border-red-900/50 bg-red-950/40 px-3 py-2 text-sm text-red-300">
@@ -252,7 +487,7 @@ export default function AdminPage() {
                 value={role}
                 onChange={(e) => setRole(e.target.value as Role)}
               >
-                {ROLE_OPTIONS.map((o) => (
+                {roleOptions.map((o) => (
                   <option key={o.value} value={o.value}>
                     {o.label}
                   </option>
@@ -295,7 +530,7 @@ export default function AdminPage() {
                             updateMut.mutate({ id: u.id, body: { role: e.target.value as Role } })
                           }
                         >
-                          {ROLE_OPTIONS.map((o) => (
+                          {roleOptions.map((o) => (
                             <option key={o.value} value={o.value}>
                               {o.label}
                             </option>
@@ -398,7 +633,7 @@ export default function AdminPage() {
               value={selectedRole}
               onChange={(e) => setSelectedRole(e.target.value as Role)}
             >
-              {ROLE_OPTIONS.map((o) => (
+              {matrixRoleOptions.map((o) => (
                 <option key={o.value} value={o.value}>
                   {o.label}
                 </option>
@@ -414,84 +649,185 @@ export default function AdminPage() {
               Включите или отключите доступ к разделам и функциям для этой роли
             </p>
             <div className="space-y-2">
-              {PERMISSION_GROUPS.map((group) => {
+              {permissionGroups.map((group) => {
                 const children = group.permissions
-                  .map((perm) => permMap.get(perm))
+                  .map((perm) => {
+                    const meta = roleMatrix.permissions.find((p) => p.permission === perm);
+                    if (!meta) return null;
+                    return { ...meta, allowed: permDraft[perm] ?? meta.allowed };
+                  })
                   .filter((p): p is PermissionEntry => p != null);
                 if (children.length === 0) return null;
 
                 const parentChecked = groupChecked(group.permissions);
                 const parentIndeterminate = groupIndeterminate(group.permissions);
+                const expanded = expandedGroups[group.id] ?? false;
 
                 return (
                   <div
                     key={group.id}
                     className="overflow-hidden rounded-xl border border-zinc-800/80 bg-zinc-900/40"
                   >
-                    <label className="flex cursor-pointer items-center justify-between px-4 py-3 transition-colors hover:border-zinc-700">
-                      <div>
-                        <p className="text-sm font-medium text-zinc-200">{group.label}</p>
-                        <p className="text-[0.7rem] text-zinc-600">Раздел меню с подпунктами</p>
-                      </div>
+                    <div className="flex items-center justify-between px-4 py-3 transition-colors hover:border-zinc-700">
+                      <button
+                        type="button"
+                        className="flex min-w-0 flex-1 items-center gap-2 text-left"
+                        onClick={() => toggleGroupExpanded(group.id)}
+                      >
+                        <span
+                          className={`inline-block text-xs text-zinc-500 transition-transform ${expanded ? "rotate-90" : ""}`}
+                          aria-hidden
+                        >
+                          ▶
+                        </span>
+                        <div className="min-w-0">
+                          <p className="text-sm font-medium text-zinc-200">{group.label}</p>
+                          <p className="text-[0.7rem] text-zinc-600">
+                            {expanded ? "Скрыть права раздела" : "Показать права раздела"}
+                          </p>
+                        </div>
+                      </button>
                       <input
                         type="checkbox"
-                        className="h-4 w-4 accent-amber-500"
+                        className="ml-3 h-4 w-4 shrink-0 accent-amber-500"
                         checked={parentChecked}
                         ref={(el) => {
                           if (el) el.indeterminate = parentIndeterminate;
                         }}
-                        disabled={rolesMut.isPending}
                         onChange={() => toggleGroup(group.permissions)}
                       />
-                    </label>
-                    <div className="space-y-1 border-t border-zinc-800/80 px-4 py-2">
-                      {children.map((p) => (
-                        <label
-                          key={p.permission}
-                          className="flex cursor-pointer items-center justify-between rounded-lg px-3 py-2.5 transition-colors hover:bg-zinc-800/40"
-                        >
-                          <div className="pl-2">
-                            <p className="text-sm text-zinc-300">{p.label ?? p.permission}</p>
-                            <p className="text-[0.65rem] text-zinc-600">{p.permission}</p>
-                          </div>
-                          <input
-                            type="checkbox"
-                            className="h-4 w-4 accent-amber-500"
-                            checked={p.allowed}
-                            disabled={rolesMut.isPending}
-                            onChange={(e) => togglePerm(p.permission, e.target.checked)}
-                          />
-                        </label>
-                      ))}
                     </div>
+                    {expanded && (
+                      <div className="space-y-1 border-t border-zinc-800/80 px-4 py-2">
+                        {children.map((p) => {
+                          const disabled = isPermissionDisabled(p.permission, permDraft);
+                          const requiredPerm = PERMISSION_REQUIRES[p.permission];
+                          const requiredLabel = requiredPerm
+                            ? roleMatrix.permissions.find((x) => x.permission === requiredPerm)?.label
+                            : null;
+                          return (
+                          <label
+                            key={p.permission}
+                            className={`flex items-center justify-between rounded-lg px-3 py-2.5 transition-colors ${
+                              disabled
+                                ? "cursor-not-allowed opacity-50"
+                                : "cursor-pointer hover:bg-zinc-800/40"
+                            }`}
+                            title={
+                              disabled && requiredLabel
+                                ? `Сначала включите «${requiredLabel}»`
+                                : undefined
+                            }
+                          >
+                            <div className="pl-2">
+                              <p className="text-sm text-zinc-300">{p.label ?? p.permission}</p>
+                              <p className="text-[0.65rem] text-zinc-600">{p.permission}</p>
+                              {disabled && requiredLabel && (
+                                <p className="text-[0.65rem] text-zinc-500">
+                                  Требуется: {requiredLabel}
+                                </p>
+                              )}
+                            </div>
+                            <input
+                              type="checkbox"
+                              className="h-4 w-4 accent-amber-500 disabled:cursor-not-allowed"
+                              checked={p.allowed}
+                              disabled={disabled}
+                              onChange={(e) => togglePerm(p.permission, e.target.checked)}
+                            />
+                          </label>
+                          );
+                        })}
+                      </div>
+                    )}
                   </div>
                 );
               })}
 
-              {standalonePermissions.map((p) => (
+              {standalonePermissions.map((p) => {
+                const disabled = isPermissionDisabled(p.permission, permDraft);
+                const requiredPerm = PERMISSION_REQUIRES[p.permission];
+                const requiredLabel = requiredPerm
+                  ? roleMatrix.permissions.find((x) => x.permission === requiredPerm)?.label
+                  : null;
+                return (
                 <label
                   key={p.permission}
-                  className="flex cursor-pointer items-center justify-between rounded-xl border border-zinc-800/80 bg-zinc-900/40 px-4 py-3 transition-colors hover:border-zinc-700"
+                  className={`flex items-center justify-between rounded-xl border border-zinc-800/80 bg-zinc-900/40 px-4 py-3 transition-colors ${
+                    disabled ? "cursor-not-allowed opacity-50" : "cursor-pointer hover:border-zinc-700"
+                  }`}
+                  title={
+                    disabled && requiredLabel ? `Сначала включите «${requiredLabel}»` : undefined
+                  }
                 >
                   <div>
                     <p className="text-sm font-medium text-zinc-200">{p.label ?? p.permission}</p>
                     <p className="text-[0.7rem] text-zinc-600">{p.permission}</p>
+                    {disabled && requiredLabel && (
+                      <p className="text-[0.65rem] text-zinc-500">Требуется: {requiredLabel}</p>
+                    )}
                   </div>
                   <input
                     type="checkbox"
-                    className="h-4 w-4 accent-amber-500"
+                    className="h-4 w-4 accent-amber-500 disabled:cursor-not-allowed"
                     checked={p.allowed}
-                    disabled={rolesMut.isPending}
+                    disabled={disabled}
                     onChange={(e) => togglePerm(p.permission, e.target.checked)}
                   />
                 </label>
-              ))}
+                );
+              })}
+            </div>
+            <div className="mt-5 flex flex-wrap items-center gap-3 border-t border-zinc-800/80 pt-4">
+              <button
+                type="button"
+                className="btn-primary"
+                disabled={!permDirty || rolesMut.isPending}
+                onClick={savePermissions}
+              >
+                {rolesMut.isPending ? "Сохранение…" : "Сохранить права"}
+              </button>
+              {permDirty && !rolesMut.isPending && (
+                <span className="text-xs text-amber-400">Есть несохранённые изменения</span>
+              )}
+              {permSaveMessage && (
+                <span
+                  className={`text-sm ${permSaveMessage.type === "success" ? "text-emerald-400" : "text-red-300"}`}
+                >
+                  {permSaveMessage.text}
+                </span>
+              )}
             </div>
           </div>
         </div>
       )}
 
-      {activeTab === "logins" && isPrimaryAdmin && (
+      {activeTab === "logs" && canViewLogs && (
+        <div className="space-y-4">
+          <div className="flex gap-1 rounded-xl bg-zinc-800/80 p-1 w-fit">
+            {(
+              [
+                ["logins", "Входы"],
+                ["raids", "Рейды"],
+                ["creations", "Создание пользователей"],
+              ] as const
+            ).map(([id, label]) => (
+              <button
+                key={id}
+                type="button"
+                className={`rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors ${
+                  logSubTab === id
+                    ? "bg-amber-600 text-zinc-950"
+                    : "text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
+                }`}
+                onClick={() => setLogSubTab(id)}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+
+          {logSubTab === "logins" && (
         <div className="card overflow-hidden p-0">
           <div className="border-b border-zinc-800/80 px-5 py-4">
             <h3 className="text-sm font-semibold text-zinc-200">Журнал входов</h3>
@@ -565,8 +901,9 @@ export default function AdminPage() {
             </>
           )}
         </div>
-      )}
-      {activeTab === "raids" && isPrimaryAdmin && (
+          )}
+
+          {logSubTab === "raids" && (
         <div className="card overflow-hidden p-0">
           <div className="border-b border-zinc-800/80 px-5 py-4">
             <h3 className="text-sm font-semibold text-zinc-200">Журнал таймеров рейдов</h3>
@@ -662,6 +999,260 @@ export default function AdminPage() {
               </div>
             </>
           )}
+        </div>
+          )}
+
+          {logSubTab === "creations" && (
+            <div className="card overflow-hidden p-0">
+              <div className="border-b border-zinc-800/80 px-5 py-4">
+                <h3 className="text-sm font-semibold text-zinc-200">Создание пользователей</h3>
+                <p className="mt-1 text-xs text-zinc-500">Кто создал учётную запись, роль и IP</p>
+              </div>
+              {creationLogsQuery.isLoading ? (
+                <div className="p-8">
+                  <LoadingState />
+                </div>
+              ) : creationLogsQuery.isError ? (
+                <p className="px-5 py-8 text-sm text-red-300">Не удалось загрузить журнал</p>
+              ) : (
+                <>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="border-b border-zinc-800/80 bg-zinc-900/40 text-left text-xs uppercase tracking-wider text-zinc-500">
+                          <th className="px-5 py-3 font-medium">Создал</th>
+                          <th className="px-5 py-3 font-medium">Пользователь</th>
+                          <th className="px-5 py-3 font-medium">Роль</th>
+                          <th className="px-5 py-3 font-medium">IP</th>
+                          <th className="px-5 py-3 font-medium">Дата</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {(creationLogsQuery.data?.items ?? []).map((row) => (
+                          <tr key={row.id} className="border-b border-zinc-800/50">
+                            <td className="px-5 py-3 text-zinc-200">{row.creator_username}</td>
+                            <td className="px-5 py-3 text-zinc-200">{row.created_username}</td>
+                            <td className="px-5 py-3 text-zinc-400">{row.role}</td>
+                            <td className="px-5 py-3 font-mono text-xs text-zinc-300">
+                              {row.ip_address || "—"}
+                            </td>
+                            <td className="px-5 py-3 text-zinc-300">{formatLoginAt(row.logged_at)}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                  <div className="flex items-center justify-between border-t border-zinc-800/80 px-5 py-3 text-xs text-zinc-500">
+                    <span>{creationTotal.toLocaleString("ru-RU")} записей</span>
+                    <div className="flex items-center gap-2">
+                      <button
+                        type="button"
+                        disabled={creationPage <= 1}
+                        onClick={() => setCreationPage((p) => Math.max(1, p - 1))}
+                        className="btn-ghost px-2 py-1 disabled:opacity-40"
+                      >
+                        ←
+                      </button>
+                      <span>
+                        {creationPage} / {creationTotalPages}
+                      </span>
+                      <button
+                        type="button"
+                        disabled={creationPage >= creationTotalPages}
+                        onClick={() => setCreationPage((p) => p + 1)}
+                        className="btn-ghost px-2 py-1 disabled:opacity-40"
+                      >
+                        →
+                      </button>
+                    </div>
+                  </div>
+                </>
+              )}
+            </div>
+          )}
+        </div>
+      )}
+
+      {activeTab === "publicRoles" && isSuperadmin && (
+        <div className="panel max-w-lg space-y-4 p-5">
+          <h3 className="text-sm font-semibold text-zinc-200">Публичные роли для админов</h3>
+          <p className="text-xs text-zinc-500">
+            Админы могут создавать пользователей только с этими ролями
+          </p>
+          <div className="space-y-2">
+            {allRoleOptions.filter((o) => o.value !== "admin" && o.value !== "superadmin").map(
+              (o) => {
+                const draft =
+                  publicRolesDraft.length > 0
+                    ? publicRolesDraft
+                    : (publicRolesQuery.data?.roles ?? ["user", "driver", "other"]);
+                const checked = draft.includes(o.value);
+                return (
+                  <label
+                    key={o.value}
+                    className="flex cursor-pointer items-center justify-between rounded-xl border border-zinc-800/80 bg-zinc-900/40 px-4 py-3"
+                  >
+                    <span className="text-sm text-zinc-200">{o.label}</span>
+                    <input
+                      type="checkbox"
+                      className="h-4 w-4 accent-amber-500"
+                      checked={checked}
+                      onChange={() => {
+                        const base =
+                          publicRolesDraft.length > 0
+                            ? publicRolesDraft
+                            : (publicRolesQuery.data?.roles ?? ["user", "driver", "other"]);
+                        setPublicRolesDraft(
+                          checked ? base.filter((r) => r !== o.value) : [...base, o.value],
+                        );
+                      }}
+                    />
+                  </label>
+                );
+              },
+            )}
+          </div>
+          <button
+            type="button"
+            className="btn-primary"
+            disabled={publicRolesMut.isPending}
+            onClick={() => {
+              const roles =
+                publicRolesDraft.length > 0
+                  ? publicRolesDraft
+                  : (publicRolesQuery.data?.roles ?? ["user", "driver", "other"]);
+              publicRolesMut.mutate(roles);
+            }}
+          >
+            Сохранить
+          </button>
+        </div>
+      )}
+
+      {activeTab === "customRoles" && isSuperadmin && (
+        <div className="grid gap-6 lg:grid-cols-2">
+          <form
+            className="panel space-y-4 p-5"
+            onSubmit={(e) => {
+              e.preventDefault();
+              setCustomRoleError("");
+              if (!customRoleLabel.trim()) {
+                setCustomRoleError("Укажите название роли");
+                return;
+              }
+              customRoleCreateMut.mutate({
+                label: customRoleLabel.trim(),
+                preset_role: customRolePreset,
+              });
+            }}
+          >
+            <h3 className="text-sm font-semibold text-zinc-200">Новая роль</h3>
+            <p className="text-xs text-zinc-500">
+              Укажите название и выберите пресет прав из существующих ролей
+            </p>
+            <div>
+              <label className="mb-1 block text-xs text-zinc-500">Название</label>
+              <input
+                className="input w-full"
+                value={customRoleLabel}
+                onChange={(e) => setCustomRoleLabel(e.target.value)}
+                placeholder="Например: Модератор"
+              />
+            </div>
+            <div>
+              <label className="mb-1 block text-xs text-zinc-500">Пресет прав</label>
+              <select
+                className="input w-full"
+                value={customRolePreset}
+                onChange={(e) => setCustomRolePreset(e.target.value as Role)}
+              >
+                {PRESET_ROLE_OPTIONS.map((o) => (
+                  <option key={o.value} value={o.value}>
+                    {o.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+            {customRoleError && <p className="text-sm text-red-300">{customRoleError}</p>}
+            <button type="submit" className="btn-primary" disabled={customRoleCreateMut.isPending}>
+              Сохранить роль
+            </button>
+          </form>
+
+          <div className="panel space-y-4 p-5">
+            <h3 className="text-sm font-semibold text-zinc-200">Созданные роли</h3>
+            {(customRolesQuery.data?.items ?? []).length === 0 ? (
+              <p className="text-sm text-zinc-500">Пока нет пользовательских ролей</p>
+            ) : (
+              <ul className="space-y-2">
+                {(customRolesQuery.data?.items ?? []).map((role) => (
+                  <li
+                    key={role.key}
+                    className="flex items-center justify-between rounded-xl border border-zinc-800/80 bg-zinc-900/40 px-4 py-3"
+                  >
+                    <div>
+                      <p className="text-sm font-medium text-zinc-200">{role.label}</p>
+                      <p className="text-xs text-zinc-500">{role.key}</p>
+                    </div>
+                    <button
+                      type="button"
+                      className="text-xs text-red-400 hover:text-red-300"
+                      disabled={customRoleDeleteMut.isPending}
+                      onClick={() => {
+                        if (window.confirm(`Удалить роль «${role.label}»?`)) {
+                          customRoleDeleteMut.mutate(role.key);
+                        }
+                      }}
+                    >
+                      Удалить
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        </div>
+      )}
+
+      {quickCreateOpen && quickCreateResult && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4">
+          <div className="panel w-full max-w-md space-y-4 p-6">
+            <h3 className="text-lg font-semibold text-zinc-100">Учётная запись создана</h3>
+            <div className="space-y-2 text-sm">
+              <div className="flex items-center justify-between gap-2 rounded-lg bg-zinc-900/60 px-3 py-2">
+                <span className="text-zinc-400">Логин</span>
+                <span className="font-mono text-zinc-100">{quickCreateResult.username}</span>
+                <button
+                  type="button"
+                  className="text-xs text-amber-400"
+                  onClick={() => copyCredentials(quickCreateResult.username)}
+                >
+                  Копировать
+                </button>
+              </div>
+              <div className="flex items-center justify-between gap-2 rounded-lg bg-zinc-900/60 px-3 py-2">
+                <span className="text-zinc-400">Пароль</span>
+                <span className="font-mono text-zinc-100">{quickCreateResult.password}</span>
+                <button
+                  type="button"
+                  className="text-xs text-amber-400"
+                  onClick={() => copyCredentials(quickCreateResult.password)}
+                >
+                  Копировать
+                </button>
+              </div>
+            </div>
+            <button
+              type="button"
+              className="btn-primary w-full"
+              onClick={() => {
+                setQuickCreateOpen(false);
+                setQuickCreateResult(null);
+              }}
+            >
+              Закрыть
+            </button>
+          </div>
         </div>
       )}
     </div>

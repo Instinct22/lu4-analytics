@@ -5,7 +5,7 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from sqlalchemy import select
 
-from api.deps import CurrentUser, DbSession
+from api.deps import CurrentUser, DbSession, user_has_permission
 from models.preferences import UserPreference
 
 router = APIRouter()
@@ -31,6 +31,13 @@ class PreferencePatchIn(BaseModel):
 def _check_scope(scope: str) -> None:
     if scope not in SCOPES:
         raise HTTPException(status_code=404, detail=f"Unknown preference scope: {scope}")
+
+
+def _check_scope_access(scope: str, db: DbSession, user: CurrentUser) -> None:
+    if scope == "craft_owned" and not user_has_permission(db, user, "feature.craft_warehouse"):
+        raise HTTPException(status_code=403, detail="Warehouse sync requires feature.craft_warehouse")
+    if scope == "craft_cart" and not user_has_permission(db, user, "feature.craft_bulk"):
+        raise HTTPException(status_code=403, detail="Cart sync requires feature.craft_bulk")
 
 
 def _check_payload_size(payload: dict) -> None:
@@ -105,6 +112,7 @@ def get_preference(scope: str, db: DbSession, user: CurrentUser):
 @router.put("/preferences/{scope}")
 def put_preference(scope: str, body: PreferenceIn, db: DbSession, user: CurrentUser):
     _check_scope(scope)
+    _check_scope_access(scope, db, user)
     _check_payload_size(body.payload)
 
     row = db.get(UserPreference, (user.id, scope))
@@ -121,6 +129,7 @@ def put_preference(scope: str, body: PreferenceIn, db: DbSession, user: CurrentU
 @router.patch("/preferences/{scope}")
 def patch_preference(scope: str, body: PreferencePatchIn, db: DbSession, user: CurrentUser):
     _check_scope(scope)
+    _check_scope_access(scope, db, user)
 
     row = db.get(UserPreference, (user.id, scope))
     existing = row.payload if row else {}

@@ -26,7 +26,9 @@ export default function CraftPicker({ catalog, onSelect, selectedId, compact }: 
     }`;
 
   const tabClass = (active: boolean) =>
-    `flex-1 rounded-lg px-2 py-2 text-xs font-semibold transition-colors sm:text-sm ${
+    `rounded-lg px-2 py-2 text-xs font-semibold transition-colors sm:text-sm ${
+      compact ? "" : "flex-1 "
+    }${
       active ? "bg-amber-600 text-zinc-950 shadow-sm" : "text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
     }`;
 
@@ -57,7 +59,7 @@ export default function CraftPicker({ catalog, onSelect, selectedId, compact }: 
         ))}
       </div>
 
-      <div className="mb-4 flex gap-1 rounded-xl bg-zinc-800/80 p-1">
+      <div className={`mb-4 flex gap-1 rounded-xl bg-zinc-800/80 p-1 ${compact ? "flex-wrap" : ""}`}>
         {TABS.map((t) => (
           <button key={t} type="button" className={tabClass(tab === t)} onClick={() => setTab(t)}>
             {TAB_LABELS[t]}
@@ -83,7 +85,7 @@ export default function CraftPicker({ catalog, onSelect, selectedId, compact }: 
                 </tr>
               </thead>
               <tbody>
-                {(catalog.craftableIds ?? Object.keys(catalog.byProduct).map(Number))
+                {(catalog.craftableIds ?? Object.keys(catalog.byProduct ?? {}).map(Number))
                   .filter((id) => {
                     const info = itemInfo(catalog, id);
                     return (

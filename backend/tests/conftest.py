@@ -9,6 +9,11 @@ from unittest.mock import MagicMock
 
 import pytest
 from fastapi.testclient import TestClient
+from unittest.mock import MagicMock, patch
+
+# Avoid real Postgres during TestClient lifespan (ensure_role_permissions_seeded).
+_test_db_session = MagicMock()
+patch("database.SessionLocal", lambda: _test_db_session).start()
 
 from api.deps import get_current_user, hash_password
 from database import get_db
@@ -43,6 +48,34 @@ def client(mock_db, test_user):
 
     def override_user():
         return test_user
+
+    app.dependency_overrides[get_db] = override_db
+    app.dependency_overrides[get_current_user] = override_user
+    with TestClient(app) as c:
+        yield c
+    app.dependency_overrides.clear()
+
+
+@pytest.fixture
+def craft_user() -> User:
+    """User role with craft warehouse/bulk defaults."""
+    return User(
+        id=uuid.uuid4(),
+        username="crafter",
+        password_hash=hash_password("secret"),
+        role="user",
+        is_active=True,
+        created_at=datetime.now(timezone.utc),
+    )
+
+
+@pytest.fixture
+def craft_client(mock_db, craft_user):
+    def override_db():
+        yield mock_db
+
+    def override_user():
+        return craft_user
 
     app.dependency_overrides[get_db] = override_db
     app.dependency_overrides[get_current_user] = override_user

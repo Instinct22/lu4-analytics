@@ -111,7 +111,44 @@ export interface RollupEntry {
 export interface CartEntry {
   productId: number;
   qty: number;
-  variantIdx?: number;
+  variantIdx: number;
+}
+
+/** Stable storage key for a cart line (product + recipe variant). */
+export function cartEntryKey(productId: number, variantIdx = 0): string {
+  return `${productId}:${variantIdx}`;
+}
+
+export function parseCartEntryKey(
+  key: string,
+  line?: { qty?: number; variant?: number },
+): CartEntry | null {
+  const qty = Math.max(1, Math.floor(Number(line?.qty) || 1));
+  const colon = key.indexOf(":");
+  if (colon >= 0) {
+    const productId = Number(key.slice(0, colon));
+    const parsedVariant = Number(key.slice(colon + 1));
+    if (!Number.isFinite(productId) || productId <= 0) return null;
+    const variantIdx = Number.isFinite(parsedVariant)
+      ? Math.max(0, Math.floor(parsedVariant))
+      : Math.max(0, Math.floor(Number(line?.variant) || 0));
+    return { productId, qty, variantIdx };
+  }
+
+  const productId = Number(key);
+  if (!Number.isFinite(productId) || productId <= 0) return null;
+  return {
+    productId,
+    qty,
+    variantIdx: Math.max(0, Math.floor(Number(line?.variant) || 0)),
+  };
+}
+
+export function formatVariantRate(variant: CatalogVariant | undefined): string {
+  if (!variant) return "";
+  if (variant.rate != null) return `${variant.rate}%`;
+  if (variant.success) return variant.success;
+  return "";
 }
 
 export function ownedToRemaining(owned: Record<string, number>): Map<number, number> {
@@ -157,7 +194,7 @@ export function formatStat(value: number | null | undefined): string {
 }
 
 export function variantsFor(catalog: CraftCatalog, id: number): CatalogVariant[] {
-  return catalog.byProduct[String(id)] ?? [];
+  return catalog.byProduct?.[String(id)] ?? [];
 }
 
 const craftableSets = new WeakMap<CraftCatalog, Set<number>>();
@@ -166,7 +203,7 @@ const craftableSets = new WeakMap<CraftCatalog, Set<number>>();
 export function isCraftable(catalog: CraftCatalog, id: number): boolean {
   let ids = craftableSets.get(catalog);
   if (!ids) {
-    ids = new Set(catalog.craftableIds ?? Object.keys(catalog.byProduct).map(Number));
+    ids = new Set(catalog.craftableIds ?? Object.keys(catalog.byProduct ?? {}).map(Number));
     craftableSets.set(catalog, ids);
   }
   return ids.has(id);

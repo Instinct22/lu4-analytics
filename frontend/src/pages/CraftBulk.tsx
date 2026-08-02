@@ -19,46 +19,55 @@ type BulkTab = "warehouse" | "crafts" | "shopping";
 export default function CraftBulkPage() {
   const { hasPermission } = useAuth();
   const canSeePrices = hasPermission("feature.craft_prices");
+  const canBulk = hasPermission("feature.craft_bulk");
+  const canWarehouse = hasPermission("feature.craft_warehouse");
+  const warehouseOnly = canWarehouse && !canBulk;
   const { data: baseCatalog, isLoading, error } = useCraftCatalog();
   const { entries, remove, setQty, isEmpty } = useCraftCart();
   const [searchParams] = useSearchParams();
   const [owned, setOwned] = usePreference("craft_owned");
   const [chosenVariants] = usePreference("craft_variants");
   const tabParam = searchParams.get("tab");
-  const [tab, setTab] = useState<BulkTab>(() =>
-    tabParam === "warehouse" || tabParam === "crafts" || tabParam === "shopping" ? tabParam : "crafts",
-  );
+
+  const resolveTab = useCallback((): BulkTab => {
+    if (tabParam === "warehouse" && canWarehouse) return "warehouse";
+    if (tabParam === "crafts" && canBulk) return "crafts";
+    if (tabParam === "shopping" && canBulk) return "shopping";
+    return canBulk ? "crafts" : "warehouse";
+  }, [tabParam, canWarehouse, canBulk]);
+
+  const [tab, setTab] = useState<BulkTab>(resolveTab);
 
   useEffect(() => {
-    if (tabParam === "warehouse" || tabParam === "crafts" || tabParam === "shopping") {
-      setTab(tabParam);
-    }
-  }, [tabParam]);
+    setTab(resolveTab());
+  }, [resolveTab]);
 
-  const productIds = useMemo(() => entries.map((e) => e.productId), [entries]);
+  const productIds = useMemo(() => (canBulk ? entries.map((e) => e.productId) : []), [canBulk, entries]);
   const { catalog: bulkCatalog, isLoading: recipesLoading } = useCraftBulkCatalog(
     baseCatalog,
     productIds,
   );
 
   const rollup = useMemo(() => {
-    if (!bulkCatalog || isEmpty) return [];
+    if (!canBulk || !bulkCatalog || isEmpty) return [];
     return buildMultiCraftRollup(bulkCatalog, entries, owned, chosenVariants);
-  }, [bulkCatalog, entries, owned, chosenVariants, isEmpty]);
+  }, [canBulk, bulkCatalog, entries, owned, chosenVariants, isEmpty]);
 
   const missingCount = useMemo(() => rollup.filter((e) => e.still > 0).length, [rollup]);
 
   const allMaterialIds = useMemo(() => {
     const ids = new Set<number>();
-    for (const e of rollup) ids.add(e.id);
+    if (canBulk) {
+      for (const e of rollup) ids.add(e.id);
+    }
     for (const [k] of Object.entries(owned)) {
       const n = Number(k);
       if (Number.isFinite(n)) ids.add(n);
     }
     return [...ids];
-  }, [rollup, owned]);
+  }, [canBulk, rollup, owned]);
 
-  const { serverPrices, manual } = useCraftPrices(allMaterialIds);
+  const { serverPrices, manual } = useCraftPrices(canSeePrices ? allMaterialIds : []);
 
   const onOwnedChange = (id: number, val: number) => {
     const next = { ...owned };
@@ -69,12 +78,13 @@ export default function CraftBulkPage() {
   };
 
   const handleCraft = useCallback(
-    (productId: number) => {
+    (productId: number, variantIdx: number) => {
       const cat = bulkCatalog ?? baseCatalog;
       if (!cat) return;
-      const entry = entries.find((e) => e.productId === productId);
+      const entry = entries.find(
+        (e) => e.productId === productId && e.variantIdx === variantIdx,
+      );
       if (!entry) return;
-      const variantIdx = entry.variantIdx ?? chosenVariants[String(productId)] ?? 0;
       const consumed = computeWarehouseConsumption(
         cat,
         productId,
@@ -85,7 +95,7 @@ export default function CraftBulkPage() {
       );
       if (!consumed) return;
       setOwned(applyWarehouseConsumption(owned, consumed));
-      remove(productId);
+      remove(productId, variantIdx);
     },
     [bulkCatalog, baseCatalog, entries, chosenVariants, owned, setOwned, remove],
   );
@@ -94,6 +104,22 @@ export default function CraftBulkPage() {
   if (error || !baseCatalog) {
     return (
       <ErrorState message="Каталог крафта не загружен. Запустите import_datasets.py items_encyclopedia" />
+    );
+  }
+
+  if (warehouseOnly) {
+    return (
+      <div className="min-h-full">
+        <PageHeader title="Склад ресурсов" />
+        <CraftWarehousePanel
+          catalog={baseCatalog}
+          owned={owned}
+          onOwnedChange={onOwnedChange}
+          prices={serverPrices}
+          manual={manual}
+          showPrices={canSeePrices}
+        />
+      </div>
     );
   }
 
@@ -179,45 +205,54 @@ export default function CraftBulkPage() {
       </PageHeader>
 
       <div className="mb-4 flex gap-1 rounded-xl bg-zinc-800/80 p-1 lg:hidden">
-        {tabBtn("warehouse", "Склад")}
-        {tabBtn("crafts", "Крафты")}
-        {tabBtn("shopping", "Покупки")}
+        {canWarehouse && tabBtn("warehouse", "Склад")}
+        {canBulk && tabBtn("crafts", "Крафты")}
+        {canBulk && tabBtn("shopping", "Покупки")}
       </div>
 
       <div className="lg:hidden">
-        {tab === "warehouse" && (
+        {canWarehouse && tab === "warehouse" && (
           <CraftWarehousePanel
             catalog={catalog}
             owned={owned}
             onOwnedChange={onOwnedChange}
             prices={serverPrices}
             manual={manual}
+            showPrices={canSeePrices}
           />
         )}
-        {tab === "crafts" && craftsSection}
-        {tab === "shopping" && shoppingSection}
+        {canBulk && tab === "crafts" && craftsSection}
+        {canBulk && tab === "shopping" && shoppingSection}
       </div>
 
       <div className="hidden lg:block">
-        <SplitPane
-          storageKey="lu4_bulk_craft_ratio"
-          defaultRatio={38}
-          left={
-            <CraftWarehousePanel
-              catalog={catalog}
-              owned={owned}
-              onOwnedChange={onOwnedChange}
-              prices={serverPrices}
-              manual={manual}
-            />
-          }
-          right={
-            <div className="flex flex-col gap-4">
-              {craftsSection}
-              {shoppingSection}
-            </div>
-          }
-        />
+        {canWarehouse ? (
+          <SplitPane
+            storageKey="lu4_bulk_craft_ratio"
+            defaultRatio={38}
+            left={
+              <CraftWarehousePanel
+                catalog={catalog}
+                owned={owned}
+                onOwnedChange={onOwnedChange}
+                prices={serverPrices}
+                manual={manual}
+                showPrices={canSeePrices}
+              />
+            }
+            right={
+              <div className="flex flex-col gap-4">
+                {craftsSection}
+                {shoppingSection}
+              </div>
+            }
+          />
+        ) : (
+          <div className="flex flex-col gap-4">
+            {craftsSection}
+            {shoppingSection}
+          </div>
+        )}
       </div>
     </div>
   );

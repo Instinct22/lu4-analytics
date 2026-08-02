@@ -98,3 +98,82 @@ class RaidTimerLogsResponse(BaseModel):
     total: int
     page: int
     limit: int
+
+
+class UserCreationLogItem(BaseModel):
+    id: uuid.UUID
+    creator_id: uuid.UUID | None = None
+    creator_username: str
+    created_user_id: uuid.UUID | None = None
+    created_username: str
+    role: str
+    ip_address: str
+    logged_at: datetime
+
+    model_config = {"from_attributes": True}
+
+
+class UserCreationLogsResponse(BaseModel):
+    items: list[UserCreationLogItem]
+    total: int
+    page: int
+    limit: int
+
+
+class QuickCreateRequest(BaseModel):
+    role: str = "user"
+
+
+class QuickCreateResponse(BaseModel):
+    username: str
+    password: str
+    user: UserResponse
+
+
+class PublicRolesResponse(BaseModel):
+    roles: list[str]
+
+
+class UpdatePublicRolesRequest(BaseModel):
+    roles: list[str]
+
+
+class LevelRestrictionResponse(BaseModel):
+    min: int
+    max: int
+
+
+class UpdateLevelRestrictionRequest(BaseModel):
+    min: int
+    max: int
+
+
+class PermissionGroup(BaseModel):
+    id: str
+    label: str
+    permissions: list[str]
+
+
+class PermissionGroupsResponse(BaseModel):
+    groups: list[PermissionGroup]
+
+
+class UpdatePermissionGroupsRequest(BaseModel):
+    groups: list[PermissionGroup]
+
+
+class CustomRoleItem(BaseModel):
+    key: str
+    label: str
+
+    model_config = {"from_attributes": True}
+
+
+class CustomRolesResponse(BaseModel):
+    items: list[CustomRoleItem]
+
+
+class CreateCustomRoleRequest(BaseModel):
+    label: str
+    preset_role: str = "user"
+    key: str | None = None

@@ -129,7 +129,7 @@ interface PreferencesContextType {
 const PreferencesContext = createContext<PreferencesContextType | null>(null);
 
 export function PreferencesProvider({ children }: { children: ReactNode }) {
-  const { user } = useAuth();
+  const { user, hasPermission } = useAuth();
   const [scopes, setScopes] = useState<ScopeState>(initialState);
   const [synced, setSynced] = useState(false);
   const [saveError, setSaveError] = useState<string | null>(null);
@@ -170,7 +170,17 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
     [],
   );
 
+  const canSyncScope = useCallback(
+    (scope: PreferenceScope) => {
+      if (scope === "craft_owned") return hasPermission("feature.craft_warehouse");
+      if (scope === "craft_cart") return hasPermission("feature.craft_bulk");
+      return true;
+    },
+    [hasPermission],
+  );
+
   const flushPatch = useCallback(async (scope: PreferenceScope) => {
+    if (!canSyncScope(scope)) return;
     const patch = pendingPatchRef.current[scope];
     if (!patch || Object.keys(patch).length === 0) return;
 
@@ -189,7 +199,7 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
       );
       setSaveError("Не удалось сохранить настройки. Проверьте соединение.");
     }
-  }, []);
+  }, [canSyncScope]);
 
   const refetchPreferences = useCallback(async () => {
     if (!user) return;
@@ -227,7 +237,7 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
               if (remote.updated_at[scope]) {
                 serverUpdatedAtRef.current[scope] = remote.updated_at[scope];
               }
-            } else if (Object.keys(prev[scope]).length > 0) {
+            } else if (Object.keys(prev[scope]).length > 0 && canSyncScope(scope)) {
               void patchPreference(scope, prev[scope] as Partial<ScopePayload[typeof scope]>)
                 .then((response) => {
                   if (response.updated_at) {
@@ -248,7 +258,7 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
     return () => {
       cancelled = true;
     };
-  }, [user]);
+  }, [user, canSyncScope]);
 
   useEffect(() => {
     if (!user) return;

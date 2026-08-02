@@ -25,15 +25,14 @@ def main() -> None:
             username, password = entry.split(":", 1)
             existing = db.scalar(select(User).where(User.username == username))
             if existing:
-                # Ensure seed admin keeps admin role if still default-named
-                if username == "admin" and existing.role != "admin":
-                    existing.role = "admin"
+                if username == "admin" and existing.role == "admin":
+                    existing.role = "superadmin"
                     db.commit()
-                    print(f"Updated user {username} role to admin")
+                    print(f"Updated user {username} role to superadmin")
                 else:
                     print(f"User {username} already exists, skipping")
                 continue
-            role = "admin" if username == "admin" else "user"
+            role = "superadmin" if username == "admin" else "user"
             user = User(
                 id=uuid.uuid4(),
                 username=username,

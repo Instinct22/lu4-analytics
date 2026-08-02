@@ -4,57 +4,174 @@ from __future__ import annotations
 
 import uuid
 
-from fastapi import APIRouter, Depends, HTTPException, Query, status
+from fastapi import APIRouter, Depends, HTTPException, Query, Request, status
 from sqlalchemy import func, select
 
-from api.deps import DbSession, hash_password, require_permission
+from api.deps import DbSession, hash_password, require_permission, user_has_permission
+from core.client_ip import client_ip
 from core.permissions import (
+    ASSIGNABLE_ROLES,
     PERMISSION_LABELS,
     PERMISSIONS,
-    ROLE_LABELS,
     ROLES,
     default_allowed,
+    is_superadmin,
 )
 from models.login_log import LoginLog
 from models.raid_timer_log import RaidTimerLog
 from models.permissions import RolePermission
 from models.user import User
+from models.user_creation_log import UserCreationLog
 from schemas.auth import (
     CreateUserRequest,
+    CustomRoleItem,
+    CustomRolesResponse,
+    CreateCustomRoleRequest,
     LoginLogItem,
     LoginLogsResponse,
     PermissionEntry,
+    PermissionGroup,
+    PermissionGroupsResponse,
+    PublicRolesResponse,
+    QuickCreateRequest,
+    QuickCreateResponse,
     RaidTimerLogItem,
     RaidTimerLogsResponse,
     RolePermissionsResponse,
+    UpdateLevelRestrictionRequest,
+    UpdatePermissionGroupsRequest,
+    UpdatePublicRolesRequest,
     UpdateRolePermissionsRequest,
+    LevelRestrictionResponse,
     UpdateUserRequest,
+    UserCreationLogItem,
+    UserCreationLogsResponse,
     UserResponse,
+)
+from services.admin_settings import (
+    generate_password,
+    generate_username,
+    get_level_preset,
+    get_level_restriction,
+    get_permission_groups,
+    get_public_roles,
+    set_level_preset,
+    set_level_restriction,
+    set_permission_groups,
+    set_public_roles,
+)
+from services.custom_roles import (
+    create_custom_role,
+    delete_custom_role,
+    editable_roles,
+    is_custom_role,
+    list_custom_roles,
+    role_label,
 )
 
 router = APIRouter()
 
-AdminUser = Depends(require_permission("nav.admin"))
+
+def _require_superadmin(user: User) -> None:
+    if not is_superadmin(user.role):
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Superadmin only")
 
 
-def _validate_role(role: str) -> str:
-    if role not in ROLES:
+def _require_logs(user: User, db: DbSession) -> None:
+    if not user_has_permission(db, user, "admin.logs_view"):
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Forbidden")
+
+
+def _require_roles_manage(user: User, db: DbSession) -> None:
+    if not user_has_permission(db, user, "admin.roles_manage"):
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Forbidden")
+
+
+def _assignable_roles_for(admin: User, db: DbSession) -> list[str]:
+    custom = [r.key for r in list_custom_roles(db)]
+    if is_superadmin(admin.role):
+        return list(ASSIGNABLE_ROLES) + custom
+    return get_public_roles(db)
+
+
+def _validate_assignable_role(role: str, admin: User, db: DbSession) -> str:
+    allowed = _assignable_roles_for(admin, db)
+    if role not in allowed:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
-            detail=f"Invalid role. Allowed: {', '.join(ROLES)}",
+            detail=f"Invalid role. Allowed: {', '.join(allowed)}",
         )
     return role
 
 
-@router.get("/users", response_model=list[UserResponse], dependencies=[AdminUser])
-def list_users(db: DbSession):
-    users = db.scalars(select(User).order_by(User.username)).all()
-    return users
+def _validate_matrix_role(role: str, db: DbSession) -> str:
+    if role == "superadmin":
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Invalid role. Allowed: {', '.join(editable_roles(db))}",
+        )
+    if role in ROLES or is_custom_role(db, role):
+        return role
+    raise HTTPException(
+        status_code=status.HTTP_400_BAD_REQUEST,
+        detail=f"Invalid role. Allowed: {', '.join(editable_roles(db))}",
+    )
 
 
-@router.post("/users", response_model=UserResponse, status_code=status.HTTP_201_CREATED, dependencies=[AdminUser])
-def create_user(body: CreateUserRequest, db: DbSession):
-    role = _validate_role(body.role)
+def _users_query(admin: User):
+    q = select(User)
+    if not is_superadmin(admin.role):
+        q = q.where(
+            User.role != "superadmin",
+            User.created_by_id == admin.id,
+        )
+    return q.order_by(User.username)
+
+
+def _can_manage_user(admin: User, target: User) -> bool:
+    if is_superadmin(admin.role):
+        return True
+    if target.role == "superadmin":
+        return False
+    if target.created_by_id != admin.id:
+        return False
+    return True
+
+
+def _log_user_creation(
+    db: DbSession,
+    *,
+    creator: User,
+    created: User,
+    request: Request | None,
+) -> None:
+    ip = client_ip(request) if request else ""
+    db.add(
+        UserCreationLog(
+            id=uuid.uuid4(),
+            creator_id=creator.id,
+            creator_username=creator.username,
+            created_user_id=created.id,
+            created_username=created.username,
+            role=created.role,
+            ip_address=ip,
+        )
+    )
+
+
+@router.get("/users", response_model=list[UserResponse])
+def list_users(db: DbSession, admin: User = Depends(require_permission("nav.admin"))):
+    return db.scalars(_users_query(admin)).all()
+
+
+@router.post("/users", response_model=UserResponse, status_code=status.HTTP_201_CREATED)
+def create_user(
+    body: CreateUserRequest,
+    request: Request,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    role = _validate_assignable_role(body.role, admin, db)
     username = body.username.strip()
     if not username:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Username required")
@@ -67,20 +184,58 @@ def create_user(body: CreateUserRequest, db: DbSession):
         password_hash=hash_password(body.password),
         role=role,
         is_active=True,
+        created_by_id=admin.id,
     )
     db.add(user)
+    _log_user_creation(db, creator=admin, created=user, request=request)
     db.commit()
     db.refresh(user)
     return user
 
 
-@router.patch("/users/{user_id}", response_model=UserResponse, dependencies=[AdminUser])
-def update_user(user_id: uuid.UUID, body: UpdateUserRequest, db: DbSession):
+@router.post(
+    "/users/quick-create",
+    response_model=QuickCreateResponse,
+    status_code=status.HTTP_201_CREATED,
+)
+def quick_create_user(
+    body: QuickCreateRequest,
+    request: Request,
+    db: DbSession,
+    admin: User = Depends(require_permission("admin.users_quick_create")),
+):
+    role = _validate_assignable_role(body.role, admin, db)
+    username = generate_username(db)
+    password = generate_password()
+    user = User(
+        id=uuid.uuid4(),
+        username=username,
+        password_hash=hash_password(password),
+        role=role,
+        is_active=True,
+        created_by_id=admin.id,
+    )
+    db.add(user)
+    _log_user_creation(db, creator=admin, created=user, request=request)
+    db.commit()
+    db.refresh(user)
+    return QuickCreateResponse(username=username, password=password, user=UserResponse.model_validate(user))
+
+
+@router.patch("/users/{user_id}", response_model=UserResponse)
+def update_user(
+    user_id: uuid.UUID,
+    body: UpdateUserRequest,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
     user = db.get(User, user_id)
     if user is None:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
+    if not _can_manage_user(admin, user):
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Forbidden")
     if body.role is not None:
-        user.role = _validate_role(body.role)
+        user.role = _validate_assignable_role(body.role, admin, db)
     if body.password is not None:
         user.password_hash = hash_password(body.password)
     if body.is_active is not None:
@@ -101,6 +256,8 @@ def delete_user(
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="User not found")
     if user.id == admin.id:
         raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Cannot delete yourself")
+    if not _can_manage_user(admin, user):
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Forbidden")
     db.delete(user)
     db.commit()
 
@@ -112,8 +269,7 @@ def list_login_logs(
     page: int = Query(1, ge=1),
     limit: int = Query(25, ge=1, le=100),
 ):
-    if admin.username != "admin":
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Only primary admin")
+    _require_logs(admin, db)
     total = db.scalar(select(func.count()).select_from(LoginLog)) or 0
     rows = db.scalars(
         select(LoginLog)
@@ -136,8 +292,7 @@ def list_raid_timer_logs(
     page: int = Query(1, ge=1),
     limit: int = Query(25, ge=1, le=100),
 ):
-    if admin.username != "admin":
-        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Only primary admin")
+    _require_logs(admin, db)
     total = db.scalar(select(func.count()).select_from(RaidTimerLog)) or 0
     rows = db.scalars(
         select(RaidTimerLog)
@@ -153,16 +308,167 @@ def list_raid_timer_logs(
     )
 
 
-@router.get("/roles", response_model=list[RolePermissionsResponse], dependencies=[AdminUser])
-def list_role_permissions(db: DbSession):
+@router.get("/user-creation-logs", response_model=UserCreationLogsResponse)
+def list_user_creation_logs(
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+    page: int = Query(1, ge=1),
+    limit: int = Query(25, ge=1, le=100),
+):
+    _require_logs(admin, db)
+    total = db.scalar(select(func.count()).select_from(UserCreationLog)) or 0
+    rows = db.scalars(
+        select(UserCreationLog)
+        .order_by(UserCreationLog.logged_at.desc())
+        .offset((page - 1) * limit)
+        .limit(limit)
+    ).all()
+    return UserCreationLogsResponse(
+        items=[UserCreationLogItem.model_validate(r) for r in rows],
+        total=total,
+        page=page,
+        limit=limit,
+    )
+
+
+@router.get("/settings/public-roles", response_model=PublicRolesResponse)
+def get_public_roles_setting(db: DbSession, admin: User = Depends(require_permission("nav.admin"))):
+    _require_superadmin(admin)
+    return PublicRolesResponse(roles=get_public_roles(db))
+
+
+@router.put("/settings/public-roles", response_model=PublicRolesResponse)
+def update_public_roles_setting(
+    body: UpdatePublicRolesRequest,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_superadmin(admin)
+    cleaned: list[str] = []
+    for role in body.roles:
+        if role in ROLES and role not in ("superadmin", "admin"):
+            cleaned.append(role)
+        elif is_custom_role(db, role):
+            cleaned.append(role)
+    if not cleaned:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="At least one public role required")
+    roles = set_public_roles(db, cleaned)
+    db.commit()
+    return PublicRolesResponse(roles=roles)
+
+
+@router.get("/settings/permission-groups", response_model=PermissionGroupsResponse)
+def get_permission_groups_setting(db: DbSession, admin: User = Depends(require_permission("nav.admin"))):
+    _require_superadmin(admin)
+    groups = get_permission_groups(db)
+    return PermissionGroupsResponse(groups=[PermissionGroup.model_validate(g) for g in groups])
+
+
+@router.put("/settings/permission-groups", response_model=PermissionGroupsResponse)
+def update_permission_groups_setting(
+    body: UpdatePermissionGroupsRequest,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_superadmin(admin)
+    groups = set_permission_groups(db, [g.model_dump() for g in body.groups])
+    db.commit()
+    return PermissionGroupsResponse(groups=body.groups)
+
+
+@router.get("/settings/level-restriction", response_model=LevelRestrictionResponse)
+def get_level_restriction_setting(db: DbSession, admin: User = Depends(require_permission("admin.level_restriction"))):
+    _require_superadmin(admin)
+    bounds = get_level_restriction(db)
+    return LevelRestrictionResponse(min=bounds["min"], max=bounds["max"])
+
+
+@router.put("/settings/level-restriction", response_model=LevelRestrictionResponse)
+def update_level_restriction_setting(
+    body: UpdateLevelRestrictionRequest,
+    db: DbSession,
+    admin: User = Depends(require_permission("admin.level_restriction")),
+):
+    _require_superadmin(admin)
+    bounds = set_level_restriction(db, body.min, body.max)
+    db.commit()
+    return LevelRestrictionResponse(min=bounds["min"], max=bounds["max"])
+
+
+@router.get("/settings/level-preset", response_model=LevelRestrictionResponse)
+def get_level_preset_setting(db: DbSession, admin: User = Depends(require_permission("admin.level_preset"))):
+    bounds = get_level_preset(db)
+    return LevelRestrictionResponse(min=bounds["min"], max=bounds["max"])
+
+
+@router.put("/settings/level-preset", response_model=LevelRestrictionResponse)
+def update_level_preset_setting(
+    body: UpdateLevelRestrictionRequest,
+    db: DbSession,
+    admin: User = Depends(require_permission("admin.level_preset")),
+):
+    bounds = set_level_preset(db, body.min, body.max)
+    db.commit()
+    return LevelRestrictionResponse(min=bounds["min"], max=bounds["max"])
+
+
+@router.get("/custom-roles", response_model=CustomRolesResponse)
+def list_custom_roles_endpoint(
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_superadmin(admin)
+    rows = list_custom_roles(db)
+    return CustomRolesResponse(items=[CustomRoleItem.model_validate(r) for r in rows])
+
+
+@router.post("/custom-roles", response_model=CustomRoleItem, status_code=status.HTTP_201_CREATED)
+def create_custom_role_endpoint(
+    body: CreateCustomRoleRequest,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_superadmin(admin)
+    try:
+        role = create_custom_role(
+            db,
+            label=body.label,
+            preset_role=body.preset_role,
+            key=body.key,
+        )
+    except ValueError as exc:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(exc)) from exc
+    db.commit()
+    db.refresh(role)
+    return CustomRoleItem.model_validate(role)
+
+
+@router.delete("/custom-roles/{role_key}", status_code=status.HTTP_204_NO_CONTENT)
+def delete_custom_role_endpoint(
+    role_key: str,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_superadmin(admin)
+    try:
+        delete_custom_role(db, role_key)
+    except ValueError as exc:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail=str(exc)) from exc
+    db.commit()
+
+
+@router.get("/roles", response_model=list[RolePermissionsResponse])
+def list_role_permissions(db: DbSession, admin: User = Depends(require_permission("nav.admin"))):
+    _require_roles_manage(admin, db)
     rows = db.scalars(select(RolePermission)).all()
-    by_role: dict[str, dict[str, bool]] = {role: {} for role in ROLES}
+    roles = editable_roles(db)
+    by_role: dict[str, dict[str, bool]] = {role: {} for role in roles}
     for row in rows:
         if row.role in by_role:
             by_role[row.role][row.permission] = row.allowed
 
     result: list[RolePermissionsResponse] = []
-    for role in ROLES:
+    for role in roles:
         stored = by_role[role]
         entries = []
         for perm in PERMISSIONS:
@@ -177,16 +483,22 @@ def list_role_permissions(db: DbSession):
         result.append(
             RolePermissionsResponse(
                 role=role,
-                label=ROLE_LABELS.get(role, role),
+                label=role_label(db, role),
                 permissions=entries,
             )
         )
     return result
 
 
-@router.put("/roles/{role}", response_model=RolePermissionsResponse, dependencies=[AdminUser])
-def update_role_permissions(role: str, body: UpdateRolePermissionsRequest, db: DbSession):
-    role = _validate_role(role)
+@router.put("/roles/{role}", response_model=RolePermissionsResponse)
+def update_role_permissions(
+    role: str,
+    body: UpdateRolePermissionsRequest,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_roles_manage(admin, db)
+    role = _validate_matrix_role(role, db)
     for perm, allowed in body.permissions.items():
         if perm not in PERMISSIONS:
             raise HTTPException(
@@ -219,6 +531,6 @@ def update_role_permissions(role: str, body: UpdateRolePermissionsRequest, db: D
     ]
     return RolePermissionsResponse(
         role=role,
-        label=ROLE_LABELS.get(role, role),
+        label=role_label(db, role),
         permissions=entries,
     )

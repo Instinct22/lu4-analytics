@@ -5,7 +5,7 @@ from fastapi import APIRouter, Depends, HTTPException, Request
 from pydantic import BaseModel
 from sqlalchemy import select
 
-from api.deps import CurrentUser, DbSession, require_permission
+from api.deps import CurrentUser, DbSession, require_permission, user_has_permission
 from core.client_ip import client_ip
 from models.analytics import AnalyticsDataset
 from models.raid import RaidBoss, RaidBossTimer
@@ -22,6 +22,7 @@ DEFAULT_MAP = {
 }
 
 require_read = require_permission("nav.raid_bosses")
+require_timers_view = require_permission("feature.raid_timers_view")
 require_write = require_permission("feature.raid_timers_write")
 
 
@@ -52,9 +53,9 @@ def _log_timer_action(
     )
 
 
-def _boss_json(boss: RaidBoss) -> dict:
+def _boss_json(boss: RaidBoss, *, include_route: bool) -> dict:
     payload = boss.payload or {}
-    return {
+    data = {
         "id": boss.external_id,
         "name": boss.name,
         "level": boss.level,
@@ -68,10 +69,12 @@ def _boss_json(boss: RaidBoss) -> dict:
         "respawnMaxSec": boss.respawn_max_sec,
         "stats": payload.get("stats") or {},
         "lore": payload.get("lore"),
-        "howToReach": payload.get("howToReach"),
         "skills": payload.get("skills") or [],
         "drops": payload.get("drops") or [],
     }
+    if include_route:
+        data["howToReach"] = payload.get("howToReach")
+    return data
 
 
 def _timer_json(timer: RaidBossTimer) -> dict:
@@ -83,19 +86,22 @@ def _timer_json(timer: RaidBossTimer) -> dict:
 
 
 @router.get("/bosses", dependencies=[Depends(require_read)])
-def list_bosses(db: DbSession):
+def list_bosses(db: DbSession, user: CurrentUser):
+    include_route = user_has_permission(db, user, "feature.raid_route")
     bosses = db.scalars(select(RaidBoss).order_by(RaidBoss.level, RaidBoss.name)).all()
     dataset = db.scalar(select(AnalyticsDataset).where(AnalyticsDataset.dataset_key == DATASET_KEY))
     blob = dataset.payload if dataset and isinstance(dataset.payload, dict) else {}
     return {
         "source": blob.get("source") or {},
         "map": blob.get("map") or DEFAULT_MAP,
-        "bosses": [_boss_json(b) for b in bosses],
+        "bosses": [_boss_json(b, include_route=include_route) for b in bosses],
     }
 
 
 @router.get("/timers", dependencies=[Depends(require_read)])
-def list_timers(db: DbSession):
+def list_timers(db: DbSession, user: CurrentUser):
+    if not user_has_permission(db, user, "feature.raid_timers_view"):
+        return {"timers": []}
     timers = db.scalars(select(RaidBossTimer)).all()
     return {"timers": [_timer_json(t) for t in timers]}
 

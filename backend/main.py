@@ -17,6 +17,7 @@ from api import (
     preferences,
     raid,
     search,
+    settings as app_settings,
     statistics,
     upgrades,
     wiki,
@@ -29,10 +30,12 @@ from core.errors import register_exception_handlers
 async def lifespan(_app: FastAPI):
     from api.deps import ensure_role_permissions_seeded
     from database import SessionLocal
+    from services.admin_settings import ensure_admin_settings
 
     db = SessionLocal()
     try:
         ensure_role_permissions_seeded(db)
+        ensure_admin_settings(db)
     finally:
         db.close()
     yield
@@ -76,6 +79,7 @@ app.include_router(craft.router, prefix="/api/craft", tags=["craft"])
 app.include_router(upgrades.router, prefix="/api/upgrades", tags=["upgrades"])
 app.include_router(items.router, prefix="/api/items", tags=["items"])
 app.include_router(preferences.router, prefix="/api/me", tags=["preferences"])
+app.include_router(app_settings.router, prefix="/api/settings", tags=["settings"])
 
 
 @app.get("/api/health")

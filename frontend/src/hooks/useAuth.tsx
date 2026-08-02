@@ -8,6 +8,8 @@ interface AuthContextType {
   login: (username: string, password: string) => Promise<void>;
   logout: () => void;
   hasPermission: (permission: string) => boolean;
+  isSuperadmin: boolean;
+  isAdmin: boolean;
   refreshUser: () => Promise<void>;
 }
 
@@ -45,10 +47,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   const hasPermission = (permission: string) =>
-    Boolean(user?.permissions?.includes(permission));
+    user?.role === "superadmin" || Boolean(user?.permissions?.includes(permission));
+
+  const isSuperadmin = user?.role === "superadmin";
+  const isAdmin = user?.role === "admin" || isSuperadmin;
 
   return (
-    <AuthContext.Provider value={{ user, loading, login, logout, hasPermission, refreshUser }}>
+    <AuthContext.Provider
+      value={{ user, loading, login, logout, hasPermission, isSuperadmin, isAdmin, refreshUser }}
+    >
       {children}
     </AuthContext.Provider>
   );

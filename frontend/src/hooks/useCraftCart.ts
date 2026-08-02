@@ -1,27 +1,42 @@
 import { useCallback, useMemo } from "react";
 import type { CraftCartPayload } from "../api/preferences";
-import type { CartEntry } from "../lib/craftCalc";
+import {
+  cartEntryKey,
+  parseCartEntryKey,
+  type CartEntry,
+} from "../lib/craftCalc";
 import { useCraftCartPreference } from "./usePreferences";
 
 function parseCart(raw: CraftCartPayload): CartEntry[] {
-  return Object.entries(raw)
-    .map(([id, line]) => ({
-      productId: Number(id),
-      qty: Math.max(1, Math.floor(Number(line?.qty) || 1)),
-      variantIdx: line?.variant,
-    }))
-    .filter((e) => Number.isFinite(e.productId) && e.productId > 0);
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return [];
+
+  const map = new Map<string, CartEntry>();
+  for (const [key, line] of Object.entries(raw)) {
+    const entry = parseCartEntryKey(key, line);
+    if (!entry || entry.qty <= 0) continue;
+    const dedupeKey = cartEntryKey(entry.productId, entry.variantIdx);
+    const prev = map.get(dedupeKey);
+    map.set(
+      dedupeKey,
+      prev ? { ...prev, qty: prev.qty + entry.qty } : entry,
+    );
+  }
+  return [...map.values()];
 }
 
 function toPayload(entries: CartEntry[]): CraftCartPayload {
   const out: CraftCartPayload = {};
   for (const e of entries) {
-    out[String(e.productId)] = {
+    out[cartEntryKey(e.productId, e.variantIdx)] = {
       qty: e.qty,
-      ...(e.variantIdx != null ? { variant: e.variantIdx } : {}),
+      variant: e.variantIdx,
     };
   }
   return out;
+}
+
+function sameLine(a: CartEntry, productId: number, variantIdx: number): boolean {
+  return a.productId === productId && a.variantIdx === variantIdx;
 }
 
 export function useCraftCart() {
@@ -40,43 +55,42 @@ export function useCraftCart() {
   );
 
   const add = useCallback(
-    (productId: number, qty: number, variantIdx?: number) => {
+    (productId: number, qty: number, variantIdx = 0) => {
       const n = Math.max(1, Math.floor(qty));
-      const existing = entries.find((e) => e.productId === productId);
+      const vi = Math.max(0, Math.floor(variantIdx));
+      const existing = entries.find((e) => sameLine(e, productId, vi));
       if (existing) {
         setEntries(
           entries.map((e) =>
-            e.productId === productId
-              ? {
-                  ...e,
-                  qty: e.qty + n,
-                  variantIdx: variantIdx ?? e.variantIdx,
-                }
-              : e,
+            sameLine(e, productId, vi) ? { ...e, qty: e.qty + n } : e,
           ),
         );
       } else {
-        setEntries([...entries, { productId, qty: n, variantIdx }]);
+        setEntries([...entries, { productId, qty: n, variantIdx: vi }]);
       }
     },
     [entries, setEntries],
   );
 
   const remove = useCallback(
-    (productId: number) => {
-      setEntries(entries.filter((e) => e.productId !== productId));
+    (productId: number, variantIdx = 0) => {
+      const vi = Math.max(0, Math.floor(variantIdx));
+      setEntries(entries.filter((e) => !sameLine(e, productId, vi)));
     },
     [entries, setEntries],
   );
 
   const setQty = useCallback(
-    (productId: number, qty: number) => {
+    (productId: number, qty: number, variantIdx = 0) => {
+      const vi = Math.max(0, Math.floor(variantIdx));
       const n = Math.floor(qty);
       if (n <= 0) {
-        setEntries(entries.filter((e) => e.productId !== productId));
+        setEntries(entries.filter((e) => !sameLine(e, productId, vi)));
         return;
       }
-      setEntries(entries.map((e) => (e.productId === productId ? { ...e, qty: n } : e)));
+      setEntries(
+        entries.map((e) => (sameLine(e, productId, vi) ? { ...e, qty: n } : e)),
+      );
     },
     [entries, setEntries],
   );

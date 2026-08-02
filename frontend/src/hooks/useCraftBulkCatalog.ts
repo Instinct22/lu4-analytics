@@ -24,11 +24,11 @@ export function useCraftBulkCatalog(
   const merged = useMemo<CraftCatalog | undefined>(() => {
     if (!baseCatalog) return undefined;
     let items = { ...baseCatalog.items };
-    let byProduct = { ...baseCatalog.byProduct };
+    let byProduct = { ...(baseCatalog.byProduct ?? {}) };
     for (const q of closures) {
       if (!q.data) continue;
       items = { ...items, ...q.data.items };
-      byProduct = { ...byProduct, ...q.data.byProduct };
+      byProduct = { ...byProduct, ...(q.data.byProduct ?? {}) };
     }
     return { ...baseCatalog, items, byProduct };
   }, [baseCatalog, closures]);
