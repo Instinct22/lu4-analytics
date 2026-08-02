@@ -15,10 +15,12 @@ PUBLIC_ROLES_KEY = "public_roles"
 PERMISSION_GROUPS_KEY = "permission_groups"
 LEVEL_RESTRICTION_KEY = "level_restriction"
 LEVEL_PRESET_KEY = "level_preset"
+RAID_HIDDEN_KEY = "raid_hidden"
 
 DEFAULT_LEVEL_BOUNDS: dict[str, int] = {"min": 20, "max": 85}
 DEFAULT_LEVEL_RESTRICTION = DEFAULT_LEVEL_BOUNDS
 DEFAULT_LEVEL_PRESET = DEFAULT_LEVEL_BOUNDS
+DEFAULT_RAID_HIDDEN: dict[str, list[int]] = {"hiddenIds": []}
 
 _CONSONANTS = "bcdfghjklmnpqrstvwxyz"
 _VOWELS = "aeiouy"
@@ -104,6 +106,43 @@ def set_level_preset(db: Session, min_level: int, max_level: int) -> dict[str, i
     return value
 
 
+def _normalize_raid_hidden(raw: dict | list) -> dict[str, list[int]]:
+    if isinstance(raw, list):
+        ids_raw = raw
+    elif isinstance(raw, dict):
+        ids_raw = raw.get("hiddenIds", [])
+    else:
+        ids_raw = []
+    if not isinstance(ids_raw, list):
+        return {"hiddenIds": []}
+    cleaned: list[int] = []
+    seen: set[int] = set()
+    for item in ids_raw:
+        try:
+            boss_id = int(item)
+        except (TypeError, ValueError):
+            continue
+        if boss_id in seen:
+            continue
+        seen.add(boss_id)
+        cleaned.append(boss_id)
+    cleaned.sort()
+    return {"hiddenIds": cleaned}
+
+
+def get_raid_hidden(db: Session) -> dict[str, list[int]]:
+    raw = get_setting(db, RAID_HIDDEN_KEY, DEFAULT_RAID_HIDDEN)
+    if not isinstance(raw, (dict, list)):
+        return dict(DEFAULT_RAID_HIDDEN)
+    return _normalize_raid_hidden(raw)
+
+
+def set_raid_hidden(db: Session, hidden_ids: list[int]) -> dict[str, list[int]]:
+    value = _normalize_raid_hidden({"hiddenIds": hidden_ids})
+    set_setting(db, RAID_HIDDEN_KEY, value)
+    return value
+
+
 def ensure_admin_settings(db: Session) -> None:
     if db.get(AdminSetting, PUBLIC_ROLES_KEY) is None:
         db.add(AdminSetting(key=PUBLIC_ROLES_KEY, value=list(DEFAULT_PUBLIC_ROLES)))
@@ -113,6 +152,8 @@ def ensure_admin_settings(db: Session) -> None:
         db.add(AdminSetting(key=LEVEL_RESTRICTION_KEY, value=dict(DEFAULT_LEVEL_RESTRICTION)))
     if db.get(AdminSetting, LEVEL_PRESET_KEY) is None:
         db.add(AdminSetting(key=LEVEL_PRESET_KEY, value=dict(DEFAULT_LEVEL_PRESET)))
+    if db.get(AdminSetting, RAID_HIDDEN_KEY) is None:
+        db.add(AdminSetting(key=RAID_HIDDEN_KEY, value=dict(DEFAULT_RAID_HIDDEN)))
     db.commit()
 
 

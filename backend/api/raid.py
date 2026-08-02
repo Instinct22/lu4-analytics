@@ -10,6 +10,7 @@ from core.client_ip import client_ip
 from models.analytics import AnalyticsDataset
 from models.raid import RaidBoss, RaidBossTimer
 from models.raid_timer_log import RaidTimerLog
+from services.admin_settings import get_raid_hidden, set_raid_hidden
 
 router = APIRouter()
 
@@ -24,10 +25,15 @@ DEFAULT_MAP = {
 require_read = require_permission("nav.raid_bosses")
 require_timers_view = require_permission("feature.raid_timers_view")
 require_write = require_permission("feature.raid_timers_write")
+require_visibility = require_permission("feature.raid_visibility")
 
 
 class TimerIn(BaseModel):
     killed_at: datetime | None = None
+
+
+class RaidVisibilityIn(BaseModel):
+    hiddenIds: list[int]
 
 
 def _log_timer_action(
@@ -149,3 +155,16 @@ def clear_timer(boss_id: int, request: Request, db: DbSession, user: CurrentUser
         db.delete(timer)
         db.commit()
     return {"bossId": boss_id, "cleared": True}
+
+
+@router.get("/visibility", dependencies=[Depends(require_read)])
+def get_visibility(db: DbSession):
+    """Global hidden raid-boss ids shared by all accounts."""
+    return get_raid_hidden(db)
+
+
+@router.put("/visibility", dependencies=[Depends(require_visibility)])
+def update_visibility(body: RaidVisibilityIn, db: DbSession):
+    value = set_raid_hidden(db, body.hiddenIds)
+    db.commit()
+    return value

@@ -18,3 +18,7 @@ frontend/dist/
 # Virtual environments
 .venv/
 venv/
+
+# Windows reserved device names (accidental redirects like `> NUL`)
+NUL
+**/NUL
