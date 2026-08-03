@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import { mediaUrl } from "../../api/client";
+import { useAuth } from "../../hooks/useAuth";
 import {
   effectivePrice,
   formatPrice,
@@ -95,18 +97,31 @@ export function ItemPrice({
   catalog,
   prices,
   manual,
+  className = "text-xs font-semibold tabular-nums text-amber-400",
 }: {
   id: number;
   qty: number;
   catalog: CraftCatalog;
   prices: Record<string, PriceInfo>;
   manual: Record<string, number>;
+  className?: string;
 }) {
+  const { hasPermission } = useAuth();
   const p = effectivePrice(id, prices, manual, catalog);
   if (p == null) return <span className="text-xs text-zinc-600">—</span>;
-  return (
-    <span className="text-xs font-semibold tabular-nums text-amber-400">{formatPrice(p * qty)}</span>
-  );
+  const label = formatPrice(p * qty);
+  const canLink = hasPermission("feature.craft_prices") && hasPermission("nav.charts");
+  if (canLink) {
+    return (
+      <Link
+        to={`/charts?external_id=${id}`}
+        className={`${className} hover:underline`}
+      >
+        {label}
+      </Link>
+    );
+  }
+  return <span className={className}>{label}</span>;
 }
 
 export function HaveInput({

@@ -25,7 +25,28 @@ export interface ResourceTreeNode {
   children: ResourceTreeNode[];
 }
 
-export type ResourceSection = "base" | "craft";
+export type ResourceSection = "base" | "craft" | "currency";
+
+/** Wiki external id for Master Coin (tracked in craft monitor). */
+export const MASTER_COIN_EXTERNAL_ID = 4037;
+
+export const MASTER_COIN_MATERIAL: ResourceMaterial = {
+  id: MASTER_COIN_EXTERNAL_ID,
+  section: "currency",
+  name: "Master Coin",
+  grade: "",
+  url: "/lu4/item/4037-master-coin",
+  desc: "Игровая валюта Master Coin",
+  crafter_level: null,
+  skill_level: null,
+  mp: null,
+  success: null,
+  recipe_url: null,
+  tree: [],
+  spoil_count: 0,
+  drop_count: 0,
+  source_count: 0,
+};
 
 /** Material without its spoil/drop arrays: those are fetched per material. */
 export interface ResourceMaterial {
@@ -44,6 +65,14 @@ export interface ResourceMaterial {
   spoil_count: number;
   drop_count: number;
   source_count: number;
+}
+
+/** Prepend Master Coin if missing from craft resources payload. */
+export function withMasterCoin(materials: ResourceMaterial[]): ResourceMaterial[] {
+  if (materials.some((m) => m.id === MASTER_COIN_EXTERNAL_ID)) {
+    return materials;
+  }
+  return [MASTER_COIN_MATERIAL, ...materials];
 }
 
 export interface CraftResourcesPayload {

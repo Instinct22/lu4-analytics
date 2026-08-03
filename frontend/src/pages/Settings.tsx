@@ -5,6 +5,7 @@ import {
   updateAdminLevelPreset,
   updateAdminLevelRestriction,
 } from "../api/admin";
+import CraftMonitorSettings from "../components/settings/CraftMonitorSettings";
 import LevelRangeControl from "../components/settings/LevelRangeControl";
 import { PageHeader } from "../components/ui";
 import { useAuth } from "../hooks/useAuth";
@@ -114,52 +115,56 @@ export default function SettingsPage() {
         <p className="text-sm text-zinc-500">Общие преднастройки фильтров для всех пользователей</p>
       </PageHeader>
 
-      <div className="max-w-xl space-y-5">
-        <LevelSettingsSection
-          title="Предустановка уровня"
-          description="Общий диапазон по умолчанию для всех пользователей. Не зависит от ограничения — это только удобная стартовая точка."
-          value={preset}
-          onSave={(next) => presetMutation.mutate(next)}
-          sliderMin={LEVEL_ABSOLUTE_MIN}
-          sliderMax={LEVEL_ABSOLUTE_MAX}
-          readOnly={!canEditPreset}
-          saving={presetMutation.isPending}
-          saved={presetSaved}
-          error={presetMutation.isError}
-        />
-        <p className="-mt-3 px-1 text-sm text-zinc-500">
-          Применяется в{" "}
-          <Link to="/resources" className="text-amber-400/90 hover:text-amber-300">
-            ресурсах
-          </Link>{" "}
-          и{" "}
-          <Link to="/raid-bosses" className="text-amber-400/90 hover:text-amber-300">
-            рейд-боссах
-          </Link>
-          . Изменение доступно с правом «Предустановка уровня».
-        </p>
-
-        {!unrestricted && restriction && (
-          <p className="text-sm text-amber-400/90">
-            Для пользователей без права «Уровни без ограничений» доступен диапазон{" "}
-            {restriction.min}–{restriction.max} lvl.
-          </p>
-        )}
-
-        {isSuperadmin && (
+      <div className="max-w-3xl space-y-5">
+        <div className="max-w-xl space-y-5">
           <LevelSettingsSection
-            title="Ограничение уровня"
-            description="Глобальные границы для пользователей без права «Уровни без ограничений». Доступно только суперадмину."
-            value={restrictionValue}
-            onSave={(next) => restrictionMutation.mutate(next)}
-            sliderMin={1}
-            sliderMax={99}
-            readOnly={false}
-            saving={restrictionMutation.isPending}
-            saved={restrictionSaved}
-            error={restrictionMutation.isError}
+            title="Предустановка уровня"
+            description="Общий диапазон по умолчанию для всех пользователей. Не зависит от ограничения — это только удобная стартовая точка."
+            value={preset}
+            onSave={(next) => presetMutation.mutate(next)}
+            sliderMin={LEVEL_ABSOLUTE_MIN}
+            sliderMax={LEVEL_ABSOLUTE_MAX}
+            readOnly={!canEditPreset}
+            saving={presetMutation.isPending}
+            saved={presetSaved}
+            error={presetMutation.isError}
           />
-        )}
+          <p className="-mt-3 px-1 text-sm text-zinc-500">
+            Применяется в{" "}
+            <Link to="/resources" className="text-amber-400/90 hover:text-amber-300">
+              ресурсах
+            </Link>{" "}
+            и{" "}
+            <Link to="/raid-bosses" className="text-amber-400/90 hover:text-amber-300">
+              рейд-боссах
+            </Link>
+            . Изменение доступно с правом «Предустановка уровня».
+          </p>
+
+          {!unrestricted && restriction && (
+            <p className="text-sm text-amber-400/90">
+              Для пользователей без права «Уровни без ограничений» доступен диапазон{" "}
+              {restriction.min}–{restriction.max} lvl.
+            </p>
+          )}
+
+          {isSuperadmin && (
+            <LevelSettingsSection
+              title="Ограничение уровня"
+              description="Глобальные границы для пользователей без права «Уровни без ограничений». Доступно только суперадмину."
+              value={restrictionValue}
+              onSave={(next) => restrictionMutation.mutate(next)}
+              sliderMin={1}
+              sliderMax={99}
+              readOnly={false}
+              saving={restrictionMutation.isPending}
+              saved={restrictionSaved}
+              error={restrictionMutation.isError}
+            />
+          )}
+        </div>
+
+        {isSuperadmin && <CraftMonitorSettings />}
       </div>
     </div>
   );

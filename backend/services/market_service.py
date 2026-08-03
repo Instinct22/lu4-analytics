@@ -3,12 +3,21 @@
 from __future__ import annotations
 
 import uuid
-from datetime import datetime
+from collections import defaultdict
+from datetime import datetime, timedelta, timezone
 
 from sqlalchemy import func, or_, select
 from sqlalchemy.orm import Session
 
+from calculations.buy_plan import build_buy_plan
+from calculations.craft_monitor import (
+    CRAFT_MONITOR_PERIOD_HOURS,
+    aggregate_lots,
+    build_craft_monitor_cards,
+    latest_lots_per_seller,
+)
 from calculations.market_timeline import INTERVAL_SECONDS, build_market_timeline
+from calculations.top_offers import build_top_offers
 from calculations.trading_analytics import (
     build_chart_deals,
     build_items_overview,
@@ -31,7 +40,11 @@ from schemas.market import (
     MarketTimelineSideSeries,
 )
 from schemas.trading import (
+    BuyPlanLot,
+    BuyPlanResponse,
     ChartDealPoint,
+    CraftMonitorCard,
+    CraftMonitorResponse,
     DealHighlight,
     ItemOverviewCard,
     ItemsOverviewResponse,
@@ -39,6 +52,8 @@ from schemas.trading import (
     LuckyMomentsResponse,
     OrderBookLevel,
     OrderBookResponse,
+    TopOfferLot,
+    TopOffersResponse,
     TradeRecordItem,
     TradesListResponse,
     TradingAnalyticsResponse,
@@ -116,12 +131,13 @@ def market_items(db: Session, q: str | None, limit: int) -> MarketItemsResponse:
     query = (
         select(
             WikiEntity.id,
+            WikiEntity.external_id,
             WikiEntity.display_name,
             func.count(MarketRecord.id).label("record_count"),
         )
         .join(MarketRecord, MarketRecord.entity_id == WikiEntity.id)
         .where(MarketRecord.side.is_not(None))
-        .group_by(WikiEntity.id, WikiEntity.display_name)
+        .group_by(WikiEntity.id, WikiEntity.external_id, WikiEntity.display_name)
         .order_by(func.count(MarketRecord.id).desc())
         .limit(limit)
     )
@@ -131,7 +147,12 @@ def market_items(db: Session, q: str | None, limit: int) -> MarketItemsResponse:
     rows = db.execute(query).all()
     return MarketItemsResponse(
         items=[
-            MarketItemOption(id=row.id, display_name=row.display_name, record_count=row.record_count)
+            MarketItemOption(
+                id=row.id,
+                external_id=row.external_id,
+                display_name=row.display_name,
+                record_count=row.record_count,
+            )
             for row in rows
         ]
     )
@@ -153,23 +174,47 @@ def prices_by_ids(db: Session, ids: str) -> dict[str, dict]:
         )
     ).all()
     entity_by_ext = {e.external_id: e for e in entities if e.external_id is not None}
+    entity_ids = [e.id for e in entities]
 
-    stats_rows = db.scalars(
-        select(ItemStatistics).where(
-            ItemStatistics.entity_id.in_([e.id for e in entities]),
-            ItemStatistics.period == "all",
-        )
-    ).all()
+    stats_rows = (
+        db.scalars(
+            select(ItemStatistics).where(
+                ItemStatistics.entity_id.in_(entity_ids),
+                ItemStatistics.period == "all",
+            )
+        ).all()
+        if entity_ids
+        else []
+    )
     stats_by_entity = {s.entity_id: s for s in stats_rows}
 
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=24)
+    records_by_entity: dict[uuid.UUID, list[MarketRecord]] = defaultdict(list)
+    if entity_ids:
+        day_records = db.scalars(
+            select(MarketRecord)
+            .where(MarketRecord.entity_id.in_(entity_ids))
+            .where(MarketRecord.side == "sell")
+            .where(MarketRecord.recorded_at >= cutoff)
+            .order_by(MarketRecord.recorded_at.desc())
+        ).all()
+        for record in day_records:
+            if record.entity_id is not None:
+                records_by_entity[record.entity_id].append(record)
+
+    empty = {"day_vwap": None, "avg_price": None, "last_price": None, "npc_sell": None}
     result: dict[str, dict] = {}
     for ext_id in id_list:
         entity = entity_by_ext.get(ext_id)
         if not entity:
-            result[str(ext_id)] = {"avg_price": None, "last_price": None, "npc_sell": None}
+            result[str(ext_id)] = dict(empty)
             continue
         st = stats_by_entity.get(entity.id)
+        day_agg = aggregate_lots(latest_lots_per_seller(records_by_entity.get(entity.id, [])))
+        day_vwap = day_agg["vwap"]
         result[str(ext_id)] = {
+            "day_vwap": float(day_vwap) if day_vwap is not None else None,
             "avg_price": float(st.avg_price) if st and st.avg_price is not None else None,
             "last_price": float(st.last_price) if st and st.last_price is not None else None,
             "npc_sell": _parse_npc_sell(entity.stats),
@@ -257,6 +302,53 @@ def items_overview(
     start, end = resolve_time_range(period, from_date, to_date)
     items = build_items_overview(db, start, end, limit)
     return ItemsOverviewResponse(items=[ItemOverviewCard(**item) for item in items])
+
+
+def buy_plan(db: Session, entity_id: uuid.UUID, quantity: int) -> BuyPlanResponse:
+    get_item_or_404(db, entity_id)
+    plan = build_buy_plan(db, entity_id, quantity)
+    return BuyPlanResponse(
+        entity_id=plan["entity_id"],
+        requested_quantity=plan["requested_quantity"],
+        filled_quantity=plan["filled_quantity"],
+        shortfall=plan["shortfall"],
+        total_cost=plan["total_cost"],
+        avg_fill_price=plan["avg_fill_price"],
+        lots=[BuyPlanLot(**lot) for lot in plan["lots"]],
+    )
+
+
+def top_offers(db: Session, entity_id: uuid.UUID, limit: int = 5) -> TopOffersResponse:
+    get_item_or_404(db, entity_id)
+    data = build_top_offers(db, entity_id, limit=limit)
+    return TopOffersResponse(
+        entity_id=data["entity_id"],
+        sells=[TopOfferLot(**lot) for lot in data["sells"]],
+        buys=[TopOfferLot(**lot) for lot in data["buys"]],
+    )
+
+
+def craft_monitor(
+    db: Session,
+    period: str,
+    from_date: datetime | None = None,
+    to_date: datetime | None = None,
+) -> CraftMonitorResponse:
+    if from_date and to_date:
+        resolved = "custom"
+    elif period in CRAFT_MONITOR_PERIOD_HOURS:
+        resolved = period
+    else:
+        raise AppError(
+            f"Unsupported period: {period}",
+            code="bad_request",
+            status_code=400,
+        )
+    items = build_craft_monitor_cards(db, period, from_date, to_date)
+    return CraftMonitorResponse(
+        period=resolved,
+        items=[CraftMonitorCard(**item) for item in items],
+    )
 
 
 def list_trades(

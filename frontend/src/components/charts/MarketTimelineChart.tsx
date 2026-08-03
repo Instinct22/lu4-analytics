@@ -115,13 +115,16 @@ function mergeSeries(buy: TimelinePoint[], sell: TimelinePoint[], interval: stri
     }
   >();
 
+  const chartPrice = (point: TimelinePoint) =>
+    point.weighted_avg != null ? Number(point.weighted_avg) : Number(point.median_price);
+
   for (const point of buy) {
     map.set(point.bucket_start, {
       bucket_start: point.bucket_start,
       ts: new Date(point.bucket_start).getTime(),
       label: formatBucketLabel(point.bucket_start, interval, spanMs),
       tooltipLabel: formatTooltipLabel(point.bucket_start),
-      buy: Number(point.median_price),
+      buy: chartPrice(point),
       sell: null,
       buyMeta: point,
       sellMeta: null,
@@ -131,7 +134,7 @@ function mergeSeries(buy: TimelinePoint[], sell: TimelinePoint[], interval: stri
   for (const point of sell) {
     const existing = map.get(point.bucket_start);
     if (existing) {
-      existing.sell = Number(point.median_price);
+      existing.sell = chartPrice(point);
       existing.sellMeta = point;
     } else {
       map.set(point.bucket_start, {
@@ -140,7 +143,7 @@ function mergeSeries(buy: TimelinePoint[], sell: TimelinePoint[], interval: stri
         label: formatBucketLabel(point.bucket_start, interval, spanMs),
         tooltipLabel: formatTooltipLabel(point.bucket_start),
         buy: null,
-        sell: Number(point.median_price),
+        sell: chartPrice(point),
         buyMeta: null,
         sellMeta: point,
       });
@@ -168,24 +171,20 @@ function TooltipContent({
       <p className="mb-2 text-[0.65rem] uppercase tracking-wider text-zinc-500">{currencyTitle}</p>
       {row.buyMeta && (
         <div className="mb-2 border-b border-zinc-800 pb-2">
-          <p className="font-medium text-emerald-400">Buy · медиана {formatPrice(row.buy ?? 0)}</p>
+          <p className="font-medium text-emerald-400">Buy · средневзв. {formatPrice(row.buy ?? 0)}</p>
           <p className="mt-1 text-zinc-400">
             Продавцов: {row.buyMeta.seller_count} · Записей: {row.buyMeta.record_count}
           </p>
-          {row.buyMeta.weighted_avg != null && (
-            <p className="text-zinc-500">Средневзв.: {formatPrice(Number(row.buyMeta.weighted_avg))}</p>
-          )}
+          <p className="text-zinc-500">Медиана: {formatPrice(Number(row.buyMeta.median_price))}</p>
         </div>
       )}
       {row.sellMeta && (
         <div>
-          <p className="font-medium text-red-400">Sell · медиана {formatPrice(row.sell ?? 0)}</p>
+          <p className="font-medium text-red-400">Sell · средневзв. {formatPrice(row.sell ?? 0)}</p>
           <p className="mt-1 text-zinc-400">
             Продавцов: {row.sellMeta.seller_count} · Записей: {row.sellMeta.record_count}
           </p>
-          {row.sellMeta.weighted_avg != null && (
-            <p className="text-zinc-500">Средневзв.: {formatPrice(Number(row.sellMeta.weighted_avg))}</p>
-          )}
+          <p className="text-zinc-500">Медиана: {formatPrice(Number(row.sellMeta.median_price))}</p>
         </div>
       )}
     </div>
@@ -224,7 +223,7 @@ export default function MarketTimelineChart({ title, accent, series, interval, h
       <div className="mb-4 flex items-center justify-between gap-3">
         <div>
           <h3 className="text-base font-semibold text-zinc-100">{title}</h3>
-          <p className="text-xs text-zinc-500">Медиана цены за интервал · buy / sell</p>
+          <p className="text-xs text-zinc-500">Средневзвешенная цена за интервал · buy / sell</p>
         </div>
         <div className="flex gap-3 text-xs">
           <span className="inline-flex items-center gap-1.5 text-emerald-400">

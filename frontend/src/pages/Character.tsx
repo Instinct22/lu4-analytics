@@ -117,7 +117,7 @@ export default function CharacterPage() {
 
   return (
     <div className="min-h-full">
-      <PageHeader title="Персонаж">
+      <PageHeader title="Умения">
         <p className="text-sm text-zinc-500">
           Расы, классы и умения Lu4 ·{" "}
           <WikiLink href={wikiClassesUrl(wikiBase)} className="text-sm text-amber-400">

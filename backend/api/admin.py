@@ -29,6 +29,7 @@ from schemas.auth import (
     CreateCustomRoleRequest,
     LoginLogItem,
     LoginLogsResponse,
+    MarketRecordsResponse,
     PermissionEntry,
     PermissionGroup,
     PermissionGroupsResponse,
@@ -38,6 +39,8 @@ from schemas.auth import (
     RaidTimerLogItem,
     RaidTimerLogsResponse,
     RolePermissionsResponse,
+    CraftMonitorResponse,
+    UpdateCraftMonitorRequest,
     UpdateLevelRestrictionRequest,
     UpdatePermissionGroupsRequest,
     UpdatePublicRolesRequest,
@@ -48,13 +51,16 @@ from schemas.auth import (
     UserCreationLogsResponse,
     UserResponse,
 )
+from services.admin_market_records import delete_market_record, list_market_records
 from services.admin_settings import (
     generate_password,
     generate_username,
+    get_craft_monitor,
     get_level_preset,
     get_level_restriction,
     get_permission_groups,
     get_public_roles,
+    set_craft_monitor,
     set_level_preset,
     set_level_restriction,
     set_permission_groups,
@@ -262,6 +268,28 @@ def delete_user(
     db.commit()
 
 
+@router.get("/market-records", response_model=MarketRecordsResponse)
+def admin_list_market_records(
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+    page: int = Query(1, ge=1),
+    limit: int = Query(50, ge=1, le=50),
+    search: str | None = Query(None, max_length=128),
+):
+    _require_superadmin(admin)
+    return list_market_records(db, page=page, limit=limit, search=search)
+
+
+@router.delete("/market-records/{record_id}", status_code=status.HTTP_204_NO_CONTENT)
+def admin_delete_market_record(
+    record_id: uuid.UUID,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_superadmin(admin)
+    delete_market_record(db, record_id)
+
+
 @router.get("/login-logs", response_model=LoginLogsResponse)
 def list_login_logs(
     db: DbSession,
@@ -410,6 +438,28 @@ def update_level_preset_setting(
     bounds = set_level_preset(db, body.min, body.max)
     db.commit()
     return LevelRestrictionResponse(min=bounds["min"], max=bounds["max"])
+
+
+@router.get("/settings/craft-monitor", response_model=CraftMonitorResponse)
+def get_craft_monitor_setting(
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_superadmin(admin)
+    value = get_craft_monitor(db)
+    return CraftMonitorResponse(selectedIds=value["selectedIds"])
+
+
+@router.put("/settings/craft-monitor", response_model=CraftMonitorResponse)
+def update_craft_monitor_setting(
+    body: UpdateCraftMonitorRequest,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_superadmin(admin)
+    value = set_craft_monitor(db, body.selectedIds)
+    db.commit()
+    return CraftMonitorResponse(selectedIds=value["selectedIds"])
 
 
 @router.get("/custom-roles", response_model=CustomRolesResponse)

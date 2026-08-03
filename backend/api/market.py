@@ -10,9 +10,12 @@ from api.deps import DbSession, require_any_permission, require_permission
 from models.user import User
 from schemas.market import MarketItemsResponse, MarketTimelineResponse
 from schemas.trading import (
+    BuyPlanResponse,
+    CraftMonitorResponse,
     ItemsOverviewResponse,
     LuckyMomentsResponse,
     OrderBookResponse,
+    TopOffersResponse,
     TradesListResponse,
     TradingAnalyticsResponse,
     TradingChartResponse,
@@ -52,7 +55,7 @@ def market_items(
     db: DbSession,
     user: MarketUser,
     q: str | None = Query(None),
-    limit: int = Query(30, ge=1, le=100),
+    limit: int = Query(30, ge=1, le=2000),
 ):
     return market_service.market_items(db, q, limit)
 
@@ -124,6 +127,37 @@ def items_overview(
     limit: int = Query(60, ge=1, le=200),
 ):
     return market_service.items_overview(db, period, from_date, to_date, limit)
+
+
+@router.get("/craft-monitor", response_model=CraftMonitorResponse)
+def craft_monitor(
+    db: DbSession,
+    user: MarketUser,
+    period: str = Query("1d", pattern="^(1h|2h|3h|6h|12h|1d|3d)$"),
+    from_date: datetime | None = Query(None, alias="from"),
+    to_date: datetime | None = Query(None, alias="to"),
+):
+    return market_service.craft_monitor(db, period, from_date, to_date)
+
+
+@router.get("/buy-plan", response_model=BuyPlanResponse)
+def buy_plan(
+    db: DbSession,
+    user: MarketUser,
+    entity_id: uuid.UUID,
+    quantity: int = Query(..., ge=1, le=10_000_000),
+):
+    return market_service.buy_plan(db, entity_id, quantity)
+
+
+@router.get("/top-offers", response_model=TopOffersResponse)
+def top_offers(
+    db: DbSession,
+    user: MarketUser,
+    entity_id: uuid.UUID,
+    limit: int = Query(5, ge=1, le=20),
+):
+    return market_service.top_offers(db, entity_id, limit)
 
 
 @router.get("/trades", response_model=TradesListResponse)

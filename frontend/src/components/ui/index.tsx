@@ -1,11 +1,53 @@
 import { ReactNode } from "react";
 
-export function StatCard({ title, value, subtitle }: { title: string; value: string | number; subtitle?: string }) {
+export function StatCard({
+  title,
+  value,
+  subtitle,
+  highlight = false,
+  fullValue,
+}: {
+  title: string;
+  value: string | number;
+  subtitle?: string;
+  highlight?: boolean;
+  /** Exact value for tooltip when `value` is compacted. */
+  fullValue?: string;
+}) {
+  const text = String(value);
+  const long = text.length >= 10;
   return (
-    <div className="card group transition-colors hover:border-zinc-700/80 hover:bg-zinc-900/80">
-      <p className="text-xs font-medium uppercase tracking-wider text-zinc-500">{title}</p>
-      <p className="mt-2 text-3xl font-semibold tabular-nums tracking-tight text-zinc-50">{value}</p>
-      {subtitle && <p className="mt-1.5 text-xs text-zinc-600">{subtitle}</p>}
+    <div
+      className={[
+        "card group transition-colors",
+        highlight
+          ? "border-amber-500/40 bg-amber-500/10 ring-1 ring-amber-500/25 hover:border-amber-400/50 hover:bg-amber-500/15"
+          : "hover:border-zinc-700/80 hover:bg-zinc-900/80",
+      ].join(" ")}
+    >
+      <p
+        className={[
+          "text-xs font-medium uppercase tracking-wider",
+          highlight ? "text-amber-400/90" : "text-zinc-500",
+        ].join(" ")}
+      >
+        {title}
+      </p>
+      <p
+        title={fullValue ?? (typeof value === "string" ? value : undefined)}
+        className={[
+          "mt-2 font-semibold tabular-nums tracking-tight break-all leading-tight",
+          highlight ? "text-amber-50" : "text-zinc-50",
+          long ? "text-lg sm:text-xl" : "text-2xl sm:text-3xl",
+        ].join(" ")}
+      >
+        {value}
+      </p>
+      {subtitle && (
+        <p className={["mt-1.5 text-xs", highlight ? "text-amber-500/70" : "text-zinc-600"].join(" ")}>
+          {subtitle}
+        </p>
+      )}
     </div>
   );
 }

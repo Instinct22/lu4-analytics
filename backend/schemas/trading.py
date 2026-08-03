@@ -4,6 +4,8 @@ from decimal import Decimal
 
 from pydantic import BaseModel
 
+from schemas.text import UnescapedStr
+
 
 class DealHighlight(BaseModel):
     price: Decimal
@@ -84,7 +86,7 @@ class LuckyMomentsResponse(BaseModel):
 
 class ItemOverviewCard(BaseModel):
     entity_id: uuid.UUID
-    display_name: str
+    display_name: UnescapedStr
     current_price: Decimal
     price_change_pct: Decimal
     total_volume: int
@@ -94,6 +96,55 @@ class ItemOverviewCard(BaseModel):
 
 class ItemsOverviewResponse(BaseModel):
     items: list[ItemOverviewCard]
+
+
+class CraftMonitorCard(BaseModel):
+    external_id: int
+    entity_id: uuid.UUID | None
+    display_name: UnescapedStr
+    vwap: Decimal | None
+    total_quantity: int
+    price_change_pct: Decimal | None
+    seller_count: int
+
+
+class CraftMonitorResponse(BaseModel):
+    period: str
+    items: list[CraftMonitorCard]
+
+
+class BuyPlanLot(BaseModel):
+    seller_id: uuid.UUID
+    seller_name: str
+    price: Decimal
+    available_quantity: int
+    buy_quantity: int
+    cost: Decimal
+    recorded_at: datetime
+
+
+class BuyPlanResponse(BaseModel):
+    entity_id: uuid.UUID
+    requested_quantity: int
+    filled_quantity: int
+    shortfall: int
+    total_cost: Decimal
+    avg_fill_price: Decimal | None
+    lots: list[BuyPlanLot]
+
+
+class TopOfferLot(BaseModel):
+    seller_id: uuid.UUID
+    seller_name: str
+    quantity: int
+    price: Decimal
+    recorded_at: datetime
+
+
+class TopOffersResponse(BaseModel):
+    entity_id: uuid.UUID
+    sells: list[TopOfferLot]
+    buys: list[TopOfferLot]
 
 
 class TradeRecordItem(BaseModel):

@@ -79,6 +79,7 @@ export interface SetMeta {
 }
 
 export interface PriceInfo {
+  day_vwap?: number | null;
   avg_price: number | null;
   last_price: number | null;
   npc_sell: number | null;
@@ -359,8 +360,9 @@ export function effectivePrice(
   const mk = String(id);
   if (manual[mk] != null && manual[mk] > 0) return manual[mk];
   const p = prices[mk];
-  if (p?.avg_price != null && p.avg_price > 0) return p.avg_price;
+  if (p?.day_vwap != null && p.day_vwap > 0) return p.day_vwap;
   if (p?.last_price != null && p.last_price > 0) return p.last_price;
+  if (p?.avg_price != null && p.avg_price > 0) return p.avg_price;
   const npc = p?.npc_sell ?? (catalog ? itemInfo(catalog, id).npc_sell : null);
   if (npc != null && npc > 0) return npc * MARKET_MARKUP;
   return null;

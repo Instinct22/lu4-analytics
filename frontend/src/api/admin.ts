@@ -181,6 +181,16 @@ export async function updateAdminLevelPreset(body: { min: number; max: number })
   return data as { min: number; max: number };
 }
 
+export async function getAdminCraftMonitor() {
+  const { data } = await api.get("/admin/settings/craft-monitor");
+  return data as { selectedIds: number[] };
+}
+
+export async function updateAdminCraftMonitor(selectedIds: number[]) {
+  const { data } = await api.put("/admin/settings/craft-monitor", { selectedIds });
+  return data as { selectedIds: number[] };
+}
+
 export async function listLoginLogs(page = 1, limit = 25) {
   const { data } = await api.get("/admin/login-logs", { params: { page, limit } });
   return data as LoginLogsResponse;
@@ -194,4 +204,35 @@ export async function listRaidTimerLogs(page = 1, limit = 25) {
 export async function listUserCreationLogs(page = 1, limit = 25) {
   const { data } = await api.get("/admin/user-creation-logs", { params: { page, limit } });
   return data as UserCreationLogsResponse;
+}
+
+export interface MarketRecordAdminItem {
+  id: string;
+  entity_id: string | null;
+  item_name: string | null;
+  product_name_raw: string;
+  seller_name: string;
+  price: number | string;
+  currency: string;
+  side: string | null;
+  quantity: number | null;
+  recorded_at: string;
+}
+
+export interface MarketRecordsResponse {
+  items: MarketRecordAdminItem[];
+  total: number;
+  page: number;
+  limit: number;
+}
+
+export async function listMarketRecords(page = 1, limit = 50, search?: string) {
+  const { data } = await api.get("/admin/market-records", {
+    params: { page, limit, ...(search ? { search } : {}) },
+  });
+  return data as MarketRecordsResponse;
+}
+
+export async function deleteMarketRecord(id: string) {
+  await api.delete(`/admin/market-records/${id}`);
 }

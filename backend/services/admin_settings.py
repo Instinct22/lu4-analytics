@@ -16,11 +16,13 @@ PERMISSION_GROUPS_KEY = "permission_groups"
 LEVEL_RESTRICTION_KEY = "level_restriction"
 LEVEL_PRESET_KEY = "level_preset"
 RAID_HIDDEN_KEY = "raid_hidden"
+CRAFT_MONITOR_KEY = "craft_monitor"
 
 DEFAULT_LEVEL_BOUNDS: dict[str, int] = {"min": 20, "max": 85}
 DEFAULT_LEVEL_RESTRICTION = DEFAULT_LEVEL_BOUNDS
 DEFAULT_LEVEL_PRESET = DEFAULT_LEVEL_BOUNDS
 DEFAULT_RAID_HIDDEN: dict[str, list[int]] = {"hiddenIds": []}
+DEFAULT_CRAFT_MONITOR: dict[str, list[int]] = {"selectedIds": []}
 
 _CONSONANTS = "bcdfghjklmnpqrstvwxyz"
 _VOWELS = "aeiouy"
@@ -143,6 +145,43 @@ def set_raid_hidden(db: Session, hidden_ids: list[int]) -> dict[str, list[int]]:
     return value
 
 
+def _normalize_craft_monitor(raw: dict | list) -> dict[str, list[int]]:
+    if isinstance(raw, list):
+        ids_raw = raw
+    elif isinstance(raw, dict):
+        ids_raw = raw.get("selectedIds", [])
+    else:
+        ids_raw = []
+    if not isinstance(ids_raw, list):
+        return {"selectedIds": []}
+    cleaned: list[int] = []
+    seen: set[int] = set()
+    for item in ids_raw:
+        try:
+            material_id = int(item)
+        except (TypeError, ValueError):
+            continue
+        if material_id in seen:
+            continue
+        seen.add(material_id)
+        cleaned.append(material_id)
+    cleaned.sort()
+    return {"selectedIds": cleaned}
+
+
+def get_craft_monitor(db: Session) -> dict[str, list[int]]:
+    raw = get_setting(db, CRAFT_MONITOR_KEY, DEFAULT_CRAFT_MONITOR)
+    if not isinstance(raw, (dict, list)):
+        return dict(DEFAULT_CRAFT_MONITOR)
+    return _normalize_craft_monitor(raw)
+
+
+def set_craft_monitor(db: Session, selected_ids: list[int]) -> dict[str, list[int]]:
+    value = _normalize_craft_monitor({"selectedIds": selected_ids})
+    set_setting(db, CRAFT_MONITOR_KEY, value)
+    return value
+
+
 def ensure_admin_settings(db: Session) -> None:
     if db.get(AdminSetting, PUBLIC_ROLES_KEY) is None:
         db.add(AdminSetting(key=PUBLIC_ROLES_KEY, value=list(DEFAULT_PUBLIC_ROLES)))
@@ -154,6 +193,8 @@ def ensure_admin_settings(db: Session) -> None:
         db.add(AdminSetting(key=LEVEL_PRESET_KEY, value=dict(DEFAULT_LEVEL_PRESET)))
     if db.get(AdminSetting, RAID_HIDDEN_KEY) is None:
         db.add(AdminSetting(key=RAID_HIDDEN_KEY, value=dict(DEFAULT_RAID_HIDDEN)))
+    if db.get(AdminSetting, CRAFT_MONITOR_KEY) is None:
+        db.add(AdminSetting(key=CRAFT_MONITOR_KEY, value=dict(DEFAULT_CRAFT_MONITOR)))
     db.commit()
 
 
