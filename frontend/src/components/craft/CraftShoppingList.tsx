@@ -1,8 +1,6 @@
 import { useMemo, useState } from "react";
 import {
   buildTree,
-  effectivePrice,
-  formatPrice,
   isCraftable,
   itemInfo,
   shoppingItems,
@@ -11,7 +9,7 @@ import {
   type PriceInfo,
   type RollupEntry,
 } from "../../lib/craftCalc";
-import { GradePill, HaveInput, ItemIcon } from "./CraftCostBar";
+import { GradePill, HaveInput, ItemIcon, ItemPrice } from "./CraftCostBar";
 import CraftItemLink from "./CraftItemLink";
 import CraftTreeNode from "./CraftTreeNode";
 import ExpandChevron from "./ExpandChevron";
@@ -49,8 +47,6 @@ function ShoppingRow({
   const [expanded, setExpanded] = useState(false);
   const info = itemInfo(catalog, entry.id);
   const still = entry.still;
-  const price = showPrices ? effectivePrice(entry.id, prices, manual, catalog) : null;
-  const total = price != null ? price * still : null;
   // Prefer catalog recipe so merged rows (e.g. VoP from several branches) still decompose.
   const canExpand = (entry.craftable || isCraftable(catalog, entry.id)) && still > 0;
 
@@ -111,9 +107,14 @@ function ShoppingRow({
         <div className="shrink-0 text-right">
           <div className="text-lg font-bold tabular-nums text-zinc-100">×{still}</div>
           {showPrices && (
-            <div className="text-sm font-semibold tabular-nums text-amber-400">
-              {total != null ? formatPrice(total) : "—"}
-            </div>
+            <ItemPrice
+              id={entry.id}
+              qty={still}
+              catalog={catalog}
+              prices={prices}
+              manual={manual}
+              className="text-sm font-semibold tabular-nums text-amber-400"
+            />
           )}
         </div>
       </div>

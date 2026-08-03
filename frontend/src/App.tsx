@@ -20,6 +20,7 @@ const WeaponUpgradesPage = lazy(() => import("./pages/WeaponUpgrades"));
 const ItemsPage = lazy(() => import("./pages/Items"));
 const ResourcesPage = lazy(() => import("./pages/Resources"));
 const CharacterPage = lazy(() => import("./pages/Character"));
+const ExpCalculatorPage = lazy(() => import("./pages/ExpCalculator"));
 const AdminPage = lazy(() => import("./pages/Admin"));
 const RaidBossesPage = lazy(() => import("./pages/RaidBosses"));
 const SettingsPage = lazy(() => import("./pages/Settings"));
@@ -151,6 +152,14 @@ export default function App() {
                 element={
                   <RequirePermission permission="nav.resources">
                     <ResourcesPage />
+                  </RequirePermission>
+                }
+              />
+              <Route
+                path="/character/exp"
+                element={
+                  <RequirePermission permission="nav.character">
+                    <ExpCalculatorPage />
                   </RequirePermission>
                 }
               />

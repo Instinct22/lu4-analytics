@@ -8,6 +8,8 @@ export async function getMarketItems(params: { q?: string; limit?: number }) {
 export async function getMarketTimeline(params: {
   entity_id: string;
   interval: string;
+  from?: string;
+  to?: string;
 }) {
   const { data } = await api.get("/market/timeline", { params });
   return data;
@@ -46,4 +48,74 @@ export async function getTrades(params: Record<string, unknown>) {
 export async function getPricesByIds(ids: string) {
   const { data } = await api.get("/market/prices-by-ids", { params: { ids } });
   return data;
+}
+
+export type CraftMonitorPeriod = "1h" | "2h" | "3h" | "6h" | "12h" | "1d" | "3d" | "custom";
+
+export interface CraftMonitorCard {
+  external_id: number;
+  entity_id: string | null;
+  display_name: string;
+  vwap: number | string | null;
+  total_quantity: number;
+  price_change_pct: number | string | null;
+  seller_count: number;
+}
+
+export interface CraftMonitorResponse {
+  period: string;
+  items: CraftMonitorCard[];
+}
+
+export async function getCraftMonitor(params: Record<string, string>) {
+  const { data } = await api.get("/market/craft-monitor", { params });
+  return data as CraftMonitorResponse;
+}
+
+export interface BuyPlanLot {
+  seller_id: string;
+  seller_name: string;
+  price: number | string;
+  available_quantity: number;
+  buy_quantity: number;
+  cost: number | string;
+  recorded_at: string;
+}
+
+export interface BuyPlanResponse {
+  entity_id: string;
+  requested_quantity: number;
+  filled_quantity: number;
+  shortfall: number;
+  total_cost: number | string;
+  avg_fill_price: number | string | null;
+  lots: BuyPlanLot[];
+}
+
+export async function getBuyPlan(entityId: string, quantity: number) {
+  const { data } = await api.get("/market/buy-plan", {
+    params: { entity_id: entityId, quantity },
+  });
+  return data as BuyPlanResponse;
+}
+
+export interface TopOfferLot {
+  seller_id: string;
+  seller_name: string;
+  quantity: number;
+  price: number | string;
+  recorded_at: string;
+}
+
+export interface TopOffersResponse {
+  entity_id: string;
+  sells: TopOfferLot[];
+  buys: TopOfferLot[];
+}
+
+export async function getTopOffers(entityId: string, limit = 5) {
+  const { data } = await api.get("/market/top-offers", {
+    params: { entity_id: entityId, limit },
+  });
+  return data as TopOffersResponse;
 }

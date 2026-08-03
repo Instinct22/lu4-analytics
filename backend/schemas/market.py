@@ -4,6 +4,8 @@ from decimal import Decimal
 
 from pydantic import BaseModel
 
+from schemas.text import UnescapedStr
+
 
 class DashboardResponse(BaseModel):
     entity_counts: dict[str, int]
@@ -39,7 +41,8 @@ class MarketTimelineResponse(BaseModel):
 
 class MarketItemOption(BaseModel):
     id: uuid.UUID
-    display_name: str
+    external_id: int | None = None
+    display_name: UnescapedStr
     record_count: int
 
 

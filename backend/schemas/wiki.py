@@ -2,14 +2,16 @@ import uuid
 
 from pydantic import BaseModel
 
+from schemas.text import UnescapedStr
+
 
 class WikiEntityBrief(BaseModel):
     id: uuid.UUID
     entity_key: str
     entity_type: str
     external_id: int | None
-    name: str
-    display_name: str
+    name: UnescapedStr
+    display_name: UnescapedStr
     slug: str
     url: str
     summary: str | None

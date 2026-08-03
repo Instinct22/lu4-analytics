@@ -52,7 +52,8 @@ export function returnPathLabel(path: string): string {
   if (path.startsWith("/craft")) return "Крафт";
   if (path.startsWith("/resources")) return "Ресурсы";
   if (path.startsWith("/items")) return "Предметы";
-  if (path.startsWith("/character")) return "Персонаж";
+  if (path.startsWith("/character/exp")) return "Exp";
+  if (path.startsWith("/character")) return "Умения";
   return "Назад";
 }
 

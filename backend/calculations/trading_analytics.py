@@ -15,12 +15,15 @@ from sqlalchemy.orm import Session
 from models.market import MarketRecord, Seller
 from models.wiki import WikiEntity
 
-PeriodKey = Literal["1h", "6h", "12h", "24h", "3d", "7d", "30d"]
+PeriodKey = Literal["1h", "2h", "3h", "6h", "12h", "1d", "24h", "3d", "7d", "30d"]
 
 PERIOD_HOURS: dict[str, int] = {
     "1h": 1,
+    "2h": 2,
+    "3h": 3,
     "6h": 6,
     "12h": 12,
+    "1d": 24,
     "24h": 24,
     "3d": 72,
     "7d": 168,

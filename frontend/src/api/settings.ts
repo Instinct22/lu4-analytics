@@ -10,3 +10,8 @@ export async function getLevelPreset(): Promise<LevelRange> {
   const { data } = await api.get("/settings/level-preset");
   return { min: data.min, max: data.max };
 }
+
+export async function getCraftMonitorSelection(): Promise<{ selectedIds: number[] }> {
+  const { data } = await api.get("/settings/craft-monitor");
+  return data as { selectedIds: number[] };
+}

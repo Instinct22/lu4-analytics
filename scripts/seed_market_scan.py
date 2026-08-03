@@ -16,10 +16,10 @@ from sqlalchemy import delete, select
 
 from calculations.price_stats import recalculate_item_statistics
 from database import SessionLocal
-from models.analytics import AnalyticsDataset
 from models.market import ImportLog, MarketRecord
 from models.wiki import WikiEntity
 from schemas.market_scan import ScanRecord, ScanPrice
+from services import craft_service
 from services.market_scan_service import save_scan_batch
 
 EXTRA_NICK_PARTS = (
@@ -62,20 +62,26 @@ def clear_scan_data(db) -> tuple[int, int, list[uuid.UUID]]:
     return deleted_records, deleted_logs, entity_ids
 
 
-def load_craft_resources(db, rng: random.Random) -> list[tuple[str, Decimal]]:
-    dataset = db.scalar(
-        select(AnalyticsDataset).where(AnalyticsDataset.dataset_key == "craft_resources")
-    )
-    if dataset is None:
-        raise RuntimeError("craft_resources dataset not loaded. Run import_datasets.py first.")
+MASTER_COIN_EXTERNAL_ID = 4037
 
-    payload = dataset.payload
+
+def load_craft_resources(db, rng: random.Random) -> list[tuple[str, Decimal]]:
+    payload = craft_service.resource_materials(db)
+    materials = payload.get("materials") or []
+
     resource_ids: list[int] = []
     resource_names: dict[int, str] = {}
-    for section in ("base_materials", "craft_materials_lte_30"):
-        for material in payload.get(section, []):
-            resource_ids.append(material["id"])
-            resource_names[material["id"]] = material["name"]
+    for material in materials:
+        mid = material.get("id")
+        if mid is None:
+            continue
+        resource_ids.append(int(mid))
+        resource_names[int(mid)] = str(material.get("name") or mid)
+
+    # Always include Master Coin for craft-monitor seeding
+    if MASTER_COIN_EXTERNAL_ID not in resource_ids:
+        resource_ids.append(MASTER_COIN_EXTERNAL_ID)
+        resource_names[MASTER_COIN_EXTERNAL_ID] = "Master Coin"
 
     entities = db.scalars(
         select(WikiEntity)
@@ -88,10 +94,16 @@ def load_craft_resources(db, rng: random.Random) -> list[tuple[str, Decimal]]:
     for external_id in resource_ids:
         entity = by_external_id.get(external_id)
         name = entity.display_name if entity else resource_names[external_id]
-        items.append((name, base_price_for_item(name, rng)))
+        if external_id == MASTER_COIN_EXTERNAL_ID:
+            items.append((name, Decimal(rng.randint(50, 400))))
+        else:
+            items.append((name, base_price_for_item(name, rng)))
 
     if not items:
-        raise RuntimeError("No craft resources found in dataset.")
+        raise RuntimeError(
+            "No craft resources found. Import craft datasets / wiki first "
+            "(craft_resources_meta materials list is empty)."
+        )
     return items
 
 SELLER_PREFIXES = (
@@ -174,6 +186,8 @@ def build_seller_names(count: int, rng: random.Random) -> list[str]:
 
 def base_price_for_item(name: str, rng: random.Random) -> Decimal:
     lower = name.lower()
+    if "master coin" in lower:
+        return Decimal(rng.randint(50, 400))
     if "ore" in lower or "nugget" in lower:
         return Decimal(rng.randint(80, 900))
     if "mold" in lower or "steel" in lower:

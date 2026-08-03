@@ -1,7 +1,10 @@
 import uuid
 from datetime import datetime
+from decimal import Decimal
 
 from pydantic import BaseModel, Field
+
+from schemas.text import UnescapedStr
 
 
 class LoginRequest(BaseModel):
@@ -148,6 +151,14 @@ class UpdateLevelRestrictionRequest(BaseModel):
     max: int
 
 
+class CraftMonitorResponse(BaseModel):
+    selectedIds: list[int]
+
+
+class UpdateCraftMonitorRequest(BaseModel):
+    selectedIds: list[int]
+
+
 class PermissionGroup(BaseModel):
     id: str
     label: str
@@ -177,3 +188,23 @@ class CreateCustomRoleRequest(BaseModel):
     label: str
     preset_role: str = "user"
     key: str | None = None
+
+
+class MarketRecordAdminItem(BaseModel):
+    id: uuid.UUID
+    entity_id: uuid.UUID | None = None
+    item_name: UnescapedStr | None = None
+    product_name_raw: UnescapedStr
+    seller_name: str
+    price: Decimal
+    currency: str
+    side: str | None = None
+    quantity: int | None = None
+    recorded_at: datetime
+
+
+class MarketRecordsResponse(BaseModel):
+    items: list[MarketRecordAdminItem]
+    total: int
+    page: int
+    limit: int

@@ -57,9 +57,19 @@ const adminGroup: NavGroup = {
   isActive: (pathname) => pathname.startsWith("/admin") || pathname === "/settings",
 };
 
+const characterGroup: NavGroup = {
+  id: "character",
+  label: "Персонаж",
+  icon: "⚔",
+  children: [
+    { to: "/character", label: "Умения", icon: "⚔", permission: "nav.character", end: true },
+    { to: "/character/exp", label: "Exp", icon: "%", permission: "nav.character" },
+  ],
+  isActive: (pathname) => pathname.startsWith("/character"),
+};
+
 const topLevelLinks: NavLinkItem[] = [
   { to: "/items", label: "Предметы", icon: "▣", permission: "nav.items" },
-  { to: "/character", label: "Персонаж", icon: "⚔", permission: "nav.character" },
   { to: "/resources", label: "Ресурсы", icon: "◆", permission: "nav.resources" },
   { to: "/search", label: "Поиск", icon: "⌕", permission: "nav.search" },
   { to: "/raid-bosses", label: "Рейд Боссы", icon: "⚑", permission: "nav.raid_bosses" },
@@ -191,16 +201,24 @@ export default function MainLayout() {
 
   const analytics = useNavGroup(analyticsGroup, hasPermission);
   const craft = useNavGroup(craftGroup, hasPermission, dedupeCraftChildren);
+  const character = useNavGroup(characterGroup, hasPermission);
   const admin = useNavGroup(adminGroup, hasPermission);
   const visibleTopLevelLinks = useMemo(() => {
     const permitted = topLevelLinks.filter((l) => hasPermission(l.permission));
     const submenuItems = [
       ...analytics.visibleChildren,
       ...craft.visibleChildren,
+      ...character.visibleChildren,
       ...admin.visibleChildren,
     ];
     return filterTopLevelLinks(permitted, submenuItems);
-  }, [hasPermission, analytics.visibleChildren, craft.visibleChildren, admin.visibleChildren]);
+  }, [
+    hasPermission,
+    analytics.visibleChildren,
+    craft.visibleChildren,
+    character.visibleChildren,
+    admin.visibleChildren,
+  ]);
 
   useEffect(() => {
     document.documentElement.classList.add("dark");
@@ -261,6 +279,13 @@ export default function MainLayout() {
             open={craft.open}
             onToggle={() => craft.setOpen((v) => !v)}
             active={craft.active}
+          />
+          <SidebarNavGroup
+            group={characterGroup}
+            items={character.visibleChildren}
+            open={character.open}
+            onToggle={() => character.setOpen((v) => !v)}
+            active={character.active}
           />
           <SidebarNavGroup
             group={adminGroup}
