@@ -9,16 +9,19 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Any, Iterator
 
-from sqlalchemy import delete
+from sqlalchemy import delete, select
 from sqlalchemy.orm import Session
 
 from config import settings
 from models.craft import CraftItem, CraftMaterialSource, CraftRecipe, CraftRecipeMaterial
 from models.item_encyclopedia import ItemEncyclopedia
+from models.wiki import WikiEntity
 from services.dataset_import import register_normalizer, upsert_blob
 from services.encyclopedia_lib import sanitize_item_payload
-from services.name_matching import clean_display_name
+from services.import_service import rematch_market_records
+from services.name_matching import clean_display_name, normalize_product_name
 from services.normalizers.craft import CATALOG_META_KEY, _npc_level
+from calculations.price_stats import recalculate_item_statistics
 
 ENCYCLOPEDIA_META_KEY = "items_encyclopedia_meta"
 _NPC_LEVEL_RE = re.compile(r"Lv\.\s*(\d+)", re.IGNORECASE)
@@ -490,6 +493,50 @@ def _import_material_sources_from_encyclopedia(db: Session, payload: dict[str, A
     )
 
 
+def _sync_wiki_names_from_encyclopedia(db: Session) -> int:
+    """Fix truncated wiki recipe titles from encyclopedia; refresh normalized keys."""
+    enc_rows = db.scalars(select(ItemEncyclopedia)).all()
+    if not enc_rows:
+        return 0
+
+    by_id = {item.external_id: item for item in enc_rows}
+    entities = db.scalars(
+        select(WikiEntity).where(
+            WikiEntity.entity_type == "item",
+            WikiEntity.external_id.in_(list(by_id.keys())),
+        )
+    ).all()
+
+    updated = 0
+    for entity in entities:
+        src = by_id[entity.external_id]
+        wiki_display = (entity.display_name or "").strip()
+        # Wiki catalog often stores recipe scrolls as bare "Recipe".
+        if wiki_display.lower() in {"", "recipe"} and src.name:
+            display = clean_display_name(src.name)
+        else:
+            display = wiki_display or clean_display_name(src.name)
+        normalized = normalize_product_name(display)
+        if entity.display_name == display and entity.name_normalized == normalized:
+            continue
+        entity.display_name = display
+        entity.name_normalized = normalized
+        updated += 1
+    return updated
+
+
+def _refresh_wiki_item_name_normalized(db: Session) -> int:
+    """Recompute name_normalized for all wiki items after matching rules change."""
+    entities = db.scalars(select(WikiEntity).where(WikiEntity.entity_type == "item")).all()
+    updated = 0
+    for entity in entities:
+        normalized = normalize_product_name(entity.display_name or entity.name or "")
+        if entity.name_normalized != normalized:
+            entity.name_normalized = normalized
+            updated += 1
+    return updated
+
+
 @register_normalizer("items_encyclopedia")
 def normalize_items_encyclopedia(db: Session, payload: Any) -> None:
     if not isinstance(payload, dict):
@@ -531,3 +578,9 @@ def normalize_items_encyclopedia(db: Session, payload: Any) -> None:
 
     _import_craft_from_encyclopedia(db, payload)
     _import_material_sources_from_encyclopedia(db, payload)
+    _sync_wiki_names_from_encyclopedia(db)
+    _refresh_wiki_item_name_normalized(db)
+    _, affected = rematch_market_records(db)
+    db.flush()
+    for entity_id in affected:
+        recalculate_item_statistics(db, entity_id)
