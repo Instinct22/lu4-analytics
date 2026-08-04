@@ -29,6 +29,7 @@ import models.npc_loot  # noqa: F401
 import models.preferences  # noqa: F401
 import models.raid  # noqa: F401
 import models.raid_timer_log  # noqa: F401
+import models.trading  # noqa: F401
 
 config = context.config
 config.set_main_option("sqlalchemy.url", settings.database_url)

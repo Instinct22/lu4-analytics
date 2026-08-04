@@ -30,6 +30,7 @@ PERMISSIONS = (
     "nav.resources",
     "nav.search",
     "nav.raid_bosses",
+    "nav.trading",
     "nav.settings",
     "nav.admin",
     "feature.craft_prices",
@@ -39,6 +40,7 @@ PERMISSIONS = (
     "feature.raid_route",
     "feature.raid_timers_write",
     "feature.raid_visibility",
+    "feature.trading_write",
     "feature.level_unrestricted",
     "admin.roles_manage",
     "admin.logs_view",
@@ -57,6 +59,7 @@ PERMISSION_LABELS = {
     "nav.resources": "Ресурсы",
     "nav.search": "Поиск",
     "nav.raid_bosses": "Рейд Боссы",
+    "nav.trading": "Торговля (просмотр)",
     "nav.settings": "Настройки",
     "nav.admin": "Администрирование",
     "feature.craft_prices": "Цены в крафте",
@@ -66,6 +69,7 @@ PERMISSION_LABELS = {
     "feature.raid_route": "Доступ к маршруту РБ",
     "feature.raid_timers_write": "Управление временем респа РБ",
     "feature.raid_visibility": "Настройка списка РБ",
+    "feature.trading_write": "Торговля (редактирование)",
     "feature.level_unrestricted": "Уровни без ограничений",
     "admin.roles_manage": "Управление правами ролей",
     "admin.logs_view": "Журналы",
@@ -105,6 +109,11 @@ DEFAULT_PERMISSION_GROUPS: list[dict] = [
         ],
     },
     {
+        "id": "trading",
+        "label": "Торговля",
+        "permissions": ["nav.trading", "feature.trading_write"],
+    },
+    {
         "id": "administration",
         "label": "Администрирование",
         "permissions": ["nav.admin", "admin.users_quick_create", "admin.roles_manage", "admin.logs_view", "admin.level_preset", "admin.level_restriction"],
@@ -114,11 +123,16 @@ DEFAULT_PERMISSION_GROUPS: list[dict] = [
 _DRIVER_PERMS = frozenset({"nav.craft", "nav.items", "nav.character", "nav.settings"})
 _ADMIN_ONLY = frozenset({"nav.admin", "admin.roles_manage", "admin.logs_view"})
 _LEVEL_UNRESTRICTED = frozenset({"feature.level_unrestricted"})
+# Shared clan inventory — grant explicitly in admin UI (not default user nav).
+_TRADING_PERMS = frozenset({"nav.trading", "feature.trading_write"})
 
 _USER_NAV = frozenset(
     p
     for p in PERMISSIONS
-    if p not in _ADMIN_ONLY and not p.startswith("admin.") and p not in _LEVEL_UNRESTRICTED
+    if p not in _ADMIN_ONLY
+    and not p.startswith("admin.")
+    and p not in _LEVEL_UNRESTRICTED
+    and p not in _TRADING_PERMS
 )
 
 DEFAULT_PERMISSIONS: dict[str, frozenset[str]] = {

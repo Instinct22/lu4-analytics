@@ -79,6 +79,7 @@ export function defaultHomePath(permissions: string[] | undefined): string {
     ["nav.resources", "/resources"],
     ["nav.search", "/search"],
     ["nav.raid_bosses", "/raid-bosses"],
+    ["nav.trading", "/trading"],
     ["nav.admin", "/admin"],
   ] as const;
   for (const [perm, path] of order) {

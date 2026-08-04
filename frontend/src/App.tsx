@@ -24,6 +24,7 @@ const ExpCalculatorPage = lazy(() => import("./pages/ExpCalculator"));
 const AdminPage = lazy(() => import("./pages/Admin"));
 const RaidBossesPage = lazy(() => import("./pages/RaidBosses"));
 const SettingsPage = lazy(() => import("./pages/Settings"));
+const TradingPage = lazy(() => import("./pages/Trading"));
 
 const queryClient = new QueryClient();
 
@@ -176,6 +177,14 @@ export default function App() {
                 element={
                   <RequirePermission permission="nav.raid_bosses">
                     <RaidBossesPage />
+                  </RequirePermission>
+                }
+              />
+              <Route
+                path="/trading"
+                element={
+                  <RequirePermission permission="nav.trading">
+                    <TradingPage />
                   </RequirePermission>
                 }
               />

@@ -19,6 +19,7 @@ from api import (
     search,
     settings as app_settings,
     statistics,
+    trading,
     upgrades,
     wiki,
 )
@@ -78,6 +79,7 @@ app.include_router(character.router, prefix="/api/character", tags=["character"]
 app.include_router(craft.router, prefix="/api/craft", tags=["craft"])
 app.include_router(upgrades.router, prefix="/api/upgrades", tags=["upgrades"])
 app.include_router(items.router, prefix="/api/items", tags=["items"])
+app.include_router(trading.router, prefix="/api/trading", tags=["trading"])
 app.include_router(preferences.router, prefix="/api/me", tags=["preferences"])
 app.include_router(app_settings.router, prefix="/api/settings", tags=["settings"])
 
