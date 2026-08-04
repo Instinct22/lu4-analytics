@@ -90,7 +90,16 @@ def test_market_records_search_passes_query(client, mock_db, superadmin_user):
     exec_result.all.return_value = []
     mock_db.execute.return_value = exec_result
 
-    r = client.get("/api/admin/market-records", params={"search": "SellerOne"})
+    r = client.get(
+        "/api/admin/market-records",
+        params={
+            "seller": "SellerOne",
+            "product": "Sword",
+            "side": "sell",
+            "date_from": "2026-08-01T00:00:00Z",
+            "date_to": "2026-08-04T00:00:00Z",
+        },
+    )
     assert r.status_code == 200
     assert r.json()["total"] == 0
     assert mock_db.execute.called
@@ -122,4 +131,67 @@ def test_market_records_delete_admin_forbidden(client, mock_db, regular_admin):
     app.dependency_overrides[get_current_user] = lambda: regular_admin
     r = client.delete(f"/api/admin/market-records/{uuid.uuid4()}")
     assert r.status_code == 403
+    app.dependency_overrides.clear()
+
+
+def test_market_records_bulk_delete(client, mock_db, superadmin_user):
+    app.dependency_overrides[get_current_user] = lambda: superadmin_user
+    id1, id2 = uuid.uuid4(), uuid.uuid4()
+    rec1, rec2 = MagicMock(spec=MarketRecord), MagicMock(spec=MarketRecord)
+    mock_db.scalars.return_value.all.return_value = [rec1, rec2]
+
+    r = client.post("/api/admin/market-records/bulk-delete", json={"ids": [str(id1), str(id2)]})
+    assert r.status_code == 200
+    assert r.json()["deleted"] == 2
+    assert mock_db.delete.call_count == 2
+    mock_db.commit.assert_called()
+    app.dependency_overrides.clear()
+
+
+def test_market_records_bulk_update(client, mock_db, superadmin_user):
+    app.dependency_overrides[get_current_user] = lambda: superadmin_user
+    record_id = uuid.uuid4()
+    record = MagicMock(spec=MarketRecord)
+    record.id = record_id
+    record.price = Decimal("10")
+    mock_db.get.return_value = record
+
+    seller = MagicMock()
+    seller.id = uuid.uuid4()
+
+    with pytest.MonkeyPatch.context() as mp:
+        mp.setattr(
+            "services.admin_market_records.get_or_create_seller",
+            lambda db, name: seller,
+        )
+        mp.setattr(
+            "services.admin_market_records.find_item_by_name",
+            lambda db, name: None,
+        )
+        r = client.patch(
+            "/api/admin/market-records/bulk",
+            json={
+                "items": [
+                    {
+                        "id": str(record_id),
+                        "product_name_raw": "New Sword",
+                        "seller_name": "NewSeller",
+                        "price": "55.5",
+                        "currency": "adena",
+                        "side": "buy",
+                        "quantity": 3,
+                        "recorded_at": "2026-08-03T12:00:00Z",
+                    }
+                ]
+            },
+        )
+
+    assert r.status_code == 200
+    assert r.json()["updated"] == 1
+    assert record.product_name_raw == "New Sword"
+    assert record.price == Decimal("55.5")
+    assert record.side == "buy"
+    assert record.quantity == 3
+    assert record.seller_id == seller.id
+    mock_db.commit.assert_called()
     app.dependency_overrides.clear()

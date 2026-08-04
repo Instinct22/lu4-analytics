@@ -6,7 +6,7 @@ from typing import Annotated
 
 from fastapi import APIRouter, Depends, Query
 
-from api.deps import DbSession, require_any_permission, require_permission
+from api.deps import DbSession, require_any_permission
 from models.user import User
 from schemas.market import MarketItemsResponse, MarketTimelineResponse
 from schemas.trading import (
@@ -35,7 +35,10 @@ MarketUser = Annotated[
         )
     ),
 ]
-CraftPricesUser = Annotated[User, Depends(require_permission("feature.craft_prices"))]
+PricesByIdsUser = Annotated[
+    User,
+    Depends(require_any_permission("feature.craft_prices", "nav.trading")),
+]
 
 
 @router.get("/timeline", response_model=MarketTimelineResponse)
@@ -63,7 +66,7 @@ def market_items(
 @router.get("/prices-by-ids")
 def prices_by_ids(
     db: DbSession,
-    user: CraftPricesUser,
+    user: PricesByIdsUser,
     ids: str = Query(..., description="Comma-separated item external IDs"),
 ):
     return market_service.prices_by_ids(db, ids)

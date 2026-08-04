@@ -226,13 +226,54 @@ export interface MarketRecordsResponse {
   limit: number;
 }
 
-export async function listMarketRecords(page = 1, limit = 50, search?: string) {
-  const { data } = await api.get("/admin/market-records", {
-    params: { page, limit, ...(search ? { search } : {}) },
-  });
+export interface MarketRecordsFilters {
+  search?: string;
+  date_from?: string;
+  date_to?: string;
+  product?: string;
+  seller?: string;
+  price?: string;
+  currency?: string;
+  side?: string;
+  quantity?: string;
+}
+
+export interface MarketRecordUpdateItem {
+  id: string;
+  product_name_raw: string;
+  seller_name: string;
+  price: number;
+  currency: string;
+  side: string | null;
+  quantity: number | null;
+  recorded_at: string;
+}
+
+export async function listMarketRecords(
+  page = 1,
+  limit = 50,
+  filters: MarketRecordsFilters = {},
+) {
+  const params: Record<string, string | number> = { page, limit };
+  for (const [key, value] of Object.entries(filters)) {
+    if (value != null && String(value).trim() !== "") {
+      params[key] = String(value).trim();
+    }
+  }
+  const { data } = await api.get("/admin/market-records", { params });
   return data as MarketRecordsResponse;
 }
 
 export async function deleteMarketRecord(id: string) {
   await api.delete(`/admin/market-records/${id}`);
+}
+
+export async function bulkUpdateMarketRecords(items: MarketRecordUpdateItem[]) {
+  const { data } = await api.patch("/admin/market-records/bulk", { items });
+  return data as { updated: number };
+}
+
+export async function bulkDeleteMarketRecords(ids: string[]) {
+  const { data } = await api.post("/admin/market-records/bulk-delete", { ids });
+  return data as { deleted: number };
 }

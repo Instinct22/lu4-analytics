@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import uuid
+from datetime import datetime
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Request, status
 from sqlalchemy import func, select
@@ -29,6 +30,8 @@ from schemas.auth import (
     CreateCustomRoleRequest,
     LoginLogItem,
     LoginLogsResponse,
+    BulkDeleteMarketRecordsRequest,
+    BulkUpdateMarketRecordsRequest,
     MarketRecordsResponse,
     PermissionEntry,
     PermissionGroup,
@@ -51,7 +54,12 @@ from schemas.auth import (
     UserCreationLogsResponse,
     UserResponse,
 )
-from services.admin_market_records import delete_market_record, list_market_records
+from services.admin_market_records import (
+    bulk_delete_market_records,
+    bulk_update_market_records,
+    delete_market_record,
+    list_market_records,
+)
 from services.admin_settings import (
     generate_password,
     generate_username,
@@ -275,9 +283,52 @@ def admin_list_market_records(
     page: int = Query(1, ge=1),
     limit: int = Query(50, ge=1, le=50),
     search: str | None = Query(None, max_length=128),
+    date_from: datetime | None = Query(None),
+    date_to: datetime | None = Query(None),
+    product: str | None = Query(None, max_length=128),
+    seller: str | None = Query(None, max_length=128),
+    price: str | None = Query(None, max_length=64),
+    currency: str | None = Query(None, max_length=32),
+    side: str | None = Query(None, max_length=16),
+    quantity: str | None = Query(None, max_length=32),
 ):
     _require_superadmin(admin)
-    return list_market_records(db, page=page, limit=limit, search=search)
+    return list_market_records(
+        db,
+        page=page,
+        limit=limit,
+        search=search,
+        date_from=date_from,
+        date_to=date_to,
+        product=product,
+        seller=seller,
+        price=price,
+        currency=currency,
+        side=side,
+        quantity=quantity,
+    )
+
+
+@router.patch("/market-records/bulk")
+def admin_bulk_update_market_records(
+    body: BulkUpdateMarketRecordsRequest,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_superadmin(admin)
+    updated = bulk_update_market_records(db, body)
+    return {"updated": updated}
+
+
+@router.post("/market-records/bulk-delete")
+def admin_bulk_delete_market_records(
+    body: BulkDeleteMarketRecordsRequest,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_superadmin(admin)
+    deleted = bulk_delete_market_records(db, body)
+    return {"deleted": deleted}
 
 
 @router.delete("/market-records/{record_id}", status_code=status.HTTP_204_NO_CONTENT)

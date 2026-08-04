@@ -73,6 +73,7 @@ const topLevelLinks: NavLinkItem[] = [
   { to: "/resources", label: "Ресурсы", icon: "◆", permission: "nav.resources" },
   { to: "/search", label: "Поиск", icon: "⌕", permission: "nav.search" },
   { to: "/raid-bosses", label: "Рейд Боссы", icon: "⚑", permission: "nav.raid_bosses" },
+  { to: "/trading", label: "Торговля", icon: "⚖", permission: "nav.trading" },
   { to: "/settings", label: "Настройки", icon: "◎", permission: "nav.settings" },
 ];
 

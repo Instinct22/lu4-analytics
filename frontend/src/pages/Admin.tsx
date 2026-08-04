@@ -1,15 +1,13 @@
-import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
+import { FormEvent, useEffect, useMemo, useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import {
   createCustomRole,
   createUser,
   deleteCustomRole,
-  deleteMarketRecord,
   deleteUser,
   getPublicRoles,
   listCustomRoles,
   listLoginLogs,
-  listMarketRecords,
   listRaidTimerLogs,
   listRolePermissions,
   listUserCreationLogs,
@@ -22,8 +20,10 @@ import {
   type RolePermissions,
 } from "../api/admin";
 import type { Role } from "../api/auth";
+import AdminMarketRecords from "../components/admin/AdminMarketRecords";
 import { PageHeader, LoadingState } from "../components/ui";
 import { useAuth } from "../hooks/useAuth";
+import { copyText } from "../lib/copyText";
 
 const FALLBACK_PERMISSION_GROUPS = [
   {
@@ -54,6 +54,11 @@ const FALLBACK_PERMISSION_GROUPS = [
     ],
   },
   {
+    id: "trading",
+    label: "Торговля",
+    permissions: ["nav.trading", "feature.trading_write"],
+  },
+  {
     id: "administration",
     label: "Администрирование",
     permissions: ["nav.admin", "admin.users_quick_create", "admin.roles_manage", "admin.logs_view", "admin.level_preset", "admin.level_restriction"],
@@ -80,6 +85,7 @@ const PRESET_ROLE_OPTIONS: { value: Role; label: string }[] = [
 const PERMISSION_REQUIRES: Record<string, string> = {
   "feature.raid_timers_write": "feature.raid_timers_view",
   "feature.raid_visibility": "nav.raid_bosses",
+  "feature.trading_write": "nav.trading",
 };
 
 function applyPermissionRules(draft: Record<string, boolean>): Record<string, boolean> {
@@ -105,8 +111,6 @@ function isPermissionDisabled(permission: string, draft: Record<string, boolean>
 type AdminTab = "users" | "roles" | "publicRoles" | "customRoles" | "logs" | "database";
 type LogSubTab = "logins" | "raids" | "creations";
 
-const MARKET_RECORDS_LIMIT = 50;
-
 function formatLoginAt(iso: string) {
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return iso;
@@ -122,16 +126,6 @@ function formatLoginAt(iso: string) {
 
 function formatRaidAction(action: string) {
   return action === "clear" ? "Сброс" : "Установка";
-}
-
-function formatMarketPrice(value: number | string) {
-  return Number(value).toLocaleString("ru-RU", { maximumFractionDigits: 2 });
-}
-
-function formatMarketSide(side: string | null) {
-  if (side === "buy") return "Покупка";
-  if (side === "sell") return "Продажа";
-  return side || "—";
 }
 
 export default function AdminPage() {
@@ -167,11 +161,6 @@ export default function AdminPage() {
     type: "success" | "error";
     text: string;
   } | null>(null);
-  const [dbPage, setDbPage] = useState(1);
-  const [dbSearch, setDbSearch] = useState("");
-  const [dbDebouncedSearch, setDbDebouncedSearch] = useState("");
-  const dbSearchDebounceRef = useRef<number>();
-
   const usersQuery = useQuery({ queryKey: ["admin-users"], queryFn: listUsers });
   const rolesQuery = useQuery({
     queryKey: ["admin-roles"],
@@ -203,15 +192,6 @@ export default function AdminPage() {
     queryFn: () => listUserCreationLogs(creationPage, LOGIN_LOGS_LIMIT),
     enabled: canViewLogs && tab === "logs" && logSubTab === "creations",
   });
-  const marketRecordsQuery = useQuery({
-    queryKey: ["admin-market-records", dbPage, dbDebouncedSearch],
-    queryFn: () =>
-      listMarketRecords(dbPage, MARKET_RECORDS_LIMIT, dbDebouncedSearch || undefined),
-    enabled: isSuperadmin && tab === "database",
-    refetchInterval: tab === "database" ? 5000 : false,
-    placeholderData: (prev) => prev,
-  });
-
   const allRoleOptions = useMemo(() => {
     const custom =
       customRolesQuery.data?.items.map((r) => ({ value: r.key as Role, label: r.label })) ?? [];
@@ -234,7 +214,7 @@ export default function AdminPage() {
   const permissionGroups = FALLBACK_PERMISSION_GROUPS;
 
   const groupedPermissions = useMemo(
-    () => new Set(permissionGroups.flatMap((g) => g.permissions)),
+    () => new Set<string>(permissionGroups.flatMap((g) => [...g.permissions])),
     [permissionGroups],
   );
 
@@ -313,11 +293,6 @@ export default function AdminPage() {
       qc.invalidateQueries({ queryKey: ["admin-public-roles"] });
       qc.invalidateQueries({ queryKey: ["admin-users"] });
     },
-  });
-
-  const deleteMarketRecordMut = useMutation({
-    mutationFn: deleteMarketRecord,
-    onSuccess: () => qc.invalidateQueries({ queryKey: ["admin-market-records"] }),
   });
 
   const roleMatrix: RolePermissions | undefined = useMemo(
@@ -422,20 +397,7 @@ export default function AdminPage() {
   );
 
   const copyCredentials = async (text: string) => {
-    try {
-      await navigator.clipboard.writeText(text);
-    } catch {
-      // ignore
-    }
-  };
-
-  const onDbSearchChange = (value: string) => {
-    setDbSearch(value);
-    window.clearTimeout(dbSearchDebounceRef.current);
-    dbSearchDebounceRef.current = window.setTimeout(() => {
-      setDbDebouncedSearch(value.trim());
-      setDbPage(1);
-    }, 300);
+    await copyText(text);
   };
 
   const tabButtons: { id: AdminTab; label: string; show: boolean }[] = [
@@ -450,12 +412,6 @@ export default function AdminPage() {
   const loginTotalPages = Math.max(1, Math.ceil(loginTotal / (loginLogsQuery.data?.limit ?? LOGIN_LOGS_LIMIT)));
   const raidTotal = raidLogsQuery.data?.total ?? 0;
   const raidTotalPages = Math.max(1, Math.ceil(raidTotal / (raidLogsQuery.data?.limit ?? LOGIN_LOGS_LIMIT)));
-  const dbTotal = marketRecordsQuery.data?.total ?? 0;
-  const dbTotalPages = Math.max(
-    1,
-    Math.ceil(dbTotal / (marketRecordsQuery.data?.limit ?? MARKET_RECORDS_LIMIT)),
-  );
-
   return (
     <div>
       <PageHeader title="Администрирование" />
@@ -1263,151 +1219,7 @@ export default function AdminPage() {
         </div>
       )}
 
-      {activeTab === "database" && isSuperadmin && (
-        <div className="space-y-4">
-          <div className="panel flex flex-wrap items-end gap-3 p-5">
-            <div className="min-w-[220px] flex-1">
-              <label className="mb-1 block text-xs font-medium uppercase tracking-wider text-zinc-500">
-                Поиск
-              </label>
-              <input
-                className="input w-full"
-                placeholder="Товар, продавец, цена, сторона, валюта…"
-                value={dbSearch}
-                onChange={(e) => onDbSearchChange(e.target.value)}
-              />
-            </div>
-            <p className="text-xs text-zinc-500">
-              Таблица market_records · автообновление каждые 5 сек
-            </p>
-          </div>
-
-          <div className="card overflow-hidden p-0">
-            <div className="border-b border-zinc-800/80 px-5 py-4">
-              <h3 className="text-sm font-semibold text-zinc-200">Записи рынка</h3>
-              <p className="mt-1 text-xs text-zinc-500">
-                Сырые данные, из которых строятся графики. Удаляйте ошибочные записи.
-              </p>
-            </div>
-            {marketRecordsQuery.isLoading ? (
-              <div className="p-8">
-                <LoadingState />
-              </div>
-            ) : marketRecordsQuery.isError ? (
-              <p className="px-5 py-8 text-sm text-red-300">Не удалось загрузить записи</p>
-            ) : (
-              <>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-sm">
-                    <thead>
-                      <tr className="border-b border-zinc-800/80 bg-zinc-900/40 text-left text-xs uppercase tracking-wider text-zinc-500">
-                        <th className="px-5 py-3 font-medium">Дата</th>
-                        <th className="px-5 py-3 font-medium">Товар</th>
-                        <th className="px-5 py-3 font-medium">Продавец</th>
-                        <th className="px-5 py-3 font-medium">Цена</th>
-                        <th className="px-5 py-3 font-medium">Валюта</th>
-                        <th className="px-5 py-3 font-medium">Сторона</th>
-                        <th className="px-5 py-3 font-medium">Кол-во</th>
-                        <th className="px-5 py-3 font-medium">Действия</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {(marketRecordsQuery.data?.items ?? []).length === 0 ? (
-                        <tr>
-                          <td colSpan={8} className="px-5 py-8 text-center text-zinc-500">
-                            {dbDebouncedSearch ? "Ничего не найдено" : "Записей пока нет"}
-                          </td>
-                        </tr>
-                      ) : (
-                        (marketRecordsQuery.data?.items ?? []).map((row) => (
-                          <tr key={row.id} className="border-b border-zinc-800/50">
-                            <td className="whitespace-nowrap px-5 py-3 text-zinc-300">
-                              {formatLoginAt(row.recorded_at)}
-                            </td>
-                            <td className="px-5 py-3 text-zinc-200">
-                              <p className="font-medium">{row.item_name || row.product_name_raw}</p>
-                              {row.item_name && row.product_name_raw !== row.item_name && (
-                                <p className="text-[0.65rem] text-zinc-500">{row.product_name_raw}</p>
-                              )}
-                            </td>
-                            <td className="px-5 py-3 text-zinc-300">{row.seller_name}</td>
-                            <td className="px-5 py-3 font-mono text-xs text-zinc-200">
-                              {formatMarketPrice(row.price)}
-                            </td>
-                            <td className="px-5 py-3 text-zinc-400">{row.currency}</td>
-                            <td className="px-5 py-3">
-                              <span
-                                className={`rounded-lg px-2 py-0.5 text-xs font-medium ${
-                                  row.side === "buy"
-                                    ? "bg-emerald-950/60 text-emerald-300"
-                                    : row.side === "sell"
-                                      ? "bg-amber-950/60 text-amber-300"
-                                      : "bg-zinc-800 text-zinc-400"
-                                }`}
-                              >
-                                {formatMarketSide(row.side)}
-                              </span>
-                            </td>
-                            <td className="px-5 py-3 text-zinc-300">
-                              {row.quantity ?? "—"}
-                            </td>
-                            <td className="px-5 py-3">
-                              <button
-                                type="button"
-                                className="text-xs text-red-400 hover:text-red-300 disabled:opacity-40"
-                                disabled={deleteMarketRecordMut.isPending}
-                                onClick={() => {
-                                  const label = row.item_name || row.product_name_raw;
-                                  if (
-                                    confirm(
-                                      `Удалить запись «${label}» от ${formatLoginAt(row.recorded_at)}?`,
-                                    )
-                                  ) {
-                                    deleteMarketRecordMut.mutate(row.id);
-                                  }
-                                }}
-                              >
-                                Удалить
-                              </button>
-                            </td>
-                          </tr>
-                        ))
-                      )}
-                    </tbody>
-                  </table>
-                </div>
-                <div className="flex items-center justify-between border-t border-zinc-800/80 px-5 py-3 text-xs text-zinc-500">
-                  <span>
-                    {dbTotal.toLocaleString("ru-RU")} записей
-                    {marketRecordsQuery.isFetching && " · обновление..."}
-                  </span>
-                  <div className="flex items-center gap-2">
-                    <button
-                      type="button"
-                      disabled={dbPage <= 1}
-                      onClick={() => setDbPage((p) => Math.max(1, p - 1))}
-                      className="btn-ghost px-2 py-1 disabled:opacity-40"
-                    >
-                      ←
-                    </button>
-                    <span>
-                      {dbPage} / {dbTotalPages}
-                    </span>
-                    <button
-                      type="button"
-                      disabled={dbPage >= dbTotalPages}
-                      onClick={() => setDbPage((p) => p + 1)}
-                      className="btn-ghost px-2 py-1 disabled:opacity-40"
-                    >
-                      →
-                    </button>
-                  </div>
-                </div>
-              </>
-            )}
-          </div>
-        </div>
-      )}
+      {activeTab === "database" && isSuperadmin && <AdminMarketRecords />}
 
       {quickCreateOpen && quickCreateResult && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4">

@@ -1,6 +1,7 @@
 import { useCallback, useMemo, useRef, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { getTrades } from "../../api/market";
+import { copyText } from "../../lib/copyText";
 import { PeriodState, periodQueryParams } from "./periodUtils";
 
 interface TradeRow {
@@ -22,7 +23,12 @@ interface Props {
 type SortKey = "recorded_at" | "price" | "quantity" | "seller_name";
 
 const ROW_HEIGHT = 44;
+const HEADER_HEIGHT = 40;
 const VISIBLE_ROWS = 12;
+
+/** Shared column track — header and every row must use the exact same template. */
+const COLS =
+  "grid-cols-[10rem_minmax(0,1fr)_4.75rem_5.25rem_6.5rem] min-[520px]:grid-cols-[10.5rem_minmax(0,1.2fr)_5rem_5.5rem_7rem]";
 
 function formatPrice(value: number): string {
   return Number(value).toLocaleString("ru-RU", { maximumFractionDigits: 2 });
@@ -32,7 +38,8 @@ function CopyButton({ text }: { text: string }) {
   const [copied, setCopied] = useState(false);
 
   const copy = async () => {
-    await navigator.clipboard.writeText(text);
+    const ok = await copyText(text);
+    if (!ok) return;
     setCopied(true);
     window.setTimeout(() => setCopied(false), 1500);
   };
@@ -41,7 +48,7 @@ function CopyButton({ text }: { text: string }) {
     <button
       type="button"
       onClick={copy}
-      className="rounded-lg border border-zinc-700/80 px-2 py-1 text-[0.65rem] text-zinc-400 transition-colors hover:border-amber-500/40 hover:text-amber-400"
+      className="shrink-0 rounded border border-zinc-700/80 px-1.5 py-0.5 text-[0.65rem] leading-none text-zinc-400 transition-colors hover:border-amber-500/40 hover:text-amber-400"
       title="Копировать ник"
     >
       {copied ? "✓" : "⎘"}
@@ -114,6 +121,9 @@ export default function TradesTable({ title, side, entityId, period }: Props) {
     if (scrollRef.current) setScrollTop(scrollRef.current.scrollTop);
   }, []);
 
+  const headCell =
+    "flex items-center px-2 text-[0.65rem] font-medium uppercase tracking-wider text-zinc-500";
+
   return (
     <div className="card">
       <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
@@ -127,68 +137,84 @@ export default function TradesTable({ title, side, entityId, period }: Props) {
         />
       </div>
 
-      <div className="overflow-x-auto rounded-xl border border-zinc-800/80">
-        <table className="w-full min-w-[640px] text-left text-sm">
-          <thead className="bg-zinc-950/60 text-xs uppercase tracking-wider text-zinc-500">
-            <tr>
-              <th className="cursor-pointer px-4 py-3" onClick={() => toggleSort("recorded_at")}>
-                Время{sortIndicator("recorded_at")}
-              </th>
-              <th className="cursor-pointer px-4 py-3" onClick={() => toggleSort("seller_name")}>
-                {side === "buy" ? "Покупатель" : "Продавец"}
-                {sortIndicator("seller_name")}
-              </th>
-              <th className="px-4 py-3" />
-              <th className="cursor-pointer px-4 py-3 text-right" onClick={() => toggleSort("quantity")}>
-                Кол-во{sortIndicator("quantity")}
-              </th>
-              <th className="cursor-pointer px-4 py-3 text-right" onClick={() => toggleSort("price")}>
-                Цена{sortIndicator("price")}
-              </th>
-              <th className="px-4 py-3 text-right">Сумма</th>
-            </tr>
-          </thead>
-        </table>
+      <div
+        ref={scrollRef}
+        onScroll={rows.length ? onScroll : undefined}
+        className="overflow-y-auto overflow-x-hidden rounded-xl border border-zinc-800/80 [scrollbar-gutter:stable]"
+        style={{ height: HEADER_HEIGHT + ROW_HEIGHT * VISIBLE_ROWS }}
+      >
+        <div
+          className={`sticky top-0 z-10 grid ${COLS} border-b border-zinc-800/80 bg-zinc-950`}
+          style={{ height: HEADER_HEIGHT }}
+        >
+          <button
+            type="button"
+            className={`${headCell} cursor-pointer text-left hover:text-zinc-300`}
+            onClick={() => toggleSort("recorded_at")}
+          >
+            Время{sortIndicator("recorded_at")}
+          </button>
+          <button
+            type="button"
+            className={`${headCell} cursor-pointer text-left hover:text-zinc-300`}
+            onClick={() => toggleSort("seller_name")}
+          >
+            {side === "buy" ? "Покупатель" : "Продавец"}
+            {sortIndicator("seller_name")}
+          </button>
+          <button
+            type="button"
+            className={`${headCell} cursor-pointer justify-end hover:text-zinc-300`}
+            onClick={() => toggleSort("quantity")}
+          >
+            Кол-во{sortIndicator("quantity")}
+          </button>
+          <button
+            type="button"
+            className={`${headCell} cursor-pointer justify-end hover:text-zinc-300`}
+            onClick={() => toggleSort("price")}
+          >
+            Цена{sortIndicator("price")}
+          </button>
+          <div className={`${headCell} justify-end`}>Сумма</div>
+        </div>
 
         {isLoading ? (
           <p className="px-4 py-8 text-center text-sm text-zinc-500">Загрузка...</p>
         ) : !rows.length ? (
           <p className="px-4 py-8 text-center text-sm text-zinc-500">Нет данных</p>
         ) : (
-          <div
-            ref={scrollRef}
-            onScroll={onScroll}
-            className="overflow-y-auto"
-            style={{ maxHeight: ROW_HEIGHT * VISIBLE_ROWS }}
-          >
-            <div style={{ height: rows.length * ROW_HEIGHT, position: "relative" }}>
-              <table
-                className="absolute w-full min-w-[640px] text-left text-sm"
-                style={{ top: virtualRows.offset }}
-              >
-                <tbody className="divide-y divide-zinc-800/60">
-                  {rows.slice(virtualRows.start, virtualRows.end).map((row) => (
-                    <tr key={row.id} className="hover:bg-zinc-900/50" style={{ height: ROW_HEIGHT }}>
-                      <td className="px-4 py-2 tabular-nums text-zinc-400">
-                        {new Date(row.recorded_at).toLocaleString("ru-RU")}
-                      </td>
-                      <td className="max-w-[180px] truncate px-4 py-2 font-medium text-zinc-200">
-                        {row.seller_name}
-                      </td>
-                      <td className="px-4 py-2">
-                        <CopyButton text={row.seller_name} />
-                      </td>
-                      <td className="px-4 py-2 text-right tabular-nums text-zinc-300">{row.quantity}</td>
-                      <td className="px-4 py-2 text-right tabular-nums text-zinc-200">
-                        {formatPrice(row.price)}
-                      </td>
-                      <td className="px-4 py-2 text-right tabular-nums text-amber-400/90">
-                        {formatPrice(row.total_cost)}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+          <div style={{ height: rows.length * ROW_HEIGHT, position: "relative" }}>
+            <div className="absolute inset-x-0" style={{ top: virtualRows.offset }}>
+              {rows.slice(virtualRows.start, virtualRows.end).map((row) => (
+                <div
+                  key={row.id}
+                  className={`grid ${COLS} items-center border-b border-zinc-800/60 hover:bg-zinc-900/50`}
+                  style={{ height: ROW_HEIGHT }}
+                >
+                  <div className="min-w-0 truncate px-2 text-sm tabular-nums text-zinc-400">
+                    {new Date(row.recorded_at).toLocaleString("ru-RU")}
+                  </div>
+                  <div className="flex min-w-0 items-center gap-1.5 px-2">
+                    <span
+                      className="min-w-0 truncate text-sm font-medium text-zinc-200"
+                      title={row.seller_name}
+                    >
+                      {row.seller_name}
+                    </span>
+                    <CopyButton text={row.seller_name} />
+                  </div>
+                  <div className="min-w-0 truncate px-2 text-right text-sm tabular-nums text-zinc-300">
+                    {row.quantity.toLocaleString("ru-RU")}
+                  </div>
+                  <div className="min-w-0 truncate px-2 text-right text-sm tabular-nums text-zinc-200">
+                    {formatPrice(row.price)}
+                  </div>
+                  <div className="min-w-0 truncate px-2 text-right text-sm tabular-nums text-amber-400/90">
+                    {formatPrice(row.total_cost)}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         )}

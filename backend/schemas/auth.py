@@ -208,3 +208,22 @@ class MarketRecordsResponse(BaseModel):
     total: int
     page: int
     limit: int
+
+
+class MarketRecordUpdateItem(BaseModel):
+    id: uuid.UUID
+    product_name_raw: str
+    seller_name: str
+    price: Decimal
+    currency: str
+    side: str | None = None
+    quantity: int | None = None
+    recorded_at: datetime
+
+
+class BulkUpdateMarketRecordsRequest(BaseModel):
+    items: list[MarketRecordUpdateItem]
+
+
+class BulkDeleteMarketRecordsRequest(BaseModel):
+    ids: list[uuid.UUID]
