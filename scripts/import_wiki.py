@@ -79,6 +79,52 @@ def extract_slug_from_url(url: str) -> str:
     return parts[-1] if parts else slugify(url)
 
 
+def load_craft_item_names() -> dict[int, str]:
+    """Map external item id → display name from craft/encyclopedia datasets."""
+    names: dict[int, str] = {}
+    for filename in ("craft_catalog.json", "items_encyclopedia.json"):
+        path = datasets_root() / filename
+        if not path.exists():
+            continue
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        items = payload.get("items") if isinstance(payload, dict) else None
+        if not isinstance(items, dict):
+            continue
+        for raw_id, item in items.items():
+            if not isinstance(item, dict):
+                continue
+            name = item.get("name")
+            if not name:
+                continue
+            try:
+                eid = int(item["id"]) if isinstance(item.get("id"), int) else int(raw_id)
+            except (TypeError, ValueError):
+                continue
+            names[eid] = str(name)
+    return names
+
+
+def resolve_item_display_name(
+    name: str,
+    *,
+    external_id: int | None,
+    craft_names: dict[int, str],
+) -> str:
+    display = clean_display_name(name)
+    if external_id is None:
+        return display
+    craft_name = craft_names.get(external_id)
+    if not craft_name:
+        return display
+    # Wiki catalog often truncates recipe scrolls to bare "Recipe".
+    if display.strip().lower() in {"", "recipe"}:
+        return clean_display_name(craft_name)
+    return display
+
+
 def import_entities(db: Session, base: Path, categories: dict[str, uuid.UUID]) -> dict[str, uuid.UUID]:
     catalog_path = base / "library/index/catalog.jsonl"
     if not catalog_path.exists():
@@ -90,6 +136,7 @@ def import_entities(db: Session, base: Path, categories: dict[str, uuid.UUID]) -
     }
     key_to_id: dict[str, uuid.UUID] = {k: e.id for k, e in existing.items()}
     images_dir = base / "images"
+    craft_names = load_craft_item_names()
     created = updated = 0
 
     with catalog_path.open(encoding="utf-8") as f:
@@ -99,7 +146,11 @@ def import_entities(db: Session, base: Path, categories: dict[str, uuid.UUID]) -
             entity_type = row.get("type") or "page"
             external_id = row.get("id")
             name = row.get("name") or entity_key
-            display = clean_display_name(name)
+            display = (
+                resolve_item_display_name(name, external_id=external_id, craft_names=craft_names)
+                if entity_type == "item"
+                else clean_display_name(name)
+            )
             url = row.get("url") or ""
             data_rel = row.get("data")
             page_rel = row.get("page")

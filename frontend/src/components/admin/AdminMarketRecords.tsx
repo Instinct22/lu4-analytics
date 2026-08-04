@@ -9,6 +9,7 @@ import {
   type MarketRecordsFilters,
 } from "../../api/admin";
 import { LoadingState } from "../ui";
+import AdminMarketStatistics from "./AdminMarketStatistics";
 
 const LIMIT = 50;
 
@@ -84,8 +85,11 @@ const emptyFilters: MarketRecordsFilters = {
 
 const filterInputClass = "input mt-1 w-full min-w-[6rem] px-2 py-1 text-xs";
 
+type DatabaseSubTab = "records" | "statistics";
+
 export default function AdminMarketRecords() {
   const qc = useQueryClient();
+  const [subTab, setSubTab] = useState<DatabaseSubTab>("records");
   const [page, setPage] = useState(1);
   const [filters, setFilters] = useState<MarketRecordsFilters>(emptyFilters);
   const [debounced, setDebounced] = useState<MarketRecordsFilters>(emptyFilters);
@@ -120,7 +124,8 @@ export default function AdminMarketRecords() {
       }
       return listMarketRecords(page, LIMIT, filtersForApi);
     },
-    refetchInterval: editing ? false : 5000,
+    enabled: subTab === "records",
+    refetchInterval: editing || subTab !== "records" ? false : 5000,
     placeholderData: (prev) => prev,
   });
 
@@ -261,6 +266,32 @@ export default function AdminMarketRecords() {
 
   return (
     <div className="space-y-4">
+      <div className="flex gap-1 rounded-xl bg-zinc-800/80 p-1 w-fit">
+        {(
+          [
+            ["records", "База данных"],
+            ["statistics", "Статистика"],
+          ] as const
+        ).map(([id, label]) => (
+          <button
+            key={id}
+            type="button"
+            className={`rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors ${
+              subTab === id
+                ? "bg-amber-600 text-zinc-950"
+                : "text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
+            }`}
+            onClick={() => setSubTab(id)}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {subTab === "statistics" && <AdminMarketStatistics />}
+
+      {subTab === "records" && (
+      <>
       <div className="panel space-y-3 p-5">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
@@ -648,6 +679,8 @@ export default function AdminMarketRecords() {
           </>
         )}
       </div>
+      </>
+      )}
     </div>
   );
 }
