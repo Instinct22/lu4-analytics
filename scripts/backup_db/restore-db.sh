@@ -21,7 +21,10 @@ if [ -z "$DUMP_FILE" ]; then
   echo "Usage: bash scripts/restore-db.sh <path-to.dump>"
   echo ""
   echo "Available backups:"
-  ls -lh backups/lu4-db-*.dump 2>/dev/null || echo "  (none in backups/)"
+  echo "  /opt/backup:"
+  ls -lh /opt/backup/lu4-db-*.dump 2>/dev/null || echo "    (none)"
+  echo "  backups/:"
+  ls -lh backups/lu4-db-*.dump 2>/dev/null || echo "    (none)"
   exit 1
 fi
 
