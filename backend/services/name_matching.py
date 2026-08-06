@@ -1,6 +1,7 @@
 import html
 import re
 import unicodedata
+from dataclasses import dataclass
 
 
 WIKI_PREFIX_RE = re.compile(
@@ -19,6 +20,94 @@ GRADE_PAREN_RE = re.compile(
 TRAILING_NG_RE = re.compile(r"\s+NG\s*$", re.IGNORECASE)
 TRAILING_GRADE_LETTER_RE = re.compile(r"\s+([DCBAS])\s*$", re.IGNORECASE)
 APOSTROPHE_RE = re.compile(r"[''`ʼʹ]")
+
+# Leading enchant marker on in-game names, e.g. "+3 Conjurer's Knife Acumen".
+ENCHANT_PREFIX_RE = re.compile(r"^\+(\d{1,3})\s+")
+
+# Weapon Soul Ability suffixes that the game appends to the base item name.
+# Superset of scripts/craft_catalog/item_variants.py::SA_MODIFIERS — extended
+# with every soul-ability name present in the items encyclopedia so market names
+# fold onto their base. Excludes garbage tokens like "of Peril" (a bad catalog
+# entry) that would strip real base words.
+SA_MODIFIERS: tuple[str, ...] = (
+    "Critical Damage",
+    "Critical Rate",
+    "Critical Bleed",
+    "Critical Stun",
+    "Magic Paralyze",
+    "Magic Weakness",
+    "Magic Silence",
+    "Magic Regeneration",
+    "Magic Focus",
+    "Magic Power",
+    "Magic Poison",
+    "Magic Chaos",
+    "Magic Hold",
+    "Mental Shield",
+    "Blessed Body",
+    "Back Blow",
+    "Rsk. Focus",
+    "Rsk. Haste",
+    "Conversion",
+    "Guidance",
+    "Empower",
+    "Acumen",
+    "Anger",
+    "Cheap Shot",
+    "Quick Recovery",
+    "Towering Blow",
+    "Wide Blow",
+    "Wild Blow",
+    "Mana Up",
+    "M. Atk.",
+    "Health",
+    "Focus",
+    "Haste",
+    "Evasion",
+)
+# Longest-first so "Magic Focus" wins over "Focus", "Rsk. Haste" over "Haste".
+_SA_MODIFIERS_BY_LEN: tuple[str, ...] = tuple(sorted(SA_MODIFIERS, key=len, reverse=True))
+
+
+@dataclass(frozen=True)
+class ParsedMarketName:
+    """Structured breakdown of a raw in-game market item name."""
+
+    enchant_level: int | None
+    soul_crystal: str | None
+    rarity: str | None
+    base_name: str
+    base_normalized: str
+    full_normalized: str
+    armor_class: str | None = None
+    sealed: bool = False
+
+
+def _split_soul_ability(text: str) -> tuple[str, str | None]:
+    """Strip a trailing soul-ability suffix. Returns (base, soul_crystal)."""
+    lowered = text.lower()
+    for modifier in _SA_MODIFIERS_BY_LEN:
+        suffix = f" {modifier.lower()}"
+        if lowered.endswith(suffix) and len(text) > len(suffix):
+            return text[: -len(suffix)].strip(), modifier
+    return text, None
+
+
+def parse_market_name(name: str) -> ParsedMarketName:
+    """Split a market item name into typed attrs via the unified lexicon."""
+    from services.variant_lexicon import classify_market_name
+
+    attrs = classify_market_name(name)
+    return ParsedMarketName(
+        enchant_level=attrs.enchant_level,
+        soul_crystal=attrs.soul_crystal,
+        rarity=attrs.rarity,
+        armor_class=attrs.armor_class,
+        sealed=attrs.sealed,
+        base_name=attrs.base_name,
+        base_normalized=attrs.base_normalized,
+        full_normalized=attrs.full_normalized,
+    )
 
 
 def slugify(value: str) -> str:

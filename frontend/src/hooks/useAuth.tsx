@@ -77,6 +77,7 @@ export function defaultHomePath(permissions: string[] | undefined): string {
     ["nav.charts", "/charts"],
     ["nav.statistics", "/statistics"],
     ["nav.resources", "/resources"],
+    ["nav.quests", "/quests"],
     ["nav.search", "/search"],
     ["nav.raid_bosses", "/raid-bosses"],
     ["nav.trading", "/trading"],

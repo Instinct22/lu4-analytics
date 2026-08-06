@@ -72,7 +72,9 @@ export default function Dashboard() {
               onSelect={setSelectedItem}
             />
           </div>
-          {selectedItem ? <TopOffersTables entityId={selectedItem.id} /> : null}
+          {selectedItem ? (
+            <TopOffersTables entityId={selectedItem.id} from={timeRange.from} to={timeRange.to} />
+          ) : null}
         </div>
 
         <div className="min-h-0">

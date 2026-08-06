@@ -56,6 +56,7 @@ export function mergeClipboardItems(
     item_name: string;
     quantity: number;
     unit_price: number;
+    catalog_matched: boolean;
   }>,
   clipboard: TradingClipboardItem[],
 ): { next: typeof current; added: number; skipped: number } {
@@ -91,6 +92,7 @@ export function mergeClipboardItems(
       item_name: item.item_name,
       quantity: item.quantity,
       unit_price: Number(item.unit_price) || 0,
+      catalog_matched: !isCustom,
     });
     added += 1;
   }

@@ -29,6 +29,7 @@ PERMISSIONS = (
     "nav.character",
     "nav.resources",
     "nav.search",
+    "nav.quests",
     "nav.raid_bosses",
     "nav.trading",
     "nav.settings",
@@ -58,6 +59,7 @@ PERMISSION_LABELS = {
     "nav.character": "Персонаж",
     "nav.resources": "Ресурсы",
     "nav.search": "Поиск",
+    "nav.quests": "Квесты",
     "nav.raid_bosses": "Рейд Боссы",
     "nav.trading": "Торговля (просмотр)",
     "nav.settings": "Настройки",
@@ -97,6 +99,11 @@ DEFAULT_PERMISSION_GROUPS: list[dict] = [
             "feature.raid_visibility",
             "feature.level_unrestricted",
         ],
+    },
+    {
+        "id": "quests",
+        "label": "Квесты",
+        "permissions": ["nav.quests"],
     },
     {
         "id": "craft",

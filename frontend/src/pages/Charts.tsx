@@ -6,9 +6,11 @@ import {
   getMarketAnalytics,
   getMarketChart,
   getMarketItems,
+  getMarketVariants,
   getOrderBook,
 } from "../api/market";
 import ItemMarketSelect, { MarketItemOption } from "../components/charts/ItemMarketSelect";
+import VariantFilter, { VariantSelection } from "../components/trading/VariantFilter";
 import AnalyticsPanel from "../components/trading/AnalyticsPanel";
 import ChartsSection from "../components/trading/ChartsSection";
 import CraftResourcesMonitor from "../components/trading/CraftResourcesMonitor";
@@ -46,6 +48,13 @@ const defaultOpen: Record<SectionKey, boolean> = {
 export default function Charts() {
   const [searchParams, setSearchParams] = useSearchParams();
   const [selectedItem, setSelectedItem] = useState<MarketItemOption | null>(null);
+  const [variant, setVariant] = useState<VariantSelection>({
+    soulCrystal: null,
+    rarity: null,
+    armorClass: null,
+    sealed: null,
+    enchantLevel: null,
+  });
   const [period, setPeriod] = useState<PeriodState>(defaultPeriod);
   const [openSections, setOpenSections] = useState(defaultOpen);
   const chartHeight = useChartHeight(420);
@@ -73,6 +82,13 @@ export default function Charts() {
 
   const selectItem = (item: MarketItemOption) => {
     setSelectedItem(item);
+    setVariant({
+      soulCrystal: null,
+      rarity: null,
+      armorClass: null,
+      sealed: null,
+      enchantLevel: null,
+    });
     if (item.external_id != null) {
       setSearchParams({ external_id: String(item.external_id) }, { replace: true });
     } else if (searchParams.has("external_id")) {
@@ -85,27 +101,46 @@ export default function Charts() {
   const queryEnabled = !!entityId;
   const gather = useGatherBuyPlan(entityId);
 
+  const variantParams = useMemo(() => {
+    const params: Record<string, string | number> = {};
+    if (variant.soulCrystal) params.soul_crystal = variant.soulCrystal;
+    if (variant.rarity) params.rarity = variant.rarity;
+    if (variant.armorClass) params.armor_class = variant.armorClass;
+    if (variant.sealed) params.sealed = variant.sealed;
+    if (variant.enchantLevel != null) {
+      params.enchant_level =
+        variant.enchantLevel === "clean" ? "clean" : variant.enchantLevel;
+    }
+    return params;
+  }, [variant]);
+
+  const { data: variants } = useQuery({
+    queryKey: ["market-variants", entityId],
+    queryFn: () => getMarketVariants(entityId!),
+    enabled: queryEnabled,
+  });
+
   const { data: chartData, isLoading: chartLoading, error: chartError } = useQuery({
-    queryKey: ["trading-chart", entityId, periodParams],
-    queryFn: () => getMarketChart({ entity_id: entityId, ...periodParams }),
+    queryKey: ["trading-chart", entityId, periodParams, variantParams],
+    queryFn: () => getMarketChart({ entity_id: entityId, ...periodParams, ...variantParams }),
     enabled: queryEnabled,
   });
 
   const { data: analytics } = useQuery({
-    queryKey: ["trading-analytics", entityId, periodParams],
-    queryFn: () => getMarketAnalytics({ entity_id: entityId, ...periodParams }),
+    queryKey: ["trading-analytics", entityId, periodParams, variantParams],
+    queryFn: () => getMarketAnalytics({ entity_id: entityId, ...periodParams, ...variantParams }),
     enabled: queryEnabled,
   });
 
   const { data: orderBook } = useQuery({
-    queryKey: ["trading-order-book", entityId, periodParams],
-    queryFn: () => getOrderBook({ entity_id: entityId, ...periodParams }),
+    queryKey: ["trading-order-book", entityId, periodParams, variantParams],
+    queryFn: () => getOrderBook({ entity_id: entityId, ...periodParams, ...variantParams }),
     enabled: queryEnabled,
   });
 
   const { data: luckyMoments } = useQuery({
-    queryKey: ["trading-lucky", entityId, periodParams],
-    queryFn: () => getLuckyMoments({ entity_id: entityId, ...periodParams }),
+    queryKey: ["trading-lucky", entityId, periodParams, variantParams],
+    queryFn: () => getLuckyMoments({ entity_id: entityId, ...periodParams, ...variantParams }),
     enabled: queryEnabled,
   });
 
@@ -143,6 +178,19 @@ export default function Charts() {
             />
           </div>
         </div>
+        {selectedItem &&
+        ((variants?.soul_crystals?.length ?? 0) > 0 ||
+          (variants?.rarities?.length ?? 0) > 0 ||
+          (variants?.armor_classes?.length ?? 0) > 0 ||
+          (variants?.enchant_levels?.length ?? 0) > 0 ||
+          variants?.has_sealed) ? (
+          <div className="mt-3 flex flex-wrap items-center gap-3 border-t border-zinc-800/80 pt-3">
+            <span className="shrink-0 text-xs font-semibold uppercase tracking-wider text-zinc-500">
+              Вариант
+            </span>
+            <VariantFilter variants={variants} value={variant} onChange={setVariant} />
+          </div>
+        ) : null}
         <GatherBuyResult
           visible={gather.requestedQty != null && !!entityId}
           data={gather.data}
@@ -213,12 +261,22 @@ export default function Charts() {
                 side="sell"
                 entityId={entityId!}
                 period={period}
+                soulCrystal={variant.soulCrystal}
+                rarity={variant.rarity}
+                armorClass={variant.armorClass}
+                sealed={variant.sealed}
+                enchantLevel={variant.enchantLevel}
               />
               <TradesTable
                 title="Таблица покупок"
                 side="buy"
                 entityId={entityId!}
                 period={period}
+                soulCrystal={variant.soulCrystal}
+                rarity={variant.rarity}
+                armorClass={variant.armorClass}
+                sealed={variant.sealed}
+                enchantLevel={variant.enchantLevel}
               />
             </div>
           </ChartsSection>

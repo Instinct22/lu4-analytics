@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import uuid
 from decimal import Decimal
 
@@ -15,17 +16,21 @@ from schemas.trading_inventory import (
     CharacterCreate,
     CharacterOut,
     CharacterUpdate,
+    InventoryLineIn,
     InventoryLineOut,
+    InventoryScanRequest,
+    InventoryScanResponse,
     ItemCatalogHit,
     ItemSearchHit,
 )
-from services import craft_service
-from services.name_matching import unescape_text
+from services import craft_service, market_service
+from services.name_matching import normalize_product_name, unescape_text
 
 VALID_KINDS = frozenset({"bank", "merchant"})
 VALID_TRADE_MODES = frozenset({"sell", "buy"})
 MASTER_COIN_EXTERNAL_ID = 4037
 MASTER_COIN_NAME = "Master Coin"
+WALLET_ITEM_NAMES = frozenset({"adena", "master coin", "mastercoin", "mc"})
 
 
 def _dec(value: Decimal | int | float | str | None) -> Decimal:
@@ -45,6 +50,10 @@ def _adena_sum(lines: list) -> Decimal:
     return total
 
 
+def _catalog_matched(external_id: int) -> bool:
+    return external_id >= 0
+
+
 def _lines_out(lines: list[TradingInventoryLine]) -> list[InventoryLineOut]:
     return [
         InventoryLineOut(
@@ -54,6 +63,7 @@ def _lines_out(lines: list[TradingInventoryLine]) -> list[InventoryLineOut]:
             quantity=line.quantity,
             unit_price=_dec(line.unit_price),
             line_total=_line_total(line),
+            catalog_matched=_catalog_matched(line.item_external_id),
         )
         for line in lines
     ]
@@ -68,6 +78,9 @@ def _character_out(char: TradingCharacter) -> CharacterOut:
     sell_value = _adena_sum(sell_out)
     buy_cost = _adena_sum(buy_out)
     clean = _dec(char.clean_adena)
+    master = _dec(getattr(char, "master_coin", 0))
+    master_price = _dec(getattr(char, "master_coin_price", 0))
+    master_adena = master * master_price
     mode = char.trade_mode if char.trade_mode in VALID_TRADE_MODES else "sell"
     if char.kind != "merchant":
         mode = "sell"
@@ -76,11 +89,14 @@ def _character_out(char: TradingCharacter) -> CharacterOut:
         kind=char.kind,  # type: ignore[arg-type]
         nick=char.nick,
         clean_adena=clean,
+        master_coin=master,
+        master_coin_price=master_price,
+        master_coin_adena=master_adena,
         description=char.description,
         trade_mode=mode,  # type: ignore[arg-type]
         adena_in_items=sell_value,
         buy_cost=buy_cost,
-        total_adena=clean + sell_value - buy_cost,
+        total_adena=clean + sell_value + master_adena - buy_cost,
         sort_order=char.sort_order,
         updated_at=char.updated_at,
         sell_items=sell_out,
@@ -115,6 +131,8 @@ def create_character(db: Session, body: CharacterCreate, user_id: uuid.UUID) -> 
         kind=body.kind,
         nick=nick,
         clean_adena=Decimal("0"),
+        master_coin=Decimal("0"),
+        master_coin_price=Decimal("0"),
         description=None,
         trade_mode="sell",
         sort_order=int(max_order or -1) + 1,
@@ -181,6 +199,8 @@ def update_character(
         mode = "sell"
 
     char.clean_adena = _dec(body.clean_adena)
+    char.master_coin = _dec(body.master_coin)
+    char.master_coin_price = _dec(body.master_coin_price)
     desc = body.description.strip() if body.description else None
     char.description = desc or None
     char.trade_mode = mode
@@ -196,7 +216,7 @@ def update_character(
     char = db.scalars(
         select(TradingCharacter)
         .options(selectinload(TradingCharacter.items))
-        .where(TradingCharacter.id == character_id)
+        .where(TradingCharacter.id == char.id)
     ).one()
     return _character_out(char)
 
@@ -293,6 +313,9 @@ def _snapshot_payload(db: Session) -> dict:
                 "kind": c.kind,
                 "nick": c.nick,
                 "clean_adena": str(c.clean_adena),
+                "master_coin": str(c.master_coin),
+                "master_coin_price": str(c.master_coin_price),
+                "master_coin_adena": str(c.master_coin_adena),
                 "description": c.description or "",
                 "trade_mode": c.trade_mode,
                 "adena_in_items": str(c.adena_in_items),
@@ -304,6 +327,7 @@ def _snapshot_payload(db: Session) -> dict:
                         "item_name": item.item_name,
                         "quantity": item.quantity,
                         "unit_price": str(item.unit_price),
+                        "catalog_matched": item.catalog_matched,
                     }
                     for item in c.sell_items
                 ],
@@ -313,6 +337,7 @@ def _snapshot_payload(db: Session) -> dict:
                         "item_name": item.item_name,
                         "quantity": item.quantity,
                         "unit_price": str(item.unit_price),
+                        "catalog_matched": item.catalog_matched,
                     }
                     for item in c.buy_items
                 ],
@@ -323,6 +348,7 @@ def _snapshot_payload(db: Session) -> dict:
                         "item_name": item.item_name,
                         "quantity": item.quantity,
                         "unit_price": str(item.unit_price),
+                        "catalog_matched": item.catalog_matched,
                     }
                     for item in c.items
                 ],
@@ -340,7 +366,7 @@ def list_snapshots(db: Session) -> list[TradingSnapshot]:
 
 def create_snapshot(
     db: Session,
-    user_id: uuid.UUID,
+    user_id: uuid.UUID | None = None,
     label: str | None = None,
 ) -> TradingSnapshot:
     snap = TradingSnapshot(
@@ -360,3 +386,215 @@ def get_snapshot(db: Session, snapshot_id: uuid.UUID) -> TradingSnapshot:
     if snap is None:
         raise HTTPException(status_code=404, detail="Snapshot not found")
     return snap
+
+
+def _is_wallet_item_name(name: str) -> bool:
+    norm = normalize_product_name(name)
+    if norm in WALLET_ITEM_NAMES:
+        return True
+    compact = norm.replace(" ", "")
+    return compact in {"mastercoin", "mc"}
+
+
+def _custom_item_id(name: str) -> int:
+    digest = hashlib.md5(name.casefold().encode("utf-8")).hexdigest()
+    return -(int(digest[:8], 16) % 1_000_000_000) - 1
+
+
+def _craft_resource_by_name(db: Session, normalized: str) -> tuple[int, str] | None:
+    if not normalized:
+        return None
+    materials = craft_service.resource_materials(db).get("materials") or []
+    for material in materials:
+        eid = material.get("id")
+        name = (material.get("name") or "").strip()
+        if eid is None or not name:
+            continue
+        if normalize_product_name(name) == normalized:
+            return int(eid), name
+    if normalized in {"master coin", "mastercoin", "mc"}:
+        return MASTER_COIN_EXTERNAL_ID, MASTER_COIN_NAME
+    return None
+
+
+def _resolve_inventory_item(db: Session, raw_name: str) -> tuple[int, str, bool]:
+    """Return (external_id, display_name, catalog_matched)."""
+    name = unescape_text(raw_name).strip()
+    if not name:
+        raise HTTPException(status_code=400, detail="Item name is required")
+
+    normalized = normalize_product_name(name)
+
+    entity = db.scalars(
+        select(WikiEntity)
+        .where(WikiEntity.entity_type == "item")
+        .where(WikiEntity.external_id.is_not(None))
+        .where(WikiEntity.name_normalized == normalized)
+        .limit(1)
+    ).first()
+    if entity is not None and entity.external_id is not None:
+        display = unescape_text(entity.display_name) or name
+        return int(entity.external_id), display, True
+
+    # Case-insensitive display_name fallback
+    entity = db.scalars(
+        select(WikiEntity)
+        .where(WikiEntity.entity_type == "item")
+        .where(WikiEntity.external_id.is_not(None))
+        .where(func.lower(WikiEntity.display_name) == name.casefold())
+        .limit(1)
+    ).first()
+    if entity is not None and entity.external_id is not None:
+        display = unescape_text(entity.display_name) or name
+        return int(entity.external_id), display, True
+
+    craft_hit = _craft_resource_by_name(db, normalized)
+    if craft_hit is not None:
+        return craft_hit[0], craft_hit[1], True
+
+    return _custom_item_id(name), name, False
+
+
+def _find_character_by_nick(db: Session, nick: str) -> TradingCharacter | None:
+    return db.scalars(
+        select(TradingCharacter)
+        .options(selectinload(TradingCharacter.items))
+        .where(func.lower(TradingCharacter.nick) == nick.casefold())
+        .limit(1)
+    ).first()
+
+
+def _unit_prices_for_ids(db: Session, external_ids: list[int]) -> dict[int, Decimal]:
+    positive = sorted({eid for eid in external_ids if eid >= 0})
+    if not positive:
+        return {}
+    prices = market_service.prices_by_ids(db, ",".join(str(eid) for eid in positive))
+    result: dict[int, Decimal] = {}
+    for eid in positive:
+        row = prices.get(str(eid)) or {}
+        raw = row.get("day_vwap")
+        if raw is None:
+            raw = row.get("last_price")
+        result[eid] = _dec(raw) if raw is not None else Decimal("0")
+    return result
+
+
+def upsert_inventory_scan(db: Session, body: InventoryScanRequest) -> InventoryScanResponse:
+    nick = body.name.strip()
+    if not nick:
+        raise HTTPException(status_code=400, detail="Nick is required")
+
+    snapshot = create_snapshot(
+        db,
+        user_id=None,
+        label=f"auto: inventory-scan {nick}",
+    )
+
+    char = _find_character_by_nick(db, nick)
+    created = False
+    if char is None:
+        max_order = db.scalar(
+            select(func.coalesce(func.max(TradingCharacter.sort_order), -1)).where(
+                TradingCharacter.kind == "bank"
+            )
+        )
+        char = TradingCharacter(
+            id=uuid.uuid4(),
+            kind="bank",
+            nick=nick,
+            clean_adena=Decimal("0"),
+            master_coin=Decimal("0"),
+            master_coin_price=Decimal("0"),
+            description=None,
+            trade_mode="sell",
+            sort_order=int(max_order or -1) + 1,
+            updated_by_user_id=None,
+        )
+        db.add(char)
+        db.flush()
+        created = True
+        char = db.scalars(
+            select(TradingCharacter)
+            .options(selectinload(TradingCharacter.items))
+            .where(TradingCharacter.id == char.id)
+        ).one()
+
+    char.clean_adena = _dec(body.adena)
+    char.master_coin = _dec(body.master_coin)
+    mc_prices = _unit_prices_for_ids(db, [MASTER_COIN_EXTERNAL_ID])
+    market_mc_price = mc_prices.get(MASTER_COIN_EXTERNAL_ID, Decimal("0"))
+    if market_mc_price > 0:
+        char.master_coin_price = market_mc_price
+    elif not getattr(char, "master_coin_price", None):
+        char.master_coin_price = Decimal("0")
+    char.updated_by_user_id = None
+
+    # Aggregate quantities by resolved key (matched id or custom name)
+    resolved: list[tuple[int, str, bool, int]] = []
+    for item in body.items:
+        raw_name = item.name.strip()
+        if not raw_name or _is_wallet_item_name(raw_name):
+            continue
+        if item.count <= 0:
+            continue
+        external_id, display_name, matched = _resolve_inventory_item(db, raw_name)
+        if external_id == MASTER_COIN_EXTERNAL_ID and matched:
+            # Master Coin is a wallet field; skip inventory line
+            continue
+        if matched and normalize_product_name(display_name) == "adena":
+            continue
+        resolved.append((external_id, display_name, matched, item.count))
+
+    # Merge duplicate resolved items
+    merged: dict[tuple[int, str], tuple[int, str, bool, int]] = {}
+    for external_id, display_name, matched, count in resolved:
+        key = (external_id, display_name.casefold())
+        prev = merged.get(key)
+        if prev is None:
+            merged[key] = (external_id, display_name, matched, count)
+        else:
+            merged[key] = (prev[0], prev[1], prev[2], prev[3] + count)
+
+    lines_data = list(merged.values())
+    price_map = _unit_prices_for_ids(db, [row[0] for row in lines_data])
+
+    # Clear sell inventory, keep buy lines
+    buy_kept = [line for line in list(char.items or []) if line.list_kind == "buy"]
+    char.items.clear()
+    db.flush()
+    for line in buy_kept:
+        char.items.append(line)
+
+    sell_inputs: list[InventoryLineIn] = []
+    matched_count = 0
+    unmatched_count = 0
+    for external_id, display_name, matched, quantity in lines_data:
+        if matched:
+            matched_count += 1
+        else:
+            unmatched_count += 1
+        sell_inputs.append(
+            InventoryLineIn(
+                item_external_id=external_id,
+                item_name=display_name,
+                quantity=quantity,
+                unit_price=price_map.get(external_id, Decimal("0")),
+            )
+        )
+
+    _append_lines(char, sell_inputs, "sell")
+    db.commit()
+
+    char = db.scalars(
+        select(TradingCharacter)
+        .options(selectinload(TradingCharacter.items))
+        .where(TradingCharacter.id == char.id)
+    ).one()
+
+    return InventoryScanResponse(
+        character=_character_out(char),
+        snapshot_id=snapshot.id,
+        created=created,
+        matched_count=matched_count,
+        unmatched_count=unmatched_count,
+    )

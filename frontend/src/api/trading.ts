@@ -10,6 +10,7 @@ export type InventoryLine = {
   quantity: number;
   unit_price: number;
   line_total: number;
+  catalog_matched?: boolean;
 };
 
 export type TradingCharacter = {
@@ -17,6 +18,9 @@ export type TradingCharacter = {
   kind: CharacterKind;
   nick: string;
   clean_adena: number;
+  master_coin: number;
+  master_coin_price: number;
+  master_coin_adena: number;
   description: string | null;
   trade_mode: TradeMode;
   adena_in_items: number;
@@ -54,6 +58,9 @@ export type SnapshotPayloadCharacter = {
   kind: CharacterKind;
   nick: string;
   clean_adena: string | number;
+  master_coin?: string | number;
+  master_coin_price?: string | number;
+  master_coin_adena?: string | number;
   description?: string;
   trade_mode?: TradeMode;
   adena_in_items?: string | number;
@@ -96,6 +103,8 @@ export async function updateTradingCharacter(
   id: string,
   body: {
     clean_adena: number;
+    master_coin: number;
+    master_coin_price: number;
     description: string | null;
     trade_mode: TradeMode;
     sell_items: InventoryLineInput[];

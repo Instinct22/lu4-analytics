@@ -15,6 +15,7 @@ from api import (
     market,
     market_scan,
     preferences,
+    quests,
     raid,
     search,
     settings as app_settings,
@@ -75,6 +76,7 @@ app.include_router(statistics.router, prefix="/api/statistics", tags=["statistic
 app.include_router(search.router, prefix="/api/search", tags=["search"])
 app.include_router(duals.router, prefix="/api/duals", tags=["duals"])
 app.include_router(raid.router, prefix="/api/raid", tags=["raid"])
+app.include_router(quests.router, prefix="/api/quests", tags=["quests"])
 app.include_router(character.router, prefix="/api/character", tags=["character"])
 app.include_router(craft.router, prefix="/api/craft", tags=["craft"])
 app.include_router(upgrades.router, prefix="/api/upgrades", tags=["upgrades"])

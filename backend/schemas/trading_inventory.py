@@ -28,6 +28,7 @@ class InventoryLineOut(BaseModel):
     quantity: int
     unit_price: Decimal
     line_total: Decimal
+    catalog_matched: bool = True
 
 
 class CharacterCreate(BaseModel):
@@ -37,6 +38,8 @@ class CharacterCreate(BaseModel):
 
 class CharacterUpdate(BaseModel):
     clean_adena: Decimal = Field(ge=0)
+    master_coin: Decimal = Field(default=Decimal("0"), ge=0)
+    master_coin_price: Decimal = Field(default=Decimal("0"), ge=0)
     description: str | None = None
     trade_mode: TradeMode = "sell"
     sell_items: list[InventoryLineIn] = Field(default_factory=list)
@@ -48,6 +51,9 @@ class CharacterOut(BaseModel):
     kind: CharacterKind
     nick: str
     clean_adena: Decimal
+    master_coin: Decimal = Decimal("0")
+    master_coin_price: Decimal = Decimal("0")
+    master_coin_adena: Decimal = Decimal("0")
     description: str | None
     trade_mode: TradeMode
     adena_in_items: Decimal
@@ -103,3 +109,23 @@ class SnapshotDetailResponse(BaseModel):
     created_at: datetime
     label: str | None = None
     payload: dict
+
+
+class InventoryScanItem(BaseModel):
+    name: str = Field(min_length=1, max_length=512)
+    count: int = Field(ge=0)
+
+
+class InventoryScanRequest(BaseModel):
+    name: str = Field(min_length=1, max_length=128)
+    adena: Decimal = Field(default=Decimal("0"), ge=0)
+    master_coin: Decimal = Field(default=Decimal("0"), ge=0)
+    items: list[InventoryScanItem] = Field(default_factory=list)
+
+
+class InventoryScanResponse(BaseModel):
+    character: CharacterOut
+    snapshot_id: uuid.UUID
+    created: bool
+    matched_count: int
+    unmatched_count: int

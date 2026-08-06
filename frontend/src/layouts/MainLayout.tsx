@@ -71,6 +71,7 @@ const characterGroup: NavGroup = {
 const topLevelLinks: NavLinkItem[] = [
   { to: "/items", label: "Предметы", icon: "▣", permission: "nav.items" },
   { to: "/resources", label: "Ресурсы", icon: "◆", permission: "nav.resources" },
+  // Quests: hidden until catalog/UX is polished (`/quests` route still exists).
   { to: "/search", label: "Поиск", icon: "⌕", permission: "nav.search" },
   { to: "/raid-bosses", label: "Рейд Боссы", icon: "⚑", permission: "nav.raid_bosses" },
   { to: "/trading", label: "Торговля", icon: "⚖", permission: "nav.trading" },

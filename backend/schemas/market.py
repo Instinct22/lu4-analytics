@@ -50,6 +50,14 @@ class MarketItemsResponse(BaseModel):
     items: list[MarketItemOption]
 
 
+class MarketVariantsResponse(BaseModel):
+    soul_crystals: list[str]
+    rarities: list[str]
+    armor_classes: list[str] = []
+    enchant_levels: list[int]
+    has_sealed: bool = False
+
+
 class SearchResultGroup(BaseModel):
     entity_type: str
     items: list[dict]

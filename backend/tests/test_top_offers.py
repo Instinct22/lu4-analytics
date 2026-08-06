@@ -54,3 +54,31 @@ def test_build_top_offers_sorts_and_limits():
     assert [row["seller_name"] for row in data["buys"]] == ["B", "C", "A"]
     assert data["sells"][0]["price"] == Decimal("70.00")
     assert data["buys"][0]["price"] == Decimal("60.00")
+
+
+def test_build_top_offers_filters_by_time_range():
+    s1, s2 = uuid.uuid4(), uuid.uuid4()
+    entity_id = uuid.uuid4()
+    t_new = datetime(2026, 8, 3, 12, 0, tzinfo=timezone.utc)
+    records = [
+        _lot(s2, "sell", 80, 20, t_new),
+        _lot(s1, "sell", 60, 15, t_new),
+    ]
+
+    db = MagicMock()
+    records_result = MagicMock()
+    records_result.all.return_value = records
+    sellers_result = MagicMock()
+    sellers_result.all.return_value = [
+        SimpleNamespace(id=s1, name="A"),
+        SimpleNamespace(id=s2, name="B"),
+    ]
+    db.scalars.side_effect = [records_result, sellers_result]
+
+    from_date = datetime(2026, 8, 3, 0, 0, tzinfo=timezone.utc)
+    to_date = datetime(2026, 8, 3, 23, 59, tzinfo=timezone.utc)
+    data = build_top_offers(db, entity_id, limit=5, from_date=from_date, to_date=to_date)
+
+    assert [row["seller_name"] for row in data["sells"]] == ["A", "B"]
+    assert data["sells"][0]["price"] == Decimal("60.00")
+    assert data["sells"][1]["price"] == Decimal("80.00")

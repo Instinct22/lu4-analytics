@@ -6,12 +6,14 @@ import uuid
 
 from fastapi import APIRouter, Depends, Query
 
-from api.deps import CurrentUser, DbSession, require_permission
+from api.deps import CurrentUser, DbSession, require_permission, verify_api_key
 from schemas.trading_inventory import (
     CharacterCreate,
     CharacterOut,
     CharacterUpdate,
     CharactersResponse,
+    InventoryScanRequest,
+    InventoryScanResponse,
     ItemCatalogResponse,
     ItemSearchResponse,
     SnapshotCreate,
@@ -25,6 +27,15 @@ router = APIRouter()
 
 require_read = require_permission("nav.trading")
 require_write = require_permission("feature.trading_write")
+
+
+@router.post(
+    "/inventory-scan",
+    response_model=InventoryScanResponse,
+    dependencies=[Depends(verify_api_key)],
+)
+def inventory_scan(body: InventoryScanRequest, db: DbSession):
+    return trading_service.upsert_inventory_scan(db, body)
 
 
 @router.get("/characters", response_model=CharactersResponse, dependencies=[Depends(require_read)])

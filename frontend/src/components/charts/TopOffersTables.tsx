@@ -4,6 +4,8 @@ import { LoadingState } from "../ui";
 
 interface Props {
   entityId: string;
+  from: string;
+  to: string;
 }
 
 function formatPrice(value: number | string): string {
@@ -63,10 +65,10 @@ function OfferTable({
   );
 }
 
-export default function TopOffersTables({ entityId }: Props) {
+export default function TopOffersTables({ entityId, from, to }: Props) {
   const { data, isLoading, error } = useQuery({
-    queryKey: ["top-offers", entityId],
-    queryFn: () => getTopOffers(entityId, 5),
+    queryKey: ["top-offers", entityId, from, to],
+    queryFn: () => getTopOffers(entityId, 5, { from, to }),
     refetchInterval: 60_000,
   });
 

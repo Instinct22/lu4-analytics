@@ -20,6 +20,8 @@ class TradingCharacter(Base):
     kind: Mapped[str] = mapped_column(String(16), nullable=False, index=True)  # bank | merchant
     nick: Mapped[str] = mapped_column(String(128), nullable=False)
     clean_adena: Mapped[Decimal] = mapped_column(Numeric(18, 2), nullable=False, default=0)
+    master_coin: Mapped[Decimal] = mapped_column(Numeric(18, 2), nullable=False, default=0)
+    master_coin_price: Mapped[Decimal] = mapped_column(Numeric(18, 2), nullable=False, default=0)
     description: Mapped[str | None] = mapped_column(Text, nullable=True)
     # sell | buy — merchants only; bank always sell
     trade_mode: Mapped[str] = mapped_column(String(16), nullable=False, default="sell")
