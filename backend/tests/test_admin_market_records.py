@@ -14,6 +14,7 @@ from api.deps import get_current_user, hash_password
 from main import app
 from models.market import MarketRecord
 from models.user import User
+from services.import_service import ResolvedMarketItem
 
 
 @pytest.fixture
@@ -165,8 +166,8 @@ def test_market_records_bulk_update(client, mock_db, superadmin_user):
             lambda db, name: seller,
         )
         mp.setattr(
-            "services.admin_market_records.find_item_by_name",
-            lambda db, name: None,
+            "services.admin_market_records.resolve_market_item",
+            lambda db, name: ResolvedMarketItem(None, None, None, None, None, None),
         )
         r = client.patch(
             "/api/admin/market-records/bulk",

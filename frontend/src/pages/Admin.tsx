@@ -44,6 +44,11 @@ const FALLBACK_PERMISSION_GROUPS = [
     ],
   },
   {
+    id: "quests",
+    label: "Квесты",
+    permissions: ["nav.quests"],
+  },
+  {
     id: "craft",
     label: "Крафт",
     permissions: [

@@ -11,6 +11,11 @@ interface TradeRow {
   quantity: number;
   price: number;
   total_cost: number;
+  soul_crystal: string | null;
+  rarity: string | null;
+  armor_class: string | null;
+  sealed: boolean | null;
+  enchant_level: number | null;
 }
 
 interface Props {
@@ -18,6 +23,11 @@ interface Props {
   side: "buy" | "sell";
   entityId: string;
   period: PeriodState;
+  soulCrystal?: string | null;
+  rarity?: string | null;
+  armorClass?: string | null;
+  sealed?: string | null;
+  enchantLevel?: number | "clean" | null;
 }
 
 type SortKey = "recorded_at" | "price" | "quantity" | "seller_name";
@@ -56,7 +66,17 @@ function CopyButton({ text }: { text: string }) {
   );
 }
 
-export default function TradesTable({ title, side, entityId, period }: Props) {
+export default function TradesTable({
+  title,
+  side,
+  entityId,
+  period,
+  soulCrystal = null,
+  rarity = null,
+  armorClass = null,
+  sealed = null,
+  enchantLevel = null,
+}: Props) {
   const [search, setSearch] = useState("");
   const [debouncedSearch, setDebouncedSearch] = useState("");
   const [sortBy, setSortBy] = useState<SortKey>("recorded_at");
@@ -76,7 +96,21 @@ export default function TradesTable({ title, side, entityId, period }: Props) {
   };
 
   const { data, isLoading, isFetching } = useQuery({
-    queryKey: ["trading-trades", entityId, side, period, debouncedSearch, sortBy, sortOrder, page],
+    queryKey: [
+      "trading-trades",
+      entityId,
+      side,
+      period,
+      debouncedSearch,
+      sortBy,
+      sortOrder,
+      page,
+      soulCrystal,
+      rarity,
+      armorClass,
+      sealed,
+      enchantLevel,
+    ],
     queryFn: () =>
       getTrades({
         entity_id: entityId,
@@ -86,6 +120,16 @@ export default function TradesTable({ title, side, entityId, period }: Props) {
         sort_order: sortOrder,
         page,
         limit: 100,
+        ...(soulCrystal ? { soul_crystal: soulCrystal } : {}),
+        ...(rarity ? { rarity } : {}),
+        ...(armorClass ? { armor_class: armorClass } : {}),
+        ...(sealed ? { sealed } : {}),
+        ...(enchantLevel != null
+          ? {
+              enchant_level:
+                enchantLevel === "clean" ? "clean" : enchantLevel,
+            }
+          : {}),
         ...periodQueryParams(period),
       }),
     enabled: !!entityId,
@@ -202,6 +246,60 @@ export default function TradesTable({ title, side, entityId, period }: Props) {
                     >
                       {row.seller_name}
                     </span>
+                    {row.enchant_level ? (
+                      <span
+                        className="shrink-0 rounded bg-amber-500/15 px-1 text-[0.65rem] font-semibold leading-tight text-amber-400"
+                        title={`Заточка +${row.enchant_level}`}
+                      >
+                        +{row.enchant_level}
+                      </span>
+                    ) : null}
+                    {row.sealed === true ? (
+                      <span
+                        className="shrink-0 rounded bg-emerald-500/15 px-1 text-[0.65rem] font-semibold leading-tight text-emerald-300"
+                        title="Запечатано"
+                      >
+                        Sealed
+                      </span>
+                    ) : null}
+                    {row.sealed === false ? (
+                      <span
+                        className="shrink-0 rounded bg-zinc-500/20 px-1 text-[0.65rem] font-semibold leading-tight text-zinc-300"
+                        title="Распечатано"
+                      >
+                        Unsealed
+                      </span>
+                    ) : null}
+                    {row.armor_class ? (
+                      <span
+                        className="shrink-0 truncate rounded bg-violet-500/15 px-1 text-[0.65rem] font-semibold leading-tight text-violet-300"
+                        title={`Класс: ${row.armor_class}`}
+                      >
+                        {row.armor_class === "heavy"
+                          ? "Heavy"
+                          : row.armor_class === "light"
+                            ? "Light"
+                            : row.armor_class === "magic"
+                              ? "Robe"
+                              : row.armor_class}
+                      </span>
+                    ) : null}
+                    {row.rarity ? (
+                      <span
+                        className="shrink-0 truncate rounded bg-fuchsia-500/15 px-1 text-[0.65rem] font-semibold leading-tight text-fuchsia-300"
+                        title={`Редкость: ${row.rarity}`}
+                      >
+                        {row.rarity}
+                      </span>
+                    ) : null}
+                    {row.soul_crystal ? (
+                      <span
+                        className="shrink-0 truncate rounded bg-sky-500/15 px-1 text-[0.65rem] font-semibold leading-tight text-sky-300"
+                        title={`Soul Ability: ${row.soul_crystal}`}
+                      >
+                        {row.soul_crystal}
+                      </span>
+                    ) : null}
                     <CopyButton text={row.seller_name} />
                   </div>
                   <div className="min-w-0 truncate px-2 text-right text-sm tabular-nums text-zinc-300">

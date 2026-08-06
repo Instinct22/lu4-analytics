@@ -8,7 +8,7 @@ from fastapi import APIRouter, Depends, Query
 
 from api.deps import DbSession, require_any_permission
 from models.user import User
-from schemas.market import MarketItemsResponse, MarketTimelineResponse
+from schemas.market import MarketItemsResponse, MarketTimelineResponse, MarketVariantsResponse
 from schemas.trading import (
     BuyPlanResponse,
     CraftMonitorResponse,
@@ -49,8 +49,15 @@ def market_timeline(
     interval: str = Query("5m"),
     from_date: datetime | None = Query(None, alias="from"),
     to_date: datetime | None = Query(None, alias="to"),
+    soul_crystal: str | None = Query(None),
+    enchant_level: str | None = Query(None),
+    rarity: str | None = Query(None),
+    armor_class: str | None = Query(None),
+    sealed: str | None = Query(None),
 ):
-    return market_service.market_timeline(db, entity_id, interval, from_date, to_date)
+    return market_service.market_timeline(
+        db, entity_id, interval, from_date, to_date, soul_crystal, enchant_level, rarity, armor_class, sealed
+    )
 
 
 @router.get("/items", response_model=MarketItemsResponse)
@@ -61,6 +68,15 @@ def market_items(
     limit: int = Query(30, ge=1, le=2000),
 ):
     return market_service.market_items(db, q, limit)
+
+
+@router.get("/variants", response_model=MarketVariantsResponse)
+def market_variants(
+    db: DbSession,
+    user: MarketUser,
+    entity_id: uuid.UUID,
+):
+    return market_service.market_variants(db, entity_id)
 
 
 @router.get("/prices-by-ids")
@@ -80,8 +96,15 @@ def trading_chart(
     period: str = Query("24h"),
     from_date: datetime | None = Query(None, alias="from"),
     to_date: datetime | None = Query(None, alias="to"),
+    soul_crystal: str | None = Query(None),
+    enchant_level: str | None = Query(None),
+    rarity: str | None = Query(None),
+    armor_class: str | None = Query(None),
+    sealed: str | None = Query(None),
 ):
-    return market_service.trading_chart(db, entity_id, period, from_date, to_date)
+    return market_service.trading_chart(
+        db, entity_id, period, from_date, to_date, soul_crystal, enchant_level, rarity, armor_class, sealed
+    )
 
 
 @router.get("/analytics", response_model=TradingAnalyticsResponse)
@@ -92,8 +115,15 @@ def trading_analytics(
     period: str = Query("24h"),
     from_date: datetime | None = Query(None, alias="from"),
     to_date: datetime | None = Query(None, alias="to"),
+    soul_crystal: str | None = Query(None),
+    enchant_level: str | None = Query(None),
+    rarity: str | None = Query(None),
+    armor_class: str | None = Query(None),
+    sealed: str | None = Query(None),
 ):
-    return market_service.trading_analytics(db, entity_id, period, from_date, to_date)
+    return market_service.trading_analytics(
+        db, entity_id, period, from_date, to_date, soul_crystal, enchant_level, rarity, armor_class, sealed
+    )
 
 
 @router.get("/order-book", response_model=OrderBookResponse)
@@ -104,8 +134,15 @@ def order_book(
     period: str = Query("24h"),
     from_date: datetime | None = Query(None, alias="from"),
     to_date: datetime | None = Query(None, alias="to"),
+    soul_crystal: str | None = Query(None),
+    enchant_level: str | None = Query(None),
+    rarity: str | None = Query(None),
+    armor_class: str | None = Query(None),
+    sealed: str | None = Query(None),
 ):
-    return market_service.order_book(db, entity_id, period, from_date, to_date)
+    return market_service.order_book(
+        db, entity_id, period, from_date, to_date, soul_crystal, enchant_level, rarity, armor_class, sealed
+    )
 
 
 @router.get("/lucky-moments", response_model=LuckyMomentsResponse)
@@ -116,8 +153,15 @@ def lucky_moments(
     period: str = Query("24h"),
     from_date: datetime | None = Query(None, alias="from"),
     to_date: datetime | None = Query(None, alias="to"),
+    soul_crystal: str | None = Query(None),
+    enchant_level: str | None = Query(None),
+    rarity: str | None = Query(None),
+    armor_class: str | None = Query(None),
+    sealed: str | None = Query(None),
 ):
-    return market_service.lucky_moments(db, entity_id, period, from_date, to_date)
+    return market_service.lucky_moments(
+        db, entity_id, period, from_date, to_date, soul_crystal, enchant_level, rarity, armor_class, sealed
+    )
 
 
 @router.get("/items-overview", response_model=ItemsOverviewResponse)
@@ -159,8 +203,10 @@ def top_offers(
     user: MarketUser,
     entity_id: uuid.UUID,
     limit: int = Query(5, ge=1, le=20),
+    from_date: datetime | None = Query(None, alias="from"),
+    to_date: datetime | None = Query(None, alias="to"),
 ):
-    return market_service.top_offers(db, entity_id, limit)
+    return market_service.top_offers(db, entity_id, limit, from_date, to_date)
 
 
 @router.get("/trades", response_model=TradesListResponse)
@@ -177,6 +223,11 @@ def list_trades(
     sort_order: str = Query("desc", pattern="^(asc|desc)$"),
     page: int = Query(1, ge=1),
     limit: int = Query(50, ge=1, le=500),
+    soul_crystal: str | None = Query(None),
+    enchant_level: str | None = Query(None),
+    rarity: str | None = Query(None),
+    armor_class: str | None = Query(None),
+    sealed: str | None = Query(None),
 ):
     return market_service.list_trades(
         db,
@@ -190,4 +241,9 @@ def list_trades(
         sort_order=sort_order,
         page=page,
         limit=limit,
+        soul_crystal=soul_crystal,
+        enchant_level=enchant_level,
+        rarity=rarity,
+        armor_class=armor_class,
+        sealed=sealed,
     )

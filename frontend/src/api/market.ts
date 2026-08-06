@@ -5,6 +5,21 @@ export async function getMarketItems(params: { q?: string; limit?: number }) {
   return data;
 }
 
+export interface MarketVariants {
+  soul_crystals: string[];
+  rarities: string[];
+  armor_classes: string[];
+  enchant_levels: number[];
+  has_sealed: boolean;
+}
+
+export async function getMarketVariants(entityId: string) {
+  const { data } = await api.get("/market/variants", {
+    params: { entity_id: entityId },
+  });
+  return data as MarketVariants;
+}
+
 export async function getMarketTimeline(params: {
   entity_id: string;
   interval: string;
@@ -113,9 +128,17 @@ export interface TopOffersResponse {
   buys: TopOfferLot[];
 }
 
-export async function getTopOffers(entityId: string, limit = 5) {
+export async function getTopOffers(
+  entityId: string,
+  limit = 5,
+  range?: { from: string; to: string },
+) {
   const { data } = await api.get("/market/top-offers", {
-    params: { entity_id: entityId, limit },
+    params: {
+      entity_id: entityId,
+      limit,
+      ...(range ? { from: range.from, to: range.to } : {}),
+    },
   });
   return data as TopOffersResponse;
 }

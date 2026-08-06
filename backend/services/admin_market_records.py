@@ -19,7 +19,7 @@ from schemas.auth import (
     MarketRecordAdminItem,
     MarketRecordsResponse,
 )
-from services.import_service import find_item_by_name, get_or_create_seller
+from services.import_service import get_or_create_seller, resolve_market_item
 from services.name_matching import normalize_product_name
 
 
@@ -236,8 +236,13 @@ def bulk_update_market_records(db: Session, body: BulkUpdateMarketRecordsRequest
             )
         record.product_name_raw = name
         record.product_name_normalized = normalize_product_name(name)
-        entity = find_item_by_name(db, name)
-        record.entity_id = entity.id if entity else None
+        resolved = resolve_market_item(db, name)
+        record.entity_id = resolved.entity.id if resolved.entity else None
+        record.soul_crystal = resolved.soul_crystal
+        record.rarity = resolved.rarity
+        record.armor_class = resolved.armor_class
+        record.sealed = resolved.sealed
+        record.enchant_level = resolved.enchant_level
 
         seller_name = item.seller_name.strip()
         if not seller_name:

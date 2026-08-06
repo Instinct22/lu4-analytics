@@ -358,12 +358,67 @@ def detect_lucky_moments(records: list[MarketRecord], seller_names: dict[uuid.UU
     return unique[:50]
 
 
+def apply_variant_filters(
+    query,
+    soul_crystal: str | None,
+    enchant_level: int | str | None,
+    rarity: str | None = None,
+    armor_class: str | None = None,
+    sealed: str | bool | None = None,
+):
+    """Filter market rows by variant attributes.
+
+    ``soul_crystal``/``rarity``/``enchant_level``/``armor_class`` of
+    ``""``/``none``/``clean`` selects rows without that attribute.
+    ``sealed`` accepts bool or ``true``/``false``/``yes``/``no``/``clean``.
+    """
+    empty = {"", "none", "clean"}
+    if soul_crystal is not None:
+        if soul_crystal.strip().lower() in empty:
+            query = query.where(MarketRecord.soul_crystal.is_(None))
+        else:
+            query = query.where(func.lower(MarketRecord.soul_crystal) == soul_crystal.strip().lower())
+    if rarity is not None:
+        if rarity.strip().lower() in empty:
+            query = query.where(MarketRecord.rarity.is_(None))
+        else:
+            query = query.where(func.lower(MarketRecord.rarity) == rarity.strip().lower())
+    if armor_class is not None:
+        if armor_class.strip().lower() in empty:
+            query = query.where(MarketRecord.armor_class.is_(None))
+        else:
+            query = query.where(func.lower(MarketRecord.armor_class) == armor_class.strip().lower())
+    if sealed is not None:
+        if isinstance(sealed, bool):
+            query = query.where(MarketRecord.sealed.is_(sealed))
+        else:
+            token = str(sealed).strip().lower()
+            if token in empty or token in {"no", "false", "0"}:
+                query = query.where(
+                    (MarketRecord.sealed.is_(False)) | (MarketRecord.sealed.is_(None))
+                )
+            elif token in {"yes", "true", "1", "sealed"}:
+                query = query.where(MarketRecord.sealed.is_(True))
+    if enchant_level is not None:
+        if isinstance(enchant_level, str) and enchant_level.strip().lower() in empty:
+            query = query.where(MarketRecord.enchant_level.is_(None))
+        else:
+            level = int(enchant_level) if isinstance(enchant_level, str) else enchant_level
+            query = query.where(MarketRecord.enchant_level == level)
+    return query
+
+
 def fetch_records(
     db: Session,
     entity_id: uuid.UUID,
     from_date: datetime,
     to_date: datetime,
     side: str | None = None,
+    soul_crystal: str | None = None,
+    enchant_level: int | str | None = None,
+    rarity: str | None = None,
+    armor_class: str | None = None,
+    sealed: str | bool | None = None,
 ) -> tuple[list[MarketRecord], dict[uuid.UUID, str]]:
     query = (
         select(MarketRecord, Seller.name)
@@ -374,6 +429,9 @@ def fetch_records(
     )
     if side:
         query = query.where(MarketRecord.side == side)
+    query = apply_variant_filters(
+        query, soul_crystal, enchant_level, rarity, armor_class, sealed
+    )
 
     rows = db.execute(query.order_by(MarketRecord.recorded_at)).all()
     records = [r for r, _ in rows]

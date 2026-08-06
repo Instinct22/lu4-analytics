@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useMutation } from "@tanstack/react-query";
 import { getPricesByIds } from "../../api/market";
 import {
@@ -17,12 +17,15 @@ import {
 import { ConfirmDialog } from "../ui";
 import TradingItemSelect from "./TradingItemSelect";
 
+const MASTER_COIN_EXTERNAL_ID = 4037;
+
 export type EditableLine = {
   key: string;
   item_external_id: number;
   item_name: string;
   quantity: number;
   unit_price: number;
+  catalog_matched: boolean;
 };
 
 type Props = {
@@ -51,6 +54,10 @@ function toEditable(items: InventoryLine[] | undefined): EditableLine[] {
     item_name: item.item_name,
     quantity: Number(item.quantity) || 0,
     unit_price: Number(item.unit_price) || 0,
+    catalog_matched:
+      item.catalog_matched !== undefined
+        ? Boolean(item.catalog_matched)
+        : item.item_external_id >= 0,
   }));
 }
 
@@ -78,6 +85,10 @@ export default function CharacterCard({
   const isMerchant = character.kind === "merchant";
   const [open, setOpen] = useState(false);
   const [cleanAdena, setCleanAdena] = useState(() => Math.round(Number(character.clean_adena) || 0));
+  const [masterCoin, setMasterCoin] = useState(() => Math.round(Number(character.master_coin) || 0));
+  const [masterCoinPrice, setMasterCoinPrice] = useState(() =>
+    Math.round(Number(character.master_coin_price) || 0),
+  );
   const [description, setDescription] = useState(character.description ?? "");
   const [tradeMode, setTradeMode] = useState<TradeMode>(
     isMerchant ? character.trade_mode || "sell" : "sell",
@@ -92,9 +103,12 @@ export default function CharacterCard({
   const [copyHint, setCopyHint] = useState("");
   const clipboard = useTradingItemClipboard();
   const hasClipboard = clipboard.items.length > 0;
+  const fetchedMcPriceFor = useRef<string | null>(null);
 
   useEffect(() => {
     setCleanAdena(Math.round(Number(character.clean_adena) || 0));
+    setMasterCoin(Math.round(Number(character.master_coin) || 0));
+    setMasterCoinPrice(Math.round(Number(character.master_coin_price) || 0));
     setDescription(character.description ?? "");
     setTradeMode(character.kind === "merchant" ? character.trade_mode || "sell" : "sell");
     setSellLines(toEditable(character.sell_items?.length ? character.sell_items : character.items));
@@ -102,7 +116,34 @@ export default function CharacterCard({
     setDirty(false);
     setError("");
     setCopyHint("");
+    fetchedMcPriceFor.current = null;
   }, [character]);
+
+  // Pull market MC→adena price when saved price is empty
+  useEffect(() => {
+    if (!editable) return;
+    if (Number(character.master_coin_price) > 0) return;
+    if (fetchedMcPriceFor.current === character.id) return;
+    fetchedMcPriceFor.current = character.id;
+    let cancelled = false;
+    void (async () => {
+      try {
+        const prices = await getPricesByIds(String(MASTER_COIN_EXTERNAL_ID));
+        const row = prices?.[String(MASTER_COIN_EXTERNAL_ID)];
+        const raw = row?.day_vwap ?? row?.last_price ?? 0;
+        const price = Math.round(Number(raw) || 0);
+        if (!cancelled && price > 0) {
+          setMasterCoinPrice((prev) => (prev > 0 ? prev : price));
+          setDirty(true);
+        }
+      } catch {
+        /* ignore */
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [character.id, character.master_coin_price, editable]);
 
   const isBuy = isMerchant && tradeMode === "buy";
   const lines = isBuy ? buyLines : sellLines;
@@ -111,14 +152,21 @@ export default function CharacterCard({
   const sellValue = dirty ? sumLines(sellLines) : Number(character.adena_in_items) || 0;
   const buyCost = dirty ? sumLines(buyLines) : Number(character.buy_cost) || 0;
   const displayClean = dirty ? cleanAdena : Number(character.clean_adena) || 0;
-  const remainingAfterBuy = displayClean - buyCost;
-  const totalDisplay = isBuy ? remainingAfterBuy : displayClean + sellValue;
+  const displayMasterCoin = dirty ? masterCoin : Number(character.master_coin) || 0;
+  const displayMasterCoinPrice = dirty
+    ? masterCoinPrice
+    : Number(character.master_coin_price) || 0;
+  const masterCoinAdena = displayMasterCoin * displayMasterCoinPrice;
+  const remainingAfterBuy = displayClean + masterCoinAdena - buyCost;
+  const totalDisplay = isBuy ? remainingAfterBuy : displayClean + sellValue + masterCoinAdena;
   const activeListSum = isBuy ? buyCost : sellValue;
 
   const saveMut = useMutation({
     mutationFn: () =>
       updateTradingCharacter(character.id, {
         clean_adena: cleanAdena,
+        master_coin: masterCoin,
+        master_coin_price: masterCoinPrice,
         description: description.trim() || null,
         trade_mode: isMerchant ? tradeMode : "sell",
         sell_items: linesToInput(sellLines),
@@ -166,6 +214,7 @@ export default function CharacterCard({
         item_name: name,
         quantity: 1,
         unit_price: unitPrice,
+        catalog_matched: !isCustom,
       },
     ]);
     setDirty(true);
@@ -246,6 +295,15 @@ export default function CharacterCard({
                 Чистая адена:{" "}
                 <span className="tabular-nums text-zinc-300">{formatAdena(displayClean)} а</span>
               </span>
+              <span>
+                Master Coin:{" "}
+                <span className="tabular-nums text-zinc-300">
+                  {formatAdena(displayMasterCoin)}
+                  {displayMasterCoinPrice > 0
+                    ? ` × ${formatAdena(displayMasterCoinPrice)} = ${formatAdena(masterCoinAdena)} а`
+                    : ""}
+                </span>
+              </span>
               {isBuy ? (
                 <span>
                   На покупки:{" "}
@@ -319,6 +377,48 @@ export default function CharacterCard({
                   }}
                 />
               </label>
+              <div className="grid gap-3 sm:grid-cols-2">
+                <label className="block">
+                  <span className="mb-1 block text-xs font-medium text-zinc-500">Master Coin</span>
+                  <input
+                    type="text"
+                    inputMode="numeric"
+                    autoComplete="off"
+                    spellCheck={false}
+                    className="input tabular-nums"
+                    value={formatGroupedInt(masterCoin)}
+                    onChange={(e) => {
+                      setMasterCoin(parseNonNegInt(e.target.value));
+                      setDirty(true);
+                    }}
+                  />
+                </label>
+                <label className="block">
+                  <span className="mb-1 block text-xs font-medium text-zinc-500">
+                    Цена MC (адена)
+                  </span>
+                  <input
+                    type="text"
+                    inputMode="numeric"
+                    autoComplete="off"
+                    spellCheck={false}
+                    className="input tabular-nums"
+                    value={formatGroupedInt(masterCoinPrice)}
+                    onChange={(e) => {
+                      setMasterCoinPrice(parseNonNegInt(e.target.value));
+                      setDirty(true);
+                    }}
+                  />
+                </label>
+              </div>
+              {masterCoin > 0 || masterCoinPrice > 0 ? (
+                <p className="text-xs text-zinc-500">
+                  В Master Coin:{" "}
+                  <span className="tabular-nums text-zinc-300">
+                    {formatAdena(masterCoin * masterCoinPrice)} а
+                  </span>
+                </p>
+              ) : null}
               <label className="block">
                 <span className="mb-1 block text-xs font-medium text-zinc-500">Описание</span>
                 <textarea
@@ -368,12 +468,27 @@ export default function CharacterCard({
                     </td>
                   </tr>
                 ) : (
-                  lines.map((line) => (
+                  lines.map((line) => {
+                    const unmatched = !line.catalog_matched || line.item_external_id < 0;
+                    return (
                     <tr key={line.key} className="text-zinc-300">
                       <td className="px-3 py-2">
-                        <div className="font-medium text-zinc-200">{line.item_name}</div>
-                        <div className="text-xs text-zinc-600">
-                          {line.item_external_id < 0 ? "свой предмет" : `#${line.item_external_id}`}
+                        <div className="flex items-start gap-2">
+                          {unmatched ? (
+                            <span
+                              className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-rose-500"
+                              title="Предмет не найден в каталоге"
+                              aria-label="Не найден в каталоге"
+                            />
+                          ) : (
+                            <span className="mt-1.5 h-2 w-2 shrink-0" aria-hidden />
+                          )}
+                          <div className="min-w-0">
+                            <div className="font-medium text-zinc-200">{line.item_name}</div>
+                            <div className="text-xs text-zinc-600">
+                              {unmatched ? "свой предмет" : `#${line.item_external_id}`}
+                            </div>
+                          </div>
                         </div>
                       </td>
                       <td className="px-3 py-2">
@@ -440,7 +555,8 @@ export default function CharacterCard({
                         </td>
                       ) : null}
                     </tr>
-                  ))
+                    );
+                  })
                 )}
               </tbody>
             </table>
@@ -539,12 +655,17 @@ function mapSnapshotItems(
     item_name: string;
     quantity: number;
     unit_price: string | number;
+    catalog_matched?: boolean;
   }> | undefined,
   prefix: string,
 ): InventoryLine[] {
   return (items ?? []).map((item, idx) => {
     const quantity = Number(item.quantity) || 0;
     const unit_price = Number(item.unit_price) || 0;
+    const catalog_matched =
+      item.catalog_matched !== undefined
+        ? Boolean(item.catalog_matched)
+        : item.item_external_id >= 0;
     return {
       id: `${prefix}-${idx}`,
       item_external_id: item.item_external_id,
@@ -552,6 +673,7 @@ function mapSnapshotItems(
       quantity,
       unit_price,
       line_total: quantity * unit_price,
+      catalog_matched,
     };
   });
 }
@@ -563,6 +685,8 @@ export function characterFromSnapshot(
     kind: "bank" | "merchant";
     nick: string;
     clean_adena: string | number;
+    master_coin?: string | number;
+    master_coin_price?: string | number;
     description?: string;
     trade_mode?: TradeMode;
     sell_items?: Array<{
@@ -570,18 +694,21 @@ export function characterFromSnapshot(
       item_name: string;
       quantity: number;
       unit_price: string | number;
+      catalog_matched?: boolean;
     }>;
     buy_items?: Array<{
       item_external_id: number;
       item_name: string;
       quantity: number;
       unit_price: string | number;
+      catalog_matched?: boolean;
     }>;
     items?: Array<{
       item_external_id: number;
       item_name: string;
       quantity: number;
       unit_price: string | number;
+      catalog_matched?: boolean;
     }>;
   },
   index: number,
@@ -591,6 +718,9 @@ export function characterFromSnapshot(
   const adena_in_items = sell_items.reduce((s, i) => s + i.line_total, 0);
   const buy_cost = buy_items.reduce((s, i) => s + i.line_total, 0);
   const clean_adena = Number(row.clean_adena) || 0;
+  const master_coin = Number(row.master_coin) || 0;
+  const master_coin_price = Number(row.master_coin_price) || 0;
+  const master_coin_adena = master_coin * master_coin_price;
   const trade_mode: TradeMode =
     row.kind === "merchant" && row.trade_mode === "buy" ? "buy" : "sell";
   return {
@@ -598,11 +728,14 @@ export function characterFromSnapshot(
     kind: row.kind,
     nick: row.nick,
     clean_adena,
+    master_coin,
+    master_coin_price,
+    master_coin_adena,
     description: row.description || null,
     trade_mode,
     adena_in_items,
     buy_cost,
-    total_adena: clean_adena + adena_in_items - buy_cost,
+    total_adena: clean_adena + adena_in_items + master_coin_adena - buy_cost,
     sort_order: index,
     sell_items,
     buy_items,

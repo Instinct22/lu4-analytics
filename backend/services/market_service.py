@@ -19,6 +19,7 @@ from calculations.craft_monitor import (
 from calculations.market_timeline import INTERVAL_SECONDS, build_market_timeline
 from calculations.top_offers import build_top_offers
 from calculations.trading_analytics import (
+    apply_variant_filters,
     build_chart_deals,
     build_items_overview,
     build_order_book,
@@ -32,12 +33,15 @@ from core.errors import AppError
 from models.analytics import ItemStatistics
 from models.market import MarketRecord, Seller
 from models.wiki import WikiEntity
+from services.import_service import _pick_canonical_entity
+from services.name_matching import clean_display_name
 from schemas.market import (
     MarketItemOption,
     MarketItemsResponse,
     MarketTimelinePoint,
     MarketTimelineResponse,
     MarketTimelineSideSeries,
+    MarketVariantsResponse,
 )
 from schemas.trading import (
     BuyPlanLot,
@@ -95,6 +99,11 @@ def market_timeline(
     interval: str,
     from_date: datetime | None,
     to_date: datetime | None,
+    soul_crystal: str | None = None,
+    enchant_level: int | str | None = None,
+    rarity: str | None = None,
+    armor_class: str | None = None,
+    sealed: str | bool | None = None,
 ) -> MarketTimelineResponse:
     if interval not in INTERVAL_SECONDS:
         raise AppError(
@@ -113,6 +122,7 @@ def market_timeline(
         query = query.where(MarketRecord.recorded_at >= from_date)
     if to_date:
         query = query.where(MarketRecord.recorded_at <= to_date)
+    query = apply_variant_filters(query, soul_crystal, enchant_level, rarity, armor_class, sealed)
 
     records = db.scalars(query.order_by(MarketRecord.recorded_at)).all()
     series = build_market_timeline(records, interval)  # type: ignore[arg-type]
@@ -128,34 +138,64 @@ def market_timeline(
 
 
 def market_items(db: Session, q: str | None, limit: int) -> MarketItemsResponse:
+    """Items that have market scan data, one row per canonical base item.
+
+    Several wiki entities can share ``name_normalized`` (SA/rare variants). The
+    chart select shows a single base entry; soul ability / rarity / enchant are
+    chosen via variant filters on the item page.
+    """
     query = (
         select(
             WikiEntity.id,
             WikiEntity.external_id,
             WikiEntity.display_name,
+            WikiEntity.name_normalized,
             func.count(MarketRecord.id).label("record_count"),
         )
         .join(MarketRecord, MarketRecord.entity_id == WikiEntity.id)
         .where(MarketRecord.side.is_not(None))
-        .group_by(WikiEntity.id, WikiEntity.external_id, WikiEntity.display_name)
-        .order_by(func.count(MarketRecord.id).desc())
-        .limit(limit)
+        .group_by(
+            WikiEntity.id,
+            WikiEntity.external_id,
+            WikiEntity.display_name,
+            WikiEntity.name_normalized,
+        )
     )
     if q:
         query = query.where(WikiEntity.display_name.ilike(f"%{q}%"))
 
     rows = db.execute(query).all()
-    return MarketItemsResponse(
-        items=[
+    if not rows:
+        return MarketItemsResponse(items=[])
+
+    entity_ids = [row.id for row in rows]
+    entities_by_id = {
+        entity.id: entity
+        for entity in db.scalars(select(WikiEntity).where(WikiEntity.id.in_(entity_ids))).all()
+    }
+
+    groups: dict[str, list] = defaultdict(list)
+    for row in rows:
+        key = row.name_normalized or str(row.id)
+        groups[key].append(row)
+
+    items: list[MarketItemOption] = []
+    for group in groups.values():
+        entities = [entities_by_id[row.id] for row in group if row.id in entities_by_id]
+        canonical = _pick_canonical_entity(db, entities)
+        if canonical is None:
+            continue
+        items.append(
             MarketItemOption(
-                id=row.id,
-                external_id=row.external_id,
-                display_name=row.display_name,
-                record_count=row.record_count,
+                id=canonical.id,
+                external_id=canonical.external_id,
+                display_name=clean_display_name(canonical.display_name),
+                record_count=sum(row.record_count for row in group),
             )
-            for row in rows
-        ]
-    )
+        )
+
+    items.sort(key=lambda item: item.record_count, reverse=True)
+    return MarketItemsResponse(items=items[:limit])
 
 
 def prices_by_ids(db: Session, ids: str) -> dict[str, dict]:
@@ -228,10 +268,18 @@ def trading_chart(
     period: str,
     from_date: datetime | None,
     to_date: datetime | None,
+    soul_crystal: str | None = None,
+    enchant_level: int | str | None = None,
+    rarity: str | None = None,
+    armor_class: str | None = None,
+    sealed: str | bool | None = None,
 ) -> TradingChartResponse:
     get_item_or_404(db, entity_id)
     start, end = resolve_time_range(period, from_date, to_date)
-    records, seller_names = fetch_records(db, entity_id, start, end)
+    records, seller_names = fetch_records(
+        db, entity_id, start, end,
+        soul_crystal=soul_crystal, enchant_level=enchant_level, rarity=rarity, armor_class=armor_class, sealed=sealed,
+    )
     return TradingChartResponse(
         entity_id=entity_id,
         from_date=start,
@@ -247,10 +295,18 @@ def trading_analytics(
     period: str,
     from_date: datetime | None,
     to_date: datetime | None,
+    soul_crystal: str | None = None,
+    enchant_level: int | str | None = None,
+    rarity: str | None = None,
+    armor_class: str | None = None,
+    sealed: str | bool | None = None,
 ) -> TradingAnalyticsResponse:
     get_item_or_404(db, entity_id)
     start, end = resolve_time_range(period, from_date, to_date)
-    records, _ = fetch_records(db, entity_id, start, end)
+    records, _ = fetch_records(
+        db, entity_id, start, end,
+        soul_crystal=soul_crystal, enchant_level=enchant_level, rarity=rarity, armor_class=armor_class, sealed=sealed,
+    )
     stats = compute_analytics(records)
     max_price_deal = stats.pop("max_price_deal")
     max_volume_deal = stats.pop("max_volume_deal")
@@ -267,10 +323,18 @@ def order_book(
     period: str,
     from_date: datetime | None,
     to_date: datetime | None,
+    soul_crystal: str | None = None,
+    enchant_level: int | str | None = None,
+    rarity: str | None = None,
+    armor_class: str | None = None,
+    sealed: str | bool | None = None,
 ) -> OrderBookResponse:
     get_item_or_404(db, entity_id)
     start, end = resolve_time_range(period, from_date, to_date)
-    records, _ = fetch_records(db, entity_id, start, end)
+    records, _ = fetch_records(
+        db, entity_id, start, end,
+        soul_crystal=soul_crystal, enchant_level=enchant_level, rarity=rarity, armor_class=armor_class, sealed=sealed,
+    )
     book = build_order_book(records)
     return OrderBookResponse(
         buys=[OrderBookLevel(**level) for level in book["buys"]],
@@ -284,10 +348,18 @@ def lucky_moments(
     period: str,
     from_date: datetime | None,
     to_date: datetime | None,
+    soul_crystal: str | None = None,
+    enchant_level: int | str | None = None,
+    rarity: str | None = None,
+    armor_class: str | None = None,
+    sealed: str | bool | None = None,
 ) -> LuckyMomentsResponse:
     get_item_or_404(db, entity_id)
     start, end = resolve_time_range(period, from_date, to_date)
-    records, seller_names = fetch_records(db, entity_id, start, end)
+    records, seller_names = fetch_records(
+        db, entity_id, start, end,
+        soul_crystal=soul_crystal, enchant_level=enchant_level, rarity=rarity, armor_class=armor_class, sealed=sealed,
+    )
     events = detect_lucky_moments(records, seller_names)
     return LuckyMomentsResponse(events=[LuckyMomentEvent(**e) for e in events])
 
@@ -318,9 +390,15 @@ def buy_plan(db: Session, entity_id: uuid.UUID, quantity: int) -> BuyPlanRespons
     )
 
 
-def top_offers(db: Session, entity_id: uuid.UUID, limit: int = 5) -> TopOffersResponse:
+def top_offers(
+    db: Session,
+    entity_id: uuid.UUID,
+    limit: int = 5,
+    from_date: datetime | None = None,
+    to_date: datetime | None = None,
+) -> TopOffersResponse:
     get_item_or_404(db, entity_id)
-    data = build_top_offers(db, entity_id, limit=limit)
+    data = build_top_offers(db, entity_id, limit=limit, from_date=from_date, to_date=to_date)
     return TopOffersResponse(
         entity_id=data["entity_id"],
         sells=[TopOfferLot(**lot) for lot in data["sells"]],
@@ -351,6 +429,48 @@ def craft_monitor(
     )
 
 
+def market_variants(db: Session, entity_id: uuid.UUID) -> MarketVariantsResponse:
+    """Distinct variant facets recorded for one base item."""
+    get_item_or_404(db, entity_id)
+    soul_rows = db.scalars(
+        select(MarketRecord.soul_crystal)
+        .where(MarketRecord.entity_id == entity_id)
+        .where(MarketRecord.soul_crystal.is_not(None))
+        .distinct()
+    ).all()
+    rarity_rows = db.scalars(
+        select(MarketRecord.rarity)
+        .where(MarketRecord.entity_id == entity_id)
+        .where(MarketRecord.rarity.is_not(None))
+        .distinct()
+    ).all()
+    armor_rows = db.scalars(
+        select(MarketRecord.armor_class)
+        .where(MarketRecord.entity_id == entity_id)
+        .where(MarketRecord.armor_class.is_not(None))
+        .distinct()
+    ).all()
+    enchant_rows = db.scalars(
+        select(MarketRecord.enchant_level)
+        .where(MarketRecord.entity_id == entity_id)
+        .where(MarketRecord.enchant_level.is_not(None))
+        .distinct()
+    ).all()
+    has_sealed = db.scalar(
+        select(func.count())
+        .select_from(MarketRecord)
+        .where(MarketRecord.entity_id == entity_id)
+        .where(MarketRecord.sealed.is_not(None))
+    ) or 0
+    return MarketVariantsResponse(
+        soul_crystals=sorted(v for v in soul_rows if v),
+        rarities=sorted(v for v in rarity_rows if v),
+        armor_classes=sorted(v for v in armor_rows if v),
+        enchant_levels=sorted(v for v in enchant_rows if v is not None),
+        has_sealed=bool(has_sealed),
+    )
+
+
 def list_trades(
     db: Session,
     *,
@@ -364,6 +484,11 @@ def list_trades(
     sort_order: str,
     page: int,
     limit: int,
+    soul_crystal: str | None = None,
+    enchant_level: int | str | None = None,
+    rarity: str | None = None,
+    armor_class: str | None = None,
+    sealed: str | bool | None = None,
 ) -> TradesListResponse:
     get_item_or_404(db, entity_id)
     start, end = resolve_time_range(period, from_date, to_date)
@@ -385,6 +510,8 @@ def list_trades(
         .where(MarketRecord.recorded_at >= start)
         .where(MarketRecord.recorded_at <= end)
     )
+    query = apply_variant_filters(query, soul_crystal, enchant_level, rarity, armor_class, sealed)
+    count_query = apply_variant_filters(count_query, soul_crystal, enchant_level, rarity, armor_class, sealed)
 
     if search:
         pattern = f"%{search}%"
@@ -413,6 +540,11 @@ def list_trades(
             price=record.price,
             total_cost=record.price * (record.quantity if record.quantity is not None else 1),
             side=record.side,
+            soul_crystal=record.soul_crystal,
+            rarity=record.rarity,
+            armor_class=record.armor_class,
+            sealed=record.sealed,
+            enchant_level=record.enchant_level,
         )
         for record, seller_name in rows
     ]

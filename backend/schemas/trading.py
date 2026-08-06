@@ -155,6 +155,11 @@ class TradeRecordItem(BaseModel):
     price: Decimal
     total_cost: Decimal
     side: str | None
+    soul_crystal: str | None = None
+    rarity: str | None = None
+    armor_class: str | None = None
+    sealed: bool | None = None
+    enchant_level: int | None = None
 
 
 class TradesListResponse(BaseModel):

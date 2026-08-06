@@ -33,6 +33,12 @@ export function wikiPagePath(entityType: string, entityId: string, from?: string
   return query ? `/wiki/${entityType}/${entityId}?${query}` : `/wiki/${entityType}/${entityId}`;
 }
 
+export function questPagePath(id: number, from?: string | null): string {
+  const params = new URLSearchParams({ id: String(id) });
+  if (from) params.set("from", from);
+  return `/quests?${params.toString()}`;
+}
+
 export function setPagePath(setId: string): string {
   return `/items?set=${encodeURIComponent(setId)}`;
 }
@@ -52,6 +58,7 @@ export function returnPathLabel(path: string): string {
   if (path.startsWith("/craft")) return "Крафт";
   if (path.startsWith("/resources")) return "Ресурсы";
   if (path.startsWith("/items")) return "Предметы";
+  if (path.startsWith("/quests")) return "Квесты";
   if (path.startsWith("/character/exp")) return "Exp";
   if (path.startsWith("/character")) return "Умения";
   return "Назад";

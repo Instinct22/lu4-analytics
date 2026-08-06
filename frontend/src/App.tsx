@@ -23,6 +23,7 @@ const CharacterPage = lazy(() => import("./pages/Character"));
 const ExpCalculatorPage = lazy(() => import("./pages/ExpCalculator"));
 const AdminPage = lazy(() => import("./pages/Admin"));
 const RaidBossesPage = lazy(() => import("./pages/RaidBosses"));
+const QuestsPage = lazy(() => import("./pages/Quests"));
 const SettingsPage = lazy(() => import("./pages/Settings"));
 const TradingPage = lazy(() => import("./pages/Trading"));
 
@@ -177,6 +178,14 @@ export default function App() {
                 element={
                   <RequirePermission permission="nav.raid_bosses">
                     <RaidBossesPage />
+                  </RequirePermission>
+                }
+              />
+              <Route
+                path="/quests"
+                element={
+                  <RequirePermission permission="nav.quests">
+                    <QuestsPage />
                   </RequirePermission>
                 }
               />

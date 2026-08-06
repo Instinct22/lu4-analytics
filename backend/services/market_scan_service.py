@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from core.currency import normalize_currency
 from models.market import ImportLog, MarketRecord
 from schemas.market_scan import ScanRecord
-from services.import_service import find_item_by_name, get_or_create_seller
+from services.import_service import get_or_create_seller, resolve_market_item
 from services.name_matching import normalize_product_name
 
 
@@ -14,13 +14,18 @@ def save_scan_record(
     import_log_id=None,
 ) -> tuple[MarketRecord, bool]:
     seller = get_or_create_seller(db, record.name)
-    entity = find_item_by_name(db, record.item)
+    resolved = resolve_market_item(db, record.item)
     normalized = normalize_product_name(record.item)
 
     market_record = MarketRecord(
-        entity_id=entity.id if entity else None,
+        entity_id=resolved.entity.id if resolved.entity else None,
         product_name_raw=record.item,
         product_name_normalized=normalized,
+        soul_crystal=resolved.soul_crystal,
+        rarity=resolved.rarity,
+        armor_class=resolved.armor_class,
+        sealed=resolved.sealed,
+        enchant_level=resolved.enchant_level,
         seller_id=seller.id,
         price=record.price.amount,
         currency=normalize_currency(record.price.currency),
@@ -32,7 +37,7 @@ def save_scan_record(
     )
     db.add(market_record)
     db.flush()
-    return market_record, entity is not None
+    return market_record, resolved.entity is not None
 
 
 def save_scan_batch(db: Session, records: list[ScanRecord]) -> tuple[int, int, set]:

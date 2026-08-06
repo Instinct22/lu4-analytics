@@ -8,7 +8,6 @@ from unittest.mock import MagicMock
 
 from models.craft import CraftItem
 from models.item_encyclopedia import ItemEncyclopedia
-from models.wiki import WikiEntity
 from services.import_service import find_item_by_name
 from tests.conftest import make_entity, scalars_by_model
 
@@ -37,19 +36,13 @@ def test_find_item_by_name_keeps_recipe_distinct_via_craft():
     )
 
     db = MagicMock()
-    # 1) exact wiki normalized miss
-    # 2) craft candidate hit
-    # 3) wiki by external_id
-    db.scalar.side_effect = [None, recipe]
+    # Exact WikiEntity miss (empty), craft candidate hit, wiki by external_id.
+    db.scalar.return_value = recipe
 
     def scalars_handler(stmt):
         entity = stmt.column_descriptions[0]["entity"]
         if entity is CraftItem:
             return SimpleNamespace(all=lambda: [craft_recipe])
-        if entity is ItemEncyclopedia:
-            return SimpleNamespace(all=lambda: [])
-        if entity is WikiEntity:
-            return SimpleNamespace(all=lambda: [])
         return SimpleNamespace(all=lambda: [])
 
     db.scalars.side_effect = scalars_handler
@@ -70,8 +63,7 @@ def test_find_item_by_name_matches_product_without_recipe_prefix():
         name_normalized="soulshot (d-grade)",
     )
     db = MagicMock()
-    db.scalar.return_value = product
-    db.scalars.side_effect = scalars_by_model({})
+    db.scalars.side_effect = scalars_by_model({"WikiEntity": [product]})
 
     found = find_item_by_name(db, "Soulshot (D-Grade)")
     assert found is product
@@ -89,16 +81,12 @@ def test_find_item_by_name_matches_apostrophe_via_encyclopedia():
     enc = SimpleNamespace(external_id=1510, name="Butcher's Sword")
 
     db = MagicMock()
-    db.scalar.side_effect = [None, product]
+    db.scalar.return_value = product  # _wiki_item_by_external_id
 
     def scalars_handler(stmt):
         entity = stmt.column_descriptions[0]["entity"]
-        if entity is CraftItem:
-            return SimpleNamespace(all=lambda: [])
         if entity is ItemEncyclopedia:
             return SimpleNamespace(all=lambda: [enc])
-        if entity is WikiEntity:
-            return SimpleNamespace(all=lambda: [])
         return SimpleNamespace(all=lambda: [])
 
     db.scalars.side_effect = scalars_handler
