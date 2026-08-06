@@ -2,68 +2,65 @@
   "key": "npc:25337",
   "type": "npc",
   "id": 25337,
-  "name": "Lu4 Wiki: NPC Anakazel",
+  "name": "Anakazel",
   "url": "/lu4/npc/25337-anakazel",
-  "source_url": "https://masterwork.wiki/lu4/npc/25337-anakazel",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25337-anakazel",
   "raw_html": "library/raw/lu4/npc/25337-anakazel.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "865 809 / 8 254",
+    "P. Atk. / M. Atk.": "4 845 / 11 027",
+    "P. Def. / M. Def.": "1 287 / 1 461",
+    "Accuracy / Evasion": "119 / 119",
+    "Exp / SP": "1 812 660 / 349 493",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A being that tries to invade the real world by crossing the Dimensional Rift along with the otherworldly devils. Due to the influence of the rift where time and space are distorted, it has a very unstable shape. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Resist Full Magic Attack Lv. 1",
+    "Grade": "A",
+    "Type": "Demonic, Lv. 68"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25337",
-      "type": "npc",
-      "id": 25337,
-      "name": "Lu4",
-      "url": "/lu4/npc/25337-anakazel"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4919",
       "type": "skill",
       "id": 4919,
-      "name": "Raid Boss Lv. 1 A being that tries to invade the real world by crossing the Dimensional Rift along with the otherworldly devils. Due to the influence of the rift where time and space are distorted, it has a very unstable shape.",
-      "url": "/lu4/skill/4919-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4919-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:32390",
-      "type": "item",
-      "id": 32390,
-      "name": "Unidentified Sealed Majestic Plate Armor A",
-      "url": "/lu4/item/32390-unidentified-sealed-majestic-plate-armor"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:32385",
@@ -73,46 +70,18 @@
       "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
     },
     {
-      "key": "item:32343",
+      "key": "item:32390",
       "type": "item",
-      "id": 32343,
-      "name": "Unidentified Dragon Grinder A",
-      "url": "/lu4/item/32343-unidentified-dragon-grinder"
+      "id": 32390,
+      "name": "Unidentified Sealed Majestic Plate Armor A",
+      "url": "/lu4/item/32390-unidentified-sealed-majestic-plate-armor"
     },
     {
-      "key": "item:8619",
+      "key": "item:5522",
       "type": "item",
-      "id": 8619,
-      "name": "Ancient Book: Divine Inspiration (Original Language Version) 22th buff slot NG",
-      "url": "/lu4/item/8619-ancient-book-divine-inspiration-original-language-version"
-    },
-    {
-      "key": "item:8176",
-      "type": "item",
-      "id": 8176,
-      "name": "Destruction Tombstone NG",
-      "url": "/lu4/item/8176-destruction-tombstone"
-    },
-    {
-      "key": "item:6578",
-      "type": "item",
-      "id": 6578,
-      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
-    },
-    {
-      "key": "item:6577",
-      "type": "item",
-      "id": 6577,
-      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
-      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
-    },
-    {
-      "key": "item:5538",
-      "type": "item",
-      "id": 5538,
-      "name": "Dragon Grinder Edge NG",
-      "url": "/lu4/item/5538-dragon-grinder-edge"
+      "id": 5522,
+      "name": "Sealed Armor of Nightmare Pattern NG",
+      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
     },
     {
       "key": "item:5523",
@@ -122,11 +91,46 @@
       "url": "/lu4/item/5523-sealed-majestic-plate-armor-pattern"
     },
     {
-      "key": "item:5522",
+      "key": "item:32343",
       "type": "item",
-      "id": 5522,
-      "name": "Sealed Armor of Nightmare Pattern NG",
-      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
+      "id": 32343,
+      "name": "Unidentified Dragon Grinder A",
+      "url": "/lu4/item/32343-unidentified-dragon-grinder"
+    },
+    {
+      "key": "item:5538",
+      "type": "item",
+      "id": 5538,
+      "name": "Dragon Grinder Edge NG",
+      "url": "/lu4/item/5538-dragon-grinder-edge"
+    },
+    {
+      "key": "item:6577",
+      "type": "item",
+      "id": 6577,
+      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
+      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
+    },
+    {
+      "key": "item:6578",
+      "type": "item",
+      "id": 6578,
+      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+    },
+    {
+      "key": "item:8176",
+      "type": "item",
+      "id": 8176,
+      "name": "Destruction Tombstone NG",
+      "url": "/lu4/item/8176-destruction-tombstone"
+    },
+    {
+      "key": "item:8619",
+      "type": "item",
+      "id": 8619,
+      "name": "Ancient Book: Divine Inspiration (Original Language Version) 22th buff slot NG",
+      "url": "/lu4/item/8619-ancient-book-divine-inspiration-original-language-version"
     }
   ]
 }

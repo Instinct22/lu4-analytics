@@ -2,124 +2,128 @@
   "key": "npc:22213",
   "type": "npc",
   "id": 22213,
-  "name": "Lu4 Wiki: NPC Wild Strider",
+  "name": "Wild Strider",
   "url": "/lu4/npc/22213-wild-strider",
-  "source_url": "https://masterwork.wiki/lu4/npc/22213-wild-strider",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22213-wild-strider",
   "raw_html": "library/raw/lu4/npc/22213-wild-strider.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "13 954 / 2 152",
+    "P. Atk. / M. Atk.": "6 499 / 2 392",
+    "P. Def. / M. Def.": "1 097 / 886",
+    "Accuracy / Evasion": "125 / 135",
+    "Exp / SP": "58 095 / 7 806",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (1/2x) Lv. 9 MP Increase (1x) Lv. 1 Very Strong P. Atk. Lv. 17 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Very Strong M. Def. Lv. 16 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Beast Lv. 4 Beast. Unknown Creature Lv. 24 An unknown life form that has never been discovered before. Sleep Resistance Lv. 5 Resistant to Sleep. Greater Hold Resistance Lv. 2 Highly resistant to Hold. Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Greater Spear Resistance Lv. 1 Very resistant to Spears.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22213",
-      "type": "npc",
-      "id": 22213,
-      "name": "Lu4",
-      "url": "/lu4/npc/22213-wild-strider"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1/2x) Lv. 9",
-      "url": "/lu4/skill/4408-hp-increase-12x/9"
+      "name": "HP Increase (1/2x)",
+      "url": "/lu4/skill/4408-hp-increase-12x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 17",
-      "url": "/lu4/skill/4410-very-strong-p-atk/17"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 16",
-      "url": "/lu4/skill/4413-very-strong-m-def/16"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Beast Lv. 4 Beast.",
-      "url": "/lu4/skill/4417-beast/4"
+      "name": "Beast",
+      "url": "/lu4/skill/4417-beast"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 2 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/2"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4445",
       "type": "skill",
       "id": 4445,
-      "name": "Greater Spear Resistance Lv. 1 Very resistant to Spears.",
-      "url": "/lu4/skill/4445-greater-spear-resistance/1"
+      "name": "Greater Spear Resistance",
+      "url": "/lu4/skill/4445-greater-spear-resistance"
     },
     {
-      "key": "item:8955",
+      "key": "item:57",
       "type": "item",
-      "id": 8955,
-      "name": "Green Primeval Crystal S",
-      "url": "/lu4/item/8955-green-primeval-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5538",
@@ -129,11 +133,18 @@
       "url": "/lu4/item/5538-dragon-grinder-edge"
     },
     {
-      "key": "item:57",
+      "key": "item:8955",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 8955,
+      "name": "Green Primeval Crystal S",
+      "url": "/lu4/item/8955-green-primeval-crystal"
+    },
+    {
+      "key": "item:6708",
+      "type": "item",
+      "id": 6708,
+      "name": "Sealed Draconic Leather Gloves Fabric NG",
+      "url": "/lu4/item/6708-sealed-draconic-leather-gloves-fabric"
     },
     {
       "key": "item:6901",
@@ -148,13 +159,6 @@
       "id": 6709,
       "name": "Sealed Draconic Leather Boots Design NG",
       "url": "/lu4/item/6709-sealed-draconic-leather-boots-design"
-    },
-    {
-      "key": "item:6708",
-      "type": "item",
-      "id": 6708,
-      "name": "Sealed Draconic Leather Gloves Fabric NG",
-      "url": "/lu4/item/6708-sealed-draconic-leather-gloves-fabric"
     }
   ]
 }

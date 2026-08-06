@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4800-raid-boss
+- Path: /lu4/skill/4800-raid-boss
+- Type: skill
+- Key: skill:4800
+
+## Stats
+- Effect: A powerful, mutant Monster Eye. Some scholars believe it has achieved the final stage of Monster Eye evolution. It is incredibly intelligent and arrogant. Years ago it ran away from Argos, the father of all Monster Eyes, to the south. It thinks and schemes, and plots to steal Argos' power someday. It believes that it grows stronger by eating the brains of other intelligent living beings, and so it feeds often.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability A powerful, mutant Monster Eye. Some scholars believe it has achieved the final stage of Monster Eye evolution. It is incredibly intelligent and arrogant. Years ago it ran away from Argos, the father of all Monster Eyes, to the south. It thinks and schemes, and plots to steal Argos' power someday. It believes that it grows stronger by eating the brains of other intelligent living beings, and so it feeds often. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

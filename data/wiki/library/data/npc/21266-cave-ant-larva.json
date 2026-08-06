@@ -2,49 +2,46 @@
   "key": "npc:21266",
   "type": "npc",
   "id": 21266,
-  "name": "Lu4 Wiki: NPC Cave Ant Larva",
+  "name": "Cave Ant Larva",
   "url": "/lu4/npc/21266-cave-ant-larva",
-  "source_url": "https://masterwork.wiki/lu4/npc/21266-cave-ant-larva",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21266-cave-ant-larva",
   "raw_html": "library/raw/lu4/npc/21266-cave-ant-larva.html",
   "stats": {
-    "Location": "Муравьиный Инкубатор"
+    "Respawn Time": "44 seconds ± 9 seconds",
+    "Location": "Муравьиный Инкубатор",
+    "HP / MP": "1 232 / 514",
+    "P. Atk. / M. Atk.": "212 / 103",
+    "P. Def. / M. Def.": "185 / 144",
+    "Accuracy / Evasion": "69 / 74",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 36"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21266",
-      "type": "npc",
-      "id": 21266,
-      "name": "Lu4",
-      "url": "/lu4/npc/21266-cave-ant-larva"
-    },
-    {
-      "key": "location:306",
-      "type": "location",
-      "id": 306,
-      "name": "Муравьиный Инкубатор",
-      "url": "/lu4/location/306-muravinyj-inkubator"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:39297",
+      "key": "item:39295",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
       "key": "item:39296",
@@ -54,11 +51,11 @@
       "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:39295",
+      "key": "item:39297",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     }
   ]
 }

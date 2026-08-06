@@ -2,160 +2,24 @@
   "key": "item:4999",
   "type": "item",
   "id": 4999,
-  "name": "Recipe",
+  "name": "Recipe: Sealed Doom Boots (60%)",
   "url": "/lu4/item/4999-recipe-sealed-doom-boots-60",
-  "source_url": "https://masterwork.wiki/lu4/item/4999-recipe-sealed-doom-boots-60",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/4999-recipe-sealed-doom-boots-60",
   "raw_html": "library/raw/lu4/item/4999-recipe-sealed-doom-boots-60.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Sealed Doom Boots'. Requires Create Item - Skill Level 7 (Warsmith Lv. 55). The success rate is 60%.",
+    "NPC Sell Price": "8 040 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "7",
     "MP Consume": "183",
     "Success Rate": "60%",
-    "Result": "Sealed Doom Boots B or Sealed Doom Boots B Foundation"
+    "Result": "Sealed Doom Boots B or Sealed Doom Boots B Foundation",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:4999",
-      "type": "item",
-      "id": 4999,
-      "name": "Recipe: Sealed Doom Boots (60%) NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:4099",
-      "type": "item",
-      "id": 4099,
-      "name": "Sealed Doom Boots Part NG",
-      "amount": "13"
-    },
-    {
-      "key": "item:1894",
-      "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "12.8"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "64"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "64"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "160"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "768"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "40"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "12"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1460",
-      "type": "item",
-      "id": 1460,
-      "name": "Crystal (B-Grade) B",
-      "amount": "8"
-    },
-    {
-      "key": "item:2132",
-      "type": "item",
-      "id": 2132,
-      "name": "Gemstone B NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "amount": "100000"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:4999",
-      "type": "item",
-      "id": 4999,
-      "name": "Lu4",
-      "url": "/lu4/item/4999-recipe-sealed-doom-boots-60"
-    },
     {
       "key": "item:4099",
       "type": "item",
@@ -300,35 +164,35 @@
       "key": "npc:21058",
       "type": "npc",
       "id": 21058,
-      "name": "Beast Lord Lv. 60",
+      "name": "Beast Lord",
       "url": "/lu4/npc/21058-beast-lord"
     },
     {
       "key": "npc:21001",
       "type": "npc",
       "id": 21001,
-      "name": "Wretched Archer Lv. 62",
+      "name": "Wretched Archer",
       "url": "/lu4/npc/21001-wretched-archer"
     },
     {
       "key": "npc:5033",
       "type": "npc",
       "id": 5033,
-      "name": "Gatebound Ravager Lv. 65",
+      "name": "Gatebound Ravager",
       "url": "/lu4/npc/5033-gatebound-ravager"
     },
     {
       "key": "npc:20822",
       "type": "npc",
       "id": 20822,
-      "name": "Hallate's Maid Lv. 65",
+      "name": "Hallate's Maid",
       "url": "/lu4/npc/20822-hallates-maid"
     },
     {
       "key": "npc:5031",
       "type": "npc",
       "id": 5031,
-      "name": "Veilbound Pilgrim Lv. 64",
+      "name": "Veilbound Pilgrim",
       "url": "/lu4/npc/5031-veilbound-pilgrim"
     }
   ]

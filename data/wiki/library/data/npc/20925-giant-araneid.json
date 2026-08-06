@@ -2,63 +2,74 @@
   "key": "npc:20925",
   "type": "npc",
   "id": 20925,
-  "name": "Lu4 Wiki: NPC Giant Araneid",
+  "name": "Giant Araneid",
   "url": "/lu4/npc/20925-giant-araneid",
-  "source_url": "https://masterwork.wiki/lu4/npc/20925-giant-araneid",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20925-giant-araneid",
   "raw_html": "library/raw/lu4/npc/20925-giant-araneid.html",
   "stats": {
-    "Location": "Лагерь Ящеров Мэль"
+    "Respawn Time": "25 seconds",
+    "Location": "Лагерь Ящеров Мэль",
+    "HP / MP": "1 342 / 302",
+    "P. Atk. / M. Atk.": "84 / 41",
+    "P. Def. / M. Def.": "106 / 95",
+    "Accuracy / Evasion": "57 / 72",
+    "Exp / SP": "1 271 / 127",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (2x) Lv. 10 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 24"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20925",
-      "type": "npc",
-      "id": 20925,
-      "name": "Lu4",
-      "url": "/lu4/npc/20925-giant-araneid"
-    },
-    {
-      "key": "location:25",
-      "type": "location",
-      "id": 25,
-      "name": "Лагерь Ящеров Мэль",
-      "url": "/lu4/location/25-lager-aserov-mel"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
-      "key": "item:5273",
+      "key": "item:57",
       "type": "item",
-      "id": 5273,
-      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
-      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1937",
+      "key": "item:846",
       "type": "item",
-      "id": 1937,
-      "name": "Scale Gaiters Fragment NG",
-      "url": "/lu4/item/1937-scale-gaiters-fragment"
+      "id": 846,
+      "name": "Coral Earring NG",
+      "url": "/lu4/item/846-coral-earring"
+    },
+    {
+      "key": "item:878",
+      "type": "item",
+      "id": 878,
+      "name": "Blue Coral Ring NG",
+      "url": "/lu4/item/878-blue-coral-ring"
+    },
+    {
+      "key": "item:909",
+      "type": "item",
+      "id": 909,
+      "name": "Blue Diamond Necklace NG",
+      "url": "/lu4/item/909-blue-diamond-necklace"
     },
     {
       "key": "item:1898",
@@ -96,18 +107,11 @@
       "url": "/lu4/item/1060-lesser-healing-potion"
     },
     {
-      "key": "item:909",
+      "key": "item:5273",
       "type": "item",
-      "id": 909,
-      "name": "Blue Diamond Necklace NG",
-      "url": "/lu4/item/909-blue-diamond-necklace"
-    },
-    {
-      "key": "item:878",
-      "type": "item",
-      "id": 878,
-      "name": "Blue Coral Ring NG",
-      "url": "/lu4/item/878-blue-coral-ring"
+      "id": 5273,
+      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
+      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
     },
     {
       "key": "item:848",
@@ -115,13 +119,6 @@
       "id": 848,
       "name": "Enchanted Earring D",
       "url": "/lu4/item/848-enchanted-earring"
-    },
-    {
-      "key": "item:846",
-      "type": "item",
-      "id": 846,
-      "name": "Coral Earring NG",
-      "url": "/lu4/item/846-coral-earring"
     },
     {
       "key": "item:468",
@@ -138,18 +135,18 @@
       "url": "/lu4/item/377-scale-gaiters"
     },
     {
-      "key": "item:57",
+      "key": "item:1937",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1937,
+      "name": "Scale Gaiters Fragment NG",
+      "url": "/lu4/item/1937-scale-gaiters-fragment"
     },
     {
-      "key": "item:2259",
+      "key": "item:1874",
       "type": "item",
-      "id": 2259,
-      "name": "Recipe: Spinebone Sword NG",
-      "url": "/lu4/item/2259-recipe-spinebone-sword"
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
       "key": "item:2016",
@@ -159,11 +156,11 @@
       "url": "/lu4/item/2016-composite-bow-shaft"
     },
     {
-      "key": "item:1874",
+      "key": "item:2259",
       "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
+      "id": 2259,
+      "name": "Recipe: Spinebone Sword NG",
+      "url": "/lu4/item/2259-recipe-spinebone-sword"
     }
   ]
 }

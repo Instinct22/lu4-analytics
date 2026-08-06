@@ -2,40 +2,51 @@
   "key": "npc:21803",
   "type": "npc",
   "id": 21803,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21803-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21803-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21803-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21803-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "814 / 353",
+    "P. Atk. / M. Atk.": "111 / 55",
+    "P. Def. / M. Def.": "142 / 114",
+    "Accuracy / Evasion": "60 / 60",
+    "Exp / SP": "918 / 47",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 27"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21803",
-      "type": "npc",
-      "id": 21803,
-      "name": "Lu4",
-      "url": "/lu4/npc/21803-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:5220",
+      "key": "item:57",
       "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2152",
+      "key": "item:40",
       "type": "item",
-      "id": 2152,
-      "name": "Recipe: Enchanted Necklace NG",
-      "url": "/lu4/item/2152-recipe-enchanted-necklace"
+      "id": 40,
+      "name": "Leather Boots D",
+      "url": "/lu4/item/40-leather-boots"
+    },
+    {
+      "key": "item:604",
+      "type": "item",
+      "id": 604,
+      "name": "Crafted Leather Gloves D",
+      "url": "/lu4/item/604-crafted-leather-gloves"
     },
     {
       "key": "item:1934",
@@ -50,6 +61,13 @@
       "id": 1931,
       "name": "Leather Boots Lining NG",
       "url": "/lu4/item/1931-leather-boots-lining"
+    },
+    {
+      "key": "item:2152",
+      "type": "item",
+      "id": 2152,
+      "name": "Recipe: Enchanted Necklace NG",
+      "url": "/lu4/item/2152-recipe-enchanted-necklace"
     },
     {
       "key": "item:1885",
@@ -73,25 +91,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:604",
+      "key": "item:5220",
       "type": "item",
-      "id": 604,
-      "name": "Crafted Leather Gloves D",
-      "url": "/lu4/item/604-crafted-leather-gloves"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:40",
-      "type": "item",
-      "id": 40,
-      "name": "Leather Boots D",
-      "url": "/lu4/item/40-leather-boots"
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
     },
     {
       "key": "item:1899",

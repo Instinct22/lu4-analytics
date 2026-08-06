@@ -2,61 +2,44 @@
   "key": "npc:29066",
   "type": "npc",
   "id": 29066,
-  "name": "Lu4 Wiki: NPC Antharas",
+  "name": "Antharas",
   "url": "/lu4/npc/29066-antharas",
-  "source_url": "https://masterwork.wiki/lu4/npc/29066-antharas",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/29066-antharas",
   "raw_html": "library/raw/lu4/npc/29066-antharas.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "33 736 500 / 43 314",
+    "P. Atk. / M. Atk.": "30 164 / 98 553",
+    "P. Def. / M. Def.": "3 514 / 4 226",
+    "Accuracy / Evasion": "137 / 137",
+    "Exp / SP": "225 122 000 / 25 593 300",
+    "Attack Attribute": "Earth 150",
+    "Defense Attributes": "Fire 75, Water 75, Wind 150, Earth 75, Holy 75, Unholy 75",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% Antharas Lv. 1 Vulnerable to Wind attacks but has a very powerful Earth Resistance. Resist Full Magic Attack Lv. 1",
+    "Grade": "S",
+    "Type": "Dragon, Lv. 78"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:29066",
-      "type": "npc",
-      "id": 29066,
-      "name": "Lu4",
-      "url": "/lu4/npc/29066-antharas"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4122",
       "type": "skill",
       "id": 4122,
-      "name": "Antharas Lv. 1 Vulnerable to Wind attacks but has a very powerful Earth Resistance.",
-      "url": "/lu4/skill/4122-antharas/1"
+      "name": "Antharas",
+      "url": "/lu4/skill/4122-antharas"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:49800",
-      "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:34940",
-      "type": "item",
-      "id": 34940,
-      "name": "Angel Slayer*Soul Separator S",
-      "url": "/lu4/item/34940-angel-slayersoul-separator"
-    },
-    {
-      "key": "item:34911",
-      "type": "item",
-      "id": 34911,
-      "name": "Elysian*Meteor Shower S",
-      "url": "/lu4/item/34911-elysianmeteor-shower"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:32611",
@@ -66,11 +49,53 @@
       "url": "/lu4/item/32611-the-1st-earring-of-antharas"
     },
     {
-      "key": "item:32536",
+      "key": "item:903",
       "type": "item",
-      "id": 32536,
-      "name": "Unidentified Branch of the Mother Tree A",
-      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
+      "id": 903,
+      "name": "Cerberus Ring A",
+      "url": "/lu4/item/903-cerberus-ring"
+    },
+    {
+      "key": "item:872",
+      "type": "item",
+      "id": 872,
+      "name": "Cerberus Earring A",
+      "url": "/lu4/item/872-cerberus-earring"
+    },
+    {
+      "key": "item:934",
+      "type": "item",
+      "id": 934,
+      "name": "Cerberus Necklace A",
+      "url": "/lu4/item/934-cerberus-necklace"
+    },
+    {
+      "key": "item:6725",
+      "type": "item",
+      "id": 6725,
+      "name": "Sealed Tateossian Ring S",
+      "url": "/lu4/item/6725-sealed-tateossian-ring"
+    },
+    {
+      "key": "item:6724",
+      "type": "item",
+      "id": 6724,
+      "name": "Sealed Tateossian Earring S",
+      "url": "/lu4/item/6724-sealed-tateossian-earring"
+    },
+    {
+      "key": "item:6726",
+      "type": "item",
+      "id": 6726,
+      "name": "Sealed Tateossian Necklace S",
+      "url": "/lu4/item/6726-sealed-tateossian-necklace"
+    },
+    {
+      "key": "item:32332",
+      "type": "item",
+      "id": 32332,
+      "name": "Unidentified Elysian A",
+      "url": "/lu4/item/32332-unidentified-elysian"
     },
     {
       "key": "item:32440",
@@ -80,11 +105,18 @@
       "url": "/lu4/item/32440-unidentified-doom-crusher"
     },
     {
-      "key": "item:32436",
+      "key": "item:32349",
       "type": "item",
-      "id": 32436,
-      "name": "Unidentified Flaming Dragon Skull A",
-      "url": "/lu4/item/32436-unidentified-flaming-dragon-skull"
+      "id": 32349,
+      "name": "Unidentified Tallum Glaive A",
+      "url": "/lu4/item/32349-unidentified-tallum-glaive"
+    },
+    {
+      "key": "item:32367",
+      "type": "item",
+      "id": 32367,
+      "name": "Unidentified Dark Legion's Edge A",
+      "url": "/lu4/item/32367-unidentified-dark-legions-edge"
     }
   ]
 }

@@ -2,75 +2,65 @@
   "key": "npc:21223",
   "type": "npc",
   "id": 21223,
-  "name": "Lu4 Wiki: NPC Sepulcher Inquisitor",
+  "name": "Sepulcher Inquisitor",
   "url": "/lu4/npc/21223-sepulcher-inquisitor",
-  "source_url": "https://masterwork.wiki/lu4/npc/21223-sepulcher-inquisitor",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21223-sepulcher-inquisitor",
   "raw_html": "library/raw/lu4/npc/21223-sepulcher-inquisitor.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "11 224 / 1 168",
+    "P. Atk. / M. Atk.": "781 / 457",
+    "P. Def. / M. Def.": "247 / 291",
+    "Accuracy / Evasion": "90 / 100",
+    "Exp / SP": "14 096 / 1 172",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 57"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21223",
-      "type": "npc",
-      "id": 21223,
-      "name": "Lu4",
-      "url": "/lu4/npc/21223-sepulcher-inquisitor"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32329",
-      "type": "item",
-      "id": 32329,
-      "name": "Unidentified Sword of Valhalla B",
-      "url": "/lu4/item/32329-unidentified-sword-of-valhalla"
-    },
-    {
-      "key": "item:32328",
-      "type": "item",
-      "id": 32328,
-      "name": "Unidentified Keshanberk B",
-      "url": "/lu4/item/32328-unidentified-keshanberk"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32321",
@@ -80,18 +70,18 @@
       "url": "/lu4/item/32321-unidentified-great-sword"
     },
     {
-      "key": "item:4182",
+      "key": "item:32328",
       "type": "item",
-      "id": 4182,
-      "name": "Recipe: Great Sword (100%) NG",
-      "url": "/lu4/item/4182-recipe-great-sword-100"
+      "id": 32328,
+      "name": "Unidentified Keshanberk B",
+      "url": "/lu4/item/32328-unidentified-keshanberk"
     },
     {
-      "key": "item:4130",
+      "key": "item:32329",
       "type": "item",
-      "id": 4130,
-      "name": "Recipe: Ring of Black Ore (100%) NG",
-      "url": "/lu4/item/4130-recipe-ring-of-black-ore-100"
+      "id": 32329,
+      "name": "Unidentified Sword of Valhalla B",
+      "url": "/lu4/item/32329-unidentified-sword-of-valhalla"
     },
     {
       "key": "item:4108",
@@ -113,6 +103,20 @@
       "id": 4104,
       "name": "Great Sword Blade NG",
       "url": "/lu4/item/4104-great-sword-blade"
+    },
+    {
+      "key": "item:4182",
+      "type": "item",
+      "id": 4182,
+      "name": "Recipe: Great Sword (100%) NG",
+      "url": "/lu4/item/4182-recipe-great-sword-100"
+    },
+    {
+      "key": "item:4130",
+      "type": "item",
+      "id": 4130,
+      "name": "Recipe: Ring of Black Ore (100%) NG",
+      "url": "/lu4/item/4130-recipe-ring-of-black-ore-100"
     },
     {
       "key": "item:4042",
@@ -150,18 +154,18 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:4603",
+      "key": "item:4049",
       "type": "item",
-      "id": 4603,
-      "name": "Greater Dye of CON <Con+3 Str-3> NG",
-      "url": "/lu4/item/4603-greater-dye-of-con-con3-str-3"
+      "id": 4049,
+      "name": "Adamantite Earring Gemstone NG",
+      "url": "/lu4/item/4049-adamantite-earring-gemstone"
     },
     {
       "key": "item:4129",
@@ -171,11 +175,11 @@
       "url": "/lu4/item/4129-recipe-earring-of-black-ore-100"
     },
     {
-      "key": "item:4049",
+      "key": "item:4603",
       "type": "item",
-      "id": 4049,
-      "name": "Adamantite Earring Gemstone NG",
-      "url": "/lu4/item/4049-adamantite-earring-gemstone"
+      "id": 4603,
+      "name": "Greater Dye of CON <Con+3 Str-3> NG",
+      "url": "/lu4/item/4603-greater-dye-of-con-con3-str-3"
     }
   ]
 }

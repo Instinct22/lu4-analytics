@@ -2,36 +2,40 @@
   "key": "item:4865",
   "type": "item",
   "id": 4865,
-  "name": "Lu4 Wiki: Item Heavy Doom Hammer",
+  "name": "Heavy Doom Hammer",
   "url": "/lu4/item/4865-heavy-doom-hammer",
-  "source_url": "https://masterwork.wiki/lu4/item/4865-heavy-doom-hammer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/4865-heavy-doom-hammer",
   "raw_html": "library/raw/lu4/item/4865-heavy-doom-hammer.html",
   "stats": {
+    "Effect": "<Magic Use Effect> Casts 'Mental Shield' Lv.2 on target with 50% chance.",
+    "P. Atk. / M. Atk.": "103 / 89",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "1020",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Item Skills": "Mental Shield Lv. 2 Magic Essence Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Heavy Doom Hammer C",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Blunt / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:4865",
-      "type": "item",
-      "id": 4865,
-      "name": "Lu4",
-      "url": "/lu4/item/4865-heavy-doom-hammer"
-    },
-    {
       "key": "skill:1035",
       "type": "skill",
       "id": 1035,
-      "name": "Mental Shield Lv. 2",
-      "url": "/lu4/skill/1035-mental-shield/2"
+      "name": "Mental Shield",
+      "url": "/lu4/skill/1035-mental-shield"
     },
     {
       "key": "skill:24479",
       "type": "skill",
       "id": 24479,
-      "name": "Magic Essence Lv. 1",
-      "url": "/lu4/skill/24479-magic-essence/1"
+      "name": "Magic Essence",
+      "url": "/lu4/skill/24479-magic-essence"
     }
   ]
 }

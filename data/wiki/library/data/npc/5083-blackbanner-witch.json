@@ -2,119 +2,74 @@
   "key": "npc:5083",
   "type": "npc",
   "id": 5083,
-  "name": "Lu4 Wiki: NPC Blackbanner Witch",
+  "name": "Blackbanner Witch",
   "url": "/lu4/npc/5083-blackbanner-witch",
-  "source_url": "https://masterwork.wiki/lu4/npc/5083-blackbanner-witch",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5083-blackbanner-witch",
   "raw_html": "library/raw/lu4/npc/5083-blackbanner-witch.html",
   "stats": {
-    "Location": "Земли Адена"
+    "Respawn Time": "25 seconds ± 3 seconds",
+    "Location": "Земли Адена",
+    "HP / MP": "2 596 / 1 110",
+    "P. Atk. / M. Atk.": "620 / 536",
+    "P. Def. / M. Def.": "267 / 298",
+    "Accuracy / Evasion": "91 / 90",
+    "Exp / SP": "2 938 / 294",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Grumpy Lv. 1 Strikes without warning. Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 12 Greater Mental Attack Resistance Lv. 3 Highly resistant to Silence/Fear.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 55"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5083",
-      "type": "npc",
-      "id": 5083,
-      "name": "Lu4",
-      "url": "/lu4/npc/5083-blackbanner-witch"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4441",
       "type": "skill",
       "id": 4441,
-      "name": "Greater Mental Attack Resistance Lv. 3 Highly resistant to Silence/Fear.",
-      "url": "/lu4/skill/4441-greater-mental-attack-resistance/3"
+      "name": "Greater Mental Attack Resistance",
+      "url": "/lu4/skill/4441-greater-mental-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -129,55 +84,6 @@
       "id": 4040,
       "name": "Mold Lubricant NG",
       "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:3022",
-      "type": "item",
-      "id": 3022,
-      "name": "Recipe: Yaksa Mace NG",
-      "url": "/lu4/item/3022-recipe-yaksa-mace"
-    },
-    {
-      "key": "item:2959",
-      "type": "item",
-      "id": 2959,
-      "name": "Full Plate Helmet Design NG",
-      "url": "/lu4/item/2959-full-plate-helmet-design"
-    },
-    {
-      "key": "item:2414",
-      "type": "item",
-      "id": 2414,
-      "name": "Full Plate Helmet C",
-      "url": "/lu4/item/2414-full-plate-helmet"
-    },
-    {
-      "key": "item:2359",
-      "type": "item",
-      "id": 2359,
-      "name": "Recipe: Eminence Bow NG",
-      "url": "/lu4/item/2359-recipe-eminence-bow"
-    },
-    {
-      "key": "item:2356",
-      "type": "item",
-      "id": 2356,
-      "name": "Recipe: Demon's Staff NG",
-      "url": "/lu4/item/2356-recipe-demons-staff"
-    },
-    {
-      "key": "item:2120",
-      "type": "item",
-      "id": 2120,
-      "name": "Great Pata Blade NG",
-      "url": "/lu4/item/2120-great-pata-blade"
-    },
-    {
-      "key": "item:1986",
-      "type": "item",
-      "id": 1986,
-      "name": "Full Plate Armor Temper NG",
-      "url": "/lu4/item/1986-full-plate-armor-temper"
     },
     {
       "key": "item:1877",
@@ -201,6 +107,13 @@
       "url": "/lu4/item/1866-suede"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
       "key": "item:951",
       "type": "item",
       "id": 951,
@@ -208,11 +121,95 @@
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
-      "key": "item:8338",
+      "key": "item:356",
       "type": "item",
-      "id": 8338,
-      "name": "Axe of Eclipse Head NG",
-      "url": "/lu4/item/8338-axe-of-eclipse-head"
+      "id": 356,
+      "name": "Full Plate Armor C",
+      "url": "/lu4/item/356-full-plate-armor"
+    },
+    {
+      "key": "item:1986",
+      "type": "item",
+      "id": 1986,
+      "name": "Full Plate Armor Temper NG",
+      "url": "/lu4/item/1986-full-plate-armor-temper"
+    },
+    {
+      "key": "item:2414",
+      "type": "item",
+      "id": 2414,
+      "name": "Full Plate Helmet C",
+      "url": "/lu4/item/2414-full-plate-helmet"
+    },
+    {
+      "key": "item:2959",
+      "type": "item",
+      "id": 2959,
+      "name": "Full Plate Helmet Design NG",
+      "url": "/lu4/item/2959-full-plate-helmet-design"
+    },
+    {
+      "key": "item:266",
+      "type": "item",
+      "id": 266,
+      "name": "Great Pata C",
+      "url": "/lu4/item/266-great-pata"
+    },
+    {
+      "key": "item:2120",
+      "type": "item",
+      "id": 2120,
+      "name": "Great Pata Blade NG",
+      "url": "/lu4/item/2120-great-pata-blade"
+    },
+    {
+      "key": "item:2356",
+      "type": "item",
+      "id": 2356,
+      "name": "Recipe: Demon's Staff NG",
+      "url": "/lu4/item/2356-recipe-demons-staff"
+    },
+    {
+      "key": "item:2359",
+      "type": "item",
+      "id": 2359,
+      "name": "Recipe: Eminence Bow NG",
+      "url": "/lu4/item/2359-recipe-eminence-bow"
+    },
+    {
+      "key": "item:3022",
+      "type": "item",
+      "id": 3022,
+      "name": "Recipe: Yaksa Mace NG",
+      "url": "/lu4/item/3022-recipe-yaksa-mace"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:2234",
+      "type": "item",
+      "id": 2234,
+      "name": "Recipe: Divine Stockings NG",
+      "url": "/lu4/item/2234-recipe-divine-stockings"
     },
     {
       "key": "item:2970",
@@ -222,18 +219,18 @@
       "url": "/lu4/item/2970-recipe-ring-of-seal"
     },
     {
+      "key": "item:8338",
+      "type": "item",
+      "id": 8338,
+      "name": "Axe of Eclipse Head NG",
+      "url": "/lu4/item/8338-axe-of-eclipse-head"
+    },
+    {
       "key": "item:2966",
       "type": "item",
       "id": 2966,
       "name": "Full Plate Shield Fragment NG",
       "url": "/lu4/item/2966-full-plate-shield-fragment"
-    },
-    {
-      "key": "item:2234",
-      "type": "item",
-      "id": 2234,
-      "name": "Recipe: Divine Stockings NG",
-      "url": "/lu4/item/2234-recipe-divine-stockings"
     },
     {
       "key": "item:2112",

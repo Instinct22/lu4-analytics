@@ -2,105 +2,53 @@
   "key": "npc:21257",
   "type": "npc",
   "id": 21257,
-  "name": "Lu4 Wiki: NPC Evil Eye Seer",
+  "name": "Evil Eye Seer",
   "url": "/lu4/npc/21257-evil-eye-seer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21257-evil-eye-seer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21257-evil-eye-seer",
   "raw_html": "library/raw/lu4/npc/21257-evil-eye-seer.html",
   "stats": {
-    "Location": "Нейтральные Воды (+2) Нейтральные Воды Плато Бессмертия Плато Бессмертия, юг"
+    "Respawn Time": "25 seconds",
+    "Location": "Нейтральные Воды (+2) Нейтральные Воды Плато Бессмертия Плато Бессмертия, юг",
+    "HP / MP": "498 / 214",
+    "P. Atk. / M. Atk.": "51 / 25",
+    "P. Def. / M. Def.": "87 / 75",
+    "Accuracy / Evasion": "51 / 61",
+    "Exp / SP": "523 / 52",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 18"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21257",
-      "type": "npc",
-      "id": 21257,
-      "name": "Lu4",
-      "url": "/lu4/npc/21257-evil-eye-seer"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
-      "key": "location:191",
-      "type": "location",
-      "id": 191,
-      "name": "Плато Бессмертия, юг",
-      "url": "/lu4/location/191-plato-bessmertia-ug"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:735",
-      "type": "item",
-      "id": 735,
-      "name": "Alacrity Potion NG",
-      "url": "/lu4/item/735-alacrity-potion"
-    },
-    {
-      "key": "item:218",
-      "type": "item",
-      "id": 218,
-      "name": "Throwing Knife NG",
-      "url": "/lu4/item/218-throwing-knife"
-    },
-    {
-      "key": "item:217",
-      "type": "item",
-      "id": 217,
-      "name": "Shining Knife NG",
-      "url": "/lu4/item/217-shining-knife"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -110,11 +58,39 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1897",
+      "key": "item:217",
       "type": "item",
-      "id": 1897,
-      "name": "Necklace of Wisdom Chain NG",
-      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
+      "id": 217,
+      "name": "Shining Knife NG",
+      "url": "/lu4/item/217-shining-knife"
+    },
+    {
+      "key": "item:218",
+      "type": "item",
+      "id": 218,
+      "name": "Throwing Knife NG",
+      "url": "/lu4/item/218-throwing-knife"
+    },
+    {
+      "key": "item:735",
+      "type": "item",
+      "id": 735,
+      "name": "Alacrity Potion NG",
+      "url": "/lu4/item/735-alacrity-potion"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:734",
@@ -122,6 +98,13 @@
       "id": 734,
       "name": "Haste Potion NG",
       "url": "/lu4/item/734-haste-potion"
+    },
+    {
+      "key": "item:1897",
+      "type": "item",
+      "id": 1897,
+      "name": "Necklace of Wisdom Chain NG",
+      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
     }
   ]
 }

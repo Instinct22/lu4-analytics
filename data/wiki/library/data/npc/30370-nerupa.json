@@ -2,42 +2,38 @@
   "key": "npc:30370",
   "type": "npc",
   "id": 30370,
-  "name": "Lu4 Wiki: NPC Nerupa",
+  "name": "Nerupa",
   "url": "/lu4/npc/30370-nerupa",
-  "source_url": "https://masterwork.wiki/lu4/npc/30370-nerupa",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30370-nerupa",
   "raw_html": "library/raw/lu4/npc/30370-nerupa.html",
   "stats": {
-    "Location": "Тень Древа Жизни"
+    "Respawn Time": "1 minute",
+    "Location": "Тень Древа Жизни",
+    "HP / MP": "3 668 / 1 657",
+    "P. Atk. / M. Atk.": "1 304 / 776",
+    "P. Def. / M. Def.": "477 / 364",
+    "Accuracy / Evasion": "103 / 108",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Resist Full Magic Attack Lv. 1",
+    "Type": "Bug, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30370",
-      "type": "npc",
-      "id": 30370,
-      "name": "Lu4",
-      "url": "/lu4/npc/30370-nerupa"
-    },
-    {
-      "key": "location:111",
-      "type": "location",
-      "id": 111,
-      "name": "Тень Древа Жизни",
-      "url": "/lu4/location/111-ten-dreva-zizni"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

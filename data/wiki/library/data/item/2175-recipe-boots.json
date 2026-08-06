@@ -2,48 +2,24 @@
   "key": "item:2175",
   "type": "item",
   "id": 2175,
-  "name": "Recipe",
+  "name": "Recipe: Boots",
   "url": "/lu4/item/2175-recipe-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/2175-recipe-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2175-recipe-boots",
   "raw_html": "library/raw/lu4/item/2175-recipe-boots.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Boots'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "123 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "72",
     "Success Rate": "100%",
-    "Result": "Boots NG"
+    "Result": "Boots NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1930",
-      "type": "item",
-      "id": 1930,
-      "name": "Boot Lining NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "40"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "5"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2175",
-      "type": "item",
-      "id": 2175,
-      "name": "Lu4",
-      "url": "/lu4/item/2175-recipe-boots"
-    },
     {
       "key": "item:1930",
       "type": "item",
@@ -76,56 +52,56 @@
       "key": "npc:20389",
       "type": "npc",
       "id": 20389,
-      "name": "Boogle Ratman Lv. 16",
+      "name": "Boogle Ratman",
       "url": "/lu4/npc/20389-boogle-ratman"
     },
     {
       "key": "npc:20369",
       "type": "npc",
       "id": 20369,
-      "name": "Moonstone Beast Lv. 17",
+      "name": "Moonstone Beast",
       "url": "/lu4/npc/20369-moonstone-beast"
     },
     {
       "key": "npc:20341",
       "type": "npc",
       "id": 20341,
-      "name": "Undead Slave Lv. 19",
+      "name": "Undead Slave",
       "url": "/lu4/npc/20341-undead-slave"
     },
     {
       "key": "npc:20223",
       "type": "npc",
       "id": 20223,
-      "name": "Mandragora Sprout Lv. 20",
+      "name": "Mandragora Sprout",
       "url": "/lu4/npc/20223-mandragora-sprout"
     },
     {
       "key": "npc:20039",
       "type": "npc",
       "id": 20039,
-      "name": "Scavenger Wererat Lv. 18",
+      "name": "Scavenger Wererat",
       "url": "/lu4/npc/20039-scavenger-wererat"
     },
     {
       "key": "npc:20360",
       "type": "npc",
       "id": 20360,
-      "name": "Ratman Spy Lv. 16",
+      "name": "Ratman Spy",
       "url": "/lu4/npc/20360-ratman-spy"
     },
     {
       "key": "npc:20040",
       "type": "npc",
       "id": 20040,
-      "name": "Sukar Wererat Lv. 18",
+      "name": "Sukar Wererat",
       "url": "/lu4/npc/20040-sukar-wererat"
     },
     {
       "key": "npc:20036",
       "type": "npc",
       "id": 20036,
-      "name": "Lirein Lv. 18",
+      "name": "Lirein",
       "url": "/lu4/npc/20036-lirein"
     }
   ]

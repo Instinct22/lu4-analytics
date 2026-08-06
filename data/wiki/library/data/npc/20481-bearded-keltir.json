@@ -2,84 +2,32 @@
   "key": "npc:20481",
   "type": "npc",
   "id": 20481,
-  "name": "Lu4 Wiki: NPC Bearded Keltir",
+  "name": "Bearded Keltir",
   "url": "/lu4/npc/20481-bearded-keltir",
-  "source_url": "https://masterwork.wiki/lu4/npc/20481-bearded-keltir",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20481-bearded-keltir",
   "raw_html": "library/raw/lu4/npc/20481-bearded-keltir.html",
   "stats": {
-    "Location": "Школа Сэдрика (+2) Школа Сэдрика Говорящий Остров (восток) Школа Магов Айнховант"
+    "Respawn Time": "15 seconds",
+    "Location": "Школа Сэдрика (+2) Школа Сэдрика Говорящий Остров (восток) Школа Магов Айнховант",
+    "HP / MP": "62 / 49",
+    "P. Atk. / M. Atk.": "9 / 3",
+    "P. Def. / M. Def.": "37 / 29",
+    "Accuracy / Evasion": "34 / 34",
+    "Exp / SP": "65 / 6",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 1"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20481",
-      "type": "npc",
-      "id": 20481,
-      "name": "Lu4",
-      "url": "/lu4/npc/20481-bearded-keltir"
-    },
-    {
-      "key": "location:36",
-      "type": "location",
-      "id": 36,
-      "name": "Школа Сэдрика",
-      "url": "/lu4/location/36-skola-sedrika"
-    },
-    {
-      "key": "location:262",
-      "type": "location",
-      "id": 262,
-      "name": "Говорящий Остров (восток)",
-      "url": "/lu4/location/262-govorasij-ostrov-vostok"
-    },
-    {
-      "key": "location:37",
-      "type": "location",
-      "id": 37,
-      "name": "Школа Магов Айнховант",
-      "url": "/lu4/location/37-skola-magov-ajnhovant"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1786",
-      "type": "item",
-      "id": 1786,
-      "name": "Recipe: Broad Sword NG",
-      "url": "/lu4/item/1786-recipe-broad-sword"
-    },
-    {
-      "key": "item:462",
-      "type": "item",
-      "id": 462,
-      "name": "Stockings NG",
-      "url": "/lu4/item/462-stockings"
-    },
-    {
-      "key": "item:426",
-      "type": "item",
-      "id": 426,
-      "name": "Tunic NG",
-      "url": "/lu4/item/426-tunic"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "item:57",
@@ -89,11 +37,46 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:426",
+      "type": "item",
+      "id": 426,
+      "name": "Tunic NG",
+      "url": "/lu4/item/426-tunic"
+    },
+    {
+      "key": "item:462",
+      "type": "item",
+      "id": 462,
+      "name": "Stockings NG",
+      "url": "/lu4/item/462-stockings"
+    },
+    {
       "key": "item:17",
       "type": "item",
       "id": 17,
       "name": "Wooden Arrow NG",
       "url": "/lu4/item/17-wooden-arrow"
+    },
+    {
+      "key": "item:1786",
+      "type": "item",
+      "id": 1786,
+      "name": "Recipe: Broad Sword NG",
+      "url": "/lu4/item/1786-recipe-broad-sword"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:1788",

@@ -2,124 +2,107 @@
   "key": "npc:22144",
   "type": "npc",
   "id": 22144,
-  "name": "Lu4 Wiki: NPC Resurrected Temple Knight",
+  "name": "Resurrected Temple Knight",
   "url": "/lu4/npc/22144-resurrected-temple-knight",
-  "source_url": "https://masterwork.wiki/lu4/npc/22144-resurrected-temple-knight",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22144-resurrected-temple-knight",
   "raw_html": "library/raw/lu4/npc/22144-resurrected-temple-knight.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "19 029 / 2 169",
+    "P. Atk. / M. Atk.": "1 951 / 1 270",
+    "P. Def. / M. Def.": "710 / 692",
+    "Accuracy / Evasion": "125 / 124",
+    "Exp / SP": "55 964 / 2 664",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -10, Unholy 60",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Undead Lv. 35 Undead. High Lv. Lv. 9 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22144",
-      "type": "npc",
-      "id": 22144,
-      "name": "Lu4",
-      "url": "/lu4/npc/22144-resurrected-temple-knight"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Undead Lv. 35 Undead.",
-      "url": "/lu4/skill/4417-undead/35"
+      "name": "Undead",
+      "url": "/lu4/skill/4417-undead"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 9 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/9"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32331",
-      "type": "item",
-      "id": 32331,
-      "name": "Unidentified Sword of Miracles A",
-      "url": "/lu4/item/32331-unidentified-sword-of-miracles"
-    },
-    {
-      "key": "item:8752",
-      "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
-    },
-    {
-      "key": "item:6901",
-      "type": "item",
-      "id": 6901,
-      "name": "Recipe: Shining Arrow (100%) NG",
-      "url": "/lu4/item/6901-recipe-shining-arrow-100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5546",
@@ -143,6 +126,55 @@
       "url": "/lu4/item/5529-dragon-slayer-edge"
     },
     {
+      "key": "item:32331",
+      "type": "item",
+      "id": 32331,
+      "name": "Unidentified Sword of Miracles A",
+      "url": "/lu4/item/32331-unidentified-sword-of-miracles"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:6901",
+      "type": "item",
+      "id": 6901,
+      "name": "Recipe: Shining Arrow (100%) NG",
+      "url": "/lu4/item/6901-recipe-shining-arrow-100"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1344",
+      "type": "item",
+      "id": 1344,
+      "name": "Mithril Arrow A",
+      "url": "/lu4/item/1344-mithril-arrow"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
       "key": "item:4042",
       "type": "item",
       "id": 4042,
@@ -157,39 +189,11 @@
       "url": "/lu4/item/1894-crafted-leather"
     },
     {
-      "key": "item:1882",
+      "key": "item:8752",
       "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1344",
-      "type": "item",
-      "id": 1344,
-      "name": "Mithril Arrow A",
-      "url": "/lu4/item/1344-mithril-arrow"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
     },
     {
       "key": "item:5514",

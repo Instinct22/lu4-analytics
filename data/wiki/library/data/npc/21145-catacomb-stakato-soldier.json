@@ -2,47 +2,65 @@
   "key": "npc:21145",
   "type": "npc",
   "id": 21145,
-  "name": "Lu4 Wiki: NPC Catacomb Stakato Soldier",
+  "name": "Catacomb Stakato Soldier",
   "url": "/lu4/npc/21145-catacomb-stakato-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21145-catacomb-stakato-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21145-catacomb-stakato-soldier",
   "raw_html": "library/raw/lu4/npc/21145-catacomb-stakato-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "5 320 / 552",
+    "P. Atk. / M. Atk.": "254 / 140",
+    "P. Def. / M. Def.": "151 / 164",
+    "Accuracy / Evasion": "71 / 86",
+    "Exp / SP": "6 444 / 400",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (4x) Lv. 12 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 38"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21145",
-      "type": "npc",
-      "id": 21145,
-      "name": "Lu4",
-      "url": "/lu4/npc/21145-catacomb-stakato-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
-      "key": "item:5473",
+      "key": "item:57",
       "type": "item",
-      "id": 5473,
-      "name": "Recipe: Durable Metal Plate(100%) NG",
-      "url": "/lu4/item/5473-recipe-durable-metal-plate100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:129",
+      "type": "item",
+      "id": 129,
+      "name": "Sword of Revolution D",
+      "url": "/lu4/item/129-sword-of-revolution"
+    },
+    {
+      "key": "item:2034",
+      "type": "item",
+      "id": 2034,
+      "name": "Sword of Revolution Blade NG",
+      "url": "/lu4/item/2034-sword-of-revolution-blade"
     },
     {
       "key": "item:5220",
@@ -57,13 +75,6 @@
       "id": 2146,
       "name": "Recipe: Artisan's frame NG",
       "url": "/lu4/item/2146-recipe-artisans-frame"
-    },
-    {
-      "key": "item:2034",
-      "type": "item",
-      "id": 2034,
-      "name": "Sword of Revolution Blade NG",
-      "url": "/lu4/item/2034-sword-of-revolution-blade"
     },
     {
       "key": "item:1885",
@@ -94,25 +105,11 @@
       "url": "/lu4/item/1832-greater-antidote"
     },
     {
-      "key": "item:129",
+      "key": "item:5473",
       "type": "item",
-      "id": 129,
-      "name": "Sword of Revolution D",
-      "url": "/lu4/item/129-sword-of-revolution"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:1902",
-      "type": "item",
-      "id": 1902,
-      "name": "Elven Earring Beads NG",
-      "url": "/lu4/item/1902-elven-earring-beads"
+      "id": 5473,
+      "name": "Recipe: Durable Metal Plate(100%) NG",
+      "url": "/lu4/item/5473-recipe-durable-metal-plate100"
     },
     {
       "key": "item:1825",
@@ -120,6 +117,13 @@
       "id": 1825,
       "name": "Recipe: Oriharukon NG",
       "url": "/lu4/item/1825-recipe-oriharukon"
+    },
+    {
+      "key": "item:1902",
+      "type": "item",
+      "id": 1902,
+      "name": "Elven Earring Beads NG",
+      "url": "/lu4/item/1902-elven-earring-beads"
     }
   ]
 }

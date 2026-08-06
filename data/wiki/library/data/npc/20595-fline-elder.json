@@ -2,154 +2,88 @@
   "key": "npc:20595",
   "type": "npc",
   "id": 20595,
-  "name": "Lu4 Wiki: NPC Fline Elder",
+  "name": "Fline Elder",
   "url": "/lu4/npc/20595-fline-elder",
-  "source_url": "https://masterwork.wiki/lu4/npc/20595-fline-elder",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20595-fline-elder",
   "raw_html": "library/raw/lu4/npc/20595-fline-elder.html",
   "stats": {
-    "Location": "Волшебная Долина"
+    "Respawn Time": "55 seconds ± 3 seconds",
+    "Location": "Волшебная Долина",
+    "HP / MP": "9 303 / 956",
+    "P. Atk. / M. Atk.": "625 / 355",
+    "P. Def. / M. Def.": "273 / 200",
+    "Accuracy / Evasion": "79 / 89",
+    "Exp / SP": "10 943 / 1 094",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Stun Attack Resistance Lv. 3 Slightly resistant to Stun. Sleep Resistance Lv. 4 Resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 51"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20595",
-      "type": "npc",
-      "id": 20595,
-      "name": "Lu4",
-      "url": "/lu4/npc/20595-fline-elder"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/3"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 4 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/4"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:4125",
-      "type": "item",
-      "id": 4125,
-      "name": "Recipe: Maestro Mold (100%) NG",
-      "url": "/lu4/item/4125-recipe-maestro-mold-100"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:4039",
-      "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
-    },
-    {
-      "key": "item:3009",
-      "type": "item",
-      "id": 3009,
-      "name": "Recipe: Composite Boots NG",
-      "url": "/lu4/item/3009-recipe-composite-boots"
-    },
-    {
-      "key": "item:2225",
-      "type": "item",
-      "id": 2225,
-      "name": "Recipe: Demon's Stockings NG",
-      "url": "/lu4/item/2225-recipe-demons-stockings"
-    },
-    {
-      "key": "item:2103",
-      "type": "item",
-      "id": 2103,
-      "name": "Sage's Staff Head NG",
-      "url": "/lu4/item/2103-sages-staff-head"
-    },
-    {
-      "key": "item:2101",
-      "type": "item",
-      "id": 2101,
-      "name": "Inferno Staff Head NG",
-      "url": "/lu4/item/2101-inferno-staff-head"
-    },
-    {
-      "key": "item:1977",
-      "type": "item",
-      "id": 1977,
-      "name": "Composite Armor Temper NG",
-      "url": "/lu4/item/1977-composite-armor-temper"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1870",
@@ -166,18 +100,39 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:200",
+      "key": "item:1874",
       "type": "item",
-      "id": 200,
-      "name": "Sage's Staff C",
-      "url": "/lu4/item/200-sages-staff"
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
-      "key": "item:198",
+      "key": "item:4043",
       "type": "item",
-      "id": 198,
-      "name": "Inferno Staff C",
-      "url": "/lu4/item/198-inferno-staff"
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:4039",
+      "type": "item",
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
+    },
+    {
+      "key": "item:4125",
+      "type": "item",
+      "id": 4125,
+      "name": "Recipe: Maestro Mold (100%) NG",
+      "url": "/lu4/item/4125-recipe-maestro-mold-100"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:60",
@@ -187,18 +142,60 @@
       "url": "/lu4/item/60-composite-armor"
     },
     {
-      "key": "item:57",
+      "key": "item:1977",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1977,
+      "name": "Composite Armor Temper NG",
+      "url": "/lu4/item/1977-composite-armor-temper"
     },
     {
-      "key": "item:2352",
+      "key": "item:198",
       "type": "item",
-      "id": 2352,
-      "name": "Recipe: Widow Maker NG",
-      "url": "/lu4/item/2352-recipe-widow-maker"
+      "id": 198,
+      "name": "Inferno Staff C",
+      "url": "/lu4/item/198-inferno-staff"
+    },
+    {
+      "key": "item:2101",
+      "type": "item",
+      "id": 2101,
+      "name": "Inferno Staff Head NG",
+      "url": "/lu4/item/2101-inferno-staff-head"
+    },
+    {
+      "key": "item:200",
+      "type": "item",
+      "id": 200,
+      "name": "Sage's Staff C",
+      "url": "/lu4/item/200-sages-staff"
+    },
+    {
+      "key": "item:2103",
+      "type": "item",
+      "id": 2103,
+      "name": "Sage's Staff Head NG",
+      "url": "/lu4/item/2103-sages-staff-head"
+    },
+    {
+      "key": "item:3009",
+      "type": "item",
+      "id": 3009,
+      "name": "Recipe: Composite Boots NG",
+      "url": "/lu4/item/3009-recipe-composite-boots"
+    },
+    {
+      "key": "item:2225",
+      "type": "item",
+      "id": 2225,
+      "name": "Recipe: Demon's Stockings NG",
+      "url": "/lu4/item/2225-recipe-demons-stockings"
+    },
+    {
+      "key": "item:1894",
+      "type": "item",
+      "id": 1894,
+      "name": "Crafted Leather NG",
+      "url": "/lu4/item/1894-crafted-leather"
     },
     {
       "key": "item:2330",
@@ -206,6 +203,13 @@
       "id": 2330,
       "name": "Recipe: Homunkulus's Sword NG",
       "url": "/lu4/item/2330-recipe-homunkuluss-sword"
+    },
+    {
+      "key": "item:2352",
+      "type": "item",
+      "id": 2352,
+      "name": "Recipe: Widow Maker NG",
+      "url": "/lu4/item/2352-recipe-widow-maker"
     },
     {
       "key": "item:2109",
@@ -227,13 +231,6 @@
       "id": 2093,
       "name": "Poleaxe Blade NG",
       "url": "/lu4/item/2093-poleaxe-blade"
-    },
-    {
-      "key": "item:1894",
-      "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "url": "/lu4/item/1894-crafted-leather"
     }
   ]
 }

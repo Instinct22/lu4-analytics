@@ -2,96 +2,79 @@
   "key": "npc:20940",
   "type": "npc",
   "id": 20940,
-  "name": "Lu4 Wiki: NPC Tanor Silenos Shaman",
+  "name": "Tanor Silenos Shaman",
   "url": "/lu4/npc/20940-tanor-silenos-shaman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20940-tanor-silenos-shaman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20940-tanor-silenos-shaman",
   "raw_html": "library/raw/lu4/npc/20940-tanor-silenos-shaman.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 059 / 852",
+    "P. Atk. / M. Atk.": "475 / 348",
+    "P. Def. / M. Def.": "217 / 187",
+    "Accuracy / Evasion": "84 / 83",
+    "Exp / SP": "2 214 / 221",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 9 Damage Shield Lv. 1 Reflects back a portion of damage inflicted by the enemy P. Atk. Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 48"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20940",
-      "type": "npc",
-      "id": 20940,
-      "name": "Lu4",
-      "url": "/lu4/npc/20940-tanor-silenos-shaman"
-    },
-    {
-      "key": "location:57",
-      "type": "location",
-      "id": 57,
-      "name": "Каньон Танор",
-      "url": "/lu4/location/57-kanon-tanor"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4095",
       "type": "skill",
       "id": 4095,
-      "name": "Damage Shield Lv. 1 Reflects back a portion of damage inflicted by the enemy P. Atk.",
-      "url": "/lu4/skill/4095-damage-shield/1"
+      "name": "Damage Shield",
+      "url": "/lu4/skill/4095-damage-shield"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
-      "key": "item:6396",
+      "key": "item:57",
       "type": "item",
-      "id": 6396,
-      "name": "Amulet: Chant of Eagle NG",
-      "url": "/lu4/item/6396-amulet-chant-of-eagle"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -99,69 +82,6 @@
       "id": 4043,
       "name": "Asofe NG",
       "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:3079",
-      "type": "item",
-      "id": 3079,
-      "name": "Spellbook: Cancellation NG",
-      "url": "/lu4/item/3079-spellbook-cancellation"
-    },
-    {
-      "key": "item:3078",
-      "type": "item",
-      "id": 3078,
-      "name": "Spellbook: Decay NG",
-      "url": "/lu4/item/3078-spellbook-decay"
-    },
-    {
-      "key": "item:3059",
-      "type": "item",
-      "id": 3059,
-      "name": "Spellbook: Corpse Burst NG",
-      "url": "/lu4/item/3059-spellbook-corpse-burst"
-    },
-    {
-      "key": "item:3006",
-      "type": "item",
-      "id": 3006,
-      "name": "Recipe: Demon's Gloves NG",
-      "url": "/lu4/item/3006-recipe-demons-gloves"
-    },
-    {
-      "key": "item:2348",
-      "type": "item",
-      "id": 2348,
-      "name": "Recipe: Heathen's Book NG",
-      "url": "/lu4/item/2348-recipe-heathens-book"
-    },
-    {
-      "key": "item:2228",
-      "type": "item",
-      "id": 2228,
-      "name": "Recipe: Shining Circlet NG",
-      "url": "/lu4/item/2228-recipe-shining-circlet"
-    },
-    {
-      "key": "item:2108",
-      "type": "item",
-      "id": 2108,
-      "name": "Fisted Blade Piece NG",
-      "url": "/lu4/item/2108-fisted-blade-piece"
-    },
-    {
-      "key": "item:2104",
-      "type": "item",
-      "id": 2104,
-      "name": "Club of Nature Head NG",
-      "url": "/lu4/item/2104-club-of-nature-head"
-    },
-    {
-      "key": "item:1978",
-      "type": "item",
-      "id": 1978,
-      "name": "Tower Shield Fragment NG",
-      "url": "/lu4/item/1978-tower-shield-fragment"
     },
     {
       "key": "item:1880",
@@ -185,11 +105,11 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:265",
+      "key": "item:5550",
       "type": "item",
-      "id": 265,
-      "name": "Fisted Blade C",
-      "url": "/lu4/item/265-fisted-blade"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:201",
@@ -199,6 +119,27 @@
       "url": "/lu4/item/201-club-of-nature"
     },
     {
+      "key": "item:2104",
+      "type": "item",
+      "id": 2104,
+      "name": "Club of Nature Head NG",
+      "url": "/lu4/item/2104-club-of-nature-head"
+    },
+    {
+      "key": "item:265",
+      "type": "item",
+      "id": 265,
+      "name": "Fisted Blade C",
+      "url": "/lu4/item/265-fisted-blade"
+    },
+    {
+      "key": "item:2108",
+      "type": "item",
+      "id": 2108,
+      "name": "Fisted Blade Piece NG",
+      "url": "/lu4/item/2108-fisted-blade-piece"
+    },
+    {
       "key": "item:103",
       "type": "item",
       "id": 103,
@@ -206,11 +147,60 @@
       "url": "/lu4/item/103-tower-shield"
     },
     {
-      "key": "item:57",
+      "key": "item:1978",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1978,
+      "name": "Tower Shield Fragment NG",
+      "url": "/lu4/item/1978-tower-shield-fragment"
+    },
+    {
+      "key": "item:3006",
+      "type": "item",
+      "id": 3006,
+      "name": "Recipe: Demon's Gloves NG",
+      "url": "/lu4/item/3006-recipe-demons-gloves"
+    },
+    {
+      "key": "item:2348",
+      "type": "item",
+      "id": 2348,
+      "name": "Recipe: Heathen's Book NG",
+      "url": "/lu4/item/2348-recipe-heathens-book"
+    },
+    {
+      "key": "item:2228",
+      "type": "item",
+      "id": 2228,
+      "name": "Recipe: Shining Circlet NG",
+      "url": "/lu4/item/2228-recipe-shining-circlet"
+    },
+    {
+      "key": "item:3079",
+      "type": "item",
+      "id": 3079,
+      "name": "Spellbook: Cancellation NG",
+      "url": "/lu4/item/3079-spellbook-cancellation"
+    },
+    {
+      "key": "item:6396",
+      "type": "item",
+      "id": 6396,
+      "name": "Amulet: Chant of Eagle NG",
+      "url": "/lu4/item/6396-amulet-chant-of-eagle"
+    },
+    {
+      "key": "item:3059",
+      "type": "item",
+      "id": 3059,
+      "name": "Spellbook: Corpse Burst NG",
+      "url": "/lu4/item/3059-spellbook-corpse-burst"
+    },
+    {
+      "key": "item:3078",
+      "type": "item",
+      "id": 3078,
+      "name": "Spellbook: Decay NG",
+      "url": "/lu4/item/3078-spellbook-decay"
     },
     {
       "key": "item:4589",
@@ -220,18 +210,18 @@
       "url": "/lu4/item/4589-greater-dye-of-str-str2-con-2"
     },
     {
-      "key": "item:2335",
-      "type": "item",
-      "id": 2335,
-      "name": "Recipe: War Axe NG",
-      "url": "/lu4/item/2335-recipe-war-axe"
-    },
-    {
       "key": "item:2328",
       "type": "item",
       "id": 2328,
       "name": "Recipe: Sword of Delusion NG",
       "url": "/lu4/item/2328-recipe-sword-of-delusion"
+    },
+    {
+      "key": "item:2335",
+      "type": "item",
+      "id": 2335,
+      "name": "Recipe: War Axe NG",
+      "url": "/lu4/item/2335-recipe-war-axe"
     },
     {
       "key": "item:2102",

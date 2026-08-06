@@ -2,124 +2,93 @@
   "key": "npc:22074",
   "type": "npc",
   "id": 22074,
-  "name": "Lu4 Wiki: NPC Epic Cannon Golem",
+  "name": "Epic Cannon Golem",
   "url": "/lu4/npc/22074-epic-cannon-golem",
-  "source_url": "https://masterwork.wiki/lu4/npc/22074-epic-cannon-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22074-epic-cannon-golem",
   "raw_html": "library/raw/lu4/npc/22074-epic-cannon-golem.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "5 113 / 1 128",
+    "P. Atk. / M. Atk.": "650 / 333",
+    "P. Def. / M. Def.": "457 / 253",
+    "Accuracy / Evasion": "86 / 76",
+    "Exp / SP": "8 796 / 692",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Strong P. Def. Lv. 14 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. Dagger/Rapier Resistance Lv. 1 Resistant to Dagger/Rapier attacks. Greater Bleed Resistance Lv. 4 Highly resistant to Bleed. Fist Weapon Vulnerability Lv. 2 Vulnerable to Fist Weapons. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 53"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22074",
-      "type": "npc",
-      "id": 22074,
-      "name": "Lu4",
-      "url": "/lu4/npc/22074-epic-cannon-golem"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 1 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/1"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4437",
       "type": "skill",
       "id": 4437,
-      "name": "Greater Bleed Resistance Lv. 4 Highly resistant to Bleed.",
-      "url": "/lu4/skill/4437-greater-bleed-resistance/4"
+      "name": "Greater Bleed Resistance",
+      "url": "/lu4/skill/4437-greater-bleed-resistance"
     },
     {
       "key": "skill:4457",
       "type": "skill",
       "id": 4457,
-      "name": "Fist Weapon Vulnerability Lv. 2 Vulnerable to Fist Weapons.",
-      "url": "/lu4/skill/4457-fist-weapon-vulnerability/2"
+      "name": "Fist Weapon Vulnerability",
+      "url": "/lu4/skill/4457-fist-weapon-vulnerability"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8335",
+      "key": "item:135",
       "type": "item",
-      "id": 8335,
-      "name": "Ecliptic Sword Blade NG",
-      "url": "/lu4/item/8335-ecliptic-sword-blade"
-    },
-    {
-      "key": "item:7888",
-      "type": "item",
-      "id": 7888,
-      "name": "Ecliptic Sword C",
-      "url": "/lu4/item/7888-ecliptic-sword"
-    },
-    {
-      "key": "item:5530",
-      "type": "item",
-      "id": 5530,
-      "name": "Berserker Blade Edge NG",
-      "url": "/lu4/item/5530-berserker-blade-edge"
-    },
-    {
-      "key": "item:5286",
-      "type": "item",
-      "id": 5286,
-      "name": "Berserker Blade C",
-      "url": "/lu4/item/5286-berserker-blade"
-    },
-    {
-      "key": "item:4142",
-      "type": "item",
-      "id": 4142,
-      "name": "Recipe: Avadon Gaiters (100%) NG",
-      "url": "/lu4/item/4142-recipe-avadon-gaiters-100"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
+      "id": 135,
+      "name": "Samurai Longsword C",
+      "url": "/lu4/item/135-samurai-longsword"
     },
     {
       "key": "item:2115",
@@ -129,18 +98,32 @@
       "url": "/lu4/item/2115-samurai-longsword-blade"
     },
     {
-      "key": "item:1895",
+      "key": "item:5286",
       "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
+      "id": 5286,
+      "name": "Berserker Blade C",
+      "url": "/lu4/item/5286-berserker-blade"
     },
     {
-      "key": "item:1876",
+      "key": "item:5530",
       "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "url": "/lu4/item/1876-mithril-ore"
+      "id": 5530,
+      "name": "Berserker Blade Edge NG",
+      "url": "/lu4/item/5530-berserker-blade-edge"
+    },
+    {
+      "key": "item:7888",
+      "type": "item",
+      "id": 7888,
+      "name": "Ecliptic Sword C",
+      "url": "/lu4/item/7888-ecliptic-sword"
+    },
+    {
+      "key": "item:8335",
+      "type": "item",
+      "id": 8335,
+      "name": "Ecliptic Sword Blade NG",
+      "url": "/lu4/item/8335-ecliptic-sword-blade"
     },
     {
       "key": "item:1873",
@@ -157,18 +140,39 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:135",
+      "key": "item:1876",
       "type": "item",
-      "id": 135,
-      "name": "Samurai Longsword C",
-      "url": "/lu4/item/135-samurai-longsword"
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
     },
     {
-      "key": "item:57",
+      "key": "item:1895",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:4142",
+      "type": "item",
+      "id": 4142,
+      "name": "Recipe: Avadon Gaiters (100%) NG",
+      "url": "/lu4/item/4142-recipe-avadon-gaiters-100"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     }
   ]
 }

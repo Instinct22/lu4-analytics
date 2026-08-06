@@ -2,124 +2,100 @@
   "key": "npc:21772",
   "type": "npc",
   "id": 21772,
-  "name": "Lu4 Wiki: NPC Dark Omen Invader Elite Soldier",
+  "name": "Dark Omen Invader Elite Soldier",
   "url": "/lu4/npc/21772-dark-omen-invader-elite-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21772-dark-omen-invader-elite-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21772-dark-omen-invader-elite-soldier",
   "raw_html": "library/raw/lu4/npc/21772-dark-omen-invader-elite-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "25 375 / 1 674",
+    "P. Atk. / M. Atk.": "1 877 / 1 341",
+    "P. Def. / M. Def.": "451 / 368",
+    "Accuracy / Evasion": "113 / 117",
+    "Exp / SP": "43 055 / 4 542",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (6x) Lv. 14 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Slightly Weak M. Def. Lv. 9 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword High Lv. Lv. 4 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 75"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21772",
-      "type": "npc",
-      "id": 21772,
-      "name": "Lu4",
-      "url": "/lu4/npc/21772-dark-omen-invader-elite-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 4 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/4"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:32535",
+      "key": "item:57",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
-    },
-    {
-      "key": "item:32437",
-      "type": "item",
-      "id": 32437,
-      "name": "Unidentified Destroyer Hammer A",
-      "url": "/lu4/item/32437-unidentified-destroyer-hammer"
-    },
-    {
-      "key": "item:32435",
-      "type": "item",
-      "id": 32435,
-      "name": "Unidentified Spiritual Eye A",
-      "url": "/lu4/item/32435-unidentified-spiritual-eye"
-    },
-    {
-      "key": "item:32368",
-      "type": "item",
-      "id": 32368,
-      "name": "Unidentified Meteor Shower A",
-      "url": "/lu4/item/32368-unidentified-meteor-shower"
-    },
-    {
-      "key": "item:8762",
-      "type": "item",
-      "id": 8762,
-      "name": "Top-Grade Life Stone NG",
-      "url": "/lu4/item/8762-top-grade-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:8346",
@@ -136,6 +112,20 @@
       "url": "/lu4/item/8341-spiritual-eye-piece"
     },
     {
+      "key": "item:32437",
+      "type": "item",
+      "id": 32437,
+      "name": "Unidentified Destroyer Hammer A",
+      "url": "/lu4/item/32437-unidentified-destroyer-hammer"
+    },
+    {
+      "key": "item:32435",
+      "type": "item",
+      "id": 32435,
+      "name": "Unidentified Spiritual Eye A",
+      "url": "/lu4/item/32435-unidentified-spiritual-eye"
+    },
+    {
       "key": "item:5543",
       "type": "item",
       "id": 5543,
@@ -148,6 +138,20 @@
       "id": 5532,
       "name": "Meteor Shower Head NG",
       "url": "/lu4/item/5532-meteor-shower-head"
+    },
+    {
+      "key": "item:32368",
+      "type": "item",
+      "id": 32368,
+      "name": "Unidentified Meteor Shower A",
+      "url": "/lu4/item/32368-unidentified-meteor-shower"
+    },
+    {
+      "key": "item:32535",
+      "type": "item",
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
     },
     {
       "key": "item:730",
@@ -164,11 +168,11 @@
       "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:8762",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 8762,
+      "name": "Top-Grade Life Stone NG",
+      "url": "/lu4/item/8762-top-grade-life-stone"
     },
     {
       "key": "item:6901",

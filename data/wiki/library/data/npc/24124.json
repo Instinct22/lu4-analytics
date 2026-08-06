@@ -2,40 +2,37 @@
   "key": "npc:24124",
   "type": "npc",
   "id": 24124,
-  "name": "Lu4 Wiki: NPC",
+  "name": "Undead, Lv. 85",
   "url": "/lu4/npc/24124",
-  "source_url": "https://masterwork.wiki/lu4/npc/24124",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/24124",
   "raw_html": "library/raw/lu4/npc/24124.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "18 700 / 1 830",
+    "P. Atk. / M. Atk.": "7 308 / 11 362",
+    "P. Def. / M. Def.": "1 451 / 1 509",
+    "Accuracy / Evasion": "140 / 140",
+    "Exp / SP": "141 559 / 2 717",
+    "Attack Attribute": "Unholy 350",
+    "Defense Attributes": "Fire 220, Water 220, Wind 220, Earth 220, Holy 220, Unholy 220",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 85"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:24124",
-      "type": "npc",
-      "id": 24124,
-      "name": "Lu4",
-      "url": "/lu4/npc/24124"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
-      "key": "item:1887",
+      "key": "item:57",
       "type": "item",
-      "id": 1887,
-      "name": "Varnish of Purity NG",
-      "url": "/lu4/item/1887-varnish-of-purity"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1869",
@@ -52,25 +49,18 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:57",
+      "key": "item:1880",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
     },
     {
-      "key": "item:6622",
+      "key": "item:1887",
       "type": "item",
-      "id": 6622,
-      "name": "Giant's Codex NG",
-      "url": "/lu4/item/6622-giants-codex"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
+      "id": 1887,
+      "name": "Varnish of Purity NG",
+      "url": "/lu4/item/1887-varnish-of-purity"
     },
     {
       "key": "item:1872",
@@ -80,11 +70,25 @@
       "url": "/lu4/item/1872-animal-bone"
     },
     {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
       "key": "item:960",
       "type": "item",
       "id": 960,
       "name": "Scroll: Enchant Armor (S-Grade) NG",
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
+    },
+    {
+      "key": "item:6622",
+      "type": "item",
+      "id": 6622,
+      "name": "Giant's Codex NG",
+      "url": "/lu4/item/6622-giants-codex"
     }
   ]
 }

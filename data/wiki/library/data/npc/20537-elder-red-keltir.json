@@ -2,63 +2,39 @@
   "key": "npc:20537",
   "type": "npc",
   "id": 20537,
-  "name": "Lu4 Wiki: NPC Elder Red Keltir",
+  "name": "Elder Red Keltir",
   "url": "/lu4/npc/20537-elder-red-keltir",
-  "source_url": "https://masterwork.wiki/lu4/npc/20537-elder-red-keltir",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20537-elder-red-keltir",
   "raw_html": "library/raw/lu4/npc/20537-elder-red-keltir.html",
   "stats": {
-    "Location": "Тень Древа Жизни"
+    "Respawn Time": "10 seconds",
+    "Location": "Тень Древа Жизни",
+    "HP / MP": "106 / 67",
+    "P. Atk. / M. Atk.": "12 / 5",
+    "P. Def. / M. Def.": "42 / 33",
+    "Accuracy / Evasion": "36 / 36",
+    "Exp / SP": "111 / 11",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 3"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20537",
-      "type": "npc",
-      "id": 20537,
-      "name": "Lu4",
-      "url": "/lu4/npc/20537-elder-red-keltir"
-    },
-    {
-      "key": "location:111",
-      "type": "location",
-      "id": 111,
-      "name": "Тень Древа Жизни",
-      "url": "/lu4/location/111-ten-dreva-zizni"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
-      "key": "item:1869",
+      "key": "item:57",
       "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1788",
-      "type": "item",
-      "id": 1788,
-      "name": "Recipe: Bow NG",
-      "url": "/lu4/item/1788-recipe-bow"
-    },
-    {
-      "key": "item:1060",
-      "type": "item",
-      "id": 1060,
-      "name": "Lesser Healing Potion NG",
-      "url": "/lu4/item/1060-lesser-healing-potion"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:308",
@@ -68,11 +44,32 @@
       "url": "/lu4/item/308-buffalos-horn"
     },
     {
-      "key": "item:57",
+      "key": "item:1060",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1060,
+      "name": "Lesser Healing Potion NG",
+      "url": "/lu4/item/1060-lesser-healing-potion"
+    },
+    {
+      "key": "item:1788",
+      "type": "item",
+      "id": 1788,
+      "name": "Recipe: Bow NG",
+      "url": "/lu4/item/1788-recipe-bow"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:1867",

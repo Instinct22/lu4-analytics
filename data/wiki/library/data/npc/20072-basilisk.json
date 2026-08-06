@@ -2,70 +2,60 @@
   "key": "npc:20072",
   "type": "npc",
   "id": 20072,
-  "name": "Lu4 Wiki: NPC Basilisk",
+  "name": "Basilisk",
   "url": "/lu4/npc/20072-basilisk",
-  "source_url": "https://masterwork.wiki/lu4/npc/20072-basilisk",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20072-basilisk",
   "raw_html": "library/raw/lu4/npc/20072-basilisk.html",
   "stats": {
-    "Location": "Пустошь (+1) Пустошь Нейтральные Воды"
+    "Respawn Time": "15 seconds",
+    "Location": "Пустошь (+1) Пустошь Нейтральные Воды",
+    "HP / MP": "872 / 371",
+    "P. Atk. / M. Atk.": "100 / 56",
+    "P. Def. / M. Def.": "158 / 119",
+    "Accuracy / Evasion": "61 / 61",
+    "Exp / SP": "934 / 93",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 28"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20072",
-      "type": "npc",
-      "id": 20072,
-      "name": "Lu4",
-      "url": "/lu4/npc/20072-basilisk"
-    },
-    {
-      "key": "location:15",
-      "type": "location",
-      "id": 15,
-      "name": "Пустошь",
-      "url": "/lu4/location/15-pustos"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:8307",
+      "key": "item:57",
       "type": "item",
-      "id": 8307,
-      "name": "Recipe: Priest Mace (100%) NG",
-      "url": "/lu4/item/8307-recipe-priest-mace-100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6035",
@@ -103,11 +93,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:378",
+      "key": "item:8307",
       "type": "item",
-      "id": 378,
-      "name": "Compound Scale Gaiters D",
-      "url": "/lu4/item/378-compound-scale-gaiters"
+      "id": 8307,
+      "name": "Recipe: Priest Mace (100%) NG",
+      "url": "/lu4/item/8307-recipe-priest-mace-100"
     },
     {
       "key": "item:351",
@@ -124,11 +114,18 @@
       "url": "/lu4/item/350-dwarven-scale-mail"
     },
     {
-      "key": "item:144",
+      "key": "item:58",
       "type": "item",
-      "id": 144,
-      "name": "Sword of Occult D",
-      "url": "/lu4/item/144-sword-of-occult"
+      "id": 58,
+      "name": "Mithril Breastplate D",
+      "url": "/lu4/item/58-mithril-breastplate"
+    },
+    {
+      "key": "item:378",
+      "type": "item",
+      "id": 378,
+      "name": "Compound Scale Gaiters D",
+      "url": "/lu4/item/378-compound-scale-gaiters"
     },
     {
       "key": "item:59",
@@ -138,18 +135,11 @@
       "url": "/lu4/item/59-mithril-gaiters"
     },
     {
-      "key": "item:58",
+      "key": "item:144",
       "type": "item",
-      "id": 58,
-      "name": "Mithril Breastplate D",
-      "url": "/lu4/item/58-mithril-breastplate"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 144,
+      "name": "Sword of Occult D",
+      "url": "/lu4/item/144-sword-of-occult"
     },
     {
       "key": "item:3953",

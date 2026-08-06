@@ -2,77 +2,81 @@
   "key": "npc:5012",
   "type": "npc",
   "id": 5012,
-  "name": "Lu4 Wiki: NPC Oathbroken Deadeye",
+  "name": "Oathbroken Deadeye",
   "url": "/lu4/npc/5012-oathbroken-deadeye",
-  "source_url": "https://masterwork.wiki/lu4/npc/5012-oathbroken-deadeye",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5012-oathbroken-deadeye",
   "raw_html": "library/raw/lu4/npc/5012-oathbroken-deadeye.html",
   "stats": {
-    "Location": "Равнины Неистовства"
+    "Respawn Time": "18 seconds ± 2 seconds",
+    "Location": "Равнины Неистовства",
+    "HP / MP": "4 345 / 1 110",
+    "P. Atk. / M. Atk.": "1 096 / 255",
+    "P. Def. / M. Def.": "240 / 198",
+    "Accuracy / Evasion": "82 / 82",
+    "Exp / SP": "4 590 / 459",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 13 Slightly Weak M. Def. Lv. 10 Slightly Weak P. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 49"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5012",
-      "type": "npc",
-      "id": 5012,
-      "name": "Lu4",
-      "url": "/lu4/npc/5012-oathbroken-deadeye"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:1806",
+      "type": "item",
+      "id": 1806,
+      "name": "Recipe: Soulshot (B-Grade) NG",
+      "url": "/lu4/item/1806-recipe-soulshot-b-grade"
     },
     {
       "key": "item:5549",
@@ -103,55 +107,6 @@
       "url": "/lu4/item/4044-thons"
     },
     {
-      "key": "item:2968",
-      "type": "item",
-      "id": 2968,
-      "name": "Dwarven War Hammer Head NG",
-      "url": "/lu4/item/2968-dwarven-war-hammer-head"
-    },
-    {
-      "key": "item:2502",
-      "type": "item",
-      "id": 2502,
-      "name": "Dwarven War Hammer C",
-      "url": "/lu4/item/2502-dwarven-war-hammer"
-    },
-    {
-      "key": "item:2343",
-      "type": "item",
-      "id": 2343,
-      "name": "Recipe: Mace of Underworld NG",
-      "url": "/lu4/item/2343-recipe-mace-of-underworld"
-    },
-    {
-      "key": "item:2340",
-      "type": "item",
-      "id": 2340,
-      "name": "Recipe: Pa'agrian Hammer NG",
-      "url": "/lu4/item/2340-recipe-paagrian-hammer"
-    },
-    {
-      "key": "item:2339",
-      "type": "item",
-      "id": 2339,
-      "name": "Recipe: Inferno Staff NG",
-      "url": "/lu4/item/2339-recipe-inferno-staff"
-    },
-    {
-      "key": "item:2109",
-      "type": "item",
-      "id": 2109,
-      "name": "Akat Longbow Shaft NG",
-      "url": "/lu4/item/2109-akat-longbow-shaft"
-    },
-    {
-      "key": "item:1983",
-      "type": "item",
-      "id": 1983,
-      "name": "Shining Circlet Pattern NG",
-      "url": "/lu4/item/1983-shining-circlet-pattern"
-    },
-    {
       "key": "item:1889",
       "type": "item",
       "id": 1889,
@@ -173,18 +128,11 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:1806",
+      "key": "item:49800",
       "type": "item",
-      "id": 1806,
-      "name": "Recipe: Soulshot (B-Grade) NG",
-      "url": "/lu4/item/1806-recipe-soulshot-b-grade"
-    },
-    {
-      "key": "item:1149",
-      "type": "item",
-      "id": 1149,
-      "name": "Shining Circlet C",
-      "url": "/lu4/item/1149-shining-circlet"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:283",
@@ -194,11 +142,60 @@
       "url": "/lu4/item/283-akat-long-bow"
     },
     {
-      "key": "item:57",
+      "key": "item:2109",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2109,
+      "name": "Akat Longbow Shaft NG",
+      "url": "/lu4/item/2109-akat-longbow-shaft"
+    },
+    {
+      "key": "item:2502",
+      "type": "item",
+      "id": 2502,
+      "name": "Dwarven War Hammer C",
+      "url": "/lu4/item/2502-dwarven-war-hammer"
+    },
+    {
+      "key": "item:2968",
+      "type": "item",
+      "id": 2968,
+      "name": "Dwarven War Hammer Head NG",
+      "url": "/lu4/item/2968-dwarven-war-hammer-head"
+    },
+    {
+      "key": "item:1149",
+      "type": "item",
+      "id": 1149,
+      "name": "Shining Circlet C",
+      "url": "/lu4/item/1149-shining-circlet"
+    },
+    {
+      "key": "item:1983",
+      "type": "item",
+      "id": 1983,
+      "name": "Shining Circlet Pattern NG",
+      "url": "/lu4/item/1983-shining-circlet-pattern"
+    },
+    {
+      "key": "item:2339",
+      "type": "item",
+      "id": 2339,
+      "name": "Recipe: Inferno Staff NG",
+      "url": "/lu4/item/2339-recipe-inferno-staff"
+    },
+    {
+      "key": "item:2343",
+      "type": "item",
+      "id": 2343,
+      "name": "Recipe: Mace of Underworld NG",
+      "url": "/lu4/item/2343-recipe-mace-of-underworld"
+    },
+    {
+      "key": "item:2340",
+      "type": "item",
+      "id": 2340,
+      "name": "Recipe: Pa'agrian Hammer NG",
+      "url": "/lu4/item/2340-recipe-paagrian-hammer"
     },
     {
       "key": "item:8319",
@@ -208,13 +205,6 @@
       "url": "/lu4/item/8319-recipe-karik-horn-100"
     },
     {
-      "key": "item:4055",
-      "type": "item",
-      "id": 4055,
-      "name": "Composite Shield Fragment NG",
-      "url": "/lu4/item/4055-composite-shield-fragment"
-    },
-    {
       "key": "item:2226",
       "type": "item",
       "id": 2226,
@@ -222,11 +212,11 @@
       "url": "/lu4/item/2226-recipe-composite-gauntlets"
     },
     {
-      "key": "item:2094",
+      "key": "item:4055",
       "type": "item",
-      "id": 2094,
-      "name": "Sword of Limit Blade NG",
-      "url": "/lu4/item/2094-sword-of-limit-blade"
+      "id": 4055,
+      "name": "Composite Shield Fragment NG",
+      "url": "/lu4/item/4055-composite-shield-fragment"
     },
     {
       "key": "item:1916",
@@ -234,6 +224,13 @@
       "id": 1916,
       "name": "Necklace of Mermaid Teardrop NG",
       "url": "/lu4/item/1916-necklace-of-mermaid-teardrop"
+    },
+    {
+      "key": "item:2094",
+      "type": "item",
+      "id": 2094,
+      "name": "Sword of Limit Blade NG",
+      "url": "/lu4/item/2094-sword-of-limit-blade"
     }
   ]
 }

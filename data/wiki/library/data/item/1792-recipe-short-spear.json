@@ -2,55 +2,24 @@
   "key": "item:1792",
   "type": "item",
   "id": 1792,
-  "name": "Recipe",
+  "name": "Recipe: Short Spear",
   "url": "/lu4/item/1792-recipe-short-spear",
-  "source_url": "https://masterwork.wiki/lu4/item/1792-recipe-short-spear",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1792-recipe-short-spear",
   "raw_html": "library/raw/lu4/item/1792-recipe-short-spear.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Short Spear'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "1 360 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "60",
     "Success Rate": "100%",
-    "Result": "Short Spear NG"
+    "Result": "Short Spear NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2011",
-      "type": "item",
-      "id": 2011,
-      "name": "Short Spear Edge NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "220"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "110"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "55"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:1792",
-      "type": "item",
-      "id": 1792,
-      "name": "Lu4",
-      "url": "/lu4/item/1792-recipe-short-spear"
-    },
     {
       "key": "item:2011",
       "type": "item",
@@ -90,189 +59,189 @@
       "key": "npc:34649",
       "type": "npc",
       "id": 34649,
-      "name": "Wasp Worker Lv. 14",
+      "name": "Wasp Worker",
       "url": "/lu4/npc/34649-wasp-worker"
     },
     {
       "key": "npc:20510",
       "type": "npc",
       "id": 20510,
-      "name": "Puma Lv. 12",
+      "name": "Puma",
       "url": "/lu4/npc/20510-puma"
     },
     {
       "key": "npc:20504",
       "type": "npc",
       "id": 20504,
-      "name": "Dread Soldier Lv. 14",
+      "name": "Dread Soldier",
       "url": "/lu4/npc/20504-dread-soldier"
     },
     {
       "key": "npc:20479",
       "type": "npc",
       "id": 20479,
-      "name": "Kasha Bear Lv. 15",
+      "name": "Kasha Bear",
       "url": "/lu4/npc/20479-kasha-bear"
     },
     {
       "key": "npc:20473",
       "type": "npc",
       "id": 20473,
-      "name": "Kaboo Orc Fighter Lieutenant Lv. 11",
+      "name": "Kaboo Orc Fighter Lieutenant",
       "url": "/lu4/npc/20473-kaboo-orc-fighter-lieutenant"
     },
     {
       "key": "npc:20362",
       "type": "npc",
       "id": 20362,
-      "name": "Tunath Orc Warrior Lv. 12",
+      "name": "Tunath Orc Warrior",
       "url": "/lu4/npc/20362-tunath-orc-warrior"
     },
     {
       "key": "npc:20349",
       "type": "npc",
       "id": 20349,
-      "name": "Cave Bat Lv. 13",
+      "name": "Cave Bat",
       "url": "/lu4/npc/20349-cave-bat"
     },
     {
       "key": "npc:20323",
       "type": "npc",
       "id": 20323,
-      "name": "Goblin Brigand Leader Lv. 14",
+      "name": "Goblin Brigand Leader",
       "url": "/lu4/npc/20323-goblin-brigand-leader"
     },
     {
       "key": "npc:20097",
       "type": "npc",
       "id": 20097,
-      "name": "Drill Bat Lv. 11",
+      "name": "Drill Bat",
       "url": "/lu4/npc/20097-drill-bat"
     },
     {
       "key": "npc:20026",
       "type": "npc",
       "id": 20026,
-      "name": "Ruin Zombie Lv. 15",
+      "name": "Ruin Zombie",
       "url": "/lu4/npc/20026-ruin-zombie"
     },
     {
       "key": "npc:20013",
       "type": "npc",
       "id": 20013,
-      "name": "Dryad Lv. 13",
+      "name": "Dryad",
       "url": "/lu4/npc/20013-dryad"
     },
     {
       "key": "npc:20008",
       "type": "npc",
       "id": 20008,
-      "name": "Felim Lizardman Lv. 14",
+      "name": "Felim Lizardman",
       "url": "/lu4/npc/20008-felim-lizardman"
     },
     {
       "key": "npc:20777",
       "type": "npc",
       "id": 20777,
-      "name": "Hunter Bear Lv. 14",
+      "name": "Hunter Bear",
       "url": "/lu4/npc/20777-hunter-bear"
     },
     {
       "key": "npc:20474",
       "type": "npc",
       "id": 20474,
-      "name": "Kasha Spider Lv. 15",
+      "name": "Kasha Spider",
       "url": "/lu4/npc/20474-kasha-spider"
     },
     {
       "key": "npc:20460",
       "type": "npc",
       "id": 20460,
-      "name": "Crimson Spider Lv. 15",
+      "name": "Crimson Spider",
       "url": "/lu4/npc/20460-crimson-spider"
     },
     {
       "key": "npc:20429",
       "type": "npc",
       "id": 20429,
-      "name": "Evil Eye Lookout Lv. 14",
+      "name": "Evil Eye Lookout",
       "url": "/lu4/npc/20429-evil-eye-lookout"
     },
     {
       "key": "npc:20423",
       "type": "npc",
       "id": 20423,
-      "name": "Akaste Bone Archer Lv. 14",
+      "name": "Akaste Bone Archer",
       "url": "/lu4/npc/20423-akaste-bone-archer"
     },
     {
       "key": "npc:20410",
       "type": "npc",
       "id": 20410,
-      "name": "Scavenger Spider Lv. 15",
+      "name": "Scavenger Spider",
       "url": "/lu4/npc/20410-scavenger-spider"
     },
     {
       "key": "npc:20379",
       "type": "npc",
       "id": 20379,
-      "name": "Stone Soldier Lv. 14",
+      "name": "Stone Soldier",
       "url": "/lu4/npc/20379-stone-soldier"
     },
     {
       "key": "npc:20340",
       "type": "npc",
       "id": 20340,
-      "name": "Slave Skeleton Lv. 12",
+      "name": "Slave Skeleton",
       "url": "/lu4/npc/20340-slave-skeleton"
     },
     {
       "key": "npc:20333",
       "type": "npc",
       "id": 20333,
-      "name": "Greystone Golem Lv. 13",
+      "name": "Greystone Golem",
       "url": "/lu4/npc/20333-greystone-golem"
     },
     {
       "key": "npc:20330",
       "type": "npc",
       "id": 20330,
-      "name": "Mineshaft Bat Lv. 11",
+      "name": "Mineshaft Bat",
       "url": "/lu4/npc/20330-mineshaft-bat"
     },
     {
       "key": "npc:20316",
       "type": "npc",
       "id": 20316,
-      "name": "Darkwing Bat Lv. 11",
+      "name": "Darkwing Bat",
       "url": "/lu4/npc/20316-darkwing-bat"
     },
     {
       "key": "npc:20143",
       "type": "npc",
       "id": 20143,
-      "name": "Grizzly Lv. 12",
+      "name": "Grizzly",
       "url": "/lu4/npc/20143-grizzly"
     },
     {
       "key": "npc:20100",
       "type": "npc",
       "id": 20100,
-      "name": "Skeleton Archer Lv. 13",
+      "name": "Skeleton Archer",
       "url": "/lu4/npc/20100-skeleton-archer"
     },
     {
       "key": "npc:20096",
       "type": "npc",
       "id": 20096,
-      "name": "Orc Lieutenant Lv. 11",
+      "name": "Orc Lieutenant",
       "url": "/lu4/npc/20096-orc-lieutenant"
     },
     {
       "key": "npc:20021",
       "type": "npc",
       "id": 20021,
-      "name": "Red Bear Lv. 14",
+      "name": "Red Bear",
       "url": "/lu4/npc/20021-red-bear"
     }
   ]

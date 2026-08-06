@@ -2,133 +2,74 @@
   "key": "npc:20549",
   "type": "npc",
   "id": 20549,
-  "name": "Lu4 Wiki: NPC Ol Mahum Lord",
+  "name": "Ol Mahum Lord",
   "url": "/lu4/npc/20549-ol-mahum-lord",
-  "source_url": "https://masterwork.wiki/lu4/npc/20549-ol-mahum-lord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20549-ol-mahum-lord",
   "raw_html": "library/raw/lu4/npc/20549-ol-mahum-lord.html",
   "stats": {
-    "Location": "Лагерь Партизан"
+    "Respawn Time": "36 seconds",
+    "Location": "Лагерь Партизан",
+    "HP / MP": "3 977 / 477",
+    "P. Atk. / M. Atk.": "193 / 118",
+    "P. Def. / M. Def.": "164 / 130",
+    "Accuracy / Evasion": "70 / 69",
+    "Exp / SP": "4 206 / 421",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 34"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20549",
-      "type": "npc",
-      "id": 20549,
-      "name": "Lu4",
-      "url": "/lu4/npc/20549-ol-mahum-lord"
-    },
-    {
-      "key": "location:50",
-      "type": "location",
-      "id": 50,
-      "name": "Лагерь Партизан",
-      "url": "/lu4/location/50-lager-partizan"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:8302",
+      "key": "item:57",
       "type": "item",
-      "id": 8302,
-      "name": "Recipe: Sword of Magic Fog (100%) NG",
-      "url": "/lu4/item/8302-recipe-sword-of-magic-fog-100"
-    },
-    {
-      "key": "item:2926",
-      "type": "item",
-      "id": 2926,
-      "name": "Manticore Skin Gloves Lining NG",
-      "url": "/lu4/item/2926-manticore-skin-gloves-lining"
-    },
-    {
-      "key": "item:2924",
-      "type": "item",
-      "id": 2924,
-      "name": "Brigandine Boots Design NG",
-      "url": "/lu4/item/2924-brigandine-boots-design"
-    },
-    {
-      "key": "item:2919",
-      "type": "item",
-      "id": 2919,
-      "name": "Brigandine Gaiters Material NG",
-      "url": "/lu4/item/2919-brigandine-gaiters-material"
-    },
-    {
-      "key": "item:2448",
-      "type": "item",
-      "id": 2448,
-      "name": "Manticore Skin Gloves D",
-      "url": "/lu4/item/2448-manticore-skin-gloves"
-    },
-    {
-      "key": "item:2425",
-      "type": "item",
-      "id": 2425,
-      "name": "Brigandine Boots D",
-      "url": "/lu4/item/2425-brigandine-boots"
-    },
-    {
-      "key": "item:2378",
-      "type": "item",
-      "id": 2378,
-      "name": "Brigandine Gaiters D",
-      "url": "/lu4/item/2378-brigandine-gaiters"
-    },
-    {
-      "key": "item:2273",
-      "type": "item",
-      "id": 2273,
-      "name": "Recipe: Tarbar NG",
-      "url": "/lu4/item/2273-recipe-tarbar"
-    },
-    {
-      "key": "item:2156",
-      "type": "item",
-      "id": 2156,
-      "name": "Recipe: Elven Necklace NG",
-      "url": "/lu4/item/2156-recipe-elven-necklace"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1877",
@@ -159,18 +100,74 @@
       "url": "/lu4/item/1341-bone-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:2156",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2156,
+      "name": "Recipe: Elven Necklace NG",
+      "url": "/lu4/item/2156-recipe-elven-necklace"
     },
     {
-      "key": "item:2923",
+      "key": "item:8302",
       "type": "item",
-      "id": 2923,
-      "name": "Manticore Skin Boot Lining NG",
-      "url": "/lu4/item/2923-manticore-skin-boot-lining"
+      "id": 8302,
+      "name": "Recipe: Sword of Magic Fog (100%) NG",
+      "url": "/lu4/item/8302-recipe-sword-of-magic-fog-100"
+    },
+    {
+      "key": "item:2273",
+      "type": "item",
+      "id": 2273,
+      "name": "Recipe: Tarbar NG",
+      "url": "/lu4/item/2273-recipe-tarbar"
+    },
+    {
+      "key": "item:2425",
+      "type": "item",
+      "id": 2425,
+      "name": "Brigandine Boots D",
+      "url": "/lu4/item/2425-brigandine-boots"
+    },
+    {
+      "key": "item:2924",
+      "type": "item",
+      "id": 2924,
+      "name": "Brigandine Boots Design NG",
+      "url": "/lu4/item/2924-brigandine-boots-design"
+    },
+    {
+      "key": "item:2448",
+      "type": "item",
+      "id": 2448,
+      "name": "Manticore Skin Gloves D",
+      "url": "/lu4/item/2448-manticore-skin-gloves"
+    },
+    {
+      "key": "item:2926",
+      "type": "item",
+      "id": 2926,
+      "name": "Manticore Skin Gloves Lining NG",
+      "url": "/lu4/item/2926-manticore-skin-gloves-lining"
+    },
+    {
+      "key": "item:2378",
+      "type": "item",
+      "id": 2378,
+      "name": "Brigandine Gaiters D",
+      "url": "/lu4/item/2378-brigandine-gaiters"
+    },
+    {
+      "key": "item:2919",
+      "type": "item",
+      "id": 2919,
+      "name": "Brigandine Gaiters Material NG",
+      "url": "/lu4/item/2919-brigandine-gaiters-material"
+    },
+    {
+      "key": "item:1880",
+      "type": "item",
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
     },
     {
       "key": "item:2282",
@@ -187,13 +184,6 @@
       "url": "/lu4/item/2190-recipe-mithril-stockings"
     },
     {
-      "key": "item:2036",
-      "type": "item",
-      "id": 2036,
-      "name": "Skull Breaker Head NG",
-      "url": "/lu4/item/2036-skull-breaker-head"
-    },
-    {
       "key": "item:1948",
       "type": "item",
       "id": 1948,
@@ -201,11 +191,18 @@
       "url": "/lu4/item/1948-boots-of-power-pattern"
     },
     {
-      "key": "item:1880",
+      "key": "item:2923",
       "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
+      "id": 2923,
+      "name": "Manticore Skin Boot Lining NG",
+      "url": "/lu4/item/2923-manticore-skin-boot-lining"
+    },
+    {
+      "key": "item:2036",
+      "type": "item",
+      "id": 2036,
+      "name": "Skull Breaker Head NG",
+      "url": "/lu4/item/2036-skull-breaker-head"
     }
   ]
 }

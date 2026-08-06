@@ -2,119 +2,32 @@
   "key": "npc:21119",
   "type": "npc",
   "id": 21119,
-  "name": "Lu4 Wiki: NPC Hobgoblin",
+  "name": "Hobgoblin",
   "url": "/lu4/npc/21119-hobgoblin",
-  "source_url": "https://masterwork.wiki/lu4/npc/21119-hobgoblin",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21119-hobgoblin",
   "raw_html": "library/raw/lu4/npc/21119-hobgoblin.html",
   "stats": {
-    "Location": "Плато Бессмертия, юг"
+    "Respawn Time": "20 seconds",
+    "Location": "Плато Бессмертия, юг",
+    "HP / MP": "581 / 252",
+    "P. Atk. / M. Atk.": "64 / 32",
+    "P. Def. / M. Def.": "106 / 85",
+    "Accuracy / Evasion": "57 / 56",
+    "Exp / SP": "611 / 61",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 21"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21119",
-      "type": "npc",
-      "id": 21119,
-      "name": "Lu4",
-      "url": "/lu4/npc/21119-hobgoblin"
-    },
-    {
-      "key": "location:191",
-      "type": "location",
-      "id": 191,
-      "name": "Плато Бессмертия, юг",
-      "url": "/lu4/location/191-plato-bessmertia-ug"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
-    },
-    {
-      "key": "item:8317",
-      "type": "item",
-      "id": 8317,
-      "name": "Recipe: Titan Hammer (100%) NG",
-      "url": "/lu4/item/8317-recipe-titan-hammer-100"
-    },
-    {
-      "key": "item:8301",
-      "type": "item",
-      "id": 8301,
-      "name": "Recipe: Priest Sword (100%) NG",
-      "url": "/lu4/item/8301-recipe-priest-sword-100"
-    },
-    {
-      "key": "item:5531",
-      "type": "item",
-      "id": 5531,
-      "name": "Heavy Sword Edge NG",
-      "url": "/lu4/item/5531-heavy-sword-edge"
-    },
-    {
-      "key": "item:5285",
-      "type": "item",
-      "id": 5285,
-      "name": "Heavy Sword D",
-      "url": "/lu4/item/5285-heavy-sword"
-    },
-    {
-      "key": "item:2177",
-      "type": "item",
-      "id": 2177,
-      "name": "Recipe: Bone Helmet NG",
-      "url": "/lu4/item/2177-recipe-bone-helmet"
-    },
-    {
-      "key": "item:2017",
-      "type": "item",
-      "id": 2017,
-      "name": "Saber Blade NG",
-      "url": "/lu4/item/2017-saber-blade"
-    },
-    {
-      "key": "item:1929",
-      "type": "item",
-      "id": 1929,
-      "name": "Hard Leather Gaiters Material NG",
-      "url": "/lu4/item/1929-hard-leather-gaiters-material"
-    },
-    {
-      "key": "item:1927",
-      "type": "item",
-      "id": 1927,
-      "name": "Hard Leather Shirt Pattern NG",
-      "url": "/lu4/item/1927-hard-leather-shirt-pattern"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:274",
-      "type": "item",
-      "id": 274,
-      "name": "Reinforced Bow D",
-      "url": "/lu4/item/274-reinforced-bow"
-    },
-    {
-      "key": "item:123",
-      "type": "item",
-      "id": 123,
-      "name": "Saber D",
-      "url": "/lu4/item/123-saber"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "item:57",
@@ -124,13 +37,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:33",
-      "type": "item",
-      "id": 33,
-      "name": "Hard Leather Gaiters NG",
-      "url": "/lu4/item/33-hard-leather-gaiters"
-    },
-    {
       "key": "item:27",
       "type": "item",
       "id": 27,
@@ -138,11 +44,88 @@
       "url": "/lu4/item/27-hard-leather-shirt"
     },
     {
-      "key": "item:8327",
+      "key": "item:33",
       "type": "item",
-      "id": 8327,
-      "name": "Steel Sword Blade NG",
-      "url": "/lu4/item/8327-steel-sword-blade"
+      "id": 33,
+      "name": "Hard Leather Gaiters NG",
+      "url": "/lu4/item/33-hard-leather-gaiters"
+    },
+    {
+      "key": "item:1927",
+      "type": "item",
+      "id": 1927,
+      "name": "Hard Leather Shirt Pattern NG",
+      "url": "/lu4/item/1927-hard-leather-shirt-pattern"
+    },
+    {
+      "key": "item:1929",
+      "type": "item",
+      "id": 1929,
+      "name": "Hard Leather Gaiters Material NG",
+      "url": "/lu4/item/1929-hard-leather-gaiters-material"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:5285",
+      "type": "item",
+      "id": 5285,
+      "name": "Heavy Sword D",
+      "url": "/lu4/item/5285-heavy-sword"
+    },
+    {
+      "key": "item:5531",
+      "type": "item",
+      "id": 5531,
+      "name": "Heavy Sword Edge NG",
+      "url": "/lu4/item/5531-heavy-sword-edge"
+    },
+    {
+      "key": "item:123",
+      "type": "item",
+      "id": 123,
+      "name": "Saber D",
+      "url": "/lu4/item/123-saber"
+    },
+    {
+      "key": "item:2017",
+      "type": "item",
+      "id": 2017,
+      "name": "Saber Blade NG",
+      "url": "/lu4/item/2017-saber-blade"
+    },
+    {
+      "key": "item:274",
+      "type": "item",
+      "id": 274,
+      "name": "Reinforced Bow D",
+      "url": "/lu4/item/274-reinforced-bow"
+    },
+    {
+      "key": "item:2177",
+      "type": "item",
+      "id": 2177,
+      "name": "Recipe: Bone Helmet NG",
+      "url": "/lu4/item/2177-recipe-bone-helmet"
+    },
+    {
+      "key": "item:8301",
+      "type": "item",
+      "id": 8301,
+      "name": "Recipe: Priest Sword (100%) NG",
+      "url": "/lu4/item/8301-recipe-priest-sword-100"
     },
     {
       "key": "item:1898",
@@ -150,6 +133,13 @@
       "id": 1898,
       "name": "Blue Diamond Necklace Gem NG",
       "url": "/lu4/item/1898-blue-diamond-necklace-gem"
+    },
+    {
+      "key": "item:8327",
+      "type": "item",
+      "id": 8327,
+      "name": "Steel Sword Blade NG",
+      "url": "/lu4/item/8327-steel-sword-blade"
     }
   ]
 }

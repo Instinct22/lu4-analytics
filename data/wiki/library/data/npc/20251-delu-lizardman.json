@@ -2,140 +2,60 @@
   "key": "npc:20251",
   "type": "npc",
   "id": 20251,
-  "name": "Lu4 Wiki: NPC Delu Lizardman",
+  "name": "Delu Lizardman",
   "url": "/lu4/npc/20251-delu-lizardman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20251-delu-lizardman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20251-delu-lizardman",
   "raw_html": "library/raw/lu4/npc/20251-delu-lizardman.html",
   "stats": {
-    "Location": "Равнины Диона"
+    "Respawn Time": "16 seconds",
+    "Location": "Равнины Диона",
+    "HP / MP": "976 / 371",
+    "P. Atk. / M. Atk.": "92 / 47",
+    "P. Def. / M. Def.": "165 / 128",
+    "Accuracy / Evasion": "64 / 63",
+    "Exp / SP": "1 041 / 104",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 28"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20251",
-      "type": "npc",
-      "id": 20251,
-      "name": "Lu4",
-      "url": "/lu4/npc/20251-delu-lizardman"
-    },
-    {
-      "key": "location:241",
-      "type": "location",
-      "id": 241,
-      "name": "Равнины Диона",
-      "url": "/lu4/location/241-ravniny-diona"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:1939",
-      "type": "item",
-      "id": 1939,
-      "name": "Mithril Banded Gaiters Material NG",
-      "url": "/lu4/item/1939-mithril-banded-gaiters-material"
-    },
-    {
-      "key": "item:1938",
-      "type": "item",
-      "id": 1938,
-      "name": "Mithril Banded Mail Material NG",
-      "url": "/lu4/item/1938-mithril-banded-mail-material"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:415",
-      "type": "item",
-      "id": 415,
-      "name": "Mithril Banded Gaiters D",
-      "url": "/lu4/item/415-mithril-banded-gaiters"
-    },
-    {
-      "key": "item:393",
-      "type": "item",
-      "id": 393,
-      "name": "Mithril Banded Mail D",
-      "url": "/lu4/item/393-mithril-banded-mail"
-    },
-    {
-      "key": "item:130",
-      "type": "item",
-      "id": 130,
-      "name": "Elven Sword D",
-      "url": "/lu4/item/130-elven-sword"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -145,11 +65,81 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2027",
+      "key": "item:1866",
       "type": "item",
-      "id": 2027,
-      "name": "Spiked Club Head NG",
-      "url": "/lu4/item/2027-spiked-club-head"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:130",
+      "type": "item",
+      "id": 130,
+      "name": "Elven Sword D",
+      "url": "/lu4/item/130-elven-sword"
+    },
+    {
+      "key": "item:415",
+      "type": "item",
+      "id": 415,
+      "name": "Mithril Banded Gaiters D",
+      "url": "/lu4/item/415-mithril-banded-gaiters"
+    },
+    {
+      "key": "item:1939",
+      "type": "item",
+      "id": 1939,
+      "name": "Mithril Banded Gaiters Material NG",
+      "url": "/lu4/item/1939-mithril-banded-gaiters-material"
+    },
+    {
+      "key": "item:393",
+      "type": "item",
+      "id": 393,
+      "name": "Mithril Banded Mail D",
+      "url": "/lu4/item/393-mithril-banded-mail"
+    },
+    {
+      "key": "item:1938",
+      "type": "item",
+      "id": 1938,
+      "name": "Mithril Banded Mail Material NG",
+      "url": "/lu4/item/1938-mithril-banded-mail-material"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:1880",
@@ -157,6 +147,13 @@
       "id": 1880,
       "name": "Steel NG",
       "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:2027",
+      "type": "item",
+      "id": 2027,
+      "name": "Spiked Club Head NG",
+      "url": "/lu4/item/2027-spiked-club-head"
     }
   ]
 }

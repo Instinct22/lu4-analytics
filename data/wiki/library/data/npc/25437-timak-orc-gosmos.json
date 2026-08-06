@@ -2,70 +2,65 @@
   "key": "npc:25437",
   "type": "npc",
   "id": 25437,
-  "name": "Lu4 Wiki: NPC Timak Orc Gosmos",
+  "name": "Timak Orc Gosmos",
   "url": "/lu4/npc/25437-timak-orc-gosmos",
-  "source_url": "https://masterwork.wiki/lu4/npc/25437-timak-orc-gosmos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25437-timak-orc-gosmos",
   "raw_html": "library/raw/lu4/npc/25437-timak-orc-gosmos.html",
   "stats": {
-    "Location": "Застава Тимак"
+    "HP / MP": "576 832 / 8 254",
+    "P. Atk. / M. Atk.": "2 824 / 1 066",
+    "P. Def. / M. Def.": "684 / 774",
+    "Accuracy / Evasion": "99 / 98",
+    "Exp / SP": "1 721 250 / 129 941",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This savage hero leads the Timak Orc Warriors in battle. Unlike Chertuba and Ragoth, fighting is his only expertise and interest. Surprisingly, that makes him popular among many Orcs who do not comprehend Chertuba's idealism or Ragoth' wisdom. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25437",
-      "type": "npc",
-      "id": 25437,
-      "name": "Lu4",
-      "url": "/lu4/npc/25437-timak-orc-gosmos"
-    },
-    {
-      "key": "location:231",
-      "type": "location",
-      "id": 231,
-      "name": "Застава Тимак",
-      "url": "/lu4/location/231-zastava-timak"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4956",
       "type": "skill",
       "id": 4956,
-      "name": "Raid Boss Lv. 1 This savage hero leads the Timak Orc Warriors in battle. Unlike Chertuba and Ragoth, fighting is his only expertise and interest. Surprisingly, that makes him popular among many Orcs who do not comprehend Chertuba's idealism or Ragoth' wisdom.",
-      "url": "/lu4/skill/4956-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4956-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -75,18 +70,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6574",
+      "key": "item:265",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+      "id": 265,
+      "name": "Fisted Blade C",
+      "url": "/lu4/item/265-fisted-blade"
     },
     {
       "key": "item:2108",
@@ -94,6 +82,13 @@
       "id": 2108,
       "name": "Fisted Blade Piece NG",
       "url": "/lu4/item/2108-fisted-blade-piece"
+    },
+    {
+      "key": "item:60",
+      "type": "item",
+      "id": 60,
+      "name": "Composite Armor C",
+      "url": "/lu4/item/60-composite-armor"
     },
     {
       "key": "item:1977",
@@ -110,6 +105,13 @@
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
       "key": "item:951",
       "type": "item",
       "id": 951,
@@ -117,18 +119,11 @@
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
-      "key": "item:265",
+      "key": "item:6573",
       "type": "item",
-      "id": 265,
-      "name": "Fisted Blade C",
-      "url": "/lu4/item/265-fisted-blade"
-    },
-    {
-      "key": "item:60",
-      "type": "item",
-      "id": 60,
-      "name": "Composite Armor C",
-      "url": "/lu4/item/60-composite-armor"
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     }
   ]
 }

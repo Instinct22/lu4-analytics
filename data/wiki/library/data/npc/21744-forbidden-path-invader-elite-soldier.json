@@ -2,124 +2,100 @@
   "key": "npc:21744",
   "type": "npc",
   "id": 21744,
-  "name": "Lu4 Wiki: NPC Forbidden Path Invader Elite Soldier",
+  "name": "Forbidden Path Invader Elite Soldier",
   "url": "/lu4/npc/21744-forbidden-path-invader-elite-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21744-forbidden-path-invader-elite-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21744-forbidden-path-invader-elite-soldier",
   "raw_html": "library/raw/lu4/npc/21744-forbidden-path-invader-elite-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 527 / 1 277",
+    "P. Atk. / M. Atk.": "1 119 / 774",
+    "P. Def. / M. Def.": "284 / 241",
+    "Accuracy / Evasion": "93 / 93",
+    "Exp / SP": "3 110 / 270",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1/2x) Lv. 9 Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Weak P. Def. Lv. 8 Weak M. Def. Lv. 8 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Sleep Resistance Lv. 3 Slightly resistant to Sleep. Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 60"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21744",
-      "type": "npc",
-      "id": 21744,
-      "name": "Lu4",
-      "url": "/lu4/npc/21744-forbidden-path-invader-elite-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1/2x) Lv. 9",
-      "url": "/lu4/skill/4408-hp-increase-12x/9"
+      "name": "HP Increase (1/2x)",
+      "url": "/lu4/skill/4408-hp-increase-12x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Weak P. Def. Lv. 8",
-      "url": "/lu4/skill/4412-weak-p-def/8"
+      "name": "Weak P. Def.",
+      "url": "/lu4/skill/4412-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
-      "key": "item:32590",
+      "key": "item:57",
       "type": "item",
-      "id": 32590,
-      "name": "Unidentified Avadon Robe B",
-      "url": "/lu4/item/32590-unidentified-avadon-robe"
-    },
-    {
-      "key": "item:32587",
-      "type": "item",
-      "id": 32587,
-      "name": "Unidentified Tunic of Zubei B",
-      "url": "/lu4/item/32587-unidentified-tunic-of-zubei"
-    },
-    {
-      "key": "item:32361",
-      "type": "item",
-      "id": 32361,
-      "name": "Unidentified Stockings of Zubei B",
-      "url": "/lu4/item/32361-unidentified-stockings-of-zubei"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:4157",
-      "type": "item",
-      "id": 4157,
-      "name": "Recipe: Blue Wolf Gaiters (100%) NG",
-      "url": "/lu4/item/4157-recipe-blue-wolf-gaiters-100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4071",
@@ -143,11 +119,25 @@
       "url": "/lu4/item/4069-tunic-of-zubei-fabric"
     },
     {
-      "key": "item:4044",
+      "key": "item:32590",
       "type": "item",
-      "id": 4044,
-      "name": "Thons NG",
-      "url": "/lu4/item/4044-thons"
+      "id": 32590,
+      "name": "Unidentified Avadon Robe B",
+      "url": "/lu4/item/32590-unidentified-avadon-robe"
+    },
+    {
+      "key": "item:32361",
+      "type": "item",
+      "id": 32361,
+      "name": "Unidentified Stockings of Zubei B",
+      "url": "/lu4/item/32361-unidentified-stockings-of-zubei"
+    },
+    {
+      "key": "item:32587",
+      "type": "item",
+      "id": 32587,
+      "name": "Unidentified Tunic of Zubei B",
+      "url": "/lu4/item/32587-unidentified-tunic-of-zubei"
     },
     {
       "key": "item:1889",
@@ -155,6 +145,13 @@
       "id": 1889,
       "name": "Compound Braid NG",
       "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:4044",
+      "type": "item",
+      "id": 4044,
+      "name": "Thons NG",
+      "url": "/lu4/item/4044-thons"
     },
     {
       "key": "item:1873",
@@ -178,18 +175,18 @@
       "url": "/lu4/item/1343-silver-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:4157",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4157,
+      "name": "Recipe: Blue Wolf Gaiters (100%) NG",
+      "url": "/lu4/item/4157-recipe-blue-wolf-gaiters-100"
     },
     {
-      "key": "item:4067",
+      "key": "item:5549",
       "type": "item",
-      "id": 4067,
-      "name": "Zubei's Leather Gaiter Texture NG",
-      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     },
     {
       "key": "item:947",
@@ -197,6 +194,13 @@
       "id": 947,
       "name": "Scroll: Enchant Weapon (B-Grade) NG",
       "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+    },
+    {
+      "key": "item:4067",
+      "type": "item",
+      "id": 4067,
+      "name": "Zubei's Leather Gaiter Texture NG",
+      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
     }
   ]
 }

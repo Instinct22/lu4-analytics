@@ -2,75 +2,72 @@
   "key": "npc:20988",
   "type": "npc",
   "id": 20988,
-  "name": "Lu4 Wiki: NPC Sairon's Puppet",
+  "name": "Sairon's Puppet",
   "url": "/lu4/npc/20988-sairons-puppet",
-  "source_url": "https://masterwork.wiki/lu4/npc/20988-sairons-puppet",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20988-sairons-puppet",
   "raw_html": "library/raw/lu4/npc/20988-sairons-puppet.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "4 977 / 1 025",
+    "P. Atk. / M. Atk.": "615 / 333",
+    "P. Def. / M. Def.": "291 / 248",
+    "Accuracy / Evasion": "86 / 86",
+    "Exp / SP": "5 258 / 526",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 53"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20988",
-      "type": "npc",
-      "id": 20988,
-      "name": "Lu4",
-      "url": "/lu4/npc/20988-sairons-puppet"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4040",
@@ -80,67 +77,11 @@
       "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:3015",
+      "key": "item:1865",
       "type": "item",
-      "id": 3015,
-      "name": "Recipe: Drake Leather Gloves NG",
-      "url": "/lu4/item/3015-recipe-drake-leather-gloves"
-    },
-    {
-      "key": "item:3014",
-      "type": "item",
-      "id": 3014,
-      "name": "Recipe: Full Plate Boots NG",
-      "url": "/lu4/item/3014-recipe-full-plate-boots"
-    },
-    {
-      "key": "item:3013",
-      "type": "item",
-      "id": 3013,
-      "name": "Recipe: Drake Leather Boots NG",
-      "url": "/lu4/item/3013-recipe-drake-leather-boots"
-    },
-    {
-      "key": "item:2969",
-      "type": "item",
-      "id": 2969,
-      "name": "Yaksa Mace Head NG",
-      "url": "/lu4/item/2969-yaksa-mace-head"
-    },
-    {
-      "key": "item:2963",
-      "type": "item",
-      "id": 2963,
-      "name": "Full Plate Gauntlets Part NG",
-      "url": "/lu4/item/2963-full-plate-gauntlets-part"
-    },
-    {
-      "key": "item:2917",
-      "type": "item",
-      "id": 2917,
-      "name": "Ring of Seal Gemstone NG",
-      "url": "/lu4/item/2917-ring-of-seal-gemstone"
-    },
-    {
-      "key": "item:2503",
-      "type": "item",
-      "id": 2503,
-      "name": "Yaksa Mace C",
-      "url": "/lu4/item/2503-yaksa-mace"
-    },
-    {
-      "key": "item:2462",
-      "type": "item",
-      "id": 2462,
-      "name": "Full Plate Gauntlets C",
-      "url": "/lu4/item/2462-full-plate-gauntlets"
-    },
-    {
-      "key": "item:1989",
-      "type": "item",
-      "id": 1989,
-      "name": "Divine Stocking Pattern NG",
-      "url": "/lu4/item/1989-divine-stocking-pattern"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:1879",
@@ -164,18 +105,11 @@
       "url": "/lu4/item/1870-coal"
     },
     {
-      "key": "item:1865",
+      "key": "item:49800",
       "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:886",
-      "type": "item",
-      "id": 886,
-      "name": "Ring of Seal C",
-      "url": "/lu4/item/886-ring-of-seal"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:473",
@@ -185,11 +119,74 @@
       "url": "/lu4/item/473-divine-stockings"
     },
     {
-      "key": "item:57",
+      "key": "item:1989",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1989,
+      "name": "Divine Stocking Pattern NG",
+      "url": "/lu4/item/1989-divine-stocking-pattern"
+    },
+    {
+      "key": "item:2462",
+      "type": "item",
+      "id": 2462,
+      "name": "Full Plate Gauntlets C",
+      "url": "/lu4/item/2462-full-plate-gauntlets"
+    },
+    {
+      "key": "item:2963",
+      "type": "item",
+      "id": 2963,
+      "name": "Full Plate Gauntlets Part NG",
+      "url": "/lu4/item/2963-full-plate-gauntlets-part"
+    },
+    {
+      "key": "item:886",
+      "type": "item",
+      "id": 886,
+      "name": "Ring of Seal C",
+      "url": "/lu4/item/886-ring-of-seal"
+    },
+    {
+      "key": "item:2917",
+      "type": "item",
+      "id": 2917,
+      "name": "Ring of Seal Gemstone NG",
+      "url": "/lu4/item/2917-ring-of-seal-gemstone"
+    },
+    {
+      "key": "item:2503",
+      "type": "item",
+      "id": 2503,
+      "name": "Yaksa Mace C",
+      "url": "/lu4/item/2503-yaksa-mace"
+    },
+    {
+      "key": "item:2969",
+      "type": "item",
+      "id": 2969,
+      "name": "Yaksa Mace Head NG",
+      "url": "/lu4/item/2969-yaksa-mace-head"
+    },
+    {
+      "key": "item:3013",
+      "type": "item",
+      "id": 3013,
+      "name": "Recipe: Drake Leather Boots NG",
+      "url": "/lu4/item/3013-recipe-drake-leather-boots"
+    },
+    {
+      "key": "item:3015",
+      "type": "item",
+      "id": 3015,
+      "name": "Recipe: Drake Leather Gloves NG",
+      "url": "/lu4/item/3015-recipe-drake-leather-gloves"
+    },
+    {
+      "key": "item:3014",
+      "type": "item",
+      "id": 3014,
+      "name": "Recipe: Full Plate Boots NG",
+      "url": "/lu4/item/3014-recipe-full-plate-boots"
     },
     {
       "key": "item:5436",
@@ -206,13 +203,6 @@
       "url": "/lu4/item/3012-recipe-full-plate-helmet"
     },
     {
-      "key": "item:2120",
-      "type": "item",
-      "id": 2120,
-      "name": "Great Pata Blade NG",
-      "url": "/lu4/item/2120-great-pata-blade"
-    },
-    {
       "key": "item:2118",
       "type": "item",
       "id": 2118,
@@ -225,6 +215,13 @@
       "id": 2117,
       "name": "Ghoul's Staff Head NG",
       "url": "/lu4/item/2117-ghouls-staff-head"
+    },
+    {
+      "key": "item:2120",
+      "type": "item",
+      "id": 2120,
+      "name": "Great Pata Blade NG",
+      "url": "/lu4/item/2120-great-pata-blade"
     }
   ]
 }

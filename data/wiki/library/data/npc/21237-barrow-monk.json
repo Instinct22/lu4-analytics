@@ -2,75 +2,65 @@
   "key": "npc:21237",
   "type": "npc",
   "id": 21237,
-  "name": "Lu4 Wiki: NPC Barrow Monk",
+  "name": "Barrow Monk",
   "url": "/lu4/npc/21237-barrow-monk",
-  "source_url": "https://masterwork.wiki/lu4/npc/21237-barrow-monk",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21237-barrow-monk",
   "raw_html": "library/raw/lu4/npc/21237-barrow-monk.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "4 222 / 441",
+    "P. Atk. / M. Atk.": "157 / 78",
+    "P. Def. / M. Def.": "117 / 126",
+    "Accuracy / Evasion": "65 / 75",
+    "Exp / SP": "4 440 / 248",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 32"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21237",
-      "type": "npc",
-      "id": 21237,
-      "name": "Lu4",
-      "url": "/lu4/npc/21237-barrow-monk"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:6037",
+      "key": "item:57",
       "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:2265",
-      "type": "item",
-      "id": 2265,
-      "name": "Recipe: Spiked Club NG",
-      "url": "/lu4/item/2265-recipe-spiked-club"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2023",
@@ -85,27 +75,6 @@
       "id": 2022,
       "name": "Mace of Judgment Head NG",
       "url": "/lu4/item/2022-mace-of-judgment-head"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:185",
@@ -150,13 +119,6 @@
       "url": "/lu4/item/180-mace-of-judgment"
     },
     {
-      "key": "item:179",
-      "type": "item",
-      "id": 179,
-      "name": "Mace of Prayer D",
-      "url": "/lu4/item/179-mace-of-prayer"
-    },
-    {
       "key": "item:86",
       "type": "item",
       "id": 86,
@@ -164,18 +126,60 @@
       "url": "/lu4/item/86-tomahawk"
     },
     {
-      "key": "item:57",
+      "key": "item:179",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 179,
+      "name": "Mace of Prayer D",
+      "url": "/lu4/item/179-mace-of-prayer"
     },
     {
-      "key": "item:2183",
+      "key": "item:5549",
       "type": "item",
-      "id": 2183,
-      "name": "Recipe: Mithril Banded Mail NG",
-      "url": "/lu4/item/2183-recipe-mithril-banded-mail"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:2265",
+      "type": "item",
+      "id": 2265,
+      "name": "Recipe: Spiked Club NG",
+      "url": "/lu4/item/2265-recipe-spiked-club"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:6037",
+      "type": "item",
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
+    },
+    {
+      "key": "item:1933",
+      "type": "item",
+      "id": 1933,
+      "name": "Dark Stockings Fabric NG",
+      "url": "/lu4/item/1933-dark-stockings-fabric"
     },
     {
       "key": "item:1935",
@@ -185,11 +189,11 @@
       "url": "/lu4/item/1935-scale-mail-fragment"
     },
     {
-      "key": "item:1933",
+      "key": "item:2183",
       "type": "item",
-      "id": 1933,
-      "name": "Dark Stockings Fabric NG",
-      "url": "/lu4/item/1933-dark-stockings-fabric"
+      "id": 2183,
+      "name": "Recipe: Mithril Banded Mail NG",
+      "url": "/lu4/item/2183-recipe-mithril-banded-mail"
     }
   ]
 }

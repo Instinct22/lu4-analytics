@@ -2,96 +2,100 @@
   "key": "npc:22176",
   "type": "npc",
   "id": 22176,
-  "name": "Lu4 Wiki: NPC Andreas' Royal Guards",
+  "name": "Andreas' Royal Guards",
   "url": "/lu4/npc/22176-andreas-royal-guards",
-  "source_url": "https://masterwork.wiki/lu4/npc/22176-andreas-royal-guards",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22176-andreas-royal-guards",
   "raw_html": "library/raw/lu4/npc/22176-andreas-royal-guards.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 228 / 2 298",
+    "P. Atk. / M. Atk.": "2 095 / 1 388",
+    "P. Def. / M. Def.": "747 / 746",
+    "Accuracy / Evasion": "125 / 125",
+    "Exp / SP": "1 968 / 211",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -10, Unholy 60",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (1/4x) Lv. 8 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. Undead Lv. 35 Undead. High Lv. Lv. 10 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22176",
-      "type": "npc",
-      "id": 22176,
-      "name": "Lu4",
-      "url": "/lu4/npc/22176-andreas-royal-guards"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1/4x) Lv. 8",
-      "url": "/lu4/skill/4408-hp-increase-14x/8"
+      "name": "HP Increase (1/4x)",
+      "url": "/lu4/skill/4408-hp-increase-14x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Undead Lv. 35 Undead.",
-      "url": "/lu4/skill/4417-undead/35"
+      "name": "Undead",
+      "url": "/lu4/skill/4417-undead"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 10 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/10"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:32395",
+      "key": "item:57",
       "type": "item",
-      "id": 32395,
-      "name": "Unidentified Sealed Majestic Leather Armor A",
-      "url": "/lu4/item/32395-unidentified-sealed-majestic-leather-armor"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32394",
@@ -101,13 +105,6 @@
       "url": "/lu4/item/32394-unidentified-sealed-leather-armor-of-nightmare"
     },
     {
-      "key": "item:5481",
-      "type": "item",
-      "id": 5481,
-      "name": "Sealed Majestic Leather Armor Fabric NG",
-      "url": "/lu4/item/5481-sealed-majestic-leather-armor-fabric"
-    },
-    {
       "key": "item:5480",
       "type": "item",
       "id": 5480,
@@ -115,25 +112,18 @@
       "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
     },
     {
-      "key": "item:4041",
+      "key": "item:32395",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 32395,
+      "name": "Unidentified Sealed Majestic Leather Armor A",
+      "url": "/lu4/item/32395-unidentified-sealed-majestic-leather-armor"
     },
     {
-      "key": "item:4040",
+      "key": "item:5481",
       "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
+      "id": 5481,
+      "name": "Sealed Majestic Leather Armor Fabric NG",
+      "url": "/lu4/item/5481-sealed-majestic-leather-armor-fabric"
     },
     {
       "key": "item:1871",
@@ -150,11 +140,25 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:1344",
+      "key": "item:1877",
       "type": "item",
-      "id": 1344,
-      "name": "Mithril Arrow A",
-      "url": "/lu4/item/1344-mithril-arrow"
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
     },
     {
       "key": "item:960",
@@ -164,18 +168,11 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:1344",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:6901",
-      "type": "item",
-      "id": 6901,
-      "name": "Recipe: Shining Arrow (100%) NG",
-      "url": "/lu4/item/6901-recipe-shining-arrow-100"
+      "id": 1344,
+      "name": "Mithril Arrow A",
+      "url": "/lu4/item/1344-mithril-arrow"
     },
     {
       "key": "item:6690",
@@ -183,6 +180,13 @@
       "id": 6690,
       "name": "Imperial Staff Head NG",
       "url": "/lu4/item/6690-imperial-staff-head"
+    },
+    {
+      "key": "item:6901",
+      "type": "item",
+      "id": 6901,
+      "name": "Recipe: Shining Arrow (100%) NG",
+      "url": "/lu4/item/6901-recipe-shining-arrow-100"
     }
   ]
 }

@@ -2,133 +2,67 @@
   "key": "npc:20928",
   "type": "npc",
   "id": 20928,
-  "name": "Lu4 Wiki: NPC Hatu Weird Bee",
+  "name": "Hatu Weird Bee",
   "url": "/lu4/npc/20928-hatu-weird-bee",
-  "source_url": "https://masterwork.wiki/lu4/npc/20928-hatu-weird-bee",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20928-hatu-weird-bee",
   "raw_html": "library/raw/lu4/npc/20928-hatu-weird-bee.html",
   "stats": {
-    "Location": "Пасека"
+    "Respawn Time": "40 seconds",
+    "Location": "Пасека",
+    "HP / MP": "2 248 / 405",
+    "P. Atk. / M. Atk.": "210 / 89",
+    "P. Def. / M. Def.": "157 / 121",
+    "Accuracy / Evasion": "67 / 72",
+    "Exp / SP": "2 205 / 221",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 34"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20928",
-      "type": "npc",
-      "id": 20928,
-      "name": "Lu4",
-      "url": "/lu4/npc/20928-hatu-weird-bee"
-    },
-    {
-      "key": "location:59",
-      "type": "location",
-      "id": 59,
-      "name": "Пасека",
-      "url": "/lu4/location/59-paseka"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:2918",
-      "type": "item",
-      "id": 2918,
-      "name": "Mithril Scale Gaiters Material NG",
-      "url": "/lu4/item/2918-mithril-scale-gaiters-material"
-    },
-    {
-      "key": "item:2377",
-      "type": "item",
-      "id": 2377,
-      "name": "Mithril Scale Gaiters D",
-      "url": "/lu4/item/2377-mithril-scale-gaiters"
-    },
-    {
-      "key": "item:2037",
-      "type": "item",
-      "id": 2037,
-      "name": "Heavy Bone Club Head NG",
-      "url": "/lu4/item/2037-heavy-bone-club-head"
-    },
-    {
-      "key": "item:2034",
-      "type": "item",
-      "id": 2034,
-      "name": "Sword of Revolution Blade NG",
-      "url": "/lu4/item/2034-sword-of-revolution-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1881",
@@ -173,6 +107,13 @@
       "url": "/lu4/item/172-heavy-bone-club"
     },
     {
+      "key": "item:2037",
+      "type": "item",
+      "id": 2037,
+      "name": "Heavy Bone Club Head NG",
+      "url": "/lu4/item/2037-heavy-bone-club-head"
+    },
+    {
       "key": "item:129",
       "type": "item",
       "id": 129,
@@ -180,18 +121,67 @@
       "url": "/lu4/item/129-sword-of-revolution"
     },
     {
-      "key": "item:57",
+      "key": "item:2034",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2034,
+      "name": "Sword of Revolution Blade NG",
+      "url": "/lu4/item/2034-sword-of-revolution-blade"
     },
     {
-      "key": "item:8333",
+      "key": "item:2377",
       "type": "item",
-      "id": 8333,
-      "name": "Sword of Magic Fog Blade NG",
-      "url": "/lu4/item/8333-sword-of-magic-fog-blade"
+      "id": 2377,
+      "name": "Mithril Scale Gaiters D",
+      "url": "/lu4/item/2377-mithril-scale-gaiters"
+    },
+    {
+      "key": "item:2918",
+      "type": "item",
+      "id": 2918,
+      "name": "Mithril Scale Gaiters Material NG",
+      "url": "/lu4/item/2918-mithril-scale-gaiters-material"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:6575",
@@ -206,6 +196,13 @@
       "id": 2192,
       "name": "Recipe: Kite Shield NG",
       "url": "/lu4/item/2192-recipe-kite-shield"
+    },
+    {
+      "key": "item:8333",
+      "type": "item",
+      "id": 8333,
+      "name": "Sword of Magic Fog Blade NG",
+      "url": "/lu4/item/8333-sword-of-magic-fog-blade"
     }
   ]
 }

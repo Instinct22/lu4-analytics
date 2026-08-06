@@ -2,111 +2,24 @@
   "key": "item:2292",
   "type": "item",
   "id": 2292,
-  "name": "Recipe",
+  "name": "Recipe: Light Crossbow",
   "url": "/lu4/item/2292-recipe-light-crossbow",
-  "source_url": "https://masterwork.wiki/lu4/item/2292-recipe-light-crossbow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2292-recipe-light-crossbow",
   "raw_html": "library/raw/lu4/item/2292-recipe-light-crossbow.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Light Crossbow'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "18 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "129",
     "Success Rate": "100%",
-    "Result": "Light Crossbow D"
+    "Result": "Light Crossbow D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2054",
-      "type": "item",
-      "id": 2054,
-      "name": "Light Crossbow Shaft NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "275"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "1375"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "1375"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "55"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "275"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "55"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "55"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "550"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "165"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "550"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "185"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2292",
-      "type": "item",
-      "id": 2292,
-      "name": "Lu4",
-      "url": "/lu4/item/2292-recipe-light-crossbow"
-    },
     {
       "key": "item:2054",
       "type": "item",
@@ -202,28 +115,28 @@
       "key": "npc:21643",
       "type": "npc",
       "id": 21643,
-      "name": "Tasaba Lizardman Sniper Lv. 39",
+      "name": "Tasaba Lizardman Sniper",
       "url": "/lu4/npc/21643-tasaba-lizardman-sniper"
     },
     {
       "key": "npc:20932",
       "type": "npc",
       "id": 20932,
-      "name": "Hatu Crimson Bear Lv. 38",
+      "name": "Hatu Crimson Bear",
       "url": "/lu4/npc/20932-hatu-crimson-bear"
     },
     {
       "key": "npc:20792",
       "type": "npc",
       "id": 20792,
-      "name": "Farhite Lv. 39",
+      "name": "Farhite",
       "url": "/lu4/npc/20792-farhite"
     },
     {
       "key": "npc:20552",
       "type": "npc",
       "id": 20552,
-      "name": "Fettered Soul Lv. 38",
+      "name": "Fettered Soul",
       "url": "/lu4/npc/20552-fettered-soul"
     }
   ]

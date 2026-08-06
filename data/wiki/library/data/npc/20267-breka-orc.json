@@ -2,98 +2,67 @@
   "key": "npc:20267",
   "type": "npc",
   "id": 20267,
-  "name": "Lu4 Wiki: NPC Breka Orc",
+  "name": "Breka Orc",
   "url": "/lu4/npc/20267-breka-orc",
-  "source_url": "https://masterwork.wiki/lu4/npc/20267-breka-orc",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20267-breka-orc",
   "raw_html": "library/raw/lu4/npc/20267-breka-orc.html",
   "stats": {
-    "Location": "Укрепление Бреки (+1) Укрепление Бреки Земли Гирана"
+    "Respawn Time": "23 seconds",
+    "Location": "Укрепление Бреки (+1) Укрепление Бреки Земли Гирана",
+    "HP / MP": "1 011 / 419",
+    "P. Atk. / M. Atk.": "109 / 69",
+    "P. Def. / M. Def.": "166 / 145",
+    "Accuracy / Evasion": "67 / 66",
+    "Exp / SP": "1 083 / 108",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Dagger Lv. 7 Daggers",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 31"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20267",
-      "type": "npc",
-      "id": 20267,
-      "name": "Lu4",
-      "url": "/lu4/npc/20267-breka-orc"
-    },
-    {
-      "key": "location:216",
-      "type": "location",
-      "id": 216,
-      "name": "Укрепление Бреки",
-      "url": "/lu4/location/216-ukreplenie-breki"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Dagger Lv. 7 Daggers",
-      "url": "/lu4/skill/4415-dagger/7"
+      "name": "Dagger",
+      "url": "/lu4/skill/4415-dagger"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:1876",
-      "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "url": "/lu4/item/1876-mithril-ore"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1873",
@@ -110,25 +79,18 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:1876",
+      "type": "item",
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
+    },
+    {
       "key": "item:880",
       "type": "item",
       "id": 880,
       "name": "Black Pearl Ring D",
       "url": "/lu4/item/880-black-pearl-ring"
-    },
-    {
-      "key": "item:628",
-      "type": "item",
-      "id": 628,
-      "name": "Hoplon D",
-      "url": "/lu4/item/628-hoplon"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:47",
@@ -138,11 +100,32 @@
       "url": "/lu4/item/47-mithril-helmet"
     },
     {
-      "key": "item:2153",
+      "key": "item:628",
       "type": "item",
-      "id": 2153,
-      "name": "Recipe: Tiger's Eye Earring NG",
-      "url": "/lu4/item/2153-recipe-tigers-eye-earring"
+      "id": 628,
+      "name": "Hoplon D",
+      "url": "/lu4/item/628-hoplon"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:1882",
@@ -157,6 +140,13 @@
       "id": 1061,
       "name": "Healing Potion NG",
       "url": "/lu4/item/1061-healing-potion"
+    },
+    {
+      "key": "item:2153",
+      "type": "item",
+      "id": 2153,
+      "name": "Recipe: Tiger's Eye Earring NG",
+      "url": "/lu4/item/2153-recipe-tigers-eye-earring"
     }
   ]
 }

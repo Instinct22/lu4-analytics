@@ -2,36 +2,40 @@
   "key": "item:8128",
   "type": "item",
   "id": 8128,
-  "name": "Lu4 Wiki: Item Destroyer Hammer",
+  "name": "Destroyer Hammer",
   "url": "/lu4/item/8128-destroyer-hammer",
-  "source_url": "https://masterwork.wiki/lu4/item/8128-destroyer-hammer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8128-destroyer-hammer",
   "raw_html": "library/raw/lu4/item/8128-destroyer-hammer.html",
   "stats": {
+    "Effect": "<Passive Effect> P. Crit. Rate +120 when HP < 60%, Damage in PvP +5%.",
+    "P. Atk. / M. Atk.": "259 / 107",
+    "Soulshot / Spiritshot Consume": "1 / 1",
+    "Crystal Amount": "1128 Crystallization Failed Enchant +0 1128 - +1 1273 - +2 1418 - +3 1563 - +4 1853 1289 +5 2143 1579 +6 2433 1869 +7 2723 2159 +8 3013 2449 +9 3303 2739 +10 3593 3029 +11 3883 3319 +12 4173 3609",
+    "NPC Sell Price": "7 049 000 Adena",
+    "Weight": "1910",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Item Skills": "Special Ability: PvP Damage Lv. 1 Special Ability: Rsk. Focus Lv. 4",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Destroyer Hammer A",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "A",
+    "Type": "Weapon / Blunt / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8128",
-      "type": "item",
-      "id": 8128,
-      "name": "Lu4",
-      "url": "/lu4/item/8128-destroyer-hammer"
-    },
-    {
       "key": "skill:3552",
       "type": "skill",
       "id": 3552,
-      "name": "Special Ability: PvP Damage Lv. 1",
-      "url": "/lu4/skill/3552-special-ability-pvp-damage/1"
+      "name": "Special Ability: PvP Damage",
+      "url": "/lu4/skill/3552-special-ability-pvp-damage"
     },
     {
       "key": "skill:24294",
       "type": "skill",
       "id": 24294,
-      "name": "Special Ability: Rsk. Focus Lv. 4",
-      "url": "/lu4/skill/24294-special-ability-rsk-focus/4"
+      "name": "Special Ability: Rsk. Focus",
+      "url": "/lu4/skill/24294-special-ability-rsk-focus"
     }
   ]
 }

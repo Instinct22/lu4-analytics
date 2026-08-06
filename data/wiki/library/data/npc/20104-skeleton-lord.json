@@ -2,119 +2,88 @@
   "key": "npc:20104",
   "type": "npc",
   "id": 20104,
-  "name": "Lu4 Wiki: NPC Skeleton Lord",
+  "name": "Skeleton Lord",
   "url": "/lu4/npc/20104-skeleton-lord",
-  "source_url": "https://masterwork.wiki/lu4/npc/20104-skeleton-lord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20104-skeleton-lord",
   "raw_html": "library/raw/lu4/npc/20104-skeleton-lord.html",
   "stats": {
-    "Location": "Эльфийские Руины"
+    "Respawn Time": "35 seconds",
+    "Location": "Эльфийские Руины",
+    "HP / MP": "796 / 183",
+    "P. Atk. / M. Atk.": "37 / 17",
+    "P. Def. / M. Def.": "102 / 72",
+    "Accuracy / Evasion": "48 / 48",
+    "Exp / SP": "763 / 76",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 15"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20104",
-      "type": "npc",
-      "id": 20104,
-      "name": "Lu4",
-      "url": "/lu4/npc/20104-skeleton-lord"
-    },
-    {
-      "key": "location:32",
-      "type": "location",
-      "id": 32,
-      "name": "Эльфийские Руины",
-      "url": "/lu4/location/32-elfijskie-ruiny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:736",
-      "type": "item",
-      "id": 736,
-      "name": "Scroll of Escape NG",
-      "url": "/lu4/item/736-scroll-of-escape"
-    },
-    {
-      "key": "item:271",
-      "type": "item",
-      "id": 271,
-      "name": "Hunting Bow NG",
-      "url": "/lu4/item/271-hunting-bow"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "item:57",
@@ -124,11 +93,39 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:271",
+      "type": "item",
+      "id": 271,
+      "name": "Hunting Bow NG",
+      "url": "/lu4/item/271-hunting-bow"
+    },
+    {
       "key": "item:17",
       "type": "item",
       "id": 17,
       "name": "Wooden Arrow NG",
       "url": "/lu4/item/17-wooden-arrow"
+    },
+    {
+      "key": "item:736",
+      "type": "item",
+      "id": 736,
+      "name": "Scroll of Escape NG",
+      "url": "/lu4/item/736-scroll-of-escape"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:1869",

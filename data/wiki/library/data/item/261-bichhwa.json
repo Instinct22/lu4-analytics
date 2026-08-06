@@ -2,24 +2,27 @@
   "key": "item:261",
   "type": "item",
   "id": 261,
-  "name": "Lu4 Wiki: Item Bich&#039;Hwa",
+  "name": "Bich'Hwa",
   "url": "/lu4/item/261-bichhwa",
-  "source_url": "https://masterwork.wiki/lu4/item/261-bichhwa",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/261-bichhwa",
   "raw_html": "library/raw/lu4/item/261-bichhwa.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Health: Max HP +25%. Haste: Atk. Spd. +7%. Rsk. Haste: Atk. Spd. +12% when HP < 60%.",
+    "P. Atk. / M. Atk.": "96 / 47",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1983 Crystallization Failed Enchant +0 1983 - +1 2073 - +2 2163 - +3 2253 - +4 2433 1441 +5 2613 1621 +6 2793 1801 +7 2973 1981 +8 3153 2161 +9 3333 2341 +10 3513 2521 +11 3693 2701 +12 3873 2881",
+    "NPC Sell Price": "537 000 Adena",
+    "Weight": "1510",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Recipes": "Recipe: Bich'hwa NG",
     "Soul Crystals": "Bich'Hwa Health D Bich'Hwa D Gemstone D NG (120 pcs.) Red Soul Crystal - Stage 3 NG Bich'Hwa Rsk. Haste D Bich'Hwa D Gemstone D NG (120 pcs.) Green Soul Crystal - Stage 3 NG Bich'Hwa Haste D Bich'Hwa D Gemstone D NG (120 pcs.) Blue Soul Crystal - Stage 3 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Fist / Two-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:261",
-      "type": "item",
-      "id": 261,
-      "name": "Lu4",
-      "url": "/lu4/item/261-bichhwa"
-    },
     {
       "key": "item:2277",
       "type": "item",
@@ -77,45 +80,66 @@
       "url": "/lu4/item/4654-blue-soul-crystal-stage-3"
     },
     {
+      "key": "npc:25501",
+      "type": "npc",
+      "id": 25501,
+      "name": "Boss Akata",
+      "url": "/lu4/npc/25501-boss-akata"
+    },
+    {
+      "key": "npc:25401",
+      "type": "npc",
+      "id": 25401,
+      "name": "Skyla",
+      "url": "/lu4/npc/25401-skyla"
+    },
+    {
       "key": "npc:25352",
       "type": "npc",
       "id": 25352,
-      "name": "Giant Wasteland Basilisk Lv. 30",
+      "name": "Giant Wasteland Basilisk",
       "url": "/lu4/npc/25352-giant-wasteland-basilisk"
+    },
+    {
+      "key": "npc:25095",
+      "type": "npc",
+      "id": 25095,
+      "name": "Elf Renoa",
+      "url": "/lu4/npc/25095-elf-renoa"
     },
     {
       "key": "npc:21023",
       "type": "npc",
       "id": 21023,
-      "name": "Sobbing Wind Lv. 36",
+      "name": "Sobbing Wind",
       "url": "/lu4/npc/21023-sobbing-wind"
     },
     {
       "key": "npc:21013",
       "type": "npc",
       "id": 21013,
-      "name": "Ol Mahum Van Archer Lv. 32",
+      "name": "Ol Mahum Van Archer",
       "url": "/lu4/npc/21013-ol-mahum-van-archer"
     },
     {
       "key": "npc:20612",
       "type": "npc",
       "id": 20612,
-      "name": "Salamander Rowin Lv. 33",
+      "name": "Salamander Rowin",
       "url": "/lu4/npc/20612-salamander-rowin"
     },
     {
       "key": "npc:20144",
       "type": "npc",
       "id": 20144,
-      "name": "Hangman Tree Lv. 35",
+      "name": "Hangman Tree",
       "url": "/lu4/npc/20144-hangman-tree"
     },
     {
       "key": "npc:20081",
       "type": "npc",
       "id": 20081,
-      "name": "Ant Overseer Lv. 32",
+      "name": "Ant Overseer",
       "url": "/lu4/npc/20081-ant-overseer"
     }
   ]

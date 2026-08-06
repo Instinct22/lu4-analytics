@@ -2,24 +2,27 @@
   "key": "item:159",
   "type": "item",
   "id": 159,
-  "name": "Lu4 Wiki: Item Bonebreaker",
+  "name": "Bonebreaker",
   "url": "/lu4/item/159-bonebreaker",
-  "source_url": "https://masterwork.wiki/lu4/item/159-bonebreaker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/159-bonebreaker",
   "raw_html": "library/raw/lu4/item/159-bonebreaker.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Health: Max HP +25%. Haste: Atk. Spd. +7%. Focus: P. Crit. Rate +50.",
+    "P. Atk. / M. Atk.": "92 / 54",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "2561 Crystallization Failed Enchant +0 2561 - +1 2651 - +2 2741 - +3 2831 - +4 3011 1730 +5 3191 1910 +6 3371 2090 +7 3551 2270 +8 3731 2450 +9 3911 2630 +10 4091 2810 +11 4271 2990 +12 4451 3170",
+    "NPC Sell Price": "693 500 Adena",
+    "Weight": "1720",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Recipes": "Recipe: Bonebreaker NG",
     "Soul Crystals": "Bonebreaker Health D Bonebreaker D Gemstone D NG (150 pcs.) Red Soul Crystal - Stage 4 NG Bonebreaker Focus D Bonebreaker D Gemstone D NG (150 pcs.) Green Soul Crystal - Stage 4 NG Bonebreaker Haste D Bonebreaker D Gemstone D NG (150 pcs.) Blue Soul Crystal - Stage 4 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Blunt / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:159",
-      "type": "item",
-      "id": 159,
-      "name": "Lu4",
-      "url": "/lu4/item/159-bonebreaker"
-    },
     {
       "key": "item:2286",
       "type": "item",
@@ -80,63 +83,91 @@
       "key": "npc:25415",
       "type": "npc",
       "id": 25415,
-      "name": "Nakondas Lv. 38",
+      "name": "Nakondas",
       "url": "/lu4/npc/25415-nakondas"
+    },
+    {
+      "key": "npc:25391",
+      "type": "npc",
+      "id": 25391,
+      "name": "Nurka's Messenger",
+      "url": "/lu4/npc/25391-nurkas-messenger"
+    },
+    {
+      "key": "npc:25354",
+      "type": "npc",
+      "id": 25354,
+      "name": "Gargoyle Lord Sirocco",
+      "url": "/lu4/npc/25354-gargoyle-lord-sirocco"
+    },
+    {
+      "key": "npc:25223",
+      "type": "npc",
+      "id": 25223,
+      "name": "Soul Collector Acheron",
+      "url": "/lu4/npc/25223-soul-collector-acheron"
     },
     {
       "key": "npc:25118",
       "type": "npc",
       "id": 25118,
-      "name": "Guilotine, Warden of the Execution Grounds Lv. 35",
+      "name": "Guilotine, Warden of the Execution Grounds",
       "url": "/lu4/npc/25118-guilotine-warden-of-the-execution-grounds"
+    },
+    {
+      "key": "npc:25041",
+      "type": "npc",
+      "id": 25041,
+      "name": "Remmel",
+      "url": "/lu4/npc/25041-remmel"
     },
     {
       "key": "npc:25020",
       "type": "npc",
       "id": 25020,
-      "name": "Breka Warlock Pastu Lv. 34",
+      "name": "Breka Warlock Pastu",
       "url": "/lu4/npc/25020-breka-warlock-pastu"
     },
     {
       "key": "npc:21692",
       "type": "npc",
       "id": 21692,
-      "name": "Dimension Invader Discipline Lv. 43",
+      "name": "Dimension Invader Discipline",
       "url": "/lu4/npc/21692-dimension-invader-discipline"
     },
     {
       "key": "npc:20989",
       "type": "npc",
       "id": 20989,
-      "name": "Lageos Lv. 38",
+      "name": "Lageos",
       "url": "/lu4/npc/20989-lageos"
     },
     {
       "key": "npc:20935",
       "type": "npc",
       "id": 20935,
-      "name": "Wasp Leader Lv. 37",
+      "name": "Wasp Leader",
       "url": "/lu4/npc/20935-wasp-leader"
     },
     {
       "key": "npc:20931",
       "type": "npc",
       "id": 20931,
-      "name": "Hatu Onyx Beast Lv. 36",
+      "name": "Hatu Onyx Beast",
       "url": "/lu4/npc/20931-hatu-onyx-beast"
     },
     {
       "key": "npc:20784",
       "type": "npc",
       "id": 20784,
-      "name": "Tasaba Lizardman Lv. 36",
+      "name": "Tasaba Lizardman",
       "url": "/lu4/npc/20784-tasaba-lizardman"
     },
     {
       "key": "npc:20578",
       "type": "npc",
       "id": 20578,
-      "name": "Leto Lizardman Archer Lv. 36",
+      "name": "Leto Lizardman Archer",
       "url": "/lu4/npc/20578-leto-lizardman-archer"
     }
   ]

@@ -2,140 +2,81 @@
   "key": "npc:20808",
   "type": "npc",
   "id": 20808,
-  "name": "Lu4 Wiki: NPC Nos Lad",
+  "name": "Nos Lad",
   "url": "/lu4/npc/20808-nos-lad",
-  "source_url": "https://masterwork.wiki/lu4/npc/20808-nos-lad",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20808-nos-lad",
   "raw_html": "library/raw/lu4/npc/20808-nos-lad.html",
   "stats": {
-    "Location": "Остров Аллигаторов"
+    "Respawn Time": "45 seconds",
+    "Location": "Остров Аллигаторов",
+    "HP / MP": "5 660 / 751",
+    "P. Atk. / M. Atk.": "349 / 175",
+    "P. Def. / M. Def.": "267 / 214",
+    "Accuracy / Evasion": "78 / 78",
+    "Exp / SP": "5 972 / 597",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20808",
-      "type": "npc",
-      "id": 20808,
-      "name": "Lu4",
-      "url": "/lu4/npc/20808-nos-lad"
-    },
-    {
-      "key": "location:120",
-      "type": "location",
-      "id": 120,
-      "name": "Остров Аллигаторов",
-      "url": "/lu4/location/120-ostrov-alligatorov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
-    },
-    {
-      "key": "item:4044",
-      "type": "item",
-      "id": 4044,
-      "name": "Thons NG",
-      "url": "/lu4/item/4044-thons"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:4039",
-      "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
-    },
-    {
-      "key": "item:1974",
-      "type": "item",
-      "id": 1974,
-      "name": "Crimson Boot Fabric NG",
-      "url": "/lu4/item/1974-crimson-boot-fabric"
-    },
-    {
-      "key": "item:1913",
-      "type": "item",
-      "id": 1913,
-      "name": "Necklace of Protection Gemstone NG",
-      "url": "/lu4/item/1913-necklace-of-protection-gemstone"
-    },
-    {
-      "key": "item:1894",
-      "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "url": "/lu4/item/1894-crafted-leather"
-    },
-    {
-      "key": "item:1126",
-      "type": "item",
-      "id": 1126,
-      "name": "Crimson Boots C",
-      "url": "/lu4/item/1126-crimson-boots"
-    },
-    {
-      "key": "item:916",
-      "type": "item",
-      "id": 916,
-      "name": "Necklace of Protection C",
-      "url": "/lu4/item/916-necklace-of-protection"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "item:57",
@@ -145,11 +86,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2950",
+      "key": "item:1894",
       "type": "item",
-      "id": 2950,
-      "name": "Gloves of Seal Pattern NG",
-      "url": "/lu4/item/2950-gloves-of-seal-pattern"
+      "id": 1894,
+      "name": "Crafted Leather NG",
+      "url": "/lu4/item/1894-crafted-leather"
+    },
+    {
+      "key": "item:4039",
+      "type": "item",
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:4044",
+      "type": "item",
+      "id": 4044,
+      "name": "Thons NG",
+      "url": "/lu4/item/4044-thons"
+    },
+    {
+      "key": "item:1126",
+      "type": "item",
+      "id": 1126,
+      "name": "Crimson Boots C",
+      "url": "/lu4/item/1126-crimson-boots"
+    },
+    {
+      "key": "item:1974",
+      "type": "item",
+      "id": 1974,
+      "name": "Crimson Boot Fabric NG",
+      "url": "/lu4/item/1974-crimson-boot-fabric"
+    },
+    {
+      "key": "item:916",
+      "type": "item",
+      "id": 916,
+      "name": "Necklace of Protection C",
+      "url": "/lu4/item/916-necklace-of-protection"
+    },
+    {
+      "key": "item:1913",
+      "type": "item",
+      "id": 1913,
+      "name": "Necklace of Protection Gemstone NG",
+      "url": "/lu4/item/1913-necklace-of-protection-gemstone"
     },
     {
       "key": "item:2084",
@@ -157,6 +147,13 @@
       "id": 2084,
       "name": "Soulfire Dirk Blade NG",
       "url": "/lu4/item/2084-soulfire-dirk-blade"
+    },
+    {
+      "key": "item:2950",
+      "type": "item",
+      "id": 2950,
+      "name": "Gloves of Seal Pattern NG",
+      "url": "/lu4/item/2950-gloves-of-seal-pattern"
     }
   ]
 }

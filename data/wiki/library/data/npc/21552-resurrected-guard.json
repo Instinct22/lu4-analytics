@@ -2,96 +2,114 @@
   "key": "npc:21552",
   "type": "npc",
   "id": 21552,
-  "name": "Lu4 Wiki: NPC Resurrected Guard",
+  "name": "Resurrected Guard",
   "url": "/lu4/npc/21552-resurrected-guard",
-  "source_url": "https://masterwork.wiki/lu4/npc/21552-resurrected-guard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21552-resurrected-guard",
   "raw_html": "library/raw/lu4/npc/21552-resurrected-guard.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 546 / 1 502",
+    "P. Atk. / M. Atk.": "1 770 / 1 113",
+    "P. Def. / M. Def.": "409 / 292",
+    "Accuracy / Evasion": "99 / 99",
+    "Exp / SP": "9 085 / 855",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Slightly Strong P. Def. Lv. 13 Weak M. Def. Lv. 8 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 66"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21552",
-      "type": "npc",
-      "id": 21552,
-      "name": "Lu4",
-      "url": "/lu4/npc/21552-resurrected-guard"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:32405",
+      "key": "item:57",
       "type": "item",
-      "id": 32405,
-      "name": "Unidentified Sealed Doom Boots B",
-      "url": "/lu4/item/32405-unidentified-sealed-doom-boots"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:32404",
+      "key": "item:4099",
       "type": "item",
-      "id": 32404,
-      "name": "Unidentified Sealed Blue Wolf Boots B",
-      "url": "/lu4/item/32404-unidentified-sealed-blue-wolf-boots"
+      "id": 4099,
+      "name": "Sealed Doom Boots Part NG",
+      "url": "/lu4/item/4099-sealed-doom-boots-part"
     },
     {
-      "key": "item:32401",
+      "key": "item:4096",
       "type": "item",
-      "id": 32401,
-      "name": "Unidentified Sealed Doom Gloves B",
-      "url": "/lu4/item/32401-unidentified-sealed-doom-gloves"
+      "id": 4096,
+      "name": "Sealed Blue Wolf Gloves Fabric NG",
+      "url": "/lu4/item/4096-sealed-blue-wolf-gloves-fabric"
+    },
+    {
+      "key": "item:4091",
+      "type": "item",
+      "id": 4091,
+      "name": "Sealed Doom Gloves Part NG",
+      "url": "/lu4/item/4091-sealed-doom-gloves-part"
+    },
+    {
+      "key": "item:4090",
+      "type": "item",
+      "id": 4090,
+      "name": "Sealed Blue Wolf Boots Design NG",
+      "url": "/lu4/item/4090-sealed-blue-wolf-boots-design"
     },
     {
       "key": "item:32400",
@@ -101,109 +119,67 @@
       "url": "/lu4/item/32400-unidentified-sealed-blue-wolf-gloves"
     },
     {
-      "key": "item:8614",
+      "key": "item:32401",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
+      "id": 32401,
+      "name": "Unidentified Sealed Doom Gloves B",
+      "url": "/lu4/item/32401-unidentified-sealed-doom-gloves"
     },
     {
-      "key": "item:8613",
+      "key": "item:32404",
       "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
+      "id": 32404,
+      "name": "Unidentified Sealed Blue Wolf Boots B",
+      "url": "/lu4/item/32404-unidentified-sealed-blue-wolf-boots"
     },
     {
-      "key": "item:8612",
+      "key": "item:32405",
       "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
+      "id": 32405,
+      "name": "Unidentified Sealed Doom Boots B",
+      "url": "/lu4/item/32405-unidentified-sealed-doom-boots"
     },
     {
-      "key": "item:8611",
+      "key": "item:1889",
       "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
     },
     {
-      "key": "item:8610",
+      "key": "item:1884",
       "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
     },
     {
-      "key": "item:8609",
+      "key": "item:1878",
       "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
     },
     {
-      "key": "item:8608",
+      "key": "item:1874",
       "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
-      "key": "item:8607",
+      "key": "item:1343",
       "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
+      "id": 1343,
+      "name": "Silver Arrow B",
+      "url": "/lu4/item/1343-silver-arrow"
     },
     {
-      "key": "item:8606",
+      "key": "item:730",
       "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
-    },
-    {
-      "key": "item:8600",
-      "type": "item",
-      "id": 8600,
-      "name": "Herb of Life NG",
-      "url": "/lu4/item/8600-herb-of-life"
+      "id": 730,
+      "name": "Scroll: Enchant Armor (A-Grade) NG",
+      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     },
     {
       "key": "item:5220",
@@ -213,11 +189,32 @@
       "url": "/lu4/item/5220-metal-hardener"
     },
     {
-      "key": "item:5460",
+      "key": "item:8600",
       "type": "item",
-      "id": 5460,
-      "name": "Recipe: Dasparion's Staff(60%) NG",
-      "url": "/lu4/item/5460-recipe-dasparions-staff60"
+      "id": 8600,
+      "name": "Herb of Life NG",
+      "url": "/lu4/item/8600-herb-of-life"
+    },
+    {
+      "key": "item:8601",
+      "type": "item",
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
+    },
+    {
+      "key": "item:8602",
+      "type": "item",
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
+    },
+    {
+      "key": "item:8607",
+      "type": "item",
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
     },
     {
       "key": "item:4080",
@@ -227,11 +224,11 @@
       "url": "/lu4/item/4080-blue-wolf-gaiters-material"
     },
     {
-      "key": "item:1884",
+      "key": "item:5460",
       "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
+      "id": 5460,
+      "name": "Recipe: Dasparion's Staff(60%) NG",
+      "url": "/lu4/item/5460-recipe-dasparions-staff60"
     }
   ]
 }

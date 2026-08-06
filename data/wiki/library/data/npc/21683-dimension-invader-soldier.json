@@ -2,138 +2,86 @@
   "key": "npc:21683",
   "type": "npc",
   "id": 21683,
-  "name": "Lu4 Wiki: NPC Dimension Invader Soldier",
+  "name": "Dimension Invader Soldier",
   "url": "/lu4/npc/21683-dimension-invader-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21683-dimension-invader-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21683-dimension-invader-soldier",
   "raw_html": "library/raw/lu4/npc/21683-dimension-invader-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "5 612 / 751",
+    "P. Atk. / M. Atk.": "207 / 144",
+    "P. Def. / M. Def.": "536 / 261",
+    "Accuracy / Evasion": "78 / 88",
+    "Exp / SP": "10 281 / 714",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Weak P. Atk. Lv. 8 Weak M. Atk. Lv. 8 Extremely Strong P. Def. Lv. 20 Strong M. Def. Lv. 14 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 45"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21683",
-      "type": "npc",
-      "id": 21683,
-      "name": "Lu4",
-      "url": "/lu4/npc/21683-dimension-invader-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Weak P. Atk. Lv. 8",
-      "url": "/lu4/skill/4410-weak-p-atk/8"
+      "name": "Weak P. Atk.",
+      "url": "/lu4/skill/4410-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Weak M. Atk. Lv. 8",
-      "url": "/lu4/skill/4411-weak-m-atk/8"
+      "name": "Weak M. Atk.",
+      "url": "/lu4/skill/4411-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Extremely Strong P. Def. Lv. 20",
-      "url": "/lu4/skill/4412-extremely-strong-p-def/20"
+      "name": "Extremely Strong P. Def.",
+      "url": "/lu4/skill/4412-extremely-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
-    },
-    {
-      "key": "item:2165",
-      "type": "item",
-      "id": 2165,
-      "name": "Recipe: Necklace of Protection NG",
-      "url": "/lu4/item/2165-recipe-necklace-of-protection"
-    },
-    {
-      "key": "item:2073",
-      "type": "item",
-      "id": 2073,
-      "name": "Chakram Edge NG",
-      "url": "/lu4/item/2073-chakram-edge"
-    },
-    {
-      "key": "item:1895",
-      "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
-    },
-    {
-      "key": "item:1876",
-      "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "url": "/lu4/item/1876-mithril-ore"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:263",
-      "type": "item",
-      "id": 263,
-      "name": "Chakram C",
-      "url": "/lu4/item/263-chakram"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "item:57",
@@ -143,11 +91,67 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2164",
+      "key": "item:263",
       "type": "item",
-      "id": 2164,
-      "name": "Recipe: Ring of Protection NG",
-      "url": "/lu4/item/2164-recipe-ring-of-protection"
+      "id": 263,
+      "name": "Chakram C",
+      "url": "/lu4/item/263-chakram"
+    },
+    {
+      "key": "item:2073",
+      "type": "item",
+      "id": 2073,
+      "name": "Chakram Edge NG",
+      "url": "/lu4/item/2073-chakram-edge"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1876",
+      "type": "item",
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
+    },
+    {
+      "key": "item:1895",
+      "type": "item",
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
+    },
+    {
+      "key": "item:2165",
+      "type": "item",
+      "id": 2165,
+      "name": "Recipe: Necklace of Protection NG",
+      "url": "/lu4/item/2165-recipe-necklace-of-protection"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:1910",
+      "type": "item",
+      "id": 1910,
+      "name": "Aquastone Necklace Chain NG",
+      "url": "/lu4/item/1910-aquastone-necklace-chain"
     },
     {
       "key": "item:1954",
@@ -157,11 +161,11 @@
       "url": "/lu4/item/1954-karmian-stocking-design"
     },
     {
-      "key": "item:1910",
+      "key": "item:2164",
       "type": "item",
-      "id": 1910,
-      "name": "Aquastone Necklace Chain NG",
-      "url": "/lu4/item/1910-aquastone-necklace-chain"
+      "id": 2164,
+      "name": "Recipe: Ring of Protection NG",
+      "url": "/lu4/item/2164-recipe-ring-of-protection"
     }
   ]
 }

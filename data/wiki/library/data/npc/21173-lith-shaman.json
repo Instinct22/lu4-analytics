@@ -2,82 +2,86 @@
   "key": "npc:21173",
   "type": "npc",
   "id": 21173,
-  "name": "Lu4 Wiki: NPC Lith Shaman",
+  "name": "Lith Shaman",
   "url": "/lu4/npc/21173-lith-shaman",
-  "source_url": "https://masterwork.wiki/lu4/npc/21173-lith-shaman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21173-lith-shaman",
   "raw_html": "library/raw/lu4/npc/21173-lith-shaman.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "6 642 / 654",
+    "P. Atk. / M. Atk.": "462 / 237",
+    "P. Def. / M. Def.": "151 / 178",
+    "Accuracy / Evasion": "75 / 75",
+    "Exp / SP": "8 472 / 564",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Sleep Resistance Lv. 5 Resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 42"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21173",
-      "type": "npc",
-      "id": 21173,
-      "name": "Lu4",
-      "url": "/lu4/npc/21173-lith-shaman"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
-      "key": "item:6362",
+      "key": "item:6360",
       "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
+      "id": 6360,
+      "name": "Blue Seal Stone NG",
+      "url": "/lu4/item/6360-blue-seal-stone"
     },
     {
       "key": "item:6361",
@@ -87,11 +91,39 @@
       "url": "/lu4/item/6361-green-seal-stone"
     },
     {
-      "key": "item:6360",
+      "key": "item:6362",
       "type": "item",
-      "id": 6360,
-      "name": "Blue Seal Stone NG",
-      "url": "/lu4/item/6360-blue-seal-stone"
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
+    },
+    {
+      "key": "item:262",
+      "type": "item",
+      "id": 262,
+      "name": "Scallop Jamadhr D",
+      "url": "/lu4/item/262-scallop-jamadhr"
+    },
+    {
+      "key": "item:2053",
+      "type": "item",
+      "id": 2053,
+      "name": "Scallop Jamadhr Edge NG",
+      "url": "/lu4/item/2053-scallop-jamadhr-edge"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1805",
+      "type": "item",
+      "id": 1805,
+      "name": "Recipe: Soulshot (C-Grade) NG",
+      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
     },
     {
       "key": "item:6036",
@@ -115,11 +147,11 @@
       "url": "/lu4/item/2990-recipe-chain-boots"
     },
     {
-      "key": "item:2053",
+      "key": "item:1867",
       "type": "item",
-      "id": 2053,
-      "name": "Scallop Jamadhr Edge NG",
-      "url": "/lu4/item/2053-scallop-jamadhr-edge"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:1881",
@@ -134,34 +166,6 @@
       "id": 1875,
       "name": "Stone of Purity NG",
       "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1805",
-      "type": "item",
-      "id": 1805,
-      "name": "Recipe: Soulshot (C-Grade) NG",
-      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
-    },
-    {
-      "key": "item:262",
-      "type": "item",
-      "id": 262,
-      "name": "Scallop Jamadhr D",
-      "url": "/lu4/item/262-scallop-jamadhr"
     },
     {
       "key": "item:1905",

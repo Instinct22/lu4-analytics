@@ -2,84 +2,39 @@
   "key": "npc:34649",
   "type": "npc",
   "id": 34649,
-  "name": "Lu4 Wiki: NPC Wasp Worker",
+  "name": "Wasp Worker",
   "url": "/lu4/npc/34649-wasp-worker",
-  "source_url": "https://masterwork.wiki/lu4/npc/34649-wasp-worker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/34649-wasp-worker",
   "raw_html": "library/raw/lu4/npc/34649-wasp-worker.html",
   "stats": {
-    "Location": "Земли Глудио"
+    "Respawn Time": "15 seconds",
+    "Location": "Земли Глудио",
+    "HP / MP": "353 / 495",
+    "P. Atk. / M. Atk.": "37 / 17",
+    "P. Def. / M. Def.": "68 / 62",
+    "Accuracy / Evasion": "47 / 62",
+    "Exp / SP": "370 / 37",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 14"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:34649",
-      "type": "npc",
-      "id": 34649,
-      "name": "Lu4",
-      "url": "/lu4/npc/34649-wasp-worker"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
-    },
-    {
-      "key": "item:6037",
-      "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
-    },
-    {
-      "key": "item:2009",
-      "type": "item",
-      "id": 2009,
-      "name": "Dirk Blade NG",
-      "url": "/lu4/item/2009-dirk-blade"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1792",
-      "type": "item",
-      "id": 1792,
-      "name": "Recipe: Short Spear NG",
-      "url": "/lu4/item/1792-recipe-short-spear"
-    },
-    {
-      "key": "item:216",
-      "type": "item",
-      "id": 216,
-      "name": "Dirk NG",
-      "url": "/lu4/item/216-dirk"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "item:57",
@@ -89,11 +44,53 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2008",
+      "key": "item:216",
       "type": "item",
-      "id": 2008,
-      "name": "Cedar Staff Head NG",
-      "url": "/lu4/item/2008-cedar-staff-head"
+      "id": 216,
+      "name": "Dirk NG",
+      "url": "/lu4/item/216-dirk"
+    },
+    {
+      "key": "item:2009",
+      "type": "item",
+      "id": 2009,
+      "name": "Dirk Blade NG",
+      "url": "/lu4/item/2009-dirk-blade"
+    },
+    {
+      "key": "item:1792",
+      "type": "item",
+      "id": 1792,
+      "name": "Recipe: Short Spear NG",
+      "url": "/lu4/item/1792-recipe-short-spear"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:6037",
+      "type": "item",
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:1896",
@@ -103,11 +100,11 @@
       "url": "/lu4/item/1896-necklace-of-anguish-chain"
     },
     {
-      "key": "item:1867",
+      "key": "item:2008",
       "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 2008,
+      "name": "Cedar Staff Head NG",
+      "url": "/lu4/item/2008-cedar-staff-head"
     }
   ]
 }

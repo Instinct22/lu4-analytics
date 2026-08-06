@@ -2,56 +2,39 @@
   "key": "npc:20601",
   "type": "npc",
   "id": 20601,
-  "name": "Lu4 Wiki: NPC Tamlin Orc",
+  "name": "Tamlin Orc",
   "url": "/lu4/npc/20601-tamlin-orc",
-  "source_url": "https://masterwork.wiki/lu4/npc/20601-tamlin-orc",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20601-tamlin-orc",
   "raw_html": "library/raw/lu4/npc/20601-tamlin-orc.html",
   "stats": {
-    "Location": "Долина Охотников (+1) Долина Охотников Земли Адена"
+    "Respawn Time": "15 seconds",
+    "Location": "Долина Охотников (+1) Долина Охотников Земли Адена",
+    "HP / MP": "1 599 / 622",
+    "P. Atk. / M. Atk.": "296 / 145",
+    "P. Def. / M. Def.": "204 / 171",
+    "Accuracy / Evasion": "77 / 76",
+    "Exp / SP": "1 695 / 169",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 41"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20601",
-      "type": "npc",
-      "id": 20601,
-      "name": "Lu4",
-      "url": "/lu4/npc/20601-tamlin-orc"
-    },
-    {
-      "key": "location:237",
-      "type": "location",
-      "id": 237,
-      "name": "Долина Охотников",
-      "url": "/lu4/location/237-dolina-ohotnikov"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
-      "key": "item:39403",
+      "key": "item:57",
       "type": "item",
-      "id": 39403,
-      "name": "Spellbook: Time Lapse NG",
-      "url": "/lu4/item/39403-spellbook-time-lapse"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5269",
@@ -59,48 +42,6 @@
       "id": 5269,
       "name": "Recipe: Greater Soulshot (C) Compressed Package(100%) NG",
       "url": "/lu4/item/5269-recipe-greater-soulshot-c-compressed-package100"
-    },
-    {
-      "key": "item:4206",
-      "type": "item",
-      "id": 4206,
-      "name": "Spellbook: Transfer Pain NG",
-      "url": "/lu4/item/4206-spellbook-transfer-pain"
-    },
-    {
-      "key": "item:3067",
-      "type": "item",
-      "id": 3067,
-      "name": "Spellbook: Vampiric Claw NG",
-      "url": "/lu4/item/3067-spellbook-vampiric-claw"
-    },
-    {
-      "key": "item:2946",
-      "type": "item",
-      "id": 2946,
-      "name": "Plate Leather Gloves Design NG",
-      "url": "/lu4/item/2946-plate-leather-gloves-design"
-    },
-    {
-      "key": "item:2455",
-      "type": "item",
-      "id": 2455,
-      "name": "Plated Leather Gloves C",
-      "url": "/lu4/item/2455-plated-leather-gloves"
-    },
-    {
-      "key": "item:2074",
-      "type": "item",
-      "id": 2074,
-      "name": "Crystallized Ice Bow Shaft NG",
-      "url": "/lu4/item/2074-crystallized-ice-bow-shaft"
-    },
-    {
-      "key": "item:1962",
-      "type": "item",
-      "id": 1962,
-      "name": "Karmian Tunic Pattern NG",
-      "url": "/lu4/item/1962-karmian-tunic-pattern"
     },
     {
       "key": "item:1880",
@@ -124,18 +65,11 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:1413",
+      "key": "item:5550",
       "type": "item",
-      "id": 1413,
-      "name": "Spellbook: Resist Wind NG",
-      "url": "/lu4/item/1413-spellbook-resist-wind"
-    },
-    {
-      "key": "item:439",
-      "type": "item",
-      "id": 439,
-      "name": "Karmian Tunic C",
-      "url": "/lu4/item/439-karmian-tunic"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:281",
@@ -145,11 +79,67 @@
       "url": "/lu4/item/281-crystallized-ice-bow"
     },
     {
-      "key": "item:57",
+      "key": "item:2074",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2074,
+      "name": "Crystallized Ice Bow Shaft NG",
+      "url": "/lu4/item/2074-crystallized-ice-bow-shaft"
+    },
+    {
+      "key": "item:439",
+      "type": "item",
+      "id": 439,
+      "name": "Karmian Tunic C",
+      "url": "/lu4/item/439-karmian-tunic"
+    },
+    {
+      "key": "item:1962",
+      "type": "item",
+      "id": 1962,
+      "name": "Karmian Tunic Pattern NG",
+      "url": "/lu4/item/1962-karmian-tunic-pattern"
+    },
+    {
+      "key": "item:2455",
+      "type": "item",
+      "id": 2455,
+      "name": "Plated Leather Gloves C",
+      "url": "/lu4/item/2455-plated-leather-gloves"
+    },
+    {
+      "key": "item:2946",
+      "type": "item",
+      "id": 2946,
+      "name": "Plate Leather Gloves Design NG",
+      "url": "/lu4/item/2946-plate-leather-gloves-design"
+    },
+    {
+      "key": "item:39403",
+      "type": "item",
+      "id": 39403,
+      "name": "Spellbook: Time Lapse NG",
+      "url": "/lu4/item/39403-spellbook-time-lapse"
+    },
+    {
+      "key": "item:4206",
+      "type": "item",
+      "id": 4206,
+      "name": "Spellbook: Transfer Pain NG",
+      "url": "/lu4/item/4206-spellbook-transfer-pain"
+    },
+    {
+      "key": "item:3067",
+      "type": "item",
+      "id": 3067,
+      "name": "Spellbook: Vampiric Claw NG",
+      "url": "/lu4/item/3067-spellbook-vampiric-claw"
+    },
+    {
+      "key": "item:1413",
+      "type": "item",
+      "id": 1413,
+      "name": "Spellbook: Resist Wind NG",
+      "url": "/lu4/item/1413-spellbook-resist-wind"
     },
     {
       "key": "item:2300",

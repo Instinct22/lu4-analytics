@@ -2,40 +2,45 @@
   "key": "npc:24801",
   "type": "npc",
   "id": 24801,
-  "name": "Lu4 Wiki: NPC",
+  "name": "Demonic, Lv. 55",
   "url": "/lu4/npc/24801",
-  "source_url": "https://masterwork.wiki/lu4/npc/24801",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/24801",
   "raw_html": "library/raw/lu4/npc/24801.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 087 590 / 4 880",
+    "P. Atk. / M. Atk.": "968 / 715",
+    "P. Def. / M. Def.": "457 / 369",
+    "Max Acquired Damage": "20000",
+    "Accuracy / Evasion": "91 / 91",
+    "Exp / SP": "1 255 380 / 164 970",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 40, Water 40, Wind 40, Earth 40, Holy 40, Unholy 40",
+    "Skills": "Mana Burn Resistance Lv. 6 Immune against Vampiric Rage. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Standard Type Lv. 2 Normal P. Def. and Evasion.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 55"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:24801",
-      "type": "npc",
-      "id": 24801,
-      "name": "Lu4",
-      "url": "/lu4/npc/24801"
-    },
     {
       "key": "skill:32433",
       "type": "skill",
       "id": 32433,
-      "name": "Mana Burn Resistance Lv. 6 Immune against Vampiric Rage.",
-      "url": "/lu4/skill/32433-mana-burn-resistance/6"
+      "name": "Mana Burn Resistance",
+      "url": "/lu4/skill/32433-mana-burn-resistance"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "item:49800",
@@ -45,13 +50,6 @@
       "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:14679",
-      "type": "item",
-      "id": 14679,
-      "name": "MasterWork Crystal: A-grade A",
-      "url": "/lu4/item/14679-masterwork-crystal-a-grade"
-    },
-    {
       "key": "item:14678",
       "type": "item",
       "id": 14678,
@@ -59,11 +57,11 @@
       "url": "/lu4/item/14678-masterwork-crystal-b-grade"
     },
     {
-      "key": "item:8620",
+      "key": "item:14679",
       "type": "item",
-      "id": 8620,
-      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
-      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
+      "id": 14679,
+      "name": "MasterWork Crystal: A-grade A",
+      "url": "/lu4/item/14679-masterwork-crystal-a-grade"
     },
     {
       "key": "item:8619",
@@ -71,6 +69,13 @@
       "id": 8619,
       "name": "Ancient Book: Divine Inspiration (Original Language Version) 22th buff slot NG",
       "url": "/lu4/item/8619-ancient-book-divine-inspiration-original-language-version"
+    },
+    {
+      "key": "item:8620",
+      "type": "item",
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
     }
   ]
 }

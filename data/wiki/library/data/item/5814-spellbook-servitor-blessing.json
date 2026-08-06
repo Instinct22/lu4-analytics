@@ -2,34 +2,32 @@
   "key": "item:5814",
   "type": "item",
   "id": 5814,
-  "name": "Lu4 Wiki: Item Spellbook: Servitor Blessing",
+  "name": "Spellbook: Servitor Blessing",
   "url": "/lu4/item/5814-spellbook-servitor-blessing",
-  "source_url": "https://masterwork.wiki/lu4/item/5814-spellbook-servitor-blessing",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5814-spellbook-servitor-blessing",
   "raw_html": "library/raw/lu4/item/5814-spellbook-servitor-blessing.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Servitor Blessing'. Required: Warlock - Lv. 60 Elemental Summoner - Lv. 60 Phantom Summoner - Lv. 60 To obtain this item, hunt the Pallid Devourer found in The Cemetery.",
+    "NPC Sell Price": "3 850 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:5814",
-      "type": "item",
-      "id": 5814,
-      "name": "Lu4",
-      "url": "/lu4/item/5814-spellbook-servitor-blessing"
-    },
-    {
       "key": "npc:21249",
       "type": "npc",
       "id": 21249,
-      "name": "Crypt Sage Lv. 62",
+      "name": "Crypt Sage",
       "url": "/lu4/npc/21249-crypt-sage"
     },
     {
       "key": "npc:5018",
       "type": "npc",
       "id": 5018,
-      "name": "Pallid Devourer Lv. 58",
+      "name": "Pallid Devourer",
       "url": "/lu4/npc/5018-pallid-devourer"
     }
   ]

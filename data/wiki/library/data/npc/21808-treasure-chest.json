@@ -2,61 +2,58 @@
   "key": "npc:21808",
   "type": "npc",
   "id": 21808,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21808-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21808-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21808-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21808-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 661 / 654",
+    "P. Atk. / M. Atk.": "318 / 159",
+    "P. Def. / M. Def.": "225 / 178",
+    "Accuracy / Evasion": "75 / 75",
+    "Exp / SP": "2 116 / 141",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 42"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21808",
-      "type": "npc",
-      "id": 21808,
-      "name": "Lu4",
-      "url": "/lu4/npc/21808-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:2934",
+      "key": "item:57",
       "type": "item",
-      "id": 2934,
-      "name": "Plate Shield Fragment NG",
-      "url": "/lu4/item/2934-plate-shield-fragment"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2930",
       "type": "item",
       "id": 2930,
-      "name": "Plate Helmet Design NG",
-      "url": "/lu4/item/2930-plate-helmet-design"
+      "name": "Half Plate Helmet Design NG",
+      "url": "/lu4/item/2930-half-plate-helmet-design"
     },
     {
       "key": "item:2494",
       "type": "item",
       "id": 2494,
-      "name": "Plate Shield D",
-      "url": "/lu4/item/2494-plate-shield"
+      "name": "Half Plate Shield D",
+      "url": "/lu4/item/2494-half-plate-shield"
     },
     {
       "key": "item:2412",
       "type": "item",
       "id": 2412,
-      "name": "Plate Helmet D",
-      "url": "/lu4/item/2412-plate-helmet"
-    },
-    {
-      "key": "item:2160",
-      "type": "item",
-      "id": 2160,
-      "name": "Recipe: Moonstone Earring NG",
-      "url": "/lu4/item/2160-recipe-moonstone-earring"
+      "name": "Half Plate Helmet D",
+      "url": "/lu4/item/2412-half-plate-helmet"
     },
     {
       "key": "item:1956",
@@ -66,11 +63,32 @@
       "url": "/lu4/item/1956-square-shield-fragment"
     },
     {
+      "key": "item:630",
+      "type": "item",
+      "id": 630,
+      "name": "Square Shield D",
+      "url": "/lu4/item/630-square-shield"
+    },
+    {
+      "key": "item:2934",
+      "type": "item",
+      "id": 2934,
+      "name": "Half Plate Shield Fragment NG",
+      "url": "/lu4/item/2934-half-plate-shield-fragment"
+    },
+    {
       "key": "item:1877",
       "type": "item",
       "id": 1877,
       "name": "Adamantite Nugget NG",
       "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:2160",
+      "type": "item",
+      "id": 2160,
+      "name": "Recipe: Moonstone Earring NG",
+      "url": "/lu4/item/2160-recipe-moonstone-earring"
     },
     {
       "key": "item:1871",
@@ -85,20 +103,6 @@
       "id": 1866,
       "name": "Suede NG",
       "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:630",
-      "type": "item",
-      "id": 630,
-      "name": "Square Shield D",
-      "url": "/lu4/item/630-square-shield"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1905",

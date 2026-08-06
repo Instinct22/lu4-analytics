@@ -2,77 +2,72 @@
   "key": "npc:25260",
   "type": "npc",
   "id": 25260,
-  "name": "Lu4 Wiki: NPC Iron Giant Totem",
+  "name": "Iron Giant Totem",
   "url": "/lu4/npc/25260-iron-giant-totem",
-  "source_url": "https://masterwork.wiki/lu4/npc/25260-iron-giant-totem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25260-iron-giant-totem",
   "raw_html": "library/raw/lu4/npc/25260-iron-giant-totem.html",
   "stats": {
-    "Location": "Лес Зла"
+    "HP / MP": "404 775 / 3 823",
+    "P. Atk. / M. Atk.": "2 682 / 1 436",
+    "P. Def. / M. Def.": "756 / 774",
+    "Accuracy / Evasion": "96 / 96",
+    "Exp / SP": "1 518 750 / 267 898",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Iron Giant was supposedly made by Devil Beleth. Given the power of artificial intelligence, he is a Golem designed to manage other Golems. Due to Beleth' caprice, however, he was sealed up and put on standby. During his inactivity, he began to be worshipped as an idol by low-Lv. Orcs who gathered near him. Now re-activated, he believes that he has become the God of Orcs. Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25260",
-      "type": "npc",
-      "id": 25260,
-      "name": "Lu4",
-      "url": "/lu4/npc/25260-iron-giant-totem"
-    },
-    {
-      "key": "location:238",
-      "type": "location",
-      "id": 238,
-      "name": "Лес Зла",
-      "url": "/lu4/location/238-les-zla"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4886",
       "type": "skill",
       "id": 4886,
-      "name": "Raid Boss Lv. 1 This Iron Giant was supposedly made by Devil Beleth. Given the power of artificial intelligence, he is a Golem designed to manage other Golems. Due to Beleth' caprice, however, he was sealed up and put on standby. During his inactivity, he began to be worshipped as an idol by low-Lv. Orcs who gathered near him. Now re-activated, he believes that he has become the God of Orcs.",
-      "url": "/lu4/skill/4886-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4886-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -82,46 +77,46 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6574",
+      "key": "item:75",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+      "id": 75,
+      "name": "Caliburs C",
+      "url": "/lu4/item/75-caliburs"
     },
     {
-      "key": "item:6573",
+      "key": "item:76",
       "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+      "id": 76,
+      "name": "Sword of Delusion C",
+      "url": "/lu4/item/76-sword-of-delusion"
     },
     {
-      "key": "item:4055",
+      "key": "item:77",
       "type": "item",
-      "id": 4055,
-      "name": "Composite Shield Fragment NG",
-      "url": "/lu4/item/4055-composite-shield-fragment"
+      "id": 77,
+      "name": "Tsurugi C",
+      "url": "/lu4/item/77-tsurugi"
     },
     {
-      "key": "item:2957",
+      "key": "item:84",
       "type": "item",
-      "id": 2957,
-      "name": "Composite Helmet Design NG",
-      "url": "/lu4/item/2957-composite-helmet-design"
+      "id": 84,
+      "name": "Homunkulus's Sword C",
+      "url": "/lu4/item/84-homunkuluss-sword"
     },
     {
-      "key": "item:2096",
+      "key": "item:134",
       "type": "item",
-      "id": 2096,
-      "name": "Sword of Whispering Death Blade NG",
-      "url": "/lu4/item/2096-sword-of-whispering-death-blade"
+      "id": 134,
+      "name": "Sword of Nightmare C",
+      "url": "/lu4/item/134-sword-of-nightmare"
     },
     {
-      "key": "item:2095",
+      "key": "item:145",
       "type": "item",
-      "id": 2095,
-      "name": "Sword of Nightmare Blade NG",
-      "url": "/lu4/item/2095-sword-of-nightmare-blade"
+      "id": 145,
+      "name": "Sword of Whispering Death C",
+      "url": "/lu4/item/145-sword-of-whispering-death"
     },
     {
       "key": "item:2092",
@@ -131,11 +126,18 @@
       "url": "/lu4/item/2092-homunkuluss-sword-blade"
     },
     {
-      "key": "item:2091",
+      "key": "item:2095",
       "type": "item",
-      "id": 2091,
-      "name": "Tsurugi Blade NG",
-      "url": "/lu4/item/2091-tsurugi-blade"
+      "id": 2095,
+      "name": "Sword of Nightmare Blade NG",
+      "url": "/lu4/item/2095-sword-of-nightmare-blade"
+    },
+    {
+      "key": "item:2096",
+      "type": "item",
+      "id": 2096,
+      "name": "Sword of Whispering Death Blade NG",
+      "url": "/lu4/item/2096-sword-of-whispering-death-blade"
     },
     {
       "key": "item:2090",
@@ -152,18 +154,25 @@
       "url": "/lu4/item/2089-caliburs-edge"
     },
     {
-      "key": "item:1983",
+      "key": "item:2091",
       "type": "item",
-      "id": 1983,
-      "name": "Shining Circlet Pattern NG",
-      "url": "/lu4/item/1983-shining-circlet-pattern"
+      "id": 2091,
+      "name": "Tsurugi Blade NG",
+      "url": "/lu4/item/2091-tsurugi-blade"
     },
     {
-      "key": "item:1978",
+      "key": "item:103",
       "type": "item",
-      "id": 1978,
-      "name": "Tower Shield Fragment NG",
-      "url": "/lu4/item/1978-tower-shield-fragment"
+      "id": 103,
+      "name": "Tower Shield C",
+      "url": "/lu4/item/103-tower-shield"
+    },
+    {
+      "key": "item:107",
+      "type": "item",
+      "id": 107,
+      "name": "Composite Shield C",
+      "url": "/lu4/item/107-composite-shield"
     },
     {
       "key": "item:1149",
@@ -173,20 +182,6 @@
       "url": "/lu4/item/1149-shining-circlet"
     },
     {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
-    },
-    {
       "key": "item:517",
       "type": "item",
       "id": 517,
@@ -194,25 +189,25 @@
       "url": "/lu4/item/517-composite-helmet"
     },
     {
-      "key": "item:145",
+      "key": "item:1983",
       "type": "item",
-      "id": 145,
-      "name": "Sword of Whispering Death C",
-      "url": "/lu4/item/145-sword-of-whispering-death"
+      "id": 1983,
+      "name": "Shining Circlet Pattern NG",
+      "url": "/lu4/item/1983-shining-circlet-pattern"
     },
     {
-      "key": "item:134",
+      "key": "item:4055",
       "type": "item",
-      "id": 134,
-      "name": "Sword of Nightmare C",
-      "url": "/lu4/item/134-sword-of-nightmare"
+      "id": 4055,
+      "name": "Composite Shield Fragment NG",
+      "url": "/lu4/item/4055-composite-shield-fragment"
     },
     {
-      "key": "item:107",
+      "key": "item:2957",
       "type": "item",
-      "id": 107,
-      "name": "Composite Shield C",
-      "url": "/lu4/item/107-composite-shield"
+      "id": 2957,
+      "name": "Composite Helmet Design NG",
+      "url": "/lu4/item/2957-composite-helmet-design"
     },
     {
       "key": "npc:25261",

@@ -1,0 +1,44 @@
+{
+  "key": "skill:1430",
+  "type": "skill",
+  "id": 1430,
+  "name": "Invocation",
+  "url": "/lu4/skill/1430-invocation",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1430-invocation",
+  "raw_html": "library/raw/lu4/skill/1430-invocation.html",
+  "stats": {
+    "Effect": "Decreases P. Def. by 90% and recovers 27 MP every second. The status is canceled when damage is incurred.",
+    "Consumes": "27 MP",
+    "Reuse Time": "5 minutes",
+    "Duration": "30 seconds",
+    "Can be used on Olympiad": "No",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "BishopLv. 56Elven ElderLv. 56Shillien ElderLv. 56",
+    "Type": "Magical / Magical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:16",
+      "type": "class",
+      "id": 16,
+      "name": "BishopLv. 56",
+      "url": "/lu4/class/16-bishop"
+    },
+    {
+      "key": "class:30",
+      "type": "class",
+      "id": 30,
+      "name": "Elven ElderLv. 56",
+      "url": "/lu4/class/30-elder"
+    },
+    {
+      "key": "class:43",
+      "type": "class",
+      "id": 43,
+      "name": "Shillien ElderLv. 56",
+      "url": "/lu4/class/43-shillienelder"
+    }
+  ]
+}

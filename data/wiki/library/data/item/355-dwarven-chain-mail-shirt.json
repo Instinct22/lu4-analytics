@@ -2,24 +2,23 @@
   "key": "item:355",
   "type": "item",
   "id": 355,
-  "name": "Lu4 Wiki: Item Dwarven Chain Mail Shirt",
+  "name": "Dwarven Chain Mail Shirt",
   "url": "/lu4/item/355-dwarven-chain-mail-shirt",
-  "source_url": "https://masterwork.wiki/lu4/item/355-dwarven-chain-mail-shirt",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/355-dwarven-chain-mail-shirt",
   "raw_html": "library/raw/lu4/item/355-dwarven-chain-mail-shirt.html",
   "stats": {
+    "P. Def.": "129",
+    "Crystal Amount": "198 Crystallization Failed Enchant +0 198 - +1 204 - +2 210 - +3 216 - +4 234 135 +5 252 153 +6 270 171 +7 288 189 +8 306 207",
+    "NPC Sell Price": "247 750 Adena",
+    "Weight": "8070",
     "Set Part": "Dwarven Chain Mail Shirt C",
     "Recipes": "Recipe: Dwarven Chain Mail Shirt NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / Heavy / Upper Body"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:355",
-      "type": "item",
-      "id": 355,
-      "name": "Lu4",
-      "url": "/lu4/item/355-dwarven-chain-mail-shirt"
-    },
     {
       "key": "set:839",
       "type": "set",
@@ -35,59 +34,66 @@
       "url": "/lu4/item/2213-recipe-dwarven-chain-mail-shirt"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25088",
       "type": "npc",
       "id": 25088,
-      "name": "Crazy Mechanic Golem Lv. 43",
+      "name": "Crazy Mechanic Golem",
       "url": "/lu4/npc/25088-crazy-mechanic-golem"
     },
     {
       "key": "npc:22056",
       "type": "npc",
       "id": 22056,
-      "name": "Probe Golem Champion I Lv. 49",
+      "name": "Probe Golem Champion I",
       "url": "/lu4/npc/22056-probe-golem-champion-i"
     },
     {
       "key": "npc:22052",
       "type": "npc",
       "id": 22052,
-      "name": "Menacing Jackhammer Golem Lv. 47",
+      "name": "Menacing Jackhammer Golem",
       "url": "/lu4/npc/22052-menacing-jackhammer-golem"
     },
     {
       "key": "npc:20807",
       "type": "npc",
       "id": 20807,
-      "name": "Farhite Lad Lv. 44",
+      "name": "Farhite Lad",
       "url": "/lu4/npc/20807-farhite-lad"
     },
     {
       "key": "npc:20768",
       "type": "npc",
       "id": 20768,
-      "name": "Timak Orc Troop Shaman Lv. 44",
+      "name": "Timak Orc Troop Shaman",
       "url": "/lu4/npc/20768-timak-orc-troop-shaman"
     },
     {
       "key": "npc:20682",
       "type": "npc",
       "id": 20682,
-      "name": "Vanor Silenos Grunt Lv. 46",
+      "name": "Vanor Silenos Grunt",
       "url": "/lu4/npc/20682-vanor-silenos-grunt"
     },
     {
       "key": "npc:20681",
       "type": "npc",
       "id": 20681,
-      "name": "Vanor Silenos Lv. 45",
+      "name": "Vanor Silenos",
       "url": "/lu4/npc/20681-vanor-silenos"
     },
     {
       "key": "npc:20589",
       "type": "npc",
       "id": 20589,
-      "name": "Fline Lv. 45",
+      "name": "Fline",
       "url": "/lu4/npc/20589-fline"
     }
   ]

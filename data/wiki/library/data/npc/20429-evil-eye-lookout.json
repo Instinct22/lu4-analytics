@@ -2,140 +2,81 @@
   "key": "npc:20429",
   "type": "npc",
   "id": 20429,
-  "name": "Lu4 Wiki: NPC Evil Eye Lookout",
+  "name": "Evil Eye Lookout",
   "url": "/lu4/npc/20429-evil-eye-lookout",
-  "source_url": "https://masterwork.wiki/lu4/npc/20429-evil-eye-lookout",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20429-evil-eye-lookout",
   "raw_html": "library/raw/lu4/npc/20429-evil-eye-lookout.html",
   "stats": {
-    "Location": "Кайнак (+1) Кайнак Плато Бессмертия"
+    "Respawn Time": "35 seconds",
+    "Location": "Кайнак (+1) Кайнак Плато Бессмертия",
+    "HP / MP": "765 / 173",
+    "P. Atk. / M. Atk.": "43 / 22",
+    "P. Def. / M. Def.": "76 / 56",
+    "Accuracy / Evasion": "47 / 47",
+    "Exp / SP": "723 / 72",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 2 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 14"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20429",
-      "type": "npc",
-      "id": 20429,
-      "name": "Lu4",
-      "url": "/lu4/npc/20429-evil-eye-lookout"
-    },
-    {
-      "key": "location:60",
-      "type": "location",
-      "id": 60,
-      "name": "Кайнак",
-      "url": "/lu4/location/60-kajnak"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 2 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/2"
-    },
-    {
-      "key": "item:1923",
-      "type": "item",
-      "id": 1923,
-      "name": "Leather Stockings Pattern NG",
-      "url": "/lu4/item/1923-leather-stockings-pattern"
-    },
-    {
-      "key": "item:1922",
-      "type": "item",
-      "id": 1922,
-      "name": "Leather Tunic Pattern NG",
-      "url": "/lu4/item/1922-leather-tunic-pattern"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1803",
-      "type": "item",
-      "id": 1803,
-      "name": "Recipe: Necklace of Wisdom NG",
-      "url": "/lu4/item/1803-recipe-necklace-of-wisdom"
-    },
-    {
-      "key": "item:464",
-      "type": "item",
-      "id": 464,
-      "name": "Leather Stockings NG",
-      "url": "/lu4/item/464-leather-stockings"
-    },
-    {
-      "key": "item:429",
-      "type": "item",
-      "id": 429,
-      "name": "Leather Tunic NG",
-      "url": "/lu4/item/429-leather-tunic"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -145,11 +86,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2009",
+      "key": "item:429",
       "type": "item",
-      "id": 2009,
-      "name": "Dirk Blade NG",
-      "url": "/lu4/item/2009-dirk-blade"
+      "id": 429,
+      "name": "Leather Tunic NG",
+      "url": "/lu4/item/429-leather-tunic"
+    },
+    {
+      "key": "item:464",
+      "type": "item",
+      "id": 464,
+      "name": "Leather Stockings NG",
+      "url": "/lu4/item/464-leather-stockings"
+    },
+    {
+      "key": "item:1922",
+      "type": "item",
+      "id": 1922,
+      "name": "Leather Tunic Pattern NG",
+      "url": "/lu4/item/1922-leather-tunic-pattern"
+    },
+    {
+      "key": "item:1923",
+      "type": "item",
+      "id": 1923,
+      "name": "Leather Stockings Pattern NG",
+      "url": "/lu4/item/1923-leather-stockings-pattern"
+    },
+    {
+      "key": "item:1803",
+      "type": "item",
+      "id": 1803,
+      "name": "Recipe: Necklace of Wisdom NG",
+      "url": "/lu4/item/1803-recipe-necklace-of-wisdom"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1792",
+      "type": "item",
+      "id": 1792,
+      "name": "Recipe: Short Spear NG",
+      "url": "/lu4/item/1792-recipe-short-spear"
     },
     {
       "key": "item:1921",
@@ -159,11 +149,11 @@
       "url": "/lu4/item/1921-leather-shoes-texture"
     },
     {
-      "key": "item:1792",
+      "key": "item:2009",
       "type": "item",
-      "id": 1792,
-      "name": "Recipe: Short Spear NG",
-      "url": "/lu4/item/1792-recipe-short-spear"
+      "id": 2009,
+      "name": "Dirk Blade NG",
+      "url": "/lu4/item/2009-dirk-blade"
     }
   ]
 }

@@ -2,56 +2,86 @@
   "key": "npc:25010",
   "type": "npc",
   "id": 25010,
-  "name": "Lu4 Wiki: NPC Furious Thieles",
+  "name": "Furious Thieles",
   "url": "/lu4/npc/25010-furious-thieles",
-  "source_url": "https://masterwork.wiki/lu4/npc/25010-furious-thieles",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25010-furious-thieles",
   "raw_html": "library/raw/lu4/npc/25010-furious-thieles.html",
   "stats": {
-    "Location": "Волшебная Долина"
+    "HP / MP": "648 264 / 4 527",
+    "P. Atk. / M. Atk.": "5 398 / 5 491",
+    "P. Def. / M. Def.": "1 020 / 994",
+    "Accuracy / Evasion": "101 / 111",
+    "Exp / SP": "2 722 500 / 448 385",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A Treant who used to live south of Gludio, he loved trees and nature. After the war with Beleth, his beautiful forest home was destroyed, and his friends were slain. Deeply affected by that traumatic loss he is now trapped in a haze of hatred, madness, and the desire for revenge. Gripped by his anger, he is still at war against all humans and mystics. Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 55"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25010",
-      "type": "npc",
-      "id": 25010,
-      "name": "Lu4",
-      "url": "/lu4/npc/25010-furious-thieles"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4793",
       "type": "skill",
       "id": 4793,
-      "name": "Raid Boss Lv. 1 A Treant who used to live south of Gludio, he loved trees and nature. After the war with Beleth, his beautiful forest home was destroyed, and his friends were slain. Deeply affected by that traumatic loss he is now trapped in a haze of hatred, madness, and the desire for revenge. Gripped by his anger, he is still at war against all humans and mystics.",
-      "url": "/lu4/skill/4793-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4793-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
+    },
+    {
+      "key": "item:9910",
+      "type": "item",
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
+    },
+    {
+      "key": "item:32340",
+      "type": "item",
+      "id": 32340,
+      "name": "Unidentified Arthro Nail B",
+      "url": "/lu4/item/32340-unidentified-arthro-nail"
+    },
+    {
+      "key": "item:32348",
+      "type": "item",
+      "id": 32348,
+      "name": "Unidentified Great Axe B",
+      "url": "/lu4/item/32348-unidentified-great-axe"
+    },
+    {
+      "key": "item:4111",
+      "type": "item",
+      "id": 4111,
+      "name": "Arthro Nail Blade NG",
+      "url": "/lu4/item/4111-arthro-nail-blade"
+    },
+    {
+      "key": "item:4113",
+      "type": "item",
+      "id": 4113,
+      "name": "Great Axe Head NG",
+      "url": "/lu4/item/4113-great-axe-head"
     },
     {
       "key": "item:32590",
@@ -75,81 +105,11 @@
       "url": "/lu4/item/32361-unidentified-stockings-of-zubei"
     },
     {
-      "key": "item:32348",
-      "type": "item",
-      "id": 32348,
-      "name": "Unidentified Great Axe B",
-      "url": "/lu4/item/32348-unidentified-great-axe"
-    },
-    {
-      "key": "item:32340",
-      "type": "item",
-      "id": 32340,
-      "name": "Unidentified Arthro Nail B",
-      "url": "/lu4/item/32340-unidentified-arthro-nail"
-    },
-    {
-      "key": "item:9910",
-      "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:6572",
-      "type": "item",
-      "id": 6572,
-      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
-    },
-    {
-      "key": "item:4113",
-      "type": "item",
-      "id": 4113,
-      "name": "Great Axe Head NG",
-      "url": "/lu4/item/4113-great-axe-head"
-    },
-    {
-      "key": "item:4111",
-      "type": "item",
-      "id": 4111,
-      "name": "Arthro Nail Blade NG",
-      "url": "/lu4/item/4111-arthro-nail-blade"
-    },
-    {
       "key": "item:4071",
       "type": "item",
       "id": 4071,
       "name": "Avadon Robe Fabric NG",
       "url": "/lu4/item/4071-avadon-robe-fabric"
-    },
-    {
-      "key": "item:4070",
-      "type": "item",
-      "id": 4070,
-      "name": "Stockings of Zubei Fabric NG",
-      "url": "/lu4/item/4070-stockings-of-zubei-fabric"
     },
     {
       "key": "item:4069",
@@ -159,11 +119,25 @@
       "url": "/lu4/item/4069-tunic-of-zubei-fabric"
     },
     {
+      "key": "item:4070",
+      "type": "item",
+      "id": 4070,
+      "name": "Stockings of Zubei Fabric NG",
+      "url": "/lu4/item/4070-stockings-of-zubei-fabric"
+    },
+    {
       "key": "item:952",
       "type": "item",
       "id": 952,
       "name": "Scroll: Enchant Armor (C-Grade) NG",
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
     },
     {
       "key": "item:951",
@@ -173,6 +147,13 @@
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+    },
+    {
       "key": "item:948",
       "type": "item",
       "id": 948,
@@ -180,11 +161,25 @@
       "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
+      "key": "item:6572",
+      "type": "item",
+      "id": 6572,
+      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
+    },
+    {
       "key": "item:947",
       "type": "item",
       "id": 947,
       "name": "Scroll: Enchant Weapon (B-Grade) NG",
       "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+    },
+    {
+      "key": "item:6571",
+      "type": "item",
+      "id": 6571,
+      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
     },
     {
       "key": "npc:25011",

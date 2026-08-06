@@ -2,96 +2,107 @@
   "key": "npc:22111",
   "type": "npc",
   "id": 22111,
-  "name": "Lu4 Wiki: NPC Spiked Stakato Sorcerer",
+  "name": "Spiked Stakato Sorcerer",
   "url": "/lu4/npc/22111-spiked-stakato-sorcerer",
-  "source_url": "https://masterwork.wiki/lu4/npc/22111-spiked-stakato-sorcerer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22111-spiked-stakato-sorcerer",
   "raw_html": "library/raw/lu4/npc/22111-spiked-stakato-sorcerer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "16 916 / 1 674",
+    "P. Atk. / M. Atk.": "1 361 / 1 532",
+    "P. Def. / M. Def.": "428 / 619",
+    "Accuracy / Evasion": "116 / 129",
+    "Exp / SP": "34 083 / 3 596",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 53, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Strong M. Atk. Lv. 14 Average P. Def. Lv. 11 Strong M. Def. Lv. 14 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dagger Lv. 7 Daggers Humanoids Lv. 29 Humanoids. High Lv. Lv. 4 NPC High Level",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 75"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22111",
-      "type": "npc",
-      "id": 22111,
-      "name": "Lu4",
-      "url": "/lu4/npc/22111-spiked-stakato-sorcerer"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Dagger Lv. 7 Daggers",
-      "url": "/lu4/skill/4415-dagger/7"
+      "name": "Dagger",
+      "url": "/lu4/skill/4415-dagger"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Humanoids Lv. 29 Humanoids.",
-      "url": "/lu4/skill/4417-humanoids/29"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4417-humanoids"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 4 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/4"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32431",
@@ -99,27 +110,6 @@
       "id": 32431,
       "name": "Unidentified Infernal Master A",
       "url": "/lu4/item/32431-unidentified-infernal-master"
-    },
-    {
-      "key": "item:32330",
-      "type": "item",
-      "id": 32330,
-      "name": "Unidentified Elemental Sword A",
-      "url": "/lu4/item/32330-unidentified-elemental-sword"
-    },
-    {
-      "key": "item:32323",
-      "type": "item",
-      "id": 32323,
-      "name": "Unidentified Tallum Blade A",
-      "url": "/lu4/item/32323-unidentified-tallum-blade"
-    },
-    {
-      "key": "item:8331",
-      "type": "item",
-      "id": 8331,
-      "name": "Infernal Master Blade NG",
-      "url": "/lu4/item/8331-infernal-master-blade"
     },
     {
       "key": "item:5548",
@@ -150,18 +140,32 @@
       "url": "/lu4/item/5532-meteor-shower-head"
     },
     {
+      "key": "item:8331",
+      "type": "item",
+      "id": 8331,
+      "name": "Infernal Master Blade NG",
+      "url": "/lu4/item/8331-infernal-master-blade"
+    },
+    {
+      "key": "item:32330",
+      "type": "item",
+      "id": 32330,
+      "name": "Unidentified Elemental Sword A",
+      "url": "/lu4/item/32330-unidentified-elemental-sword"
+    },
+    {
+      "key": "item:32323",
+      "type": "item",
+      "id": 32323,
+      "name": "Unidentified Tallum Blade A",
+      "url": "/lu4/item/32323-unidentified-tallum-blade"
+    },
+    {
       "key": "item:5272",
       "type": "item",
       "id": 5272,
       "name": "Recipe: Greater Soulshot (S) Compressed Package(100%) NG",
       "url": "/lu4/item/5272-recipe-greater-soulshot-s-compressed-package100"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
     },
     {
       "key": "item:4039",
@@ -192,11 +196,18 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:57",
+      "key": "item:4043",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:1808",
+      "type": "item",
+      "id": 1808,
+      "name": "Recipe: Soulshot (S-Grade) NG",
+      "url": "/lu4/item/1808-recipe-soulshot-s-grade"
     },
     {
       "key": "item:5480",
@@ -211,13 +222,6 @@
       "id": 3036,
       "name": "Recipe: Spiritshot S NG",
       "url": "/lu4/item/3036-recipe-spiritshot-s"
-    },
-    {
-      "key": "item:1808",
-      "type": "item",
-      "id": 1808,
-      "name": "Recipe: Soulshot (S-Grade) NG",
-      "url": "/lu4/item/1808-recipe-soulshot-s-grade"
     }
   ]
 }

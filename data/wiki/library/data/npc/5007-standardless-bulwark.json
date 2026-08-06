@@ -2,147 +2,60 @@
   "key": "npc:5007",
   "type": "npc",
   "id": 5007,
-  "name": "Lu4 Wiki: NPC Standardless Bulwark",
+  "name": "Standardless Bulwark",
   "url": "/lu4/npc/5007-standardless-bulwark",
-  "source_url": "https://masterwork.wiki/lu4/npc/5007-standardless-bulwark",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5007-standardless-bulwark",
   "raw_html": "library/raw/lu4/npc/5007-standardless-bulwark.html",
   "stats": {
-    "Location": "Равнины Неистовства (+1) Равнины Неистовства Земли Адена"
+    "Respawn Time": "18 seconds ± 2 seconds",
+    "Location": "Равнины Неистовства (+1) Равнины Неистовства Земли Адена",
+    "HP / MP": "3 773 / 1 110",
+    "P. Atk. / M. Atk.": "446 / 195",
+    "P. Def. / M. Def.": "267 / 195",
+    "Accuracy / Evasion": "78 / 78",
+    "Exp / SP": "3 915 / 391",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Strong P. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5007",
-      "type": "npc",
-      "id": 5007,
-      "name": "Lu4",
-      "url": "/lu4/npc/5007-standardless-bulwark"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:2083",
-      "type": "item",
-      "id": 2083,
-      "name": "Stiletto Edge NG",
-      "url": "/lu4/item/2083-stiletto-edge"
-    },
-    {
-      "key": "item:1976",
-      "type": "item",
-      "id": 1976,
-      "name": "Rind Leather Gaiters Material NG",
-      "url": "/lu4/item/1976-rind-leather-gaiters-material"
-    },
-    {
-      "key": "item:1911",
-      "type": "item",
-      "id": 1911,
-      "name": "Earring of Protection Gemstone NG",
-      "url": "/lu4/item/1911-earring-of-protection-gemstone"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:853",
-      "type": "item",
-      "id": 853,
-      "name": "Earring of Protection C",
-      "url": "/lu4/item/853-earring-of-protection"
-    },
-    {
-      "key": "item:419",
-      "type": "item",
-      "id": 419,
-      "name": "Rind Leather Gaiters C",
-      "url": "/lu4/item/419-rind-leather-gaiters"
-    },
-    {
-      "key": "item:227",
-      "type": "item",
-      "id": 227,
-      "name": "Stiletto C",
-      "url": "/lu4/item/227-stiletto"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "item:57",
@@ -152,11 +65,88 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:4440",
+      "key": "item:1866",
       "type": "item",
-      "id": 4440,
-      "name": "Recipe: Knuckle Duster NG",
-      "url": "/lu4/item/4440-recipe-knuckle-duster"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:853",
+      "type": "item",
+      "id": 853,
+      "name": "Earring of Protection C",
+      "url": "/lu4/item/853-earring-of-protection"
+    },
+    {
+      "key": "item:1911",
+      "type": "item",
+      "id": 1911,
+      "name": "Earring of Protection Gemstone NG",
+      "url": "/lu4/item/1911-earring-of-protection-gemstone"
+    },
+    {
+      "key": "item:419",
+      "type": "item",
+      "id": 419,
+      "name": "Rind Leather Gaiters C",
+      "url": "/lu4/item/419-rind-leather-gaiters"
+    },
+    {
+      "key": "item:1976",
+      "type": "item",
+      "id": 1976,
+      "name": "Rind Leather Gaiters Material NG",
+      "url": "/lu4/item/1976-rind-leather-gaiters-material"
+    },
+    {
+      "key": "item:227",
+      "type": "item",
+      "id": 227,
+      "name": "Stiletto C",
+      "url": "/lu4/item/227-stiletto"
+    },
+    {
+      "key": "item:2083",
+      "type": "item",
+      "id": 2083,
+      "name": "Stiletto Edge NG",
+      "url": "/lu4/item/2083-stiletto-edge"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
       "key": "item:2993",
@@ -166,11 +156,11 @@
       "url": "/lu4/item/2993-recipe-dwarven-chain-boots"
     },
     {
-      "key": "item:2086",
+      "key": "item:4440",
       "type": "item",
-      "id": 2086,
-      "name": "Noble Elven Bow Shaft NG",
-      "url": "/lu4/item/2086-noble-elven-bow-shaft"
+      "id": 4440,
+      "name": "Recipe: Knuckle Duster NG",
+      "url": "/lu4/item/4440-recipe-knuckle-duster"
     },
     {
       "key": "item:1971",
@@ -180,11 +170,11 @@
       "url": "/lu4/item/1971-great-helmet-material"
     },
     {
-      "key": "item:952",
+      "key": "item:2086",
       "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+      "id": 2086,
+      "name": "Noble Elven Bow Shaft NG",
+      "url": "/lu4/item/2086-noble-elven-bow-shaft"
     }
   ]
 }

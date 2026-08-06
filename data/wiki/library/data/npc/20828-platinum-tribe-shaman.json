@@ -2,140 +2,81 @@
   "key": "npc:20828",
   "type": "npc",
   "id": 20828,
-  "name": "Lu4 Wiki: NPC Platinum Tribe Shaman",
+  "name": "Platinum Tribe Shaman",
   "url": "/lu4/npc/20828-platinum-tribe-shaman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20828-platinum-tribe-shaman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20828-platinum-tribe-shaman",
   "raw_html": "library/raw/lu4/npc/20828-platinum-tribe-shaman.html",
   "stats": {
-    "Location": "Башня Дерзости: 7-й этаж (+1) Башня Дерзости: 7-й этаж Башня Дерзости: 6-й этаж"
+    "Respawn Time": "3 minutes, 25 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 7-й этаж (+1) Башня Дерзости: 7-й этаж Башня Дерзости: 6-й этаж",
+    "HP / MP": "24 487 / 1 494",
+    "P. Atk. / M. Atk.": "2 365 / 2 562",
+    "P. Def. / M. Def.": "882 / 571",
+    "Accuracy / Evasion": "112 / 102",
+    "Exp / SP": "54 164 / 5 416",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 53, Unholy -13",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (6x) Lv. 14 Very Strong M. Atk. Lv. 16 Very Strong P. Atk. Lv. 16 Strong M. Def. Lv. 14 Very Strong P. Def. Lv. 16 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 69"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20828",
-      "type": "npc",
-      "id": 20828,
-      "name": "Lu4",
-      "url": "/lu4/npc/20828-platinum-tribe-shaman"
-    },
-    {
-      "key": "location:90",
-      "type": "location",
-      "id": 90,
-      "name": "Башня Дерзости: 7-й этаж",
-      "url": "/lu4/location/90-basna-derzosti-7-j-etaz"
-    },
-    {
-      "key": "location:89",
-      "type": "location",
-      "id": 89,
-      "name": "Башня Дерзости: 6-й этаж",
-      "url": "/lu4/location/89-basna-derzosti-6-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Very Strong M. Atk. Lv. 16",
-      "url": "/lu4/skill/4411-very-strong-m-atk/16"
+      "name": "Very Strong M. Atk.",
+      "url": "/lu4/skill/4411-very-strong-m-atk"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39290",
-      "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32435",
-      "type": "item",
-      "id": 32435,
-      "name": "Unidentified Spiritual Eye A",
-      "url": "/lu4/item/32435-unidentified-spiritual-eye"
-    },
-    {
-      "key": "item:8341",
-      "type": "item",
-      "id": 8341,
-      "name": "Spiritual Eye Piece NG",
-      "url": "/lu4/item/8341-spiritual-eye-piece"
-    },
-    {
-      "key": "item:6345",
-      "type": "item",
-      "id": 6345,
-      "name": "Sealed Phoenix Ring Gemstone NG",
-      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
-    },
-    {
-      "key": "item:6325",
-      "type": "item",
-      "id": 6325,
-      "name": "Sealed Phoenix Ring A",
-      "url": "/lu4/item/6325-sealed-phoenix-ring"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4039",
@@ -173,18 +114,60 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:57",
+      "key": "item:39290",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
     },
     {
-      "key": "item:6343",
+      "key": "item:32435",
       "type": "item",
-      "id": 6343,
-      "name": "Sealed Phoenix Necklace Beads NG",
-      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
+      "id": 32435,
+      "name": "Unidentified Spiritual Eye A",
+      "url": "/lu4/item/32435-unidentified-spiritual-eye"
+    },
+    {
+      "key": "item:8341",
+      "type": "item",
+      "id": 8341,
+      "name": "Spiritual Eye Piece NG",
+      "url": "/lu4/item/8341-spiritual-eye-piece"
+    },
+    {
+      "key": "item:6325",
+      "type": "item",
+      "id": 6325,
+      "name": "Sealed Phoenix Ring A",
+      "url": "/lu4/item/6325-sealed-phoenix-ring"
+    },
+    {
+      "key": "item:6345",
+      "type": "item",
+      "id": 6345,
+      "name": "Sealed Phoenix Ring Gemstone NG",
+      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:5452",
@@ -199,6 +182,13 @@
       "id": 5354,
       "name": "Recipe: Sealed Tallum Stockings(60%) NG",
       "url": "/lu4/item/5354-recipe-sealed-tallum-stockings60"
+    },
+    {
+      "key": "item:6343",
+      "type": "item",
+      "id": 6343,
+      "name": "Sealed Phoenix Necklace Beads NG",
+      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
     }
   ]
 }

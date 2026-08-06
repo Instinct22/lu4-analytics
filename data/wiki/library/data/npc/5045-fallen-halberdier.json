@@ -2,175 +2,95 @@
   "key": "npc:5045",
   "type": "npc",
   "id": 5045,
-  "name": "Lu4 Wiki: NPC Fallen Halberdier",
+  "name": "Fallen Halberdier",
   "url": "/lu4/npc/5045-fallen-halberdier",
-  "source_url": "https://masterwork.wiki/lu4/npc/5045-fallen-halberdier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5045-fallen-halberdier",
   "raw_html": "library/raw/lu4/npc/5045-fallen-halberdier.html",
   "stats": {
-    "Location": "Земли Адена (+1) Земли Адена Древнее Поле Битвы"
+    "Respawn Time": "3 minutes, 40 seconds ± 10 seconds",
+    "Location": "Земли Адена (+1) Земли Адена Древнее Поле Битвы",
+    "HP / MP": "29 407 / 1 110",
+    "P. Atk. / M. Atk.": "2 897 / 952",
+    "P. Def. / M. Def.": "1 065 / 566",
+    "Accuracy / Evasion": "109 / 109",
+    "Exp / SP": "61 150 / 6 115",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 17 Slightly Strong M. Def. Lv. 13 Very Strong P. Def. Lv. 16 Greater Hold Resistance Lv. 3 Highly resistant to Hold. Greater Mental Attack Resistance Lv. 3 Highly resistant to Silence/Fear.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 73"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5045",
-      "type": "npc",
-      "id": 5045,
-      "name": "Lu4",
-      "url": "/lu4/npc/5045-fallen-halberdier"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
-      "key": "location:96",
-      "type": "location",
-      "id": 96,
-      "name": "Древнее Поле Битвы",
-      "url": "/lu4/location/96-drevnee-pole-bitvy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 17",
-      "url": "/lu4/skill/4410-very-strong-p-atk/17"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 3 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/3"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "skill:4441",
       "type": "skill",
       "id": 4441,
-      "name": "Greater Mental Attack Resistance Lv. 3 Highly resistant to Silence/Fear.",
-      "url": "/lu4/skill/4441-greater-mental-attack-resistance/3"
+      "name": "Greater Mental Attack Resistance",
+      "url": "/lu4/skill/4441-greater-mental-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32394",
-      "type": "item",
-      "id": 32394,
-      "name": "Unidentified Sealed Leather Armor of Nightmare A",
-      "url": "/lu4/item/32394-unidentified-sealed-leather-armor-of-nightmare"
-    },
-    {
-      "key": "item:32393",
-      "type": "item",
-      "id": 32393,
-      "name": "Unidentified Sealed Majestic Boots A",
-      "url": "/lu4/item/32393-unidentified-sealed-majestic-boots"
-    },
-    {
-      "key": "item:32390",
-      "type": "item",
-      "id": 32390,
-      "name": "Unidentified Sealed Majestic Plate Armor A",
-      "url": "/lu4/item/32390-unidentified-sealed-majestic-plate-armor"
-    },
-    {
-      "key": "item:8326",
-      "type": "item",
-      "id": 8326,
-      "name": "Recipe: Doom Crusher (60%) NG",
-      "url": "/lu4/item/8326-recipe-doom-crusher-60"
-    },
-    {
-      "key": "item:5523",
-      "type": "item",
-      "id": 5523,
-      "name": "Sealed Majestic Plate Armor Pattern NG",
-      "url": "/lu4/item/5523-sealed-majestic-plate-armor-pattern"
-    },
-    {
-      "key": "item:5503",
-      "type": "item",
-      "id": 5503,
-      "name": "Sealed Majestic Boots Lining NG",
-      "url": "/lu4/item/5503-sealed-majestic-boots-lining"
-    },
-    {
-      "key": "item:5480",
-      "type": "item",
-      "id": 5480,
-      "name": "Sealed Leather Armor of Nightmare Fabric NG",
-      "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1872",
@@ -208,39 +128,88 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:8342",
+      "key": "item:32394",
       "type": "item",
-      "id": 8342,
-      "name": "Flaming Dragon Skull Piece NG",
-      "url": "/lu4/item/8342-flaming-dragon-skull-piece"
+      "id": 32394,
+      "name": "Unidentified Sealed Leather Armor of Nightmare A",
+      "url": "/lu4/item/32394-unidentified-sealed-leather-armor-of-nightmare"
     },
     {
-      "key": "item:6337",
+      "key": "item:5480",
       "type": "item",
-      "id": 6337,
-      "name": "Recipe: Sealed Majestic Earring(70%) NG",
-      "url": "/lu4/item/6337-recipe-sealed-majestic-earring70"
+      "id": 5480,
+      "name": "Sealed Leather Armor of Nightmare Fabric NG",
+      "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
     },
     {
-      "key": "item:5541",
+      "key": "item:32393",
       "type": "item",
-      "id": 5541,
-      "name": "Tallum Glaive Edge NG",
-      "url": "/lu4/item/5541-tallum-glaive-edge"
+      "id": 32393,
+      "name": "Unidentified Sealed Majestic Boots A",
+      "url": "/lu4/item/32393-unidentified-sealed-majestic-boots"
     },
     {
-      "key": "item:5537",
+      "key": "item:5503",
       "type": "item",
-      "id": 5537,
-      "name": "Soul Separator Head NG",
-      "url": "/lu4/item/5537-soul-separator-head"
+      "id": 5503,
+      "name": "Sealed Majestic Boots Lining NG",
+      "url": "/lu4/item/5503-sealed-majestic-boots-lining"
+    },
+    {
+      "key": "item:32390",
+      "type": "item",
+      "id": 32390,
+      "name": "Unidentified Sealed Majestic Plate Armor A",
+      "url": "/lu4/item/32390-unidentified-sealed-majestic-plate-armor"
+    },
+    {
+      "key": "item:5523",
+      "type": "item",
+      "id": 5523,
+      "name": "Sealed Majestic Plate Armor Pattern NG",
+      "url": "/lu4/item/5523-sealed-majestic-plate-armor-pattern"
+    },
+    {
+      "key": "item:8326",
+      "type": "item",
+      "id": 8326,
+      "name": "Recipe: Doom Crusher (60%) NG",
+      "url": "/lu4/item/8326-recipe-doom-crusher-60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:729",
+      "type": "item",
+      "id": 729,
+      "name": "Scroll: Enchant Weapon (A-Grade) NG",
+      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     },
     {
       "key": "item:5434",
@@ -250,11 +219,32 @@
       "url": "/lu4/item/5434-recipe-dragon-slayer60"
     },
     {
-      "key": "item:729",
+      "key": "item:6337",
       "type": "item",
-      "id": 729,
-      "name": "Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
+      "id": 6337,
+      "name": "Recipe: Sealed Majestic Earring(70%) NG",
+      "url": "/lu4/item/6337-recipe-sealed-majestic-earring70"
+    },
+    {
+      "key": "item:8342",
+      "type": "item",
+      "id": 8342,
+      "name": "Flaming Dragon Skull Piece NG",
+      "url": "/lu4/item/8342-flaming-dragon-skull-piece"
+    },
+    {
+      "key": "item:5537",
+      "type": "item",
+      "id": 5537,
+      "name": "Soul Separator Head NG",
+      "url": "/lu4/item/5537-soul-separator-head"
+    },
+    {
+      "key": "item:5541",
+      "type": "item",
+      "id": 5541,
+      "name": "Tallum Glaive Edge NG",
+      "url": "/lu4/item/5541-tallum-glaive-edge"
     }
   ]
 }

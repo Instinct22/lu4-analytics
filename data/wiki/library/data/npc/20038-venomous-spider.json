@@ -2,105 +2,88 @@
   "key": "npc:20038",
   "type": "npc",
   "id": 20038,
-  "name": "Lu4 Wiki: NPC Venomous Spider",
+  "name": "Venomous Spider",
   "url": "/lu4/npc/20038-venomous-spider",
-  "source_url": "https://masterwork.wiki/lu4/npc/20038-venomous-spider",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20038-venomous-spider",
   "raw_html": "library/raw/lu4/npc/20038-venomous-spider.html",
   "stats": {
-    "Location": "Темный Лес (+4) Темный Лес Гнездо Пауков Холм Ветряных Мельниц Земли Глудио Охотничьи Угодья Фельмер"
+    "Respawn Time": "15 seconds",
+    "Location": "Темный Лес (+4) Темный Лес Гнездо Пауков Холм Ветряных Мельниц Земли Глудио Охотничьи Угодья Фельмер",
+    "HP / MP": "459 / 214",
+    "P. Atk. / M. Atk.": "58 / 31",
+    "P. Def. / M. Def.": "88 / 68",
+    "Accuracy / Evasion": "51 / 56",
+    "Exp / SP": "492 / 49",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 18"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20038",
-      "type": "npc",
-      "id": 20038,
-      "name": "Lu4",
-      "url": "/lu4/npc/20038-venomous-spider"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
-      "key": "location:218",
-      "type": "location",
-      "id": 218,
-      "name": "Гнездо Пауков",
-      "url": "/lu4/location/218-gnezdo-paukov"
-    },
-    {
-      "key": "location:255",
-      "type": "location",
-      "id": 255,
-      "name": "Холм Ветряных Мельниц",
-      "url": "/lu4/location/255-holm-vetranyh-melnic"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:249",
-      "type": "location",
-      "id": 249,
-      "name": "Охотничьи Угодья Фельмер",
-      "url": "/lu4/location/249-ohotnici-ugoda-felmer"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:5273",
+      "key": "item:57",
       "type": "item",
-      "id": 5273,
-      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
-      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:217",
+      "type": "item",
+      "id": 217,
+      "name": "Shining Knife NG",
+      "url": "/lu4/item/217-shining-knife"
+    },
+    {
+      "key": "item:218",
+      "type": "item",
+      "id": 218,
+      "name": "Throwing Knife NG",
+      "url": "/lu4/item/218-throwing-knife"
     },
     {
       "key": "item:2174",
@@ -152,32 +135,11 @@
       "url": "/lu4/item/1832-greater-antidote"
     },
     {
-      "key": "item:218",
+      "key": "item:5273",
       "type": "item",
-      "id": 218,
-      "name": "Throwing Knife NG",
-      "url": "/lu4/item/218-throwing-knife"
-    },
-    {
-      "key": "item:217",
-      "type": "item",
-      "id": 217,
-      "name": "Shining Knife NG",
-      "url": "/lu4/item/217-shining-knife"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:2011",
-      "type": "item",
-      "id": 2011,
-      "name": "Short Spear Edge NG",
-      "url": "/lu4/item/2011-short-spear-edge"
+      "id": 5273,
+      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
+      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
     },
     {
       "key": "item:1868",
@@ -185,6 +147,13 @@
       "id": 1868,
       "name": "Thread NG",
       "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:2011",
+      "type": "item",
+      "id": 2011,
+      "name": "Short Spear Edge NG",
+      "url": "/lu4/item/2011-short-spear-edge"
     }
   ]
 }

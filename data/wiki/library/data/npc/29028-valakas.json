@@ -2,103 +2,114 @@
   "key": "npc:29028",
   "type": "npc",
   "id": 29028,
-  "name": "Lu4 Wiki: NPC Valakas",
+  "name": "Valakas",
   "url": "/lu4/npc/29028-valakas",
-  "source_url": "https://masterwork.wiki/lu4/npc/29028-valakas",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/29028-valakas",
   "raw_html": "library/raw/lu4/npc/29028-valakas.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "45 758 999 / 4 497 144",
+    "P. Atk. / M. Atk.": "49 094 / 85 285",
+    "P. Def. / M. Def.": "5 135 / 3 793",
+    "Accuracy / Evasion": "158 / 158",
+    "Exp / SP": "296 105 000 / 34 817 200",
+    "Attack Attribute": "Fire 300",
+    "Defense Attributes": "Fire 225, Water 75, Wind 150, Earth 150, Holy 150, Unholy 150",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Valakas Lv. 1 Vulnerable to water, impervious to fire. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Dragon, Lv. 85"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:29028",
-      "type": "npc",
-      "id": 29028,
-      "name": "Lu4",
-      "url": "/lu4/npc/29028-valakas"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4679",
       "type": "skill",
       "id": 4679,
-      "name": "Valakas Lv. 1 Vulnerable to water, impervious to fire.",
-      "url": "/lu4/skill/4679-valakas/1"
+      "name": "Valakas",
+      "url": "/lu4/skill/4679-valakas"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:49800",
+      "key": "item:8620",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
+    },
+    {
+      "key": "item:14680",
+      "type": "item",
+      "id": 14680,
+      "name": "MasterWork Crystal: S-grade S/Dynasty S",
+      "url": "/lu4/item/14680-masterwork-crystal-s-grade"
     }
   ]
 }

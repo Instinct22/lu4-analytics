@@ -2,24 +2,25 @@
   "key": "item:440",
   "type": "item",
   "id": 440,
-  "name": "Lu4 Wiki: Item Robe of Seal",
+  "name": "Robe of Seal",
   "url": "/lu4/item/440-robe-of-seal",
-  "source_url": "https://masterwork.wiki/lu4/item/440-robe-of-seal",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/440-robe-of-seal",
   "raw_html": "library/raw/lu4/item/440-robe-of-seal.html",
   "stats": {
+    "Effect": "One-piece upper and lower body armor. Additional lower body armor cannot be worn while wearing this.",
+    "P. Def.": "105",
+    "MP Bonus": "413",
+    "Crystal Amount": "242 Crystallization Failed Enchant +0 242 - +1 248 - +2 254 - +3 260 - +4 266 - +5 284 163 +6 302 181 +7 320 199 +8 338 217",
+    "NPC Sell Price": "301 950 Adena",
+    "Weight": "2500",
     "Set Part": "Robe of Seal C",
     "Recipes": "Recipe: Robe of Seal NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / Robe / Full Body"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:440",
-      "type": "item",
-      "id": 440,
-      "name": "Lu4",
-      "url": "/lu4/item/440-robe-of-seal"
-    },
     {
       "key": "set:841",
       "type": "set",
@@ -35,66 +36,73 @@
       "url": "/lu4/item/2215-recipe-robe-of-seal"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25192",
       "type": "npc",
       "id": 25192,
-      "name": "Earth Protector Panathen Lv. 43",
+      "name": "Earth Protector Panathen",
       "url": "/lu4/npc/25192-earth-protector-panathen"
     },
     {
       "key": "npc:21219",
       "type": "npc",
       "id": 21219,
-      "name": "Vault Priest Lv. 47",
+      "name": "Vault Priest",
       "url": "/lu4/npc/21219-vault-priest"
     },
     {
       "key": "npc:20797",
       "type": "npc",
       "id": 20797,
-      "name": "Blade Stakato Drone Lv. 44",
+      "name": "Blade Stakato Drone",
       "url": "/lu4/npc/20797-blade-stakato-drone"
     },
     {
       "key": "npc:20569",
       "type": "npc",
       "id": 20569,
-      "name": "Formor Elder Lv. 46",
+      "name": "Formor Elder",
       "url": "/lu4/npc/20569-formor-elder"
     },
     {
       "key": "npc:20235",
       "type": "npc",
       "id": 20235,
-      "name": "Shackle Lv. 45",
+      "name": "Shackle",
       "url": "/lu4/npc/20235-shackle"
     },
     {
       "key": "npc:20217",
       "type": "npc",
       "id": 20217,
-      "name": "Krator Lv. 44",
+      "name": "Krator",
       "url": "/lu4/npc/20217-krator"
     },
     {
       "key": "npc:5009",
       "type": "npc",
       "id": 5009,
-      "name": "Hollow Reaver Lv. 47",
+      "name": "Hollow Reaver",
       "url": "/lu4/npc/5009-hollow-reaver"
     },
     {
       "key": "npc:21195",
       "type": "npc",
       "id": 21195,
-      "name": "Gigant Commander Lv. 45",
+      "name": "Gigant Commander",
       "url": "/lu4/npc/21195-gigant-commander"
     },
     {
       "key": "npc:21175",
       "type": "npc",
       "id": 21175,
-      "name": "Lilim Butcher Lv. 48",
+      "name": "Lilim Butcher",
       "url": "/lu4/npc/21175-lilim-butcher"
     }
   ]

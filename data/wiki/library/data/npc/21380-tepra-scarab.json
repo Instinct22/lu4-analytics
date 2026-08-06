@@ -2,110 +2,128 @@
   "key": "npc:21380",
   "type": "npc",
   "id": 21380,
-  "name": "Lu4 Wiki: NPC Tepra Scarab",
+  "name": "Tepra Scarab",
   "url": "/lu4/npc/21380-tepra-scarab",
-  "source_url": "https://masterwork.wiki/lu4/npc/21380-tepra-scarab",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21380-tepra-scarab",
   "raw_html": "library/raw/lu4/npc/21380-tepra-scarab.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "21 545 / 1 840",
+    "P. Atk. / M. Atk.": "2 050 / 1 412",
+    "P. Def. / M. Def.": "521 / 449",
+    "Accuracy / Evasion": "122 / 133",
+    "Exp / SP": "73 631 / 4 010",
+    "Attack Attribute": "Earth 50",
+    "Defense Attributes": "Fire 20, Water 20, Wind 0, Earth 93, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Greater Bleed Resistance Lv. 4 Highly resistant to Bleed. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. High Lv. Lv. 6 NPC High Level",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 79"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21380",
-      "type": "npc",
-      "id": 21380,
-      "name": "Lu4",
-      "url": "/lu4/npc/21380-tepra-scarab"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4437",
       "type": "skill",
       "id": 4437,
-      "name": "Greater Bleed Resistance Lv. 4 Highly resistant to Bleed.",
-      "url": "/lu4/skill/4437-greater-bleed-resistance/4"
+      "name": "Greater Bleed Resistance",
+      "url": "/lu4/skill/4437-greater-bleed-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 6 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/6"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:32536",
+      "key": "item:57",
       "type": "item",
-      "id": 32536,
-      "name": "Unidentified Branch of the Mother Tree A",
-      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:6691",
+      "type": "item",
+      "id": 6691,
+      "name": "Angel Slayer Blade NG",
+      "url": "/lu4/item/6691-angel-slayer-blade"
+    },
+    {
+      "key": "item:8342",
+      "type": "item",
+      "id": 8342,
+      "name": "Flaming Dragon Skull Piece NG",
+      "url": "/lu4/item/8342-flaming-dragon-skull-piece"
     },
     {
       "key": "item:32440",
@@ -122,34 +140,6 @@
       "url": "/lu4/item/32436-unidentified-flaming-dragon-skull"
     },
     {
-      "key": "item:32332",
-      "type": "item",
-      "id": 32332,
-      "name": "Unidentified Elysian A",
-      "url": "/lu4/item/32332-unidentified-elysian"
-    },
-    {
-      "key": "item:8349",
-      "type": "item",
-      "id": 8349,
-      "name": "Doom Crusher Head NG",
-      "url": "/lu4/item/8349-doom-crusher-head"
-    },
-    {
-      "key": "item:8342",
-      "type": "item",
-      "id": 8342,
-      "name": "Flaming Dragon Skull Piece NG",
-      "url": "/lu4/item/8342-flaming-dragon-skull-piece"
-    },
-    {
-      "key": "item:6691",
-      "type": "item",
-      "id": 6691,
-      "name": "Angel Slayer Blade NG",
-      "url": "/lu4/item/6691-angel-slayer-blade"
-    },
-    {
       "key": "item:5544",
       "type": "item",
       "id": 5544,
@@ -164,18 +154,25 @@
       "url": "/lu4/item/5533-elysian-head"
     },
     {
-      "key": "item:1872",
+      "key": "item:8349",
       "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
+      "id": 8349,
+      "name": "Doom Crusher Head NG",
+      "url": "/lu4/item/8349-doom-crusher-head"
     },
     {
-      "key": "item:1871",
+      "key": "item:32536",
       "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 32536,
+      "name": "Unidentified Branch of the Mother Tree A",
+      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
+    },
+    {
+      "key": "item:32332",
+      "type": "item",
+      "id": 32332,
+      "name": "Unidentified Elysian A",
+      "url": "/lu4/item/32332-unidentified-elysian"
     },
     {
       "key": "item:1870",
@@ -183,6 +180,13 @@
       "id": 1870,
       "name": "Coal NG",
       "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
     },
     {
       "key": "item:1869",
@@ -206,11 +210,11 @@
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:1871",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
     },
     {
       "key": "item:5523",

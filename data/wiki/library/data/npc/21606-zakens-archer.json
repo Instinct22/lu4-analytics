@@ -2,75 +2,93 @@
   "key": "npc:21606",
   "type": "npc",
   "id": 21606,
-  "name": "Lu4 Wiki: NPC Zaken's Archer",
+  "name": "Zaken's Archer",
   "url": "/lu4/npc/21606-zakens-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21606-zakens-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21606-zakens-archer",
   "raw_html": "library/raw/lu4/npc/21606-zakens-archer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 800 / 719",
+    "P. Atk. / M. Atk.": "1 413 / 304",
+    "P. Def. / M. Def.": "148 / 155",
+    "Accuracy / Evasion": "77 / 77",
+    "Exp / SP": "5 818 / 398",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Weak P. Def. Lv. 8 Weak M. Def. Lv. 8 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 44"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21606",
-      "type": "npc",
-      "id": 21606,
-      "name": "Lu4",
-      "url": "/lu4/npc/21606-zakens-archer"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Weak P. Def. Lv. 8",
-      "url": "/lu4/skill/4412-weak-p-def/8"
+      "name": "Weak P. Def.",
+      "url": "/lu4/skill/4412-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:2299",
+      "key": "item:57",
       "type": "item",
-      "id": 2299,
-      "name": "Recipe: Big Hammer NG",
-      "url": "/lu4/item/2299-recipe-big-hammer"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:281",
+      "type": "item",
+      "id": 281,
+      "name": "Crystallized Ice Bow C",
+      "url": "/lu4/item/281-crystallized-ice-bow"
+    },
+    {
+      "key": "item:2074",
+      "type": "item",
+      "id": 2074,
+      "name": "Crystallized Ice Bow Shaft NG",
+      "url": "/lu4/item/2074-crystallized-ice-bow-shaft"
     },
     {
       "key": "item:2209",
@@ -85,13 +103,6 @@
       "id": 2205,
       "name": "Recipe: Chain Gaiters NG",
       "url": "/lu4/item/2205-recipe-chain-gaiters"
-    },
-    {
-      "key": "item:2074",
-      "type": "item",
-      "id": 2074,
-      "name": "Crystallized Ice Bow Shaft NG",
-      "url": "/lu4/item/2074-crystallized-ice-bow-shaft"
     },
     {
       "key": "item:1881",
@@ -122,25 +133,11 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:281",
+      "key": "item:2299",
       "type": "item",
-      "id": 281,
-      "name": "Crystallized Ice Bow C",
-      "url": "/lu4/item/281-crystallized-ice-bow"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:1905",
-      "type": "item",
-      "id": 1905,
-      "name": "Omen Beast's Eye Earring Gemstone NG",
-      "url": "/lu4/item/1905-omen-beasts-eye-earring-gemstone"
+      "id": 2299,
+      "name": "Recipe: Big Hammer NG",
+      "url": "/lu4/item/2299-recipe-big-hammer"
     },
     {
       "key": "item:1874",
@@ -148,6 +145,13 @@
       "id": 1874,
       "name": "Oriharukon Ore NG",
       "url": "/lu4/item/1874-oriharukon-ore"
+    },
+    {
+      "key": "item:1905",
+      "type": "item",
+      "id": 1905,
+      "name": "Omen Beast's Eye Earring Gemstone NG",
+      "url": "/lu4/item/1905-omen-beasts-eye-earring-gemstone"
     }
   ]
 }

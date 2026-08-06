@@ -2,140 +2,88 @@
   "key": "npc:20029",
   "type": "npc",
   "id": 20029,
-  "name": "Lu4 Wiki: NPC Ruin Zombie Leader",
+  "name": "Ruin Zombie Leader",
   "url": "/lu4/npc/20029-ruin-zombie-leader",
-  "source_url": "https://masterwork.wiki/lu4/npc/20029-ruin-zombie-leader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20029-ruin-zombie-leader",
   "raw_html": "library/raw/lu4/npc/20029-ruin-zombie-leader.html",
   "stats": {
-    "Location": "Земли Глудио (+2) Земли Глудио Руины Страданий Озеро Фельмер"
+    "Respawn Time": "15 seconds",
+    "Location": "Земли Глудио (+2) Земли Глудио Руины Страданий Озеро Фельмер",
+    "HP / MP": "427 / 193",
+    "P. Atk. / M. Atk.": "39 / 19",
+    "P. Def. / M. Def.": "98 / 117",
+    "Accuracy / Evasion": "49 / 49",
+    "Exp / SP": "491 / 49",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Very Strong M. Def. Lv. 16 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Bleed Resistance Lv. 5 Resistant to Bleed.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 16"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20029",
-      "type": "npc",
-      "id": 20029,
-      "name": "Lu4",
-      "url": "/lu4/npc/20029-ruin-zombie-leader"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:27",
-      "type": "location",
-      "id": 27,
-      "name": "Руины Страданий",
-      "url": "/lu4/location/27-ruiny-stradanij"
-    },
-    {
-      "key": "location:16",
-      "type": "location",
-      "id": 16,
-      "name": "Озеро Фельмер",
-      "url": "/lu4/location/16-ozero-felmer"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 16",
-      "url": "/lu4/skill/4413-very-strong-m-def/16"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
-    },
-    {
-      "key": "item:5268",
-      "type": "item",
-      "id": 5268,
-      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:2139",
-      "type": "item",
-      "id": 2139,
-      "name": "Recipe: Steel Mold NG",
-      "url": "/lu4/item/2139-recipe-steel-mold"
-    },
-    {
-      "key": "item:2011",
-      "type": "item",
-      "id": 2011,
-      "name": "Short Spear Edge NG",
-      "url": "/lu4/item/2011-short-spear-edge"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "item:57",
@@ -152,11 +100,46 @@
       "url": "/lu4/item/15-short-spear"
     },
     {
-      "key": "item:2013",
+      "key": "item:2011",
       "type": "item",
-      "id": 2013,
-      "name": "Forest Bow Shaft NG",
-      "url": "/lu4/item/2013-forest-bow-shaft"
+      "id": 2011,
+      "name": "Short Spear Edge NG",
+      "url": "/lu4/item/2011-short-spear-edge"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:2139",
+      "type": "item",
+      "id": 2139,
+      "name": "Recipe: Steel Mold NG",
+      "url": "/lu4/item/2139-recipe-steel-mold"
+    },
+    {
+      "key": "item:5268",
+      "type": "item",
+      "id": 5268,
+      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     },
     {
       "key": "item:1897",
@@ -166,11 +149,11 @@
       "url": "/lu4/item/1897-necklace-of-wisdom-chain"
     },
     {
-      "key": "item:1864",
+      "key": "item:2013",
       "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
+      "id": 2013,
+      "name": "Forest Bow Shaft NG",
+      "url": "/lu4/item/2013-forest-bow-shaft"
     }
   ]
 }

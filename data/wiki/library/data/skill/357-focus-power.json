@@ -1,0 +1,37 @@
+{
+  "key": "skill:357",
+  "type": "skill",
+  "id": 357,
+  "name": "Focus Power",
+  "url": "/lu4/skill/357-focus-power",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/357-focus-power",
+  "raw_html": "library/raw/lu4/skill/357-focus-power.html",
+  "stats": {
+    "Effect": "Frontal P. Crit. Damage -15% Side P. Crit. Damage +15% Back P. Crit. Damage +30%.",
+    "Consumes": "30 MP",
+    "Reuse Time": "2 minutes",
+    "Duration": "20 minutes",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "Treasure HunterLv. 60Abyss WalkerLv. 60",
+    "Type": "Physical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:8",
+      "type": "class",
+      "id": 8,
+      "name": "Treasure HunterLv. 60",
+      "url": "/lu4/class/8-treasurehunter"
+    },
+    {
+      "key": "class:36",
+      "type": "class",
+      "id": 36,
+      "name": "Abyss WalkerLv. 60",
+      "url": "/lu4/class/36-abysswalker"
+    }
+  ]
+}

@@ -2,82 +2,37 @@
   "key": "npc:20990",
   "type": "npc",
   "id": 20990,
-  "name": "Lu4 Wiki: NPC Pageos",
+  "name": "Pageos",
   "url": "/lu4/npc/20990-pageos",
-  "source_url": "https://masterwork.wiki/lu4/npc/20990-pageos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20990-pageos",
   "raw_html": "library/raw/lu4/npc/20990-pageos.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 342 / 552",
+    "P. Atk. / M. Atk.": "243 / 118",
+    "P. Def. / M. Def.": "196 / 154",
+    "Accuracy / Evasion": "71 / 76",
+    "Exp / SP": "1 409 / 141",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 38"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20990",
-      "type": "npc",
-      "id": 20990,
-      "name": "Lu4",
-      "url": "/lu4/npc/20990-pageos"
-    },
-    {
-      "key": "location:117",
-      "type": "location",
-      "id": 117,
-      "name": "Шепчущие Поля",
-      "url": "/lu4/location/117-sepcusie-pola"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:2194",
-      "type": "item",
-      "id": 2194,
-      "name": "Recipe: Mithril Gloves NG",
-      "url": "/lu4/item/2194-recipe-mithril-gloves"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2147",
@@ -85,41 +40,6 @@
       "id": 2147,
       "name": "Recipe: Blacksmith's frame NG",
       "url": "/lu4/item/2147-recipe-blacksmiths-frame"
-    },
-    {
-      "key": "item:2054",
-      "type": "item",
-      "id": 2054,
-      "name": "Light Crossbow Shaft NG",
-      "url": "/lu4/item/2054-light-crossbow-shaft"
-    },
-    {
-      "key": "item:2051",
-      "type": "item",
-      "id": 2051,
-      "name": "Staff of Life Shaft NG",
-      "url": "/lu4/item/2051-staff-of-life-shaft"
-    },
-    {
-      "key": "item:2050",
-      "type": "item",
-      "id": 2050,
-      "name": "Ghost Staff Head NG",
-      "url": "/lu4/item/2050-ghost-staff-head"
-    },
-    {
-      "key": "item:1949",
-      "type": "item",
-      "id": 1949,
-      "name": "Mithril Gloves Design NG",
-      "url": "/lu4/item/1949-mithril-gloves-design"
-    },
-    {
-      "key": "item:1906",
-      "type": "item",
-      "id": 1906,
-      "name": "Mithril Ring Wire NG",
-      "url": "/lu4/item/1906-mithril-ring-wire"
     },
     {
       "key": "item:1894",
@@ -157,11 +77,25 @@
       "url": "/lu4/item/1341-bone-arrow"
     },
     {
-      "key": "item:882",
+      "key": "item:2194",
       "type": "item",
-      "id": 882,
-      "name": "Mithril Ring D",
-      "url": "/lu4/item/882-mithril-ring"
+      "id": 2194,
+      "name": "Recipe: Half Plate Gauntlets NG",
+      "url": "/lu4/item/2194-recipe-half-plate-gauntlets"
+    },
+    {
+      "key": "item:280",
+      "type": "item",
+      "id": 280,
+      "name": "Light Crossbow D",
+      "url": "/lu4/item/280-light-crossbow"
+    },
+    {
+      "key": "item:2054",
+      "type": "item",
+      "id": 2054,
+      "name": "Light Crossbow Shaft NG",
+      "url": "/lu4/item/2054-light-crossbow-shaft"
     },
     {
       "key": "item:315",
@@ -171,11 +105,67 @@
       "url": "/lu4/item/315-divine-tome"
     },
     {
-      "key": "item:2985",
+      "key": "item:188",
       "type": "item",
-      "id": 2985,
-      "name": "Recipe: Plate Boots NG",
-      "url": "/lu4/item/2985-recipe-plate-boots"
+      "id": 188,
+      "name": "Ghost Staff D",
+      "url": "/lu4/item/188-ghost-staff"
+    },
+    {
+      "key": "item:2050",
+      "type": "item",
+      "id": 2050,
+      "name": "Ghost Staff Head NG",
+      "url": "/lu4/item/2050-ghost-staff-head"
+    },
+    {
+      "key": "item:189",
+      "type": "item",
+      "id": 189,
+      "name": "Staff of Life D",
+      "url": "/lu4/item/189-staff-of-life"
+    },
+    {
+      "key": "item:2051",
+      "type": "item",
+      "id": 2051,
+      "name": "Staff of Life Shaft NG",
+      "url": "/lu4/item/2051-staff-of-life-shaft"
+    },
+    {
+      "key": "item:61",
+      "type": "item",
+      "id": 61,
+      "name": "Half Plate Gauntlets D",
+      "url": "/lu4/item/61-half-plate-gauntlets"
+    },
+    {
+      "key": "item:1949",
+      "type": "item",
+      "id": 1949,
+      "name": "Half Plate Gauntlets Design NG",
+      "url": "/lu4/item/1949-half-plate-gauntlets-design"
+    },
+    {
+      "key": "item:882",
+      "type": "item",
+      "id": 882,
+      "name": "Mithril Ring D",
+      "url": "/lu4/item/882-mithril-ring"
+    },
+    {
+      "key": "item:1906",
+      "type": "item",
+      "id": 1906,
+      "name": "Mithril Ring Wire NG",
+      "url": "/lu4/item/1906-mithril-ring-wire"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
       "key": "item:2145",
@@ -183,6 +173,13 @@
       "id": 2145,
       "name": "Recipe: Mithril Alloy NG",
       "url": "/lu4/item/2145-recipe-mithril-alloy"
+    },
+    {
+      "key": "item:2985",
+      "type": "item",
+      "id": 2985,
+      "name": "Recipe: Half Plate Boots NG",
+      "url": "/lu4/item/2985-recipe-half-plate-boots"
     },
     {
       "key": "item:2055",

@@ -2,103 +2,86 @@
   "key": "npc:22103",
   "type": "npc",
   "id": 22103,
-  "name": "Lu4 Wiki: NPC Freya's White Bear",
+  "name": "Freya's White Bear",
   "url": "/lu4/npc/22103-freyas-white-bear",
-  "source_url": "https://masterwork.wiki/lu4/npc/22103-freyas-white-bear",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22103-freyas-white-bear",
   "raw_html": "library/raw/lu4/npc/22103-freyas-white-bear.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "179 640 / 1 284",
+    "P. Atk. / M. Atk.": "1 901 / 447",
+    "P. Def. / M. Def.": "653 / 291",
+    "Accuracy / Evasion": "90 / 80",
+    "Exp / SP": "28 039 / 2 266",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (8x) Lv. 16 Extremely Strong P. Atk. Lv. 19 Extremely Strong P. Def. Lv. 18 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. Greater Hold Resistance Lv. 5 Hold Immunity. Greater Sleep Resistance Lv. 5 Sleep Immunity. Spear Resistance Lv. 5 Resistant to spear/pole arm attacks.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 57"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22103",
-      "type": "npc",
-      "id": 22103,
-      "name": "Lu4",
-      "url": "/lu4/npc/22103-freyas-white-bear"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (8x) Lv. 16",
-      "url": "/lu4/skill/4408-hp-increase-8x/16"
+      "name": "HP Increase (8x)",
+      "url": "/lu4/skill/4408-hp-increase-8x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Extremely Strong P. Atk. Lv. 19",
-      "url": "/lu4/skill/4410-extremely-strong-p-atk/19"
+      "name": "Extremely Strong P. Atk.",
+      "url": "/lu4/skill/4410-extremely-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Extremely Strong P. Def. Lv. 18",
-      "url": "/lu4/skill/4412-extremely-strong-p-def/18"
+      "name": "Extremely Strong P. Def.",
+      "url": "/lu4/skill/4412-extremely-strong-p-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 5 Hold Immunity.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/5"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 5 Sleep Immunity.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/5"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "skill:4379",
       "type": "skill",
       "id": 4379,
-      "name": "Spear Resistance Lv. 5 Resistant to spear/pole arm attacks.",
-      "url": "/lu4/skill/4379-spear-resistance/5"
+      "name": "Spear Resistance",
+      "url": "/lu4/skill/4379-spear-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:4065",
-      "type": "item",
-      "id": 4065,
-      "name": "Avadon Gaiters Material NG",
-      "url": "/lu4/item/4065-avadon-gaiters-material"
-    },
-    {
-      "key": "item:4064",
-      "type": "item",
-      "id": 4064,
-      "name": "Avadon Breastplate Part NG",
-      "url": "/lu4/item/4064-avadon-breastplate-part"
-    },
-    {
-      "key": "item:4057",
-      "type": "item",
-      "id": 4057,
-      "name": "Zubei's Gaiter Material NG",
-      "url": "/lu4/item/4057-zubeis-gaiter-material"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4056",
@@ -108,25 +91,25 @@
       "url": "/lu4/item/4056-zubeis-breastplate-part"
     },
     {
-      "key": "item:4041",
+      "key": "item:4057",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 4057,
+      "name": "Zubei's Gaiter Material NG",
+      "url": "/lu4/item/4057-zubeis-gaiter-material"
     },
     {
-      "key": "item:1885",
+      "key": "item:4064",
       "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
+      "id": 4064,
+      "name": "Avadon Breastplate Part NG",
+      "url": "/lu4/item/4064-avadon-breastplate-part"
     },
     {
-      "key": "item:1871",
+      "key": "item:4065",
       "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 4065,
+      "name": "Avadon Gaiters Material NG",
+      "url": "/lu4/item/4065-avadon-gaiters-material"
     },
     {
       "key": "item:1866",
@@ -136,11 +119,32 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:1871",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     }
   ]
 }

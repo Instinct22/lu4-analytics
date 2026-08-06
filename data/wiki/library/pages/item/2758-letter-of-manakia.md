@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Letter of Manakia
+# Letter of Manakia
 
-- Source: https://masterwork.wiki/lu4/item/2758-letter-of-manakia
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2758-letter-of-manakia
 - Path: /lu4/item/2758-letter-of-manakia
 - Type: item
 - Key: item:2758
 
 ## Stats
+- Effect: A letter received from Seer Manakia. Deliver this to Pa'agrio Lord Kakai.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Letter of Manakia
-Lu4
-Eternal
-MasterWork
-Letter of Manakia
-NG
-Quest Item
-A letter received from Seer Manakia. Deliver this to Pa'agrio Lord Kakai.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Testimony of Trust
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Letter of Manakia NG Quest Item A letter received from Seer Manakia. Deliver this to Pa'agrio Lord Kakai. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

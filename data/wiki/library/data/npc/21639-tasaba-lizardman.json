@@ -2,70 +2,67 @@
   "key": "npc:21639",
   "type": "npc",
   "id": 21639,
-  "name": "Lu4 Wiki: NPC Tasaba Lizardman",
+  "name": "Tasaba Lizardman",
   "url": "/lu4/npc/21639-tasaba-lizardman",
-  "source_url": "https://masterwork.wiki/lu4/npc/21639-tasaba-lizardman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21639-tasaba-lizardman",
   "raw_html": "library/raw/lu4/npc/21639-tasaba-lizardman.html",
   "stats": {
-    "Location": "Поля Безмолвия"
+    "Respawn Time": "23 seconds",
+    "Location": "Поля Безмолвия",
+    "HP / MP": "1 272 / 514",
+    "P. Atk. / M. Atk.": "392 / 93",
+    "P. Def. / M. Def.": "188 / 157",
+    "Accuracy / Evasion": "72 / 71",
+    "Exp / SP": "1 362 / 136",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Slightly Weak M. Atk. Lv. 10 Slightly Strong M. Def. Lv. 12 Slightly Strong P. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 36"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21639",
-      "type": "npc",
-      "id": 21639,
-      "name": "Lu4",
-      "url": "/lu4/npc/21639-tasaba-lizardman"
-    },
-    {
-      "key": "location:116",
-      "type": "location",
-      "id": 116,
-      "name": "Поля Безмолвия",
-      "url": "/lu4/location/116-pola-bezmolvia"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
-      "key": "item:5550",
+      "key": "item:57",
       "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5549",
@@ -75,46 +72,11 @@
       "url": "/lu4/item/5549-metallic-thread"
     },
     {
-      "key": "item:2987",
-      "type": "item",
-      "id": 2987,
-      "name": "Recipe: Plate Shield NG",
-      "url": "/lu4/item/2987-recipe-plate-shield"
-    },
-    {
-      "key": "item:2289",
-      "type": "item",
-      "id": 2289,
-      "name": "Recipe: Staff of Life NG",
-      "url": "/lu4/item/2289-recipe-staff-of-life"
-    },
-    {
       "key": "item:2250",
       "type": "item",
       "id": 2250,
       "name": "Recipe: Bone Arrow NG",
       "url": "/lu4/item/2250-recipe-bone-arrow"
-    },
-    {
-      "key": "item:2202",
-      "type": "item",
-      "id": 2202,
-      "name": "Recipe: Assault Boots NG",
-      "url": "/lu4/item/2202-recipe-assault-boots"
-    },
-    {
-      "key": "item:2053",
-      "type": "item",
-      "id": 2053,
-      "name": "Scallop Jamadhr Edge NG",
-      "url": "/lu4/item/2053-scallop-jamadhr-edge"
-    },
-    {
-      "key": "item:1953",
-      "type": "item",
-      "id": 1953,
-      "name": "Sage's Rag Lining NG",
-      "url": "/lu4/item/1953-sages-rag-lining"
     },
     {
       "key": "item:1885",
@@ -138,11 +100,11 @@
       "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:438",
+      "key": "item:5550",
       "type": "item",
-      "id": 438,
-      "name": "Sage's Rag D",
-      "url": "/lu4/item/438-sages-rag"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:315",
@@ -159,11 +121,46 @@
       "url": "/lu4/item/262-scallop-jamadhr"
     },
     {
-      "key": "item:57",
+      "key": "item:2053",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2053,
+      "name": "Scallop Jamadhr Edge NG",
+      "url": "/lu4/item/2053-scallop-jamadhr-edge"
+    },
+    {
+      "key": "item:438",
+      "type": "item",
+      "id": 438,
+      "name": "Sage's Worn Robe D",
+      "url": "/lu4/item/438-sages-worn-robe"
+    },
+    {
+      "key": "item:1953",
+      "type": "item",
+      "id": 1953,
+      "name": "Sage's Worn Robe Lining NG",
+      "url": "/lu4/item/1953-sages-worn-robe-lining"
+    },
+    {
+      "key": "item:2202",
+      "type": "item",
+      "id": 2202,
+      "name": "Recipe: Sage's Worn Boots NG",
+      "url": "/lu4/item/2202-recipe-sages-worn-boots"
+    },
+    {
+      "key": "item:2289",
+      "type": "item",
+      "id": 2289,
+      "name": "Recipe: Staff of Life NG",
+      "url": "/lu4/item/2289-recipe-staff-of-life"
+    },
+    {
+      "key": "item:2987",
+      "type": "item",
+      "id": 2987,
+      "name": "Recipe: Half Plate Shield NG",
+      "url": "/lu4/item/2987-recipe-half-plate-shield"
     },
     {
       "key": "item:6576",

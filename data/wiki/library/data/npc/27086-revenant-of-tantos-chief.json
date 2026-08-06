@@ -2,40 +2,43 @@
   "key": "npc:27086",
   "type": "npc",
   "id": 27086,
-  "name": "Lu4 Wiki: NPC Revenant of Tantos Chief",
+  "name": "Revenant of Tantos Chief",
   "url": "/lu4/npc/27086-revenant-of-tantos-chief",
-  "source_url": "https://masterwork.wiki/lu4/npc/27086-revenant-of-tantos-chief",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27086-revenant-of-tantos-chief",
   "raw_html": "library/raw/lu4/npc/27086-revenant-of-tantos-chief.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 462 / 571",
+    "P. Atk. / M. Atk.": "248 / 153",
+    "P. Def. / M. Def.": "226 / 171",
+    "Accuracy / Evasion": "75 / 74",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Type": "Humanoid, Lv. 39"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:27086",
-      "type": "npc",
-      "id": 27086,
-      "name": "Lu4",
-      "url": "/lu4/npc/27086-revenant-of-tantos-chief"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     }
   ]
 }

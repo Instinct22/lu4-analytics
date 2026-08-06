@@ -2,167 +2,24 @@
   "key": "item:2220",
   "type": "item",
   "id": 2220,
-  "name": "Recipe",
+  "name": "Recipe: Rind Leather Armor",
   "url": "/lu4/item/2220-recipe-rind-leather-armor",
-  "source_url": "https://masterwork.wiki/lu4/item/2220-recipe-rind-leather-armor",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2220-recipe-rind-leather-armor",
   "raw_html": "library/raw/lu4/item/2220-recipe-rind-leather-armor.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Rind Leather Armor'. Requires Create Item - Skill Level 5 (Warsmith Lv. 43). The success rate is 100%.",
+    "NPC Sell Price": "4 830 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "5",
     "MP Consume": "147",
     "Success Rate": "100%",
-    "Result": "Rind Leather Armor C"
+    "Result": "Rind Leather Armor C",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2220",
-      "type": "item",
-      "id": 2220,
-      "name": "Recipe: Rind Leather Armor NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1975",
-      "type": "item",
-      "id": 1975,
-      "name": "Rind Leather Armor Design NG",
-      "amount": "9"
-    },
-    {
-      "key": "item:1894",
-      "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "12.8"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "64"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "64"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "160"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "768"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1895",
-      "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "amount": "16"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "amount": "16"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "1.6"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "20"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "amount": "12"
-    },
-    {
-      "key": "item:1459",
-      "type": "item",
-      "id": 1459,
-      "name": "Crystal (C-Grade) C",
-      "amount": "32"
-    },
-    {
-      "key": "item:2131",
-      "type": "item",
-      "id": 2131,
-      "name": "Gemstone C NG",
-      "amount": "14"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2220",
-      "type": "item",
-      "id": 2220,
-      "name": "Lu4",
-      "url": "/lu4/item/2220-recipe-rind-leather-armor"
-    },
     {
       "key": "item:1975",
       "type": "item",
@@ -272,35 +129,35 @@
       "key": "npc:20561",
       "type": "npc",
       "id": 20561,
-      "name": "Trisalim Tarantula Lv. 46",
+      "name": "Trisalim Tarantula",
       "url": "/lu4/npc/20561-trisalim-tarantula"
     },
     {
       "key": "npc:20559",
       "type": "npc",
       "id": 20559,
-      "name": "Rotting Golem Lv. 44",
+      "name": "Rotting Golem",
       "url": "/lu4/npc/20559-rotting-golem"
     },
     {
       "key": "npc:20658",
       "type": "npc",
       "id": 20658,
-      "name": "Lesser Giant Elder Lv. 65",
+      "name": "Lesser Giant Elder",
       "url": "/lu4/npc/20658-lesser-giant-elder"
     },
     {
       "key": "npc:5009",
       "type": "npc",
       "id": 5009,
-      "name": "Hollow Reaver Lv. 47",
+      "name": "Hollow Reaver",
       "url": "/lu4/npc/5009-hollow-reaver"
     },
     {
       "key": "npc:5006",
       "type": "npc",
       "id": 5006,
-      "name": "Bannerless Fletcher Lv. 45",
+      "name": "Bannerless Fletcher",
       "url": "/lu4/npc/5006-bannerless-fletcher"
     }
   ]

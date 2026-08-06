@@ -2,145 +2,100 @@
   "key": "npc:21083",
   "type": "npc",
   "id": 21083,
-  "name": "Lu4 Wiki: NPC Amon's Spirits",
+  "name": "Amon's Spirits",
   "url": "/lu4/npc/21083-amons-spirits",
-  "source_url": "https://masterwork.wiki/lu4/npc/21083-amons-spirits",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21083-amons-spirits",
   "raw_html": "library/raw/lu4/npc/21083-amons-spirits.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "29 720 / 1 637",
+    "P. Atk. / M. Atk.": "4 015 / 4 222",
+    "P. Def. / M. Def.": "990 / 955",
+    "Accuracy / Evasion": "109 / 109",
+    "Exp / SP": "74 614 / 7 461",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 31, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Lethal Immunity Lv. 1 Not today. Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 73"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21083",
-      "type": "npc",
-      "id": 21083,
-      "name": "Lu4",
-      "url": "/lu4/npc/21083-amons-spirits"
-    },
-    {
-      "key": "location:80",
-      "type": "location",
-      "id": 80,
-      "name": "Башня Дерзости: 11-й этаж",
-      "url": "/lu4/location/80-basna-derzosti-11-j-etaz"
-    },
     {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:32397",
+      "key": "item:57",
       "type": "item",
-      "id": 32397,
-      "name": "Unidentified Sealed Majestic Robe A",
-      "url": "/lu4/item/32397-unidentified-sealed-majestic-robe"
-    },
-    {
-      "key": "item:32394",
-      "type": "item",
-      "id": 32394,
-      "name": "Unidentified Sealed Leather Armor of Nightmare A",
-      "url": "/lu4/item/32394-unidentified-sealed-leather-armor-of-nightmare"
-    },
-    {
-      "key": "item:32343",
-      "type": "item",
-      "id": 32343,
-      "name": "Unidentified Dragon Grinder A",
-      "url": "/lu4/item/32343-unidentified-dragon-grinder"
-    },
-    {
-      "key": "item:5538",
-      "type": "item",
-      "id": 5538,
-      "name": "Dragon Grinder Edge NG",
-      "url": "/lu4/item/5538-dragon-grinder-edge"
-    },
-    {
-      "key": "item:5488",
-      "type": "item",
-      "id": 5488,
-      "name": "Sealed Majestic Robe Fabric NG",
-      "url": "/lu4/item/5488-sealed-majestic-robe-fabric"
-    },
-    {
-      "key": "item:5480",
-      "type": "item",
-      "id": 5480,
-      "name": "Sealed Leather Armor of Nightmare Fabric NG",
-      "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -171,11 +126,53 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:5220",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
+      "key": "item:32343",
+      "type": "item",
+      "id": 32343,
+      "name": "Unidentified Dragon Grinder A",
+      "url": "/lu4/item/32343-unidentified-dragon-grinder"
+    },
+    {
+      "key": "item:5538",
+      "type": "item",
+      "id": 5538,
+      "name": "Dragon Grinder Edge NG",
+      "url": "/lu4/item/5538-dragon-grinder-edge"
+    },
+    {
+      "key": "item:32394",
+      "type": "item",
+      "id": 32394,
+      "name": "Unidentified Sealed Leather Armor of Nightmare A",
+      "url": "/lu4/item/32394-unidentified-sealed-leather-armor-of-nightmare"
+    },
+    {
+      "key": "item:5480",
+      "type": "item",
+      "id": 5480,
+      "name": "Sealed Leather Armor of Nightmare Fabric NG",
+      "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
+    },
+    {
+      "key": "item:32397",
+      "type": "item",
+      "id": 32397,
+      "name": "Unidentified Sealed Majestic Robe A",
+      "url": "/lu4/item/32397-unidentified-sealed-majestic-robe"
+    },
+    {
+      "key": "item:5488",
+      "type": "item",
+      "id": 5488,
+      "name": "Sealed Majestic Robe Fabric NG",
+      "url": "/lu4/item/5488-sealed-majestic-robe-fabric"
     }
   ]
 }

@@ -2,27 +2,24 @@
   "key": "item:1419",
   "type": "item",
   "id": 1419,
-  "name": "Lu4 Wiki: Item Blood Mark",
+  "name": "Blood Mark",
   "url": "/lu4/item/1419-blood-mark",
-  "source_url": "https://masterwork.wiki/lu4/item/1419-blood-mark",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1419-blood-mark",
   "raw_html": "library/raw/lu4/item/1419-blood-mark.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "An item needed to upgrade a clan to level three.",
+    "Weight": "0",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:1419",
-      "type": "item",
-      "id": 1419,
-      "name": "Lu4",
-      "url": "/lu4/item/1419-blood-mark"
-    },
-    {
       "key": "npc:18001",
       "type": "npc",
       "id": 18001,
-      "name": "Blood Queen Lv. 60",
+      "name": "Blood Queen",
       "url": "/lu4/npc/18001-blood-queen"
     }
   ]

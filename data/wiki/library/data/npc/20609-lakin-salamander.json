@@ -2,161 +2,88 @@
   "key": "npc:20609",
   "type": "npc",
   "id": 20609,
-  "name": "Lu4 Wiki: NPC Lakin Salamander",
+  "name": "Lakin Salamander",
   "url": "/lu4/npc/20609-lakin-salamander",
-  "source_url": "https://masterwork.wiki/lu4/npc/20609-lakin-salamander",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20609-lakin-salamander",
   "raw_html": "library/raw/lu4/npc/20609-lakin-salamander.html",
   "stats": {
-    "Location": "Забытый Храм"
+    "Respawn Time": "57 seconds",
+    "Location": "Забытый Храм",
+    "HP / MP": "2 863 / 405",
+    "P. Atk. / M. Atk.": "113 / 57",
+    "P. Def. / M. Def.": "177 / 120",
+    "Accuracy / Evasion": "58 / 68",
+    "Exp / SP": "2 885 / 289",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Fire Resistance Lv. 5 Resistant to Fire attacks. Water Vulnerability Lv. 1 Vulnerable to Water attacks.",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 30"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20609",
-      "type": "npc",
-      "id": 20609,
-      "name": "Lu4",
-      "url": "/lu4/npc/20609-lakin-salamander"
-    },
-    {
-      "key": "location:28",
-      "type": "location",
-      "id": 28,
-      "name": "Забытый Храм",
-      "url": "/lu4/location/28-zabytyj-hram"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4009",
       "type": "skill",
       "id": 4009,
-      "name": "Fire Resistance Lv. 5 Resistant to Fire attacks.",
-      "url": "/lu4/skill/4009-fire-resistance/5"
+      "name": "Fire Resistance",
+      "url": "/lu4/skill/4009-fire-resistance"
     },
     {
       "key": "skill:4280",
       "type": "skill",
       "id": 4280,
-      "name": "Water Vulnerability Lv. 1 Vulnerable to Water attacks.",
-      "url": "/lu4/skill/4280-water-vulnerability/1"
+      "name": "Water Vulnerability",
+      "url": "/lu4/skill/4280-water-vulnerability"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2422",
-      "type": "item",
-      "id": 2422,
-      "name": "Reinforced Leather Boots D",
-      "url": "/lu4/item/2422-reinforced-leather-boots"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:956",
@@ -166,11 +93,32 @@
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     },
     {
-      "key": "item:416",
+      "key": "item:1866",
       "type": "item",
-      "id": 416,
-      "name": "Reinforced Leather Gaiters D",
-      "url": "/lu4/item/416-reinforced-leather-gaiters"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
+    },
+    {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
     },
     {
       "key": "item:296",
@@ -180,11 +128,67 @@
       "url": "/lu4/item/296-dwarven-pike"
     },
     {
-      "key": "item:57",
+      "key": "item:2422",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2422,
+      "name": "Reinforced Leather Boots D",
+      "url": "/lu4/item/2422-reinforced-leather-boots"
+    },
+    {
+      "key": "item:416",
+      "type": "item",
+      "id": 416,
+      "name": "Reinforced Leather Gaiters D",
+      "url": "/lu4/item/416-reinforced-leather-gaiters"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:2280",
@@ -199,13 +203,6 @@
       "id": 2185,
       "name": "Recipe: Iron Boots NG",
       "url": "/lu4/item/2185-recipe-iron-boots"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
     }
   ]
 }

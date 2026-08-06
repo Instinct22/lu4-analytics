@@ -2,41 +2,24 @@
   "key": "item:6927",
   "type": "item",
   "id": 6927,
-  "name": "Recipe",
+  "name": "Recipe: Healing Potion (100%)",
   "url": "/lu4/item/6927-recipe-healing-potion-100",
-  "source_url": "https://masterwork.wiki/lu4/item/6927-recipe-healing-potion-100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/6927-recipe-healing-potion-100",
   "raw_html": "library/raw/lu4/item/6927-recipe-healing-potion-100.html",
   "stats": {
+    "Effect": "Common recipe. Recipe for crafting 'Healing Potion'. Requires Create Common Item - Skill Level 2. The success rate is 100%.",
+    "NPC Sell Price": "33 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "90",
     "Success Rate": "100%",
-    "Result": "Healing Potion NG"
+    "Result": "Healing Potion NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:6908",
-      "type": "item",
-      "id": 6908,
-      "name": "Fish Oil NG",
-      "amount": "2"
-    },
-    {
-      "key": "item:6911",
-      "type": "item",
-      "id": 6911,
-      "name": "Fish Scale NG",
-      "amount": "1"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:6927",
-      "type": "item",
-      "id": 6927,
-      "name": "Lu4",
-      "url": "/lu4/item/6927-recipe-healing-potion-100"
-    },
     {
       "key": "item:6908",
       "type": "item",

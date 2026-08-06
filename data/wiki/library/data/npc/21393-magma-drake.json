@@ -2,110 +2,100 @@
   "key": "npc:21393",
   "type": "npc",
   "id": 21393,
-  "name": "Lu4 Wiki: NPC Magma Drake",
+  "name": "Magma Drake",
   "url": "/lu4/npc/21393-magma-drake",
-  "source_url": "https://masterwork.wiki/lu4/npc/21393-magma-drake",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21393-magma-drake",
   "raw_html": "library/raw/lu4/npc/21393-magma-drake.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "30 933 / 2 091",
+    "P. Atk. / M. Atk.": "2 409 / 1 735",
+    "P. Def. / M. Def.": "886 / 547",
+    "Accuracy / Evasion": "125 / 134",
+    "Exp / SP": "76 163 / 6 780",
+    "Attack Attribute": "Fire 50",
+    "Defense Attributes": "Fire 80, Water -5, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% HP Increase (6x) Lv. 14 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Strong P. Def. Lv. 14 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword High Lv. Lv. 9 NPC High Level",
+    "Grade": "NG",
+    "Type": "Dragon, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21393",
-      "type": "npc",
-      "id": 21393,
-      "name": "Lu4",
-      "url": "/lu4/npc/21393-magma-drake"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 9 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/9"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:32349",
+      "key": "item:57",
       "type": "item",
-      "id": 32349,
-      "name": "Unidentified Tallum Glaive A",
-      "url": "/lu4/item/32349-unidentified-tallum-glaive"
-    },
-    {
-      "key": "item:6726",
-      "type": "item",
-      "id": 6726,
-      "name": "Sealed Tateossian Necklace S",
-      "url": "/lu4/item/6726-sealed-tateossian-necklace"
-    },
-    {
-      "key": "item:6725",
-      "type": "item",
-      "id": 6725,
-      "name": "Sealed Tateossian Ring S",
-      "url": "/lu4/item/6725-sealed-tateossian-ring"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6724",
@@ -115,18 +105,18 @@
       "url": "/lu4/item/6724-sealed-tateossian-earring"
     },
     {
-      "key": "item:6700",
+      "key": "item:6725",
       "type": "item",
-      "id": 6700,
-      "name": "Sealed Tateossian Necklace Chain NG",
-      "url": "/lu4/item/6700-sealed-tateossian-necklace-chain"
+      "id": 6725,
+      "name": "Sealed Tateossian Ring S",
+      "url": "/lu4/item/6725-sealed-tateossian-ring"
     },
     {
-      "key": "item:6699",
+      "key": "item:6726",
       "type": "item",
-      "id": 6699,
-      "name": "Sealed Tateossian Ring Gem NG",
-      "url": "/lu4/item/6699-sealed-tateossian-ring-gem"
+      "id": 6726,
+      "name": "Sealed Tateossian Necklace S",
+      "url": "/lu4/item/6726-sealed-tateossian-necklace"
     },
     {
       "key": "item:6698",
@@ -136,46 +126,32 @@
       "url": "/lu4/item/6698-sealed-tateossian-earring-part"
     },
     {
+      "key": "item:6699",
+      "type": "item",
+      "id": 6699,
+      "name": "Sealed Tateossian Ring Gem NG",
+      "url": "/lu4/item/6699-sealed-tateossian-ring-gem"
+    },
+    {
+      "key": "item:6700",
+      "type": "item",
+      "id": 6700,
+      "name": "Sealed Tateossian Necklace Chain NG",
+      "url": "/lu4/item/6700-sealed-tateossian-necklace-chain"
+    },
+    {
+      "key": "item:32349",
+      "type": "item",
+      "id": 32349,
+      "name": "Unidentified Tallum Glaive A",
+      "url": "/lu4/item/32349-unidentified-tallum-glaive"
+    },
+    {
       "key": "item:5541",
       "type": "item",
       "id": 5541,
       "name": "Tallum Glaive Edge NG",
       "url": "/lu4/item/5541-tallum-glaive-edge"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
     },
     {
       "key": "item:959",
@@ -185,11 +161,39 @@
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:1866",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
       "key": "item:1894",

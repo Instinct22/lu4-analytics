@@ -2,103 +2,58 @@
   "key": "npc:21691",
   "type": "npc",
   "id": 21691,
-  "name": "Lu4 Wiki: NPC Dimension Invader Soldier",
+  "name": "Dimension Invader Soldier",
   "url": "/lu4/npc/21691-dimension-invader-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21691-dimension-invader-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21691-dimension-invader-soldier",
   "raw_html": "library/raw/lu4/npc/21691-dimension-invader-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "4 579 / 589",
+    "P. Atk. / M. Atk.": "239 / 133",
+    "P. Def. / M. Def.": "151 / 164",
+    "Accuracy / Evasion": "73 / 83",
+    "Exp / SP": "5 715 / 369",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 40"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21691",
-      "type": "npc",
-      "id": 21691,
-      "name": "Lu4",
-      "url": "/lu4/npc/21691-dimension-invader-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
-    },
-    {
-      "key": "item:2194",
-      "type": "item",
-      "id": 2194,
-      "name": "Recipe: Mithril Gloves NG",
-      "url": "/lu4/item/2194-recipe-mithril-gloves"
-    },
-    {
-      "key": "item:2040",
-      "type": "item",
-      "id": 2040,
-      "name": "Reinforced Long Bow Shaft NG",
-      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:279",
-      "type": "item",
-      "id": 279,
-      "name": "Reinforced Long Bow D",
-      "url": "/lu4/item/279-reinforced-long-bow"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "item:57",
@@ -108,11 +63,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2157",
+      "key": "item:279",
       "type": "item",
-      "id": 2157,
-      "name": "Recipe: Omen Beast's Eye Earring NG",
-      "url": "/lu4/item/2157-recipe-omen-beasts-eye-earring"
+      "id": 279,
+      "name": "Reinforced Long Bow D",
+      "url": "/lu4/item/279-reinforced-long-bow"
+    },
+    {
+      "key": "item:2040",
+      "type": "item",
+      "id": 2040,
+      "name": "Reinforced Long Bow Shaft NG",
+      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
+      "key": "item:1879",
+      "type": "item",
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
+    },
+    {
+      "key": "item:2194",
+      "type": "item",
+      "id": 2194,
+      "name": "Recipe: Half Plate Gauntlets NG",
+      "url": "/lu4/item/2194-recipe-half-plate-gauntlets"
+    },
+    {
+      "key": "item:1947",
+      "type": "item",
+      "id": 1947,
+      "name": "Kite Shield Fragment NG",
+      "url": "/lu4/item/1947-kite-shield-fragment"
     },
     {
       "key": "item:1948",
@@ -122,11 +126,11 @@
       "url": "/lu4/item/1948-boots-of-power-pattern"
     },
     {
-      "key": "item:1947",
+      "key": "item:2157",
       "type": "item",
-      "id": 1947,
-      "name": "Kite Shield Fragment NG",
-      "url": "/lu4/item/1947-kite-shield-fragment"
+      "id": 2157,
+      "name": "Recipe: Omen Beast's Eye Earring NG",
+      "url": "/lu4/item/2157-recipe-omen-beasts-eye-earring"
     }
   ]
 }

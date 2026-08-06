@@ -2,98 +2,67 @@
   "key": "npc:21135",
   "type": "npc",
   "id": 21135,
-  "name": "Lu4 Wiki: NPC Underground Kobold Warrior",
+  "name": "Underground Kobold Warrior",
   "url": "/lu4/npc/21135-underground-kobold-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/21135-underground-kobold-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21135-underground-kobold-warrior",
   "raw_html": "library/raw/lu4/npc/21135-underground-kobold-warrior.html",
   "stats": {
-    "Location": "Мифриловый Рудник"
+    "Respawn Time": "40 seconds",
+    "Location": "Мифриловый Рудник",
+    "HP / MP": "2 489 / 353",
+    "P. Atk. / M. Atk.": "120 / 52",
+    "P. Def. / M. Def.": "119 / 94",
+    "Accuracy / Evasion": "63 / 62",
+    "Exp / SP": "2 472 / 247",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 27"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21135",
-      "type": "npc",
-      "id": 21135,
-      "name": "Lu4",
-      "url": "/lu4/npc/21135-underground-kobold-warrior"
-    },
-    {
-      "key": "location:65",
-      "type": "location",
-      "id": 65,
-      "name": "Мифриловый Рудник",
-      "url": "/lu4/location/65-mifrilovyj-rudnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:5220",
+      "key": "item:57",
       "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2025",
-      "type": "item",
-      "id": 2025,
-      "name": "Dwarven Trident Edge NG",
-      "url": "/lu4/item/2025-dwarven-trident-edge"
-    },
-    {
-      "key": "item:1900",
-      "type": "item",
-      "id": 1900,
-      "name": "Enchanted Necklace Chain NG",
-      "url": "/lu4/item/1900-enchanted-necklace-chain"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1866",
@@ -103,11 +72,25 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:911",
+      "key": "item:1871",
       "type": "item",
-      "id": 911,
-      "name": "Enchanted Necklace D",
-      "url": "/lu4/item/911-enchanted-necklace"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
+    },
+    {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
     },
     {
       "key": "item:295",
@@ -117,6 +100,13 @@
       "url": "/lu4/item/295-dwarven-trident"
     },
     {
+      "key": "item:2025",
+      "type": "item",
+      "id": 2025,
+      "name": "Dwarven Trident Edge NG",
+      "url": "/lu4/item/2025-dwarven-trident-edge"
+    },
+    {
       "key": "item:259",
       "type": "item",
       "id": 259,
@@ -124,11 +114,18 @@
       "url": "/lu4/item/259-single-edged-jamadhr"
     },
     {
-      "key": "item:57",
+      "key": "item:911",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 911,
+      "name": "Enchanted Necklace D",
+      "url": "/lu4/item/911-enchanted-necklace"
+    },
+    {
+      "key": "item:1900",
+      "type": "item",
+      "id": 1900,
+      "name": "Enchanted Necklace Chain NG",
+      "url": "/lu4/item/1900-enchanted-necklace-chain"
     },
     {
       "key": "item:2026",

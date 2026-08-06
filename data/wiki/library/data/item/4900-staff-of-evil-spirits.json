@@ -2,36 +2,40 @@
   "key": "item:4900",
   "type": "item",
   "id": 4900,
-  "name": "Lu4 Wiki: Item Staff of Evil Spirits",
+  "name": "Staff of Evil Spirits",
   "url": "/lu4/item/4900-staff-of-evil-spirits",
-  "source_url": "https://masterwork.wiki/lu4/item/4900-staff-of-evil-spirits",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/4900-staff-of-evil-spirits",
   "raw_html": "library/raw/lu4/item/4900-staff-of-evil-spirits.html",
   "stats": {
+    "Effect": "<Magic Use Effect> Casts 'Focus' Lv.3 on target with 20% chance.",
+    "P. Atk. / M. Atk.": "189 / 145",
+    "Soulshot / Spiritshot Consume": "1 / 1",
+    "Crystal Amount": "1346 Crystallization Failed Enchant +0 1346 - +1 1413 - +2 1480 - +3 1547 - +4 1681 1008 +5 1815 1142 +6 1949 1276 +7 2083 1410 +8 2217 1544 +9 2351 1678 +10 2485 1812 +11 2619 1946 +12 2753 2080",
+    "NPC Sell Price": "5 045 700 Adena",
+    "Weight": "930",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Item Skills": "Focus Lv. 3 Magic Essence Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Staff of Evil Spirits B",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "B",
+    "Type": "Weapon / Blunt / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:4900",
-      "type": "item",
-      "id": 4900,
-      "name": "Lu4",
-      "url": "/lu4/item/4900-staff-of-evil-spirits"
-    },
-    {
       "key": "skill:1077",
       "type": "skill",
       "id": 1077,
-      "name": "Focus Lv. 3",
-      "url": "/lu4/skill/1077-focus/3"
+      "name": "Focus",
+      "url": "/lu4/skill/1077-focus"
     },
     {
       "key": "skill:24479",
       "type": "skill",
       "id": 24479,
-      "name": "Magic Essence Lv. 1",
-      "url": "/lu4/skill/24479-magic-essence/1"
+      "name": "Magic Essence",
+      "url": "/lu4/skill/24479-magic-essence"
     }
   ]
 }

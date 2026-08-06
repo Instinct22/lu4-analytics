@@ -1,0 +1,43 @@
+{
+  "key": "skill:312",
+  "type": "skill",
+  "id": 312,
+  "name": "Vicious Stance",
+  "url": "/lu4/skill/312-vicious-stance",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/312-vicious-stance",
+  "raw_html": "library/raw/lu4/skill/312-vicious-stance.html",
+  "stats": {
+    "Effect": "Increases Critical Damages by 35. Continuously consumes MP proportionately to the user's level. Just for a Blow skills.",
+    "Consumes": "4 MP",
+    "Reuse Time": "0 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "RogueLv. 20Elven ScoutLv. 20AssassinLv. 20",
+    "Type": "Toggle / Toggle"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:7",
+      "type": "class",
+      "id": 7,
+      "name": "RogueLv. 20",
+      "url": "/lu4/class/7-rogue"
+    },
+    {
+      "key": "class:22",
+      "type": "class",
+      "id": 22,
+      "name": "Elven ScoutLv. 20",
+      "url": "/lu4/class/22-elvenscout"
+    },
+    {
+      "key": "class:35",
+      "type": "class",
+      "id": 35,
+      "name": "AssassinLv. 20",
+      "url": "/lu4/class/35-assasin"
+    }
+  ]
+}

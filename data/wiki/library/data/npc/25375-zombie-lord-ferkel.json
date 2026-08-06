@@ -2,84 +2,81 @@
   "key": "npc:25375",
   "type": "npc",
   "id": 25375,
-  "name": "Lu4 Wiki: NPC Zombie Lord Ferkel",
+  "name": "Zombie Lord Ferkel",
   "url": "/lu4/npc/25375-zombie-lord-ferkel",
-  "source_url": "https://masterwork.wiki/lu4/npc/25375-zombie-lord-ferkel",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25375-zombie-lord-ferkel",
   "raw_html": "library/raw/lu4/npc/25375-zombie-lord-ferkel.html",
   "stats": {
-    "Location": "Эльфийская Крепость"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Эльфийская Крепость",
+    "HP / MP": "87 696 / 8 254",
+    "P. Atk. / M. Atk.": "129 / 6",
+    "P. Def. / M. Def.": "288 / 308",
+    "Accuracy / Evasion": "71 / 71",
+    "Exp / SP": "300 000 / 37 265",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This immortal creature was created by Dark Elven dark magic. During the early days of the war between the Elves and Dark Elves, the Dark Elves found themselves on the defensive. Experimenting with the power of Dark Arts they had embraced, they resurrected a number of slain warriors. Once a brave elven knight, Ferkel became of those revived warriors turned into bloodthirsty undead beasts. He slaughtered countless fellow Elves during the war and even now thirsts for the blood of living beings. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 20"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25375",
-      "type": "npc",
-      "id": 25375,
-      "name": "Lu4",
-      "url": "/lu4/npc/25375-zombie-lord-ferkel"
-    },
-    {
-      "key": "location:114",
-      "type": "location",
-      "id": 114,
-      "name": "Эльфийская Крепость",
-      "url": "/lu4/location/114-elfijskaa-krepost"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4899",
       "type": "skill",
       "id": 4899,
-      "name": "Raid Boss Lv. 1 This immortal creature was created by Dark Elven dark magic. During the early days of the war between the Elves and Dark Elves, the Dark Elves found themselves on the defensive. Experimenting with the power of Dark Arts they had embraced, they resurrected a number of slain warriors. Once a brave elven knight, Ferkel became of those revived warriors turned into bloodthirsty undead beasts. He slaughtered countless fellow Elves during the war and even now thirsts for the blood of living beings.",
-      "url": "/lu4/skill/4899-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4899-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -89,32 +86,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:347",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+      "id": 347,
+      "name": "Ring Mail Breastplate D",
+      "url": "/lu4/item/347-ring-mail-breastplate"
     },
     {
       "key": "item:376",
@@ -124,18 +100,11 @@
       "url": "/lu4/item/376-iron-plate-gaiters"
     },
     {
-      "key": "item:347",
+      "key": "item:156",
       "type": "item",
-      "id": 347,
-      "name": "Ring Mail Breastplate D",
-      "url": "/lu4/item/347-ring-mail-breastplate"
-    },
-    {
-      "key": "item:178",
-      "type": "item",
-      "id": 178,
-      "name": "Bone Staff D",
-      "url": "/lu4/item/178-bone-staff"
+      "id": 156,
+      "name": "Hand Axe D",
+      "url": "/lu4/item/156-hand-axe"
     },
     {
       "key": "item:167",
@@ -145,11 +114,39 @@
       "url": "/lu4/item/167-scalpel"
     },
     {
-      "key": "item:156",
+      "key": "item:178",
       "type": "item",
-      "id": 156,
-      "name": "Hand Axe D",
-      "url": "/lu4/item/156-hand-axe"
+      "id": 178,
+      "name": "Bone Staff D",
+      "url": "/lu4/item/178-bone-staff"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25376",

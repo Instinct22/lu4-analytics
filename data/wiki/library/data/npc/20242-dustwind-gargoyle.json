@@ -2,77 +2,67 @@
   "key": "npc:20242",
   "type": "npc",
   "id": 20242,
-  "name": "Lu4 Wiki: NPC Dustwind Gargoyle",
+  "name": "Dustwind Gargoyle",
   "url": "/lu4/npc/20242-dustwind-gargoyle",
-  "source_url": "https://masterwork.wiki/lu4/npc/20242-dustwind-gargoyle",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20242-dustwind-gargoyle",
   "raw_html": "library/raw/lu4/npc/20242-dustwind-gargoyle.html",
   "stats": {
-    "Location": "Долина Драконов (+1) Долина Драконов Нейтральные Воды"
+    "Respawn Time": "1 minute, 25 seconds",
+    "Location": "Долина Драконов (+1) Долина Драконов Нейтральные Воды",
+    "HP / MP": "15 877 / 1 016",
+    "P. Atk. / M. Atk.": "847 / 343",
+    "P. Def. / M. Def.": "398 / 253",
+    "Accuracy / Evasion": "87 / 87",
+    "Exp / SP": "24 543 / 2 454",
+    "Attack Attribute": "Earth 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 14 Slightly Strong P. Def. Lv. 13 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 54"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20242",
-      "type": "npc",
-      "id": 20242,
-      "name": "Lu4",
-      "url": "/lu4/npc/20242-dustwind-gargoyle"
-    },
-    {
-      "key": "location:12",
-      "type": "location",
-      "id": 12,
-      "name": "Долина Драконов",
-      "url": "/lu4/location/12-dolina-drakonov"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:6574",
+      "key": "item:57",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5270",
@@ -96,25 +86,11 @@
       "url": "/lu4/item/3034-recipe-spiritshot-b"
     },
     {
-      "key": "item:2119",
+      "key": "item:1867",
       "type": "item",
-      "id": 2119,
-      "name": "Crystal Dagger Blade NG",
-      "url": "/lu4/item/2119-crystal-dagger-blade"
-    },
-    {
-      "key": "item:2115",
-      "type": "item",
-      "id": 2115,
-      "name": "Samurai Longsword Blade NG",
-      "url": "/lu4/item/2115-samurai-longsword-blade"
-    },
-    {
-      "key": "item:2112",
-      "type": "item",
-      "id": 2112,
-      "name": "Pa'agrian Axe Blade NG",
-      "url": "/lu4/item/2112-paagrian-axe-blade"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:1881",
@@ -138,11 +114,11 @@
       "url": "/lu4/item/1872-animal-bone"
     },
     {
-      "key": "item:1867",
+      "key": "item:6574",
       "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
     },
     {
       "key": "item:228",
@@ -152,11 +128,25 @@
       "url": "/lu4/item/228-crystal-dagger"
     },
     {
+      "key": "item:2119",
+      "type": "item",
+      "id": 2119,
+      "name": "Crystal Dagger Blade NG",
+      "url": "/lu4/item/2119-crystal-dagger-blade"
+    },
+    {
       "key": "item:203",
       "type": "item",
       "id": 203,
       "name": "Pa'agrian Axe C",
       "url": "/lu4/item/203-paagrian-axe"
+    },
+    {
+      "key": "item:2112",
+      "type": "item",
+      "id": 2112,
+      "name": "Pa'agrian Axe Blade NG",
+      "url": "/lu4/item/2112-paagrian-axe-blade"
     },
     {
       "key": "item:135",
@@ -166,39 +156,11 @@
       "url": "/lu4/item/135-samurai-longsword"
     },
     {
-      "key": "item:57",
+      "key": "item:2115",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:3955",
-      "type": "item",
-      "id": 3955,
-      "name": "Recipe: Blessed Spiritshot B NG",
-      "url": "/lu4/item/3955-recipe-blessed-spiritshot-b"
-    },
-    {
-      "key": "item:2963",
-      "type": "item",
-      "id": 2963,
-      "name": "Full Plate Gauntlets Part NG",
-      "url": "/lu4/item/2963-full-plate-gauntlets-part"
-    },
-    {
-      "key": "item:2122",
-      "type": "item",
-      "id": 2122,
-      "name": "Orcish Poleaxe Blade NG",
-      "url": "/lu4/item/2122-orcish-poleaxe-blade"
-    },
-    {
-      "key": "item:1918",
-      "type": "item",
-      "id": 1918,
-      "name": "Nassen's Earring Gemstone NG",
-      "url": "/lu4/item/1918-nassens-earring-gemstone"
+      "id": 2115,
+      "name": "Samurai Longsword Blade NG",
+      "url": "/lu4/item/2115-samurai-longsword-blade"
     },
     {
       "key": "item:1868",
@@ -208,11 +170,39 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:3955",
+      "type": "item",
+      "id": 3955,
+      "name": "Recipe: Blessed Spiritshot B NG",
+      "url": "/lu4/item/3955-recipe-blessed-spiritshot-b"
+    },
+    {
       "key": "item:952",
       "type": "item",
       "id": 952,
       "name": "Scroll: Enchant Armor (C-Grade) NG",
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:2963",
+      "type": "item",
+      "id": 2963,
+      "name": "Full Plate Gauntlets Part NG",
+      "url": "/lu4/item/2963-full-plate-gauntlets-part"
+    },
+    {
+      "key": "item:1918",
+      "type": "item",
+      "id": 1918,
+      "name": "Nassen's Earring Gemstone NG",
+      "url": "/lu4/item/1918-nassens-earring-gemstone"
+    },
+    {
+      "key": "item:2122",
+      "type": "item",
+      "id": 2122,
+      "name": "Orcish Poleaxe Blade NG",
+      "url": "/lu4/item/2122-orcish-poleaxe-blade"
     }
   ]
 }

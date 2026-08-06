@@ -2,91 +2,95 @@
   "key": "npc:20597",
   "type": "npc",
   "id": 20597,
-  "name": "Lu4 Wiki: NPC Valley Treant Elder",
+  "name": "Valley Treant Elder",
   "url": "/lu4/npc/20597-valley-treant-elder",
-  "source_url": "https://masterwork.wiki/lu4/npc/20597-valley-treant-elder",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20597-valley-treant-elder",
   "raw_html": "library/raw/lu4/npc/20597-valley-treant-elder.html",
   "stats": {
-    "Location": "Волшебная Долина"
+    "Respawn Time": "1 minute, 5 seconds ± 5 seconds",
+    "Location": "Волшебная Долина",
+    "HP / MP": "12 443 / 1 025",
+    "P. Atk. / M. Atk.": "738 / 452",
+    "P. Def. / M. Def.": "386 / 354",
+    "Accuracy / Evasion": "81 / 91",
+    "Exp / SP": "19 977 / 1 998",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 HP Increase (5x) Lv. 13 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Def. Lv. 13 Strong M. Def. Lv. 15 Poison Resistance Lv. 5 Resistant to Poison attack. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Stun Attack Resistance Lv. 5 Resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 53"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20597",
-      "type": "npc",
-      "id": 20597,
-      "name": "Lu4",
-      "url": "/lu4/npc/20597-valley-treant-elder"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 15",
-      "url": "/lu4/skill/4413-strong-m-def/15"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4277",
       "type": "skill",
       "id": 4277,
-      "name": "Poison Resistance Lv. 5 Resistant to Poison attack.",
-      "url": "/lu4/skill/4277-poison-resistance/5"
+      "name": "Poison Resistance",
+      "url": "/lu4/skill/4277-poison-resistance"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:49800",
@@ -110,32 +114,11 @@
       "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:2961",
+      "key": "item:1865",
       "type": "item",
-      "id": 2961,
-      "name": "Full Plate Boots Part NG",
-      "url": "/lu4/item/2961-full-plate-boots-part"
-    },
-    {
-      "key": "item:2958",
-      "type": "item",
-      "id": 2958,
-      "name": "Divine Boots Fabric NG",
-      "url": "/lu4/item/2958-divine-boots-fabric"
-    },
-    {
-      "key": "item:2438",
-      "type": "item",
-      "id": 2438,
-      "name": "Full Plate Boots C",
-      "url": "/lu4/item/2438-full-plate-boots"
-    },
-    {
-      "key": "item:2120",
-      "type": "item",
-      "id": 2120,
-      "name": "Great Pata Blade NG",
-      "url": "/lu4/item/2120-great-pata-blade"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:1879",
@@ -159,18 +142,32 @@
       "url": "/lu4/item/1870-coal"
     },
     {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
       "key": "item:603",
       "type": "item",
       "id": 603,
       "name": "Divine Boots C",
       "url": "/lu4/item/603-divine-boots"
+    },
+    {
+      "key": "item:2958",
+      "type": "item",
+      "id": 2958,
+      "name": "Divine Boots Fabric NG",
+      "url": "/lu4/item/2958-divine-boots-fabric"
+    },
+    {
+      "key": "item:2438",
+      "type": "item",
+      "id": 2438,
+      "name": "Full Plate Boots C",
+      "url": "/lu4/item/2438-full-plate-boots"
+    },
+    {
+      "key": "item:2961",
+      "type": "item",
+      "id": 2961,
+      "name": "Full Plate Boots Part NG",
+      "url": "/lu4/item/2961-full-plate-boots-part"
     },
     {
       "key": "item:266",
@@ -180,18 +177,11 @@
       "url": "/lu4/item/266-great-pata"
     },
     {
-      "key": "item:57",
+      "key": "item:2120",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:8338",
-      "type": "item",
-      "id": 8338,
-      "name": "Axe of Eclipse Head NG",
-      "url": "/lu4/item/8338-axe-of-eclipse-head"
+      "id": 2120,
+      "name": "Great Pata Blade NG",
+      "url": "/lu4/item/2120-great-pata-blade"
     },
     {
       "key": "item:3034",
@@ -220,6 +210,13 @@
       "id": 1987,
       "name": "Drake Leather Armor Texture NG",
       "url": "/lu4/item/1987-drake-leather-armor-texture"
+    },
+    {
+      "key": "item:8338",
+      "type": "item",
+      "id": 8338,
+      "name": "Axe of Eclipse Head NG",
+      "url": "/lu4/item/8338-axe-of-eclipse-head"
     }
   ]
 }

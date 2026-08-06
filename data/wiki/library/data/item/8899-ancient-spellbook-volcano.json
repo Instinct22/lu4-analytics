@@ -2,27 +2,25 @@
   "key": "item:8899",
   "type": "item",
   "id": 8899,
-  "name": "Lu4 Wiki: Item Ancient Spellbook: Volcano",
+  "name": "Ancient Spellbook: Volcano",
   "url": "/lu4/item/8899-ancient-spellbook-volcano",
-  "source_url": "https://masterwork.wiki/lu4/item/8899-ancient-spellbook-volcano",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8899-ancient-spellbook-volcano",
   "raw_html": "library/raw/lu4/item/8899-ancient-spellbook-volcano.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Ancient Spellbook needed to learn Volcano. Can be used by an Archmage.",
+    "NPC Sell Price": "20 000 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8899",
-      "type": "item",
-      "id": 8899,
-      "name": "Lu4",
-      "url": "/lu4/item/8899-ancient-spellbook-volcano"
-    },
-    {
       "key": "npc:22199",
       "type": "npc",
       "id": 22199,
-      "name": "Pterosaur Lv. 80",
+      "name": "Pterosaur",
       "url": "/lu4/npc/22199-pterosaur"
     }
   ]

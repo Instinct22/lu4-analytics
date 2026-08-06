@@ -2,154 +2,88 @@
   "key": "npc:21088",
   "type": "npc",
   "id": 21088,
-  "name": "Lu4 Wiki: NPC Bloody Banshee",
+  "name": "Bloody Banshee",
   "url": "/lu4/npc/21088-bloody-banshee",
-  "source_url": "https://masterwork.wiki/lu4/npc/21088-bloody-banshee",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21088-bloody-banshee",
   "raw_html": "library/raw/lu4/npc/21088-bloody-banshee.html",
   "stats": {
-    "Location": "Логово Антараса"
+    "Respawn Time": "2 minutes, 20 seconds",
+    "Location": "Логово Антараса",
+    "HP / MP": "23 691 / 1 651",
+    "P. Atk. / M. Atk.": "2 432 / 2 028",
+    "P. Def. / M. Def.": "835 / 462",
+    "Accuracy / Evasion": "100 / 100",
+    "Exp / SP": "51 389 / 5 139",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 5, Unholy 40",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 16 Very Strong M. Atk. Lv. 16 Very Strong P. Def. Lv. 16 Slightly Strong M. Def. Lv. 13 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 67"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21088",
-      "type": "npc",
-      "id": 21088,
-      "name": "Lu4",
-      "url": "/lu4/npc/21088-bloody-banshee"
-    },
-    {
-      "key": "location:45",
-      "type": "location",
-      "id": 45,
-      "name": "Логово Антараса",
-      "url": "/lu4/location/45-logovo-antarasa"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Very Strong M. Atk. Lv. 16",
-      "url": "/lu4/skill/4411-very-strong-m-atk/16"
+      "name": "Very Strong M. Atk.",
+      "url": "/lu4/skill/4411-very-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32383",
-      "type": "item",
-      "id": 32383,
-      "name": "Unidentified Sealed Tallum Stockings A",
-      "url": "/lu4/item/32383-unidentified-sealed-tallum-stockings"
-    },
-    {
-      "key": "item:32375",
-      "type": "item",
-      "id": 32375,
-      "name": "Unidentified Sealed Tallum Plate Armor A",
-      "url": "/lu4/item/32375-unidentified-sealed-tallum-plate-armor"
-    },
-    {
-      "key": "item:32337",
-      "type": "item",
-      "id": 32337,
-      "name": "Unidentified Bloody Orchid A",
-      "url": "/lu4/item/32337-unidentified-bloody-orchid"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:5536",
-      "type": "item",
-      "id": 5536,
-      "name": "Bloody Orchid Head NG",
-      "url": "/lu4/item/5536-bloody-orchid-head"
-    },
-    {
-      "key": "item:5521",
-      "type": "item",
-      "id": 5521,
-      "name": "Sealed Tallum Plate Armor Pattern NG",
-      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
-    },
-    {
-      "key": "item:5489",
-      "type": "item",
-      "id": 5489,
-      "name": "Sealed Tallum Stockings Fabric NG",
-      "url": "/lu4/item/5489-sealed-tallum-stockings-fabric"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -180,18 +114,88 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:57",
+      "key": "item:5550",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
-      "key": "item:5535",
+      "key": "item:32337",
       "type": "item",
-      "id": 5535,
-      "name": "Carnage Bow Stave NG",
-      "url": "/lu4/item/5535-carnage-bow-stave"
+      "id": 32337,
+      "name": "Unidentified Bloody Orchid A",
+      "url": "/lu4/item/32337-unidentified-bloody-orchid"
+    },
+    {
+      "key": "item:5536",
+      "type": "item",
+      "id": 5536,
+      "name": "Bloody Orchid Head NG",
+      "url": "/lu4/item/5536-bloody-orchid-head"
+    },
+    {
+      "key": "item:32383",
+      "type": "item",
+      "id": 32383,
+      "name": "Unidentified Sealed Tallum Stockings A",
+      "url": "/lu4/item/32383-unidentified-sealed-tallum-stockings"
+    },
+    {
+      "key": "item:5489",
+      "type": "item",
+      "id": 5489,
+      "name": "Sealed Tallum Stockings Fabric NG",
+      "url": "/lu4/item/5489-sealed-tallum-stockings-fabric"
+    },
+    {
+      "key": "item:32375",
+      "type": "item",
+      "id": 32375,
+      "name": "Unidentified Sealed Tallum Plate Armor A",
+      "url": "/lu4/item/32375-unidentified-sealed-tallum-plate-armor"
+    },
+    {
+      "key": "item:5521",
+      "type": "item",
+      "id": 5521,
+      "name": "Sealed Tallum Plate Armor Pattern NG",
+      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:730",
+      "type": "item",
+      "id": 730,
+      "name": "Scroll: Enchant Armor (A-Grade) NG",
+      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     },
     {
       "key": "item:5458",
@@ -208,18 +212,11 @@
       "url": "/lu4/item/5426-recipe-sealed-dark-crystal-helmet60"
     },
     {
-      "key": "item:4042",
+      "key": "item:5535",
       "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
-    },
-    {
-      "key": "item:730",
-      "type": "item",
-      "id": 730,
-      "name": "Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
+      "id": 5535,
+      "name": "Carnage Bow Stave NG",
+      "url": "/lu4/item/5535-carnage-bow-stave"
     }
   ]
 }

@@ -2,152 +2,65 @@
   "key": "npc:20936",
   "type": "npc",
   "id": 20936,
-  "name": "Lu4 Wiki: NPC Tanor Silenos",
+  "name": "Tanor Silenos",
   "url": "/lu4/npc/20936-tanor-silenos",
-  "source_url": "https://masterwork.wiki/lu4/npc/20936-tanor-silenos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20936-tanor-silenos",
   "raw_html": "library/raw/lu4/npc/20936-tanor-silenos.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 526 / 589",
+    "P. Atk. / M. Atk.": "315 / 167",
+    "P. Def. / M. Def.": "178 / 140",
+    "Accuracy / Evasion": "76 / 75",
+    "Exp / SP": "1 625 / 163",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 9",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 40"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20936",
-      "type": "npc",
-      "id": 20936,
-      "name": "Lu4",
-      "url": "/lu4/npc/20936-tanor-silenos"
-    },
-    {
-      "key": "location:57",
-      "type": "location",
-      "id": 57,
-      "name": "Каньон Танор",
-      "url": "/lu4/location/57-kanon-tanor"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:4917",
-      "type": "item",
-      "id": 4917,
-      "name": "Spellbook: Aura Bolt NG",
-      "url": "/lu4/item/4917-spellbook-aura-bolt"
-    },
-    {
-      "key": "item:3081",
-      "type": "item",
-      "id": 3081,
-      "name": "Spellbook: Aura Flare NG",
-      "url": "/lu4/item/3081-spellbook-aura-flare"
-    },
-    {
-      "key": "item:3063",
-      "type": "item",
-      "id": 3063,
-      "name": "Spellbook: Anchor NG",
-      "url": "/lu4/item/3063-spellbook-anchor"
-    },
-    {
-      "key": "item:2946",
-      "type": "item",
-      "id": 2946,
-      "name": "Plate Leather Gloves Design NG",
-      "url": "/lu4/item/2946-plate-leather-gloves-design"
-    },
-    {
-      "key": "item:2935",
-      "type": "item",
-      "id": 2935,
-      "name": "Reinforced Mithril Gaiters Fragment NG",
-      "url": "/lu4/item/2935-reinforced-mithril-gaiters-fragment"
-    },
-    {
-      "key": "item:2455",
-      "type": "item",
-      "id": 2455,
-      "name": "Plated Leather Gloves C",
-      "url": "/lu4/item/2455-plated-leather-gloves"
-    },
-    {
-      "key": "item:2387",
-      "type": "item",
-      "id": 2387,
-      "name": "Reinforced Mithril Gaiters C",
-      "url": "/lu4/item/2387-reinforced-mithril-gaiters"
-    },
-    {
-      "key": "item:2072",
-      "type": "item",
-      "id": 2072,
-      "name": "Dark Elven Dagger Edge NG",
-      "url": "/lu4/item/2072-dark-elven-dagger-edge"
-    },
-    {
-      "key": "item:1967",
-      "type": "item",
-      "id": 1967,
-      "name": "Plated Leather Gaiters Material NG",
-      "url": "/lu4/item/1967-plated-leather-gaiters-material"
-    },
-    {
-      "key": "item:1966",
-      "type": "item",
-      "id": 1966,
-      "name": "Plated Leather Shirt Fragment NG",
-      "url": "/lu4/item/1966-plated-leather-shirt-fragment"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1879",
@@ -178,18 +91,18 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:1412",
+      "key": "item:232",
       "type": "item",
-      "id": 1412,
-      "name": "Spellbook: Resist Aqua NG",
-      "url": "/lu4/item/1412-spellbook-resist-aqua"
+      "id": 232,
+      "name": "Dark Elven Dagger C",
+      "url": "/lu4/item/232-dark-elven-dagger"
     },
     {
-      "key": "item:418",
+      "key": "item:2072",
       "type": "item",
-      "id": 418,
-      "name": "Plated Leather Gaiters C",
-      "url": "/lu4/item/418-plated-leather-gaiters"
+      "id": 2072,
+      "name": "Dark Elven Dagger Edge NG",
+      "url": "/lu4/item/2072-dark-elven-dagger-edge"
     },
     {
       "key": "item:398",
@@ -199,11 +112,88 @@
       "url": "/lu4/item/398-plated-leather-shirt"
     },
     {
-      "key": "item:2307",
+      "key": "item:1966",
       "type": "item",
-      "id": 2307,
-      "name": "Recipe: Heavy Doom Axe NG",
-      "url": "/lu4/item/2307-recipe-heavy-doom-axe"
+      "id": 1966,
+      "name": "Plated Leather Shirt Fragment NG",
+      "url": "/lu4/item/1966-plated-leather-shirt-fragment"
+    },
+    {
+      "key": "item:418",
+      "type": "item",
+      "id": 418,
+      "name": "Plated Leather Gaiters C",
+      "url": "/lu4/item/418-plated-leather-gaiters"
+    },
+    {
+      "key": "item:1967",
+      "type": "item",
+      "id": 1967,
+      "name": "Plated Leather Gaiters Material NG",
+      "url": "/lu4/item/1967-plated-leather-gaiters-material"
+    },
+    {
+      "key": "item:2387",
+      "type": "item",
+      "id": 2387,
+      "name": "Reinforced Mithril Gaiters C",
+      "url": "/lu4/item/2387-reinforced-mithril-gaiters"
+    },
+    {
+      "key": "item:2935",
+      "type": "item",
+      "id": 2935,
+      "name": "Reinforced Mithril Gaiters Fragment NG",
+      "url": "/lu4/item/2935-reinforced-mithril-gaiters-fragment"
+    },
+    {
+      "key": "item:2455",
+      "type": "item",
+      "id": 2455,
+      "name": "Plated Leather Gloves C",
+      "url": "/lu4/item/2455-plated-leather-gloves"
+    },
+    {
+      "key": "item:2946",
+      "type": "item",
+      "id": 2946,
+      "name": "Plate Leather Gloves Design NG",
+      "url": "/lu4/item/2946-plate-leather-gloves-design"
+    },
+    {
+      "key": "item:3063",
+      "type": "item",
+      "id": 3063,
+      "name": "Spellbook: Anchor NG",
+      "url": "/lu4/item/3063-spellbook-anchor"
+    },
+    {
+      "key": "item:1412",
+      "type": "item",
+      "id": 1412,
+      "name": "Spellbook: Resist Aqua NG",
+      "url": "/lu4/item/1412-spellbook-resist-aqua"
+    },
+    {
+      "key": "item:4917",
+      "type": "item",
+      "id": 4917,
+      "name": "Spellbook: Aura Bolt NG",
+      "url": "/lu4/item/4917-spellbook-aura-bolt"
+    },
+    {
+      "key": "item:3081",
+      "type": "item",
+      "id": 3081,
+      "name": "Spellbook: Aura Flare NG",
+      "url": "/lu4/item/3081-spellbook-aura-flare"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
     },
     {
       "key": "item:1874",
@@ -211,6 +201,13 @@
       "id": 1874,
       "name": "Oriharukon Ore NG",
       "url": "/lu4/item/1874-oriharukon-ore"
+    },
+    {
+      "key": "item:2307",
+      "type": "item",
+      "id": 2307,
+      "name": "Recipe: Heavy Doom Axe NG",
+      "url": "/lu4/item/2307-recipe-heavy-doom-axe"
     }
   ]
 }

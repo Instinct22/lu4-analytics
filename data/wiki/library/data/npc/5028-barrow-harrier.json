@@ -2,168 +2,116 @@
   "key": "npc:5028",
   "type": "npc",
   "id": 5028,
-  "name": "Lu4 Wiki: NPC Barrow Harrier",
+  "name": "Barrow Harrier",
   "url": "/lu4/npc/5028-barrow-harrier",
-  "source_url": "https://masterwork.wiki/lu4/npc/5028-barrow-harrier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5028-barrow-harrier",
   "raw_html": "library/raw/lu4/npc/5028-barrow-harrier.html",
   "stats": {
-    "Location": "Кладбище (+2) Кладбище Земли Адена Равнины Неистовства"
+    "Respawn Time": "3 minutes, 30 seconds ± 20 seconds",
+    "Location": "Кладбище (+2) Кладбище Земли Адена Равнины Неистовства",
+    "HP / MP": "24 086 / 1 110",
+    "P. Atk. / M. Atk.": "7 566 / 1 401",
+    "P. Def. / M. Def.": "699 / 594",
+    "Accuracy / Evasion": "97 / 97",
+    "Exp / SP": "52 022 / 5 202",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets. Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 64"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5028",
-      "type": "npc",
-      "id": 5028,
-      "name": "Lu4",
-      "url": "/lu4/npc/5028-barrow-harrier"
-    },
-    {
-      "key": "location:71",
-      "type": "location",
-      "id": 71,
-      "name": "Кладбище",
-      "url": "/lu4/location/71-kladbise"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:32432",
+      "key": "item:57",
       "type": "item",
-      "id": 32432,
-      "name": "Unidentified Wizard's Tear B",
-      "url": "/lu4/item/32432-unidentified-wizards-tear"
-    },
-    {
-      "key": "item:32404",
-      "type": "item",
-      "id": 32404,
-      "name": "Unidentified Sealed Blue Wolf Boots B",
-      "url": "/lu4/item/32404-unidentified-sealed-blue-wolf-boots"
-    },
-    {
-      "key": "item:8336",
-      "type": "item",
-      "id": 8336,
-      "name": "Blade of the Wizard's Tear NG",
-      "url": "/lu4/item/8336-blade-of-the-wizards-tear"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:4090",
-      "type": "item",
-      "id": 4090,
-      "name": "Sealed Blue Wolf Boots Design NG",
-      "url": "/lu4/item/4090-sealed-blue-wolf-boots-design"
-    },
-    {
-      "key": "item:4052",
-      "type": "item",
-      "id": 4052,
-      "name": "Earring of Black Ore Piece NG",
-      "url": "/lu4/item/4052-earring-of-black-ore-piece"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -171,13 +119,6 @@
       "id": 4043,
       "name": "Asofe NG",
       "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:3956",
-      "type": "item",
-      "id": 3956,
-      "name": "Recipe: Blessed Spiritshot A NG",
-      "url": "/lu4/item/3956-recipe-blessed-spiritshot-a"
     },
     {
       "key": "item:1880",
@@ -208,6 +149,20 @@
       "url": "/lu4/item/1343-silver-arrow"
     },
     {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
+    },
+    {
+      "key": "item:3956",
+      "type": "item",
+      "id": 3956,
+      "name": "Recipe: Blessed Spiritshot A NG",
+      "url": "/lu4/item/3956-recipe-blessed-spiritshot-a"
+    },
+    {
       "key": "item:864",
       "type": "item",
       "id": 864,
@@ -215,11 +170,39 @@
       "url": "/lu4/item/864-earring-of-black-ore"
     },
     {
-      "key": "item:57",
+      "key": "item:4052",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4052,
+      "name": "Earring of Black Ore Piece NG",
+      "url": "/lu4/item/4052-earring-of-black-ore-piece"
+    },
+    {
+      "key": "item:32404",
+      "type": "item",
+      "id": 32404,
+      "name": "Unidentified Sealed Blue Wolf Boots B",
+      "url": "/lu4/item/32404-unidentified-sealed-blue-wolf-boots"
+    },
+    {
+      "key": "item:4090",
+      "type": "item",
+      "id": 4090,
+      "name": "Sealed Blue Wolf Boots Design NG",
+      "url": "/lu4/item/4090-sealed-blue-wolf-boots-design"
+    },
+    {
+      "key": "item:32432",
+      "type": "item",
+      "id": 32432,
+      "name": "Unidentified Wizard's Tear B",
+      "url": "/lu4/item/32432-unidentified-wizards-tear"
+    },
+    {
+      "key": "item:8336",
+      "type": "item",
+      "id": 8336,
+      "name": "Blade of the Wizard's Tear NG",
+      "url": "/lu4/item/8336-blade-of-the-wizards-tear"
     },
     {
       "key": "item:947",

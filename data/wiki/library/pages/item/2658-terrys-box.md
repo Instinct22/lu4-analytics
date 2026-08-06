@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Terry&#039;s Box
+# Terry's Box
 
-- Source: https://masterwork.wiki/lu4/item/2658-terrys-box
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2658-terrys-box
 - Path: /lu4/item/2658-terrys-box
 - Type: item
 - Key: item:2658
 
 ## Stats
+- Effect: A chest containing the mysterious Spirit Ore. Take this to Trader Viktor of the Hunters Village.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Terry&#039;s Box
-Lu4
-Eternal
-MasterWork
-Terry's Box
-NG
-Quest Item
-A chest containing the mysterious Spirit Ore. Take this to Trader Viktor of the Hunters Village.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Trial of the Seeker
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Terry's Box NG Quest Item A chest containing the mysterious Spirit Ore. Take this to Trader Viktor of the Hunters Village. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

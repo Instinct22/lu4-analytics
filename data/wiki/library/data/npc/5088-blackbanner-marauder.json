@@ -2,119 +2,74 @@
   "key": "npc:5088",
   "type": "npc",
   "id": 5088,
-  "name": "Lu4 Wiki: NPC Blackbanner Marauder",
+  "name": "Blackbanner Marauder",
   "url": "/lu4/npc/5088-blackbanner-marauder",
-  "source_url": "https://masterwork.wiki/lu4/npc/5088-blackbanner-marauder",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5088-blackbanner-marauder",
   "raw_html": "library/raw/lu4/npc/5088-blackbanner-marauder.html",
   "stats": {
-    "Location": "Земли Адена"
+    "Respawn Time": "35 seconds ± 5 seconds",
+    "Location": "Земли Адена",
+    "HP / MP": "5 622 / 1 110",
+    "P. Atk. / M. Atk.": "687 / 406",
+    "P. Def. / M. Def.": "360 / 306",
+    "Accuracy / Evasion": "93 / 92",
+    "Exp / SP": "6 114 / 611",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Grumpy Lv. 1 Strikes without warning. HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong M. Def. Lv. 12 Slightly Strong P. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 57"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5088",
-      "type": "npc",
-      "id": 5088,
-      "name": "Lu4",
-      "url": "/lu4/npc/5088-blackbanner-marauder"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32402",
-      "type": "item",
-      "id": 32402,
-      "name": "Unidentified Sealed Zubei's Boots B",
-      "url": "/lu4/item/32402-unidentified-sealed-zubeis-boots"
-    },
-    {
-      "key": "item:32335",
-      "type": "item",
-      "id": 32335,
-      "name": "Unidentified Kris B",
-      "url": "/lu4/item/32335-unidentified-kris"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
-    },
-    {
-      "key": "item:4109",
-      "type": "item",
-      "id": 4109,
-      "name": "Kris Edge NG",
-      "url": "/lu4/item/4109-kris-edge"
-    },
-    {
-      "key": "item:4097",
-      "type": "item",
-      "id": 4097,
-      "name": "Sealed Zubei's Boots Design NG",
-      "url": "/lu4/item/4097-sealed-zubeis-boots-design"
-    },
-    {
-      "key": "item:4051",
-      "type": "item",
-      "id": 4051,
-      "name": "Adamantite Necklace Chain NG",
-      "url": "/lu4/item/4051-adamantite-necklace-chain"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4040",
@@ -152,6 +107,20 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:6571",
+      "type": "item",
+      "id": 6571,
+      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
+    },
+    {
       "key": "item:918",
       "type": "item",
       "id": 918,
@@ -159,18 +128,46 @@
       "url": "/lu4/item/918-adamantite-necklace"
     },
     {
-      "key": "item:57",
+      "key": "item:4051",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4051,
+      "name": "Adamantite Necklace Chain NG",
+      "url": "/lu4/item/4051-adamantite-necklace-chain"
     },
     {
-      "key": "item:4951",
+      "key": "item:32335",
       "type": "item",
-      "id": 4951,
-      "name": "Recipe: Avadon Robe (60%) NG",
-      "url": "/lu4/item/4951-recipe-avadon-robe-60"
+      "id": 32335,
+      "name": "Unidentified Kris B",
+      "url": "/lu4/item/32335-unidentified-kris"
+    },
+    {
+      "key": "item:4109",
+      "type": "item",
+      "id": 4109,
+      "name": "Kris Edge NG",
+      "url": "/lu4/item/4109-kris-edge"
+    },
+    {
+      "key": "item:32402",
+      "type": "item",
+      "id": 32402,
+      "name": "Unidentified Sealed Zubei's Boots B",
+      "url": "/lu4/item/32402-unidentified-sealed-zubeis-boots"
+    },
+    {
+      "key": "item:4097",
+      "type": "item",
+      "id": 4097,
+      "name": "Sealed Zubei's Boots Design NG",
+      "url": "/lu4/item/4097-sealed-zubeis-boots-design"
+    },
+    {
+      "key": "item:3955",
+      "type": "item",
+      "id": 3955,
+      "name": "Recipe: Blessed Spiritshot B NG",
+      "url": "/lu4/item/3955-recipe-blessed-spiritshot-b"
     },
     {
       "key": "item:4945",
@@ -180,11 +177,11 @@
       "url": "/lu4/item/4945-recipe-avadon-gaiters-60"
     },
     {
-      "key": "item:3955",
+      "key": "item:4951",
       "type": "item",
-      "id": 3955,
-      "name": "Recipe: Blessed Spiritshot B NG",
-      "url": "/lu4/item/3955-recipe-blessed-spiritshot-b"
+      "id": 4951,
+      "name": "Recipe: Avadon Robe (60%) NG",
+      "url": "/lu4/item/4951-recipe-avadon-robe-60"
     }
   ]
 }

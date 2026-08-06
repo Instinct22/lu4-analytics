@@ -2,112 +2,130 @@
   "key": "npc:5034",
   "type": "npc",
   "id": 5034,
-  "name": "Lu4 Wiki: NPC Abyssal Gatecaller",
+  "name": "Abyssal Gatecaller",
   "url": "/lu4/npc/5034-abyssal-gatecaller",
-  "source_url": "https://masterwork.wiki/lu4/npc/5034-abyssal-gatecaller",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5034-abyssal-gatecaller",
   "raw_html": "library/raw/lu4/npc/5034-abyssal-gatecaller.html",
   "stats": {
-    "Location": "Запретные Врата"
+    "Respawn Time": "35 seconds ± 5 seconds",
+    "Location": "Запретные Врата",
+    "HP / MP": "7 527 / 1 110",
+    "P. Atk. / M. Atk.": "1 274 / 1 337",
+    "P. Def. / M. Def.": "415 / 463",
+    "Accuracy / Evasion": "99 / 99",
+    "Exp / SP": "10 188 / 1 019",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Grumpy Lv. 1 Strikes without warning. HP Increase (2x) Lv. 10 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 13 Hold Resistance Lv. 3 Slightly resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 66"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5034",
-      "type": "npc",
-      "id": 5034,
-      "name": "Lu4",
-      "url": "/lu4/npc/5034-abyssal-gatecaller"
-    },
-    {
-      "key": "location:75",
-      "type": "location",
-      "id": 75,
-      "name": "Запретные Врата",
-      "url": "/lu4/location/75-zapretnye-vrata"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
-      "key": "item:39385",
+      "key": "item:57",
       "type": "item",
-      "id": 39385,
-      "name": "Spellbook: Mudslide NG",
-      "url": "/lu4/item/39385-spellbook-mudslide"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:32535",
+      "key": "item:1877",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
     },
     {
-      "key": "item:32378",
+      "key": "item:1871",
       "type": "item",
-      "id": 32378,
-      "name": "Unidentified Sealed Tallum Boots A",
-      "url": "/lu4/item/32378-unidentified-sealed-tallum-boots"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
     },
     {
-      "key": "item:10588",
+      "key": "item:1866",
       "type": "item",
-      "id": 10588,
-      "name": "Spellbook: Thorn Root NG",
-      "url": "/lu4/item/10588-spellbook-thorn-root"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:10575",
+      "key": "item:4040",
       "type": "item",
-      "id": 10575,
-      "name": "Spellbook: Vampiric Mist NG",
-      "url": "/lu4/item/10575-spellbook-vampiric-mist"
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:1830",
+      "type": "item",
+      "id": 1830,
+      "name": "Scroll of Escape: Castle NG",
+      "url": "/lu4/item/1830-scroll-of-escape-castle"
+    },
+    {
+      "key": "item:1344",
+      "type": "item",
+      "id": 1344,
+      "name": "Mithril Arrow A",
+      "url": "/lu4/item/1344-mithril-arrow"
     },
     {
       "key": "item:6570",
@@ -117,11 +135,25 @@
       "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
     },
     {
+      "key": "item:32535",
+      "type": "item",
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+    },
+    {
       "key": "item:5543",
       "type": "item",
       "id": 5543,
       "name": "Dasparion's Staff Head NG",
       "url": "/lu4/item/5543-dasparions-staff-head"
+    },
+    {
+      "key": "item:32378",
+      "type": "item",
+      "id": 32378,
+      "name": "Unidentified Sealed Tallum Boots A",
+      "url": "/lu4/item/32378-unidentified-sealed-tallum-boots"
     },
     {
       "key": "item:5497",
@@ -159,81 +191,32 @@
       "url": "/lu4/item/4932-spellbook-inferno"
     },
     {
-      "key": "item:4041",
+      "key": "item:39385",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 39385,
+      "name": "Spellbook: Mudslide NG",
+      "url": "/lu4/item/39385-spellbook-mudslide"
     },
     {
-      "key": "item:4040",
+      "key": "item:10588",
       "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
+      "id": 10588,
+      "name": "Spellbook: Thorn Root NG",
+      "url": "/lu4/item/10588-spellbook-thorn-root"
     },
     {
-      "key": "item:1877",
+      "key": "item:10575",
       "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
+      "id": 10575,
+      "name": "Spellbook: Vampiric Mist NG",
+      "url": "/lu4/item/10575-spellbook-vampiric-mist"
     },
     {
-      "key": "item:1871",
+      "key": "item:729",
       "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1830",
-      "type": "item",
-      "id": 1830,
-      "name": "Scroll of Escape: Castle NG",
-      "url": "/lu4/item/1830-scroll-of-escape-castle"
-    },
-    {
-      "key": "item:1344",
-      "type": "item",
-      "id": 1344,
-      "name": "Mithril Arrow A",
-      "url": "/lu4/item/1344-mithril-arrow"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:8331",
-      "type": "item",
-      "id": 8331,
-      "name": "Infernal Master Blade NG",
-      "url": "/lu4/item/8331-infernal-master-blade"
-    },
-    {
-      "key": "item:5536",
-      "type": "item",
-      "id": 5536,
-      "name": "Bloody Orchid Head NG",
-      "url": "/lu4/item/5536-bloody-orchid-head"
-    },
-    {
-      "key": "item:5478",
-      "type": "item",
-      "id": 5478,
-      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
-      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
+      "id": 729,
+      "name": "Scroll: Enchant Weapon (A-Grade) NG",
+      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     },
     {
       "key": "item:5438",
@@ -250,11 +233,25 @@
       "url": "/lu4/item/5334-recipe-sealed-tallum-leather-armor60"
     },
     {
-      "key": "item:729",
+      "key": "item:5536",
       "type": "item",
-      "id": 729,
-      "name": "Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
+      "id": 5536,
+      "name": "Bloody Orchid Head NG",
+      "url": "/lu4/item/5536-bloody-orchid-head"
+    },
+    {
+      "key": "item:8331",
+      "type": "item",
+      "id": 8331,
+      "name": "Infernal Master Blade NG",
+      "url": "/lu4/item/8331-infernal-master-blade"
+    },
+    {
+      "key": "item:5478",
+      "type": "item",
+      "id": 5478,
+      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
+      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
     }
   ]
 }

@@ -2,24 +2,27 @@
   "key": "item:281",
   "type": "item",
   "id": 281,
-  "name": "Lu4 Wiki: Item Crystallized Ice Bow",
+  "name": "Crystallized Ice Bow",
   "url": "/lu4/item/281-crystallized-ice-bow",
-  "source_url": "https://masterwork.wiki/lu4/item/281-crystallized-ice-bow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/281-crystallized-ice-bow",
   "raw_html": "library/raw/lu4/item/281-crystallized-ice-bow.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Guidance: Accuracy +6. Quick Recovery: Bow Reuse Delay -16.8%. Cheap Shot: Consumption MP for Physical skills -12%.",
+    "P. Atk. / M. Atk.": "220 / 61",
+    "Soulshot / Spiritshot Consume": "5 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "1790",
+    "P. Crit. Rate.": "12",
+    "Accuracy": "-4",
     "Recipes": "Recipe: Crystallized Ice Bow NG",
     "Soul Crystals": "Crystallized Ice Bow Guidance C Crystallized Ice Bow C Gemstone C NG (97 pcs.) Red Soul Crystal - Stage 5 NG Crystallized Ice Bow Cheap Shot C Crystallized Ice Bow C Gemstone C NG (97 pcs.) Green Soul Crystal - Stage 5 NG Crystallized Ice Bow Quick Recovery C Crystallized Ice Bow C Gemstone C NG (97 pcs.) Blue Soul Crystal - Stage 5 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Bow / Two-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:281",
-      "type": "item",
-      "id": 281,
-      "name": "Lu4",
-      "url": "/lu4/item/281-crystallized-ice-bow"
-    },
     {
       "key": "item:2312",
       "type": "item",
@@ -77,101 +80,108 @@
       "url": "/lu4/item/4656-blue-soul-crystal-stage-5"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25506",
       "type": "npc",
       "id": 25506,
-      "name": "Rayito the Looter Lv. 37",
+      "name": "Rayito the Looter",
       "url": "/lu4/npc/25506-rayito-the-looter"
     },
     {
       "key": "npc:25134",
       "type": "npc",
       "id": 25134,
-      "name": "Leto Chief Talkin Lv. 40",
+      "name": "Leto Chief Talkin",
       "url": "/lu4/npc/25134-leto-chief-talkin"
     },
     {
       "key": "npc:21696",
       "type": "npc",
       "id": 21696,
-      "name": "Dimension Invader Elite Soldier Lv. 45",
+      "name": "Dimension Invader Elite Soldier",
       "url": "/lu4/npc/21696-dimension-invader-elite-soldier"
     },
     {
       "key": "npc:21688",
       "type": "npc",
       "id": 21688,
-      "name": "Dimension Invader Magus Lv. 45",
+      "name": "Dimension Invader Magus",
       "url": "/lu4/npc/21688-dimension-invader-magus"
     },
     {
       "key": "npc:21606",
       "type": "npc",
       "id": 21606,
-      "name": "Zaken's Archer Lv. 44",
+      "name": "Zaken's Archer",
       "url": "/lu4/npc/21606-zakens-archer"
     },
     {
       "key": "npc:21605",
       "type": "npc",
       "id": 21605,
-      "name": "Zaken's Archer Lv. 44",
+      "name": "Zaken's Archer",
       "url": "/lu4/npc/21605-zakens-archer"
     },
     {
       "key": "npc:21195",
       "type": "npc",
       "id": 21195,
-      "name": "Gigant Commander Lv. 45",
+      "name": "Gigant Commander",
       "url": "/lu4/npc/21195-gigant-commander"
     },
     {
       "key": "npc:21174",
       "type": "npc",
       "id": 21174,
-      "name": "Lith Commander Lv. 45",
+      "name": "Lith Commander",
       "url": "/lu4/npc/21174-lith-commander"
     },
     {
       "key": "npc:21148",
       "type": "npc",
       "id": 21148,
-      "name": "Catacomb Liviona Lv. 44",
+      "name": "Catacomb Liviona",
       "url": "/lu4/npc/21148-catacomb-liviona"
     },
     {
       "key": "npc:20937",
       "type": "npc",
       "id": 20937,
-      "name": "Tanor Silenos Grunt Lv. 42",
+      "name": "Tanor Silenos Grunt",
       "url": "/lu4/npc/20937-tanor-silenos-grunt"
     },
     {
       "key": "npc:20633",
       "type": "npc",
       "id": 20633,
-      "name": "Taik Orc Shaman Lv. 43",
+      "name": "Taik Orc Shaman",
       "url": "/lu4/npc/20633-taik-orc-shaman"
     },
     {
       "key": "npc:20601",
       "type": "npc",
       "id": 20601,
-      "name": "Tamlin Orc Lv. 41",
+      "name": "Tamlin Orc",
       "url": "/lu4/npc/20601-tamlin-orc"
     },
     {
       "key": "npc:20584",
       "type": "npc",
       "id": 20584,
-      "name": "Timak Orc Archer Lv. 41",
+      "name": "Timak Orc Archer",
       "url": "/lu4/npc/20584-timak-orc-archer"
     },
     {
       "key": "npc:20555",
       "type": "npc",
       "id": 20555,
-      "name": "Giant Fungus Lv. 40",
+      "name": "Giant Fungus",
       "url": "/lu4/npc/20555-giant-fungus"
     }
   ]

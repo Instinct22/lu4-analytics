@@ -2,138 +2,44 @@
   "key": "npc:21269",
   "type": "npc",
   "id": 21269,
-  "name": "Lu4 Wiki: NPC Cave Ant",
+  "name": "Cave Ant",
   "url": "/lu4/npc/21269-cave-ant",
-  "source_url": "https://masterwork.wiki/lu4/npc/21269-cave-ant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21269-cave-ant",
   "raw_html": "library/raw/lu4/npc/21269-cave-ant.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 286 / 533",
+    "P. Atk. / M. Atk.": "227 / 110",
+    "P. Def. / M. Def.": "162 / 149",
+    "Accuracy / Evasion": "70 / 85",
+    "Exp / SP": "1 351 / 135",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 37"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21269",
-      "type": "npc",
-      "id": 21269,
-      "name": "Lu4",
-      "url": "/lu4/npc/21269-cave-ant"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:2931",
-      "type": "item",
-      "id": 2931,
-      "name": "Salamander Skin Boot Lining NG",
-      "url": "/lu4/item/2931-salamander-skin-boot-lining"
-    },
-    {
-      "key": "item:2427",
-      "type": "item",
-      "id": 2427,
-      "name": "Salamander Skin Boots D",
-      "url": "/lu4/item/2427-salamander-skin-boots"
-    },
-    {
-      "key": "item:1953",
-      "type": "item",
-      "id": 1953,
-      "name": "Sage's Rag Lining NG",
-      "url": "/lu4/item/1953-sages-rag-lining"
-    },
-    {
-      "key": "item:1907",
-      "type": "item",
-      "id": 1907,
-      "name": "Necklace of Darkness Gem NG",
-      "url": "/lu4/item/1907-necklace-of-darkness-gem"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "url": "/lu4/item/1881-coarse-bone-powder"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1825",
-      "type": "item",
-      "id": 1825,
-      "name": "Recipe: Oriharukon NG",
-      "url": "/lu4/item/1825-recipe-oriharukon"
-    },
-    {
-      "key": "item:914",
-      "type": "item",
-      "id": 914,
-      "name": "Necklace of Darkness D",
-      "url": "/lu4/item/914-necklace-of-darkness"
-    },
-    {
-      "key": "item:438",
-      "type": "item",
-      "id": 438,
-      "name": "Sage's Rag D",
-      "url": "/lu4/item/438-sages-rag"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
       "key": "item:57",
@@ -143,18 +49,109 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2987",
+      "key": "item:1825",
       "type": "item",
-      "id": 2987,
-      "name": "Recipe: Plate Shield NG",
-      "url": "/lu4/item/2987-recipe-plate-shield"
+      "id": 1825,
+      "name": "Recipe: Oriharukon NG",
+      "url": "/lu4/item/1825-recipe-oriharukon"
     },
     {
-      "key": "item:2932",
+      "key": "item:1867",
       "type": "item",
-      "id": 2932,
-      "name": "Plate Boots Design NG",
-      "url": "/lu4/item/2932-plate-boots-design"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
+      "key": "item:1881",
+      "type": "item",
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
+    },
+    {
+      "key": "item:914",
+      "type": "item",
+      "id": 914,
+      "name": "Necklace of Darkness D",
+      "url": "/lu4/item/914-necklace-of-darkness"
+    },
+    {
+      "key": "item:1907",
+      "type": "item",
+      "id": 1907,
+      "name": "Necklace of Darkness Gem NG",
+      "url": "/lu4/item/1907-necklace-of-darkness-gem"
+    },
+    {
+      "key": "item:438",
+      "type": "item",
+      "id": 438,
+      "name": "Sage's Worn Robe D",
+      "url": "/lu4/item/438-sages-worn-robe"
+    },
+    {
+      "key": "item:1953",
+      "type": "item",
+      "id": 1953,
+      "name": "Sage's Worn Robe Lining NG",
+      "url": "/lu4/item/1953-sages-worn-robe-lining"
+    },
+    {
+      "key": "item:2427",
+      "type": "item",
+      "id": 2427,
+      "name": "Salamander Skin Boots D",
+      "url": "/lu4/item/2427-salamander-skin-boots"
+    },
+    {
+      "key": "item:2931",
+      "type": "item",
+      "id": 2931,
+      "name": "Salamander Skin Boot Lining NG",
+      "url": "/lu4/item/2931-salamander-skin-boot-lining"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:2145",
+      "type": "item",
+      "id": 2145,
+      "name": "Recipe: Mithril Alloy NG",
+      "url": "/lu4/item/2145-recipe-mithril-alloy"
     },
     {
       "key": "item:2195",
@@ -164,11 +161,11 @@
       "url": "/lu4/item/2195-recipe-half-plate-armor"
     },
     {
-      "key": "item:2145",
+      "key": "item:2987",
       "type": "item",
-      "id": 2145,
-      "name": "Recipe: Mithril Alloy NG",
-      "url": "/lu4/item/2145-recipe-mithril-alloy"
+      "id": 2987,
+      "name": "Recipe: Half Plate Shield NG",
+      "url": "/lu4/item/2987-recipe-half-plate-shield"
     },
     {
       "key": "item:2051",
@@ -183,6 +180,13 @@
       "id": 1905,
       "name": "Omen Beast's Eye Earring Gemstone NG",
       "url": "/lu4/item/1905-omen-beasts-eye-earring-gemstone"
+    },
+    {
+      "key": "item:2932",
+      "type": "item",
+      "id": 2932,
+      "name": "Half Plate Boots Design NG",
+      "url": "/lu4/item/2932-half-plate-boots-design"
     }
   ]
 }

@@ -2,131 +2,93 @@
   "key": "npc:21180",
   "type": "npc",
   "id": 21180,
-  "name": "Lu4 Wiki: NPC Lilim Knight",
+  "name": "Lilim Knight",
   "url": "/lu4/npc/21180-lilim-knight",
-  "source_url": "https://masterwork.wiki/lu4/npc/21180-lilim-knight",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21180-lilim-knight",
   "raw_html": "library/raw/lu4/npc/21180-lilim-knight.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "13 209 / 1 389",
+    "P. Atk. / M. Atk.": "1 464 / 822",
+    "P. Def. / M. Def.": "551 / 283",
+    "Accuracy / Evasion": "96 / 96",
+    "Exp / SP": "25 956 / 2 344",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Very Strong P. Def. Lv. 16 Slightly Weak M. Def. Lv. 9 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Hold Resistance Lv. 3 Slightly resistant to Hold. Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 63"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21180",
-      "type": "npc",
-      "id": 21180,
-      "name": "Lu4",
-      "url": "/lu4/npc/21180-lilim-knight"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
-    },
-    {
-      "key": "item:49800",
-      "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32589",
-      "type": "item",
-      "id": 32589,
-      "name": "Unidentified Tunic of Doom B",
-      "url": "/lu4/item/32589-unidentified-tunic-of-doom"
-    },
-    {
-      "key": "item:32588",
-      "type": "item",
-      "id": 32588,
-      "name": "Unidentified Blue Wolf Tunic B",
-      "url": "/lu4/item/32588-unidentified-blue-wolf-tunic"
-    },
-    {
-      "key": "item:32363",
-      "type": "item",
-      "id": 32363,
-      "name": "Unidentified Stockings of Doom B",
-      "url": "/lu4/item/32363-unidentified-stockings-of-doom"
-    },
-    {
-      "key": "item:32362",
-      "type": "item",
-      "id": 32362,
-      "name": "Unidentified Blue Wolf Stockings B",
-      "url": "/lu4/item/32362-unidentified-blue-wolf-stockings"
-    },
-    {
-      "key": "item:6362",
-      "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "item:6361",
@@ -134,6 +96,13 @@
       "id": 6361,
       "name": "Green Seal Stone NG",
       "url": "/lu4/item/6361-green-seal-stone"
+    },
+    {
+      "key": "item:6362",
+      "type": "item",
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
     },
     {
       "key": "item:4087",
@@ -157,11 +126,53 @@
       "url": "/lu4/item/4085-tunic-of-doom-pattern"
     },
     {
+      "key": "item:32588",
+      "type": "item",
+      "id": 32588,
+      "name": "Unidentified Blue Wolf Tunic B",
+      "url": "/lu4/item/32588-unidentified-blue-wolf-tunic"
+    },
+    {
+      "key": "item:32589",
+      "type": "item",
+      "id": 32589,
+      "name": "Unidentified Tunic of Doom B",
+      "url": "/lu4/item/32589-unidentified-tunic-of-doom"
+    },
+    {
+      "key": "item:32362",
+      "type": "item",
+      "id": 32362,
+      "name": "Unidentified Blue Wolf Stockings B",
+      "url": "/lu4/item/32362-unidentified-blue-wolf-stockings"
+    },
+    {
+      "key": "item:32363",
+      "type": "item",
+      "id": 32363,
+      "name": "Unidentified Stockings of Doom B",
+      "url": "/lu4/item/32363-unidentified-stockings-of-doom"
+    },
+    {
       "key": "item:4084",
       "type": "item",
       "id": 4084,
       "name": "Blue Wolf Tunic Fabric NG",
       "url": "/lu4/item/4084-blue-wolf-tunic-fabric"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:1830",
+      "type": "item",
+      "id": 1830,
+      "name": "Scroll of Escape: Castle NG",
+      "url": "/lu4/item/1830-scroll-of-escape-castle"
     },
     {
       "key": "item:4041",
@@ -199,18 +210,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:1830",
+      "key": "item:4052",
       "type": "item",
-      "id": 1830,
-      "name": "Scroll of Escape: Castle NG",
-      "url": "/lu4/item/1830-scroll-of-escape-castle"
-    },
-    {
-      "key": "item:5230",
-      "type": "item",
-      "id": 5230,
-      "name": "Recipe: Mithril Arrow (100%) NG",
-      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
+      "id": 4052,
+      "name": "Earring of Black Ore Piece NG",
+      "url": "/lu4/item/4052-earring-of-black-ore-piece"
     },
     {
       "key": "item:4053",
@@ -220,11 +224,11 @@
       "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
     },
     {
-      "key": "item:4052",
+      "key": "item:5230",
       "type": "item",
-      "id": 4052,
-      "name": "Earring of Black Ore Piece NG",
-      "url": "/lu4/item/4052-earring-of-black-ore-piece"
+      "id": 5230,
+      "name": "Recipe: Mithril Arrow (100%) NG",
+      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
     }
   ]
 }

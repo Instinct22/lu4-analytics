@@ -2,154 +2,81 @@
   "key": "npc:20815",
   "type": "npc",
   "id": 20815,
-  "name": "Lu4 Wiki: NPC Hound Dog of Hallate",
+  "name": "Hound Dog of Hallate",
   "url": "/lu4/npc/20815-hound-dog-of-hallate",
-  "source_url": "https://masterwork.wiki/lu4/npc/20815-hound-dog-of-hallate",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20815-hound-dog-of-hallate",
   "raw_html": "library/raw/lu4/npc/20815-hound-dog-of-hallate.html",
   "stats": {
-    "Location": "Башня Дерзости: 2-й этаж"
+    "Respawn Time": "3 minutes, 5 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 2-й этаж",
+    "HP / MP": "20 619 / 1 389",
+    "P. Atk. / M. Atk.": "1 735 / 700",
+    "P. Def. / M. Def.": "665 / 412",
+    "Accuracy / Evasion": "97 / 97",
+    "Exp / SP": "36 901 / 3 690",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 15 Slightly Strong M. Def. Lv. 13 Strong P. Def. Lv. 15 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 64"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20815",
-      "type": "npc",
-      "id": 20815,
-      "name": "Lu4",
-      "url": "/lu4/npc/20815-hound-dog-of-hallate"
-    },
-    {
-      "key": "location:85",
-      "type": "location",
-      "id": 85,
-      "name": "Башня Дерзости: 2-й этаж",
-      "url": "/lu4/location/85-basna-derzosti-2-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39290",
-      "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32405",
-      "type": "item",
-      "id": 32405,
-      "name": "Unidentified Sealed Doom Boots B",
-      "url": "/lu4/item/32405-unidentified-sealed-doom-boots"
-    },
-    {
-      "key": "item:32363",
-      "type": "item",
-      "id": 32363,
-      "name": "Unidentified Stockings of Doom B",
-      "url": "/lu4/item/32363-unidentified-stockings-of-doom"
-    },
-    {
-      "key": "item:32334",
-      "type": "item",
-      "id": 32334,
-      "name": "Unidentified Art of Battle Axe B",
-      "url": "/lu4/item/32334-unidentified-art-of-battle-axe"
-    },
-    {
-      "key": "item:4117",
-      "type": "item",
-      "id": 4117,
-      "name": "Art of Battle Axe Blade NG",
-      "url": "/lu4/item/4117-art-of-battle-axe-blade"
-    },
-    {
-      "key": "item:4099",
-      "type": "item",
-      "id": 4099,
-      "name": "Sealed Doom Boots Part NG",
-      "url": "/lu4/item/4099-sealed-doom-boots-part"
-    },
-    {
-      "key": "item:4087",
-      "type": "item",
-      "id": 4087,
-      "name": "Stockings of Doom Pattern NG",
-      "url": "/lu4/item/4087-stockings-of-doom-pattern"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -187,25 +114,81 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:8324",
+      "key": "item:39290",
       "type": "item",
-      "id": 8324,
-      "name": "Recipe: Star Buster (60%) NG",
-      "url": "/lu4/item/8324-recipe-star-buster-60"
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
     },
     {
-      "key": "item:8306",
+      "key": "item:32334",
       "type": "item",
-      "id": 8306,
-      "name": "Recipe: Wizard's Tear (60%) NG",
-      "url": "/lu4/item/8306-recipe-wizards-tear-60"
+      "id": 32334,
+      "name": "Unidentified Art of Battle Axe B",
+      "url": "/lu4/item/32334-unidentified-art-of-battle-axe"
+    },
+    {
+      "key": "item:4117",
+      "type": "item",
+      "id": 4117,
+      "name": "Art of Battle Axe Blade NG",
+      "url": "/lu4/item/4117-art-of-battle-axe-blade"
+    },
+    {
+      "key": "item:32363",
+      "type": "item",
+      "id": 32363,
+      "name": "Unidentified Stockings of Doom B",
+      "url": "/lu4/item/32363-unidentified-stockings-of-doom"
+    },
+    {
+      "key": "item:4087",
+      "type": "item",
+      "id": 4087,
+      "name": "Stockings of Doom Pattern NG",
+      "url": "/lu4/item/4087-stockings-of-doom-pattern"
+    },
+    {
+      "key": "item:32405",
+      "type": "item",
+      "id": 32405,
+      "name": "Unidentified Sealed Doom Boots B",
+      "url": "/lu4/item/32405-unidentified-sealed-doom-boots"
+    },
+    {
+      "key": "item:4099",
+      "type": "item",
+      "id": 4099,
+      "name": "Sealed Doom Boots Part NG",
+      "url": "/lu4/item/4099-sealed-doom-boots-part"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:1807",
@@ -220,6 +203,20 @@
       "id": 948,
       "name": "Scroll: Enchant Armor (B-Grade) NG",
       "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
+    },
+    {
+      "key": "item:8324",
+      "type": "item",
+      "id": 8324,
+      "name": "Recipe: Star Buster (60%) NG",
+      "url": "/lu4/item/8324-recipe-star-buster-60"
+    },
+    {
+      "key": "item:8306",
+      "type": "item",
+      "id": 8306,
+      "name": "Recipe: Wizard's Tear (60%) NG",
+      "url": "/lu4/item/8306-recipe-wizards-tear-60"
     }
   ]
 }

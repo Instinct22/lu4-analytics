@@ -2,154 +2,81 @@
   "key": "npc:5035",
   "type": "npc",
   "id": 5035,
-  "name": "Lu4 Wiki: NPC Veilscar Harrower",
+  "name": "Veilscar Harrower",
   "url": "/lu4/npc/5035-veilscar-harrower",
-  "source_url": "https://masterwork.wiki/lu4/npc/5035-veilscar-harrower",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5035-veilscar-harrower",
   "raw_html": "library/raw/lu4/npc/5035-veilscar-harrower.html",
   "stats": {
-    "Location": "Запретные Врата"
+    "Respawn Time": "45 seconds ± 5 seconds",
+    "Location": "Запретные Врата",
+    "HP / MP": "11 281 / 1 110",
+    "P. Atk. / M. Atk.": "1 685 / 805",
+    "P. Def. / M. Def.": "477 / 374",
+    "Accuracy / Evasion": "100 / 104",
+    "Exp / SP": "16 050 / 1 605",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Grumpy Lv. 1 Strikes without warning. HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 13 Evasion Lv. 1 Increases P. Evasion by 4. Mental Attack Resistance Lv. 3 Provides resistance against mental attack. Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 67"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5035",
-      "type": "npc",
-      "id": 5035,
-      "name": "Lu4",
-      "url": "/lu4/npc/5035-veilscar-harrower"
-    },
-    {
-      "key": "location:75",
-      "type": "location",
-      "id": 75,
-      "name": "Запретные Врата",
-      "url": "/lu4/location/75-zapretnye-vrata"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4093",
       "type": "skill",
       "id": 4093,
-      "name": "Evasion Lv. 1 Increases P. Evasion by 4.",
-      "url": "/lu4/skill/4093-evasion/1"
+      "name": "Evasion",
+      "url": "/lu4/skill/4093-evasion"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 3 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/3"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32378",
-      "type": "item",
-      "id": 32378,
-      "name": "Unidentified Sealed Tallum Boots A",
-      "url": "/lu4/item/32378-unidentified-sealed-tallum-boots"
-    },
-    {
-      "key": "item:32346",
-      "type": "item",
-      "id": 32346,
-      "name": "Unidentified Carnage Bow A",
-      "url": "/lu4/item/32346-unidentified-carnage-bow"
-    },
-    {
-      "key": "item:6341",
-      "type": "item",
-      "id": 6341,
-      "name": "Sealed Phoenix Earring Gemstone NG",
-      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
-    },
-    {
-      "key": "item:6324",
-      "type": "item",
-      "id": 6324,
-      "name": "Sealed Phoenix Earring A",
-      "url": "/lu4/item/6324-sealed-phoenix-earring"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6036",
@@ -157,41 +84,6 @@
       "id": 6036,
       "name": "Greater Magic Haste Potion NG",
       "url": "/lu4/item/6036-greater-magic-haste-potion"
-    },
-    {
-      "key": "item:5535",
-      "type": "item",
-      "id": 5535,
-      "name": "Carnage Bow Stave NG",
-      "url": "/lu4/item/5535-carnage-bow-stave"
-    },
-    {
-      "key": "item:5497",
-      "type": "item",
-      "id": 5497,
-      "name": "Sealed Tallum Boots Lining NG",
-      "url": "/lu4/item/5497-sealed-tallum-boots-lining"
-    },
-    {
-      "key": "item:5426",
-      "type": "item",
-      "id": 5426,
-      "name": "Recipe: Sealed Dark Crystal Helmet(60%) NG",
-      "url": "/lu4/item/5426-recipe-sealed-dark-crystal-helmet60"
-    },
-    {
-      "key": "item:5368",
-      "type": "item",
-      "id": 5368,
-      "name": "Recipe: Sealed Dark Crystal Boots(60%) NG",
-      "url": "/lu4/item/5368-recipe-sealed-dark-crystal-boots60"
-    },
-    {
-      "key": "item:5354",
-      "type": "item",
-      "id": 5354,
-      "name": "Recipe: Sealed Tallum Stockings(60%) NG",
-      "url": "/lu4/item/5354-recipe-sealed-tallum-stockings60"
     },
     {
       "key": "item:4043",
@@ -215,32 +107,116 @@
       "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
-      "key": "item:5547",
+      "key": "item:1870",
       "type": "item",
-      "id": 5547,
-      "name": "Elemental Sword Edge NG",
-      "url": "/lu4/item/5547-elemental-sword-edge"
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
     },
     {
-      "key": "item:5489",
+      "key": "item:1865",
       "type": "item",
-      "id": 5489,
-      "name": "Sealed Tallum Stockings Fabric NG",
-      "url": "/lu4/item/5489-sealed-tallum-stockings-fabric"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:5486",
+      "key": "item:49800",
       "type": "item",
-      "id": 5486,
-      "name": "Sealed Dark Crystal Robe Fabric NG",
-      "url": "/lu4/item/5486-sealed-dark-crystal-robe-fabric"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:5468",
+      "key": "item:32346",
       "type": "item",
-      "id": 5468,
-      "name": "Recipe: Elemental Sword(60%) NG",
-      "url": "/lu4/item/5468-recipe-elemental-sword60"
+      "id": 32346,
+      "name": "Unidentified Carnage Bow A",
+      "url": "/lu4/item/32346-unidentified-carnage-bow"
+    },
+    {
+      "key": "item:5535",
+      "type": "item",
+      "id": 5535,
+      "name": "Carnage Bow Stave NG",
+      "url": "/lu4/item/5535-carnage-bow-stave"
+    },
+    {
+      "key": "item:6324",
+      "type": "item",
+      "id": 6324,
+      "name": "Sealed Phoenix Earring A",
+      "url": "/lu4/item/6324-sealed-phoenix-earring"
+    },
+    {
+      "key": "item:6341",
+      "type": "item",
+      "id": 6341,
+      "name": "Sealed Phoenix Earring Gemstone NG",
+      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
+    },
+    {
+      "key": "item:32378",
+      "type": "item",
+      "id": 32378,
+      "name": "Unidentified Sealed Tallum Boots A",
+      "url": "/lu4/item/32378-unidentified-sealed-tallum-boots"
+    },
+    {
+      "key": "item:5497",
+      "type": "item",
+      "id": 5497,
+      "name": "Sealed Tallum Boots Lining NG",
+      "url": "/lu4/item/5497-sealed-tallum-boots-lining"
+    },
+    {
+      "key": "item:5368",
+      "type": "item",
+      "id": 5368,
+      "name": "Recipe: Sealed Dark Crystal Boots(60%) NG",
+      "url": "/lu4/item/5368-recipe-sealed-dark-crystal-boots60"
+    },
+    {
+      "key": "item:5426",
+      "type": "item",
+      "id": 5426,
+      "name": "Recipe: Sealed Dark Crystal Helmet(60%) NG",
+      "url": "/lu4/item/5426-recipe-sealed-dark-crystal-helmet60"
+    },
+    {
+      "key": "item:5354",
+      "type": "item",
+      "id": 5354,
+      "name": "Recipe: Sealed Tallum Stockings(60%) NG",
+      "url": "/lu4/item/5354-recipe-sealed-tallum-stockings60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:730",
+      "type": "item",
+      "id": 730,
+      "name": "Scroll: Enchant Armor (A-Grade) NG",
+      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     },
     {
       "key": "item:5446",
@@ -250,11 +226,39 @@
       "url": "/lu4/item/5446-recipe-bloody-orchid60"
     },
     {
-      "key": "item:730",
+      "key": "item:5468",
       "type": "item",
-      "id": 730,
-      "name": "Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
+      "id": 5468,
+      "name": "Recipe: Elemental Sword(60%) NG",
+      "url": "/lu4/item/5468-recipe-elemental-sword60"
+    },
+    {
+      "key": "item:5547",
+      "type": "item",
+      "id": 5547,
+      "name": "Elemental Sword Edge NG",
+      "url": "/lu4/item/5547-elemental-sword-edge"
+    },
+    {
+      "key": "item:5486",
+      "type": "item",
+      "id": 5486,
+      "name": "Sealed Dark Crystal Robe Fabric NG",
+      "url": "/lu4/item/5486-sealed-dark-crystal-robe-fabric"
+    },
+    {
+      "key": "item:5489",
+      "type": "item",
+      "id": 5489,
+      "name": "Sealed Tallum Stockings Fabric NG",
+      "url": "/lu4/item/5489-sealed-tallum-stockings-fabric"
+    },
+    {
+      "key": "item:1807",
+      "type": "item",
+      "id": 1807,
+      "name": "Recipe: Soulshot (A-Grade) NG",
+      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
     }
   ]
 }

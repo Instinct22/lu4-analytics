@@ -2,89 +2,79 @@
   "key": "npc:22028",
   "type": "npc",
   "id": 22028,
-  "name": "Lu4 Wiki: NPC Vagabond of the Ruins",
+  "name": "Vagabond of the Ruins",
   "url": "/lu4/npc/22028-vagabond-of-the-ruins",
-  "source_url": "https://masterwork.wiki/lu4/npc/22028-vagabond-of-the-ruins",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22028-vagabond-of-the-ruins",
   "raw_html": "library/raw/lu4/npc/22028-vagabond-of-the-ruins.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 053 / 648",
+    "P. Atk. / M. Atk.": "275 / 166",
+    "P. Def. / M. Def.": "210 / 164",
+    "Accuracy / Evasion": "76 / 75",
+    "Exp / SP": "5 074 / 328",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong M. Atk. Lv. 12 Slightly Strong P. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 40"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22028",
-      "type": "npc",
-      "id": 22028,
-      "name": "Lu4",
-      "url": "/lu4/npc/22028-vagabond-of-the-ruins"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:8333",
+      "key": "item:57",
       "type": "item",
-      "id": 8333,
-      "name": "Sword of Magic Fog Blade NG",
-      "url": "/lu4/item/8333-sword-of-magic-fog-blade"
-    },
-    {
-      "key": "item:8328",
-      "type": "item",
-      "id": 8328,
-      "name": "Titan Sword Blade NG",
-      "url": "/lu4/item/8328-titan-sword-blade"
-    },
-    {
-      "key": "item:2148",
-      "type": "item",
-      "id": 2148,
-      "name": "Recipe: Crafted Leather NG",
-      "url": "/lu4/item/2148-recipe-crafted-leather"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2034",
@@ -94,25 +84,18 @@
       "url": "/lu4/item/2034-sword-of-revolution-blade"
     },
     {
-      "key": "item:1884",
+      "key": "item:8328",
       "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
+      "id": 8328,
+      "name": "Titan Sword Blade NG",
+      "url": "/lu4/item/8328-titan-sword-blade"
     },
     {
-      "key": "item:1878",
+      "key": "item:8333",
       "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
+      "id": 8333,
+      "name": "Sword of Magic Fog Blade NG",
+      "url": "/lu4/item/8333-sword-of-magic-fog-blade"
     },
     {
       "key": "item:1864",
@@ -122,11 +105,32 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:57",
+      "key": "item:1869",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:1884",
+      "type": "item",
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
+    },
+    {
+      "key": "item:2148",
+      "type": "item",
+      "id": 2148,
+      "name": "Recipe: Crafted Leather NG",
+      "url": "/lu4/item/2148-recipe-crafted-leather"
     }
   ]
 }

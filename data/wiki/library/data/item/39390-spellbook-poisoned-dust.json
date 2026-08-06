@@ -2,27 +2,25 @@
   "key": "item:39390",
   "type": "item",
   "id": 39390,
-  "name": "Lu4 Wiki: Item Spellbook: Poisoned Dust",
+  "name": "Spellbook: Poisoned Dust",
   "url": "/lu4/item/39390-spellbook-poisoned-dust",
-  "source_url": "https://masterwork.wiki/lu4/item/39390-spellbook-poisoned-dust",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/39390-spellbook-poisoned-dust",
   "raw_html": "library/raw/lu4/item/39390-spellbook-poisoned-dust.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Poisoned Dust'. Required: Terramancer - Lv. 48 To obtain this item, hunt the Nightmare Lord found in Tanor Canyon.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:39390",
-      "type": "item",
-      "id": 39390,
-      "name": "Lu4",
-      "url": "/lu4/item/39390-spellbook-poisoned-dust"
-    },
-    {
       "key": "npc:20944",
       "type": "npc",
       "id": 20944,
-      "name": "Nightmare Lord Lv. 47",
+      "name": "Nightmare Lord",
       "url": "/lu4/npc/20944-nightmare-lord"
     }
   ]

@@ -2,104 +2,24 @@
   "key": "item:2192",
   "type": "item",
   "id": 2192,
-  "name": "Recipe",
+  "name": "Recipe: Kite Shield",
   "url": "/lu4/item/2192-recipe-kite-shield",
-  "source_url": "https://masterwork.wiki/lu4/item/2192-recipe-kite-shield",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2192-recipe-kite-shield",
   "raw_html": "library/raw/lu4/item/2192-recipe-kite-shield.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Kite Shield'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "784 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Kite Shield D"
+    "Result": "Kite Shield D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1947",
-      "type": "item",
-      "id": 1947,
-      "name": "Kite Shield Fragment NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "12"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "60"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "60"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "12"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "12"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "24"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "24"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "5"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2192",
-      "type": "item",
-      "id": 2192,
-      "name": "Lu4",
-      "url": "/lu4/item/2192-recipe-kite-shield"
-    },
     {
       "key": "item:1947",
       "type": "item",
@@ -188,42 +108,42 @@
       "key": "npc:21660",
       "type": "npc",
       "id": 21660,
-      "name": "Otherworldly Invader Soldier Lv. 35",
+      "name": "Otherworldly Invader Soldier",
       "url": "/lu4/npc/21660-otherworldly-invader-soldier"
     },
     {
       "key": "npc:20780",
       "type": "npc",
       "id": 20780,
-      "name": "Bloody Axe Elite Lv. 35",
+      "name": "Bloody Axe Elite",
       "url": "/lu4/npc/20780-bloody-axe-elite"
     },
     {
       "key": "npc:20202",
       "type": "npc",
       "id": 20202,
-      "name": "Dead Seeker Lv. 34",
+      "name": "Dead Seeker",
       "url": "/lu4/npc/20202-dead-seeker"
     },
     {
       "key": "npc:21665",
       "type": "npc",
       "id": 21665,
-      "name": "Otherworldly Invader Magus Lv. 35",
+      "name": "Otherworldly Invader Magus",
       "url": "/lu4/npc/21665-otherworldly-invader-magus"
     },
     {
       "key": "npc:20928",
       "type": "npc",
       "id": 20928,
-      "name": "Hatu Weird Bee Lv. 34",
+      "name": "Hatu Weird Bee",
       "url": "/lu4/npc/20928-hatu-weird-bee"
     },
     {
       "key": "npc:20546",
       "type": "npc",
       "id": 20546,
-      "name": "Turek Orc Elder Lv. 32",
+      "name": "Turek Orc Elder",
       "url": "/lu4/npc/20546-turek-orc-elder"
     }
   ]

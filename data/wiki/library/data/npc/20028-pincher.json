@@ -2,103 +2,58 @@
   "key": "npc:20028",
   "type": "npc",
   "id": 20028,
-  "name": "Lu4 Wiki: NPC Pincher",
+  "name": "Pincher",
   "url": "/lu4/npc/20028-pincher",
-  "source_url": "https://masterwork.wiki/lu4/npc/20028-pincher",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20028-pincher",
   "raw_html": "library/raw/lu4/npc/20028-pincher.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "405 / 193",
+    "P. Atk. / M. Atk.": "50 / 26",
+    "P. Def. / M. Def.": "80 / 62",
+    "Accuracy / Evasion": "49 / 54",
+    "Exp / SP": "434 / 43",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 16"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20028",
-      "type": "npc",
-      "id": 20028,
-      "name": "Lu4",
-      "url": "/lu4/npc/20028-pincher"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
-    },
-    {
-      "key": "item:1897",
-      "type": "item",
-      "id": 1897,
-      "name": "Necklace of Wisdom Chain NG",
-      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1817",
-      "type": "item",
-      "id": 1817,
-      "name": "Recipe: Cord NG",
-      "url": "/lu4/item/1817-recipe-cord"
-    },
-    {
-      "key": "item:908",
-      "type": "item",
-      "id": 908,
-      "name": "Necklace of Wisdom NG",
-      "url": "/lu4/item/908-necklace-of-wisdom"
-    },
-    {
-      "key": "item:877",
-      "type": "item",
-      "id": 877,
-      "name": "Ring of Wisdom NG",
-      "url": "/lu4/item/877-ring-of-wisdom"
-    },
-    {
-      "key": "item:845",
-      "type": "item",
-      "id": 845,
-      "name": "Cat's Eye Earring NG",
-      "url": "/lu4/item/845-cats-eye-earring"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -108,11 +63,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1868",
+      "key": "item:845",
       "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "id": 845,
+      "name": "Cat's Eye Earring NG",
+      "url": "/lu4/item/845-cats-eye-earring"
+    },
+    {
+      "key": "item:877",
+      "type": "item",
+      "id": 877,
+      "name": "Ring of Wisdom NG",
+      "url": "/lu4/item/877-ring-of-wisdom"
+    },
+    {
+      "key": "item:908",
+      "type": "item",
+      "id": 908,
+      "name": "Necklace of Wisdom NG",
+      "url": "/lu4/item/908-necklace-of-wisdom"
+    },
+    {
+      "key": "item:1897",
+      "type": "item",
+      "id": 1897,
+      "name": "Necklace of Wisdom Chain NG",
+      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
+    },
+    {
+      "key": "item:1817",
+      "type": "item",
+      "id": 1817,
+      "name": "Recipe: Cord NG",
+      "url": "/lu4/item/1817-recipe-cord"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:734",
+      "type": "item",
+      "id": 734,
+      "name": "Haste Potion NG",
+      "url": "/lu4/item/734-haste-potion"
     },
     {
       "key": "item:1801",
@@ -122,11 +126,11 @@
       "url": "/lu4/item/1801-recipe-piece-bone-gaiters"
     },
     {
-      "key": "item:734",
+      "key": "item:1868",
       "type": "item",
-      "id": 734,
-      "name": "Haste Potion NG",
-      "url": "/lu4/item/734-haste-potion"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     }
   ]
 }

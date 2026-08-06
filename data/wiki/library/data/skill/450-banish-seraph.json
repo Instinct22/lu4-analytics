@@ -1,0 +1,45 @@
+{
+  "key": "skill:450",
+  "type": "skill",
+  "id": 450,
+  "name": "Banish Seraph",
+  "url": "/lu4/skill/450-banish-seraph",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/450-banish-seraph",
+  "raw_html": "library/raw/lu4/skill/450-banish-seraph.html",
+  "stats": {
+    "Effect": "Frightens an angel into fleeing and decreases Speed by 50%. Lethal Strike is possible.",
+    "Consumes": "50 MP , Soul Ore, 5 pcs.",
+    "Reuse Time": "4 seconds",
+    "Duration": "30 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "Unholy 0",
+    "Trait": "trait_unholy",
+    "Cast Range": "150 (650)",
+    "Available For": "Dark AvengerLv. 55Shillien KnightLv. 55",
+    "Type": "Physical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "item:1785",
+      "type": "item",
+      "id": 1785,
+      "name": "Soul Ore, 5 pcs.",
+      "url": "/lu4/item/1785-soul-ore"
+    },
+    {
+      "key": "class:6",
+      "type": "class",
+      "id": 6,
+      "name": "Dark AvengerLv. 55",
+      "url": "/lu4/class/6-darkavenger"
+    },
+    {
+      "key": "class:33",
+      "type": "class",
+      "id": 33,
+      "name": "Shillien KnightLv. 55",
+      "url": "/lu4/class/33-shillienknight"
+    }
+  ]
+}

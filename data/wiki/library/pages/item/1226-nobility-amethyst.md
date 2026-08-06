@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Nobility Amethyst
+# Nobility Amethyst
 
-- Source: https://masterwork.wiki/lu4/item/1226-nobility-amethyst
+- Source: https://masterwork.wiki/lu4-b-w-c/item/1226-nobility-amethyst
 - Path: /lu4/item/1226-nobility-amethyst
 - Type: item
 - Key: item:1226
 
 ## Stats
+- Effect: Amethyst that symbolizes wind. Gather 4 jewels that symbolize nature and take them to Rosella for a token to change occupations.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Nobility Amethyst
-Lu4
-Eternal
-MasterWork
-Nobility Amethyst
-NG
-Quest Item
-Amethyst that symbolizes wind. Gather 4 jewels that symbolize nature and take them to Rosella for a token to change occupations.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Path to an Elven Wizard
-18 ~ 85
-MasterWork 2026
-All rights reserved
+Nobility Amethyst NG Quest Item Amethyst that symbolizes wind. Gather 4 jewels that symbolize nature and take them to Rosella for a token to change occupations. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

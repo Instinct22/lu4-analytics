@@ -2,63 +2,60 @@
   "key": "npc:25112",
   "type": "npc",
   "id": 25112,
-  "name": "Lu4 Wiki: NPC Beleth's Agent, Meana",
+  "name": "Beleth's Agent, Meana",
   "url": "/lu4/npc/25112-beleths-agent-meana",
-  "source_url": "https://masterwork.wiki/lu4/npc/25112-beleths-agent-meana",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25112-beleths-agent-meana",
   "raw_html": "library/raw/lu4/npc/25112-beleths-agent-meana.html",
   "stats": {
-    "Location": "Земли Гирана"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Земли Гирана",
+    "HP / MP": "127 782 / 1 694",
+    "P. Atk. / M. Atk.": "322 / 80",
+    "P. Def. / M. Def.": "364 / 458",
+    "Accuracy / Evasion": "81 / 91",
+    "Exp / SP": "630 000 / 105 037",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 An evil heathen serving Beleth who came from Devil's Isle. She is trying to spread fear in Gludio, and turn the people towards violence and betrayal. Fear and horror are the source of this devil's power. The recent serial murders, and the rash of theft and arson plaguing Gludio are the work of Meana. Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 30"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25112",
-      "type": "npc",
-      "id": 25112,
-      "name": "Lu4",
-      "url": "/lu4/npc/25112-beleths-agent-meana"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4831",
       "type": "skill",
       "id": 4831,
-      "name": "Raid Boss Lv. 1 An evil heathen serving Beleth who came from Devil's Isle. She is trying to spread fear in Gludio, and turn the people towards violence and betrayal. Fear and horror are the source of this devil's power. The recent serial murders, and the rash of theft and arson plaguing Gludio are the work of Meana.",
-      "url": "/lu4/skill/4831-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4831-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -68,67 +65,60 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:158",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 158,
+      "name": "Tarbar D",
+      "url": "/lu4/item/158-tarbar"
     },
     {
-      "key": "item:6575",
+      "key": "item:7896",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 7896,
+      "name": "Titan Hammer D",
+      "url": "/lu4/item/7896-titan-hammer"
     },
     {
-      "key": "item:2041",
+      "key": "item:318",
       "type": "item",
-      "id": 2041,
-      "name": "War Pick Head NG",
-      "url": "/lu4/item/2041-war-pick-head"
+      "id": 318,
+      "name": "Crucifix of Blood D",
+      "url": "/lu4/item/318-crucifix-of-blood"
     },
     {
-      "key": "item:2033",
+      "key": "item:90",
       "type": "item",
-      "id": 2033,
-      "name": "Winged Spear Blade NG",
-      "url": "/lu4/item/2033-winged-spear-blade"
+      "id": 90,
+      "name": "Goat Head Staff D",
+      "url": "/lu4/item/90-goat-head-staff"
     },
     {
-      "key": "item:1904",
+      "key": "item:2035",
       "type": "item",
-      "id": 1904,
-      "name": "Elven Necklace Beads NG",
-      "url": "/lu4/item/1904-elven-necklace-beads"
+      "id": 2035,
+      "name": "Tarbar Head NG",
+      "url": "/lu4/item/2035-tarbar-head"
     },
     {
-      "key": "item:1903",
+      "key": "item:8343",
       "type": "item",
-      "id": 1903,
-      "name": "Elven Ring Piece NG",
-      "url": "/lu4/item/1903-elven-ring-piece"
+      "id": 8343,
+      "name": "Titan Hammer Piece NG",
+      "url": "/lu4/item/8343-titan-hammer-piece"
     },
     {
-      "key": "item:1902",
+      "key": "item:2042",
       "type": "item",
-      "id": 1902,
-      "name": "Elven Earring Beads NG",
-      "url": "/lu4/item/1902-elven-earring-beads"
+      "id": 2042,
+      "name": "Crucifix of Blood Piece NG",
+      "url": "/lu4/item/2042-crucifix-of-blood-piece"
     },
     {
-      "key": "item:956",
+      "key": "item:2032",
       "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+      "id": 2032,
+      "name": "Goat Head Staff Head NG",
+      "url": "/lu4/item/2032-goat-head-staff-head"
     },
     {
       "key": "item:913",
@@ -138,13 +128,6 @@
       "url": "/lu4/item/913-elven-necklace"
     },
     {
-      "key": "item:881",
-      "type": "item",
-      "id": 881,
-      "name": "Elven Ring D",
-      "url": "/lu4/item/881-elven-ring"
-    },
-    {
       "key": "item:850",
       "type": "item",
       "id": 850,
@@ -152,18 +135,60 @@
       "url": "/lu4/item/850-elven-earring"
     },
     {
-      "key": "item:294",
+      "key": "item:881",
       "type": "item",
-      "id": 294,
-      "name": "War Pick D",
-      "url": "/lu4/item/294-war-pick"
+      "id": 881,
+      "name": "Elven Ring D",
+      "url": "/lu4/item/881-elven-ring"
     },
     {
-      "key": "item:93",
+      "key": "item:1904",
       "type": "item",
-      "id": 93,
-      "name": "Winged Spear D",
-      "url": "/lu4/item/93-winged-spear"
+      "id": 1904,
+      "name": "Elven Necklace Beads NG",
+      "url": "/lu4/item/1904-elven-necklace-beads"
+    },
+    {
+      "key": "item:1902",
+      "type": "item",
+      "id": 1902,
+      "name": "Elven Earring Beads NG",
+      "url": "/lu4/item/1902-elven-earring-beads"
+    },
+    {
+      "key": "item:1903",
+      "type": "item",
+      "id": 1903,
+      "name": "Elven Ring Piece NG",
+      "url": "/lu4/item/1903-elven-ring-piece"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25113",

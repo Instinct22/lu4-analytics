@@ -2,63 +2,67 @@
   "key": "npc:20930",
   "type": "npc",
   "id": 20930,
-  "name": "Lu4 Wiki: NPC Hatu Brown Bear",
+  "name": "Hatu Brown Bear",
   "url": "/lu4/npc/20930-hatu-brown-bear",
-  "source_url": "https://masterwork.wiki/lu4/npc/20930-hatu-brown-bear",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20930-hatu-brown-bear",
   "raw_html": "library/raw/lu4/npc/20930-hatu-brown-bear.html",
   "stats": {
-    "Location": "Пасека"
+    "Respawn Time": "55 seconds",
+    "Location": "Пасека",
+    "HP / MP": "3 550 / 477",
+    "P. Atk. / M. Atk.": "210 / 89",
+    "P. Def. / M. Def.": "149 / 121",
+    "Accuracy / Evasion": "67 / 67",
+    "Exp / SP": "3 592 / 359",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 34"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20930",
-      "type": "npc",
-      "id": 20930,
-      "name": "Lu4",
-      "url": "/lu4/npc/20930-hatu-brown-bear"
-    },
-    {
-      "key": "location:59",
-      "type": "location",
-      "id": 59,
-      "name": "Пасека",
-      "url": "/lu4/location/59-paseka"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5550",
@@ -66,55 +70,6 @@
       "id": 5550,
       "name": "Durable Metal Plate NG",
       "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:2918",
-      "type": "item",
-      "id": 2918,
-      "name": "Mithril Scale Gaiters Material NG",
-      "url": "/lu4/item/2918-mithril-scale-gaiters-material"
-    },
-    {
-      "key": "item:2377",
-      "type": "item",
-      "id": 2377,
-      "name": "Mithril Scale Gaiters D",
-      "url": "/lu4/item/2377-mithril-scale-gaiters"
-    },
-    {
-      "key": "item:2275",
-      "type": "item",
-      "id": 2275,
-      "name": "Recipe: Heavy Bone Club NG",
-      "url": "/lu4/item/2275-recipe-heavy-bone-club"
-    },
-    {
-      "key": "item:2187",
-      "type": "item",
-      "id": 2187,
-      "name": "Recipe: Manticore Skin Shirt NG",
-      "url": "/lu4/item/2187-recipe-manticore-skin-shirt"
-    },
-    {
-      "key": "item:2155",
-      "type": "item",
-      "id": 2155,
-      "name": "Recipe: Elven Ring NG",
-      "url": "/lu4/item/2155-recipe-elven-ring"
-    },
-    {
-      "key": "item:2035",
-      "type": "item",
-      "id": 2035,
-      "name": "Tarbar Head NG",
-      "url": "/lu4/item/2035-tarbar-head"
-    },
-    {
-      "key": "item:1948",
-      "type": "item",
-      "id": 1948,
-      "name": "Boots of Power Pattern NG",
-      "url": "/lu4/item/1948-boots-of-power-pattern"
     },
     {
       "key": "item:1880",
@@ -138,6 +93,13 @@
       "url": "/lu4/item/1864-stem"
     },
     {
+      "key": "item:735",
+      "type": "item",
+      "id": 735,
+      "name": "Alacrity Potion NG",
+      "url": "/lu4/item/735-alacrity-potion"
+    },
+    {
       "key": "item:1124",
       "type": "item",
       "id": 1124,
@@ -145,11 +107,25 @@
       "url": "/lu4/item/1124-boots-of-power"
     },
     {
-      "key": "item:735",
+      "key": "item:1948",
       "type": "item",
-      "id": 735,
-      "name": "Alacrity Potion NG",
-      "url": "/lu4/item/735-alacrity-potion"
+      "id": 1948,
+      "name": "Boots of Power Pattern NG",
+      "url": "/lu4/item/1948-boots-of-power-pattern"
+    },
+    {
+      "key": "item:2377",
+      "type": "item",
+      "id": 2377,
+      "name": "Mithril Scale Gaiters D",
+      "url": "/lu4/item/2377-mithril-scale-gaiters"
+    },
+    {
+      "key": "item:2918",
+      "type": "item",
+      "id": 2918,
+      "name": "Mithril Scale Gaiters Material NG",
+      "url": "/lu4/item/2918-mithril-scale-gaiters-material"
     },
     {
       "key": "item:158",
@@ -159,11 +135,39 @@
       "url": "/lu4/item/158-tarbar"
     },
     {
-      "key": "item:57",
+      "key": "item:2035",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2035,
+      "name": "Tarbar Head NG",
+      "url": "/lu4/item/2035-tarbar-head"
+    },
+    {
+      "key": "item:2155",
+      "type": "item",
+      "id": 2155,
+      "name": "Recipe: Elven Ring NG",
+      "url": "/lu4/item/2155-recipe-elven-ring"
+    },
+    {
+      "key": "item:2275",
+      "type": "item",
+      "id": 2275,
+      "name": "Recipe: Heavy Bone Club NG",
+      "url": "/lu4/item/2275-recipe-heavy-bone-club"
+    },
+    {
+      "key": "item:2187",
+      "type": "item",
+      "id": 2187,
+      "name": "Recipe: Manticore Skin Shirt NG",
+      "url": "/lu4/item/2187-recipe-manticore-skin-shirt"
+    },
+    {
+      "key": "item:2028",
+      "type": "item",
+      "id": 2028,
+      "name": "Shilen Knife Edge NG",
+      "url": "/lu4/item/2028-shilen-knife-edge"
     },
     {
       "key": "item:2975",
@@ -180,6 +184,13 @@
       "url": "/lu4/item/2191-recipe-rip-gauntlets"
     },
     {
+      "key": "item:1941",
+      "type": "item",
+      "id": 1941,
+      "name": "Brigandine Breastplate Temper NG",
+      "url": "/lu4/item/1941-brigandine-breastplate-temper"
+    },
+    {
       "key": "item:2037",
       "type": "item",
       "id": 2037,
@@ -187,25 +198,11 @@
       "url": "/lu4/item/2037-heavy-bone-club-head"
     },
     {
-      "key": "item:2028",
-      "type": "item",
-      "id": 2028,
-      "name": "Shilen Knife Edge NG",
-      "url": "/lu4/item/2028-shilen-knife-edge"
-    },
-    {
       "key": "item:1944",
       "type": "item",
       "id": 1944,
       "name": "Elven Mithril Tunic Fabric NG",
       "url": "/lu4/item/1944-elven-mithril-tunic-fabric"
-    },
-    {
-      "key": "item:1941",
-      "type": "item",
-      "id": 1941,
-      "name": "Brigandine Breastplate Temper NG",
-      "url": "/lu4/item/1941-brigandine-breastplate-temper"
     }
   ]
 }

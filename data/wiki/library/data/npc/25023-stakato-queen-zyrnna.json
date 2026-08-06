@@ -2,56 +2,53 @@
   "key": "npc:25023",
   "type": "npc",
   "id": 25023,
-  "name": "Lu4 Wiki: NPC Stakato Queen Zyrnna",
+  "name": "Stakato Queen Zyrnna",
   "url": "/lu4/npc/25023-stakato-queen-zyrnna",
-  "source_url": "https://masterwork.wiki/lu4/npc/25023-stakato-queen-zyrnna",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25023-stakato-queen-zyrnna",
   "raw_html": "library/raw/lu4/npc/25023-stakato-queen-zyrnna.html",
   "stats": {
-    "Location": "Топи Крумы"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Топи Крумы",
+    "HP / MP": "208 019 / 3 141",
+    "P. Atk. / M. Atk.": "849 / 362",
+    "P. Def. / M. Def.": "471 / 531",
+    "Accuracy / Evasion": "88 / 87",
+    "Exp / SP": "867 000 / 156 895",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 She is the Ruthless Queen of Marsh Stakatos, deep in the Cruma Marshlands. The Queen is notorious for mercilessness and cruelty to both her own forces and enemies alike. She has ordered the deaths of any and all who oppose her, including subordinates and even her own children. The Queen yearns to build a kingdom for Marsh Stakatos someday. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 34"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25023",
-      "type": "npc",
-      "id": 25023,
-      "name": "Lu4",
-      "url": "/lu4/npc/25023-stakato-queen-zyrnna"
-    },
-    {
-      "key": "location:52",
-      "type": "location",
-      "id": 52,
-      "name": "Топи Крумы",
-      "url": "/lu4/location/52-topi-krumy"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4798",
       "type": "skill",
       "id": 4798,
-      "name": "Raid Boss Lv. 1 She is the Ruthless Queen of Marsh Stakatos, deep in the Cruma Marshlands. The Queen is notorious for mercilessness and cruelty to both her own forces and enemies alike. She has ordered the deaths of any and all who oppose her, including subordinates and even her own children. The Queen yearns to build a kingdom for Marsh Stakatos someday.",
-      "url": "/lu4/skill/4798-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4798-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,18 +58,46 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:280",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 280,
+      "name": "Light Crossbow D",
+      "url": "/lu4/item/280-light-crossbow"
     },
     {
-      "key": "item:6575",
+      "key": "item:225",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 225,
+      "name": "Mithril Dagger D",
+      "url": "/lu4/item/225-mithril-dagger"
+    },
+    {
+      "key": "item:262",
+      "type": "item",
+      "id": 262,
+      "name": "Scallop Jamadhr D",
+      "url": "/lu4/item/262-scallop-jamadhr"
+    },
+    {
+      "key": "item:297",
+      "type": "item",
+      "id": 297,
+      "name": "Glaive D",
+      "url": "/lu4/item/297-glaive"
+    },
+    {
+      "key": "item:2054",
+      "type": "item",
+      "id": 2054,
+      "name": "Light Crossbow Shaft NG",
+      "url": "/lu4/item/2054-light-crossbow-shaft"
+    },
+    {
+      "key": "item:2052",
+      "type": "item",
+      "id": 2052,
+      "name": "Mithril Dagger Blade NG",
+      "url": "/lu4/item/2052-mithril-dagger-blade"
     },
     {
       "key": "item:2053",
@@ -82,39 +107,11 @@
       "url": "/lu4/item/2053-scallop-jamadhr-edge"
     },
     {
-      "key": "item:1951",
+      "key": "item:2055",
       "type": "item",
-      "id": 1951,
-      "name": "Plate Gaiters Part NG",
-      "url": "/lu4/item/1951-plate-gaiters-part"
-    },
-    {
-      "key": "item:1950",
-      "type": "item",
-      "id": 1950,
-      "name": "Half Plate Temper NG",
-      "url": "/lu4/item/1950-half-plate-temper"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:380",
-      "type": "item",
-      "id": 380,
-      "name": "Plate Gaiters D",
-      "url": "/lu4/item/380-plate-gaiters"
+      "id": 2055,
+      "name": "Glaive Edge NG",
+      "url": "/lu4/item/2055-glaive-edge"
     },
     {
       "key": "item:353",
@@ -124,11 +121,53 @@
       "url": "/lu4/item/353-half-plate-armor"
     },
     {
-      "key": "item:262",
+      "key": "item:380",
       "type": "item",
-      "id": 262,
-      "name": "Scallop Jamadhr D",
-      "url": "/lu4/item/262-scallop-jamadhr"
+      "id": 380,
+      "name": "Half Plate Gaiters D",
+      "url": "/lu4/item/380-half-plate-gaiters"
+    },
+    {
+      "key": "item:1950",
+      "type": "item",
+      "id": 1950,
+      "name": "Half Plate Temper NG",
+      "url": "/lu4/item/1950-half-plate-temper"
+    },
+    {
+      "key": "item:1951",
+      "type": "item",
+      "id": 1951,
+      "name": "Half Plate Gaiters Part NG",
+      "url": "/lu4/item/1951-half-plate-gaiters-part"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25024",

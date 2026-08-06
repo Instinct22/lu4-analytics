@@ -2,84 +2,81 @@
   "key": "npc:20594",
   "type": "npc",
   "id": 20594,
-  "name": "Lu4 Wiki: NPC Forest Runner",
+  "name": "Forest Runner",
   "url": "/lu4/npc/20594-forest-runner",
-  "source_url": "https://masterwork.wiki/lu4/npc/20594-forest-runner",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20594-forest-runner",
   "raw_html": "library/raw/lu4/npc/20594-forest-runner.html",
   "stats": {
-    "Location": "Волшебная Долина"
+    "Respawn Time": "53 seconds ± 3 seconds",
+    "Location": "Волшебная Долина",
+    "HP / MP": "8 981 / 921",
+    "P. Atk. / M. Atk.": "458 / 265",
+    "P. Def. / M. Def.": "307 / 249",
+    "Accuracy / Evasion": "83 / 83",
+    "Exp / SP": "10 515 / 1 051",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10% HP Increase (4x) Lv. 12 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Poison Resistance Lv. 5 Resistant to Poison attack. Stun Attack Resistance Lv. 3 Slightly resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Plant, Lv. 50"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20594",
-      "type": "npc",
-      "id": 20594,
-      "name": "Lu4",
-      "url": "/lu4/npc/20594-forest-runner"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-plants/5"
+      "name": "Plants",
+      "url": "/lu4/skill/4416-plants"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4277",
       "type": "skill",
       "id": 4277,
-      "name": "Poison Resistance Lv. 5 Resistant to Poison attack.",
-      "url": "/lu4/skill/4277-poison-resistance/5"
+      "name": "Poison Resistance",
+      "url": "/lu4/skill/4277-poison-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/3"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4040",
@@ -89,46 +86,11 @@
       "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:2347",
+      "key": "item:1865",
       "type": "item",
-      "id": 2347,
-      "name": "Recipe: Akat Long Bow NG",
-      "url": "/lu4/item/2347-recipe-akat-long-bow"
-    },
-    {
-      "key": "item:2224",
-      "type": "item",
-      "id": 2224,
-      "name": "Recipe: Demon's Tunic NG",
-      "url": "/lu4/item/2224-recipe-demons-tunic"
-    },
-    {
-      "key": "item:2166",
-      "type": "item",
-      "id": 2166,
-      "name": "Recipe: Earring of Seal (100%) NG",
-      "url": "/lu4/item/2166-recipe-earring-of-seal-100"
-    },
-    {
-      "key": "item:2105",
-      "type": "item",
-      "id": 2105,
-      "name": "Mace of Underworld Head NG",
-      "url": "/lu4/item/2105-mace-of-underworld-head"
-    },
-    {
-      "key": "item:2100",
-      "type": "item",
-      "id": 2100,
-      "name": "Paradia Staff Head NG",
-      "url": "/lu4/item/2100-paradia-staff-head"
-    },
-    {
-      "key": "item:2089",
-      "type": "item",
-      "id": 2089,
-      "name": "Caliburs Edge NG",
-      "url": "/lu4/item/2089-caliburs-edge"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:1879",
@@ -152,25 +114,11 @@
       "url": "/lu4/item/1870-coal"
     },
     {
-      "key": "item:1865",
+      "key": "item:49800",
       "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:202",
-      "type": "item",
-      "id": 202,
-      "name": "Mace of Underworld C",
-      "url": "/lu4/item/202-mace-of-underworld"
-    },
-    {
-      "key": "item:197",
-      "type": "item",
-      "id": 197,
-      "name": "Paradia Staff C",
-      "url": "/lu4/item/197-paradia-staff"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:75",
@@ -180,18 +128,74 @@
       "url": "/lu4/item/75-caliburs"
     },
     {
-      "key": "item:57",
+      "key": "item:2089",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2089,
+      "name": "Caliburs Edge NG",
+      "url": "/lu4/item/2089-caliburs-edge"
     },
     {
-      "key": "item:8329",
+      "key": "item:202",
       "type": "item",
-      "id": 8329,
-      "name": "Pa'agrian Sword Blade NG",
-      "url": "/lu4/item/8329-paagrian-sword-blade"
+      "id": 202,
+      "name": "Mace of Underworld C",
+      "url": "/lu4/item/202-mace-of-underworld"
+    },
+    {
+      "key": "item:2105",
+      "type": "item",
+      "id": 2105,
+      "name": "Mace of Underworld Head NG",
+      "url": "/lu4/item/2105-mace-of-underworld-head"
+    },
+    {
+      "key": "item:197",
+      "type": "item",
+      "id": 197,
+      "name": "Paradia Staff C",
+      "url": "/lu4/item/197-paradia-staff"
+    },
+    {
+      "key": "item:2100",
+      "type": "item",
+      "id": 2100,
+      "name": "Paradia Staff Head NG",
+      "url": "/lu4/item/2100-paradia-staff-head"
+    },
+    {
+      "key": "item:2347",
+      "type": "item",
+      "id": 2347,
+      "name": "Recipe: Akat Long Bow NG",
+      "url": "/lu4/item/2347-recipe-akat-long-bow"
+    },
+    {
+      "key": "item:2224",
+      "type": "item",
+      "id": 2224,
+      "name": "Recipe: Demon's Tunic NG",
+      "url": "/lu4/item/2224-recipe-demons-tunic"
+    },
+    {
+      "key": "item:2166",
+      "type": "item",
+      "id": 2166,
+      "name": "Recipe: Earring of Seal (100%) NG",
+      "url": "/lu4/item/2166-recipe-earring-of-seal-100"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1895",
+      "type": "item",
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
     },
     {
       "key": "item:2351",
@@ -208,13 +212,6 @@
       "url": "/lu4/item/2337-recipe-stick-of-eternity"
     },
     {
-      "key": "item:1984",
-      "type": "item",
-      "id": 1984,
-      "name": "Theca Leather Armor Pattern NG",
-      "url": "/lu4/item/1984-theca-leather-armor-pattern"
-    },
-    {
       "key": "item:1972",
       "type": "item",
       "id": 1972,
@@ -222,18 +219,18 @@
       "url": "/lu4/item/1972-knights-shield-fragment"
     },
     {
-      "key": "item:1895",
+      "key": "item:8329",
       "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
+      "id": 8329,
+      "name": "Pa'agrian Sword Blade NG",
+      "url": "/lu4/item/8329-paagrian-sword-blade"
     },
     {
-      "key": "item:1871",
+      "key": "item:1984",
       "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 1984,
+      "name": "Theca Leather Armor Pattern NG",
+      "url": "/lu4/item/1984-theca-leather-armor-pattern"
     }
   ]
 }

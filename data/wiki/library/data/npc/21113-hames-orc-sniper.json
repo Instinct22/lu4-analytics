@@ -2,105 +2,102 @@
   "key": "npc:21113",
   "type": "npc",
   "id": 21113,
-  "name": "Lu4 Wiki: NPC Hames Orc Sniper",
+  "name": "Hames Orc Sniper",
   "url": "/lu4/npc/21113-hames-orc-sniper",
-  "source_url": "https://masterwork.wiki/lu4/npc/21113-hames-orc-sniper",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21113-hames-orc-sniper",
   "raw_html": "library/raw/lu4/npc/21113-hames-orc-sniper.html",
   "stats": {
-    "Location": "Земли Адена (+1) Земли Адена Раскаленные Топи"
+    "Respawn Time": "35 seconds ± 5 seconds",
+    "Location": "Земли Адена (+1) Земли Адена Раскаленные Топи",
+    "HP / MP": "4 291 / 1 565",
+    "P. Atk. / M. Atk.": "3 804 / 977",
+    "P. Def. / M. Def.": "467 / 381",
+    "Accuracy / Evasion": "108 / 107",
+    "Exp / SP": "5 589 / 559",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 13 Slightly Weak M. Def. Lv. 10 Slightly Weak P. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 71"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21113",
-      "type": "npc",
-      "id": 21113,
-      "name": "Lu4",
-      "url": "/lu4/npc/21113-hames-orc-sniper"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
-      "key": "location:95",
-      "type": "location",
-      "id": 95,
-      "name": "Раскаленные Топи",
-      "url": "/lu4/location/95-raskalennye-topi"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:1884",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
     },
     {
-      "key": "item:39298",
+      "key": "item:1878",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
     },
     {
-      "key": "item:39297",
+      "key": "item:1869",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
-      "key": "item:39296",
+      "key": "item:1864",
       "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:39295",
+      "key": "item:1344",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 1344,
+      "name": "Mithril Arrow A",
+      "url": "/lu4/item/1344-mithril-arrow"
+    },
+    {
+      "key": "item:4039",
+      "type": "item",
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
     },
     {
       "key": "item:32437",
@@ -110,11 +107,11 @@
       "url": "/lu4/item/32437-unidentified-destroyer-hammer"
     },
     {
-      "key": "item:32377",
+      "key": "item:8346",
       "type": "item",
-      "id": 32377,
-      "name": "Unidentified Sealed Tallum Gloves A",
-      "url": "/lu4/item/32377-unidentified-sealed-tallum-gloves"
+      "id": 8346,
+      "name": "Hammer Piece of Destroyer NG",
+      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
     },
     {
       "key": "item:32370",
@@ -124,60 +121,18 @@
       "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
     },
     {
-      "key": "item:10577",
-      "type": "item",
-      "id": 10577,
-      "name": "Spellbook: Excessive Loyalty NG",
-      "url": "/lu4/item/10577-spellbook-excessive-loyalty"
-    },
-    {
-      "key": "item:8346",
-      "type": "item",
-      "id": 8346,
-      "name": "Hammer Piece of Destroyer NG",
-      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
-    },
-    {
-      "key": "item:7662",
-      "type": "item",
-      "id": 7662,
-      "name": "Spellbook: Elemental Protection NG",
-      "url": "/lu4/item/7662-spellbook-elemental-protection"
-    },
-    {
-      "key": "item:7650",
-      "type": "item",
-      "id": 7650,
-      "name": "Spellbook: Ice Vortex NG",
-      "url": "/lu4/item/7650-spellbook-ice-vortex"
-    },
-    {
-      "key": "item:7649",
-      "type": "item",
-      "id": 7649,
-      "name": "Spellbook: Fire Vortex NG",
-      "url": "/lu4/item/7649-spellbook-fire-vortex"
-    },
-    {
-      "key": "item:6333",
-      "type": "item",
-      "id": 6333,
-      "name": "Recipe: Sealed Phoenix Ring(70%) NG",
-      "url": "/lu4/item/6333-recipe-sealed-phoenix-ring70"
-    },
-    {
-      "key": "item:6329",
-      "type": "item",
-      "id": 6329,
-      "name": "Recipe: Sealed Phoenix Necklace(70%) NG",
-      "url": "/lu4/item/6329-recipe-sealed-phoenix-necklace70"
-    },
-    {
       "key": "item:5524",
       "type": "item",
       "id": 5524,
       "name": "Sealed Dark Crystal Gaiters Pattern NG",
       "url": "/lu4/item/5524-sealed-dark-crystal-gaiters-pattern"
+    },
+    {
+      "key": "item:32377",
+      "type": "item",
+      "id": 32377,
+      "name": "Unidentified Sealed Tallum Gloves A",
+      "url": "/lu4/item/32377-unidentified-sealed-tallum-gloves"
     },
     {
       "key": "item:5509",
@@ -194,32 +149,53 @@
       "url": "/lu4/item/5458-recipe-halberd60"
     },
     {
-      "key": "item:4039",
+      "key": "item:6329",
       "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
+      "id": 6329,
+      "name": "Recipe: Sealed Phoenix Necklace(70%) NG",
+      "url": "/lu4/item/6329-recipe-sealed-phoenix-necklace70"
     },
     {
-      "key": "item:5548",
+      "key": "item:6333",
       "type": "item",
-      "id": 5548,
-      "name": "Tallum Blade Edge NG",
-      "url": "/lu4/item/5548-tallum-blade-edge"
+      "id": 6333,
+      "name": "Recipe: Sealed Phoenix Ring(70%) NG",
+      "url": "/lu4/item/6333-recipe-sealed-phoenix-ring70"
     },
     {
-      "key": "item:5521",
+      "key": "item:7662",
       "type": "item",
-      "id": 5521,
-      "name": "Sealed Tallum Plate Armor Pattern NG",
-      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
+      "id": 7662,
+      "name": "Spellbook: Elemental Protection NG",
+      "url": "/lu4/item/7662-spellbook-elemental-protection"
     },
     {
-      "key": "item:5520",
+      "key": "item:10577",
       "type": "item",
-      "id": 5520,
-      "name": "Sealed Dark Crystal Breastplate Pattern NG",
-      "url": "/lu4/item/5520-sealed-dark-crystal-breastplate-pattern"
+      "id": 10577,
+      "name": "Spellbook: Excessive Loyalty NG",
+      "url": "/lu4/item/10577-spellbook-excessive-loyalty"
+    },
+    {
+      "key": "item:7649",
+      "type": "item",
+      "id": 7649,
+      "name": "Spellbook: Fire Vortex NG",
+      "url": "/lu4/item/7649-spellbook-fire-vortex"
+    },
+    {
+      "key": "item:7650",
+      "type": "item",
+      "id": 7650,
+      "name": "Spellbook: Ice Vortex NG",
+      "url": "/lu4/item/7650-spellbook-ice-vortex"
+    },
+    {
+      "key": "item:5348",
+      "type": "item",
+      "id": 5348,
+      "name": "Recipe: Sealed Dark Crystal Robe(60%) NG",
+      "url": "/lu4/item/5348-recipe-sealed-dark-crystal-robe60"
     },
     {
       "key": "item:5370",
@@ -229,11 +205,25 @@
       "url": "/lu4/item/5370-recipe-sealed-tallum-boots60"
     },
     {
-      "key": "item:5348",
+      "key": "item:5520",
       "type": "item",
-      "id": 5348,
-      "name": "Recipe: Sealed Dark Crystal Robe(60%) NG",
-      "url": "/lu4/item/5348-recipe-sealed-dark-crystal-robe60"
+      "id": 5520,
+      "name": "Sealed Dark Crystal Breastplate Pattern NG",
+      "url": "/lu4/item/5520-sealed-dark-crystal-breastplate-pattern"
+    },
+    {
+      "key": "item:5521",
+      "type": "item",
+      "id": 5521,
+      "name": "Sealed Tallum Plate Armor Pattern NG",
+      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
+    },
+    {
+      "key": "item:5548",
+      "type": "item",
+      "id": 5548,
+      "name": "Tallum Blade Edge NG",
+      "url": "/lu4/item/5548-tallum-blade-edge"
     }
   ]
 }

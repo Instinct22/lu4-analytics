@@ -2,118 +2,24 @@
   "key": "item:2255",
   "type": "item",
   "id": 2255,
-  "name": "Recipe",
+  "name": "Recipe: Saber",
   "url": "/lu4/item/2255-recipe-saber",
-  "source_url": "https://masterwork.wiki/lu4/item/2255-recipe-saber",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2255-recipe-saber",
   "raw_html": "library/raw/lu4/item/2255-recipe-saber.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Saber'. Requires Create Item - Skill Level 2 (Artisan Lv. 20). The success rate is 100%.",
+    "NPC Sell Price": "4 090 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "84",
     "Success Rate": "100%",
-    "Result": "Saber D"
+    "Result": "Saber D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2017",
-      "type": "item",
-      "id": 2017,
-      "name": "Saber Blade NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1883",
-      "type": "item",
-      "id": 1883,
-      "name": "Steel Mold NG",
-      "amount": "2"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "50"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "70"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "350"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "350"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "70"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "210"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "210"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "34"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2255",
-      "type": "item",
-      "id": 2255,
-      "name": "Lu4",
-      "url": "/lu4/item/2255-recipe-saber"
-    },
     {
       "key": "item:2017",
       "type": "item",
@@ -202,28 +108,28 @@
       "key": "npc:21129",
       "type": "npc",
       "id": 21129,
-      "name": "Kerope Werewolf Chief Lv. 23",
+      "name": "Kerope Werewolf Chief",
       "url": "/lu4/npc/21129-kerope-werewolf-chief"
     },
     {
       "key": "npc:20204",
       "type": "npc",
       "id": 20204,
-      "name": "Bloody Bee Lv. 23",
+      "name": "Bloody Bee",
       "url": "/lu4/npc/20204-bloody-bee"
     },
     {
       "key": "npc:20548",
       "type": "npc",
       "id": 20548,
-      "name": "Ol Mahum Deserter Lv. 23",
+      "name": "Ol Mahum Deserter",
       "url": "/lu4/npc/20548-ol-mahum-deserter"
     },
     {
       "key": "npc:20052",
       "type": "npc",
       "id": 20052,
-      "name": "Lesser Succubus Turen Lv. 21",
+      "name": "Lesser Succubus Turen",
       "url": "/lu4/npc/20052-lesser-succubus-turen"
     }
   ]

@@ -2,91 +2,67 @@
   "key": "npc:5087",
   "type": "npc",
   "id": 5087,
-  "name": "Lu4 Wiki: NPC Blackbanner Marshal",
+  "name": "Blackbanner Marshal",
   "url": "/lu4/npc/5087-blackbanner-marshal",
-  "source_url": "https://masterwork.wiki/lu4/npc/5087-blackbanner-marshal",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5087-blackbanner-marshal",
   "raw_html": "library/raw/lu4/npc/5087-blackbanner-marshal.html",
   "stats": {
-    "Location": "Земли Адена"
+    "Respawn Time": "45 seconds ± 7 seconds",
+    "Location": "Земли Адена",
+    "HP / MP": "9 916 / 1 110",
+    "P. Atk. / M. Atk.": "885 / 405",
+    "P. Def. / M. Def.": "370 / 309",
+    "Accuracy / Evasion": "93 / 92",
+    "Exp / SP": "11 422 / 1 142",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Grumpy Lv. 1 Strikes without warning. HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 13 Greater Hold Resistance Lv. 3 Highly resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 57"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5087",
-      "type": "npc",
-      "id": 5087,
-      "name": "Lu4",
-      "url": "/lu4/npc/5087-blackbanner-marshal"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 3 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/3"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
-      "key": "item:32433",
+      "key": "item:57",
       "type": "item",
-      "id": 32433,
-      "name": "Unidentified Spell Breaker B",
-      "url": "/lu4/item/32433-unidentified-spell-breaker"
-    },
-    {
-      "key": "item:32353",
-      "type": "item",
-      "id": 32353,
-      "name": "Unidentified Avadon Gaiters B",
-      "url": "/lu4/item/32353-unidentified-avadon-gaiters"
-    },
-    {
-      "key": "item:32350",
-      "type": "item",
-      "id": 32350,
-      "name": "Unidentified Zubei's Breastplate B",
-      "url": "/lu4/item/32350-unidentified-zubeis-breastplate"
-    },
-    {
-      "key": "item:8339",
-      "type": "item",
-      "id": 8339,
-      "name": "Spell Breaker Head NG",
-      "url": "/lu4/item/8339-spell-breaker-head"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5550",
@@ -96,39 +72,11 @@
       "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
-      "key": "item:4959",
+      "key": "item:1864",
       "type": "item",
-      "id": 4959,
-      "name": "Recipe: Sealed Avadon Boots (60%) NG",
-      "url": "/lu4/item/4959-recipe-sealed-avadon-boots-60"
-    },
-    {
-      "key": "item:4946",
-      "type": "item",
-      "id": 4946,
-      "name": "Recipe: Zubei's Leather Shirt (60%) NG",
-      "url": "/lu4/item/4946-recipe-zubeis-leather-shirt-60"
-    },
-    {
-      "key": "item:4937",
-      "type": "item",
-      "id": 4937,
-      "name": "Recipe: Adamantite Earrings (70%) NG",
-      "url": "/lu4/item/4937-recipe-adamantite-earrings-70"
-    },
-    {
-      "key": "item:4065",
-      "type": "item",
-      "id": 4065,
-      "name": "Avadon Gaiters Material NG",
-      "url": "/lu4/item/4065-avadon-gaiters-material"
-    },
-    {
-      "key": "item:4056",
-      "type": "item",
-      "id": 4056,
-      "name": "Zubei's Breastplate Part NG",
-      "url": "/lu4/item/4056-zubeis-breastplate-part"
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     },
     {
       "key": "item:4043",
@@ -152,13 +100,6 @@
       "url": "/lu4/item/1869-iron-ore"
     },
     {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
       "key": "item:948",
       "type": "item",
       "id": 948,
@@ -166,11 +107,67 @@
       "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:4937",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4937,
+      "name": "Recipe: Adamantite Earrings (70%) NG",
+      "url": "/lu4/item/4937-recipe-adamantite-earrings-70"
+    },
+    {
+      "key": "item:4959",
+      "type": "item",
+      "id": 4959,
+      "name": "Recipe: Sealed Avadon Boots (60%) NG",
+      "url": "/lu4/item/4959-recipe-sealed-avadon-boots-60"
+    },
+    {
+      "key": "item:4946",
+      "type": "item",
+      "id": 4946,
+      "name": "Recipe: Zubei's Leather Shirt (60%) NG",
+      "url": "/lu4/item/4946-recipe-zubeis-leather-shirt-60"
+    },
+    {
+      "key": "item:32353",
+      "type": "item",
+      "id": 32353,
+      "name": "Unidentified Avadon Gaiters B",
+      "url": "/lu4/item/32353-unidentified-avadon-gaiters"
+    },
+    {
+      "key": "item:4065",
+      "type": "item",
+      "id": 4065,
+      "name": "Avadon Gaiters Material NG",
+      "url": "/lu4/item/4065-avadon-gaiters-material"
+    },
+    {
+      "key": "item:32350",
+      "type": "item",
+      "id": 32350,
+      "name": "Unidentified Zubei's Breastplate B",
+      "url": "/lu4/item/32350-unidentified-zubeis-breastplate"
+    },
+    {
+      "key": "item:4056",
+      "type": "item",
+      "id": 4056,
+      "name": "Zubei's Breastplate Part NG",
+      "url": "/lu4/item/4056-zubeis-breastplate-part"
+    },
+    {
+      "key": "item:32433",
+      "type": "item",
+      "id": 32433,
+      "name": "Unidentified Spell Breaker B",
+      "url": "/lu4/item/32433-unidentified-spell-breaker"
+    },
+    {
+      "key": "item:8339",
+      "type": "item",
+      "id": 8339,
+      "name": "Spell Breaker Head NG",
+      "url": "/lu4/item/8339-spell-breaker-head"
     },
     {
       "key": "item:6572",
@@ -180,6 +177,13 @@
       "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
     },
     {
+      "key": "item:4944",
+      "type": "item",
+      "id": 4944,
+      "name": "Recipe: Avadon Breastplate (60%) NG",
+      "url": "/lu4/item/4944-recipe-avadon-breastplate-60"
+    },
+    {
       "key": "item:4949",
       "type": "item",
       "id": 4949,
@@ -187,11 +191,11 @@
       "url": "/lu4/item/4949-recipe-tunic-of-zubei-60"
     },
     {
-      "key": "item:4944",
+      "key": "item:4051",
       "type": "item",
-      "id": 4944,
-      "name": "Recipe: Avadon Breastplate (60%) NG",
-      "url": "/lu4/item/4944-recipe-avadon-breastplate-60"
+      "id": 4051,
+      "name": "Adamantite Necklace Chain NG",
+      "url": "/lu4/item/4051-adamantite-necklace-chain"
     },
     {
       "key": "item:4110",
@@ -206,13 +210,6 @@
       "id": 4102,
       "name": "Zubei's Helmet Design NG",
       "url": "/lu4/item/4102-zubeis-helmet-design"
-    },
-    {
-      "key": "item:4051",
-      "type": "item",
-      "id": 4051,
-      "name": "Adamantite Necklace Chain NG",
-      "url": "/lu4/item/4051-adamantite-necklace-chain"
     }
   ]
 }

@@ -2,126 +2,74 @@
   "key": "npc:20751",
   "type": "npc",
   "id": 20751,
-  "name": "Lu4 Wiki: NPC Snipe",
+  "name": "Snipe",
   "url": "/lu4/npc/20751-snipe",
-  "source_url": "https://masterwork.wiki/lu4/npc/20751-snipe",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20751-snipe",
   "raw_html": "library/raw/lu4/npc/20751-snipe.html",
   "stats": {
-    "Location": "Башня Крумы: 3-й этаж"
+    "Respawn Time": "1 minute ± 10 seconds",
+    "Location": "Башня Крумы: 3-й этаж",
+    "HP / MP": "7 255 / 719",
+    "P. Atk. / M. Atk.": "419 / 227",
+    "P. Def. / M. Def.": "212 / 170",
+    "Accuracy / Evasion": "77 / 77",
+    "Exp / SP": "8 373 / 837",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20751",
-      "type": "npc",
-      "id": 20751,
-      "name": "Lu4",
-      "url": "/lu4/npc/20751-snipe"
-    },
-    {
-      "key": "location:56",
-      "type": "location",
-      "id": 56,
-      "name": "Башня Крумы: 3-й этаж",
-      "url": "/lu4/location/56-basna-krumy-3-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
-    },
-    {
-      "key": "item:2085",
-      "type": "item",
-      "id": 2085,
-      "name": "Elemental Bow Shaft NG",
-      "url": "/lu4/item/2085-elemental-bow-shaft"
-    },
-    {
-      "key": "item:1975",
-      "type": "item",
-      "id": 1975,
-      "name": "Rind Leather Armor Design NG",
-      "url": "/lu4/item/1975-rind-leather-armor-design"
-    },
-    {
-      "key": "item:1913",
-      "type": "item",
-      "id": 1913,
-      "name": "Necklace of Protection Gemstone NG",
-      "url": "/lu4/item/1913-necklace-of-protection-gemstone"
-    },
-    {
-      "key": "item:1894",
-      "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "url": "/lu4/item/1894-crafted-leather"
-    },
-    {
-      "key": "item:916",
-      "type": "item",
-      "id": 916,
-      "name": "Necklace of Protection C",
-      "url": "/lu4/item/916-necklace-of-protection"
-    },
-    {
-      "key": "item:399",
-      "type": "item",
-      "id": 399,
-      "name": "Rind Leather Armor C",
-      "url": "/lu4/item/399-rind-leather-armor"
-    },
-    {
-      "key": "item:282",
-      "type": "item",
-      "id": 282,
-      "name": "Elemental Bow C",
-      "url": "/lu4/item/282-elemental-bow"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "item:57",
@@ -131,11 +79,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:4438",
+      "key": "item:1894",
       "type": "item",
-      "id": 4438,
-      "name": "Knuckle Duster Edge NG",
-      "url": "/lu4/item/4438-knuckle-duster-edge"
+      "id": 1894,
+      "name": "Crafted Leather NG",
+      "url": "/lu4/item/1894-crafted-leather"
+    },
+    {
+      "key": "item:282",
+      "type": "item",
+      "id": 282,
+      "name": "Elemental Bow C",
+      "url": "/lu4/item/282-elemental-bow"
+    },
+    {
+      "key": "item:2085",
+      "type": "item",
+      "id": 2085,
+      "name": "Elemental Bow Shaft NG",
+      "url": "/lu4/item/2085-elemental-bow-shaft"
+    },
+    {
+      "key": "item:916",
+      "type": "item",
+      "id": 916,
+      "name": "Necklace of Protection C",
+      "url": "/lu4/item/916-necklace-of-protection"
+    },
+    {
+      "key": "item:1913",
+      "type": "item",
+      "id": 1913,
+      "name": "Necklace of Protection Gemstone NG",
+      "url": "/lu4/item/1913-necklace-of-protection-gemstone"
+    },
+    {
+      "key": "item:399",
+      "type": "item",
+      "id": 399,
+      "name": "Rind Leather Armor C",
+      "url": "/lu4/item/399-rind-leather-armor"
+    },
+    {
+      "key": "item:1975",
+      "type": "item",
+      "id": 1975,
+      "name": "Rind Leather Armor Design NG",
+      "url": "/lu4/item/1975-rind-leather-armor-design"
+    },
+    {
+      "key": "item:1974",
+      "type": "item",
+      "id": 1974,
+      "name": "Crimson Boot Fabric NG",
+      "url": "/lu4/item/1974-crimson-boot-fabric"
     },
     {
       "key": "item:2078",
@@ -145,11 +142,11 @@
       "url": "/lu4/item/2078-katana-blade"
     },
     {
-      "key": "item:1974",
+      "key": "item:4438",
       "type": "item",
-      "id": 1974,
-      "name": "Crimson Boot Fabric NG",
-      "url": "/lu4/item/1974-crimson-boot-fabric"
+      "id": 4438,
+      "name": "Knuckle Duster Edge NG",
+      "url": "/lu4/item/4438-knuckle-duster-edge"
     },
     {
       "key": "npc:20752",

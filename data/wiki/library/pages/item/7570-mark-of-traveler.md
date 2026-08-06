@@ -1,95 +1,16 @@
-# Lu4 Wiki: Item Mark of Traveler
+# Mark of Traveler
 
-- Source: https://masterwork.wiki/lu4/item/7570-mark-of-traveler
+- Source: https://masterwork.wiki/lu4-b-w-c/item/7570-mark-of-traveler
 - Path: /lu4/item/7570-mark-of-traveler
 - Type: item
 - Key: item:7570
 
 ## Stats
+- Effect: A certificate to prove to Trader Galladucci the traveler's identity.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Mark of Traveler
-Lu4
-Eternal
-MasterWork
-Mark of Traveler
-NG
-Quest Item
-A certificate to prove to Trader Galladucci the traveler's identity.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Reward for Quest
-Used in Quests
-Quest
-Levels
-Step into the Future
-3 ~ 10
-A Trip Begins
-3 ~ 10
-An Adventure Begins
-3 ~ 10
-Into the City of Humans
-3 ~ 10
-Into the World
-3 ~ 10
-Quest
-Levels
-Step into the Future
-3 ~ 10
-A Trip Begins
-3 ~ 10
-An Adventure Begins
-3 ~ 10
-Into the City of Humans
-3 ~ 10
-Into the World
-3 ~ 10
-~
-MasterWork 2026
-All rights reserved
+Mark of Traveler NG Quest Item A certificate to prove to Trader Galladucci the traveler's identity. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

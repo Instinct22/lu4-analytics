@@ -2,98 +2,60 @@
   "key": "npc:20473",
   "type": "npc",
   "id": 20473,
-  "name": "Lu4 Wiki: NPC Kaboo Orc Fighter Lieutenant",
+  "name": "Kaboo Orc Fighter Lieutenant",
   "url": "/lu4/npc/20473-kaboo-orc-fighter-lieutenant",
-  "source_url": "https://masterwork.wiki/lu4/npc/20473-kaboo-orc-fighter-lieutenant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20473-kaboo-orc-fighter-lieutenant",
   "raw_html": "library/raw/lu4/npc/20473-kaboo-orc-fighter-lieutenant.html",
   "stats": {
-    "Location": "Эльфийский Лес"
+    "Respawn Time": "12 seconds",
+    "Location": "Эльфийский Лес",
+    "HP / MP": "286 / 143",
+    "P. Atk. / M. Atk.": "25 / 11",
+    "P. Def. / M. Def.": "71 / 58",
+    "Accuracy / Evasion": "47 / 46",
+    "Exp / SP": "305 / 30",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 11"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20473",
-      "type": "npc",
-      "id": 20473,
-      "name": "Lu4",
-      "url": "/lu4/npc/20473-kaboo-orc-fighter-lieutenant"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:2008",
-      "type": "item",
-      "id": 2008,
-      "name": "Cedar Staff Head NG",
-      "url": "/lu4/item/2008-cedar-staff-head"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1792",
-      "type": "item",
-      "id": 1792,
-      "name": "Recipe: Short Spear NG",
-      "url": "/lu4/item/1792-recipe-short-spear"
-    },
-    {
-      "key": "item:154",
-      "type": "item",
-      "id": 154,
-      "name": "Dwarven Mace NG",
-      "url": "/lu4/item/154-dwarven-mace"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -110,11 +72,46 @@
       "url": "/lu4/item/9-cedar-staff"
     },
     {
-      "key": "item:1896",
+      "key": "item:154",
       "type": "item",
-      "id": 1896,
-      "name": "Necklace of Anguish Chain NG",
-      "url": "/lu4/item/1896-necklace-of-anguish-chain"
+      "id": 154,
+      "name": "Dwarven Mace NG",
+      "url": "/lu4/item/154-dwarven-mace"
+    },
+    {
+      "key": "item:2008",
+      "type": "item",
+      "id": 2008,
+      "name": "Cedar Staff Head NG",
+      "url": "/lu4/item/2008-cedar-staff-head"
+    },
+    {
+      "key": "item:1792",
+      "type": "item",
+      "id": 1792,
+      "name": "Recipe: Short Spear NG",
+      "url": "/lu4/item/1792-recipe-short-spear"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:23",
+      "type": "item",
+      "id": 23,
+      "name": "Wooden Breastplate NG",
+      "url": "/lu4/item/23-wooden-breastplate"
     },
     {
       "key": "item:1832",
@@ -124,11 +121,11 @@
       "url": "/lu4/item/1832-greater-antidote"
     },
     {
-      "key": "item:23",
+      "key": "item:1896",
       "type": "item",
-      "id": 23,
-      "name": "Wooden Breastplate NG",
-      "url": "/lu4/item/23-wooden-breastplate"
+      "id": 1896,
+      "name": "Necklace of Anguish Chain NG",
+      "url": "/lu4/item/1896-necklace-of-anguish-chain"
     }
   ]
 }

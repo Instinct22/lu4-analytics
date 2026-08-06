@@ -2,98 +2,95 @@
   "key": "npc:20269",
   "type": "npc",
   "id": 20269,
-  "name": "Lu4 Wiki: NPC Breka Orc Shaman",
+  "name": "Breka Orc Shaman",
   "url": "/lu4/npc/20269-breka-orc-shaman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20269-breka-orc-shaman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20269-breka-orc-shaman",
   "raw_html": "library/raw/lu4/npc/20269-breka-orc-shaman.html",
   "stats": {
-    "Location": "Укрепление Бреки (+1) Укрепление Бреки Земли Гирана"
+    "Respawn Time": "23 seconds",
+    "Location": "Укрепление Бреки (+1) Укрепление Бреки Земли Гирана",
+    "HP / MP": "1 160 / 473",
+    "P. Atk. / M. Atk.": "148 / 147",
+    "P. Def. / M. Def.": "143 / 167",
+    "Accuracy / Evasion": "70 / 69",
+    "Exp / SP": "1 274 / 127",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 12 One-handed Blunt Weapons Lv. 5 Blunt Weapons",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 34"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20269",
-      "type": "npc",
-      "id": 20269,
-      "name": "Lu4",
-      "url": "/lu4/npc/20269-breka-orc-shaman"
-    },
-    {
-      "key": "location:216",
-      "type": "location",
-      "id": 216,
-      "name": "Укрепление Бреки",
-      "url": "/lu4/location/216-ukreplenie-breki"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:1875",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:39298",
+      "key": "item:1879",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
+    },
+    {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
     },
     {
       "key": "item:5550",
@@ -110,13 +107,6 @@
       "url": "/lu4/item/5549-metallic-thread"
     },
     {
-      "key": "item:2922",
-      "type": "item",
-      "id": 2922,
-      "name": "Brigandine Helmet Design NG",
-      "url": "/lu4/item/2922-brigandine-helmet-design"
-    },
-    {
       "key": "item:2411",
       "type": "item",
       "id": 2411,
@@ -124,39 +114,11 @@
       "url": "/lu4/item/2411-brigandine-helmet"
     },
     {
-      "key": "item:2041",
+      "key": "item:2922",
       "type": "item",
-      "id": 2041,
-      "name": "War Pick Head NG",
-      "url": "/lu4/item/2041-war-pick-head"
-    },
-    {
-      "key": "item:1903",
-      "type": "item",
-      "id": 1903,
-      "name": "Elven Ring Piece NG",
-      "url": "/lu4/item/1903-elven-ring-piece"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
+      "id": 2922,
+      "name": "Brigandine Helmet Design NG",
+      "url": "/lu4/item/2922-brigandine-helmet-design"
     },
     {
       "key": "item:881",
@@ -166,6 +128,13 @@
       "url": "/lu4/item/881-elven-ring"
     },
     {
+      "key": "item:1903",
+      "type": "item",
+      "id": 1903,
+      "name": "Elven Ring Piece NG",
+      "url": "/lu4/item/1903-elven-ring-piece"
+    },
+    {
       "key": "item:294",
       "type": "item",
       "id": 294,
@@ -173,11 +142,32 @@
       "url": "/lu4/item/294-war-pick"
     },
     {
-      "key": "item:57",
+      "key": "item:2041",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2041,
+      "name": "War Pick Head NG",
+      "url": "/lu4/item/2041-war-pick-head"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:2928",

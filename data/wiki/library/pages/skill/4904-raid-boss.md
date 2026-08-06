@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4904-raid-boss
+- Path: /lu4/skill/4904-raid-boss
+- Type: skill
+- Key: skill:4904
+
+## Stats
+- Effect: This merciless and reckless warrior has led the Ketra Orcs for many years. A born gambler, he prefers direct action to elaborate plans, and personally leads his troops from the front line when attacking. He has faced Varka's Commander Mos twice, winning one of the contests, and is eager for a rematch.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability This merciless and reckless warrior has led the Ketra Orcs for many years. A born gambler, he prefers direct action to elaborate plans, and personally leads his troops from the front line when attacking. He has faced Varka's Commander Mos twice, winning one of the contests, and is eager for a rematch. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

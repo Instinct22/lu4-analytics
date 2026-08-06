@@ -2,70 +2,102 @@
   "key": "npc:20666",
   "type": "npc",
   "id": 20666,
-  "name": "Lu4 Wiki: NPC Taik Orc Seeker",
+  "name": "Taik Orc Seeker",
   "url": "/lu4/npc/20666-taik-orc-seeker",
-  "source_url": "https://masterwork.wiki/lu4/npc/20666-taik-orc-seeker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20666-taik-orc-seeker",
   "raw_html": "library/raw/lu4/npc/20666-taik-orc-seeker.html",
   "stats": {
-    "Location": "Равнины Неистовства (+1) Равнины Неистовства Кладбище"
+    "Respawn Time": "25 seconds ± 3 seconds",
+    "Location": "Равнины Неистовства (+1) Равнины Неистовства Кладбище",
+    "HP / MP": "5 460 / 990",
+    "P. Atk. / M. Atk.": "835 / 384",
+    "P. Def. / M. Def.": "286 / 243",
+    "Accuracy / Evasion": "92 / 91",
+    "Exp / SP": "5 867 / 587",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak M. Def. Lv. 10 Slightly Weak P. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 56"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20666",
-      "type": "npc",
-      "id": 20666,
-      "name": "Lu4",
-      "url": "/lu4/npc/20666-taik-orc-seeker"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
-      "key": "location:71",
-      "type": "location",
-      "id": 71,
-      "name": "Кладбище",
-      "url": "/lu4/location/71-kladbise"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:4043",
+      "type": "item",
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:4039",
+      "type": "item",
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
+    },
+    {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
     },
     {
       "key": "item:49800",
@@ -75,11 +107,32 @@
       "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
+      "key": "item:32340",
+      "type": "item",
+      "id": 32340,
+      "name": "Unidentified Arthro Nail B",
+      "url": "/lu4/item/32340-unidentified-arthro-nail"
+    },
+    {
+      "key": "item:4111",
+      "type": "item",
+      "id": 4111,
+      "name": "Arthro Nail Blade NG",
+      "url": "/lu4/item/4111-arthro-nail-blade"
+    },
+    {
       "key": "item:32398",
       "type": "item",
       "id": 32398,
       "name": "Unidentified Sealed Zubei's Gauntlets B",
       "url": "/lu4/item/32398-unidentified-sealed-zubeis-gauntlets"
+    },
+    {
+      "key": "item:4100",
+      "type": "item",
+      "id": 4100,
+      "name": "Sealed Zubei's Gauntlets Part NG",
+      "url": "/lu4/item/4100-sealed-zubeis-gauntlets-part"
     },
     {
       "key": "item:32357",
@@ -89,11 +142,18 @@
       "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
     },
     {
-      "key": "item:32340",
+      "key": "item:4067",
       "type": "item",
-      "id": 32340,
-      "name": "Unidentified Arthro Nail B",
-      "url": "/lu4/item/32340-unidentified-arthro-nail"
+      "id": 4067,
+      "name": "Zubei's Leather Gaiter Texture NG",
+      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
+    },
+    {
+      "key": "item:3055",
+      "type": "item",
+      "id": 3055,
+      "name": "Spellbook: Lightning Strike NG",
+      "url": "/lu4/item/3055-spellbook-lightning-strike"
     },
     {
       "key": "item:8402",
@@ -117,74 +177,11 @@
       "url": "/lu4/item/8383-spellbook-mass-surrender-to-fire"
     },
     {
-      "key": "item:4111",
+      "key": "item:1884",
       "type": "item",
-      "id": 4111,
-      "name": "Arthro Nail Blade NG",
-      "url": "/lu4/item/4111-arthro-nail-blade"
-    },
-    {
-      "key": "item:4100",
-      "type": "item",
-      "id": 4100,
-      "name": "Sealed Zubei's Gauntlets Part NG",
-      "url": "/lu4/item/4100-sealed-zubeis-gauntlets-part"
-    },
-    {
-      "key": "item:4067",
-      "type": "item",
-      "id": 4067,
-      "name": "Zubei's Leather Gaiter Texture NG",
-      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:4039",
-      "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
-    },
-    {
-      "key": "item:3055",
-      "type": "item",
-      "id": 3055,
-      "name": "Spellbook: Lightning Strike NG",
-      "url": "/lu4/item/3055-spellbook-lightning-strike"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
     },
     {
       "key": "item:6574",
@@ -206,13 +203,6 @@
       "id": 4941,
       "name": "Recipe: Zubei's Gaiters (60%) NG",
       "url": "/lu4/item/4941-recipe-zubeis-gaiters-60"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
     }
   ]
 }

@@ -2,56 +2,53 @@
   "key": "npc:25426",
   "type": "npc",
   "id": 25426,
-  "name": "Lu4 Wiki: NPC Betrayer of Urutu Freki",
+  "name": "Betrayer of Urutu Freki",
   "url": "/lu4/npc/25426-betrayer-of-urutu-freki",
-  "source_url": "https://masterwork.wiki/lu4/npc/25426-betrayer-of-urutu-freki",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25426-betrayer-of-urutu-freki",
   "raw_html": "library/raw/lu4/npc/25426-betrayer-of-urutu-freki.html",
   "stats": {
-    "Location": "Плато Бессмертия"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Плато Бессмертия",
+    "HP / MP": "103 093 / 8 254",
+    "P. Atk. / M. Atk.": "206 / 17",
+    "P. Def. / M. Def.": "335 / 377",
+    "Accuracy / Evasion": "79 / 78",
+    "Exp / SP": "459 375 / 52 699",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Maraku Werewolf Chief was once the ally of the Urutu Orcs and peacefully coexisted with them. Then he suddenly attacked the Urutu Tribe while its power was weakened, inflicting a serious blow. He and his Werewolves are now in engaged in an all-out attempt to conquer the Immortal Plateau, ancestral home to Orcs. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 25"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25426",
-      "type": "npc",
-      "id": 25426,
-      "name": "Lu4",
-      "url": "/lu4/npc/25426-betrayer-of-urutu-freki"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4954",
       "type": "skill",
       "id": 4954,
-      "name": "Raid Boss Lv. 1 This Maraku Werewolf Chief was once the ally of the Urutu Orcs and peacefully coexisted with them. Then he suddenly attacked the Urutu Tribe while its power was weakened, inflicting a serious blow. He and his Werewolves are now in engaged in an all-out attempt to conquer the Immortal Plateau, ancestral home to Orcs.",
-      "url": "/lu4/skill/4954-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4954-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,20 +58,6 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
-      "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
       "key": "item:2029",
       "type": "item",
       "id": 2029,
@@ -82,18 +65,11 @@
       "url": "/lu4/item/2029-gastraphetes-shaft"
     },
     {
-      "key": "item:956",
+      "key": "item:47",
       "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+      "id": 47,
+      "name": "Mithril Helmet D",
+      "url": "/lu4/item/47-mithril-helmet"
     },
     {
       "key": "item:628",
@@ -110,11 +86,32 @@
       "url": "/lu4/item/278-gastraphetes"
     },
     {
-      "key": "item:47",
+      "key": "item:956",
       "type": "item",
-      "id": 47,
-      "name": "Mithril Helmet D",
-      "url": "/lu4/item/47-mithril-helmet"
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25427",

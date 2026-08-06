@@ -2,40 +2,43 @@
   "key": "npc:27056",
   "type": "npc",
   "id": 27056,
-  "name": "Lu4 Wiki: NPC Durka Spirit",
+  "name": "Durka Spirit",
   "url": "/lu4/npc/27056-durka-spirit",
-  "source_url": "https://masterwork.wiki/lu4/npc/27056-durka-spirit",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27056-durka-spirit",
   "raw_html": "library/raw/lu4/npc/27056-durka-spirit.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "490 / 214",
+    "P. Atk. / M. Atk.": "52 / 31",
+    "P. Def. / M. Def.": "102 / 76",
+    "Accuracy / Evasion": "51 / 51",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Type": "Construct, Lv. 18"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:27056",
-      "type": "npc",
-      "id": 27056,
-      "name": "Lu4",
-      "url": "/lu4/npc/27056-durka-spirit"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     }
   ]
 }

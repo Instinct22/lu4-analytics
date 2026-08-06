@@ -2,23 +2,22 @@
   "key": "item:1149",
   "type": "item",
   "id": 1149,
-  "name": "Lu4 Wiki: Item Shining Circlet",
+  "name": "Shining Circlet",
   "url": "/lu4/item/1149-shining-circlet",
-  "source_url": "https://masterwork.wiki/lu4/item/1149-shining-circlet",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1149-shining-circlet",
   "raw_html": "library/raw/lu4/item/1149-shining-circlet.html",
   "stats": {
+    "P. Def.": "54",
+    "Crystal Amount": "113 Crystallization Failed Enchant +0 113 - +1 119 - +2 125 - +3 131 - +4 149 92 +5 167 110 +6 185 128 +7 203 146 +8 221 164",
+    "NPC Sell Price": "141 600 Adena",
+    "Weight": "600",
     "Recipes": "Recipe: Shining Circlet NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Helmet"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:1149",
-      "type": "item",
-      "id": 1149,
-      "name": "Lu4",
-      "url": "/lu4/item/1149-shining-circlet"
-    },
     {
       "key": "item:2228",
       "type": "item",
@@ -27,59 +26,80 @@
       "url": "/lu4/item/2228-recipe-shining-circlet"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25418",
       "type": "npc",
       "id": 25418,
-      "name": "Dread Avenger Kraven Lv. 44",
+      "name": "Dread Avenger Kraven",
       "url": "/lu4/npc/25418-dread-avenger-kraven"
     },
     {
       "key": "npc:25395",
       "type": "npc",
       "id": 25395,
-      "name": "Archon Suscepter Lv. 45",
+      "name": "Archon Suscepter",
       "url": "/lu4/npc/25395-archon-suscepter"
     },
     {
       "key": "npc:25260",
       "type": "npc",
       "id": 25260,
-      "name": "Iron Giant Totem Lv. 45",
+      "name": "Iron Giant Totem",
       "url": "/lu4/npc/25260-iron-giant-totem"
     },
     {
       "key": "npc:21717",
       "type": "npc",
       "id": 21717,
-      "name": "Purgatory Invader Food Lv. 50",
+      "name": "Purgatory Invader Food",
       "url": "/lu4/npc/21717-purgatory-invader-food"
     },
     {
       "key": "npc:21619",
       "type": "npc",
       "id": 21619,
-      "name": "Pit Archer Lv. 48",
+      "name": "Pit Archer",
       "url": "/lu4/npc/21619-pit-archer"
     },
     {
       "key": "npc:20803",
       "type": "npc",
       "id": 20803,
-      "name": "Doll Master Lv. 50",
+      "name": "Doll Master",
       "url": "/lu4/npc/20803-doll-master"
     },
     {
       "key": "npc:20640",
       "type": "npc",
       "id": 20640,
-      "name": "Harit Lizardman Lv. 50",
+      "name": "Harit Lizardman",
       "url": "/lu4/npc/20640-harit-lizardman"
     },
     {
       "key": "npc:5012",
       "type": "npc",
       "id": 5012,
-      "name": "Oathbroken Deadeye Lv. 49",
+      "name": "Oathbroken Deadeye",
       "url": "/lu4/npc/5012-oathbroken-deadeye"
     }
   ]

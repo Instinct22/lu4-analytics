@@ -1,75 +1,19 @@
-# Lu4 Wiki: Item Handmade Sword
+# Handmade Sword
 
-- Source: https://masterwork.wiki/lu4/item/122-handmade-sword
+- Source: https://masterwork.wiki/lu4-b-w-c/item/122-handmade-sword
 - Path: /lu4/item/122-handmade-sword
 - Type: item
 - Key: item:122
 
 ## Stats
+- P. Atk. / M. Atk.: 17 / 12
+- Soulshot / Spiritshot Consume: 2 / 2
+- NPC Sell Price: 20 800 Adena
+- Weight: 1570
+- P. Crit. Rate.: 8
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Weapon / Sword / One-handed
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Handmade Sword
-Lu4
-Eternal
-MasterWork
-Handmade Sword
-NG
-Weapon / Sword / One-handed
-P. Atk. / M. Atk.
-17 / 12
-Soulshot / Spiritshot Consume
-2 / 2
-NPC Sell Price
-20 800 Adena
-Weight
-1570
-P. Crit. Rate.
-8
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-MasterWork 2026
-All rights reserved
+Handmade Sword NG Weapon / Sword / One-handed P. Atk. / M. Atk. 17 / 12 Soulshot / Spiritshot Consume 2 / 2 NPC Sell Price 20 800 Adena Weight 1570 P. Crit. Rate. 8 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

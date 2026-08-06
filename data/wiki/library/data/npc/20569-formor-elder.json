@@ -2,49 +2,39 @@
   "key": "npc:20569",
   "type": "npc",
   "id": 20569,
-  "name": "Lu4 Wiki: NPC Formor Elder",
+  "name": "Formor Elder",
   "url": "/lu4/npc/20569-formor-elder",
-  "source_url": "https://masterwork.wiki/lu4/npc/20569-formor-elder",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20569-formor-elder",
   "raw_html": "library/raw/lu4/npc/20569-formor-elder.html",
   "stats": {
-    "Location": "Земли Орена (+1) Земли Орена Лес Зла"
+    "Respawn Time": "19 seconds ± 4 seconds",
+    "Location": "Земли Орена (+1) Земли Орена Лес Зла",
+    "HP / MP": "1 958 / 785",
+    "P. Atk. / M. Atk.": "411 / 208",
+    "P. Def. / M. Def.": "250 / 201",
+    "Accuracy / Evasion": "79 / 79",
+    "Exp / SP": "2 075 / 208",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 46"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20569",
-      "type": "npc",
-      "id": 20569,
-      "name": "Lu4",
-      "url": "/lu4/npc/20569-formor-elder"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
-      "key": "location:238",
-      "type": "location",
-      "id": 238,
-      "name": "Лес Зла",
-      "url": "/lu4/location/238-les-zla"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
-      "key": "item:8752",
+      "key": "item:57",
       "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4040",
@@ -54,39 +44,11 @@
       "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:2949",
-      "type": "item",
-      "id": 2949,
-      "name": "Dwarven Chain Gloves Design NG",
-      "url": "/lu4/item/2949-dwarven-chain-gloves-design"
-    },
-    {
       "key": "item:2508",
       "type": "item",
       "id": 2508,
       "name": "Cursed Bone NG",
       "url": "/lu4/item/2508-cursed-bone"
-    },
-    {
-      "key": "item:2456",
-      "type": "item",
-      "id": 2456,
-      "name": "Dwarven Chain Gloves C",
-      "url": "/lu4/item/2456-dwarven-chain-gloves"
-    },
-    {
-      "key": "item:2084",
-      "type": "item",
-      "id": 2084,
-      "name": "Soulfire Dirk Blade NG",
-      "url": "/lu4/item/2084-soulfire-dirk-blade"
-    },
-    {
-      "key": "item:1970",
-      "type": "item",
-      "id": 1970,
-      "name": "Robe of Seal Fabric NG",
-      "url": "/lu4/item/1970-robe-of-seal-fabric"
     },
     {
       "key": "item:1879",
@@ -117,11 +79,11 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:440",
+      "key": "item:8752",
       "type": "item",
-      "id": 440,
-      "name": "Robe of Seal C",
-      "url": "/lu4/item/440-robe-of-seal"
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
     },
     {
       "key": "item:242",
@@ -131,18 +93,39 @@
       "url": "/lu4/item/242-soulfire-dirk"
     },
     {
-      "key": "item:57",
+      "key": "item:2084",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2084,
+      "name": "Soulfire Dirk Blade NG",
+      "url": "/lu4/item/2084-soulfire-dirk-blade"
     },
     {
-      "key": "item:2940",
+      "key": "item:2456",
       "type": "item",
-      "id": 2940,
-      "name": "Dwarven Chain Boots Part NG",
-      "url": "/lu4/item/2940-dwarven-chain-boots-part"
+      "id": 2456,
+      "name": "Dwarven Chain Gauntlets C",
+      "url": "/lu4/item/2456-dwarven-chain-gauntlets"
+    },
+    {
+      "key": "item:2949",
+      "type": "item",
+      "id": 2949,
+      "name": "Dwarven Chain Gauntlets Design NG",
+      "url": "/lu4/item/2949-dwarven-chain-gauntlets-design"
+    },
+    {
+      "key": "item:440",
+      "type": "item",
+      "id": 440,
+      "name": "Robe of Seal C",
+      "url": "/lu4/item/440-robe-of-seal"
+    },
+    {
+      "key": "item:1970",
+      "type": "item",
+      "id": 1970,
+      "name": "Robe of Seal Fabric NG",
+      "url": "/lu4/item/1970-robe-of-seal-fabric"
     },
     {
       "key": "item:2219",
@@ -157,6 +140,13 @@
       "id": 2163,
       "name": "Recipe: Earring of Protection NG",
       "url": "/lu4/item/2163-recipe-earring-of-protection"
+    },
+    {
+      "key": "item:2940",
+      "type": "item",
+      "id": 2940,
+      "name": "Dwarven Chain Boots Part NG",
+      "url": "/lu4/item/2940-dwarven-chain-boots-part"
     }
   ]
 }

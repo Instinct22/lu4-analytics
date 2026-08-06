@@ -2,77 +2,53 @@
   "key": "npc:21130",
   "type": "npc",
   "id": 21130,
-  "name": "Lu4 Wiki: NPC Northern Goblin Leader",
+  "name": "Northern Goblin Leader",
   "url": "/lu4/npc/21130-northern-goblin-leader",
-  "source_url": "https://masterwork.wiki/lu4/npc/21130-northern-goblin-leader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21130-northern-goblin-leader",
   "raw_html": "library/raw/lu4/npc/21130-northern-goblin-leader.html",
   "stats": {
-    "Location": "Восточные Рудники (+2) Восточные Рудники Мифриловый Рудник Горный Хребет"
+    "Respawn Time": "15 seconds",
+    "Location": "Восточные Рудники (+2) Восточные Рудники Мифриловый Рудник Горный Хребет",
+    "HP / MP": "792 / 302",
+    "P. Atk. / M. Atk.": "77 / 39",
+    "P. Def. / M. Def.": "130 / 102",
+    "Accuracy / Evasion": "60 / 59",
+    "Exp / SP": "831 / 83",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 24"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21130",
-      "type": "npc",
-      "id": 21130,
-      "name": "Lu4",
-      "url": "/lu4/npc/21130-northern-goblin-leader"
-    },
-    {
-      "key": "location:204",
-      "type": "location",
-      "id": 204,
-      "name": "Восточные Рудники",
-      "url": "/lu4/location/204-vostocnye-rudniki"
-    },
-    {
-      "key": "location:65",
-      "type": "location",
-      "id": 65,
-      "name": "Мифриловый Рудник",
-      "url": "/lu4/location/65-mifrilovyj-rudnik"
-    },
-    {
-      "key": "location:352",
-      "type": "location",
-      "id": 352,
-      "name": "Горный Хребет",
-      "url": "/lu4/location/352-gornyj-hrebet"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:39",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 39,
+      "name": "Boots NG",
+      "url": "/lu4/item/39-boots"
     },
     {
-      "key": "item:39298",
+      "key": "item:51",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:5273",
-      "type": "item",
-      "id": 5273,
-      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
-      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
+      "id": 51,
+      "name": "Bracer NG",
+      "url": "/lu4/item/51-bracer"
     },
     {
       "key": "item:1930",
@@ -82,11 +58,11 @@
       "url": "/lu4/item/1930-boot-lining"
     },
     {
-      "key": "item:1871",
+      "key": "item:734",
       "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 734,
+      "name": "Haste Potion NG",
+      "url": "/lu4/item/734-haste-potion"
     },
     {
       "key": "item:1866",
@@ -96,11 +72,25 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:734",
+      "key": "item:1871",
       "type": "item",
-      "id": 734,
-      "name": "Haste Potion NG",
-      "url": "/lu4/item/734-haste-potion"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:5273",
+      "type": "item",
+      "id": 5273,
+      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
+      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
+    },
+    {
+      "key": "item:126",
+      "type": "item",
+      "id": 126,
+      "name": "Artisan's Sword D",
+      "url": "/lu4/item/126-artisans-sword"
     },
     {
       "key": "item:605",
@@ -117,39 +107,32 @@
       "url": "/lu4/item/435-mystics-tunic"
     },
     {
-      "key": "item:126",
+      "key": "item:39298",
       "type": "item",
-      "id": 126,
-      "name": "Artisan's Sword D",
-      "url": "/lu4/item/126-artisans-sword"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
     },
     {
-      "key": "item:57",
+      "key": "item:39299",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
     },
     {
-      "key": "item:51",
+      "key": "item:39300",
       "type": "item",
-      "id": 51,
-      "name": "Bracer NG",
-      "url": "/lu4/item/51-bracer"
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
-      "key": "item:39",
+      "key": "item:1929",
       "type": "item",
-      "id": 39,
-      "name": "Boots NG",
-      "url": "/lu4/item/39-boots"
-    },
-    {
-      "key": "item:2263",
-      "type": "item",
-      "id": 2263,
-      "name": "Recipe: Dwarven Trident NG",
-      "url": "/lu4/item/2263-recipe-dwarven-trident"
+      "id": 1929,
+      "name": "Hard Leather Gaiters Material NG",
+      "url": "/lu4/item/1929-hard-leather-gaiters-material"
     },
     {
       "key": "item:2178",
@@ -159,11 +142,11 @@
       "url": "/lu4/item/2178-recipe-dark-stockings"
     },
     {
-      "key": "item:1929",
+      "key": "item:2263",
       "type": "item",
-      "id": 1929,
-      "name": "Hard Leather Gaiters Material NG",
-      "url": "/lu4/item/1929-hard-leather-gaiters-material"
+      "id": 2263,
+      "name": "Recipe: Dwarven Trident NG",
+      "url": "/lu4/item/2263-recipe-dwarven-trident"
     }
   ]
 }

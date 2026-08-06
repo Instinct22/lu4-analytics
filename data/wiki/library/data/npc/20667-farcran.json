@@ -2,131 +2,79 @@
   "key": "npc:20667",
   "type": "npc",
   "id": 20667,
-  "name": "Lu4 Wiki: NPC Farcran",
+  "name": "Farcran",
   "url": "/lu4/npc/20667-farcran",
-  "source_url": "https://masterwork.wiki/lu4/npc/20667-farcran",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20667-farcran",
   "raw_html": "library/raw/lu4/npc/20667-farcran.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 481 / 1 025",
+    "P. Atk. / M. Atk.": "615 / 333",
+    "P. Def. / M. Def.": "297 / 253",
+    "Accuracy / Evasion": "86 / 86",
+    "Exp / SP": "4 813 / 378",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 53"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20667",
-      "type": "npc",
-      "id": 20667,
-      "name": "Lu4",
-      "url": "/lu4/npc/20667-farcran"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8614",
+      "key": "item:2122",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
+      "id": 2122,
+      "name": "Orcish Poleaxe Blade NG",
+      "url": "/lu4/item/2122-orcish-poleaxe-blade"
     },
     {
-      "key": "item:8613",
+      "key": "item:2114",
       "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
+      "id": 2114,
+      "name": "Widowmaker Head NG",
+      "url": "/lu4/item/2114-widowmaker-head"
     },
     {
-      "key": "item:8612",
+      "key": "item:2113",
       "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
+      "id": 2113,
+      "name": "Scorpion Blade NG",
+      "url": "/lu4/item/2113-scorpion-blade"
     },
     {
-      "key": "item:8611",
+      "key": "item:303",
       "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
+      "id": 303,
+      "name": "Widow Maker C",
+      "url": "/lu4/item/303-widow-maker"
     },
     {
-      "key": "item:8610",
+      "key": "item:301",
       "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+      "id": 301,
+      "name": "Scorpion C",
+      "url": "/lu4/item/301-scorpion"
     },
     {
-      "key": "item:8609",
+      "key": "item:299",
       "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
-    },
-    {
-      "key": "item:8608",
-      "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
+      "id": 299,
+      "name": "Orcish Poleaxe C",
+      "url": "/lu4/item/299-orcish-poleaxe"
     },
     {
       "key": "item:8600",
@@ -136,39 +84,95 @@
       "url": "/lu4/item/8600-herb-of-life"
     },
     {
-      "key": "item:5550",
+      "key": "item:8601",
       "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
     },
     {
-      "key": "item:5549",
+      "key": "item:8602",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
     },
     {
-      "key": "item:5165",
+      "key": "item:8607",
       "type": "item",
-      "id": 5165,
-      "name": "Recipe: Blessed Spiritshot (B) Compressed Package (100%) NG",
-      "url": "/lu4/item/5165-recipe-blessed-spiritshot-b-compressed-package-100"
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
     },
     {
-      "key": "item:5155",
+      "key": "item:8609",
       "type": "item",
-      "id": 5155,
-      "name": "Recipe: Soulshot (B) Compressed Package (100%) NG",
-      "url": "/lu4/item/5155-recipe-soulshot-b-compressed-package-100"
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
     },
     {
-      "key": "item:4604",
+      "key": "item:8603",
       "type": "item",
-      "id": 4604,
-      "name": "Greater Dye of CON <Con+3 Dex-3> NG",
-      "url": "/lu4/item/4604-greater-dye-of-con-con3-dex-3"
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:8605",
+      "type": "item",
+      "id": 8605,
+      "name": "Superior Herb of Mana NG",
+      "url": "/lu4/item/8605-superior-herb-of-mana"
+    },
+    {
+      "key": "item:8606",
+      "type": "item",
+      "id": 8606,
+      "name": "Herb of Power NG",
+      "url": "/lu4/item/8606-herb-of-power"
+    },
+    {
+      "key": "item:8608",
+      "type": "item",
+      "id": 8608,
+      "name": "Herb of Alacrity NG",
+      "url": "/lu4/item/8608-herb-of-alacrity"
+    },
+    {
+      "key": "item:8610",
+      "type": "item",
+      "id": 8610,
+      "name": "Herb of Critical Attack - Probability NG",
+      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+    },
+    {
+      "key": "item:8611",
+      "type": "item",
+      "id": 8611,
+      "name": "Herb of Speed NG",
+      "url": "/lu4/item/8611-herb-of-speed"
+    },
+    {
+      "key": "item:8612",
+      "type": "item",
+      "id": 8612,
+      "name": "Herb of the Warrior NG",
+      "url": "/lu4/item/8612-herb-of-the-warrior"
+    },
+    {
+      "key": "item:1988",
+      "type": "item",
+      "id": 1988,
+      "name": "Divine Tunic Fabric NG",
+      "url": "/lu4/item/1988-divine-tunic-fabric"
     },
     {
       "key": "item:4141",
@@ -178,11 +182,11 @@
       "url": "/lu4/item/4141-recipe-avadon-breastplate-100"
     },
     {
-      "key": "item:1988",
+      "key": "item:4604",
       "type": "item",
-      "id": 1988,
-      "name": "Divine Tunic Fabric NG",
-      "url": "/lu4/item/1988-divine-tunic-fabric"
+      "id": 4604,
+      "name": "Greater Dye of CON <Con+3 Dex-3> NG",
+      "url": "/lu4/item/4604-greater-dye-of-con-con3-dex-3"
     }
   ]
 }

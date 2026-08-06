@@ -2,89 +2,72 @@
   "key": "npc:21741",
   "type": "npc",
   "id": 21741,
-  "name": "Lu4 Wiki: NPC Forbidden Path Invader Elite Soldier",
+  "name": "Forbidden Path Invader Elite Soldier",
   "url": "/lu4/npc/21741-forbidden-path-invader-elite-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21741-forbidden-path-invader-elite-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21741-forbidden-path-invader-elite-soldier",
   "raw_html": "library/raw/lu4/npc/21741-forbidden-path-invader-elite-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "20 790 / 1 464",
+    "P. Atk. / M. Atk.": "1 115 / 665",
+    "P. Def. / M. Def.": "416 / 355",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "33 089 / 3 072",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Sleep Resistance Lv. 3 Slightly resistant to Sleep. Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 65"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21741",
-      "type": "npc",
-      "id": 21741,
-      "name": "Lu4",
-      "url": "/lu4/npc/21741-forbidden-path-invader-elite-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32432",
-      "type": "item",
-      "id": 32432,
-      "name": "Unidentified Wizard's Tear B",
-      "url": "/lu4/item/32432-unidentified-wizards-tear"
-    },
-    {
-      "key": "item:32430",
-      "type": "item",
-      "id": 32430,
-      "name": "Unidentified Guardian Sword B",
-      "url": "/lu4/item/32430-unidentified-guardian-sword"
-    },
-    {
-      "key": "item:32322",
-      "type": "item",
-      "id": 32322,
-      "name": "Unidentified Sword of Damascus B",
-      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:8336",
@@ -101,11 +84,18 @@
       "url": "/lu4/item/8330-guardian-sword-blade"
     },
     {
-      "key": "item:5434",
+      "key": "item:32432",
       "type": "item",
-      "id": 5434,
-      "name": "Recipe: Dragon Slayer(60%) NG",
-      "url": "/lu4/item/5434-recipe-dragon-slayer60"
+      "id": 32432,
+      "name": "Unidentified Wizard's Tear B",
+      "url": "/lu4/item/32432-unidentified-wizards-tear"
+    },
+    {
+      "key": "item:32430",
+      "type": "item",
+      "id": 32430,
+      "name": "Unidentified Guardian Sword B",
+      "url": "/lu4/item/32430-unidentified-guardian-sword"
     },
     {
       "key": "item:4114",
@@ -113,6 +103,13 @@
       "id": 4114,
       "name": "Sword of Damascus Blade NG",
       "url": "/lu4/item/4114-sword-of-damascus-blade"
+    },
+    {
+      "key": "item:32322",
+      "type": "item",
+      "id": 32322,
+      "name": "Unidentified Sword of Damascus B",
+      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
     },
     {
       "key": "item:4041",
@@ -127,6 +124,13 @@
       "id": 4040,
       "name": "Mold Lubricant NG",
       "url": "/lu4/item/4040-mold-lubricant"
+    },
+    {
+      "key": "item:5434",
+      "type": "item",
+      "id": 5434,
+      "name": "Recipe: Dragon Slayer(60%) NG",
+      "url": "/lu4/item/5434-recipe-dragon-slayer60"
     },
     {
       "key": "item:1877",
@@ -150,18 +154,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:5161",
-      "type": "item",
-      "id": 5161,
-      "name": "Recipe: Spiritshot (A) Compressed Package (100%) NG",
-      "url": "/lu4/item/5161-recipe-spiritshot-a-compressed-package-100"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:4090",
@@ -169,6 +166,13 @@
       "id": 4090,
       "name": "Sealed Blue Wolf Boots Design NG",
       "url": "/lu4/item/4090-sealed-blue-wolf-boots-design"
+    },
+    {
+      "key": "item:5161",
+      "type": "item",
+      "id": 5161,
+      "name": "Recipe: Spiritshot (A) Compressed Package (100%) NG",
+      "url": "/lu4/item/5161-recipe-spiritshot-a-compressed-package-100"
     }
   ]
 }

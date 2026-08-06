@@ -2,103 +2,107 @@
   "key": "npc:25312",
   "type": "npc",
   "id": 25312,
-  "name": "Lu4 Wiki: NPC Varka's Commander Mos",
+  "name": "Varka's Commander Mos",
   "url": "/lu4/npc/25312-varkas-commander-mos",
-  "source_url": "https://masterwork.wiki/lu4/npc/25312-varkas-commander-mos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25312-varkas-commander-mos",
   "raw_html": "library/raw/lu4/npc/25312-varkas-commander-mos.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 725 553 / 4 184",
+    "P. Atk. / M. Atk.": "85 009 / 5 395",
+    "P. Def. / M. Def.": "1 799 / 2 044",
+    "Accuracy / Evasion": "146 / 145",
+    "Exp / SP": "6 080 000 / 898 478",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This legendary Varka Silenos commander has helped lead his people in the endless war against the Ketra Orcs. A resourceful general, he prefers painstaking preparations and cunning, often elaborate, plans. He has had difficulty anticipating Commander Tayr's reckless tactics. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 6 Blunt Weapons Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25312",
-      "type": "npc",
-      "id": 25312,
-      "name": "Lu4",
-      "url": "/lu4/npc/25312-varkas-commander-mos"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4908",
       "type": "skill",
       "id": 4908,
-      "name": "Raid Boss Lv. 1 This legendary Varka Silenos commander has helped lead his people in the endless war against the Ketra Orcs. A resourceful general, he prefers painstaking preparations and cunning, often elaborate, plans. He has had difficulty anticipating Commander Tayr's reckless tactics.",
-      "url": "/lu4/skill/4908-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4908-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 6 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/6"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -108,46 +112,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6726",
+      "key": "item:6688",
       "type": "item",
-      "id": 6726,
-      "name": "Sealed Tateossian Necklace S",
-      "url": "/lu4/item/6726-sealed-tateossian-necklace"
-    },
-    {
-      "key": "item:6725",
-      "type": "item",
-      "id": 6725,
-      "name": "Sealed Tateossian Ring S",
-      "url": "/lu4/item/6725-sealed-tateossian-ring"
-    },
-    {
-      "key": "item:6724",
-      "type": "item",
-      "id": 6724,
-      "name": "Sealed Tateossian Earring S",
-      "url": "/lu4/item/6724-sealed-tateossian-earring"
-    },
-    {
-      "key": "item:6700",
-      "type": "item",
-      "id": 6700,
-      "name": "Sealed Tateossian Necklace Chain NG",
-      "url": "/lu4/item/6700-sealed-tateossian-necklace-chain"
-    },
-    {
-      "key": "item:6699",
-      "type": "item",
-      "id": 6699,
-      "name": "Sealed Tateossian Ring Gem NG",
-      "url": "/lu4/item/6699-sealed-tateossian-ring-gem"
-    },
-    {
-      "key": "item:6698",
-      "type": "item",
-      "id": 6698,
-      "name": "Sealed Tateossian Earring Part NG",
-      "url": "/lu4/item/6698-sealed-tateossian-earring-part"
+      "id": 6688,
+      "name": "Forgotten Blade Edge NG",
+      "url": "/lu4/item/6688-forgotten-blade-edge"
     },
     {
       "key": "item:6696",
@@ -157,25 +126,46 @@
       "url": "/lu4/item/6696-heavens-divider-edge"
     },
     {
-      "key": "item:6688",
+      "key": "item:6726",
       "type": "item",
-      "id": 6688,
-      "name": "Forgotten Blade Edge NG",
-      "url": "/lu4/item/6688-forgotten-blade-edge"
+      "id": 6726,
+      "name": "Sealed Tateossian Necklace S",
+      "url": "/lu4/item/6726-sealed-tateossian-necklace"
     },
     {
-      "key": "item:6578",
+      "key": "item:6724",
       "type": "item",
-      "id": 6578,
-      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+      "id": 6724,
+      "name": "Sealed Tateossian Earring S",
+      "url": "/lu4/item/6724-sealed-tateossian-earring"
     },
     {
-      "key": "item:6577",
+      "key": "item:6725",
       "type": "item",
-      "id": 6577,
-      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
-      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
+      "id": 6725,
+      "name": "Sealed Tateossian Ring S",
+      "url": "/lu4/item/6725-sealed-tateossian-ring"
+    },
+    {
+      "key": "item:6700",
+      "type": "item",
+      "id": 6700,
+      "name": "Sealed Tateossian Necklace Chain NG",
+      "url": "/lu4/item/6700-sealed-tateossian-necklace-chain"
+    },
+    {
+      "key": "item:6698",
+      "type": "item",
+      "id": 6698,
+      "name": "Sealed Tateossian Earring Part NG",
+      "url": "/lu4/item/6698-sealed-tateossian-earring-part"
+    },
+    {
+      "key": "item:6699",
+      "type": "item",
+      "id": 6699,
+      "name": "Sealed Tateossian Ring Gem NG",
+      "url": "/lu4/item/6699-sealed-tateossian-ring-gem"
     },
     {
       "key": "item:960",
@@ -185,11 +175,25 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
+      "key": "item:6578",
+      "type": "item",
+      "id": 6578,
+      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+    },
+    {
       "key": "item:959",
       "type": "item",
       "id": 959,
       "name": "Scroll: Enchant Weapon (S-Grade) NG",
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
+    },
+    {
+      "key": "item:6577",
+      "type": "item",
+      "id": 6577,
+      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
+      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
     },
     {
       "key": "npc:25313",

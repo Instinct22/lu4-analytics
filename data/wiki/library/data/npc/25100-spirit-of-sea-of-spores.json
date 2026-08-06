@@ -2,47 +2,44 @@
   "key": "npc:25100",
   "type": "npc",
   "id": 25100,
-  "name": "Lu4 Wiki: NPC Spirit of Sea of Spores",
+  "name": "Spirit of Sea of Spores",
   "url": "/lu4/npc/25100-spirit-of-sea-of-spores",
-  "source_url": "https://masterwork.wiki/lu4/npc/25100-spirit-of-sea-of-spores",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25100-spirit-of-sea-of-spores",
   "raw_html": "library/raw/lu4/npc/25100-spirit-of-sea-of-spores.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "26 119 / 719",
+    "P. Atk. / M. Atk.": "196 / 146",
+    "P. Def. / M. Def.": "395 / 390",
+    "Accuracy / Evasion": "76 / 86",
+    "Exp / SP": "0 / 600",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 43"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25100",
-      "type": "npc",
-      "id": 25100,
-      "name": "Lu4",
-      "url": "/lu4/npc/25100-spirit-of-sea-of-spores"
-    },
-    {
-      "key": "location:104",
-      "type": "location",
-      "id": 104,
-      "name": "Море Спор",
-      "url": "/lu4/location/104-more-spor"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:6036",

@@ -2,119 +2,88 @@
   "key": "npc:20422",
   "type": "npc",
   "id": 20422,
-  "name": "Lu4 Wiki: NPC Akaste Bone Warlord",
+  "name": "Akaste Bone Warlord",
   "url": "/lu4/npc/20422-akaste-bone-warlord",
-  "source_url": "https://masterwork.wiki/lu4/npc/20422-akaste-bone-warlord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20422-akaste-bone-warlord",
   "raw_html": "library/raw/lu4/npc/20422-akaste-bone-warlord.html",
   "stats": {
-    "Location": "Заброшенный Угольный Рудник"
+    "Respawn Time": "20 seconds",
+    "Location": "Заброшенный Угольный Рудник",
+    "HP / MP": "510 / 204",
+    "P. Atk. / M. Atk.": "52 / 27",
+    "P. Def. / M. Def.": "92 / 66",
+    "Accuracy / Evasion": "50 / 50",
+    "Exp / SP": "556 / 56",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 9 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 17"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20422",
-      "type": "npc",
-      "id": 20422,
-      "name": "Lu4",
-      "url": "/lu4/npc/20422-akaste-bone-warlord"
-    },
-    {
-      "key": "location:66",
-      "type": "location",
-      "id": 66,
-      "name": "Заброшенный Угольный Рудник",
-      "url": "/lu4/location/66-zabrosennyj-ugolnyj-rudnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:5273",
+      "key": "item:57",
       "type": "item",
-      "id": 5273,
-      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
-      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
-    },
-    {
-      "key": "item:2501",
-      "type": "item",
-      "id": 2501,
-      "name": "Bone Club NG",
-      "url": "/lu4/item/2501-bone-club"
-    },
-    {
-      "key": "item:2254",
-      "type": "item",
-      "id": 2254,
-      "name": "Recipe: Composite Bow NG",
-      "url": "/lu4/item/2254-recipe-composite-bow"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:176",
@@ -124,11 +93,39 @@
       "url": "/lu4/item/176-apprentices-staff"
     },
     {
-      "key": "item:57",
+      "key": "item:2501",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2501,
+      "name": "Bone Club NG",
+      "url": "/lu4/item/2501-bone-club"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:2254",
+      "type": "item",
+      "id": 2254,
+      "name": "Recipe: Composite Bow NG",
+      "url": "/lu4/item/2254-recipe-composite-bow"
+    },
+    {
+      "key": "item:5273",
+      "type": "item",
+      "id": 5273,
+      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
+      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
     },
     {
       "key": "item:2013",

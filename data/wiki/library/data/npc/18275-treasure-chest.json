@@ -2,40 +2,30 @@
   "key": "npc:18275",
   "type": "npc",
   "id": 18275,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/18275-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/18275-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/18275-treasure-chest",
   "raw_html": "library/raw/lu4/npc/18275-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 323 / 956",
+    "P. Atk. / M. Atk.": "543 / 285",
+    "P. Def. / M. Def.": "290 / 234",
+    "Accuracy / Evasion": "84 / 84",
+    "Exp / SP": "3 121 / 238",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 51"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:18275",
-      "type": "npc",
-      "id": 18275,
-      "name": "Lu4",
-      "url": "/lu4/npc/18275-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:57",
@@ -45,11 +35,25 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:4601",
+      "key": "item:951",
       "type": "item",
-      "id": 4601,
-      "name": "Greater Dye of STR <Str+3 Con-3> NG",
-      "url": "/lu4/item/4601-greater-dye-of-str-str3-con-3"
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
     },
     {
       "key": "item:1884",
@@ -59,11 +63,11 @@
       "url": "/lu4/item/1884-cord"
     },
     {
-      "key": "item:1878",
+      "key": "item:4601",
       "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
+      "id": 4601,
+      "name": "Greater Dye of STR <Str+3 Con-3> NG",
+      "url": "/lu4/item/4601-greater-dye-of-str-str3-con-3"
     }
   ]
 }

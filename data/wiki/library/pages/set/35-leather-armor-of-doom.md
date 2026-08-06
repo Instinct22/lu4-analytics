@@ -1,80 +1,15 @@
-# Lu4 Wiki: Set Leather Armor of Doom
+# Leather Armor of Doom
 
-- Source: https://masterwork.wiki/lu4/set/35-leather-armor-of-doom
+- Source: https://masterwork.wiki/lu4-b-w-c/set/35-leather-armor-of-doom
 - Path: /lu4/set/35-leather-armor-of-doom
 - Type: set
 - Key: set:35
 
 ## Stats
+- Effect: DEX +3; P. Atk. +4%, MP Recovery Rate +15%, Breath Gauge +200, Sleep/Hold Resistance +30%, Poison Resistance +20%.
 - Set Parts: Leather Armor of Doom B Doom Helmet B Doom Gloves Light Armor B Doom Boots Light Armor B Doom Gloves Light Armor B Foundation Doom Boots Light Armor B Foundation Doom Helmet Light Armor B Foundation
+- Enchant Bonuses: Learn More
+- Grade: B
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Leather Armor of Doom
-Lu4
-Eternal
-MasterWork
-Leather Armor of Doom
-B
-DEX +3; P. Atk. +4%, MP Recovery Rate +15%, Breath Gauge +200, Sleep/Hold Resistance +30%, Poison Resistance +20%.
-Set Parts
-Leather Armor of Doom
-B
-Doom Helmet
-B
-Doom Gloves
-Light Armor
-B
-Doom Boots
-Light Armor
-B
-Doom Gloves
-Light Armor
-B
-Foundation
-Doom Boots
-Light Armor
-B
-Foundation
-Doom Helmet
-Light Armor
-B
-Foundation
-Enchant Bonuses
-Learn More
-MasterWork 2026
-All rights reserved
+Leather Armor of Doom B DEX +3; P. Atk. +4%, MP Recovery Rate +15%, Breath Gauge +200, Sleep/Hold Resistance +30%, Poison Resistance +20%. Set Parts Leather Armor of Doom B Doom Helmet B Doom Gloves Light Armor B Doom Boots Light Armor B Doom Gloves Light Armor B Foundation Doom Boots Light Armor B Foundation Doom Helmet Light Armor B Foundation Enchant Bonuses Learn More

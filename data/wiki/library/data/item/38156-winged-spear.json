@@ -2,36 +2,40 @@
   "key": "item:38156",
   "type": "item",
   "id": 38156,
-  "name": "Lu4 Wiki: Item Winged Spear",
+  "name": "Winged Spear",
   "url": "/lu4/item/38156-winged-spear",
-  "source_url": "https://masterwork.wiki/lu4/item/38156-winged-spear",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/38156-winged-spear",
   "raw_html": "library/raw/lu4/item/38156-winged-spear.html",
   "stats": {
+    "Effect": "<Passive Effect> Attack Angle +60 degrees.",
+    "P. Atk. / M. Atk.": "79 / 47",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1983 Crystallization Failed Enchant +0 1983 - +1 2073 - +2 2163 - +3 2253 - +4 2433 1441 +5 2613 1621 +6 2793 1801 +7 2973 1981 +8 3153 2161 +9 3333 2341 +10 3513 2521 +11 3693 2701 +12 3873 2881",
+    "NPC Sell Price": "537 000 Adena",
+    "Weight": "2060",
+    "P. Crit. Rate.": "8",
+    "Accuracy": "-4",
     "Item Skills": "Polearm Multi-Attack Lv. 1 Special Ability: Wide Blow Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Winged Spear D",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Polearm / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:38156",
-      "type": "item",
-      "id": 38156,
-      "name": "Lu4",
-      "url": "/lu4/item/38156-winged-spear"
-    },
-    {
       "key": "skill:3599",
       "type": "skill",
       "id": 3599,
-      "name": "Polearm Multi-Attack Lv. 1",
-      "url": "/lu4/skill/3599-polearm-multi-attack/1"
+      "name": "Polearm Multi-Attack",
+      "url": "/lu4/skill/3599-polearm-multi-attack"
     },
     {
       "key": "skill:24300",
       "type": "skill",
       "id": 24300,
-      "name": "Special Ability: Wide Blow Lv. 1",
-      "url": "/lu4/skill/24300-special-ability-wide-blow/1"
+      "name": "Special Ability: Wide Blow",
+      "url": "/lu4/skill/24300-special-ability-wide-blow"
     }
   ]
 }

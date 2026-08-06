@@ -2,131 +2,114 @@
   "key": "npc:21228",
   "type": "npc",
   "id": 21228,
-  "name": "Lu4 Wiki: NPC Sepulcher Guard",
+  "name": "Sepulcher Guard",
   "url": "/lu4/npc/21228-sepulcher-guard",
-  "source_url": "https://masterwork.wiki/lu4/npc/21228-sepulcher-guard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21228-sepulcher-guard",
   "raw_html": "library/raw/lu4/npc/21228-sepulcher-guard.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "15 449 / 1 494",
+    "P. Atk. / M. Atk.": "1 315 / 975",
+    "P. Def. / M. Def.": "429 / 313",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "20 845 / 2 064",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. Dagger Lv. 7 Daggers Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 70"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21228",
-      "type": "npc",
-      "id": 21228,
-      "name": "Lu4",
-      "url": "/lu4/npc/21228-sepulcher-guard"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Dagger Lv. 7 Daggers",
-      "url": "/lu4/skill/4415-dagger/7"
+      "name": "Dagger",
+      "url": "/lu4/skill/4415-dagger"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32375",
-      "type": "item",
-      "id": 32375,
-      "name": "Unidentified Sealed Tallum Plate Armor A",
-      "url": "/lu4/item/32375-unidentified-sealed-tallum-plate-armor"
-    },
-    {
-      "key": "item:32370",
-      "type": "item",
-      "id": 32370,
-      "name": "Unidentified Sealed Dark Crystal Gaiters A",
-      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
-    },
-    {
-      "key": "item:32369",
-      "type": "item",
-      "id": 32369,
-      "name": "Unidentified Sealed Dark Crystal Breastplate A",
-      "url": "/lu4/item/32369-unidentified-sealed-dark-crystal-breastplate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5524",
@@ -148,6 +131,27 @@
       "id": 5520,
       "name": "Sealed Dark Crystal Breastplate Pattern NG",
       "url": "/lu4/item/5520-sealed-dark-crystal-breastplate-pattern"
+    },
+    {
+      "key": "item:32375",
+      "type": "item",
+      "id": 32375,
+      "name": "Unidentified Sealed Tallum Plate Armor A",
+      "url": "/lu4/item/32375-unidentified-sealed-tallum-plate-armor"
+    },
+    {
+      "key": "item:32370",
+      "type": "item",
+      "id": 32370,
+      "name": "Unidentified Sealed Dark Crystal Gaiters A",
+      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
+    },
+    {
+      "key": "item:32369",
+      "type": "item",
+      "id": 32369,
+      "name": "Unidentified Sealed Dark Crystal Breastplate A",
+      "url": "/lu4/item/32369-unidentified-sealed-dark-crystal-breastplate"
     },
     {
       "key": "item:5271",
@@ -192,11 +196,18 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:1807",
+      "type": "item",
+      "id": 1807,
+      "name": "Recipe: Soulshot (A-Grade) NG",
+      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
     },
     {
       "key": "item:5478",
@@ -211,13 +222,6 @@
       "id": 3035,
       "name": "Recipe: Spiritshot A NG",
       "url": "/lu4/item/3035-recipe-spiritshot-a"
-    },
-    {
-      "key": "item:1807",
-      "type": "item",
-      "id": 1807,
-      "name": "Recipe: Soulshot (A-Grade) NG",
-      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
     }
   ]
 }

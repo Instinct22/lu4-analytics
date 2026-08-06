@@ -2,91 +2,60 @@
   "key": "npc:5008",
   "type": "npc",
   "id": 5008,
-  "name": "Lu4 Wiki: NPC Dirgeweaver",
+  "name": "Dirgeweaver",
   "url": "/lu4/npc/5008-dirgeweaver",
-  "source_url": "https://masterwork.wiki/lu4/npc/5008-dirgeweaver",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5008-dirgeweaver",
   "raw_html": "library/raw/lu4/npc/5008-dirgeweaver.html",
   "stats": {
-    "Location": "Равнины Неистовства (+1) Равнины Неистовства Земли Адена"
+    "Respawn Time": "18 seconds ± 2 seconds",
+    "Location": "Равнины Неистовства (+1) Равнины Неистовства Земли Адена",
+    "HP / MP": "1 958 / 1 110",
+    "P. Atk. / M. Atk.": "411 / 292",
+    "P. Def. / M. Def.": "275 / 221",
+    "Accuracy / Evasion": "79 / 79",
+    "Exp / SP": "2 240 / 224",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Grumpy Lv. 1 Strikes without warning. Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 46"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5008",
-      "type": "npc",
-      "id": 5008,
-      "name": "Lu4",
-      "url": "/lu4/npc/5008-dirgeweaver"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4044",
@@ -94,20 +63,6 @@
       "id": 4044,
       "name": "Thons NG",
       "url": "/lu4/item/4044-thons"
-    },
-    {
-      "key": "item:2079",
-      "type": "item",
-      "id": 2079,
-      "name": "Bec De Corbin Blade NG",
-      "url": "/lu4/item/2079-bec-de-corbin-blade"
-    },
-    {
-      "key": "item:1912",
-      "type": "item",
-      "id": 1912,
-      "name": "Ring of Protection Gemstone NG",
-      "url": "/lu4/item/1912-ring-of-protection-gemstone"
     },
     {
       "key": "item:1889",
@@ -131,11 +86,11 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:884",
+      "key": "item:5549",
       "type": "item",
-      "id": 884,
-      "name": "Ring of Protection C",
-      "url": "/lu4/item/884-ring-of-protection"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     },
     {
       "key": "item:94",
@@ -145,11 +100,46 @@
       "url": "/lu4/item/94-bec-de-corbin"
     },
     {
-      "key": "item:57",
+      "key": "item:2079",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2079,
+      "name": "Bec De Corbin Blade NG",
+      "url": "/lu4/item/2079-bec-de-corbin-blade"
+    },
+    {
+      "key": "item:884",
+      "type": "item",
+      "id": 884,
+      "name": "Ring of Protection C",
+      "url": "/lu4/item/884-ring-of-protection"
+    },
+    {
+      "key": "item:1912",
+      "type": "item",
+      "id": 1912,
+      "name": "Ring of Protection Gemstone NG",
+      "url": "/lu4/item/1912-ring-of-protection-gemstone"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:6574",

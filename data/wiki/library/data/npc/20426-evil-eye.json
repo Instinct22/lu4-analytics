@@ -2,140 +2,74 @@
   "key": "npc:20426",
   "type": "npc",
   "id": 20426,
-  "name": "Lu4 Wiki: NPC Evil Eye",
+  "name": "Evil Eye",
   "url": "/lu4/npc/20426-evil-eye",
-  "source_url": "https://masterwork.wiki/lu4/npc/20426-evil-eye",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20426-evil-eye",
   "raw_html": "library/raw/lu4/npc/20426-evil-eye.html",
   "stats": {
-    "Location": "Плато Бессмертия (+2) Плато Бессмертия Плато Бессмертия, север Плато Бессмертия, юг"
+    "Respawn Time": "25 seconds",
+    "Location": "Плато Бессмертия (+2) Плато Бессмертия Плато Бессмертия, север Плато Бессмертия, юг",
+    "HP / MP": "265 / 133",
+    "P. Atk. / M. Atk.": "22 / 10",
+    "P. Def. / M. Def.": "74 / 54",
+    "Accuracy / Evasion": "43 / 43",
+    "Exp / SP": "283 / 28",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 10"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20426",
-      "type": "npc",
-      "id": 20426,
-      "name": "Lu4",
-      "url": "/lu4/npc/20426-evil-eye"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
-      "key": "location:189",
-      "type": "location",
-      "id": 189,
-      "name": "Плато Бессмертия, север",
-      "url": "/lu4/location/189-plato-bessmertia-sever"
-    },
-    {
-      "key": "location:191",
-      "type": "location",
-      "id": 191,
-      "name": "Плато Бессмертия, юг",
-      "url": "/lu4/location/191-plato-bessmertia-ug"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:2137",
-      "type": "item",
-      "id": 2137,
-      "name": "Recipe: Steel NG",
-      "url": "/lu4/item/2137-recipe-steel"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1060",
-      "type": "item",
-      "id": 1060,
-      "name": "Lesser Healing Potion NG",
-      "url": "/lu4/item/1060-lesser-healing-potion"
-    },
-    {
-      "key": "item:906",
-      "type": "item",
-      "id": 906,
-      "name": "Necklace of Knowledge NG",
-      "url": "/lu4/item/906-necklace-of-knowledge"
-    },
-    {
-      "key": "item:875",
-      "type": "item",
-      "id": 875,
-      "name": "Ring of Knowledge NG",
-      "url": "/lu4/item/875-ring-of-knowledge"
-    },
-    {
-      "key": "item:113",
-      "type": "item",
-      "id": 113,
-      "name": "Mystic's Earring NG",
-      "url": "/lu4/item/113-mystics-earring"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -145,11 +79,53 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2005",
+      "key": "item:113",
       "type": "item",
-      "id": 2005,
-      "name": "Broadsword Blade NG",
-      "url": "/lu4/item/2005-broadsword-blade"
+      "id": 113,
+      "name": "Mystic's Earring NG",
+      "url": "/lu4/item/113-mystics-earring"
+    },
+    {
+      "key": "item:875",
+      "type": "item",
+      "id": 875,
+      "name": "Ring of Knowledge NG",
+      "url": "/lu4/item/875-ring-of-knowledge"
+    },
+    {
+      "key": "item:906",
+      "type": "item",
+      "id": 906,
+      "name": "Necklace of Knowledge NG",
+      "url": "/lu4/item/906-necklace-of-knowledge"
+    },
+    {
+      "key": "item:1060",
+      "type": "item",
+      "id": 1060,
+      "name": "Lesser Healing Potion NG",
+      "url": "/lu4/item/1060-lesser-healing-potion"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:2137",
+      "type": "item",
+      "id": 2137,
+      "name": "Recipe: Steel NG",
+      "url": "/lu4/item/2137-recipe-steel"
     },
     {
       "key": "item:1796",
@@ -157,6 +133,13 @@
       "id": 1796,
       "name": "Recipe: Leather Tunic NG",
       "url": "/lu4/item/1796-recipe-leather-tunic"
+    },
+    {
+      "key": "item:2005",
+      "type": "item",
+      "id": 2005,
+      "name": "Broadsword Blade NG",
+      "url": "/lu4/item/2005-broadsword-blade"
     }
   ]
 }

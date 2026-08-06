@@ -2,84 +2,67 @@
   "key": "npc:20785",
   "type": "npc",
   "id": 20785,
-  "name": "Lu4 Wiki: NPC Tasaba Lizardman Shaman",
+  "name": "Tasaba Lizardman Shaman",
   "url": "/lu4/npc/20785-tasaba-lizardman-shaman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20785-tasaba-lizardman-shaman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20785-tasaba-lizardman-shaman",
   "raw_html": "library/raw/lu4/npc/20785-tasaba-lizardman-shaman.html",
   "stats": {
-    "Location": "Поля Безмолвия"
+    "Respawn Time": "23 seconds",
+    "Location": "Поля Безмолвия",
+    "HP / MP": "1 327 / 533",
+    "P. Atk. / M. Atk.": "205 / 182",
+    "P. Def. / M. Def.": "133 / 138",
+    "Accuracy / Evasion": "73 / 82",
+    "Exp / SP": "1 452 / 145",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 37"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20785",
-      "type": "npc",
-      "id": 20785,
-      "name": "Lu4",
-      "url": "/lu4/npc/20785-tasaba-lizardman-shaman"
-    },
-    {
-      "key": "location:116",
-      "type": "location",
-      "id": 116,
-      "name": "Поля Безмолвия",
-      "url": "/lu4/location/116-pola-bezmolvia"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5550",
@@ -96,46 +79,11 @@
       "url": "/lu4/item/5549-metallic-thread"
     },
     {
-      "key": "item:2285",
+      "key": "item:1341",
       "type": "item",
-      "id": 2285,
-      "name": "Recipe: Claymore NG",
-      "url": "/lu4/item/2285-recipe-claymore"
-    },
-    {
-      "key": "item:2054",
-      "type": "item",
-      "id": 2054,
-      "name": "Light Crossbow Shaft NG",
-      "url": "/lu4/item/2054-light-crossbow-shaft"
-    },
-    {
-      "key": "item:2050",
-      "type": "item",
-      "id": 2050,
-      "name": "Ghost Staff Head NG",
-      "url": "/lu4/item/2050-ghost-staff-head"
-    },
-    {
-      "key": "item:1907",
-      "type": "item",
-      "id": 1907,
-      "name": "Necklace of Darkness Gem NG",
-      "url": "/lu4/item/1907-necklace-of-darkness-gem"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
+      "id": 1341,
+      "name": "Bone Arrow D",
+      "url": "/lu4/item/1341-bone-arrow"
     },
     {
       "key": "item:1875",
@@ -145,11 +93,18 @@
       "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:1341",
+      "key": "item:1879",
       "type": "item",
-      "id": 1341,
-      "name": "Bone Arrow D",
-      "url": "/lu4/item/1341-bone-arrow"
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
+    },
+    {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
     },
     {
       "key": "item:955",
@@ -159,18 +114,18 @@
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
-      "key": "item:914",
-      "type": "item",
-      "id": 914,
-      "name": "Necklace of Darkness D",
-      "url": "/lu4/item/914-necklace-of-darkness"
-    },
-    {
       "key": "item:280",
       "type": "item",
       "id": 280,
       "name": "Light Crossbow D",
       "url": "/lu4/item/280-light-crossbow"
+    },
+    {
+      "key": "item:2054",
+      "type": "item",
+      "id": 2054,
+      "name": "Light Crossbow Shaft NG",
+      "url": "/lu4/item/2054-light-crossbow-shaft"
     },
     {
       "key": "item:188",
@@ -180,11 +135,53 @@
       "url": "/lu4/item/188-ghost-staff"
     },
     {
-      "key": "item:57",
+      "key": "item:2050",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2050,
+      "name": "Ghost Staff Head NG",
+      "url": "/lu4/item/2050-ghost-staff-head"
+    },
+    {
+      "key": "item:914",
+      "type": "item",
+      "id": 914,
+      "name": "Necklace of Darkness D",
+      "url": "/lu4/item/914-necklace-of-darkness"
+    },
+    {
+      "key": "item:1907",
+      "type": "item",
+      "id": 1907,
+      "name": "Necklace of Darkness Gem NG",
+      "url": "/lu4/item/1907-necklace-of-darkness-gem"
+    },
+    {
+      "key": "item:2285",
+      "type": "item",
+      "id": 2285,
+      "name": "Recipe: Claymore NG",
+      "url": "/lu4/item/2285-recipe-claymore"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:2051",
@@ -194,18 +191,18 @@
       "url": "/lu4/item/2051-staff-of-life-shaft"
     },
     {
-      "key": "item:1953",
-      "type": "item",
-      "id": 1953,
-      "name": "Sage's Rag Lining NG",
-      "url": "/lu4/item/1953-sages-rag-lining"
-    },
-    {
       "key": "item:1949",
       "type": "item",
       "id": 1949,
-      "name": "Mithril Gloves Design NG",
-      "url": "/lu4/item/1949-mithril-gloves-design"
+      "name": "Half Plate Gauntlets Design NG",
+      "url": "/lu4/item/1949-half-plate-gauntlets-design"
+    },
+    {
+      "key": "item:1953",
+      "type": "item",
+      "id": 1953,
+      "name": "Sage's Worn Robe Lining NG",
+      "url": "/lu4/item/1953-sages-worn-robe-lining"
     }
   ]
 }

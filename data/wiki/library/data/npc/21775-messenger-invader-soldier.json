@@ -2,89 +2,107 @@
   "key": "npc:21775",
   "type": "npc",
   "id": 21775,
-  "name": "Lu4 Wiki: NPC Messenger Invader Soldier",
+  "name": "Messenger Invader Soldier",
   "url": "/lu4/npc/21775-messenger-invader-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21775-messenger-invader-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21775-messenger-invader-soldier",
   "raw_html": "library/raw/lu4/npc/21775-messenger-invader-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "14 730 / 2 091",
+    "P. Atk. / M. Atk.": "1 676 / 971",
+    "P. Def. / M. Def.": "1 429 / 831",
+    "Accuracy / Evasion": "125 / 134",
+    "Exp / SP": "36 689 / 4 365",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 MP Increase (1x) Lv. 1 Weak P. Atk. Lv. 8 Weak M. Atk. Lv. 8 Extremely Strong P. Def. Lv. 20 Strong M. Def. Lv. 14 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword High Lv. Lv. 9 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21775",
-      "type": "npc",
-      "id": 21775,
-      "name": "Lu4",
-      "url": "/lu4/npc/21775-messenger-invader-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Weak P. Atk. Lv. 8",
-      "url": "/lu4/skill/4410-weak-p-atk/8"
+      "name": "Weak P. Atk.",
+      "url": "/lu4/skill/4410-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Weak M. Atk. Lv. 8",
-      "url": "/lu4/skill/4411-weak-m-atk/8"
+      "name": "Weak M. Atk.",
+      "url": "/lu4/skill/4411-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Extremely Strong P. Def. Lv. 20",
-      "url": "/lu4/skill/4412-extremely-strong-p-def/20"
+      "name": "Extremely Strong P. Def.",
+      "url": "/lu4/skill/4412-extremely-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 9 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/9"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:5522",
+      "type": "item",
+      "id": 5522,
+      "name": "Sealed Armor of Nightmare Pattern NG",
+      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
     },
     {
       "key": "item:32390",
@@ -108,11 +126,11 @@
       "url": "/lu4/item/5523-sealed-majestic-plate-armor-pattern"
     },
     {
-      "key": "item:5522",
+      "key": "item:1885",
       "type": "item",
-      "id": 5522,
-      "name": "Sealed Armor of Nightmare Pattern NG",
-      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
     },
     {
       "key": "item:5220",
@@ -120,20 +138,6 @@
       "id": 5220,
       "name": "Metal Hardener NG",
       "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
     },
     {
       "key": "item:1871",
@@ -157,11 +161,11 @@
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:4041",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
       "key": "item:960",

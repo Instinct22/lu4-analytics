@@ -2,154 +2,88 @@
   "key": "npc:20814",
   "type": "npc",
   "id": 20814,
-  "name": "Lu4 Wiki: NPC Blader of Despair",
+  "name": "Blader of Despair",
   "url": "/lu4/npc/20814-blader-of-despair",
-  "source_url": "https://masterwork.wiki/lu4/npc/20814-blader-of-despair",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20814-blader-of-despair",
   "raw_html": "library/raw/lu4/npc/20814-blader-of-despair.html",
   "stats": {
-    "Location": "Башня Дерзости: 1-й этаж"
+    "Respawn Time": "2 minutes, 35 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 1-й этаж",
+    "HP / MP": "19 908 / 1 351",
+    "P. Atk. / M. Atk.": "1 647 / 667",
+    "P. Def. / M. Def.": "616 / 399",
+    "Accuracy / Evasion": "96 / 96",
+    "Exp / SP": "35 538 / 3 554",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 15 Slightly Strong M. Def. Lv. 13 Strong P. Def. Lv. 15 Dark Attack Lv. 1 Unleashes a dark attack. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 63"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20814",
-      "type": "npc",
-      "id": 20814,
-      "name": "Lu4",
-      "url": "/lu4/npc/20814-blader-of-despair"
-    },
-    {
-      "key": "location:84",
-      "type": "location",
-      "id": 84,
-      "name": "Башня Дерзости: 1-й этаж",
-      "url": "/lu4/location/84-basna-derzosti-1-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32366",
-      "type": "item",
-      "id": 32366,
-      "name": "Unidentified Doom Helmet B",
-      "url": "/lu4/item/32366-unidentified-doom-helmet"
-    },
-    {
-      "key": "item:32365",
-      "type": "item",
-      "id": 32365,
-      "name": "Unidentified Blue Wolf Helmet B",
-      "url": "/lu4/item/32365-unidentified-blue-wolf-helmet"
-    },
-    {
-      "key": "item:32336",
-      "type": "item",
-      "id": 32336,
-      "name": "Unidentified Demon's Dagger B",
-      "url": "/lu4/item/32336-unidentified-demons-dagger"
-    },
-    {
-      "key": "item:4119",
-      "type": "item",
-      "id": 4119,
-      "name": "Demon's Dagger Edge NG",
-      "url": "/lu4/item/4119-demons-dagger-edge"
-    },
-    {
-      "key": "item:4089",
-      "type": "item",
-      "id": 4089,
-      "name": "Doom Helmet Pattern NG",
-      "url": "/lu4/item/4089-doom-helmet-pattern"
-    },
-    {
-      "key": "item:4088",
-      "type": "item",
-      "id": 4088,
-      "name": "Blue Wolf Helmet Design NG",
-      "url": "/lu4/item/4088-blue-wolf-helmet-design"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -187,11 +121,74 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32365",
+      "type": "item",
+      "id": 32365,
+      "name": "Unidentified Blue Wolf Helmet B",
+      "url": "/lu4/item/32365-unidentified-blue-wolf-helmet"
+    },
+    {
+      "key": "item:4088",
+      "type": "item",
+      "id": 4088,
+      "name": "Blue Wolf Helmet Design NG",
+      "url": "/lu4/item/4088-blue-wolf-helmet-design"
+    },
+    {
+      "key": "item:32366",
+      "type": "item",
+      "id": 32366,
+      "name": "Unidentified Doom Helmet B",
+      "url": "/lu4/item/32366-unidentified-doom-helmet"
+    },
+    {
+      "key": "item:4089",
+      "type": "item",
+      "id": 4089,
+      "name": "Doom Helmet Pattern NG",
+      "url": "/lu4/item/4089-doom-helmet-pattern"
+    },
+    {
+      "key": "item:32336",
+      "type": "item",
+      "id": 32336,
+      "name": "Unidentified Demon's Dagger B",
+      "url": "/lu4/item/32336-unidentified-demons-dagger"
+    },
+    {
+      "key": "item:4119",
+      "type": "item",
+      "id": 4119,
+      "name": "Demon's Dagger Edge NG",
+      "url": "/lu4/item/4119-demons-dagger-edge"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:948",

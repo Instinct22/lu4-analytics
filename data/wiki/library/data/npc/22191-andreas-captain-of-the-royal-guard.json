@@ -2,96 +2,107 @@
   "key": "npc:22191",
   "type": "npc",
   "id": 22191,
-  "name": "Lu4 Wiki: NPC Andreas' Captain of the Royal Guard",
+  "name": "Andreas' Captain of the Royal Guard",
   "url": "/lu4/npc/22191-andreas-captain-of-the-royal-guard",
-  "source_url": "https://masterwork.wiki/lu4/npc/22191-andreas-captain-of-the-royal-guard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22191-andreas-captain-of-the-royal-guard",
   "raw_html": "library/raw/lu4/npc/22191-andreas-captain-of-the-royal-guard.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "9 995 / 2 386",
+    "P. Atk. / M. Atk.": "2 184 / 1 464",
+    "P. Def. / M. Def.": "566 / 806",
+    "Accuracy / Evasion": "128 / 147",
+    "Exp / SP": "37 288 / 2 100",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 80",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Humanoids Lv. 26 Humanoids. High Lv. Lv. 10 NPC High Level",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22191",
-      "type": "npc",
-      "id": 22191,
-      "name": "Lu4",
-      "url": "/lu4/npc/22191-andreas-captain-of-the-royal-guard"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Humanoids Lv. 26 Humanoids.",
-      "url": "/lu4/skill/4417-humanoids/26"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4417-humanoids"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 10 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/10"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:6691",
+      "type": "item",
+      "id": 6691,
+      "name": "Angel Slayer Blade NG",
+      "url": "/lu4/item/6691-angel-slayer-blade"
     },
     {
       "key": "item:6901",
@@ -106,13 +117,6 @@
       "id": 6693,
       "name": "Dragon Hunter Axe Blade NG",
       "url": "/lu4/item/6693-dragon-hunter-axe-blade"
-    },
-    {
-      "key": "item:6691",
-      "type": "item",
-      "id": 6691,
-      "name": "Angel Slayer Blade NG",
-      "url": "/lu4/item/6691-angel-slayer-blade"
     }
   ]
 }

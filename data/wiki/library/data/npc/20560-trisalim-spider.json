@@ -2,84 +2,67 @@
   "key": "npc:20560",
   "type": "npc",
   "id": 20560,
-  "name": "Lu4 Wiki: NPC Trisalim Spider",
+  "name": "Trisalim Spider",
   "url": "/lu4/npc/20560-trisalim-spider",
-  "source_url": "https://masterwork.wiki/lu4/npc/20560-trisalim-spider",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20560-trisalim-spider",
   "raw_html": "library/raw/lu4/npc/20560-trisalim-spider.html",
   "stats": {
-    "Location": "Море Спор"
+    "Respawn Time": "30 seconds",
+    "Location": "Море Спор",
+    "HP / MP": "3 584 / 751",
+    "P. Atk. / M. Atk.": "446 / 195",
+    "P. Def. / M. Def.": "218 / 175",
+    "Accuracy / Evasion": "78 / 83",
+    "Exp / SP": "3 633 / 363",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20560",
-      "type": "npc",
-      "id": 20560,
-      "name": "Lu4",
-      "url": "/lu4/npc/20560-trisalim-spider"
-    },
-    {
-      "key": "location:104",
-      "type": "location",
-      "id": 104,
-      "name": "Море Спор",
-      "url": "/lu4/location/104-more-spor"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:2086",
+      "key": "item:57",
       "type": "item",
-      "id": 2086,
-      "name": "Noble Elven Bow Shaft NG",
-      "url": "/lu4/item/2086-noble-elven-bow-shaft"
-    },
-    {
-      "key": "item:2084",
-      "type": "item",
-      "id": 2084,
-      "name": "Soulfire Dirk Blade NG",
-      "url": "/lu4/item/2084-soulfire-dirk-blade"
-    },
-    {
-      "key": "item:1912",
-      "type": "item",
-      "id": 1912,
-      "name": "Ring of Protection Gemstone NG",
-      "url": "/lu4/item/1912-ring-of-protection-gemstone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1873",
@@ -117,11 +100,18 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:884",
+      "key": "item:242",
       "type": "item",
-      "id": 884,
-      "name": "Ring of Protection C",
-      "url": "/lu4/item/884-ring-of-protection"
+      "id": 242,
+      "name": "Soulfire Dirk C",
+      "url": "/lu4/item/242-soulfire-dirk"
+    },
+    {
+      "key": "item:2084",
+      "type": "item",
+      "id": 2084,
+      "name": "Soulfire Dirk Blade NG",
+      "url": "/lu4/item/2084-soulfire-dirk-blade"
     },
     {
       "key": "item:285",
@@ -131,25 +121,25 @@
       "url": "/lu4/item/285-noble-elven-bow"
     },
     {
-      "key": "item:242",
+      "key": "item:2086",
       "type": "item",
-      "id": 242,
-      "name": "Soulfire Dirk C",
-      "url": "/lu4/item/242-soulfire-dirk"
+      "id": 2086,
+      "name": "Noble Elven Bow Shaft NG",
+      "url": "/lu4/item/2086-noble-elven-bow-shaft"
     },
     {
-      "key": "item:57",
+      "key": "item:884",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 884,
+      "name": "Ring of Protection C",
+      "url": "/lu4/item/884-ring-of-protection"
     },
     {
-      "key": "item:2948",
+      "key": "item:1912",
       "type": "item",
-      "id": 2948,
-      "name": "Rind Leather Boots Lining NG",
-      "url": "/lu4/item/2948-rind-leather-boots-lining"
+      "id": 1912,
+      "name": "Ring of Protection Gemstone NG",
+      "url": "/lu4/item/1912-ring-of-protection-gemstone"
     },
     {
       "key": "item:2213",
@@ -157,6 +147,13 @@
       "id": 2213,
       "name": "Recipe: Dwarven Chain Mail Shirt NG",
       "url": "/lu4/item/2213-recipe-dwarven-chain-mail-shirt"
+    },
+    {
+      "key": "item:2948",
+      "type": "item",
+      "id": 2948,
+      "name": "Rind Leather Boots Lining NG",
+      "url": "/lu4/item/2948-rind-leather-boots-lining"
     }
   ]
 }

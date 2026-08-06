@@ -2,91 +2,67 @@
   "key": "npc:20922",
   "type": "npc",
   "id": 20922,
-  "name": "Lu4 Wiki: NPC Maille Lizardman Warrior",
+  "name": "Maille Lizardman Warrior",
   "url": "/lu4/npc/20922-maille-lizardman-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/20922-maille-lizardman-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20922-maille-lizardman-warrior",
   "raw_html": "library/raw/lu4/npc/20922-maille-lizardman-warrior.html",
   "stats": {
-    "Location": "Лагерь Ящеров Мэль"
+    "Respawn Time": "20 seconds",
+    "Location": "Лагерь Ящеров Мэль",
+    "HP / MP": "1 577 / 336",
+    "P. Atk. / M. Atk.": "112 / 48",
+    "P. Def. / M. Def.": "115 / 91",
+    "Accuracy / Evasion": "62 / 61",
+    "Exp / SP": "1 518 / 152",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 26"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20922",
-      "type": "npc",
-      "id": 20922,
-      "name": "Lu4",
-      "url": "/lu4/npc/20922-maille-lizardman-warrior"
-    },
-    {
-      "key": "location:25",
-      "type": "location",
-      "id": 25,
-      "name": "Лагерь Ящеров Мэль",
-      "url": "/lu4/location/25-lager-aserov-mel"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:5220",
+      "key": "item:57",
       "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2022",
-      "type": "item",
-      "id": 2022,
-      "name": "Mace of Judgment Head NG",
-      "url": "/lu4/item/2022-mace-of-judgment-head"
-    },
-    {
-      "key": "item:1935",
-      "type": "item",
-      "id": 1935,
-      "name": "Scale Mail Fragment NG",
-      "url": "/lu4/item/1935-scale-mail-fragment"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1874",
@@ -96,6 +72,13 @@
       "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
       "key": "item:1060",
       "type": "item",
       "id": 1060,
@@ -103,18 +86,11 @@
       "url": "/lu4/item/1060-lesser-healing-potion"
     },
     {
-      "key": "item:348",
+      "key": "item:5220",
       "type": "item",
-      "id": 348,
-      "name": "Scale Mail D",
-      "url": "/lu4/item/348-scale-mail"
-    },
-    {
-      "key": "item:183",
-      "type": "item",
-      "id": 183,
-      "name": "Mystic Staff D",
-      "url": "/lu4/item/183-mystic-staff"
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
     },
     {
       "key": "item:180",
@@ -124,11 +100,32 @@
       "url": "/lu4/item/180-mace-of-judgment"
     },
     {
-      "key": "item:57",
+      "key": "item:2022",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2022,
+      "name": "Mace of Judgment Head NG",
+      "url": "/lu4/item/2022-mace-of-judgment-head"
+    },
+    {
+      "key": "item:183",
+      "type": "item",
+      "id": 183,
+      "name": "Mystic Staff D",
+      "url": "/lu4/item/183-mystic-staff"
+    },
+    {
+      "key": "item:348",
+      "type": "item",
+      "id": 348,
+      "name": "Scale Mail D",
+      "url": "/lu4/item/348-scale-mail"
+    },
+    {
+      "key": "item:1935",
+      "type": "item",
+      "id": 1935,
+      "name": "Scale Mail Fragment NG",
+      "url": "/lu4/item/1935-scale-mail-fragment"
     },
     {
       "key": "item:1870",

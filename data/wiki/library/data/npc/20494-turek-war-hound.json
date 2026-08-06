@@ -2,168 +2,60 @@
   "key": "npc:20494",
   "type": "npc",
   "id": 20494,
-  "name": "Lu4 Wiki: NPC Turek War Hound",
+  "name": "Turek War Hound",
   "url": "/lu4/npc/20494-turek-war-hound",
-  "source_url": "https://masterwork.wiki/lu4/npc/20494-turek-war-hound",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20494-turek-war-hound",
   "raw_html": "library/raw/lu4/npc/20494-turek-war-hound.html",
   "stats": {
-    "Location": "Лагерь Орков (+1) Лагерь Орков Земли Глудио"
+    "Respawn Time": "30 seconds",
+    "Location": "Лагерь Орков (+1) Лагерь Орков Земли Глудио",
+    "HP / MP": "1 413 / 302",
+    "P. Atk. / M. Atk.": "96 / 41",
+    "P. Def. / M. Def.": "107 / 85",
+    "Accuracy / Evasion": "57 / 57",
+    "Exp / SP": "1 353 / 135",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 24"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20494",
-      "type": "npc",
-      "id": 20494,
-      "name": "Lu4",
-      "url": "/lu4/npc/20494-turek-war-hound"
-    },
-    {
-      "key": "location:30",
-      "type": "location",
-      "id": 30,
-      "name": "Лагерь Орков",
-      "url": "/lu4/location/30-lager-orkov"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5268",
-      "type": "item",
-      "id": 5268,
-      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:879",
-      "type": "item",
-      "id": 879,
-      "name": "Enchanted Ring D",
-      "url": "/lu4/item/879-enchanted-ring"
-    },
-    {
-      "key": "item:735",
-      "type": "item",
-      "id": 735,
-      "name": "Alacrity Potion NG",
-      "url": "/lu4/item/735-alacrity-potion"
-    },
-    {
-      "key": "item:392",
-      "type": "item",
-      "id": 392,
-      "name": "Lion Skin Shirt D",
-      "url": "/lu4/item/392-lion-skin-shirt"
-    },
-    {
-      "key": "item:257",
-      "type": "item",
-      "id": 257,
-      "name": "Viper Fang NG",
-      "url": "/lu4/item/257-viper-fang"
-    },
-    {
-      "key": "item:126",
-      "type": "item",
-      "id": 126,
-      "name": "Artisan's Sword D",
-      "url": "/lu4/item/126-artisans-sword"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -173,11 +65,102 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2022",
+      "key": "item:257",
       "type": "item",
-      "id": 2022,
-      "name": "Mace of Judgment Head NG",
-      "url": "/lu4/item/2022-mace-of-judgment-head"
+      "id": 257,
+      "name": "Viper Fang NG",
+      "url": "/lu4/item/257-viper-fang"
+    },
+    {
+      "key": "item:735",
+      "type": "item",
+      "id": 735,
+      "name": "Alacrity Potion NG",
+      "url": "/lu4/item/735-alacrity-potion"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:5268",
+      "type": "item",
+      "id": 5268,
+      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
+    },
+    {
+      "key": "item:126",
+      "type": "item",
+      "id": 126,
+      "name": "Artisan's Sword D",
+      "url": "/lu4/item/126-artisans-sword"
+    },
+    {
+      "key": "item:879",
+      "type": "item",
+      "id": 879,
+      "name": "Enchanted Ring D",
+      "url": "/lu4/item/879-enchanted-ring"
+    },
+    {
+      "key": "item:392",
+      "type": "item",
+      "id": 392,
+      "name": "Lion Skin Shirt D",
+      "url": "/lu4/item/392-lion-skin-shirt"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:1881",
@@ -185,6 +168,13 @@
       "id": 1881,
       "name": "Coarse Bone Powder NG",
       "url": "/lu4/item/1881-coarse-bone-powder"
+    },
+    {
+      "key": "item:2022",
+      "type": "item",
+      "id": 2022,
+      "name": "Mace of Judgment Head NG",
+      "url": "/lu4/item/2022-mace-of-judgment-head"
     }
   ]
 }

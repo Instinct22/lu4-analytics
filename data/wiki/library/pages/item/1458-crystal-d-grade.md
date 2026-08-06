@@ -1,75 +1,17 @@
-# Lu4 Wiki: Item Crystal (D-Grade)
+# Crystal (D-Grade)
 
-- Source: https://masterwork.wiki/lu4/item/1458-crystal-d-grade
+- Source: https://masterwork.wiki/lu4-b-w-c/item/1458-crystal-d-grade
 - Path: /lu4/item/1458-crystal-d-grade
 - Type: item
 - Key: item:1458
 
 ## Stats
+- Effect: A crystal of D-Grade.
+- NPC Sell Price: 325 Adena
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: D
+- Type: Other
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Crystal (D-Grade)
-Lu4
-Eternal
-MasterWork
-Crystal (D-Grade)
-D
-Other
-A crystal of D-Grade.
-NPC Sell Price
-325 Adena
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Quest
-Levels
-Testimony of Prosperity
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Crystal (D-Grade) D Other A crystal of D-Grade. NPC Sell Price 325 Adena Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

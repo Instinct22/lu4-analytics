@@ -1,0 +1,21 @@
+# Challenge for Fate
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/985-challenge-for-fate
+- Path: /lu4/skill/985-challenge-for-fate
+- Type: skill
+- Key: skill:985
+
+## Stats
+- Effect: Switches multiple enemies' target and locks it for 5 sec. Provokes multiple enemies to attack. Applies to your character: P. Def. +15% M. Def +15%.
+- Consumes: 0 MP
+- Reuse Time: 45 seconds
+- Duration: 3 seconds
+- Can be used on Olympiad: Yes
+- Attribute: None
+- Trait: trait_derangement
+- Cast Range: 400 (900)
+- Available For: PaladinLv. 72Dark AvengerLv. 72Temple KnightLv. 72Shillien KnightLv. 72
+- Type: Physical / Physical
+
+## Content
+Challenge for Fate Lv. 1 Physical / Physical Switches multiple enemies' target and locks it for 5 sec. Provokes multiple enemies to attack. Applies to your character: P. Def. +15% M. Def +15%. Consumes 0 MP Reuse Time 45 seconds Duration 3 seconds Can be used on Olympiad Yes Attribute None Trait trait_derangement Cast Range 400 (900) Available For Paladin Lv. 72 Dark Avenger Lv. 72 Temple Knight Lv. 72 Shillien Knight Lv. 72

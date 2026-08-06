@@ -2,47 +2,44 @@
   "key": "npc:25396",
   "type": "npc",
   "id": 25396,
-  "name": "Lu4 Wiki: NPC Kusion Suscepter",
+  "name": "Kusion Suscepter",
   "url": "/lu4/npc/25396-kusion-suscepter",
-  "source_url": "https://masterwork.wiki/lu4/npc/25396-kusion-suscepter",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25396-kusion-suscepter",
   "raw_html": "library/raw/lu4/npc/25396-kusion-suscepter.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "29 908 / 2 063",
+    "P. Atk. / M. Atk.": "257 / 128",
+    "P. Def. / M. Def.": "432 / 386",
+    "Accuracy / Evasion": "77 / 87",
+    "Exp / SP": "0 / 636",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "C",
+    "Type": "Construct, Lv. 44"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25396",
-      "type": "npc",
-      "id": 25396,
-      "name": "Lu4",
-      "url": "/lu4/npc/25396-kusion-suscepter"
-    },
-    {
-      "key": "location:56",
-      "type": "location",
-      "id": 56,
-      "name": "Башня Крумы: 3-й этаж",
-      "url": "/lu4/location/56-basna-krumy-3-j-etaz"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:1342",

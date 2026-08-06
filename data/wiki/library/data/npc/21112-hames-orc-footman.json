@@ -2,154 +2,67 @@
   "key": "npc:21112",
   "type": "npc",
   "id": 21112,
-  "name": "Lu4 Wiki: NPC Hames Orc Footman",
+  "name": "Hames Orc Footman",
   "url": "/lu4/npc/21112-hames-orc-footman",
-  "source_url": "https://masterwork.wiki/lu4/npc/21112-hames-orc-footman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21112-hames-orc-footman",
   "raw_html": "library/raw/lu4/npc/21112-hames-orc-footman.html",
   "stats": {
-    "Location": "Раскаленные Топи"
+    "Respawn Time": "45 seconds ± 5 seconds",
+    "Location": "Раскаленные Топи",
+    "HP / MP": "9 998 / 1 529",
+    "P. Atk. / M. Atk.": "1 970 / 971",
+    "P. Def. / M. Def.": "661 / 524",
+    "Accuracy / Evasion": "112 / 111",
+    "Exp / SP": "13 693 / 1 369",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Def. Lv. 12 Slightly Strong P. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 73"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21112",
-      "type": "npc",
-      "id": 21112,
-      "name": "Lu4",
-      "url": "/lu4/npc/21112-hames-orc-footman"
-    },
-    {
-      "key": "location:95",
-      "type": "location",
-      "id": 95,
-      "name": "Раскаленные Топи",
-      "url": "/lu4/location/95-raskalennye-topi"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
-      "key": "item:32396",
+      "key": "item:57",
       "type": "item",
-      "id": 32396,
-      "name": "Unidentified Sealed Robe of Nightmare A",
-      "url": "/lu4/item/32396-unidentified-sealed-robe-of-nightmare"
-    },
-    {
-      "key": "item:32385",
-      "type": "item",
-      "id": 32385,
-      "name": "Unidentified Sealed Armor of Nightmare A",
-      "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
-    },
-    {
-      "key": "item:32338",
-      "type": "item",
-      "id": 32338,
-      "name": "Unidentified Soul Separator A",
-      "url": "/lu4/item/32338-unidentified-soul-separator"
-    },
-    {
-      "key": "item:10590",
-      "type": "item",
-      "id": 10590,
-      "name": "Spellbook: Summon Smart Cubic NG",
-      "url": "/lu4/item/10590-spellbook-summon-smart-cubic"
-    },
-    {
-      "key": "item:7835",
-      "type": "item",
-      "id": 7835,
-      "name": "Amulet: Seal of Disease NG",
-      "url": "/lu4/item/7835-amulet-seal-of-disease"
-    },
-    {
-      "key": "item:7648",
-      "type": "item",
-      "id": 7648,
-      "name": "Spellbook: Arcane Chaos NG",
-      "url": "/lu4/item/7648-spellbook-arcane-chaos"
-    },
-    {
-      "key": "item:7646",
-      "type": "item",
-      "id": 7646,
-      "name": "Spellbook: Curse of Doom NG",
-      "url": "/lu4/item/7646-spellbook-curse-of-doom"
-    },
-    {
-      "key": "item:5537",
-      "type": "item",
-      "id": 5537,
-      "name": "Soul Separator Head NG",
-      "url": "/lu4/item/5537-soul-separator-head"
-    },
-    {
-      "key": "item:5522",
-      "type": "item",
-      "id": 5522,
-      "name": "Sealed Armor of Nightmare Pattern NG",
-      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
-    },
-    {
-      "key": "item:5487",
-      "type": "item",
-      "id": 5487,
-      "name": "Sealed Robe of Nightmare Fabric NG",
-      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
-    },
-    {
-      "key": "item:5430",
-      "type": "item",
-      "id": 5430,
-      "name": "Recipe: Sealed Helm of Nightmare(60%) NG",
-      "url": "/lu4/item/5430-recipe-sealed-helm-of-nightmare60"
-    },
-    {
-      "key": "item:5406",
-      "type": "item",
-      "id": 5406,
-      "name": "Recipe: Sealed Majestic Gauntlets(60%) NG",
-      "url": "/lu4/item/5406-recipe-sealed-majestic-gauntlets60"
-    },
-    {
-      "key": "item:5366",
-      "type": "item",
-      "id": 5366,
-      "name": "Recipe: Sealed Shield of Nightmare(60%) NG",
-      "url": "/lu4/item/5366-recipe-sealed-shield-of-nightmare60"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -187,11 +100,95 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:32385",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32385,
+      "name": "Unidentified Sealed Armor of Nightmare A",
+      "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
+    },
+    {
+      "key": "item:5522",
+      "type": "item",
+      "id": 5522,
+      "name": "Sealed Armor of Nightmare Pattern NG",
+      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
+    },
+    {
+      "key": "item:32396",
+      "type": "item",
+      "id": 32396,
+      "name": "Unidentified Sealed Robe of Nightmare A",
+      "url": "/lu4/item/32396-unidentified-sealed-robe-of-nightmare"
+    },
+    {
+      "key": "item:5487",
+      "type": "item",
+      "id": 5487,
+      "name": "Sealed Robe of Nightmare Fabric NG",
+      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
+    },
+    {
+      "key": "item:32338",
+      "type": "item",
+      "id": 32338,
+      "name": "Unidentified Soul Separator A",
+      "url": "/lu4/item/32338-unidentified-soul-separator"
+    },
+    {
+      "key": "item:5537",
+      "type": "item",
+      "id": 5537,
+      "name": "Soul Separator Head NG",
+      "url": "/lu4/item/5537-soul-separator-head"
+    },
+    {
+      "key": "item:5430",
+      "type": "item",
+      "id": 5430,
+      "name": "Recipe: Sealed Helm of Nightmare(60%) NG",
+      "url": "/lu4/item/5430-recipe-sealed-helm-of-nightmare60"
+    },
+    {
+      "key": "item:5406",
+      "type": "item",
+      "id": 5406,
+      "name": "Recipe: Sealed Majestic Gauntlets(60%) NG",
+      "url": "/lu4/item/5406-recipe-sealed-majestic-gauntlets60"
+    },
+    {
+      "key": "item:5366",
+      "type": "item",
+      "id": 5366,
+      "name": "Recipe: Sealed Shield of Nightmare(60%) NG",
+      "url": "/lu4/item/5366-recipe-sealed-shield-of-nightmare60"
+    },
+    {
+      "key": "item:7648",
+      "type": "item",
+      "id": 7648,
+      "name": "Spellbook: Arcane Chaos NG",
+      "url": "/lu4/item/7648-spellbook-arcane-chaos"
+    },
+    {
+      "key": "item:7835",
+      "type": "item",
+      "id": 7835,
+      "name": "Amulet: Seal of Disease NG",
+      "url": "/lu4/item/7835-amulet-seal-of-disease"
+    },
+    {
+      "key": "item:10590",
+      "type": "item",
+      "id": 10590,
+      "name": "Spellbook: Summon Smart Cubic NG",
+      "url": "/lu4/item/10590-spellbook-summon-smart-cubic"
+    },
+    {
+      "key": "item:7646",
+      "type": "item",
+      "id": 7646,
+      "name": "Spellbook: Curse of Doom NG",
+      "url": "/lu4/item/7646-spellbook-curse-of-doom"
     },
     {
       "key": "item:8316",
@@ -199,6 +196,20 @@
       "id": 8316,
       "name": "Recipe: Flaming Dragon Skull (60%) NG",
       "url": "/lu4/item/8316-recipe-flaming-dragon-skull-60"
+    },
+    {
+      "key": "item:5466",
+      "type": "item",
+      "id": 5466,
+      "name": "Recipe: Sword of Miracles(60%) NG",
+      "url": "/lu4/item/5466-recipe-sword-of-miracles60"
+    },
+    {
+      "key": "item:5502",
+      "type": "item",
+      "id": 5502,
+      "name": "Sealed Boots of Nightmare Lining NG",
+      "url": "/lu4/item/5502-sealed-boots-of-nightmare-lining"
     },
     {
       "key": "item:5527",
@@ -213,20 +224,6 @@
       "id": 5523,
       "name": "Sealed Majestic Plate Armor Pattern NG",
       "url": "/lu4/item/5523-sealed-majestic-plate-armor-pattern"
-    },
-    {
-      "key": "item:5502",
-      "type": "item",
-      "id": 5502,
-      "name": "Sealed Boots of Nightmare Lining NG",
-      "url": "/lu4/item/5502-sealed-boots-of-nightmare-lining"
-    },
-    {
-      "key": "item:5466",
-      "type": "item",
-      "id": 5466,
-      "name": "Recipe: Sword of Miracles(60%) NG",
-      "url": "/lu4/item/5466-recipe-sword-of-miracles60"
     }
   ]
 }

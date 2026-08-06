@@ -2,104 +2,24 @@
   "key": "item:2982",
   "type": "item",
   "id": 2982,
-  "name": "Recipe",
+  "name": "Recipe: Brigandine Shield",
   "url": "/lu4/item/2982-recipe-brigandine-shield",
-  "source_url": "https://masterwork.wiki/lu4/item/2982-recipe-brigandine-shield",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2982-recipe-brigandine-shield",
   "raw_html": "library/raw/lu4/item/2982-recipe-brigandine-shield.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Brigandine Shield'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "784 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Brigandine Shield D"
+    "Result": "Brigandine Shield D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2929",
-      "type": "item",
-      "id": 2929,
-      "name": "Brigandine Shield Fragment NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "12"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "60"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "60"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "12"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "12"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "24"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "24"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "5"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2982",
-      "type": "item",
-      "id": 2982,
-      "name": "Lu4",
-      "url": "/lu4/item/2982-recipe-brigandine-shield"
-    },
     {
       "key": "item:2929",
       "type": "item",
@@ -188,28 +108,28 @@
       "key": "npc:20233",
       "type": "npc",
       "id": 20233,
-      "name": "Marsh Spider Lv. 34",
+      "name": "Marsh Spider",
       "url": "/lu4/npc/20233-marsh-spider"
     },
     {
       "key": "npc:20084",
       "type": "npc",
       "id": 20084,
-      "name": "Ant Patrol Lv. 34",
+      "name": "Ant Patrol",
       "url": "/lu4/npc/20084-ant-patrol"
     },
     {
       "key": "npc:21016",
       "type": "npc",
       "id": 21016,
-      "name": "Warlike Tyrant Lv. 35",
+      "name": "Warlike Tyrant",
       "url": "/lu4/npc/21016-warlike-tyrant"
     },
     {
       "key": "npc:20749",
       "type": "npc",
       "id": 20749,
-      "name": "Death Fire Lv. 32",
+      "name": "Death Fire",
       "url": "/lu4/npc/20749-death-fire"
     }
   ]

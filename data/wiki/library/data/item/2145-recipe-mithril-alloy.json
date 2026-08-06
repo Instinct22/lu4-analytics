@@ -2,90 +2,24 @@
   "key": "item:2145",
   "type": "item",
   "id": 2145,
-  "name": "Recipe",
+  "name": "Recipe: Mithril Alloy",
   "url": "/lu4/item/2145-recipe-mithril-alloy",
-  "source_url": "https://masterwork.wiki/lu4/item/2145-recipe-mithril-alloy",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2145-recipe-mithril-alloy",
   "raw_html": "library/raw/lu4/item/2145-recipe-mithril-alloy.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Mithril Alloy'. Requires Create Item - Skill Level 4 (Artisan Lv. 36). The success rate is 100%.",
+    "NPC Sell Price": "1 400 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "4",
     "MP Consume": "40",
     "Success Rate": "100%",
-    "Result": "Mithril Alloy NG"
+    "Result": "Mithril Alloy NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1887",
-      "type": "item",
-      "id": 1887,
-      "name": "Varnish of Purity NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "30"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "2"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1876",
-      "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "amount": "1"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2145",
-      "type": "item",
-      "id": 2145,
-      "name": "Lu4",
-      "url": "/lu4/item/2145-recipe-mithril-alloy"
-    },
     {
       "key": "item:1887",
       "type": "item",
@@ -153,98 +87,98 @@
       "key": "npc:22025",
       "type": "npc",
       "id": 22025,
-      "name": "Frozen Wasteland Werewolf Lv. 38",
+      "name": "Frozen Wasteland Werewolf",
       "url": "/lu4/npc/22025-frozen-wasteland-werewolf"
     },
     {
       "key": "npc:21270",
       "type": "npc",
       "id": 21270,
-      "name": "Cave Ant Soldier Lv. 38",
+      "name": "Cave Ant Soldier",
       "url": "/lu4/npc/21270-cave-ant-soldier"
     },
     {
       "key": "npc:21239",
       "type": "npc",
       "id": 21239,
-      "name": "Grave Monk Lv. 37",
+      "name": "Grave Monk",
       "url": "/lu4/npc/21239-grave-monk"
     },
     {
       "key": "npc:20765",
       "type": "npc",
       "id": 20765,
-      "name": "Warrior of the Plains Lv. 38",
+      "name": "Warrior of the Plains",
       "url": "/lu4/npc/20765-warrior-of-the-plains"
     },
     {
       "key": "npc:20551",
       "type": "npc",
       "id": 20551,
-      "name": "Road Scavenger Lv. 37",
+      "name": "Road Scavenger",
       "url": "/lu4/npc/20551-road-scavenger"
     },
     {
       "key": "npc:21643",
       "type": "npc",
       "id": 21643,
-      "name": "Tasaba Lizardman Sniper Lv. 39",
+      "name": "Tasaba Lizardman Sniper",
       "url": "/lu4/npc/21643-tasaba-lizardman-sniper"
     },
     {
       "key": "npc:21642",
       "type": "npc",
       "id": 21642,
-      "name": "Tasaba Lizardman Sniper Lv. 39",
+      "name": "Tasaba Lizardman Sniper",
       "url": "/lu4/npc/21642-tasaba-lizardman-sniper"
     },
     {
       "key": "npc:21269",
       "type": "npc",
       "id": 21269,
-      "name": "Cave Ant Lv. 37",
+      "name": "Cave Ant",
       "url": "/lu4/npc/21269-cave-ant"
     },
     {
       "key": "npc:21215",
       "type": "npc",
       "id": 21215,
-      "name": "Vault Monk Lv. 37",
+      "name": "Vault Monk",
       "url": "/lu4/npc/21215-vault-monk"
     },
     {
       "key": "npc:21193",
       "type": "npc",
       "id": 21193,
-      "name": "Gigant Raider Lv. 39",
+      "name": "Gigant Raider",
       "url": "/lu4/npc/21193-gigant-raider"
     },
     {
       "key": "npc:21172",
       "type": "npc",
       "id": 21172,
-      "name": "Lith Patrolman Lv. 39",
+      "name": "Lith Patrolman",
       "url": "/lu4/npc/21172-lith-patrolman"
     },
     {
       "key": "npc:21146",
       "type": "npc",
       "id": 21146,
-      "name": "Grave Keeper Dark Horror Lv. 40",
+      "name": "Grave Keeper Dark Horror",
       "url": "/lu4/npc/21146-grave-keeper-dark-horror"
     },
     {
       "key": "npc:20990",
       "type": "npc",
       "id": 20990,
-      "name": "Pageos Lv. 38",
+      "name": "Pageos",
       "url": "/lu4/npc/20990-pageos"
     },
     {
       "key": "npc:20553",
       "type": "npc",
       "id": 20553,
-      "name": "Windsus Lv. 39",
+      "name": "Windsus",
       "url": "/lu4/npc/20553-windsus"
     }
   ]

@@ -2,112 +2,51 @@
   "key": "npc:25162",
   "type": "npc",
   "id": 25162,
-  "name": "Lu4 Wiki: NPC Giant Marpanak",
+  "name": "Giant Marpanak",
   "url": "/lu4/npc/25162-giant-marpanak",
-  "source_url": "https://masterwork.wiki/lu4/npc/25162-giant-marpanak",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25162-giant-marpanak",
   "raw_html": "library/raw/lu4/npc/25162-giant-marpanak.html",
   "stats": {
-    "Location": "Пещера Гигантов"
+    "HP / MP": "1 818 907 / 5 257",
+    "P. Atk. / M. Atk.": "12 878 / 34 771",
+    "P. Def. / M. Def.": "1 143 / 1 231",
+    "Accuracy / Evasion": "110 / 115",
+    "Exp / SP": "6 144 000 / 1 000 000",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A failed weapon created by mystics of the Ivory Tower, frightened of the Devil Beleth' eventual resurrection. Although modeled after a Lesser Giant, he did not follow his creator's commands, and eventually escaped the tower. He searched for a creature similar to himself for years, investigating relics of the ancient Giants, and concluded that he was the only true Lesser Giant that survived the disaster in the past. He dreams of revenge on the gods who made the Lesser Giants fall. Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 64"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25162",
-      "type": "npc",
-      "id": 25162,
-      "name": "Lu4",
-      "url": "/lu4/npc/25162-giant-marpanak"
-    },
-    {
-      "key": "location:69",
-      "type": "location",
-      "id": 69,
-      "name": "Пещера Гигантов",
-      "url": "/lu4/location/69-pesera-gigantov"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4851",
       "type": "skill",
       "id": 4851,
-      "name": "Raid Boss Lv. 1 A failed weapon created by mystics of the Ivory Tower, frightened of the Devil Beleth' eventual resurrection. Although modeled after a Lesser Giant, he did not follow his creator's commands, and eventually escaped the tower. He searched for a creature similar to himself for years, investigating relics of the ancient Giants, and concluded that he was the only true Lesser Giant that survived the disaster in the past. He dreams of revenge on the gods who made the Lesser Giants fall.",
-      "url": "/lu4/skill/4851-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4851-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:32376",
-      "type": "item",
-      "id": 32376,
-      "name": "Unidentified Sealed Tallum Helmet A",
-      "url": "/lu4/item/32376-unidentified-sealed-tallum-helmet"
-    },
-    {
-      "key": "item:32374",
-      "type": "item",
-      "id": 32374,
-      "name": "Unidentified Sealed Dark Crystal Shield A",
-      "url": "/lu4/item/32374-unidentified-sealed-dark-crystal-shield"
-    },
-    {
-      "key": "item:32371",
-      "type": "item",
-      "id": 32371,
-      "name": "Unidentified Sealed Dark Crystal Helmet A",
-      "url": "/lu4/item/32371-unidentified-sealed-dark-crystal-helmet"
-    },
-    {
-      "key": "item:32346",
-      "type": "item",
-      "id": 32346,
-      "name": "Unidentified Carnage Bow A",
-      "url": "/lu4/item/32346-unidentified-carnage-bow"
-    },
-    {
-      "key": "item:32337",
-      "type": "item",
-      "id": 32337,
-      "name": "Unidentified Bloody Orchid A",
-      "url": "/lu4/item/32337-unidentified-bloody-orchid"
-    },
-    {
-      "key": "item:14219",
-      "type": "item",
-      "id": 14219,
-      "name": "Spellbook: Magician's Will NG",
-      "url": "/lu4/item/14219-spellbook-magicians-will"
-    },
-    {
-      "key": "item:10553",
-      "type": "item",
-      "id": 10553,
-      "name": "Spellbook: Archer's Will NG",
-      "url": "/lu4/item/10553-spellbook-archers-will"
-    },
-    {
-      "key": "item:10552",
-      "type": "item",
-      "id": 10552,
-      "name": "Spellbook: Fighter's Will NG",
-      "url": "/lu4/item/10552-spellbook-fighters-will"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -117,13 +56,6 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:8621",
-      "type": "item",
-      "id": 8621,
-      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
-      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
-    },
-    {
       "key": "item:8620",
       "type": "item",
       "id": 8620,
@@ -131,18 +63,60 @@
       "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
     },
     {
-      "key": "item:6570",
+      "key": "item:8621",
       "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
+      "id": 8621,
+      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
+      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
     },
     {
-      "key": "item:6569",
+      "key": "item:10552",
       "type": "item",
-      "id": 6569,
-      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
+      "id": 10552,
+      "name": "Spellbook: Fighter's Will NG",
+      "url": "/lu4/item/10552-spellbook-fighters-will"
+    },
+    {
+      "key": "item:10553",
+      "type": "item",
+      "id": 10553,
+      "name": "Spellbook: Archer's Will NG",
+      "url": "/lu4/item/10553-spellbook-archers-will"
+    },
+    {
+      "key": "item:14219",
+      "type": "item",
+      "id": 14219,
+      "name": "Spellbook: Magician's Will NG",
+      "url": "/lu4/item/14219-spellbook-magicians-will"
+    },
+    {
+      "key": "item:32337",
+      "type": "item",
+      "id": 32337,
+      "name": "Unidentified Bloody Orchid A",
+      "url": "/lu4/item/32337-unidentified-bloody-orchid"
+    },
+    {
+      "key": "item:32346",
+      "type": "item",
+      "id": 32346,
+      "name": "Unidentified Carnage Bow A",
+      "url": "/lu4/item/32346-unidentified-carnage-bow"
+    },
+    {
+      "key": "item:5446",
+      "type": "item",
+      "id": 5446,
+      "name": "Recipe: Bloody Orchid(60%) NG",
+      "url": "/lu4/item/5446-recipe-bloody-orchid60"
+    },
+    {
+      "key": "item:5444",
+      "type": "item",
+      "id": 5444,
+      "name": "Recipe: Carnage Bow(60%) NG",
+      "url": "/lu4/item/5444-recipe-carnage-bow60"
     },
     {
       "key": "item:5536",
@@ -159,11 +133,46 @@
       "url": "/lu4/item/5535-carnage-bow-stave"
     },
     {
-      "key": "item:5526",
+      "key": "item:32371",
       "type": "item",
-      "id": 5526,
-      "name": "Sealed Tallum Helm Design NG",
-      "url": "/lu4/item/5526-sealed-tallum-helm-design"
+      "id": 32371,
+      "name": "Unidentified Sealed Dark Crystal Helmet A",
+      "url": "/lu4/item/32371-unidentified-sealed-dark-crystal-helmet"
+    },
+    {
+      "key": "item:32376",
+      "type": "item",
+      "id": 32376,
+      "name": "Unidentified Sealed Tallum Helmet A",
+      "url": "/lu4/item/32376-unidentified-sealed-tallum-helmet"
+    },
+    {
+      "key": "item:32374",
+      "type": "item",
+      "id": 32374,
+      "name": "Unidentified Sealed Dark Crystal Shield A",
+      "url": "/lu4/item/32374-unidentified-sealed-dark-crystal-shield"
+    },
+    {
+      "key": "item:5426",
+      "type": "item",
+      "id": 5426,
+      "name": "Recipe: Sealed Dark Crystal Helmet(60%) NG",
+      "url": "/lu4/item/5426-recipe-sealed-dark-crystal-helmet60"
+    },
+    {
+      "key": "item:5428",
+      "type": "item",
+      "id": 5428,
+      "name": "Recipe: Sealed Tallum Helmet(60%) NG",
+      "url": "/lu4/item/5428-recipe-sealed-tallum-helmet60"
+    },
+    {
+      "key": "item:5364",
+      "type": "item",
+      "id": 5364,
+      "name": "Recipe: Sealed Dark Crystal Shield(60%) NG",
+      "url": "/lu4/item/5364-recipe-sealed-dark-crystal-shield60"
     },
     {
       "key": "item:5525",
@@ -173,25 +182,11 @@
       "url": "/lu4/item/5525-sealed-dark-crystal-helmet-design"
     },
     {
-      "key": "item:5494",
+      "key": "item:5526",
       "type": "item",
-      "id": 5494,
-      "name": "Sealed Dark Crystal Shield Fragment NG",
-      "url": "/lu4/item/5494-sealed-dark-crystal-shield-fragment"
-    },
-    {
-      "key": "item:5446",
-      "type": "item",
-      "id": 5446,
-      "name": "Recipe: Bloody Orchid(60%) NG",
-      "url": "/lu4/item/5446-recipe-bloody-orchid60"
-    },
-    {
-      "key": "item:5444",
-      "type": "item",
-      "id": 5444,
-      "name": "Recipe: Carnage Bow(60%) NG",
-      "url": "/lu4/item/5444-recipe-carnage-bow60"
+      "id": 5526,
+      "name": "Sealed Tallum Helm Design NG",
+      "url": "/lu4/item/5526-sealed-tallum-helm-design"
     }
   ]
 }

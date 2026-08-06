@@ -2,168 +2,74 @@
   "key": "npc:21129",
   "type": "npc",
   "id": 21129,
-  "name": "Lu4 Wiki: NPC Kerope Werewolf Chief",
+  "name": "Kerope Werewolf Chief",
   "url": "/lu4/npc/21129-kerope-werewolf-chief",
-  "source_url": "https://masterwork.wiki/lu4/npc/21129-kerope-werewolf-chief",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21129-kerope-werewolf-chief",
   "raw_html": "library/raw/lu4/npc/21129-kerope-werewolf-chief.html",
   "stats": {
-    "Location": "Восточные Рудники (+1) Восточные Рудники Горный Хребет"
+    "Respawn Time": "15 seconds",
+    "Location": "Восточные Рудники (+1) Восточные Рудники Горный Хребет",
+    "HP / MP": "665 / 285",
+    "P. Atk. / M. Atk.": "88 / 48",
+    "P. Def. / M. Def.": "87 / 82",
+    "Accuracy / Evasion": "59 / 68",
+    "Exp / SP": "714 / 71",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 23"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21129",
-      "type": "npc",
-      "id": 21129,
-      "name": "Lu4",
-      "url": "/lu4/npc/21129-kerope-werewolf-chief"
-    },
-    {
-      "key": "location:204",
-      "type": "location",
-      "id": 204,
-      "name": "Восточные Рудники",
-      "url": "/lu4/location/204-vostocnye-rudniki"
-    },
-    {
-      "key": "location:352",
-      "type": "location",
-      "id": 352,
-      "name": "Горный Хребет",
-      "url": "/lu4/location/352-gornyj-hrebet"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
-      "key": "item:8332",
+      "key": "item:57",
       "type": "item",
-      "id": 8332,
-      "name": "Priest Sword Blade NG",
-      "url": "/lu4/item/8332-priest-sword-blade"
-    },
-    {
-      "key": "item:7885",
-      "type": "item",
-      "id": 7885,
-      "name": "Priest Sword D",
-      "url": "/lu4/item/7885-priest-sword"
-    },
-    {
-      "key": "item:6035",
-      "type": "item",
-      "id": 6035,
-      "name": "Magic Haste Potion NG",
-      "url": "/lu4/item/6035-magic-haste-potion"
-    },
-    {
-      "key": "item:5437",
-      "type": "item",
-      "id": 5437,
-      "name": "Recipe: Heavy Sword(100%) NG",
-      "url": "/lu4/item/5437-recipe-heavy-sword100"
-    },
-    {
-      "key": "item:3032",
-      "type": "item",
-      "id": 3032,
-      "name": "Recipe: Spiritshot D NG",
-      "url": "/lu4/item/3032-recipe-spiritshot-d"
-    },
-    {
-      "key": "item:2255",
-      "type": "item",
-      "id": 2255,
-      "name": "Recipe: Saber NG",
-      "url": "/lu4/item/2255-recipe-saber"
-    },
-    {
-      "key": "item:2151",
-      "type": "item",
-      "id": 2151,
-      "name": "Recipe: Necklace of Devotion NG",
-      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
-    },
-    {
-      "key": "item:2019",
-      "type": "item",
-      "id": 2019,
-      "name": "Trident Edge NG",
-      "url": "/lu4/item/2019-trident-edge"
-    },
-    {
-      "key": "item:1898",
-      "type": "item",
-      "id": 1898,
-      "name": "Blue Diamond Necklace Gem NG",
-      "url": "/lu4/item/1898-blue-diamond-necklace-gem"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:909",
-      "type": "item",
-      "id": 909,
-      "name": "Blue Diamond Necklace NG",
-      "url": "/lu4/item/909-blue-diamond-necklace"
-    },
-    {
-      "key": "item:878",
-      "type": "item",
-      "id": 878,
-      "name": "Blue Coral Ring NG",
-      "url": "/lu4/item/878-blue-coral-ring"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:846",
@@ -173,11 +79,53 @@
       "url": "/lu4/item/846-coral-earring"
     },
     {
-      "key": "item:291",
+      "key": "item:878",
       "type": "item",
-      "id": 291,
-      "name": "Trident D",
-      "url": "/lu4/item/291-trident"
+      "id": 878,
+      "name": "Blue Coral Ring NG",
+      "url": "/lu4/item/878-blue-coral-ring"
+    },
+    {
+      "key": "item:909",
+      "type": "item",
+      "id": 909,
+      "name": "Blue Diamond Necklace NG",
+      "url": "/lu4/item/909-blue-diamond-necklace"
+    },
+    {
+      "key": "item:1898",
+      "type": "item",
+      "id": 1898,
+      "name": "Blue Diamond Necklace Gem NG",
+      "url": "/lu4/item/1898-blue-diamond-necklace-gem"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:3032",
+      "type": "item",
+      "id": 3032,
+      "name": "Recipe: Spiritshot D NG",
+      "url": "/lu4/item/3032-recipe-spiritshot-d"
+    },
+    {
+      "key": "item:6035",
+      "type": "item",
+      "id": 6035,
+      "name": "Magic Haste Potion NG",
+      "url": "/lu4/item/6035-magic-haste-potion"
     },
     {
       "key": "item:156",
@@ -187,11 +135,53 @@
       "url": "/lu4/item/156-hand-axe"
     },
     {
-      "key": "item:57",
+      "key": "item:7885",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 7885,
+      "name": "Priest Sword D",
+      "url": "/lu4/item/7885-priest-sword"
+    },
+    {
+      "key": "item:8332",
+      "type": "item",
+      "id": 8332,
+      "name": "Priest Sword Blade NG",
+      "url": "/lu4/item/8332-priest-sword-blade"
+    },
+    {
+      "key": "item:291",
+      "type": "item",
+      "id": 291,
+      "name": "Trident D",
+      "url": "/lu4/item/291-trident"
+    },
+    {
+      "key": "item:2019",
+      "type": "item",
+      "id": 2019,
+      "name": "Trident Edge NG",
+      "url": "/lu4/item/2019-trident-edge"
+    },
+    {
+      "key": "item:5437",
+      "type": "item",
+      "id": 5437,
+      "name": "Recipe: Heavy Sword(100%) NG",
+      "url": "/lu4/item/5437-recipe-heavy-sword100"
+    },
+    {
+      "key": "item:2151",
+      "type": "item",
+      "id": 2151,
+      "name": "Recipe: Necklace of Devotion NG",
+      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
+    },
+    {
+      "key": "item:2255",
+      "type": "item",
+      "id": 2255,
+      "name": "Recipe: Saber NG",
+      "url": "/lu4/item/2255-recipe-saber"
     },
     {
       "key": "item:1928",

@@ -1,0 +1,37 @@
+{
+  "key": "skill:355",
+  "type": "skill",
+  "id": 355,
+  "name": "Focus Death",
+  "url": "/lu4/skill/355-focus-death",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/355-focus-death",
+  "raw_html": "library/raw/lu4/skill/355-focus-death.html",
+  "stats": {
+    "Effect": "P. Crit. Rate -15% Chance of Blow-Skills +30% Frontal P. Crit. Damage -15% Back P. Crit. Damage +45%.",
+    "Consumes": "30 MP",
+    "Reuse Time": "2 minutes",
+    "Duration": "20 minutes",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "Plains WalkerLv. 60Abyss WalkerLv. 60",
+    "Type": "Physical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:23",
+      "type": "class",
+      "id": 23,
+      "name": "Plains WalkerLv. 60",
+      "url": "/lu4/class/23-plainwalker"
+    },
+    {
+      "key": "class:36",
+      "type": "class",
+      "id": 36,
+      "name": "Abyss WalkerLv. 60",
+      "url": "/lu4/class/36-abysswalker"
+    }
+  ]
+}

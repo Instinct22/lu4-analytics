@@ -2,131 +2,93 @@
   "key": "npc:5070",
   "type": "npc",
   "id": 5070,
-  "name": "Lu4 Wiki: NPC Valac's Creature",
+  "name": "Valac's Creature",
   "url": "/lu4/npc/5070-valacs-creature",
-  "source_url": "https://masterwork.wiki/lu4/npc/5070-valacs-creature",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5070-valacs-creature",
   "raw_html": "library/raw/lu4/npc/5070-valacs-creature.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "29 085 / 1 110",
+    "P. Atk. / M. Atk.": "3 613 / 3 773",
+    "P. Def. / M. Def.": "930 / 843",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "72 356 / 7 236",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 70"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:5070",
-      "type": "npc",
-      "id": 5070,
-      "name": "Lu4",
-      "url": "/lu4/npc/5070-valacs-creature"
-    },
-    {
-      "key": "location:91",
-      "type": "location",
-      "id": 91,
-      "name": "Башня Дерзости: 8-й этаж",
-      "url": "/lu4/location/91-basna-derzosti-8-j-etaz"
-    },
     {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:32381",
+      "key": "item:57",
       "type": "item",
-      "id": 32381,
-      "name": "Unidentified Sealed Tallum Leather Armor A",
-      "url": "/lu4/item/32381-unidentified-sealed-tallum-leather-armor"
-    },
-    {
-      "key": "item:32380",
-      "type": "item",
-      "id": 32380,
-      "name": "Unidentified Sealed Dark Crystal Leggings A",
-      "url": "/lu4/item/32380-unidentified-sealed-dark-crystal-leggings"
-    },
-    {
-      "key": "item:32378",
-      "type": "item",
-      "id": 32378,
-      "name": "Unidentified Sealed Tallum Boots A",
-      "url": "/lu4/item/32378-unidentified-sealed-tallum-boots"
-    },
-    {
-      "key": "item:5497",
-      "type": "item",
-      "id": 5497,
-      "name": "Sealed Tallum Boots Lining NG",
-      "url": "/lu4/item/5497-sealed-tallum-boots-lining"
-    },
-    {
-      "key": "item:5482",
-      "type": "item",
-      "id": 5482,
-      "name": "Sealed Dark Crystal Leggings Design NG",
-      "url": "/lu4/item/5482-sealed-dark-crystal-leggings-design"
-    },
-    {
-      "key": "item:5479",
-      "type": "item",
-      "id": 5479,
-      "name": "Sealed Tallum Leather Armor Pattern NG",
-      "url": "/lu4/item/5479-sealed-tallum-leather-armor-pattern"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -164,11 +126,46 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:32380",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32380,
+      "name": "Unidentified Sealed Dark Crystal Leggings A",
+      "url": "/lu4/item/32380-unidentified-sealed-dark-crystal-leggings"
+    },
+    {
+      "key": "item:5482",
+      "type": "item",
+      "id": 5482,
+      "name": "Sealed Dark Crystal Leggings Design NG",
+      "url": "/lu4/item/5482-sealed-dark-crystal-leggings-design"
+    },
+    {
+      "key": "item:32381",
+      "type": "item",
+      "id": 32381,
+      "name": "Unidentified Sealed Tallum Leather Armor A",
+      "url": "/lu4/item/32381-unidentified-sealed-tallum-leather-armor"
+    },
+    {
+      "key": "item:5479",
+      "type": "item",
+      "id": 5479,
+      "name": "Sealed Tallum Leather Armor Pattern NG",
+      "url": "/lu4/item/5479-sealed-tallum-leather-armor-pattern"
+    },
+    {
+      "key": "item:32378",
+      "type": "item",
+      "id": 32378,
+      "name": "Unidentified Sealed Tallum Boots A",
+      "url": "/lu4/item/32378-unidentified-sealed-tallum-boots"
+    },
+    {
+      "key": "item:5497",
+      "type": "item",
+      "id": 5497,
+      "name": "Sealed Tallum Boots Lining NG",
+      "url": "/lu4/item/5497-sealed-tallum-boots-lining"
     }
   ]
 }

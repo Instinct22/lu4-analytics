@@ -1,0 +1,38 @@
+{
+  "key": "skill:1160",
+  "type": "skill",
+  "id": 1160,
+  "name": "Slow",
+  "url": "/lu4/skill/1160-slow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1160-slow",
+  "raw_html": "library/raw/lu4/skill/1160-slow.html",
+  "stats": {
+    "Effect": "Decreases an enemy's Speed by 20%.",
+    "Consumes": "30 MP",
+    "Reuse Time": "2 seconds",
+    "Duration": "30 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Cast Range": "600 (1100)",
+    "Available For": "WizardLv. 35Dark WizardLv. 35",
+    "Type": "Magical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:11",
+      "type": "class",
+      "id": 11,
+      "name": "WizardLv. 35",
+      "url": "/lu4/class/11-wizard"
+    },
+    {
+      "key": "class:39",
+      "type": "class",
+      "id": 39,
+      "name": "Dark WizardLv. 35",
+      "url": "/lu4/class/39-darkwizard"
+    }
+  ]
+}

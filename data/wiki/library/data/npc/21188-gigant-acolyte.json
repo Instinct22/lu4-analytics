@@ -2,82 +2,79 @@
   "key": "npc:21188",
   "type": "npc",
   "id": 21188,
-  "name": "Lu4 Wiki: NPC Gigant Acolyte",
+  "name": "Gigant Acolyte",
   "url": "/lu4/npc/21188-gigant-acolyte",
-  "source_url": "https://masterwork.wiki/lu4/npc/21188-gigant-acolyte",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21188-gigant-acolyte",
   "raw_html": "library/raw/lu4/npc/21188-gigant-acolyte.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 749 / 302",
+    "P. Atk. / M. Atk.": "123 / 55",
+    "P. Def. / M. Def.": "88 / 88",
+    "Accuracy / Evasion": "67 / 57",
+    "Exp / SP": "2 760 / 136",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Slightly Weak M. Def. Lv. 9 Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks. Sleep Resistance Lv. 5 Resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 24"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21188",
-      "type": "npc",
-      "id": 21188,
-      "name": "Lu4",
-      "url": "/lu4/npc/21188-gigant-acolyte"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4336",
       "type": "skill",
       "id": 4336,
-      "name": "Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks.",
-      "url": "/lu4/skill/4336-dark-attack-vulnerability/2"
+      "name": "Dark Attack Vulnerability",
+      "url": "/lu4/skill/4336-dark-attack-vulnerability"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
-    },
-    {
-      "key": "item:6362",
-      "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "item:6360",
@@ -87,32 +84,11 @@
       "url": "/lu4/item/6360-blue-seal-stone"
     },
     {
-      "key": "item:1882",
+      "key": "item:6362",
       "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1105",
-      "type": "item",
-      "id": 1105,
-      "name": "Stockings of Magic NG",
-      "url": "/lu4/item/1105-stockings-of-magic"
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
     },
     {
       "key": "item:1102",
@@ -122,6 +98,13 @@
       "url": "/lu4/item/1102-tunic-of-magic"
     },
     {
+      "key": "item:1105",
+      "type": "item",
+      "id": 1105,
+      "name": "Stockings of Magic NG",
+      "url": "/lu4/item/1105-stockings-of-magic"
+    },
+    {
       "key": "item:735",
       "type": "item",
       "id": 735,
@@ -129,11 +112,32 @@
       "url": "/lu4/item/735-alacrity-potion"
     },
     {
-      "key": "item:2151",
+      "key": "item:1867",
       "type": "item",
-      "id": 2151,
-      "name": "Recipe: Necklace of Devotion NG",
-      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:1804",
+      "type": "item",
+      "id": 1804,
+      "name": "Recipe: Soulshot (D-Grade) NG",
+      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
     },
     {
       "key": "item:1926",
@@ -143,11 +147,11 @@
       "url": "/lu4/item/1926-piece-bone-breastplate-fragment"
     },
     {
-      "key": "item:1804",
+      "key": "item:2151",
       "type": "item",
-      "id": 1804,
-      "name": "Recipe: Soulshot (D-Grade) NG",
-      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
+      "id": 2151,
+      "name": "Recipe: Necklace of Devotion NG",
+      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
     }
   ]
 }

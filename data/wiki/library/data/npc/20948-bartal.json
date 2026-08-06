@@ -2,147 +2,46 @@
   "key": "npc:20948",
   "type": "npc",
   "id": 20948,
-  "name": "Lu4 Wiki: NPC Bartal",
+  "name": "Bartal",
   "url": "/lu4/npc/20948-bartal",
-  "source_url": "https://masterwork.wiki/lu4/npc/20948-bartal",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20948-bartal",
   "raw_html": "library/raw/lu4/npc/20948-bartal.html",
   "stats": {
-    "Location": "Школа Полномочий (+1) Школа Полномочий Земли Орена"
+    "Respawn Time": "20 seconds ± 5 seconds",
+    "Location": "Школа Полномочий (+1) Школа Полномочий Земли Орена",
+    "HP / MP": "2 812 / 1 131",
+    "P. Atk. / M. Atk.": "726 / 384",
+    "P. Def. / M. Def.": "352 / 270",
+    "Accuracy / Evasion": "89 / 89",
+    "Exp / SP": "3 093 / 309",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Stun Attack Resistance Lv. 3 Slightly resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 56"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20948",
-      "type": "npc",
-      "id": 20948,
-      "name": "Lu4",
-      "url": "/lu4/npc/20948-bartal"
-    },
-    {
-      "key": "location:105",
-      "type": "location",
-      "id": 105,
-      "name": "Школа Полномочий",
-      "url": "/lu4/location/105-skola-polnomocij"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/3"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32399",
-      "type": "item",
-      "id": 32399,
-      "name": "Unidentified Sealed Avadon Gloves B",
-      "url": "/lu4/item/32399-unidentified-sealed-avadon-gloves"
-    },
-    {
-      "key": "item:32364",
-      "type": "item",
-      "id": 32364,
-      "name": "Unidentified Avadon Circlet B",
-      "url": "/lu4/item/32364-unidentified-avadon-circlet"
-    },
-    {
-      "key": "item:32357",
-      "type": "item",
-      "id": 32357,
-      "name": "Unidentified Zubei's Leather Gaiters B",
-      "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
-    },
-    {
-      "key": "item:8946",
-      "type": "item",
-      "id": 8946,
-      "name": "Spellbook: Invocation NG",
-      "url": "/lu4/item/8946-spellbook-invocation"
-    },
-    {
-      "key": "item:8401",
-      "type": "item",
-      "id": 8401,
-      "name": "Spellbook: Major Heal NG",
-      "url": "/lu4/item/8401-spellbook-major-heal"
-    },
-    {
-      "key": "item:8398",
-      "type": "item",
-      "id": 8398,
-      "name": "Spellbook: Mana Burn NG",
-      "url": "/lu4/item/8398-spellbook-mana-burn"
-    },
-    {
-      "key": "item:8396",
-      "type": "item",
-      "id": 8396,
-      "name": "Spellbook: Magical Backfire NG",
-      "url": "/lu4/item/8396-spellbook-magical-backfire"
-    },
-    {
-      "key": "item:4073",
-      "type": "item",
-      "id": 4073,
-      "name": "Sealed Avadon Gloves Part NG",
-      "url": "/lu4/item/4073-sealed-avadon-gloves-part"
-    },
-    {
-      "key": "item:4072",
-      "type": "item",
-      "id": 4072,
-      "name": "Avadon Circlet Pattern NG",
-      "url": "/lu4/item/4072-avadon-circlet-pattern"
-    },
-    {
-      "key": "item:4067",
-      "type": "item",
-      "id": 4067,
-      "name": "Zubei's Leather Gaiter Texture NG",
-      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4040",
@@ -187,6 +86,97 @@
       "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32364",
+      "type": "item",
+      "id": 32364,
+      "name": "Unidentified Avadon Circlet B",
+      "url": "/lu4/item/32364-unidentified-avadon-circlet"
+    },
+    {
+      "key": "item:4072",
+      "type": "item",
+      "id": 4072,
+      "name": "Avadon Circlet Pattern NG",
+      "url": "/lu4/item/4072-avadon-circlet-pattern"
+    },
+    {
+      "key": "item:32399",
+      "type": "item",
+      "id": 32399,
+      "name": "Unidentified Sealed Avadon Gloves B",
+      "url": "/lu4/item/32399-unidentified-sealed-avadon-gloves"
+    },
+    {
+      "key": "item:4073",
+      "type": "item",
+      "id": 4073,
+      "name": "Sealed Avadon Gloves Part NG",
+      "url": "/lu4/item/4073-sealed-avadon-gloves-part"
+    },
+    {
+      "key": "item:32357",
+      "type": "item",
+      "id": 32357,
+      "name": "Unidentified Zubei's Leather Gaiters B",
+      "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
+    },
+    {
+      "key": "item:4067",
+      "type": "item",
+      "id": 4067,
+      "name": "Zubei's Leather Gaiter Texture NG",
+      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
+    },
+    {
+      "key": "item:8946",
+      "type": "item",
+      "id": 8946,
+      "name": "Spellbook: Invocation NG",
+      "url": "/lu4/item/8946-spellbook-invocation"
+    },
+    {
+      "key": "item:8396",
+      "type": "item",
+      "id": 8396,
+      "name": "Spellbook: Magical Backfire NG",
+      "url": "/lu4/item/8396-spellbook-magical-backfire"
+    },
+    {
+      "key": "item:8401",
+      "type": "item",
+      "id": 8401,
+      "name": "Spellbook: Major Heal NG",
+      "url": "/lu4/item/8401-spellbook-major-heal"
+    },
+    {
+      "key": "item:8398",
+      "type": "item",
+      "id": 8398,
+      "name": "Spellbook: Mana Burn NG",
+      "url": "/lu4/item/8398-spellbook-mana-burn"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
       "key": "item:4939",
       "type": "item",
       "id": 4939,
@@ -194,11 +184,11 @@
       "url": "/lu4/item/4939-recipe-adamantite-necklace-70"
     },
     {
-      "key": "item:4102",
+      "key": "item:4064",
       "type": "item",
-      "id": 4102,
-      "name": "Zubei's Helmet Design NG",
-      "url": "/lu4/item/4102-zubeis-helmet-design"
+      "id": 4064,
+      "name": "Avadon Breastplate Part NG",
+      "url": "/lu4/item/4064-avadon-breastplate-part"
     },
     {
       "key": "item:4097",
@@ -208,11 +198,11 @@
       "url": "/lu4/item/4097-sealed-zubeis-boots-design"
     },
     {
-      "key": "item:4064",
+      "key": "item:4102",
       "type": "item",
-      "id": 4064,
-      "name": "Avadon Breastplate Part NG",
-      "url": "/lu4/item/4064-avadon-breastplate-part"
+      "id": 4102,
+      "name": "Zubei's Helmet Design NG",
+      "url": "/lu4/item/4102-zubeis-helmet-design"
     }
   ]
 }

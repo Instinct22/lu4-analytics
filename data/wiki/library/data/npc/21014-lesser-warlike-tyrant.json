@@ -2,126 +2,88 @@
   "key": "npc:21014",
   "type": "npc",
   "id": 21014,
-  "name": "Lu4 Wiki: NPC Lesser Warlike Tyrant",
+  "name": "Lesser Warlike Tyrant",
   "url": "/lu4/npc/21014-lesser-warlike-tyrant",
-  "source_url": "https://masterwork.wiki/lu4/npc/21014-lesser-warlike-tyrant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21014-lesser-warlike-tyrant",
   "raw_html": "library/raw/lu4/npc/21014-lesser-warlike-tyrant.html",
   "stats": {
-    "Location": "Подножье Горы (+1) Подножье Горы Пустошь"
+    "Respawn Time": "15 seconds",
+    "Location": "Подножье Горы (+1) Подножье Горы Пустошь",
+    "HP / MP": "1 127 / 458",
+    "P. Atk. / M. Atk.": "151 / 74",
+    "P. Def. / M. Def.": "186 / 142",
+    "Accuracy / Evasion": "66 / 66",
+    "Exp / SP": "1 202 / 120",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 33"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21014",
-      "type": "npc",
-      "id": 21014,
-      "name": "Lu4",
-      "url": "/lu4/npc/21014-lesser-warlike-tyrant"
-    },
-    {
-      "key": "location:24",
-      "type": "location",
-      "id": 24,
-      "name": "Подножье Горы",
-      "url": "/lu4/location/24-podnoze-gory"
-    },
-    {
-      "key": "location:15",
-      "type": "location",
-      "id": 15,
-      "name": "Пустошь",
-      "url": "/lu4/location/15-pustos"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:2279",
+      "key": "item:57",
       "type": "item",
-      "id": 2279,
-      "name": "Recipe: War Pick NG",
-      "url": "/lu4/item/2279-recipe-war-pick"
-    },
-    {
-      "key": "item:2189",
-      "type": "item",
-      "id": 2189,
-      "name": "Recipe: Mithril Tunic NG",
-      "url": "/lu4/item/2189-recipe-mithril-tunic"
-    },
-    {
-      "key": "item:2040",
-      "type": "item",
-      "id": 2040,
-      "name": "Reinforced Long Bow Shaft NG",
-      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
-    },
-    {
-      "key": "item:2038",
-      "type": "item",
-      "id": 2038,
-      "name": "Maingauche Edge NG",
-      "url": "/lu4/item/2038-maingauche-edge"
-    },
-    {
-      "key": "item:1942",
-      "type": "item",
-      "id": 1942,
-      "name": "Manticore Skin Shirt Texture NG",
-      "url": "/lu4/item/1942-manticore-skin-shirt-texture"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1879",
@@ -152,11 +114,18 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:395",
+      "key": "item:224",
       "type": "item",
-      "id": 395,
-      "name": "Manticore Skin Shirt D",
-      "url": "/lu4/item/395-manticore-skin-shirt"
+      "id": 224,
+      "name": "Maingauche D",
+      "url": "/lu4/item/224-maingauche"
+    },
+    {
+      "key": "item:2038",
+      "type": "item",
+      "id": 2038,
+      "name": "Maingauche Edge NG",
+      "url": "/lu4/item/2038-maingauche-edge"
     },
     {
       "key": "item:279",
@@ -166,18 +135,39 @@
       "url": "/lu4/item/279-reinforced-long-bow"
     },
     {
-      "key": "item:224",
+      "key": "item:2040",
       "type": "item",
-      "id": 224,
-      "name": "Maingauche D",
-      "url": "/lu4/item/224-maingauche"
+      "id": 2040,
+      "name": "Reinforced Long Bow Shaft NG",
+      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
     },
     {
-      "key": "item:57",
+      "key": "item:395",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 395,
+      "name": "Manticore Skin Shirt D",
+      "url": "/lu4/item/395-manticore-skin-shirt"
+    },
+    {
+      "key": "item:1942",
+      "type": "item",
+      "id": 1942,
+      "name": "Manticore Skin Shirt Texture NG",
+      "url": "/lu4/item/1942-manticore-skin-shirt-texture"
+    },
+    {
+      "key": "item:2279",
+      "type": "item",
+      "id": 2279,
+      "name": "Recipe: War Pick NG",
+      "url": "/lu4/item/2279-recipe-war-pick"
+    },
+    {
+      "key": "item:2189",
+      "type": "item",
+      "id": 2189,
+      "name": "Recipe: Mithril Tunic NG",
+      "url": "/lu4/item/2189-recipe-mithril-tunic"
     },
     {
       "key": "item:2156",

@@ -2,147 +2,88 @@
   "key": "npc:34659",
   "type": "npc",
   "id": 34659,
-  "name": "Lu4 Wiki: NPC Hunter Gargoyle",
+  "name": "Hunter Gargoyle",
   "url": "/lu4/npc/34659-hunter-gargoyle",
-  "source_url": "https://masterwork.wiki/lu4/npc/34659-hunter-gargoyle",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/34659-hunter-gargoyle",
   "raw_html": "library/raw/lu4/npc/34659-hunter-gargoyle.html",
   "stats": {
-    "Location": "Лес Разбойников (+1) Лес Разбойников Земли Орена"
+    "Respawn Time": "34 seconds",
+    "Location": "Лес Разбойников (+1) Лес Разбойников Земли Орена",
+    "HP / MP": "2 479 / 981",
+    "P. Atk. / M. Atk.": "666 / 379",
+    "P. Def. / M. Def.": "281 / 238",
+    "Accuracy / Evasion": "85 / 85",
+    "Exp / SP": "2 692 / 269",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 52"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:34659",
-      "type": "npc",
-      "id": 34659,
-      "name": "Lu4",
-      "url": "/lu4/npc/34659-hunter-gargoyle"
-    },
-    {
-      "key": "location:233",
-      "type": "location",
-      "id": 233,
-      "name": "Лес Разбойников",
-      "url": "/lu4/location/233-les-razbojnikov"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:8338",
-      "type": "item",
-      "id": 8338,
-      "name": "Axe of Eclipse Head NG",
-      "url": "/lu4/item/8338-axe-of-eclipse-head"
-    },
-    {
-      "key": "item:8335",
-      "type": "item",
-      "id": 8335,
-      "name": "Ecliptic Sword Blade NG",
-      "url": "/lu4/item/8335-ecliptic-sword-blade"
-    },
-    {
-      "key": "item:7891",
-      "type": "item",
-      "id": 7891,
-      "name": "Ecliptic Axe C",
-      "url": "/lu4/item/7891-ecliptic-axe"
-    },
-    {
-      "key": "item:7888",
-      "type": "item",
-      "id": 7888,
-      "name": "Ecliptic Sword C",
-      "url": "/lu4/item/7888-ecliptic-sword"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4609",
@@ -166,53 +107,11 @@
       "url": "/lu4/item/4041-mold-hardener"
     },
     {
-      "key": "item:3014",
+      "key": "item:1867",
       "type": "item",
-      "id": 3014,
-      "name": "Recipe: Full Plate Boots NG",
-      "url": "/lu4/item/3014-recipe-full-plate-boots"
-    },
-    {
-      "key": "item:2354",
-      "type": "item",
-      "id": 2354,
-      "name": "Recipe: Deadman's Staff NG",
-      "url": "/lu4/item/2354-recipe-deadmans-staff"
-    },
-    {
-      "key": "item:2353",
-      "type": "item",
-      "id": 2353,
-      "name": "Recipe: Samurai Longsword NG",
-      "url": "/lu4/item/2353-recipe-samurai-longsword"
-    },
-    {
-      "key": "item:2119",
-      "type": "item",
-      "id": 2119,
-      "name": "Crystal Dagger Blade NG",
-      "url": "/lu4/item/2119-crystal-dagger-blade"
-    },
-    {
-      "key": "item:2117",
-      "type": "item",
-      "id": 2117,
-      "name": "Ghoul's Staff Head NG",
-      "url": "/lu4/item/2117-ghouls-staff-head"
-    },
-    {
-      "key": "item:1988",
-      "type": "item",
-      "id": 1988,
-      "name": "Divine Tunic Fabric NG",
-      "url": "/lu4/item/1988-divine-tunic-fabric"
-    },
-    {
-      "key": "item:1987",
-      "type": "item",
-      "id": 1987,
-      "name": "Drake Leather Armor Texture NG",
-      "url": "/lu4/item/1987-drake-leather-armor-texture"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:1881",
@@ -229,11 +128,102 @@
       "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:5530",
+      "key": "item:1872",
       "type": "item",
-      "id": 5530,
-      "name": "Berserker Blade Edge NG",
-      "url": "/lu4/item/5530-berserker-blade-edge"
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:228",
+      "type": "item",
+      "id": 228,
+      "name": "Crystal Dagger C",
+      "url": "/lu4/item/228-crystal-dagger"
+    },
+    {
+      "key": "item:2119",
+      "type": "item",
+      "id": 2119,
+      "name": "Crystal Dagger Blade NG",
+      "url": "/lu4/item/2119-crystal-dagger-blade"
+    },
+    {
+      "key": "item:7891",
+      "type": "item",
+      "id": 7891,
+      "name": "Ecliptic Axe C",
+      "url": "/lu4/item/7891-ecliptic-axe"
+    },
+    {
+      "key": "item:8338",
+      "type": "item",
+      "id": 8338,
+      "name": "Axe of Eclipse Head NG",
+      "url": "/lu4/item/8338-axe-of-eclipse-head"
+    },
+    {
+      "key": "item:205",
+      "type": "item",
+      "id": 205,
+      "name": "Ghoul's Staff C",
+      "url": "/lu4/item/205-ghouls-staff"
+    },
+    {
+      "key": "item:2117",
+      "type": "item",
+      "id": 2117,
+      "name": "Ghoul's Staff Head NG",
+      "url": "/lu4/item/2117-ghouls-staff-head"
+    },
+    {
+      "key": "item:7888",
+      "type": "item",
+      "id": 7888,
+      "name": "Ecliptic Sword C",
+      "url": "/lu4/item/7888-ecliptic-sword"
+    },
+    {
+      "key": "item:8335",
+      "type": "item",
+      "id": 8335,
+      "name": "Ecliptic Sword Blade NG",
+      "url": "/lu4/item/8335-ecliptic-sword-blade"
+    },
+    {
+      "key": "item:442",
+      "type": "item",
+      "id": 442,
+      "name": "Divine Tunic C",
+      "url": "/lu4/item/442-divine-tunic"
+    },
+    {
+      "key": "item:1988",
+      "type": "item",
+      "id": 1988,
+      "name": "Divine Tunic Fabric NG",
+      "url": "/lu4/item/1988-divine-tunic-fabric"
+    },
+    {
+      "key": "item:401",
+      "type": "item",
+      "id": 401,
+      "name": "Drake Leather Armor C",
+      "url": "/lu4/item/401-drake-leather-armor"
+    },
+    {
+      "key": "item:1539",
+      "type": "item",
+      "id": 1539,
+      "name": "Greater Healing Potion NG",
+      "url": "/lu4/item/1539-greater-healing-potion"
     },
     {
       "key": "item:3015",
@@ -250,11 +240,11 @@
       "url": "/lu4/item/2970-recipe-ring-of-seal"
     },
     {
-      "key": "item:2917",
+      "key": "item:5530",
       "type": "item",
-      "id": 2917,
-      "name": "Ring of Seal Gemstone NG",
-      "url": "/lu4/item/2917-ring-of-seal-gemstone"
+      "id": 5530,
+      "name": "Berserker Blade Edge NG",
+      "url": "/lu4/item/5530-berserker-blade-edge"
     },
     {
       "key": "item:2121",
@@ -264,11 +254,11 @@
       "url": "/lu4/item/2121-eminence-bow-shaft"
     },
     {
-      "key": "item:1539",
+      "key": "item:2917",
       "type": "item",
-      "id": 1539,
-      "name": "Greater Healing Potion NG",
-      "url": "/lu4/item/1539-greater-healing-potion"
+      "id": 2917,
+      "name": "Ring of Seal Gemstone NG",
+      "url": "/lu4/item/2917-ring-of-seal-gemstone"
     }
   ]
 }

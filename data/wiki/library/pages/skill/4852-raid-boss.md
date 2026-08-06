@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4852-raid-boss
+- Path: /lu4/skill/4852-raid-boss
+- Type: skill
+- Key: skill:4852
+
+## Stats
+- Effect: A drake that used to be a guardian of Aden in ancient times, but turned into a devil of revenge after losing his child to a greedy hunter. He has left Dragon Valley to roam the territories near Aden Castle, and killed countless villagers. He also killed the priests who came to calm his rage. All of his good deeds have been erased from the chronicles by Imperial command, and he is now called the Disaster of Aden.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability A drake that used to be a guardian of Aden in ancient times, but turned into a devil of revenge after losing his child to a greedy hunter. He has left Dragon Valley to roam the territories near Aden Castle, and killed countless villagers. He also killed the priests who came to calm his rage. All of his good deeds have been erased from the chronicles by Imperial command, and he is now called the Disaster of Aden. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

@@ -2,105 +2,74 @@
   "key": "npc:20330",
   "type": "npc",
   "id": 20330,
-  "name": "Lu4 Wiki: NPC Mineshaft Bat",
+  "name": "Mineshaft Bat",
   "url": "/lu4/npc/20330-mineshaft-bat",
-  "source_url": "https://masterwork.wiki/lu4/npc/20330-mineshaft-bat",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20330-mineshaft-bat",
   "raw_html": "library/raw/lu4/npc/20330-mineshaft-bat.html",
   "stats": {
-    "Location": "Заброшенный Угольный Рудник"
+    "Respawn Time": "20 seconds",
+    "Location": "Заброшенный Угольный Рудник",
+    "HP / MP": "286 / 143",
+    "P. Atk. / M. Atk.": "32 / 16",
+    "P. Def. / M. Def.": "61 / 47",
+    "Accuracy / Evasion": "44 / 44",
+    "Exp / SP": "307 / 31",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 11"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20330",
-      "type": "npc",
-      "id": 20330,
-      "name": "Lu4",
-      "url": "/lu4/npc/20330-mineshaft-bat"
-    },
-    {
-      "key": "location:66",
-      "type": "location",
-      "id": 66,
-      "name": "Заброшенный Угольный Рудник",
-      "url": "/lu4/location/66-zabrosennyj-ugolnyj-rudnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:1921",
-      "type": "item",
-      "id": 1921,
-      "name": "Leather Shoes Texture NG",
-      "url": "/lu4/item/1921-leather-shoes-texture"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1798",
-      "type": "item",
-      "id": 1798,
-      "name": "Recipe: Leather Helmet NG",
-      "url": "/lu4/item/1798-recipe-leather-helmet"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -110,13 +79,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:49",
-      "type": "item",
-      "id": 49,
-      "name": "Gloves NG",
-      "url": "/lu4/item/49-gloves"
-    },
-    {
       "key": "item:37",
       "type": "item",
       "id": 37,
@@ -124,11 +86,46 @@
       "url": "/lu4/item/37-leather-shoes"
     },
     {
-      "key": "item:1896",
+      "key": "item:49",
       "type": "item",
-      "id": 1896,
-      "name": "Necklace of Anguish Chain NG",
-      "url": "/lu4/item/1896-necklace-of-anguish-chain"
+      "id": 49,
+      "name": "Gloves NG",
+      "url": "/lu4/item/49-gloves"
+    },
+    {
+      "key": "item:1921",
+      "type": "item",
+      "id": 1921,
+      "name": "Leather Shoes Texture NG",
+      "url": "/lu4/item/1921-leather-shoes-texture"
+    },
+    {
+      "key": "item:1798",
+      "type": "item",
+      "id": 1798,
+      "name": "Recipe: Leather Helmet NG",
+      "url": "/lu4/item/1798-recipe-leather-helmet"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1792",
+      "type": "item",
+      "id": 1792,
+      "name": "Recipe: Short Spear NG",
+      "url": "/lu4/item/1792-recipe-short-spear"
     },
     {
       "key": "item:1866",
@@ -138,11 +135,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:1792",
+      "key": "item:1896",
       "type": "item",
-      "id": 1792,
-      "name": "Recipe: Short Spear NG",
-      "url": "/lu4/item/1792-recipe-short-spear"
+      "id": 1896,
+      "name": "Necklace of Anguish Chain NG",
+      "url": "/lu4/item/1896-necklace-of-anguish-chain"
     }
   ]
 }

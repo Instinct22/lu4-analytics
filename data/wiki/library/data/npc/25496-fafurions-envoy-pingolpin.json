@@ -2,91 +2,107 @@
   "key": "npc:25496",
   "type": "npc",
   "id": 25496,
-  "name": "Lu4 Wiki: NPC Fafurion's Envoy Pingolpin",
+  "name": "Fafurion's Envoy Pingolpin",
   "url": "/lu4/npc/25496-fafurions-envoy-pingolpin",
-  "source_url": "https://masterwork.wiki/lu4/npc/25496-fafurions-envoy-pingolpin",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25496-fafurions-envoy-pingolpin",
   "raw_html": "library/raw/lu4/npc/25496-fafurions-envoy-pingolpin.html",
   "stats": {
-    "Location": "Сады Богини Евы"
+    "HP / MP": "427 423 / 8 254",
+    "P. Atk. / M. Atk.": "1 768 / 701",
+    "P. Def. / M. Def.": "892 / 960",
+    "Accuracy / Evasion": "103 / 108",
+    "Exp / SP": "1 892 800 / 205 212",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This messenger of the Water Dragon Fafurion was sent to the Goddess Eva to complain about his situation. After she ceased visiting the Garden of Eva, he remained behind to guide invading Stakatos. Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Fire Vulnerability Lv. 1 Vulnerable to Fire attacks. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 52"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25496",
-      "type": "npc",
-      "id": 25496,
-      "name": "Lu4",
-      "url": "/lu4/npc/25496-fafurions-envoy-pingolpin"
-    },
-    {
-      "key": "location:121",
-      "type": "location",
-      "id": 121,
-      "name": "Сады Богини Евы",
-      "url": "/lu4/location/121-sady-bogini-evy"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4976",
       "type": "skill",
       "id": 4976,
-      "name": "Raid Boss Lv. 1 This messenger of the Water Dragon Fafurion was sent to the Goddess Eva to complain about his situation. After she ceased visiting the Garden of Eva, he remained behind to guide invading Stakatos.",
-      "url": "/lu4/skill/4976-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4976-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32403",
+      "key": "item:9910",
       "type": "item",
-      "id": 32403,
-      "name": "Unidentified Sealed Avadon Boots B",
-      "url": "/lu4/item/32403-unidentified-sealed-avadon-boots"
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:32402",
+      "key": "item:32340",
       "type": "item",
-      "id": 32402,
-      "name": "Unidentified Sealed Zubei's Boots B",
-      "url": "/lu4/item/32402-unidentified-sealed-zubeis-boots"
+      "id": 32340,
+      "name": "Unidentified Arthro Nail B",
+      "url": "/lu4/item/32340-unidentified-arthro-nail"
+    },
+    {
+      "key": "item:32348",
+      "type": "item",
+      "id": 32348,
+      "name": "Unidentified Great Axe B",
+      "url": "/lu4/item/32348-unidentified-great-axe"
+    },
+    {
+      "key": "item:4111",
+      "type": "item",
+      "id": 4111,
+      "name": "Arthro Nail Blade NG",
+      "url": "/lu4/item/4111-arthro-nail-blade"
+    },
+    {
+      "key": "item:4113",
+      "type": "item",
+      "id": 4113,
+      "name": "Great Axe Head NG",
+      "url": "/lu4/item/4113-great-axe-head"
     },
     {
       "key": "item:32399",
@@ -103,67 +119,25 @@
       "url": "/lu4/item/32398-unidentified-sealed-zubeis-gauntlets"
     },
     {
-      "key": "item:32348",
+      "key": "item:32403",
       "type": "item",
-      "id": 32348,
-      "name": "Unidentified Great Axe B",
-      "url": "/lu4/item/32348-unidentified-great-axe"
+      "id": 32403,
+      "name": "Unidentified Sealed Avadon Boots B",
+      "url": "/lu4/item/32403-unidentified-sealed-avadon-boots"
     },
     {
-      "key": "item:32340",
+      "key": "item:32402",
       "type": "item",
-      "id": 32340,
-      "name": "Unidentified Arthro Nail B",
-      "url": "/lu4/item/32340-unidentified-arthro-nail"
+      "id": 32402,
+      "name": "Unidentified Sealed Zubei's Boots B",
+      "url": "/lu4/item/32402-unidentified-sealed-zubeis-boots"
     },
     {
-      "key": "item:9910",
+      "key": "item:4073",
       "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:6572",
-      "type": "item",
-      "id": 6572,
-      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
-    },
-    {
-      "key": "item:4113",
-      "type": "item",
-      "id": 4113,
-      "name": "Great Axe Head NG",
-      "url": "/lu4/item/4113-great-axe-head"
-    },
-    {
-      "key": "item:4111",
-      "type": "item",
-      "id": 4111,
-      "name": "Arthro Nail Blade NG",
-      "url": "/lu4/item/4111-arthro-nail-blade"
+      "id": 4073,
+      "name": "Sealed Avadon Gloves Part NG",
+      "url": "/lu4/item/4073-sealed-avadon-gloves-part"
     },
     {
       "key": "item:4100",
@@ -187,18 +161,18 @@
       "url": "/lu4/item/4097-sealed-zubeis-boots-design"
     },
     {
-      "key": "item:4073",
-      "type": "item",
-      "id": 4073,
-      "name": "Sealed Avadon Gloves Part NG",
-      "url": "/lu4/item/4073-sealed-avadon-gloves-part"
-    },
-    {
       "key": "item:952",
       "type": "item",
       "id": 952,
       "name": "Scroll: Enchant Armor (C-Grade) NG",
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
     },
     {
       "key": "item:951",
@@ -208,11 +182,32 @@
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+    },
+    {
       "key": "item:948",
       "type": "item",
       "id": 948,
       "name": "Scroll: Enchant Armor (B-Grade) NG",
       "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
+    },
+    {
+      "key": "item:6572",
+      "type": "item",
+      "id": 6572,
+      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
+    },
+    {
+      "key": "item:947",
+      "type": "item",
+      "id": 947,
+      "name": "Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
     },
     {
       "key": "npc:25497",

@@ -2,168 +2,67 @@
   "key": "npc:5006",
   "type": "npc",
   "id": 5006,
-  "name": "Lu4 Wiki: NPC Bannerless Fletcher",
+  "name": "Bannerless Fletcher",
   "url": "/lu4/npc/5006-bannerless-fletcher",
-  "source_url": "https://masterwork.wiki/lu4/npc/5006-bannerless-fletcher",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5006-bannerless-fletcher",
   "raw_html": "library/raw/lu4/npc/5006-bannerless-fletcher.html",
   "stats": {
-    "Location": "Равнины Неистовства (+1) Равнины Неистовства Земли Адена"
+    "Respawn Time": "18 seconds ± 2 seconds",
+    "Location": "Равнины Неистовства (+1) Равнины Неистовства Земли Адена",
+    "HP / MP": "1 849 / 1 110",
+    "P. Atk. / M. Atk.": "717 / 195",
+    "P. Def. / M. Def.": "212 / 174",
+    "Accuracy / Evasion": "78 / 82",
+    "Exp / SP": "1 942 / 194",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Evasion Lv. 1 Increases P. Evasion by 4.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5006",
-      "type": "npc",
-      "id": 5006,
-      "name": "Lu4",
-      "url": "/lu4/npc/5006-bannerless-fletcher"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4093",
       "type": "skill",
       "id": 4093,
-      "name": "Evasion Lv. 1 Increases P. Evasion by 4.",
-      "url": "/lu4/skill/4093-evasion/1"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:3001",
-      "type": "item",
-      "id": 3001,
-      "name": "Recipe: Rind Leather Boots NG",
-      "url": "/lu4/item/3001-recipe-rind-leather-boots"
-    },
-    {
-      "key": "item:2951",
-      "type": "item",
-      "id": 2951,
-      "name": "Rind Leather Gloves Design NG",
-      "url": "/lu4/item/2951-rind-leather-gloves-design"
-    },
-    {
-      "key": "item:2458",
-      "type": "item",
-      "id": 2458,
-      "name": "Rind Leather Gloves C",
-      "url": "/lu4/item/2458-rind-leather-gloves"
-    },
-    {
-      "key": "item:2083",
-      "type": "item",
-      "id": 2083,
-      "name": "Stiletto Edge NG",
-      "url": "/lu4/item/2083-stiletto-edge"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "url": "/lu4/item/1881-coarse-bone-powder"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:227",
-      "type": "item",
-      "id": 227,
-      "name": "Stiletto C",
-      "url": "/lu4/item/227-stiletto"
+      "name": "Evasion",
+      "url": "/lu4/skill/4093-evasion"
     },
     {
       "key": "item:57",
@@ -173,11 +72,95 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2318",
+      "key": "item:1867",
       "type": "item",
-      "id": 2318,
-      "name": "Recipe: Spirit Sword NG",
-      "url": "/lu4/item/2318-recipe-spirit-sword"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
+      "key": "item:1881",
+      "type": "item",
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:2458",
+      "type": "item",
+      "id": 2458,
+      "name": "Rind Leather Gloves C",
+      "url": "/lu4/item/2458-rind-leather-gloves"
+    },
+    {
+      "key": "item:2951",
+      "type": "item",
+      "id": 2951,
+      "name": "Rind Leather Gloves Design NG",
+      "url": "/lu4/item/2951-rind-leather-gloves-design"
+    },
+    {
+      "key": "item:227",
+      "type": "item",
+      "id": 227,
+      "name": "Stiletto C",
+      "url": "/lu4/item/227-stiletto"
+    },
+    {
+      "key": "item:2083",
+      "type": "item",
+      "id": 2083,
+      "name": "Stiletto Edge NG",
+      "url": "/lu4/item/2083-stiletto-edge"
+    },
+    {
+      "key": "item:3001",
+      "type": "item",
+      "id": 3001,
+      "name": "Recipe: Rind Leather Boots NG",
+      "url": "/lu4/item/3001-recipe-rind-leather-boots"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:2220",
@@ -185,6 +168,13 @@
       "id": 2220,
       "name": "Recipe: Rind Leather Armor NG",
       "url": "/lu4/item/2220-recipe-rind-leather-armor"
+    },
+    {
+      "key": "item:2318",
+      "type": "item",
+      "id": 2318,
+      "name": "Recipe: Spirit Sword NG",
+      "url": "/lu4/item/2318-recipe-spirit-sword"
     }
   ]
 }

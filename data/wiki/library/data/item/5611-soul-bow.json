@@ -2,29 +2,40 @@
   "key": "item:5611",
   "type": "item",
   "id": 5611,
-  "name": "Lu4 Wiki: Item Soul Bow",
+  "name": "Soul Bow",
   "url": "/lu4/item/5611-soul-bow",
-  "source_url": "https://masterwork.wiki/lu4/item/5611-soul-bow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5611-soul-bow",
   "raw_html": "library/raw/lu4/item/5611-soul-bow.html",
   "stats": {
-    "Item Skills": "Special Ability: PvP Damage Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "<Passive Effect> Consumption MP for Physical skills -15%, Damage in PvP +5%.",
+    "P. Atk. / M. Atk.": "500 / 114",
+    "Soulshot / Spiritshot Consume": "2 / 1",
+    "Crystal Amount": "1659 Crystallization Failed Enchant +0 1659 - +1 1804 - +2 1949 - +3 2094 - +4 2384 1554 +5 2674 1844 +6 2964 2134 +7 3254 2424 +8 3544 2714 +9 3834 3004 +10 4124 3294 +11 4414 3584 +12 4704 3874",
+    "NPC Sell Price": "10 370 500 Adena",
+    "Weight": "1660",
+    "P. Crit. Rate.": "12",
+    "Accuracy": "-4",
+    "Item Skills": "Special Ability: PvP Damage Lv. 1 Special Ability: Cheap Shot Lv. 4",
+    "Original Item": "Soul Bow A",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "A",
+    "Type": "Weapon / Bow / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:5611",
-      "type": "item",
-      "id": 5611,
-      "name": "Lu4",
-      "url": "/lu4/item/5611-soul-bow"
-    },
-    {
       "key": "skill:3552",
       "type": "skill",
       "id": 3552,
-      "name": "Special Ability: PvP Damage Lv. 1",
-      "url": "/lu4/skill/3552-special-ability-pvp-damage/1"
+      "name": "Special Ability: PvP Damage",
+      "url": "/lu4/skill/3552-special-ability-pvp-damage"
+    },
+    {
+      "key": "skill:24298",
+      "type": "skill",
+      "id": 24298,
+      "name": "Special Ability: Cheap Shot",
+      "url": "/lu4/skill/24298-special-ability-cheap-shot"
     }
   ]
 }

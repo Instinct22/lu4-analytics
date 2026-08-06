@@ -2,40 +2,44 @@
   "key": "npc:21503",
   "type": "npc",
   "id": 21503,
-  "name": "Lu4 Wiki: NPC Alpine Cougar",
+  "name": "Alpine Cougar",
   "url": "/lu4/npc/21503-alpine-cougar",
-  "source_url": "https://masterwork.wiki/lu4/npc/21503-alpine-cougar",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21503-alpine-cougar",
   "raw_html": "library/raw/lu4/npc/21503-alpine-cougar.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "7 568 / 1 618",
+    "P. Atk. / M. Atk.": "1 343 / 831",
+    "P. Def. / M. Def.": "469 / 399",
+    "Accuracy / Evasion": "102 / 102",
+    "Exp / SP": "17 946 / 1 756",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (2x) Lv. 10 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "A",
+    "Type": "Animal, Lv. 69"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21503",
-      "type": "npc",
-      "id": 21503,
-      "name": "Lu4",
-      "url": "/lu4/npc/21503-alpine-cougar"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "item:32327",
@@ -52,32 +56,11 @@
       "url": "/lu4/item/5542-halberd-edge"
     },
     {
-      "key": "item:5456",
+      "key": "item:1867",
       "type": "item",
-      "id": 5456,
-      "name": "Recipe: Tallum Glaive(60%) NG",
-      "url": "/lu4/item/5456-recipe-tallum-glaive60"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
-    },
-    {
-      "key": "item:1894",
-      "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "url": "/lu4/item/1894-crafted-leather"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:1872",
@@ -87,18 +70,39 @@
       "url": "/lu4/item/1872-animal-bone"
     },
     {
-      "key": "item:1867",
+      "key": "item:1882",
       "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
     },
     {
-      "key": "item:5525",
+      "key": "item:1894",
       "type": "item",
-      "id": 5525,
-      "name": "Sealed Dark Crystal Helmet Design NG",
-      "url": "/lu4/item/5525-sealed-dark-crystal-helmet-design"
+      "id": 1894,
+      "name": "Crafted Leather NG",
+      "url": "/lu4/item/1894-crafted-leather"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:5456",
+      "type": "item",
+      "id": 5456,
+      "name": "Recipe: Tallum Glaive(60%) NG",
+      "url": "/lu4/item/5456-recipe-tallum-glaive60"
+    },
+    {
+      "key": "item:5442",
+      "type": "item",
+      "id": 5442,
+      "name": "Recipe: Soul Bow(60%) NG",
+      "url": "/lu4/item/5442-recipe-soul-bow60"
     },
     {
       "key": "item:5524",
@@ -108,11 +112,11 @@
       "url": "/lu4/item/5524-sealed-dark-crystal-gaiters-pattern"
     },
     {
-      "key": "item:5442",
+      "key": "item:5525",
       "type": "item",
-      "id": 5442,
-      "name": "Recipe: Soul Bow(60%) NG",
-      "url": "/lu4/item/5442-recipe-soul-bow60"
+      "id": 5525,
+      "name": "Sealed Dark Crystal Helmet Design NG",
+      "url": "/lu4/item/5525-sealed-dark-crystal-helmet-design"
     }
   ]
 }

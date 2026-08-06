@@ -2,31 +2,34 @@
   "key": "item:299",
   "type": "item",
   "id": 299,
-  "name": "Lu4 Wiki: Item Orcish Poleaxe",
+  "name": "Orcish Poleaxe",
   "url": "/lu4/item/299-orcish-poleaxe",
-  "source_url": "https://masterwork.wiki/lu4/item/299-orcish-poleaxe",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/299-orcish-poleaxe",
   "raw_html": "library/raw/lu4/item/299-orcish-poleaxe.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Critical Stun: Has a 29% base chance to Stun the target. Wide Blow: Attack Angle +60 degrees. Towering Blow: Attack Range for Additional Targets +20.",
+    "P. Atk. / M. Atk.": "156 / 83",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "2452 Crystallization Failed Enchant +0 2452 - +1 2497 - +2 2542 - +3 2587 - +4 2677 1451 +5 2767 1541 +6 2857 1631 +7 2947 1721 +8 3037 1811 +9 3127 1901 +10 3217 1991 +11 3307 2081 +12 3397 2171",
+    "NPC Sell Price": "2 356 750 Adena",
+    "Weight": "1950",
+    "P. Crit. Rate.": "8",
+    "Accuracy": "-4",
     "Item Skills": "Polearm Multi-Attack Lv. 1",
     "Recipes": "Recipe: Orcish Poleaxe NG",
     "Soul Crystals": "Orcish Poleaxe Critical Stun C Orcish Poleaxe C Gemstone C NG (555 pcs.) Red Soul Crystal - Stage 8 NG Orcish Poleaxe Towering Blow C Orcish Poleaxe C Gemstone C NG (555 pcs.) Green Soul Crystal - Stage 8 NG Orcish Poleaxe Wide Blow C Orcish Poleaxe C Gemstone C NG (555 pcs.) Blue Soul Crystal - Stage 8 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Polearm / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:299",
-      "type": "item",
-      "id": 299,
-      "name": "Lu4",
-      "url": "/lu4/item/299-orcish-poleaxe"
-    },
-    {
       "key": "skill:3599",
       "type": "skill",
       "id": 3599,
-      "name": "Polearm Multi-Attack Lv. 1",
-      "url": "/lu4/skill/3599-polearm-multi-attack/1"
+      "name": "Polearm Multi-Attack",
+      "url": "/lu4/skill/3599-polearm-multi-attack"
     },
     {
       "key": "item:2360",
@@ -88,91 +91,105 @@
       "key": "npc:36625",
       "type": "npc",
       "id": 36625,
-      "name": "Wren Kain Lv. 50",
+      "name": "Wren Kain",
       "url": "/lu4/npc/36625-wren-kain"
+    },
+    {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
     },
     {
       "key": "npc:25412",
       "type": "npc",
       "id": 25412,
-      "name": "Necrosentinel Royal Guard Lv. 47",
+      "name": "Necrosentinel Royal Guard",
       "url": "/lu4/npc/25412-necrosentinel-royal-guard"
     },
     {
       "key": "npc:21722",
       "type": "npc",
       "id": 21722,
-      "name": "Purgatory Invader Warrior Lv. 53",
+      "name": "Purgatory Invader Warrior",
       "url": "/lu4/npc/21722-purgatory-invader-warrior"
     },
     {
       "key": "npc:21720",
       "type": "npc",
       "id": 21720,
-      "name": "Purgatory Invader Elite Soldier Lv. 55",
+      "name": "Purgatory Invader Elite Soldier",
       "url": "/lu4/npc/21720-purgatory-invader-elite-soldier"
     },
     {
       "key": "npc:21198",
       "type": "npc",
       "id": 21198,
-      "name": "Nephilim Swordsman Lv. 54",
+      "name": "Nephilim Swordsman",
       "url": "/lu4/npc/21198-nephilim-swordsman"
     },
     {
       "key": "npc:21177",
       "type": "npc",
       "id": 21177,
-      "name": "Lilim Knight-Errant Lv. 54",
+      "name": "Lilim Knight-Errant",
       "url": "/lu4/npc/21177-lilim-knight-errant"
     },
     {
       "key": "npc:21000",
       "type": "npc",
       "id": 21000,
-      "name": "Soul of Ruins Lv. 54",
+      "name": "Soul of Ruins",
       "url": "/lu4/npc/21000-soul-of-ruins"
     },
     {
       "key": "npc:20847",
       "type": "npc",
       "id": 20847,
-      "name": "Veil Master Lv. 54",
+      "name": "Veil Master",
       "url": "/lu4/npc/20847-veil-master"
     },
     {
       "key": "npc:20667",
       "type": "npc",
       "id": 20667,
-      "name": "Farcran Lv. 53",
+      "name": "Farcran",
       "url": "/lu4/npc/20667-farcran"
     },
     {
       "key": "npc:20643",
       "type": "npc",
       "id": 20643,
-      "name": "Harit Lizardman Warrior Lv. 53",
+      "name": "Harit Lizardman Warrior",
       "url": "/lu4/npc/20643-harit-lizardman-warrior"
     },
     {
       "key": "npc:20598",
       "type": "npc",
       "id": 20598,
-      "name": "Satyr Elder Lv. 54",
+      "name": "Satyr Elder",
       "url": "/lu4/npc/20598-satyr-elder"
     },
     {
       "key": "npc:20596",
       "type": "npc",
       "id": 20596,
-      "name": "Liele Elder Lv. 52",
+      "name": "Liele Elder",
       "url": "/lu4/npc/20596-liele-elder"
     },
     {
       "key": "npc:20161",
       "type": "npc",
       "id": 20161,
-      "name": "Oel Mahum Lv. 53",
+      "name": "Oel Mahum",
       "url": "/lu4/npc/20161-oel-mahum"
     }
   ]

@@ -1,0 +1,93 @@
+{
+  "key": "npc:13128",
+  "type": "npc",
+  "id": 13128,
+  "name": "Golem Trader",
+  "url": "/lu4/npc/13128-golem-trader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/13128-golem-trader",
+  "raw_html": "library/raw/lu4/npc/13128-golem-trader.html",
+  "stats": {
+    "HP / MP": "4 159 / 1 800",
+    "P. Atk. / M. Atk.": "16 / 10",
+    "P. Def. / M. Def.": "90 636 / 387 960",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Mystic Immunity Lv. 1 Grants complete immunity to Buffs and Debuffs.",
+    "Type": "Construct, Lv. 70"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "skill:4416",
+      "type": "skill",
+      "id": 4416,
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
+    },
+    {
+      "key": "skill:4408",
+      "type": "skill",
+      "id": 4408,
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
+    },
+    {
+      "key": "skill:4409",
+      "type": "skill",
+      "id": 4409,
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
+    },
+    {
+      "key": "skill:4410",
+      "type": "skill",
+      "id": 4410,
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
+    },
+    {
+      "key": "skill:4411",
+      "type": "skill",
+      "id": 4411,
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
+    },
+    {
+      "key": "skill:4412",
+      "type": "skill",
+      "id": 4412,
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
+    },
+    {
+      "key": "skill:4413",
+      "type": "skill",
+      "id": 4413,
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
+    },
+    {
+      "key": "skill:4414",
+      "type": "skill",
+      "id": 4414,
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
+    },
+    {
+      "key": "skill:4415",
+      "type": "skill",
+      "id": 4415,
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
+    },
+    {
+      "key": "skill:4390",
+      "type": "skill",
+      "id": 4390,
+      "name": "Mystic Immunity",
+      "url": "/lu4/skill/4390-mystic-immunity"
+    }
+  ]
+}

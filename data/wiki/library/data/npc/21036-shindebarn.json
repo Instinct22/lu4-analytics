@@ -2,105 +2,88 @@
   "key": "npc:21036",
   "type": "npc",
   "id": 21036,
-  "name": "Lu4 Wiki: NPC Shindebarn",
+  "name": "Shindebarn",
   "url": "/lu4/npc/21036-shindebarn",
-  "source_url": "https://masterwork.wiki/lu4/npc/21036-shindebarn",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21036-shindebarn",
   "raw_html": "library/raw/lu4/npc/21036-shindebarn.html",
   "stats": {
-    "Location": "Башня Крумы: 3-й этаж"
+    "Respawn Time": "1 minute ± 5 seconds",
+    "Location": "Башня Крумы: 3-й этаж",
+    "HP / MP": "7 473 / 719",
+    "P. Atk. / M. Atk.": "419 / 227",
+    "P. Def. / M. Def.": "222 / 170",
+    "Accuracy / Evasion": "77 / 81",
+    "Exp / SP": "8 624 / 862",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Evasion Lv. 1 Increases P. Evasion by 4. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21036",
-      "type": "npc",
-      "id": 21036,
-      "name": "Lu4",
-      "url": "/lu4/npc/21036-shindebarn"
-    },
-    {
-      "key": "location:56",
-      "type": "location",
-      "id": 56,
-      "name": "Башня Крумы: 3-й этаж",
-      "url": "/lu4/location/56-basna-krumy-3-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4093",
       "type": "skill",
       "id": 4093,
-      "name": "Evasion Lv. 1 Increases P. Evasion by 4.",
-      "url": "/lu4/skill/4093-evasion/1"
+      "name": "Evasion",
+      "url": "/lu4/skill/4093-evasion"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:2088",
+      "key": "item:57",
       "type": "item",
-      "id": 2088,
-      "name": "Horn of Glory Fragment NG",
-      "url": "/lu4/item/2088-horn-of-glory-fragment"
-    },
-    {
-      "key": "item:1974",
-      "type": "item",
-      "id": 1974,
-      "name": "Crimson Boot Fabric NG",
-      "url": "/lu4/item/1974-crimson-boot-fabric"
-    },
-    {
-      "key": "item:1912",
-      "type": "item",
-      "id": 1912,
-      "name": "Ring of Protection Gemstone NG",
-      "url": "/lu4/item/1912-ring-of-protection-gemstone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1895",
@@ -117,11 +100,11 @@
       "url": "/lu4/item/1126-crimson-boots"
     },
     {
-      "key": "item:884",
+      "key": "item:1974",
       "type": "item",
-      "id": 884,
-      "name": "Ring of Protection C",
-      "url": "/lu4/item/884-ring-of-protection"
+      "id": 1974,
+      "name": "Crimson Boot Fabric NG",
+      "url": "/lu4/item/1974-crimson-boot-fabric"
     },
     {
       "key": "item:325",
@@ -131,11 +114,25 @@
       "url": "/lu4/item/325-horn-of-glory"
     },
     {
-      "key": "item:57",
+      "key": "item:2088",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2088,
+      "name": "Horn of Glory Fragment NG",
+      "url": "/lu4/item/2088-horn-of-glory-fragment"
+    },
+    {
+      "key": "item:884",
+      "type": "item",
+      "id": 884,
+      "name": "Ring of Protection C",
+      "url": "/lu4/item/884-ring-of-protection"
+    },
+    {
+      "key": "item:1912",
+      "type": "item",
+      "id": 1912,
+      "name": "Ring of Protection Gemstone NG",
+      "url": "/lu4/item/1912-ring-of-protection-gemstone"
     },
     {
       "key": "item:1976",

@@ -2,91 +2,74 @@
   "key": "npc:20786",
   "type": "npc",
   "id": 20786,
-  "name": "Lu4 Wiki: NPC Lienrik",
+  "name": "Lienrik",
   "url": "/lu4/npc/20786-lienrik",
-  "source_url": "https://masterwork.wiki/lu4/npc/20786-lienrik",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20786-lienrik",
   "raw_html": "library/raw/lu4/npc/20786-lienrik.html",
   "stats": {
-    "Location": "Поля Безмолвия"
+    "Respawn Time": "23 seconds",
+    "Location": "Поля Безмолвия",
+    "HP / MP": "1 469 / 571",
+    "P. Atk. / M. Atk.": "310 / 175",
+    "P. Def. / M. Def.": "182 / 143",
+    "Accuracy / Evasion": "72 / 72",
+    "Exp / SP": "1 660 / 166",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 39"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20786",
-      "type": "npc",
-      "id": 20786,
-      "name": "Lu4",
-      "url": "/lu4/npc/20786-lienrik"
-    },
-    {
-      "key": "location:116",
-      "type": "location",
-      "id": 116,
-      "name": "Поля Безмолвия",
-      "url": "/lu4/location/116-pola-bezmolvia"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:1875",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
       "key": "item:5549",
@@ -94,34 +77,6 @@
       "id": 5549,
       "name": "Metallic Thread NG",
       "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:2967",
-      "type": "item",
-      "id": 2967,
-      "name": "Elven Long Sword Blade NG",
-      "url": "/lu4/item/2967-elven-long-sword-blade"
-    },
-    {
-      "key": "item:2499",
-      "type": "item",
-      "id": 2499,
-      "name": "Elven Long Sword D",
-      "url": "/lu4/item/2499-elven-long-sword"
-    },
-    {
-      "key": "item:1963",
-      "type": "item",
-      "id": 1963,
-      "name": "Ogre Power Gauntlets Part NG",
-      "url": "/lu4/item/1963-ogre-power-gauntlets-part"
-    },
-    {
-      "key": "item:1906",
-      "type": "item",
-      "id": 1906,
-      "name": "Mithril Ring Wire NG",
-      "url": "/lu4/item/1906-mithril-ring-wire"
     },
     {
       "key": "item:1885",
@@ -138,11 +93,25 @@
       "url": "/lu4/item/1879-cokes"
     },
     {
-      "key": "item:1875",
+      "key": "item:5550",
       "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
+    },
+    {
+      "key": "item:2499",
+      "type": "item",
+      "id": 2499,
+      "name": "Elven Long Sword D",
+      "url": "/lu4/item/2499-elven-long-sword"
+    },
+    {
+      "key": "item:2967",
+      "type": "item",
+      "id": 2967,
+      "name": "Elven Long Sword Blade NG",
+      "url": "/lu4/item/2967-elven-long-sword-blade"
     },
     {
       "key": "item:882",
@@ -152,32 +121,53 @@
       "url": "/lu4/item/882-mithril-ring"
     },
     {
+      "key": "item:1906",
+      "type": "item",
+      "id": 1906,
+      "name": "Mithril Ring Wire NG",
+      "url": "/lu4/item/1906-mithril-ring-wire"
+    },
+    {
       "key": "item:607",
       "type": "item",
       "id": 607,
-      "name": "Ogre Power Gauntlets D",
-      "url": "/lu4/item/607-ogre-power-gauntlets"
+      "name": "Salamander Skin Gloves D",
+      "url": "/lu4/item/607-salamander-skin-gloves"
     },
     {
-      "key": "item:57",
+      "key": "item:1963",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1963,
+      "name": "Salamander Skin Gloves Part NG",
+      "url": "/lu4/item/1963-salamander-skin-gloves-part"
     },
     {
-      "key": "item:2934",
+      "key": "item:39298",
       "type": "item",
-      "id": 2934,
-      "name": "Plate Shield Fragment NG",
-      "url": "/lu4/item/2934-plate-shield-fragment"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:2202",
       "type": "item",
       "id": 2202,
-      "name": "Recipe: Assault Boots NG",
-      "url": "/lu4/item/2202-recipe-assault-boots"
+      "name": "Recipe: Sage's Worn Boots NG",
+      "url": "/lu4/item/2202-recipe-sages-worn-boots"
     },
     {
       "key": "item:2047",
@@ -185,6 +175,13 @@
       "id": 2047,
       "name": "Claymore Blade NG",
       "url": "/lu4/item/2047-claymore-blade"
+    },
+    {
+      "key": "item:2934",
+      "type": "item",
+      "id": 2934,
+      "name": "Half Plate Shield Fragment NG",
+      "url": "/lu4/item/2934-half-plate-shield-fragment"
     }
   ]
 }

@@ -2,48 +2,24 @@
   "key": "item:2253",
   "type": "item",
   "id": 2253,
-  "name": "Recipe",
+  "name": "Recipe: Sword Breaker",
   "url": "/lu4/item/2253-recipe-sword-breaker",
-  "source_url": "https://masterwork.wiki/lu4/item/2253-recipe-sword-breaker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2253-recipe-sword-breaker",
   "raw_html": "library/raw/lu4/item/2253-recipe-sword-breaker.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Sword Breaker'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "2 440 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "72",
     "Success Rate": "100%",
-    "Result": "Sword Breaker NG"
+    "Result": "Sword Breaker NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2015",
-      "type": "item",
-      "id": 2015,
-      "name": "Sword Breaker Edge NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "365"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "365"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2253",
-      "type": "item",
-      "id": 2253,
-      "name": "Lu4",
-      "url": "/lu4/item/2253-recipe-sword-breaker"
-    },
     {
       "key": "item:2015",
       "type": "item",
@@ -76,63 +52,63 @@
       "key": "npc:34642",
       "type": "npc",
       "id": 34642,
-      "name": "Dangerous Poison Spider Lv. 20",
+      "name": "Dangerous Poison Spider",
       "url": "/lu4/npc/34642-dangerous-poison-spider"
     },
     {
       "key": "npc:34639",
       "type": "npc",
       "id": 34639,
-      "name": "Dangerous Crasher Lv. 19",
+      "name": "Dangerous Crasher",
       "url": "/lu4/npc/34639-dangerous-crasher"
     },
     {
       "key": "npc:20424",
       "type": "npc",
       "id": 20424,
-      "name": "Akaste Bone Lord Lv. 19",
+      "name": "Akaste Bone Lord",
       "url": "/lu4/npc/20424-akaste-bone-lord"
     },
     {
       "key": "npc:20415",
       "type": "npc",
       "id": 20415,
-      "name": "Scarlet Salamander Lv. 17",
+      "name": "Scarlet Salamander",
       "url": "/lu4/npc/20415-scarlet-salamander"
     },
     {
       "key": "npc:20403",
       "type": "npc",
       "id": 20403,
-      "name": "Hunter Tarantula Lv. 16",
+      "name": "Hunter Tarantula",
       "url": "/lu4/npc/20403-hunter-tarantula"
     },
     {
       "key": "npc:20351",
       "type": "npc",
       "id": 20351,
-      "name": "Dre Vanul Tracker Lv. 20",
+      "name": "Dre Vanul Tracker",
       "url": "/lu4/npc/20351-dre-vanul-tracker"
     },
     {
       "key": "npc:20041",
       "type": "npc",
       "id": 20041,
-      "name": "Tainted Zombie Lv. 18",
+      "name": "Tainted Zombie",
       "url": "/lu4/npc/20041-tainted-zombie"
     },
     {
       "key": "npc:20775",
       "type": "npc",
       "id": 20775,
-      "name": "Bugbear Raider Lv. 17",
+      "name": "Bugbear Raider",
       "url": "/lu4/npc/20775-bugbear-raider"
     },
     {
       "key": "npc:20404",
       "type": "npc",
       "id": 20404,
-      "name": "Silent Horror Lv. 16",
+      "name": "Silent Horror",
       "url": "/lu4/npc/20404-silent-horror"
     }
   ]

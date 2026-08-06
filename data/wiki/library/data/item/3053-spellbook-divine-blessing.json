@@ -2,27 +2,25 @@
   "key": "item:3053",
   "type": "item",
   "id": 3053,
-  "name": "Lu4 Wiki: Item Spellbook: Divine Blessing",
+  "name": "Spellbook: Divine Blessing",
   "url": "/lu4/item/3053-spellbook-divine-blessing",
-  "source_url": "https://masterwork.wiki/lu4/item/3053-spellbook-divine-blessing",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/3053-spellbook-divine-blessing",
   "raw_html": "library/raw/lu4/item/3053-spellbook-divine-blessing.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Divine Blessing'. Required: Paladin - Lv. 40 To obtain this item, hunt the Manashen Gargoyle found in Ivory Tower Crater.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:3053",
-      "type": "item",
-      "id": 3053,
-      "name": "Lu4",
-      "url": "/lu4/item/3053-spellbook-divine-blessing"
-    },
-    {
       "key": "npc:20563",
       "type": "npc",
       "id": 20563,
-      "name": "Manashen Gargoyle Lv. 40",
+      "name": "Manashen Gargoyle",
       "url": "/lu4/npc/20563-manashen-gargoyle"
     }
   ]

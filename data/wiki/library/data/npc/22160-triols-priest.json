@@ -2,103 +2,107 @@
   "key": "npc:22160",
   "type": "npc",
   "id": 22160,
-  "name": "Lu4 Wiki: NPC Triol's Priest",
+  "name": "Triol's Priest",
   "url": "/lu4/npc/22160-triols-priest",
-  "source_url": "https://masterwork.wiki/lu4/npc/22160-triols-priest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22160-triols-priest",
   "raw_html": "library/raw/lu4/npc/22160-triols-priest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "19 821 / 2 342",
+    "P. Atk. / M. Atk.": "2 140 / 1 426",
+    "P. Def. / M. Def.": "627 / 758",
+    "Accuracy / Evasion": "128 / 137",
+    "Exp / SP": "58 296 / 3 776",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 80",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. Spear Lv. 11 Spears Humanoids Lv. 26 Humanoids. High Lv. Lv. 10 NPC High Level",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22160",
-      "type": "npc",
-      "id": 22160,
-      "name": "Lu4",
-      "url": "/lu4/npc/22160-triols-priest"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Spear Lv. 11 Spears",
-      "url": "/lu4/skill/4415-spear/11"
+      "name": "Spear",
+      "url": "/lu4/skill/4415-spear"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Humanoids Lv. 26 Humanoids.",
-      "url": "/lu4/skill/4417-humanoids/26"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4417-humanoids"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 10 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/10"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:7910",
+      "key": "item:57",
       "type": "item",
-      "id": 7910,
-      "name": "Blessing of Darkness NG",
-      "url": "/lu4/item/7910-blessing-of-darkness"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6346",
@@ -157,18 +161,18 @@
       "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:57",
+      "key": "item:7910",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 7910,
+      "name": "Blessing of Darkness NG",
+      "url": "/lu4/item/7910-blessing-of-darkness"
     },
     {
-      "key": "item:6694",
+      "key": "item:6691",
       "type": "item",
-      "id": 6694,
-      "name": "Saint Spear Blade NG",
-      "url": "/lu4/item/6694-saint-spear-blade"
+      "id": 6691,
+      "name": "Angel Slayer Blade NG",
+      "url": "/lu4/item/6691-angel-slayer-blade"
     },
     {
       "key": "item:6693",
@@ -178,11 +182,11 @@
       "url": "/lu4/item/6693-dragon-hunter-axe-blade"
     },
     {
-      "key": "item:6691",
+      "key": "item:6694",
       "type": "item",
-      "id": 6691,
-      "name": "Angel Slayer Blade NG",
-      "url": "/lu4/item/6691-angel-slayer-blade"
+      "id": 6694,
+      "name": "Saint Spear Blade NG",
+      "url": "/lu4/item/6694-saint-spear-blade"
     }
   ]
 }

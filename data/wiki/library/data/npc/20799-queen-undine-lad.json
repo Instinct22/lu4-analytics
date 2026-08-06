@@ -2,168 +2,95 @@
   "key": "npc:20799",
   "type": "npc",
   "id": 20799,
-  "name": "Lu4 Wiki: NPC Queen Undine Lad",
+  "name": "Queen Undine Lad",
   "url": "/lu4/npc/20799-queen-undine-lad",
-  "source_url": "https://masterwork.wiki/lu4/npc/20799-queen-undine-lad",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20799-queen-undine-lad",
   "raw_html": "library/raw/lu4/npc/20799-queen-undine-lad.html",
   "stats": {
-    "Location": "Сады Богини Евы"
+    "Respawn Time": "1 minute",
+    "Location": "Сады Богини Евы",
+    "HP / MP": "7 830 / 785",
+    "P. Atk. / M. Atk.": "370 / 333",
+    "P. Def. / M. Def.": "201 / 172",
+    "Accuracy / Evasion": "74 / 98",
+    "Exp / SP": "9 357 / 936",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 HP Increase (4x) Lv. 12 Slightly Weak P. Atk. Lv. 10 Strong M. Atk. Lv. 14 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Evasion Lv. 1 Increases P. Evasion by 4. Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 46"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20799",
-      "type": "npc",
-      "id": 20799,
-      "name": "Lu4",
-      "url": "/lu4/npc/20799-queen-undine-lad"
-    },
-    {
-      "key": "location:121",
-      "type": "location",
-      "id": 121,
-      "name": "Сады Богини Евы",
-      "url": "/lu4/location/121-sady-bogini-evy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4093",
       "type": "skill",
       "id": 4093,
-      "name": "Evasion Lv. 1 Increases P. Evasion by 4.",
-      "url": "/lu4/skill/4093-evasion/1"
+      "name": "Evasion",
+      "url": "/lu4/skill/4093-evasion"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:2950",
-      "type": "item",
-      "id": 2950,
-      "name": "Gloves of Seal Pattern NG",
-      "url": "/lu4/item/2950-gloves-of-seal-pattern"
-    },
-    {
-      "key": "item:2947",
-      "type": "item",
-      "id": 2947,
-      "name": "Dwarven Chain Shield Fragment NG",
-      "url": "/lu4/item/2947-dwarven-chain-shield-fragment"
-    },
-    {
-      "key": "item:2496",
-      "type": "item",
-      "id": 2496,
-      "name": "Dwarven Chain Shield C",
-      "url": "/lu4/item/2496-dwarven-chain-shield"
-    },
-    {
-      "key": "item:2457",
-      "type": "item",
-      "id": 2457,
-      "name": "Gloves of Seal C",
-      "url": "/lu4/item/2457-gloves-of-seal"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1866",
@@ -173,11 +100,81 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:1871",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:2496",
+      "type": "item",
+      "id": 2496,
+      "name": "Dwarven Chain Shield C",
+      "url": "/lu4/item/2496-dwarven-chain-shield"
+    },
+    {
+      "key": "item:2947",
+      "type": "item",
+      "id": 2947,
+      "name": "Dwarven Chain Shield Fragment NG",
+      "url": "/lu4/item/2947-dwarven-chain-shield-fragment"
+    },
+    {
+      "key": "item:2457",
+      "type": "item",
+      "id": 2457,
+      "name": "Gloves of Seal C",
+      "url": "/lu4/item/2457-gloves-of-seal"
+    },
+    {
+      "key": "item:2950",
+      "type": "item",
+      "id": 2950,
+      "name": "Gloves of Seal Pattern NG",
+      "url": "/lu4/item/2950-gloves-of-seal-pattern"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:2088",

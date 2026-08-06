@@ -2,224 +2,102 @@
   "key": "npc:20832",
   "type": "npc",
   "id": 20832,
-  "name": "Lu4 Wiki: NPC Zaken's Pikeman",
+  "name": "Zaken's Pikeman",
   "url": "/lu4/npc/20832-zakens-pikeman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20832-zakens-pikeman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20832-zakens-pikeman",
   "raw_html": "library/raw/lu4/npc/20832-zakens-pikeman.html",
   "stats": {
-    "Location": "Земли Гирана (+2) Земли Гирана Тоннель Пиратов Остров Дьявола"
+    "Respawn Time": "40 seconds",
+    "Location": "Земли Гирана (+2) Земли Гирана Тоннель Пиратов Остров Дьявола",
+    "HP / MP": "3 482 / 686",
+    "P. Atk. / M. Atk.": "392 / 169",
+    "P. Def. / M. Def.": "252 / 237",
+    "Accuracy / Evasion": "76 / 86",
+    "Exp / SP": "3 983 / 398",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Strong P. Def. Lv. 14 Strong M. Def. Lv. 14 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 43"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20832",
-      "type": "npc",
-      "id": 20832,
-      "name": "Lu4",
-      "url": "/lu4/npc/20832-zakens-pikeman"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
-      "key": "location:124",
-      "type": "location",
-      "id": 124,
-      "name": "Тоннель Пиратов",
-      "url": "/lu4/location/124-tonnel-piratov"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:1865",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:39298",
+      "key": "item:1870",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5159",
-      "type": "item",
-      "id": 5159,
-      "name": "Recipe: Spiritshot (C) Compressed Package (100%) NG",
-      "url": "/lu4/item/5159-recipe-spiritshot-c-compressed-package-100"
-    },
-    {
-      "key": "item:4914",
-      "type": "item",
-      "id": 4914,
-      "name": "Spellbook: Serenade of Eva NG",
-      "url": "/lu4/item/4914-spellbook-serenade-of-eva"
-    },
-    {
-      "key": "item:4200",
-      "type": "item",
-      "id": 4200,
-      "name": "Spellbook: Restore Life NG",
-      "url": "/lu4/item/4200-spellbook-restore-life"
-    },
-    {
-      "key": "item:3108",
-      "type": "item",
-      "id": 3108,
-      "name": "Amulet: Seal of Mirage NG",
-      "url": "/lu4/item/3108-amulet-seal-of-mirage"
-    },
-    {
-      "key": "item:3107",
-      "type": "item",
-      "id": 3107,
-      "name": "Amulet: Seal of Gloom NG",
-      "url": "/lu4/item/3107-amulet-seal-of-gloom"
-    },
-    {
-      "key": "item:2944",
-      "type": "item",
-      "id": 2944,
-      "name": "Karmian Gloves Fabric NG",
-      "url": "/lu4/item/2944-karmian-gloves-fabric"
-    },
-    {
-      "key": "item:2454",
-      "type": "item",
-      "id": 2454,
-      "name": "Karmian Gloves C",
-      "url": "/lu4/item/2454-karmian-gloves"
-    },
-    {
-      "key": "item:2070",
-      "type": "item",
-      "id": 2070,
-      "name": "Cursed Dagger Blade NG",
-      "url": "/lu4/item/2070-cursed-dagger-blade"
-    },
-    {
-      "key": "item:2066",
-      "type": "item",
-      "id": 2066,
-      "name": "Heavy Doom Hammer Head NG",
-      "url": "/lu4/item/2066-heavy-doom-hammer-head"
-    },
-    {
-      "key": "item:1954",
-      "type": "item",
-      "id": 1954,
-      "name": "Karmian Stocking Design NG",
-      "url": "/lu4/item/1954-karmian-stocking-design"
-    },
-    {
-      "key": "item:1908",
-      "type": "item",
-      "id": 1908,
-      "name": "Moonstone Earring Wire NG",
-      "url": "/lu4/item/1908-moonstone-earring-wire"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
     },
     {
       "key": "item:1875",
@@ -229,11 +107,123 @@
       "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:1870",
+      "key": "item:1879",
       "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
+    },
+    {
+      "key": "item:5159",
+      "type": "item",
+      "id": 5159,
+      "name": "Recipe: Spiritshot (C) Compressed Package (100%) NG",
+      "url": "/lu4/item/5159-recipe-spiritshot-c-compressed-package-100"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:226",
+      "type": "item",
+      "id": 226,
+      "name": "Cursed Dagger C",
+      "url": "/lu4/item/226-cursed-dagger"
+    },
+    {
+      "key": "item:2070",
+      "type": "item",
+      "id": 2070,
+      "name": "Cursed Dagger Blade NG",
+      "url": "/lu4/item/2070-cursed-dagger-blade"
+    },
+    {
+      "key": "item:191",
+      "type": "item",
+      "id": 191,
+      "name": "Heavy Doom Hammer C",
+      "url": "/lu4/item/191-heavy-doom-hammer"
+    },
+    {
+      "key": "item:2066",
+      "type": "item",
+      "id": 2066,
+      "name": "Heavy Doom Hammer Head NG",
+      "url": "/lu4/item/2066-heavy-doom-hammer-head"
+    },
+    {
+      "key": "item:2454",
+      "type": "item",
+      "id": 2454,
+      "name": "Karmian Gloves C",
+      "url": "/lu4/item/2454-karmian-gloves"
+    },
+    {
+      "key": "item:2944",
+      "type": "item",
+      "id": 2944,
+      "name": "Karmian Gloves Fabric NG",
+      "url": "/lu4/item/2944-karmian-gloves-fabric"
+    },
+    {
+      "key": "item:471",
+      "type": "item",
+      "id": 471,
+      "name": "Karmian Stockings C",
+      "url": "/lu4/item/471-karmian-stockings"
+    },
+    {
+      "key": "item:1954",
+      "type": "item",
+      "id": 1954,
+      "name": "Karmian Stocking Design NG",
+      "url": "/lu4/item/1954-karmian-stocking-design"
+    },
+    {
+      "key": "item:852",
+      "type": "item",
+      "id": 852,
+      "name": "Moonstone Earring C",
+      "url": "/lu4/item/852-moonstone-earring"
+    },
+    {
+      "key": "item:1908",
+      "type": "item",
+      "id": 1908,
+      "name": "Moonstone Earring Wire NG",
+      "url": "/lu4/item/1908-moonstone-earring-wire"
+    },
+    {
+      "key": "item:4200",
+      "type": "item",
+      "id": 4200,
+      "name": "Spellbook: Restore Life NG",
+      "url": "/lu4/item/4200-spellbook-restore-life"
+    },
+    {
+      "key": "item:3107",
+      "type": "item",
+      "id": 3107,
+      "name": "Amulet: Seal of Gloom NG",
+      "url": "/lu4/item/3107-amulet-seal-of-gloom"
+    },
+    {
+      "key": "item:3108",
+      "type": "item",
+      "id": 3108,
+      "name": "Amulet: Seal of Mirage NG",
+      "url": "/lu4/item/3108-amulet-seal-of-mirage"
+    },
+    {
+      "key": "item:1825",
+      "type": "item",
+      "id": 1825,
+      "name": "Recipe: Oriharukon NG",
+      "url": "/lu4/item/1825-recipe-oriharukon"
     },
     {
       "key": "item:5231",
@@ -262,13 +252,6 @@
       "id": 1959,
       "name": "Chain Mail Shirt Material NG",
       "url": "/lu4/item/1959-chain-mail-shirt-material"
-    },
-    {
-      "key": "item:1825",
-      "type": "item",
-      "id": 1825,
-      "name": "Recipe: Oriharukon NG",
-      "url": "/lu4/item/1825-recipe-oriharukon"
     }
   ]
 }

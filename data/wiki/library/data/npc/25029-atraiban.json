@@ -2,105 +2,51 @@
   "key": "npc:25029",
   "type": "npc",
   "id": 25029,
-  "name": "Lu4 Wiki: NPC Atraiban",
+  "name": "Atraiban",
   "url": "/lu4/npc/25029-atraiban",
-  "source_url": "https://masterwork.wiki/lu4/npc/25029-atraiban",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25029-atraiban",
   "raw_html": "library/raw/lu4/npc/25029-atraiban.html",
   "stats": {
-    "Location": "Остров Дьявола"
+    "HP / MP": "620 050 / 4 242",
+    "P. Atk. / M. Atk.": "4 911 / 5 801",
+    "P. Def. / M. Def.": "964 / 988",
+    "Accuracy / Evasion": "104 / 104",
+    "Exp / SP": "2 528 100 / 461 913",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A powerful, mutant Monster Eye. Some scholars believe it has achieved the final stage of Monster Eye evolution. It is incredibly intelligent and arrogant. Years ago it ran away from Argos, the father of all Monster Eyes, to the south. It thinks and schemes, and plots to steal Argos' power someday. It believes that it grows stronger by eating the brains of other intelligent living beings, and so it feeds often. Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 53"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25029",
-      "type": "npc",
-      "id": 25029,
-      "name": "Lu4",
-      "url": "/lu4/npc/25029-atraiban"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4800",
       "type": "skill",
       "id": 4800,
-      "name": "Raid Boss Lv. 1 A powerful, mutant Monster Eye. Some scholars believe it has achieved the final stage of Monster Eye evolution. It is incredibly intelligent and arrogant. Years ago it ran away from Argos, the father of all Monster Eyes, to the south. It thinks and schemes, and plots to steal Argos' power someday. It believes that it grows stronger by eating the brains of other intelligent living beings, and so it feeds often.",
-      "url": "/lu4/skill/4800-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4800-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:32595",
-      "type": "item",
-      "id": 32595,
-      "name": "Unidentified Zubei's Helmet B",
-      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
-    },
-    {
-      "key": "item:32593",
-      "type": "item",
-      "id": 32593,
-      "name": "Unidentified Zubei's Shield B",
-      "url": "/lu4/item/32593-unidentified-zubeis-shield"
-    },
-    {
-      "key": "item:32591",
-      "type": "item",
-      "id": 32591,
-      "name": "Unidentified Avadon Shield B",
-      "url": "/lu4/item/32591-unidentified-avadon-shield"
-    },
-    {
-      "key": "item:32364",
-      "type": "item",
-      "id": 32364,
-      "name": "Unidentified Avadon Circlet B",
-      "url": "/lu4/item/32364-unidentified-avadon-circlet"
-    },
-    {
-      "key": "item:32344",
-      "type": "item",
-      "id": 32344,
-      "name": "Unidentified Dark Elven Long Bow B",
-      "url": "/lu4/item/32344-unidentified-dark-elven-long-bow"
-    },
-    {
-      "key": "item:32339",
-      "type": "item",
-      "id": 32339,
-      "name": "Unidentified Hell Knife B",
-      "url": "/lu4/item/32339-unidentified-hell-knife"
-    },
-    {
-      "key": "item:32335",
-      "type": "item",
-      "id": 32335,
-      "name": "Unidentified Kris B",
-      "url": "/lu4/item/32335-unidentified-kris"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -110,53 +56,25 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6574",
+      "key": "item:32335",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+      "id": 32335,
+      "name": "Unidentified Kris B",
+      "url": "/lu4/item/32335-unidentified-kris"
     },
     {
-      "key": "item:6573",
+      "key": "item:32339",
       "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+      "id": 32339,
+      "name": "Unidentified Hell Knife B",
+      "url": "/lu4/item/32339-unidentified-hell-knife"
     },
     {
-      "key": "item:6572",
+      "key": "item:32344",
       "type": "item",
-      "id": 6572,
-      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
-    },
-    {
-      "key": "item:4439",
-      "type": "item",
-      "id": 4439,
-      "name": "Avadon Shield Fragment NG",
-      "url": "/lu4/item/4439-avadon-shield-fragment"
-    },
-    {
-      "key": "item:4112",
-      "type": "item",
-      "id": 4112,
-      "name": "Dark Elven Longbow Shaft NG",
-      "url": "/lu4/item/4112-dark-elven-longbow-shaft"
-    },
-    {
-      "key": "item:4110",
-      "type": "item",
-      "id": 4110,
-      "name": "Hell Knife Edge NG",
-      "url": "/lu4/item/4110-hell-knife-edge"
+      "id": 32344,
+      "name": "Unidentified Dark Elven Long Bow B",
+      "url": "/lu4/item/32344-unidentified-dark-elven-long-bow"
     },
     {
       "key": "item:4109",
@@ -166,18 +84,46 @@
       "url": "/lu4/item/4109-kris-edge"
     },
     {
-      "key": "item:4102",
+      "key": "item:4110",
       "type": "item",
-      "id": 4102,
-      "name": "Zubei's Helmet Design NG",
-      "url": "/lu4/item/4102-zubeis-helmet-design"
+      "id": 4110,
+      "name": "Hell Knife Edge NG",
+      "url": "/lu4/item/4110-hell-knife-edge"
     },
     {
-      "key": "item:4101",
+      "key": "item:4112",
       "type": "item",
-      "id": 4101,
-      "name": "Zubei's Shield Fragment NG",
-      "url": "/lu4/item/4101-zubeis-shield-fragment"
+      "id": 4112,
+      "name": "Dark Elven Longbow Shaft NG",
+      "url": "/lu4/item/4112-dark-elven-longbow-shaft"
+    },
+    {
+      "key": "item:32364",
+      "type": "item",
+      "id": 32364,
+      "name": "Unidentified Avadon Circlet B",
+      "url": "/lu4/item/32364-unidentified-avadon-circlet"
+    },
+    {
+      "key": "item:32595",
+      "type": "item",
+      "id": 32595,
+      "name": "Unidentified Zubei's Helmet B",
+      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
+    },
+    {
+      "key": "item:32591",
+      "type": "item",
+      "id": 32591,
+      "name": "Unidentified Avadon Shield B",
+      "url": "/lu4/item/32591-unidentified-avadon-shield"
+    },
+    {
+      "key": "item:32593",
+      "type": "item",
+      "id": 32593,
+      "name": "Unidentified Zubei's Shield B",
+      "url": "/lu4/item/32593-unidentified-zubeis-shield"
     },
     {
       "key": "item:4072",
@@ -187,11 +133,60 @@
       "url": "/lu4/item/4072-avadon-circlet-pattern"
     },
     {
+      "key": "item:4102",
+      "type": "item",
+      "id": 4102,
+      "name": "Zubei's Helmet Design NG",
+      "url": "/lu4/item/4102-zubeis-helmet-design"
+    },
+    {
+      "key": "item:4439",
+      "type": "item",
+      "id": 4439,
+      "name": "Avadon Shield Fragment NG",
+      "url": "/lu4/item/4439-avadon-shield-fragment"
+    },
+    {
+      "key": "item:4101",
+      "type": "item",
+      "id": 4101,
+      "name": "Zubei's Shield Fragment NG",
+      "url": "/lu4/item/4101-zubeis-shield-fragment"
+    },
+    {
       "key": "item:952",
       "type": "item",
       "id": 952,
       "name": "Scroll: Enchant Armor (C-Grade) NG",
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:948",
+      "type": "item",
+      "id": 948,
+      "name": "Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
       "key": "npc:25030",

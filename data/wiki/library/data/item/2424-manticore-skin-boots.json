@@ -2,24 +2,23 @@
   "key": "item:2424",
   "type": "item",
   "id": 2424,
-  "name": "Lu4 Wiki: Item Manticore Skin Boots",
+  "name": "Manticore Skin Boots",
   "url": "/lu4/item/2424-manticore-skin-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/2424-manticore-skin-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2424-manticore-skin-boots",
   "raw_html": "library/raw/lu4/item/2424-manticore-skin-boots.html",
   "stats": {
+    "P. Def.": "27",
+    "Crystal Amount": "106 Crystallization Failed Enchant +0 106 - +1 117 - +2 128 - +3 139 - +4 172 119 +5 205 152 +6 238 185 +7 271 218 +8 304 251",
+    "NPC Sell Price": "28 700 Adena",
+    "Weight": "1260",
     "Set Part": "Manticore Skin Shirt D",
     "Recipes": "Recipe: Manticore Skin Boots NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Armor / None / Boots"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2424",
-      "type": "item",
-      "id": 2424,
-      "name": "Lu4",
-      "url": "/lu4/item/2424-manticore-skin-boots"
-    },
     {
       "key": "set:6",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:501",
       "type": "set",
       "id": 501,
-      "name": "",
+      "name": "set:501",
       "url": "/lu4/set/501"
     },
     {
@@ -42,11 +41,25 @@
       "url": "/lu4/item/2976-recipe-manticore-skin-boots"
     },
     {
+      "key": "npc:25501",
+      "type": "npc",
+      "id": 25501,
+      "name": "Boss Akata",
+      "url": "/lu4/npc/25501-boss-akata"
+    },
+    {
       "key": "npc:25169",
       "type": "npc",
       "id": 25169,
-      "name": "Ragraman Lv. 30",
+      "name": "Ragraman",
       "url": "/lu4/npc/25169-ragraman"
+    },
+    {
+      "key": "npc:25079",
+      "type": "npc",
+      "id": 25079,
+      "name": "Cat's Eye Bandit",
+      "url": "/lu4/npc/25079-cats-eye-bandit"
     },
     {
       "key": "npc:24256",
@@ -66,49 +79,49 @@
       "key": "npc:21807",
       "type": "npc",
       "id": 21807,
-      "name": "Treasure Chest Lv. 39",
+      "name": "Treasure Chest",
       "url": "/lu4/npc/21807-treasure-chest"
     },
     {
       "key": "npc:21687",
       "type": "npc",
       "id": 21687,
-      "name": "Dimension Invader Priest Lv. 40",
+      "name": "Dimension Invader Priest",
       "url": "/lu4/npc/21687-dimension-invader-priest"
     },
     {
       "key": "npc:20546",
       "type": "npc",
       "id": 20546,
-      "name": "Turek Orc Elder Lv. 32",
+      "name": "Turek Orc Elder",
       "url": "/lu4/npc/20546-turek-orc-elder"
     },
     {
       "key": "npc:20202",
       "type": "npc",
       "id": 20202,
-      "name": "Dead Seeker Lv. 34",
+      "name": "Dead Seeker",
       "url": "/lu4/npc/20202-dead-seeker"
     },
     {
       "key": "npc:20158",
       "type": "npc",
       "id": 20158,
-      "name": "Medusa Lv. 34",
+      "name": "Medusa",
       "url": "/lu4/npc/20158-medusa"
     },
     {
       "key": "npc:20084",
       "type": "npc",
       "id": 20084,
-      "name": "Ant Patrol Lv. 34",
+      "name": "Ant Patrol",
       "url": "/lu4/npc/20084-ant-patrol"
     },
     {
       "key": "npc:20078",
       "type": "npc",
       "id": 20078,
-      "name": "Whispering Wind Lv. 33",
+      "name": "Whispering Wind",
       "url": "/lu4/npc/20078-whispering-wind"
     }
   ]

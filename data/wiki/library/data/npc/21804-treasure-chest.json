@@ -2,61 +2,30 @@
   "key": "npc:21804",
   "type": "npc",
   "id": 21804,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21804-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21804-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21804-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21804-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "954 / 405",
+    "P. Atk. / M. Atk.": "132 / 64",
+    "P. Def. / M. Def.": "146 / 114",
+    "Accuracy / Evasion": "63 / 63",
+    "Exp / SP": "1 080 / 59",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 30"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21804",
-      "type": "npc",
-      "id": 21804,
-      "name": "Lu4",
-      "url": "/lu4/npc/21804-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:2250",
-      "type": "item",
-      "id": 2250,
-      "name": "Recipe: Bone Arrow NG",
-      "url": "/lu4/item/2250-recipe-bone-arrow"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:627",
-      "type": "item",
-      "id": 627,
-      "name": "Aspis D",
-      "url": "/lu4/item/627-aspis"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:57",
@@ -73,11 +42,39 @@
       "url": "/lu4/item/46-bronze-helmet"
     },
     {
-      "key": "item:1900",
+      "key": "item:627",
       "type": "item",
-      "id": 1900,
-      "name": "Enchanted Necklace Chain NG",
-      "url": "/lu4/item/1900-enchanted-necklace-chain"
+      "id": 627,
+      "name": "Aspis D",
+      "url": "/lu4/item/627-aspis"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:2250",
+      "type": "item",
+      "id": 2250,
+      "name": "Recipe: Bone Arrow NG",
+      "url": "/lu4/item/2250-recipe-bone-arrow"
     },
     {
       "key": "item:1061",
@@ -85,6 +82,13 @@
       "id": 1061,
       "name": "Healing Potion NG",
       "url": "/lu4/item/1061-healing-potion"
+    },
+    {
+      "key": "item:1900",
+      "type": "item",
+      "id": 1900,
+      "name": "Enchanted Necklace Chain NG",
+      "url": "/lu4/item/1900-enchanted-necklace-chain"
     }
   ]
 }

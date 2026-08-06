@@ -2,182 +2,74 @@
   "key": "npc:20773",
   "type": "npc",
   "id": 20773,
-  "name": "Lu4 Wiki: NPC Conjurer Bat Lord",
+  "name": "Conjurer Bat Lord",
   "url": "/lu4/npc/20773-conjurer-bat-lord",
-  "source_url": "https://masterwork.wiki/lu4/npc/20773-conjurer-bat-lord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20773-conjurer-bat-lord",
   "raw_html": "library/raw/lu4/npc/20773-conjurer-bat-lord.html",
   "stats": {
-    "Location": "Земли Адена (+2) Земли Адена Раскаленные Топи Поле Брани"
+    "Respawn Time": "50 seconds ± 15 seconds",
+    "Location": "Земли Адена (+2) Земли Адена Раскаленные Топи Поле Брани",
+    "HP / MP": "8 545 / 1 565",
+    "P. Atk. / M. Atk.": "1 983 / 940",
+    "P. Def. / M. Def.": "607 / 459",
+    "Accuracy / Evasion": "103 / 107",
+    "Exp / SP": "11 644 / 1 164",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind -5, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Def. Lv. 12 Slightly Strong P. Def. Lv. 12 Evasion Lv. 1 Increases P. Evasion by 4.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20773",
-      "type": "npc",
-      "id": 20773,
-      "name": "Lu4",
-      "url": "/lu4/npc/20773-conjurer-bat-lord"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
-      "key": "location:95",
-      "type": "location",
-      "id": 95,
-      "name": "Раскаленные Топи",
-      "url": "/lu4/location/95-raskalennye-topi"
-    },
-    {
-      "key": "location:188",
-      "type": "location",
-      "id": 188,
-      "name": "Поле Брани",
-      "url": "/lu4/location/188-pole-brani"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4093",
       "type": "skill",
       "id": 4093,
-      "name": "Evasion Lv. 1 Increases P. Evasion by 4.",
-      "url": "/lu4/skill/4093-evasion/1"
+      "name": "Evasion",
+      "url": "/lu4/skill/4093-evasion"
     },
     {
-      "key": "item:39358",
+      "key": "item:57",
       "type": "item",
-      "id": 39358,
-      "name": "Spellbook: Arcane Wisdom NG",
-      "url": "/lu4/item/39358-spellbook-arcane-wisdom"
-    },
-    {
-      "key": "item:39357",
-      "type": "item",
-      "id": 39357,
-      "name": "Spellbook: Arcane Power NG",
-      "url": "/lu4/item/39357-spellbook-arcane-power"
-    },
-    {
-      "key": "item:32384",
-      "type": "item",
-      "id": 32384,
-      "name": "Unidentified Sealed Dark Crystal Robe A",
-      "url": "/lu4/item/32384-unidentified-sealed-dark-crystal-robe"
-    },
-    {
-      "key": "item:32377",
-      "type": "item",
-      "id": 32377,
-      "name": "Unidentified Sealed Tallum Gloves A",
-      "url": "/lu4/item/32377-unidentified-sealed-tallum-gloves"
-    },
-    {
-      "key": "item:32370",
-      "type": "item",
-      "id": 32370,
-      "name": "Unidentified Sealed Dark Crystal Gaiters A",
-      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
-    },
-    {
-      "key": "item:8314",
-      "type": "item",
-      "id": 8314,
-      "name": "Recipe: Spiritual Eye (60%) NG",
-      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
-    },
-    {
-      "key": "item:7673",
-      "type": "item",
-      "id": 7673,
-      "name": "Amulet: Chant of Victory NG",
-      "url": "/lu4/item/7673-amulet-chant-of-victory"
-    },
-    {
-      "key": "item:7645",
-      "type": "item",
-      "id": 7645,
-      "name": "Spellbook: Balance Life NG",
-      "url": "/lu4/item/7645-spellbook-balance-life"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:5524",
-      "type": "item",
-      "id": 5524,
-      "name": "Sealed Dark Crystal Gaiters Pattern NG",
-      "url": "/lu4/item/5524-sealed-dark-crystal-gaiters-pattern"
-    },
-    {
-      "key": "item:5509",
-      "type": "item",
-      "id": 5509,
-      "name": "Sealed Tallum Gloves Design NG",
-      "url": "/lu4/item/5509-sealed-tallum-gloves-design"
-    },
-    {
-      "key": "item:5486",
-      "type": "item",
-      "id": 5486,
-      "name": "Sealed Dark Crystal Robe Fabric NG",
-      "url": "/lu4/item/5486-sealed-dark-crystal-robe-fabric"
-    },
-    {
-      "key": "item:5468",
-      "type": "item",
-      "id": 5468,
-      "name": "Recipe: Elemental Sword(60%) NG",
-      "url": "/lu4/item/5468-recipe-elemental-sword60"
-    },
-    {
-      "key": "item:5392",
-      "type": "item",
-      "id": 5392,
-      "name": "Recipe: Sealed Dark Crystal Gloves(60%) NG",
-      "url": "/lu4/item/5392-recipe-sealed-dark-crystal-gloves60"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4044",
@@ -215,18 +107,123 @@
       "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:5549",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     },
     {
-      "key": "item:5548",
+      "key": "item:32370",
       "type": "item",
-      "id": 5548,
-      "name": "Tallum Blade Edge NG",
-      "url": "/lu4/item/5548-tallum-blade-edge"
+      "id": 32370,
+      "name": "Unidentified Sealed Dark Crystal Gaiters A",
+      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
+    },
+    {
+      "key": "item:5524",
+      "type": "item",
+      "id": 5524,
+      "name": "Sealed Dark Crystal Gaiters Pattern NG",
+      "url": "/lu4/item/5524-sealed-dark-crystal-gaiters-pattern"
+    },
+    {
+      "key": "item:32384",
+      "type": "item",
+      "id": 32384,
+      "name": "Unidentified Sealed Dark Crystal Robe A",
+      "url": "/lu4/item/32384-unidentified-sealed-dark-crystal-robe"
+    },
+    {
+      "key": "item:5486",
+      "type": "item",
+      "id": 5486,
+      "name": "Sealed Dark Crystal Robe Fabric NG",
+      "url": "/lu4/item/5486-sealed-dark-crystal-robe-fabric"
+    },
+    {
+      "key": "item:32377",
+      "type": "item",
+      "id": 32377,
+      "name": "Unidentified Sealed Tallum Gloves A",
+      "url": "/lu4/item/32377-unidentified-sealed-tallum-gloves"
+    },
+    {
+      "key": "item:5509",
+      "type": "item",
+      "id": 5509,
+      "name": "Sealed Tallum Gloves Design NG",
+      "url": "/lu4/item/5509-sealed-tallum-gloves-design"
+    },
+    {
+      "key": "item:5468",
+      "type": "item",
+      "id": 5468,
+      "name": "Recipe: Elemental Sword(60%) NG",
+      "url": "/lu4/item/5468-recipe-elemental-sword60"
+    },
+    {
+      "key": "item:8314",
+      "type": "item",
+      "id": 8314,
+      "name": "Recipe: Spiritual Eye (60%) NG",
+      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
+    },
+    {
+      "key": "item:5392",
+      "type": "item",
+      "id": 5392,
+      "name": "Recipe: Sealed Dark Crystal Gloves(60%) NG",
+      "url": "/lu4/item/5392-recipe-sealed-dark-crystal-gloves60"
+    },
+    {
+      "key": "item:39357",
+      "type": "item",
+      "id": 39357,
+      "name": "Spellbook: Arcane Power NG",
+      "url": "/lu4/item/39357-spellbook-arcane-power"
+    },
+    {
+      "key": "item:39358",
+      "type": "item",
+      "id": 39358,
+      "name": "Spellbook: Arcane Wisdom NG",
+      "url": "/lu4/item/39358-spellbook-arcane-wisdom"
+    },
+    {
+      "key": "item:7645",
+      "type": "item",
+      "id": 7645,
+      "name": "Spellbook: Balance Life NG",
+      "url": "/lu4/item/7645-spellbook-balance-life"
+    },
+    {
+      "key": "item:7673",
+      "type": "item",
+      "id": 7673,
+      "name": "Amulet: Chant of Victory NG",
+      "url": "/lu4/item/7673-amulet-chant-of-victory"
+    },
+    {
+      "key": "item:3956",
+      "type": "item",
+      "id": 3956,
+      "name": "Recipe: Blessed Spiritshot A NG",
+      "url": "/lu4/item/3956-recipe-blessed-spiritshot-a"
+    },
+    {
+      "key": "item:5340",
+      "type": "item",
+      "id": 5340,
+      "name": "Recipe: Sealed Dark Crystal Leggings(60%) NG",
+      "url": "/lu4/item/5340-recipe-sealed-dark-crystal-leggings60"
+    },
+    {
+      "key": "item:5470",
+      "type": "item",
+      "id": 5470,
+      "name": "Recipe: Tallum Blade(60%) NG",
+      "url": "/lu4/item/5470-recipe-tallum-blade60"
     },
     {
       "key": "item:5547",
@@ -243,25 +240,11 @@
       "url": "/lu4/item/5532-meteor-shower-head"
     },
     {
-      "key": "item:5470",
+      "key": "item:5548",
       "type": "item",
-      "id": 5470,
-      "name": "Recipe: Tallum Blade(60%) NG",
-      "url": "/lu4/item/5470-recipe-tallum-blade60"
-    },
-    {
-      "key": "item:5340",
-      "type": "item",
-      "id": 5340,
-      "name": "Recipe: Sealed Dark Crystal Leggings(60%) NG",
-      "url": "/lu4/item/5340-recipe-sealed-dark-crystal-leggings60"
-    },
-    {
-      "key": "item:3956",
-      "type": "item",
-      "id": 3956,
-      "name": "Recipe: Blessed Spiritshot A NG",
-      "url": "/lu4/item/3956-recipe-blessed-spiritshot-a"
+      "id": 5548,
+      "name": "Tallum Blade Edge NG",
+      "url": "/lu4/item/5548-tallum-blade-edge"
     },
     {
       "key": "npc:20774",

@@ -2,24 +2,23 @@
   "key": "item:419",
   "type": "item",
   "id": 419,
-  "name": "Lu4 Wiki: Item Rind Leather Gaiters",
+  "name": "Rind Leather Gaiters",
   "url": "/lu4/item/419-rind-leather-gaiters",
-  "source_url": "https://masterwork.wiki/lu4/item/419-rind-leather-gaiters",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/419-rind-leather-gaiters",
   "raw_html": "library/raw/lu4/item/419-rind-leather-gaiters.html",
   "stats": {
+    "P. Def.": "60",
+    "Crystal Amount": "93 Crystallization Failed Enchant +0 93 - +1 99 - +2 105 - +3 111 - +4 129 82 +5 147 100 +6 165 118 +7 183 136 +8 201 154",
+    "NPC Sell Price": "116 150 Adena",
+    "Weight": "1550",
     "Set Part": "Rind Leather Armor C",
     "Recipes": "Recipe: Rind Leather Gaiters NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / Light / Lower Body"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:419",
-      "type": "item",
-      "id": 419,
-      "name": "Lu4",
-      "url": "/lu4/item/419-rind-leather-gaiters"
-    },
     {
       "key": "set:840",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:843",
       "type": "set",
       "id": 843,
-      "name": "",
+      "name": "set:843",
       "url": "/lu4/set/843"
     },
     {
@@ -42,52 +41,59 @@
       "url": "/lu4/item/2221-recipe-rind-leather-gaiters"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25007",
       "type": "npc",
       "id": 25007,
-      "name": "Retreat Spider Cletu Lv. 42",
+      "name": "Retreat Spider Cletu",
       "url": "/lu4/npc/25007-retreat-spider-cletu"
     },
     {
       "key": "npc:21243",
       "type": "npc",
       "id": 21243,
-      "name": "Grave Priest Lv. 47",
+      "name": "Grave Priest",
       "url": "/lu4/npc/21243-grave-priest"
     },
     {
       "key": "npc:20993",
       "type": "npc",
       "id": 20993,
-      "name": "Swamp Warrior Lv. 44",
+      "name": "Swamp Warrior",
       "url": "/lu4/npc/20993-swamp-warrior"
     },
     {
       "key": "npc:20634",
       "type": "npc",
       "id": 20634,
-      "name": "Taik Orc Captain Lv. 44",
+      "name": "Taik Orc Captain",
       "url": "/lu4/npc/20634-taik-orc-captain"
     },
     {
       "key": "npc:20219",
       "type": "npc",
       "id": 20219,
-      "name": "Validus Lv. 46",
+      "name": "Validus",
       "url": "/lu4/npc/20219-validus"
     },
     {
       "key": "npc:5009",
       "type": "npc",
       "id": 5009,
-      "name": "Hollow Reaver Lv. 47",
+      "name": "Hollow Reaver",
       "url": "/lu4/npc/5009-hollow-reaver"
     },
     {
       "key": "npc:5007",
       "type": "npc",
       "id": 5007,
-      "name": "Standardless Bulwark Lv. 45",
+      "name": "Standardless Bulwark",
       "url": "/lu4/npc/5007-standardless-bulwark"
     }
   ]

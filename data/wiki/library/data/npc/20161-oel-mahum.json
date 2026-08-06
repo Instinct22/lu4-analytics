@@ -2,77 +2,46 @@
   "key": "npc:20161",
   "type": "npc",
   "id": 20161,
-  "name": "Lu4 Wiki: NPC Oel Mahum",
+  "name": "Oel Mahum",
   "url": "/lu4/npc/20161-oel-mahum",
-  "source_url": "https://masterwork.wiki/lu4/npc/20161-oel-mahum",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20161-oel-mahum",
   "raw_html": "library/raw/lu4/npc/20161-oel-mahum.html",
   "stats": {
-    "Location": "Лес Разбойников"
+    "Respawn Time": "35 seconds",
+    "Location": "Лес Разбойников",
+    "HP / MP": "4 977 / 1 025",
+    "P. Atk. / M. Atk.": "615 / 323",
+    "P. Def. / M. Def.": "291 / 248",
+    "Accuracy / Evasion": "89 / 88",
+    "Exp / SP": "5 258 / 526",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 53"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20161",
-      "type": "npc",
-      "id": 20161,
-      "name": "Lu4",
-      "url": "/lu4/npc/20161-oel-mahum"
-    },
-    {
-      "key": "location:233",
-      "type": "location",
-      "id": 233,
-      "name": "Лес Разбойников",
-      "url": "/lu4/location/233-les-razbojnikov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:8318",
-      "type": "item",
-      "id": 8318,
-      "name": "Recipe: Dwarven Hammer (100%) NG",
-      "url": "/lu4/item/8318-recipe-dwarven-hammer-100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5280",
@@ -110,18 +79,46 @@
       "url": "/lu4/item/3955-recipe-blessed-spiritshot-b"
     },
     {
-      "key": "item:3016",
+      "key": "item:1894",
       "type": "item",
-      "id": 3016,
-      "name": "Recipe: Full Plate Gauntlets NG",
-      "url": "/lu4/item/3016-recipe-full-plate-gauntlets"
+      "id": 1894,
+      "name": "Crafted Leather NG",
+      "url": "/lu4/item/1894-crafted-leather"
     },
     {
-      "key": "item:2959",
+      "key": "item:1882",
       "type": "item",
-      "id": 2959,
-      "name": "Full Plate Helmet Design NG",
-      "url": "/lu4/item/2959-full-plate-helmet-design"
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:603",
+      "type": "item",
+      "id": 603,
+      "name": "Divine Boots C",
+      "url": "/lu4/item/603-divine-boots"
     },
     {
       "key": "item:2958",
@@ -138,18 +135,18 @@
       "url": "/lu4/item/2414-full-plate-helmet"
     },
     {
-      "key": "item:2232",
+      "key": "item:2959",
       "type": "item",
-      "id": 2232,
-      "name": "Recipe: Drake Leather Armor NG",
-      "url": "/lu4/item/2232-recipe-drake-leather-armor"
+      "id": 2959,
+      "name": "Full Plate Helmet Design NG",
+      "url": "/lu4/item/2959-full-plate-helmet-design"
     },
     {
-      "key": "item:2122",
+      "key": "item:266",
       "type": "item",
-      "id": 2122,
-      "name": "Orcish Poleaxe Blade NG",
-      "url": "/lu4/item/2122-orcish-poleaxe-blade"
+      "id": 266,
+      "name": "Great Pata C",
+      "url": "/lu4/item/266-great-pata"
     },
     {
       "key": "item:2120",
@@ -159,46 +156,25 @@
       "url": "/lu4/item/2120-great-pata-blade"
     },
     {
-      "key": "item:1920",
+      "key": "item:299",
       "type": "item",
-      "id": 1920,
-      "name": "Necklace of Seal Chain NG",
-      "url": "/lu4/item/1920-necklace-of-seal-chain"
+      "id": 299,
+      "name": "Orcish Poleaxe C",
+      "url": "/lu4/item/299-orcish-poleaxe"
     },
     {
-      "key": "item:1894",
+      "key": "item:2122",
       "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "url": "/lu4/item/1894-crafted-leather"
+      "id": 2122,
+      "name": "Orcish Poleaxe Blade NG",
+      "url": "/lu4/item/2122-orcish-poleaxe-blade"
     },
     {
-      "key": "item:1882",
+      "key": "item:119",
       "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:2961",
-      "type": "item",
-      "id": 2961,
-      "name": "Full Plate Boots Part NG",
-      "url": "/lu4/item/2961-full-plate-boots-part"
-    },
-    {
-      "key": "item:2960",
-      "type": "item",
-      "id": 2960,
-      "name": "Drake Leather Boots Design NG",
-      "url": "/lu4/item/2960-drake-leather-boots-design"
-    },
-    {
-      "key": "item:2353",
-      "type": "item",
-      "id": 2353,
-      "name": "Recipe: Samurai Longsword NG",
-      "url": "/lu4/item/2353-recipe-samurai-longsword"
+      "id": 119,
+      "name": "Necklace of Seal C",
+      "url": "/lu4/item/119-necklace-of-seal"
     },
     {
       "key": "item:2350",
@@ -208,6 +184,13 @@
       "url": "/lu4/item/2350-recipe-paagrian-axe"
     },
     {
+      "key": "item:2353",
+      "type": "item",
+      "id": 2353,
+      "name": "Recipe: Samurai Longsword NG",
+      "url": "/lu4/item/2353-recipe-samurai-longsword"
+    },
+    {
       "key": "item:2116",
       "type": "item",
       "id": 2116,
@@ -215,11 +198,18 @@
       "url": "/lu4/item/2116-deadmans-staff-head"
     },
     {
-      "key": "item:1872",
+      "key": "item:2960",
       "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
+      "id": 2960,
+      "name": "Drake Leather Boots Design NG",
+      "url": "/lu4/item/2960-drake-leather-boots-design"
+    },
+    {
+      "key": "item:2961",
+      "type": "item",
+      "id": 2961,
+      "name": "Full Plate Boots Part NG",
+      "url": "/lu4/item/2961-full-plate-boots-part"
     }
   ]
 }

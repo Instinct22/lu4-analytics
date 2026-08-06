@@ -2,96 +2,107 @@
   "key": "npc:21189",
   "type": "npc",
   "id": 21189,
-  "name": "Lu4 Wiki: NPC Gigant Overseer",
+  "name": "Gigant Overseer",
   "url": "/lu4/npc/21189-gigant-overseer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21189-gigant-overseer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21189-gigant-overseer",
   "raw_html": "library/raw/lu4/npc/21189-gigant-overseer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 255 / 353",
+    "P. Atk. / M. Atk.": "162 / 77",
+    "P. Def. / M. Def.": "100 / 102",
+    "Accuracy / Evasion": "70 / 60",
+    "Exp / SP": "3 420 / 172",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Slightly Weak M. Def. Lv. 9 Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks. Hold Resistance Lv. 3 Slightly resistant to Hold. Sleep Resistance Lv. 3 Slightly resistant to Sleep. Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 27"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21189",
-      "type": "npc",
-      "id": 21189,
-      "name": "Lu4",
-      "url": "/lu4/npc/21189-gigant-overseer"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4336",
       "type": "skill",
       "id": 4336,
-      "name": "Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks.",
-      "url": "/lu4/skill/4336-dark-attack-vulnerability/2"
+      "name": "Dark Attack Vulnerability",
+      "url": "/lu4/skill/4336-dark-attack-vulnerability"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/3"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
+    },
+    {
+      "key": "item:6360",
+      "type": "item",
+      "id": 6360,
+      "name": "Blue Seal Stone NG",
+      "url": "/lu4/item/6360-blue-seal-stone"
     },
     {
       "key": "item:6362",
@@ -101,11 +112,32 @@
       "url": "/lu4/item/6362-red-seal-stone"
     },
     {
-      "key": "item:6360",
+      "key": "item:847",
       "type": "item",
-      "id": 6360,
-      "name": "Blue Seal Stone NG",
-      "url": "/lu4/item/6360-blue-seal-stone"
+      "id": 847,
+      "name": "Red Crescent Earring D",
+      "url": "/lu4/item/847-red-crescent-earring"
+    },
+    {
+      "key": "item:890",
+      "type": "item",
+      "id": 890,
+      "name": "Ring of Devotion D",
+      "url": "/lu4/item/890-ring-of-devotion"
+    },
+    {
+      "key": "item:910",
+      "type": "item",
+      "id": 910,
+      "name": "Necklace of Devotion D",
+      "url": "/lu4/item/910-necklace-of-devotion"
+    },
+    {
+      "key": "item:1899",
+      "type": "item",
+      "id": 1899,
+      "name": "Necklace of Devotion Chain NG",
+      "url": "/lu4/item/1899-necklace-of-devotion-chain"
     },
     {
       "key": "item:5549",
@@ -120,13 +152,6 @@
       "id": 2262,
       "name": "Recipe: Elven Bow NG",
       "url": "/lu4/item/2262-recipe-elven-bow"
-    },
-    {
-      "key": "item:1899",
-      "type": "item",
-      "id": 1899,
-      "name": "Necklace of Devotion Chain NG",
-      "url": "/lu4/item/1899-necklace-of-devotion-chain"
     },
     {
       "key": "item:1889",
@@ -148,27 +173,6 @@
       "id": 1868,
       "name": "Thread NG",
       "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:910",
-      "type": "item",
-      "id": 910,
-      "name": "Necklace of Devotion D",
-      "url": "/lu4/item/910-necklace-of-devotion"
-    },
-    {
-      "key": "item:890",
-      "type": "item",
-      "id": 890,
-      "name": "Ring of Devotion D",
-      "url": "/lu4/item/890-ring-of-devotion"
-    },
-    {
-      "key": "item:847",
-      "type": "item",
-      "id": 847,
-      "name": "Red Crescent Earring D",
-      "url": "/lu4/item/847-red-crescent-earring"
     }
   ]
 }

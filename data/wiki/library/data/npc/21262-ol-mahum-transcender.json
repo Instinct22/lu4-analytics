@@ -2,84 +2,46 @@
   "key": "npc:21262",
   "type": "npc",
   "id": 21262,
-  "name": "Lu4 Wiki: NPC Ol Mahum Transcender",
+  "name": "Ol Mahum Transcender",
   "url": "/lu4/npc/21262-ol-mahum-transcender",
-  "source_url": "https://masterwork.wiki/lu4/npc/21262-ol-mahum-transcender",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21262-ol-mahum-transcender",
   "raw_html": "library/raw/lu4/npc/21262-ol-mahum-transcender.html",
   "stats": {
-    "Location": "Лес Разбойников"
+    "Respawn Time": "40 seconds",
+    "Location": "Лес Разбойников",
+    "HP / MP": "4 977 / 1 025",
+    "P. Atk. / M. Atk.": "615 / 323",
+    "P. Def. / M. Def.": "291 / 248",
+    "Accuracy / Evasion": "89 / 88",
+    "Exp / SP": "5 258 / 526",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 53"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21262",
-      "type": "npc",
-      "id": 21262,
-      "name": "Lu4",
-      "url": "/lu4/npc/21262-ol-mahum-transcender"
-    },
-    {
-      "key": "location:233",
-      "type": "location",
-      "id": 233,
-      "name": "Лес Разбойников",
-      "url": "/lu4/location/233-les-razbojnikov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:8344",
-      "type": "item",
-      "id": 8344,
-      "name": "Dwarven Hammer Piece NG",
-      "url": "/lu4/item/8344-dwarven-hammer-piece"
-    },
-    {
-      "key": "item:7897",
-      "type": "item",
-      "id": 7897,
-      "name": "Dwarven Hammer C",
-      "url": "/lu4/item/7897-dwarven-hammer"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -87,48 +49,6 @@
       "id": 4043,
       "name": "Asofe NG",
       "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:2962",
-      "type": "item",
-      "id": 2962,
-      "name": "Drake Leather Gloves Design NG",
-      "url": "/lu4/item/2962-drake-leather-gloves-design"
-    },
-    {
-      "key": "item:2461",
-      "type": "item",
-      "id": 2461,
-      "name": "Drake Leather Gloves C",
-      "url": "/lu4/item/2461-drake-leather-gloves"
-    },
-    {
-      "key": "item:2355",
-      "type": "item",
-      "id": 2355,
-      "name": "Recipe: Ghoul's Staff NG",
-      "url": "/lu4/item/2355-recipe-ghouls-staff"
-    },
-    {
-      "key": "item:2350",
-      "type": "item",
-      "id": 2350,
-      "name": "Recipe: Pa'agrian Axe NG",
-      "url": "/lu4/item/2350-recipe-paagrian-axe"
-    },
-    {
-      "key": "item:2231",
-      "type": "item",
-      "id": 2231,
-      "name": "Recipe: Full Plate Armor NG",
-      "url": "/lu4/item/2231-recipe-full-plate-armor"
-    },
-    {
-      "key": "item:2116",
-      "type": "item",
-      "id": 2116,
-      "name": "Deadman's Staff Head NG",
-      "url": "/lu4/item/2116-deadmans-staff-head"
     },
     {
       "key": "item:1880",
@@ -159,6 +79,13 @@
       "url": "/lu4/item/1539-greater-healing-potion"
     },
     {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
+    },
+    {
       "key": "item:204",
       "type": "item",
       "id": 204,
@@ -166,11 +93,88 @@
       "url": "/lu4/item/204-deadmans-staff"
     },
     {
-      "key": "item:57",
+      "key": "item:2116",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2116,
+      "name": "Deadman's Staff Head NG",
+      "url": "/lu4/item/2116-deadmans-staff-head"
+    },
+    {
+      "key": "item:7897",
+      "type": "item",
+      "id": 7897,
+      "name": "Dwarven Hammer C",
+      "url": "/lu4/item/7897-dwarven-hammer"
+    },
+    {
+      "key": "item:8344",
+      "type": "item",
+      "id": 8344,
+      "name": "Dwarven Hammer Piece NG",
+      "url": "/lu4/item/8344-dwarven-hammer-piece"
+    },
+    {
+      "key": "item:2461",
+      "type": "item",
+      "id": 2461,
+      "name": "Drake Leather Gloves C",
+      "url": "/lu4/item/2461-drake-leather-gloves"
+    },
+    {
+      "key": "item:2962",
+      "type": "item",
+      "id": 2962,
+      "name": "Drake Leather Gloves Design NG",
+      "url": "/lu4/item/2962-drake-leather-gloves-design"
+    },
+    {
+      "key": "item:2231",
+      "type": "item",
+      "id": 2231,
+      "name": "Recipe: Full Plate Armor NG",
+      "url": "/lu4/item/2231-recipe-full-plate-armor"
+    },
+    {
+      "key": "item:2355",
+      "type": "item",
+      "id": 2355,
+      "name": "Recipe: Ghoul's Staff NG",
+      "url": "/lu4/item/2355-recipe-ghouls-staff"
+    },
+    {
+      "key": "item:2350",
+      "type": "item",
+      "id": 2350,
+      "name": "Recipe: Pa'agrian Axe NG",
+      "url": "/lu4/item/2350-recipe-paagrian-axe"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:2356",
+      "type": "item",
+      "id": 2356,
+      "name": "Recipe: Demon's Staff NG",
+      "url": "/lu4/item/2356-recipe-demons-staff"
     },
     {
       "key": "item:3022",
@@ -178,6 +182,13 @@
       "id": 3022,
       "name": "Recipe: Yaksa Mace NG",
       "url": "/lu4/item/3022-recipe-yaksa-mace"
+    },
+    {
+      "key": "item:2118",
+      "type": "item",
+      "id": 2118,
+      "name": "Demon's Staff Head NG",
+      "url": "/lu4/item/2118-demons-staff-head"
     },
     {
       "key": "item:2964",
@@ -192,20 +203,6 @@
       "id": 2959,
       "name": "Full Plate Helmet Design NG",
       "url": "/lu4/item/2959-full-plate-helmet-design"
-    },
-    {
-      "key": "item:2356",
-      "type": "item",
-      "id": 2356,
-      "name": "Recipe: Demon's Staff NG",
-      "url": "/lu4/item/2356-recipe-demons-staff"
-    },
-    {
-      "key": "item:2118",
-      "type": "item",
-      "id": 2118,
-      "name": "Demon's Staff Head NG",
-      "url": "/lu4/item/2118-demons-staff-head"
     }
   ]
 }

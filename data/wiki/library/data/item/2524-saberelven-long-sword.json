@@ -2,29 +2,31 @@
   "key": "item:2524",
   "type": "item",
   "id": 2524,
-  "name": "Lu4 Wiki: Item Saber*Elven Long Sword",
+  "name": "Saber*Elven Long Sword",
   "url": "/lu4/item/2524-saberelven-long-sword",
-  "source_url": "https://masterwork.wiki/lu4/item/2524-saberelven-long-sword",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2524-saberelven-long-sword",
   "raw_html": "library/raw/lu4/item/2524-saberelven-long-sword.html",
   "stats": {
+    "Effect": "<+4 Enchant Effect> P. Crit. Rate +60.",
+    "P. Atk. / M. Atk.": "130 / 61",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "2420",
+    "P. Crit. Rate.": "8",
     "Item Skills": "Special Ability: Focus Lv. 2",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Dualsword / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:2524",
-      "type": "item",
-      "id": 2524,
-      "name": "Lu4",
-      "url": "/lu4/item/2524-saberelven-long-sword"
-    },
-    {
       "key": "skill:24291",
       "type": "skill",
       "id": 24291,
-      "name": "Special Ability: Focus Lv. 2",
-      "url": "/lu4/skill/24291-special-ability-focus/2"
+      "name": "Special Ability: Focus",
+      "url": "/lu4/skill/24291-special-ability-focus"
     }
   ]
 }

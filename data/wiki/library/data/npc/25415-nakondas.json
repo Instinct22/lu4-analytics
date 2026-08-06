@@ -2,56 +2,53 @@
   "key": "npc:25415",
   "type": "npc",
   "id": 25415,
-  "name": "Lu4 Wiki: NPC Nakondas",
+  "name": "Nakondas",
   "url": "/lu4/npc/25415-nakondas",
-  "source_url": "https://masterwork.wiki/lu4/npc/25415-nakondas",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25415-nakondas",
   "raw_html": "library/raw/lu4/npc/25415-nakondas.html",
   "stats": {
-    "Location": "Сад Горгон"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Сад Горгон",
+    "HP / MP": "229 752 / 8 254",
+    "P. Atk. / M. Atk.": "729 / 58",
+    "P. Def. / M. Def.": "632 / 614",
+    "Accuracy / Evasion": "89 / 89",
+    "Exp / SP": "1 010 800 / 78 199",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This cranky, ambitious Wyrm leads the Wyrms in the Gorgon Flower Garden against the occupying Gorgons. He is forcing even neutral Wyrms into conflict with the Gorgons. He hates Gorgon Queen Stenoa passionately. Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Dragon, Lv. 38"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25415",
-      "type": "npc",
-      "id": 25415,
-      "name": "Lu4",
-      "url": "/lu4/npc/25415-nakondas"
-    },
-    {
-      "key": "location:174",
-      "type": "location",
-      "id": 174,
-      "name": "Сад Горгон",
-      "url": "/lu4/location/174-sad-gorgon"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4950",
       "type": "skill",
       "id": 4950,
-      "name": "Raid Boss Lv. 1 This cranky, ambitious Wyrm leads the Wyrms in the Gorgon Flower Garden against the occupying Gorgons. He is forcing even neutral Wyrms into conflict with the Gorgons. He hates Gorgon Queen Stenoa passionately.",
-      "url": "/lu4/skill/4950-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4950-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,88 +58,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:159",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:2058",
-      "type": "item",
-      "id": 2058,
-      "name": "Atuba Mace Head NG",
-      "url": "/lu4/item/2058-atuba-mace-head"
-    },
-    {
-      "key": "item:2051",
-      "type": "item",
-      "id": 2051,
-      "name": "Staff of Life Shaft NG",
-      "url": "/lu4/item/2051-staff-of-life-shaft"
-    },
-    {
-      "key": "item:2050",
-      "type": "item",
-      "id": 2050,
-      "name": "Ghost Staff Head NG",
-      "url": "/lu4/item/2050-ghost-staff-head"
-    },
-    {
-      "key": "item:2049",
-      "type": "item",
-      "id": 2049,
-      "name": "Atuba Hammer Head NG",
-      "url": "/lu4/item/2049-atuba-hammer-head"
-    },
-    {
-      "key": "item:2048",
-      "type": "item",
-      "id": 2048,
-      "name": "Bonebreaker Head NG",
-      "url": "/lu4/item/2048-bonebreaker-head"
-    },
-    {
-      "key": "item:1953",
-      "type": "item",
-      "id": 1953,
-      "name": "Sage's Rag Lining NG",
-      "url": "/lu4/item/1953-sages-rag-lining"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:438",
-      "type": "item",
-      "id": 438,
-      "name": "Sage's Rag D",
-      "url": "/lu4/item/438-sages-rag"
-    },
-    {
-      "key": "item:190",
-      "type": "item",
-      "id": 190,
-      "name": "Atuba Mace D",
-      "url": "/lu4/item/190-atuba-mace"
+      "id": 159,
+      "name": "Bonebreaker D",
+      "url": "/lu4/item/159-bonebreaker"
     },
     {
       "key": "item:189",
@@ -152,11 +72,11 @@
       "url": "/lu4/item/189-staff-of-life"
     },
     {
-      "key": "item:188",
+      "key": "item:190",
       "type": "item",
-      "id": 188,
-      "name": "Ghost Staff D",
-      "url": "/lu4/item/188-ghost-staff"
+      "id": 190,
+      "name": "Atuba Mace D",
+      "url": "/lu4/item/190-atuba-mace"
     },
     {
       "key": "item:187",
@@ -166,11 +86,74 @@
       "url": "/lu4/item/187-atuba-hammer"
     },
     {
-      "key": "item:159",
+      "key": "item:2048",
       "type": "item",
-      "id": 159,
-      "name": "Bonebreaker D",
-      "url": "/lu4/item/159-bonebreaker"
+      "id": 2048,
+      "name": "Bonebreaker Head NG",
+      "url": "/lu4/item/2048-bonebreaker-head"
+    },
+    {
+      "key": "item:2051",
+      "type": "item",
+      "id": 2051,
+      "name": "Staff of Life Shaft NG",
+      "url": "/lu4/item/2051-staff-of-life-shaft"
+    },
+    {
+      "key": "item:2058",
+      "type": "item",
+      "id": 2058,
+      "name": "Atuba Mace Head NG",
+      "url": "/lu4/item/2058-atuba-mace-head"
+    },
+    {
+      "key": "item:2049",
+      "type": "item",
+      "id": 2049,
+      "name": "Atuba Hammer Head NG",
+      "url": "/lu4/item/2049-atuba-hammer-head"
+    },
+    {
+      "key": "item:438",
+      "type": "item",
+      "id": 438,
+      "name": "Sage's Worn Robe D",
+      "url": "/lu4/item/438-sages-worn-robe"
+    },
+    {
+      "key": "item:1953",
+      "type": "item",
+      "id": 1953,
+      "name": "Sage's Worn Robe Lining NG",
+      "url": "/lu4/item/1953-sages-worn-robe-lining"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25416",

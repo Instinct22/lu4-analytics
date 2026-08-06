@@ -2,27 +2,25 @@
   "key": "item:4200",
   "type": "item",
   "id": 4200,
-  "name": "Lu4 Wiki: Item Spellbook: Restore Life",
+  "name": "Spellbook: Restore Life",
   "url": "/lu4/item/4200-spellbook-restore-life",
-  "source_url": "https://masterwork.wiki/lu4/item/4200-spellbook-restore-life",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/4200-spellbook-restore-life",
   "raw_html": "library/raw/lu4/item/4200-spellbook-restore-life.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Restore Life'. Required: Bishop - Lv. 44 To obtain this item, hunt the Zaken's Pikeman found in Devil's Isle.",
+    "NPC Sell Price": "1 925 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:4200",
-      "type": "item",
-      "id": 4200,
-      "name": "Lu4",
-      "url": "/lu4/item/4200-spellbook-restore-life"
-    },
-    {
       "key": "npc:20832",
       "type": "npc",
       "id": 20832,
-      "name": "Zaken's Pikeman Lv. 43",
+      "name": "Zaken's Pikeman",
       "url": "/lu4/npc/20832-zakens-pikeman"
     }
   ]

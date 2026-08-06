@@ -2,55 +2,24 @@
   "key": "item:5163",
   "type": "item",
   "id": 5163,
-  "name": "Recipe",
+  "name": "Recipe: Blessed Spiritshot (D) Compressed Package (100%)",
   "url": "/lu4/item/5163-recipe-blessed-spiritshot-d-compressed-package-100",
-  "source_url": "https://masterwork.wiki/lu4/item/5163-recipe-blessed-spiritshot-d-compressed-package-100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5163-recipe-blessed-spiritshot-d-compressed-package-100",
   "raw_html": "library/raw/lu4/item/5163-recipe-blessed-spiritshot-d-compressed-package-100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Compressed Package of Blessed Spiritshots (D-Grade)'. Requires Create Item - Skill Level 2 (Artisan Lv. 20). The success rate is 100%.",
+    "NPC Sell Price": "2 500 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "180",
     "Success Rate": "100%",
-    "Result": "Compressed Package of Blessed Spiritshots (D-Grade) NG"
+    "Result": "Compressed Package of Blessed Spiritshots (D-Grade) NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:3948",
-      "type": "item",
-      "id": 3948,
-      "name": "Blessed Spiritshot (D-Grade) D",
-      "amount": "300"
-    },
-    {
-      "key": "item:3031",
-      "type": "item",
-      "id": 3031,
-      "name": "Spirit Ore NG",
-      "amount": "20"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "5"
-    },
-    {
-      "key": "item:5192",
-      "type": "item",
-      "id": 5192,
-      "name": "Rope of Magic (D-Grade) NG",
-      "amount": "15"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:5163",
-      "type": "item",
-      "id": 5163,
-      "name": "Lu4",
-      "url": "/lu4/item/5163-recipe-blessed-spiritshot-d-compressed-package-100"
-    },
     {
       "key": "item:3948",
       "type": "item",
@@ -90,42 +59,42 @@
       "key": "npc:21101",
       "type": "npc",
       "id": 21101,
-      "name": "Langk Lizardman Shaman Lv. 24",
+      "name": "Langk Lizardman Shaman",
       "url": "/lu4/npc/21101-langk-lizardman-shaman"
     },
     {
       "key": "npc:20547",
       "type": "npc",
       "id": 20547,
-      "name": "Ol Mahum Reserve Lv. 23",
+      "name": "Ol Mahum Reserve",
       "url": "/lu4/npc/20547-ol-mahum-reserve"
     },
     {
       "key": "npc:20420",
       "type": "npc",
       "id": 20420,
-      "name": "Akaste Succubus Turen Lv. 21",
+      "name": "Akaste Succubus Turen",
       "url": "/lu4/npc/20420-akaste-succubus-turen"
     },
     {
       "key": "npc:20352",
       "type": "npc",
       "id": 20352,
-      "name": "Dre Vanul Slayer Lv. 22",
+      "name": "Dre Vanul Slayer",
       "url": "/lu4/npc/20352-dre-vanul-slayer"
     },
     {
       "key": "npc:20920",
       "type": "npc",
       "id": 20920,
-      "name": "Maille Lizardman Scout Lv. 23",
+      "name": "Maille Lizardman Scout",
       "url": "/lu4/npc/20920-maille-lizardman-scout"
     },
     {
       "key": "npc:20056",
       "type": "npc",
       "id": 20056,
-      "name": "Dre Vanul Disposer Lv. 22",
+      "name": "Dre Vanul Disposer",
       "url": "/lu4/npc/20056-dre-vanul-disposer"
     }
   ]

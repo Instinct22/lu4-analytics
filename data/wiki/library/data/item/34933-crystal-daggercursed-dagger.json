@@ -2,35 +2,39 @@
   "key": "item:34933",
   "type": "item",
   "id": 34933,
-  "name": "Lu4 Wiki: Item Crystal Dagger*Cursed Dagger",
+  "name": "Crystal Dagger*Cursed Dagger",
   "url": "/lu4/item/34933-crystal-daggercursed-dagger",
-  "source_url": "https://masterwork.wiki/lu4/item/34933-crystal-daggercursed-dagger",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/34933-crystal-daggercursed-dagger",
   "raw_html": "library/raw/lu4/item/34933-crystal-daggercursed-dagger.html",
   "stats": {
+    "Effect": "<+4 Enchant Effect> P. Crit. Rate +50.",
+    "P. Atk. / M. Atk.": "150 / 83",
+    "Soulshot / Spiritshot Consume": "4 / 3",
+    "Crystal Amount": "2452 Crystallization Failed Enchant +0 2452 - +1 2497 - +2 2542 - +3 2587 - +4 2677 1451 +5 2767 1541 +6 2857 1631 +7 2947 1721 +8 3037 1811 +9 3127 1901 +10 3217 1991 +11 3307 2081 +12 3397 2171",
+    "NPC Sell Price": "2 356 750 Adena",
+    "Weight": "1500",
+    "P. Crit. Rate.": "12",
+    "Accuracy": "-4",
+    "Evasion": "-3",
     "Item Skills": "Special Ability: Focus Lv. 15",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Dualdagger / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:34933",
-      "type": "item",
-      "id": 34933,
-      "name": "Lu4",
-      "url": "/lu4/item/34933-crystal-daggercursed-dagger"
-    },
-    {
       "key": "skill:3044",
       "type": "skill",
       "id": 3044,
-      "name": "Special Ability: Focus Lv. 15",
-      "url": "/lu4/skill/3044-special-ability-focus/15"
+      "name": "Special Ability: Focus",
+      "url": "/lu4/skill/3044-special-ability-focus"
     },
     {
       "key": "npc:36643",
       "type": "npc",
       "id": 36643,
-      "name": "Fenralith Cuthalion Lv. 50",
+      "name": "Fenralith Cuthalion",
       "url": "/lu4/npc/36643-fenralith-cuthalion"
     }
   ]

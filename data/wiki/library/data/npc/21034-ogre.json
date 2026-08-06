@@ -2,147 +2,74 @@
   "key": "npc:21034",
   "type": "npc",
   "id": 21034,
-  "name": "Lu4 Wiki: NPC Ogre",
+  "name": "Ogre",
   "url": "/lu4/npc/21034-ogre",
-  "source_url": "https://masterwork.wiki/lu4/npc/21034-ogre",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21034-ogre",
   "raw_html": "library/raw/lu4/npc/21034-ogre.html",
   "stats": {
-    "Location": "Поля Безмолвия"
+    "Respawn Time": "23 seconds",
+    "Location": "Поля Безмолвия",
+    "HP / MP": "1 511 / 552",
+    "P. Atk. / M. Atk.": "363 / 118",
+    "P. Def. / M. Def.": "167 / 131",
+    "Accuracy / Evasion": "66 / 71",
+    "Exp / SP": "1 747 / 175",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Stun Attack Resistance Lv. 1 Slightly resistant to Stun. Strong P. Atk. Lv. 15 Slightly Weak M. Def. Lv. 9 Slightly Weak P. Def. Lv. 9",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 38"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21034",
-      "type": "npc",
-      "id": 21034,
-      "name": "Lu4",
-      "url": "/lu4/npc/21034-ogre"
-    },
-    {
-      "key": "location:116",
-      "type": "location",
-      "id": 116,
-      "name": "Поля Безмолвия",
-      "url": "/lu4/location/116-pola-bezmolvia"
-    },
-    {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 1 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/1"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2933",
-      "type": "item",
-      "id": 2933,
-      "name": "Sage's Worn Gloves Lining NG",
-      "url": "/lu4/item/2933-sages-worn-gloves-lining"
-    },
-    {
-      "key": "item:2931",
-      "type": "item",
-      "id": 2931,
-      "name": "Salamander Skin Boot Lining NG",
-      "url": "/lu4/item/2931-salamander-skin-boot-lining"
-    },
-    {
-      "key": "item:2451",
-      "type": "item",
-      "id": 2451,
-      "name": "Sage's Worn Gloves D",
-      "url": "/lu4/item/2451-sages-worn-gloves"
-    },
-    {
-      "key": "item:2427",
-      "type": "item",
-      "id": 2427,
-      "name": "Salamander Skin Boots D",
-      "url": "/lu4/item/2427-salamander-skin-boots"
-    },
-    {
-      "key": "item:2287",
-      "type": "item",
-      "id": 2287,
-      "name": "Recipe: Atuba Hammer NG",
-      "url": "/lu4/item/2287-recipe-atuba-hammer"
-    },
-    {
-      "key": "item:2285",
-      "type": "item",
-      "id": 2285,
-      "name": "Recipe: Claymore NG",
-      "url": "/lu4/item/2285-recipe-claymore"
-    },
-    {
-      "key": "item:2196",
-      "type": "item",
-      "id": 2196,
-      "name": "Recipe: Plate Gaiters NG",
-      "url": "/lu4/item/2196-recipe-plate-gaiters"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1889",
@@ -180,6 +107,34 @@
       "url": "/lu4/item/1341-bone-arrow"
     },
     {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
+      "key": "item:2287",
+      "type": "item",
+      "id": 2287,
+      "name": "Recipe: Atuba Hammer NG",
+      "url": "/lu4/item/2287-recipe-atuba-hammer"
+    },
+    {
+      "key": "item:2285",
+      "type": "item",
+      "id": 2285,
+      "name": "Recipe: Claymore NG",
+      "url": "/lu4/item/2285-recipe-claymore"
+    },
+    {
+      "key": "item:2196",
+      "type": "item",
+      "id": 2196,
+      "name": "Recipe: Half Plate Gaiters NG",
+      "url": "/lu4/item/2196-recipe-half-plate-gaiters"
+    },
+    {
       "key": "item:315",
       "type": "item",
       "id": 315,
@@ -187,18 +142,60 @@
       "url": "/lu4/item/315-divine-tome"
     },
     {
-      "key": "item:57",
+      "key": "item:2451",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2451,
+      "name": "Sage's Worn Gloves D",
+      "url": "/lu4/item/2451-sages-worn-gloves"
     },
     {
-      "key": "item:2052",
+      "key": "item:2933",
       "type": "item",
-      "id": 2052,
-      "name": "Mithril Dagger Blade NG",
-      "url": "/lu4/item/2052-mithril-dagger-blade"
+      "id": 2933,
+      "name": "Sage's Worn Gloves Lining NG",
+      "url": "/lu4/item/2933-sages-worn-gloves-lining"
+    },
+    {
+      "key": "item:2427",
+      "type": "item",
+      "id": 2427,
+      "name": "Salamander Skin Boots D",
+      "url": "/lu4/item/2427-salamander-skin-boots"
+    },
+    {
+      "key": "item:2931",
+      "type": "item",
+      "id": 2931,
+      "name": "Salamander Skin Boot Lining NG",
+      "url": "/lu4/item/2931-salamander-skin-boot-lining"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:2049",
+      "type": "item",
+      "id": 2049,
+      "name": "Atuba Hammer Head NG",
+      "url": "/lu4/item/2049-atuba-hammer-head"
     },
     {
       "key": "item:2051",
@@ -208,11 +205,11 @@
       "url": "/lu4/item/2051-staff-of-life-shaft"
     },
     {
-      "key": "item:2049",
+      "key": "item:2052",
       "type": "item",
-      "id": 2049,
-      "name": "Atuba Hammer Head NG",
-      "url": "/lu4/item/2049-atuba-hammer-head"
+      "id": 2052,
+      "name": "Mithril Dagger Blade NG",
+      "url": "/lu4/item/2052-mithril-dagger-blade"
     }
   ]
 }

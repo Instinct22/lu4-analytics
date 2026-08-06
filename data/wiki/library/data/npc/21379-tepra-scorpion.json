@@ -2,103 +2,128 @@
   "key": "npc:21379",
   "type": "npc",
   "id": 21379,
-  "name": "Lu4 Wiki: NPC Tepra Scorpion",
+  "name": "Tepra Scorpion",
   "url": "/lu4/npc/21379-tepra-scorpion",
-  "source_url": "https://masterwork.wiki/lu4/npc/21379-tepra-scorpion",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21379-tepra-scorpion",
   "raw_html": "library/raw/lu4/npc/21379-tepra-scorpion.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "21 545 / 1 840",
+    "P. Atk. / M. Atk.": "1 784 / 1 412",
+    "P. Def. / M. Def.": "521 / 449",
+    "Accuracy / Evasion": "122 / 133",
+    "Exp / SP": "79 176 / 3 930",
+    "Attack Attribute": "Earth 50",
+    "Defense Attributes": "Fire 20, Water 20, Wind 0, Earth 93, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. Dagger Lv. 7 Daggers Greater Bleed Resistance Lv. 4 Highly resistant to Bleed. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. High Lv. Lv. 6 NPC High Level",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 79"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21379",
-      "type": "npc",
-      "id": 21379,
-      "name": "Lu4",
-      "url": "/lu4/npc/21379-tepra-scorpion"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Dagger Lv. 7 Daggers",
-      "url": "/lu4/skill/4415-dagger/7"
+      "name": "Dagger",
+      "url": "/lu4/skill/4415-dagger"
     },
     {
       "key": "skill:4437",
       "type": "skill",
       "id": 4437,
-      "name": "Greater Bleed Resistance Lv. 4 Highly resistant to Bleed.",
-      "url": "/lu4/skill/4437-greater-bleed-resistance/4"
+      "name": "Greater Bleed Resistance",
+      "url": "/lu4/skill/4437-greater-bleed-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 6 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/6"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:7579",
+      "type": "item",
+      "id": 7579,
+      "name": "Draconic Bow Shaft NG",
+      "url": "/lu4/item/7579-draconic-bow-shaft"
+    },
+    {
+      "key": "item:5522",
+      "type": "item",
+      "id": 5522,
+      "name": "Sealed Armor of Nightmare Pattern NG",
+      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
     },
     {
       "key": "item:32390",
@@ -115,39 +140,11 @@
       "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
     },
     {
-      "key": "item:7579",
-      "type": "item",
-      "id": 7579,
-      "name": "Draconic Bow Shaft NG",
-      "url": "/lu4/item/7579-draconic-bow-shaft"
-    },
-    {
       "key": "item:5523",
       "type": "item",
       "id": 5523,
       "name": "Sealed Majestic Plate Armor Pattern NG",
       "url": "/lu4/item/5523-sealed-majestic-plate-armor-pattern"
-    },
-    {
-      "key": "item:5522",
-      "type": "item",
-      "id": 5522,
-      "name": "Sealed Armor of Nightmare Pattern NG",
-      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:1866",
@@ -162,6 +159,13 @@
       "id": 1865,
       "name": "Varnish NG",
       "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:1864",
@@ -185,18 +189,11 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:1868",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:6901",
-      "type": "item",
-      "id": 6901,
-      "name": "Recipe: Shining Arrow (100%) NG",
-      "url": "/lu4/item/6901-recipe-shining-arrow-100"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:5515",
@@ -204,6 +201,13 @@
       "id": 5515,
       "name": "Sealed Majestic Gauntlets Design NG",
       "url": "/lu4/item/5515-sealed-majestic-gauntlets-design"
+    },
+    {
+      "key": "item:6901",
+      "type": "item",
+      "id": 6901,
+      "name": "Recipe: Shining Arrow (100%) NG",
+      "url": "/lu4/item/6901-recipe-shining-arrow-100"
     }
   ]
 }

@@ -2,112 +2,81 @@
   "key": "npc:20514",
   "type": "npc",
   "id": 20514,
-  "name": "Lu4 Wiki: NPC Shield Skeleton",
+  "name": "Shield Skeleton",
   "url": "/lu4/npc/20514-shield-skeleton",
-  "source_url": "https://masterwork.wiki/lu4/npc/20514-shield-skeleton",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20514-shield-skeleton",
   "raw_html": "library/raw/lu4/npc/20514-shield-skeleton.html",
   "stats": {
-    "Location": "Руины Отчаяния"
+    "Respawn Time": "17 seconds",
+    "Location": "Руины Отчаяния",
+    "HP / MP": "446 / 183",
+    "P. Atk. / M. Atk.": "43 / 23",
+    "P. Def. / M. Def.": "84 / 63",
+    "Accuracy / Evasion": "48 / 48",
+    "Exp / SP": "478 / 48",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 15"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20514",
-      "type": "npc",
-      "id": 20514,
-      "name": "Lu4",
-      "url": "/lu4/npc/20514-shield-skeleton"
-    },
-    {
-      "key": "location:29",
-      "type": "location",
-      "id": 29,
-      "name": "Руины Отчаяния",
-      "url": "/lu4/location/29-ruiny-otcaania"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1799",
-      "type": "item",
-      "id": 1799,
-      "name": "Recipe: Leather Gloves NG",
-      "url": "/lu4/item/1799-recipe-leather-gloves"
-    },
-    {
-      "key": "item:734",
-      "type": "item",
-      "id": 734,
-      "name": "Haste Potion NG",
-      "url": "/lu4/item/734-haste-potion"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "item:57",
@@ -117,6 +86,13 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:20",
+      "type": "item",
+      "id": 20,
+      "name": "Buckler NG",
+      "url": "/lu4/item/20-buckler"
+    },
+    {
       "key": "item:43",
       "type": "item",
       "id": 43,
@@ -124,11 +100,32 @@
       "url": "/lu4/item/43-wooden-helmet"
     },
     {
-      "key": "item:20",
+      "key": "item:734",
       "type": "item",
-      "id": 20,
-      "name": "Buckler NG",
-      "url": "/lu4/item/20-buckler"
+      "id": 734,
+      "name": "Haste Potion NG",
+      "url": "/lu4/item/734-haste-potion"
+    },
+    {
+      "key": "item:1799",
+      "type": "item",
+      "id": 1799,
+      "name": "Recipe: Leather Gloves NG",
+      "url": "/lu4/item/1799-recipe-leather-gloves"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
     },
     {
       "key": "item:1872",

@@ -2,68 +2,86 @@
   "key": "npc:21722",
   "type": "npc",
   "id": 21722,
-  "name": "Lu4 Wiki: NPC Purgatory Invader Warrior",
+  "name": "Purgatory Invader Warrior",
   "url": "/lu4/npc/21722-purgatory-invader-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/21722-purgatory-invader-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21722-purgatory-invader-warrior",
   "raw_html": "library/raw/lu4/npc/21722-purgatory-invader-warrior.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "14 884 / 1 025",
+    "P. Atk. / M. Atk.": "539 / 333",
+    "P. Def. / M. Def.": "312 / 253",
+    "Accuracy / Evasion": "86 / 86",
+    "Exp / SP": "22 477 / 1 764",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (6x) Lv. 14 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 53"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21722",
-      "type": "npc",
-      "id": 21722,
-      "name": "Lu4",
-      "url": "/lu4/npc/21722-purgatory-invader-warrior"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:4133",
+      "key": "item:57",
       "type": "item",
-      "id": 4133,
-      "name": "Recipe: Zubei's Breastplate (100%) NG",
-      "url": "/lu4/item/4133-recipe-zubeis-breastplate-100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:4040",
+      "key": "item:299",
       "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
+      "id": 299,
+      "name": "Orcish Poleaxe C",
+      "url": "/lu4/item/299-orcish-poleaxe"
+    },
+    {
+      "key": "item:301",
+      "type": "item",
+      "id": 301,
+      "name": "Scorpion C",
+      "url": "/lu4/item/301-scorpion"
+    },
+    {
+      "key": "item:303",
+      "type": "item",
+      "id": 303,
+      "name": "Widow Maker C",
+      "url": "/lu4/item/303-widow-maker"
     },
     {
       "key": "item:2122",
@@ -85,6 +103,13 @@
       "id": 2113,
       "name": "Scorpion Blade NG",
       "url": "/lu4/item/2113-scorpion-blade"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
     },
     {
       "key": "item:1879",
@@ -115,39 +140,18 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:303",
+      "key": "item:4133",
       "type": "item",
-      "id": 303,
-      "name": "Widow Maker C",
-      "url": "/lu4/item/303-widow-maker"
+      "id": 4133,
+      "name": "Recipe: Zubei's Breastplate (100%) NG",
+      "url": "/lu4/item/4133-recipe-zubeis-breastplate-100"
     },
     {
-      "key": "item:301",
+      "key": "item:1989",
       "type": "item",
-      "id": 301,
-      "name": "Scorpion C",
-      "url": "/lu4/item/301-scorpion"
-    },
-    {
-      "key": "item:299",
-      "type": "item",
-      "id": 299,
-      "name": "Orcish Poleaxe C",
-      "url": "/lu4/item/299-orcish-poleaxe"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:4128",
-      "type": "item",
-      "id": 4128,
-      "name": "Recipe: Adamantite Necklace (100%) NG",
-      "url": "/lu4/item/4128-recipe-adamantite-necklace-100"
+      "id": 1989,
+      "name": "Divine Stocking Pattern NG",
+      "url": "/lu4/item/1989-divine-stocking-pattern"
     },
     {
       "key": "item:2112",
@@ -157,11 +161,11 @@
       "url": "/lu4/item/2112-paagrian-axe-blade"
     },
     {
-      "key": "item:1989",
+      "key": "item:4128",
       "type": "item",
-      "id": 1989,
-      "name": "Divine Stocking Pattern NG",
-      "url": "/lu4/item/1989-divine-stocking-pattern"
+      "id": 4128,
+      "name": "Recipe: Adamantite Necklace (100%) NG",
+      "url": "/lu4/item/4128-recipe-adamantite-necklace-100"
     }
   ]
 }

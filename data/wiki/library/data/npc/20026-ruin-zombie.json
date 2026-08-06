@@ -2,126 +2,88 @@
   "key": "npc:20026",
   "type": "npc",
   "id": 20026,
-  "name": "Lu4 Wiki: NPC Ruin Zombie",
+  "name": "Ruin Zombie",
   "url": "/lu4/npc/20026-ruin-zombie",
-  "source_url": "https://masterwork.wiki/lu4/npc/20026-ruin-zombie",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20026-ruin-zombie",
   "raw_html": "library/raw/lu4/npc/20026-ruin-zombie.html",
   "stats": {
-    "Location": "Земли Глудио (+1) Земли Глудио Руины Страданий"
+    "Respawn Time": "15 seconds",
+    "Location": "Земли Глудио (+1) Земли Глудио Руины Страданий",
+    "HP / MP": "398 / 183",
+    "P. Atk. / M. Atk.": "47 / 24",
+    "P. Def. / M. Def.": "76 / 111",
+    "Accuracy / Evasion": "48 / 48",
+    "Exp / SP": "467 / 47",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Very Strong M. Def. Lv. 16 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Bleed Resistance Lv. 5 Resistant to Bleed.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 15"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20026",
-      "type": "npc",
-      "id": 20026,
-      "name": "Lu4",
-      "url": "/lu4/npc/20026-ruin-zombie"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:27",
-      "type": "location",
-      "id": 27,
-      "name": "Руины Страданий",
-      "url": "/lu4/location/27-ruiny-stradanij"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 16",
-      "url": "/lu4/skill/4413-very-strong-m-def/16"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
-    },
-    {
-      "key": "item:1921",
-      "type": "item",
-      "id": 1921,
-      "name": "Leather Shoes Texture NG",
-      "url": "/lu4/item/1921-leather-shoes-texture"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1792",
-      "type": "item",
-      "id": 1792,
-      "name": "Recipe: Short Spear NG",
-      "url": "/lu4/item/1792-recipe-short-spear"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "item:57",
@@ -131,13 +93,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:49",
-      "type": "item",
-      "id": 49,
-      "name": "Gloves NG",
-      "url": "/lu4/item/49-gloves"
-    },
-    {
       "key": "item:37",
       "type": "item",
       "id": 37,
@@ -145,11 +100,39 @@
       "url": "/lu4/item/37-leather-shoes"
     },
     {
-      "key": "item:1923",
+      "key": "item:49",
       "type": "item",
-      "id": 1923,
-      "name": "Leather Stockings Pattern NG",
-      "url": "/lu4/item/1923-leather-stockings-pattern"
+      "id": 49,
+      "name": "Gloves NG",
+      "url": "/lu4/item/49-gloves"
+    },
+    {
+      "key": "item:1921",
+      "type": "item",
+      "id": 1921,
+      "name": "Leather Shoes Texture NG",
+      "url": "/lu4/item/1921-leather-shoes-texture"
+    },
+    {
+      "key": "item:1792",
+      "type": "item",
+      "id": 1792,
+      "name": "Recipe: Short Spear NG",
+      "url": "/lu4/item/1792-recipe-short-spear"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
     },
     {
       "key": "item:1866",
@@ -157,6 +140,13 @@
       "id": 1866,
       "name": "Suede NG",
       "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1923",
+      "type": "item",
+      "id": 1923,
+      "name": "Leather Stockings Pattern NG",
+      "url": "/lu4/item/1923-leather-stockings-pattern"
     }
   ]
 }

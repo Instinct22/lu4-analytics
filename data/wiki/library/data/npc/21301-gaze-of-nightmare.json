@@ -2,89 +2,100 @@
   "key": "npc:21301",
   "type": "npc",
   "id": 21301,
-  "name": "Lu4 Wiki: NPC Gaze of Nightmare",
+  "name": "Gaze of Nightmare",
   "url": "/lu4/npc/21301-gaze-of-nightmare",
-  "source_url": "https://masterwork.wiki/lu4/npc/21301-gaze-of-nightmare",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21301-gaze-of-nightmare",
   "raw_html": "library/raw/lu4/npc/21301-gaze-of-nightmare.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "16 535 / 1 565",
+    "P. Atk. / M. Atk.": "1 131 / 595",
+    "P. Def. / M. Def.": "680 / 501",
+    "Accuracy / Evasion": "107 / 109",
+    "Exp / SP": "26 497 / 2 692",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Weak P. Atk. Lv. 8 Weak M. Atk. Lv. 8 Strong P. Def. Lv. 14 Strong M. Def. Lv. 14 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword High Lv. Lv. 2 NPC High Level",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 72"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21301",
-      "type": "npc",
-      "id": 21301,
-      "name": "Lu4",
-      "url": "/lu4/npc/21301-gaze-of-nightmare"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Weak P. Atk. Lv. 8",
-      "url": "/lu4/skill/4410-weak-p-atk/8"
+      "name": "Weak P. Atk.",
+      "url": "/lu4/skill/4410-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Weak M. Atk. Lv. 8",
-      "url": "/lu4/skill/4411-weak-m-atk/8"
+      "name": "Weak M. Atk.",
+      "url": "/lu4/skill/4411-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 2 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/2"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32342",
@@ -92,13 +103,6 @@
       "id": 32342,
       "name": "Unidentified Blood Tornado A",
       "url": "/lu4/item/32342-unidentified-blood-tornado"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
     },
     {
       "key": "item:5539",
@@ -157,18 +161,11 @@
       "url": "/lu4/item/1344-mithril-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:5549",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:5521",
-      "type": "item",
-      "id": 5521,
-      "name": "Sealed Tallum Plate Armor Pattern NG",
-      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     },
     {
       "key": "item:5520",
@@ -183,6 +180,13 @@
       "id": 5440,
       "name": "Recipe: Elysian(60%) NG",
       "url": "/lu4/item/5440-recipe-elysian60"
+    },
+    {
+      "key": "item:5521",
+      "type": "item",
+      "id": 5521,
+      "name": "Sealed Tallum Plate Armor Pattern NG",
+      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
     }
   ]
 }

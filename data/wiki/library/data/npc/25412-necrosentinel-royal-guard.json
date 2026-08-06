@@ -2,84 +2,79 @@
   "key": "npc:25412",
   "type": "npc",
   "id": 25412,
-  "name": "Lu4 Wiki: NPC Necrosentinel Royal Guard",
+  "name": "Necrosentinel Royal Guard",
   "url": "/lu4/npc/25412-necrosentinel-royal-guard",
-  "source_url": "https://masterwork.wiki/lu4/npc/25412-necrosentinel-royal-guard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25412-necrosentinel-royal-guard",
   "raw_html": "library/raw/lu4/npc/25412-necrosentinel-royal-guard.html",
   "stats": {
-    "Location": "Долина Драконов"
+    "HP / MP": "319 792 / 8 254",
+    "P. Atk. / M. Atk.": "2 579 / 352",
+    "P. Def. / M. Def.": "767 / 825",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "1 546 300 / 134 535",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Immortal Warrior was sent by Emperor Elmoreden to protect the Seal of Antharas. Straying from the supervision of Watchman, he was transformed by the area's dark magic into a cruel monster and now attacks anyone who approaches the Dragon Valley. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 47"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25412",
-      "type": "npc",
-      "id": 25412,
-      "name": "Lu4",
-      "url": "/lu4/npc/25412-necrosentinel-royal-guard"
-    },
-    {
-      "key": "location:12",
-      "type": "location",
-      "id": 12,
-      "name": "Долина Драконов",
-      "url": "/lu4/location/12-dolina-drakonov"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4949",
       "type": "skill",
       "id": 4949,
-      "name": "Raid Boss Lv. 1 This Immortal Warrior was sent by Emperor Elmoreden to protect the Seal of Antharas. Straying from the supervision of Watchman, he was transformed by the area's dark magic into a cruel monster and now attacks anyone who approaches the Dragon Valley.",
-      "url": "/lu4/skill/4949-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4949-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -89,25 +84,74 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6574",
+      "key": "item:266",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+      "id": 266,
+      "name": "Great Pata C",
+      "url": "/lu4/item/266-great-pata"
     },
     {
-      "key": "item:6573",
+      "key": "item:299",
       "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+      "id": 299,
+      "name": "Orcish Poleaxe C",
+      "url": "/lu4/item/299-orcish-poleaxe"
     },
     {
-      "key": "item:2964",
+      "key": "item:2120",
       "type": "item",
-      "id": 2964,
-      "name": "Divine Gloves Pattern NG",
-      "url": "/lu4/item/2964-divine-gloves-pattern"
+      "id": 2120,
+      "name": "Great Pata Blade NG",
+      "url": "/lu4/item/2120-great-pata-blade"
+    },
+    {
+      "key": "item:2122",
+      "type": "item",
+      "id": 2122,
+      "name": "Orcish Poleaxe Blade NG",
+      "url": "/lu4/item/2122-orcish-poleaxe-blade"
+    },
+    {
+      "key": "item:2462",
+      "type": "item",
+      "id": 2462,
+      "name": "Full Plate Gauntlets C",
+      "url": "/lu4/item/2462-full-plate-gauntlets"
+    },
+    {
+      "key": "item:2461",
+      "type": "item",
+      "id": 2461,
+      "name": "Drake Leather Gloves C",
+      "url": "/lu4/item/2461-drake-leather-gloves"
+    },
+    {
+      "key": "item:2463",
+      "type": "item",
+      "id": 2463,
+      "name": "Divine Gloves C",
+      "url": "/lu4/item/2463-divine-gloves"
+    },
+    {
+      "key": "item:2438",
+      "type": "item",
+      "id": 2438,
+      "name": "Full Plate Boots C",
+      "url": "/lu4/item/2438-full-plate-boots"
+    },
+    {
+      "key": "item:2437",
+      "type": "item",
+      "id": 2437,
+      "name": "Drake Leather Boots C",
+      "url": "/lu4/item/2437-drake-leather-boots"
+    },
+    {
+      "key": "item:603",
+      "type": "item",
+      "id": 603,
+      "name": "Divine Boots C",
+      "url": "/lu4/item/603-divine-boots"
     },
     {
       "key": "item:2963",
@@ -122,6 +166,13 @@
       "id": 2962,
       "name": "Drake Leather Gloves Design NG",
       "url": "/lu4/item/2962-drake-leather-gloves-design"
+    },
+    {
+      "key": "item:2964",
+      "type": "item",
+      "id": 2964,
+      "name": "Divine Gloves Pattern NG",
+      "url": "/lu4/item/2964-divine-gloves-pattern"
     },
     {
       "key": "item:2961",
@@ -145,55 +196,6 @@
       "url": "/lu4/item/2958-divine-boots-fabric"
     },
     {
-      "key": "item:2463",
-      "type": "item",
-      "id": 2463,
-      "name": "Divine Gloves C",
-      "url": "/lu4/item/2463-divine-gloves"
-    },
-    {
-      "key": "item:2462",
-      "type": "item",
-      "id": 2462,
-      "name": "Full Plate Gauntlets C",
-      "url": "/lu4/item/2462-full-plate-gauntlets"
-    },
-    {
-      "key": "item:2461",
-      "type": "item",
-      "id": 2461,
-      "name": "Drake Leather Gloves C",
-      "url": "/lu4/item/2461-drake-leather-gloves"
-    },
-    {
-      "key": "item:2438",
-      "type": "item",
-      "id": 2438,
-      "name": "Full Plate Boots C",
-      "url": "/lu4/item/2438-full-plate-boots"
-    },
-    {
-      "key": "item:2437",
-      "type": "item",
-      "id": 2437,
-      "name": "Drake Leather Boots C",
-      "url": "/lu4/item/2437-drake-leather-boots"
-    },
-    {
-      "key": "item:2122",
-      "type": "item",
-      "id": 2122,
-      "name": "Orcish Poleaxe Blade NG",
-      "url": "/lu4/item/2122-orcish-poleaxe-blade"
-    },
-    {
-      "key": "item:2120",
-      "type": "item",
-      "id": 2120,
-      "name": "Great Pata Blade NG",
-      "url": "/lu4/item/2120-great-pata-blade"
-    },
-    {
       "key": "item:952",
       "type": "item",
       "id": 952,
@@ -201,25 +203,18 @@
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
       "key": "item:951",
       "type": "item",
       "id": 951,
       "name": "Scroll: Enchant Weapon (C-Grade) NG",
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:603",
-      "type": "item",
-      "id": 603,
-      "name": "Divine Boots C",
-      "url": "/lu4/item/603-divine-boots"
-    },
-    {
-      "key": "item:299",
-      "type": "item",
-      "id": 299,
-      "name": "Orcish Poleaxe C",
-      "url": "/lu4/item/299-orcish-poleaxe"
     },
     {
       "key": "npc:25413",

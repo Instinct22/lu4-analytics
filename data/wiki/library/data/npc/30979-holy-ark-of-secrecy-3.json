@@ -2,42 +2,38 @@
   "key": "npc:30979",
   "type": "npc",
   "id": 30979,
-  "name": "Lu4 Wiki: NPC Holy Ark of Secrecy 3",
+  "name": "Holy Ark of Secrecy 3",
   "url": "/lu4/npc/30979-holy-ark-of-secrecy-3",
-  "source_url": "https://masterwork.wiki/lu4/npc/30979-holy-ark-of-secrecy-3",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30979-holy-ark-of-secrecy-3",
   "raw_html": "library/raw/lu4/npc/30979-holy-ark-of-secrecy-3.html",
   "stats": {
-    "Location": "Земли Диона"
+    "Respawn Time": "1 minute",
+    "Location": "Земли Диона",
+    "HP / MP": "3 862 / 1 657",
+    "P. Atk. / M. Atk.": "1 304 / 776",
+    "P. Def. / M. Def.": "477 / 364",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Misc. Lv. 19 Although unable to use magic, Dwarves are strong and good with their hands. They have sharp eyes and intelligent minds. Their business savvy is impressive, and they sometimes invent strange mechanical devices. Resist Full Magic Attack Lv. 1",
+    "Type": "Etc., Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30979",
-      "type": "npc",
-      "id": 30979,
-      "name": "Lu4",
-      "url": "/lu4/npc/30979-holy-ark-of-secrecy-3"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Misc. Lv. 19 Although unable to use magic, Dwarves are strong and good with their hands. They have sharp eyes and intelligent minds. Their business savvy is impressive, and they sometimes invent strange mechanical devices.",
-      "url": "/lu4/skill/4416-misc/19"
+      "name": "Misc.",
+      "url": "/lu4/skill/4416-misc"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

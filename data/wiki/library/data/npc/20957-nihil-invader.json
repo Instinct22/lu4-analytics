@@ -2,68 +2,93 @@
   "key": "npc:20957",
   "type": "npc",
   "id": 20957,
-  "name": "Lu4 Wiki: NPC Nihil Invader",
+  "name": "Nihil Invader",
   "url": "/lu4/npc/20957-nihil-invader",
-  "source_url": "https://masterwork.wiki/lu4/npc/20957-nihil-invader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20957-nihil-invader",
   "raw_html": "library/raw/lu4/npc/20957-nihil-invader.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 773 / 1 502",
+    "P. Atk. / M. Atk.": "1 170 / 696",
+    "P. Def. / M. Def.": "451 / 365",
+    "Accuracy / Evasion": "99 / 99",
+    "Exp / SP": "6 041 / 569",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (1/2x) Lv. 9 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 66"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20957",
-      "type": "npc",
-      "id": 20957,
-      "name": "Lu4",
-      "url": "/lu4/npc/20957-nihil-invader"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1/2x) Lv. 9",
-      "url": "/lu4/skill/4408-hp-increase-12x/9"
+      "name": "HP Increase (1/2x)",
+      "url": "/lu4/skill/4408-hp-increase-12x"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:32592",
+      "key": "item:57",
       "type": "item",
-      "id": 32592,
-      "name": "Unidentified Doom Shield B",
-      "url": "/lu4/item/32592-unidentified-doom-shield"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:4089",
+      "type": "item",
+      "id": 4089,
+      "name": "Doom Helmet Pattern NG",
+      "url": "/lu4/item/4089-doom-helmet-pattern"
+    },
+    {
+      "key": "item:4088",
+      "type": "item",
+      "id": 4088,
+      "name": "Blue Wolf Helmet Design NG",
+      "url": "/lu4/item/4088-blue-wolf-helmet-design"
+    },
+    {
+      "key": "item:4077",
+      "type": "item",
+      "id": 4077,
+      "name": "Doom Shield Fragment NG",
+      "url": "/lu4/item/4077-doom-shield-fragment"
     },
     {
       "key": "item:32366",
@@ -80,109 +105,60 @@
       "url": "/lu4/item/32365-unidentified-blue-wolf-helmet"
     },
     {
-      "key": "item:8614",
+      "key": "item:32592",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
+      "id": 32592,
+      "name": "Unidentified Doom Shield B",
+      "url": "/lu4/item/32592-unidentified-doom-shield"
     },
     {
-      "key": "item:8613",
+      "key": "item:1877",
       "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
     },
     {
-      "key": "item:8612",
+      "key": "item:1871",
       "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
     },
     {
-      "key": "item:8611",
+      "key": "item:1866",
       "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:8610",
+      "key": "item:4040",
       "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:8609",
+      "key": "item:4041",
       "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
-      "key": "item:8608",
+      "key": "item:1830",
       "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
+      "id": 1830,
+      "name": "Scroll of Escape: Castle NG",
+      "url": "/lu4/item/1830-scroll-of-escape-castle"
     },
     {
-      "key": "item:8607",
+      "key": "item:1344",
       "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
-    },
-    {
-      "key": "item:8600",
-      "type": "item",
-      "id": 8600,
-      "name": "Herb of Life NG",
-      "url": "/lu4/item/8600-herb-of-life"
+      "id": 1344,
+      "name": "Mithril Arrow A",
+      "url": "/lu4/item/1344-mithril-arrow"
     },
     {
       "key": "item:5276",
@@ -192,18 +168,39 @@
       "url": "/lu4/item/5276-recipe-greater-spiritshot-a-compressed-package100"
     },
     {
-      "key": "item:4089",
+      "key": "item:8600",
       "type": "item",
-      "id": 4089,
-      "name": "Doom Helmet Pattern NG",
-      "url": "/lu4/item/4089-doom-helmet-pattern"
+      "id": 8600,
+      "name": "Herb of Life NG",
+      "url": "/lu4/item/8600-herb-of-life"
     },
     {
-      "key": "item:4053",
+      "key": "item:8601",
       "type": "item",
-      "id": 4053,
-      "name": "Ring of Black Ore Gemstone NG",
-      "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
+    },
+    {
+      "key": "item:8602",
+      "type": "item",
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
+    },
+    {
+      "key": "item:8607",
+      "type": "item",
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
+    },
+    {
+      "key": "item:8609",
+      "type": "item",
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
     },
     {
       "key": "item:4052",
@@ -213,11 +210,11 @@
       "url": "/lu4/item/4052-earring-of-black-ore-piece"
     },
     {
-      "key": "item:1877",
+      "key": "item:4053",
       "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
+      "id": 4053,
+      "name": "Ring of Black Ore Gemstone NG",
+      "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
     }
   ]
 }

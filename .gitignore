@@ -1,6 +1,12 @@
 # Secrets — copy from .env.example for local setup
 .env
 
+# Full offline mirror of masterwork.wiki /lu4-b-w-c (see scripts/mirror_lu4_bwc_wiki.py)
+wikilu4/
+
+# Local wiki compare/merge scratch
+data/_tmp_wiki_fetch/
+
 # Python bytecode
 __pycache__/
 *.py[cod]

@@ -2,161 +2,95 @@
   "key": "npc:5033",
   "type": "npc",
   "id": 5033,
-  "name": "Lu4 Wiki: NPC Gatebound Ravager",
+  "name": "Gatebound Ravager",
   "url": "/lu4/npc/5033-gatebound-ravager",
-  "source_url": "https://masterwork.wiki/lu4/npc/5033-gatebound-ravager",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5033-gatebound-ravager",
   "raw_html": "library/raw/lu4/npc/5033-gatebound-ravager.html",
   "stats": {
-    "Location": "Запретные Врата"
+    "Respawn Time": "35 seconds ± 5 seconds",
+    "Location": "Запретные Врата",
+    "HP / MP": "7 315 / 1 110",
+    "P. Atk. / M. Atk.": "1 467 / 916",
+    "P. Def. / M. Def.": "384 / 319",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "8 120 / 812",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Grumpy Lv. 1 Strikes without warning. HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 13 Slightly Weak M. Def. Lv. 9 Slightly Weak P. Def. Lv. 9 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Mental Attack Resistance Lv. 3 Provides resistance against mental attack.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 65"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5033",
-      "type": "npc",
-      "id": 5033,
-      "name": "Lu4",
-      "url": "/lu4/npc/5033-gatebound-ravager"
-    },
-    {
-      "key": "location:75",
-      "type": "location",
-      "id": 75,
-      "name": "Запретные Врата",
-      "url": "/lu4/location/75-zapretnye-vrata"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 3 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/3"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32588",
-      "type": "item",
-      "id": 32588,
-      "name": "Unidentified Blue Wolf Tunic B",
-      "url": "/lu4/item/32588-unidentified-blue-wolf-tunic"
-    },
-    {
-      "key": "item:32439",
-      "type": "item",
-      "id": 32439,
-      "name": "Unidentified Star Buster B",
-      "url": "/lu4/item/32439-unidentified-star-buster"
-    },
-    {
-      "key": "item:32430",
-      "type": "item",
-      "id": 32430,
-      "name": "Unidentified Guardian Sword B",
-      "url": "/lu4/item/32430-unidentified-guardian-sword"
-    },
-    {
-      "key": "item:8348",
-      "type": "item",
-      "id": 8348,
-      "name": "Star Buster Head NG",
-      "url": "/lu4/item/8348-star-buster-head"
-    },
-    {
-      "key": "item:8330",
-      "type": "item",
-      "id": 8330,
-      "name": "Guardian Sword Blade NG",
-      "url": "/lu4/item/8330-guardian-sword-blade"
-    },
-    {
-      "key": "item:4999",
-      "type": "item",
-      "id": 4999,
-      "name": "Recipe: Sealed Doom Boots (60%) NG",
-      "url": "/lu4/item/4999-recipe-sealed-doom-boots-60"
-    },
-    {
-      "key": "item:4991",
-      "type": "item",
-      "id": 4991,
-      "name": "Recipe: Doom Helmet (60%) NG",
-      "url": "/lu4/item/4991-recipe-doom-helmet-60"
-    },
-    {
-      "key": "item:4990",
-      "type": "item",
-      "id": 4990,
-      "name": "Recipe: Blue Wolf Helmet (60%) NG",
-      "url": "/lu4/item/4990-recipe-blue-wolf-helmet-60"
-    },
-    {
-      "key": "item:4084",
-      "type": "item",
-      "id": 4084,
-      "name": "Blue Wolf Tunic Fabric NG",
-      "url": "/lu4/item/4084-blue-wolf-tunic-fabric"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -164,13 +98,6 @@
       "id": 4041,
       "name": "Mold Hardener NG",
       "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:3956",
-      "type": "item",
-      "id": 3956,
-      "name": "Recipe: Blessed Spiritshot A NG",
-      "url": "/lu4/item/3956-recipe-blessed-spiritshot-a"
     },
     {
       "key": "item:1881",
@@ -201,18 +128,102 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:8340",
+      "key": "item:3956",
       "type": "item",
-      "id": 8340,
-      "name": "Bones Head of Kaim Vanul NG",
-      "url": "/lu4/item/8340-bones-head-of-kaim-vanul"
+      "id": 3956,
+      "name": "Recipe: Blessed Spiritshot A NG",
+      "url": "/lu4/item/3956-recipe-blessed-spiritshot-a"
+    },
+    {
+      "key": "item:32588",
+      "type": "item",
+      "id": 32588,
+      "name": "Unidentified Blue Wolf Tunic B",
+      "url": "/lu4/item/32588-unidentified-blue-wolf-tunic"
+    },
+    {
+      "key": "item:4084",
+      "type": "item",
+      "id": 4084,
+      "name": "Blue Wolf Tunic Fabric NG",
+      "url": "/lu4/item/4084-blue-wolf-tunic-fabric"
+    },
+    {
+      "key": "item:32430",
+      "type": "item",
+      "id": 32430,
+      "name": "Unidentified Guardian Sword B",
+      "url": "/lu4/item/32430-unidentified-guardian-sword"
+    },
+    {
+      "key": "item:8330",
+      "type": "item",
+      "id": 8330,
+      "name": "Guardian Sword Blade NG",
+      "url": "/lu4/item/8330-guardian-sword-blade"
+    },
+    {
+      "key": "item:32439",
+      "type": "item",
+      "id": 32439,
+      "name": "Unidentified Star Buster B",
+      "url": "/lu4/item/32439-unidentified-star-buster"
+    },
+    {
+      "key": "item:8348",
+      "type": "item",
+      "id": 8348,
+      "name": "Star Buster Head NG",
+      "url": "/lu4/item/8348-star-buster-head"
+    },
+    {
+      "key": "item:4990",
+      "type": "item",
+      "id": 4990,
+      "name": "Recipe: Blue Wolf Helmet (60%) NG",
+      "url": "/lu4/item/4990-recipe-blue-wolf-helmet-60"
+    },
+    {
+      "key": "item:4999",
+      "type": "item",
+      "id": 4999,
+      "name": "Recipe: Sealed Doom Boots (60%) NG",
+      "url": "/lu4/item/4999-recipe-sealed-doom-boots-60"
+    },
+    {
+      "key": "item:4991",
+      "type": "item",
+      "id": 4991,
+      "name": "Recipe: Doom Helmet (60%) NG",
+      "url": "/lu4/item/4991-recipe-doom-helmet-60"
+    },
+    {
+      "key": "item:4973",
+      "type": "item",
+      "id": 4973,
+      "name": "Recipe: Earring of Black Ore (70%) NG",
+      "url": "/lu4/item/4973-recipe-earring-of-black-ore-70"
+    },
+    {
+      "key": "item:8306",
+      "type": "item",
+      "id": 8306,
+      "name": "Recipe: Wizard's Tear (60%) NG",
+      "url": "/lu4/item/8306-recipe-wizards-tear-60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
       "key": "item:6571",
@@ -236,6 +247,13 @@
       "url": "/lu4/item/4989-recipe-stockings-of-doom-60"
     },
     {
+      "key": "item:8340",
+      "type": "item",
+      "id": 8340,
+      "name": "Bones Head of Kaim Vanul NG",
+      "url": "/lu4/item/8340-bones-head-of-kaim-vanul"
+    },
+    {
       "key": "item:4119",
       "type": "item",
       "id": 4119,
@@ -248,6 +266,13 @@
       "id": 4118,
       "name": "Evil Spirit Head NG",
       "url": "/lu4/item/4118-evil-spirit-head"
+    },
+    {
+      "key": "item:5007",
+      "type": "item",
+      "id": 5007,
+      "name": "Recipe: Bow of Peril (60%) NG",
+      "url": "/lu4/item/5007-recipe-bow-of-peril-60"
     }
   ]
 }

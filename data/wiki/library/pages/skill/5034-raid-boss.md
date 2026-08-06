@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/5034-raid-boss
+- Path: /lu4/skill/5034-raid-boss
+- Type: skill
+- Key: skill:5034
+
+## Stats
+- Effect: This Golem was originally a follower of Argos during the war between Giants and Humans. He remained with his master after Argos' imprisonment by Einhasad into the cliff wall. He has devolved to the point that he no longer resembles a Lesser Giant and isn't sure why he is still there. Even Daimon the White-eyed cannot harm him in the Wall of Argos.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability This Golem was originally a follower of Argos during the war between Giants and Humans. He remained with his master after Argos' imprisonment by Einhasad into the cliff wall. He has devolved to the point that he no longer resembles a Lesser Giant and isn't sure why he is still there. Even Daimon the White-eyed cannot harm him in the Wall of Argos. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

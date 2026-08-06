@@ -2,24 +2,27 @@
   "key": "item:263",
   "type": "item",
   "id": 263,
-  "name": "Lu4 Wiki: Item Chakram",
+  "name": "Chakram",
   "url": "/lu4/item/263-chakram",
-  "source_url": "https://masterwork.wiki/lu4/item/263-chakram",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/263-chakram",
   "raw_html": "library/raw/lu4/item/263-chakram.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Health: Max HP +25%. Rsk. Haste: Atk. Spd. +14% when HP < 60%. Haste: Atk. Spd. +7%.",
+    "P. Atk. / M. Atk.": "130 / 61",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "1490",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Recipes": "Recipe: Chakram NG",
     "Soul Crystals": "Chakram Health C Chakram C Gemstone C NG (97 pcs.) Red Soul Crystal - Stage 5 NG Chakram Haste C Chakram C Gemstone C NG (97 pcs.) Green Soul Crystal - Stage 5 NG Chakram Rsk. Haste C Chakram C Gemstone C NG (97 pcs.) Blue Soul Crystal - Stage 5 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Fist / Two-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:263",
-      "type": "item",
-      "id": 263,
-      "name": "Lu4",
-      "url": "/lu4/item/263-chakram"
-    },
     {
       "key": "item:2311",
       "type": "item",
@@ -77,66 +80,73 @@
       "url": "/lu4/item/4656-blue-soul-crystal-stage-5"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25490",
       "type": "npc",
       "id": 25490,
-      "name": "Gwindorr Lv. 40",
+      "name": "Gwindorr",
       "url": "/lu4/npc/25490-gwindorr"
     },
     {
       "key": "npc:25115",
       "type": "npc",
       "id": 25115,
-      "name": "Icarus Sample 1 Lv. 40",
+      "name": "Icarus Sample 1",
       "url": "/lu4/npc/25115-icarus-sample-1"
     },
     {
       "key": "npc:21697",
       "type": "npc",
       "id": 21697,
-      "name": "Dimension Invader Elite Soldier Lv. 45",
+      "name": "Dimension Invader Elite Soldier",
       "url": "/lu4/npc/21697-dimension-invader-elite-soldier"
     },
     {
       "key": "npc:21683",
       "type": "npc",
       "id": 21683,
-      "name": "Dimension Invader Soldier Lv. 45",
+      "name": "Dimension Invader Soldier",
       "url": "/lu4/npc/21683-dimension-invader-soldier"
     },
     {
       "key": "npc:20795",
       "type": "npc",
       "id": 20795,
-      "name": "Blade Stakato Worker Lv. 42",
+      "name": "Blade Stakato Worker",
       "url": "/lu4/npc/20795-blade-stakato-worker"
     },
     {
       "key": "npc:20631",
       "type": "npc",
       "id": 20631,
-      "name": "Taik Orc Archer Lv. 41",
+      "name": "Taik Orc Archer",
       "url": "/lu4/npc/20631-taik-orc-archer"
     },
     {
       "key": "npc:20586",
       "type": "npc",
       "id": 20586,
-      "name": "Timak Orc Warrior Lv. 43",
+      "name": "Timak Orc Warrior",
       "url": "/lu4/npc/20586-timak-orc-warrior"
     },
     {
       "key": "npc:20565",
       "type": "npc",
       "id": 20565,
-      "name": "Enchanted Stone Golem Lv. 42",
+      "name": "Enchanted Stone Golem",
       "url": "/lu4/npc/20565-enchanted-stone-golem"
     },
     {
       "key": "npc:20135",
       "type": "npc",
       "id": 20135,
-      "name": "Alligator Lv. 40",
+      "name": "Alligator",
       "url": "/lu4/npc/20135-alligator"
     }
   ]

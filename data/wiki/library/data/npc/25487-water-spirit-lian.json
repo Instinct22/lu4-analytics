@@ -2,70 +2,65 @@
   "key": "npc:25487",
   "type": "npc",
   "id": 25487,
-  "name": "Lu4 Wiki: NPC Water Spirit Lian",
+  "name": "Water Spirit Lian",
   "url": "/lu4/npc/25487-water-spirit-lian",
-  "source_url": "https://masterwork.wiki/lu4/npc/25487-water-spirit-lian",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25487-water-spirit-lian",
   "raw_html": "library/raw/lu4/npc/25487-water-spirit-lian.html",
   "stats": {
-    "Location": "Поля Безмолвия"
+    "HP / MP": "207 870 / 8 254",
+    "P. Atk. / M. Atk.": "1 054 / 91",
+    "P. Def. / M. Def.": "611 / 689",
+    "Accuracy / Evasion": "91 / 91",
+    "Exp / SP": "1 120 000 / 105 938",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 The Water Spirit, he was born with Innadril's strong water spirits and loved by Goddess Eva. Reckless and petty, he enjoys evil tricks such as switching infants and causing floods in the middle of the night. To protect him from anyone seeking revenge, Eva gave him Guardian Spirits. Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Water Resistance Lv. 5 Resistant to Water attacks. Fire Vulnerability Lv. 1 Vulnerable to Fire attacks. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 40"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25487",
-      "type": "npc",
-      "id": 25487,
-      "name": "Lu4",
-      "url": "/lu4/npc/25487-water-spirit-lian"
-    },
-    {
-      "key": "location:116",
-      "type": "location",
-      "id": 116,
-      "name": "Поля Безмолвия",
-      "url": "/lu4/location/116-pola-bezmolvia"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4973",
       "type": "skill",
       "id": 4973,
-      "name": "Raid Boss Lv. 1 The Water Spirit, he was born with Innadril's strong water spirits and loved by Goddess Eva. Reckless and petty, he enjoys evil tricks such as switching infants and causing floods in the middle of the night. To protect him from anyone seeking revenge, Eva gave him Guardian Spirits.",
-      "url": "/lu4/skill/4973-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4973-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4010",
       "type": "skill",
       "id": 4010,
-      "name": "Water Resistance Lv. 5 Resistant to Water attacks.",
-      "url": "/lu4/skill/4010-water-resistance/5"
+      "name": "Water Resistance",
+      "url": "/lu4/skill/4010-water-resistance"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -75,123 +70,18 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:62",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 62,
+      "name": "Reinforced Mithril Boots C",
+      "url": "/lu4/item/62-reinforced-mithril-boots"
     },
     {
-      "key": "item:6575",
+      "key": "item:2430",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:2944",
-      "type": "item",
-      "id": 2944,
-      "name": "Karmian Gloves Fabric NG",
-      "url": "/lu4/item/2944-karmian-gloves-fabric"
-    },
-    {
-      "key": "item:2943",
-      "type": "item",
-      "id": 2943,
-      "name": "Chain Gloves Design NG",
-      "url": "/lu4/item/2943-chain-gloves-design"
-    },
-    {
-      "key": "item:2942",
-      "type": "item",
-      "id": 2942,
-      "name": "Reinforced Mithril Gloves Design NG",
-      "url": "/lu4/item/2942-reinforced-mithril-gloves-design"
-    },
-    {
-      "key": "item:2941",
-      "type": "item",
-      "id": 2941,
-      "name": "Boots of Seal Pattern NG",
-      "url": "/lu4/item/2941-boots-of-seal-pattern"
-    },
-    {
-      "key": "item:2940",
-      "type": "item",
-      "id": 2940,
-      "name": "Dwarven Chain Boots Part NG",
-      "url": "/lu4/item/2940-dwarven-chain-boots-part"
-    },
-    {
-      "key": "item:2939",
-      "type": "item",
-      "id": 2939,
-      "name": "Plate Leather Boots Lining NG",
-      "url": "/lu4/item/2939-plate-leather-boots-lining"
-    },
-    {
-      "key": "item:2938",
-      "type": "item",
-      "id": 2938,
-      "name": "Karmian Boots Fabric NG",
-      "url": "/lu4/item/2938-karmian-boots-fabric"
-    },
-    {
-      "key": "item:2937",
-      "type": "item",
-      "id": 2937,
-      "name": "Chain Boots Part NG",
-      "url": "/lu4/item/2937-chain-boots-part"
-    },
-    {
-      "key": "item:2454",
-      "type": "item",
-      "id": 2454,
-      "name": "Karmian Gloves C",
-      "url": "/lu4/item/2454-karmian-gloves"
-    },
-    {
-      "key": "item:2453",
-      "type": "item",
-      "id": 2453,
-      "name": "Chain Gloves C",
-      "url": "/lu4/item/2453-chain-gloves"
-    },
-    {
-      "key": "item:2452",
-      "type": "item",
-      "id": 2452,
-      "name": "Reinforced Mithril Gloves C",
-      "url": "/lu4/item/2452-reinforced-mithril-gloves"
-    },
-    {
-      "key": "item:2433",
-      "type": "item",
-      "id": 2433,
-      "name": "Boots of Seal C",
-      "url": "/lu4/item/2433-boots-of-seal"
-    },
-    {
-      "key": "item:2432",
-      "type": "item",
-      "id": 2432,
-      "name": "Dwarven Chain Boots C",
-      "url": "/lu4/item/2432-dwarven-chain-boots"
+      "id": 2430,
+      "name": "Karmian Boots C",
+      "url": "/lu4/item/2430-karmian-boots"
     },
     {
       "key": "item:2431",
@@ -201,11 +91,116 @@
       "url": "/lu4/item/2431-plated-leather-boots"
     },
     {
-      "key": "item:2430",
+      "key": "item:2432",
       "type": "item",
-      "id": 2430,
-      "name": "Karmian Boots C",
-      "url": "/lu4/item/2430-karmian-boots"
+      "id": 2432,
+      "name": "Dwarven Chain Boots C",
+      "url": "/lu4/item/2432-dwarven-chain-boots"
+    },
+    {
+      "key": "item:2433",
+      "type": "item",
+      "id": 2433,
+      "name": "Boots of Seal C",
+      "url": "/lu4/item/2433-boots-of-seal"
+    },
+    {
+      "key": "item:2452",
+      "type": "item",
+      "id": 2452,
+      "name": "Reinforced Mithril Gloves C",
+      "url": "/lu4/item/2452-reinforced-mithril-gloves"
+    },
+    {
+      "key": "item:2453",
+      "type": "item",
+      "id": 2453,
+      "name": "Chain Gauntlets C",
+      "url": "/lu4/item/2453-chain-gauntlets"
+    },
+    {
+      "key": "item:2454",
+      "type": "item",
+      "id": 2454,
+      "name": "Karmian Gloves C",
+      "url": "/lu4/item/2454-karmian-gloves"
+    },
+    {
+      "key": "item:2429",
+      "type": "item",
+      "id": 2429,
+      "name": "Chain Boots C",
+      "url": "/lu4/item/2429-chain-boots"
+    },
+    {
+      "key": "item:2937",
+      "type": "item",
+      "id": 2937,
+      "name": "Chain Boots Part NG",
+      "url": "/lu4/item/2937-chain-boots-part"
+    },
+    {
+      "key": "item:2938",
+      "type": "item",
+      "id": 2938,
+      "name": "Karmian Boots Fabric NG",
+      "url": "/lu4/item/2938-karmian-boots-fabric"
+    },
+    {
+      "key": "item:2939",
+      "type": "item",
+      "id": 2939,
+      "name": "Plate Leather Boots Lining NG",
+      "url": "/lu4/item/2939-plate-leather-boots-lining"
+    },
+    {
+      "key": "item:2940",
+      "type": "item",
+      "id": 2940,
+      "name": "Dwarven Chain Boots Part NG",
+      "url": "/lu4/item/2940-dwarven-chain-boots-part"
+    },
+    {
+      "key": "item:2941",
+      "type": "item",
+      "id": 2941,
+      "name": "Boots of Seal Pattern NG",
+      "url": "/lu4/item/2941-boots-of-seal-pattern"
+    },
+    {
+      "key": "item:2942",
+      "type": "item",
+      "id": 2942,
+      "name": "Reinforced Mithril Gloves Design NG",
+      "url": "/lu4/item/2942-reinforced-mithril-gloves-design"
+    },
+    {
+      "key": "item:2943",
+      "type": "item",
+      "id": 2943,
+      "name": "Chain Gauntlets Design NG",
+      "url": "/lu4/item/2943-chain-gauntlets-design"
+    },
+    {
+      "key": "item:2944",
+      "type": "item",
+      "id": 2944,
+      "name": "Karmian Gloves Fabric NG",
+      "url": "/lu4/item/2944-karmian-gloves-fabric"
+    },
+    {
+      "key": "item:1958",
+      "type": "item",
+      "id": 1958,
+      "name": "Reinforced Mithril Boots Design NG",
+      "url": "/lu4/item/1958-reinforced-mithril-boots-design"
+    },
+    {
+      "key": "item:89",
+      "type": "item",
+      "id": 89,
+      "name": "Big Hammer C",
+      "url": "/lu4/item/89-big-hammer"
     },
     {
       "key": "npc:25488",

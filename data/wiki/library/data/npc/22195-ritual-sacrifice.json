@@ -2,96 +2,107 @@
   "key": "npc:22195",
   "type": "npc",
   "id": 22195,
-  "name": "Lu4 Wiki: NPC Ritual Sacrifice",
+  "name": "Ritual Sacrifice",
   "url": "/lu4/npc/22195-ritual-sacrifice",
-  "source_url": "https://masterwork.wiki/lu4/npc/22195-ritual-sacrifice",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22195-ritual-sacrifice",
   "raw_html": "library/raw/lu4/npc/22195-ritual-sacrifice.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "18 803 / 2 126",
+    "P. Atk. / M. Atk.": "1 903 / 1 231",
+    "P. Def. / M. Def.": "515 / 680",
+    "Accuracy / Evasion": "125 / 144",
+    "Exp / SP": "8 054 / 2 000",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -10, Unholy 60",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Undead Lv. 36 Undead. High Lv. Lv. 9 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22195",
-      "type": "npc",
-      "id": 22195,
-      "name": "Lu4",
-      "url": "/lu4/npc/22195-ritual-sacrifice"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Undead Lv. 36 Undead.",
-      "url": "/lu4/skill/4417-undead/36"
+      "name": "Undead",
+      "url": "/lu4/skill/4417-undead"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 9 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/9"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:5162",
+      "type": "item",
+      "id": 5162,
+      "name": "Recipe: Spiritshot (S) Compressed Package (100%) NG",
+      "url": "/lu4/item/5162-recipe-spiritshot-s-compressed-package-100"
     },
     {
       "key": "item:5515",
@@ -106,13 +117,6 @@
       "id": 5167,
       "name": "Recipe: Blessed Spiritshot (S) Compressed Package (100%) NG",
       "url": "/lu4/item/5167-recipe-blessed-spiritshot-s-compressed-package-100"
-    },
-    {
-      "key": "item:5162",
-      "type": "item",
-      "id": 5162,
-      "name": "Recipe: Spiritshot (S) Compressed Package (100%) NG",
-      "url": "/lu4/item/5162-recipe-spiritshot-s-compressed-package-100"
     }
   ]
 }

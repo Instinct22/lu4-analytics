@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Tonar&#039;s Remains
+# Tonar's Remains
 
-- Source: https://masterwork.wiki/lu4/item/2912-tonars-remains
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2912-tonars-remains
 - Path: /lu4/item/2912-tonars-remains
 - Type: item
 - Key: item:2912
 
 ## Stats
+- Effect: The remains of the hero, Tonar, encased in an urn. Take this to the Ancestor Martankus in the Cave of Trials.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Tonar&#039;s Remains
-Lu4
-Eternal
-MasterWork
-Tonar's Remains
-NG
-Quest Item
-The remains of the hero, Tonar, encased in an urn. Take this to the Ancestor Martankus in the Cave of Trials.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Test of the War Spirit
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Tonar's Remains NG Quest Item The remains of the hero, Tonar, encased in an urn. Take this to the Ancestor Martankus in the Cave of Trials. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

@@ -2,103 +2,93 @@
   "key": "npc:20981",
   "type": "npc",
   "id": 20981,
-  "name": "Lu4 Wiki: NPC Mul's Wizard",
+  "name": "Mul's Wizard",
   "url": "/lu4/npc/20981-muls-wizard",
-  "source_url": "https://masterwork.wiki/lu4/npc/20981-muls-wizard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20981-muls-wizard",
   "raw_html": "library/raw/lu4/npc/20981-muls-wizard.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "27 663 / 1 541",
+    "P. Atk. / M. Atk.": "3 317 / 3 458",
+    "P. Def. / M. Def.": "845 / 794",
+    "Accuracy / Evasion": "100 / 100",
+    "Exp / SP": "68 183 / 6 818",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 67"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20981",
-      "type": "npc",
-      "id": 20981,
-      "name": "Lu4",
-      "url": "/lu4/npc/20981-muls-wizard"
-    },
-    {
-      "key": "location:88",
-      "type": "location",
-      "id": 88,
-      "name": "Башня Дерзости: 5-й этаж",
-      "url": "/lu4/location/88-basna-derzosti-5-j-etaz"
-    },
     {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:32374",
+      "key": "item:57",
       "type": "item",
-      "id": 32374,
-      "name": "Unidentified Sealed Dark Crystal Shield A",
-      "url": "/lu4/item/32374-unidentified-sealed-dark-crystal-shield"
-    },
-    {
-      "key": "item:5494",
-      "type": "item",
-      "id": 5494,
-      "name": "Sealed Dark Crystal Shield Fragment NG",
-      "url": "/lu4/item/5494-sealed-dark-crystal-shield-fragment"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -136,11 +126,18 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:57",
+      "key": "item:32374",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32374,
+      "name": "Unidentified Sealed Dark Crystal Shield A",
+      "url": "/lu4/item/32374-unidentified-sealed-dark-crystal-shield"
+    },
+    {
+      "key": "item:5494",
+      "type": "item",
+      "id": 5494,
+      "name": "Sealed Dark Crystal Shield Fragment NG",
+      "url": "/lu4/item/5494-sealed-dark-crystal-shield-fragment"
     }
   ]
 }

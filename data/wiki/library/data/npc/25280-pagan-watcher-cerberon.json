@@ -2,61 +2,51 @@
   "key": "npc:25280",
   "type": "npc",
   "id": 25280,
-  "name": "Lu4 Wiki: NPC Pagan Watcher Cerberon",
+  "name": "Pagan Watcher Cerberon",
   "url": "/lu4/npc/25280-pagan-watcher-cerberon",
-  "source_url": "https://masterwork.wiki/lu4/npc/25280-pagan-watcher-cerberon",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25280-pagan-watcher-cerberon",
   "raw_html": "library/raw/lu4/npc/25280-pagan-watcher-cerberon.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 248 928 / 4 527",
+    "P. Atk. / M. Atk.": "7 997 / 29 129",
+    "P. Def. / M. Def.": "972 / 1 099",
+    "Accuracy / Evasion": "116 / 106",
+    "Exp / SP": "2 722 500 / 477 279",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This brave Convict Soldier was dispatched by Einhasad to help her daughter, Anakim, after watching her struggle at the battle with Lilim. He was given powerful golden armor and may be the ancestor of today's Platinum Tribe. He valiantly protected Anakim during many battles before finally being slain in the Catacomb of the Apostate. When the Seal of the Seven Signs was broken, he was resurrected thanks to the power of Einhasad released in the Seal Stone. Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 55"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25280",
-      "type": "npc",
-      "id": 25280,
-      "name": "Lu4",
-      "url": "/lu4/npc/25280-pagan-watcher-cerberon"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4894",
       "type": "skill",
       "id": 4894,
-      "name": "Raid Boss Lv. 1 This brave Convict Soldier was dispatched by Einhasad to help her daughter, Anakim, after watching her struggle at the battle with Lilim. He was given powerful golden armor and may be the ancestor of today's Platinum Tribe. He valiantly protected Anakim during many battles before finally being slain in the Catacomb of the Apostate. When the Seal of the Seven Signs was broken, he was resurrected thanks to the power of Einhasad released in the Seal Stone.",
-      "url": "/lu4/skill/4894-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4894-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:32348",
-      "type": "item",
-      "id": 32348,
-      "name": "Unidentified Great Axe B",
-      "url": "/lu4/item/32348-unidentified-great-axe"
-    },
-    {
-      "key": "item:32340",
-      "type": "item",
-      "id": 32340,
-      "name": "Unidentified Arthro Nail B",
-      "url": "/lu4/item/32340-unidentified-arthro-nail"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -66,39 +56,18 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6574",
+      "key": "item:32340",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+      "id": 32340,
+      "name": "Unidentified Arthro Nail B",
+      "url": "/lu4/item/32340-unidentified-arthro-nail"
     },
     {
-      "key": "item:6573",
+      "key": "item:32348",
       "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:6572",
-      "type": "item",
-      "id": 6572,
-      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
-    },
-    {
-      "key": "item:4113",
-      "type": "item",
-      "id": 4113,
-      "name": "Great Axe Head NG",
-      "url": "/lu4/item/4113-great-axe-head"
+      "id": 32348,
+      "name": "Unidentified Great Axe B",
+      "url": "/lu4/item/32348-unidentified-great-axe"
     },
     {
       "key": "item:4111",
@@ -108,53 +77,11 @@
       "url": "/lu4/item/4111-arthro-nail-blade"
     },
     {
-      "key": "item:4051",
+      "key": "item:4113",
       "type": "item",
-      "id": 4051,
-      "name": "Adamantite Necklace Chain NG",
-      "url": "/lu4/item/4051-adamantite-necklace-chain"
-    },
-    {
-      "key": "item:4050",
-      "type": "item",
-      "id": 4050,
-      "name": "Adamantite Ring Wire NG",
-      "url": "/lu4/item/4050-adamantite-ring-wire"
-    },
-    {
-      "key": "item:4049",
-      "type": "item",
-      "id": 4049,
-      "name": "Adamantite Earring Gemstone NG",
-      "url": "/lu4/item/4049-adamantite-earring-gemstone"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:948",
-      "type": "item",
-      "id": 948,
-      "name": "Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:947",
-      "type": "item",
-      "id": 947,
-      "name": "Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+      "id": 4113,
+      "name": "Great Axe Head NG",
+      "url": "/lu4/item/4113-great-axe-head"
     },
     {
       "key": "item:918",
@@ -164,6 +91,13 @@
       "url": "/lu4/item/918-adamantite-necklace"
     },
     {
+      "key": "item:856",
+      "type": "item",
+      "id": 856,
+      "name": "Adamantite Earring B",
+      "url": "/lu4/item/856-adamantite-earring"
+    },
+    {
       "key": "item:887",
       "type": "item",
       "id": 887,
@@ -171,11 +105,81 @@
       "url": "/lu4/item/887-adamantite-ring"
     },
     {
-      "key": "item:856",
+      "key": "item:4051",
       "type": "item",
-      "id": 856,
-      "name": "Adamantite Earring B",
-      "url": "/lu4/item/856-adamantite-earring"
+      "id": 4051,
+      "name": "Adamantite Necklace Chain NG",
+      "url": "/lu4/item/4051-adamantite-necklace-chain"
+    },
+    {
+      "key": "item:4049",
+      "type": "item",
+      "id": 4049,
+      "name": "Adamantite Earring Gemstone NG",
+      "url": "/lu4/item/4049-adamantite-earring-gemstone"
+    },
+    {
+      "key": "item:4050",
+      "type": "item",
+      "id": 4050,
+      "name": "Adamantite Ring Wire NG",
+      "url": "/lu4/item/4050-adamantite-ring-wire"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:948",
+      "type": "item",
+      "id": 948,
+      "name": "Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
+    },
+    {
+      "key": "item:6572",
+      "type": "item",
+      "id": 6572,
+      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
+    },
+    {
+      "key": "item:947",
+      "type": "item",
+      "id": 947,
+      "name": "Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+    },
+    {
+      "key": "item:6571",
+      "type": "item",
+      "id": 6571,
+      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
     }
   ]
 }

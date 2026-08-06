@@ -2,98 +2,67 @@
   "key": "npc:20208",
   "type": "npc",
   "id": 20208,
-  "name": "Lu4 Wiki: NPC Ol Mahum Raider",
+  "name": "Ol Mahum Raider",
   "url": "/lu4/npc/20208-ol-mahum-raider",
-  "source_url": "https://masterwork.wiki/lu4/npc/20208-ol-mahum-raider",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20208-ol-mahum-raider",
   "raw_html": "library/raw/lu4/npc/20208-ol-mahum-raider.html",
   "stats": {
-    "Location": "Холмы Диона (+2) Холмы Диона Земли Диона Лагерь Партизан"
+    "Respawn Time": "25 seconds",
+    "Location": "Холмы Диона (+2) Холмы Диона Земли Диона Лагерь Партизан",
+    "HP / MP": "1 659 / 353",
+    "P. Atk. / M. Atk.": "94 / 52",
+    "P. Def. / M. Def.": "145 / 115",
+    "Accuracy / Evasion": "63 / 62",
+    "Exp / SP": "1 617 / 162",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 27"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20208",
-      "type": "npc",
-      "id": 20208,
-      "name": "Lu4",
-      "url": "/lu4/npc/20208-ol-mahum-raider"
-    },
-    {
-      "key": "location:244",
-      "type": "location",
-      "id": 244,
-      "name": "Холмы Диона",
-      "url": "/lu4/location/244-holmy-diona"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
-      "key": "location:50",
-      "type": "location",
-      "id": 50,
-      "name": "Лагерь Партизан",
-      "url": "/lu4/location/50-lager-partizan"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5220",
@@ -101,13 +70,6 @@
       "id": 5220,
       "name": "Metal Hardener NG",
       "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2023",
-      "type": "item",
-      "id": 2023,
-      "name": "Conjuror's Staff Head NG",
-      "url": "/lu4/item/2023-conjurors-staff-head"
     },
     {
       "key": "item:1885",
@@ -131,32 +93,18 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:433",
-      "type": "item",
-      "id": 433,
-      "name": "Elven Tunic D",
-      "url": "/lu4/item/433-elven-tunic"
-    },
-    {
-      "key": "item:414",
-      "type": "item",
-      "id": 414,
-      "name": "Lion Skin Gaiters D",
-      "url": "/lu4/item/414-lion-skin-gaiters"
-    },
-    {
-      "key": "item:275",
-      "type": "item",
-      "id": 275,
-      "name": "Long Bow D",
-      "url": "/lu4/item/275-long-bow"
-    },
-    {
       "key": "item:184",
       "type": "item",
       "id": 184,
       "name": "Conjuror's Staff D",
       "url": "/lu4/item/184-conjurors-staff"
+    },
+    {
+      "key": "item:2023",
+      "type": "item",
+      "id": 2023,
+      "name": "Conjuror's Staff Head NG",
+      "url": "/lu4/item/2023-conjurors-staff-head"
     },
     {
       "key": "item:182",
@@ -173,11 +121,60 @@
       "url": "/lu4/item/128-knights-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:275",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 275,
+      "name": "Long Bow D",
+      "url": "/lu4/item/275-long-bow"
+    },
+    {
+      "key": "item:433",
+      "type": "item",
+      "id": 433,
+      "name": "Elven Tunic D",
+      "url": "/lu4/item/433-elven-tunic"
+    },
+    {
+      "key": "item:414",
+      "type": "item",
+      "id": 414,
+      "name": "Lion Skin Gaiters D",
+      "url": "/lu4/item/414-lion-skin-gaiters"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
     },
     {
       "key": "item:2264",
@@ -199,20 +196,6 @@
       "id": 1936,
       "name": "White Tunic Pattern NG",
       "url": "/lu4/item/1936-white-tunic-pattern"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
     }
   ]
 }

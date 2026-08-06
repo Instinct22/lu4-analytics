@@ -2,118 +2,24 @@
   "key": "item:2286",
   "type": "item",
   "id": 2286,
-  "name": "Recipe",
+  "name": "Recipe: Bonebreaker",
   "url": "/lu4/item/2286-recipe-bonebreaker",
-  "source_url": "https://masterwork.wiki/lu4/item/2286-recipe-bonebreaker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2286-recipe-bonebreaker",
   "raw_html": "library/raw/lu4/item/2286-recipe-bonebreaker.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Bonebreaker'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "18 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "129",
     "Success Rate": "100%",
-    "Result": "Bonebreaker D"
+    "Result": "Bonebreaker D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2048",
-      "type": "item",
-      "id": 2048,
-      "name": "Bonebreaker Head NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "160"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "800"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "800"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "160"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "480"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "480"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "80"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "80"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "800"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "240"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "550"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "185"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2286",
-      "type": "item",
-      "id": 2286,
-      "name": "Lu4",
-      "url": "/lu4/item/2286-recipe-bonebreaker"
-    },
     {
       "key": "item:2048",
       "type": "item",
@@ -216,35 +122,35 @@
       "key": "npc:20779",
       "type": "npc",
       "id": 20779,
-      "name": "Ragna Orc Seer Lv. 39",
+      "name": "Ragna Orc Seer",
       "url": "/lu4/npc/20779-ragna-orc-seer"
     },
     {
       "key": "npc:20765",
       "type": "npc",
       "id": 20765,
-      "name": "Warrior of the Plains Lv. 38",
+      "name": "Warrior of the Plains",
       "url": "/lu4/npc/20765-warrior-of-the-plains"
     },
     {
       "key": "npc:20551",
       "type": "npc",
       "id": 20551,
-      "name": "Road Scavenger Lv. 37",
+      "name": "Road Scavenger",
       "url": "/lu4/npc/20551-road-scavenger"
     },
     {
       "key": "npc:21271",
       "type": "npc",
       "id": 21271,
-      "name": "Cave Ant Lv. 37",
+      "name": "Cave Ant",
       "url": "/lu4/npc/21271-cave-ant"
     },
     {
       "key": "npc:20553",
       "type": "npc",
       "id": 20553,
-      "name": "Windsus Lv. 39",
+      "name": "Windsus",
       "url": "/lu4/npc/20553-windsus"
     }
   ]

@@ -2,91 +2,65 @@
   "key": "npc:25016",
   "type": "npc",
   "id": 25016,
-  "name": "Lu4 Wiki: NPC The 3rd Underwater Guardian",
+  "name": "The 3rd Underwater Guardian",
   "url": "/lu4/npc/25016-the-3rd-underwater-guardian",
-  "source_url": "https://masterwork.wiki/lu4/npc/25016-the-3rd-underwater-guardian",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25016-the-3rd-underwater-guardian",
   "raw_html": "library/raw/lu4/npc/25016-the-3rd-underwater-guardian.html",
   "stats": {
-    "Location": "Сады Богини Евы"
+    "HP / MP": "752 885 / 5 257",
+    "P. Atk. / M. Atk.": "6 403 / 10 951",
+    "P. Def. / M. Def.": "993 / 1 199",
+    "Accuracy / Evasion": "111 / 121",
+    "Exp / SP": "3 060 000 / 522 780",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A mechanical golem owned by the Lord of Innadril Castle. The lord's family has been protected by Eva for generations. This golem was created to protect the Garden of Eva, made by a dwarven master artisan. It is a guard to fend off the Water Dragon Fafurion's troops, or invaders threatening the garden. The dwarven master made two other golems, but this third version was the strongest and became the last one remaining. Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 60"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25016",
-      "type": "npc",
-      "id": 25016,
-      "name": "Lu4",
-      "url": "/lu4/npc/25016-the-3rd-underwater-guardian"
-    },
-    {
-      "key": "location:121",
-      "type": "location",
-      "id": 121,
-      "name": "Сады Богини Евы",
-      "url": "/lu4/location/121-sady-bogini-evy"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4795",
       "type": "skill",
       "id": 4795,
-      "name": "Raid Boss Lv. 1 A mechanical golem owned by the Lord of Innadril Castle. The lord's family has been protected by Eva for generations. This golem was created to protect the Garden of Eva, made by a dwarven master artisan. It is a guard to fend off the Water Dragon Fafurion's troops, or invaders threatening the garden. The dwarven master made two other golems, but this third version was the strongest and became the last one remaining.",
-      "url": "/lu4/skill/4795-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4795-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32405",
+      "key": "item:9910",
       "type": "item",
-      "id": 32405,
-      "name": "Unidentified Sealed Doom Boots B",
-      "url": "/lu4/item/32405-unidentified-sealed-doom-boots"
-    },
-    {
-      "key": "item:32404",
-      "type": "item",
-      "id": 32404,
-      "name": "Unidentified Sealed Blue Wolf Boots B",
-      "url": "/lu4/item/32404-unidentified-sealed-blue-wolf-boots"
-    },
-    {
-      "key": "item:32401",
-      "type": "item",
-      "id": 32401,
-      "name": "Unidentified Sealed Doom Gloves B",
-      "url": "/lu4/item/32401-unidentified-sealed-doom-gloves"
-    },
-    {
-      "key": "item:32400",
-      "type": "item",
-      "id": 32400,
-      "name": "Unidentified Sealed Blue Wolf Gloves B",
-      "url": "/lu4/item/32400-unidentified-sealed-blue-wolf-gloves"
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
       "key": "item:32341",
@@ -103,27 +77,6 @@
       "url": "/lu4/item/32326-unidentified-lance"
     },
     {
-      "key": "item:9910",
-      "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:6572",
-      "type": "item",
-      "id": 6572,
-      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
-    },
-    {
       "key": "item:4120",
       "type": "item",
       "id": 4120,
@@ -138,11 +91,32 @@
       "url": "/lu4/item/4115-lance-blade"
     },
     {
-      "key": "item:4099",
+      "key": "item:32400",
       "type": "item",
-      "id": 4099,
-      "name": "Sealed Doom Boots Part NG",
-      "url": "/lu4/item/4099-sealed-doom-boots-part"
+      "id": 32400,
+      "name": "Unidentified Sealed Blue Wolf Gloves B",
+      "url": "/lu4/item/32400-unidentified-sealed-blue-wolf-gloves"
+    },
+    {
+      "key": "item:32401",
+      "type": "item",
+      "id": 32401,
+      "name": "Unidentified Sealed Doom Gloves B",
+      "url": "/lu4/item/32401-unidentified-sealed-doom-gloves"
+    },
+    {
+      "key": "item:32404",
+      "type": "item",
+      "id": 32404,
+      "name": "Unidentified Sealed Blue Wolf Boots B",
+      "url": "/lu4/item/32404-unidentified-sealed-blue-wolf-boots"
+    },
+    {
+      "key": "item:32405",
+      "type": "item",
+      "id": 32405,
+      "name": "Unidentified Sealed Doom Boots B",
+      "url": "/lu4/item/32405-unidentified-sealed-doom-boots"
     },
     {
       "key": "item:4096",
@@ -166,6 +140,13 @@
       "url": "/lu4/item/4090-sealed-blue-wolf-boots-design"
     },
     {
+      "key": "item:4099",
+      "type": "item",
+      "id": 4099,
+      "name": "Sealed Doom Boots Part NG",
+      "url": "/lu4/item/4099-sealed-doom-boots-part"
+    },
+    {
       "key": "item:948",
       "type": "item",
       "id": 948,
@@ -173,11 +154,25 @@
       "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
+      "key": "item:6572",
+      "type": "item",
+      "id": 6572,
+      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
+    },
+    {
       "key": "item:947",
       "type": "item",
       "id": 947,
       "name": "Scroll: Enchant Weapon (B-Grade) NG",
       "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+    },
+    {
+      "key": "item:6571",
+      "type": "item",
+      "id": 6571,
+      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
     },
     {
       "key": "npc:25017",

@@ -2,96 +2,135 @@
   "key": "npc:24252",
   "type": "npc",
   "id": 24252,
-  "name": "Lu4 Wiki: NPC",
+  "name": "Construct, Lv. 33",
   "url": "/lu4/npc/24252",
-  "source_url": "https://masterwork.wiki/lu4/npc/24252",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/24252",
   "raw_html": "library/raw/lu4/npc/24252.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "125 330 / 2 275",
+    "P. Atk. / M. Atk.": "280 / 128",
+    "P. Def. / M. Def.": "351 / 439",
+    "Accuracy / Evasion": "66 / 66",
+    "Exp / SP": "549 172 / 35 415",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Strong P. Def. Lv. 14 Strong M. Def. Lv. 14 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Resist Full Magic Attack Lv. 2",
+    "Grade": "D",
+    "Type": "Construct, Lv. 33"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:24252",
-      "type": "npc",
-      "id": 24252,
-      "name": "Lu4",
-      "url": "/lu4/npc/24252"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 2",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/2"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:2928",
+      "key": "item:2449",
       "type": "item",
-      "id": 2928,
-      "name": "Elven Mithril Gloves Design NG",
-      "url": "/lu4/item/2928-elven-mithril-gloves-design"
+      "id": 2449,
+      "name": "Brigandine Gauntlets D",
+      "url": "/lu4/item/2449-brigandine-gauntlets"
+    },
+    {
+      "key": "item:2425",
+      "type": "item",
+      "id": 2425,
+      "name": "Brigandine Boots D",
+      "url": "/lu4/item/2425-brigandine-boots"
+    },
+    {
+      "key": "item:2448",
+      "type": "item",
+      "id": 2448,
+      "name": "Manticore Skin Gloves D",
+      "url": "/lu4/item/2448-manticore-skin-gloves"
+    },
+    {
+      "key": "item:2424",
+      "type": "item",
+      "id": 2424,
+      "name": "Manticore Skin Boots D",
+      "url": "/lu4/item/2424-manticore-skin-boots"
+    },
+    {
+      "key": "item:2450",
+      "type": "item",
+      "id": 2450,
+      "name": "Elven Mithril Gloves D",
+      "url": "/lu4/item/2450-elven-mithril-gloves"
+    },
+    {
+      "key": "item:2426",
+      "type": "item",
+      "id": 2426,
+      "name": "Elven Mithril Boots D",
+      "url": "/lu4/item/2426-elven-mithril-boots"
     },
     {
       "key": "item:2927",
@@ -101,25 +140,18 @@
       "url": "/lu4/item/2927-brigandine-gauntlets-pattern"
     },
     {
-      "key": "item:2926",
-      "type": "item",
-      "id": 2926,
-      "name": "Manticore Skin Gloves Lining NG",
-      "url": "/lu4/item/2926-manticore-skin-gloves-lining"
-    },
-    {
-      "key": "item:2925",
-      "type": "item",
-      "id": 2925,
-      "name": "Elven Mithril Boots Design NG",
-      "url": "/lu4/item/2925-elven-mithril-boots-design"
-    },
-    {
       "key": "item:2924",
       "type": "item",
       "id": 2924,
       "name": "Brigandine Boots Design NG",
       "url": "/lu4/item/2924-brigandine-boots-design"
+    },
+    {
+      "key": "item:2926",
+      "type": "item",
+      "id": 2926,
+      "name": "Manticore Skin Gloves Lining NG",
+      "url": "/lu4/item/2926-manticore-skin-gloves-lining"
     },
     {
       "key": "item:2923",
@@ -129,11 +161,18 @@
       "url": "/lu4/item/2923-manticore-skin-boot-lining"
     },
     {
-      "key": "item:2450",
+      "key": "item:2928",
       "type": "item",
-      "id": 2450,
-      "name": "Elven Mithril Gloves D",
-      "url": "/lu4/item/2450-elven-mithril-gloves"
+      "id": 2928,
+      "name": "Elven Mithril Gloves Design NG",
+      "url": "/lu4/item/2928-elven-mithril-gloves-design"
+    },
+    {
+      "key": "item:2925",
+      "type": "item",
+      "id": 2925,
+      "name": "Elven Mithril Boots Design NG",
+      "url": "/lu4/item/2925-elven-mithril-boots-design"
     }
   ]
 }

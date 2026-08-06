@@ -2,154 +2,67 @@
   "key": "npc:20220",
   "type": "npc",
   "id": 20220,
-  "name": "Lu4 Wiki: NPC Dicor",
+  "name": "Dicor",
   "url": "/lu4/npc/20220-dicor",
-  "source_url": "https://masterwork.wiki/lu4/npc/20220-dicor",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20220-dicor",
   "raw_html": "library/raw/lu4/npc/20220-dicor.html",
   "stats": {
-    "Location": "Башня Крумы: 2-й этаж"
+    "Respawn Time": "1 minute ± 5 seconds",
+    "Location": "Башня Крумы: 2-й этаж",
+    "HP / MP": "8 115 / 819",
+    "P. Atk. / M. Atk.": "500 / 277",
+    "P. Def. / M. Def.": "231 / 249",
+    "Accuracy / Evasion": "80 / 80",
+    "Exp / SP": "9 832 / 983",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 13",
+    "Grade": "NG",
+    "Type": "Plant, Lv. 47"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20220",
-      "type": "npc",
-      "id": 20220,
-      "name": "Lu4",
-      "url": "/lu4/npc/20220-dicor"
-    },
-    {
-      "key": "location:55",
-      "type": "location",
-      "id": 55,
-      "name": "Башня Крумы: 2-й этаж",
-      "url": "/lu4/location/55-basna-krumy-2-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-plants/5"
+      "name": "Plants",
+      "url": "/lu4/skill/4416-plants"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:2949",
-      "type": "item",
-      "id": 2949,
-      "name": "Dwarven Chain Gloves Design NG",
-      "url": "/lu4/item/2949-dwarven-chain-gloves-design"
-    },
-    {
-      "key": "item:2456",
-      "type": "item",
-      "id": 2456,
-      "name": "Dwarven Chain Gloves C",
-      "url": "/lu4/item/2456-dwarven-chain-gloves"
-    },
-    {
-      "key": "item:2077",
-      "type": "item",
-      "id": 2077,
-      "name": "Shamshir Blade NG",
-      "url": "/lu4/item/2077-shamshir-blade"
-    },
-    {
-      "key": "item:1911",
-      "type": "item",
-      "id": 1911,
-      "name": "Earring of Protection Gemstone NG",
-      "url": "/lu4/item/1911-earring-of-protection-gemstone"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:853",
-      "type": "item",
-      "id": 853,
-      "name": "Earring of Protection C",
-      "url": "/lu4/item/853-earring-of-protection"
-    },
-    {
-      "key": "item:73",
-      "type": "item",
-      "id": 73,
-      "name": "Shamshir C",
-      "url": "/lu4/item/73-shamshir"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -159,11 +72,95 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2951",
+      "key": "item:4040",
       "type": "item",
-      "id": 2951,
-      "name": "Rind Leather Gloves Design NG",
-      "url": "/lu4/item/2951-rind-leather-gloves-design"
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:2456",
+      "type": "item",
+      "id": 2456,
+      "name": "Dwarven Chain Gauntlets C",
+      "url": "/lu4/item/2456-dwarven-chain-gauntlets"
+    },
+    {
+      "key": "item:2949",
+      "type": "item",
+      "id": 2949,
+      "name": "Dwarven Chain Gauntlets Design NG",
+      "url": "/lu4/item/2949-dwarven-chain-gauntlets-design"
+    },
+    {
+      "key": "item:853",
+      "type": "item",
+      "id": 853,
+      "name": "Earring of Protection C",
+      "url": "/lu4/item/853-earring-of-protection"
+    },
+    {
+      "key": "item:1911",
+      "type": "item",
+      "id": 1911,
+      "name": "Earring of Protection Gemstone NG",
+      "url": "/lu4/item/1911-earring-of-protection-gemstone"
+    },
+    {
+      "key": "item:73",
+      "type": "item",
+      "id": 73,
+      "name": "Shamshir C",
+      "url": "/lu4/item/73-shamshir"
+    },
+    {
+      "key": "item:2077",
+      "type": "item",
+      "id": 2077,
+      "name": "Shamshir Blade NG",
+      "url": "/lu4/item/2077-shamshir-blade"
+    },
+    {
+      "key": "item:1895",
+      "type": "item",
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
     },
     {
       "key": "item:2326",
@@ -194,11 +191,11 @@
       "url": "/lu4/item/1913-necklace-of-protection-gemstone"
     },
     {
-      "key": "item:1895",
+      "key": "item:2951",
       "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
+      "id": 2951,
+      "name": "Rind Leather Gloves Design NG",
+      "url": "/lu4/item/2951-rind-leather-gloves-design"
     }
   ]
 }

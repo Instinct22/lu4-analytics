@@ -2,24 +2,26 @@
   "key": "item:7888",
   "type": "item",
   "id": 7888,
-  "name": "Lu4 Wiki: Item Ecliptic Sword",
+  "name": "Ecliptic Sword",
   "url": "/lu4/item/7888-ecliptic-sword",
-  "source_url": "https://masterwork.wiki/lu4/item/7888-ecliptic-sword",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/7888-ecliptic-sword",
   "raw_html": "library/raw/lu4/item/7888-ecliptic-sword.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Empower: M. Atk. +20%, Consumption MP for Magic skills +10%. Magic Silence: Casts 'Special Ability: Magic Silence' Lv.4 on target with 10% chance. Acumen: Casting Spd. +15%.",
+    "P. Atk. / M. Atk.": "125 / 111",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "2452 Crystallization Failed Enchant +0 2452 - +1 2497 - +2 2542 - +3 2587 - +4 2677 1451 +5 2767 1541 +6 2857 1631 +7 2947 1721 +8 3037 1811 +9 3127 1901 +10 3217 1991 +11 3307 2081 +12 3397 2171",
+    "NPC Sell Price": "2 356 750 Adena",
+    "Weight": "1380",
+    "P. Crit. Rate.": "8",
     "Recipes": "Recipe: Ecliptic Sword (100%) NG",
     "Soul Crystals": "Ecliptic Sword Empower C Gemstone C NG (555 pcs.) Red Soul Crystal - Stage 8 NG Ecliptic Sword C Ecliptic Sword Acumen C Gemstone C NG (555 pcs.) Green Soul Crystal - Stage 8 NG Ecliptic Sword C Ecliptic Sword Magic Silence C Gemstone C NG (555 pcs.) Blue Soul Crystal - Stage 8 NG Ecliptic Sword C",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Sword / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:7888",
-      "type": "item",
-      "id": 7888,
-      "name": "Lu4",
-      "url": "/lu4/item/7888-ecliptic-sword"
-    },
     {
       "key": "item:8304",
       "type": "item",
@@ -80,63 +82,77 @@
       "key": "npc:36616",
       "type": "npc",
       "id": 36616,
-      "name": "Fianna Arinel Lv. 50",
+      "name": "Fianna Arinel",
       "url": "/lu4/npc/36616-fianna-arinel"
     },
     {
       "key": "npc:34659",
       "type": "npc",
       "id": 34659,
-      "name": "Hunter Gargoyle Lv. 52",
+      "name": "Hunter Gargoyle",
       "url": "/lu4/npc/34659-hunter-gargoyle"
+    },
+    {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
     },
     {
       "key": "npc:25420",
       "type": "npc",
       "id": 25420,
-      "name": "Orfen's Handmaiden Lv. 48",
+      "name": "Orfen's Handmaiden",
       "url": "/lu4/npc/25420-orfens-handmaiden"
     },
     {
       "key": "npc:22076",
       "type": "npc",
       "id": 22076,
-      "name": "Deadly Ginzu Golem V Lv. 53",
+      "name": "Deadly Ginzu Golem V",
       "url": "/lu4/npc/22076-deadly-ginzu-golem-v"
     },
     {
       "key": "npc:22074",
       "type": "npc",
       "id": 22074,
-      "name": "Epic Cannon Golem Lv. 53",
+      "name": "Epic Cannon Golem",
       "url": "/lu4/npc/22074-epic-cannon-golem"
     },
     {
       "key": "npc:21634",
       "type": "npc",
       "id": 21634,
-      "name": "Crimson Doll Blader Lv. 53",
+      "name": "Crimson Doll Blader",
       "url": "/lu4/npc/21634-crimson-doll-blader"
     },
     {
       "key": "npc:20951",
       "type": "npc",
       "id": 20951,
-      "name": "Pobby's Maid Lv. 53",
+      "name": "Pobby's Maid",
       "url": "/lu4/npc/20951-pobbys-maid"
     },
     {
       "key": "npc:20845",
       "type": "npc",
       "id": 20845,
-      "name": "Pirate Zombie Captain Lv. 52",
+      "name": "Pirate Zombie Captain",
       "url": "/lu4/npc/20845-pirate-zombie-captain"
     },
     {
       "key": "npc:20678",
       "type": "npc",
       "id": 20678,
-      "name": "Tortured Undead Lv. 53",
+      "name": "Tortured Undead",
       "url": "/lu4/npc/20678-tortured-undead"
     }
   ]

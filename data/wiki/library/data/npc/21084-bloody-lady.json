@@ -2,154 +2,81 @@
   "key": "npc:21084",
   "type": "npc",
   "id": 21084,
-  "name": "Lu4 Wiki: NPC Bloody Lady",
+  "name": "Bloody Lady",
   "url": "/lu4/npc/21084-bloody-lady",
-  "source_url": "https://masterwork.wiki/lu4/npc/21084-bloody-lady",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21084-bloody-lady",
   "raw_html": "library/raw/lu4/npc/21084-bloody-lady.html",
   "stats": {
-    "Location": "Логово Антараса"
+    "Respawn Time": "3 minutes, 20 seconds ± 15 seconds",
+    "Location": "Логово Антараса",
+    "HP / MP": "12 217 / 1 814",
+    "P. Atk. / M. Atk.": "1 012 / 604",
+    "P. Def. / M. Def.": "320 / 298",
+    "Accuracy / Evasion": "93 / 93",
+    "Exp / SP": "15 084 / 1 508",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 5, Unholy 40",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 One-handed Sword Lv. 3 One-handed Sword",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 60"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21084",
-      "type": "npc",
-      "id": 21084,
-      "name": "Lu4",
-      "url": "/lu4/npc/21084-bloody-lady"
-    },
-    {
-      "key": "location:45",
-      "type": "location",
-      "id": 45,
-      "name": "Логово Антараса",
-      "url": "/lu4/location/45-logovo-antarasa"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32595",
-      "type": "item",
-      "id": 32595,
-      "name": "Unidentified Zubei's Helmet B",
-      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
-    },
-    {
-      "key": "item:32594",
-      "type": "item",
-      "id": 32594,
-      "name": "Unidentified Avadon Breastplate B",
-      "url": "/lu4/item/32594-unidentified-avadon-breastplate"
-    },
-    {
-      "key": "item:32364",
-      "type": "item",
-      "id": 32364,
-      "name": "Unidentified Avadon Circlet B",
-      "url": "/lu4/item/32364-unidentified-avadon-circlet"
-    },
-    {
-      "key": "item:8310",
-      "type": "item",
-      "id": 8310,
-      "name": "Recipe: Spell Breaker (60%) NG",
-      "url": "/lu4/item/8310-recipe-spell-breaker-60"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5549",
@@ -157,41 +84,6 @@
       "id": 5549,
       "name": "Metallic Thread NG",
       "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:4970",
-      "type": "item",
-      "id": 4970,
-      "name": "Recipe: Arthro Nail (60%) NG",
-      "url": "/lu4/item/4970-recipe-arthro-nail-60"
-    },
-    {
-      "key": "item:4940",
-      "type": "item",
-      "id": 4940,
-      "name": "Recipe: Zubei's Breastplate (60%) NG",
-      "url": "/lu4/item/4940-recipe-zubeis-breastplate-60"
-    },
-    {
-      "key": "item:4102",
-      "type": "item",
-      "id": 4102,
-      "name": "Zubei's Helmet Design NG",
-      "url": "/lu4/item/4102-zubeis-helmet-design"
-    },
-    {
-      "key": "item:4072",
-      "type": "item",
-      "id": 4072,
-      "name": "Avadon Circlet Pattern NG",
-      "url": "/lu4/item/4072-avadon-circlet-pattern"
-    },
-    {
-      "key": "item:4064",
-      "type": "item",
-      "id": 4064,
-      "name": "Avadon Breastplate Part NG",
-      "url": "/lu4/item/4064-avadon-breastplate-part"
     },
     {
       "key": "item:4044",
@@ -213,6 +105,125 @@
       "id": 1873,
       "name": "Silver Nugget NG",
       "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1832",
+      "type": "item",
+      "id": 1832,
+      "name": "Greater Antidote NG",
+      "url": "/lu4/item/1832-greater-antidote"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32594",
+      "type": "item",
+      "id": 32594,
+      "name": "Unidentified Avadon Breastplate B",
+      "url": "/lu4/item/32594-unidentified-avadon-breastplate"
+    },
+    {
+      "key": "item:4064",
+      "type": "item",
+      "id": 4064,
+      "name": "Avadon Breastplate Part NG",
+      "url": "/lu4/item/4064-avadon-breastplate-part"
+    },
+    {
+      "key": "item:32364",
+      "type": "item",
+      "id": 32364,
+      "name": "Unidentified Avadon Circlet B",
+      "url": "/lu4/item/32364-unidentified-avadon-circlet"
+    },
+    {
+      "key": "item:4072",
+      "type": "item",
+      "id": 4072,
+      "name": "Avadon Circlet Pattern NG",
+      "url": "/lu4/item/4072-avadon-circlet-pattern"
+    },
+    {
+      "key": "item:32595",
+      "type": "item",
+      "id": 32595,
+      "name": "Unidentified Zubei's Helmet B",
+      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
+    },
+    {
+      "key": "item:4102",
+      "type": "item",
+      "id": 4102,
+      "name": "Zubei's Helmet Design NG",
+      "url": "/lu4/item/4102-zubeis-helmet-design"
+    },
+    {
+      "key": "item:4970",
+      "type": "item",
+      "id": 4970,
+      "name": "Recipe: Arthro Nail (60%) NG",
+      "url": "/lu4/item/4970-recipe-arthro-nail-60"
+    },
+    {
+      "key": "item:4940",
+      "type": "item",
+      "id": 4940,
+      "name": "Recipe: Zubei's Breastplate (60%) NG",
+      "url": "/lu4/item/4940-recipe-zubeis-breastplate-60"
+    },
+    {
+      "key": "item:8310",
+      "type": "item",
+      "id": 8310,
+      "name": "Recipe: Spell Breaker (60%) NG",
+      "url": "/lu4/item/8310-recipe-spell-breaker-60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
+    },
+    {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
       "key": "item:4953",
@@ -248,20 +259,6 @@
       "id": 4069,
       "name": "Tunic of Zubei Fabric NG",
       "url": "/lu4/item/4069-tunic-of-zubei-fabric"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
     }
   ]
 }

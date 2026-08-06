@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Mysterious Spirit Ore
+# Mysterious Spirit Ore
 
-- Source: https://masterwork.wiki/lu4/item/2653-mysterious-spirit-ore
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2653-mysterious-spirit-ore
 - Path: /lu4/item/2653-mysterious-spirit-ore
 - Type: item
 - Key: item:2653
 
 ## Stats
+- Effect: A mysterious Spirit Ore obtained after slaying neer ghoul berserkers. Take this to Master Terry.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Mysterious Spirit Ore
-Lu4
-Eternal
-MasterWork
-Mysterious Spirit Ore
-NG
-Quest Item
-A mysterious Spirit Ore obtained after slaying neer ghoul berserkers. Take this to Master Terry.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-Trial of the Seeker
-35 ~ 85
-Quest
-Levels
-Trial of the Seeker
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Mysterious Spirit Ore NG Quest Item A mysterious Spirit Ore obtained after slaying neer ghoul berserkers. Take this to Master Terry. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

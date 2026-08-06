@@ -2,231 +2,88 @@
   "key": "npc:20199",
   "type": "npc",
   "id": 20199,
-  "name": "Lu4 Wiki: NPC Amber Basilisk",
+  "name": "Amber Basilisk",
   "url": "/lu4/npc/20199-amber-basilisk",
-  "source_url": "https://masterwork.wiki/lu4/npc/20199-amber-basilisk",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20199-amber-basilisk",
   "raw_html": "library/raw/lu4/npc/20199-amber-basilisk.html",
   "stats": {
-    "Location": "Земля Казненных (+2) Земля Казненных Укрепление Бреки Земли Гирана"
+    "Respawn Time": "20 seconds",
+    "Location": "Земля Казненных (+2) Земля Казненных Укрепление Бреки Земли Гирана",
+    "HP / MP": "954 / 402",
+    "P. Atk. / M. Atk.": "113 / 57",
+    "P. Def. / M. Def.": "169 / 139",
+    "Accuracy / Evasion": "63 / 63",
+    "Exp / SP": "1 018 / 102",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 30"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20199",
-      "type": "npc",
-      "id": 20199,
-      "name": "Lu4",
-      "url": "/lu4/npc/20199-amber-basilisk"
-    },
-    {
-      "key": "location:51",
-      "type": "location",
-      "id": 51,
-      "name": "Земля Казненных",
-      "url": "/lu4/location/51-zemla-kaznennyh"
-    },
-    {
-      "key": "location:216",
-      "type": "location",
-      "id": 216,
-      "name": "Укрепление Бреки",
-      "url": "/lu4/location/216-ukreplenie-breki"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:8337",
-      "type": "item",
-      "id": 8337,
-      "name": "Priest Mace Head NG",
-      "url": "/lu4/item/8337-priest-mace-head"
-    },
-    {
-      "key": "item:7890",
-      "type": "item",
-      "id": 7890,
-      "name": "Priest Mace D",
-      "url": "/lu4/item/7890-priest-mace"
-    },
-    {
-      "key": "item:6035",
-      "type": "item",
-      "id": 6035,
-      "name": "Magic Haste Potion NG",
-      "url": "/lu4/item/6035-magic-haste-potion"
-    },
-    {
-      "key": "item:2250",
-      "type": "item",
-      "id": 2250,
-      "name": "Recipe: Bone Arrow NG",
-      "url": "/lu4/item/2250-recipe-bone-arrow"
-    },
-    {
-      "key": "item:1901",
-      "type": "item",
-      "id": 1901,
-      "name": "Tiger's Eye Earring Stone NG",
-      "url": "/lu4/item/1901-tigers-eye-earring-stone"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:849",
-      "type": "item",
-      "id": 849,
-      "name": "Tiger's Eye Earring D",
-      "url": "/lu4/item/849-tigers-eye-earring"
-    },
-    {
-      "key": "item:223",
-      "type": "item",
-      "id": 223,
-      "name": "Kukuri D",
-      "url": "/lu4/item/223-kukuri"
-    },
-    {
-      "key": "item:144",
-      "type": "item",
-      "id": 144,
-      "name": "Sword of Occult D",
-      "url": "/lu4/item/144-sword-of-occult"
-    },
-    {
-      "key": "item:143",
-      "type": "item",
-      "id": 143,
-      "name": "Sword of Mystic D",
-      "url": "/lu4/item/143-sword-of-mystic"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "item:57",
@@ -236,11 +93,144 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:2250",
+      "type": "item",
+      "id": 2250,
+      "name": "Recipe: Bone Arrow NG",
+      "url": "/lu4/item/2250-recipe-bone-arrow"
+    },
+    {
+      "key": "item:6035",
+      "type": "item",
+      "id": 6035,
+      "name": "Magic Haste Potion NG",
+      "url": "/lu4/item/6035-magic-haste-potion"
+    },
+    {
       "key": "item:47",
       "type": "item",
       "id": 47,
       "name": "Mithril Helmet D",
       "url": "/lu4/item/47-mithril-helmet"
+    },
+    {
+      "key": "item:223",
+      "type": "item",
+      "id": 223,
+      "name": "Kukuri D",
+      "url": "/lu4/item/223-kukuri"
+    },
+    {
+      "key": "item:7890",
+      "type": "item",
+      "id": 7890,
+      "name": "Priest Mace D",
+      "url": "/lu4/item/7890-priest-mace"
+    },
+    {
+      "key": "item:8337",
+      "type": "item",
+      "id": 8337,
+      "name": "Priest Mace Head NG",
+      "url": "/lu4/item/8337-priest-mace-head"
+    },
+    {
+      "key": "item:143",
+      "type": "item",
+      "id": 143,
+      "name": "Sword of Mystic D",
+      "url": "/lu4/item/143-sword-of-mystic"
+    },
+    {
+      "key": "item:144",
+      "type": "item",
+      "id": 144,
+      "name": "Sword of Occult D",
+      "url": "/lu4/item/144-sword-of-occult"
+    },
+    {
+      "key": "item:849",
+      "type": "item",
+      "id": 849,
+      "name": "Tiger's Eye Earring D",
+      "url": "/lu4/item/849-tigers-eye-earring"
+    },
+    {
+      "key": "item:1901",
+      "type": "item",
+      "id": 1901,
+      "name": "Tiger's Eye Earring Stone NG",
+      "url": "/lu4/item/1901-tigers-eye-earring-stone"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1834",
+      "type": "item",
+      "id": 1834,
+      "name": "Emergency Dressing NG",
+      "url": "/lu4/item/1834-emergency-dressing"
     },
     {
       "key": "item:2183",
@@ -255,13 +245,6 @@
       "id": 2024,
       "name": "Elven Bow Shaft NG",
       "url": "/lu4/item/2024-elven-bow-shaft"
-    },
-    {
-      "key": "item:1834",
-      "type": "item",
-      "id": 1834,
-      "name": "Emergency Dressing NG",
-      "url": "/lu4/item/1834-emergency-dressing"
     }
   ]
 }

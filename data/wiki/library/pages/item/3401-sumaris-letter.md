@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Sumari&#039;s Letter
+# Sumari's Letter
 
-- Source: https://masterwork.wiki/lu4/item/3401-sumaris-letter
+- Source: https://masterwork.wiki/lu4-b-w-c/item/3401-sumaris-letter
 - Path: /lu4/item/3401-sumaris-letter
 - Type: item
 - Key: item:3401
 
 ## Stats
+- Effect: A letter from Blacksmith Sumari to Seer Somak in the Town of Dion.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Sumari&#039;s Letter
-Lu4
-Eternal
-MasterWork
-Sumari's Letter
-NG
-Quest Item
-A letter from Blacksmith Sumari to Seer Somak in the Town of Dion.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Test of the Lord
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Sumari's Letter NG Quest Item A letter from Blacksmith Sumari to Seer Somak in the Town of Dion. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

@@ -2,117 +2,121 @@
   "key": "npc:25249",
   "type": "npc",
   "id": 25249,
-  "name": "Lu4 Wiki: NPC Menacing Palatanos",
+  "name": "Menacing Palatanos",
   "url": "/lu4/npc/25249-menacing-palatanos",
-  "source_url": "https://masterwork.wiki/lu4/npc/25249-menacing-palatanos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25249-menacing-palatanos",
   "raw_html": "library/raw/lu4/npc/25249-menacing-palatanos.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 659 901 / 3 347",
+    "P. Atk. / M. Atk.": "21 724 / 13 686",
+    "P. Def. / M. Def.": "1 577 / 1 701",
+    "Accuracy / Evasion": "131 / 131",
+    "Exp / SP": "5 343 750 / 847 950",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire -13, Water 20, Wind 20, Earth 20, Holy -32, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This plant-shaped monster is found near the Blazing Swamp. According to one theory, Palatanos is the result of a failed experiment. After Ipos arose from purgatory, his influence and magic were not the equal of Hallate, and he was unable to create the same kind of powerful underlings. Too proud to ask Hallate for help, however, he tried honing his skills on relatively simple monsters. Despite Palatanos' strange origin and appearance, he can still be a potentially dangerous adversary. Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Resist Full Magic Attack Lv. 1 Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Plant, Lv. 75"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25249",
-      "type": "npc",
-      "id": 25249,
-      "name": "Lu4",
-      "url": "/lu4/npc/25249-menacing-palatanos"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4881",
       "type": "skill",
       "id": 4881,
-      "name": "Raid Boss Lv. 1 This plant-shaped monster is found near the Blazing Swamp. According to one theory, Palatanos is the result of a failed experiment. After Ipos arose from purgatory, his influence and magic were not the equal of Hallate, and he was unable to create the same kind of powerful underlings. Too proud to ask Hallate for help, however, he tried honing his skills on relatively simple monsters. Despite Palatanos' strange origin and appearance, he can still be a potentially dangerous adversary.",
-      "url": "/lu4/skill/4881-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4881-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-plants/5"
+      "name": "Plants",
+      "url": "/lu4/skill/4416-plants"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "item:9910",
@@ -122,25 +126,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6702",
+      "key": "item:6689",
       "type": "item",
-      "id": 6702,
-      "name": "Sealed Imperial Crusader Gaiters Pattern NG",
-      "url": "/lu4/item/6702-sealed-imperial-crusader-gaiters-pattern"
-    },
-    {
-      "key": "item:6701",
-      "type": "item",
-      "id": 6701,
-      "name": "Sealed Imperial Crusader Breastplate Part NG",
-      "url": "/lu4/item/6701-sealed-imperial-crusader-breastplate-part"
-    },
-    {
-      "key": "item:6697",
-      "type": "item",
-      "id": 6697,
-      "name": "Arcana Mace Head NG",
-      "url": "/lu4/item/6697-arcana-mace-head"
+      "id": 6689,
+      "name": "Basalt Battlehammer Head NG",
+      "url": "/lu4/item/6689-basalt-battlehammer-head"
     },
     {
       "key": "item:6693",
@@ -150,6 +140,13 @@
       "url": "/lu4/item/6693-dragon-hunter-axe-blade"
     },
     {
+      "key": "item:6697",
+      "type": "item",
+      "id": 6697,
+      "name": "Arcana Mace Head NG",
+      "url": "/lu4/item/6697-arcana-mace-head"
+    },
+    {
       "key": "item:6690",
       "type": "item",
       "id": 6690,
@@ -157,25 +154,18 @@
       "url": "/lu4/item/6690-imperial-staff-head"
     },
     {
-      "key": "item:6689",
+      "key": "item:6701",
       "type": "item",
-      "id": 6689,
-      "name": "Basalt Battlehammer Head NG",
-      "url": "/lu4/item/6689-basalt-battlehammer-head"
+      "id": 6701,
+      "name": "Sealed Imperial Crusader Breastplate Part NG",
+      "url": "/lu4/item/6701-sealed-imperial-crusader-breastplate-part"
     },
     {
-      "key": "item:6578",
+      "key": "item:6702",
       "type": "item",
-      "id": 6578,
-      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
-    },
-    {
-      "key": "item:6577",
-      "type": "item",
-      "id": 6577,
-      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
-      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
+      "id": 6702,
+      "name": "Sealed Imperial Crusader Gaiters Pattern NG",
+      "url": "/lu4/item/6702-sealed-imperial-crusader-gaiters-pattern"
     },
     {
       "key": "item:960",
@@ -185,11 +175,25 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
+      "key": "item:6578",
+      "type": "item",
+      "id": 6578,
+      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+    },
+    {
       "key": "item:959",
       "type": "item",
       "id": 959,
       "name": "Scroll: Enchant Weapon (S-Grade) NG",
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
+    },
+    {
+      "key": "item:6577",
+      "type": "item",
+      "id": 6577,
+      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
+      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
     },
     {
       "key": "npc:25250",

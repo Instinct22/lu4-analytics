@@ -2,126 +2,74 @@
   "key": "npc:20331",
   "type": "npc",
   "id": 20331,
-  "name": "Lu4 Wiki: NPC Monster Eye Tracker",
+  "name": "Monster Eye Tracker",
   "url": "/lu4/npc/20331-monster-eye-tracker",
-  "source_url": "https://masterwork.wiki/lu4/npc/20331-monster-eye-tracker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20331-monster-eye-tracker",
   "raw_html": "library/raw/lu4/npc/20331-monster-eye-tracker.html",
   "stats": {
-    "Location": "Заброшенный Угольный Рудник"
+    "Respawn Time": "20 seconds",
+    "Location": "Заброшенный Угольный Рудник",
+    "HP / MP": "265 / 133",
+    "P. Atk. / M. Atk.": "22 / 10",
+    "P. Def. / M. Def.": "74 / 54",
+    "Accuracy / Evasion": "43 / 43",
+    "Exp / SP": "283 / 28",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 10"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20331",
-      "type": "npc",
-      "id": 20331,
-      "name": "Lu4",
-      "url": "/lu4/npc/20331-monster-eye-tracker"
-    },
-    {
-      "key": "location:66",
-      "type": "location",
-      "id": 66,
-      "name": "Заброшенный Угольный Рудник",
-      "url": "/lu4/location/66-zabrosennyj-ugolnyj-rudnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1796",
-      "type": "item",
-      "id": 1796,
-      "name": "Recipe: Leather Tunic NG",
-      "url": "/lu4/item/1796-recipe-leather-tunic"
-    },
-    {
-      "key": "item:906",
-      "type": "item",
-      "id": 906,
-      "name": "Necklace of Knowledge NG",
-      "url": "/lu4/item/906-necklace-of-knowledge"
-    },
-    {
-      "key": "item:875",
-      "type": "item",
-      "id": 875,
-      "name": "Ring of Knowledge NG",
-      "url": "/lu4/item/875-ring-of-knowledge"
-    },
-    {
-      "key": "item:734",
-      "type": "item",
-      "id": 734,
-      "name": "Haste Potion NG",
-      "url": "/lu4/item/734-haste-potion"
-    },
-    {
-      "key": "item:113",
-      "type": "item",
-      "id": 113,
-      "name": "Mystic's Earring NG",
-      "url": "/lu4/item/113-mystics-earring"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -131,11 +79,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2007",
+      "key": "item:113",
       "type": "item",
-      "id": 2007,
-      "name": "Bow Shaft NG",
-      "url": "/lu4/item/2007-bow-shaft"
+      "id": 113,
+      "name": "Mystic's Earring NG",
+      "url": "/lu4/item/113-mystics-earring"
+    },
+    {
+      "key": "item:875",
+      "type": "item",
+      "id": 875,
+      "name": "Ring of Knowledge NG",
+      "url": "/lu4/item/875-ring-of-knowledge"
+    },
+    {
+      "key": "item:906",
+      "type": "item",
+      "id": 906,
+      "name": "Necklace of Knowledge NG",
+      "url": "/lu4/item/906-necklace-of-knowledge"
+    },
+    {
+      "key": "item:734",
+      "type": "item",
+      "id": 734,
+      "name": "Haste Potion NG",
+      "url": "/lu4/item/734-haste-potion"
+    },
+    {
+      "key": "item:1796",
+      "type": "item",
+      "id": 1796,
+      "name": "Recipe: Leather Tunic NG",
+      "url": "/lu4/item/1796-recipe-leather-tunic"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
     },
     {
       "key": "item:2005",
@@ -145,11 +142,11 @@
       "url": "/lu4/item/2005-broadsword-blade"
     },
     {
-      "key": "item:1871",
+      "key": "item:2007",
       "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 2007,
+      "name": "Bow Shaft NG",
+      "url": "/lu4/item/2007-bow-shaft"
     }
   ]
 }

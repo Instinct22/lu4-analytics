@@ -2,119 +2,88 @@
   "key": "npc:21136",
   "type": "npc",
   "id": 21136,
-  "name": "Lu4 Wiki: NPC Dead Pit Horror",
+  "name": "Dead Pit Horror",
   "url": "/lu4/npc/21136-dead-pit-horror",
-  "source_url": "https://masterwork.wiki/lu4/npc/21136-dead-pit-horror",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21136-dead-pit-horror",
   "raw_html": "library/raw/lu4/npc/21136-dead-pit-horror.html",
   "stats": {
-    "Location": "Мифриловый Рудник"
+    "Respawn Time": "50 seconds",
+    "Location": "Мифриловый Рудник",
+    "HP / MP": "3 489 / 371",
+    "P. Atk. / M. Atk.": "133 / 56",
+    "P. Def. / M. Def.": "110 / 97",
+    "Accuracy / Evasion": "61 / 71",
+    "Exp / SP": "3 825 / 383",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 28"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21136",
-      "type": "npc",
-      "id": 21136,
-      "name": "Lu4",
-      "url": "/lu4/npc/21136-dead-pit-horror"
-    },
-    {
-      "key": "location:65",
-      "type": "location",
-      "id": 65,
-      "name": "Мифриловый Рудник",
-      "url": "/lu4/location/65-mifrilovyj-rudnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:2446",
+      "key": "item:57",
       "type": "item",
-      "id": 2446,
-      "name": "Reinforced Leather Gloves D",
-      "url": "/lu4/item/2446-reinforced-leather-gloves"
-    },
-    {
-      "key": "item:2042",
-      "type": "item",
-      "id": 2042,
-      "name": "Crucifix of Blood Piece NG",
-      "url": "/lu4/item/2042-crucifix-of-blood-piece"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1834",
@@ -124,11 +93,25 @@
       "url": "/lu4/item/1834-emergency-dressing"
     },
     {
-      "key": "item:912",
+      "key": "item:1867",
       "type": "item",
-      "id": 912,
-      "name": "Near Forest Necklace D",
-      "url": "/lu4/item/912-near-forest-necklace"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
     },
     {
       "key": "item:318",
@@ -138,11 +121,25 @@
       "url": "/lu4/item/318-crucifix-of-blood"
     },
     {
-      "key": "item:57",
+      "key": "item:2042",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2042,
+      "name": "Crucifix of Blood Piece NG",
+      "url": "/lu4/item/2042-crucifix-of-blood-piece"
+    },
+    {
+      "key": "item:912",
+      "type": "item",
+      "id": 912,
+      "name": "Near Forest Necklace D",
+      "url": "/lu4/item/912-near-forest-necklace"
+    },
+    {
+      "key": "item:2446",
+      "type": "item",
+      "id": 2446,
+      "name": "Reinforced Leather Gloves D",
+      "url": "/lu4/item/2446-reinforced-leather-gloves"
     },
     {
       "key": "item:2265",

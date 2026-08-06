@@ -2,61 +2,65 @@
   "key": "npc:25044",
   "type": "npc",
   "id": 25044,
-  "name": "Lu4 Wiki: NPC Bariona",
+  "name": "Bariona",
   "url": "/lu4/npc/25044-bariona",
-  "source_url": "https://masterwork.wiki/lu4/npc/25044-bariona",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25044-bariona",
   "raw_html": "library/raw/lu4/npc/25044-bariona.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "639 583 / 1 296",
+    "P. Atk. / M. Atk.": "1 013 / 332",
+    "P. Def. / M. Def.": "1 343 / 1 746",
+    "Accuracy / Evasion": "106 / 106",
+    "Exp / SP": "2 224 090 / 238 098",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 The Knight of Elmoreden, the Commander of the soldiers studying the Tower of Insolence, under order of General Karte. As the right arm of General Karte, he is a brave knight willing to go to Hell if ordered, for like the general, he has an immortal body. He received his secret powers from the Devil Rahha, who also warned him to watch Tirak closely. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 55"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25044",
-      "type": "npc",
-      "id": 25044,
-      "name": "Lu4",
-      "url": "/lu4/npc/25044-bariona"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4805",
       "type": "skill",
       "id": 4805,
-      "name": "Raid Boss Lv. 1 The Knight of Elmoreden, the Commander of the soldiers studying the Tower of Insolence, under order of General Karte. As the right arm of General Karte, he is a brave knight willing to go to Hell if ordered, for like the general, he has an immortal body. He received his secret powers from the Devil Rahha, who also warned him to watch Tirak closely.",
-      "url": "/lu4/skill/4805-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4805-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:49800",
@@ -66,18 +70,102 @@
       "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:32595",
+      "key": "item:2960",
       "type": "item",
-      "id": 32595,
-      "name": "Unidentified Zubei's Helmet B",
-      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
+      "id": 2960,
+      "name": "Drake Leather Boots Design NG",
+      "url": "/lu4/item/2960-drake-leather-boots-design"
     },
     {
-      "key": "item:32364",
+      "key": "item:2964",
       "type": "item",
-      "id": 32364,
-      "name": "Unidentified Avadon Circlet B",
-      "url": "/lu4/item/32364-unidentified-avadon-circlet"
+      "id": 2964,
+      "name": "Divine Gloves Pattern NG",
+      "url": "/lu4/item/2964-divine-gloves-pattern"
+    },
+    {
+      "key": "item:2963",
+      "type": "item",
+      "id": 2963,
+      "name": "Full Plate Gauntlets Part NG",
+      "url": "/lu4/item/2963-full-plate-gauntlets-part"
+    },
+    {
+      "key": "item:2962",
+      "type": "item",
+      "id": 2962,
+      "name": "Drake Leather Gloves Design NG",
+      "url": "/lu4/item/2962-drake-leather-gloves-design"
+    },
+    {
+      "key": "item:2961",
+      "type": "item",
+      "id": 2961,
+      "name": "Full Plate Boots Part NG",
+      "url": "/lu4/item/2961-full-plate-boots-part"
+    },
+    {
+      "key": "item:2955",
+      "type": "item",
+      "id": 2955,
+      "name": "Theca Leather Gloves Texture NG",
+      "url": "/lu4/item/2955-theca-leather-gloves-texture"
+    },
+    {
+      "key": "item:2954",
+      "type": "item",
+      "id": 2954,
+      "name": "Theca Leather Boots Texture NG",
+      "url": "/lu4/item/2954-theca-leather-boots-texture"
+    },
+    {
+      "key": "item:2463",
+      "type": "item",
+      "id": 2463,
+      "name": "Divine Gloves C",
+      "url": "/lu4/item/2463-divine-gloves"
+    },
+    {
+      "key": "item:2462",
+      "type": "item",
+      "id": 2462,
+      "name": "Full Plate Gauntlets C",
+      "url": "/lu4/item/2462-full-plate-gauntlets"
+    },
+    {
+      "key": "item:2461",
+      "type": "item",
+      "id": 2461,
+      "name": "Drake Leather Gloves C",
+      "url": "/lu4/item/2461-drake-leather-gloves"
+    },
+    {
+      "key": "item:2460",
+      "type": "item",
+      "id": 2460,
+      "name": "Theca Leather Gloves C",
+      "url": "/lu4/item/2460-theca-leather-gloves"
+    },
+    {
+      "key": "item:2438",
+      "type": "item",
+      "id": 2438,
+      "name": "Full Plate Boots C",
+      "url": "/lu4/item/2438-full-plate-boots"
+    },
+    {
+      "key": "item:2437",
+      "type": "item",
+      "id": 2437,
+      "name": "Drake Leather Boots C",
+      "url": "/lu4/item/2437-drake-leather-boots"
+    },
+    {
+      "key": "item:2436",
+      "type": "item",
+      "id": 2436,
+      "name": "Theca Leather Boots C",
+      "url": "/lu4/item/2436-theca-leather-boots"
     },
     {
       "key": "item:8176",
@@ -87,20 +175,6 @@
       "url": "/lu4/item/8176-destruction-tombstone"
     },
     {
-      "key": "item:4606",
-      "type": "item",
-      "id": 4606,
-      "name": "Greater Dye of DEX <Dex+3 Con-3> NG",
-      "url": "/lu4/item/4606-greater-dye-of-dex-dex3-con-3"
-    },
-    {
-      "key": "item:4605",
-      "type": "item",
-      "id": 4605,
-      "name": "Greater Dye of DEX <Dex+3 Str-3> NG",
-      "url": "/lu4/item/4605-greater-dye-of-dex-dex3-str-3"
-    },
-    {
       "key": "item:4604",
       "type": "item",
       "id": 4604,
@@ -108,11 +182,11 @@
       "url": "/lu4/item/4604-greater-dye-of-con-con3-dex-3"
     },
     {
-      "key": "item:2964",
+      "key": "item:952",
       "type": "item",
-      "id": 2964,
-      "name": "Divine Gloves Pattern NG",
-      "url": "/lu4/item/2964-divine-gloves-pattern"
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
       "key": "npc:25045",

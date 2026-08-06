@@ -2,131 +2,107 @@
   "key": "npc:21377",
   "type": "npc",
   "id": 21377,
-  "name": "Lu4 Wiki: NPC Scarlet Stakato Soldier",
+  "name": "Scarlet Stakato Soldier",
   "url": "/lu4/npc/21377-scarlet-stakato-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21377-scarlet-stakato-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21377-scarlet-stakato-soldier",
   "raw_html": "library/raw/lu4/npc/21377-scarlet-stakato-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "22 143 / 1 784",
+    "P. Atk. / M. Atk.": "1 972 / 1 337",
+    "P. Def. / M. Def.": "409 / 425",
+    "Accuracy / Evasion": "122 / 136",
+    "Exp / SP": "77 109 / 3 775",
+    "Attack Attribute": "Earth 50",
+    "Defense Attributes": "Fire 20, Water 20, Wind 0, Earth 93, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. One-handed Sword Lv. 3 One-handed Sword Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. High Lv. Lv. 5 NPC High Level",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 78"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21377",
-      "type": "npc",
-      "id": 21377,
-      "name": "Lu4",
-      "url": "/lu4/npc/21377-scarlet-stakato-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 5 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/5"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32375",
-      "type": "item",
-      "id": 32375,
-      "name": "Unidentified Sealed Tallum Plate Armor A",
-      "url": "/lu4/item/32375-unidentified-sealed-tallum-plate-armor"
-    },
-    {
-      "key": "item:32370",
-      "type": "item",
-      "id": 32370,
-      "name": "Unidentified Sealed Dark Crystal Gaiters A",
-      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
-    },
-    {
-      "key": "item:32369",
-      "type": "item",
-      "id": 32369,
-      "name": "Unidentified Sealed Dark Crystal Breastplate A",
-      "url": "/lu4/item/32369-unidentified-sealed-dark-crystal-breastplate"
-    },
-    {
-      "key": "item:6696",
-      "type": "item",
-      "id": 6696,
-      "name": "Heavens Divider Edge NG",
-      "url": "/lu4/item/6696-heavens-divider-edge"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6688",
@@ -134,6 +110,13 @@
       "id": 6688,
       "name": "Forgotten Blade Edge NG",
       "url": "/lu4/item/6688-forgotten-blade-edge"
+    },
+    {
+      "key": "item:6696",
+      "type": "item",
+      "id": 6696,
+      "name": "Heavens Divider Edge NG",
+      "url": "/lu4/item/6696-heavens-divider-edge"
     },
     {
       "key": "item:5524",
@@ -155,6 +138,27 @@
       "id": 5520,
       "name": "Sealed Dark Crystal Breastplate Pattern NG",
       "url": "/lu4/item/5520-sealed-dark-crystal-breastplate-pattern"
+    },
+    {
+      "key": "item:32375",
+      "type": "item",
+      "id": 32375,
+      "name": "Unidentified Sealed Tallum Plate Armor A",
+      "url": "/lu4/item/32375-unidentified-sealed-tallum-plate-armor"
+    },
+    {
+      "key": "item:32370",
+      "type": "item",
+      "id": 32370,
+      "name": "Unidentified Sealed Dark Crystal Gaiters A",
+      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
+    },
+    {
+      "key": "item:32369",
+      "type": "item",
+      "id": 32369,
+      "name": "Unidentified Sealed Dark Crystal Breastplate A",
+      "url": "/lu4/item/32369-unidentified-sealed-dark-crystal-breastplate"
     },
     {
       "key": "item:4042",
@@ -206,18 +210,11 @@
       "url": "/lu4/item/1344-mithril-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:5546",
-      "type": "item",
-      "id": 5546,
-      "name": "Sword of Miracles Edge NG",
-      "url": "/lu4/item/5546-sword-of-miracles-edge"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:5545",
@@ -232,6 +229,13 @@
       "id": 1808,
       "name": "Recipe: Soulshot (S-Grade) NG",
       "url": "/lu4/item/1808-recipe-soulshot-s-grade"
+    },
+    {
+      "key": "item:5546",
+      "type": "item",
+      "id": 5546,
+      "name": "Sword of Miracles Edge NG",
+      "url": "/lu4/item/5546-sword-of-miracles-edge"
     }
   ]
 }

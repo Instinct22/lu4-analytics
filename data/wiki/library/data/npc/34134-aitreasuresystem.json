@@ -2,28 +2,22 @@
   "key": "npc:34134",
   "type": "npc",
   "id": 34134,
-  "name": "Lu4 Wiki: NPC ai_treasure_system",
+  "name": "ai_treasure_system",
   "url": "/lu4/npc/34134-aitreasuresystem",
-  "source_url": "https://masterwork.wiki/lu4/npc/34134-aitreasuresystem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/34134-aitreasuresystem",
   "raw_html": "library/raw/lu4/npc/34134-aitreasuresystem.html",
   "stats": {
-    "Location": "Нейтральные Воды"
+    "Respawn Time": "10 seconds",
+    "Location": "Нейтральные Воды",
+    "HP / MP": "3 862 / 1 657",
+    "P. Atk. / M. Atk.": "1 304 / 776",
+    "P. Def. / M. Def.": "477 / 364",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Type": "Dwarf, Lv. 70"
   },
   "materials": [],
-  "links": [
-    {
-      "key": "npc:34134",
-      "type": "npc",
-      "id": 34134,
-      "name": "Lu4",
-      "url": "/lu4/npc/34134-aitreasuresystem"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    }
-  ]
+  "links": []
 }

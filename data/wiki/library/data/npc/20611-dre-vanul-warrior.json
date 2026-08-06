@@ -2,133 +2,88 @@
   "key": "npc:20611",
   "type": "npc",
   "id": 20611,
-  "name": "Lu4 Wiki: NPC Dre Vanul Warrior",
+  "name": "Dre Vanul Warrior",
   "url": "/lu4/npc/20611-dre-vanul-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/20611-dre-vanul-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20611-dre-vanul-warrior",
   "raw_html": "library/raw/lu4/npc/20611-dre-vanul-warrior.html",
   "stats": {
-    "Location": "Забытый Храм"
+    "Respawn Time": "57 seconds",
+    "Location": "Забытый Храм",
+    "HP / MP": "4 272 / 441",
+    "P. Atk. / M. Atk.": "177 / 107",
+    "P. Def. / M. Def.": "140 / 112",
+    "Accuracy / Evasion": "65 / 65",
+    "Exp / SP": "4 682 / 468",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 32"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20611",
-      "type": "npc",
-      "id": 20611,
-      "name": "Lu4",
-      "url": "/lu4/npc/20611-dre-vanul-warrior"
-    },
-    {
-      "key": "location:28",
-      "type": "location",
-      "id": 28,
-      "name": "Забытый Храм",
-      "url": "/lu4/location/28-zabytyj-hram"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
-      "key": "item:2924",
+      "key": "item:57",
       "type": "item",
-      "id": 2924,
-      "name": "Brigandine Boots Design NG",
-      "url": "/lu4/item/2924-brigandine-boots-design"
-    },
-    {
-      "key": "item:2922",
-      "type": "item",
-      "id": 2922,
-      "name": "Brigandine Helmet Design NG",
-      "url": "/lu4/item/2922-brigandine-helmet-design"
-    },
-    {
-      "key": "item:2425",
-      "type": "item",
-      "id": 2425,
-      "name": "Brigandine Boots D",
-      "url": "/lu4/item/2425-brigandine-boots"
-    },
-    {
-      "key": "item:2411",
-      "type": "item",
-      "id": 2411,
-      "name": "Brigandine Helmet D",
-      "url": "/lu4/item/2411-brigandine-helmet"
-    },
-    {
-      "key": "item:2276",
-      "type": "item",
-      "id": 2276,
-      "name": "Recipe: Maingauche NG",
-      "url": "/lu4/item/2276-recipe-maingauche"
-    },
-    {
-      "key": "item:2270",
-      "type": "item",
-      "id": 2270,
-      "name": "Recipe: Goat Head Staff NG",
-      "url": "/lu4/item/2270-recipe-goat-head-staff"
-    },
-    {
-      "key": "item:2036",
-      "type": "item",
-      "id": 2036,
-      "name": "Skull Breaker Head NG",
-      "url": "/lu4/item/2036-skull-breaker-head"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1884",
@@ -173,6 +128,34 @@
       "url": "/lu4/item/1829-scroll-of-escape-clan-hall"
     },
     {
+      "key": "item:2425",
+      "type": "item",
+      "id": 2425,
+      "name": "Brigandine Boots D",
+      "url": "/lu4/item/2425-brigandine-boots"
+    },
+    {
+      "key": "item:2924",
+      "type": "item",
+      "id": 2924,
+      "name": "Brigandine Boots Design NG",
+      "url": "/lu4/item/2924-brigandine-boots-design"
+    },
+    {
+      "key": "item:2411",
+      "type": "item",
+      "id": 2411,
+      "name": "Brigandine Helmet D",
+      "url": "/lu4/item/2411-brigandine-helmet"
+    },
+    {
+      "key": "item:2922",
+      "type": "item",
+      "id": 2922,
+      "name": "Brigandine Helmet Design NG",
+      "url": "/lu4/item/2922-brigandine-helmet-design"
+    },
+    {
       "key": "item:169",
       "type": "item",
       "id": 169,
@@ -180,18 +163,25 @@
       "url": "/lu4/item/169-skull-breaker"
     },
     {
-      "key": "item:57",
+      "key": "item:2036",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2036,
+      "name": "Skull Breaker Head NG",
+      "url": "/lu4/item/2036-skull-breaker-head"
     },
     {
-      "key": "item:8333",
+      "key": "item:2270",
       "type": "item",
-      "id": 8333,
-      "name": "Sword of Magic Fog Blade NG",
-      "url": "/lu4/item/8333-sword-of-magic-fog-blade"
+      "id": 2270,
+      "name": "Recipe: Goat Head Staff NG",
+      "url": "/lu4/item/2270-recipe-goat-head-staff"
+    },
+    {
+      "key": "item:2276",
+      "type": "item",
+      "id": 2276,
+      "name": "Recipe: Maingauche NG",
+      "url": "/lu4/item/2276-recipe-maingauche"
     },
     {
       "key": "item:2972",
@@ -208,18 +198,25 @@
       "url": "/lu4/item/2269-recipe-morning-star"
     },
     {
-      "key": "item:2033",
-      "type": "item",
-      "id": 2033,
-      "name": "Winged Spear Blade NG",
-      "url": "/lu4/item/2033-winged-spear-blade"
-    },
-    {
       "key": "item:2032",
       "type": "item",
       "id": 2032,
       "name": "Goat Head Staff Head NG",
       "url": "/lu4/item/2032-goat-head-staff-head"
+    },
+    {
+      "key": "item:8333",
+      "type": "item",
+      "id": 8333,
+      "name": "Sword of Magic Fog Blade NG",
+      "url": "/lu4/item/8333-sword-of-magic-fog-blade"
+    },
+    {
+      "key": "item:2033",
+      "type": "item",
+      "id": 2033,
+      "name": "Winged Spear Blade NG",
+      "url": "/lu4/item/2033-winged-spear-blade"
     }
   ]
 }

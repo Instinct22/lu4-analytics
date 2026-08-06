@@ -2,105 +2,60 @@
   "key": "npc:20849",
   "type": "npc",
   "id": 20849,
-  "name": "Lu4 Wiki: NPC Light Worm",
+  "name": "Light Worm",
   "url": "/lu4/npc/20849-light-worm",
-  "source_url": "https://masterwork.wiki/lu4/npc/20849-light-worm",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20849-light-worm",
   "raw_html": "library/raw/lu4/npc/20849-light-worm.html",
   "stats": {
-    "Location": "Сады Богини Евы"
+    "Respawn Time": "45 seconds",
+    "Location": "Сады Богини Евы",
+    "HP / MP": "4 557 / 622",
+    "P. Atk. / M. Atk.": "296 / 145",
+    "P. Def. / M. Def.": "215 / 171",
+    "Accuracy / Evasion": "74 / 79",
+    "Exp / SP": "4 694 / 469",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (3x) Lv. 11 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep. Greater Hold Resistance Lv. 2 Highly resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 41"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20849",
-      "type": "npc",
-      "id": 20849,
-      "name": "Lu4",
-      "url": "/lu4/npc/20849-light-worm"
-    },
-    {
-      "key": "location:121",
-      "type": "location",
-      "id": 121,
-      "name": "Сады Богини Евы",
-      "url": "/lu4/location/121-sady-bogini-evy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 2 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/2"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5279",
-      "type": "item",
-      "id": 5279,
-      "name": "Recipe: Greater Blessed Spiritshot (C) Compressed Package(100%) NG",
-      "url": "/lu4/item/5279-recipe-greater-blessed-spiritshot-c-compressed-package100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5274",
@@ -108,62 +63,6 @@
       "id": 5274,
       "name": "Recipe: Greater Spiritshot (C) Compressed Package(100%) NG",
       "url": "/lu4/item/5274-recipe-greater-spiritshot-c-compressed-package100"
-    },
-    {
-      "key": "item:2944",
-      "type": "item",
-      "id": 2944,
-      "name": "Karmian Gloves Fabric NG",
-      "url": "/lu4/item/2944-karmian-gloves-fabric"
-    },
-    {
-      "key": "item:2935",
-      "type": "item",
-      "id": 2935,
-      "name": "Reinforced Mithril Gaiters Fragment NG",
-      "url": "/lu4/item/2935-reinforced-mithril-gaiters-fragment"
-    },
-    {
-      "key": "item:2454",
-      "type": "item",
-      "id": 2454,
-      "name": "Karmian Gloves C",
-      "url": "/lu4/item/2454-karmian-gloves"
-    },
-    {
-      "key": "item:2387",
-      "type": "item",
-      "id": 2387,
-      "name": "Reinforced Mithril Gaiters C",
-      "url": "/lu4/item/2387-reinforced-mithril-gaiters"
-    },
-    {
-      "key": "item:2313",
-      "type": "item",
-      "id": 2313,
-      "name": "Recipe: Orcish Glaive NG",
-      "url": "/lu4/item/2313-recipe-orcish-glaive"
-    },
-    {
-      "key": "item:2207",
-      "type": "item",
-      "id": 2207,
-      "name": "Recipe: Karmian Tunic NG",
-      "url": "/lu4/item/2207-recipe-karmian-tunic"
-    },
-    {
-      "key": "item:2205",
-      "type": "item",
-      "id": 2205,
-      "name": "Recipe: Chain Gaiters NG",
-      "url": "/lu4/item/2205-recipe-chain-gaiters"
-    },
-    {
-      "key": "item:1961",
-      "type": "item",
-      "id": 1961,
-      "name": "Reinforced Mithril Shirt Fabric NG",
-      "url": "/lu4/item/1961-reinforced-mithril-shirt-fabric"
     },
     {
       "key": "item:1872",
@@ -194,6 +93,111 @@
       "url": "/lu4/item/1869-iron-ore"
     },
     {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:5279",
+      "type": "item",
+      "id": 5279,
+      "name": "Recipe: Greater Blessed Spiritshot (C) Compressed Package(100%) NG",
+      "url": "/lu4/item/5279-recipe-greater-blessed-spiritshot-c-compressed-package100"
+    },
+    {
+      "key": "item:2205",
+      "type": "item",
+      "id": 2205,
+      "name": "Recipe: Chain Gaiters NG",
+      "url": "/lu4/item/2205-recipe-chain-gaiters"
+    },
+    {
+      "key": "item:2207",
+      "type": "item",
+      "id": 2207,
+      "name": "Recipe: Karmian Tunic NG",
+      "url": "/lu4/item/2207-recipe-karmian-tunic"
+    },
+    {
+      "key": "item:2313",
+      "type": "item",
+      "id": 2313,
+      "name": "Recipe: Orcish Glaive NG",
+      "url": "/lu4/item/2313-recipe-orcish-glaive"
+    },
+    {
+      "key": "item:2454",
+      "type": "item",
+      "id": 2454,
+      "name": "Karmian Gloves C",
+      "url": "/lu4/item/2454-karmian-gloves"
+    },
+    {
+      "key": "item:2944",
+      "type": "item",
+      "id": 2944,
+      "name": "Karmian Gloves Fabric NG",
+      "url": "/lu4/item/2944-karmian-gloves-fabric"
+    },
+    {
+      "key": "item:2387",
+      "type": "item",
+      "id": 2387,
+      "name": "Reinforced Mithril Gaiters C",
+      "url": "/lu4/item/2387-reinforced-mithril-gaiters"
+    },
+    {
+      "key": "item:2935",
+      "type": "item",
+      "id": 2935,
+      "name": "Reinforced Mithril Gaiters Fragment NG",
+      "url": "/lu4/item/2935-reinforced-mithril-gaiters-fragment"
+    },
+    {
+      "key": "item:397",
+      "type": "item",
+      "id": 397,
+      "name": "Reinforced Mithril Shirt C",
+      "url": "/lu4/item/397-reinforced-mithril-shirt"
+    },
+    {
+      "key": "item:1961",
+      "type": "item",
+      "id": 1961,
+      "name": "Reinforced Mithril Shirt Fabric NG",
+      "url": "/lu4/item/1961-reinforced-mithril-shirt-fabric"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1805",
+      "type": "item",
+      "id": 1805,
+      "name": "Recipe: Soulshot (C-Grade) NG",
+      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
+    },
+    {
       "key": "item:4469",
       "type": "item",
       "id": 4469,
@@ -215,11 +219,11 @@
       "url": "/lu4/item/2989-recipe-chain-hood"
     },
     {
-      "key": "item:2942",
+      "key": "item:2059",
       "type": "item",
-      "id": 2942,
-      "name": "Reinforced Mithril Gloves Design NG",
-      "url": "/lu4/item/2942-reinforced-mithril-gloves-design"
+      "id": 2059,
+      "name": "Flamberge Blade NG",
+      "url": "/lu4/item/2059-flamberge-blade"
     },
     {
       "key": "item:2066",
@@ -229,18 +233,11 @@
       "url": "/lu4/item/2066-heavy-doom-hammer-head"
     },
     {
-      "key": "item:2059",
+      "key": "item:2942",
       "type": "item",
-      "id": 2059,
-      "name": "Flamberge Blade NG",
-      "url": "/lu4/item/2059-flamberge-blade"
-    },
-    {
-      "key": "item:1805",
-      "type": "item",
-      "id": 1805,
-      "name": "Recipe: Soulshot (C-Grade) NG",
-      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
+      "id": 2942,
+      "name": "Reinforced Mithril Gloves Design NG",
+      "url": "/lu4/item/2942-reinforced-mithril-gloves-design"
     }
   ]
 }

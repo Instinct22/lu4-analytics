@@ -2,56 +2,51 @@
   "key": "npc:25102",
   "type": "npc",
   "id": 25102,
-  "name": "Lu4 Wiki: NPC Shacram",
+  "name": "Shacram",
   "url": "/lu4/npc/25102-shacram",
-  "source_url": "https://masterwork.wiki/lu4/npc/25102-shacram",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25102-shacram",
   "raw_html": "library/raw/lu4/npc/25102-shacram.html",
   "stats": {
-    "Location": "Деревня Охотников"
+    "HP / MP": "576 832 / 3 823",
+    "P. Atk. / M. Atk.": "2 824 / 2 856",
+    "P. Def. / M. Def.": "720 / 774",
+    "Accuracy / Evasion": "96 / 96",
+    "Exp / SP": "1 721 250 / 230 991",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A Silenos who was a victim of an experiment gone awry, conducted by the Ivory Tower's mystics. Shacram gained supernatural power, but his appearance was so disfigured that he could not return to his tribe. He moved to Oren where he hides in a deserted valley in the south, where rugged mountain paths discourage most from ever setting foot in the region. He harbors a deep hatred towards the mystics of the Ivory Tower who made him like this. Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25102",
-      "type": "npc",
-      "id": 25102,
-      "name": "Lu4",
-      "url": "/lu4/npc/25102-shacram"
-    },
-    {
-      "key": "location:74",
-      "type": "location",
-      "id": 74,
-      "name": "Деревня Охотников",
-      "url": "/lu4/location/74-derevna-ohotnikov"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4827",
       "type": "skill",
       "id": 4827,
-      "name": "Raid Boss Lv. 1 A Silenos who was a victim of an experiment gone awry, conducted by the Ivory Tower's mystics. Shacram gained supernatural power, but his appearance was so disfigured that he could not return to his tribe. He moved to Oren where he hides in a deserted valley in the south, where rugged mountain paths discourage most from ever setting foot in the region. He harbors a deep hatred towards the mystics of the Ivory Tower who made him like this.",
-      "url": "/lu4/skill/4827-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4827-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,18 +56,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6574",
+      "key": "item:326",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+      "id": 326,
+      "name": "Heathen's Book C",
+      "url": "/lu4/item/326-heathens-book"
     },
     {
       "key": "item:2110",
@@ -89,39 +77,11 @@
       "url": "/lu4/item/1916-necklace-of-mermaid-teardrop"
     },
     {
-      "key": "item:1915",
+      "key": "item:854",
       "type": "item",
-      "id": 1915,
-      "name": "Ring of Ages Gemstone NG",
-      "url": "/lu4/item/1915-ring-of-ages-gemstone"
-    },
-    {
-      "key": "item:1914",
-      "type": "item",
-      "id": 1914,
-      "name": "Earring of Seal Gemstone NG",
-      "url": "/lu4/item/1914-earring-of-seal-gemstone"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:917",
-      "type": "item",
-      "id": 917,
-      "name": "Necklace of Mermaid C",
-      "url": "/lu4/item/917-necklace-of-mermaid"
+      "id": 854,
+      "name": "Earring of Seal C",
+      "url": "/lu4/item/854-earring-of-seal"
     },
     {
       "key": "item:885",
@@ -131,18 +91,53 @@
       "url": "/lu4/item/885-ring-of-ages"
     },
     {
-      "key": "item:854",
+      "key": "item:917",
       "type": "item",
-      "id": 854,
-      "name": "Earring of Seal C",
-      "url": "/lu4/item/854-earring-of-seal"
+      "id": 917,
+      "name": "Necklace of Mermaid C",
+      "url": "/lu4/item/917-necklace-of-mermaid"
     },
     {
-      "key": "item:326",
+      "key": "item:1914",
       "type": "item",
-      "id": 326,
-      "name": "Heathen's Book C",
-      "url": "/lu4/item/326-heathens-book"
+      "id": 1914,
+      "name": "Earring of Seal Gemstone NG",
+      "url": "/lu4/item/1914-earring-of-seal-gemstone"
+    },
+    {
+      "key": "item:1915",
+      "type": "item",
+      "id": 1915,
+      "name": "Ring of Ages Gemstone NG",
+      "url": "/lu4/item/1915-ring-of-ages-gemstone"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     }
   ]
 }

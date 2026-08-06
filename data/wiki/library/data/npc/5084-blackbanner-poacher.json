@@ -2,140 +2,81 @@
   "key": "npc:5084",
   "type": "npc",
   "id": 5084,
-  "name": "Lu4 Wiki: NPC Blackbanner Poacher",
+  "name": "Blackbanner Poacher",
   "url": "/lu4/npc/5084-blackbanner-poacher",
-  "source_url": "https://masterwork.wiki/lu4/npc/5084-blackbanner-poacher",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5084-blackbanner-poacher",
   "raw_html": "library/raw/lu4/npc/5084-blackbanner-poacher.html",
   "stats": {
-    "Location": "Земли Адена"
+    "Respawn Time": "25 seconds ± 3 seconds",
+    "Location": "Земли Адена",
+    "HP / MP": "2 596 / 1 110",
+    "P. Atk. / M. Atk.": "1 529 / 363",
+    "P. Def. / M. Def.": "270 / 234",
+    "Accuracy / Evasion": "91 / 94",
+    "Exp / SP": "2 979 / 298",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Grumpy Lv. 1 Strikes without warning. Slightly Strong P. Atk. Lv. 13 Slightly Weak M. Def. Lv. 10 Slightly Weak P. Def. Lv. 10 Evasion Lv. 1 Increases P. Evasion by 4.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 55"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5084",
-      "type": "npc",
-      "id": 5084,
-      "name": "Lu4",
-      "url": "/lu4/npc/5084-blackbanner-poacher"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4093",
       "type": "skill",
       "id": 4093,
-      "name": "Evasion Lv. 1 Increases P. Evasion by 4.",
-      "url": "/lu4/skill/4093-evasion/1"
+      "name": "Evasion",
+      "url": "/lu4/skill/4093-evasion"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39300",
+      "key": "item:1866",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:8338",
-      "type": "item",
-      "id": 8338,
-      "name": "Axe of Eclipse Head NG",
-      "url": "/lu4/item/8338-axe-of-eclipse-head"
-    },
-    {
-      "key": "item:7891",
-      "type": "item",
-      "id": 7891,
-      "name": "Ecliptic Axe C",
-      "url": "/lu4/item/7891-ecliptic-axe"
-    },
-    {
-      "key": "item:5436",
-      "type": "item",
-      "id": 5436,
-      "name": "Recipe: Berserker Blade(100%) NG",
-      "url": "/lu4/item/5436-recipe-berserker-blade100"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
       "key": "item:5220",
@@ -152,6 +93,27 @@
       "url": "/lu4/item/4041-mold-hardener"
     },
     {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
       "key": "item:3955",
       "type": "item",
       "id": 3955,
@@ -159,25 +121,18 @@
       "url": "/lu4/item/3955-recipe-blessed-spiritshot-b"
     },
     {
-      "key": "item:3019",
+      "key": "item:952",
       "type": "item",
-      "id": 3019,
-      "name": "Recipe: Full Plate Shield NG",
-      "url": "/lu4/item/3019-recipe-full-plate-shield"
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
-      "key": "item:3013",
+      "key": "item:603",
       "type": "item",
-      "id": 3013,
-      "name": "Recipe: Drake Leather Boots NG",
-      "url": "/lu4/item/3013-recipe-drake-leather-boots"
-    },
-    {
-      "key": "item:2969",
-      "type": "item",
-      "id": 2969,
-      "name": "Yaksa Mace Head NG",
-      "url": "/lu4/item/2969-yaksa-mace-head"
+      "id": 603,
+      "name": "Divine Boots C",
+      "url": "/lu4/item/603-divine-boots"
     },
     {
       "key": "item:2958",
@@ -187,18 +142,25 @@
       "url": "/lu4/item/2958-divine-boots-fabric"
     },
     {
-      "key": "item:2917",
+      "key": "item:7891",
       "type": "item",
-      "id": 2917,
-      "name": "Ring of Seal Gemstone NG",
-      "url": "/lu4/item/2917-ring-of-seal-gemstone"
+      "id": 7891,
+      "name": "Ecliptic Axe C",
+      "url": "/lu4/item/7891-ecliptic-axe"
     },
     {
-      "key": "item:2503",
+      "key": "item:8338",
       "type": "item",
-      "id": 2503,
-      "name": "Yaksa Mace C",
-      "url": "/lu4/item/2503-yaksa-mace"
+      "id": 8338,
+      "name": "Axe of Eclipse Head NG",
+      "url": "/lu4/item/8338-axe-of-eclipse-head"
+    },
+    {
+      "key": "item:135",
+      "type": "item",
+      "id": 135,
+      "name": "Samurai Longsword C",
+      "url": "/lu4/item/135-samurai-longsword"
     },
     {
       "key": "item:2115",
@@ -208,11 +170,46 @@
       "url": "/lu4/item/2115-samurai-longsword-blade"
     },
     {
-      "key": "item:5530",
+      "key": "item:2503",
       "type": "item",
-      "id": 5530,
-      "name": "Berserker Blade Edge NG",
-      "url": "/lu4/item/5530-berserker-blade-edge"
+      "id": 2503,
+      "name": "Yaksa Mace C",
+      "url": "/lu4/item/2503-yaksa-mace"
+    },
+    {
+      "key": "item:2969",
+      "type": "item",
+      "id": 2969,
+      "name": "Yaksa Mace Head NG",
+      "url": "/lu4/item/2969-yaksa-mace-head"
+    },
+    {
+      "key": "item:356",
+      "type": "item",
+      "id": 356,
+      "name": "Full Plate Armor C",
+      "url": "/lu4/item/356-full-plate-armor"
+    },
+    {
+      "key": "item:1986",
+      "type": "item",
+      "id": 1986,
+      "name": "Full Plate Armor Temper NG",
+      "url": "/lu4/item/1986-full-plate-armor-temper"
+    },
+    {
+      "key": "item:886",
+      "type": "item",
+      "id": 886,
+      "name": "Ring of Seal C",
+      "url": "/lu4/item/886-ring-of-seal"
+    },
+    {
+      "key": "item:2357",
+      "type": "item",
+      "id": 2357,
+      "name": "Recipe: Crystal Dagger NG",
+      "url": "/lu4/item/2357-recipe-crystal-dagger"
     },
     {
       "key": "item:2359",
@@ -222,11 +219,11 @@
       "url": "/lu4/item/2359-recipe-eminence-bow"
     },
     {
-      "key": "item:2357",
+      "key": "item:5530",
       "type": "item",
-      "id": 2357,
-      "name": "Recipe: Crystal Dagger NG",
-      "url": "/lu4/item/2357-recipe-crystal-dagger"
+      "id": 5530,
+      "name": "Berserker Blade Edge NG",
+      "url": "/lu4/item/5530-berserker-blade-edge"
     },
     {
       "key": "item:2120",

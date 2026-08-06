@@ -2,203 +2,88 @@
   "key": "npc:5051",
   "type": "npc",
   "id": 5051,
-  "name": "Lu4 Wiki: NPC Giant Warden",
+  "name": "Giant Warden",
   "url": "/lu4/npc/5051-giant-warden",
-  "source_url": "https://masterwork.wiki/lu4/npc/5051-giant-warden",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5051-giant-warden",
   "raw_html": "library/raw/lu4/npc/5051-giant-warden.html",
   "stats": {
-    "Location": "Пещера Гигантов"
+    "Respawn Time": "3 minutes, 20 seconds ± 20 seconds",
+    "Location": "Пещера Гигантов",
+    "HP / MP": "24 629 / 1 110",
+    "P. Atk. / M. Atk.": "2 528 / 811",
+    "P. Def. / M. Def.": "761 / 453",
+    "Accuracy / Evasion": "95 / 100",
+    "Exp / SP": "48 846 / 4 885",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Grumpy Lv. 1 Strikes without warning. HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 16 Slightly Strong M. Def. Lv. 13 Strong P. Def. Lv. 15 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Greater Hold Resistance Lv. 3 Highly resistant to Hold. High Stun Attack Resistance Lv. 3 Highly resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 67"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5051",
-      "type": "npc",
-      "id": 5051,
-      "name": "Lu4",
-      "url": "/lu4/npc/5051-giant-warden"
-    },
-    {
-      "key": "location:69",
-      "type": "location",
-      "id": 69,
-      "name": "Пещера Гигантов",
-      "url": "/lu4/location/69-pesera-gigantov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 3 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/3"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "skill:4435",
       "type": "skill",
       "id": 4435,
-      "name": "High Stun Attack Resistance Lv. 3 Highly resistant to Stun.",
-      "url": "/lu4/skill/4435-high-stun-attack-resistance/3"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32374",
-      "type": "item",
-      "id": 32374,
-      "name": "Unidentified Sealed Dark Crystal Shield A",
-      "url": "/lu4/item/32374-unidentified-sealed-dark-crystal-shield"
-    },
-    {
-      "key": "item:32369",
-      "type": "item",
-      "id": 32369,
-      "name": "Unidentified Sealed Dark Crystal Breastplate A",
-      "url": "/lu4/item/32369-unidentified-sealed-dark-crystal-breastplate"
-    },
-    {
-      "key": "item:32346",
-      "type": "item",
-      "id": 32346,
-      "name": "Unidentified Carnage Bow A",
-      "url": "/lu4/item/32346-unidentified-carnage-bow"
-    },
-    {
-      "key": "item:6570",
-      "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:5535",
-      "type": "item",
-      "id": 5535,
-      "name": "Carnage Bow Stave NG",
-      "url": "/lu4/item/5535-carnage-bow-stave"
-    },
-    {
-      "key": "item:5520",
-      "type": "item",
-      "id": 5520,
-      "name": "Sealed Dark Crystal Breastplate Pattern NG",
-      "url": "/lu4/item/5520-sealed-dark-crystal-breastplate-pattern"
-    },
-    {
-      "key": "item:5494",
-      "type": "item",
-      "id": 5494,
-      "name": "Sealed Dark Crystal Shield Fragment NG",
-      "url": "/lu4/item/5494-sealed-dark-crystal-shield-fragment"
-    },
-    {
-      "key": "item:4044",
-      "type": "item",
-      "id": 4044,
-      "name": "Thons NG",
-      "url": "/lu4/item/4044-thons"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1807",
-      "type": "item",
-      "id": 1807,
-      "name": "Recipe: Soulshot (A-Grade) NG",
-      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
+      "name": "High Stun Attack Resistance",
+      "url": "/lu4/skill/4435-high-stun-attack-resistance"
     },
     {
       "key": "item:57",
@@ -208,11 +93,123 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:5485",
+      "key": "item:1868",
       "type": "item",
-      "id": 5485,
-      "name": "Sealed Tallum Tunic Texture NG",
-      "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:4044",
+      "type": "item",
+      "id": 4044,
+      "name": "Thons NG",
+      "url": "/lu4/item/4044-thons"
+    },
+    {
+      "key": "item:1807",
+      "type": "item",
+      "id": 1807,
+      "name": "Recipe: Soulshot (A-Grade) NG",
+      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
+    },
+    {
+      "key": "item:6570",
+      "type": "item",
+      "id": 6570,
+      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
+      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
+    },
+    {
+      "key": "item:32346",
+      "type": "item",
+      "id": 32346,
+      "name": "Unidentified Carnage Bow A",
+      "url": "/lu4/item/32346-unidentified-carnage-bow"
+    },
+    {
+      "key": "item:5535",
+      "type": "item",
+      "id": 5535,
+      "name": "Carnage Bow Stave NG",
+      "url": "/lu4/item/5535-carnage-bow-stave"
+    },
+    {
+      "key": "item:32369",
+      "type": "item",
+      "id": 32369,
+      "name": "Unidentified Sealed Dark Crystal Breastplate A",
+      "url": "/lu4/item/32369-unidentified-sealed-dark-crystal-breastplate"
+    },
+    {
+      "key": "item:5520",
+      "type": "item",
+      "id": 5520,
+      "name": "Sealed Dark Crystal Breastplate Pattern NG",
+      "url": "/lu4/item/5520-sealed-dark-crystal-breastplate-pattern"
+    },
+    {
+      "key": "item:32374",
+      "type": "item",
+      "id": 32374,
+      "name": "Unidentified Sealed Dark Crystal Shield A",
+      "url": "/lu4/item/32374-unidentified-sealed-dark-crystal-shield"
+    },
+    {
+      "key": "item:5494",
+      "type": "item",
+      "id": 5494,
+      "name": "Sealed Dark Crystal Shield Fragment NG",
+      "url": "/lu4/item/5494-sealed-dark-crystal-shield-fragment"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:3956",
+      "type": "item",
+      "id": 3956,
+      "name": "Recipe: Blessed Spiritshot A NG",
+      "url": "/lu4/item/3956-recipe-blessed-spiritshot-a"
     },
     {
       "key": "item:5370",
@@ -222,11 +219,11 @@
       "url": "/lu4/item/5370-recipe-sealed-tallum-boots60"
     },
     {
-      "key": "item:3956",
+      "key": "item:5485",
       "type": "item",
-      "id": 3956,
-      "name": "Recipe: Blessed Spiritshot A NG",
-      "url": "/lu4/item/3956-recipe-blessed-spiritshot-a"
+      "id": 5485,
+      "name": "Sealed Tallum Tunic Texture NG",
+      "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
     }
   ]
 }

@@ -2,68 +2,72 @@
   "key": "npc:21209",
   "type": "npc",
   "id": 21209,
-  "name": "Lu4 Wiki: NPC Hallowed Seer",
+  "name": "Hallowed Seer",
   "url": "/lu4/npc/21209-hallowed-seer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21209-hallowed-seer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21209-hallowed-seer",
   "raw_html": "library/raw/lu4/npc/21209-hallowed-seer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 446 / 269",
+    "P. Atk. / M. Atk.": "70 / 31",
+    "P. Def. / M. Def.": "82 / 89",
+    "Accuracy / Evasion": "55 / 65",
+    "Exp / SP": "2 448 / 116",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 22"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21209",
-      "type": "npc",
-      "id": 21209,
-      "name": "Lu4",
-      "url": "/lu4/npc/21209-hallowed-seer"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:1870",
+      "key": "item:57",
       "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1865",
+      "key": "item:625",
       "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
+      "id": 625,
+      "name": "Bone Shield NG",
+      "url": "/lu4/item/625-bone-shield"
     },
     {
       "key": "item:1148",
@@ -80,25 +84,25 @@
       "url": "/lu4/item/734-haste-potion"
     },
     {
-      "key": "item:625",
+      "key": "item:1865",
       "type": "item",
-      "id": 625,
-      "name": "Bone Shield NG",
-      "url": "/lu4/item/625-bone-shield"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:57",
+      "key": "item:1870",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
     },
     {
-      "key": "item:2151",
+      "key": "item:1804",
       "type": "item",
-      "id": 2151,
-      "name": "Recipe: Necklace of Devotion NG",
-      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
+      "id": 1804,
+      "name": "Recipe: Soulshot (D-Grade) NG",
+      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
     },
     {
       "key": "item:1898",
@@ -108,11 +112,11 @@
       "url": "/lu4/item/1898-blue-diamond-necklace-gem"
     },
     {
-      "key": "item:1804",
+      "key": "item:2151",
       "type": "item",
-      "id": 1804,
-      "name": "Recipe: Soulshot (D-Grade) NG",
-      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
+      "id": 2151,
+      "name": "Recipe: Necklace of Devotion NG",
+      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
     }
   ]
 }

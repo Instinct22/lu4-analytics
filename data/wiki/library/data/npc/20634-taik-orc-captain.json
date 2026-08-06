@@ -2,91 +2,74 @@
   "key": "npc:20634",
   "type": "npc",
   "id": 20634,
-  "name": "Lu4 Wiki: NPC Taik Orc Captain",
+  "name": "Taik Orc Captain",
   "url": "/lu4/npc/20634-taik-orc-captain",
-  "source_url": "https://masterwork.wiki/lu4/npc/20634-taik-orc-captain",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20634-taik-orc-captain",
   "raw_html": "library/raw/lu4/npc/20634-taik-orc-captain.html",
   "stats": {
-    "Location": "Лес Зеркал (+1) Лес Зеркал Земли Адена"
+    "Respawn Time": "35 seconds",
+    "Location": "Лес Зеркал (+1) Лес Зеркал Земли Адена",
+    "HP / MP": "6 096 / 719",
+    "P. Atk. / M. Atk.": "302 / 156",
+    "P. Def. / M. Def.": "270 / 224",
+    "Accuracy / Evasion": "80 / 79",
+    "Exp / SP": "6 418 / 642",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20634",
-      "type": "npc",
-      "id": 20634,
-      "name": "Lu4",
-      "url": "/lu4/npc/20634-taik-orc-captain"
-    },
-    {
-      "key": "location:68",
-      "type": "location",
-      "id": 68,
-      "name": "Лес Зеркал",
-      "url": "/lu4/location/68-les-zerkal"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:2949",
+      "key": "item:57",
       "type": "item",
-      "id": 2949,
-      "name": "Dwarven Chain Gloves Design NG",
-      "url": "/lu4/item/2949-dwarven-chain-gloves-design"
-    },
-    {
-      "key": "item:2456",
-      "type": "item",
-      "id": 2456,
-      "name": "Dwarven Chain Gloves C",
-      "url": "/lu4/item/2456-dwarven-chain-gloves"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2251",
@@ -94,20 +77,6 @@
       "id": 2251,
       "name": "Recipe: Steel Arrow NG",
       "url": "/lu4/item/2251-recipe-steel-arrow"
-    },
-    {
-      "key": "item:1976",
-      "type": "item",
-      "id": 1976,
-      "name": "Rind Leather Gaiters Material NG",
-      "url": "/lu4/item/1976-rind-leather-gaiters-material"
-    },
-    {
-      "key": "item:1913",
-      "type": "item",
-      "id": 1913,
-      "name": "Necklace of Protection Gemstone NG",
-      "url": "/lu4/item/1913-necklace-of-protection-gemstone"
     },
     {
       "key": "item:1881",
@@ -138,11 +107,32 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
+      "key": "item:2456",
+      "type": "item",
+      "id": 2456,
+      "name": "Dwarven Chain Gauntlets C",
+      "url": "/lu4/item/2456-dwarven-chain-gauntlets"
+    },
+    {
+      "key": "item:2949",
+      "type": "item",
+      "id": 2949,
+      "name": "Dwarven Chain Gauntlets Design NG",
+      "url": "/lu4/item/2949-dwarven-chain-gauntlets-design"
+    },
+    {
       "key": "item:916",
       "type": "item",
       "id": 916,
       "name": "Necklace of Protection C",
       "url": "/lu4/item/916-necklace-of-protection"
+    },
+    {
+      "key": "item:1913",
+      "type": "item",
+      "id": 1913,
+      "name": "Necklace of Protection Gemstone NG",
+      "url": "/lu4/item/1913-necklace-of-protection-gemstone"
     },
     {
       "key": "item:419",
@@ -152,18 +142,11 @@
       "url": "/lu4/item/419-rind-leather-gaiters"
     },
     {
-      "key": "item:57",
+      "key": "item:1976",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:2086",
-      "type": "item",
-      "id": 2086,
-      "name": "Noble Elven Bow Shaft NG",
-      "url": "/lu4/item/2086-noble-elven-bow-shaft"
+      "id": 1976,
+      "name": "Rind Leather Gaiters Material NG",
+      "url": "/lu4/item/1976-rind-leather-gaiters-material"
     },
     {
       "key": "item:1880",
@@ -171,6 +154,13 @@
       "id": 1880,
       "name": "Steel NG",
       "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:2086",
+      "type": "item",
+      "id": 2086,
+      "name": "Noble Elven Bow Shaft NG",
+      "url": "/lu4/item/2086-noble-elven-bow-shaft"
     }
   ]
 }

@@ -2,56 +2,32 @@
   "key": "npc:20448",
   "type": "npc",
   "id": 20448,
-  "name": "Lu4 Wiki: NPC Utuku Orc Grunt",
+  "name": "Utuku Orc Grunt",
   "url": "/lu4/npc/20448-utuku-orc-grunt",
-  "source_url": "https://masterwork.wiki/lu4/npc/20448-utuku-orc-grunt",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20448-utuku-orc-grunt",
   "raw_html": "library/raw/lu4/npc/20448-utuku-orc-grunt.html",
   "stats": {
-    "Location": "Замерзшая Долина"
+    "Respawn Time": "15 seconds",
+    "Location": "Замерзшая Долина",
+    "HP / MP": "193 / 104",
+    "P. Atk. / M. Atk.": "19 / 8",
+    "P. Def. / M. Def.": "53 / 42",
+    "Accuracy / Evasion": "43 / 42",
+    "Exp / SP": "202 / 20",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 7"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20448",
-      "type": "npc",
-      "id": 20448,
-      "name": "Lu4",
-      "url": "/lu4/npc/20448-utuku-orc-grunt"
-    },
-    {
-      "key": "location:199",
-      "type": "location",
-      "id": 199,
-      "name": "Замерзшая Долина",
-      "url": "/lu4/location/199-zamerzsaa-dolina"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
-    },
-    {
-      "key": "item:2005",
-      "type": "item",
-      "id": 2005,
-      "name": "Broadsword Blade NG",
-      "url": "/lu4/item/2005-broadsword-blade"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "item:57",
@@ -68,11 +44,32 @@
       "url": "/lu4/item/3-broadsword"
     },
     {
-      "key": "item:2006",
+      "key": "item:2005",
       "type": "item",
-      "id": 2006,
-      "name": "Willow Staff Head NG",
-      "url": "/lu4/item/2006-willow-staff-head"
+      "id": 2005,
+      "name": "Broadsword Blade NG",
+      "url": "/lu4/item/2005-broadsword-blade"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1666",
+      "type": "item",
+      "id": 1666,
+      "name": "Recipe: Wooden Arrow NG",
+      "url": "/lu4/item/1666-recipe-wooden-arrow"
     },
     {
       "key": "item:1789",
@@ -82,11 +79,11 @@
       "url": "/lu4/item/1789-recipe-cedar-staff"
     },
     {
-      "key": "item:1666",
+      "key": "item:2006",
       "type": "item",
-      "id": 1666,
-      "name": "Recipe: Wooden Arrow NG",
-      "url": "/lu4/item/1666-recipe-wooden-arrow"
+      "id": 2006,
+      "name": "Willow Staff Head NG",
+      "url": "/lu4/item/2006-willow-staff-head"
     }
   ]
 }

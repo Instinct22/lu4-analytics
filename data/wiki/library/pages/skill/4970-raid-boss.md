@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4970-raid-boss
+- Path: /lu4/skill/4970-raid-boss
+- Type: skill
+- Key: skill:4970
+
+## Stats
+- Effect: This Palibati Priest serves Queen Themis and worships the Goddess Shilen. He regards the Queen as one of Shilen's fragments that descended to earth and eagerly awaits the day when the Seal of Shilen's completely broken. He continuously performs rituals sacrificing the blood of the pure and innocent to Shilen.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability This Palibati Priest serves Queen Themis and worships the Goddess Shilen. He regards the Queen as one of Shilen's fragments that descended to earth and eagerly awaits the day when the Seal of Shilen's completely broken. He continuously performs rituals sacrificing the blood of the pure and innocent to Shilen. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

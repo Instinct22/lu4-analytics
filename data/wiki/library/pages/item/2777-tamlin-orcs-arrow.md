@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Tamlin Orc&#039;s Arrow
+# Tamlin Orc's Arrow
 
-- Source: https://masterwork.wiki/lu4/item/2777-tamlin-orcs-arrow
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2777-tamlin-orcs-arrow
 - Path: /lu4/item/2777-tamlin-orcs-arrow
 - Type: item
 - Key: item:2777
 
 ## Stats
+- Effect: The arrows of a Tamlin orc archer. Collect 10 of these to take to Duelist Kaien.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Tamlin Orc&#039;s Arrow
-Lu4
-Eternal
-MasterWork
-Tamlin Orc's Arrow
-NG
-Quest Item
-The arrows of a Tamlin orc archer. Collect 10 of these to take to Duelist Kaien.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Quest
-Levels
-Test of the Duelist
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Tamlin Orc's Arrow NG Quest Item The arrows of a Tamlin orc archer. Collect 10 of these to take to Duelist Kaien. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

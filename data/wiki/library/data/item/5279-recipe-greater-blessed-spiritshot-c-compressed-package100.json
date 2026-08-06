@@ -2,55 +2,24 @@
   "key": "item:5279",
   "type": "item",
   "id": 5279,
-  "name": "Recipe",
+  "name": "Recipe: Greater Blessed Spiritshot (C) Compressed Package(100%)",
   "url": "/lu4/item/5279-recipe-greater-blessed-spiritshot-c-compressed-package100",
-  "source_url": "https://masterwork.wiki/lu4/item/5279-recipe-greater-blessed-spiritshot-c-compressed-package100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5279-recipe-greater-blessed-spiritshot-c-compressed-package100",
   "raw_html": "library/raw/lu4/item/5279-recipe-greater-blessed-spiritshot-c-compressed-package100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Greater Compressed Package of Blessed Spiritshots (C-Grade)'. Requires Create Item - Skill Level 4 (Artisan Lv. 36). The success rate is 100%.",
+    "NPC Sell Price": "30 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "4",
     "MP Consume": "360",
     "Success Rate": "100%",
-    "Result": "Greater Compressed Package of Blessed Spiritshots (C-Grade) NG"
+    "Result": "Greater Compressed Package of Blessed Spiritshots (C-Grade) NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:3949",
-      "type": "item",
-      "id": 3949,
-      "name": "Blessed Spiritshot (C-Grade) C",
-      "amount": "1000"
-    },
-    {
-      "key": "item:3031",
-      "type": "item",
-      "id": 3031,
-      "name": "Spirit Ore NG",
-      "amount": "125"
-    },
-    {
-      "key": "item:1459",
-      "type": "item",
-      "id": 1459,
-      "name": "Crystal (C-Grade) C",
-      "amount": "8.3333333333333"
-    },
-    {
-      "key": "item:5193",
-      "type": "item",
-      "id": 5193,
-      "name": "Rope of Magic (C-Grade) NG",
-      "amount": "150"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:5279",
-      "type": "item",
-      "id": 5279,
-      "name": "Lu4",
-      "url": "/lu4/item/5279-recipe-greater-blessed-spiritshot-c-compressed-package100"
-    },
     {
       "key": "item:3949",
       "type": "item",
@@ -90,21 +59,21 @@
       "key": "npc:20849",
       "type": "npc",
       "id": 20849,
-      "name": "Light Worm Lv. 41",
+      "name": "Light Worm",
       "url": "/lu4/npc/20849-light-worm"
     },
     {
       "key": "npc:20603",
       "type": "npc",
       "id": 20603,
-      "name": "Kronbe Spider Lv. 43",
+      "name": "Kronbe Spider",
       "url": "/lu4/npc/20603-kronbe-spider"
     },
     {
       "key": "npc:20217",
       "type": "npc",
       "id": 20217,
-      "name": "Krator Lv. 44",
+      "name": "Krator",
       "url": "/lu4/npc/20217-krator"
     }
   ]

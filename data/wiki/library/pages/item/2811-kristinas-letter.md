@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Kristina&#039;s Letter
+# Kristina's Letter
 
-- Source: https://masterwork.wiki/lu4/item/2811-kristinas-letter
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2811-kristinas-letter
 - Path: /lu4/item/2811-kristinas-letter
 - Type: item
 - Key: item:2811
 
 ## Stats
+- Effect: A letter given by Saint Kristina. Deliver this to Master Sorius.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Kristina&#039;s Letter
-Lu4
-Eternal
-MasterWork
-Kristina's Letter
-NG
-Quest Item
-A letter given by Saint Kristina. Deliver this to Master Sorius.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Test of the Healer
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Kristina's Letter NG Quest Item A letter given by Saint Kristina. Deliver this to Master Sorius. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

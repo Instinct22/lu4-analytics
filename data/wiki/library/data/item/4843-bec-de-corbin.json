@@ -2,36 +2,40 @@
   "key": "item:4843",
   "type": "item",
   "id": 4843,
-  "name": "Lu4 Wiki: Item Bec de Corbin",
+  "name": "Bec de Corbin",
   "url": "/lu4/item/4843-bec-de-corbin",
-  "source_url": "https://masterwork.wiki/lu4/item/4843-bec-de-corbin",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/4843-bec-de-corbin",
   "raw_html": "library/raw/lu4/item/4843-bec-de-corbin.html",
   "stats": {
+    "Effect": "<Critical Attack Effect> Has a 32% base chance to Stun the target.",
+    "P. Atk. / M. Atk.": "122 / 68",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "884 Crystallization Failed Enchant +0 884 - +1 929 - +2 974 - +3 1019 - +4 1109 667 +5 1199 757 +6 1289 847 +7 1379 937 +8 1469 1027 +9 1559 1117 +10 1649 1207 +11 1739 1297 +12 1829 1387",
+    "NPC Sell Price": "1 104 850 Adena",
+    "Weight": "2020",
+    "P. Crit. Rate.": "8",
+    "Accuracy": "-4",
     "Item Skills": "Special Ability: Critical Stun Lv. 2 Polearm Multi-Attack Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Bec de Corbin C",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Polearm / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:4843",
-      "type": "item",
-      "id": 4843,
-      "name": "Lu4",
-      "url": "/lu4/item/4843-bec-de-corbin"
-    },
-    {
       "key": "skill:3016",
       "type": "skill",
       "id": 3016,
-      "name": "Special Ability: Critical Stun Lv. 2",
-      "url": "/lu4/skill/3016-special-ability-critical-stun/2"
+      "name": "Special Ability: Critical Stun",
+      "url": "/lu4/skill/3016-special-ability-critical-stun"
     },
     {
       "key": "skill:3599",
       "type": "skill",
       "id": 3599,
-      "name": "Polearm Multi-Attack Lv. 1",
-      "url": "/lu4/skill/3599-polearm-multi-attack/1"
+      "name": "Polearm Multi-Attack",
+      "url": "/lu4/skill/3599-polearm-multi-attack"
     }
   ]
 }

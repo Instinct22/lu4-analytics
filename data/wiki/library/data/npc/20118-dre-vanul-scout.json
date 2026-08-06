@@ -2,161 +2,81 @@
   "key": "npc:20118",
   "type": "npc",
   "id": 20118,
-  "name": "Lu4 Wiki: NPC Dre Vanul Scout",
+  "name": "Dre Vanul Scout",
   "url": "/lu4/npc/20118-dre-vanul-scout",
-  "source_url": "https://masterwork.wiki/lu4/npc/20118-dre-vanul-scout",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20118-dre-vanul-scout",
   "raw_html": "library/raw/lu4/npc/20118-dre-vanul-scout.html",
   "stats": {
-    "Location": "Эльфийские Руины"
+    "Respawn Time": "50 seconds",
+    "Location": "Эльфийские Руины",
+    "HP / MP": "2 326 / 252",
+    "P. Atk. / M. Atk.": "77 / 52",
+    "P. Def. / M. Def.": "95 / 77",
+    "Accuracy / Evasion": "54 / 54",
+    "Exp / SP": "2 520 / 252",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 21"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20118",
-      "type": "npc",
-      "id": 20118,
-      "name": "Lu4",
-      "url": "/lu4/npc/20118-dre-vanul-scout"
-    },
-    {
-      "key": "location:32",
-      "type": "location",
-      "id": 32,
-      "name": "Эльфийские Руины",
-      "url": "/lu4/location/32-elfijskie-ruiny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
-    },
-    {
-      "key": "item:5273",
-      "type": "item",
-      "id": 5273,
-      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
-      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
-    },
-    {
-      "key": "item:2019",
-      "type": "item",
-      "id": 2019,
-      "name": "Trident Edge NG",
-      "url": "/lu4/item/2019-trident-edge"
-    },
-    {
-      "key": "item:2014",
-      "type": "item",
-      "id": 2014,
-      "name": "Iron Hammer Head NG",
-      "url": "/lu4/item/2014-iron-hammer-head"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:347",
-      "type": "item",
-      "id": 347,
-      "name": "Ring Mail Breastplate D",
-      "url": "/lu4/item/347-ring-mail-breastplate"
-    },
-    {
-      "key": "item:291",
-      "type": "item",
-      "id": 291,
-      "name": "Trident D",
-      "url": "/lu4/item/291-trident"
-    },
-    {
-      "key": "item:240",
-      "type": "item",
-      "id": 240,
-      "name": "Conjurer's Knife D",
-      "url": "/lu4/item/240-conjurers-knife"
-    },
-    {
-      "key": "item:177",
-      "type": "item",
-      "id": 177,
-      "name": "Mage Staff NG",
-      "url": "/lu4/item/177-mage-staff"
-    },
-    {
-      "key": "item:155",
-      "type": "item",
-      "id": 155,
-      "name": "Flanged Mace NG",
-      "url": "/lu4/item/155-flanged-mace"
-    },
-    {
-      "key": "item:87",
-      "type": "item",
-      "id": 87,
-      "name": "Iron Hammer NG",
-      "url": "/lu4/item/87-iron-hammer"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "item:57",
@@ -166,11 +86,95 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8317",
+      "key": "item:87",
       "type": "item",
-      "id": 8317,
-      "name": "Recipe: Titan Hammer (100%) NG",
-      "url": "/lu4/item/8317-recipe-titan-hammer-100"
+      "id": 87,
+      "name": "Iron Hammer NG",
+      "url": "/lu4/item/87-iron-hammer"
+    },
+    {
+      "key": "item:155",
+      "type": "item",
+      "id": 155,
+      "name": "Flanged Mace NG",
+      "url": "/lu4/item/155-flanged-mace"
+    },
+    {
+      "key": "item:177",
+      "type": "item",
+      "id": 177,
+      "name": "Mage Staff NG",
+      "url": "/lu4/item/177-mage-staff"
+    },
+    {
+      "key": "item:2014",
+      "type": "item",
+      "id": 2014,
+      "name": "Iron Hammer Head NG",
+      "url": "/lu4/item/2014-iron-hammer-head"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:5273",
+      "type": "item",
+      "id": 5273,
+      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
+      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
+    },
+    {
+      "key": "item:240",
+      "type": "item",
+      "id": 240,
+      "name": "Conjurer's Knife D",
+      "url": "/lu4/item/240-conjurers-knife"
+    },
+    {
+      "key": "item:291",
+      "type": "item",
+      "id": 291,
+      "name": "Trident D",
+      "url": "/lu4/item/291-trident"
+    },
+    {
+      "key": "item:2019",
+      "type": "item",
+      "id": 2019,
+      "name": "Trident Edge NG",
+      "url": "/lu4/item/2019-trident-edge"
+    },
+    {
+      "key": "item:347",
+      "type": "item",
+      "id": 347,
+      "name": "Ring Mail Breastplate D",
+      "url": "/lu4/item/347-ring-mail-breastplate"
+    },
+    {
+      "key": "item:846",
+      "type": "item",
+      "id": 846,
+      "name": "Coral Earring NG",
+      "url": "/lu4/item/846-coral-earring"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
       "key": "item:5549",
@@ -185,20 +189,6 @@
       "id": 1899,
       "name": "Necklace of Devotion Chain NG",
       "url": "/lu4/item/1899-necklace-of-devotion-chain"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:846",
-      "type": "item",
-      "id": 846,
-      "name": "Coral Earring NG",
-      "url": "/lu4/item/846-coral-earring"
     }
   ]
 }

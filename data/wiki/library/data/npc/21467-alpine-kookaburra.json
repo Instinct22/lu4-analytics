@@ -2,40 +2,44 @@
   "key": "npc:21467",
   "type": "npc",
   "id": 21467,
-  "name": "Lu4 Wiki: NPC Alpine Kookaburra",
+  "name": "Alpine Kookaburra",
   "url": "/lu4/npc/21467-alpine-kookaburra",
-  "source_url": "https://masterwork.wiki/lu4/npc/21467-alpine-kookaburra",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21467-alpine-kookaburra",
   "raw_html": "library/raw/lu4/npc/21467-alpine-kookaburra.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "6 930 / 1 464",
+    "P. Atk. / M. Atk.": "1 115 / 655",
+    "P. Def. / M. Def.": "416 / 355",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "14 734 / 1 368",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (2x) Lv. 10 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "B",
+    "Type": "Animal, Lv. 65"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21467",
-      "type": "npc",
-      "id": 21467,
-      "name": "Lu4",
-      "url": "/lu4/npc/21467-alpine-kookaburra"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "item:32341",
@@ -45,11 +49,11 @@
       "url": "/lu4/item/32341-unidentified-bellion-cestus"
     },
     {
-      "key": "item:5440",
+      "key": "item:4120",
       "type": "item",
-      "id": 5440,
-      "name": "Recipe: Elysian(60%) NG",
-      "url": "/lu4/item/5440-recipe-elysian60"
+      "id": 4120,
+      "name": "Bellion Cestus Edge NG",
+      "url": "/lu4/item/4120-bellion-cestus-edge"
     },
     {
       "key": "item:5368",
@@ -57,13 +61,6 @@
       "id": 5368,
       "name": "Recipe: Sealed Dark Crystal Boots(60%) NG",
       "url": "/lu4/item/5368-recipe-sealed-dark-crystal-boots60"
-    },
-    {
-      "key": "item:4120",
-      "type": "item",
-      "id": 4120,
-      "name": "Bellion Cestus Edge NG",
-      "url": "/lu4/item/4120-bellion-cestus-edge"
     },
     {
       "key": "item:4039",
@@ -108,11 +105,11 @@
       "url": "/lu4/item/1343-silver-arrow"
     },
     {
-      "key": "item:5458",
+      "key": "item:5440",
       "type": "item",
-      "id": 5458,
-      "name": "Recipe: Halberd(60%) NG",
-      "url": "/lu4/item/5458-recipe-halberd60"
+      "id": 5440,
+      "name": "Recipe: Elysian(60%) NG",
+      "url": "/lu4/item/5440-recipe-elysian60"
     },
     {
       "key": "item:4121",
@@ -120,6 +117,13 @@
       "id": 4121,
       "name": "Bow of Peril Shaft NG",
       "url": "/lu4/item/4121-bow-of-peril-shaft"
+    },
+    {
+      "key": "item:5458",
+      "type": "item",
+      "id": 5458,
+      "name": "Recipe: Halberd(60%) NG",
+      "url": "/lu4/item/5458-recipe-halberd60"
     }
   ]
 }

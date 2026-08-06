@@ -2,55 +2,24 @@
   "key": "item:2143",
   "type": "item",
   "id": 2143,
-  "name": "Recipe",
+  "name": "Recipe: Synthetic Cokes",
   "url": "/lu4/item/2143-recipe-synthetic-cokes",
-  "source_url": "https://masterwork.wiki/lu4/item/2143-recipe-synthetic-cokes",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2143-recipe-synthetic-cokes",
   "raw_html": "library/raw/lu4/item/2143-recipe-synthetic-cokes.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Synthetic Cokes'. Requires Create Item - Skill Level 2 (Artisan Lv. 20). The success rate is 100%.",
+    "NPC Sell Price": "500 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "20",
     "Success Rate": "100%",
-    "Result": "Synthetic Cokes NG"
+    "Result": "Synthetic Cokes NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "9"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "9"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "amount": "1"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2143",
-      "type": "item",
-      "id": 2143,
-      "name": "Lu4",
-      "url": "/lu4/item/2143-recipe-synthetic-cokes"
-    },
     {
       "key": "item:1879",
       "type": "item",
@@ -90,63 +59,63 @@
       "key": "npc:21126",
       "type": "npc",
       "id": 21126,
-      "name": "Kerope Werewolf Lv. 20",
+      "name": "Kerope Werewolf",
       "url": "/lu4/npc/21126-kerope-werewolf"
     },
     {
       "key": "npc:20541",
       "type": "npc",
       "id": 20541,
-      "name": "Ore Bat Lv. 17",
+      "name": "Ore Bat",
       "url": "/lu4/npc/20541-ore-bat"
     },
     {
       "key": "npc:20308",
       "type": "npc",
       "id": 20308,
-      "name": "Hook Spider Lv. 16",
+      "name": "Hook Spider",
       "url": "/lu4/npc/20308-hook-spider"
     },
     {
       "key": "npc:20049",
       "type": "npc",
       "id": 20049,
-      "name": "Lycanthrope Lv. 20",
+      "name": "Lycanthrope",
       "url": "/lu4/npc/20049-lycanthrope"
     },
     {
       "key": "npc:20043",
       "type": "npc",
       "id": 20043,
-      "name": "Arachnid Tracker Lv. 19",
+      "name": "Arachnid Tracker",
       "url": "/lu4/npc/20043-arachnid-tracker"
     },
     {
       "key": "npc:20034",
       "type": "npc",
       "id": 20034,
-      "name": "Prowler Lv. 17",
+      "name": "Prowler",
       "url": "/lu4/npc/20034-prowler"
     },
     {
       "key": "npc:20521",
       "type": "npc",
       "id": 20521,
-      "name": "Whinstone Golem Lv. 14",
+      "name": "Whinstone Golem",
       "url": "/lu4/npc/20521-whinstone-golem"
     },
     {
       "key": "npc:20369",
       "type": "npc",
       "id": 20369,
-      "name": "Moonstone Beast Lv. 17",
+      "name": "Moonstone Beast",
       "url": "/lu4/npc/20369-moonstone-beast"
     },
     {
       "key": "npc:20341",
       "type": "npc",
       "id": 20341,
-      "name": "Undead Slave Lv. 19",
+      "name": "Undead Slave",
       "url": "/lu4/npc/20341-undead-slave"
     }
   ]

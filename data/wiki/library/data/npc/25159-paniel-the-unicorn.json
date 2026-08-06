@@ -2,77 +2,72 @@
   "key": "npc:25159",
   "type": "npc",
   "id": 25159,
-  "name": "Lu4 Wiki: NPC Paniel the Unicorn",
+  "name": "Paniel the Unicorn",
   "url": "/lu4/npc/25159-paniel-the-unicorn",
-  "source_url": "https://masterwork.wiki/lu4/npc/25159-paniel-the-unicorn",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25159-paniel-the-unicorn",
   "raw_html": "library/raw/lu4/npc/25159-paniel-the-unicorn.html",
   "stats": {
-    "Location": "Волшебная Долина"
+    "HP / MP": "482 856 / 4 385",
+    "P. Atk. / M. Atk.": "3 399 / 2 453",
+    "P. Def. / M. Def.": "843 / 966",
+    "Accuracy / Evasion": "100 / 120",
+    "Exp / SP": "2 041 200 / 381 736",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A unicorn aimlessly drifting after losing its home long ago. It has wandered since the Era of Myths ended with Einhasad's rage against the Lesser Giants. The leader of the unicorns lost its herd while roaming the world. Although it is still desperately looking for its fellow unicorns, hundreds of years have passed since it parted ways from them. Wandering alone, it still has not adapted itself to the human world. Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 54"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25159",
-      "type": "npc",
-      "id": 25159,
-      "name": "Lu4",
-      "url": "/lu4/npc/25159-paniel-the-unicorn"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4850",
       "type": "skill",
       "id": 4850,
-      "name": "Raid Boss Lv. 1 A unicorn aimlessly drifting after losing its home long ago. It has wandered since the Era of Myths ended with Einhasad's rage against the Lesser Giants. The leader of the unicorns lost its herd while roaming the world. Although it is still desperately looking for its fellow unicorns, hundreds of years have passed since it parted ways from them. Wandering alone, it still has not adapted itself to the human world.",
-      "url": "/lu4/skill/4850-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4850-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32594",
+      "key": "item:9910",
       "type": "item",
-      "id": 32594,
-      "name": "Unidentified Avadon Breastplate B",
-      "url": "/lu4/item/32594-unidentified-avadon-breastplate"
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:32533",
+      "key": "item:32325",
       "type": "item",
-      "id": 32533,
-      "name": "Unidentified Sprite's Staff B",
-      "url": "/lu4/item/32533-unidentified-sprites-staff"
+      "id": 32325,
+      "name": "Unidentified Heavy War Axe B",
+      "url": "/lu4/item/32325-unidentified-heavy-war-axe"
     },
     {
       "key": "item:32438",
@@ -89,39 +84,18 @@
       "url": "/lu4/item/32433-unidentified-spell-breaker"
     },
     {
-      "key": "item:32353",
+      "key": "item:32533",
       "type": "item",
-      "id": 32353,
-      "name": "Unidentified Avadon Gaiters B",
-      "url": "/lu4/item/32353-unidentified-avadon-gaiters"
+      "id": 32533,
+      "name": "Unidentified Sprite's Staff B",
+      "url": "/lu4/item/32533-unidentified-sprites-staff"
     },
     {
-      "key": "item:32352",
+      "key": "item:4105",
       "type": "item",
-      "id": 32352,
-      "name": "Unidentified Zubei's Gaiters B",
-      "url": "/lu4/item/32352-unidentified-zubeis-gaiters"
-    },
-    {
-      "key": "item:32350",
-      "type": "item",
-      "id": 32350,
-      "name": "Unidentified Zubei's Breastplate B",
-      "url": "/lu4/item/32350-unidentified-zubeis-breastplate"
-    },
-    {
-      "key": "item:32325",
-      "type": "item",
-      "id": 32325,
-      "name": "Unidentified Heavy War Axe B",
-      "url": "/lu4/item/32325-unidentified-heavy-war-axe"
-    },
-    {
-      "key": "item:9910",
-      "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
+      "id": 4105,
+      "name": "Heavy War Axe Head NG",
+      "url": "/lu4/item/4105-heavy-war-axe-head"
     },
     {
       "key": "item:8347",
@@ -138,34 +112,6 @@
       "url": "/lu4/item/8339-spell-breaker-head"
     },
     {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:6572",
-      "type": "item",
-      "id": 6572,
-      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
-    },
-    {
       "key": "item:4106",
       "type": "item",
       "id": 4106,
@@ -173,18 +119,32 @@
       "url": "/lu4/item/4106-sprites-staff-head"
     },
     {
-      "key": "item:4105",
+      "key": "item:32594",
       "type": "item",
-      "id": 4105,
-      "name": "Heavy War Axe Head NG",
-      "url": "/lu4/item/4105-heavy-war-axe-head"
+      "id": 32594,
+      "name": "Unidentified Avadon Breastplate B",
+      "url": "/lu4/item/32594-unidentified-avadon-breastplate"
     },
     {
-      "key": "item:4065",
+      "key": "item:32350",
       "type": "item",
-      "id": 4065,
-      "name": "Avadon Gaiters Material NG",
-      "url": "/lu4/item/4065-avadon-gaiters-material"
+      "id": 32350,
+      "name": "Unidentified Zubei's Breastplate B",
+      "url": "/lu4/item/32350-unidentified-zubeis-breastplate"
+    },
+    {
+      "key": "item:32353",
+      "type": "item",
+      "id": 32353,
+      "name": "Unidentified Avadon Gaiters B",
+      "url": "/lu4/item/32353-unidentified-avadon-gaiters"
+    },
+    {
+      "key": "item:32352",
+      "type": "item",
+      "id": 32352,
+      "name": "Unidentified Zubei's Gaiters B",
+      "url": "/lu4/item/32352-unidentified-zubeis-gaiters"
     },
     {
       "key": "item:4064",
@@ -194,11 +154,46 @@
       "url": "/lu4/item/4064-avadon-breastplate-part"
     },
     {
+      "key": "item:4056",
+      "type": "item",
+      "id": 4056,
+      "name": "Zubei's Breastplate Part NG",
+      "url": "/lu4/item/4056-zubeis-breastplate-part"
+    },
+    {
+      "key": "item:4065",
+      "type": "item",
+      "id": 4065,
+      "name": "Avadon Gaiters Material NG",
+      "url": "/lu4/item/4065-avadon-gaiters-material"
+    },
+    {
       "key": "item:4057",
       "type": "item",
       "id": 4057,
       "name": "Zubei's Gaiter Material NG",
       "url": "/lu4/item/4057-zubeis-gaiter-material"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "npc:25160",

@@ -2,36 +2,40 @@
   "key": "item:38154",
   "type": "item",
   "id": 38154,
-  "name": "Lu4 Wiki: Item War Hammer",
+  "name": "War Hammer",
   "url": "/lu4/item/38154-war-hammer",
-  "source_url": "https://masterwork.wiki/lu4/item/38154-war-hammer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/38154-war-hammer",
   "raw_html": "library/raw/lu4/item/38154-war-hammer.html",
   "stats": {
+    "Effect": "<Passive Effect> Max HP +25%.",
+    "P. Atk. / M. Atk.": "64 / 39",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "1373 Crystallization Failed Enchant +0 1373 - +1 1463 - +2 1553 - +3 1643 - +4 1823 1136 +5 2003 1316 +6 2183 1496 +7 2363 1676 +8 2543 1856 +9 2723 2036 +10 2903 2216 +11 3083 2396 +12 3263 2576",
+    "NPC Sell Price": "371 750 Adena",
+    "Weight": "2080",
+    "P. Crit. Rate.": "8",
+    "Accuracy": "-4",
     "Item Skills": "Polearm Multi-Attack Lv. 1 Special Ability: Health Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "War Hammer D",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Polearm / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:38154",
-      "type": "item",
-      "id": 38154,
-      "name": "Lu4",
-      "url": "/lu4/item/38154-war-hammer"
-    },
-    {
       "key": "skill:3599",
       "type": "skill",
       "id": 3599,
-      "name": "Polearm Multi-Attack Lv. 1",
-      "url": "/lu4/skill/3599-polearm-multi-attack/1"
+      "name": "Polearm Multi-Attack",
+      "url": "/lu4/skill/3599-polearm-multi-attack"
     },
     {
       "key": "skill:24292",
       "type": "skill",
       "id": 24292,
-      "name": "Special Ability: Health Lv. 1",
-      "url": "/lu4/skill/24292-special-ability-health/1"
+      "name": "Special Ability: Health",
+      "url": "/lu4/skill/24292-special-ability-health"
     }
   ]
 }

@@ -2,77 +2,32 @@
   "key": "npc:20317",
   "type": "npc",
   "id": 20317,
-  "name": "Lu4 Wiki: NPC Black Wolf",
+  "name": "Black Wolf",
   "url": "/lu4/npc/20317-black-wolf",
-  "source_url": "https://masterwork.wiki/lu4/npc/20317-black-wolf",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20317-black-wolf",
   "raw_html": "library/raw/lu4/npc/20317-black-wolf.html",
   "stats": {
-    "Location": "Замерзшая Долина"
+    "Respawn Time": "15 seconds",
+    "Location": "Замерзшая Долина",
+    "HP / MP": "126 / 75",
+    "P. Atk. / M. Atk.": "14 / 5",
+    "P. Def. / M. Def.": "44 / 35",
+    "Accuracy / Evasion": "37 / 37",
+    "Exp / SP": "133 / 13",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 4"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20317",
-      "type": "npc",
-      "id": 20317,
-      "name": "Lu4",
-      "url": "/lu4/npc/20317-black-wolf"
-    },
-    {
-      "key": "location:199",
-      "type": "location",
-      "id": 199,
-      "name": "Замерзшая Долина",
-      "url": "/lu4/location/199-zamerzsaa-dolina"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1787",
-      "type": "item",
-      "id": 1787,
-      "name": "Recipe: Willow Staff NG",
-      "url": "/lu4/item/1787-recipe-willow-staff"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "item:57",
@@ -87,6 +42,48 @@
       "id": 1,
       "name": "Short Sword NG",
       "url": "/lu4/item/1-short-sword"
+    },
+    {
+      "key": "item:1787",
+      "type": "item",
+      "id": 1787,
+      "name": "Recipe: Willow Staff NG",
+      "url": "/lu4/item/1787-recipe-willow-staff"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
     },
     {
       "key": "item:1786",

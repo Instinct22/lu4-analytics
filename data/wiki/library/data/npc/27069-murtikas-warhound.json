@@ -2,40 +2,36 @@
   "key": "npc:27069",
   "type": "npc",
   "id": 27069,
-  "name": "Lu4 Wiki: NPC Murtika's Warhound",
+  "name": "Murtika's Warhound",
   "url": "/lu4/npc/27069-murtikas-warhound",
-  "source_url": "https://masterwork.wiki/lu4/npc/27069-murtikas-warhound",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27069-murtikas-warhound",
   "raw_html": "library/raw/lu4/npc/27069-murtikas-warhound.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "126 / 75",
+    "P. Atk. / M. Atk.": "14 / 5",
+    "P. Def. / M. Def.": "44 / 35",
+    "Accuracy / Evasion": "37 / 37",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
+    "Type": "Animal, Lv. 4"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:27069",
-      "type": "npc",
-      "id": 27069,
-      "name": "Lu4",
-      "url": "/lu4/npc/27069-murtikas-warhound"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     }
   ]
 }

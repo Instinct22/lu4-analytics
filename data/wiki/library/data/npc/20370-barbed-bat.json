@@ -2,105 +2,74 @@
   "key": "npc:20370",
   "type": "npc",
   "id": 20370,
-  "name": "Lu4 Wiki: NPC Barbed Bat",
+  "name": "Barbed Bat",
   "url": "/lu4/npc/20370-barbed-bat",
-  "source_url": "https://masterwork.wiki/lu4/npc/20370-barbed-bat",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20370-barbed-bat",
   "raw_html": "library/raw/lu4/npc/20370-barbed-bat.html",
   "stats": {
-    "Location": "Западные Рудники"
+    "Respawn Time": "10 seconds",
+    "Location": "Западные Рудники",
+    "HP / MP": "314 / 153",
+    "P. Atk. / M. Atk.": "36 / 18",
+    "P. Def. / M. Def.": "65 / 50",
+    "Accuracy / Evasion": "45 / 45",
+    "Exp / SP": "337 / 34",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 12"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20370",
-      "type": "npc",
-      "id": 20370,
-      "name": "Lu4",
-      "url": "/lu4/npc/20370-barbed-bat"
-    },
-    {
-      "key": "location:200",
-      "type": "location",
-      "id": 200,
-      "name": "Западные Рудники",
-      "url": "/lu4/location/200-zapadnye-rudniki"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:2386",
-      "type": "item",
-      "id": 2386,
-      "name": "Wooden Gaiters NG",
-      "url": "/lu4/item/2386-wooden-gaiters"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1793",
-      "type": "item",
-      "id": 1793,
-      "name": "Recipe: Sword of Reflection NG",
-      "url": "/lu4/item/1793-recipe-sword-of-reflection"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -110,13 +79,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:30",
-      "type": "item",
-      "id": 30,
-      "name": "Hard Leather Pants NG",
-      "url": "/lu4/item/30-hard-leather-pants"
-    },
-    {
       "key": "item:23",
       "type": "item",
       "id": 23,
@@ -124,11 +86,39 @@
       "url": "/lu4/item/23-wooden-breastplate"
     },
     {
-      "key": "item:1922",
+      "key": "item:30",
       "type": "item",
-      "id": 1922,
-      "name": "Leather Tunic Pattern NG",
-      "url": "/lu4/item/1922-leather-tunic-pattern"
+      "id": 30,
+      "name": "Hard Leather Pants NG",
+      "url": "/lu4/item/30-hard-leather-pants"
+    },
+    {
+      "key": "item:2386",
+      "type": "item",
+      "id": 2386,
+      "name": "Wooden Gaiters NG",
+      "url": "/lu4/item/2386-wooden-gaiters"
+    },
+    {
+      "key": "item:1793",
+      "type": "item",
+      "id": 1793,
+      "name": "Recipe: Sword of Reflection NG",
+      "url": "/lu4/item/1793-recipe-sword-of-reflection"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:1794",
@@ -136,6 +126,13 @@
       "id": 1794,
       "name": "Recipe: Forest Bow NG",
       "url": "/lu4/item/1794-recipe-forest-bow"
+    },
+    {
+      "key": "item:1922",
+      "type": "item",
+      "id": 1922,
+      "name": "Leather Tunic Pattern NG",
+      "url": "/lu4/item/1922-leather-tunic-pattern"
     }
   ]
 }

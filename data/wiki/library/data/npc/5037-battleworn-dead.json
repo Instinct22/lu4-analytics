@@ -2,154 +2,95 @@
   "key": "npc:5037",
   "type": "npc",
   "id": 5037,
-  "name": "Lu4 Wiki: NPC Battleworn Dead",
+  "name": "Battleworn Dead",
   "url": "/lu4/npc/5037-battleworn-dead",
-  "source_url": "https://masterwork.wiki/lu4/npc/5037-battleworn-dead",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5037-battleworn-dead",
   "raw_html": "library/raw/lu4/npc/5037-battleworn-dead.html",
   "stats": {
-    "Location": "Древнее Поле Битвы (+1) Древнее Поле Битвы Земли Адена"
+    "Respawn Time": "3 minutes, 40 seconds ± 10 seconds",
+    "Location": "Древнее Поле Битвы (+1) Древнее Поле Битвы Земли Адена",
+    "HP / MP": "25 643 / 1 110",
+    "P. Atk. / M. Atk.": "2 789 / 966",
+    "P. Def. / M. Def.": "838 / 511",
+    "Accuracy / Evasion": "107 / 107",
+    "Exp / SP": "51 480 / 5 148",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 16 Slightly Strong M. Def. Lv. 13 Strong P. Def. Lv. 15 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Stun Attack Resistance Lv. 5 Resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 72"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5037",
-      "type": "npc",
-      "id": 5037,
-      "name": "Lu4",
-      "url": "/lu4/npc/5037-battleworn-dead"
-    },
-    {
-      "key": "location:96",
-      "type": "location",
-      "id": 96,
-      "name": "Древнее Поле Битвы",
-      "url": "/lu4/location/96-drevnee-pole-bitvy"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:32382",
-      "type": "item",
-      "id": 32382,
-      "name": "Unidentified Sealed Tallum Tunic A",
-      "url": "/lu4/item/32382-unidentified-sealed-tallum-tunic"
-    },
-    {
-      "key": "item:32378",
-      "type": "item",
-      "id": 32378,
-      "name": "Unidentified Sealed Tallum Boots A",
-      "url": "/lu4/item/32378-unidentified-sealed-tallum-boots"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:5497",
-      "type": "item",
-      "id": 5497,
-      "name": "Sealed Tallum Boots Lining NG",
-      "url": "/lu4/item/5497-sealed-tallum-boots-lining"
-    },
-    {
-      "key": "item:5485",
-      "type": "item",
-      "id": 5485,
-      "name": "Sealed Tallum Tunic Texture NG",
-      "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4044",
@@ -180,6 +121,13 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
       "key": "item:730",
       "type": "item",
       "id": 730,
@@ -187,25 +135,53 @@
       "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:32378",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32378,
+      "name": "Unidentified Sealed Tallum Boots A",
+      "url": "/lu4/item/32378-unidentified-sealed-tallum-boots"
     },
     {
-      "key": "item:5508",
+      "key": "item:5497",
       "type": "item",
-      "id": 5508,
-      "name": "Sealed Dark Crystal Gloves Design NG",
-      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
+      "id": 5497,
+      "name": "Sealed Tallum Boots Lining NG",
+      "url": "/lu4/item/5497-sealed-tallum-boots-lining"
     },
     {
-      "key": "item:5486",
+      "key": "item:32382",
       "type": "item",
-      "id": 5486,
-      "name": "Sealed Dark Crystal Robe Fabric NG",
-      "url": "/lu4/item/5486-sealed-dark-crystal-robe-fabric"
+      "id": 32382,
+      "name": "Unidentified Sealed Tallum Tunic A",
+      "url": "/lu4/item/32382-unidentified-sealed-tallum-tunic"
+    },
+    {
+      "key": "item:5485",
+      "type": "item",
+      "id": 5485,
+      "name": "Sealed Tallum Tunic Texture NG",
+      "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:5444",
@@ -220,6 +196,20 @@
       "id": 5428,
       "name": "Recipe: Sealed Tallum Helmet(60%) NG",
       "url": "/lu4/item/5428-recipe-sealed-tallum-helmet60"
+    },
+    {
+      "key": "item:5508",
+      "type": "item",
+      "id": 5508,
+      "name": "Sealed Dark Crystal Gloves Design NG",
+      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
+    },
+    {
+      "key": "item:5486",
+      "type": "item",
+      "id": 5486,
+      "name": "Sealed Dark Crystal Robe Fabric NG",
+      "url": "/lu4/item/5486-sealed-dark-crystal-robe-fabric"
     }
   ]
 }

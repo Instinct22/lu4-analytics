@@ -2,77 +2,65 @@
   "key": "npc:25259",
   "type": "npc",
   "id": 25259,
-  "name": "Lu4 Wiki: NPC Zaken's Butcher Krantz",
+  "name": "Zaken's Butcher Krantz",
   "url": "/lu4/npc/25259-zakens-butcher-krantz",
-  "source_url": "https://masterwork.wiki/lu4/npc/25259-zakens-butcher-krantz",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25259-zakens-butcher-krantz",
   "raw_html": "library/raw/lu4/npc/25259-zakens-butcher-krantz.html",
   "stats": {
-    "Location": "Остров Дьявола"
+    "HP / MP": "1 336 353 / 4 527",
+    "P. Atk. / M. Atk.": "8 557 / 21 964",
+    "P. Def. / M. Def.": "972 / 1 046",
+    "Accuracy / Evasion": "101 / 106",
+    "Exp / SP": "3 025 000 / 448 385",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This executioner once served the great Pirate Zaken, even putting to death Zaken's rebellious crew members. Ironically, he later decapitated Zaken himself during the riot. Following his resurrection as an undead because of Zaken's curse, he swore to never again disobey his captain's commands. He now guards Zaken's treasure in the Pirate Tunnel. Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 55"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25259",
-      "type": "npc",
-      "id": 25259,
-      "name": "Lu4",
-      "url": "/lu4/npc/25259-zakens-butcher-krantz"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4885",
       "type": "skill",
       "id": 4885,
-      "name": "Raid Boss Lv. 1 This executioner once served the great Pirate Zaken, even putting to death Zaken's rebellious crew members. Ironically, he later decapitated Zaken himself during the riot. Following his resurrection as an undead because of Zaken's curse, he swore to never again disobey his captain's commands. He now guards Zaken's treasure in the Pirate Tunnel.",
-      "url": "/lu4/skill/4885-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4885-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32590",
+      "key": "item:9910",
       "type": "item",
-      "id": 32590,
-      "name": "Unidentified Avadon Robe B",
-      "url": "/lu4/item/32590-unidentified-avadon-robe"
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:32587",
+      "key": "item:32325",
       "type": "item",
-      "id": 32587,
-      "name": "Unidentified Tunic of Zubei B",
-      "url": "/lu4/item/32587-unidentified-tunic-of-zubei"
-    },
-    {
-      "key": "item:32533",
-      "type": "item",
-      "id": 32533,
-      "name": "Unidentified Sprite's Staff B",
-      "url": "/lu4/item/32533-unidentified-sprites-staff"
+      "id": 32325,
+      "name": "Unidentified Heavy War Axe B",
+      "url": "/lu4/item/32325-unidentified-heavy-war-axe"
     },
     {
       "key": "item:32438",
@@ -89,25 +77,18 @@
       "url": "/lu4/item/32433-unidentified-spell-breaker"
     },
     {
-      "key": "item:32361",
+      "key": "item:32533",
       "type": "item",
-      "id": 32361,
-      "name": "Unidentified Stockings of Zubei B",
-      "url": "/lu4/item/32361-unidentified-stockings-of-zubei"
+      "id": 32533,
+      "name": "Unidentified Sprite's Staff B",
+      "url": "/lu4/item/32533-unidentified-sprites-staff"
     },
     {
-      "key": "item:32325",
+      "key": "item:4105",
       "type": "item",
-      "id": 32325,
-      "name": "Unidentified Heavy War Axe B",
-      "url": "/lu4/item/32325-unidentified-heavy-war-axe"
-    },
-    {
-      "key": "item:9910",
-      "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
+      "id": 4105,
+      "name": "Heavy War Axe Head NG",
+      "url": "/lu4/item/4105-heavy-war-axe-head"
     },
     {
       "key": "item:8347",
@@ -124,34 +105,6 @@
       "url": "/lu4/item/8339-spell-breaker-head"
     },
     {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:6572",
-      "type": "item",
-      "id": 6572,
-      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
-    },
-    {
       "key": "item:4106",
       "type": "item",
       "id": 4106,
@@ -159,11 +112,25 @@
       "url": "/lu4/item/4106-sprites-staff-head"
     },
     {
-      "key": "item:4105",
+      "key": "item:32590",
       "type": "item",
-      "id": 4105,
-      "name": "Heavy War Axe Head NG",
-      "url": "/lu4/item/4105-heavy-war-axe-head"
+      "id": 32590,
+      "name": "Unidentified Avadon Robe B",
+      "url": "/lu4/item/32590-unidentified-avadon-robe"
+    },
+    {
+      "key": "item:32587",
+      "type": "item",
+      "id": 32587,
+      "name": "Unidentified Tunic of Zubei B",
+      "url": "/lu4/item/32587-unidentified-tunic-of-zubei"
+    },
+    {
+      "key": "item:32361",
+      "type": "item",
+      "id": 32361,
+      "name": "Unidentified Stockings of Zubei B",
+      "url": "/lu4/item/32361-unidentified-stockings-of-zubei"
     },
     {
       "key": "item:4071",
@@ -173,13 +140,6 @@
       "url": "/lu4/item/4071-avadon-robe-fabric"
     },
     {
-      "key": "item:4070",
-      "type": "item",
-      "id": 4070,
-      "name": "Stockings of Zubei Fabric NG",
-      "url": "/lu4/item/4070-stockings-of-zubei-fabric"
-    },
-    {
       "key": "item:4069",
       "type": "item",
       "id": 4069,
@@ -187,11 +147,46 @@
       "url": "/lu4/item/4069-tunic-of-zubei-fabric"
     },
     {
+      "key": "item:4070",
+      "type": "item",
+      "id": 4070,
+      "name": "Stockings of Zubei Fabric NG",
+      "url": "/lu4/item/4070-stockings-of-zubei-fabric"
+    },
+    {
       "key": "item:952",
       "type": "item",
       "id": 952,
       "name": "Scroll: Enchant Armor (C-Grade) NG",
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:948",
+      "type": "item",
+      "id": 948,
+      "name": "Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     }
   ]
 }

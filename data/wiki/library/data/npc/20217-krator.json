@@ -2,98 +2,74 @@
   "key": "npc:20217",
   "type": "npc",
   "id": 20217,
-  "name": "Lu4 Wiki: NPC Krator",
+  "name": "Krator",
   "url": "/lu4/npc/20217-krator",
-  "source_url": "https://masterwork.wiki/lu4/npc/20217-krator",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20217-krator",
   "raw_html": "library/raw/lu4/npc/20217-krator.html",
   "stats": {
-    "Location": "Башня Крумы: 3-й этаж"
+    "Respawn Time": "52 seconds ± 5 seconds",
+    "Location": "Башня Крумы: 3-й этаж",
+    "HP / MP": "5 605 / 719",
+    "P. Atk. / M. Atk.": "419 / 227",
+    "P. Def. / M. Def.": "210 / 189",
+    "Accuracy / Evasion": "77 / 77",
+    "Exp / SP": "5 965 / 597",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 9 Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20217",
-      "type": "npc",
-      "id": 20217,
-      "name": "Lu4",
-      "url": "/lu4/npc/20217-krator"
-    },
-    {
-      "key": "location:56",
-      "type": "location",
-      "id": 56,
-      "name": "Башня Крумы: 3-й этаж",
-      "url": "/lu4/location/56-basna-krumy-3-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5279",
@@ -103,39 +79,11 @@
       "url": "/lu4/item/5279-recipe-greater-blessed-spiritshot-c-compressed-package100"
     },
     {
-      "key": "item:2948",
+      "key": "item:1868",
       "type": "item",
-      "id": 2948,
-      "name": "Rind Leather Boots Lining NG",
-      "url": "/lu4/item/2948-rind-leather-boots-lining"
-    },
-    {
-      "key": "item:2434",
-      "type": "item",
-      "id": 2434,
-      "name": "Rind Leather Boots C",
-      "url": "/lu4/item/2434-rind-leather-boots"
-    },
-    {
-      "key": "item:2080",
-      "type": "item",
-      "id": 2080,
-      "name": "Spirit Sword Blade NG",
-      "url": "/lu4/item/2080-spirit-sword-blade"
-    },
-    {
-      "key": "item:1970",
-      "type": "item",
-      "id": 1970,
-      "name": "Robe of Seal Fabric NG",
-      "url": "/lu4/item/1970-robe-of-seal-fabric"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:1873",
@@ -145,11 +93,32 @@
       "url": "/lu4/item/1873-silver-nugget"
     },
     {
-      "key": "item:1868",
+      "key": "item:1889",
       "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:2434",
+      "type": "item",
+      "id": 2434,
+      "name": "Rind Leather Boots C",
+      "url": "/lu4/item/2434-rind-leather-boots"
+    },
+    {
+      "key": "item:2948",
+      "type": "item",
+      "id": 2948,
+      "name": "Rind Leather Boots Lining NG",
+      "url": "/lu4/item/2948-rind-leather-boots-lining"
     },
     {
       "key": "item:440",
@@ -159,6 +128,13 @@
       "url": "/lu4/item/440-robe-of-seal"
     },
     {
+      "key": "item:1970",
+      "type": "item",
+      "id": 1970,
+      "name": "Robe of Seal Fabric NG",
+      "url": "/lu4/item/1970-robe-of-seal-fabric"
+    },
+    {
       "key": "item:131",
       "type": "item",
       "id": 131,
@@ -166,11 +142,32 @@
       "url": "/lu4/item/131-spirit-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:2080",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2080,
+      "name": "Spirit Sword Blade NG",
+      "url": "/lu4/item/2080-spirit-sword-blade"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     }
   ]
 }

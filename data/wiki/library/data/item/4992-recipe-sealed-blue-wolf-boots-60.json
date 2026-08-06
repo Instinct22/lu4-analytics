@@ -2,160 +2,24 @@
   "key": "item:4992",
   "type": "item",
   "id": 4992,
-  "name": "Recipe",
+  "name": "Recipe: Sealed Blue Wolf Boots (60%)",
   "url": "/lu4/item/4992-recipe-sealed-blue-wolf-boots-60",
-  "source_url": "https://masterwork.wiki/lu4/item/4992-recipe-sealed-blue-wolf-boots-60",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/4992-recipe-sealed-blue-wolf-boots-60",
   "raw_html": "library/raw/lu4/item/4992-recipe-sealed-blue-wolf-boots-60.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Sealed Blue Wolf Boots'. Requires Create Item - Skill Level 7 (Warsmith Lv. 55). The success rate is 60%.",
+    "NPC Sell Price": "8 040 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "7",
     "MP Consume": "183",
     "Success Rate": "60%",
-    "Result": "Sealed Blue Wolf Boots B or Sealed Blue Wolf Boots B Foundation"
+    "Result": "Sealed Blue Wolf Boots B or Sealed Blue Wolf Boots B Foundation",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:4992",
-      "type": "item",
-      "id": 4992,
-      "name": "Recipe: Sealed Blue Wolf Boots (60%) NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:4090",
-      "type": "item",
-      "id": 4090,
-      "name": "Sealed Blue Wolf Boots Design NG",
-      "amount": "13"
-    },
-    {
-      "key": "item:1894",
-      "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "12.8"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "64"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "64"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "160"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "768"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "40"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "12"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1460",
-      "type": "item",
-      "id": 1460,
-      "name": "Crystal (B-Grade) B",
-      "amount": "8"
-    },
-    {
-      "key": "item:2132",
-      "type": "item",
-      "id": 2132,
-      "name": "Gemstone B NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "amount": "100000"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:4992",
-      "type": "item",
-      "id": 4992,
-      "name": "Lu4",
-      "url": "/lu4/item/4992-recipe-sealed-blue-wolf-boots-60"
-    },
     {
       "key": "item:4090",
       "type": "item",
@@ -300,28 +164,28 @@
       "key": "npc:20671",
       "type": "npc",
       "id": 20671,
-      "name": "Kadios Lv. 64",
+      "name": "Kadios",
       "url": "/lu4/npc/20671-kadios"
     },
     {
       "key": "npc:20670",
       "type": "npc",
       "id": 20670,
-      "name": "Crimson Drake Lv. 64",
+      "name": "Crimson Drake",
       "url": "/lu4/npc/20670-crimson-drake"
     },
     {
       "key": "npc:20674",
       "type": "npc",
       "id": 20674,
-      "name": "Doom Knight Lv. 65",
+      "name": "Doom Knight",
       "url": "/lu4/npc/20674-doom-knight"
     },
     {
       "key": "npc:20629",
       "type": "npc",
       "id": 20629,
-      "name": "Karik Lv. 65",
+      "name": "Karik",
       "url": "/lu4/npc/20629-karik"
     }
   ]

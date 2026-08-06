@@ -2,189 +2,186 @@
   "key": "npc:29014",
   "type": "npc",
   "id": 29014,
-  "name": "Lu4 Wiki: NPC Orfen",
+  "name": "Orfen",
   "url": "/lu4/npc/29014-orfen",
-  "source_url": "https://masterwork.wiki/lu4/npc/29014-orfen",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/29014-orfen",
   "raw_html": "library/raw/lu4/npc/29014-orfen.html",
   "stats": {
-    "Location": "Море Спор"
+    "Respawn Time": "Fixed",
+    "Location": "Море Спор",
+    "HP / MP": "8 478 750 / 3 685",
+    "P. Atk. / M. Atk.": "9 182 / 359",
+    "P. Def. / M. Def.": "781 / 904",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "9 464 000 / 1 000 000",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Orfen Lv. 1 The youngest of the 3 Nerupa sisters. Ambitious unlike her sisters, she is amassing her power in the Sea of Spores. She threads the web of the Future. Resist Full Magic Attack Lv. 3",
+    "Grade": "C",
+    "Type": "Elemental, Lv. 52"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:29014",
-      "type": "npc",
-      "id": 29014,
-      "name": "Lu4",
-      "url": "/lu4/npc/29014-orfen"
-    },
-    {
-      "key": "location:104",
-      "type": "location",
-      "id": 104,
-      "name": "Море Спор",
-      "url": "/lu4/location/104-more-spor"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4062",
       "type": "skill",
       "id": 4062,
-      "name": "Orfen Lv. 1 The youngest of the 3 Nerupa sisters. Ambitious unlike her sisters, she is amassing her power in the Sea of Spores. She threads the web of the Future.",
-      "url": "/lu4/skill/4062-orfen/1"
+      "name": "Orfen",
+      "url": "/lu4/skill/4062-orfen"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 3",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/3"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32595",
+      "key": "item:6661",
       "type": "item",
-      "id": 32595,
-      "name": "Unidentified Zubei's Helmet B",
-      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
+      "id": 6661,
+      "name": "Earring of Orfen C",
+      "url": "/lu4/item/6661-earring-of-orfen"
     },
     {
-      "key": "item:32594",
+      "key": "item:8620",
       "type": "item",
-      "id": 32594,
-      "name": "Unidentified Avadon Breastplate B",
-      "url": "/lu4/item/32594-unidentified-avadon-breastplate"
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
     },
     {
-      "key": "item:32593",
+      "key": "item:76",
       "type": "item",
-      "id": 32593,
-      "name": "Unidentified Zubei's Shield B",
-      "url": "/lu4/item/32593-unidentified-zubeis-shield"
+      "id": 76,
+      "name": "Sword of Delusion C",
+      "url": "/lu4/item/76-sword-of-delusion"
     },
     {
-      "key": "item:32592",
+      "key": "item:7882",
       "type": "item",
-      "id": 32592,
-      "name": "Unidentified Doom Shield B",
-      "url": "/lu4/item/32592-unidentified-doom-shield"
+      "id": 7882,
+      "name": "Pa'agrian Sword C",
+      "url": "/lu4/item/7882-paagrian-sword"
     },
     {
-      "key": "item:32591",
+      "key": "item:162",
       "type": "item",
-      "id": 32591,
-      "name": "Unidentified Avadon Shield B",
-      "url": "/lu4/item/32591-unidentified-avadon-shield"
+      "id": 162,
+      "name": "War Axe C",
+      "url": "/lu4/item/162-war-axe"
     },
     {
-      "key": "item:32590",
+      "key": "item:7898",
       "type": "item",
-      "id": 32590,
-      "name": "Unidentified Avadon Robe B",
-      "url": "/lu4/item/32590-unidentified-avadon-robe"
+      "id": 7898,
+      "name": "Karik Horn C",
+      "url": "/lu4/item/7898-karik-horn"
     },
     {
-      "key": "item:32589",
+      "key": "item:84",
       "type": "item",
-      "id": 32589,
-      "name": "Unidentified Tunic of Doom B",
-      "url": "/lu4/item/32589-unidentified-tunic-of-doom"
+      "id": 84,
+      "name": "Homunkulus's Sword C",
+      "url": "/lu4/item/84-homunkuluss-sword"
     },
     {
-      "key": "item:32588",
+      "key": "item:145",
       "type": "item",
-      "id": 32588,
-      "name": "Unidentified Blue Wolf Tunic B",
-      "url": "/lu4/item/32588-unidentified-blue-wolf-tunic"
+      "id": 145,
+      "name": "Sword of Whispering Death C",
+      "url": "/lu4/item/145-sword-of-whispering-death"
     },
     {
-      "key": "item:32587",
+      "key": "item:201",
       "type": "item",
-      "id": 32587,
-      "name": "Unidentified Tunic of Zubei B",
-      "url": "/lu4/item/32587-unidentified-tunic-of-zubei"
+      "id": 201,
+      "name": "Club of Nature C",
+      "url": "/lu4/item/201-club-of-nature"
     },
     {
-      "key": "item:32535",
+      "key": "item:200",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+      "id": 200,
+      "name": "Sage's Staff C",
+      "url": "/lu4/item/200-sages-staff"
     },
     {
-      "key": "item:32534",
+      "key": "item:198",
       "type": "item",
-      "id": 32534,
-      "name": "Unidentified Staff of Evil Spirits B",
-      "url": "/lu4/item/32534-unidentified-staff-of-evil-spirits"
+      "id": 198,
+      "name": "Inferno Staff C",
+      "url": "/lu4/item/198-inferno-staff"
     },
     {
-      "key": "item:32533",
+      "key": "item:265",
       "type": "item",
-      "id": 32533,
-      "name": "Unidentified Sprite's Staff B",
-      "url": "/lu4/item/32533-unidentified-sprites-staff"
+      "id": 265,
+      "name": "Fisted Blade C",
+      "url": "/lu4/item/265-fisted-blade"
     },
     {
-      "key": "item:32439",
+      "key": "item:233",
       "type": "item",
-      "id": 32439,
-      "name": "Unidentified Star Buster B",
-      "url": "/lu4/item/32439-unidentified-star-buster"
+      "id": 233,
+      "name": "Dark Screamer C",
+      "url": "/lu4/item/233-dark-screamer"
     },
     {
-      "key": "item:32438",
+      "key": "item:283",
       "type": "item",
-      "id": 32438,
-      "name": "Unidentified Ice Storm Hammer B",
-      "url": "/lu4/item/32438-unidentified-ice-storm-hammer"
+      "id": 283,
+      "name": "Akat Long Bow C",
+      "url": "/lu4/item/283-akat-long-bow"
     },
     {
-      "key": "item:32437",
+      "key": "item:95",
       "type": "item",
-      "id": 32437,
-      "name": "Unidentified Destroyer Hammer A",
-      "url": "/lu4/item/32437-unidentified-destroyer-hammer"
+      "id": 95,
+      "name": "Poleaxe C",
+      "url": "/lu4/item/95-poleaxe"
     },
     {
-      "key": "item:32435",
+      "key": "item:135",
       "type": "item",
-      "id": 32435,
-      "name": "Unidentified Spiritual Eye A",
-      "url": "/lu4/item/32435-unidentified-spiritual-eye"
+      "id": 135,
+      "name": "Samurai Longsword C",
+      "url": "/lu4/item/135-samurai-longsword"
     },
     {
-      "key": "item:32434",
+      "key": "item:7888",
       "type": "item",
-      "id": 32434,
-      "name": "Unidentified Kaim Vanul's Bones B",
-      "url": "/lu4/item/32434-unidentified-kaim-vanuls-bones"
+      "id": 7888,
+      "name": "Ecliptic Sword C",
+      "url": "/lu4/item/7888-ecliptic-sword"
     },
     {
-      "key": "item:32433",
+      "key": "item:5286",
       "type": "item",
-      "id": 32433,
-      "name": "Unidentified Spell Breaker B",
-      "url": "/lu4/item/32433-unidentified-spell-breaker"
+      "id": 5286,
+      "name": "Berserker Blade C",
+      "url": "/lu4/item/5286-berserker-blade"
     },
     {
-      "key": "item:32432",
+      "key": "item:2503",
       "type": "item",
-      "id": 32432,
-      "name": "Unidentified Wizard's Tear B",
-      "url": "/lu4/item/32432-unidentified-wizards-tear"
+      "id": 2503,
+      "name": "Yaksa Mace C",
+      "url": "/lu4/item/2503-yaksa-mace"
     },
     {
-      "key": "item:32431",
+      "key": "item:7897",
       "type": "item",
-      "id": 32431,
-      "name": "Unidentified Infernal Master A",
-      "url": "/lu4/item/32431-unidentified-infernal-master"
+      "id": 7897,
+      "name": "Dwarven Hammer C",
+      "url": "/lu4/item/7897-dwarven-hammer"
     },
     {
       "key": "npc:29016",

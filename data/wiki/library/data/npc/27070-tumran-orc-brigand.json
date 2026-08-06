@@ -2,77 +2,73 @@
   "key": "npc:27070",
   "type": "npc",
   "id": 27070,
-  "name": "Lu4 Wiki: NPC Tumran Orc Brigand",
+  "name": "Tumran Orc Brigand",
   "url": "/lu4/npc/27070-tumran-orc-brigand",
-  "source_url": "https://masterwork.wiki/lu4/npc/27070-tumran-orc-brigand",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27070-tumran-orc-brigand",
   "raw_html": "library/raw/lu4/npc/27070-tumran-orc-brigand.html",
   "stats": {
-    "Location": "Гнездо Пауков"
+    "Respawn Time": "15 seconds",
+    "Location": "Гнездо Пауков",
+    "HP / MP": "572 / 143",
+    "P. Atk. / M. Atk.": "25 / 11",
+    "P. Def. / M. Def.": "78 / 58",
+    "Accuracy / Evasion": "47 / 46",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets. HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 12",
+    "Type": "Humanoid, Lv. 11"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:27070",
-      "type": "npc",
-      "id": 27070,
-      "name": "Lu4",
-      "url": "/lu4/npc/27070-tumran-orc-brigand"
-    },
-    {
-      "key": "location:218",
-      "type": "location",
-      "id": 218,
-      "name": "Гнездо Пауков",
-      "url": "/lu4/location/218-gnezdo-paukov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     }
   ]
 }

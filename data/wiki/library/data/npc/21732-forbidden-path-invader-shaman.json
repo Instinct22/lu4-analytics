@@ -2,82 +2,86 @@
   "key": "npc:21732",
   "type": "npc",
   "id": 21732,
-  "name": "Lu4 Wiki: NPC Forbidden Path Invader Shaman",
+  "name": "Forbidden Path Invader Shaman",
   "url": "/lu4/npc/21732-forbidden-path-invader-shaman",
-  "source_url": "https://masterwork.wiki/lu4/npc/21732-forbidden-path-invader-shaman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21732-forbidden-path-invader-shaman",
   "raw_html": "library/raw/lu4/npc/21732-forbidden-path-invader-shaman.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "9 907 / 1 389",
+    "P. Atk. / M. Atk.": "1 008 / 587",
+    "P. Def. / M. Def.": "283 / 632",
+    "Accuracy / Evasion": "96 / 106",
+    "Exp / SP": "20 604 / 1 860",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (3x) Lv. 11 Extremely Strong M. Def. Lv. 18 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Sleep Resistance Lv. 3 Slightly resistant to Sleep. Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 63"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21732",
-      "type": "npc",
-      "id": 21732,
-      "name": "Lu4",
-      "url": "/lu4/npc/21732-forbidden-path-invader-shaman"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Extremely Strong M. Def. Lv. 18",
-      "url": "/lu4/skill/4413-extremely-strong-m-def/18"
+      "name": "Extremely Strong M. Def.",
+      "url": "/lu4/skill/4413-extremely-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32336",
@@ -87,18 +91,18 @@
       "url": "/lu4/item/32336-unidentified-demons-dagger"
     },
     {
-      "key": "item:5444",
-      "type": "item",
-      "id": 5444,
-      "name": "Recipe: Carnage Bow(60%) NG",
-      "url": "/lu4/item/5444-recipe-carnage-bow60"
-    },
-    {
       "key": "item:4119",
       "type": "item",
       "id": 4119,
       "name": "Demon's Dagger Edge NG",
       "url": "/lu4/item/4119-demons-dagger-edge"
+    },
+    {
+      "key": "item:5444",
+      "type": "item",
+      "id": 5444,
+      "name": "Recipe: Carnage Bow(60%) NG",
+      "url": "/lu4/item/5444-recipe-carnage-bow60"
     },
     {
       "key": "item:4039",
@@ -143,18 +147,11 @@
       "url": "/lu4/item/1343-silver-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:5281",
-      "type": "item",
-      "id": 5281,
-      "name": "Recipe: Greater Blessed Spiritshot (A) Compressed Package(100%) NG",
-      "url": "/lu4/item/5281-recipe-greater-blessed-spiritshot-a-compressed-package100"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:4089",
@@ -162,6 +159,13 @@
       "id": 4089,
       "name": "Doom Helmet Pattern NG",
       "url": "/lu4/item/4089-doom-helmet-pattern"
+    },
+    {
+      "key": "item:5281",
+      "type": "item",
+      "id": 5281,
+      "name": "Recipe: Greater Blessed Spiritshot (A) Compressed Package(100%) NG",
+      "url": "/lu4/item/5281-recipe-greater-blessed-spiritshot-a-compressed-package100"
     }
   ]
 }

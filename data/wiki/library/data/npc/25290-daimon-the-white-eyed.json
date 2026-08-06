@@ -2,110 +2,107 @@
   "key": "npc:25290",
   "type": "npc",
   "id": 25290,
-  "name": "Lu4 Wiki: NPC Daimon the White-Eyed",
+  "name": "Daimon the White-Eyed",
   "url": "/lu4/npc/25290-daimon-the-white-eyed",
-  "source_url": "https://masterwork.wiki/lu4/npc/25290-daimon-the-white-eyed",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25290-daimon-the-white-eyed",
   "raw_html": "library/raw/lu4/npc/25290-daimon-the-white-eyed.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 741 966 / 3 568",
+    "P. Atk. / M. Atk.": "31 856 / 15 183",
+    "P. Def. / M. Def.": "1 757 / 1 805",
+    "Accuracy / Evasion": "137 / 137",
+    "Exp / SP": "5 779 800 / 1 136 980",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 Created by the dark side of the God of Light, Einhasad, to punish the arrogance of the Giant Argos, this giant Monster Eye is set in the Wall of Argos. It controls other monster eyes in order to eradicate the eyes of Argos and thwart his plans. Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 78"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25290",
-      "type": "npc",
-      "id": 25290,
-      "name": "Lu4",
-      "url": "/lu4/npc/25290-daimon-the-white-eyed"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4900",
       "type": "skill",
       "id": 4900,
-      "name": "Raid Boss Lv. 1 Created by the dark side of the God of Light, Einhasad, to punish the arrogance of the Giant Argos, this giant Monster Eye is set in the Wall of Argos. It controls other monster eyes in order to eradicate the eyes of Argos and thwart his plans.",
-      "url": "/lu4/skill/4900-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4900-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:32537",
-      "type": "item",
-      "id": 32537,
-      "name": "Unidentified Daimon Crystal A",
-      "url": "/lu4/item/32537-unidentified-daimon-crystal"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -115,25 +112,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6702",
+      "key": "item:32537",
       "type": "item",
-      "id": 6702,
-      "name": "Sealed Imperial Crusader Gaiters Pattern NG",
-      "url": "/lu4/item/6702-sealed-imperial-crusader-gaiters-pattern"
-    },
-    {
-      "key": "item:6701",
-      "type": "item",
-      "id": 6701,
-      "name": "Sealed Imperial Crusader Breastplate Part NG",
-      "url": "/lu4/item/6701-sealed-imperial-crusader-breastplate-part"
-    },
-    {
-      "key": "item:6696",
-      "type": "item",
-      "id": 6696,
-      "name": "Heavens Divider Edge NG",
-      "url": "/lu4/item/6696-heavens-divider-edge"
+      "id": 32537,
+      "name": "Unidentified Daimon Crystal A",
+      "url": "/lu4/item/32537-unidentified-daimon-crystal"
     },
     {
       "key": "item:6688",
@@ -143,18 +126,25 @@
       "url": "/lu4/item/6688-forgotten-blade-edge"
     },
     {
-      "key": "item:6578",
+      "key": "item:6696",
       "type": "item",
-      "id": 6578,
-      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+      "id": 6696,
+      "name": "Heavens Divider Edge NG",
+      "url": "/lu4/item/6696-heavens-divider-edge"
     },
     {
-      "key": "item:6577",
+      "key": "item:6701",
       "type": "item",
-      "id": 6577,
-      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
-      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
+      "id": 6701,
+      "name": "Sealed Imperial Crusader Breastplate Part NG",
+      "url": "/lu4/item/6701-sealed-imperial-crusader-breastplate-part"
+    },
+    {
+      "key": "item:6702",
+      "type": "item",
+      "id": 6702,
+      "name": "Sealed Imperial Crusader Gaiters Pattern NG",
+      "url": "/lu4/item/6702-sealed-imperial-crusader-gaiters-pattern"
     },
     {
       "key": "item:960",
@@ -164,11 +154,25 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
+      "key": "item:6578",
+      "type": "item",
+      "id": 6578,
+      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+    },
+    {
       "key": "item:959",
       "type": "item",
       "id": 959,
       "name": "Scroll: Enchant Weapon (S-Grade) NG",
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
+    },
+    {
+      "key": "item:6577",
+      "type": "item",
+      "id": 6577,
+      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
+      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
     },
     {
       "key": "npc:25291",

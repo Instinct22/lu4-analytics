@@ -2,63 +2,39 @@
   "key": "npc:20989",
   "type": "npc",
   "id": 20989,
-  "name": "Lu4 Wiki: NPC Lageos",
+  "name": "Lageos",
   "url": "/lu4/npc/20989-lageos",
-  "source_url": "https://masterwork.wiki/lu4/npc/20989-lageos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20989-lageos",
   "raw_html": "library/raw/lu4/npc/20989-lageos.html",
   "stats": {
-    "Location": "Шепчущие Поля"
+    "Respawn Time": "35 seconds",
+    "Location": "Шепчущие Поля",
+    "HP / MP": "1 342 / 552",
+    "P. Atk. / M. Atk.": "243 / 118",
+    "P. Def. / M. Def.": "196 / 154",
+    "Accuracy / Evasion": "71 / 76",
+    "Exp / SP": "1 409 / 141",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 38"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20989",
-      "type": "npc",
-      "id": 20989,
-      "name": "Lu4",
-      "url": "/lu4/npc/20989-lageos"
-    },
-    {
-      "key": "location:117",
-      "type": "location",
-      "id": 117,
-      "name": "Шепчущие Поля",
-      "url": "/lu4/location/117-sepcusie-pola"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5473",
-      "type": "item",
-      "id": 5473,
-      "name": "Recipe: Durable Metal Plate(100%) NG",
-      "url": "/lu4/item/5473-recipe-durable-metal-plate100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5220",
@@ -68,39 +44,11 @@
       "url": "/lu4/item/5220-metal-hardener"
     },
     {
-      "key": "item:2201",
-      "type": "item",
-      "id": 2201,
-      "name": "Recipe: Square Shield NG",
-      "url": "/lu4/item/2201-recipe-square-shield"
-    },
-    {
       "key": "item:2146",
       "type": "item",
       "id": 2146,
       "name": "Recipe: Artisan's frame NG",
       "url": "/lu4/item/2146-recipe-artisans-frame"
-    },
-    {
-      "key": "item:2049",
-      "type": "item",
-      "id": 2049,
-      "name": "Atuba Hammer Head NG",
-      "url": "/lu4/item/2049-atuba-hammer-head"
-    },
-    {
-      "key": "item:2048",
-      "type": "item",
-      "id": 2048,
-      "name": "Bonebreaker Head NG",
-      "url": "/lu4/item/2048-bonebreaker-head"
-    },
-    {
-      "key": "item:1907",
-      "type": "item",
-      "id": 1907,
-      "name": "Necklace of Darkness Gem NG",
-      "url": "/lu4/item/1907-necklace-of-darkness-gem"
     },
     {
       "key": "item:1885",
@@ -124,11 +72,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:914",
+      "key": "item:5473",
       "type": "item",
-      "id": 914,
-      "name": "Necklace of Darkness D",
-      "url": "/lu4/item/914-necklace-of-darkness"
+      "id": 5473,
+      "name": "Recipe: Durable Metal Plate(100%) NG",
+      "url": "/lu4/item/5473-recipe-durable-metal-plate100"
     },
     {
       "key": "item:187",
@@ -138,6 +86,13 @@
       "url": "/lu4/item/187-atuba-hammer"
     },
     {
+      "key": "item:2049",
+      "type": "item",
+      "id": 2049,
+      "name": "Atuba Hammer Head NG",
+      "url": "/lu4/item/2049-atuba-hammer-head"
+    },
+    {
       "key": "item:159",
       "type": "item",
       "id": 159,
@@ -145,18 +100,53 @@
       "url": "/lu4/item/159-bonebreaker"
     },
     {
-      "key": "item:57",
+      "key": "item:2048",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2048,
+      "name": "Bonebreaker Head NG",
+      "url": "/lu4/item/2048-bonebreaker-head"
     },
     {
-      "key": "item:1951",
+      "key": "item:914",
       "type": "item",
-      "id": 1951,
-      "name": "Plate Gaiters Part NG",
-      "url": "/lu4/item/1951-plate-gaiters-part"
+      "id": 914,
+      "name": "Necklace of Darkness D",
+      "url": "/lu4/item/914-necklace-of-darkness"
+    },
+    {
+      "key": "item:1907",
+      "type": "item",
+      "id": 1907,
+      "name": "Necklace of Darkness Gem NG",
+      "url": "/lu4/item/1907-necklace-of-darkness-gem"
+    },
+    {
+      "key": "item:2201",
+      "type": "item",
+      "id": 2201,
+      "name": "Recipe: Square Shield NG",
+      "url": "/lu4/item/2201-recipe-square-shield"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:1825",
@@ -171,6 +161,13 @@
       "id": 956,
       "name": "Scroll: Enchant Armor (D-Grade) NG",
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:1951",
+      "type": "item",
+      "id": 1951,
+      "name": "Half Plate Gaiters Part NG",
+      "url": "/lu4/item/1951-half-plate-gaiters-part"
     },
     {
       "key": "npc:20990",

@@ -2,124 +2,107 @@
   "key": "npc:21183",
   "type": "npc",
   "id": 21183,
-  "name": "Lu4 Wiki: NPC Lilim Knight Commander",
+  "name": "Lilim Knight Commander",
   "url": "/lu4/npc/21183-lilim-knight-commander",
-  "source_url": "https://masterwork.wiki/lu4/npc/21183-lilim-knight-commander",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21183-lilim-knight-commander",
   "raw_html": "library/raw/lu4/npc/21183-lilim-knight-commander.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "16 054 / 1 565",
+    "P. Atk. / M. Atk.": "1 696 / 1 203",
+    "P. Def. / M. Def.": "804 / 309",
+    "Accuracy / Evasion": "107 / 107",
+    "Exp / SP": "33 899 / 3 444",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -13, Unholy 184",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Very Strong P. Def. Lv. 16 Slightly Weak M. Def. Lv. 9 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Hold Resistance Lv. 3 Slightly resistant to Hold. Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 72"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21183",
-      "type": "npc",
-      "id": 21183,
-      "name": "Lu4",
-      "url": "/lu4/npc/21183-lilim-knight-commander"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:6361",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32376",
-      "type": "item",
-      "id": 32376,
-      "name": "Unidentified Sealed Tallum Helmet A",
-      "url": "/lu4/item/32376-unidentified-sealed-tallum-helmet"
-    },
-    {
-      "key": "item:32374",
-      "type": "item",
-      "id": 32374,
-      "name": "Unidentified Sealed Dark Crystal Shield A",
-      "url": "/lu4/item/32374-unidentified-sealed-dark-crystal-shield"
-    },
-    {
-      "key": "item:32371",
-      "type": "item",
-      "id": 32371,
-      "name": "Unidentified Sealed Dark Crystal Helmet A",
-      "url": "/lu4/item/32371-unidentified-sealed-dark-crystal-helmet"
+      "id": 6361,
+      "name": "Green Seal Stone NG",
+      "url": "/lu4/item/6361-green-seal-stone"
     },
     {
       "key": "item:6362",
@@ -129,11 +112,11 @@
       "url": "/lu4/item/6362-red-seal-stone"
     },
     {
-      "key": "item:6361",
+      "key": "item:32376",
       "type": "item",
-      "id": 6361,
-      "name": "Green Seal Stone NG",
-      "url": "/lu4/item/6361-green-seal-stone"
+      "id": 32376,
+      "name": "Unidentified Sealed Tallum Helmet A",
+      "url": "/lu4/item/32376-unidentified-sealed-tallum-helmet"
     },
     {
       "key": "item:5526",
@@ -155,6 +138,27 @@
       "id": 5494,
       "name": "Sealed Dark Crystal Shield Fragment NG",
       "url": "/lu4/item/5494-sealed-dark-crystal-shield-fragment"
+    },
+    {
+      "key": "item:32371",
+      "type": "item",
+      "id": 32371,
+      "name": "Unidentified Sealed Dark Crystal Helmet A",
+      "url": "/lu4/item/32371-unidentified-sealed-dark-crystal-helmet"
+    },
+    {
+      "key": "item:32374",
+      "type": "item",
+      "id": 32374,
+      "name": "Unidentified Sealed Dark Crystal Shield A",
+      "url": "/lu4/item/32374-unidentified-sealed-dark-crystal-shield"
+    },
+    {
+      "key": "item:1894",
+      "type": "item",
+      "id": 1894,
+      "name": "Crafted Leather NG",
+      "url": "/lu4/item/1894-crafted-leather"
     },
     {
       "key": "item:4044",
@@ -185,11 +189,18 @@
       "url": "/lu4/item/3956-recipe-blessed-spiritshot-a"
     },
     {
-      "key": "item:1894",
+      "key": "item:49800",
       "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "url": "/lu4/item/1894-crafted-leather"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:1807",
+      "type": "item",
+      "id": 1807,
+      "name": "Recipe: Soulshot (A-Grade) NG",
+      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
     },
     {
       "key": "item:5479",
@@ -204,13 +215,6 @@
       "id": 3035,
       "name": "Recipe: Spiritshot A NG",
       "url": "/lu4/item/3035-recipe-spiritshot-a"
-    },
-    {
-      "key": "item:1807",
-      "type": "item",
-      "id": 1807,
-      "name": "Recipe: Soulshot (A-Grade) NG",
-      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
     }
   ]
 }

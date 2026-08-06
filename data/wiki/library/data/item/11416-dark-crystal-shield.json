@@ -2,30 +2,31 @@
   "key": "item:11416",
   "type": "item",
   "id": 11416,
-  "name": "Lu4 Wiki: Item Dark Crystal Shield",
+  "name": "Dark Crystal Shield",
   "url": "/lu4/item/11416-dark-crystal-shield",
-  "source_url": "https://masterwork.wiki/lu4/item/11416-dark-crystal-shield",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/11416-dark-crystal-shield",
   "raw_html": "library/raw/lu4/item/11416-dark-crystal-shield.html",
   "stats": {
+    "Effect": "<Rare Item Effect> Magic Block Chance +2.",
+    "Shield Defense": "243 (20%)",
+    "Crystal Amount": "75 Crystallization Failed Enchant +0 75 - +1 95 - +2 115 - +3 135 - +4 195 157 +5 255 217 +6 315 277 +7 375 337 +8 435 397",
+    "NPC Sell Price": "467 500 Adena",
+    "Weight": "1190",
+    "Evasion": "-8",
     "Item Skills": "Dark Crystal Shield Lv. 1",
     "Set Part": "Dark Crystal Breastplate A Dark Crystal Breastplate A Foundation Dark Crystal Breastplate {PvP} A Dark Crystal Breastplate {PvP} A Foundation More Hide",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "A",
+    "Type": "Armor / None / Shield"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:11416",
-      "type": "item",
-      "id": 11416,
-      "name": "Lu4",
-      "url": "/lu4/item/11416-dark-crystal-shield"
-    },
-    {
       "key": "skill:3729",
       "type": "skill",
       "id": 3729,
-      "name": "Dark Crystal Shield Lv. 1",
-      "url": "/lu4/skill/3729-dark-crystal-shield/1"
+      "name": "Dark Crystal Shield",
+      "url": "/lu4/skill/3729-dark-crystal-shield"
     },
     {
       "key": "set:39",
@@ -59,7 +60,7 @@
       "key": "set:699",
       "type": "set",
       "id": 699,
-      "name": "",
+      "name": "set:699",
       "url": "/lu4/set/699"
     }
   ]

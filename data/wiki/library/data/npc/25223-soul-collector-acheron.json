@@ -2,70 +2,67 @@
   "key": "npc:25223",
   "type": "npc",
   "id": 25223,
-  "name": "Lu4 Wiki: NPC Soul Collector Acheron",
+  "name": "Soul Collector Acheron",
   "url": "/lu4/npc/25223-soul-collector-acheron",
-  "source_url": "https://masterwork.wiki/lu4/npc/25223-soul-collector-acheron",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25223-soul-collector-acheron",
   "raw_html": "library/raw/lu4/npc/25223-soul-collector-acheron.html",
   "stats": {
-    "Location": "Земля Казненных"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Земля Казненных",
+    "HP / MP": "165 290 / 2 746",
+    "P. Atk. / M. Atk.": "493 / 104",
+    "P. Def. / M. Def.": "488 / 551",
+    "Accuracy / Evasion": "86 / 86",
+    "Exp / SP": "857 500 / 103 175",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A mercenary hired by a lord during the Dion Peasant Riot. He was once told that he could achieve eternal life if he collected souls and dedicated them to Shilen'so he slaughtered countless innocent peasants. Disgusted with his brutality, Duke Ashton finally executed him. Even after his death, his desire to gain eternal life was still strong, and he came back to life again as one of the Undead. Presently, he lurks near Dion Castle and kills innocent people. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 35"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25223",
-      "type": "npc",
-      "id": 25223,
-      "name": "Lu4",
-      "url": "/lu4/npc/25223-soul-collector-acheron"
-    },
-    {
-      "key": "location:51",
-      "type": "location",
-      "id": 51,
-      "name": "Земля Казненных",
-      "url": "/lu4/location/51-zemla-kaznennyh"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4869",
       "type": "skill",
       "id": 4869,
-      "name": "Raid Boss Lv. 1 A mercenary hired by a lord during the Dion Peasant Riot. He was once told that he could achieve eternal life if he collected souls and dedicated them to Shilen'so he slaughtered countless innocent peasants. Disgusted with his brutality, Duke Ashton finally executed him. Even after his death, his desire to gain eternal life was still strong, and he came back to life again as one of the Undead. Presently, he lurks near Dion Castle and kills innocent people.",
-      "url": "/lu4/skill/4869-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4869-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -75,39 +72,74 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:159",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 159,
+      "name": "Bonebreaker D",
+      "url": "/lu4/item/159-bonebreaker"
     },
     {
-      "key": "item:6575",
+      "key": "item:189",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 189,
+      "name": "Staff of Life D",
+      "url": "/lu4/item/189-staff-of-life"
     },
     {
-      "key": "item:2933",
+      "key": "item:190",
       "type": "item",
-      "id": 2933,
-      "name": "Sage's Worn Gloves Lining NG",
-      "url": "/lu4/item/2933-sages-worn-gloves-lining"
+      "id": 190,
+      "name": "Atuba Mace D",
+      "url": "/lu4/item/190-atuba-mace"
     },
     {
-      "key": "item:2932",
+      "key": "item:187",
       "type": "item",
-      "id": 2932,
-      "name": "Plate Boots Design NG",
-      "url": "/lu4/item/2932-plate-boots-design"
+      "id": 187,
+      "name": "Atuba Hammer D",
+      "url": "/lu4/item/187-atuba-hammer"
     },
     {
-      "key": "item:2931",
+      "key": "item:2048",
       "type": "item",
-      "id": 2931,
-      "name": "Salamander Skin Boot Lining NG",
-      "url": "/lu4/item/2931-salamander-skin-boot-lining"
+      "id": 2048,
+      "name": "Bonebreaker Head NG",
+      "url": "/lu4/item/2048-bonebreaker-head"
+    },
+    {
+      "key": "item:2051",
+      "type": "item",
+      "id": 2051,
+      "name": "Staff of Life Shaft NG",
+      "url": "/lu4/item/2051-staff-of-life-shaft"
+    },
+    {
+      "key": "item:2058",
+      "type": "item",
+      "id": 2058,
+      "name": "Atuba Mace Head NG",
+      "url": "/lu4/item/2058-atuba-mace-head"
+    },
+    {
+      "key": "item:2049",
+      "type": "item",
+      "id": 2049,
+      "name": "Atuba Hammer Head NG",
+      "url": "/lu4/item/2049-atuba-hammer-head"
+    },
+    {
+      "key": "item:61",
+      "type": "item",
+      "id": 61,
+      "name": "Half Plate Gauntlets D",
+      "url": "/lu4/item/61-half-plate-gauntlets"
+    },
+    {
+      "key": "item:607",
+      "type": "item",
+      "id": 607,
+      "name": "Salamander Skin Gloves D",
+      "url": "/lu4/item/607-salamander-skin-gloves"
     },
     {
       "key": "item:2451",
@@ -120,8 +152,8 @@
       "key": "item:2428",
       "type": "item",
       "id": 2428,
-      "name": "Plate Boots D",
-      "url": "/lu4/item/2428-plate-boots"
+      "name": "Half Plate Boots D",
+      "url": "/lu4/item/2428-half-plate-boots"
     },
     {
       "key": "item:2427",
@@ -131,74 +163,46 @@
       "url": "/lu4/item/2427-salamander-skin-boots"
     },
     {
-      "key": "item:2052",
+      "key": "item:1125",
       "type": "item",
-      "id": 2052,
-      "name": "Mithril Dagger Blade NG",
-      "url": "/lu4/item/2052-mithril-dagger-blade"
-    },
-    {
-      "key": "item:1963",
-      "type": "item",
-      "id": 1963,
-      "name": "Ogre Power Gauntlets Part NG",
-      "url": "/lu4/item/1963-ogre-power-gauntlets-part"
-    },
-    {
-      "key": "item:1957",
-      "type": "item",
-      "id": 1957,
-      "name": "Assault Boots Part NG",
-      "url": "/lu4/item/1957-assault-boots-part"
+      "id": 1125,
+      "name": "Sage's Worn Boots D",
+      "url": "/lu4/item/1125-sages-worn-boots"
     },
     {
       "key": "item:1949",
       "type": "item",
       "id": 1949,
-      "name": "Mithril Gloves Design NG",
-      "url": "/lu4/item/1949-mithril-gloves-design"
+      "name": "Half Plate Gauntlets Design NG",
+      "url": "/lu4/item/1949-half-plate-gauntlets-design"
     },
     {
-      "key": "item:1125",
+      "key": "item:1963",
       "type": "item",
-      "id": 1125,
-      "name": "Assault Boots D",
-      "url": "/lu4/item/1125-assault-boots"
+      "id": 1963,
+      "name": "Salamander Skin Gloves Part NG",
+      "url": "/lu4/item/1963-salamander-skin-gloves-part"
     },
     {
-      "key": "item:956",
+      "key": "item:2933",
       "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+      "id": 2933,
+      "name": "Sage's Worn Gloves Lining NG",
+      "url": "/lu4/item/2933-sages-worn-gloves-lining"
     },
     {
-      "key": "item:955",
+      "key": "item:2932",
       "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+      "id": 2932,
+      "name": "Half Plate Boots Design NG",
+      "url": "/lu4/item/2932-half-plate-boots-design"
     },
     {
-      "key": "item:607",
+      "key": "item:2931",
       "type": "item",
-      "id": 607,
-      "name": "Ogre Power Gauntlets D",
-      "url": "/lu4/item/607-ogre-power-gauntlets"
-    },
-    {
-      "key": "item:225",
-      "type": "item",
-      "id": 225,
-      "name": "Mithril Dagger D",
-      "url": "/lu4/item/225-mithril-dagger"
-    },
-    {
-      "key": "item:61",
-      "type": "item",
-      "id": 61,
-      "name": "Mithril Plate Gloves D",
-      "url": "/lu4/item/61-mithril-plate-gloves"
+      "id": 2931,
+      "name": "Salamander Skin Boot Lining NG",
+      "url": "/lu4/item/2931-salamander-skin-boot-lining"
     },
     {
       "key": "npc:25224",

@@ -2,24 +2,23 @@
   "key": "item:2460",
   "type": "item",
   "id": 2460,
-  "name": "Lu4 Wiki: Item Theca Leather Gloves",
+  "name": "Theca Leather Gloves",
   "url": "/lu4/item/2460-theca-leather-gloves",
-  "source_url": "https://masterwork.wiki/lu4/item/2460-theca-leather-gloves",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2460-theca-leather-gloves",
   "raw_html": "library/raw/lu4/item/2460-theca-leather-gloves.html",
   "stats": {
+    "P. Def.": "36",
+    "Crystal Amount": "85 Crystallization Failed Enchant +0 85 - +1 91 - +2 97 - +3 103 - +4 121 78 +5 139 96 +6 157 114 +7 175 132 +8 193 150",
+    "NPC Sell Price": "105 800 Adena",
+    "Weight": "600",
     "Set Part": "Theca Leather Armor C",
     "Recipes": "Recipe: Theca Leather Gloves NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Gloves"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2460",
-      "type": "item",
-      "id": 2460,
-      "name": "Lu4",
-      "url": "/lu4/item/2460-theca-leather-gloves"
-    },
     {
       "key": "set:21",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:845",
       "type": "set",
       "id": 845,
-      "name": "",
+      "name": "set:845",
       "url": "/lu4/set/845"
     },
     {
@@ -42,66 +41,87 @@
       "url": "/lu4/item/3008-recipe-theca-leather-gloves"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25047",
       "type": "npc",
       "id": 25047,
-      "name": "Karte Lv. 55",
+      "name": "Karte",
       "url": "/lu4/npc/25047-karte"
     },
     {
       "key": "npc:25044",
       "type": "npc",
       "id": 25044,
-      "name": "Bariona Lv. 55",
+      "name": "Bariona",
       "url": "/lu4/npc/25044-bariona"
     },
     {
       "key": "npc:21719",
       "type": "npc",
       "id": 21719,
-      "name": "Purgatory Invader Elite Soldier Lv. 55",
+      "name": "Purgatory Invader Elite Soldier",
       "url": "/lu4/npc/21719-purgatory-invader-elite-soldier"
     },
     {
       "key": "npc:21636",
       "type": "npc",
       "id": 21636,
-      "name": "Veil Master Lv. 54",
+      "name": "Veil Master",
       "url": "/lu4/npc/21636-veil-master"
     },
     {
       "key": "npc:21635",
       "type": "npc",
       "id": 21635,
-      "name": "Veil Master Lv. 54",
+      "name": "Veil Master",
       "url": "/lu4/npc/21635-veil-master"
     },
     {
       "key": "npc:20844",
       "type": "npc",
       "id": 20844,
-      "name": "Kaim Vanul Lv. 51",
+      "name": "Kaim Vanul",
       "url": "/lu4/npc/20844-kaim-vanul"
     },
     {
       "key": "npc:20803",
       "type": "npc",
       "id": 20803,
-      "name": "Doll Master Lv. 50",
+      "name": "Doll Master",
       "url": "/lu4/npc/20803-doll-master"
     },
     {
       "key": "npc:20592",
       "type": "npc",
       "id": 20592,
-      "name": "Satyr Lv. 48",
+      "name": "Satyr",
       "url": "/lu4/npc/20592-satyr"
     },
     {
       "key": "npc:20573",
       "type": "npc",
       "id": 20573,
-      "name": "Tarlk Basilisk Lv. 50",
+      "name": "Tarlk Basilisk",
       "url": "/lu4/npc/20573-tarlk-basilisk"
     }
   ]

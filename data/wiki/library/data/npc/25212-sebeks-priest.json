@@ -2,47 +2,44 @@
   "key": "npc:25212",
   "type": "npc",
   "id": 25212,
-  "name": "Lu4 Wiki: NPC Sebek's Priest",
+  "name": "Sebek's Priest",
   "url": "/lu4/npc/25212-sebeks-priest",
-  "source_url": "https://masterwork.wiki/lu4/npc/25212-sebeks-priest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25212-sebeks-priest",
   "raw_html": "library/raw/lu4/npc/25212-sebeks-priest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "11 763 / 1 060",
+    "P. Atk. / M. Atk.": "549 / 195",
+    "P. Def. / M. Def.": "293 / 288",
+    "Accuracy / Evasion": "71 / 80",
+    "Exp / SP": "0 / 348",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "D",
+    "Type": "Humanoid, Lv. 35"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25212",
-      "type": "npc",
-      "id": 25212,
-      "name": "Lu4",
-      "url": "/lu4/npc/25212-sebeks-priest"
-    },
-    {
-      "key": "location:116",
-      "type": "location",
-      "id": 116,
-      "name": "Поля Безмолвия",
-      "url": "/lu4/location/116-pola-bezmolvia"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:1341",

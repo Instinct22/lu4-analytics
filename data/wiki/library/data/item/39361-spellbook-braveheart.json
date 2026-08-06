@@ -2,27 +2,25 @@
   "key": "item:39361",
   "type": "item",
   "id": 39361,
-  "name": "Lu4 Wiki: Item Spellbook: Braveheart",
+  "name": "Spellbook: Braveheart",
   "url": "/lu4/item/39361-spellbook-braveheart",
-  "source_url": "https://masterwork.wiki/lu4/item/39361-spellbook-braveheart",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/39361-spellbook-braveheart",
   "raw_html": "library/raw/lu4/item/39361-spellbook-braveheart.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Braveheart'. Required: Warlord - Lv. 68 Gladiator - Lv. 68 Bounty Hunter - Lv. 68 Warsmith - Lv. 68 To obtain this item, hunt the Doom Trooper found in Fields of Massacre.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:39361",
-      "type": "item",
-      "id": 39361,
-      "name": "Lu4",
-      "url": "/lu4/item/39361-spellbook-braveheart"
-    },
-    {
       "key": "npc:21009",
       "type": "npc",
       "id": 21009,
-      "name": "Doom Trooper Lv. 66",
+      "name": "Doom Trooper",
       "url": "/lu4/npc/21009-doom-trooper"
     }
   ]

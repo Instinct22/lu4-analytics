@@ -2,24 +2,27 @@
   "key": "item:201",
   "type": "item",
   "id": 201,
-  "name": "Lu4 Wiki: Item Club of Nature",
+  "name": "Club of Nature",
   "url": "/lu4/item/201-club-of-nature",
-  "source_url": "https://masterwork.wiki/lu4/item/201-club-of-nature",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/201-club-of-nature",
   "raw_html": "library/raw/lu4/item/201-club-of-nature.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Magic Hold: Casts 'Dryad Root' Lv.21 on target with 10% chance. Acumen: Casting Spd. +15%. Mental Shield: Casts 'Mental Shield' Lv.3 on target with 50% chance.",
+    "P. Atk. / M. Atk.": "111 / 101",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1322 Crystallization Failed Enchant +0 1322 - +1 1367 - +2 1412 - +3 1457 - +4 1547 886 +5 1637 976 +6 1727 1066 +7 1817 1156 +8 1907 1246 +9 1997 1336 +10 2087 1426 +11 2177 1516 +12 2267 1606",
+    "NPC Sell Price": "1 652 150 Adena",
+    "Weight": "1100",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Recipes": "Recipe: Club of Nature NG",
     "Soul Crystals": "Club of Nature Magic Hold C Club of Nature C Gemstone C NG (306 pcs.) Red Soul Crystal - Stage 7 NG Club of Nature Mental Shield C Club of Nature C Gemstone C NG (306 pcs.) Green Soul Crystal - Stage 7 NG Club of Nature Acumen C Club of Nature C Gemstone C NG (306 pcs.) Blue Soul Crystal - Stage 7 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Blunt / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:201",
-      "type": "item",
-      "id": 201,
-      "name": "Lu4",
-      "url": "/lu4/item/201-club-of-nature"
-    },
     {
       "key": "item:2342",
       "type": "item",
@@ -77,66 +80,87 @@
       "url": "/lu4/item/4658-blue-soul-crystal-stage-7"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25418",
       "type": "npc",
       "id": 25418,
-      "name": "Dread Avenger Kraven Lv. 44",
+      "name": "Dread Avenger Kraven",
       "url": "/lu4/npc/25418-dread-avenger-kraven"
     },
     {
       "key": "npc:25395",
       "type": "npc",
       "id": 25395,
-      "name": "Archon Suscepter Lv. 45",
+      "name": "Archon Suscepter",
       "url": "/lu4/npc/25395-archon-suscepter"
     },
     {
       "key": "npc:21725",
       "type": "npc",
       "id": 21725,
-      "name": "Purgatory Invader Elite Soldier Lv. 50",
+      "name": "Purgatory Invader Elite Soldier",
       "url": "/lu4/npc/21725-purgatory-invader-elite-soldier"
     },
     {
       "key": "npc:20998",
       "type": "npc",
       "id": 20998,
-      "name": "Cruel Punisher Lv. 52",
+      "name": "Cruel Punisher",
       "url": "/lu4/npc/20998-cruel-punisher"
     },
     {
       "key": "npc:20940",
       "type": "npc",
       "id": 20940,
-      "name": "Tanor Silenos Shaman Lv. 48",
+      "name": "Tanor Silenos Shaman",
       "url": "/lu4/npc/20940-tanor-silenos-shaman"
     },
     {
       "key": "npc:20665",
       "type": "npc",
       "id": 20665,
-      "name": "Taik Orc Supply Lv. 51",
+      "name": "Taik Orc Supply",
       "url": "/lu4/npc/20665-taik-orc-supply"
     },
     {
       "key": "npc:20146",
       "type": "npc",
       "id": 20146,
-      "name": "Headless Knight Lv. 50",
+      "name": "Headless Knight",
       "url": "/lu4/npc/20146-headless-knight"
     },
     {
       "key": "npc:20136",
       "type": "npc",
       "id": 20136,
-      "name": "Death Knight Lv. 50",
+      "name": "Death Knight",
       "url": "/lu4/npc/20136-death-knight"
     },
     {
       "key": "npc:5010",
       "type": "npc",
       "id": 5010,
-      "name": "Last March Sentinel Lv. 48",
+      "name": "Last March Sentinel",
       "url": "/lu4/npc/5010-last-march-sentinel"
     }
   ]

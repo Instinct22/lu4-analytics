@@ -1,70 +1,16 @@
-# Lu4 Wiki: Item Eva&#039;s Mask
+# Eva's Mask
 
-- Source: https://masterwork.wiki/lu4/item/8558-evas-mask
+- Source: https://masterwork.wiki/lu4-b-w-c/item/8558-evas-mask
 - Path: /lu4/item/8558-evas-mask
 - Type: item
 - Key: item:8558
 
 ## Stats
+- Effect: Eva's Mask of pure beauty <Hair Slot> Uses top hair accessory slot.
+- Weight: 10
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Armor / None / Hair Accessory
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Eva&#039;s Mask
-Lu4
-Eternal
-MasterWork
-Eva's Mask
-NG
-Armor / None / Hair Accessory
-Eva's Mask of pure beauty
-<Hair Slot>
-Uses top hair accessory slot.
-Weight
-10
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-MasterWork 2026
-All rights reserved
+Eva's Mask NG Armor / None / Hair Accessory Eva's Mask of pure beauty <Hair Slot> Uses top hair accessory slot. Weight 10 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

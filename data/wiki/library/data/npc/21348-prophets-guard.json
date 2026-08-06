@@ -2,145 +2,93 @@
   "key": "npc:21348",
   "type": "npc",
   "id": 21348,
-  "name": "Lu4 Wiki: NPC Prophet's Guard",
+  "name": "Prophet's Guard",
   "url": "/lu4/npc/21348-prophets-guard",
-  "source_url": "https://masterwork.wiki/lu4/npc/21348-prophets-guard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21348-prophets-guard",
   "raw_html": "library/raw/lu4/npc/21348-prophets-guard.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "9 911 / 2 131",
+    "P. Atk. / M. Atk.": "2 953 / 1 426",
+    "P. Def. / M. Def.": "627 / 657",
+    "Accuracy / Evasion": "128 / 136",
+    "Exp / SP": "25 742 / 3 100",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 6 Blunt Weapons High Lv. Lv. 9 NPC High Level",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21348",
-      "type": "npc",
-      "id": 21348,
-      "name": "Lu4",
-      "url": "/lu4/npc/21348-prophets-guard"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 6 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/6"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 9 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/9"
-    },
-    {
-      "key": "item:32338",
-      "type": "item",
-      "id": 32338,
-      "name": "Unidentified Soul Separator A",
-      "url": "/lu4/item/32338-unidentified-soul-separator"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:5537",
-      "type": "item",
-      "id": 5537,
-      "name": "Soul Separator Head NG",
-      "url": "/lu4/item/5537-soul-separator-head"
-    },
-    {
-      "key": "item:4044",
-      "type": "item",
-      "id": 4044,
-      "name": "Thons NG",
-      "url": "/lu4/item/4044-thons"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:960",
-      "type": "item",
-      "id": 960,
-      "name": "Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
       "key": "item:57",
@@ -150,11 +98,67 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:6706",
+      "key": "item:32338",
       "type": "item",
-      "id": 6706,
-      "name": "Sealed Imperial Crusader Helmet Pattern NG",
-      "url": "/lu4/item/6706-sealed-imperial-crusader-helmet-pattern"
+      "id": 32338,
+      "name": "Unidentified Soul Separator A",
+      "url": "/lu4/item/32338-unidentified-soul-separator"
+    },
+    {
+      "key": "item:5537",
+      "type": "item",
+      "id": 5537,
+      "name": "Soul Separator Head NG",
+      "url": "/lu4/item/5537-soul-separator-head"
+    },
+    {
+      "key": "item:960",
+      "type": "item",
+      "id": 960,
+      "name": "Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:4044",
+      "type": "item",
+      "id": 4044,
+      "name": "Thons NG",
+      "url": "/lu4/item/4044-thons"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:6704",
+      "type": "item",
+      "id": 6704,
+      "name": "Sealed Imperial Crusader Boots Design NG",
+      "url": "/lu4/item/6704-sealed-imperial-crusader-boots-design"
     },
     {
       "key": "item:6705",
@@ -164,11 +168,11 @@
       "url": "/lu4/item/6705-sealed-imperial-crusader-shield-part"
     },
     {
-      "key": "item:6704",
+      "key": "item:6706",
       "type": "item",
-      "id": 6704,
-      "name": "Sealed Imperial Crusader Boots Design NG",
-      "url": "/lu4/item/6704-sealed-imperial-crusader-boots-design"
+      "id": 6706,
+      "name": "Sealed Imperial Crusader Helmet Pattern NG",
+      "url": "/lu4/item/6706-sealed-imperial-crusader-helmet-pattern"
     }
   ]
 }

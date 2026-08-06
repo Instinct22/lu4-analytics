@@ -2,70 +2,53 @@
   "key": "npc:20681",
   "type": "npc",
   "id": 20681,
-  "name": "Lu4 Wiki: NPC Vanor Silenos",
+  "name": "Vanor Silenos",
   "url": "/lu4/npc/20681-vanor-silenos",
-  "source_url": "https://masterwork.wiki/lu4/npc/20681-vanor-silenos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20681-vanor-silenos",
   "raw_html": "library/raw/lu4/npc/20681-vanor-silenos.html",
   "stats": {
-    "Location": "Равнины Славы"
+    "Respawn Time": "13 seconds",
+    "Location": "Равнины Славы",
+    "HP / MP": "1 887 / 751",
+    "P. Atk. / M. Atk.": "446 / 195",
+    "P. Def. / M. Def.": "230 / 195",
+    "Accuracy / Evasion": "81 / 80",
+    "Exp / SP": "2 039 / 204",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20681",
-      "type": "npc",
-      "id": 20681,
-      "name": "Lu4",
-      "url": "/lu4/npc/20681-vanor-silenos"
-    },
-    {
-      "key": "location:209",
-      "type": "location",
-      "id": 209,
-      "name": "Равнины Славы",
-      "url": "/lu4/location/209-ravniny-slavy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39296",
+      "key": "item:1866",
       "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
       "key": "item:4041",
@@ -73,27 +56,6 @@
       "id": 4041,
       "name": "Mold Hardener NG",
       "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:2940",
-      "type": "item",
-      "id": 2940,
-      "name": "Dwarven Chain Boots Part NG",
-      "url": "/lu4/item/2940-dwarven-chain-boots-part"
-    },
-    {
-      "key": "item:2432",
-      "type": "item",
-      "id": 2432,
-      "name": "Dwarven Chain Boots C",
-      "url": "/lu4/item/2432-dwarven-chain-boots"
-    },
-    {
-      "key": "item:1968",
-      "type": "item",
-      "id": 1968,
-      "name": "Dwarven Chain Mail Shirt Material NG",
-      "url": "/lu4/item/1968-dwarven-chain-mail-shirt-material"
     },
     {
       "key": "item:1885",
@@ -110,11 +72,25 @@
       "url": "/lu4/item/1871-charcoal"
     },
     {
-      "key": "item:1866",
+      "key": "item:5220",
       "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
+      "key": "item:2432",
+      "type": "item",
+      "id": 2432,
+      "name": "Dwarven Chain Boots C",
+      "url": "/lu4/item/2432-dwarven-chain-boots"
+    },
+    {
+      "key": "item:2940",
+      "type": "item",
+      "id": 2940,
+      "name": "Dwarven Chain Boots Part NG",
+      "url": "/lu4/item/2940-dwarven-chain-boots-part"
     },
     {
       "key": "item:355",
@@ -124,11 +100,39 @@
       "url": "/lu4/item/355-dwarven-chain-mail-shirt"
     },
     {
-      "key": "item:57",
+      "key": "item:1968",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1968,
+      "name": "Dwarven Chain Mail Shirt Material NG",
+      "url": "/lu4/item/1968-dwarven-chain-mail-shirt-material"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:2082",
@@ -150,13 +154,6 @@
       "id": 1912,
       "name": "Ring of Protection Gemstone NG",
       "url": "/lu4/item/1912-ring-of-protection-gemstone"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
     }
   ]
 }

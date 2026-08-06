@@ -2,89 +2,58 @@
   "key": "npc:20992",
   "type": "npc",
   "id": 20992,
-  "name": "Lu4 Wiki: NPC Swamp Alligator",
+  "name": "Swamp Alligator",
   "url": "/lu4/npc/20992-swamp-alligator",
-  "source_url": "https://masterwork.wiki/lu4/npc/20992-swamp-alligator",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20992-swamp-alligator",
   "raw_html": "library/raw/lu4/npc/20992-swamp-alligator.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "5 442 / 719",
+    "P. Atk. / M. Atk.": "364 / 182",
+    "P. Def. / M. Def.": "235 / 189",
+    "Accuracy / Evasion": "77 / 77",
+    "Exp / SP": "5 645 / 565",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (3x) Lv. 11 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 44"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20992",
-      "type": "npc",
-      "id": 20992,
-      "name": "Lu4",
-      "url": "/lu4/npc/20992-swamp-alligator"
-    },
-    {
-      "key": "location:120",
-      "type": "location",
-      "id": 120,
-      "name": "Остров Аллигаторов",
-      "url": "/lu4/location/120-ostrov-alligatorov"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
-      "key": "item:5549",
+      "key": "item:57",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:2950",
-      "type": "item",
-      "id": 2950,
-      "name": "Gloves of Seal Pattern NG",
-      "url": "/lu4/item/2950-gloves-of-seal-pattern"
-    },
-    {
-      "key": "item:2457",
-      "type": "item",
-      "id": 2457,
-      "name": "Gloves of Seal C",
-      "url": "/lu4/item/2457-gloves-of-seal"
-    },
-    {
-      "key": "item:2088",
-      "type": "item",
-      "id": 2088,
-      "name": "Horn of Glory Fragment NG",
-      "url": "/lu4/item/2088-horn-of-glory-fragment"
-    },
-    {
-      "key": "item:2081",
-      "type": "item",
-      "id": 2081,
-      "name": "Raid Sword Blade NG",
-      "url": "/lu4/item/2081-raid-sword-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1889",
@@ -108,11 +77,39 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:2457",
+      "type": "item",
+      "id": 2457,
+      "name": "Gloves of Seal C",
+      "url": "/lu4/item/2457-gloves-of-seal"
+    },
+    {
+      "key": "item:2950",
+      "type": "item",
+      "id": 2950,
+      "name": "Gloves of Seal Pattern NG",
+      "url": "/lu4/item/2950-gloves-of-seal-pattern"
+    },
+    {
       "key": "item:325",
       "type": "item",
       "id": 325,
       "name": "Horn of Glory C",
       "url": "/lu4/item/325-horn-of-glory"
+    },
+    {
+      "key": "item:2088",
+      "type": "item",
+      "id": 2088,
+      "name": "Horn of Glory Fragment NG",
+      "url": "/lu4/item/2088-horn-of-glory-fragment"
     },
     {
       "key": "item:133",
@@ -122,11 +119,11 @@
       "url": "/lu4/item/133-raid-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:2081",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2081,
+      "name": "Raid Sword Blade NG",
+      "url": "/lu4/item/2081-raid-sword-blade"
     }
   ]
 }

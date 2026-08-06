@@ -2,147 +2,95 @@
   "key": "npc:20563",
   "type": "npc",
   "id": 20563,
-  "name": "Lu4 Wiki: NPC Manashen Gargoyle",
+  "name": "Manashen Gargoyle",
   "url": "/lu4/npc/20563-manashen-gargoyle",
-  "source_url": "https://masterwork.wiki/lu4/npc/20563-manashen-gargoyle",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20563-manashen-gargoyle",
   "raw_html": "library/raw/lu4/npc/20563-manashen-gargoyle.html",
   "stats": {
-    "Location": "Кратер Башни Слоновой Кости"
+    "Respawn Time": "16 seconds ± 3 seconds",
+    "Location": "Кратер Башни Слоновой Кости",
+    "HP / MP": "1 526 / 589",
+    "P. Atk. / M. Atk.": "315 / 167",
+    "P. Def. / M. Def.": "187 / 148",
+    "Accuracy / Evasion": "73 / 73",
+    "Exp / SP": "1 640 / 164",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 40"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20563",
-      "type": "npc",
-      "id": 20563,
-      "name": "Lu4",
-      "url": "/lu4/npc/20563-manashen-gargoyle"
-    },
-    {
-      "key": "location:239",
-      "type": "location",
-      "id": 239,
-      "name": "Кратер Башни Слоновой Кости",
-      "url": "/lu4/location/239-krater-basni-slonovoj-kosti"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39296",
+      "key": "item:160",
       "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:3090",
-      "type": "item",
-      "id": 3090,
-      "name": "Spellbook: Hurricane NG",
-      "url": "/lu4/item/3090-spellbook-hurricane"
-    },
-    {
-      "key": "item:3085",
-      "type": "item",
-      "id": 3085,
-      "name": "Spellbook: Hydro Blast NG",
-      "url": "/lu4/item/3085-spellbook-hydro-blast"
-    },
-    {
-      "key": "item:3053",
-      "type": "item",
-      "id": 3053,
-      "name": "Spellbook: Divine Blessing NG",
-      "url": "/lu4/item/3053-spellbook-divine-blessing"
-    },
-    {
-      "key": "item:3050",
-      "type": "item",
-      "id": 3050,
-      "name": "Spellbook: Hex NG",
-      "url": "/lu4/item/3050-spellbook-hex"
-    },
-    {
-      "key": "item:2069",
-      "type": "item",
-      "id": 2069,
-      "name": "Heavy Doom Axe Blade NG",
-      "url": "/lu4/item/2069-heavy-doom-axe-blade"
-    },
-    {
-      "key": "item:2067",
-      "type": "item",
-      "id": 2067,
-      "name": "Crystal Staff Head NG",
-      "url": "/lu4/item/2067-crystal-staff-head"
+      "id": 160,
+      "name": "Battle Axe C",
+      "url": "/lu4/item/160-battle-axe"
     },
     {
       "key": "item:2063",
@@ -152,6 +100,27 @@
       "url": "/lu4/item/2063-battle-axe-head"
     },
     {
+      "key": "item:192",
+      "type": "item",
+      "id": 192,
+      "name": "Crystal Staff C",
+      "url": "/lu4/item/192-crystal-staff"
+    },
+    {
+      "key": "item:2067",
+      "type": "item",
+      "id": 2067,
+      "name": "Crystal Staff Head NG",
+      "url": "/lu4/item/2067-crystal-staff-head"
+    },
+    {
+      "key": "item:71",
+      "type": "item",
+      "id": 71,
+      "name": "Flamberge C",
+      "url": "/lu4/item/71-flamberge"
+    },
+    {
       "key": "item:2059",
       "type": "item",
       "id": 2059,
@@ -159,11 +128,25 @@
       "url": "/lu4/item/2059-flamberge-blade"
     },
     {
-      "key": "item:1962",
+      "key": "item:194",
       "type": "item",
-      "id": 1962,
-      "name": "Karmian Tunic Pattern NG",
-      "url": "/lu4/item/1962-karmian-tunic-pattern"
+      "id": 194,
+      "name": "Heavy Doom Axe C",
+      "url": "/lu4/item/194-heavy-doom-axe"
+    },
+    {
+      "key": "item:2069",
+      "type": "item",
+      "id": 2069,
+      "name": "Heavy Doom Axe Blade NG",
+      "url": "/lu4/item/2069-heavy-doom-axe-blade"
+    },
+    {
+      "key": "item:381",
+      "type": "item",
+      "id": 381,
+      "name": "Chain Gaiters C",
+      "url": "/lu4/item/381-chain-gaiters"
     },
     {
       "key": "item:1960",
@@ -180,81 +163,67 @@
       "url": "/lu4/item/439-karmian-tunic"
     },
     {
-      "key": "item:381",
+      "key": "item:1962",
       "type": "item",
-      "id": 381,
-      "name": "Chain Gaiters C",
-      "url": "/lu4/item/381-chain-gaiters"
+      "id": 1962,
+      "name": "Karmian Tunic Pattern NG",
+      "url": "/lu4/item/1962-karmian-tunic-pattern"
     },
     {
-      "key": "item:194",
+      "key": "item:3050",
       "type": "item",
-      "id": 194,
-      "name": "Heavy Doom Axe C",
-      "url": "/lu4/item/194-heavy-doom-axe"
+      "id": 3050,
+      "name": "Spellbook: Hex NG",
+      "url": "/lu4/item/3050-spellbook-hex"
     },
     {
-      "key": "item:192",
+      "key": "item:3053",
       "type": "item",
-      "id": 192,
-      "name": "Crystal Staff C",
-      "url": "/lu4/item/192-crystal-staff"
+      "id": 3053,
+      "name": "Spellbook: Divine Blessing NG",
+      "url": "/lu4/item/3053-spellbook-divine-blessing"
     },
     {
-      "key": "item:160",
+      "key": "item:3090",
       "type": "item",
-      "id": 160,
-      "name": "Battle Axe C",
-      "url": "/lu4/item/160-battle-axe"
+      "id": 3090,
+      "name": "Spellbook: Hurricane NG",
+      "url": "/lu4/item/3090-spellbook-hurricane"
     },
     {
-      "key": "item:71",
+      "key": "item:3085",
       "type": "item",
-      "id": 71,
-      "name": "Flamberge C",
-      "url": "/lu4/item/71-flamberge"
+      "id": 3085,
+      "name": "Spellbook: Hydro Blast NG",
+      "url": "/lu4/item/3085-spellbook-hydro-blast"
     },
     {
-      "key": "item:57",
+      "key": "item:39295",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:2313",
+      "key": "item:39296",
       "type": "item",
-      "id": 2313,
-      "name": "Recipe: Orcish Glaive NG",
-      "url": "/lu4/item/2313-recipe-orcish-glaive"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:2160",
+      "key": "item:39297",
       "type": "item",
-      "id": 2160,
-      "name": "Recipe: Moonstone Earring NG",
-      "url": "/lu4/item/2160-recipe-moonstone-earring"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
-      "key": "item:2072",
+      "key": "item:1825",
       "type": "item",
-      "id": 2072,
-      "name": "Dark Elven Dagger Edge NG",
-      "url": "/lu4/item/2072-dark-elven-dagger-edge"
-    },
-    {
-      "key": "item:2070",
-      "type": "item",
-      "id": 2070,
-      "name": "Cursed Dagger Blade NG",
-      "url": "/lu4/item/2070-cursed-dagger-blade"
-    },
-    {
-      "key": "item:2068",
-      "type": "item",
-      "id": 2068,
-      "name": "Stick of Faith Shaft NG",
-      "url": "/lu4/item/2068-stick-of-faith-shaft"
+      "id": 1825,
+      "name": "Recipe: Oriharukon NG",
+      "url": "/lu4/item/1825-recipe-oriharukon"
     },
     {
       "key": "item:1864",
@@ -264,11 +233,39 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:1825",
+      "key": "item:2160",
       "type": "item",
-      "id": 1825,
-      "name": "Recipe: Oriharukon NG",
-      "url": "/lu4/item/1825-recipe-oriharukon"
+      "id": 2160,
+      "name": "Recipe: Moonstone Earring NG",
+      "url": "/lu4/item/2160-recipe-moonstone-earring"
+    },
+    {
+      "key": "item:2313",
+      "type": "item",
+      "id": 2313,
+      "name": "Recipe: Orcish Glaive NG",
+      "url": "/lu4/item/2313-recipe-orcish-glaive"
+    },
+    {
+      "key": "item:2070",
+      "type": "item",
+      "id": 2070,
+      "name": "Cursed Dagger Blade NG",
+      "url": "/lu4/item/2070-cursed-dagger-blade"
+    },
+    {
+      "key": "item:2072",
+      "type": "item",
+      "id": 2072,
+      "name": "Dark Elven Dagger Edge NG",
+      "url": "/lu4/item/2072-dark-elven-dagger-edge"
+    },
+    {
+      "key": "item:2068",
+      "type": "item",
+      "id": 2068,
+      "name": "Stick of Faith Shaft NG",
+      "url": "/lu4/item/2068-stick-of-faith-shaft"
     }
   ]
 }

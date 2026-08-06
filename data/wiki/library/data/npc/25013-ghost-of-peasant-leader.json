@@ -2,96 +2,65 @@
   "key": "npc:25013",
   "type": "npc",
   "id": 25013,
-  "name": "Lu4 Wiki: NPC Ghost of Peasant Leader",
+  "name": "Ghost of Peasant Leader",
   "url": "/lu4/npc/25013-ghost-of-peasant-leader",
-  "source_url": "https://masterwork.wiki/lu4/npc/25013-ghost-of-peasant-leader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25013-ghost-of-peasant-leader",
   "raw_html": "library/raw/lu4/npc/25013-ghost-of-peasant-leader.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "554 885 / 3 823",
+    "P. Atk. / M. Atk.": "4 248 / 2 427",
+    "P. Def. / M. Def.": "841 / 904",
+    "Accuracy / Evasion": "101 / 101",
+    "Exp / SP": "1 875 000 / 346 727",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 One of the leaders of the peasants who resisted the merciless rule of Lord Ashton. He was ultimately captured and brutally executed by Ashton's cruel soldiers. Yet even that did not stop him. To overthrow Ashton, he made a contract with a devil and came back to life. But the devil's bargain turned his once noble ideals towards loathing, turning him into a monster with the power of evil magic. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 50"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25013",
-      "type": "npc",
-      "id": 25013,
-      "name": "Lu4",
-      "url": "/lu4/npc/25013-ghost-of-peasant-leader"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4794",
       "type": "skill",
       "id": 4794,
-      "name": "Raid Boss Lv. 1 One of the leaders of the peasants who resisted the merciless rule of Lord Ashton. He was ultimately captured and brutally executed by Ashton's cruel soldiers. Yet even that did not stop him. To overthrow Ashton, he made a contract with a devil and came back to life. But the devil's bargain turned his once noble ideals towards loathing, turning him into a monster with the power of evil magic.",
-      "url": "/lu4/skill/4794-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4794-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:32358",
-      "type": "item",
-      "id": 32358,
-      "name": "Unidentified Avadon Leather Armor B",
-      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
-    },
-    {
-      "key": "item:32357",
-      "type": "item",
-      "id": 32357,
-      "name": "Unidentified Zubei's Leather Gaiters B",
-      "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
-    },
-    {
-      "key": "item:32356",
-      "type": "item",
-      "id": 32356,
-      "name": "Unidentified Zubei's Leather Shirt B",
-      "url": "/lu4/item/32356-unidentified-zubeis-leather-shirt"
-    },
-    {
-      "key": "item:32348",
-      "type": "item",
-      "id": 32348,
-      "name": "Unidentified Great Axe B",
-      "url": "/lu4/item/32348-unidentified-great-axe"
-    },
-    {
-      "key": "item:32340",
-      "type": "item",
-      "id": 32340,
-      "name": "Unidentified Arthro Nail B",
-      "url": "/lu4/item/32340-unidentified-arthro-nail"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -101,39 +70,18 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6574",
+      "key": "item:32340",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+      "id": 32340,
+      "name": "Unidentified Arthro Nail B",
+      "url": "/lu4/item/32340-unidentified-arthro-nail"
     },
     {
-      "key": "item:6573",
+      "key": "item:32348",
       "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:6572",
-      "type": "item",
-      "id": 6572,
-      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
-    },
-    {
-      "key": "item:4113",
-      "type": "item",
-      "id": 4113,
-      "name": "Great Axe Head NG",
-      "url": "/lu4/item/4113-great-axe-head"
+      "id": 32348,
+      "name": "Unidentified Great Axe B",
+      "url": "/lu4/item/32348-unidentified-great-axe"
     },
     {
       "key": "item:4111",
@@ -143,18 +91,39 @@
       "url": "/lu4/item/4111-arthro-nail-blade"
     },
     {
+      "key": "item:4113",
+      "type": "item",
+      "id": 4113,
+      "name": "Great Axe Head NG",
+      "url": "/lu4/item/4113-great-axe-head"
+    },
+    {
+      "key": "item:32358",
+      "type": "item",
+      "id": 32358,
+      "name": "Unidentified Avadon Leather Armor B",
+      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
+    },
+    {
+      "key": "item:32356",
+      "type": "item",
+      "id": 32356,
+      "name": "Unidentified Zubei's Leather Shirt B",
+      "url": "/lu4/item/32356-unidentified-zubeis-leather-shirt"
+    },
+    {
+      "key": "item:32357",
+      "type": "item",
+      "id": 32357,
+      "name": "Unidentified Zubei's Leather Gaiters B",
+      "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
+    },
+    {
       "key": "item:4068",
       "type": "item",
       "id": 4068,
       "name": "Avadon Leather Armor Lining NG",
       "url": "/lu4/item/4068-avadon-leather-armor-lining"
-    },
-    {
-      "key": "item:4067",
-      "type": "item",
-      "id": 4067,
-      "name": "Zubei's Leather Gaiter Texture NG",
-      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
     },
     {
       "key": "item:4066",
@@ -164,11 +133,25 @@
       "url": "/lu4/item/4066-zubeis-leather-shirt-fabric"
     },
     {
+      "key": "item:4067",
+      "type": "item",
+      "id": 4067,
+      "name": "Zubei's Leather Gaiter Texture NG",
+      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
+    },
+    {
       "key": "item:952",
       "type": "item",
       "id": 952,
       "name": "Scroll: Enchant Armor (C-Grade) NG",
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
     },
     {
       "key": "item:951",
@@ -178,6 +161,13 @@
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+    },
+    {
       "key": "item:948",
       "type": "item",
       "id": 948,
@@ -185,11 +175,25 @@
       "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
+      "key": "item:6572",
+      "type": "item",
+      "id": 6572,
+      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
+    },
+    {
       "key": "item:947",
       "type": "item",
       "id": 947,
       "name": "Scroll: Enchant Weapon (B-Grade) NG",
       "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+    },
+    {
+      "key": "item:6571",
+      "type": "item",
+      "id": 6571,
+      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
     },
     {
       "key": "npc:25014",

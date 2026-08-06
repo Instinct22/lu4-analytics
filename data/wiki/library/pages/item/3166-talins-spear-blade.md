@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Talin&#039;s Spear Blade
+# Talin's Spear Blade
 
-- Source: https://masterwork.wiki/lu4/item/3166-talins-spear-blade
+- Source: https://masterwork.wiki/lu4-b-w-c/item/3166-talins-spear-blade
 - Path: /lu4/item/3166-talins-spear-blade
 - Type: item
 - Key: item:3166
 
 ## Stats
+- Effect: The blade portion of Talin's spear. Take this, along with the remaining portions of the spear, back to Isael Silvershadow.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Talin&#039;s Spear Blade
-Lu4
-Eternal
-MasterWork
-Talin's Spear Blade
-NG
-Quest Item
-The blade portion of Talin's spear. Take this, along with the remaining portions of the spear, back to Isael Silvershadow.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-Testimony of Life
-35 ~ 85
-Quest
-Levels
-Testimony of Life
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Talin's Spear Blade NG Quest Item The blade portion of Talin's spear. Take this, along with the remaining portions of the spear, back to Isael Silvershadow. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

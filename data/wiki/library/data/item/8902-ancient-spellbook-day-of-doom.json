@@ -2,27 +2,25 @@
   "key": "item:8902",
   "type": "item",
   "id": 8902,
-  "name": "Lu4 Wiki: Item Ancient Spellbook: Day of Doom",
+  "name": "Ancient Spellbook: Day of Doom",
   "url": "/lu4/item/8902-ancient-spellbook-day-of-doom",
-  "source_url": "https://masterwork.wiki/lu4/item/8902-ancient-spellbook-day-of-doom",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8902-ancient-spellbook-day-of-doom",
   "raw_html": "library/raw/lu4/item/8902-ancient-spellbook-day-of-doom.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Ancient Spellbook needed to learn Day of Doom. Can be used by a Soultaker.",
+    "NPC Sell Price": "20 000 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8902",
-      "type": "item",
-      "id": 8902,
-      "name": "Lu4",
-      "url": "/lu4/item/8902-ancient-spellbook-day-of-doom"
-    },
-    {
       "key": "npc:22198",
       "type": "npc",
       "id": 22198,
-      "name": "Velociraptor Lv. 80",
+      "name": "Velociraptor",
       "url": "/lu4/npc/22198-velociraptor"
     }
   ]

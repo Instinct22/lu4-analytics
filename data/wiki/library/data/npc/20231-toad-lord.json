@@ -2,154 +2,67 @@
   "key": "npc:20231",
   "type": "npc",
   "id": 20231,
-  "name": "Lu4 Wiki: NPC Toad Lord",
+  "name": "Toad Lord",
   "url": "/lu4/npc/20231-toad-lord",
-  "source_url": "https://masterwork.wiki/lu4/npc/20231-toad-lord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20231-toad-lord",
   "raw_html": "library/raw/lu4/npc/20231-toad-lord.html",
   "stats": {
-    "Location": "Охотничьи Угодья Зла (+2) Охотничьи Угодья Зла Земли Глудио Топи Крумы"
+    "Respawn Time": "25 seconds",
+    "Location": "Охотничьи Угодья Зла (+2) Охотничьи Угодья Зла Земли Глудио Топи Крумы",
+    "HP / MP": "1 068 / 441",
+    "P. Atk. / M. Atk.": "138 / 68",
+    "P. Def. / M. Def.": "180 / 137",
+    "Accuracy / Evasion": "65 / 65",
+    "Exp / SP": "1 139 / 114",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 32"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20231",
-      "type": "npc",
-      "id": 20231,
-      "name": "Lu4",
-      "url": "/lu4/npc/20231-toad-lord"
-    },
-    {
-      "key": "location:229",
-      "type": "location",
-      "id": 229,
-      "name": "Охотничьи Угодья Зла",
-      "url": "/lu4/location/229-ohotnici-ugoda-zla"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:52",
-      "type": "location",
-      "id": 52,
-      "name": "Топи Крумы",
-      "url": "/lu4/location/52-topi-krumy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:2033",
-      "type": "item",
-      "id": 2033,
-      "name": "Winged Spear Blade NG",
-      "url": "/lu4/item/2033-winged-spear-blade"
-    },
-    {
-      "key": "item:1948",
-      "type": "item",
-      "id": 1948,
-      "name": "Boots of Power Pattern NG",
-      "url": "/lu4/item/1948-boots-of-power-pattern"
-    },
-    {
-      "key": "item:1947",
-      "type": "item",
-      "id": 1947,
-      "name": "Kite Shield Fragment NG",
-      "url": "/lu4/item/1947-kite-shield-fragment"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1832",
-      "type": "item",
-      "id": 1832,
-      "name": "Greater Antidote NG",
-      "url": "/lu4/item/1832-greater-antidote"
-    },
-    {
-      "key": "item:1124",
-      "type": "item",
-      "id": 1124,
-      "name": "Boots of Power D",
-      "url": "/lu4/item/1124-boots-of-power"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:955",
@@ -159,11 +72,60 @@
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
+      "key": "item:1832",
+      "type": "item",
+      "id": 1832,
+      "name": "Greater Antidote NG",
+      "url": "/lu4/item/1832-greater-antidote"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:1124",
+      "type": "item",
+      "id": 1124,
+      "name": "Boots of Power D",
+      "url": "/lu4/item/1124-boots-of-power"
+    },
+    {
+      "key": "item:1948",
+      "type": "item",
+      "id": 1948,
+      "name": "Boots of Power Pattern NG",
+      "url": "/lu4/item/1948-boots-of-power-pattern"
+    },
+    {
       "key": "item:629",
       "type": "item",
       "id": 629,
       "name": "Kite Shield D",
       "url": "/lu4/item/629-kite-shield"
+    },
+    {
+      "key": "item:1947",
+      "type": "item",
+      "id": 1947,
+      "name": "Kite Shield Fragment NG",
+      "url": "/lu4/item/1947-kite-shield-fragment"
     },
     {
       "key": "item:93",
@@ -173,11 +135,39 @@
       "url": "/lu4/item/93-winged-spear"
     },
     {
-      "key": "item:57",
+      "key": "item:2033",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2033,
+      "name": "Winged Spear Blade NG",
+      "url": "/lu4/item/2033-winged-spear-blade"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     },
     {
       "key": "item:2279",
@@ -194,13 +184,6 @@
       "url": "/lu4/item/2273-recipe-tarbar"
     },
     {
-      "key": "item:2040",
-      "type": "item",
-      "id": 2040,
-      "name": "Reinforced Long Bow Shaft NG",
-      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
-    },
-    {
       "key": "item:1903",
       "type": "item",
       "id": 1903,
@@ -208,11 +191,11 @@
       "url": "/lu4/item/1903-elven-ring-piece"
     },
     {
-      "key": "item:956",
+      "key": "item:2040",
       "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+      "id": 2040,
+      "name": "Reinforced Long Bow Shaft NG",
+      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
     }
   ]
 }

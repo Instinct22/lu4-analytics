@@ -2,166 +2,114 @@
   "key": "npc:20973",
   "type": "npc",
   "id": 20973,
-  "name": "Lu4 Wiki: NPC Forgotten Ancient People",
+  "name": "Forgotten Ancient People",
   "url": "/lu4/npc/20973-forgotten-ancient-people",
-  "source_url": "https://masterwork.wiki/lu4/npc/20973-forgotten-ancient-people",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20973-forgotten-ancient-people",
   "raw_html": "library/raw/lu4/npc/20973-forgotten-ancient-people.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "14 489 / 1 920",
+    "P. Atk. / M. Atk.": "3 833 / 1 057",
+    "P. Def. / M. Def.": "634 / 924",
+    "Accuracy / Evasion": "112 / 107",
+    "Exp / SP": "31 618 / 3 937",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% HP Increase (3x) Lv. 11 MP Increase (1x) Lv. 1 Extremely Strong P. Atk. Lv. 19 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Extremely Strong M. Def. Lv. 18 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Melee Attack Vulnerability Lv. 9 Renders target vulnerable to melee attacks. Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows. Searching Master Lv. 1 Directly attacks a pet's master or summoner.",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 77"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20973",
-      "type": "npc",
-      "id": 20973,
-      "name": "Lu4",
-      "url": "/lu4/npc/20973-forgotten-ancient-people"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Extremely Strong P. Atk. Lv. 19",
-      "url": "/lu4/skill/4410-extremely-strong-p-atk/19"
+      "name": "Extremely Strong P. Atk.",
+      "url": "/lu4/skill/4410-extremely-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Extremely Strong M. Def. Lv. 18",
-      "url": "/lu4/skill/4413-extremely-strong-m-def/18"
+      "name": "Extremely Strong M. Def.",
+      "url": "/lu4/skill/4413-extremely-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:5620",
       "type": "skill",
       "id": 5620,
-      "name": "Melee Attack Vulnerability Lv. 9 Renders target vulnerable to melee attacks.",
-      "url": "/lu4/skill/5620-melee-attack-vulnerability/9"
+      "name": "Melee Attack Vulnerability",
+      "url": "/lu4/skill/5620-melee-attack-vulnerability"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:6019",
       "type": "skill",
       "id": 6019,
-      "name": "Searching Master Lv. 1 Directly attacks a pet's master or summoner.",
-      "url": "/lu4/skill/6019-searching-master/1"
+      "name": "Searching Master",
+      "url": "/lu4/skill/6019-searching-master"
     },
     {
-      "key": "item:8762",
+      "key": "item:57",
       "type": "item",
-      "id": 8762,
-      "name": "Top-Grade Life Stone NG",
-      "url": "/lu4/item/8762-top-grade-life-stone"
-    },
-    {
-      "key": "item:8752",
-      "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
-    },
-    {
-      "key": "item:8742",
-      "type": "item",
-      "id": 8742,
-      "name": "Mid-Grade Life Stone NG",
-      "url": "/lu4/item/8742-mid-grade-life-stone"
-    },
-    {
-      "key": "item:8732",
-      "type": "item",
-      "id": 8732,
-      "name": "Life Stone NG",
-      "url": "/lu4/item/8732-life-stone"
-    },
-    {
-      "key": "item:8314",
-      "type": "item",
-      "id": 8314,
-      "name": "Recipe: Spiritual Eye (60%) NG",
-      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
-    },
-    {
-      "key": "item:6345",
-      "type": "item",
-      "id": 6345,
-      "name": "Sealed Phoenix Ring Gemstone NG",
-      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
-    },
-    {
-      "key": "item:6343",
-      "type": "item",
-      "id": 6343,
-      "name": "Sealed Phoenix Necklace Beads NG",
-      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
-    },
-    {
-      "key": "item:6341",
-      "type": "item",
-      "id": 6341,
-      "name": "Sealed Phoenix Earring Gemstone NG",
-      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
-    },
-    {
-      "key": "item:6325",
-      "type": "item",
-      "id": 6325,
-      "name": "Sealed Phoenix Ring A",
-      "url": "/lu4/item/6325-sealed-phoenix-ring"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6324",
@@ -171,6 +119,13 @@
       "url": "/lu4/item/6324-sealed-phoenix-earring"
     },
     {
+      "key": "item:6341",
+      "type": "item",
+      "id": 6341,
+      "name": "Sealed Phoenix Earring Gemstone NG",
+      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
+    },
+    {
       "key": "item:6323",
       "type": "item",
       "id": 6323,
@@ -178,39 +133,25 @@
       "url": "/lu4/item/6323-sealed-phoenix-necklace"
     },
     {
-      "key": "item:4982",
+      "key": "item:6343",
       "type": "item",
-      "id": 4982,
-      "name": "Recipe: Blue Wolf Gaiters (60%) NG",
-      "url": "/lu4/item/4982-recipe-blue-wolf-gaiters-60"
+      "id": 6343,
+      "name": "Sealed Phoenix Necklace Beads NG",
+      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
     },
     {
-      "key": "item:4624",
+      "key": "item:6325",
       "type": "item",
-      "id": 4624,
-      "name": "Greater Dye of WIT <Wit+4 Men-4> NG",
-      "url": "/lu4/item/4624-greater-dye-of-wit-wit4-men-4"
+      "id": 6325,
+      "name": "Sealed Phoenix Ring A",
+      "url": "/lu4/item/6325-sealed-phoenix-ring"
     },
     {
-      "key": "item:4041",
+      "key": "item:6345",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "url": "/lu4/item/1881-coarse-bone-powder"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
+      "id": 6345,
+      "name": "Sealed Phoenix Ring Gemstone NG",
+      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
     },
     {
       "key": "item:1872",
@@ -227,18 +168,81 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:1881",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
     },
     {
-      "key": "item:5496",
+      "key": "item:1875",
       "type": "item",
-      "id": 5496,
-      "name": "Sealed Dark Crystal Boots Lining NG",
-      "url": "/lu4/item/5496-sealed-dark-crystal-boots-lining"
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:4982",
+      "type": "item",
+      "id": 4982,
+      "name": "Recipe: Blue Wolf Gaiters (60%) NG",
+      "url": "/lu4/item/4982-recipe-blue-wolf-gaiters-60"
+    },
+    {
+      "key": "item:4624",
+      "type": "item",
+      "id": 4624,
+      "name": "Greater Dye of WIT <Wit+4 Men-4> NG",
+      "url": "/lu4/item/4624-greater-dye-of-wit-wit4-men-4"
+    },
+    {
+      "key": "item:8314",
+      "type": "item",
+      "id": 8314,
+      "name": "Recipe: Spiritual Eye (60%) NG",
+      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
+    },
+    {
+      "key": "item:8732",
+      "type": "item",
+      "id": 8732,
+      "name": "Life Stone NG",
+      "url": "/lu4/item/8732-life-stone"
+    },
+    {
+      "key": "item:8742",
+      "type": "item",
+      "id": 8742,
+      "name": "Mid-Grade Life Stone NG",
+      "url": "/lu4/item/8742-mid-grade-life-stone"
+    },
+    {
+      "key": "item:8752",
+      "type": "item",
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
+    },
+    {
+      "key": "item:8762",
+      "type": "item",
+      "id": 8762,
+      "name": "Top-Grade Life Stone NG",
+      "url": "/lu4/item/8762-top-grade-life-stone"
+    },
+    {
+      "key": "item:4078",
+      "type": "item",
+      "id": 4078,
+      "name": "Blue Wolf Breastplate Part NG",
+      "url": "/lu4/item/4078-blue-wolf-breastplate-part"
     },
     {
       "key": "item:5166",
@@ -248,11 +252,11 @@
       "url": "/lu4/item/5166-recipe-blessed-spiritshot-a-compressed-package-100"
     },
     {
-      "key": "item:4078",
+      "key": "item:5496",
       "type": "item",
-      "id": 4078,
-      "name": "Blue Wolf Breastplate Part NG",
-      "url": "/lu4/item/4078-blue-wolf-breastplate-part"
+      "id": 5496,
+      "name": "Sealed Dark Crystal Boots Lining NG",
+      "url": "/lu4/item/5496-sealed-dark-crystal-boots-lining"
     }
   ]
 }

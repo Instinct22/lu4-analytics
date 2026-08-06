@@ -2,110 +2,100 @@
   "key": "npc:21389",
   "type": "npc",
   "id": 21389,
-  "name": "Lu4 Wiki: NPC Balrog of Destruction",
+  "name": "Balrog of Destruction",
   "url": "/lu4/npc/21389-balrog-of-destruction",
-  "source_url": "https://masterwork.wiki/lu4/npc/21389-balrog-of-destruction",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21389-balrog-of-destruction",
   "raw_html": "library/raw/lu4/npc/21389-balrog-of-destruction.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "28 866 / 2 012",
+    "P. Atk. / M. Atk.": "2 299 / 1 650",
+    "P. Def. / M. Def.": "537 / 1 003",
+    "Accuracy / Evasion": "125 / 133",
+    "Exp / SP": "72 128 / 6 894",
+    "Attack Attribute": "Unholy 50",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -13, Unholy 184",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Very Strong M. Def. Lv. 16 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword High Lv. Lv. 8 NPC High Level",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21389",
-      "type": "npc",
-      "id": 21389,
-      "name": "Lu4",
-      "url": "/lu4/npc/21389-balrog-of-destruction"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 16",
-      "url": "/lu4/skill/4413-very-strong-m-def/16"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 8 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/8"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:32367",
+      "key": "item:57",
       "type": "item",
-      "id": 32367,
-      "name": "Unidentified Dark Legion's Edge A",
-      "url": "/lu4/item/32367-unidentified-dark-legions-edge"
-    },
-    {
-      "key": "item:32331",
-      "type": "item",
-      "id": 32331,
-      "name": "Unidentified Sword of Miracles A",
-      "url": "/lu4/item/32331-unidentified-sword-of-miracles"
-    },
-    {
-      "key": "item:32324",
-      "type": "item",
-      "id": 32324,
-      "name": "Unidentified Dragon Slayer A",
-      "url": "/lu4/item/32324-unidentified-dragon-slayer"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6695",
@@ -113,13 +103,6 @@
       "id": 6695,
       "name": "Demon Splinter Blade NG",
       "url": "/lu4/item/6695-demon-splinter-blade"
-    },
-    {
-      "key": "item:5546",
-      "type": "item",
-      "id": 5546,
-      "name": "Sword of Miracles Edge NG",
-      "url": "/lu4/item/5546-sword-of-miracles-edge"
     },
     {
       "key": "item:5545",
@@ -136,25 +119,32 @@
       "url": "/lu4/item/5529-dragon-slayer-edge"
     },
     {
-      "key": "item:1873",
+      "key": "item:32367",
       "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 32367,
+      "name": "Unidentified Dark Legion's Edge A",
+      "url": "/lu4/item/32367-unidentified-dark-legions-edge"
     },
     {
-      "key": "item:1868",
+      "key": "item:5546",
       "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "id": 5546,
+      "name": "Sword of Miracles Edge NG",
+      "url": "/lu4/item/5546-sword-of-miracles-edge"
     },
     {
-      "key": "item:1866",
+      "key": "item:32331",
       "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "id": 32331,
+      "name": "Unidentified Sword of Miracles A",
+      "url": "/lu4/item/32331-unidentified-sword-of-miracles"
+    },
+    {
+      "key": "item:32324",
+      "type": "item",
+      "id": 32324,
+      "name": "Unidentified Dragon Slayer A",
+      "url": "/lu4/item/32324-unidentified-dragon-slayer"
     },
     {
       "key": "item:1865",
@@ -171,6 +161,20 @@
       "url": "/lu4/item/1864-stem"
     },
     {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
       "key": "item:959",
       "type": "item",
       "id": 959,
@@ -178,18 +182,11 @@
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:1866",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:6691",
-      "type": "item",
-      "id": 6691,
-      "name": "Angel Slayer Blade NG",
-      "url": "/lu4/item/6691-angel-slayer-blade"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
       "key": "item:6690",
@@ -197,6 +194,13 @@
       "id": 6690,
       "name": "Imperial Staff Head NG",
       "url": "/lu4/item/6690-imperial-staff-head"
+    },
+    {
+      "key": "item:6691",
+      "type": "item",
+      "id": 6691,
+      "name": "Angel Slayer Blade NG",
+      "url": "/lu4/item/6691-angel-slayer-blade"
     }
   ]
 }

@@ -2,34 +2,32 @@
   "key": "item:8386",
   "type": "item",
   "id": 8386,
-  "name": "Lu4 Wiki: Item Spellbook: Arcane Disruption",
+  "name": "Spellbook: Arcane Disruption",
   "url": "/lu4/item/8386-spellbook-arcane-disruption",
-  "source_url": "https://masterwork.wiki/lu4/item/8386-spellbook-arcane-disruption",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8386-spellbook-arcane-disruption",
   "raw_html": "library/raw/lu4/item/8386-spellbook-arcane-disruption.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Arcane Disruption'. Required: Warlock - Lv. 56 To obtain this item, hunt the Connabi found in Skyshadow Meadow.",
+    "NPC Sell Price": "3 125 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8386",
-      "type": "item",
-      "id": 8386,
-      "name": "Lu4",
-      "url": "/lu4/item/8386-spellbook-arcane-disruption"
-    },
-    {
       "key": "npc:22084",
       "type": "npc",
       "id": 22084,
-      "name": "Panthera Lv. 56",
+      "name": "Panthera",
       "url": "/lu4/npc/22084-panthera"
     },
     {
       "key": "npc:20947",
       "type": "npc",
       "id": 20947,
-      "name": "Connabi Lv. 54",
+      "name": "Connabi",
       "url": "/lu4/npc/20947-connabi"
     }
   ]

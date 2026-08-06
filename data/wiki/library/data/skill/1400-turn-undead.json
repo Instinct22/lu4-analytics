@@ -1,0 +1,59 @@
+{
+  "key": "skill:1400",
+  "type": "skill",
+  "id": 1400,
+  "name": "Turn Undead",
+  "url": "/lu4/skill/1400-turn-undead",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1400-turn-undead",
+  "raw_html": "library/raw/lu4/skill/1400-turn-undead.html",
+  "stats": {
+    "Effect": "Strikes fear into undead, causing them to flee and decreases Speed by 50%. Lethal Strike is possible.",
+    "Consumes": "52 MP , Spirit Ore, 3 pcs.",
+    "Reuse Time": "4 seconds",
+    "Duration": "30 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "Holy 0",
+    "Trait": "trait_holy",
+    "Cast Range": "900 (1400)",
+    "Available For": "BishopLv. 56ProphetLv. 56Elven ElderLv. 56Shillien ElderLv. 56",
+    "Type": "Magical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "item:3031",
+      "type": "item",
+      "id": 3031,
+      "name": "Spirit Ore, 3 pcs.",
+      "url": "/lu4/item/3031-spirit-ore"
+    },
+    {
+      "key": "class:16",
+      "type": "class",
+      "id": 16,
+      "name": "BishopLv. 56",
+      "url": "/lu4/class/16-bishop"
+    },
+    {
+      "key": "class:17",
+      "type": "class",
+      "id": 17,
+      "name": "ProphetLv. 56",
+      "url": "/lu4/class/17-prophet"
+    },
+    {
+      "key": "class:30",
+      "type": "class",
+      "id": 30,
+      "name": "Elven ElderLv. 56",
+      "url": "/lu4/class/30-elder"
+    },
+    {
+      "key": "class:43",
+      "type": "class",
+      "id": 43,
+      "name": "Shillien ElderLv. 56",
+      "url": "/lu4/class/43-shillienelder"
+    }
+  ]
+}

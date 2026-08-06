@@ -2,24 +2,24 @@
   "key": "item:2497",
   "type": "item",
   "id": 2497,
-  "name": "Lu4 Wiki: Item Full Plate Shield",
+  "name": "Full Plate Shield",
   "url": "/lu4/item/2497-full-plate-shield",
-  "source_url": "https://masterwork.wiki/lu4/item/2497-full-plate-shield",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2497-full-plate-shield",
   "raw_html": "library/raw/lu4/item/2497-full-plate-shield.html",
   "stats": {
+    "Shield Defense": "203 (20%)",
+    "Crystal Amount": "116 Crystallization Failed Enchant +0 116 - +1 122 - +2 128 - +3 134 - +4 152 94 +5 170 112 +6 188 130 +7 206 148 +8 224 166",
+    "NPC Sell Price": "144 400 Adena",
+    "Weight": "1220",
+    "Evasion": "-8",
     "Set Part": "Full Plate Armor C",
     "Recipes": "Recipe: Full Plate Shield NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Shield"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2497",
-      "type": "item",
-      "id": 2497,
-      "name": "Lu4",
-      "url": "/lu4/item/2497-full-plate-shield"
-    },
     {
       "key": "set:23",
       "type": "set",
@@ -31,7 +31,7 @@
       "key": "set:503",
       "type": "set",
       "id": 503,
-      "name": "",
+      "name": "set:503",
       "url": "/lu4/set/503"
     },
     {
@@ -42,59 +42,73 @@
       "url": "/lu4/item/3019-recipe-full-plate-shield"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
       "key": "npc:25456",
       "type": "npc",
       "id": 25456,
-      "name": "Mirror of Oblivion Lv. 49",
+      "name": "Mirror of Oblivion",
       "url": "/lu4/npc/25456-mirror-of-oblivion"
     },
     {
       "key": "npc:22082",
       "type": "npc",
       "id": 22082,
-      "name": "Elder Lost Watcher Lv. 54",
+      "name": "Elder Lost Watcher",
       "url": "/lu4/npc/22082-elder-lost-watcher"
     },
     {
       "key": "npc:21812",
       "type": "npc",
       "id": 21812,
-      "name": "Treasure Chest Lv. 54",
+      "name": "Treasure Chest",
       "url": "/lu4/npc/21812-treasure-chest"
     },
     {
       "key": "npc:21263",
       "type": "npc",
       "id": 21263,
-      "name": "Ol Mahum Transcender Lv. 55",
+      "name": "Ol Mahum Transcender",
       "url": "/lu4/npc/21263-ol-mahum-transcender"
     },
     {
       "key": "npc:21222",
       "type": "npc",
       "id": 21222,
-      "name": "Sepulcher Archon Lv. 55",
+      "name": "Sepulcher Archon",
       "url": "/lu4/npc/21222-sepulcher-archon"
     },
     {
       "key": "npc:20987",
       "type": "npc",
       "id": 20987,
-      "name": "Sairon's Doll Lv. 53",
+      "name": "Sairon's Doll",
       "url": "/lu4/npc/20987-sairons-doll"
     },
     {
       "key": "npc:20599",
       "type": "npc",
       "id": 20599,
-      "name": "Unicorn Elder Lv. 55",
+      "name": "Unicorn Elder",
       "url": "/lu4/npc/20599-unicorn-elder"
     },
     {
       "key": "npc:20576",
       "type": "npc",
       "id": 20576,
-      "name": "Oel Mahum Witch Doctor Lv. 55",
+      "name": "Oel Mahum Witch Doctor",
       "url": "/lu4/npc/20576-oel-mahum-witch-doctor"
     }
   ]

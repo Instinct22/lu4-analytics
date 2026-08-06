@@ -2,124 +2,107 @@
   "key": "npc:22161",
   "type": "npc",
   "id": 22161,
-  "name": "Lu4 Wiki: NPC Ritual Sacrifice",
+  "name": "Ritual Sacrifice",
   "url": "/lu4/npc/22161-ritual-sacrifice",
-  "source_url": "https://masterwork.wiki/lu4/npc/22161-ritual-sacrifice",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22161-ritual-sacrifice",
   "raw_html": "library/raw/lu4/npc/22161-ritual-sacrifice.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "19 640 / 2 298",
+    "P. Atk. / M. Atk.": "2 095 / 1 388",
+    "P. Def. / M. Def.": "552 / 746",
+    "Accuracy / Evasion": "125 / 145",
+    "Exp / SP": "57 764 / 3 752",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -10, Unholy 60",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. One-handed Sword Lv. 3 One-handed Sword Undead Lv. 36 Undead. High Lv. Lv. 10 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22161",
-      "type": "npc",
-      "id": 22161,
-      "name": "Lu4",
-      "url": "/lu4/npc/22161-ritual-sacrifice"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Undead Lv. 36 Undead.",
-      "url": "/lu4/skill/4417-undead/36"
+      "name": "Undead",
+      "url": "/lu4/skill/4417-undead"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 10 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/10"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32391",
-      "type": "item",
-      "id": 32391,
-      "name": "Unidentified Sealed Majestic Circlet A",
-      "url": "/lu4/item/32391-unidentified-sealed-majestic-circlet"
-    },
-    {
-      "key": "item:32389",
-      "type": "item",
-      "id": 32389,
-      "name": "Unidentified Sealed Shield of Nightmare A",
-      "url": "/lu4/item/32389-unidentified-sealed-shield-of-nightmare"
-    },
-    {
-      "key": "item:32386",
-      "type": "item",
-      "id": 32386,
-      "name": "Unidentified Sealed Helm of Nightmare A",
-      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5528",
@@ -141,6 +124,27 @@
       "id": 5495,
       "name": "Sealed Shield of Nightmare Fragment NG",
       "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
+    },
+    {
+      "key": "item:32391",
+      "type": "item",
+      "id": 32391,
+      "name": "Unidentified Sealed Majestic Circlet A",
+      "url": "/lu4/item/32391-unidentified-sealed-majestic-circlet"
+    },
+    {
+      "key": "item:32389",
+      "type": "item",
+      "id": 32389,
+      "name": "Unidentified Sealed Shield of Nightmare A",
+      "url": "/lu4/item/32389-unidentified-sealed-shield-of-nightmare"
+    },
+    {
+      "key": "item:32386",
+      "type": "item",
+      "id": 32386,
+      "name": "Unidentified Sealed Helm of Nightmare A",
+      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
     },
     {
       "key": "item:4042",
@@ -192,18 +196,18 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:4039",
+      "key": "item:959",
       "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
+      "id": 959,
+      "name": "Scroll: Enchant Weapon (S-Grade) NG",
+      "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
     },
     {
       "key": "item:1894",
@@ -213,11 +217,11 @@
       "url": "/lu4/item/1894-crafted-leather"
     },
     {
-      "key": "item:959",
+      "key": "item:4039",
       "type": "item",
-      "id": 959,
-      "name": "Scroll: Enchant Weapon (S-Grade) NG",
-      "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
     }
   ]
 }

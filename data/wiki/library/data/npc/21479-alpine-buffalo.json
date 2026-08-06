@@ -2,40 +2,44 @@
   "key": "npc:21479",
   "type": "npc",
   "id": 21479,
-  "name": "Lu4 Wiki: NPC Alpine Buffalo",
+  "name": "Alpine Buffalo",
   "url": "/lu4/npc/21479-alpine-buffalo",
-  "source_url": "https://masterwork.wiki/lu4/npc/21479-alpine-buffalo",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21479-alpine-buffalo",
   "raw_html": "library/raw/lu4/npc/21479-alpine-buffalo.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "7 252 / 1 541",
+    "P. Atk. / M. Atk.": "1 702 / 739",
+    "P. Def. / M. Def.": "442 / 376",
+    "Accuracy / Evasion": "100 / 100",
+    "Exp / SP": "16 278 / 1 550",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (2x) Lv. 10 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 67"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21479",
-      "type": "npc",
-      "id": 21479,
-      "name": "Lu4",
-      "url": "/lu4/npc/21479-alpine-buffalo"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "item:57",
@@ -45,11 +49,11 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:5444",
+      "key": "item:4077",
       "type": "item",
-      "id": 5444,
-      "name": "Recipe: Carnage Bow(60%) NG",
-      "url": "/lu4/item/5444-recipe-carnage-bow60"
+      "id": 4077,
+      "name": "Doom Shield Fragment NG",
+      "url": "/lu4/item/4077-doom-shield-fragment"
     },
     {
       "key": "item:4078",
@@ -59,11 +63,11 @@
       "url": "/lu4/item/4078-blue-wolf-breastplate-part"
     },
     {
-      "key": "item:4077",
+      "key": "item:5444",
       "type": "item",
-      "id": 4077,
-      "name": "Doom Shield Fragment NG",
-      "url": "/lu4/item/4077-doom-shield-fragment"
+      "id": 5444,
+      "name": "Recipe: Carnage Bow(60%) NG",
+      "url": "/lu4/item/5444-recipe-carnage-bow60"
     }
   ]
 }

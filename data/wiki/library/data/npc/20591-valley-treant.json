@@ -2,70 +2,74 @@
   "key": "npc:20591",
   "type": "npc",
   "id": 20591,
-  "name": "Lu4 Wiki: NPC Valley Treant",
+  "name": "Valley Treant",
   "url": "/lu4/npc/20591-valley-treant",
-  "source_url": "https://masterwork.wiki/lu4/npc/20591-valley-treant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20591-valley-treant",
   "raw_html": "library/raw/lu4/npc/20591-valley-treant.html",
   "stats": {
-    "Location": "Волшебная Долина"
+    "Respawn Time": "50 seconds ± 3 seconds",
+    "Location": "Волшебная Долина",
+    "HP / MP": "8 115 / 819",
+    "P. Atk. / M. Atk.": "392 / 222",
+    "P. Def. / M. Def.": "324 / 296",
+    "Accuracy / Evasion": "75 / 85",
+    "Exp / SP": "10 203 / 1 020",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 HP Increase (4x) Lv. 12 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 13 Strong M. Def. Lv. 15 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 47"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20591",
-      "type": "npc",
-      "id": 20591,
-      "name": "Lu4",
-      "url": "/lu4/npc/20591-valley-treant"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 15",
-      "url": "/lu4/skill/4413-strong-m-def/15"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:8752",
@@ -75,11 +79,25 @@
       "url": "/lu4/item/8752-high-grade-life-stone"
     },
     {
-      "key": "item:4041",
+      "key": "item:1866",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
     },
     {
       "key": "item:4040",
@@ -89,18 +107,11 @@
       "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:3004",
+      "key": "item:4041",
       "type": "item",
-      "id": 3004,
-      "name": "Recipe: Rind Leather Gloves NG",
-      "url": "/lu4/item/3004-recipe-rind-leather-gloves"
-    },
-    {
-      "key": "item:2941",
-      "type": "item",
-      "id": 2941,
-      "name": "Boots of Seal Pattern NG",
-      "url": "/lu4/item/2941-boots-of-seal-pattern"
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
       "key": "item:2433",
@@ -108,6 +119,13 @@
       "id": 2433,
       "name": "Boots of Seal C",
       "url": "/lu4/item/2433-boots-of-seal"
+    },
+    {
+      "key": "item:2941",
+      "type": "item",
+      "id": 2941,
+      "name": "Boots of Seal Pattern NG",
+      "url": "/lu4/item/2941-boots-of-seal-pattern"
     },
     {
       "key": "item:2323",
@@ -124,39 +142,18 @@
       "url": "/lu4/item/2216-recipe-great-helmet"
     },
     {
-      "key": "item:1877",
+      "key": "item:3004",
       "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
+      "id": 3004,
+      "name": "Recipe: Rind Leather Gloves NG",
+      "url": "/lu4/item/3004-recipe-rind-leather-gloves"
     },
     {
-      "key": "item:1871",
+      "key": "item:951",
       "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:2948",
-      "type": "item",
-      "id": 2948,
-      "name": "Rind Leather Boots Lining NG",
-      "url": "/lu4/item/2948-rind-leather-boots-lining"
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "item:2082",
@@ -166,11 +163,11 @@
       "url": "/lu4/item/2082-cursed-staff-head"
     },
     {
-      "key": "item:951",
+      "key": "item:2948",
       "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+      "id": 2948,
+      "name": "Rind Leather Boots Lining NG",
+      "url": "/lu4/item/2948-rind-leather-boots-lining"
     }
   ]
 }

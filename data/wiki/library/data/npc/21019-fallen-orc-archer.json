@@ -2,133 +2,67 @@
   "key": "npc:21019",
   "type": "npc",
   "id": 21019,
-  "name": "Lu4 Wiki: NPC Fallen Orc Archer",
+  "name": "Fallen Orc Archer",
   "url": "/lu4/npc/21019-fallen-orc-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21019-fallen-orc-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21019-fallen-orc-archer",
   "raw_html": "library/raw/lu4/npc/21019-fallen-orc-archer.html",
   "stats": {
-    "Location": "Забытые Равнины"
+    "Respawn Time": "30 seconds ± 5 seconds",
+    "Location": "Забытые Равнины",
+    "HP / MP": "2 835 / 1 168",
+    "P. Atk. / M. Atk.": "1 780 / 428",
+    "P. Def. / M. Def.": "294 / 254",
+    "Accuracy / Evasion": "94 / 93",
+    "Exp / SP": "3 253 / 325",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 13 Slightly Weak M. Def. Lv. 10 Slightly Weak P. Def. Lv. 10 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 58"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21019",
-      "type": "npc",
-      "id": 21019,
-      "name": "Lu4",
-      "url": "/lu4/npc/21019-fallen-orc-archer"
-    },
-    {
-      "key": "location:73",
-      "type": "location",
-      "id": 73,
-      "name": "Забытые Равнины",
-      "url": "/lu4/location/73-zabytye-ravniny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32590",
-      "type": "item",
-      "id": 32590,
-      "name": "Unidentified Avadon Robe B",
-      "url": "/lu4/item/32590-unidentified-avadon-robe"
-    },
-    {
-      "key": "item:32357",
-      "type": "item",
-      "id": 32357,
-      "name": "Unidentified Zubei's Leather Gaiters B",
-      "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
-    },
-    {
-      "key": "item:32329",
-      "type": "item",
-      "id": 32329,
-      "name": "Unidentified Sword of Valhalla B",
-      "url": "/lu4/item/32329-unidentified-sword-of-valhalla"
-    },
-    {
-      "key": "item:4108",
-      "type": "item",
-      "id": 4108,
-      "name": "Sword of Valhalla Blade NG",
-      "url": "/lu4/item/4108-sword-of-valhalla-blade"
-    },
-    {
-      "key": "item:4071",
-      "type": "item",
-      "id": 4071,
-      "name": "Avadon Robe Fabric NG",
-      "url": "/lu4/item/4071-avadon-robe-fabric"
-    },
-    {
-      "key": "item:4067",
-      "type": "item",
-      "id": 4067,
-      "name": "Zubei's Leather Gaiter Texture NG",
-      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -166,11 +100,74 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32590",
+      "type": "item",
+      "id": 32590,
+      "name": "Unidentified Avadon Robe B",
+      "url": "/lu4/item/32590-unidentified-avadon-robe"
+    },
+    {
+      "key": "item:4071",
+      "type": "item",
+      "id": 4071,
+      "name": "Avadon Robe Fabric NG",
+      "url": "/lu4/item/4071-avadon-robe-fabric"
+    },
+    {
+      "key": "item:32357",
+      "type": "item",
+      "id": 32357,
+      "name": "Unidentified Zubei's Leather Gaiters B",
+      "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
+    },
+    {
+      "key": "item:4067",
+      "type": "item",
+      "id": 4067,
+      "name": "Zubei's Leather Gaiter Texture NG",
+      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
+    },
+    {
+      "key": "item:32329",
+      "type": "item",
+      "id": 32329,
+      "name": "Unidentified Sword of Valhalla B",
+      "url": "/lu4/item/32329-unidentified-sword-of-valhalla"
+    },
+    {
+      "key": "item:4108",
+      "type": "item",
+      "id": 4108,
+      "name": "Sword of Valhalla Blade NG",
+      "url": "/lu4/item/4108-sword-of-valhalla-blade"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:4944",

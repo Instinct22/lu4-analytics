@@ -2,146 +2,24 @@
   "key": "item:2990",
   "type": "item",
   "id": 2990,
-  "name": "Recipe",
+  "name": "Recipe: Chain Boots",
   "url": "/lu4/item/2990-recipe-chain-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/2990-recipe-chain-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2990-recipe-chain-boots",
   "raw_html": "library/raw/lu4/item/2990-recipe-chain-boots.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Chain Boots'. Requires Create Item - Skill Level 4 (Artisan Lv. 36). The success rate is 100%.",
+    "NPC Sell Price": "1 260 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "4",
     "MP Consume": "138",
     "Success Rate": "100%",
-    "Result": "Chain Boots C"
+    "Result": "Chain Boots C",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2990",
-      "type": "item",
-      "id": 2990,
-      "name": "Recipe: Chain Boots NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:2937",
-      "type": "item",
-      "id": 2937,
-      "name": "Chain Boots Part NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1894",
-      "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "3.2"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "16"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "16"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "40"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "192"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "40"
-    },
-    {
-      "key": "item:2131",
-      "type": "item",
-      "id": 2131,
-      "name": "Gemstone C NG",
-      "amount": "3"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2990",
-      "type": "item",
-      "id": 2990,
-      "name": "Lu4",
-      "url": "/lu4/item/2990-recipe-chain-boots"
-    },
     {
       "key": "item:2937",
       "type": "item",
@@ -265,56 +143,56 @@
       "key": "npc:21609",
       "type": "npc",
       "id": 21609,
-      "name": "Zaken's Watchman Lv. 45",
+      "name": "Zaken's Watchman",
       "url": "/lu4/npc/21609-zakens-watchman"
     },
     {
       "key": "npc:21608",
       "type": "npc",
       "id": 21608,
-      "name": "Zaken's Watchman Lv. 45",
+      "name": "Zaken's Watchman",
       "url": "/lu4/npc/21608-zakens-watchman"
     },
     {
       "key": "npc:21241",
       "type": "npc",
       "id": 21241,
-      "name": "Barrow Priest Lv. 42",
+      "name": "Barrow Priest",
       "url": "/lu4/npc/21241-barrow-priest"
     },
     {
       "key": "npc:21173",
       "type": "npc",
       "id": 21173,
-      "name": "Lith Shaman Lv. 42",
+      "name": "Lith Shaman",
       "url": "/lu4/npc/21173-lith-shaman"
     },
     {
       "key": "npc:20585",
       "type": "npc",
       "id": 20585,
-      "name": "Timak Orc Soldier Lv. 42",
+      "name": "Timak Orc Soldier",
       "url": "/lu4/npc/20585-timak-orc-soldier"
     },
     {
       "key": "npc:20566",
       "type": "npc",
       "id": 20566,
-      "name": "Enchanted Iron Golem Lv. 43",
+      "name": "Enchanted Iron Golem",
       "url": "/lu4/npc/20566-enchanted-iron-golem"
     },
     {
       "key": "npc:20849",
       "type": "npc",
       "id": 20849,
-      "name": "Light Worm Lv. 41",
+      "name": "Light Worm",
       "url": "/lu4/npc/20849-light-worm"
     },
     {
       "key": "npc:20557",
       "type": "npc",
       "id": 20557,
-      "name": "Dire Wyrm Lv. 42",
+      "name": "Dire Wyrm",
       "url": "/lu4/npc/20557-dire-wyrm"
     }
   ]

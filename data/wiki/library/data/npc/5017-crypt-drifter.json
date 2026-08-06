@@ -2,98 +2,81 @@
   "key": "npc:5017",
   "type": "npc",
   "id": 5017,
-  "name": "Lu4 Wiki: NPC Crypt Drifter",
+  "name": "Crypt Drifter",
   "url": "/lu4/npc/5017-crypt-drifter",
-  "source_url": "https://masterwork.wiki/lu4/npc/5017-crypt-drifter",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5017-crypt-drifter",
   "raw_html": "library/raw/lu4/npc/5017-crypt-drifter.html",
   "stats": {
-    "Location": "Равнины Неистовства (+1) Равнины Неистовства Кладбище"
+    "Respawn Time": "25 seconds ± 3 seconds",
+    "Location": "Равнины Неистовства (+1) Равнины Неистовства Кладбище",
+    "HP / MP": "6 421 / 1 110",
+    "P. Atk. / M. Atk.": "932 / 393",
+    "P. Def. / M. Def.": "325 / 258",
+    "Accuracy / Evasion": "90 / 90",
+    "Exp / SP": "7 292 / 729",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. HP Increase (2x) Lv. 10 Strong P. Atk. Lv. 14 Slightly Weak M. Def. Lv. 9 Slightly Weak P. Def. Lv. 9 Greater Hold Resistance Lv. 3 Highly resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 57"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5017",
-      "type": "npc",
-      "id": 5017,
-      "name": "Lu4",
-      "url": "/lu4/npc/5017-crypt-drifter"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
-      "key": "location:71",
-      "type": "location",
-      "id": 71,
-      "name": "Кладбище",
-      "url": "/lu4/location/71-kladbise"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 3 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/3"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
-      "key": "item:32358",
+      "key": "item:57",
       "type": "item",
-      "id": 32358,
-      "name": "Unidentified Avadon Leather Armor B",
-      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
-    },
-    {
-      "key": "item:32344",
-      "type": "item",
-      "id": 32344,
-      "name": "Unidentified Dark Elven Long Bow B",
-      "url": "/lu4/item/32344-unidentified-dark-elven-long-bow"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5550",
@@ -103,25 +86,11 @@
       "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
-      "key": "item:4112",
+      "key": "item:1864",
       "type": "item",
-      "id": 4112,
-      "name": "Dark Elven Longbow Shaft NG",
-      "url": "/lu4/item/4112-dark-elven-longbow-shaft"
-    },
-    {
-      "key": "item:4068",
-      "type": "item",
-      "id": 4068,
-      "name": "Avadon Leather Armor Lining NG",
-      "url": "/lu4/item/4068-avadon-leather-armor-lining"
-    },
-    {
-      "key": "item:4050",
-      "type": "item",
-      "id": 4050,
-      "name": "Adamantite Ring Wire NG",
-      "url": "/lu4/item/4050-adamantite-ring-wire"
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     },
     {
       "key": "item:4043",
@@ -145,13 +114,6 @@
       "url": "/lu4/item/1869-iron-ore"
     },
     {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
       "key": "item:887",
       "type": "item",
       "id": 887,
@@ -159,11 +121,39 @@
       "url": "/lu4/item/887-adamantite-ring"
     },
     {
-      "key": "item:57",
+      "key": "item:4050",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4050,
+      "name": "Adamantite Ring Wire NG",
+      "url": "/lu4/item/4050-adamantite-ring-wire"
+    },
+    {
+      "key": "item:32358",
+      "type": "item",
+      "id": 32358,
+      "name": "Unidentified Avadon Leather Armor B",
+      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
+    },
+    {
+      "key": "item:4068",
+      "type": "item",
+      "id": 4068,
+      "name": "Avadon Leather Armor Lining NG",
+      "url": "/lu4/item/4068-avadon-leather-armor-lining"
+    },
+    {
+      "key": "item:32344",
+      "type": "item",
+      "id": 32344,
+      "name": "Unidentified Dark Elven Long Bow B",
+      "url": "/lu4/item/32344-unidentified-dark-elven-long-bow"
+    },
+    {
+      "key": "item:4112",
+      "type": "item",
+      "id": 4112,
+      "name": "Dark Elven Longbow Shaft NG",
+      "url": "/lu4/item/4112-dark-elven-longbow-shaft"
     },
     {
       "key": "item:4963",
@@ -180,6 +170,13 @@
       "url": "/lu4/item/4946-recipe-zubeis-leather-shirt-60"
     },
     {
+      "key": "item:4098",
+      "type": "item",
+      "id": 4098,
+      "name": "Sealed Avadon Boots Design NG",
+      "url": "/lu4/item/4098-sealed-avadon-boots-design"
+    },
+    {
       "key": "item:4113",
       "type": "item",
       "id": 4113,
@@ -192,13 +189,6 @@
       "id": 4106,
       "name": "Sprite's Staff Head NG",
       "url": "/lu4/item/4106-sprites-staff-head"
-    },
-    {
-      "key": "item:4098",
-      "type": "item",
-      "id": 4098,
-      "name": "Sealed Avadon Boots Design NG",
-      "url": "/lu4/item/4098-sealed-avadon-boots-design"
     }
   ]
 }

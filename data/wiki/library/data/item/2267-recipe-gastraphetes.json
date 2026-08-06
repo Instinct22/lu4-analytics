@@ -2,111 +2,24 @@
   "key": "item:2267",
   "type": "item",
   "id": 2267,
-  "name": "Recipe",
+  "name": "Recipe: Gastraphetes",
   "url": "/lu4/item/2267-recipe-gastraphetes",
-  "source_url": "https://masterwork.wiki/lu4/item/2267-recipe-gastraphetes",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2267-recipe-gastraphetes",
   "raw_html": "library/raw/lu4/item/2267-recipe-gastraphetes.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Gastraphetes'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "9 670 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "108",
     "Success Rate": "100%",
-    "Result": "Gastraphetes D"
+    "Result": "Gastraphetes D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2029",
-      "type": "item",
-      "id": 2029,
-      "name": "Gastraphetes Shaft NG",
-      "amount": "6"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "150"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "750"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "750"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "30"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "150"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "30"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "30"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "300"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "90"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "300"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "91"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2267",
-      "type": "item",
-      "id": 2267,
-      "name": "Lu4",
-      "url": "/lu4/item/2267-recipe-gastraphetes"
-    },
     {
       "key": "item:2029",
       "type": "item",
@@ -202,28 +115,28 @@
       "key": "npc:21011",
       "type": "npc",
       "id": 21011,
-      "name": "Ol Mahum Van Grunt Lv. 30",
+      "name": "Ol Mahum Van Grunt",
       "url": "/lu4/npc/21011-ol-mahum-van-grunt"
     },
     {
       "key": "npc:20074",
       "type": "npc",
       "id": 20074,
-      "name": "Androscorpio Lv. 29",
+      "name": "Androscorpio",
       "url": "/lu4/npc/20074-androscorpio"
     },
     {
       "key": "npc:20750",
       "type": "npc",
       "id": 20750,
-      "name": "Fire Archer Lv. 29",
+      "name": "Fire Archer",
       "url": "/lu4/npc/20750-fire-archer"
     },
     {
       "key": "npc:20077",
       "type": "npc",
       "id": 20077,
-      "name": "Androscorpio Hunter Lv. 30",
+      "name": "Androscorpio Hunter",
       "url": "/lu4/npc/20077-androscorpio-hunter"
     }
   ]

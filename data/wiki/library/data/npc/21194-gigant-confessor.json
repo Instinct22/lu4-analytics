@@ -2,82 +2,72 @@
   "key": "npc:21194",
   "type": "npc",
   "id": 21194,
-  "name": "Lu4 Wiki: NPC Gigant Confessor",
+  "name": "Gigant Confessor",
   "url": "/lu4/npc/21194-gigant-confessor",
-  "source_url": "https://masterwork.wiki/lu4/npc/21194-gigant-confessor",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21194-gigant-confessor",
   "raw_html": "library/raw/lu4/npc/21194-gigant-confessor.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "6 642 / 654",
+    "P. Atk. / M. Atk.": "462 / 223",
+    "P. Def. / M. Def.": "159 / 187",
+    "Accuracy / Evasion": "85 / 75",
+    "Exp / SP": "8 472 / 564",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks. Sleep Resistance Lv. 5 Resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 42"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21194",
-      "type": "npc",
-      "id": 21194,
-      "name": "Lu4",
-      "url": "/lu4/npc/21194-gigant-confessor"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4336",
       "type": "skill",
       "id": 4336,
-      "name": "Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks.",
-      "url": "/lu4/skill/4336-dark-attack-vulnerability/2"
+      "name": "Dark Attack Vulnerability",
+      "url": "/lu4/skill/4336-dark-attack-vulnerability"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
-    },
-    {
-      "key": "item:6362",
-      "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
-    },
-    {
-      "key": "item:6361",
-      "type": "item",
-      "id": 6361,
-      "name": "Green Seal Stone NG",
-      "url": "/lu4/item/6361-green-seal-stone"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "item:6360",
@@ -87,18 +77,25 @@
       "url": "/lu4/item/6360-blue-seal-stone"
     },
     {
-      "key": "item:6037",
+      "key": "item:6361",
       "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
+      "id": 6361,
+      "name": "Green Seal Stone NG",
+      "url": "/lu4/item/6361-green-seal-stone"
     },
     {
-      "key": "item:2994",
+      "key": "item:6362",
       "type": "item",
-      "id": 2994,
-      "name": "Recipe: Boots of Seal NG",
-      "url": "/lu4/item/2994-recipe-boots-of-seal"
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
+    },
+    {
+      "key": "item:262",
+      "type": "item",
+      "id": 262,
+      "name": "Scallop Jamadhr D",
+      "url": "/lu4/item/262-scallop-jamadhr"
     },
     {
       "key": "item:2053",
@@ -108,11 +105,11 @@
       "url": "/lu4/item/2053-scallop-jamadhr-edge"
     },
     {
-      "key": "item:1881",
+      "key": "item:1872",
       "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "url": "/lu4/item/1881-coarse-bone-powder"
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
     },
     {
       "key": "item:1875",
@@ -122,11 +119,11 @@
       "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:1872",
+      "key": "item:1881",
       "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
     },
     {
       "key": "item:1867",
@@ -136,18 +133,25 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
+      "key": "item:2994",
+      "type": "item",
+      "id": 2994,
+      "name": "Recipe: Boots of Seal NG",
+      "url": "/lu4/item/2994-recipe-boots-of-seal"
+    },
+    {
+      "key": "item:6037",
+      "type": "item",
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
+    },
+    {
       "key": "item:1805",
       "type": "item",
       "id": 1805,
       "name": "Recipe: Soulshot (C-Grade) NG",
       "url": "/lu4/item/1805-recipe-soulshot-c-grade"
-    },
-    {
-      "key": "item:262",
-      "type": "item",
-      "id": 262,
-      "name": "Scallop Jamadhr D",
-      "url": "/lu4/item/262-scallop-jamadhr"
     },
     {
       "key": "item:1905",

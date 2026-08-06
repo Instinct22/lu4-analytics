@@ -2,47 +2,44 @@
   "key": "npc:25090",
   "type": "npc",
   "id": 25090,
-  "name": "Lu4 Wiki: NPC Soulless Wolf",
+  "name": "Soulless Wolf",
   "url": "/lu4/npc/25090-soulless-wolf",
-  "source_url": "https://masterwork.wiki/lu4/npc/25090-soulless-wolf",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25090-soulless-wolf",
   "raw_html": "library/raw/lu4/npc/25090-soulless-wolf.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "35 416 / 1 240",
+    "P. Atk. / M. Atk.": "2 090 / 3 714",
+    "P. Def. / M. Def.": "594 / 602",
+    "Accuracy / Evasion": "91 / 101",
+    "Exp / SP": "0 / 1 364",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 58"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25090",
-      "type": "npc",
-      "id": 25090,
-      "name": "Lu4",
-      "url": "/lu4/npc/25090-soulless-wolf"
-    },
-    {
-      "key": "location:78",
-      "type": "location",
-      "id": 78,
-      "name": "Ангельский Водопад",
-      "url": "/lu4/location/78-angelskij-vodopad"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:1539",

@@ -2,98 +2,32 @@
   "key": "npc:20325",
   "type": "npc",
   "id": 20325,
-  "name": "Lu4 Wiki: NPC Goblin Raider",
+  "name": "Goblin Raider",
   "url": "/lu4/npc/20325-goblin-raider",
-  "source_url": "https://masterwork.wiki/lu4/npc/20325-goblin-raider",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20325-goblin-raider",
   "raw_html": "library/raw/lu4/npc/20325-goblin-raider.html",
   "stats": {
-    "Location": "Тень Древа Жизни (+1) Тень Древа Жизни Эльфийский Лес"
+    "Respawn Time": "10 seconds",
+    "Location": "Тень Древа Жизни (+1) Тень Древа Жизни Эльфийский Лес",
+    "HP / MP": "149 / 85",
+    "P. Atk. / M. Atk.": "16 / 6",
+    "P. Def. / M. Def.": "47 / 38",
+    "Accuracy / Evasion": "41 / 40",
+    "Exp / SP": "156 / 16",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 5"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20325",
-      "type": "npc",
-      "id": 20325,
-      "name": "Lu4",
-      "url": "/lu4/npc/20325-goblin-raider"
-    },
-    {
-      "key": "location:111",
-      "type": "location",
-      "id": 111,
-      "name": "Тень Древа Жизни",
-      "url": "/lu4/location/111-ten-dreva-zizni"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
-    },
-    {
-      "key": "item:6037",
-      "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1788",
-      "type": "item",
-      "id": 1788,
-      "name": "Recipe: Bow NG",
-      "url": "/lu4/item/1788-recipe-bow"
-    },
-    {
-      "key": "item:1060",
-      "type": "item",
-      "id": 1060,
-      "name": "Lesser Healing Potion NG",
-      "url": "/lu4/item/1060-lesser-healing-potion"
-    },
-    {
-      "key": "item:118",
-      "type": "item",
-      "id": 118,
-      "name": "Necklace of Magic NG",
-      "url": "/lu4/item/118-necklace-of-magic"
-    },
-    {
-      "key": "item:116",
-      "type": "item",
-      "id": 116,
-      "name": "Magic Ring NG",
-      "url": "/lu4/item/116-magic-ring"
-    },
-    {
-      "key": "item:112",
-      "type": "item",
-      "id": 112,
-      "name": "Apprentice's Earring NG",
-      "url": "/lu4/item/112-apprentices-earring"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "item:57",
@@ -103,11 +37,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1787",
+      "key": "item:112",
       "type": "item",
-      "id": 1787,
-      "name": "Recipe: Willow Staff NG",
-      "url": "/lu4/item/1787-recipe-willow-staff"
+      "id": 112,
+      "name": "Apprentice's Earring NG",
+      "url": "/lu4/item/112-apprentices-earring"
+    },
+    {
+      "key": "item:116",
+      "type": "item",
+      "id": 116,
+      "name": "Magic Ring NG",
+      "url": "/lu4/item/116-magic-ring"
+    },
+    {
+      "key": "item:118",
+      "type": "item",
+      "id": 118,
+      "name": "Necklace of Magic NG",
+      "url": "/lu4/item/118-necklace-of-magic"
+    },
+    {
+      "key": "item:1060",
+      "type": "item",
+      "id": 1060,
+      "name": "Lesser Healing Potion NG",
+      "url": "/lu4/item/1060-lesser-healing-potion"
+    },
+    {
+      "key": "item:1788",
+      "type": "item",
+      "id": 1788,
+      "name": "Recipe: Bow NG",
+      "url": "/lu4/item/1788-recipe-bow"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:6037",
+      "type": "item",
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
     },
     {
       "key": "item:1786",
@@ -115,6 +98,13 @@
       "id": 1786,
       "name": "Recipe: Broad Sword NG",
       "url": "/lu4/item/1786-recipe-broad-sword"
+    },
+    {
+      "key": "item:1787",
+      "type": "item",
+      "id": 1787,
+      "name": "Recipe: Willow Staff NG",
+      "url": "/lu4/item/1787-recipe-willow-staff"
     }
   ]
 }

@@ -2,56 +2,53 @@
   "key": "npc:25019",
   "type": "npc",
   "id": 25019,
-  "name": "Lu4 Wiki: NPC Pan Dryad",
+  "name": "Pan Dryad",
   "url": "/lu4/npc/25019-pan-dryad",
-  "source_url": "https://masterwork.wiki/lu4/npc/25019-pan-dryad",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25019-pan-dryad",
   "raw_html": "library/raw/lu4/npc/25019-pan-dryad.html",
   "stats": {
-    "Location": "Равнины Диона"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Равнины Диона",
+    "HP / MP": "195 876 / 1 345",
+    "P. Atk. / M. Atk.": "411 / 99",
+    "P. Def. / M. Def.": "353 / 396",
+    "Accuracy / Evasion": "76 / 76",
+    "Exp / SP": "459 375 / 69 595",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A Pan who was once a long-time friend of the Elves, and guarded the ancient Elven Forest. The Pans stayed neutral during the tragic war between the Elves and the Dark Elves, and both sides turned against them. The other Pans retreated into hiding after suffering cruel attacks from both sides, but Pay Dryad still remains here waiting for the golden age of peace to return. Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 25"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25019",
-      "type": "npc",
-      "id": 25019,
-      "name": "Lu4",
-      "url": "/lu4/npc/25019-pan-dryad"
-    },
-    {
-      "key": "location:241",
-      "type": "location",
-      "id": 241,
-      "name": "Равнины Диона",
-      "url": "/lu4/location/241-ravniny-diona"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4796",
       "type": "skill",
       "id": 4796,
-      "name": "Raid Boss Lv. 1 A Pan who was once a long-time friend of the Elves, and guarded the ancient Elven Forest. The Pans stayed neutral during the tragic war between the Elves and the Dark Elves, and both sides turned against them. The other Pans retreated into hiding after suffering cruel attacks from both sides, but Pay Dryad still remains here waiting for the golden age of peace to return.",
-      "url": "/lu4/skill/4796-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4796-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,25 +58,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:416",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:2030",
-      "type": "item",
-      "id": 2030,
-      "name": "Tome of Blood Page NG",
-      "url": "/lu4/item/2030-tome-of-blood-page"
+      "id": 416,
+      "name": "Reinforced Leather Gaiters D",
+      "url": "/lu4/item/416-reinforced-leather-gaiters"
     },
     {
       "key": "item:1939",
@@ -89,39 +72,11 @@
       "url": "/lu4/item/1939-mithril-banded-gaiters-material"
     },
     {
-      "key": "item:1938",
+      "key": "item:393",
       "type": "item",
-      "id": 1938,
-      "name": "Mithril Banded Mail Material NG",
-      "url": "/lu4/item/1938-mithril-banded-mail-material"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:416",
-      "type": "item",
-      "id": 416,
-      "name": "Reinforced Leather Gaiters D",
-      "url": "/lu4/item/416-reinforced-leather-gaiters"
-    },
-    {
-      "key": "item:415",
-      "type": "item",
-      "id": 415,
-      "name": "Mithril Banded Gaiters D",
-      "url": "/lu4/item/415-mithril-banded-gaiters"
+      "id": 393,
+      "name": "Mithril Banded Mail D",
+      "url": "/lu4/item/393-mithril-banded-mail"
     },
     {
       "key": "item:394",
@@ -131,11 +86,25 @@
       "url": "/lu4/item/394-reinforced-leather-shirt"
     },
     {
-      "key": "item:393",
+      "key": "item:415",
       "type": "item",
-      "id": 393,
-      "name": "Mithril Banded Mail D",
-      "url": "/lu4/item/393-mithril-banded-mail"
+      "id": 415,
+      "name": "Mithril Banded Gaiters D",
+      "url": "/lu4/item/415-mithril-banded-gaiters"
+    },
+    {
+      "key": "item:1938",
+      "type": "item",
+      "id": 1938,
+      "name": "Mithril Banded Mail Material NG",
+      "url": "/lu4/item/1938-mithril-banded-mail-material"
+    },
+    {
+      "key": "item:316",
+      "type": "item",
+      "id": 316,
+      "name": "Sage's Blood D",
+      "url": "/lu4/item/316-sages-blood"
     },
     {
       "key": "item:317",
@@ -145,11 +114,39 @@
       "url": "/lu4/item/317-tome-of-blood"
     },
     {
-      "key": "item:316",
+      "key": "item:2030",
       "type": "item",
-      "id": 316,
-      "name": "Sage's Blood D",
-      "url": "/lu4/item/316-sages-blood"
+      "id": 2030,
+      "name": "Tome of Blood Page NG",
+      "url": "/lu4/item/2030-tome-of-blood-page"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     }
   ]
 }

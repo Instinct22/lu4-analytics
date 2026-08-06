@@ -2,140 +2,81 @@
   "key": "npc:20045",
   "type": "npc",
   "id": 20045,
-  "name": "Lu4 Wiki: NPC Skeleton Scout",
+  "name": "Skeleton Scout",
   "url": "/lu4/npc/20045-skeleton-scout",
-  "source_url": "https://masterwork.wiki/lu4/npc/20045-skeleton-scout",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20045-skeleton-scout",
   "raw_html": "library/raw/lu4/npc/20045-skeleton-scout.html",
   "stats": {
-    "Location": "Земли Глудио (+2) Земли Глудио Озеро Фельмер Руины Страданий"
+    "Respawn Time": "25 seconds",
+    "Location": "Земли Глудио (+2) Земли Глудио Озеро Фельмер Руины Страданий",
+    "HP / MP": "502 / 225",
+    "P. Atk. / M. Atk.": "90 / 24",
+    "P. Def. / M. Def.": "109 / 86",
+    "Accuracy / Evasion": "52 / 52",
+    "Exp / SP": "535 / 54",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 19"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20045",
-      "type": "npc",
-      "id": 20045,
-      "name": "Lu4",
-      "url": "/lu4/npc/20045-skeleton-scout"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:16",
-      "type": "location",
-      "id": 16,
-      "name": "Озеро Фельмер",
-      "url": "/lu4/location/16-ozero-felmer"
-    },
-    {
-      "key": "location:27",
-      "type": "location",
-      "id": 27,
-      "name": "Руины Страданий",
-      "url": "/lu4/location/27-ruiny-stradanij"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
-    },
-    {
-      "key": "item:5268",
-      "type": "item",
-      "id": 5268,
-      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:2150",
-      "type": "item",
-      "id": 2150,
-      "name": "Recipe: Blue Diamond Necklace NG",
-      "url": "/lu4/item/2150-recipe-blue-diamond-necklace"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:218",
-      "type": "item",
-      "id": 218,
-      "name": "Throwing Knife NG",
-      "url": "/lu4/item/218-throwing-knife"
-    },
-    {
-      "key": "item:217",
-      "type": "item",
-      "id": 217,
-      "name": "Shining Knife NG",
-      "url": "/lu4/item/217-shining-knife"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "item:57",
@@ -145,11 +86,46 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1925",
+      "key": "item:217",
       "type": "item",
-      "id": 1925,
-      "name": "Leather Gloves Lining NG",
-      "url": "/lu4/item/1925-leather-gloves-lining"
+      "id": 217,
+      "name": "Shining Knife NG",
+      "url": "/lu4/item/217-shining-knife"
+    },
+    {
+      "key": "item:218",
+      "type": "item",
+      "id": 218,
+      "name": "Throwing Knife NG",
+      "url": "/lu4/item/218-throwing-knife"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:2150",
+      "type": "item",
+      "id": 2150,
+      "name": "Recipe: Blue Diamond Necklace NG",
+      "url": "/lu4/item/2150-recipe-blue-diamond-necklace"
+    },
+    {
+      "key": "item:5268",
+      "type": "item",
+      "id": 5268,
+      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
     },
     {
       "key": "item:734",
@@ -157,6 +133,13 @@
       "id": 734,
       "name": "Haste Potion NG",
       "url": "/lu4/item/734-haste-potion"
+    },
+    {
+      "key": "item:1925",
+      "type": "item",
+      "id": 1925,
+      "name": "Leather Gloves Lining NG",
+      "url": "/lu4/item/1925-leather-gloves-lining"
     }
   ]
 }

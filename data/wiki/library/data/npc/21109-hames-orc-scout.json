@@ -2,133 +2,46 @@
   "key": "npc:21109",
   "type": "npc",
   "id": 21109,
-  "name": "Lu4 Wiki: NPC Hames Orc Scout",
+  "name": "Hames Orc Scout",
   "url": "/lu4/npc/21109-hames-orc-scout",
-  "source_url": "https://masterwork.wiki/lu4/npc/21109-hames-orc-scout",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21109-hames-orc-scout",
   "raw_html": "library/raw/lu4/npc/21109-hames-orc-scout.html",
   "stats": {
-    "Location": "Раскаленные Топи"
+    "Respawn Time": "35 seconds ± 5 seconds",
+    "Location": "Раскаленные Топи",
+    "HP / MP": "4 397 / 1 580",
+    "P. Atk. / M. Atk.": "1 722 / 1 014",
+    "P. Def. / M. Def.": "437 / 421",
+    "Accuracy / Evasion": "110 / 119",
+    "Exp / SP": "5 497 / 550",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 72"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21109",
-      "type": "npc",
-      "id": 21109,
-      "name": "Lu4",
-      "url": "/lu4/npc/21109-hames-orc-scout"
-    },
-    {
-      "key": "location:95",
-      "type": "location",
-      "id": 95,
-      "name": "Раскаленные Топи",
-      "url": "/lu4/location/95-raskalennye-topi"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39374",
-      "type": "item",
-      "id": 39374,
-      "name": "Spellbook: Earth Vortex NG",
-      "url": "/lu4/item/39374-spellbook-earth-vortex"
-    },
-    {
-      "key": "item:39364",
-      "type": "item",
-      "id": 39364,
-      "name": "Amulet: Chant of Elements NG",
-      "url": "/lu4/item/39364-amulet-chant-of-elements"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32380",
-      "type": "item",
-      "id": 32380,
-      "name": "Unidentified Sealed Dark Crystal Leggings A",
-      "url": "/lu4/item/32380-unidentified-sealed-dark-crystal-leggings"
-    },
-    {
-      "key": "item:32375",
-      "type": "item",
-      "id": 32375,
-      "name": "Unidentified Sealed Tallum Plate Armor A",
-      "url": "/lu4/item/32375-unidentified-sealed-tallum-plate-armor"
-    },
-    {
-      "key": "item:7663",
-      "type": "item",
-      "id": 7663,
-      "name": "Spellbook: Divine Protection NG",
-      "url": "/lu4/item/7663-spellbook-divine-protection"
-    },
-    {
-      "key": "item:7653",
-      "type": "item",
-      "id": 7653,
-      "name": "Spellbook: Dark Vortex NG",
-      "url": "/lu4/item/7653-spellbook-dark-vortex"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6037",
@@ -138,11 +51,60 @@
       "url": "/lu4/item/6037-waking-scroll"
     },
     {
-      "key": "item:5521",
+      "key": "item:4043",
       "type": "item",
-      "id": 5521,
-      "name": "Sealed Tallum Plate Armor Pattern NG",
-      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:4039",
+      "type": "item",
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
+    },
+    {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:729",
+      "type": "item",
+      "id": 729,
+      "name": "Scroll: Enchant Weapon (A-Grade) NG",
+      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
+    },
+    {
+      "key": "item:32380",
+      "type": "item",
+      "id": 32380,
+      "name": "Unidentified Sealed Dark Crystal Leggings A",
+      "url": "/lu4/item/32380-unidentified-sealed-dark-crystal-leggings"
     },
     {
       "key": "item:5482",
@@ -152,18 +114,25 @@
       "url": "/lu4/item/5482-sealed-dark-crystal-leggings-design"
     },
     {
+      "key": "item:32375",
+      "type": "item",
+      "id": 32375,
+      "name": "Unidentified Sealed Tallum Plate Armor A",
+      "url": "/lu4/item/32375-unidentified-sealed-tallum-plate-armor"
+    },
+    {
+      "key": "item:5521",
+      "type": "item",
+      "id": 5521,
+      "name": "Sealed Tallum Plate Armor Pattern NG",
+      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
+    },
+    {
       "key": "item:5438",
       "type": "item",
       "id": 5438,
       "name": "Recipe: Meteor Shower(60%) NG",
       "url": "/lu4/item/5438-recipe-meteor-shower60"
-    },
-    {
-      "key": "item:5394",
-      "type": "item",
-      "id": 5394,
-      "name": "Recipe: Sealed Tallum Gloves(60%) NG",
-      "url": "/lu4/item/5394-recipe-sealed-tallum-gloves60"
     },
     {
       "key": "item:5348",
@@ -173,18 +142,39 @@
       "url": "/lu4/item/5348-recipe-sealed-dark-crystal-robe60"
     },
     {
-      "key": "item:4043",
+      "key": "item:5394",
       "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
+      "id": 5394,
+      "name": "Recipe: Sealed Tallum Gloves(60%) NG",
+      "url": "/lu4/item/5394-recipe-sealed-tallum-gloves60"
     },
     {
-      "key": "item:8341",
+      "key": "item:39364",
       "type": "item",
-      "id": 8341,
-      "name": "Spiritual Eye Piece NG",
-      "url": "/lu4/item/8341-spiritual-eye-piece"
+      "id": 39364,
+      "name": "Amulet: Chant of Elements NG",
+      "url": "/lu4/item/39364-amulet-chant-of-elements"
+    },
+    {
+      "key": "item:7653",
+      "type": "item",
+      "id": 7653,
+      "name": "Spellbook: Dark Vortex NG",
+      "url": "/lu4/item/7653-spellbook-dark-vortex"
+    },
+    {
+      "key": "item:7663",
+      "type": "item",
+      "id": 7663,
+      "name": "Spellbook: Divine Protection NG",
+      "url": "/lu4/item/7663-spellbook-divine-protection"
+    },
+    {
+      "key": "item:39374",
+      "type": "item",
+      "id": 39374,
+      "name": "Spellbook: Earth Vortex NG",
+      "url": "/lu4/item/39374-spellbook-earth-vortex"
     },
     {
       "key": "item:6329",
@@ -194,11 +184,18 @@
       "url": "/lu4/item/6329-recipe-sealed-phoenix-necklace70"
     },
     {
-      "key": "item:5489",
+      "key": "item:5470",
       "type": "item",
-      "id": 5489,
-      "name": "Sealed Tallum Stockings Fabric NG",
-      "url": "/lu4/item/5489-sealed-tallum-stockings-fabric"
+      "id": 5470,
+      "name": "Recipe: Tallum Blade(60%) NG",
+      "url": "/lu4/item/5470-recipe-tallum-blade60"
+    },
+    {
+      "key": "item:8341",
+      "type": "item",
+      "id": 8341,
+      "name": "Spiritual Eye Piece NG",
+      "url": "/lu4/item/8341-spiritual-eye-piece"
     },
     {
       "key": "item:5486",
@@ -208,18 +205,11 @@
       "url": "/lu4/item/5486-sealed-dark-crystal-robe-fabric"
     },
     {
-      "key": "item:5470",
+      "key": "item:5489",
       "type": "item",
-      "id": 5470,
-      "name": "Recipe: Tallum Blade(60%) NG",
-      "url": "/lu4/item/5470-recipe-tallum-blade60"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
+      "id": 5489,
+      "name": "Sealed Tallum Stockings Fabric NG",
+      "url": "/lu4/item/5489-sealed-tallum-stockings-fabric"
     }
   ]
 }

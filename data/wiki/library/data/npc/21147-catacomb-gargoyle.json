@@ -2,110 +2,58 @@
   "key": "npc:21147",
   "type": "npc",
   "id": 21147,
-  "name": "Lu4 Wiki: NPC Catacomb Gargoyle",
+  "name": "Catacomb Gargoyle",
   "url": "/lu4/npc/21147-catacomb-gargoyle",
-  "source_url": "https://masterwork.wiki/lu4/npc/21147-catacomb-gargoyle",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21147-catacomb-gargoyle",
   "raw_html": "library/raw/lu4/npc/21147-catacomb-gargoyle.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "6 914 / 686",
+    "P. Atk. / M. Atk.": "342 / 173",
+    "P. Def. / M. Def.": "235 / 186",
+    "Accuracy / Evasion": "76 / 76",
+    "Exp / SP": "8 456 / 572",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (4x) Lv. 12 Hold Resistance Lv. 3 Slightly resistant to Hold. Sleep Resistance Lv. 3 Slightly resistant to Sleep. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 43"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21147",
-      "type": "npc",
-      "id": 21147,
-      "name": "Lu4",
-      "url": "/lu4/npc/21147-catacomb-gargoyle"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:2301",
-      "type": "item",
-      "id": 2301,
-      "name": "Recipe: Battle Axe NG",
-      "url": "/lu4/item/2301-recipe-battle-axe"
-    },
-    {
-      "key": "item:2199",
-      "type": "item",
-      "id": 2199,
-      "name": "Recipe: Karmian Stockings NG",
-      "url": "/lu4/item/2199-recipe-karmian-stockings"
-    },
-    {
-      "key": "item:2053",
-      "type": "item",
-      "id": 2053,
-      "name": "Scallop Jamadhr Edge NG",
-      "url": "/lu4/item/2053-scallop-jamadhr-edge"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:262",
-      "type": "item",
-      "id": 262,
-      "name": "Scallop Jamadhr D",
-      "url": "/lu4/item/262-scallop-jamadhr"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "item:57",
@@ -115,11 +63,67 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1906",
+      "key": "item:262",
       "type": "item",
-      "id": 1906,
-      "name": "Mithril Ring Wire NG",
-      "url": "/lu4/item/1906-mithril-ring-wire"
+      "id": 262,
+      "name": "Scallop Jamadhr D",
+      "url": "/lu4/item/262-scallop-jamadhr"
+    },
+    {
+      "key": "item:2053",
+      "type": "item",
+      "id": 2053,
+      "name": "Scallop Jamadhr Edge NG",
+      "url": "/lu4/item/2053-scallop-jamadhr-edge"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:2199",
+      "type": "item",
+      "id": 2199,
+      "name": "Recipe: Karmian Stockings NG",
+      "url": "/lu4/item/2199-recipe-karmian-stockings"
+    },
+    {
+      "key": "item:2301",
+      "type": "item",
+      "id": 2301,
+      "name": "Recipe: Battle Axe NG",
+      "url": "/lu4/item/2301-recipe-battle-axe"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:1805",
+      "type": "item",
+      "id": 1805,
+      "name": "Recipe: Soulshot (C-Grade) NG",
+      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
     },
     {
       "key": "item:1905",
@@ -129,11 +133,11 @@
       "url": "/lu4/item/1905-omen-beasts-eye-earring-gemstone"
     },
     {
-      "key": "item:1805",
+      "key": "item:1906",
       "type": "item",
-      "id": 1805,
-      "name": "Recipe: Soulshot (C-Grade) NG",
-      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
+      "id": 1906,
+      "name": "Mithril Ring Wire NG",
+      "url": "/lu4/item/1906-mithril-ring-wire"
     }
   ]
 }

@@ -2,105 +2,74 @@
   "key": "npc:20680",
   "type": "npc",
   "id": 20680,
-  "name": "Lu4 Wiki: NPC Marsh Drake",
+  "name": "Marsh Drake",
   "url": "/lu4/npc/20680-marsh-drake",
-  "source_url": "https://masterwork.wiki/lu4/npc/20680-marsh-drake",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20680-marsh-drake",
   "raw_html": "library/raw/lu4/npc/20680-marsh-drake.html",
   "stats": {
-    "Location": "Земли Адена (+1) Земли Адена Забытые Равнины"
+    "Respawn Time": "45 seconds ± 5 seconds",
+    "Location": "Земли Адена (+1) Земли Адена Забытые Равнины",
+    "HP / MP": "6 075 / 1 096",
+    "P. Atk. / M. Atk.": "802 / 599",
+    "P. Def. / M. Def.": "335 / 244",
+    "Accuracy / Evasion": "91 / 91",
+    "Exp / SP": "6 771 / 677",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% HP Increase (2x) Lv. 10 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Dragon, Lv. 58"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20680",
-      "type": "npc",
-      "id": 20680,
-      "name": "Lu4",
-      "url": "/lu4/npc/20680-marsh-drake"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
-      "key": "location:73",
-      "type": "location",
-      "id": 73,
-      "name": "Забытые Равнины",
-      "url": "/lu4/location/73-zabytye-ravniny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/3"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32591",
-      "type": "item",
-      "id": 32591,
-      "name": "Unidentified Avadon Shield B",
-      "url": "/lu4/item/32591-unidentified-avadon-shield"
-    },
-    {
-      "key": "item:32348",
-      "type": "item",
-      "id": 32348,
-      "name": "Unidentified Great Axe B",
-      "url": "/lu4/item/32348-unidentified-great-axe"
-    },
-    {
-      "key": "item:32344",
-      "type": "item",
-      "id": 32344,
-      "name": "Unidentified Dark Elven Long Bow B",
-      "url": "/lu4/item/32344-unidentified-dark-elven-long-bow"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5220",
@@ -110,46 +79,11 @@
       "url": "/lu4/item/5220-metal-hardener"
     },
     {
-      "key": "item:4961",
+      "key": "item:1874",
       "type": "item",
-      "id": 4961,
-      "name": "Recipe: Zubei's Shield (60%) NG",
-      "url": "/lu4/item/4961-recipe-zubeis-shield-60"
-    },
-    {
-      "key": "item:4950",
-      "type": "item",
-      "id": 4950,
-      "name": "Recipe: Stockings of Zubei (60%) NG",
-      "url": "/lu4/item/4950-recipe-stockings-of-zubei-60"
-    },
-    {
-      "key": "item:4939",
-      "type": "item",
-      "id": 4939,
-      "name": "Recipe: Adamantite Necklace (70%) NG",
-      "url": "/lu4/item/4939-recipe-adamantite-necklace-70"
-    },
-    {
-      "key": "item:4439",
-      "type": "item",
-      "id": 4439,
-      "name": "Avadon Shield Fragment NG",
-      "url": "/lu4/item/4439-avadon-shield-fragment"
-    },
-    {
-      "key": "item:4113",
-      "type": "item",
-      "id": 4113,
-      "name": "Great Axe Head NG",
-      "url": "/lu4/item/4113-great-axe-head"
-    },
-    {
-      "key": "item:4112",
-      "type": "item",
-      "id": 4112,
-      "name": "Dark Elven Longbow Shaft NG",
-      "url": "/lu4/item/4112-dark-elven-longbow-shaft"
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
       "key": "item:1889",
@@ -173,39 +107,81 @@
       "url": "/lu4/item/1878-braided-hemp"
     },
     {
-      "key": "item:1874",
+      "key": "item:49800",
       "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:57",
+      "key": "item:32591",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32591,
+      "name": "Unidentified Avadon Shield B",
+      "url": "/lu4/item/32591-unidentified-avadon-shield"
     },
     {
-      "key": "item:4102",
+      "key": "item:4439",
       "type": "item",
-      "id": 4102,
-      "name": "Zubei's Helmet Design NG",
-      "url": "/lu4/item/4102-zubeis-helmet-design"
+      "id": 4439,
+      "name": "Avadon Shield Fragment NG",
+      "url": "/lu4/item/4439-avadon-shield-fragment"
     },
     {
-      "key": "item:4068",
+      "key": "item:32344",
       "type": "item",
-      "id": 4068,
-      "name": "Avadon Leather Armor Lining NG",
-      "url": "/lu4/item/4068-avadon-leather-armor-lining"
+      "id": 32344,
+      "name": "Unidentified Dark Elven Long Bow B",
+      "url": "/lu4/item/32344-unidentified-dark-elven-long-bow"
     },
     {
-      "key": "item:4065",
+      "key": "item:4112",
       "type": "item",
-      "id": 4065,
-      "name": "Avadon Gaiters Material NG",
-      "url": "/lu4/item/4065-avadon-gaiters-material"
+      "id": 4112,
+      "name": "Dark Elven Longbow Shaft NG",
+      "url": "/lu4/item/4112-dark-elven-longbow-shaft"
+    },
+    {
+      "key": "item:32348",
+      "type": "item",
+      "id": 32348,
+      "name": "Unidentified Great Axe B",
+      "url": "/lu4/item/32348-unidentified-great-axe"
+    },
+    {
+      "key": "item:4113",
+      "type": "item",
+      "id": 4113,
+      "name": "Great Axe Head NG",
+      "url": "/lu4/item/4113-great-axe-head"
+    },
+    {
+      "key": "item:4939",
+      "type": "item",
+      "id": 4939,
+      "name": "Recipe: Adamantite Necklace (70%) NG",
+      "url": "/lu4/item/4939-recipe-adamantite-necklace-70"
+    },
+    {
+      "key": "item:4950",
+      "type": "item",
+      "id": 4950,
+      "name": "Recipe: Stockings of Zubei (60%) NG",
+      "url": "/lu4/item/4950-recipe-stockings-of-zubei-60"
+    },
+    {
+      "key": "item:4961",
+      "type": "item",
+      "id": 4961,
+      "name": "Recipe: Zubei's Shield (60%) NG",
+      "url": "/lu4/item/4961-recipe-zubeis-shield-60"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:1876",
@@ -215,11 +191,25 @@
       "url": "/lu4/item/1876-mithril-ore"
     },
     {
-      "key": "item:1873",
+      "key": "item:4065",
       "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 4065,
+      "name": "Avadon Gaiters Material NG",
+      "url": "/lu4/item/4065-avadon-gaiters-material"
+    },
+    {
+      "key": "item:4068",
+      "type": "item",
+      "id": 4068,
+      "name": "Avadon Leather Armor Lining NG",
+      "url": "/lu4/item/4068-avadon-leather-armor-lining"
+    },
+    {
+      "key": "item:4102",
+      "type": "item",
+      "id": 4102,
+      "name": "Zubei's Helmet Design NG",
+      "url": "/lu4/item/4102-zubeis-helmet-design"
     }
   ]
 }

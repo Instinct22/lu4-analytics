@@ -2,98 +2,74 @@
   "key": "npc:20617",
   "type": "npc",
   "id": 20617,
-  "name": "Lu4 Wiki: NPC Sentinel Of Water",
+  "name": "Sentinel Of Water",
   "url": "/lu4/npc/20617-sentinel-of-water",
-  "source_url": "https://masterwork.wiki/lu4/npc/20617-sentinel-of-water",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20617-sentinel-of-water",
   "raw_html": "library/raw/lu4/npc/20617-sentinel-of-water.html",
   "stats": {
-    "Location": "Забытый Храм"
+    "Respawn Time": "57 seconds",
+    "Location": "Забытый Храм",
+    "HP / MP": "4 166 / 423",
+    "P. Atk. / M. Atk.": "126 / 62",
+    "P. Def. / M. Def.": "183 / 132",
+    "Accuracy / Evasion": "64 / 64",
+    "Exp / SP": "4 505 / 451",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 31"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20617",
-      "type": "npc",
-      "id": 20617,
-      "name": "Lu4",
-      "url": "/lu4/npc/20617-sentinel-of-water"
-    },
-    {
-      "key": "location:28",
-      "type": "location",
-      "id": 28,
-      "name": "Забытый Храм",
-      "url": "/lu4/location/28-zabytyj-hram"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:2446",
+      "key": "item:57",
       "type": "item",
-      "id": 2446,
-      "name": "Reinforced Leather Gloves D",
-      "url": "/lu4/item/2446-reinforced-leather-gloves"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "url": "/lu4/item/1881-coarse-bone-powder"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1867",
@@ -103,11 +79,25 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:394",
+      "key": "item:1872",
       "type": "item",
-      "id": 394,
-      "name": "Reinforced Leather Shirt D",
-      "url": "/lu4/item/394-reinforced-leather-shirt"
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
+      "key": "item:1881",
+      "type": "item",
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
     },
     {
       "key": "item:130",
@@ -117,11 +107,18 @@
       "url": "/lu4/item/130-elven-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:2446",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2446,
+      "name": "Reinforced Leather Gloves D",
+      "url": "/lu4/item/2446-reinforced-leather-gloves"
+    },
+    {
+      "key": "item:394",
+      "type": "item",
+      "id": 394,
+      "name": "Reinforced Leather Shirt D",
+      "url": "/lu4/item/394-reinforced-leather-shirt"
     },
     {
       "key": "item:2027",

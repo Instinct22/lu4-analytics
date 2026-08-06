@@ -2,76 +2,24 @@
   "key": "item:1800",
   "type": "item",
   "id": 1800,
-  "name": "Recipe",
+  "name": "Recipe: Piece Bone Breastplate",
   "url": "/lu4/item/1800-recipe-piece-bone-breastplate",
-  "source_url": "https://masterwork.wiki/lu4/item/1800-recipe-piece-bone-breastplate",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1800-recipe-piece-bone-breastplate",
   "raw_html": "library/raw/lu4/item/1800-recipe-piece-bone-breastplate.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Piece Bone Breastplate'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "318 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "63",
     "Success Rate": "100%",
-    "Result": "Piece Bone Breastplate NG"
+    "Result": "Piece Bone Breastplate NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1926",
-      "type": "item",
-      "id": 1926,
-      "name": "Piece Bone Breastplate Fragment NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1883",
-      "type": "item",
-      "id": 1883,
-      "name": "Steel Mold NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "15"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "75"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "15"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "15"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "30"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:1800",
-      "type": "item",
-      "id": 1800,
-      "name": "Lu4",
-      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
-    },
     {
       "key": "item:1926",
       "type": "item",
@@ -125,175 +73,175 @@
       "key": "npc:21124",
       "type": "npc",
       "id": 21124,
-      "name": "Red Eye Barbed Bat Lv. 18",
+      "name": "Red Eye Barbed Bat",
       "url": "/lu4/npc/21124-red-eye-barbed-bat"
     },
     {
       "key": "npc:20511",
       "type": "npc",
       "id": 20511,
-      "name": "Pitchstone Golem Lv. 19",
+      "name": "Pitchstone Golem",
       "url": "/lu4/npc/20511-pitchstone-golem"
     },
     {
       "key": "npc:20487",
       "type": "npc",
       "id": 20487,
-      "name": "Kuruka Ratman Lv. 16",
+      "name": "Kuruka Ratman",
       "url": "/lu4/npc/20487-kuruka-ratman"
     },
     {
       "key": "npc:20476",
       "type": "npc",
       "id": 20476,
-      "name": "Kasha Fang Spider Lv. 16",
+      "name": "Kasha Fang Spider",
       "url": "/lu4/npc/20476-kasha-fang-spider"
     },
     {
       "key": "npc:20462",
       "type": "npc",
       "id": 20462,
-      "name": "Cave Blade Spider Lv. 17",
+      "name": "Cave Blade Spider",
       "url": "/lu4/npc/20462-cave-blade-spider"
     },
     {
       "key": "npc:20358",
       "type": "npc",
       "id": 20358,
-      "name": "Ratman Hunter Lv. 18",
+      "name": "Ratman Hunter",
       "url": "/lu4/npc/20358-ratman-hunter"
     },
     {
       "key": "npc:20345",
       "type": "npc",
       "id": 20345,
-      "name": "Dark Terror Lv. 16",
+      "name": "Dark Terror",
       "url": "/lu4/npc/20345-dark-terror"
     },
     {
       "key": "npc:20112",
       "type": "npc",
       "id": 20112,
-      "name": "Salamander Elder Lv. 18",
+      "name": "Salamander Elder",
       "url": "/lu4/npc/20112-salamander-elder"
     },
     {
       "key": "npc:20027",
       "type": "npc",
       "id": 20027,
-      "name": "Langk Lizardman Scout Lv. 18",
+      "name": "Langk Lizardman Scout",
       "url": "/lu4/npc/20027-langk-lizardman-scout"
     },
     {
       "key": "npc:20014",
       "type": "npc",
       "id": 20014,
-      "name": "Felim Lizardman Warrior Lv. 17",
+      "name": "Felim Lizardman Warrior",
       "url": "/lu4/npc/20014-felim-lizardman-warrior"
     },
     {
       "key": "npc:20012",
       "type": "npc",
       "id": 20012,
-      "name": "Gora Werewolf Lv. 16",
+      "name": "Gora Werewolf",
       "url": "/lu4/npc/20012-gora-werewolf"
     },
     {
       "key": "npc:21125",
       "type": "npc",
       "id": 21125,
-      "name": "Northern Trimden Lv. 19",
+      "name": "Northern Trimden",
       "url": "/lu4/npc/21125-northern-trimden"
     },
     {
       "key": "npc:21117",
       "type": "npc",
       "id": 21117,
-      "name": "Kasha Imp Lv. 19",
+      "name": "Kasha Imp",
       "url": "/lu4/npc/21117-kasha-imp"
     },
     {
       "key": "npc:21100",
       "type": "npc",
       "id": 21100,
-      "name": "Langk Lizardman Sentinel Lv. 19",
+      "name": "Langk Lizardman Sentinel",
       "url": "/lu4/npc/21100-langk-lizardman-sentinel"
     },
     {
       "key": "npc:21093",
       "type": "npc",
       "id": 21093,
-      "name": "Ratman Sub Chieftain Lv. 19",
+      "name": "Ratman Sub Chieftain",
       "url": "/lu4/npc/21093-ratman-sub-chieftain"
     },
     {
       "key": "npc:20782",
       "type": "npc",
       "id": 20782,
-      "name": "Ol Mahum Novice Lv. 17",
+      "name": "Ol Mahum Novice",
       "url": "/lu4/npc/20782-ol-mahum-novice"
     },
     {
       "key": "npc:20775",
       "type": "npc",
       "id": 20775,
-      "name": "Bugbear Raider Lv. 17",
+      "name": "Bugbear Raider",
       "url": "/lu4/npc/20775-bugbear-raider"
     },
     {
       "key": "npc:20508",
       "type": "npc",
       "id": 20508,
-      "name": "Plunder Tarantula Lv. 17",
+      "name": "Plunder Tarantula",
       "url": "/lu4/npc/20508-plunder-tarantula"
     },
     {
       "key": "npc:20505",
       "type": "npc",
       "id": 20505,
-      "name": "Ruin Bat Lv. 20",
+      "name": "Ruin Bat",
       "url": "/lu4/npc/20505-ruin-bat"
     },
     {
       "key": "npc:20488",
       "type": "npc",
       "id": 20488,
-      "name": "Kuruka Ratman Hunter Lv. 17",
+      "name": "Kuruka Ratman Hunter",
       "url": "/lu4/npc/20488-kuruka-ratman-hunter"
     },
     {
       "key": "npc:20418",
       "type": "npc",
       "id": 20418,
-      "name": "Crystalline Beast Lv. 18",
+      "name": "Crystalline Beast",
       "url": "/lu4/npc/20418-crystalline-beast"
     },
     {
       "key": "npc:20350",
       "type": "npc",
       "id": 20350,
-      "name": "Cave Fang Spider Lv. 16",
+      "name": "Cave Fang Spider",
       "url": "/lu4/npc/20350-cave-fang-spider"
     },
     {
       "key": "npc:20310",
       "type": "npc",
       "id": 20310,
-      "name": "Brown Bear Lv. 16",
+      "name": "Brown Bear",
       "url": "/lu4/npc/20310-brown-bear"
     },
     {
       "key": "npc:20108",
       "type": "npc",
       "id": 20108,
-      "name": "Blade Spider Lv. 17",
+      "name": "Blade Spider",
       "url": "/lu4/npc/20108-blade-spider"
     },
     {
       "key": "npc:20032",
       "type": "npc",
       "id": 20032,
-      "name": "Pinrul Lv. 17",
+      "name": "Pinrul",
       "url": "/lu4/npc/20032-pinrul"
     }
   ]

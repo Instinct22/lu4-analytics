@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Hidden Ore Map
+# Hidden Ore Map
 
-- Source: https://masterwork.wiki/lu4/item/1490-hidden-ore-map
+- Source: https://masterwork.wiki/lu4-b-w-c/item/1490-hidden-ore-map
 - Path: /lu4/item/1490-hidden-ore-map
 - Type: item
 - Key: item:1490
 
 ## Stats
+- Effect: A map that reveals a hidden vein of Chrysolite. Take this to Filaur of the Gray Pillar.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Hidden Ore Map
-Lu4
-Eternal
-MasterWork
-Hidden Ore Map
-NG
-Quest Item
-A map that reveals a hidden vein of Chrysolite. Take this to Filaur of the Gray Pillar.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-The Hidden Veins
-6 ~ 15
-Quest
-Levels
-The Hidden Veins
-6 ~ 15
-MasterWork 2026
-All rights reserved
+Hidden Ore Map NG Quest Item A map that reveals a hidden vein of Chrysolite. Take this to Filaur of the Gray Pillar. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

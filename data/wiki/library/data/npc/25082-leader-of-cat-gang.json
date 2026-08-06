@@ -2,56 +2,51 @@
   "key": "npc:25082",
   "type": "npc",
   "id": 25082,
-  "name": "Lu4 Wiki: NPC Leader of Cat Gang",
+  "name": "Leader of Cat Gang",
   "url": "/lu4/npc/25082-leader-of-cat-gang",
-  "source_url": "https://masterwork.wiki/lu4/npc/25082-leader-of-cat-gang",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25082-leader-of-cat-gang",
   "raw_html": "library/raw/lu4/npc/25082-leader-of-cat-gang.html",
   "stats": {
-    "Location": "Земли Гирана"
+    "HP / MP": "206 754 / 2 358",
+    "P. Atk. / M. Atk.": "840 / 139",
+    "P. Def. / M. Def.": "561 / 634",
+    "Accuracy / Evasion": "90 / 90",
+    "Exp / SP": "1 064 700 / 134 578",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 The leader of a gang of cats, all pets long abandoned by their masters. They are known for snatching fresh fish from the very nets of the Fishermen, and the Fish Traders' Association has offered a great bounty for them. Many hunters have tried to catch the cats, but ultimately gave up their chase because the cats were too cute. Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 39"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25082",
-      "type": "npc",
-      "id": 25082,
-      "name": "Lu4",
-      "url": "/lu4/npc/25082-leader-of-cat-gang"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4819",
       "type": "skill",
       "id": 4819,
-      "name": "Raid Boss Lv. 1 The leader of a gang of cats, all pets long abandoned by their masters. They are known for snatching fresh fish from the very nets of the Fishermen, and the Fish Traders' Association has offered a great bounty for them. Many hunters have tried to catch the cats, but ultimately gave up their chase because the cats were too cute.",
-      "url": "/lu4/skill/4819-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4819-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,41 +56,6 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
-      "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:2060",
-      "type": "item",
-      "id": 2060,
-      "name": "Stormbringer Blade NG",
-      "url": "/lu4/item/2060-stormbringer-blade"
-    },
-    {
       "key": "item:2059",
       "type": "item",
       "id": 2059,
@@ -103,60 +63,11 @@
       "url": "/lu4/item/2059-flamberge-blade"
     },
     {
-      "key": "item:1962",
+      "key": "item:71",
       "type": "item",
-      "id": 1962,
-      "name": "Karmian Tunic Pattern NG",
-      "url": "/lu4/item/1962-karmian-tunic-pattern"
-    },
-    {
-      "key": "item:1954",
-      "type": "item",
-      "id": 1954,
-      "name": "Karmian Stocking Design NG",
-      "url": "/lu4/item/1954-karmian-stocking-design"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:471",
-      "type": "item",
-      "id": 471,
-      "name": "Karmian Stockings C",
-      "url": "/lu4/item/471-karmian-stockings"
-    },
-    {
-      "key": "item:439",
-      "type": "item",
-      "id": 439,
-      "name": "Karmian Tunic C",
-      "url": "/lu4/item/439-karmian-tunic"
+      "id": 71,
+      "name": "Flamberge C",
+      "url": "/lu4/item/71-flamberge"
     },
     {
       "key": "item:72",
@@ -166,11 +77,95 @@
       "url": "/lu4/item/72-stormbringer"
     },
     {
-      "key": "item:71",
+      "key": "item:1962",
       "type": "item",
-      "id": 71,
-      "name": "Flamberge C",
-      "url": "/lu4/item/71-flamberge"
+      "id": 1962,
+      "name": "Karmian Tunic Pattern NG",
+      "url": "/lu4/item/1962-karmian-tunic-pattern"
+    },
+    {
+      "key": "item:439",
+      "type": "item",
+      "id": 439,
+      "name": "Karmian Tunic C",
+      "url": "/lu4/item/439-karmian-tunic"
+    },
+    {
+      "key": "item:471",
+      "type": "item",
+      "id": 471,
+      "name": "Karmian Stockings C",
+      "url": "/lu4/item/471-karmian-stockings"
+    },
+    {
+      "key": "item:1954",
+      "type": "item",
+      "id": 1954,
+      "name": "Karmian Stocking Design NG",
+      "url": "/lu4/item/1954-karmian-stocking-design"
+    },
+    {
+      "key": "item:2060",
+      "type": "item",
+      "id": 2060,
+      "name": "Stormbringer Blade NG",
+      "url": "/lu4/item/2060-stormbringer-blade"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "npc:25083",

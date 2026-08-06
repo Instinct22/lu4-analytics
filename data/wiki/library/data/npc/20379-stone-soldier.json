@@ -2,182 +2,88 @@
   "key": "npc:20379",
   "type": "npc",
   "id": 20379,
-  "name": "Lu4 Wiki: NPC Stone Soldier",
+  "name": "Stone Soldier",
   "url": "/lu4/npc/20379-stone-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/20379-stone-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20379-stone-soldier",
   "raw_html": "library/raw/lu4/npc/20379-stone-soldier.html",
   "stats": {
-    "Location": "Эльфийский Лес (+5) Эльфийский Лес Эльфийская Крепость Кровавые Топи Темный Лес Холм Черного Камня Жертвенный Лес"
+    "Respawn Time": "15 seconds",
+    "Location": "Эльфийский Лес (+5) Эльфийский Лес Эльфийская Крепость Кровавые Топи Темный Лес Холм Черного Камня Жертвенный Лес",
+    "HP / MP": "382 / 173",
+    "P. Atk. / M. Atk.": "34 / 16",
+    "P. Def. / M. Def.": "93 / 105",
+    "Accuracy / Evasion": "47 / 47",
+    "Exp / SP": "440 / 44",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Very Strong M. Def. Lv. 16 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Bleed Resistance Lv. 5 Resistant to Bleed.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 14"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20379",
-      "type": "npc",
-      "id": 20379,
-      "name": "Lu4",
-      "url": "/lu4/npc/20379-stone-soldier"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
-      "key": "location:114",
-      "type": "location",
-      "id": 114,
-      "name": "Эльфийская Крепость",
-      "url": "/lu4/location/114-elfijskaa-krepost"
-    },
-    {
-      "key": "location:106",
-      "type": "location",
-      "id": 106,
-      "name": "Кровавые Топи",
-      "url": "/lu4/location/106-krovavye-topi"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
-      "key": "location:220",
-      "type": "location",
-      "id": 220,
-      "name": "Холм Черного Камня",
-      "url": "/lu4/location/220-holm-cernogo-kamna"
-    },
-    {
-      "key": "location:227",
-      "type": "location",
-      "id": 227,
-      "name": "Жертвенный Лес",
-      "url": "/lu4/location/227-zertvennyj-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 16",
-      "url": "/lu4/skill/4413-very-strong-m-def/16"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
-    },
-    {
-      "key": "item:1896",
-      "type": "item",
-      "id": 1896,
-      "name": "Necklace of Anguish Chain NG",
-      "url": "/lu4/item/1896-necklace-of-anguish-chain"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1794",
-      "type": "item",
-      "id": 1794,
-      "name": "Recipe: Forest Bow NG",
-      "url": "/lu4/item/1794-recipe-forest-bow"
-    },
-    {
-      "key": "item:907",
-      "type": "item",
-      "id": 907,
-      "name": "Necklace of Anguish NG",
-      "url": "/lu4/item/907-necklace-of-anguish"
-    },
-    {
-      "key": "item:876",
-      "type": "item",
-      "id": 876,
-      "name": "Ring of Anguish NG",
-      "url": "/lu4/item/876-ring-of-anguish"
-    },
-    {
-      "key": "item:115",
-      "type": "item",
-      "id": 115,
-      "name": "Earring of Wisdom NG",
-      "url": "/lu4/item/115-earring-of-wisdom"
-    },
-    {
-      "key": "item:114",
-      "type": "item",
-      "id": 114,
-      "name": "Earring of Strength NG",
-      "url": "/lu4/item/114-earring-of-strength"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "item:57",
@@ -187,11 +93,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1871",
+      "key": "item:114",
       "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 114,
+      "name": "Earring of Strength NG",
+      "url": "/lu4/item/114-earring-of-strength"
+    },
+    {
+      "key": "item:115",
+      "type": "item",
+      "id": 115,
+      "name": "Earring of Wisdom NG",
+      "url": "/lu4/item/115-earring-of-wisdom"
+    },
+    {
+      "key": "item:876",
+      "type": "item",
+      "id": 876,
+      "name": "Ring of Anguish NG",
+      "url": "/lu4/item/876-ring-of-anguish"
+    },
+    {
+      "key": "item:907",
+      "type": "item",
+      "id": 907,
+      "name": "Necklace of Anguish NG",
+      "url": "/lu4/item/907-necklace-of-anguish"
+    },
+    {
+      "key": "item:1896",
+      "type": "item",
+      "id": 1896,
+      "name": "Necklace of Anguish Chain NG",
+      "url": "/lu4/item/1896-necklace-of-anguish-chain"
+    },
+    {
+      "key": "item:1794",
+      "type": "item",
+      "id": 1794,
+      "name": "Recipe: Forest Bow NG",
+      "url": "/lu4/item/1794-recipe-forest-bow"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
     },
     {
       "key": "item:1792",
@@ -199,6 +154,13 @@
       "id": 1792,
       "name": "Recipe: Short Spear NG",
       "url": "/lu4/item/1792-recipe-short-spear"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
     }
   ]
 }

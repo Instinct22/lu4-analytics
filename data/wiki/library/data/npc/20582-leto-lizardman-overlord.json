@@ -2,154 +2,74 @@
   "key": "npc:20582",
   "type": "npc",
   "id": 20582,
-  "name": "Lu4 Wiki: NPC Leto Lizardman Overlord",
+  "name": "Leto Lizardman Overlord",
   "url": "/lu4/npc/20582-leto-lizardman-overlord",
-  "source_url": "https://masterwork.wiki/lu4/npc/20582-leto-lizardman-overlord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20582-leto-lizardman-overlord",
   "raw_html": "library/raw/lu4/npc/20582-leto-lizardman-overlord.html",
   "stats": {
-    "Location": "Долина Ящеров"
+    "Respawn Time": "20 seconds ± 3 seconds",
+    "Location": "Долина Ящеров",
+    "HP / MP": "3 053 / 589",
+    "P. Atk. / M. Atk.": "247 / 120",
+    "P. Def. / M. Def.": "217 / 181",
+    "Accuracy / Evasion": "76 / 75",
+    "Exp / SP": "3 051 / 305",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 40"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20582",
-      "type": "npc",
-      "id": 20582,
-      "name": "Lu4",
-      "url": "/lu4/npc/20582-leto-lizardman-overlord"
-    },
-    {
-      "key": "location:102",
-      "type": "location",
-      "id": 102,
-      "name": "Долина Ящеров",
-      "url": "/lu4/location/102-dolina-aserov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:7640",
+      "key": "item:57",
       "type": "item",
-      "id": 7640,
-      "name": "Spellbook: Mass Summon Phantom Cubic NG",
-      "url": "/lu4/item/7640-spellbook-mass-summon-phantom-cubic"
-    },
-    {
-      "key": "item:7639",
-      "type": "item",
-      "id": 7639,
-      "name": "Spellbook: Mass Summon Aqua Cubic NG",
-      "url": "/lu4/item/7639-spellbook-mass-summon-aqua-cubic"
-    },
-    {
-      "key": "item:7638",
-      "type": "item",
-      "id": 7638,
-      "name": "Spellbook: Mass Summon Storm Cubic NG",
-      "url": "/lu4/item/7638-spellbook-mass-summon-storm-cubic"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:3073",
-      "type": "item",
-      "id": 3073,
-      "name": "Spellbook: Might of Heaven NG",
-      "url": "/lu4/item/3073-spellbook-might-of-heaven"
-    },
-    {
-      "key": "item:2938",
-      "type": "item",
-      "id": 2938,
-      "name": "Karmian Boots Fabric NG",
-      "url": "/lu4/item/2938-karmian-boots-fabric"
-    },
-    {
-      "key": "item:2430",
-      "type": "item",
-      "id": 2430,
-      "name": "Karmian Boots C",
-      "url": "/lu4/item/2430-karmian-boots"
-    },
-    {
-      "key": "item:2065",
-      "type": "item",
-      "id": 2065,
-      "name": "Skull Graver Head NG",
-      "url": "/lu4/item/2065-skull-graver-head"
-    },
-    {
-      "key": "item:2063",
-      "type": "item",
-      "id": 2063,
-      "name": "Battle Axe Head NG",
-      "url": "/lu4/item/2063-battle-axe-head"
-    },
-    {
-      "key": "item:1967",
-      "type": "item",
-      "id": 1967,
-      "name": "Plated Leather Gaiters Material NG",
-      "url": "/lu4/item/1967-plated-leather-gaiters-material"
-    },
-    {
-      "key": "item:1962",
-      "type": "item",
-      "id": 1962,
-      "name": "Karmian Tunic Pattern NG",
-      "url": "/lu4/item/1962-karmian-tunic-pattern"
-    },
-    {
-      "key": "item:1961",
-      "type": "item",
-      "id": 1961,
-      "name": "Reinforced Mithril Shirt Fabric NG",
-      "url": "/lu4/item/1961-reinforced-mithril-shirt-fabric"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1880",
@@ -173,32 +93,11 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:439",
+      "key": "item:5550",
       "type": "item",
-      "id": 439,
-      "name": "Karmian Tunic C",
-      "url": "/lu4/item/439-karmian-tunic"
-    },
-    {
-      "key": "item:418",
-      "type": "item",
-      "id": 418,
-      "name": "Plated Leather Gaiters C",
-      "url": "/lu4/item/418-plated-leather-gaiters"
-    },
-    {
-      "key": "item:397",
-      "type": "item",
-      "id": 397,
-      "name": "Reinforced Mithril Shirt C",
-      "url": "/lu4/item/397-reinforced-mithril-shirt"
-    },
-    {
-      "key": "item:173",
-      "type": "item",
-      "id": 173,
-      "name": "Skull Graver C",
-      "url": "/lu4/item/173-skull-graver"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:160",
@@ -208,39 +107,109 @@
       "url": "/lu4/item/160-battle-axe"
     },
     {
-      "key": "item:2999",
+      "key": "item:2063",
       "type": "item",
-      "id": 2999,
-      "name": "Recipe: Plated Leather Gloves NG",
-      "url": "/lu4/item/2999-recipe-plated-leather-gloves"
+      "id": 2063,
+      "name": "Battle Axe Head NG",
+      "url": "/lu4/item/2063-battle-axe-head"
     },
     {
-      "key": "item:2311",
+      "key": "item:173",
       "type": "item",
-      "id": 2311,
-      "name": "Recipe: Chakram NG",
-      "url": "/lu4/item/2311-recipe-chakram"
+      "id": 173,
+      "name": "Skull Graver C",
+      "url": "/lu4/item/173-skull-graver"
     },
     {
-      "key": "item:2072",
+      "key": "item:2065",
       "type": "item",
-      "id": 2072,
-      "name": "Dark Elven Dagger Edge NG",
-      "url": "/lu4/item/2072-dark-elven-dagger-edge"
+      "id": 2065,
+      "name": "Skull Graver Head NG",
+      "url": "/lu4/item/2065-skull-graver-head"
     },
     {
-      "key": "item:2061",
+      "key": "item:2430",
       "type": "item",
-      "id": 2061,
-      "name": "Big Hammer Head NG",
-      "url": "/lu4/item/2061-big-hammer-head"
+      "id": 2430,
+      "name": "Karmian Boots C",
+      "url": "/lu4/item/2430-karmian-boots"
     },
     {
-      "key": "item:1909",
+      "key": "item:2938",
       "type": "item",
-      "id": 1909,
-      "name": "Aquastone Ring Wire NG",
-      "url": "/lu4/item/1909-aquastone-ring-wire"
+      "id": 2938,
+      "name": "Karmian Boots Fabric NG",
+      "url": "/lu4/item/2938-karmian-boots-fabric"
+    },
+    {
+      "key": "item:439",
+      "type": "item",
+      "id": 439,
+      "name": "Karmian Tunic C",
+      "url": "/lu4/item/439-karmian-tunic"
+    },
+    {
+      "key": "item:1962",
+      "type": "item",
+      "id": 1962,
+      "name": "Karmian Tunic Pattern NG",
+      "url": "/lu4/item/1962-karmian-tunic-pattern"
+    },
+    {
+      "key": "item:418",
+      "type": "item",
+      "id": 418,
+      "name": "Plated Leather Gaiters C",
+      "url": "/lu4/item/418-plated-leather-gaiters"
+    },
+    {
+      "key": "item:1967",
+      "type": "item",
+      "id": 1967,
+      "name": "Plated Leather Gaiters Material NG",
+      "url": "/lu4/item/1967-plated-leather-gaiters-material"
+    },
+    {
+      "key": "item:397",
+      "type": "item",
+      "id": 397,
+      "name": "Reinforced Mithril Shirt C",
+      "url": "/lu4/item/397-reinforced-mithril-shirt"
+    },
+    {
+      "key": "item:1961",
+      "type": "item",
+      "id": 1961,
+      "name": "Reinforced Mithril Shirt Fabric NG",
+      "url": "/lu4/item/1961-reinforced-mithril-shirt-fabric"
+    },
+    {
+      "key": "item:7639",
+      "type": "item",
+      "id": 7639,
+      "name": "Spellbook: Mass Summon Aqua Cubic NG",
+      "url": "/lu4/item/7639-spellbook-mass-summon-aqua-cubic"
+    },
+    {
+      "key": "item:7640",
+      "type": "item",
+      "id": 7640,
+      "name": "Spellbook: Mass Summon Phantom Cubic NG",
+      "url": "/lu4/item/7640-spellbook-mass-summon-phantom-cubic"
+    },
+    {
+      "key": "item:7638",
+      "type": "item",
+      "id": 7638,
+      "name": "Spellbook: Mass Summon Storm Cubic NG",
+      "url": "/lu4/item/7638-spellbook-mass-summon-storm-cubic"
+    },
+    {
+      "key": "item:1825",
+      "type": "item",
+      "id": 1825,
+      "name": "Recipe: Oriharukon NG",
+      "url": "/lu4/item/1825-recipe-oriharukon"
     },
     {
       "key": "item:1894",
@@ -250,11 +219,39 @@
       "url": "/lu4/item/1894-crafted-leather"
     },
     {
-      "key": "item:1825",
+      "key": "item:2311",
       "type": "item",
-      "id": 1825,
-      "name": "Recipe: Oriharukon NG",
-      "url": "/lu4/item/1825-recipe-oriharukon"
+      "id": 2311,
+      "name": "Recipe: Chakram NG",
+      "url": "/lu4/item/2311-recipe-chakram"
+    },
+    {
+      "key": "item:2999",
+      "type": "item",
+      "id": 2999,
+      "name": "Recipe: Plated Leather Gloves NG",
+      "url": "/lu4/item/2999-recipe-plated-leather-gloves"
+    },
+    {
+      "key": "item:1909",
+      "type": "item",
+      "id": 1909,
+      "name": "Aquastone Ring Wire NG",
+      "url": "/lu4/item/1909-aquastone-ring-wire"
+    },
+    {
+      "key": "item:2061",
+      "type": "item",
+      "id": 2061,
+      "name": "Big Hammer Head NG",
+      "url": "/lu4/item/2061-big-hammer-head"
+    },
+    {
+      "key": "item:2072",
+      "type": "item",
+      "id": 2072,
+      "name": "Dark Elven Dagger Edge NG",
+      "url": "/lu4/item/2072-dark-elven-dagger-edge"
     }
   ]
 }

@@ -2,24 +2,23 @@
   "key": "item:381",
   "type": "item",
   "id": 381,
-  "name": "Lu4 Wiki: Item Chain Gaiters",
+  "name": "Chain Gaiters",
   "url": "/lu4/item/381-chain-gaiters",
-  "source_url": "https://masterwork.wiki/lu4/item/381-chain-gaiters",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/381-chain-gaiters",
   "raw_html": "library/raw/lu4/item/381-chain-gaiters.html",
   "stats": {
+    "P. Def.": "75",
+    "Crystal Amount": "97 Crystallization Failed Enchant +0 97 - +1 103 - +2 109 - +3 115 - +4 133 84 +5 151 102 +6 169 120 +7 187 138 +8 205 156",
+    "NPC Sell Price": "121 450 Adena",
+    "Weight": "3680",
     "Set Part": "Chain Mail Shirt C",
     "Recipes": "Recipe: Chain Gaiters NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / Heavy / Lower Body"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:381",
-      "type": "item",
-      "id": 381,
-      "name": "Lu4",
-      "url": "/lu4/item/381-chain-gaiters"
-    },
     {
       "key": "set:13",
       "type": "set",
@@ -35,59 +34,66 @@
       "url": "/lu4/item/2205-recipe-chain-gaiters"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25394",
       "type": "npc",
       "id": 25394,
-      "name": "Premo Prime Lv. 38",
+      "name": "Premo Prime",
       "url": "/lu4/npc/25394-premo-prime"
     },
     {
       "key": "npc:25208",
       "type": "npc",
       "id": 25208,
-      "name": "Water Couatle Ateka Lv. 40",
+      "name": "Water Couatle Ateka",
       "url": "/lu4/npc/25208-water-couatle-ateka"
     },
     {
       "key": "npc:21218",
       "type": "npc",
       "id": 21218,
-      "name": "Vault Overlord Lv. 45",
+      "name": "Vault Overlord",
       "url": "/lu4/npc/21218-vault-overlord"
     },
     {
       "key": "npc:20794",
       "type": "npc",
       "id": 20794,
-      "name": "Blade Stakato Lv. 41",
+      "name": "Blade Stakato",
       "url": "/lu4/npc/20794-blade-stakato"
     },
     {
       "key": "npc:20793",
       "type": "npc",
       "id": 20793,
-      "name": "Nos Lv. 40",
+      "name": "Nos",
       "url": "/lu4/npc/20793-nos"
     },
     {
       "key": "npc:20603",
       "type": "npc",
       "id": 20603,
-      "name": "Kronbe Spider Lv. 43",
+      "name": "Kronbe Spider",
       "url": "/lu4/npc/20603-kronbe-spider"
     },
     {
       "key": "npc:20563",
       "type": "npc",
       "id": 20563,
-      "name": "Manashen Gargoyle Lv. 40",
+      "name": "Manashen Gargoyle",
       "url": "/lu4/npc/20563-manashen-gargoyle"
     },
     {
       "key": "npc:20135",
       "type": "npc",
       "id": 20135,
-      "name": "Alligator Lv. 40",
+      "name": "Alligator",
       "url": "/lu4/npc/20135-alligator"
     }
   ]

@@ -2,98 +2,53 @@
   "key": "npc:20027",
   "type": "npc",
   "id": 20027,
-  "name": "Lu4 Wiki: NPC Langk Lizardman Scout",
+  "name": "Langk Lizardman Scout",
   "url": "/lu4/npc/20027-langk-lizardman-scout",
-  "source_url": "https://masterwork.wiki/lu4/npc/20027-langk-lizardman-scout",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20027-langk-lizardman-scout",
   "raw_html": "library/raw/lu4/npc/20027-langk-lizardman-scout.html",
   "stats": {
-    "Location": "Поселение Ящеров Лангк"
+    "Respawn Time": "17 seconds",
+    "Location": "Поселение Ящеров Лангк",
+    "HP / MP": "483 / 193",
+    "P. Atk. / M. Atk.": "61 / 25",
+    "P. Def. / M. Def.": "84 / 68",
+    "Accuracy / Evasion": "54 / 53",
+    "Exp / SP": "527 / 53",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 18"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20027",
-      "type": "npc",
-      "id": 20027,
-      "name": "Lu4",
-      "url": "/lu4/npc/20027-langk-lizardman-scout"
-    },
-    {
-      "key": "location:23",
-      "type": "location",
-      "id": 23,
-      "name": "Поселение Ящеров Лангк",
-      "url": "/lu4/location/23-poselenie-aserov-langk"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
-    },
-    {
-      "key": "item:5158",
-      "type": "item",
-      "id": 5158,
-      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:2501",
-      "type": "item",
-      "id": 2501,
-      "name": "Bone Club NG",
-      "url": "/lu4/item/2501-bone-club"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1800",
-      "type": "item",
-      "id": 1800,
-      "name": "Recipe: Piece Bone Breastplate NG",
-      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
-    },
-    {
-      "key": "item:176",
-      "type": "item",
-      "id": 176,
-      "name": "Apprentice's Staff NG",
-      "url": "/lu4/item/176-apprentices-staff"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -103,11 +58,46 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1924",
+      "key": "item:176",
       "type": "item",
-      "id": 1924,
-      "name": "Leather Helmet Design NG",
-      "url": "/lu4/item/1924-leather-helmet-design"
+      "id": 176,
+      "name": "Apprentice's Staff NG",
+      "url": "/lu4/item/176-apprentices-staff"
+    },
+    {
+      "key": "item:2501",
+      "type": "item",
+      "id": 2501,
+      "name": "Bone Club NG",
+      "url": "/lu4/item/2501-bone-club"
+    },
+    {
+      "key": "item:1800",
+      "type": "item",
+      "id": 1800,
+      "name": "Recipe: Piece Bone Breastplate NG",
+      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:5158",
+      "type": "item",
+      "id": 5158,
+      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
     },
     {
       "key": "item:1801",
@@ -115,6 +105,13 @@
       "id": 1801,
       "name": "Recipe: Piece Bone Gaiters NG",
       "url": "/lu4/item/1801-recipe-piece-bone-gaiters"
+    },
+    {
+      "key": "item:1924",
+      "type": "item",
+      "id": 1924,
+      "name": "Leather Helmet Design NG",
+      "url": "/lu4/item/1924-leather-helmet-design"
     }
   ]
 }

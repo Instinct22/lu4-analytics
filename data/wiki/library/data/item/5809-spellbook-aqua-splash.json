@@ -2,34 +2,32 @@
   "key": "item:5809",
   "type": "item",
   "id": 5809,
-  "name": "Lu4 Wiki: Item Spellbook: Aqua Splash",
+  "name": "Spellbook: Aqua Splash",
   "url": "/lu4/item/5809-spellbook-aqua-splash",
-  "source_url": "https://masterwork.wiki/lu4/item/5809-spellbook-aqua-splash",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5809-spellbook-aqua-splash",
   "raw_html": "library/raw/lu4/item/5809-spellbook-aqua-splash.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Aqua Splash'. Required: Spellsinger - Lv. 58 To obtain this item, hunt the Luminun found in Skyshadow Meadow.",
+    "NPC Sell Price": "3 375 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:5809",
-      "type": "item",
-      "id": 5809,
-      "name": "Lu4",
-      "url": "/lu4/item/5809-spellbook-aqua-splash"
-    },
-    {
       "key": "npc:21154",
       "type": "npc",
       "id": 21154,
-      "name": "Hell Keeper Medusa Lv. 58",
+      "name": "Hell Keeper Medusa",
       "url": "/lu4/npc/21154-hell-keeper-medusa"
     },
     {
       "key": "npc:20949",
       "type": "npc",
       "id": 20949,
-      "name": "Luminun Lv. 58",
+      "name": "Luminun",
       "url": "/lu4/npc/20949-luminun"
     }
   ]

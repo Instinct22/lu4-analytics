@@ -2,110 +2,100 @@
   "key": "npc:21743",
   "type": "npc",
   "id": 21743,
-  "name": "Lu4 Wiki: NPC Forbidden Path Invader Elite Soldier",
+  "name": "Forbidden Path Invader Elite Soldier",
   "url": "/lu4/npc/21743-forbidden-path-invader-elite-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21743-forbidden-path-invader-elite-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21743-forbidden-path-invader-elite-soldier",
   "raw_html": "library/raw/lu4/npc/21743-forbidden-path-invader-elite-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "866 / 1 464",
+    "P. Atk. / M. Atk.": "892 / 465",
+    "P. Def. / M. Def.": "540 / 461",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "1 315 / 122",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1/4x) Lv. 8 Weak P. Atk. Lv. 8 Weak M. Atk. Lv. 8 Strong P. Def. Lv. 14 Strong M. Def. Lv. 14 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Sleep Resistance Lv. 3 Slightly resistant to Sleep. Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 65"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21743",
-      "type": "npc",
-      "id": 21743,
-      "name": "Lu4",
-      "url": "/lu4/npc/21743-forbidden-path-invader-elite-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1/4x) Lv. 8",
-      "url": "/lu4/skill/4408-hp-increase-14x/8"
+      "name": "HP Increase (1/4x)",
+      "url": "/lu4/skill/4408-hp-increase-14x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Weak P. Atk. Lv. 8",
-      "url": "/lu4/skill/4410-weak-p-atk/8"
+      "name": "Weak P. Atk.",
+      "url": "/lu4/skill/4410-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Weak M. Atk. Lv. 8",
-      "url": "/lu4/skill/4411-weak-m-atk/8"
+      "name": "Weak M. Atk.",
+      "url": "/lu4/skill/4411-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32355",
-      "type": "item",
-      "id": 32355,
-      "name": "Unidentified Doom Plate Armor B",
-      "url": "/lu4/item/32355-unidentified-doom-plate-armor"
-    },
-    {
-      "key": "item:32354",
-      "type": "item",
-      "id": 32354,
-      "name": "Unidentified Blue Wolf Gaiters B",
-      "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32351",
@@ -113,20 +103,6 @@
       "id": 32351,
       "name": "Unidentified Blue Wolf Breastplate B",
       "url": "/lu4/item/32351-unidentified-blue-wolf-breastplate"
-    },
-    {
-      "key": "item:8752",
-      "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
-    },
-    {
-      "key": "item:5442",
-      "type": "item",
-      "id": 5442,
-      "name": "Recipe: Soul Bow(60%) NG",
-      "url": "/lu4/item/5442-recipe-soul-bow60"
     },
     {
       "key": "item:4081",
@@ -143,11 +119,32 @@
       "url": "/lu4/item/4080-blue-wolf-gaiters-material"
     },
     {
+      "key": "item:32354",
+      "type": "item",
+      "id": 32354,
+      "name": "Unidentified Blue Wolf Gaiters B",
+      "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
+    },
+    {
+      "key": "item:32355",
+      "type": "item",
+      "id": 32355,
+      "name": "Unidentified Doom Plate Armor B",
+      "url": "/lu4/item/32355-unidentified-doom-plate-armor"
+    },
+    {
       "key": "item:4078",
       "type": "item",
       "id": 4078,
       "name": "Blue Wolf Breastplate Part NG",
       "url": "/lu4/item/4078-blue-wolf-breastplate-part"
+    },
+    {
+      "key": "item:5442",
+      "type": "item",
+      "id": 5442,
+      "name": "Recipe: Soul Bow(60%) NG",
+      "url": "/lu4/item/5442-recipe-soul-bow60"
     },
     {
       "key": "item:4041",
@@ -185,11 +182,18 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:8752",
+      "type": "item",
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
     },
     {
       "key": "item:4099",

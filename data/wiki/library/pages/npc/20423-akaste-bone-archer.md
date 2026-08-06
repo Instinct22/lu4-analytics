@@ -1,139 +1,23 @@
-# Lu4 Wiki: NPC Akaste Bone Archer
+# Akaste Bone Archer
 
-- Source: https://masterwork.wiki/lu4/npc/20423-akaste-bone-archer
+- Source: https://masterwork.wiki/lu4-b-w-c/npc/20423-akaste-bone-archer
 - Path: /lu4/npc/20423-akaste-bone-archer
 - Type: npc
 - Key: npc:20423
 
 ## Stats
+- Respawn Time: 20 seconds
 - Location: Заброшенный Угольный Рудник
+- HP / MP: 363 / 173
+- P. Atk. / M. Atk.: 79 / 17
+- P. Def. / M. Def.: 70 / 67
+- Accuracy / Evasion: 47 / 47
+- Exp / SP: 391 / 39
+- Attack Attribute: None
+- Defense Attributes: Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20
+- Skills: Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.
+- Grade: NG
+- Type: Undead, Lv. 14
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-NPCs (Lu4)
-Akaste Bone Archer
-Lu4
-Eternal
-MasterWork
-Akaste Bone Archer
-Undead, Lv. 14
-Заброшенный Угольный Рудник
-Respawn Time
-20 seconds
-Location
-Заброшенный Угольный Рудник
-HP / MP
-363 / 173
-P. Atk. / M. Atk.
-79 / 17
-P. Def. / M. Def.
-70 / 67
-Accuracy / Evasion
-47 / 47
-Exp / SP
-391 / 39
-Attack Attribute
-None
-Defense Attributes
-Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20
-Skills
-Undead
-Lv. 1
-Takes 15% increased damage from attacks that are effective against Undead.
-HP Recovery +10%
-Received P. Crit. Rate -5
-Received Critical Damage -5%
-Received M. Crit. Damage -5%
-Vampiric Rage effect +1%
-Bow Skill Vampiric Rage effect +3%
-Resistance to Bleed +20%
-Resistance to Holy -10%
-Slightly Strong P. Atk.
-Lv. 12
-Slightly Weak P. Def.
-Lv. 10
-Slightly Strong M. Def.
-Lv. 12
-Holy Vulnerability
-Lv. 2
-Vulnerable to Divinity attack.
-Dark Attack
-Lv. 1
-Unleashes a dark attack.
-Blunt Weapon Vulnerability
-Lv. 1
-Vulnerable to Blunt Weapons.
-Drop
-Spoil
-Item
-Amount
-Chance
-Group Chance: 22.6038%
-Animal Bone
-NG
-1
-49.999900%
-Animal Skin
-NG
-1
-50.000100%
-Group Chance: 0.0836%
-Hunting Bow
-NG
-1
-100.000000%
-Group Chance: 70%
-Adena
-NG
-74 - 147
-100.000000%
-Item
-Amount
-Chance
-Leather Shoes Texture
-NG
-1
-9.873900%
-Recipe: Sword of Reflection
-NG
-1
-1.125400%
-Recipe: Short Spear
-NG
-1
-1.125400%
-MasterWork 2026
-All rights reserved
+Akaste Bone Archer Undead, Lv. 14 Заброшенный Угольный Рудник Respawn Time 20 seconds Location Заброшенный Угольный Рудник HP / MP 363 / 173 P. Atk. / M. Atk. 79 / 17 P. Def. / M. Def. 70 / 67 Accuracy / Evasion 47 / 47 Exp / SP 391 / 39 Attack Attribute None Defense Attributes Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20 Skills Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.

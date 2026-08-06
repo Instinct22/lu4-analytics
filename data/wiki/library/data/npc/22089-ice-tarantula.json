@@ -2,47 +2,58 @@
   "key": "npc:22089",
   "type": "npc",
   "id": 22089,
-  "name": "Lu4 Wiki: NPC Ice Tarantula",
+  "name": "Ice Tarantula",
   "url": "/lu4/npc/22089-ice-tarantula",
-  "source_url": "https://masterwork.wiki/lu4/npc/22089-ice-tarantula",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22089-ice-tarantula",
   "raw_html": "library/raw/lu4/npc/22089-ice-tarantula.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 667 / 1 284",
+    "P. Atk. / M. Atk.": "905 / 447",
+    "P. Def. / M. Def.": "315 / 291",
+    "Accuracy / Evasion": "90 / 95",
+    "Exp / SP": "4 087 / 340",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Sword Vulnerability Lv. 2 Vulnerable to Swords.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 57"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22089",
-      "type": "npc",
-      "id": 22089,
-      "name": "Lu4",
-      "url": "/lu4/npc/22089-ice-tarantula"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4460",
       "type": "skill",
       "id": 4460,
-      "name": "Sword Vulnerability Lv. 2 Vulnerable to Swords.",
-      "url": "/lu4/skill/4460-sword-vulnerability/2"
+      "name": "Sword Vulnerability",
+      "url": "/lu4/skill/4460-sword-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:32533",
+      "key": "item:8347",
       "type": "item",
-      "id": 32533,
-      "name": "Unidentified Sprite's Staff B",
-      "url": "/lu4/item/32533-unidentified-sprites-staff"
+      "id": 8347,
+      "name": "Ice Storm Hammer Head NG",
+      "url": "/lu4/item/8347-ice-storm-hammer-head"
+    },
+    {
+      "key": "item:8339",
+      "type": "item",
+      "id": 8339,
+      "name": "Spell Breaker Head NG",
+      "url": "/lu4/item/8339-spell-breaker-head"
     },
     {
       "key": "item:32438",
@@ -59,6 +70,27 @@
       "url": "/lu4/item/32433-unidentified-spell-breaker"
     },
     {
+      "key": "item:4106",
+      "type": "item",
+      "id": 4106,
+      "name": "Sprite's Staff Head NG",
+      "url": "/lu4/item/4106-sprites-staff-head"
+    },
+    {
+      "key": "item:4105",
+      "type": "item",
+      "id": 4105,
+      "name": "Heavy War Axe Head NG",
+      "url": "/lu4/item/4105-heavy-war-axe-head"
+    },
+    {
+      "key": "item:32533",
+      "type": "item",
+      "id": 32533,
+      "name": "Unidentified Sprite's Staff B",
+      "url": "/lu4/item/32533-unidentified-sprites-staff"
+    },
+    {
       "key": "item:32325",
       "type": "item",
       "id": 32325,
@@ -66,102 +98,53 @@
       "url": "/lu4/item/32325-unidentified-heavy-war-axe"
     },
     {
-      "key": "item:8614",
+      "key": "item:4042",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
     },
     {
-      "key": "item:8613",
+      "key": "item:1895",
       "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:8612",
+      "key": "item:1876",
       "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
     },
     {
-      "key": "item:8611",
+      "key": "item:1873",
       "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
-      "key": "item:8610",
+      "key": "item:1868",
       "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:8609",
+      "key": "item:8312",
       "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
+      "id": 8312,
+      "name": "Recipe: Kaim Vanul's Bones (60%) NG",
+      "url": "/lu4/item/8312-recipe-kaim-vanuls-bones-60"
     },
     {
-      "key": "item:8608",
+      "key": "item:49800",
       "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:8600",
@@ -171,11 +154,32 @@
       "url": "/lu4/item/8600-herb-of-life"
     },
     {
-      "key": "item:4155",
+      "key": "item:8601",
       "type": "item",
-      "id": 4155,
-      "name": "Recipe: Blue Wolf Breastplate (100%) NG",
-      "url": "/lu4/item/4155-recipe-blue-wolf-breastplate-100"
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
+    },
+    {
+      "key": "item:8602",
+      "type": "item",
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
+    },
+    {
+      "key": "item:8607",
+      "type": "item",
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
+    },
+    {
+      "key": "item:4056",
+      "type": "item",
+      "id": 4056,
+      "name": "Zubei's Breastplate Part NG",
+      "url": "/lu4/item/4056-zubeis-breastplate-part"
     },
     {
       "key": "item:4154",
@@ -185,11 +189,11 @@
       "url": "/lu4/item/4154-recipe-doom-shield-100"
     },
     {
-      "key": "item:4056",
+      "key": "item:4155",
       "type": "item",
-      "id": 4056,
-      "name": "Zubei's Breastplate Part NG",
-      "url": "/lu4/item/4056-zubeis-breastplate-part"
+      "id": 4155,
+      "name": "Recipe: Blue Wolf Breastplate (100%) NG",
+      "url": "/lu4/item/4155-recipe-blue-wolf-breastplate-100"
     }
   ]
 }

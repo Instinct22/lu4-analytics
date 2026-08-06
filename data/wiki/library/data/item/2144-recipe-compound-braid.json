@@ -2,48 +2,24 @@
   "key": "item:2144",
   "type": "item",
   "id": 2144,
-  "name": "Recipe",
+  "name": "Recipe: Compound Braid",
   "url": "/lu4/item/2144-recipe-compound-braid",
-  "source_url": "https://masterwork.wiki/lu4/item/2144-recipe-compound-braid",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2144-recipe-compound-braid",
   "raw_html": "library/raw/lu4/item/2144-recipe-compound-braid.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Compound Braid'. Requires Create Item - Skill Level 2 (Artisan Lv. 20). The success rate is 100%.",
+    "NPC Sell Price": "500 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "20",
     "Success Rate": "100%",
-    "Result": "Compound Braid NG"
+    "Result": "Compound Braid NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "5"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "25"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "5"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2144",
-      "type": "item",
-      "id": 2144,
-      "name": "Lu4",
-      "url": "/lu4/item/2144-recipe-compound-braid"
-    },
     {
       "key": "item:1878",
       "type": "item",
@@ -76,63 +52,63 @@
       "key": "npc:34643",
       "type": "npc",
       "id": 34643,
-      "name": "Dangerous Wild Beast Lv. 20",
+      "name": "Dangerous Wild Beast",
       "url": "/lu4/npc/34643-dangerous-wild-beast"
     },
     {
       "key": "npc:20775",
       "type": "npc",
       "id": 20775,
-      "name": "Bugbear Raider Lv. 17",
+      "name": "Bugbear Raider",
       "url": "/lu4/npc/20775-bugbear-raider"
     },
     {
       "key": "npc:20310",
       "type": "npc",
       "id": 20310,
-      "name": "Brown Bear Lv. 16",
+      "name": "Brown Bear",
       "url": "/lu4/npc/20310-brown-bear"
     },
     {
       "key": "npc:20108",
       "type": "npc",
       "id": 20108,
-      "name": "Blade Spider Lv. 17",
+      "name": "Blade Spider",
       "url": "/lu4/npc/20108-blade-spider"
     },
     {
       "key": "npc:20050",
       "type": "npc",
       "id": 20050,
-      "name": "Arachnid Predator Lv. 20",
+      "name": "Arachnid Predator",
       "url": "/lu4/npc/20050-arachnid-predator"
     },
     {
       "key": "npc:20044",
       "type": "npc",
       "id": 20044,
-      "name": "Lirein Elder Lv. 19",
+      "name": "Lirein Elder",
       "url": "/lu4/npc/20044-lirein-elder"
     },
     {
       "key": "npc:20511",
       "type": "npc",
       "id": 20511,
-      "name": "Pitchstone Golem Lv. 19",
+      "name": "Pitchstone Golem",
       "url": "/lu4/npc/20511-pitchstone-golem"
     },
     {
       "key": "npc:20415",
       "type": "npc",
       "id": 20415,
-      "name": "Scarlet Salamander Lv. 17",
+      "name": "Scarlet Salamander",
       "url": "/lu4/npc/20415-scarlet-salamander"
     },
     {
       "key": "npc:20048",
       "type": "npc",
       "id": 20048,
-      "name": "Lesser Succubus Lv. 20",
+      "name": "Lesser Succubus",
       "url": "/lu4/npc/20048-lesser-succubus"
     }
   ]

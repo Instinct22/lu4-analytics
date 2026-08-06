@@ -2,24 +2,24 @@
   "key": "item:60",
   "type": "item",
   "id": 60,
-  "name": "Lu4 Wiki: Item Composite Armor",
+  "name": "Composite Armor",
   "url": "/lu4/item/60-composite-armor",
-  "source_url": "https://masterwork.wiki/lu4/item/60-composite-armor",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/60-composite-armor",
   "raw_html": "library/raw/lu4/item/60-composite-armor.html",
   "stats": {
+    "Effect": "Full body armor.",
+    "P. Def.": "224",
+    "Crystal Amount": "491 Crystallization Failed Enchant +0 491 - +1 497 - +2 503 - +3 509 - +4 515 - +5 533 287 +6 551 305 +7 569 323 +8 587 341",
+    "NPC Sell Price": "613 500 Adena",
+    "Weight": "10980",
     "Set Part": "Composite Armor C",
     "Recipes": "Recipe: Composite Armor NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / Heavy / Full Body"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:60",
-      "type": "item",
-      "id": 60,
-      "name": "Lu4",
-      "url": "/lu4/item/60-composite-armor"
-    },
     {
       "key": "set:19",
       "type": "set",
@@ -35,80 +35,101 @@
       "url": "/lu4/item/2222-recipe-composite-armor"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25438",
       "type": "npc",
       "id": 25438,
-      "name": "Thief Kelbar Lv. 44",
+      "name": "Thief Kelbar",
       "url": "/lu4/npc/25438-thief-kelbar"
     },
     {
       "key": "npc:25437",
       "type": "npc",
       "id": 25437,
-      "name": "Timak Orc Gosmos Lv. 45",
+      "name": "Timak Orc Gosmos",
       "url": "/lu4/npc/25437-timak-orc-gosmos"
     },
     {
       "key": "npc:25431",
       "type": "npc",
       "id": 25431,
-      "name": "Flamestone Golem Lv. 44",
+      "name": "Flamestone Golem",
       "url": "/lu4/npc/25431-flamestone-golem"
     },
     {
       "key": "npc:21245",
       "type": "npc",
       "id": 21245,
-      "name": "Crypt Inquisitor Lv. 52",
+      "name": "Crypt Inquisitor",
       "url": "/lu4/npc/21245-crypt-inquisitor"
     },
     {
       "key": "npc:21244",
       "type": "npc",
       "id": 21244,
-      "name": "Crypt Archon Lv. 50",
+      "name": "Crypt Archon",
       "url": "/lu4/npc/21244-crypt-archon"
     },
     {
       "key": "npc:21040",
       "type": "npc",
       "id": 21040,
-      "name": "Soldier of Darkness Lv. 49",
+      "name": "Soldier of Darkness",
       "url": "/lu4/npc/21040-soldier-of-darkness"
     },
     {
       "key": "npc:20997",
       "type": "npc",
       "id": 20997,
-      "name": "Soldier of Grief Lv. 51",
+      "name": "Soldier of Grief",
       "url": "/lu4/npc/20997-soldier-of-grief"
     },
     {
       "key": "npc:20803",
       "type": "npc",
       "id": 20803,
-      "name": "Doll Master Lv. 50",
+      "name": "Doll Master",
       "url": "/lu4/npc/20803-doll-master"
     },
     {
       "key": "npc:20675",
       "type": "npc",
       "id": 20675,
-      "name": "Tairim Lv. 50",
+      "name": "Tairim",
       "url": "/lu4/npc/20675-tairim"
     },
     {
       "key": "npc:20595",
       "type": "npc",
       "id": 20595,
-      "name": "Fline Elder Lv. 51",
+      "name": "Fline Elder",
       "url": "/lu4/npc/20595-fline-elder"
     },
     {
       "key": "npc:20573",
       "type": "npc",
       "id": 20573,
-      "name": "Tarlk Basilisk Lv. 50",
+      "name": "Tarlk Basilisk",
       "url": "/lu4/npc/20573-tarlk-basilisk"
     }
   ]

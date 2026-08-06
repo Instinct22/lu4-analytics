@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4813-raid-boss
+- Path: /lu4/skill/4813-raid-boss
+- Type: skill
+- Key: skill:4813
+
+## Stats
+- Effect: The Lizardman mystic who rules over the Delu Lizardmen with his mighty insight and wisdom. He is said to have studied directly under Hardin. In his youth, he counseled peace with the humans, but they were blindly hostile despite his peaceful efforts. He has grown angry over the years at the human stupidity, and has declared war on any and all intruders to his tribe's territory.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability The Lizardman mystic who rules over the Delu Lizardmen with his mighty insight and wisdom. He is said to have studied directly under Hardin. In his youth, he counseled peace with the humans, but they were blindly hostile despite his peaceful efforts. He has grown angry over the years at the human stupidity, and has declared war on any and all intruders to his tribe's territory. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

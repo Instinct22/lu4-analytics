@@ -2,103 +2,107 @@
   "key": "npc:25316",
   "type": "npc",
   "id": 25316,
-  "name": "Lu4 Wiki: NPC Soul of Water Ashutar",
+  "name": "Soul of Water Ashutar",
   "url": "/lu4/npc/25316-soul-of-water-ashutar",
-  "source_url": "https://masterwork.wiki/lu4/npc/25316-soul-of-water-ashutar",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25316-soul-of-water-ashutar",
   "raw_html": "library/raw/lu4/npc/25316-soul-of-water-ashutar.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 524 367 / 4 554",
+    "P. Atk. / M. Atk.": "55 440 / 5 183",
+    "P. Def. / M. Def.": "2 111 / 2 062",
+    "Accuracy / Evasion": "138 / 148",
+    "Exp / SP": "6 080 000 / 952 059",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire -5, Water 110, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Water Spirit was summoned by Guide of Dead Souls Udan Mardui of the Varka Silenos. He is capricious but peaceful, and provides the power source for the Guide of Dead Souls. Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. Bare Hands Lv. 1 Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25316",
-      "type": "npc",
-      "id": 25316,
-      "name": "Lu4",
-      "url": "/lu4/npc/25316-soul-of-water-ashutar"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4910",
       "type": "skill",
       "id": 4910,
-      "name": "Raid Boss Lv. 1 This Water Spirit was summoned by Guide of Dead Souls Udan Mardui of the Varka Silenos. He is capricious but peaceful, and provides the power source for the Guide of Dead Souls.",
-      "url": "/lu4/skill/4910-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4910-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Bare Hands Lv. 1",
-      "url": "/lu4/skill/4415-bare-hands/1"
+      "name": "Bare Hands",
+      "url": "/lu4/skill/4415-bare-hands"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -106,20 +110,6 @@
       "id": 9910,
       "name": "Proof of Loyalty NG",
       "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:6702",
-      "type": "item",
-      "id": 6702,
-      "name": "Sealed Imperial Crusader Gaiters Pattern NG",
-      "url": "/lu4/item/6702-sealed-imperial-crusader-gaiters-pattern"
-    },
-    {
-      "key": "item:6701",
-      "type": "item",
-      "id": 6701,
-      "name": "Sealed Imperial Crusader Breastplate Part NG",
-      "url": "/lu4/item/6701-sealed-imperial-crusader-breastplate-part"
     },
     {
       "key": "item:6695",
@@ -136,18 +126,18 @@
       "url": "/lu4/item/6694-saint-spear-blade"
     },
     {
-      "key": "item:6578",
+      "key": "item:6701",
       "type": "item",
-      "id": 6578,
-      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+      "id": 6701,
+      "name": "Sealed Imperial Crusader Breastplate Part NG",
+      "url": "/lu4/item/6701-sealed-imperial-crusader-breastplate-part"
     },
     {
-      "key": "item:6577",
+      "key": "item:6702",
       "type": "item",
-      "id": 6577,
-      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
-      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
+      "id": 6702,
+      "name": "Sealed Imperial Crusader Gaiters Pattern NG",
+      "url": "/lu4/item/6702-sealed-imperial-crusader-gaiters-pattern"
     },
     {
       "key": "item:960",
@@ -157,11 +147,25 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
+      "key": "item:6578",
+      "type": "item",
+      "id": 6578,
+      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+    },
+    {
       "key": "item:959",
       "type": "item",
       "id": 959,
       "name": "Scroll: Enchant Weapon (S-Grade) NG",
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
+    },
+    {
+      "key": "item:6577",
+      "type": "item",
+      "id": 6577,
+      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
+      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
     },
     {
       "key": "npc:25317",

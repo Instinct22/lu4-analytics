@@ -2,19 +2,43 @@
   "key": "npc:20964",
   "type": "npc",
   "id": 20964,
-  "name": "Lu4 Wiki: NPC Huge Footmark",
+  "name": "Huge Footmark",
   "url": "/lu4/npc/20964-huge-footmark",
-  "source_url": "https://masterwork.wiki/lu4/npc/20964-huge-footmark",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20964-huge-footmark",
   "raw_html": "library/raw/lu4/npc/20964-huge-footmark.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 862 / 1 494",
+    "P. Atk. / M. Atk.": "1 314 / 780",
+    "P. Def. / M. Def.": "477 / 348",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "6 757 / 670",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 70"
+  },
   "materials": [],
   "links": [
     {
-      "key": "npc:20964",
-      "type": "npc",
-      "id": 20964,
-      "name": "Lu4",
-      "url": "/lu4/npc/20964-huge-footmark"
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:5525",
+      "type": "item",
+      "id": 5525,
+      "name": "Sealed Dark Crystal Helmet Design NG",
+      "url": "/lu4/item/5525-sealed-dark-crystal-helmet-design"
+    },
+    {
+      "key": "item:5494",
+      "type": "item",
+      "id": 5494,
+      "name": "Sealed Dark Crystal Shield Fragment NG",
+      "url": "/lu4/item/5494-sealed-dark-crystal-shield-fragment"
     },
     {
       "key": "item:32376",
@@ -38,102 +62,53 @@
       "url": "/lu4/item/32371-unidentified-sealed-dark-crystal-helmet"
     },
     {
-      "key": "item:8614",
+      "key": "item:5526",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
+      "id": 5526,
+      "name": "Sealed Tallum Helm Design NG",
+      "url": "/lu4/item/5526-sealed-tallum-helm-design"
     },
     {
-      "key": "item:8613",
+      "key": "item:4042",
       "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
     },
     {
-      "key": "item:8612",
+      "key": "item:1895",
       "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:8611",
+      "key": "item:1876",
       "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
     },
     {
-      "key": "item:8610",
+      "key": "item:1873",
       "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
-      "key": "item:8609",
+      "key": "item:1868",
       "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:8608",
+      "key": "item:4174",
       "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
+      "id": 4174,
+      "name": "Recipe: Sealed Zubei's Boots (100%) NG",
+      "url": "/lu4/item/4174-recipe-sealed-zubeis-boots-100"
     },
     {
       "key": "item:8600",
@@ -143,25 +118,53 @@
       "url": "/lu4/item/8600-herb-of-life"
     },
     {
-      "key": "item:5526",
+      "key": "item:8601",
       "type": "item",
-      "id": 5526,
-      "name": "Sealed Tallum Helm Design NG",
-      "url": "/lu4/item/5526-sealed-tallum-helm-design"
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
     },
     {
-      "key": "item:5525",
+      "key": "item:8602",
       "type": "item",
-      "id": 5525,
-      "name": "Sealed Dark Crystal Helmet Design NG",
-      "url": "/lu4/item/5525-sealed-dark-crystal-helmet-design"
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
     },
     {
-      "key": "item:3035",
+      "key": "item:8607",
       "type": "item",
-      "id": 3035,
-      "name": "Recipe: Spiritshot A NG",
-      "url": "/lu4/item/3035-recipe-spiritshot-a"
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
+    },
+    {
+      "key": "item:8609",
+      "type": "item",
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
+    },
+    {
+      "key": "item:8603",
+      "type": "item",
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
       "key": "item:1875",
@@ -171,11 +174,11 @@
       "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:1874",
+      "key": "item:3035",
       "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
+      "id": 3035,
+      "name": "Recipe: Spiritshot A NG",
+      "url": "/lu4/item/3035-recipe-spiritshot-a"
     }
   ]
 }

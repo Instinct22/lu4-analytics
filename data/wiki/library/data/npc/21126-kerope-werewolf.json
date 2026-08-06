@@ -2,77 +2,74 @@
   "key": "npc:21126",
   "type": "npc",
   "id": 21126,
-  "name": "Lu4 Wiki: NPC Kerope Werewolf",
+  "name": "Kerope Werewolf",
   "url": "/lu4/npc/21126-kerope-werewolf",
-  "source_url": "https://masterwork.wiki/lu4/npc/21126-kerope-werewolf",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21126-kerope-werewolf",
   "raw_html": "library/raw/lu4/npc/21126-kerope-werewolf.html",
   "stats": {
-    "Location": "Восточные Рудники (+1) Восточные Рудники Горный Хребет"
+    "Respawn Time": "15 seconds",
+    "Location": "Восточные Рудники (+1) Восточные Рудники Горный Хребет",
+    "HP / MP": "540 / 236",
+    "P. Atk. / M. Atk.": "58 / 29",
+    "P. Def. / M. Def.": "86 / 82",
+    "Accuracy / Evasion": "56 / 65",
+    "Exp / SP": "567 / 57",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 20"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21126",
-      "type": "npc",
-      "id": 21126,
-      "name": "Lu4",
-      "url": "/lu4/npc/21126-kerope-werewolf"
-    },
-    {
-      "key": "location:204",
-      "type": "location",
-      "id": 204,
-      "name": "Восточные Рудники",
-      "url": "/lu4/location/204-vostocnye-rudniki"
-    },
-    {
-      "key": "location:352",
-      "type": "location",
-      "id": 352,
-      "name": "Горный Хребет",
-      "url": "/lu4/location/352-gornyj-hrebet"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39296",
+      "key": "item:24",
       "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
+      "id": 24,
+      "name": "Bone Breastplate NG",
+      "url": "/lu4/item/24-bone-breastplate"
     },
     {
-      "key": "item:39295",
+      "key": "item:31",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 31,
+      "name": "Bone Gaiters NG",
+      "url": "/lu4/item/31-bone-gaiters"
     },
     {
-      "key": "item:2143",
+      "key": "item:390",
       "type": "item",
-      "id": 2143,
-      "name": "Recipe: Synthetic Cokes NG",
-      "url": "/lu4/item/2143-recipe-synthetic-cokes"
+      "id": 390,
+      "name": "Cotton Shirt NG",
+      "url": "/lu4/item/390-cotton-shirt"
+    },
+    {
+      "key": "item:412",
+      "type": "item",
+      "id": 412,
+      "name": "Cotton Pants NG",
+      "url": "/lu4/item/412-cotton-pants"
     },
     {
       "key": "item:1873",
@@ -110,39 +107,32 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:412",
+      "key": "item:2143",
       "type": "item",
-      "id": 412,
-      "name": "Cotton Pants NG",
-      "url": "/lu4/item/412-cotton-pants"
+      "id": 2143,
+      "name": "Recipe: Synthetic Cokes NG",
+      "url": "/lu4/item/2143-recipe-synthetic-cokes"
     },
     {
-      "key": "item:390",
+      "key": "item:39295",
       "type": "item",
-      "id": 390,
-      "name": "Cotton Shirt NG",
-      "url": "/lu4/item/390-cotton-shirt"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:57",
+      "key": "item:39296",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:31",
+      "key": "item:39297",
       "type": "item",
-      "id": 31,
-      "name": "Bone Gaiters NG",
-      "url": "/lu4/item/31-bone-gaiters"
-    },
-    {
-      "key": "item:24",
-      "type": "item",
-      "id": 24,
-      "name": "Bone Breastplate NG",
-      "url": "/lu4/item/24-bone-breastplate"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:1925",

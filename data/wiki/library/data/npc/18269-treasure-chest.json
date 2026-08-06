@@ -2,40 +2,30 @@
   "key": "npc:18269",
   "type": "npc",
   "id": 18269,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/18269-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/18269-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/18269-treasure-chest",
   "raw_html": "library/raw/lu4/npc/18269-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 109 / 458",
+    "P. Atk. / M. Atk.": "170 / 86",
+    "P. Def. / M. Def.": "168 / 132",
+    "Accuracy / Evasion": "66 / 66",
+    "Exp / SP": "1 306 / 75",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 33"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:18269",
-      "type": "npc",
-      "id": 18269,
-      "name": "Lu4",
-      "url": "/lu4/npc/18269-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:57",
@@ -45,11 +35,25 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2154",
+      "key": "item:955",
       "type": "item",
-      "id": 2154,
-      "name": "Recipe: Elven Earring NG",
-      "url": "/lu4/item/2154-recipe-elven-earring"
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:1901",
+      "type": "item",
+      "id": 1901,
+      "name": "Tiger's Eye Earring Stone NG",
+      "url": "/lu4/item/1901-tigers-eye-earring-stone"
     },
     {
       "key": "item:1938",
@@ -59,11 +63,11 @@
       "url": "/lu4/item/1938-mithril-banded-mail-material"
     },
     {
-      "key": "item:1901",
+      "key": "item:2154",
       "type": "item",
-      "id": 1901,
-      "name": "Tiger's Eye Earring Stone NG",
-      "url": "/lu4/item/1901-tigers-eye-earring-stone"
+      "id": 2154,
+      "name": "Recipe: Elven Earring NG",
+      "url": "/lu4/item/2154-recipe-elven-earring"
     }
   ]
 }

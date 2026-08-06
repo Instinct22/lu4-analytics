@@ -2,154 +2,95 @@
   "key": "npc:20378",
   "type": "npc",
   "id": 20378,
-  "name": "Lu4 Wiki: NPC Stone Giant",
+  "name": "Stone Giant",
   "url": "/lu4/npc/20378-stone-giant",
-  "source_url": "https://masterwork.wiki/lu4/npc/20378-stone-giant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20378-stone-giant",
   "raw_html": "library/raw/lu4/npc/20378-stone-giant.html",
   "stats": {
-    "Location": "Эльфийские Руины"
+    "Respawn Time": "35 seconds",
+    "Location": "Эльфийские Руины",
+    "HP / MP": "706 / 163",
+    "P. Atk. / M. Atk.": "39 / 20",
+    "P. Def. / M. Def.": "72 / 76",
+    "Accuracy / Evasion": "46 / 46",
+    "Exp / SP": "708 / 71",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Strong M. Def. Lv. 14 Greater Bow/Crossbow Resistance Lv. 1 Highly resistant to Bow/Crossbows. Dagger/Rapier Resistance Lv. 2 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Bleed Resistance Lv. 5 Resistant to Bleed.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 13"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20378",
-      "type": "npc",
-      "id": 20378,
-      "name": "Lu4",
-      "url": "/lu4/npc/20378-stone-giant"
-    },
-    {
-      "key": "location:32",
-      "type": "location",
-      "id": 32,
-      "name": "Эльфийские Руины",
-      "url": "/lu4/location/32-elfijskie-ruiny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 1 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/1"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 2 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/2"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
-    },
-    {
-      "key": "item:1896",
-      "type": "item",
-      "id": 1896,
-      "name": "Necklace of Anguish Chain NG",
-      "url": "/lu4/item/1896-necklace-of-anguish-chain"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:907",
-      "type": "item",
-      "id": 907,
-      "name": "Necklace of Anguish NG",
-      "url": "/lu4/item/907-necklace-of-anguish"
-    },
-    {
-      "key": "item:876",
-      "type": "item",
-      "id": 876,
-      "name": "Ring of Anguish NG",
-      "url": "/lu4/item/876-ring-of-anguish"
-    },
-    {
-      "key": "item:736",
-      "type": "item",
-      "id": 736,
-      "name": "Scroll of Escape NG",
-      "url": "/lu4/item/736-scroll-of-escape"
-    },
-    {
-      "key": "item:115",
-      "type": "item",
-      "id": 115,
-      "name": "Earring of Wisdom NG",
-      "url": "/lu4/item/115-earring-of-wisdom"
-    },
-    {
-      "key": "item:114",
-      "type": "item",
-      "id": 114,
-      "name": "Earring of Strength NG",
-      "url": "/lu4/item/114-earring-of-strength"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "item:57",
@@ -159,11 +100,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1832",
+      "key": "item:114",
       "type": "item",
-      "id": 1832,
-      "name": "Greater Antidote NG",
-      "url": "/lu4/item/1832-greater-antidote"
+      "id": 114,
+      "name": "Earring of Strength NG",
+      "url": "/lu4/item/114-earring-of-strength"
+    },
+    {
+      "key": "item:115",
+      "type": "item",
+      "id": 115,
+      "name": "Earring of Wisdom NG",
+      "url": "/lu4/item/115-earring-of-wisdom"
+    },
+    {
+      "key": "item:876",
+      "type": "item",
+      "id": 876,
+      "name": "Ring of Anguish NG",
+      "url": "/lu4/item/876-ring-of-anguish"
+    },
+    {
+      "key": "item:907",
+      "type": "item",
+      "id": 907,
+      "name": "Necklace of Anguish NG",
+      "url": "/lu4/item/907-necklace-of-anguish"
+    },
+    {
+      "key": "item:1896",
+      "type": "item",
+      "id": 1896,
+      "name": "Necklace of Anguish Chain NG",
+      "url": "/lu4/item/1896-necklace-of-anguish-chain"
+    },
+    {
+      "key": "item:736",
+      "type": "item",
+      "id": 736,
+      "name": "Scroll of Escape NG",
+      "url": "/lu4/item/736-scroll-of-escape"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
     },
     {
       "key": "item:49",
@@ -171,6 +161,13 @@
       "id": 49,
       "name": "Gloves NG",
       "url": "/lu4/item/49-gloves"
+    },
+    {
+      "key": "item:1832",
+      "type": "item",
+      "id": 1832,
+      "name": "Greater Antidote NG",
+      "url": "/lu4/item/1832-greater-antidote"
     }
   ]
 }

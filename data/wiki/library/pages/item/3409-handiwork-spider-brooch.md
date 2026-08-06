@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Handiwork Spider Brooch
+# Handiwork Spider Brooch
 
-- Source: https://masterwork.wiki/lu4/item/3409-handiwork-spider-brooch
+- Source: https://masterwork.wiki/lu4-b-w-c/item/3409-handiwork-spider-brooch
 - Path: /lu4/item/3409-handiwork-spider-brooch
 - Type: item
 - Key: item:3409
 
 ## Stats
+- Effect: The totem of the Duda-Mara tribe. Gather the totems of the 5 tribes and take them to Pa'agrio Lord Kakai.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Handiwork Spider Brooch
-Lu4
-Eternal
-MasterWork
-Handiwork Spider Brooch
-NG
-Quest Item
-The totem of the Duda-Mara tribe. Gather the totems of the 5 tribes and take them to Pa'agrio Lord Kakai.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-Test of the Lord
-35 ~ 85
-Quest
-Levels
-Test of the Lord
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Handiwork Spider Brooch NG Quest Item The totem of the Duda-Mara tribe. Gather the totems of the 5 tribes and take them to Pa'agrio Lord Kakai. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

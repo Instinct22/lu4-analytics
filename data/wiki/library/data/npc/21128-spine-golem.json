@@ -2,154 +2,53 @@
   "key": "npc:21128",
   "type": "npc",
   "id": 21128,
-  "name": "Lu4 Wiki: NPC Spine Golem",
+  "name": "Spine Golem",
   "url": "/lu4/npc/21128-spine-golem",
-  "source_url": "https://masterwork.wiki/lu4/npc/21128-spine-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21128-spine-golem",
   "raw_html": "library/raw/lu4/npc/21128-spine-golem.html",
   "stats": {
-    "Location": "Восточные Рудники (+1) Восточные Рудники Горный Хребет"
+    "Respawn Time": "15 seconds",
+    "Location": "Восточные Рудники (+1) Восточные Рудники Горный Хребет",
+    "HP / MP": "641 / 269",
+    "P. Atk. / M. Atk.": "70 / 35",
+    "P. Def. / M. Def.": "121 / 88",
+    "Accuracy / Evasion": "55 / 55",
+    "Exp / SP": "673 / 67",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 22"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21128",
-      "type": "npc",
-      "id": 21128,
-      "name": "Lu4",
-      "url": "/lu4/npc/21128-spine-golem"
-    },
-    {
-      "key": "location:204",
-      "type": "location",
-      "id": 204,
-      "name": "Восточные Рудники",
-      "url": "/lu4/location/204-vostocnye-rudniki"
-    },
-    {
-      "key": "location:352",
-      "type": "location",
-      "id": 352,
-      "name": "Горный Хребет",
-      "url": "/lu4/location/352-gornyj-hrebet"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1105",
-      "type": "item",
-      "id": 1105,
-      "name": "Stockings of Magic NG",
-      "url": "/lu4/item/1105-stockings-of-magic"
-    },
-    {
-      "key": "item:1102",
-      "type": "item",
-      "id": 1102,
-      "name": "Tunic of Magic NG",
-      "url": "/lu4/item/1102-tunic-of-magic"
-    },
-    {
-      "key": "item:890",
-      "type": "item",
-      "id": 890,
-      "name": "Ring of Devotion D",
-      "url": "/lu4/item/890-ring-of-devotion"
-    },
-    {
-      "key": "item:391",
-      "type": "item",
-      "id": 391,
-      "name": "Puma Skin Shirt D",
-      "url": "/lu4/item/391-puma-skin-shirt"
-    },
-    {
-      "key": "item:220",
-      "type": "item",
-      "id": 220,
-      "name": "Crafted Dagger D",
-      "url": "/lu4/item/220-crafted-dagger"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "item:57",
@@ -159,11 +58,95 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2151",
+      "key": "item:1102",
       "type": "item",
-      "id": 2151,
-      "name": "Recipe: Necklace of Devotion NG",
-      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
+      "id": 1102,
+      "name": "Tunic of Magic NG",
+      "url": "/lu4/item/1102-tunic-of-magic"
+    },
+    {
+      "key": "item:1105",
+      "type": "item",
+      "id": 1105,
+      "name": "Stockings of Magic NG",
+      "url": "/lu4/item/1105-stockings-of-magic"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:220",
+      "type": "item",
+      "id": 220,
+      "name": "Crafted Dagger D",
+      "url": "/lu4/item/220-crafted-dagger"
+    },
+    {
+      "key": "item:391",
+      "type": "item",
+      "id": 391,
+      "name": "Puma Skin Shirt D",
+      "url": "/lu4/item/391-puma-skin-shirt"
+    },
+    {
+      "key": "item:890",
+      "type": "item",
+      "id": 890,
+      "name": "Ring of Devotion D",
+      "url": "/lu4/item/890-ring-of-devotion"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:1927",
@@ -171,6 +154,13 @@
       "id": 1927,
       "name": "Hard Leather Shirt Pattern NG",
       "url": "/lu4/item/1927-hard-leather-shirt-pattern"
+    },
+    {
+      "key": "item:2151",
+      "type": "item",
+      "id": 2151,
+      "name": "Recipe: Necklace of Devotion NG",
+      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
     }
   ]
 }

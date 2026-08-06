@@ -1,0 +1,37 @@
+{
+  "key": "skill:2",
+  "type": "skill",
+  "id": 2,
+  "name": "Confusion",
+  "url": "/lu4/skill/2-confusion",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/2-confusion",
+  "raw_html": "library/raw/lu4/skill/2-confusion.html",
+  "stats": {
+    "Effect": "Throws an enemy into confusion, changing their target of attack.",
+    "Consumes": "12 MP",
+    "Reuse Time": "5 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_derangement",
+    "Cast Range": "600 (1100)",
+    "Available For": "Palus KnightLv. 24AssassinLv. 24",
+    "Type": "Magical / Magical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:32",
+      "type": "class",
+      "id": 32,
+      "name": "Palus KnightLv. 24",
+      "url": "/lu4/class/32-palusknight"
+    },
+    {
+      "key": "class:35",
+      "type": "class",
+      "id": 35,
+      "name": "AssassinLv. 24",
+      "url": "/lu4/class/35-assasin"
+    }
+  ]
+}

@@ -2,180 +2,107 @@
   "key": "npc:21092",
   "type": "npc",
   "id": 21092,
-  "name": "Lu4 Wiki: NPC Bloody Mystic",
+  "name": "Bloody Mystic",
   "url": "/lu4/npc/21092-bloody-mystic",
-  "source_url": "https://masterwork.wiki/lu4/npc/21092-bloody-mystic",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21092-bloody-mystic",
   "raw_html": "library/raw/lu4/npc/21092-bloody-mystic.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "22 553 / 1 814",
+    "P. Atk. / M. Atk.": "2 127 / 2 321",
+    "P. Def. / M. Def.": "602 / 556",
+    "Accuracy / Evasion": "100 / 100",
+    "Exp / SP": "48 177 / 4 818",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 5, Unholy 40",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 Very Strong M. Atk. Lv. 16 Very Strong P. Atk. Lv. 16 Strong M. Def. Lv. 14 Strong P. Def. Lv. 14 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Greater Hold Resistance Lv. 2 Highly resistant to Hold. Greater Paralyze Resistance Lv. 2 Highly resistant to Paralyze attack. Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 67"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21092",
-      "type": "npc",
-      "id": 21092,
-      "name": "Lu4",
-      "url": "/lu4/npc/21092-bloody-mystic"
-    },
-    {
-      "key": "location:45",
-      "type": "location",
-      "id": 45,
-      "name": "Логово Антараса",
-      "url": "/lu4/location/45-logovo-antarasa"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Very Strong M. Atk. Lv. 16",
-      "url": "/lu4/skill/4411-very-strong-m-atk/16"
+      "name": "Very Strong M. Atk.",
+      "url": "/lu4/skill/4411-very-strong-m-atk"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 2 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/2"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "skill:4440",
       "type": "skill",
       "id": 4440,
-      "name": "Greater Paralyze Resistance Lv. 2 Highly resistant to Paralyze attack.",
-      "url": "/lu4/skill/4440-greater-paralyze-resistance/2"
+      "name": "Greater Paralyze Resistance",
+      "url": "/lu4/skill/4440-greater-paralyze-resistance"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32369",
-      "type": "item",
-      "id": 32369,
-      "name": "Unidentified Sealed Dark Crystal Breastplate A",
-      "url": "/lu4/item/32369-unidentified-sealed-dark-crystal-breastplate"
-    },
-    {
-      "key": "item:32337",
-      "type": "item",
-      "id": 32337,
-      "name": "Unidentified Bloody Orchid A",
-      "url": "/lu4/item/32337-unidentified-bloody-orchid"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:5536",
-      "type": "item",
-      "id": 5536,
-      "name": "Bloody Orchid Head NG",
-      "url": "/lu4/item/5536-bloody-orchid-head"
-    },
-    {
-      "key": "item:5520",
-      "type": "item",
-      "id": 5520,
-      "name": "Sealed Dark Crystal Breastplate Pattern NG",
-      "url": "/lu4/item/5520-sealed-dark-crystal-breastplate-pattern"
-    },
-    {
-      "key": "item:4044",
-      "type": "item",
-      "id": 4044,
-      "name": "Thons NG",
-      "url": "/lu4/item/4044-thons"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1868",
@@ -185,11 +112,95 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:1873",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:4044",
+      "type": "item",
+      "id": 4044,
+      "name": "Thons NG",
+      "url": "/lu4/item/4044-thons"
+    },
+    {
+      "key": "item:32337",
+      "type": "item",
+      "id": 32337,
+      "name": "Unidentified Bloody Orchid A",
+      "url": "/lu4/item/32337-unidentified-bloody-orchid"
+    },
+    {
+      "key": "item:5536",
+      "type": "item",
+      "id": 5536,
+      "name": "Bloody Orchid Head NG",
+      "url": "/lu4/item/5536-bloody-orchid-head"
+    },
+    {
+      "key": "item:32369",
+      "type": "item",
+      "id": 32369,
+      "name": "Unidentified Sealed Dark Crystal Breastplate A",
+      "url": "/lu4/item/32369-unidentified-sealed-dark-crystal-breastplate"
+    },
+    {
+      "key": "item:5520",
+      "type": "item",
+      "id": 5520,
+      "name": "Sealed Dark Crystal Breastplate Pattern NG",
+      "url": "/lu4/item/5520-sealed-dark-crystal-breastplate-pattern"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1876",
+      "type": "item",
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
+    },
+    {
+      "key": "item:5424",
+      "type": "item",
+      "id": 5424,
+      "name": "Recipe: Sealed Dark Crystal Gaiters(60%) NG",
+      "url": "/lu4/item/5424-recipe-sealed-dark-crystal-gaiters60"
     },
     {
       "key": "item:5524",
@@ -204,20 +215,6 @@
       "id": 5478,
       "name": "Sealed Dark Crystal Leather Armor Pattern NG",
       "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
-    },
-    {
-      "key": "item:5424",
-      "type": "item",
-      "id": 5424,
-      "name": "Recipe: Sealed Dark Crystal Gaiters(60%) NG",
-      "url": "/lu4/item/5424-recipe-sealed-dark-crystal-gaiters60"
-    },
-    {
-      "key": "item:1876",
-      "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "url": "/lu4/item/1876-mithril-ore"
     }
   ]
 }

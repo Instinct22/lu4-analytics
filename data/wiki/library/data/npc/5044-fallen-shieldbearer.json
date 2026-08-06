@@ -2,189 +2,102 @@
   "key": "npc:5044",
   "type": "npc",
   "id": 5044,
-  "name": "Lu4 Wiki: NPC Fallen Shieldbearer",
+  "name": "Fallen Shieldbearer",
   "url": "/lu4/npc/5044-fallen-shieldbearer",
-  "source_url": "https://masterwork.wiki/lu4/npc/5044-fallen-shieldbearer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5044-fallen-shieldbearer",
   "raw_html": "library/raw/lu4/npc/5044-fallen-shieldbearer.html",
   "stats": {
-    "Location": "Земли Адена (+1) Земли Адена Древнее Поле Битвы"
+    "Respawn Time": "3 minutes, 40 seconds ± 10 seconds",
+    "Location": "Земли Адена (+1) Земли Адена Древнее Поле Битвы",
+    "HP / MP": "35 116 / 1 110",
+    "P. Atk. / M. Atk.": "2 164 / 987",
+    "P. Def. / M. Def.": "1 087 / 580",
+    "Accuracy / Evasion": "146 / 111",
+    "Exp / SP": "73 430 / 7 343",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. HP Increase (7x) Lv. 15 Strong P. Atk. Lv. 14 Slightly Strong M. Def. Lv. 13 Very Strong P. Def. Lv. 16 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Skill_32534 Lv. 1 Greater Sleep Resistance Lv. 3 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 74"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5044",
-      "type": "npc",
-      "id": 5044,
-      "name": "Lu4",
-      "url": "/lu4/npc/5044-fallen-shieldbearer"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
-      "key": "location:96",
-      "type": "location",
-      "id": 96,
-      "name": "Древнее Поле Битвы",
-      "url": "/lu4/location/96-drevnee-pole-bitvy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (7x) Lv. 15",
-      "url": "/lu4/skill/4408-hp-increase-7x/15"
+      "name": "HP Increase (7x)",
+      "url": "/lu4/skill/4408-hp-increase-7x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:32534",
       "type": "skill",
       "id": 32534,
-      "name": "Skill_32534 Lv. 1",
-      "url": "/lu4/skill/32534-skill32534/1"
+      "name": "Skill_32534",
+      "url": "/lu4/skill/32534-skill32534"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 3 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/3"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32395",
-      "type": "item",
-      "id": 32395,
-      "name": "Unidentified Sealed Majestic Leather Armor A",
-      "url": "/lu4/item/32395-unidentified-sealed-majestic-leather-armor"
-    },
-    {
-      "key": "item:32392",
-      "type": "item",
-      "id": 32392,
-      "name": "Unidentified Sealed Majestic Gauntlets A",
-      "url": "/lu4/item/32392-unidentified-sealed-majestic-gauntlets"
-    },
-    {
-      "key": "item:32332",
-      "type": "item",
-      "id": 32332,
-      "name": "Unidentified Elysian A",
-      "url": "/lu4/item/32332-unidentified-elysian"
-    },
-    {
-      "key": "item:32331",
-      "type": "item",
-      "id": 32331,
-      "name": "Unidentified Sword of Miracles A",
-      "url": "/lu4/item/32331-unidentified-sword-of-miracles"
-    },
-    {
-      "key": "item:8326",
-      "type": "item",
-      "id": 8326,
-      "name": "Recipe: Doom Crusher (60%) NG",
-      "url": "/lu4/item/8326-recipe-doom-crusher-60"
-    },
-    {
-      "key": "item:5546",
-      "type": "item",
-      "id": 5546,
-      "name": "Sword of Miracles Edge NG",
-      "url": "/lu4/item/5546-sword-of-miracles-edge"
-    },
-    {
-      "key": "item:5533",
-      "type": "item",
-      "id": 5533,
-      "name": "Elysian Head NG",
-      "url": "/lu4/item/5533-elysian-head"
-    },
-    {
-      "key": "item:5515",
-      "type": "item",
-      "id": 5515,
-      "name": "Sealed Majestic Gauntlets Design NG",
-      "url": "/lu4/item/5515-sealed-majestic-gauntlets-design"
-    },
-    {
-      "key": "item:5481",
-      "type": "item",
-      "id": 5481,
-      "name": "Sealed Majestic Leather Armor Fabric NG",
-      "url": "/lu4/item/5481-sealed-majestic-leather-armor-fabric"
-    },
-    {
-      "key": "item:5404",
-      "type": "item",
-      "id": 5404,
-      "name": "Recipe: Sealed Gauntlets of Nightmare(60%) NG",
-      "url": "/lu4/item/5404-recipe-sealed-gauntlets-of-nightmare60"
-    },
-    {
-      "key": "item:5382",
-      "type": "item",
-      "id": 5382,
-      "name": "Recipe: Sealed Majestic Boots(60%) NG",
-      "url": "/lu4/item/5382-recipe-sealed-majestic-boots60"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5220",
@@ -222,11 +135,88 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32332",
+      "type": "item",
+      "id": 32332,
+      "name": "Unidentified Elysian A",
+      "url": "/lu4/item/32332-unidentified-elysian"
+    },
+    {
+      "key": "item:5533",
+      "type": "item",
+      "id": 5533,
+      "name": "Elysian Head NG",
+      "url": "/lu4/item/5533-elysian-head"
+    },
+    {
+      "key": "item:32331",
+      "type": "item",
+      "id": 32331,
+      "name": "Unidentified Sword of Miracles A",
+      "url": "/lu4/item/32331-unidentified-sword-of-miracles"
+    },
+    {
+      "key": "item:5546",
+      "type": "item",
+      "id": 5546,
+      "name": "Sword of Miracles Edge NG",
+      "url": "/lu4/item/5546-sword-of-miracles-edge"
+    },
+    {
+      "key": "item:32392",
+      "type": "item",
+      "id": 32392,
+      "name": "Unidentified Sealed Majestic Gauntlets A",
+      "url": "/lu4/item/32392-unidentified-sealed-majestic-gauntlets"
+    },
+    {
+      "key": "item:5515",
+      "type": "item",
+      "id": 5515,
+      "name": "Sealed Majestic Gauntlets Design NG",
+      "url": "/lu4/item/5515-sealed-majestic-gauntlets-design"
+    },
+    {
+      "key": "item:32395",
+      "type": "item",
+      "id": 32395,
+      "name": "Unidentified Sealed Majestic Leather Armor A",
+      "url": "/lu4/item/32395-unidentified-sealed-majestic-leather-armor"
+    },
+    {
+      "key": "item:5481",
+      "type": "item",
+      "id": 5481,
+      "name": "Sealed Majestic Leather Armor Fabric NG",
+      "url": "/lu4/item/5481-sealed-majestic-leather-armor-fabric"
+    },
+    {
+      "key": "item:8326",
+      "type": "item",
+      "id": 8326,
+      "name": "Recipe: Doom Crusher (60%) NG",
+      "url": "/lu4/item/8326-recipe-doom-crusher-60"
+    },
+    {
+      "key": "item:5404",
+      "type": "item",
+      "id": 5404,
+      "name": "Recipe: Sealed Gauntlets of Nightmare(60%) NG",
+      "url": "/lu4/item/5404-recipe-sealed-gauntlets-of-nightmare60"
+    },
+    {
+      "key": "item:5382",
+      "type": "item",
+      "id": 5382,
+      "name": "Recipe: Sealed Majestic Boots(60%) NG",
+      "url": "/lu4/item/5382-recipe-sealed-majestic-boots60"
     },
     {
       "key": "item:8316",
@@ -236,11 +226,11 @@
       "url": "/lu4/item/8316-recipe-flaming-dragon-skull-60"
     },
     {
-      "key": "item:5527",
+      "key": "item:5448",
       "type": "item",
-      "id": 5527,
-      "name": "Sealed Helm of Nightmare Design NG",
-      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
+      "id": 5448,
+      "name": "Recipe: Soul Separator(60%) NG",
+      "url": "/lu4/item/5448-recipe-soul-separator60"
     },
     {
       "key": "item:5522",
@@ -250,18 +240,18 @@
       "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
     },
     {
+      "key": "item:5527",
+      "type": "item",
+      "id": 5527,
+      "name": "Sealed Helm of Nightmare Design NG",
+      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
+    },
+    {
       "key": "item:5480",
       "type": "item",
       "id": 5480,
       "name": "Sealed Leather Armor of Nightmare Fabric NG",
       "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
-    },
-    {
-      "key": "item:5448",
-      "type": "item",
-      "id": 5448,
-      "name": "Recipe: Soul Separator(60%) NG",
-      "url": "/lu4/item/5448-recipe-soul-separator60"
     }
   ]
 }

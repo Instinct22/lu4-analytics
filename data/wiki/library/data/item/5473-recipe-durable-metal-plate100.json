@@ -2,55 +2,24 @@
   "key": "item:5473",
   "type": "item",
   "id": 5473,
-  "name": "Recipe",
+  "name": "Recipe: Durable Metal Plate(100%)",
   "url": "/lu4/item/5473-recipe-durable-metal-plate100",
-  "source_url": "https://masterwork.wiki/lu4/item/5473-recipe-durable-metal-plate100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5473-recipe-durable-metal-plate100",
   "raw_html": "library/raw/lu4/item/5473-recipe-durable-metal-plate100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Durable Metal Plate'. Requires Create Item - Skill Level 4 (Artisan Lv. 36). The success rate is 100%.",
+    "NPC Sell Price": "1 400 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "4",
     "MP Consume": "40",
     "Success Rate": "100%",
-    "Result": "Durable Metal Plate NG"
+    "Result": "Durable Metal Plate NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "amount": "5"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "50"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "25"
-    },
-    {
-      "key": "item:1876",
-      "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "amount": "5"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:5473",
-      "type": "item",
-      "id": 5473,
-      "name": "Lu4",
-      "url": "/lu4/item/5473-recipe-durable-metal-plate100"
-    },
     {
       "key": "item:5549",
       "type": "item",
@@ -90,56 +59,56 @@
       "key": "npc:21694",
       "type": "npc",
       "id": 21694,
-      "name": "Dimension Invader Food Lv. 40",
+      "name": "Dimension Invader Food",
       "url": "/lu4/npc/21694-dimension-invader-food"
     },
     {
       "key": "npc:21645",
       "type": "npc",
       "id": 21645,
-      "name": "Lienrik Lad Lv. 40",
+      "name": "Lienrik Lad",
       "url": "/lu4/npc/21645-lienrik-lad"
     },
     {
       "key": "npc:21215",
       "type": "npc",
       "id": 21215,
-      "name": "Vault Monk Lv. 37",
+      "name": "Vault Monk",
       "url": "/lu4/npc/21215-vault-monk"
     },
     {
       "key": "npc:21145",
       "type": "npc",
       "id": 21145,
-      "name": "Catacomb Stakato Soldier Lv. 38",
+      "name": "Catacomb Stakato Soldier",
       "url": "/lu4/npc/21145-catacomb-stakato-soldier"
     },
     {
       "key": "npc:20989",
       "type": "npc",
       "id": 20989,
-      "name": "Lageos Lv. 38",
+      "name": "Lageos",
       "url": "/lu4/npc/20989-lageos"
     },
     {
       "key": "npc:20787",
       "type": "npc",
       "id": 20787,
-      "name": "Lienrik Lad Lv. 40",
+      "name": "Lienrik Lad",
       "url": "/lu4/npc/20787-lienrik-lad"
     },
     {
       "key": "npc:20764",
       "type": "npc",
       "id": 20764,
-      "name": "Shaman of the Plains Lv. 39",
+      "name": "Shaman of the Plains",
       "url": "/lu4/npc/20764-shaman-of-the-plains"
     },
     {
       "key": "npc:20554",
       "type": "npc",
       "id": 20554,
-      "name": "Grandis Lv. 40",
+      "name": "Grandis",
       "url": "/lu4/npc/20554-grandis"
     }
   ]

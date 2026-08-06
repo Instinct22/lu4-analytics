@@ -1,68 +1,16 @@
-# Lu4 Wiki: Item Kiruna&#039;s Arm Bone
+# Kiruna's Arm Bone
 
-- Source: https://masterwork.wiki/lu4/item/2908-kirunas-arm-bone
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2908-kirunas-arm-bone
 - Path: /lu4/item/2908-kirunas-arm-bone
 - Type: item
 - Key: item:2908
 
 ## Stats
+- Effect: The arm bones of Kiruna, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Racoy.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Kiruna&#039;s Arm Bone
-Lu4
-Eternal
-MasterWork
-Kiruna's Arm Bone
-NG
-Quest Item
-The arm bones of Kiruna, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Racoy.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-MasterWork 2026
-All rights reserved
+Kiruna's Arm Bone NG Quest Item The arm bones of Kiruna, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Racoy. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

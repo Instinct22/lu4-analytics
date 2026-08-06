@@ -2,70 +2,60 @@
   "key": "npc:20787",
   "type": "npc",
   "id": 20787,
-  "name": "Lu4 Wiki: NPC Lienrik Lad",
+  "name": "Lienrik Lad",
   "url": "/lu4/npc/20787-lienrik-lad",
-  "source_url": "https://masterwork.wiki/lu4/npc/20787-lienrik-lad",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20787-lienrik-lad",
   "raw_html": "library/raw/lu4/npc/20787-lienrik-lad.html",
   "stats": {
-    "Location": "Поля Безмолвия"
+    "Respawn Time": "23 seconds",
+    "Location": "Поля Безмолвия",
+    "HP / MP": "1 526 / 589",
+    "P. Atk. / M. Atk.": "329 / 133",
+    "P. Def. / M. Def.": "177 / 148",
+    "Accuracy / Evasion": "73 / 73",
+    "Exp / SP": "1 656 / 166",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Strong P. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 40"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20787",
-      "type": "npc",
-      "id": 20787,
-      "name": "Lu4",
-      "url": "/lu4/npc/20787-lienrik-lad"
-    },
-    {
-      "key": "location:116",
-      "type": "location",
-      "id": 116,
-      "name": "Поля Безмолвия",
-      "url": "/lu4/location/116-pola-bezmolvia"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:39373",
+      "key": "item:57",
       "type": "item",
-      "id": 39373,
-      "name": "Spellbook: Resist Earth NG",
-      "url": "/lu4/item/39373-spellbook-resist-earth"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5549",
@@ -80,48 +70,6 @@
       "id": 5473,
       "name": "Recipe: Durable Metal Plate(100%) NG",
       "url": "/lu4/item/5473-recipe-durable-metal-plate100"
-    },
-    {
-      "key": "item:3065",
-      "type": "item",
-      "id": 3065,
-      "name": "Spellbook: Death Spike NG",
-      "url": "/lu4/item/3065-spellbook-death-spike"
-    },
-    {
-      "key": "item:3062",
-      "type": "item",
-      "id": 3062,
-      "name": "Spellbook: Curse Fear NG",
-      "url": "/lu4/item/3062-spellbook-curse-fear"
-    },
-    {
-      "key": "item:2945",
-      "type": "item",
-      "id": 2945,
-      "name": "Chain Shield Fragment NG",
-      "url": "/lu4/item/2945-chain-shield-fragment"
-    },
-    {
-      "key": "item:2495",
-      "type": "item",
-      "id": 2495,
-      "name": "Chain Shield C",
-      "url": "/lu4/item/2495-chain-shield"
-    },
-    {
-      "key": "item:2069",
-      "type": "item",
-      "id": 2069,
-      "name": "Heavy Doom Axe Blade NG",
-      "url": "/lu4/item/2069-heavy-doom-axe-blade"
-    },
-    {
-      "key": "item:1908",
-      "type": "item",
-      "id": 1908,
-      "name": "Moonstone Earring Wire NG",
-      "url": "/lu4/item/1908-moonstone-earring-wire"
     },
     {
       "key": "item:1885",
@@ -152,6 +100,13 @@
       "url": "/lu4/item/1832-greater-antidote"
     },
     {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
+    },
+    {
       "key": "item:951",
       "type": "item",
       "id": 951,
@@ -159,11 +114,18 @@
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
-      "key": "item:852",
+      "key": "item:2495",
       "type": "item",
-      "id": 852,
-      "name": "Moonstone Earring C",
-      "url": "/lu4/item/852-moonstone-earring"
+      "id": 2495,
+      "name": "Chain Shield C",
+      "url": "/lu4/item/2495-chain-shield"
+    },
+    {
+      "key": "item:2945",
+      "type": "item",
+      "id": 2945,
+      "name": "Chain Shield Fragment NG",
+      "url": "/lu4/item/2945-chain-shield-fragment"
     },
     {
       "key": "item:194",
@@ -173,18 +135,53 @@
       "url": "/lu4/item/194-heavy-doom-axe"
     },
     {
-      "key": "item:57",
+      "key": "item:2069",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2069,
+      "name": "Heavy Doom Axe Blade NG",
+      "url": "/lu4/item/2069-heavy-doom-axe-blade"
     },
     {
-      "key": "item:2302",
+      "key": "item:852",
       "type": "item",
-      "id": 2302,
-      "name": "Recipe: Silver Axe NG",
-      "url": "/lu4/item/2302-recipe-silver-axe"
+      "id": 852,
+      "name": "Moonstone Earring C",
+      "url": "/lu4/item/852-moonstone-earring"
+    },
+    {
+      "key": "item:1908",
+      "type": "item",
+      "id": 1908,
+      "name": "Moonstone Earring Wire NG",
+      "url": "/lu4/item/1908-moonstone-earring-wire"
+    },
+    {
+      "key": "item:3062",
+      "type": "item",
+      "id": 3062,
+      "name": "Spellbook: Curse Fear NG",
+      "url": "/lu4/item/3062-spellbook-curse-fear"
+    },
+    {
+      "key": "item:3065",
+      "type": "item",
+      "id": 3065,
+      "name": "Spellbook: Death Spike NG",
+      "url": "/lu4/item/3065-spellbook-death-spike"
+    },
+    {
+      "key": "item:39373",
+      "type": "item",
+      "id": 39373,
+      "name": "Spellbook: Resist Earth NG",
+      "url": "/lu4/item/39373-spellbook-resist-earth"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
     },
     {
       "key": "item:2299",
@@ -194,18 +191,18 @@
       "url": "/lu4/item/2299-recipe-big-hammer"
     },
     {
+      "key": "item:2302",
+      "type": "item",
+      "id": 2302,
+      "name": "Recipe: Silver Axe NG",
+      "url": "/lu4/item/2302-recipe-silver-axe"
+    },
+    {
       "key": "item:1964",
       "type": "item",
       "id": 1964,
       "name": "Eldarake Temper NG",
       "url": "/lu4/item/1964-eldarake-temper"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
     }
   ]
 }

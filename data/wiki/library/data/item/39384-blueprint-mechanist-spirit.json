@@ -2,27 +2,25 @@
   "key": "item:39384",
   "type": "item",
   "id": 39384,
-  "name": "Lu4 Wiki: Item Blueprint: Mechanist Spirit",
+  "name": "Blueprint: Mechanist Spirit",
   "url": "/lu4/item/39384-blueprint-mechanist-spirit",
-  "source_url": "https://masterwork.wiki/lu4/item/39384-blueprint-mechanist-spirit",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/39384-blueprint-mechanist-spirit",
   "raw_html": "library/raw/lu4/item/39384-blueprint-mechanist-spirit.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Blueprint needed to learn 'Mechanist Spirit'. Required: Warsmith - Lv. 70 To obtain this item, hunt the Lava Wyrm found in Blazing Swamp.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:39384",
-      "type": "item",
-      "id": 39384,
-      "name": "Lu4",
-      "url": "/lu4/item/39384-blueprint-mechanist-spirit"
-    },
-    {
       "key": "npc:21111",
       "type": "npc",
       "id": 21111,
-      "name": "Lava Wyrm Lv. 70",
+      "name": "Lava Wyrm",
       "url": "/lu4/npc/21111-lava-wyrm"
     }
   ]

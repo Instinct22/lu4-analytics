@@ -2,133 +2,67 @@
   "key": "npc:21093",
   "type": "npc",
   "id": 21093,
-  "name": "Lu4 Wiki: NPC Ratman Sub Chieftain",
+  "name": "Ratman Sub Chieftain",
   "url": "/lu4/npc/21093-ratman-sub-chieftain",
-  "source_url": "https://masterwork.wiki/lu4/npc/21093-ratman-sub-chieftain",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21093-ratman-sub-chieftain",
   "raw_html": "library/raw/lu4/npc/21093-ratman-sub-chieftain.html",
   "stats": {
-    "Location": "Охотничьи Угодья Зла (+2) Охотничьи Угодья Зла Туманные Горы Земли Глудио"
+    "Respawn Time": "15 seconds",
+    "Location": "Охотничьи Угодья Зла (+2) Охотничьи Угодья Зла Туманные Горы Земли Глудио",
+    "HP / MP": "512 / 225",
+    "P. Atk. / M. Atk.": "62 / 33",
+    "P. Def. / M. Def.": "74 / 71",
+    "Accuracy / Evasion": "55 / 64",
+    "Exp / SP": "549 / 55",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 19"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21093",
-      "type": "npc",
-      "id": 21093,
-      "name": "Lu4",
-      "url": "/lu4/npc/21093-ratman-sub-chieftain"
-    },
-    {
-      "key": "location:229",
-      "type": "location",
-      "id": 229,
-      "name": "Охотничьи Угодья Зла",
-      "url": "/lu4/location/229-ohotnici-ugoda-zla"
-    },
-    {
-      "key": "location:10",
-      "type": "location",
-      "id": 10,
-      "name": "Туманные Горы",
-      "url": "/lu4/location/10-tumannye-gory"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
-    },
-    {
-      "key": "item:2012",
-      "type": "item",
-      "id": 2012,
-      "name": "Sword of Reflection Blade NG",
-      "url": "/lu4/item/2012-sword-of-reflection-blade"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1801",
-      "type": "item",
-      "id": 1801,
-      "name": "Recipe: Piece Bone Gaiters NG",
-      "url": "/lu4/item/1801-recipe-piece-bone-gaiters"
-    },
-    {
-      "key": "item:121",
-      "type": "item",
-      "id": 121,
-      "name": "Sword of Watershadow NG",
-      "url": "/lu4/item/121-sword-of-watershadow"
-    },
-    {
-      "key": "item:120",
-      "type": "item",
-      "id": 120,
-      "name": "Sword of Reflection NG",
-      "url": "/lu4/item/120-sword-of-reflection"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "item:57",
@@ -145,11 +79,53 @@
       "url": "/lu4/item/2-long-sword"
     },
     {
-      "key": "item:1897",
+      "key": "item:120",
       "type": "item",
-      "id": 1897,
-      "name": "Necklace of Wisdom Chain NG",
-      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
+      "id": 120,
+      "name": "Sword of Reflection NG",
+      "url": "/lu4/item/120-sword-of-reflection"
+    },
+    {
+      "key": "item:121",
+      "type": "item",
+      "id": 121,
+      "name": "Sword of Watershadow NG",
+      "url": "/lu4/item/121-sword-of-watershadow"
+    },
+    {
+      "key": "item:2012",
+      "type": "item",
+      "id": 2012,
+      "name": "Sword of Reflection Blade NG",
+      "url": "/lu4/item/2012-sword-of-reflection-blade"
+    },
+    {
+      "key": "item:1801",
+      "type": "item",
+      "id": 1801,
+      "name": "Recipe: Piece Bone Gaiters NG",
+      "url": "/lu4/item/1801-recipe-piece-bone-gaiters"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
     },
     {
       "key": "item:1800",
@@ -157,6 +133,13 @@
       "id": 1800,
       "name": "Recipe: Piece Bone Breastplate NG",
       "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
+    },
+    {
+      "key": "item:1897",
+      "type": "item",
+      "id": 1897,
+      "name": "Necklace of Wisdom Chain NG",
+      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
     }
   ]
 }

@@ -2,131 +2,86 @@
   "key": "npc:21199",
   "type": "npc",
   "id": 21199,
-  "name": "Lu4 Wiki: NPC Nephilim Guard",
+  "name": "Nephilim Guard",
   "url": "/lu4/npc/21199-nephilim-guard",
-  "source_url": "https://masterwork.wiki/lu4/npc/21199-nephilim-guard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21199-nephilim-guard",
   "raw_html": "library/raw/lu4/npc/21199-nephilim-guard.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "11 224 / 1 168",
+    "P. Atk. / M. Atk.": "1 134 / 626",
+    "P. Def. / M. Def.": "280 / 259",
+    "Accuracy / Evasion": "100 / 100",
+    "Exp / SP": "18 788 / 1 560",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Strong P. Def. Lv. 14 Slightly Weak M. Def. Lv. 9 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks. Hold Resistance Lv. 5 Resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 57"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21199",
-      "type": "npc",
-      "id": 21199,
-      "name": "Lu4",
-      "url": "/lu4/npc/21199-nephilim-guard"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4336",
       "type": "skill",
       "id": 4336,
-      "name": "Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks.",
-      "url": "/lu4/skill/4336-dark-attack-vulnerability/2"
+      "name": "Dark Attack Vulnerability",
+      "url": "/lu4/skill/4336-dark-attack-vulnerability"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
-    },
-    {
-      "key": "item:49800",
-      "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32358",
-      "type": "item",
-      "id": 32358,
-      "name": "Unidentified Avadon Leather Armor B",
-      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
-    },
-    {
-      "key": "item:32357",
-      "type": "item",
-      "id": 32357,
-      "name": "Unidentified Zubei's Leather Gaiters B",
-      "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
-    },
-    {
-      "key": "item:32356",
-      "type": "item",
-      "id": 32356,
-      "name": "Unidentified Zubei's Leather Shirt B",
-      "url": "/lu4/item/32356-unidentified-zubeis-leather-shirt"
-    },
-    {
-      "key": "item:8311",
-      "type": "item",
-      "id": 8311,
-      "name": "Recipe: Kaim Vanul's Bones (100%) NG",
-      "url": "/lu4/item/8311-recipe-kaim-vanuls-bones-100"
-    },
-    {
-      "key": "item:6362",
-      "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
-    },
-    {
-      "key": "item:6361",
-      "type": "item",
-      "id": 6361,
-      "name": "Green Seal Stone NG",
-      "url": "/lu4/item/6361-green-seal-stone"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "item:6360",
@@ -136,11 +91,25 @@
       "url": "/lu4/item/6360-blue-seal-stone"
     },
     {
-      "key": "item:4163",
+      "key": "item:6361",
       "type": "item",
-      "id": 4163,
-      "name": "Recipe: Blue Wolf Stockings (100%) NG",
-      "url": "/lu4/item/4163-recipe-blue-wolf-stockings-100"
+      "id": 6361,
+      "name": "Green Seal Stone NG",
+      "url": "/lu4/item/6361-green-seal-stone"
+    },
+    {
+      "key": "item:6362",
+      "type": "item",
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
+    },
+    {
+      "key": "item:4066",
+      "type": "item",
+      "id": 4066,
+      "name": "Zubei's Leather Shirt Fabric NG",
+      "url": "/lu4/item/4066-zubeis-leather-shirt-fabric"
     },
     {
       "key": "item:4068",
@@ -150,6 +119,27 @@
       "url": "/lu4/item/4068-avadon-leather-armor-lining"
     },
     {
+      "key": "item:32356",
+      "type": "item",
+      "id": 32356,
+      "name": "Unidentified Zubei's Leather Shirt B",
+      "url": "/lu4/item/32356-unidentified-zubeis-leather-shirt"
+    },
+    {
+      "key": "item:32357",
+      "type": "item",
+      "id": 32357,
+      "name": "Unidentified Zubei's Leather Gaiters B",
+      "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
+    },
+    {
+      "key": "item:32358",
+      "type": "item",
+      "id": 32358,
+      "name": "Unidentified Avadon Leather Armor B",
+      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
+    },
+    {
       "key": "item:4067",
       "type": "item",
       "id": 4067,
@@ -157,11 +147,32 @@
       "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
     },
     {
-      "key": "item:4066",
+      "key": "item:49800",
       "type": "item",
-      "id": 4066,
-      "name": "Zubei's Leather Shirt Fabric NG",
-      "url": "/lu4/item/4066-zubeis-leather-shirt-fabric"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:8311",
+      "type": "item",
+      "id": 8311,
+      "name": "Recipe: Kaim Vanul's Bones (100%) NG",
+      "url": "/lu4/item/8311-recipe-kaim-vanuls-bones-100"
+    },
+    {
+      "key": "item:4163",
+      "type": "item",
+      "id": 4163,
+      "name": "Recipe: Blue Wolf Stockings (100%) NG",
+      "url": "/lu4/item/4163-recipe-blue-wolf-stockings-100"
+    },
+    {
+      "key": "item:948",
+      "type": "item",
+      "id": 948,
+      "name": "Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
       "key": "item:4041",
@@ -199,18 +210,11 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:948",
+      "key": "item:947",
       "type": "item",
-      "id": 948,
-      "name": "Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:4611",
-      "type": "item",
-      "id": 4611,
-      "name": "Greater Dye of WIT <Wit+3 Int-3> NG",
-      "url": "/lu4/item/4611-greater-dye-of-wit-wit3-int-3"
+      "id": 947,
+      "name": "Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
     },
     {
       "key": "item:4129",
@@ -220,11 +224,11 @@
       "url": "/lu4/item/4129-recipe-earring-of-black-ore-100"
     },
     {
-      "key": "item:947",
+      "key": "item:4611",
       "type": "item",
-      "id": 947,
-      "name": "Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+      "id": 4611,
+      "name": "Greater Dye of WIT <Wit+3 Int-3> NG",
+      "url": "/lu4/item/4611-greater-dye-of-wit-wit3-int-3"
     }
   ]
 }

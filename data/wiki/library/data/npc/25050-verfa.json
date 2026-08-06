@@ -2,61 +2,65 @@
   "key": "npc:25050",
   "type": "npc",
   "id": 25050,
-  "name": "Lu4 Wiki: NPC Verfa",
+  "name": "Verfa",
   "url": "/lu4/npc/25050-verfa",
-  "source_url": "https://masterwork.wiki/lu4/npc/25050-verfa",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25050-verfa",
   "raw_html": "library/raw/lu4/npc/25050-verfa.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 542 681 / 2 040",
+    "P. Atk. / M. Atk.": "1 749 / 931",
+    "P. Def. / M. Def.": "1 474 / 1 917",
+    "Accuracy / Evasion": "106 / 106",
+    "Exp / SP": "1 908 810 / 185 853",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 The Devil Kernon's confidant, he is a feisty and vicious devil. He overpowers his enemies with his immense strength and gigantic body. Currently, he is studying the inside of the Tower of Insolence at Kernon's command. A simple devil warrior, he believes that if he serves his superiors loyally, he will benefit from their promotions. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 55"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25050",
-      "type": "npc",
-      "id": 25050,
-      "name": "Lu4",
-      "url": "/lu4/npc/25050-verfa"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4807",
       "type": "skill",
       "id": 4807,
-      "name": "Raid Boss Lv. 1 The Devil Kernon's confidant, he is a feisty and vicious devil. He overpowers his enemies with his immense strength and gigantic body. Currently, he is studying the inside of the Tower of Insolence at Kernon's command. A simple devil warrior, he believes that if he serves his superiors loyally, he will benefit from their promotions.",
-      "url": "/lu4/skill/4807-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4807-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:49800",
@@ -66,25 +70,11 @@
       "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:32595",
+      "key": "item:32356",
       "type": "item",
-      "id": 32595,
-      "name": "Unidentified Zubei's Helmet B",
-      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
-    },
-    {
-      "key": "item:32364",
-      "type": "item",
-      "id": 32364,
-      "name": "Unidentified Avadon Circlet B",
-      "url": "/lu4/item/32364-unidentified-avadon-circlet"
-    },
-    {
-      "key": "item:32358",
-      "type": "item",
-      "id": 32358,
-      "name": "Unidentified Avadon Leather Armor B",
-      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
+      "id": 32356,
+      "name": "Unidentified Zubei's Leather Shirt B",
+      "url": "/lu4/item/32356-unidentified-zubeis-leather-shirt"
     },
     {
       "key": "item:32357",
@@ -94,11 +84,39 @@
       "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
     },
     {
-      "key": "item:32356",
+      "key": "item:32358",
       "type": "item",
-      "id": 32356,
-      "name": "Unidentified Zubei's Leather Shirt B",
-      "url": "/lu4/item/32356-unidentified-zubeis-leather-shirt"
+      "id": 32358,
+      "name": "Unidentified Avadon Leather Armor B",
+      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
+    },
+    {
+      "key": "item:4066",
+      "type": "item",
+      "id": 4066,
+      "name": "Zubei's Leather Shirt Fabric NG",
+      "url": "/lu4/item/4066-zubeis-leather-shirt-fabric"
+    },
+    {
+      "key": "item:4067",
+      "type": "item",
+      "id": 4067,
+      "name": "Zubei's Leather Gaiter Texture NG",
+      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
+    },
+    {
+      "key": "item:4068",
+      "type": "item",
+      "id": 4068,
+      "name": "Avadon Leather Armor Lining NG",
+      "url": "/lu4/item/4068-avadon-leather-armor-lining"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
     },
     {
       "key": "item:8176",
@@ -108,11 +126,39 @@
       "url": "/lu4/item/8176-destruction-tombstone"
     },
     {
-      "key": "item:6574",
+      "key": "item:32364",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+      "id": 32364,
+      "name": "Unidentified Avadon Circlet B",
+      "url": "/lu4/item/32364-unidentified-avadon-circlet"
+    },
+    {
+      "key": "item:32595",
+      "type": "item",
+      "id": 32595,
+      "name": "Unidentified Zubei's Helmet B",
+      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
+    },
+    {
+      "key": "item:4612",
+      "type": "item",
+      "id": 4612,
+      "name": "Greater Dye of WIT <Wit+3 Men-3> NG",
+      "url": "/lu4/item/4612-greater-dye-of-wit-wit3-men-3"
+    },
+    {
+      "key": "item:4611",
+      "type": "item",
+      "id": 4611,
+      "name": "Greater Dye of WIT <Wit+3 Int-3> NG",
+      "url": "/lu4/item/4611-greater-dye-of-wit-wit3-int-3"
+    },
+    {
+      "key": "item:4610",
+      "type": "item",
+      "id": 4610,
+      "name": "Greater Dye of MEN <Men+3 Wit-3> NG",
+      "url": "/lu4/item/4610-greater-dye-of-men-men3-wit-3"
     }
   ]
 }

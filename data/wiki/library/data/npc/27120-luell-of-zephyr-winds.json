@@ -2,26 +2,29 @@
   "key": "npc:27120",
   "type": "npc",
   "id": 27120,
-  "name": "Lu4 Wiki: NPC Luell Of Zephyr Winds",
+  "name": "Luell Of Zephyr Winds",
   "url": "/lu4/npc/27120-luell-of-zephyr-winds",
-  "source_url": "https://masterwork.wiki/lu4/npc/27120-luell-of-zephyr-winds",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27120-luell-of-zephyr-winds",
   "raw_html": "library/raw/lu4/npc/27120-luell-of-zephyr-winds.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 338 / 533",
+    "P. Atk. / M. Atk.": "235 / 128",
+    "P. Def. / M. Def.": "210 / 148",
+    "Accuracy / Evasion": "65 / 75",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
+    "Type": "Elemental, Lv. 37"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:27120",
-      "type": "npc",
-      "id": 27120,
-      "name": "Lu4",
-      "url": "/lu4/npc/27120-luell-of-zephyr-winds"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     }
   ]
 }

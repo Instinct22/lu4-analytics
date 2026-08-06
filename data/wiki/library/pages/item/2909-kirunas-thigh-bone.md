@@ -1,68 +1,16 @@
-# Lu4 Wiki: Item Kiruna&#039;s Thigh Bone
+# Kiruna's Thigh Bone
 
-- Source: https://masterwork.wiki/lu4/item/2909-kirunas-thigh-bone
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2909-kirunas-thigh-bone
 - Path: /lu4/item/2909-kirunas-thigh-bone
 - Type: item
 - Key: item:2909
 
 ## Stats
+- Effect: The thigh bones of Kiruna, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Racoy.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Kiruna&#039;s Thigh Bone
-Lu4
-Eternal
-MasterWork
-Kiruna's Thigh Bone
-NG
-Quest Item
-The thigh bones of Kiruna, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Racoy.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-MasterWork 2026
-All rights reserved
+Kiruna's Thigh Bone NG Quest Item The thigh bones of Kiruna, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Racoy. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

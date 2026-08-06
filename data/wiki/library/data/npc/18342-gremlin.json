@@ -2,77 +2,39 @@
   "key": "npc:18342",
   "type": "npc",
   "id": 18342,
-  "name": "Lu4 Wiki: NPC Gremlin",
+  "name": "Gremlin",
   "url": "/lu4/npc/18342-gremlin",
-  "source_url": "https://masterwork.wiki/lu4/npc/18342-gremlin",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/18342-gremlin",
   "raw_html": "library/raw/lu4/npc/18342-gremlin.html",
   "stats": {
-    "Location": "Школа Сэдрика (+5) Школа Сэдрика Школа Магов Айнховант Тень Древа Жизни Храм Шилен Храм Паагрио Рудник Возрождения"
+    "Respawn Time": "10 seconds",
+    "Location": "Школа Сэдрика (+5) Школа Сэдрика Школа Магов Айнховант Тень Древа Жизни Храм Шилен Храм Паагрио Рудник Возрождения",
+    "HP / MP": "59 / 49",
+    "P. Atk. / M. Atk.": "9 / 3",
+    "P. Def. / M. Def.": "39 / 30",
+    "Accuracy / Evasion": "34 / 34",
+    "Exp / SP": "61 / 6",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 1"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:18342",
-      "type": "npc",
-      "id": 18342,
-      "name": "Lu4",
-      "url": "/lu4/npc/18342-gremlin"
-    },
-    {
-      "key": "location:36",
-      "type": "location",
-      "id": 36,
-      "name": "Школа Сэдрика",
-      "url": "/lu4/location/36-skola-sedrika"
-    },
-    {
-      "key": "location:37",
-      "type": "location",
-      "id": 37,
-      "name": "Школа Магов Айнховант",
-      "url": "/lu4/location/37-skola-magov-ajnhovant"
-    },
-    {
-      "key": "location:111",
-      "type": "location",
-      "id": 111,
-      "name": "Тень Древа Жизни",
-      "url": "/lu4/location/111-ten-dreva-zizni"
-    },
-    {
-      "key": "location:108",
-      "type": "location",
-      "id": 108,
-      "name": "Храм Шилен",
-      "url": "/lu4/location/108-hram-silen"
-    },
-    {
-      "key": "location:63",
-      "type": "location",
-      "id": 63,
-      "name": "Храм Паагрио",
-      "url": "/lu4/location/63-hram-paagrio"
-    },
-    {
-      "key": "location:67",
-      "type": "location",
-      "id": 67,
-      "name": "Рудник Возрождения",
-      "url": "/lu4/location/67-rudnik-vozrozdenia"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "item:57",

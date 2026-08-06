@@ -2,35 +2,31 @@
   "key": "npc:27004",
   "type": "npc",
   "id": 27004,
-  "name": "Lu4 Wiki: NPC Spirit Of Mirrors",
+  "name": "Spirit Of Mirrors",
   "url": "/lu4/npc/27004-spirit-of-mirrors",
-  "source_url": "https://masterwork.wiki/lu4/npc/27004-spirit-of-mirrors",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27004-spirit-of-mirrors",
   "raw_html": "library/raw/lu4/npc/27004-spirit-of-mirrors.html",
   "stats": {
-    "Location": "Говорящий Остров (север)"
+    "Respawn Time": "10 seconds",
+    "Location": "Говорящий Остров (север)",
+    "HP / MP": "258 / 133",
+    "P. Atk. / M. Atk.": "22 / 11",
+    "P. Def. / M. Def.": "61 / 50",
+    "Accuracy / Evasion": "46 / 45",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Type": "Humanoid, Lv. 10"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:27004",
-      "type": "npc",
-      "id": 27004,
-      "name": "Lu4",
-      "url": "/lu4/npc/27004-spirit-of-mirrors"
-    },
-    {
-      "key": "location:259",
-      "type": "location",
-      "id": 259,
-      "name": "Говорящий Остров (север)",
-      "url": "/lu4/location/259-govorasij-ostrov-sever"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     }
   ]
 }

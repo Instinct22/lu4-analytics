@@ -2,42 +2,39 @@
   "key": "item:8273",
   "type": "item",
   "id": 8273,
-  "name": "Lu4 Wiki: Item Anteroom Key",
+  "name": "Anteroom Key",
   "url": "/lu4/item/8273-anteroom-key",
-  "source_url": "https://masterwork.wiki/lu4/item/8273-anteroom-key",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8273-anteroom-key",
   "raw_html": "library/raw/lu4/item/8273-anteroom-key.html",
   "stats": {
+    "Effect": "Opens the door to one of the Anterooms within the Pagan Temple.",
+    "Weight": "0",
     "Item Skills": "Anteroom Door Key Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8273",
-      "type": "item",
-      "id": 8273,
-      "name": "Lu4",
-      "url": "/lu4/item/8273-anteroom-key"
-    },
-    {
       "key": "skill:2235",
       "type": "skill",
       "id": 2235,
-      "name": "Anteroom Door Key Lv. 1",
-      "url": "/lu4/skill/2235-anteroom-door-key/1"
+      "name": "Anteroom Door Key",
+      "url": "/lu4/skill/2235-anteroom-door-key"
     },
     {
       "key": "npc:22149",
       "type": "npc",
       "id": 22149,
-      "name": "Ritual Offering Lv. 80",
+      "name": "Ritual Offering",
       "url": "/lu4/npc/22149-ritual-offering"
     },
     {
       "key": "npc:22140",
       "type": "npc",
       "id": 22140,
-      "name": "Zombie Worker Lv. 80",
+      "name": "Zombie Worker",
       "url": "/lu4/npc/22140-zombie-worker"
     }
   ]

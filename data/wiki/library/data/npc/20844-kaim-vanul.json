@@ -2,119 +2,95 @@
   "key": "npc:20844",
   "type": "npc",
   "id": 20844,
-  "name": "Lu4 Wiki: NPC Kaim Vanul",
+  "name": "Kaim Vanul",
   "url": "/lu4/npc/20844-kaim-vanul",
-  "source_url": "https://masterwork.wiki/lu4/npc/20844-kaim-vanul",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20844-kaim-vanul",
   "raw_html": "library/raw/lu4/npc/20844-kaim-vanul.html",
   "stats": {
-    "Location": "Остров Дьявола"
+    "Respawn Time": "1 minute",
+    "Location": "Остров Дьявола",
+    "HP / MP": "6 977 / 956",
+    "P. Atk. / M. Atk.": "625 / 294",
+    "P. Def. / M. Def.": "301 / 199",
+    "Accuracy / Evasion": "84 / 84",
+    "Exp / SP": "7 548 / 755",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Strong P. Def. Lv. 12 Slightly Weak M. Def. Lv. 9 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 51"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20844",
-      "type": "npc",
-      "id": 20844,
-      "name": "Lu4",
-      "url": "/lu4/npc/20844-kaim-vanul"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:4609",
-      "type": "item",
-      "id": 4609,
-      "name": "Greater Dye of MEN <Men+3 Int-3> NG",
-      "url": "/lu4/item/4609-greater-dye-of-men-men3-int-3"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4601",
@@ -124,39 +100,11 @@
       "url": "/lu4/item/4601-greater-dye-of-str-str3-con-3"
     },
     {
-      "key": "item:4055",
-      "type": "item",
-      "id": 4055,
-      "name": "Composite Shield Fragment NG",
-      "url": "/lu4/item/4055-composite-shield-fragment"
-    },
-    {
       "key": "item:4041",
       "type": "item",
       "id": 4041,
       "name": "Mold Hardener NG",
       "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:2955",
-      "type": "item",
-      "id": 2955,
-      "name": "Theca Leather Gloves Texture NG",
-      "url": "/lu4/item/2955-theca-leather-gloves-texture"
-    },
-    {
-      "key": "item:2460",
-      "type": "item",
-      "id": 2460,
-      "name": "Theca Leather Gloves C",
-      "url": "/lu4/item/2460-theca-leather-gloves"
-    },
-    {
-      "key": "item:2107",
-      "type": "item",
-      "id": 2107,
-      "name": "Dark Screamer Edge NG",
-      "url": "/lu4/item/2107-dark-screamer-edge"
     },
     {
       "key": "item:1881",
@@ -187,11 +135,11 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:233",
+      "key": "item:4609",
       "type": "item",
-      "id": 233,
-      "name": "Dark Screamer C",
-      "url": "/lu4/item/233-dark-screamer"
+      "id": 4609,
+      "name": "Greater Dye of MEN <Men+3 Int-3> NG",
+      "url": "/lu4/item/4609-greater-dye-of-men-men3-int-3"
     },
     {
       "key": "item:107",
@@ -201,11 +149,67 @@
       "url": "/lu4/item/107-composite-shield"
     },
     {
-      "key": "item:57",
+      "key": "item:4055",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4055,
+      "name": "Composite Shield Fragment NG",
+      "url": "/lu4/item/4055-composite-shield-fragment"
+    },
+    {
+      "key": "item:233",
+      "type": "item",
+      "id": 233,
+      "name": "Dark Screamer C",
+      "url": "/lu4/item/233-dark-screamer"
+    },
+    {
+      "key": "item:2107",
+      "type": "item",
+      "id": 2107,
+      "name": "Dark Screamer Edge NG",
+      "url": "/lu4/item/2107-dark-screamer-edge"
+    },
+    {
+      "key": "item:2460",
+      "type": "item",
+      "id": 2460,
+      "name": "Theca Leather Gloves C",
+      "url": "/lu4/item/2460-theca-leather-gloves"
+    },
+    {
+      "key": "item:2955",
+      "type": "item",
+      "id": 2955,
+      "name": "Theca Leather Gloves Texture NG",
+      "url": "/lu4/item/2955-theca-leather-gloves-texture"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1539",
+      "type": "item",
+      "id": 1539,
+      "name": "Greater Healing Potion NG",
+      "url": "/lu4/item/1539-greater-healing-potion"
     },
     {
       "key": "item:3010",
@@ -222,13 +226,6 @@
       "url": "/lu4/item/2166-recipe-earring-of-seal-100"
     },
     {
-      "key": "item:2094",
-      "type": "item",
-      "id": 2094,
-      "name": "Sword of Limit Blade NG",
-      "url": "/lu4/item/2094-sword-of-limit-blade"
-    },
-    {
       "key": "item:2090",
       "type": "item",
       "id": 2090,
@@ -236,18 +233,18 @@
       "url": "/lu4/item/2090-delusional-blade"
     },
     {
+      "key": "item:2094",
+      "type": "item",
+      "id": 2094,
+      "name": "Sword of Limit Blade NG",
+      "url": "/lu4/item/2094-sword-of-limit-blade"
+    },
+    {
       "key": "item:1984",
       "type": "item",
       "id": 1984,
       "name": "Theca Leather Armor Pattern NG",
       "url": "/lu4/item/1984-theca-leather-armor-pattern"
-    },
-    {
-      "key": "item:1539",
-      "type": "item",
-      "id": 1539,
-      "name": "Greater Healing Potion NG",
-      "url": "/lu4/item/1539-greater-healing-potion"
     }
   ]
 }

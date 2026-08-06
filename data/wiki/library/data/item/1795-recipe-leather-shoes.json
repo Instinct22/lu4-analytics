@@ -2,48 +2,24 @@
   "key": "item:1795",
   "type": "item",
   "id": 1795,
-  "name": "Recipe",
+  "name": "Recipe: Leather Shoes",
   "url": "/lu4/item/1795-recipe-leather-shoes",
-  "source_url": "https://masterwork.wiki/lu4/item/1795-recipe-leather-shoes",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1795-recipe-leather-shoes",
   "raw_html": "library/raw/lu4/item/1795-recipe-leather-shoes.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Leather Shoes'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "27 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "45",
     "Success Rate": "100%",
-    "Result": "Leather Shoes NG"
+    "Result": "Leather Shoes NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1921",
-      "type": "item",
-      "id": 1921,
-      "name": "Leather Shoes Texture NG",
-      "amount": "2"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "1"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:1795",
-      "type": "item",
-      "id": 1795,
-      "name": "Lu4",
-      "url": "/lu4/item/1795-recipe-leather-shoes"
-    },
     {
       "key": "item:1921",
       "type": "item",
@@ -76,28 +52,28 @@
       "key": "npc:20469",
       "type": "npc",
       "id": 20469,
-      "name": "Kaboo Orc Archer Lv. 8",
+      "name": "Kaboo Orc Archer",
       "url": "/lu4/npc/20469-kaboo-orc-archer"
     },
     {
       "key": "npc:20468",
       "type": "npc",
       "id": 20468,
-      "name": "Kaboo Orc Lv. 6",
+      "name": "Kaboo Orc",
       "url": "/lu4/npc/20468-kaboo-orc"
     },
     {
       "key": "npc:20324",
       "type": "npc",
       "id": 20324,
-      "name": "Goblin Brigand Lieutenant Lv. 10",
+      "name": "Goblin Brigand Lieutenant",
       "url": "/lu4/npc/20324-goblin-brigand-lieutenant"
     },
     {
       "key": "npc:20343",
       "type": "npc",
       "id": 20343,
-      "name": "Werewolf Hunter Lv. 10",
+      "name": "Werewolf Hunter",
       "url": "/lu4/npc/20343-werewolf-hunter"
     }
   ]

@@ -2,105 +2,67 @@
   "key": "npc:20488",
   "type": "npc",
   "id": 20488,
-  "name": "Lu4 Wiki: NPC Kuruka Ratman Hunter",
+  "name": "Kuruka Ratman Hunter",
   "url": "/lu4/npc/20488-kuruka-ratman-hunter",
-  "source_url": "https://masterwork.wiki/lu4/npc/20488-kuruka-ratman-hunter",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20488-kuruka-ratman-hunter",
   "raw_html": "library/raw/lu4/npc/20488-kuruka-ratman-hunter.html",
   "stats": {
-    "Location": "Кайнак (+1) Кайнак Плато Бессмертия"
+    "Respawn Time": "35 seconds",
+    "Location": "Кайнак (+1) Кайнак Плато Бессмертия",
+    "HP / MP": "1 365 / 204",
+    "P. Atk. / M. Atk.": "42 / 21",
+    "P. Def. / M. Def.": "98 / 79",
+    "Accuracy / Evasion": "53 / 52",
+    "Exp / SP": "1 326 / 133",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 17"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20488",
-      "type": "npc",
-      "id": 20488,
-      "name": "Lu4",
-      "url": "/lu4/npc/20488-kuruka-ratman-hunter"
-    },
-    {
-      "key": "location:60",
-      "type": "location",
-      "id": 60,
-      "name": "Кайнак",
-      "url": "/lu4/location/60-kajnak"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:2140",
-      "type": "item",
-      "id": 2140,
-      "name": "Recipe: High-Grade Suede NG",
-      "url": "/lu4/item/2140-recipe-high-grade-suede"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:256",
-      "type": "item",
-      "id": 256,
-      "name": "Cestus NG",
-      "url": "/lu4/item/256-cestus"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -110,11 +72,39 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1800",
+      "key": "item:256",
       "type": "item",
-      "id": 1800,
-      "name": "Recipe: Piece Bone Breastplate NG",
-      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
+      "id": 256,
+      "name": "Cestus NG",
+      "url": "/lu4/item/256-cestus"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:2140",
+      "type": "item",
+      "id": 2140,
+      "name": "Recipe: High-Grade Suede NG",
+      "url": "/lu4/item/2140-recipe-high-grade-suede"
+    },
+    {
+      "key": "item:412",
+      "type": "item",
+      "id": 412,
+      "name": "Cotton Pants NG",
+      "url": "/lu4/item/412-cotton-pants"
     },
     {
       "key": "item:734",
@@ -124,11 +114,11 @@
       "url": "/lu4/item/734-haste-potion"
     },
     {
-      "key": "item:412",
+      "key": "item:1800",
       "type": "item",
-      "id": 412,
-      "name": "Cotton Pants NG",
-      "url": "/lu4/item/412-cotton-pants"
+      "id": 1800,
+      "name": "Recipe: Piece Bone Breastplate NG",
+      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
     }
   ]
 }

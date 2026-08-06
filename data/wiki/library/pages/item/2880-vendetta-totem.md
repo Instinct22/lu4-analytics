@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Vendetta Totem
+# Vendetta Totem
 
-- Source: https://masterwork.wiki/lu4/item/2880-vendetta-totem
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2880-vendetta-totem
 - Path: /lu4/item/2880-vendetta-totem
 - Type: item
 - Key: item:2880
 
 ## Stats
+- Effect: A totem given to the Orcs who seek to punish betrayers of their race. Take this and hunt the Tamlin Orcs.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Vendetta Totem
-Lu4
-Eternal
-MasterWork
-Vendetta Totem
-NG
-Quest Item
-A totem given to the Orcs who seek to punish betrayers of their race. Take this and hunt the Tamlin Orcs.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Test of the War Spirit
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Vendetta Totem NG Quest Item A totem given to the Orcs who seek to punish betrayers of their race. Take this and hunt the Tamlin Orcs. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

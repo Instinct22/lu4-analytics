@@ -2,54 +2,51 @@
   "key": "npc:25177",
   "type": "npc",
   "id": 25177,
-  "name": "Lu4 Wiki: NPC Guardian Knight of Black Lily",
+  "name": "Guardian Knight of Black Lily",
   "url": "/lu4/npc/25177-guardian-knight-of-black-lily",
-  "source_url": "https://masterwork.wiki/lu4/npc/25177-guardian-knight-of-black-lily",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25177-guardian-knight-of-black-lily",
   "raw_html": "library/raw/lu4/npc/25177-guardian-knight-of-black-lily.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "46 232 / 1 096",
+    "P. Atk. / M. Atk.": "1 553 / 2 626",
+    "P. Def. / M. Def.": "641 / 524",
+    "Accuracy / Evasion": "87 / 87",
+    "Exp / SP": "0 / 1 116",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 54"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25177",
-      "type": "npc",
-      "id": 25177,
-      "name": "Lu4",
-      "url": "/lu4/npc/25177-guardian-knight-of-black-lily"
-    },
-    {
-      "key": "location:12",
-      "type": "location",
-      "id": 12,
-      "name": "Долина Драконов",
-      "url": "/lu4/location/12-dolina-drakonov"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:1539",

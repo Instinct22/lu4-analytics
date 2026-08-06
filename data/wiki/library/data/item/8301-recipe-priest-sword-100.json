@@ -2,125 +2,24 @@
   "key": "item:8301",
   "type": "item",
   "id": 8301,
-  "name": "Recipe",
+  "name": "Recipe: Priest Sword (100%)",
   "url": "/lu4/item/8301-recipe-priest-sword-100",
-  "source_url": "https://masterwork.wiki/lu4/item/8301-recipe-priest-sword-100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8301-recipe-priest-sword-100",
   "raw_html": "library/raw/lu4/item/8301-recipe-priest-sword-100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Priest Sword'. Requires Create Item - Skill Level 2 (Artisan Lv. 20). The success rate is 100%.",
+    "NPC Sell Price": "4 090 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "84",
     "Success Rate": "100%",
-    "Result": "Priest Sword D"
+    "Result": "Priest Sword D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:8332",
-      "type": "item",
-      "id": 8332,
-      "name": "Priest Sword Blade NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1883",
-      "type": "item",
-      "id": 1883,
-      "name": "Steel Mold NG",
-      "amount": "2"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "50"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "50"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "250"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "250"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "50"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "150"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "150"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "117"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "34"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:8301",
-      "type": "item",
-      "id": 8301,
-      "name": "Lu4",
-      "url": "/lu4/item/8301-recipe-priest-sword-100"
-    },
     {
       "key": "item:8332",
       "type": "item",
@@ -216,28 +115,28 @@
       "key": "npc:21119",
       "type": "npc",
       "id": 21119,
-      "name": "Hobgoblin Lv. 21",
+      "name": "Hobgoblin",
       "url": "/lu4/npc/21119-hobgoblin"
     },
     {
       "key": "npc:20053",
       "type": "npc",
       "id": 20053,
-      "name": "Ol Mahum Patrol Lv. 21",
+      "name": "Ol Mahum Patrol",
       "url": "/lu4/npc/20053-ol-mahum-patrol"
     },
     {
       "key": "npc:34648",
       "type": "npc",
       "id": 34648,
-      "name": "Unicorn Lv. 21",
+      "name": "Unicorn",
       "url": "/lu4/npc/34648-unicorn"
     },
     {
       "key": "npc:20507",
       "type": "npc",
       "id": 20507,
-      "name": "Ruin Imp Elder Lv. 21",
+      "name": "Ruin Imp Elder",
       "url": "/lu4/npc/20507-ruin-imp-elder"
     }
   ]

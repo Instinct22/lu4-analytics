@@ -2,56 +2,51 @@
   "key": "npc:25007",
   "type": "npc",
   "id": 25007,
-  "name": "Lu4 Wiki: NPC Retreat Spider Cletu",
+  "name": "Retreat Spider Cletu",
   "url": "/lu4/npc/25007-retreat-spider-cletu",
-  "source_url": "https://masterwork.wiki/lu4/npc/25007-retreat-spider-cletu",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25007-retreat-spider-cletu",
   "raw_html": "library/raw/lu4/npc/25007-retreat-spider-cletu.html",
   "stats": {
-    "Location": "Земли Адена"
+    "HP / MP": "314 946 / 2 358",
+    "P. Atk. / M. Atk.": "1 937 / 954",
+    "P. Def. / M. Def.": "653 / 702",
+    "Accuracy / Evasion": "93 / 98",
+    "Exp / SP": "1 323 000 / 251 972",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A wicked Spider that once lived in the Wastelands while Beleth was free. After Beleth was sealed away, the Spider was chased away by a colony of Ants, empowered by M. Atk. of the Wastelands. The Spider was forced to retreat to this place. It swears that someday it will feed on the Ants and destroy them. It quietly grows in power while sharpening its fangs for vengeance. Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 42"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25007",
-      "type": "npc",
-      "id": 25007,
-      "name": "Lu4",
-      "url": "/lu4/npc/25007-retreat-spider-cletu"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4792",
       "type": "skill",
       "id": 4792,
-      "name": "Raid Boss Lv. 1 A wicked Spider that once lived in the Wastelands while Beleth was free. After Beleth was sealed away, the Spider was chased away by a colony of Ants, empowered by M. Atk. of the Wastelands. The Spider was forced to retreat to this place. It swears that someday it will feed on the Ants and destroy them. It quietly grows in power while sharpening its fangs for vengeance.",
-      "url": "/lu4/skill/4792-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4792-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,32 +56,18 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:2085",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 2085,
+      "name": "Elemental Bow Shaft NG",
+      "url": "/lu4/item/2085-elemental-bow-shaft"
     },
     {
-      "key": "item:6575",
+      "key": "item:282",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+      "id": 282,
+      "name": "Elemental Bow C",
+      "url": "/lu4/item/282-elemental-bow"
     },
     {
       "key": "item:2086",
@@ -96,18 +77,11 @@
       "url": "/lu4/item/2086-noble-elven-bow-shaft"
     },
     {
-      "key": "item:2085",
+      "key": "item:285",
       "type": "item",
-      "id": 2085,
-      "name": "Elemental Bow Shaft NG",
-      "url": "/lu4/item/2085-elemental-bow-shaft"
-    },
-    {
-      "key": "item:1976",
-      "type": "item",
-      "id": 1976,
-      "name": "Rind Leather Gaiters Material NG",
-      "url": "/lu4/item/1976-rind-leather-gaiters-material"
+      "id": 285,
+      "name": "Noble Elven Bow C",
+      "url": "/lu4/item/285-noble-elven-bow"
     },
     {
       "key": "item:1975",
@@ -131,32 +105,11 @@
       "url": "/lu4/item/1966-plated-leather-shirt-fragment"
     },
     {
-      "key": "item:956",
+      "key": "item:1976",
       "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+      "id": 1976,
+      "name": "Rind Leather Gaiters Material NG",
+      "url": "/lu4/item/1976-rind-leather-gaiters-material"
     },
     {
       "key": "item:419",
@@ -187,11 +140,53 @@
       "url": "/lu4/item/398-plated-leather-shirt"
     },
     {
-      "key": "item:285",
+      "key": "item:956",
       "type": "item",
-      "id": 285,
-      "name": "Noble Elven Bow C",
-      "url": "/lu4/item/285-noble-elven-bow"
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "npc:25008",

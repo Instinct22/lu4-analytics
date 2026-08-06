@@ -2,133 +2,95 @@
   "key": "npc:20599",
   "type": "npc",
   "id": 20599,
-  "name": "Lu4 Wiki: NPC Unicorn Elder",
+  "name": "Unicorn Elder",
   "url": "/lu4/npc/20599-unicorn-elder",
-  "source_url": "https://masterwork.wiki/lu4/npc/20599-unicorn-elder",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20599-unicorn-elder",
   "raw_html": "library/raw/lu4/npc/20599-unicorn-elder.html",
   "stats": {
-    "Location": "Волшебная Долина"
+    "Respawn Time": "1 minute, 5 seconds ± 5 seconds",
+    "Location": "Волшебная Долина",
+    "HP / MP": "13 248 / 1 096",
+    "P. Atk. / M. Atk.": "895 / 581",
+    "P. Def. / M. Def.": "290 / 212",
+    "Accuracy / Evasion": "83 / 93",
+    "Exp / SP": "19 640 / 1 964",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 HP Increase (5x) Lv. 13 Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Slightly Weak P. Def. Lv. 9 Slightly Weak M. Def. Lv. 9 Stun Attack Resistance Lv. 5 Resistant to Stun. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 55"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20599",
-      "type": "npc",
-      "id": 20599,
-      "name": "Lu4",
-      "url": "/lu4/npc/20599-unicorn-elder"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:8338",
-      "type": "item",
-      "id": 8338,
-      "name": "Axe of Eclipse Head NG",
-      "url": "/lu4/item/8338-axe-of-eclipse-head"
-    },
-    {
-      "key": "item:7891",
-      "type": "item",
-      "id": 7891,
-      "name": "Ecliptic Axe C",
-      "url": "/lu4/item/7891-ecliptic-axe"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:2966",
-      "type": "item",
-      "id": 2966,
-      "name": "Full Plate Shield Fragment NG",
-      "url": "/lu4/item/2966-full-plate-shield-fragment"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2964",
@@ -138,81 +100,11 @@
       "url": "/lu4/item/2964-divine-gloves-pattern"
     },
     {
-      "key": "item:2497",
+      "key": "item:49800",
       "type": "item",
-      "id": 2497,
-      "name": "Full Plate Shield C",
-      "url": "/lu4/item/2497-full-plate-shield"
-    },
-    {
-      "key": "item:2121",
-      "type": "item",
-      "id": 2121,
-      "name": "Eminence Bow Shaft NG",
-      "url": "/lu4/item/2121-eminence-bow-shaft"
-    },
-    {
-      "key": "item:2118",
-      "type": "item",
-      "id": 2118,
-      "name": "Demon's Staff Head NG",
-      "url": "/lu4/item/2118-demons-staff-head"
-    },
-    {
-      "key": "item:2117",
-      "type": "item",
-      "id": 2117,
-      "name": "Ghoul's Staff Head NG",
-      "url": "/lu4/item/2117-ghouls-staff-head"
-    },
-    {
-      "key": "item:2115",
-      "type": "item",
-      "id": 2115,
-      "name": "Samurai Longsword Blade NG",
-      "url": "/lu4/item/2115-samurai-longsword-blade"
-    },
-    {
-      "key": "item:2112",
-      "type": "item",
-      "id": 2112,
-      "name": "Pa'agrian Axe Blade NG",
-      "url": "/lu4/item/2112-paagrian-axe-blade"
-    },
-    {
-      "key": "item:1989",
-      "type": "item",
-      "id": 1989,
-      "name": "Divine Stocking Pattern NG",
-      "url": "/lu4/item/1989-divine-stocking-pattern"
-    },
-    {
-      "key": "item:1988",
-      "type": "item",
-      "id": 1988,
-      "name": "Divine Tunic Fabric NG",
-      "url": "/lu4/item/1988-divine-tunic-fabric"
-    },
-    {
-      "key": "item:1987",
-      "type": "item",
-      "id": 1987,
-      "name": "Drake Leather Armor Texture NG",
-      "url": "/lu4/item/1987-drake-leather-armor-texture"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:1866",
@@ -222,11 +114,116 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:473",
+      "key": "item:1871",
       "type": "item",
-      "id": 473,
-      "name": "Divine Stockings C",
-      "url": "/lu4/item/473-divine-stockings"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:206",
+      "type": "item",
+      "id": 206,
+      "name": "Demon's Staff C",
+      "url": "/lu4/item/206-demons-staff"
+    },
+    {
+      "key": "item:2118",
+      "type": "item",
+      "id": 2118,
+      "name": "Demon's Staff Head NG",
+      "url": "/lu4/item/2118-demons-staff-head"
+    },
+    {
+      "key": "item:7891",
+      "type": "item",
+      "id": 7891,
+      "name": "Ecliptic Axe C",
+      "url": "/lu4/item/7891-ecliptic-axe"
+    },
+    {
+      "key": "item:8338",
+      "type": "item",
+      "id": 8338,
+      "name": "Axe of Eclipse Head NG",
+      "url": "/lu4/item/8338-axe-of-eclipse-head"
+    },
+    {
+      "key": "item:286",
+      "type": "item",
+      "id": 286,
+      "name": "Eminence Bow C",
+      "url": "/lu4/item/286-eminence-bow"
+    },
+    {
+      "key": "item:2121",
+      "type": "item",
+      "id": 2121,
+      "name": "Eminence Bow Shaft NG",
+      "url": "/lu4/item/2121-eminence-bow-shaft"
+    },
+    {
+      "key": "item:205",
+      "type": "item",
+      "id": 205,
+      "name": "Ghoul's Staff C",
+      "url": "/lu4/item/205-ghouls-staff"
+    },
+    {
+      "key": "item:2117",
+      "type": "item",
+      "id": 2117,
+      "name": "Ghoul's Staff Head NG",
+      "url": "/lu4/item/2117-ghouls-staff-head"
+    },
+    {
+      "key": "item:203",
+      "type": "item",
+      "id": 203,
+      "name": "Pa'agrian Axe C",
+      "url": "/lu4/item/203-paagrian-axe"
+    },
+    {
+      "key": "item:2112",
+      "type": "item",
+      "id": 2112,
+      "name": "Pa'agrian Axe Blade NG",
+      "url": "/lu4/item/2112-paagrian-axe-blade"
+    },
+    {
+      "key": "item:135",
+      "type": "item",
+      "id": 135,
+      "name": "Samurai Longsword C",
+      "url": "/lu4/item/135-samurai-longsword"
+    },
+    {
+      "key": "item:2115",
+      "type": "item",
+      "id": 2115,
+      "name": "Samurai Longsword Blade NG",
+      "url": "/lu4/item/2115-samurai-longsword-blade"
     },
     {
       "key": "item:4590",
@@ -236,11 +233,11 @@
       "url": "/lu4/item/4590-greater-dye-of-str-str2-dex-2"
     },
     {
-      "key": "item:2960",
+      "key": "item:2354",
       "type": "item",
-      "id": 2960,
-      "name": "Drake Leather Boots Design NG",
-      "url": "/lu4/item/2960-drake-leather-boots-design"
+      "id": 2354,
+      "name": "Recipe: Deadman's Staff NG",
+      "url": "/lu4/item/2354-recipe-deadmans-staff"
     },
     {
       "key": "item:2358",
@@ -250,11 +247,11 @@
       "url": "/lu4/item/2358-recipe-great-pata"
     },
     {
-      "key": "item:2354",
+      "key": "item:2960",
       "type": "item",
-      "id": 2354,
-      "name": "Recipe: Deadman's Staff NG",
-      "url": "/lu4/item/2354-recipe-deadmans-staff"
+      "id": 2960,
+      "name": "Drake Leather Boots Design NG",
+      "url": "/lu4/item/2960-drake-leather-boots-design"
     }
   ]
 }

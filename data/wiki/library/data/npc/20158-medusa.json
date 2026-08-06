@@ -2,133 +2,46 @@
   "key": "npc:20158",
   "type": "npc",
   "id": 20158,
-  "name": "Lu4 Wiki: NPC Medusa",
+  "name": "Medusa",
   "url": "/lu4/npc/20158-medusa",
-  "source_url": "https://masterwork.wiki/lu4/npc/20158-medusa",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20158-medusa",
   "raw_html": "library/raw/lu4/npc/20158-medusa.html",
   "stats": {
-    "Location": "Сад Горгон"
+    "Respawn Time": "27 seconds",
+    "Location": "Сад Горгон",
+    "HP / MP": "1 183 / 473",
+    "P. Atk. / M. Atk.": "182 / 89",
+    "P. Def. / M. Def.": "174 / 147",
+    "Accuracy / Evasion": "67 / 67",
+    "Exp / SP": "1 243 / 124",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% One-handed Sword Lv. 3 One-handed Sword",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 34"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20158",
-      "type": "npc",
-      "id": 20158,
-      "name": "Lu4",
-      "url": "/lu4/npc/20158-medusa"
-    },
-    {
-      "key": "location:174",
-      "type": "location",
-      "id": 174,
-      "name": "Сад Горгон",
-      "url": "/lu4/location/174-sad-gorgon"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:2925",
-      "type": "item",
-      "id": 2925,
-      "name": "Elven Mithril Boots Design NG",
-      "url": "/lu4/item/2925-elven-mithril-boots-design"
-    },
-    {
-      "key": "item:2923",
-      "type": "item",
-      "id": 2923,
-      "name": "Manticore Skin Boot Lining NG",
-      "url": "/lu4/item/2923-manticore-skin-boot-lining"
-    },
-    {
-      "key": "item:2426",
-      "type": "item",
-      "id": 2426,
-      "name": "Elven Mithril Boots D",
-      "url": "/lu4/item/2426-elven-mithril-boots"
-    },
-    {
-      "key": "item:2424",
-      "type": "item",
-      "id": 2424,
-      "name": "Manticore Skin Boots D",
-      "url": "/lu4/item/2424-manticore-skin-boots"
-    },
-    {
-      "key": "item:2276",
-      "type": "item",
-      "id": 2276,
-      "name": "Recipe: Maingauche NG",
-      "url": "/lu4/item/2276-recipe-maingauche"
-    },
-    {
-      "key": "item:2269",
-      "type": "item",
-      "id": 2269,
-      "name": "Recipe: Morning Star NG",
-      "url": "/lu4/item/2269-recipe-morning-star"
-    },
-    {
-      "key": "item:2193",
-      "type": "item",
-      "id": 2193,
-      "name": "Recipe: Boots of Power NG",
-      "url": "/lu4/item/2193-recipe-boots-of-power"
-    },
-    {
-      "key": "item:2033",
-      "type": "item",
-      "id": 2033,
-      "name": "Winged Spear Blade NG",
-      "url": "/lu4/item/2033-winged-spear-blade"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1869",
@@ -145,6 +58,48 @@
       "url": "/lu4/item/1864-stem"
     },
     {
+      "key": "item:1880",
+      "type": "item",
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
+    },
+    {
+      "key": "item:2426",
+      "type": "item",
+      "id": 2426,
+      "name": "Elven Mithril Boots D",
+      "url": "/lu4/item/2426-elven-mithril-boots"
+    },
+    {
+      "key": "item:2925",
+      "type": "item",
+      "id": 2925,
+      "name": "Elven Mithril Boots Design NG",
+      "url": "/lu4/item/2925-elven-mithril-boots-design"
+    },
+    {
+      "key": "item:2424",
+      "type": "item",
+      "id": 2424,
+      "name": "Manticore Skin Boots D",
+      "url": "/lu4/item/2424-manticore-skin-boots"
+    },
+    {
+      "key": "item:2923",
+      "type": "item",
+      "id": 2923,
+      "name": "Manticore Skin Boot Lining NG",
+      "url": "/lu4/item/2923-manticore-skin-boot-lining"
+    },
+    {
       "key": "item:93",
       "type": "item",
       "id": 93,
@@ -152,32 +107,53 @@
       "url": "/lu4/item/93-winged-spear"
     },
     {
-      "key": "item:57",
+      "key": "item:2033",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2033,
+      "name": "Winged Spear Blade NG",
+      "url": "/lu4/item/2033-winged-spear-blade"
     },
     {
-      "key": "item:2038",
+      "key": "item:2193",
       "type": "item",
-      "id": 2038,
-      "name": "Maingauche Edge NG",
-      "url": "/lu4/item/2038-maingauche-edge"
+      "id": 2193,
+      "name": "Recipe: Boots of Power NG",
+      "url": "/lu4/item/2193-recipe-boots-of-power"
     },
     {
-      "key": "item:1948",
+      "key": "item:2276",
       "type": "item",
-      "id": 1948,
-      "name": "Boots of Power Pattern NG",
-      "url": "/lu4/item/1948-boots-of-power-pattern"
+      "id": 2276,
+      "name": "Recipe: Maingauche NG",
+      "url": "/lu4/item/2276-recipe-maingauche"
     },
     {
-      "key": "item:1942",
+      "key": "item:2269",
       "type": "item",
-      "id": 1942,
-      "name": "Manticore Skin Shirt Texture NG",
-      "url": "/lu4/item/1942-manticore-skin-shirt-texture"
+      "id": 2269,
+      "name": "Recipe: Morning Star NG",
+      "url": "/lu4/item/2269-recipe-morning-star"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:1876",
@@ -192,6 +168,27 @@
       "id": 955,
       "name": "Scroll: Enchant Weapon (D-Grade) NG",
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:1948",
+      "type": "item",
+      "id": 1948,
+      "name": "Boots of Power Pattern NG",
+      "url": "/lu4/item/1948-boots-of-power-pattern"
+    },
+    {
+      "key": "item:2038",
+      "type": "item",
+      "id": 2038,
+      "name": "Maingauche Edge NG",
+      "url": "/lu4/item/2038-maingauche-edge"
+    },
+    {
+      "key": "item:1942",
+      "type": "item",
+      "id": 1942,
+      "name": "Manticore Skin Shirt Texture NG",
+      "url": "/lu4/item/1942-manticore-skin-shirt-texture"
     }
   ]
 }

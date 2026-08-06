@@ -2,55 +2,24 @@
   "key": "item:5275",
   "type": "item",
   "id": 5275,
-  "name": "Recipe",
+  "name": "Recipe: Greater Spiritshot (B) Compressed Package(100%)",
   "url": "/lu4/item/5275-recipe-greater-spiritshot-b-compressed-package100",
-  "source_url": "https://masterwork.wiki/lu4/item/5275-recipe-greater-spiritshot-b-compressed-package100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5275-recipe-greater-spiritshot-b-compressed-package100",
   "raw_html": "library/raw/lu4/item/5275-recipe-greater-spiritshot-b-compressed-package100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Greater Compressed Package of Spiritshots (B-Grade)'. Requires Create Item - Skill Level 6 (Warsmith Lv. 49). The success rate is 100%.",
+    "NPC Sell Price": "50 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "6",
     "MP Consume": "540",
     "Success Rate": "100%",
-    "Result": "Greater Compressed Package of Spiritshots (B-Grade) NG"
+    "Result": "Greater Compressed Package of Spiritshots (B-Grade) NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2512",
-      "type": "item",
-      "id": 2512,
-      "name": "Spiritshot (B-Grade) B",
-      "amount": "1000"
-    },
-    {
-      "key": "item:3031",
-      "type": "item",
-      "id": 3031,
-      "name": "Spirit Ore NG",
-      "amount": "75"
-    },
-    {
-      "key": "item:1460",
-      "type": "item",
-      "id": 1460,
-      "name": "Crystal (B-Grade) B",
-      "amount": "5"
-    },
-    {
-      "key": "item:5194",
-      "type": "item",
-      "id": 5194,
-      "name": "Rope of Magic (B-Grade) NG",
-      "amount": "100"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:5275",
-      "type": "item",
-      "id": 5275,
-      "name": "Lu4",
-      "url": "/lu4/item/5275-recipe-greater-spiritshot-b-compressed-package100"
-    },
     {
       "key": "item:2512",
       "type": "item",
@@ -90,35 +59,35 @@
       "key": "npc:20952",
       "type": "npc",
       "id": 20952,
-      "name": "Pobby Escort Lv. 55",
+      "name": "Pobby Escort",
       "url": "/lu4/npc/20952-pobby-escort"
     },
     {
       "key": "npc:20645",
       "type": "npc",
       "id": 20645,
-      "name": "Harit Lizardman Matriarch Lv. 55",
+      "name": "Harit Lizardman Matriarch",
       "url": "/lu4/npc/20645-harit-lizardman-matriarch"
     },
     {
       "key": "npc:20643",
       "type": "npc",
       "id": 20643,
-      "name": "Harit Lizardman Warrior Lv. 53",
+      "name": "Harit Lizardman Warrior",
       "url": "/lu4/npc/20643-harit-lizardman-warrior"
     },
     {
       "key": "npc:20576",
       "type": "npc",
       "id": 20576,
-      "name": "Oel Mahum Witch Doctor Lv. 55",
+      "name": "Oel Mahum Witch Doctor",
       "url": "/lu4/npc/20576-oel-mahum-witch-doctor"
     },
     {
       "key": "npc:5015",
       "type": "npc",
       "id": 5015,
-      "name": "Freshgrave Walker Lv. 56",
+      "name": "Freshgrave Walker",
       "url": "/lu4/npc/5015-freshgrave-walker"
     }
   ]

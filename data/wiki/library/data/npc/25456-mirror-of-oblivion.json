@@ -2,63 +2,58 @@
   "key": "npc:25456",
   "type": "npc",
   "id": 25456,
-  "name": "Lu4 Wiki: NPC Mirror of Oblivion",
+  "name": "Mirror of Oblivion",
   "url": "/lu4/npc/25456-mirror-of-oblivion",
-  "source_url": "https://masterwork.wiki/lu4/npc/25456-mirror-of-oblivion",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25456-mirror-of-oblivion",
   "raw_html": "library/raw/lu4/npc/25456-mirror-of-oblivion.html",
   "stats": {
-    "Location": "Лес Зеркал"
+    "HP / MP": "334 800 / 8 254",
+    "P. Atk. / M. Atk.": "2 788 / 467",
+    "P. Def. / M. Def.": "816 / 921",
+    "Accuracy / Evasion": "100 / 100",
+    "Exp / SP": "1 680 700 / 140 317",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 Hidden deep inside the Forest of Mirrors, this Devil's Mirror supposedly steals the soul of whoever looks into it. It was created by the Lords of Hell to collect souls as a sacrifice to Gran Kain. Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Damage Shield Lv. 1 Reflects back a portion of damage inflicted by the enemy P. Atk. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 49"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25456",
-      "type": "npc",
-      "id": 25456,
-      "name": "Lu4",
-      "url": "/lu4/npc/25456-mirror-of-oblivion"
-    },
-    {
-      "key": "location:68",
-      "type": "location",
-      "id": 68,
-      "name": "Лес Зеркал",
-      "url": "/lu4/location/68-les-zerkal"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4963",
       "type": "skill",
       "id": 4963,
-      "name": "Raid Boss Lv. 1 Hidden deep inside the Forest of Mirrors, this Devil's Mirror supposedly steals the soul of whoever looks into it. It was created by the Lords of Hell to collect souls as a sacrifice to Gran Kain.",
-      "url": "/lu4/skill/4963-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4963-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4095",
       "type": "skill",
       "id": 4095,
-      "name": "Damage Shield Lv. 1 Reflects back a portion of damage inflicted by the enemy P. Atk.",
-      "url": "/lu4/skill/4095-damage-shield/1"
+      "name": "Damage Shield",
+      "url": "/lu4/skill/4095-damage-shield"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -68,11 +63,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:8344",
+      "key": "item:2503",
       "type": "item",
-      "id": 8344,
-      "name": "Dwarven Hammer Piece NG",
-      "url": "/lu4/item/8344-dwarven-hammer-piece"
+      "id": 2503,
+      "name": "Yaksa Mace C",
+      "url": "/lu4/item/2503-yaksa-mace"
     },
     {
       "key": "item:7897",
@@ -82,20 +77,6 @@
       "url": "/lu4/item/7897-dwarven-hammer"
     },
     {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
       "key": "item:2969",
       "type": "item",
       "id": 2969,
@@ -103,32 +84,11 @@
       "url": "/lu4/item/2969-yaksa-mace-head"
     },
     {
-      "key": "item:2966",
+      "key": "item:8344",
       "type": "item",
-      "id": 2966,
-      "name": "Full Plate Shield Fragment NG",
-      "url": "/lu4/item/2966-full-plate-shield-fragment"
-    },
-    {
-      "key": "item:2959",
-      "type": "item",
-      "id": 2959,
-      "name": "Full Plate Helmet Design NG",
-      "url": "/lu4/item/2959-full-plate-helmet-design"
-    },
-    {
-      "key": "item:2503",
-      "type": "item",
-      "id": 2503,
-      "name": "Yaksa Mace C",
-      "url": "/lu4/item/2503-yaksa-mace"
-    },
-    {
-      "key": "item:2497",
-      "type": "item",
-      "id": 2497,
-      "name": "Full Plate Shield C",
-      "url": "/lu4/item/2497-full-plate-shield"
+      "id": 8344,
+      "name": "Dwarven Hammer Piece NG",
+      "url": "/lu4/item/8344-dwarven-hammer-piece"
     },
     {
       "key": "item:2414",
@@ -138,6 +98,27 @@
       "url": "/lu4/item/2414-full-plate-helmet"
     },
     {
+      "key": "item:2497",
+      "type": "item",
+      "id": 2497,
+      "name": "Full Plate Shield C",
+      "url": "/lu4/item/2497-full-plate-shield"
+    },
+    {
+      "key": "item:2959",
+      "type": "item",
+      "id": 2959,
+      "name": "Full Plate Helmet Design NG",
+      "url": "/lu4/item/2959-full-plate-helmet-design"
+    },
+    {
+      "key": "item:2966",
+      "type": "item",
+      "id": 2966,
+      "name": "Full Plate Shield Fragment NG",
+      "url": "/lu4/item/2966-full-plate-shield-fragment"
+    },
+    {
       "key": "item:952",
       "type": "item",
       "id": 952,
@@ -145,11 +126,25 @@
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
       "key": "item:951",
       "type": "item",
       "id": 951,
       "name": "Scroll: Enchant Weapon (C-Grade) NG",
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "npc:25457",

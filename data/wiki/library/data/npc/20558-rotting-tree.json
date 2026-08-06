@@ -2,91 +2,81 @@
   "key": "npc:20558",
   "type": "npc",
   "id": 20558,
-  "name": "Lu4 Wiki: NPC Rotting tree",
+  "name": "Rotting tree",
   "url": "/lu4/npc/20558-rotting-tree",
-  "source_url": "https://masterwork.wiki/lu4/npc/20558-rotting-tree",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20558-rotting-tree",
   "raw_html": "library/raw/lu4/npc/20558-rotting-tree.html",
   "stats": {
-    "Location": "Море Спор"
+    "Respawn Time": "30 seconds",
+    "Location": "Море Спор",
+    "HP / MP": "3 482 / 686",
+    "P. Atk. / M. Atk.": "307 / 169",
+    "P. Def. / M. Def.": "251 / 201",
+    "Accuracy / Evasion": "76 / 76",
+    "Exp / SP": "3 553 / 355",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Plant, Lv. 43"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20558",
-      "type": "npc",
-      "id": 20558,
-      "name": "Lu4",
-      "url": "/lu4/npc/20558-rotting-tree"
-    },
-    {
-      "key": "location:104",
-      "type": "location",
-      "id": 104,
-      "name": "Море Спор",
-      "url": "/lu4/location/104-more-spor"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:6573",
+      "key": "item:57",
       "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5549",
@@ -94,55 +84,6 @@
       "id": 5549,
       "name": "Metallic Thread NG",
       "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:2945",
-      "type": "item",
-      "id": 2945,
-      "name": "Chain Shield Fragment NG",
-      "url": "/lu4/item/2945-chain-shield-fragment"
-    },
-    {
-      "key": "item:2495",
-      "type": "item",
-      "id": 2495,
-      "name": "Chain Shield C",
-      "url": "/lu4/item/2495-chain-shield"
-    },
-    {
-      "key": "item:2072",
-      "type": "item",
-      "id": 2072,
-      "name": "Dark Elven Dagger Edge NG",
-      "url": "/lu4/item/2072-dark-elven-dagger-edge"
-    },
-    {
-      "key": "item:2065",
-      "type": "item",
-      "id": 2065,
-      "name": "Skull Graver Head NG",
-      "url": "/lu4/item/2065-skull-graver-head"
-    },
-    {
-      "key": "item:1962",
-      "type": "item",
-      "id": 1962,
-      "name": "Karmian Tunic Pattern NG",
-      "url": "/lu4/item/1962-karmian-tunic-pattern"
-    },
-    {
-      "key": "item:1959",
-      "type": "item",
-      "id": 1959,
-      "name": "Chain Mail Shirt Material NG",
-      "url": "/lu4/item/1959-chain-mail-shirt-material"
-    },
-    {
-      "key": "item:1908",
-      "type": "item",
-      "id": 1908,
-      "name": "Moonstone Earring Wire NG",
-      "url": "/lu4/item/1908-moonstone-earring-wire"
     },
     {
       "key": "item:1885",
@@ -173,18 +114,18 @@
       "url": "/lu4/item/1342-steel-arrow"
     },
     {
-      "key": "item:852",
+      "key": "item:5550",
       "type": "item",
-      "id": 852,
-      "name": "Moonstone Earring C",
-      "url": "/lu4/item/852-moonstone-earring"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
-      "key": "item:439",
+      "key": "item:6573",
       "type": "item",
-      "id": 439,
-      "name": "Karmian Tunic C",
-      "url": "/lu4/item/439-karmian-tunic"
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "item:354",
@@ -194,11 +135,39 @@
       "url": "/lu4/item/354-chain-mail-shirt"
     },
     {
+      "key": "item:1959",
+      "type": "item",
+      "id": 1959,
+      "name": "Chain Mail Shirt Material NG",
+      "url": "/lu4/item/1959-chain-mail-shirt-material"
+    },
+    {
+      "key": "item:2495",
+      "type": "item",
+      "id": 2495,
+      "name": "Chain Shield C",
+      "url": "/lu4/item/2495-chain-shield"
+    },
+    {
+      "key": "item:2945",
+      "type": "item",
+      "id": 2945,
+      "name": "Chain Shield Fragment NG",
+      "url": "/lu4/item/2945-chain-shield-fragment"
+    },
+    {
       "key": "item:232",
       "type": "item",
       "id": 232,
       "name": "Dark Elven Dagger C",
       "url": "/lu4/item/232-dark-elven-dagger"
+    },
+    {
+      "key": "item:2072",
+      "type": "item",
+      "id": 2072,
+      "name": "Dark Elven Dagger Edge NG",
+      "url": "/lu4/item/2072-dark-elven-dagger-edge"
     },
     {
       "key": "item:173",
@@ -208,18 +177,46 @@
       "url": "/lu4/item/173-skull-graver"
     },
     {
-      "key": "item:57",
+      "key": "item:2065",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2065,
+      "name": "Skull Graver Head NG",
+      "url": "/lu4/item/2065-skull-graver-head"
     },
     {
-      "key": "item:2203",
+      "key": "item:439",
       "type": "item",
-      "id": 2203,
-      "name": "Recipe: Reinforced Mithril Boots NG",
-      "url": "/lu4/item/2203-recipe-reinforced-mithril-boots"
+      "id": 439,
+      "name": "Karmian Tunic C",
+      "url": "/lu4/item/439-karmian-tunic"
+    },
+    {
+      "key": "item:1962",
+      "type": "item",
+      "id": 1962,
+      "name": "Karmian Tunic Pattern NG",
+      "url": "/lu4/item/1962-karmian-tunic-pattern"
+    },
+    {
+      "key": "item:852",
+      "type": "item",
+      "id": 852,
+      "name": "Moonstone Earring C",
+      "url": "/lu4/item/852-moonstone-earring"
+    },
+    {
+      "key": "item:1908",
+      "type": "item",
+      "id": 1908,
+      "name": "Moonstone Earring Wire NG",
+      "url": "/lu4/item/1908-moonstone-earring-wire"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "item:2161",
@@ -229,18 +226,11 @@
       "url": "/lu4/item/2161-recipe-aquastone-ring"
     },
     {
-      "key": "item:2062",
+      "key": "item:2203",
       "type": "item",
-      "id": 2062,
-      "name": "Scythe Edge NG",
-      "url": "/lu4/item/2062-scythe-edge"
-    },
-    {
-      "key": "item:1966",
-      "type": "item",
-      "id": 1966,
-      "name": "Plated Leather Shirt Fragment NG",
-      "url": "/lu4/item/1966-plated-leather-shirt-fragment"
+      "id": 2203,
+      "name": "Recipe: Reinforced Mithril Boots NG",
+      "url": "/lu4/item/2203-recipe-reinforced-mithril-boots"
     },
     {
       "key": "item:1910",
@@ -250,11 +240,18 @@
       "url": "/lu4/item/1910-aquastone-necklace-chain"
     },
     {
-      "key": "item:951",
+      "key": "item:1966",
       "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+      "id": 1966,
+      "name": "Plated Leather Shirt Fragment NG",
+      "url": "/lu4/item/1966-plated-leather-shirt-fragment"
+    },
+    {
+      "key": "item:2062",
+      "type": "item",
+      "id": 2062,
+      "name": "Scythe Edge NG",
+      "url": "/lu4/item/2062-scythe-edge"
     }
   ]
 }

@@ -2,140 +2,95 @@
   "key": "npc:20977",
   "type": "npc",
   "id": 20977,
-  "name": "Lu4 Wiki: NPC Elmoradan's Lady",
+  "name": "Elmoradan's Lady",
   "url": "/lu4/npc/20977-elmoradans-lady",
-  "source_url": "https://masterwork.wiki/lu4/npc/20977-elmoradans-lady",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20977-elmoradans-lady",
   "raw_html": "library/raw/lu4/npc/20977-elmoradans-lady.html",
   "stats": {
-    "Location": "Башня Дерзости: 3-й этаж"
+    "Respawn Time": "8 minutes, 20 seconds ± 1 minute",
+    "Location": "Башня Дерзости: 3-й этаж",
+    "HP / MP": "219 486 / 1 464",
+    "P. Atk. / M. Atk.": "3 667 / 5 809",
+    "P. Def. / M. Def.": "719 / 938",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "471 666 / 47 167",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Unique Monster Lv. 1 A unique creature of immense power. It cannot be defeated alone. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 65"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20977",
-      "type": "npc",
-      "id": 20977,
-      "name": "Lu4",
-      "url": "/lu4/npc/20977-elmoradans-lady"
-    },
-    {
-      "key": "location:86",
-      "type": "location",
-      "id": 86,
-      "name": "Башня Дерзости: 3-й этаж",
-      "url": "/lu4/location/86-basna-derzosti-3-j-etaz"
-    },
-    {
       "key": "skill:27944",
       "type": "skill",
       "id": 27944,
-      "name": "Unique Monster Lv. 1 A unique creature of immense power. It cannot be defeated alone.",
-      "url": "/lu4/skill/27944-unique-monster/1"
+      "name": "Unique Monster",
+      "url": "/lu4/skill/27944-unique-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:39290",
+      "key": "item:57",
       "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32534",
-      "type": "item",
-      "id": 32534,
-      "name": "Unidentified Staff of Evil Spirits B",
-      "url": "/lu4/item/32534-unidentified-staff-of-evil-spirits"
-    },
-    {
-      "key": "item:32341",
-      "type": "item",
-      "id": 32341,
-      "name": "Unidentified Bellion Cestus B",
-      "url": "/lu4/item/32341-unidentified-bellion-cestus"
-    },
-    {
-      "key": "item:32322",
-      "type": "item",
-      "id": 32322,
-      "name": "Unidentified Sword of Damascus B",
-      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
-    },
-    {
-      "key": "item:4120",
-      "type": "item",
-      "id": 4120,
-      "name": "Bellion Cestus Edge NG",
-      "url": "/lu4/item/4120-bellion-cestus-edge"
-    },
-    {
-      "key": "item:4118",
-      "type": "item",
-      "id": 4118,
-      "name": "Evil Spirit Head NG",
-      "url": "/lu4/item/4118-evil-spirit-head"
-    },
-    {
-      "key": "item:4114",
-      "type": "item",
-      "id": 4114,
-      "name": "Sword of Damascus Blade NG",
-      "url": "/lu4/item/4114-sword-of-damascus-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -180,11 +135,53 @@
       "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:39290",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
+    },
+    {
+      "key": "item:32341",
+      "type": "item",
+      "id": 32341,
+      "name": "Unidentified Bellion Cestus B",
+      "url": "/lu4/item/32341-unidentified-bellion-cestus"
+    },
+    {
+      "key": "item:4120",
+      "type": "item",
+      "id": 4120,
+      "name": "Bellion Cestus Edge NG",
+      "url": "/lu4/item/4120-bellion-cestus-edge"
+    },
+    {
+      "key": "item:32534",
+      "type": "item",
+      "id": 32534,
+      "name": "Unidentified Staff of Evil Spirits B",
+      "url": "/lu4/item/32534-unidentified-staff-of-evil-spirits"
+    },
+    {
+      "key": "item:4118",
+      "type": "item",
+      "id": 4118,
+      "name": "Evil Spirit Head NG",
+      "url": "/lu4/item/4118-evil-spirit-head"
+    },
+    {
+      "key": "item:32322",
+      "type": "item",
+      "id": 32322,
+      "name": "Unidentified Sword of Damascus B",
+      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
+    },
+    {
+      "key": "item:4114",
+      "type": "item",
+      "id": 4114,
+      "name": "Sword of Damascus Blade NG",
+      "url": "/lu4/item/4114-sword-of-damascus-blade"
     },
     {
       "key": "item:1876",

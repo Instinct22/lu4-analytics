@@ -2,105 +2,74 @@
   "key": "npc:20920",
   "type": "npc",
   "id": 20920,
-  "name": "Lu4 Wiki: NPC Maille Lizardman Scout",
+  "name": "Maille Lizardman Scout",
   "url": "/lu4/npc/20920-maille-lizardman-scout",
-  "source_url": "https://masterwork.wiki/lu4/npc/20920-maille-lizardman-scout",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20920-maille-lizardman-scout",
   "raw_html": "library/raw/lu4/npc/20920-maille-lizardman-scout.html",
   "stats": {
-    "Location": "Лагерь Ящеров Мэль"
+    "Respawn Time": "15 seconds",
+    "Location": "Лагерь Ящеров Мэль",
+    "HP / MP": "653 / 269",
+    "P. Atk. / M. Atk.": "128 / 34",
+    "P. Def. / M. Def.": "122 / 100",
+    "Accuracy / Evasion": "59 / 58",
+    "Exp / SP": "696 / 70",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 23"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20920",
-      "type": "npc",
-      "id": 20920,
-      "name": "Lu4",
-      "url": "/lu4/npc/20920-maille-lizardman-scout"
-    },
-    {
-      "key": "location:25",
-      "type": "location",
-      "id": 25,
-      "name": "Лагерь Ящеров Мэль",
-      "url": "/lu4/location/25-lager-aserov-mel"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:273",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 273,
+      "name": "Composite Bow NG",
+      "url": "/lu4/item/273-composite-bow"
     },
     {
       "key": "item:2016",
@@ -110,25 +79,11 @@
       "url": "/lu4/item/2016-composite-bow-shaft"
     },
     {
-      "key": "item:1879",
+      "key": "item:735",
       "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
+      "id": 735,
+      "name": "Alacrity Potion NG",
+      "url": "/lu4/item/735-alacrity-potion"
     },
     {
       "key": "item:1060",
@@ -138,11 +93,25 @@
       "url": "/lu4/item/1060-lesser-healing-potion"
     },
     {
-      "key": "item:735",
+      "key": "item:1865",
       "type": "item",
-      "id": 735,
-      "name": "Alacrity Potion NG",
-      "url": "/lu4/item/735-alacrity-potion"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1879",
+      "type": "item",
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
     },
     {
       "key": "item:465",
@@ -159,13 +128,6 @@
       "url": "/lu4/item/314-proof-of-revenge"
     },
     {
-      "key": "item:273",
-      "type": "item",
-      "id": 273,
-      "name": "Composite Bow NG",
-      "url": "/lu4/item/273-composite-bow"
-    },
-    {
       "key": "item:167",
       "type": "item",
       "id": 167,
@@ -173,18 +135,53 @@
       "url": "/lu4/item/167-scalpel"
     },
     {
-      "key": "item:57",
+      "key": "item:39295",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:5163",
+      "key": "item:39296",
       "type": "item",
-      "id": 5163,
-      "name": "Recipe: Blessed Spiritshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5163-recipe-blessed-spiritshot-d-compressed-package-100"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1898",
+      "type": "item",
+      "id": 1898,
+      "name": "Blue Diamond Necklace Gem NG",
+      "url": "/lu4/item/1898-blue-diamond-necklace-gem"
     },
     {
       "key": "item:2014",
@@ -194,11 +191,11 @@
       "url": "/lu4/item/2014-iron-hammer-head"
     },
     {
-      "key": "item:1898",
+      "key": "item:5163",
       "type": "item",
-      "id": 1898,
-      "name": "Blue Diamond Necklace Gem NG",
-      "url": "/lu4/item/1898-blue-diamond-necklace-gem"
+      "id": 5163,
+      "name": "Recipe: Blessed Spiritshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5163-recipe-blessed-spiritshot-d-compressed-package-100"
     }
   ]
 }

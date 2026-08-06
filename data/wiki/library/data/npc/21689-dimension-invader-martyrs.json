@@ -2,75 +2,79 @@
   "key": "npc:21689",
   "type": "npc",
   "id": 21689,
-  "name": "Lu4 Wiki: NPC Dimension Invader Martyrs",
+  "name": "Dimension Invader Martyrs",
   "url": "/lu4/npc/21689-dimension-invader-martyrs",
-  "source_url": "https://masterwork.wiki/lu4/npc/21689-dimension-invader-martyrs",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21689-dimension-invader-martyrs",
   "raw_html": "library/raw/lu4/npc/21689-dimension-invader-martyrs.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "4 579 / 589",
+    "P. Atk. / M. Atk.": "275 / 133",
+    "P. Def. / M. Def.": "151 / 164",
+    "Accuracy / Evasion": "73 / 83",
+    "Exp / SP": "5 427 / 351",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Greater Sleep Resistance Lv. 1 Very resistant to Sleep attacks. Greater Hold Resistance Lv. 1 Very resistant to Hold attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 40"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21689",
-      "type": "npc",
-      "id": 21689,
-      "name": "Lu4",
-      "url": "/lu4/npc/21689-dimension-invader-martyrs"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4286",
       "type": "skill",
       "id": 4286,
-      "name": "Greater Sleep Resistance Lv. 1 Very resistant to Sleep attacks.",
-      "url": "/lu4/skill/4286-greater-sleep-resistance/1"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4286-greater-sleep-resistance"
     },
     {
       "key": "skill:4288",
       "type": "skill",
       "id": 4288,
-      "name": "Greater Hold Resistance Lv. 1 Very resistant to Hold attack.",
-      "url": "/lu4/skill/4288-greater-hold-resistance/1"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4288-greater-hold-resistance"
     },
     {
-      "key": "item:2919",
+      "key": "item:57",
       "type": "item",
-      "id": 2919,
-      "name": "Brigandine Gaiters Material NG",
-      "url": "/lu4/item/2919-brigandine-gaiters-material"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2918",
@@ -94,18 +98,25 @@
       "url": "/lu4/item/2377-mithril-scale-gaiters"
     },
     {
-      "key": "item:2159",
-      "type": "item",
-      "id": 2159,
-      "name": "Recipe: Necklace of Darkness NG",
-      "url": "/lu4/item/2159-recipe-necklace-of-darkness"
-    },
-    {
       "key": "item:1941",
       "type": "item",
       "id": 1941,
       "name": "Brigandine Breastplate Temper NG",
       "url": "/lu4/item/1941-brigandine-breastplate-temper"
+    },
+    {
+      "key": "item:352",
+      "type": "item",
+      "id": 352,
+      "name": "Brigandine Breastplate D",
+      "url": "/lu4/item/352-brigandine-breastplate"
+    },
+    {
+      "key": "item:2919",
+      "type": "item",
+      "id": 2919,
+      "name": "Brigandine Gaiters Material NG",
+      "url": "/lu4/item/2919-brigandine-gaiters-material"
     },
     {
       "key": "item:1894",
@@ -122,6 +133,13 @@
       "url": "/lu4/item/1882-leather"
     },
     {
+      "key": "item:2159",
+      "type": "item",
+      "id": 2159,
+      "name": "Recipe: Necklace of Darkness NG",
+      "url": "/lu4/item/2159-recipe-necklace-of-darkness"
+    },
+    {
       "key": "item:1872",
       "type": "item",
       "id": 1872,
@@ -134,20 +152,6 @@
       "id": 1867,
       "name": "Animal Skin NG",
       "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:352",
-      "type": "item",
-      "id": 352,
-      "name": "Brigandine Breastplate D",
-      "url": "/lu4/item/352-brigandine-breastplate"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6036",

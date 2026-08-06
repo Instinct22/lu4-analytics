@@ -2,133 +2,95 @@
   "key": "npc:20421",
   "type": "npc",
   "id": 20421,
-  "name": "Lu4 Wiki: NPC Akaste Succubus Tilfo",
+  "name": "Akaste Succubus Tilfo",
   "url": "/lu4/npc/20421-akaste-succubus-tilfo",
-  "source_url": "https://masterwork.wiki/lu4/npc/20421-akaste-succubus-tilfo",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20421-akaste-succubus-tilfo",
   "raw_html": "library/raw/lu4/npc/20421-akaste-succubus-tilfo.html",
   "stats": {
-    "Location": "Мифриловый Рудник"
+    "Respawn Time": "35 seconds",
+    "Location": "Мифриловый Рудник",
+    "HP / MP": "1 245 / 269",
+    "P. Atk. / M. Atk.": "63 / 40",
+    "P. Def. / M. Def.": "121 / 106",
+    "Accuracy / Evasion": "55 / 55",
+    "Exp / SP": "1 216 / 122",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 13 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 22"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20421",
-      "type": "npc",
-      "id": 20421,
-      "name": "Lu4",
-      "url": "/lu4/npc/20421-akaste-succubus-tilfo"
-    },
-    {
-      "key": "location:65",
-      "type": "location",
-      "id": 65,
-      "name": "Мифриловый Рудник",
-      "url": "/lu4/location/65-mifrilovyj-rudnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:273",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:3953",
-      "type": "item",
-      "id": 3953,
-      "name": "Recipe: Blessed Spiritshot D NG",
-      "url": "/lu4/item/3953-recipe-blessed-spiritshot-d"
+      "id": 273,
+      "name": "Composite Bow NG",
+      "url": "/lu4/item/273-composite-bow"
     },
     {
       "key": "item:2016",
@@ -138,25 +100,11 @@
       "url": "/lu4/item/2016-composite-bow-shaft"
     },
     {
-      "key": "item:1872",
+      "key": "item:1867",
       "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:1869",
@@ -166,11 +114,32 @@
       "url": "/lu4/item/1869-iron-ore"
     },
     {
-      "key": "item:1867",
+      "key": "item:1870",
       "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:3953",
+      "type": "item",
+      "id": 3953,
+      "name": "Recipe: Blessed Spiritshot D NG",
+      "url": "/lu4/item/3953-recipe-blessed-spiritshot-d"
     },
     {
       "key": "item:465",
@@ -187,13 +156,6 @@
       "url": "/lu4/item/314-proof-of-revenge"
     },
     {
-      "key": "item:273",
-      "type": "item",
-      "id": 273,
-      "name": "Composite Bow NG",
-      "url": "/lu4/item/273-composite-bow"
-    },
-    {
       "key": "item:167",
       "type": "item",
       "id": 167,
@@ -201,25 +163,53 @@
       "url": "/lu4/item/167-scalpel"
     },
     {
-      "key": "item:57",
+      "key": "item:39295",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:2177",
+      "key": "item:39296",
       "type": "item",
-      "id": 2177,
-      "name": "Recipe: Bone Helmet NG",
-      "url": "/lu4/item/2177-recipe-bone-helmet"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:1929",
+      "key": "item:39297",
       "type": "item",
-      "id": 1929,
-      "name": "Hard Leather Gaiters Material NG",
-      "url": "/lu4/item/1929-hard-leather-gaiters-material"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
       "key": "item:1898",
@@ -229,11 +219,18 @@
       "url": "/lu4/item/1898-blue-diamond-necklace-gem"
     },
     {
-      "key": "item:1866",
+      "key": "item:1929",
       "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "id": 1929,
+      "name": "Hard Leather Gaiters Material NG",
+      "url": "/lu4/item/1929-hard-leather-gaiters-material"
+    },
+    {
+      "key": "item:2177",
+      "type": "item",
+      "id": 2177,
+      "name": "Recipe: Bone Helmet NG",
+      "url": "/lu4/item/2177-recipe-bone-helmet"
     }
   ]
 }

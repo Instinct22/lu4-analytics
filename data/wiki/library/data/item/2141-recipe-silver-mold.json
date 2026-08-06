@@ -2,69 +2,24 @@
   "key": "item:2141",
   "type": "item",
   "id": 2141,
-  "name": "Recipe",
+  "name": "Recipe: Silver Mold",
   "url": "/lu4/item/2141-recipe-silver-mold",
-  "source_url": "https://masterwork.wiki/lu4/item/2141-recipe-silver-mold",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2141-recipe-silver-mold",
   "raw_html": "library/raw/lu4/item/2141-recipe-silver-mold.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Silver Mold'. Requires Create Item - Skill Level 2 (Artisan Lv. 20). The success rate is 100%.",
+    "NPC Sell Price": "500 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "20",
     "Success Rate": "100%",
-    "Result": "Silver Mold NG"
+    "Result": "Silver Mold NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "5"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "25"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "5"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "15"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "15"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "amount": "10"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2141",
-      "type": "item",
-      "id": 2141,
-      "name": "Lu4",
-      "url": "/lu4/item/2141-recipe-silver-mold"
-    },
     {
       "key": "item:1878",
       "type": "item",
@@ -118,56 +73,56 @@
       "key": "npc:21094",
       "type": "npc",
       "id": 21094,
-      "name": "Ratman Chieftain Lv. 20",
+      "name": "Ratman Chieftain",
       "url": "/lu4/npc/21094-ratman-chieftain"
     },
     {
       "key": "npc:20919",
       "type": "npc",
       "id": 20919,
-      "name": "Maille Lizardman Lv. 22",
+      "name": "Maille Lizardman",
       "url": "/lu4/npc/20919-maille-lizardman"
     },
     {
       "key": "npc:20506",
       "type": "npc",
       "id": 20506,
-      "name": "Ruin Imp Lv. 17",
+      "name": "Ruin Imp",
       "url": "/lu4/npc/20506-ruin-imp"
     },
     {
       "key": "npc:20106",
       "type": "npc",
       "id": 20106,
-      "name": "Talon Spider Lv. 16",
+      "name": "Talon Spider",
       "url": "/lu4/npc/20106-talon-spider"
     },
     {
       "key": "npc:20032",
       "type": "npc",
       "id": 20032,
-      "name": "Pinrul Lv. 17",
+      "name": "Pinrul",
       "url": "/lu4/npc/20032-pinrul"
     },
     {
       "key": "npc:20411",
       "type": "npc",
       "id": 20411,
-      "name": "Scavenger Bat Lv. 18",
+      "name": "Scavenger Bat",
       "url": "/lu4/npc/20411-scavenger-bat"
     },
     {
       "key": "npc:20358",
       "type": "npc",
       "id": 20358,
-      "name": "Ratman Hunter Lv. 18",
+      "name": "Ratman Hunter",
       "url": "/lu4/npc/20358-ratman-hunter"
     },
     {
       "key": "npc:20341",
       "type": "npc",
       "id": 20341,
-      "name": "Undead Slave Lv. 19",
+      "name": "Undead Slave",
       "url": "/lu4/npc/20341-undead-slave"
     }
   ]

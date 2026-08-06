@@ -2,112 +2,60 @@
   "key": "npc:20460",
   "type": "npc",
   "id": 20460,
-  "name": "Lu4 Wiki: NPC Crimson Spider",
+  "name": "Crimson Spider",
   "url": "/lu4/npc/20460-crimson-spider",
-  "source_url": "https://masterwork.wiki/lu4/npc/20460-crimson-spider",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20460-crimson-spider",
   "raw_html": "library/raw/lu4/npc/20460-crimson-spider.html",
   "stats": {
-    "Location": "Эльфийский Лес (+1) Эльфийский Лес Эльфийская Крепость"
+    "Respawn Time": "12 seconds",
+    "Location": "Эльфийский Лес (+1) Эльфийский Лес Эльфийская Крепость",
+    "HP / MP": "378 / 183",
+    "P. Atk. / M. Atk.": "47 / 24",
+    "P. Def. / M. Def.": "76 / 59",
+    "Accuracy / Evasion": "48 / 53",
+    "Exp / SP": "406 / 41",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 15"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20460",
-      "type": "npc",
-      "id": 20460,
-      "name": "Lu4",
-      "url": "/lu4/npc/20460-crimson-spider"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
-      "key": "location:114",
-      "type": "location",
-      "id": 114,
-      "name": "Эльфийская Крепость",
-      "url": "/lu4/location/114-elfijskaa-krepost"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
-    },
-    {
-      "key": "item:2010",
-      "type": "item",
-      "id": 2010,
-      "name": "Brandish Blade NG",
-      "url": "/lu4/item/2010-brandish-blade"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1799",
-      "type": "item",
-      "id": 1799,
-      "name": "Recipe: Leather Gloves NG",
-      "url": "/lu4/item/1799-recipe-leather-gloves"
-    },
-    {
-      "key": "item:1333",
-      "type": "item",
-      "id": 1333,
-      "name": "Brandish NG",
-      "url": "/lu4/item/1333-brandish"
-    },
-    {
-      "key": "item:66",
-      "type": "item",
-      "id": 66,
-      "name": "Gladius NG",
-      "url": "/lu4/item/66-gladius"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -117,11 +65,53 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1866",
+      "key": "item:66",
       "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "id": 66,
+      "name": "Gladius NG",
+      "url": "/lu4/item/66-gladius"
+    },
+    {
+      "key": "item:1333",
+      "type": "item",
+      "id": 1333,
+      "name": "Brandish NG",
+      "url": "/lu4/item/1333-brandish"
+    },
+    {
+      "key": "item:2010",
+      "type": "item",
+      "id": 2010,
+      "name": "Brandish Blade NG",
+      "url": "/lu4/item/2010-brandish-blade"
+    },
+    {
+      "key": "item:1799",
+      "type": "item",
+      "id": 1799,
+      "name": "Recipe: Leather Gloves NG",
+      "url": "/lu4/item/1799-recipe-leather-gloves"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1792",
+      "type": "item",
+      "id": 1792,
+      "name": "Recipe: Short Spear NG",
+      "url": "/lu4/item/1792-recipe-short-spear"
     },
     {
       "key": "item:1833",
@@ -131,11 +121,11 @@
       "url": "/lu4/item/1833-bandage"
     },
     {
-      "key": "item:1792",
+      "key": "item:1866",
       "type": "item",
-      "id": 1792,
-      "name": "Recipe: Short Spear NG",
-      "url": "/lu4/item/1792-recipe-short-spear"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     }
   ]
 }

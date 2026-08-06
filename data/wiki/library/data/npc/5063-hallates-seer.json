@@ -2,189 +2,88 @@
   "key": "npc:5063",
   "type": "npc",
   "id": 5063,
-  "name": "Lu4 Wiki: NPC Hallate's Seer",
+  "name": "Hallate's Seer",
   "url": "/lu4/npc/5063-hallates-seer",
-  "source_url": "https://masterwork.wiki/lu4/npc/5063-hallates-seer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5063-hallates-seer",
   "raw_html": "library/raw/lu4/npc/5063-hallates-seer.html",
   "stats": {
-    "Location": "Башня Дерзости: 2-й этаж"
+    "Respawn Time": "3 minutes, 5 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 2-й этаж",
+    "HP / MP": "20 619 / 1 110",
+    "P. Atk. / M. Atk.": "2 045 / 700",
+    "P. Def. / M. Def.": "665 / 446",
+    "Accuracy / Evasion": "97 / 97",
+    "Exp / SP": "38 330 / 3 833",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Grumpy Lv. 1 Strikes without warning. HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 16 Strong M. Def. Lv. 14 Strong P. Def. Lv. 15 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 64"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5063",
-      "type": "npc",
-      "id": 5063,
-      "name": "Lu4",
-      "url": "/lu4/npc/5063-hallates-seer"
-    },
-    {
-      "key": "location:85",
-      "type": "location",
-      "id": 85,
-      "name": "Башня Дерзости: 2-й этаж",
-      "url": "/lu4/location/85-basna-derzosti-2-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:39290",
-      "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32359",
-      "type": "item",
-      "id": 32359,
-      "name": "Unidentified Blue Wolf Leather Armor B",
-      "url": "/lu4/item/32359-unidentified-blue-wolf-leather-armor"
-    },
-    {
-      "key": "item:32351",
-      "type": "item",
-      "id": 32351,
-      "name": "Unidentified Blue Wolf Breastplate B",
-      "url": "/lu4/item/32351-unidentified-blue-wolf-breastplate"
-    },
-    {
-      "key": "item:6036",
-      "type": "item",
-      "id": 6036,
-      "name": "Greater Magic Haste Potion NG",
-      "url": "/lu4/item/6036-greater-magic-haste-potion"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:4082",
-      "type": "item",
-      "id": 4082,
-      "name": "Blue Wolf Leather Armor Texture NG",
-      "url": "/lu4/item/4082-blue-wolf-leather-armor-texture"
-    },
-    {
-      "key": "item:4078",
-      "type": "item",
-      "id": 4078,
-      "name": "Blue Wolf Breastplate Part NG",
-      "url": "/lu4/item/4078-blue-wolf-breastplate-part"
-    },
-    {
-      "key": "item:4054",
-      "type": "item",
-      "id": 4054,
-      "name": "Necklace of Black Ore Beads NG",
-      "url": "/lu4/item/4054-necklace-of-black-ore-beads"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4044",
@@ -215,11 +114,109 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:6036",
+      "type": "item",
+      "id": 6036,
+      "name": "Greater Magic Haste Potion NG",
+      "url": "/lu4/item/6036-greater-magic-haste-potion"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:39290",
+      "type": "item",
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
+    },
+    {
+      "key": "item:32351",
+      "type": "item",
+      "id": 32351,
+      "name": "Unidentified Blue Wolf Breastplate B",
+      "url": "/lu4/item/32351-unidentified-blue-wolf-breastplate"
+    },
+    {
+      "key": "item:4078",
+      "type": "item",
+      "id": 4078,
+      "name": "Blue Wolf Breastplate Part NG",
+      "url": "/lu4/item/4078-blue-wolf-breastplate-part"
+    },
+    {
+      "key": "item:32359",
+      "type": "item",
+      "id": 32359,
+      "name": "Unidentified Blue Wolf Leather Armor B",
+      "url": "/lu4/item/32359-unidentified-blue-wolf-leather-armor"
+    },
+    {
+      "key": "item:4082",
+      "type": "item",
+      "id": 4082,
+      "name": "Blue Wolf Leather Armor Texture NG",
+      "url": "/lu4/item/4082-blue-wolf-leather-armor-texture"
+    },
+    {
       "key": "item:926",
       "type": "item",
       "id": 926,
       "name": "Necklace of Black Ore B",
       "url": "/lu4/item/926-necklace-of-black-ore"
+    },
+    {
+      "key": "item:4054",
+      "type": "item",
+      "id": 4054,
+      "name": "Necklace of Black Ore Beads NG",
+      "url": "/lu4/item/4054-necklace-of-black-ore-beads"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
     },
     {
       "key": "item:4115",

@@ -2,70 +2,39 @@
   "key": "npc:21097",
   "type": "npc",
   "id": 21097,
-  "name": "Lu4 Wiki: NPC Young Araneid",
+  "name": "Young Araneid",
   "url": "/lu4/npc/21097-young-araneid",
-  "source_url": "https://masterwork.wiki/lu4/npc/21097-young-araneid",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21097-young-araneid",
   "raw_html": "library/raw/lu4/npc/21097-young-araneid.html",
   "stats": {
-    "Location": "Охотничьи Угодья Фельмер (+2) Охотничьи Угодья Фельмер Земли Глудио Лагерь Ящеров Мэль"
+    "Respawn Time": "17 seconds",
+    "Location": "Охотничьи Угодья Фельмер (+2) Охотничьи Угодья Фельмер Земли Глудио Лагерь Ящеров Мэль",
+    "HP / MP": "632 / 285",
+    "P. Atk. / M. Atk.": "77 / 38",
+    "P. Def. / M. Def.": "120 / 92",
+    "Accuracy / Evasion": "56 / 61",
+    "Exp / SP": "664 / 66",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 23"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21097",
-      "type": "npc",
-      "id": 21097,
-      "name": "Lu4",
-      "url": "/lu4/npc/21097-young-araneid"
-    },
-    {
-      "key": "location:249",
-      "type": "location",
-      "id": 249,
-      "name": "Охотничьи Угодья Фельмер",
-      "url": "/lu4/location/249-ohotnici-ugoda-felmer"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:25",
-      "type": "location",
-      "id": 25,
-      "name": "Лагерь Ящеров Мэль",
-      "url": "/lu4/location/25-lager-aserov-mel"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1898",
@@ -73,6 +42,27 @@
       "id": 1898,
       "name": "Blue Diamond Necklace Gem NG",
       "url": "/lu4/item/1898-blue-diamond-necklace-gem"
+    },
+    {
+      "key": "item:846",
+      "type": "item",
+      "id": 846,
+      "name": "Coral Earring NG",
+      "url": "/lu4/item/846-coral-earring"
+    },
+    {
+      "key": "item:878",
+      "type": "item",
+      "id": 878,
+      "name": "Blue Coral Ring NG",
+      "url": "/lu4/item/878-blue-coral-ring"
+    },
+    {
+      "key": "item:909",
+      "type": "item",
+      "id": 909,
+      "name": "Blue Diamond Necklace NG",
+      "url": "/lu4/item/909-blue-diamond-necklace"
     },
     {
       "key": "item:1870",
@@ -94,27 +84,6 @@
       "id": 1832,
       "name": "Greater Antidote NG",
       "url": "/lu4/item/1832-greater-antidote"
-    },
-    {
-      "key": "item:909",
-      "type": "item",
-      "id": 909,
-      "name": "Blue Diamond Necklace NG",
-      "url": "/lu4/item/909-blue-diamond-necklace"
-    },
-    {
-      "key": "item:878",
-      "type": "item",
-      "id": 878,
-      "name": "Blue Coral Ring NG",
-      "url": "/lu4/item/878-blue-coral-ring"
-    },
-    {
-      "key": "item:846",
-      "type": "item",
-      "id": 846,
-      "name": "Coral Earring NG",
-      "url": "/lu4/item/846-coral-earring"
     },
     {
       "key": "item:734",
@@ -145,11 +114,39 @@
       "url": "/lu4/item/376-iron-plate-gaiters"
     },
     {
-      "key": "item:57",
+      "key": "item:39295",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1927",
+      "type": "item",
+      "id": 1927,
+      "name": "Hard Leather Shirt Pattern NG",
+      "url": "/lu4/item/1927-hard-leather-shirt-pattern"
+    },
+    {
+      "key": "item:1928",
+      "type": "item",
+      "id": 1928,
+      "name": "Piece Bone Gaiters Fragment NG",
+      "url": "/lu4/item/1928-piece-bone-gaiters-fragment"
     },
     {
       "key": "item:2179",
@@ -164,20 +161,6 @@
       "id": 2020,
       "name": "Temptation of Abyss Piece NG",
       "url": "/lu4/item/2020-temptation-of-abyss-piece"
-    },
-    {
-      "key": "item:1928",
-      "type": "item",
-      "id": 1928,
-      "name": "Piece Bone Gaiters Fragment NG",
-      "url": "/lu4/item/1928-piece-bone-gaiters-fragment"
-    },
-    {
-      "key": "item:1927",
-      "type": "item",
-      "id": 1927,
-      "name": "Hard Leather Shirt Pattern NG",
-      "url": "/lu4/item/1927-hard-leather-shirt-pattern"
     }
   ]
 }

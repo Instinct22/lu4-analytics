@@ -2,126 +2,67 @@
   "key": "npc:20040",
   "type": "npc",
   "id": 20040,
-  "name": "Lu4 Wiki: NPC Sukar Wererat",
+  "name": "Sukar Wererat",
   "url": "/lu4/npc/20040-sukar-wererat",
-  "source_url": "https://masterwork.wiki/lu4/npc/20040-sukar-wererat",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20040-sukar-wererat",
   "raw_html": "library/raw/lu4/npc/20040-sukar-wererat.html",
   "stats": {
-    "Location": "Эльфийская Крепость (+1) Эльфийская Крепость Эльфийский Лес"
+    "Respawn Time": "40 seconds",
+    "Location": "Эльфийская Крепость (+1) Эльфийская Крепость Эльфийский Лес",
+    "HP / MP": "1 450 / 214",
+    "P. Atk. / M. Atk.": "58 / 31",
+    "P. Def. / M. Def.": "84 / 64",
+    "Accuracy / Evasion": "54 / 53",
+    "Exp / SP": "1 416 / 142",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 9",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 18"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20040",
-      "type": "npc",
-      "id": 20040,
-      "name": "Lu4",
-      "url": "/lu4/npc/20040-sukar-wererat"
-    },
-    {
-      "key": "location:114",
-      "type": "location",
-      "id": 114,
-      "name": "Эльфийская Крепость",
-      "url": "/lu4/location/114-elfijskaa-krepost"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
-    },
-    {
-      "key": "item:5158",
-      "type": "item",
-      "id": 5158,
-      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:2252",
-      "type": "item",
-      "id": 2252,
-      "name": "Recipe: Iron Hammer NG",
-      "url": "/lu4/item/2252-recipe-iron-hammer"
-    },
-    {
-      "key": "item:1924",
-      "type": "item",
-      "id": 1924,
-      "name": "Leather Helmet Design NG",
-      "url": "/lu4/item/1924-leather-helmet-design"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:945",
-      "type": "item",
-      "id": 945,
-      "name": "Skeleton Buckler NG",
-      "url": "/lu4/item/945-skeleton-buckler"
-    },
-    {
-      "key": "item:102",
-      "type": "item",
-      "id": 102,
-      "name": "Round Shield NG",
-      "url": "/lu4/item/102-round-shield"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -138,11 +79,60 @@
       "url": "/lu4/item/44-leather-helmet"
     },
     {
-      "key": "item:2175",
+      "key": "item:102",
       "type": "item",
-      "id": 2175,
-      "name": "Recipe: Boots NG",
-      "url": "/lu4/item/2175-recipe-boots"
+      "id": 102,
+      "name": "Round Shield NG",
+      "url": "/lu4/item/102-round-shield"
+    },
+    {
+      "key": "item:945",
+      "type": "item",
+      "id": 945,
+      "name": "Skeleton Buckler NG",
+      "url": "/lu4/item/945-skeleton-buckler"
+    },
+    {
+      "key": "item:1924",
+      "type": "item",
+      "id": 1924,
+      "name": "Leather Helmet Design NG",
+      "url": "/lu4/item/1924-leather-helmet-design"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:2252",
+      "type": "item",
+      "id": 2252,
+      "name": "Recipe: Iron Hammer NG",
+      "url": "/lu4/item/2252-recipe-iron-hammer"
+    },
+    {
+      "key": "item:5158",
+      "type": "item",
+      "id": 5158,
+      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
+    },
+    {
+      "key": "item:2012",
+      "type": "item",
+      "id": 2012,
+      "name": "Sword of Reflection Blade NG",
+      "url": "/lu4/item/2012-sword-of-reflection-blade"
     },
     {
       "key": "item:2140",
@@ -152,11 +142,11 @@
       "url": "/lu4/item/2140-recipe-high-grade-suede"
     },
     {
-      "key": "item:2012",
+      "key": "item:2175",
       "type": "item",
-      "id": 2012,
-      "name": "Sword of Reflection Blade NG",
-      "url": "/lu4/item/2012-sword-of-reflection-blade"
+      "id": 2175,
+      "name": "Recipe: Boots NG",
+      "url": "/lu4/item/2175-recipe-boots"
     }
   ]
 }

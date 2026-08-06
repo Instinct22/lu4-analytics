@@ -1,0 +1,38 @@
+{
+  "key": "skill:1460",
+  "type": "skill",
+  "id": 1460,
+  "name": "Mana Gain",
+  "url": "/lu4/skill/1460-mana-gain",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1460-mana-gain",
+  "raw_html": "library/raw/lu4/skill/1460-mana-gain.html",
+  "stats": {
+    "Effect": "Recharge power received by the target +25.",
+    "Consumes": "80 MP",
+    "Reuse Time": "2 minutes",
+    "Duration": "20 minutes",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Cast Range": "600 (1100)",
+    "Available For": "Elven ElderLv. 52Shillien ElderLv. 52",
+    "Type": "Magical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:30",
+      "type": "class",
+      "id": 30,
+      "name": "Elven ElderLv. 52",
+      "url": "/lu4/class/30-elder"
+    },
+    {
+      "key": "class:43",
+      "type": "class",
+      "id": 43,
+      "name": "Shillien ElderLv. 52",
+      "url": "/lu4/class/43-shillienelder"
+    }
+  ]
+}

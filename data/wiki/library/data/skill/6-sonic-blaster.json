@@ -1,0 +1,31 @@
+{
+  "key": "skill:6",
+  "type": "skill",
+  "id": 6,
+  "name": "Sonic Blaster",
+  "url": "/lu4/skill/6-sonic-blaster",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/6-sonic-blaster",
+  "raw_html": "library/raw/lu4/skill/6-sonic-blaster.html",
+  "stats": {
+    "Effect": "Inflicts physical damage with Energy Charges. Power: 369. Applies to enemy: Stun. Ignores Shield Defence. Over-hit and Critical hit are possible.",
+    "Consumes": "25 MP",
+    "Reuse Time": "3 seconds",
+    "Duration": "3 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_shock",
+    "Cast Range": "600 (1100)",
+    "Available For": "GladiatorLv. 40",
+    "Type": "Physical / Physical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:2",
+      "type": "class",
+      "id": 2,
+      "name": "GladiatorLv. 40",
+      "url": "/lu4/class/2-gladiator"
+    }
+  ]
+}

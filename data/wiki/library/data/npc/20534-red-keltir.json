@@ -2,56 +2,32 @@
   "key": "npc:20534",
   "type": "npc",
   "id": 20534,
-  "name": "Lu4 Wiki: NPC Red Keltir",
+  "name": "Red Keltir",
   "url": "/lu4/npc/20534-red-keltir",
-  "source_url": "https://masterwork.wiki/lu4/npc/20534-red-keltir",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20534-red-keltir",
   "raw_html": "library/raw/lu4/npc/20534-red-keltir.html",
   "stats": {
-    "Location": "Тень Древа Жизни"
+    "Respawn Time": "10 seconds",
+    "Location": "Тень Древа Жизни",
+    "HP / MP": "84 / 58",
+    "P. Atk. / M. Atk.": "10 / 4",
+    "P. Def. / M. Def.": "39 / 31",
+    "Accuracy / Evasion": "35 / 35",
+    "Exp / SP": "88 / 9",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 2"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20534",
-      "type": "npc",
-      "id": 20534,
-      "name": "Lu4",
-      "url": "/lu4/npc/20534-red-keltir"
-    },
-    {
-      "key": "location:111",
-      "type": "location",
-      "id": 111,
-      "name": "Тень Древа Жизни",
-      "url": "/lu4/location/111-ten-dreva-zizni"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1788",
-      "type": "item",
-      "id": 1788,
-      "name": "Recipe: Bow NG",
-      "url": "/lu4/item/1788-recipe-bow"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "item:57",
@@ -61,6 +37,13 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:21",
+      "type": "item",
+      "id": 21,
+      "name": "Shirt NG",
+      "url": "/lu4/item/21-shirt"
+    },
+    {
       "key": "item:28",
       "type": "item",
       "id": 28,
@@ -68,11 +51,25 @@
       "url": "/lu4/item/28-pants"
     },
     {
-      "key": "item:21",
+      "key": "item:1788",
       "type": "item",
-      "id": 21,
-      "name": "Shirt NG",
-      "url": "/lu4/item/21-shirt"
+      "id": 1788,
+      "name": "Recipe: Bow NG",
+      "url": "/lu4/item/1788-recipe-bow"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:1786",

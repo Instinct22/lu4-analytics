@@ -2,161 +2,74 @@
   "key": "npc:20215",
   "type": "npc",
   "id": 20215,
-  "name": "Lu4 Wiki: NPC Mordeo",
+  "name": "Mordeo",
   "url": "/lu4/npc/20215-mordeo",
-  "source_url": "https://masterwork.wiki/lu4/npc/20215-mordeo",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20215-mordeo",
   "raw_html": "library/raw/lu4/npc/20215-mordeo.html",
   "stats": {
-    "Location": "Башня Крумы: 3-й этаж"
+    "Respawn Time": "52 seconds ± 5 seconds",
+    "Location": "Башня Крумы: 3-й этаж",
+    "HP / MP": "5 010 / 654",
+    "P. Atk. / M. Atk.": "366 / 196",
+    "P. Def. / M. Def.": "199 / 212",
+    "Accuracy / Evasion": "75 / 75",
+    "Exp / SP": "5 548 / 555",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 13",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 42"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20215",
-      "type": "npc",
-      "id": 20215,
-      "name": "Lu4",
-      "url": "/lu4/npc/20215-mordeo"
-    },
-    {
-      "key": "location:56",
-      "type": "location",
-      "id": 56,
-      "name": "Башня Крумы: 3-й этаж",
-      "url": "/lu4/location/56-basna-krumy-3-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2995",
-      "type": "item",
-      "id": 2995,
-      "name": "Recipe: Reinforced Mithril Gloves NG",
-      "url": "/lu4/item/2995-recipe-reinforced-mithril-gloves"
-    },
-    {
-      "key": "item:2936",
-      "type": "item",
-      "id": 2936,
-      "name": "Chain Hood Pattern NG",
-      "url": "/lu4/item/2936-chain-hood-pattern"
-    },
-    {
-      "key": "item:2413",
-      "type": "item",
-      "id": 2413,
-      "name": "Chain Hood C",
-      "url": "/lu4/item/2413-chain-hood"
-    },
-    {
-      "key": "item:2302",
-      "type": "item",
-      "id": 2302,
-      "name": "Recipe: Silver Axe NG",
-      "url": "/lu4/item/2302-recipe-silver-axe"
-    },
-    {
-      "key": "item:2161",
-      "type": "item",
-      "id": 2161,
-      "name": "Recipe: Aquastone Ring NG",
-      "url": "/lu4/item/2161-recipe-aquastone-ring"
-    },
-    {
-      "key": "item:2072",
-      "type": "item",
-      "id": 2072,
-      "name": "Dark Elven Dagger Edge NG",
-      "url": "/lu4/item/2072-dark-elven-dagger-edge"
-    },
-    {
-      "key": "item:2063",
-      "type": "item",
-      "id": 2063,
-      "name": "Battle Axe Head NG",
-      "url": "/lu4/item/2063-battle-axe-head"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1866",
@@ -166,11 +79,25 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:232",
+      "key": "item:1871",
       "type": "item",
-      "id": 232,
-      "name": "Dark Elven Dagger C",
-      "url": "/lu4/item/232-dark-elven-dagger"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
+    },
+    {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
     },
     {
       "key": "item:160",
@@ -180,11 +107,95 @@
       "url": "/lu4/item/160-battle-axe"
     },
     {
-      "key": "item:57",
+      "key": "item:2063",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2063,
+      "name": "Battle Axe Head NG",
+      "url": "/lu4/item/2063-battle-axe-head"
+    },
+    {
+      "key": "item:232",
+      "type": "item",
+      "id": 232,
+      "name": "Dark Elven Dagger C",
+      "url": "/lu4/item/232-dark-elven-dagger"
+    },
+    {
+      "key": "item:2072",
+      "type": "item",
+      "id": 2072,
+      "name": "Dark Elven Dagger Edge NG",
+      "url": "/lu4/item/2072-dark-elven-dagger-edge"
+    },
+    {
+      "key": "item:2413",
+      "type": "item",
+      "id": 2413,
+      "name": "Chain Hood C",
+      "url": "/lu4/item/2413-chain-hood"
+    },
+    {
+      "key": "item:2936",
+      "type": "item",
+      "id": 2936,
+      "name": "Chain Hood Pattern NG",
+      "url": "/lu4/item/2936-chain-hood-pattern"
+    },
+    {
+      "key": "item:2161",
+      "type": "item",
+      "id": 2161,
+      "name": "Recipe: Aquastone Ring NG",
+      "url": "/lu4/item/2161-recipe-aquastone-ring"
+    },
+    {
+      "key": "item:2995",
+      "type": "item",
+      "id": 2995,
+      "name": "Recipe: Reinforced Mithril Gloves NG",
+      "url": "/lu4/item/2995-recipe-reinforced-mithril-gloves"
+    },
+    {
+      "key": "item:2302",
+      "type": "item",
+      "id": 2302,
+      "name": "Recipe: Silver Axe NG",
+      "url": "/lu4/item/2302-recipe-silver-axe"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:2211",
+      "type": "item",
+      "id": 2211,
+      "name": "Recipe: Plated Leather Shirt NG",
+      "url": "/lu4/item/2211-recipe-plated-leather-shirt"
     },
     {
       "key": "item:2988",
@@ -197,15 +208,8 @@
       "key": "item:2943",
       "type": "item",
       "id": 2943,
-      "name": "Chain Gloves Design NG",
-      "url": "/lu4/item/2943-chain-gloves-design"
-    },
-    {
-      "key": "item:2211",
-      "type": "item",
-      "id": 2211,
-      "name": "Recipe: Plated Leather Shirt NG",
-      "url": "/lu4/item/2211-recipe-plated-leather-shirt"
+      "name": "Chain Gauntlets Design NG",
+      "url": "/lu4/item/2943-chain-gauntlets-design"
     },
     {
       "key": "item:2074",
@@ -220,13 +224,6 @@
       "id": 1908,
       "name": "Moonstone Earring Wire NG",
       "url": "/lu4/item/1908-moonstone-earring-wire"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
     }
   ]
 }

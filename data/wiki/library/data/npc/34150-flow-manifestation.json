@@ -2,42 +2,38 @@
   "key": "npc:34150",
   "type": "npc",
   "id": 34150,
-  "name": "Lu4 Wiki: NPC Flow Manifestation",
+  "name": "Flow Manifestation",
   "url": "/lu4/npc/34150-flow-manifestation",
-  "source_url": "https://masterwork.wiki/lu4/npc/34150-flow-manifestation",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/34150-flow-manifestation",
   "raw_html": "library/raw/lu4/npc/34150-flow-manifestation.html",
   "stats": {
-    "Location": "Сады Богини Евы"
+    "Respawn Time": "1 minute",
+    "Location": "Сады Богини Евы",
+    "HP / MP": "3 862 / 1 657",
+    "P. Atk. / M. Atk.": "1 304 / 776",
+    "P. Def. / M. Def.": "501 / 346",
+    "Accuracy / Evasion": "98 / 108",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 Resist Full Magic Attack Lv. 1",
+    "Type": "Elemental, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:34150",
-      "type": "npc",
-      "id": 34150,
-      "name": "Lu4",
-      "url": "/lu4/npc/34150-flow-manifestation"
-    },
-    {
-      "key": "location:121",
-      "type": "location",
-      "id": 121,
-      "name": "Сады Богини Евы",
-      "url": "/lu4/location/121-sady-bogini-evy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

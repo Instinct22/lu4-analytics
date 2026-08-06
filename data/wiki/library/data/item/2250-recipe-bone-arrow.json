@@ -2,48 +2,24 @@
   "key": "item:2250",
   "type": "item",
   "id": 2250,
-  "name": "Recipe",
+  "name": "Recipe: Bone Arrow",
   "url": "/lu4/item/2250-recipe-bone-arrow",
-  "source_url": "https://masterwork.wiki/lu4/item/2250-recipe-bone-arrow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2250-recipe-bone-arrow",
   "raw_html": "library/raw/lu4/item/2250-recipe-bone-arrow.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Bone Arrow'. Requires Create Item - Skill Level 2 (Artisan Lv. 20). The success rate is 100%.",
+    "NPC Sell Price": "400 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "80",
     "Success Rate": "100%",
-    "Result": "Bone Arrow D (650 pcs.)"
+    "Result": "Bone Arrow D (650 pcs.)",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "10"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2250",
-      "type": "item",
-      "id": 2250,
-      "name": "Lu4",
-      "url": "/lu4/item/2250-recipe-bone-arrow"
-    },
     {
       "key": "item:1864",
       "type": "item",
@@ -76,77 +52,77 @@
       "key": "npc:21804",
       "type": "npc",
       "id": 21804,
-      "name": "Treasure Chest Lv. 30",
+      "name": "Treasure Chest",
       "url": "/lu4/npc/21804-treasure-chest"
     },
     {
       "key": "npc:21639",
       "type": "npc",
       "id": 21639,
-      "name": "Tasaba Lizardman Lv. 36",
+      "name": "Tasaba Lizardman",
       "url": "/lu4/npc/21639-tasaba-lizardman"
     },
     {
       "key": "npc:21143",
       "type": "npc",
       "id": 21143,
-      "name": "Catacomb Scavenger Bat Lv. 31",
+      "name": "Catacomb Scavenger Bat",
       "url": "/lu4/npc/21143-catacomb-scavenger-bat"
     },
     {
       "key": "npc:20929",
       "type": "npc",
       "id": 20929,
-      "name": "Hatu Dire Wolf Lv. 34",
+      "name": "Hatu Dire Wolf",
       "url": "/lu4/npc/20929-hatu-dire-wolf"
     },
     {
       "key": "npc:20784",
       "type": "npc",
       "id": 20784,
-      "name": "Tasaba Lizardman Lv. 36",
+      "name": "Tasaba Lizardman",
       "url": "/lu4/npc/20784-tasaba-lizardman"
     },
     {
       "key": "npc:20199",
       "type": "npc",
       "id": 20199,
-      "name": "Amber Basilisk Lv. 30",
+      "name": "Amber Basilisk",
       "url": "/lu4/npc/20199-amber-basilisk"
     },
     {
       "key": "npc:21677",
       "type": "npc",
       "id": 21677,
-      "name": "Otherworldly Invader Elite Soldier Lv. 30",
+      "name": "Otherworldly Invader Elite Soldier",
       "url": "/lu4/npc/21677-otherworldly-invader-elite-soldier"
     },
     {
       "key": "npc:20924",
       "type": "npc",
       "id": 20924,
-      "name": "Maille Lizardman Matriarch Lv. 28",
+      "name": "Maille Lizardman Matriarch",
       "url": "/lu4/npc/20924-maille-lizardman-matriarch"
     },
     {
       "key": "npc:20248",
       "type": "npc",
       "id": 20248,
-      "name": "Turak Bugbear Lv. 31",
+      "name": "Turak Bugbear",
       "url": "/lu4/npc/20248-turak-bugbear"
     },
     {
       "key": "npc:20076",
       "type": "npc",
       "id": 20076,
-      "name": "Ol Mahum Commander Lv. 26",
+      "name": "Ol Mahum Commander",
       "url": "/lu4/npc/20076-ol-mahum-commander"
     },
     {
       "key": "npc:18268",
       "type": "npc",
       "id": 18268,
-      "name": "Treasure Chest Lv. 30",
+      "name": "Treasure Chest",
       "url": "/lu4/npc/18268-treasure-chest"
     }
   ]

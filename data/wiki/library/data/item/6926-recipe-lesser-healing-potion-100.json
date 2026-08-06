@@ -2,34 +2,23 @@
   "key": "item:6926",
   "type": "item",
   "id": 6926,
-  "name": "Recipe",
+  "name": "Recipe: Lesser Healing Potion (100%)",
   "url": "/lu4/item/6926-recipe-lesser-healing-potion-100",
-  "source_url": "https://masterwork.wiki/lu4/item/6926-recipe-lesser-healing-potion-100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/6926-recipe-lesser-healing-potion-100",
   "raw_html": "library/raw/lu4/item/6926-recipe-lesser-healing-potion-100.html",
   "stats": {
+    "Effect": "Common recipe. Recipe for crafting 'Lesser Healing Potion'. Requires Create Common Item - Skill Level 1. The success rate is 100%.",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "30",
     "Success Rate": "100%",
-    "Result": "Lesser Healing Potion NG"
+    "Result": "Lesser Healing Potion NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:6908",
-      "type": "item",
-      "id": 6908,
-      "name": "Fish Oil NG",
-      "amount": "2"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:6926",
-      "type": "item",
-      "id": 6926,
-      "name": "Lu4",
-      "url": "/lu4/item/6926-recipe-lesser-healing-potion-100"
-    },
     {
       "key": "item:6908",
       "type": "item",

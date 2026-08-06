@@ -2,91 +2,88 @@
   "key": "npc:20803",
   "type": "npc",
   "id": 20803,
-  "name": "Lu4 Wiki: NPC Doll Master",
+  "name": "Doll Master",
   "url": "/lu4/npc/20803-doll-master",
-  "source_url": "https://masterwork.wiki/lu4/npc/20803-doll-master",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20803-doll-master",
   "raw_html": "library/raw/lu4/npc/20803-doll-master.html",
   "stats": {
-    "Location": "Сады Богини Евы"
+    "Respawn Time": "1 minute, 15 seconds",
+    "Location": "Сады Богини Евы",
+    "HP / MP": "11 226 / 921",
+    "P. Atk. / M. Atk.": "610 / 371",
+    "P. Def. / M. Def.": "363 / 193",
+    "Accuracy / Evasion": "83 / 83",
+    "Exp / SP": "16 366 / 1 637",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (5x) Lv. 13 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Strong P. Def. Lv. 14 Slightly Weak M. Def. Lv. 9 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 50"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20803",
-      "type": "npc",
-      "id": 20803,
-      "name": "Lu4",
-      "url": "/lu4/npc/20803-doll-master"
-    },
-    {
-      "key": "location:121",
-      "type": "location",
-      "id": 121,
-      "name": "Сады Богини Евы",
-      "url": "/lu4/location/121-sady-bogini-evy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:4043",
+      "key": "item:57",
       "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -103,67 +100,25 @@
       "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:2957",
+      "key": "item:1895",
       "type": "item",
-      "id": 2957,
-      "name": "Composite Helmet Design NG",
-      "url": "/lu4/item/2957-composite-helmet-design"
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:2955",
+      "key": "item:4043",
       "type": "item",
-      "id": 2955,
-      "name": "Theca Leather Gloves Texture NG",
-      "url": "/lu4/item/2955-theca-leather-gloves-texture"
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
     },
     {
-      "key": "item:2952",
+      "key": "item:60",
       "type": "item",
-      "id": 2952,
-      "name": "Demon's Boots Fabric NG",
-      "url": "/lu4/item/2952-demons-boots-fabric"
-    },
-    {
-      "key": "item:2460",
-      "type": "item",
-      "id": 2460,
-      "name": "Theca Leather Gloves C",
-      "url": "/lu4/item/2460-theca-leather-gloves"
-    },
-    {
-      "key": "item:2435",
-      "type": "item",
-      "id": 2435,
-      "name": "Demon's Boots C",
-      "url": "/lu4/item/2435-demons-boots"
-    },
-    {
-      "key": "item:2093",
-      "type": "item",
-      "id": 2093,
-      "name": "Poleaxe Blade NG",
-      "url": "/lu4/item/2093-poleaxe-blade"
-    },
-    {
-      "key": "item:1983",
-      "type": "item",
-      "id": 1983,
-      "name": "Shining Circlet Pattern NG",
-      "url": "/lu4/item/1983-shining-circlet-pattern"
-    },
-    {
-      "key": "item:1981",
-      "type": "item",
-      "id": 1981,
-      "name": "Composite Gauntlets Design NG",
-      "url": "/lu4/item/1981-composite-gauntlets-design"
-    },
-    {
-      "key": "item:1979",
-      "type": "item",
-      "id": 1979,
-      "name": "Demon's Tunic Fabric NG",
-      "url": "/lu4/item/1979-demons-tunic-fabric"
+      "id": 60,
+      "name": "Composite Armor C",
+      "url": "/lu4/item/60-composite-armor"
     },
     {
       "key": "item:1977",
@@ -173,25 +128,18 @@
       "url": "/lu4/item/1977-composite-armor-temper"
     },
     {
-      "key": "item:1916",
+      "key": "item:517",
       "type": "item",
-      "id": 1916,
-      "name": "Necklace of Mermaid Teardrop NG",
-      "url": "/lu4/item/1916-necklace-of-mermaid-teardrop"
+      "id": 517,
+      "name": "Composite Helmet C",
+      "url": "/lu4/item/517-composite-helmet"
     },
     {
-      "key": "item:1915",
+      "key": "item:2957",
       "type": "item",
-      "id": 1915,
-      "name": "Ring of Ages Gemstone NG",
-      "url": "/lu4/item/1915-ring-of-ages-gemstone"
-    },
-    {
-      "key": "item:1895",
-      "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
+      "id": 2957,
+      "name": "Composite Helmet Design NG",
+      "url": "/lu4/item/2957-composite-helmet-design"
     },
     {
       "key": "item:1149",
@@ -201,18 +149,25 @@
       "url": "/lu4/item/1149-shining-circlet"
     },
     {
-      "key": "item:917",
+      "key": "item:1983",
       "type": "item",
-      "id": 917,
-      "name": "Necklace of Mermaid C",
-      "url": "/lu4/item/917-necklace-of-mermaid"
+      "id": 1983,
+      "name": "Shining Circlet Pattern NG",
+      "url": "/lu4/item/1983-shining-circlet-pattern"
     },
     {
-      "key": "item:885",
+      "key": "item:2435",
       "type": "item",
-      "id": 885,
-      "name": "Ring of Ages C",
-      "url": "/lu4/item/885-ring-of-ages"
+      "id": 2435,
+      "name": "Demon's Boots C",
+      "url": "/lu4/item/2435-demons-boots"
+    },
+    {
+      "key": "item:2952",
+      "type": "item",
+      "id": 2952,
+      "name": "Demon's Boots Fabric NG",
+      "url": "/lu4/item/2952-demons-boots-fabric"
     },
     {
       "key": "item:608",
@@ -220,6 +175,48 @@
       "id": 608,
       "name": "Composite Gauntlets C",
       "url": "/lu4/item/608-composite-gauntlets"
+    },
+    {
+      "key": "item:1981",
+      "type": "item",
+      "id": 1981,
+      "name": "Composite Gauntlets Design NG",
+      "url": "/lu4/item/1981-composite-gauntlets-design"
+    },
+    {
+      "key": "item:2460",
+      "type": "item",
+      "id": 2460,
+      "name": "Theca Leather Gloves C",
+      "url": "/lu4/item/2460-theca-leather-gloves"
+    },
+    {
+      "key": "item:2955",
+      "type": "item",
+      "id": 2955,
+      "name": "Theca Leather Gloves Texture NG",
+      "url": "/lu4/item/2955-theca-leather-gloves-texture"
+    },
+    {
+      "key": "item:441",
+      "type": "item",
+      "id": 441,
+      "name": "Demon's Tunic C",
+      "url": "/lu4/item/441-demons-tunic"
+    },
+    {
+      "key": "item:1979",
+      "type": "item",
+      "id": 1979,
+      "name": "Demon's Tunic Fabric NG",
+      "url": "/lu4/item/1979-demons-tunic-fabric"
+    },
+    {
+      "key": "item:917",
+      "type": "item",
+      "id": 917,
+      "name": "Necklace of Mermaid C",
+      "url": "/lu4/item/917-necklace-of-mermaid"
     },
     {
       "key": "item:4044",

@@ -1,0 +1,44 @@
+{
+  "key": "skill:1127",
+  "type": "skill",
+  "id": 1127,
+  "name": "Servitor Heal",
+  "url": "/lu4/skill/1127-servitor-heal",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1127-servitor-heal",
+  "raw_html": "library/raw/lu4/skill/1127-servitor-heal.html",
+  "stats": {
+    "Effect": "Recovers the servitor's HP with 169 Power.",
+    "Consumes": "24 MP",
+    "Reuse Time": "3 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Cast Range": "600 (1100)",
+    "Available For": "WizardLv. 20Elven WizardLv. 20Dark WizardLv. 20",
+    "Type": "Magical / Magical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:11",
+      "type": "class",
+      "id": 11,
+      "name": "WizardLv. 20",
+      "url": "/lu4/class/11-wizard"
+    },
+    {
+      "key": "class:26",
+      "type": "class",
+      "id": 26,
+      "name": "Elven WizardLv. 20",
+      "url": "/lu4/class/26-elvenwizard"
+    },
+    {
+      "key": "class:39",
+      "type": "class",
+      "id": 39,
+      "name": "Dark WizardLv. 20",
+      "url": "/lu4/class/39-darkwizard"
+    }
+  ]
+}

@@ -2,105 +2,67 @@
   "key": "npc:20496",
   "type": "npc",
   "id": 20496,
-  "name": "Lu4 Wiki: NPC Turek Orc Archer",
+  "name": "Turek Orc Archer",
   "url": "/lu4/npc/20496-turek-orc-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20496-turek-orc-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20496-turek-orc-archer",
   "raw_html": "library/raw/lu4/npc/20496-turek-orc-archer.html",
   "stats": {
-    "Location": "Лагерь Орков (+1) Лагерь Орков Земли Глудио"
+    "Respawn Time": "45 seconds",
+    "Location": "Лагерь Орков (+1) Лагерь Орков Земли Глудио",
+    "HP / MP": "2 436 / 353",
+    "P. Atk. / M. Atk.": "231 / 52",
+    "P. Def. / M. Def.": "115 / 93",
+    "Accuracy / Evasion": "63 / 62",
+    "Exp / SP": "2 499 / 250",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 27"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20496",
-      "type": "npc",
-      "id": 20496,
-      "name": "Lu4",
-      "url": "/lu4/npc/20496-turek-orc-archer"
-    },
-    {
-      "key": "location:30",
-      "type": "location",
-      "id": 30,
-      "name": "Лагерь Орков",
-      "url": "/lu4/location/30-lager-orkov"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:1935",
+      "key": "item:57",
       "type": "item",
-      "id": 1935,
-      "name": "Scale Mail Fragment NG",
-      "url": "/lu4/item/1935-scale-mail-fragment"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "url": "/lu4/item/1881-coarse-bone-powder"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1876",
@@ -110,18 +72,32 @@
       "url": "/lu4/item/1876-mithril-ore"
     },
     {
-      "key": "item:348",
+      "key": "item:1877",
       "type": "item",
-      "id": 348,
-      "name": "Scale Mail D",
-      "url": "/lu4/item/348-scale-mail"
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
     },
     {
-      "key": "item:292",
+      "key": "item:1880",
       "type": "item",
-      "id": 292,
-      "name": "Pike D",
-      "url": "/lu4/item/292-pike"
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:1881",
+      "type": "item",
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
     },
     {
       "key": "item:275",
@@ -131,11 +107,32 @@
       "url": "/lu4/item/275-long-bow"
     },
     {
-      "key": "item:57",
+      "key": "item:292",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 292,
+      "name": "Pike D",
+      "url": "/lu4/item/292-pike"
+    },
+    {
+      "key": "item:348",
+      "type": "item",
+      "id": 348,
+      "name": "Scale Mail D",
+      "url": "/lu4/item/348-scale-mail"
+    },
+    {
+      "key": "item:1935",
+      "type": "item",
+      "id": 1935,
+      "name": "Scale Mail Fragment NG",
+      "url": "/lu4/item/1935-scale-mail-fragment"
+    },
+    {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
     },
     {
       "key": "item:2023",
@@ -150,13 +147,6 @@
       "id": 2022,
       "name": "Mace of Judgment Head NG",
       "url": "/lu4/item/2022-mace-of-judgment-head"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
     }
   ]
 }

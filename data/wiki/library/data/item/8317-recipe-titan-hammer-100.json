@@ -2,118 +2,24 @@
   "key": "item:8317",
   "type": "item",
   "id": 8317,
-  "name": "Recipe",
+  "name": "Recipe: Titan Hammer (100%)",
   "url": "/lu4/item/8317-recipe-titan-hammer-100",
-  "source_url": "https://masterwork.wiki/lu4/item/8317-recipe-titan-hammer-100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8317-recipe-titan-hammer-100",
   "raw_html": "library/raw/lu4/item/8317-recipe-titan-hammer-100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Titan Hammer'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "14 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Titan Hammer D"
+    "Result": "Titan Hammer D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:8343",
-      "type": "item",
-      "id": 8343,
-      "name": "Titan Hammer Piece NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "176"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "880"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "880"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "88"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "264"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "264"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "44"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "44"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "440"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "132"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "430"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "139"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:8317",
-      "type": "item",
-      "id": 8317,
-      "name": "Lu4",
-      "url": "/lu4/item/8317-recipe-titan-hammer-100"
-    },
     {
       "key": "item:8343",
       "type": "item",
@@ -216,43 +122,43 @@
       "key": "npc:21192",
       "type": "npc",
       "id": 21192,
-      "name": "Gigant Officer Lv. 36",
+      "name": "Gigant Officer",
       "url": "/lu4/npc/21192-gigant-officer"
     },
     {
       "key": "npc:21144",
       "type": "npc",
       "id": 21144,
-      "name": "Catacomb Shadow Lv. 34",
+      "name": "Catacomb Shadow",
       "url": "/lu4/npc/21144-catacomb-shadow"
     },
     {
-      "key": "npc:21119",
+      "key": "npc:21106",
       "type": "npc",
-      "id": 21119,
-      "name": "Hobgoblin Lv. 21",
-      "url": "/lu4/npc/21119-hobgoblin"
+      "id": 21106,
+      "name": "Cursed Seer",
+      "url": "/lu4/npc/21106-cursed-seer"
     },
     {
-      "key": "npc:20224",
+      "key": "npc:20232",
       "type": "npc",
-      "id": 20224,
-      "name": "Ol Mahum Ranger Lv. 22",
-      "url": "/lu4/npc/20224-ol-mahum-ranger"
+      "id": 20232,
+      "name": "Marsh Stakato Soldier",
+      "url": "/lu4/npc/20232-marsh-stakato-soldier"
     },
     {
-      "key": "npc:20547",
+      "key": "npc:20929",
       "type": "npc",
-      "id": 20547,
-      "name": "Ol Mahum Reserve Lv. 23",
-      "url": "/lu4/npc/20547-ol-mahum-reserve"
+      "id": 20929,
+      "name": "Hatu Dire Wolf",
+      "url": "/lu4/npc/20929-hatu-dire-wolf"
     },
     {
-      "key": "npc:20118",
+      "key": "npc:20619",
       "type": "npc",
-      "id": 20118,
-      "name": "Dre Vanul Scout Lv. 21",
-      "url": "/lu4/npc/20118-dre-vanul-scout"
+      "id": 20619,
+      "name": "Rowin Undine",
+      "url": "/lu4/npc/20619-rowin-undine"
     }
   ]
 }

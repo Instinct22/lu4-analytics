@@ -2,29 +2,33 @@
   "key": "item:38213",
   "type": "item",
   "id": 38213,
-  "name": "Lu4 Wiki: Item Traveler&#039;s Campfire",
+  "name": "Traveler's Campfire",
   "url": "/lu4/item/38213-travelers-campfire",
-  "source_url": "https://masterwork.wiki/lu4/item/38213-travelers-campfire",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/38213-travelers-campfire",
   "raw_html": "library/raw/lu4/item/38213-travelers-campfire.html",
   "stats": {
+    "Effect": "Can be placed in dark areas to illuminate the surroundings and bring life to the shadows. Also grants a small bonus to HP and MP regeneration for nearby allies. Only one campfire can be placed within a certain range.",
+    "Weight": "0",
     "Item Skills": "Summon Campfire Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:38213",
-      "type": "item",
-      "id": 38213,
-      "name": "Lu4",
-      "url": "/lu4/item/38213-travelers-campfire"
-    },
-    {
       "key": "skill:24305",
       "type": "skill",
       "id": 24305,
-      "name": "Summon Campfire Lv. 1",
-      "url": "/lu4/skill/24305-summon-campfire/1"
+      "name": "Summon Campfire",
+      "url": "/lu4/skill/24305-summon-campfire"
+    },
+    {
+      "key": "item:39984",
+      "type": "item",
+      "id": 39984,
+      "name": "Referral Reward Box lvl.40 NG",
+      "url": "/lu4/item/39984-referral-reward-box-lvl40"
     }
   ]
 }

@@ -2,56 +2,53 @@
   "key": "npc:25392",
   "type": "npc",
   "id": 25392,
-  "name": "Lu4 Wiki: NPC Captain of Queen's Royal Guards",
+  "name": "Captain of Queen's Royal Guards",
   "url": "/lu4/npc/25392-captain-of-queens-royal-guards",
-  "source_url": "https://masterwork.wiki/lu4/npc/25392-captain-of-queens-royal-guards",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25392-captain-of-queens-royal-guards",
   "raw_html": "library/raw/lu4/npc/25392-captain-of-queens-royal-guards.html",
   "stats": {
-    "Location": "Топи Крумы"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Топи Крумы",
+    "HP / MP": "141 034 / 8 254",
+    "P. Atk. / M. Atk.": "383 / 54",
+    "P. Def. / M. Def.": "438 / 494",
+    "Accuracy / Evasion": "86 / 85",
+    "Exp / SP": "716 800 / 71 493",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 Royal Guard Captain of Stakato Queen Zyrnna, he is the strongest soldier among the Marsh Stakatos and commands a Royal Guard consisting only of Stakato nobles. He is as cruel as Zyrnna, and has murdered many of his people at his Queen's command. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 32"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25392",
-      "type": "npc",
-      "id": 25392,
-      "name": "Lu4",
-      "url": "/lu4/npc/25392-captain-of-queens-royal-guards"
-    },
-    {
-      "key": "location:52",
-      "type": "location",
-      "id": 52,
-      "name": "Топи Крумы",
-      "url": "/lu4/location/52-topi-krumy"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4941",
       "type": "skill",
       "id": 4941,
-      "name": "Raid Boss Lv. 1 Royal Guard Captain of Stakato Queen Zyrnna, he is the strongest soldier among the Marsh Stakatos and commands a Royal Guard consisting only of Stakato nobles. He is as cruel as Zyrnna, and has murdered many of his people at his Queen's command.",
-      "url": "/lu4/skill/4941-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4941-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,60 +58,74 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:129",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 129,
+      "name": "Sword of Revolution D",
+      "url": "/lu4/item/129-sword-of-revolution"
     },
     {
-      "key": "item:6575",
+      "key": "item:7881",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 7881,
+      "name": "Titan Sword D",
+      "url": "/lu4/item/7881-titan-sword"
     },
     {
-      "key": "item:2919",
+      "key": "item:7886",
       "type": "item",
-      "id": 2919,
-      "name": "Brigandine Gaiters Material NG",
-      "url": "/lu4/item/2919-brigandine-gaiters-material"
+      "id": 7886,
+      "name": "Sword of Magic Fog D",
+      "url": "/lu4/item/7886-sword-of-magic-fog"
     },
     {
-      "key": "item:2918",
+      "key": "item:2034",
       "type": "item",
-      "id": 2918,
-      "name": "Mithril Scale Gaiters Material NG",
-      "url": "/lu4/item/2918-mithril-scale-gaiters-material"
+      "id": 2034,
+      "name": "Sword of Revolution Blade NG",
+      "url": "/lu4/item/2034-sword-of-revolution-blade"
     },
     {
-      "key": "item:2378",
+      "key": "item:8328",
       "type": "item",
-      "id": 2378,
-      "name": "Brigandine Gaiters D",
-      "url": "/lu4/item/2378-brigandine-gaiters"
+      "id": 8328,
+      "name": "Titan Sword Blade NG",
+      "url": "/lu4/item/8328-titan-sword-blade"
     },
     {
-      "key": "item:2377",
+      "key": "item:8333",
       "type": "item",
-      "id": 2377,
-      "name": "Mithril Scale Gaiters D",
-      "url": "/lu4/item/2377-mithril-scale-gaiters"
+      "id": 8333,
+      "name": "Sword of Magic Fog Blade NG",
+      "url": "/lu4/item/8333-sword-of-magic-fog-blade"
     },
     {
-      "key": "item:2040",
+      "key": "item:2411",
       "type": "item",
-      "id": 2040,
-      "name": "Reinforced Long Bow Shaft NG",
-      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
+      "id": 2411,
+      "name": "Brigandine Helmet D",
+      "url": "/lu4/item/2411-brigandine-helmet"
     },
     {
-      "key": "item:1941",
+      "key": "item:2493",
       "type": "item",
-      "id": 1941,
-      "name": "Brigandine Breastplate Temper NG",
-      "url": "/lu4/item/1941-brigandine-breastplate-temper"
+      "id": 2493,
+      "name": "Brigandine Shield D",
+      "url": "/lu4/item/2493-brigandine-shield"
+    },
+    {
+      "key": "item:2922",
+      "type": "item",
+      "id": 2922,
+      "name": "Brigandine Helmet Design NG",
+      "url": "/lu4/item/2922-brigandine-helmet-design"
+    },
+    {
+      "key": "item:2929",
+      "type": "item",
+      "id": 2929,
+      "name": "Brigandine Shield Fragment NG",
+      "url": "/lu4/item/2929-brigandine-shield-fragment"
     },
     {
       "key": "item:956",
@@ -124,6 +135,13 @@
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     },
     {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
       "key": "item:955",
       "type": "item",
       "id": 955,
@@ -131,18 +149,11 @@
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
-      "key": "item:352",
+      "key": "item:6575",
       "type": "item",
-      "id": 352,
-      "name": "Brigandine Breastplate D",
-      "url": "/lu4/item/352-brigandine-breastplate"
-    },
-    {
-      "key": "item:279",
-      "type": "item",
-      "id": 279,
-      "name": "Reinforced Long Bow D",
-      "url": "/lu4/item/279-reinforced-long-bow"
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25393",

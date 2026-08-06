@@ -2,56 +2,51 @@
   "key": "npc:25057",
   "type": "npc",
   "id": 25057,
-  "name": "Lu4 Wiki: NPC Beacon of Blue Sky",
+  "name": "Beacon of Blue Sky",
   "url": "/lu4/npc/25057-beacon-of-blue-sky",
-  "source_url": "https://masterwork.wiki/lu4/npc/25057-beacon-of-blue-sky",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25057-beacon-of-blue-sky",
   "raw_html": "library/raw/lu4/npc/25057-beacon-of-blue-sky.html",
   "stats": {
-    "Location": "Остров Аллигаторов"
+    "HP / MP": "288 416 / 4 962",
+    "P. Atk. / M. Atk.": "1 249 / 345",
+    "P. Def. / M. Def.": "720 / 774",
+    "Accuracy / Evasion": "96 / 96",
+    "Exp / SP": "1 417 500 / 171 282",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 The pet of the brilliant mystic, Sartune of Elmoreden, who was imprisoned due to the jealousy and envy of his rivals. It lives up to Sartune's reputation, and is tremendously smart and playful to the point of cruelty. It causes havoc throughout the back roads through its many minions. Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25057",
-      "type": "npc",
-      "id": 25057,
-      "name": "Lu4",
-      "url": "/lu4/npc/25057-beacon-of-blue-sky"
-    },
-    {
-      "key": "location:120",
-      "type": "location",
-      "id": 120,
-      "name": "Остров Аллигаторов",
-      "url": "/lu4/location/120-ostrov-alligatorov"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4810",
       "type": "skill",
       "id": 4810,
-      "name": "Raid Boss Lv. 1 The pet of the brilliant mystic, Sartune of Elmoreden, who was imprisoned due to the jealousy and envy of his rivals. It lives up to Sartune's reputation, and is tremendously smart and playful to the point of cruelty. It causes havoc throughout the back roads through its many minions.",
-      "url": "/lu4/skill/4810-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4810-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -59,69 +54,6 @@
       "id": 9910,
       "name": "Proof of Loyalty NG",
       "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:2956",
-      "type": "item",
-      "id": 2956,
-      "name": "Composite Boots Part NG",
-      "url": "/lu4/item/2956-composite-boots-part"
-    },
-    {
-      "key": "item:2107",
-      "type": "item",
-      "id": 2107,
-      "name": "Dark Screamer Edge NG",
-      "url": "/lu4/item/2107-dark-screamer-edge"
-    },
-    {
-      "key": "item:2106",
-      "type": "item",
-      "id": 2106,
-      "name": "Grace Dagger Edge NG",
-      "url": "/lu4/item/2106-grace-dagger-edge"
-    },
-    {
-      "key": "item:1981",
-      "type": "item",
-      "id": 1981,
-      "name": "Composite Gauntlets Design NG",
-      "url": "/lu4/item/1981-composite-gauntlets-design"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:608",
-      "type": "item",
-      "id": 608,
-      "name": "Composite Gauntlets C",
-      "url": "/lu4/item/608-composite-gauntlets"
     },
     {
       "key": "item:233",
@@ -138,11 +70,74 @@
       "url": "/lu4/item/231-grace-dagger"
     },
     {
+      "key": "item:2107",
+      "type": "item",
+      "id": 2107,
+      "name": "Dark Screamer Edge NG",
+      "url": "/lu4/item/2107-dark-screamer-edge"
+    },
+    {
+      "key": "item:2106",
+      "type": "item",
+      "id": 2106,
+      "name": "Grace Dagger Edge NG",
+      "url": "/lu4/item/2106-grace-dagger-edge"
+    },
+    {
       "key": "item:64",
       "type": "item",
       "id": 64,
       "name": "Composite Boots C",
       "url": "/lu4/item/64-composite-boots"
+    },
+    {
+      "key": "item:608",
+      "type": "item",
+      "id": 608,
+      "name": "Composite Gauntlets C",
+      "url": "/lu4/item/608-composite-gauntlets"
+    },
+    {
+      "key": "item:1981",
+      "type": "item",
+      "id": 1981,
+      "name": "Composite Gauntlets Design NG",
+      "url": "/lu4/item/1981-composite-gauntlets-design"
+    },
+    {
+      "key": "item:2956",
+      "type": "item",
+      "id": 2956,
+      "name": "Composite Boots Part NG",
+      "url": "/lu4/item/2956-composite-boots-part"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "npc:25058",

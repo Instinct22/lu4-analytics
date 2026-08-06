@@ -2,56 +2,32 @@
   "key": "npc:20131",
   "type": "npc",
   "id": 20131,
-  "name": "Lu4 Wiki: NPC Orc Grunt",
+  "name": "Orc Grunt",
   "url": "/lu4/npc/20131-orc-grunt",
-  "source_url": "https://masterwork.wiki/lu4/npc/20131-orc-grunt",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20131-orc-grunt",
   "raw_html": "library/raw/lu4/npc/20131-orc-grunt.html",
   "stats": {
-    "Location": "Говорящий Остров (восток)"
+    "Respawn Time": "12 seconds",
+    "Location": "Говорящий Остров (восток)",
+    "HP / MP": "193 / 104",
+    "P. Atk. / M. Atk.": "19 / 8",
+    "P. Def. / M. Def.": "53 / 42",
+    "Accuracy / Evasion": "43 / 42",
+    "Exp / SP": "202 / 20",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 7"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20131",
-      "type": "npc",
-      "id": 20131,
-      "name": "Lu4",
-      "url": "/lu4/npc/20131-orc-grunt"
-    },
-    {
-      "key": "location:262",
-      "type": "location",
-      "id": 262,
-      "name": "Говорящий Остров (восток)",
-      "url": "/lu4/location/262-govorasij-ostrov-vostok"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1797",
-      "type": "item",
-      "id": 1797,
-      "name": "Recipe: Leather Stockings NG",
-      "url": "/lu4/item/1797-recipe-leather-stockings"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "item:57",
@@ -61,13 +37,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:42",
-      "type": "item",
-      "id": 42,
-      "name": "Leather Cap NG",
-      "url": "/lu4/item/42-leather-cap"
-    },
-    {
       "key": "item:19",
       "type": "item",
       "id": 19,
@@ -75,11 +44,39 @@
       "url": "/lu4/item/19-small-shield"
     },
     {
-      "key": "item:2006",
+      "key": "item:42",
       "type": "item",
-      "id": 2006,
-      "name": "Willow Staff Head NG",
-      "url": "/lu4/item/2006-willow-staff-head"
+      "id": 42,
+      "name": "Leather Cap NG",
+      "url": "/lu4/item/42-leather-cap"
+    },
+    {
+      "key": "item:1797",
+      "type": "item",
+      "id": 1797,
+      "name": "Recipe: Leather Stockings NG",
+      "url": "/lu4/item/1797-recipe-leather-stockings"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1666",
+      "type": "item",
+      "id": 1666,
+      "name": "Recipe: Wooden Arrow NG",
+      "url": "/lu4/item/1666-recipe-wooden-arrow"
     },
     {
       "key": "item:1789",
@@ -89,11 +86,11 @@
       "url": "/lu4/item/1789-recipe-cedar-staff"
     },
     {
-      "key": "item:1666",
+      "key": "item:2006",
       "type": "item",
-      "id": 1666,
-      "name": "Recipe: Wooden Arrow NG",
-      "url": "/lu4/item/1666-recipe-wooden-arrow"
+      "id": 2006,
+      "name": "Willow Staff Head NG",
+      "url": "/lu4/item/2006-willow-staff-head"
     }
   ]
 }

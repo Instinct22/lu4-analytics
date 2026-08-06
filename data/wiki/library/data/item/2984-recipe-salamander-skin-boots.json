@@ -2,90 +2,24 @@
   "key": "item:2984",
   "type": "item",
   "id": 2984,
-  "name": "Recipe",
+  "name": "Recipe: Salamander Skin Boots",
   "url": "/lu4/item/2984-recipe-salamander-skin-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/2984-recipe-salamander-skin-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2984-recipe-salamander-skin-boots",
   "raw_html": "library/raw/lu4/item/2984-recipe-salamander-skin-boots.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Salamander Skin Boots'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "978 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "129",
     "Success Rate": "100%",
-    "Result": "Salamander Skin Boots D"
+    "Result": "Salamander Skin Boots D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2931",
-      "type": "item",
-      "id": 2931,
-      "name": "Salamander Skin Boot Lining NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "192"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "4"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "40"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "12"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "30"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "6"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2984",
-      "type": "item",
-      "id": 2984,
-      "name": "Lu4",
-      "url": "/lu4/item/2984-recipe-salamander-skin-boots"
-    },
     {
       "key": "item:2931",
       "type": "item",
@@ -160,35 +94,35 @@
       "key": "npc:21272",
       "type": "npc",
       "id": 21272,
-      "name": "Cave Ant Soldier Lv. 38",
+      "name": "Cave Ant Soldier",
       "url": "/lu4/npc/21272-cave-ant-soldier"
     },
     {
       "key": "npc:21271",
       "type": "npc",
       "id": 21271,
-      "name": "Cave Ant Lv. 37",
+      "name": "Cave Ant",
       "url": "/lu4/npc/21271-cave-ant"
     },
     {
       "key": "npc:20790",
       "type": "npc",
       "id": 20790,
-      "name": "Dailaon Lv. 37",
+      "name": "Dailaon",
       "url": "/lu4/npc/20790-dailaon"
     },
     {
       "key": "npc:21265",
       "type": "npc",
       "id": 21265,
-      "name": "Cave Ant Larva Lv. 36",
+      "name": "Cave Ant Larva",
       "url": "/lu4/npc/21265-cave-ant-larva"
     },
     {
       "key": "npc:20765",
       "type": "npc",
       "id": 20765,
-      "name": "Warrior of the Plains Lv. 38",
+      "name": "Warrior of the Plains",
       "url": "/lu4/npc/20765-warrior-of-the-plains"
     }
   ]

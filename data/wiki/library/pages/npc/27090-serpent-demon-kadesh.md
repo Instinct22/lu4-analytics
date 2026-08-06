@@ -1,79 +1,20 @@
-# Lu4 Wiki: NPC Serpent Demon Kadesh
+# Serpent Demon Kadesh
 
-- Source: https://masterwork.wiki/lu4/npc/27090-serpent-demon-kadesh
+- Source: https://masterwork.wiki/lu4-b-w-c/npc/27090-serpent-demon-kadesh
 - Path: /lu4/npc/27090-serpent-demon-kadesh
 - Type: npc
 - Key: npc:27090
 
+## Stats
+- HP / MP: 1 593 / 622
+- P. Atk. / M. Atk.: 295 / 145
+- P. Def. / M. Def.: 216 / 171
+- Accuracy / Evasion: 74 / 74
+- Exp / SP: 0 / 0
+- Attack Attribute: None
+- Defense Attributes: Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20
+- Skills: Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%
+- Type: Beast, Lv. 41
+
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-NPCs (Lu4)
-Serpent Demon Kadesh
-Lu4
-Eternal
-MasterWork
-Serpent Demon Kadesh
-Quest Monster
-Beast, Lv. 41
-HP / MP
-1 593 / 622
-P. Atk. / M. Atk.
-295 / 145
-P. Def. / M. Def.
-216 / 171
-Accuracy / Evasion
-74 / 74
-Exp / SP
-0 / 0
-Attack Attribute
-None
-Defense Attributes
-Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20
-Skills
-Beast
-Lv. 3
-Takes 15% increased damage from attacks that are effective against Beasts.
-Critical Damage +7.5%
-Atk. Spd. +5%
-Speed +5
-Resistance to Derangement +20%
-Resistance to Sword +10%
-Resistance to Dual Sword +10%
-Resistance to Bleed -10%
-Resistance to Dagger -10%
-Resistance to Dual Dagger -10%
-MasterWork 2026
-All rights reserved
+Serpent Demon Kadesh Quest Monster Beast, Lv. 41 HP / MP 1 593 / 622 P. Atk. / M. Atk. 295 / 145 P. Def. / M. Def. 216 / 171 Accuracy / Evasion 74 / 74 Exp / SP 0 / 0 Attack Attribute None Defense Attributes Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20 Skills Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%

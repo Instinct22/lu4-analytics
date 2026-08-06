@@ -2,112 +2,67 @@
   "key": "npc:20211",
   "type": "npc",
   "id": 20211,
-  "name": "Lu4 Wiki: NPC Ol Mahum Captain",
+  "name": "Ol Mahum Captain",
   "url": "/lu4/npc/20211-ol-mahum-captain",
-  "source_url": "https://masterwork.wiki/lu4/npc/20211-ol-mahum-captain",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20211-ol-mahum-captain",
   "raw_html": "library/raw/lu4/npc/20211-ol-mahum-captain.html",
   "stats": {
-    "Location": "Холмы Диона (+2) Холмы Диона Лагерь Партизан Земли Диона"
+    "Respawn Time": "35 seconds",
+    "Location": "Холмы Диона (+2) Холмы Диона Лагерь Партизан Земли Диона",
+    "HP / MP": "2 136 / 405",
+    "P. Atk. / M. Atk.": "133 / 60",
+    "P. Def. / M. Def.": "144 / 112",
+    "Accuracy / Evasion": "66 / 65",
+    "Exp / SP": "2 075 / 208",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 30"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20211",
-      "type": "npc",
-      "id": 20211,
-      "name": "Lu4",
-      "url": "/lu4/npc/20211-ol-mahum-captain"
-    },
-    {
-      "key": "location:244",
-      "type": "location",
-      "id": 244,
-      "name": "Холмы Диона",
-      "url": "/lu4/location/244-holmy-diona"
-    },
-    {
-      "key": "location:50",
-      "type": "location",
-      "id": 50,
-      "name": "Лагерь Партизан",
-      "url": "/lu4/location/50-lager-partizan"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:5550",
+      "key": "item:57",
       "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:2280",
-      "type": "item",
-      "id": 2280,
-      "name": "Recipe: Crucifix of Blood NG",
-      "url": "/lu4/item/2280-recipe-crucifix-of-blood"
-    },
-    {
-      "key": "item:2265",
-      "type": "item",
-      "id": 2265,
-      "name": "Recipe: Spiked Club NG",
-      "url": "/lu4/item/2265-recipe-spiked-club"
-    },
-    {
-      "key": "item:2185",
-      "type": "item",
-      "id": 2185,
-      "name": "Recipe: Iron Boots NG",
-      "url": "/lu4/item/2185-recipe-iron-boots"
-    },
-    {
-      "key": "item:2030",
-      "type": "item",
-      "id": 2030,
-      "name": "Tome of Blood Page NG",
-      "url": "/lu4/item/2030-tome-of-blood-page"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1880",
@@ -131,11 +86,11 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:317",
+      "key": "item:5550",
       "type": "item",
-      "id": 317,
-      "name": "Tome of Blood D",
-      "url": "/lu4/item/317-tome-of-blood"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:223",
@@ -152,11 +107,46 @@
       "url": "/lu4/item/186-staff-of-magic"
     },
     {
-      "key": "item:57",
+      "key": "item:317",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 317,
+      "name": "Tome of Blood D",
+      "url": "/lu4/item/317-tome-of-blood"
+    },
+    {
+      "key": "item:2030",
+      "type": "item",
+      "id": 2030,
+      "name": "Tome of Blood Page NG",
+      "url": "/lu4/item/2030-tome-of-blood-page"
+    },
+    {
+      "key": "item:2280",
+      "type": "item",
+      "id": 2280,
+      "name": "Recipe: Crucifix of Blood NG",
+      "url": "/lu4/item/2280-recipe-crucifix-of-blood"
+    },
+    {
+      "key": "item:2185",
+      "type": "item",
+      "id": 2185,
+      "name": "Recipe: Iron Boots NG",
+      "url": "/lu4/item/2185-recipe-iron-boots"
+    },
+    {
+      "key": "item:2265",
+      "type": "item",
+      "id": 2265,
+      "name": "Recipe: Spiked Club NG",
+      "url": "/lu4/item/2265-recipe-spiked-club"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:2024",
@@ -178,13 +168,6 @@
       "id": 1901,
       "name": "Tiger's Eye Earring Stone NG",
       "url": "/lu4/item/1901-tigers-eye-earring-stone"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
     }
   ]
 }

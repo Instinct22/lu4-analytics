@@ -2,34 +2,32 @@
   "key": "item:8880",
   "type": "item",
   "id": 8880,
-  "name": "Lu4 Wiki: Item Spellbook: Summon Spectral Lord",
+  "name": "Spellbook: Summon Spectral Lord",
   "url": "/lu4/item/8880-spellbook-summon-spectral-lord",
-  "source_url": "https://masterwork.wiki/lu4/item/8880-spellbook-summon-spectral-lord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8880-spellbook-summon-spectral-lord",
   "raw_html": "library/raw/lu4/item/8880-spellbook-summon-spectral-lord.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Summon Spectral Lord'. Required: Phantom Summoner - Lv. 75 To obtain this item, hunt the Cinderveil Reanimator found in Blazing Swamp.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8880",
-      "type": "item",
-      "id": 8880,
-      "name": "Lu4",
-      "url": "/lu4/item/8880-spellbook-summon-spectral-lord"
-    },
-    {
       "key": "npc:22205",
       "type": "npc",
       "id": 22205,
-      "name": "Deinonychus Lv. 80",
+      "name": "Deinonychus",
       "url": "/lu4/npc/22205-deinonychus"
     },
     {
       "key": "npc:5058",
       "type": "npc",
       "id": 5058,
-      "name": "Cinderveil Reanimator Lv. 74",
+      "name": "Cinderveil Reanimator",
       "url": "/lu4/npc/5058-cinderveil-reanimator"
     }
   ]

@@ -2,77 +2,114 @@
   "key": "npc:25106",
   "type": "npc",
   "id": 25106,
-  "name": "Lu4 Wiki: NPC Ghost of the Well Lidia",
+  "name": "Ghost of the Well Lidia",
   "url": "/lu4/npc/25106-ghost-of-the-well-lidia",
-  "source_url": "https://masterwork.wiki/lu4/npc/25106-ghost-of-the-well-lidia",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25106-ghost-of-the-well-lidia",
   "raw_html": "library/raw/lu4/npc/25106-ghost-of-the-well-lidia.html",
   "stats": {
-    "Location": "Поле Брани"
+    "HP / MP": "954 618 / 5 705",
+    "P. Atk. / M. Atk.": "10 727 / 5 901",
+    "P. Def. / M. Def.": "1 086 / 1 231",
+    "Accuracy / Evasion": "115 / 115",
+    "Exp / SP": "4 710 400 / 740 000",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A shaman of the village, she witnessed Elmore invaders poisoning the well and looked the other way in fear of her life. But when she saw the villagers die one by one, she realized what she had done and lost her mind. She still wanders near the cursed well, and recklessly attacks anyone who comes close, thinking that they are Elmore soldiers. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 64"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25106",
-      "type": "npc",
-      "id": 25106,
-      "name": "Lu4",
-      "url": "/lu4/npc/25106-ghost-of-the-well-lidia"
-    },
-    {
-      "key": "location:188",
-      "type": "location",
-      "id": 188,
-      "name": "Поле Брани",
-      "url": "/lu4/location/188-pole-brani"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4829",
       "type": "skill",
       "id": 4829,
-      "name": "Raid Boss Lv. 1 A shaman of the village, she witnessed Elmore invaders poisoning the well and looked the other way in fear of her life. But when she saw the villagers die one by one, she realized what she had done and lost her mind. She still wanders near the cursed well, and recklessly attacks anyone who comes close, thinking that they are Elmore soldiers.",
-      "url": "/lu4/skill/4829-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4829-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32535",
+      "key": "item:9910",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
+    },
+    {
+      "key": "item:8620",
+      "type": "item",
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
+    },
+    {
+      "key": "item:8621",
+      "type": "item",
+      "id": 8621,
+      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
+      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
+    },
+    {
+      "key": "item:10552",
+      "type": "item",
+      "id": 10552,
+      "name": "Spellbook: Fighter's Will NG",
+      "url": "/lu4/item/10552-spellbook-fighters-will"
+    },
+    {
+      "key": "item:10553",
+      "type": "item",
+      "id": 10553,
+      "name": "Spellbook: Archer's Will NG",
+      "url": "/lu4/item/10553-spellbook-archers-will"
+    },
+    {
+      "key": "item:14219",
+      "type": "item",
+      "id": 14219,
+      "name": "Spellbook: Magician's Will NG",
+      "url": "/lu4/item/14219-spellbook-magicians-will"
+    },
+    {
+      "key": "item:32368",
+      "type": "item",
+      "id": 32368,
+      "name": "Unidentified Meteor Shower A",
+      "url": "/lu4/item/32368-unidentified-meteor-shower"
     },
     {
       "key": "item:32437",
@@ -89,81 +126,18 @@
       "url": "/lu4/item/32435-unidentified-spiritual-eye"
     },
     {
-      "key": "item:32378",
+      "key": "item:32535",
       "type": "item",
-      "id": 32378,
-      "name": "Unidentified Sealed Tallum Boots A",
-      "url": "/lu4/item/32378-unidentified-sealed-tallum-boots"
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
     },
     {
-      "key": "item:32377",
+      "key": "item:5438",
       "type": "item",
-      "id": 32377,
-      "name": "Unidentified Sealed Tallum Gloves A",
-      "url": "/lu4/item/32377-unidentified-sealed-tallum-gloves"
-    },
-    {
-      "key": "item:32373",
-      "type": "item",
-      "id": 32373,
-      "name": "Unidentified Sealed Dark Crystal Boots A",
-      "url": "/lu4/item/32373-unidentified-sealed-dark-crystal-boots"
-    },
-    {
-      "key": "item:32372",
-      "type": "item",
-      "id": 32372,
-      "name": "Unidentified Sealed Dark Crystal Gloves A",
-      "url": "/lu4/item/32372-unidentified-sealed-dark-crystal-gloves"
-    },
-    {
-      "key": "item:32368",
-      "type": "item",
-      "id": 32368,
-      "name": "Unidentified Meteor Shower A",
-      "url": "/lu4/item/32368-unidentified-meteor-shower"
-    },
-    {
-      "key": "item:14219",
-      "type": "item",
-      "id": 14219,
-      "name": "Spellbook: Magician's Will NG",
-      "url": "/lu4/item/14219-spellbook-magicians-will"
-    },
-    {
-      "key": "item:10553",
-      "type": "item",
-      "id": 10553,
-      "name": "Spellbook: Archer's Will NG",
-      "url": "/lu4/item/10553-spellbook-archers-will"
-    },
-    {
-      "key": "item:10552",
-      "type": "item",
-      "id": 10552,
-      "name": "Spellbook: Fighter's Will NG",
-      "url": "/lu4/item/10552-spellbook-fighters-will"
-    },
-    {
-      "key": "item:9910",
-      "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:8621",
-      "type": "item",
-      "id": 8621,
-      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
-      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
-    },
-    {
-      "key": "item:8620",
-      "type": "item",
-      "id": 8620,
-      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
-      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
+      "id": 5438,
+      "name": "Recipe: Meteor Shower(60%) NG",
+      "url": "/lu4/item/5438-recipe-meteor-shower60"
     },
     {
       "key": "item:8487",
@@ -171,6 +145,27 @@
       "id": 8487,
       "name": "Recipe: Destroyer Hammer (60%) NG",
       "url": "/lu4/item/8487-recipe-destroyer-hammer-60"
+    },
+    {
+      "key": "item:8314",
+      "type": "item",
+      "id": 8314,
+      "name": "Recipe: Spiritual Eye (60%) NG",
+      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
+    },
+    {
+      "key": "item:5460",
+      "type": "item",
+      "id": 5460,
+      "name": "Recipe: Dasparion's Staff(60%) NG",
+      "url": "/lu4/item/5460-recipe-dasparions-staff60"
+    },
+    {
+      "key": "item:5532",
+      "type": "item",
+      "id": 5532,
+      "name": "Meteor Shower Head NG",
+      "url": "/lu4/item/5532-meteor-shower-head"
     },
     {
       "key": "item:8346",
@@ -187,25 +182,25 @@
       "url": "/lu4/item/8341-spiritual-eye-piece"
     },
     {
-      "key": "item:8314",
+      "key": "item:5543",
       "type": "item",
-      "id": 8314,
-      "name": "Recipe: Spiritual Eye (60%) NG",
-      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
+      "id": 5543,
+      "name": "Dasparion's Staff Head NG",
+      "url": "/lu4/item/5543-dasparions-staff-head"
     },
     {
-      "key": "item:6570",
+      "key": "item:32372",
       "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
+      "id": 32372,
+      "name": "Unidentified Sealed Dark Crystal Gloves A",
+      "url": "/lu4/item/32372-unidentified-sealed-dark-crystal-gloves"
     },
     {
-      "key": "item:6569",
+      "key": "item:32377",
       "type": "item",
-      "id": 6569,
-      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
+      "id": 32377,
+      "name": "Unidentified Sealed Tallum Gloves A",
+      "url": "/lu4/item/32377-unidentified-sealed-tallum-gloves"
     },
     {
       "key": "npc:25107",

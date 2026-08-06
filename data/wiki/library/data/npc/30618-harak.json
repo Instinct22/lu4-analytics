@@ -2,42 +2,38 @@
   "key": "npc:30618",
   "type": "npc",
   "id": 30618,
-  "name": "Lu4 Wiki: NPC Harak",
+  "name": "Harak",
   "url": "/lu4/npc/30618-harak",
-  "source_url": "https://masterwork.wiki/lu4/npc/30618-harak",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30618-harak",
   "raw_html": "library/raw/lu4/npc/30618-harak.html",
   "stats": {
-    "Location": "Поселение Ящеров Лангк"
+    "Respawn Time": "1 minute",
+    "Location": "Поселение Ящеров Лангк",
+    "HP / MP": "3 862 / 1 657",
+    "P. Atk. / M. Atk.": "1 304 / 776",
+    "P. Def. / M. Def.": "453 / 364",
+    "Accuracy / Evasion": "106 / 105",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Resist Full Magic Attack Lv. 1",
+    "Type": "Humanoid, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30618",
-      "type": "npc",
-      "id": 30618,
-      "name": "Lu4",
-      "url": "/lu4/npc/30618-harak"
-    },
-    {
-      "key": "location:23",
-      "type": "location",
-      "id": 23,
-      "name": "Поселение Ящеров Лангк",
-      "url": "/lu4/location/23-poselenie-aserov-langk"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

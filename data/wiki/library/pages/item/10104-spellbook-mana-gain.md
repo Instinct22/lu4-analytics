@@ -1,82 +1,17 @@
-# Lu4 Wiki: Item Spellbook: Mana Gain
+# Spellbook: Mana Gain
 
-- Source: https://masterwork.wiki/lu4/item/10104-spellbook-mana-gain
+- Source: https://masterwork.wiki/lu4-b-w-c/item/10104-spellbook-mana-gain
 - Path: /lu4/item/10104-spellbook-mana-gain
 - Type: item
 - Key: item:10104
 
 ## Stats
+- Effect: Spellbook needed to learn 'Mana Gain'. Required: Elven Elder - Lv. 52 Shillien Elder - Lv. 52 To obtain this item, hunt the Zaken's Royal Guard found in Devil's Isle.
+- NPC Sell Price: 1 600 Adena
+- Weight: 120
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Other / Spellbook
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Spellbook: Mana Gain
-Lu4
-Eternal
-MasterWork
-Spellbook: Mana Gain
-NG
-Other / Spellbook
-Spellbook needed to learn 'Mana Gain'.
-Required:
-Elven Elder - Lv. 52
-Shillien Elder - Lv. 52
-To obtain this item, hunt the Zaken's Royal Guard found in Devil's Isle.
-NPC Sell Price
-1 600 Adena
-Weight
-120
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Drop
-NPC
-Amount
-Chance
-Zaken's Royal Guard
-Lv. 50
-1
-0.250000%
-MasterWork 2026
-All rights reserved
+Spellbook: Mana Gain NG Other / Spellbook Spellbook needed to learn 'Mana Gain'. Required: Elven Elder - Lv. 52 Shillien Elder - Lv. 52 To obtain this item, hunt the Zaken's Royal Guard found in Devil's Isle. NPC Sell Price 1 600 Adena Weight 120 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

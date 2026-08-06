@@ -2,138 +2,86 @@
   "key": "npc:20750",
   "type": "npc",
   "id": 20750,
-  "name": "Lu4 Wiki: NPC Fire Archer",
+  "name": "Fire Archer",
   "url": "/lu4/npc/20750-fire-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20750-fire-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20750-fire-archer",
   "raw_html": "library/raw/lu4/npc/20750-fire-archer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 683 / 387",
+    "P. Atk. / M. Atk.": "197 / 53",
+    "P. Def. / M. Def.": "159 / 121",
+    "Accuracy / Evasion": "62 / 62",
+    "Exp / SP": "2 697 / 270",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 29"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20750",
-      "type": "npc",
-      "id": 20750,
-      "name": "Lu4",
-      "url": "/lu4/npc/20750-fire-archer"
-    },
-    {
-      "key": "location:28",
-      "type": "location",
-      "id": 28,
-      "name": "Забытый Храм",
-      "url": "/lu4/location/28-zabytyj-hram"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:8337",
+      "key": "item:57",
       "type": "item",
-      "id": 8337,
-      "name": "Priest Mace Head NG",
-      "url": "/lu4/item/8337-priest-mace-head"
-    },
-    {
-      "key": "item:7890",
-      "type": "item",
-      "id": 7890,
-      "name": "Priest Mace D",
-      "url": "/lu4/item/7890-priest-mace"
-    },
-    {
-      "key": "item:2447",
-      "type": "item",
-      "id": 2447,
-      "name": "Gloves of Knowledge D",
-      "url": "/lu4/item/2447-gloves-of-knowledge"
-    },
-    {
-      "key": "item:2030",
-      "type": "item",
-      "id": 2030,
-      "name": "Tome of Blood Page NG",
-      "url": "/lu4/item/2030-tome-of-blood-page"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1832",
-      "type": "item",
-      "id": 1832,
-      "name": "Greater Antidote NG",
-      "url": "/lu4/item/1832-greater-antidote"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1829",
@@ -143,25 +91,53 @@
       "url": "/lu4/item/1829-scroll-of-escape-clan-hall"
     },
     {
-      "key": "item:436",
+      "key": "item:1832",
       "type": "item",
-      "id": 436,
-      "name": "Tunic of Knowledge D",
-      "url": "/lu4/item/436-tunic-of-knowledge"
+      "id": 1832,
+      "name": "Greater Antidote NG",
+      "url": "/lu4/item/1832-greater-antidote"
     },
     {
-      "key": "item:317",
+      "key": "item:1867",
       "type": "item",
-      "id": 317,
-      "name": "Tome of Blood D",
-      "url": "/lu4/item/317-tome-of-blood"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:260",
+      "key": "item:1872",
       "type": "item",
-      "id": 260,
-      "name": "Triple-Edged Jamadhr D",
-      "url": "/lu4/item/260-triple-edged-jamadhr"
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:2447",
+      "type": "item",
+      "id": 2447,
+      "name": "Gloves of Knowledge D",
+      "url": "/lu4/item/2447-gloves-of-knowledge"
+    },
+    {
+      "key": "item:7890",
+      "type": "item",
+      "id": 7890,
+      "name": "Priest Mace D",
+      "url": "/lu4/item/7890-priest-mace"
+    },
+    {
+      "key": "item:8337",
+      "type": "item",
+      "id": 8337,
+      "name": "Priest Mace Head NG",
+      "url": "/lu4/item/8337-priest-mace-head"
     },
     {
       "key": "item:83",
@@ -171,11 +147,46 @@
       "url": "/lu4/item/83-sword-of-magic"
     },
     {
-      "key": "item:57",
+      "key": "item:317",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 317,
+      "name": "Tome of Blood D",
+      "url": "/lu4/item/317-tome-of-blood"
+    },
+    {
+      "key": "item:2030",
+      "type": "item",
+      "id": 2030,
+      "name": "Tome of Blood Page NG",
+      "url": "/lu4/item/2030-tome-of-blood-page"
+    },
+    {
+      "key": "item:260",
+      "type": "item",
+      "id": 260,
+      "name": "Triple-Edged Jamadhr D",
+      "url": "/lu4/item/260-triple-edged-jamadhr"
+    },
+    {
+      "key": "item:436",
+      "type": "item",
+      "id": 436,
+      "name": "Tunic of Knowledge D",
+      "url": "/lu4/item/436-tunic-of-knowledge"
+    },
+    {
+      "key": "item:1061",
+      "type": "item",
+      "id": 1061,
+      "name": "Healing Potion NG",
+      "url": "/lu4/item/1061-healing-potion"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
       "key": "item:2267",
@@ -197,20 +208,6 @@
       "id": 1901,
       "name": "Tiger's Eye Earring Stone NG",
       "url": "/lu4/item/1901-tigers-eye-earring-stone"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1061",
-      "type": "item",
-      "id": 1061,
-      "name": "Healing Potion NG",
-      "url": "/lu4/item/1061-healing-potion"
     }
   ]
 }

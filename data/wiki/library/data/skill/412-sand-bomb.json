@@ -1,0 +1,44 @@
+{
+  "key": "skill:412",
+  "type": "skill",
+  "id": 412,
+  "name": "Sand Bomb",
+  "url": "/lu4/skill/412-sand-bomb",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/412-sand-bomb",
+  "raw_html": "library/raw/lu4/skill/412-sand-bomb.html",
+  "stats": {
+    "Effect": "Detonates a sand bomb at nearby enemies, decrease their Accuracy by 6. Has a chance to cancel the target.",
+    "Consumes": "25 MP",
+    "Reuse Time": "20 seconds",
+    "Duration": "30 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "Treasure HunterLv. 55Plains WalkerLv. 55Abyss WalkerLv. 55",
+    "Type": "Physical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:8",
+      "type": "class",
+      "id": 8,
+      "name": "Treasure HunterLv. 55",
+      "url": "/lu4/class/8-treasurehunter"
+    },
+    {
+      "key": "class:23",
+      "type": "class",
+      "id": 23,
+      "name": "Plains WalkerLv. 55",
+      "url": "/lu4/class/23-plainwalker"
+    },
+    {
+      "key": "class:36",
+      "type": "class",
+      "id": 36,
+      "name": "Abyss WalkerLv. 55",
+      "url": "/lu4/class/36-abysswalker"
+    }
+  ]
+}

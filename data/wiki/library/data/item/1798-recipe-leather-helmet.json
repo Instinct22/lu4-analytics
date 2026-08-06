@@ -2,48 +2,24 @@
   "key": "item:1798",
   "type": "item",
   "id": 1798,
-  "name": "Recipe",
+  "name": "Recipe: Leather Helmet",
   "url": "/lu4/item/1798-recipe-leather-helmet",
-  "source_url": "https://masterwork.wiki/lu4/item/1798-recipe-leather-helmet",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1798-recipe-leather-helmet",
   "raw_html": "library/raw/lu4/item/1798-recipe-leather-helmet.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Leather Helmet'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "102 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "60",
     "Success Rate": "100%",
-    "Result": "Leather Helmet NG"
+    "Result": "Leather Helmet NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1924",
-      "type": "item",
-      "id": 1924,
-      "name": "Leather Helmet Design NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "15"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "12"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:1798",
-      "type": "item",
-      "id": 1798,
-      "name": "Lu4",
-      "url": "/lu4/item/1798-recipe-leather-helmet"
-    },
     {
       "key": "item:1924",
       "type": "item",
@@ -76,91 +52,91 @@
       "key": "npc:20502",
       "type": "npc",
       "id": 20502,
-      "name": "Twink Puma Lv. 15",
+      "name": "Twink Puma",
       "url": "/lu4/npc/20502-twink-puma"
     },
     {
       "key": "npc:20463",
       "type": "npc",
       "id": 20463,
-      "name": "Dungeon Skeleton Archer Lv. 13",
+      "name": "Dungeon Skeleton Archer",
       "url": "/lu4/npc/20463-dungeon-skeleton-archer"
     },
     {
       "key": "npc:20449",
       "type": "npc",
       "id": 20449,
-      "name": "Will-O-Wisp Lv. 15",
+      "name": "Will-O-Wisp",
       "url": "/lu4/npc/20449-will-o-wisp"
     },
     {
       "key": "npc:20400",
       "type": "npc",
       "id": 20400,
-      "name": "Blood Fungus Lv. 12",
+      "name": "Blood Fungus",
       "url": "/lu4/npc/20400-blood-fungus"
     },
     {
       "key": "npc:20330",
       "type": "npc",
       "id": 20330,
-      "name": "Mineshaft Bat Lv. 11",
+      "name": "Mineshaft Bat",
       "url": "/lu4/npc/20330-mineshaft-bat"
     },
     {
       "key": "npc:20143",
       "type": "npc",
       "id": 20143,
-      "name": "Grizzly Lv. 12",
+      "name": "Grizzly",
       "url": "/lu4/npc/20143-grizzly"
     },
     {
       "key": "npc:20021",
       "type": "npc",
       "id": 20021,
-      "name": "Red Bear Lv. 14",
+      "name": "Red Bear",
       "url": "/lu4/npc/20021-red-bear"
     },
     {
       "key": "npc:20015",
       "type": "npc",
       "id": 20015,
-      "name": "Marsh Zombie Lv. 13",
+      "name": "Marsh Zombie",
       "url": "/lu4/npc/20015-marsh-zombie"
     },
     {
       "key": "npc:20010",
       "type": "npc",
       "id": 20010,
-      "name": "Felim Lizardman Scout Lv. 15",
+      "name": "Felim Lizardman Scout",
       "url": "/lu4/npc/20010-felim-lizardman-scout"
     },
     {
       "key": "npc:20510",
       "type": "npc",
       "id": 20510,
-      "name": "Puma Lv. 12",
+      "name": "Puma",
       "url": "/lu4/npc/20510-puma"
     },
     {
       "key": "npc:20392",
       "type": "npc",
       "id": 20392,
-      "name": "Redeye Bat Lv. 15",
+      "name": "Redeye Bat",
       "url": "/lu4/npc/20392-redeye-bat"
     },
     {
       "key": "npc:20333",
       "type": "npc",
       "id": 20333,
-      "name": "Greystone Golem Lv. 13",
+      "name": "Greystone Golem",
       "url": "/lu4/npc/20333-greystone-golem"
     },
     {
       "key": "npc:20030",
       "type": "npc",
       "id": 20030,
-      "name": "Langk Lizardman Lv. 15",
+      "name": "Langk Lizardman",
       "url": "/lu4/npc/20030-langk-lizardman"
     }
   ]

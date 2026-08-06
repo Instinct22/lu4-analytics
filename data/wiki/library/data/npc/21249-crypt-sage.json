@@ -2,103 +2,65 @@
   "key": "npc:21249",
   "type": "npc",
   "id": 21249,
-  "name": "Lu4 Wiki: NPC Crypt Sage",
+  "name": "Crypt Sage",
   "url": "/lu4/npc/21249-crypt-sage",
-  "source_url": "https://masterwork.wiki/lu4/npc/21249-crypt-sage",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21249-crypt-sage",
   "raw_html": "library/raw/lu4/npc/21249-crypt-sage.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "12 874 / 1 351",
+    "P. Atk. / M. Atk.": "958 / 551",
+    "P. Def. / M. Def.": "274 / 322",
+    "Accuracy / Evasion": "95 / 105",
+    "Exp / SP": "16 675 / 1 484",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 62"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21249",
-      "type": "npc",
-      "id": 21249,
-      "name": "Lu4",
-      "url": "/lu4/npc/21249-crypt-sage"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32355",
-      "type": "item",
-      "id": 32355,
-      "name": "Unidentified Doom Plate Armor B",
-      "url": "/lu4/item/32355-unidentified-doom-plate-armor"
-    },
-    {
-      "key": "item:32354",
-      "type": "item",
-      "id": 32354,
-      "name": "Unidentified Blue Wolf Gaiters B",
-      "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
-    },
-    {
-      "key": "item:32351",
-      "type": "item",
-      "id": 32351,
-      "name": "Unidentified Blue Wolf Breastplate B",
-      "url": "/lu4/item/32351-unidentified-blue-wolf-breastplate"
-    },
-    {
-      "key": "item:5815",
-      "type": "item",
-      "id": 5815,
-      "name": "Spellbook: Wild Magic NG",
-      "url": "/lu4/item/5815-spellbook-wild-magic"
-    },
-    {
-      "key": "item:5814",
-      "type": "item",
-      "id": 5814,
-      "name": "Spellbook: Servitor Blessing NG",
-      "url": "/lu4/item/5814-spellbook-servitor-blessing"
-    },
-    {
-      "key": "item:5811",
-      "type": "item",
-      "id": 5811,
-      "name": "Spellbook: Mass Slow NG",
-      "url": "/lu4/item/5811-spellbook-mass-slow"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4081",
@@ -122,18 +84,60 @@
       "url": "/lu4/item/4078-blue-wolf-breastplate-part"
     },
     {
-      "key": "item:57",
+      "key": "item:32355",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32355,
+      "name": "Unidentified Doom Plate Armor B",
+      "url": "/lu4/item/32355-unidentified-doom-plate-armor"
     },
     {
-      "key": "item:5230",
+      "key": "item:32354",
       "type": "item",
-      "id": 5230,
-      "name": "Recipe: Mithril Arrow (100%) NG",
-      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
+      "id": 32354,
+      "name": "Unidentified Blue Wolf Gaiters B",
+      "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
+    },
+    {
+      "key": "item:32351",
+      "type": "item",
+      "id": 32351,
+      "name": "Unidentified Blue Wolf Breastplate B",
+      "url": "/lu4/item/32351-unidentified-blue-wolf-breastplate"
+    },
+    {
+      "key": "item:5811",
+      "type": "item",
+      "id": 5811,
+      "name": "Spellbook: Mass Slow NG",
+      "url": "/lu4/item/5811-spellbook-mass-slow"
+    },
+    {
+      "key": "item:5814",
+      "type": "item",
+      "id": 5814,
+      "name": "Spellbook: Servitor Blessing NG",
+      "url": "/lu4/item/5814-spellbook-servitor-blessing"
+    },
+    {
+      "key": "item:5815",
+      "type": "item",
+      "id": 5815,
+      "name": "Spellbook: Wild Magic NG",
+      "url": "/lu4/item/5815-spellbook-wild-magic"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:4052",
+      "type": "item",
+      "id": 4052,
+      "name": "Earring of Black Ore Piece NG",
+      "url": "/lu4/item/4052-earring-of-black-ore-piece"
     },
     {
       "key": "item:4053",
@@ -143,11 +147,11 @@
       "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
     },
     {
-      "key": "item:4052",
+      "key": "item:5230",
       "type": "item",
-      "id": 4052,
-      "name": "Earring of Black Ore Piece NG",
-      "url": "/lu4/item/4052-earring-of-black-ore-piece"
+      "id": 5230,
+      "name": "Recipe: Mithril Arrow (100%) NG",
+      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
     }
   ]
 }

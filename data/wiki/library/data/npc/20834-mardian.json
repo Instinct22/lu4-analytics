@@ -2,159 +2,100 @@
   "key": "npc:20834",
   "type": "npc",
   "id": 20834,
-  "name": "Lu4 Wiki: NPC Mardian",
+  "name": "Mardian",
   "url": "/lu4/npc/20834-mardian",
-  "source_url": "https://masterwork.wiki/lu4/npc/20834-mardian",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20834-mardian",
   "raw_html": "library/raw/lu4/npc/20834-mardian.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 155 / 654",
+    "P. Atk. / M. Atk.": "402 / 199",
+    "P. Def. / M. Def.": "185 / 160",
+    "Accuracy / Evasion": "75 / 80",
+    "Exp / SP": "4 502 / 300",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 42"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20834",
-      "type": "npc",
-      "id": 20834,
-      "name": "Lu4",
-      "url": "/lu4/npc/20834-mardian"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:8614",
+      "key": "item:57",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8613",
+      "key": "item:353",
       "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
+      "id": 353,
+      "name": "Half Plate Armor D",
+      "url": "/lu4/item/353-half-plate-armor"
     },
     {
-      "key": "item:8612",
+      "key": "item:380",
       "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
+      "id": 380,
+      "name": "Half Plate Gaiters D",
+      "url": "/lu4/item/380-half-plate-gaiters"
     },
     {
-      "key": "item:8611",
+      "key": "item:1951",
       "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
+      "id": 1951,
+      "name": "Half Plate Gaiters Part NG",
+      "url": "/lu4/item/1951-half-plate-gaiters-part"
     },
     {
-      "key": "item:8610",
+      "key": "item:1950",
       "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
-    },
-    {
-      "key": "item:8609",
-      "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
-    },
-    {
-      "key": "item:8608",
-      "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
+      "id": 1950,
+      "name": "Half Plate Temper NG",
+      "url": "/lu4/item/1950-half-plate-temper"
     },
     {
       "key": "item:8600",
@@ -164,39 +105,109 @@
       "url": "/lu4/item/8600-herb-of-life"
     },
     {
-      "key": "item:5274",
+      "key": "item:8601",
       "type": "item",
-      "id": 5274,
-      "name": "Recipe: Greater Spiritshot (C) Compressed Package(100%) NG",
-      "url": "/lu4/item/5274-recipe-greater-spiritshot-c-compressed-package100"
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
     },
     {
-      "key": "item:2996",
+      "key": "item:8602",
       "type": "item",
-      "id": 2996,
-      "name": "Recipe: Chain Gloves NG",
-      "url": "/lu4/item/2996-recipe-chain-gloves"
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
     },
     {
-      "key": "item:2306",
+      "key": "item:8607",
       "type": "item",
-      "id": 2306,
-      "name": "Recipe: Stick of Faith NG",
-      "url": "/lu4/item/2306-recipe-stick-of-faith"
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
     },
     {
-      "key": "item:1951",
+      "key": "item:8609",
       "type": "item",
-      "id": 1951,
-      "name": "Plate Gaiters Part NG",
-      "url": "/lu4/item/1951-plate-gaiters-part"
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
     },
     {
-      "key": "item:1885",
+      "key": "item:8603",
       "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:8605",
+      "type": "item",
+      "id": 8605,
+      "name": "Superior Herb of Mana NG",
+      "url": "/lu4/item/8605-superior-herb-of-mana"
+    },
+    {
+      "key": "item:8606",
+      "type": "item",
+      "id": 8606,
+      "name": "Herb of Power NG",
+      "url": "/lu4/item/8606-herb-of-power"
+    },
+    {
+      "key": "item:8608",
+      "type": "item",
+      "id": 8608,
+      "name": "Herb of Alacrity NG",
+      "url": "/lu4/item/8608-herb-of-alacrity"
+    },
+    {
+      "key": "item:8610",
+      "type": "item",
+      "id": 8610,
+      "name": "Herb of Critical Attack - Probability NG",
+      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+    },
+    {
+      "key": "item:8611",
+      "type": "item",
+      "id": 8611,
+      "name": "Herb of Speed NG",
+      "url": "/lu4/item/8611-herb-of-speed"
+    },
+    {
+      "key": "item:8612",
+      "type": "item",
+      "id": 8612,
+      "name": "Herb of the Warrior NG",
+      "url": "/lu4/item/8612-herb-of-the-warrior"
+    },
+    {
+      "key": "item:8613",
+      "type": "item",
+      "id": 8613,
+      "name": "Herb of the Mystic NG",
+      "url": "/lu4/item/8613-herb-of-the-mystic"
+    },
+    {
+      "key": "item:8614",
+      "type": "item",
+      "id": 8614,
+      "name": "Herb of Recovery NG",
+      "url": "/lu4/item/8614-herb-of-recovery"
+    },
+    {
+      "key": "item:1805",
+      "type": "item",
+      "id": 1805,
+      "name": "Recipe: Soulshot (C-Grade) NG",
+      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
     },
     {
       "key": "item:1878",
@@ -206,11 +217,11 @@
       "url": "/lu4/item/1878-braided-hemp"
     },
     {
-      "key": "item:1805",
+      "key": "item:1885",
       "type": "item",
-      "id": 1805,
-      "name": "Recipe: Soulshot (C-Grade) NG",
-      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
     }
   ]
 }

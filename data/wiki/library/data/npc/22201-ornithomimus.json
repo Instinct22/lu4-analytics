@@ -2,173 +2,121 @@
   "key": "npc:22201",
   "type": "npc",
   "id": 22201,
-  "name": "Lu4 Wiki: NPC Ornithomimus",
+  "name": "Ornithomimus",
   "url": "/lu4/npc/22201-ornithomimus",
-  "source_url": "https://masterwork.wiki/lu4/npc/22201-ornithomimus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22201-ornithomimus",
   "raw_html": "library/raw/lu4/npc/22201-ornithomimus.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "13 858 / 2 092",
+    "P. Atk. / M. Atk.": "5 842 / 2 324",
+    "P. Def. / M. Def.": "1 265 / 920",
+    "Accuracy / Evasion": "125 / 125",
+    "Exp / SP": "60 614 / 7 860",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (1/2x) Lv. 9 MP Increase (1x) Lv. 1 Very Strong P. Atk. Lv. 16 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Very Strong M. Def. Lv. 17 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Beast Lv. 4 Beast. Unknown Creature Lv. 24 An unknown life form that has never been discovered before. Sleep Resistance Lv. 5 Resistant to Sleep. Greater Hold Resistance Lv. 2 Highly resistant to Hold. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Greater Spear Resistance Lv. 1 Very resistant to Spears.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22201",
-      "type": "npc",
-      "id": 22201,
-      "name": "Lu4",
-      "url": "/lu4/npc/22201-ornithomimus"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1/2x) Lv. 9",
-      "url": "/lu4/skill/4408-hp-increase-12x/9"
+      "name": "HP Increase (1/2x)",
+      "url": "/lu4/skill/4408-hp-increase-12x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 17",
-      "url": "/lu4/skill/4413-very-strong-m-def/17"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Beast Lv. 4 Beast.",
-      "url": "/lu4/skill/4417-beast/4"
+      "name": "Beast",
+      "url": "/lu4/skill/4417-beast"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 2 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/2"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4445",
       "type": "skill",
       "id": 4445,
-      "name": "Greater Spear Resistance Lv. 1 Very resistant to Spears.",
-      "url": "/lu4/skill/4445-greater-spear-resistance/1"
-    },
-    {
-      "key": "item:8954",
-      "type": "item",
-      "id": 8954,
-      "name": "Blue Primeval Crystal S",
-      "url": "/lu4/item/8954-blue-primeval-crystal"
-    },
-    {
-      "key": "item:8889",
-      "type": "item",
-      "id": 8889,
-      "name": "Amulet: Gate Chant NG",
-      "url": "/lu4/item/8889-amulet-gate-chant"
-    },
-    {
-      "key": "item:8882",
-      "type": "item",
-      "id": 8882,
-      "name": "Spellbook: Salvation NG",
-      "url": "/lu4/item/8882-spellbook-salvation"
-    },
-    {
-      "key": "item:8879",
-      "type": "item",
-      "id": 8879,
-      "name": "Spellbook: Summon Magnus the Unicorn NG",
-      "url": "/lu4/item/8879-spellbook-summon-magnus-the-unicorn"
-    },
-    {
-      "key": "item:8633",
-      "type": "item",
-      "id": 8633,
-      "name": "Elixir of MP (S-Grade) 76+ S",
-      "url": "/lu4/item/8633-elixir-of-mp-s-grade"
-    },
-    {
-      "key": "item:8627",
-      "type": "item",
-      "id": 8627,
-      "name": "Elixir of HP (S-Grade) 76+ S",
-      "url": "/lu4/item/8627-elixir-of-hp-s-grade"
-    },
-    {
-      "key": "item:8349",
-      "type": "item",
-      "id": 8349,
-      "name": "Doom Crusher Head NG",
-      "url": "/lu4/item/8349-doom-crusher-head"
-    },
-    {
-      "key": "item:8342",
-      "type": "item",
-      "id": 8342,
-      "name": "Flaming Dragon Skull Piece NG",
-      "url": "/lu4/item/8342-flaming-dragon-skull-piece"
+      "name": "Greater Spear Resistance",
+      "url": "/lu4/skill/4445-greater-spear-resistance"
     },
     {
       "key": "item:57",
@@ -178,11 +126,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:4040",
+      "key": "item:8342",
       "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
+      "id": 8342,
+      "name": "Flaming Dragon Skull Piece NG",
+      "url": "/lu4/item/8342-flaming-dragon-skull-piece"
+    },
+    {
+      "key": "item:8349",
+      "type": "item",
+      "id": 8349,
+      "name": "Doom Crusher Head NG",
+      "url": "/lu4/item/8349-doom-crusher-head"
+    },
+    {
+      "key": "item:8627",
+      "type": "item",
+      "id": 8627,
+      "name": "Elixir of HP (S-Grade) 76+ S",
+      "url": "/lu4/item/8627-elixir-of-hp-s-grade"
+    },
+    {
+      "key": "item:8633",
+      "type": "item",
+      "id": 8633,
+      "name": "Elixir of MP (S-Grade) 76+ S",
+      "url": "/lu4/item/8633-elixir-of-mp-s-grade"
+    },
+    {
+      "key": "item:8879",
+      "type": "item",
+      "id": 8879,
+      "name": "Spellbook: Summon Magnus the Unicorn NG",
+      "url": "/lu4/item/8879-spellbook-summon-magnus-the-unicorn"
+    },
+    {
+      "key": "item:8882",
+      "type": "item",
+      "id": 8882,
+      "name": "Spellbook: Salvation NG",
+      "url": "/lu4/item/8882-spellbook-salvation"
+    },
+    {
+      "key": "item:8889",
+      "type": "item",
+      "id": 8889,
+      "name": "Amulet: Gate Chant NG",
+      "url": "/lu4/item/8889-amulet-gate-chant"
+    },
+    {
+      "key": "item:8954",
+      "type": "item",
+      "id": 8954,
+      "name": "Blue Primeval Crystal S",
+      "url": "/lu4/item/8954-blue-primeval-crystal"
     },
     {
       "key": "item:1895",
@@ -190,6 +187,13 @@
       "id": 1895,
       "name": "Metallic Fiber NG",
       "url": "/lu4/item/1895-metallic-fiber"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
     }
   ]
 }

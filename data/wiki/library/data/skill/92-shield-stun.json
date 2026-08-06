@@ -1,0 +1,31 @@
+{
+  "key": "skill:92",
+  "type": "skill",
+  "id": 92,
+  "name": "Shield Stun",
+  "url": "/lu4/skill/92-shield-stun",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/92-shield-stun",
+  "raw_html": "library/raw/lu4/skill/92-shield-stun.html",
+  "stats": {
+    "Effect": "Makes an attack with a shield, stunning the target. While the effect is active, Resistance to Stun is significantly increased.",
+    "Consumes": "10 MP",
+    "Reuse Time": "3 seconds",
+    "Duration": "9 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_shock",
+    "Cast Range": "70 (400)",
+    "Available For": "KnightLv. 20",
+    "Type": "Physical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:4",
+      "type": "class",
+      "id": 4,
+      "name": "KnightLv. 20",
+      "url": "/lu4/class/4-knight"
+    }
+  ]
+}

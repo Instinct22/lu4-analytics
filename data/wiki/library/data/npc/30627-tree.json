@@ -2,42 +2,38 @@
   "key": "npc:30627",
   "type": "npc",
   "id": 30627,
-  "name": "Lu4 Wiki: NPC Tree",
+  "name": "Tree",
   "url": "/lu4/npc/30627-tree",
-  "source_url": "https://masterwork.wiki/lu4/npc/30627-tree",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30627-tree",
   "raw_html": "library/raw/lu4/npc/30627-tree.html",
   "stats": {
-    "Location": "Угодья Флорана"
+    "Respawn Time": "1 minute",
+    "Location": "Угодья Флорана",
+    "HP / MP": "3 862 / 1 657",
+    "P. Atk. / M. Atk.": "1 304 / 776",
+    "P. Def. / M. Def.": "477 / 364",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10% Resist Full Magic Attack Lv. 1",
+    "Type": "Plant, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30627",
-      "type": "npc",
-      "id": 30627,
-      "name": "Lu4",
-      "url": "/lu4/npc/30627-tree"
-    },
-    {
-      "key": "location:242",
-      "type": "location",
-      "id": 242,
-      "name": "Угодья Флорана",
-      "url": "/lu4/location/242-ugoda-florana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-plants/5"
+      "name": "Plants",
+      "url": "/lu4/skill/4416-plants"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

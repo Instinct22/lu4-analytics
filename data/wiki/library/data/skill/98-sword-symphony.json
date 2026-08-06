@@ -1,0 +1,30 @@
+{
+  "key": "skill:98",
+  "type": "skill",
+  "id": 98,
+  "name": "Sword Symphony",
+  "url": "/lu4/skill/98-sword-symphony",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/98-sword-symphony",
+  "raw_html": "library/raw/lu4/skill/98-sword-symphony.html",
+  "stats": {
+    "Effect": "Inflicts physical damage on nearby enemies. Power: 825. Applies to enemy: Blocks the use of Magic Skills. Ignores 12% of enemy's P. Def. Ignores Shield Defence. Over-hit and Critical hit are possible.",
+    "Consumes": "36 MP",
+    "Reuse Time": "12 seconds",
+    "Duration": "10 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_derangement",
+    "Available For": "SwordsingerLv. 55",
+    "Type": "Physical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:21",
+      "type": "class",
+      "id": 21,
+      "name": "SwordsingerLv. 55",
+      "url": "/lu4/class/21-swordsinger"
+    }
+  ]
+}

@@ -2,47 +2,37 @@
   "key": "npc:21816",
   "type": "npc",
   "id": 21816,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21816-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21816-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21816-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21816-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 546 / 1 502",
+    "P. Atk. / M. Atk.": "1 170 / 696",
+    "P. Def. / M. Def.": "451 / 365",
+    "Accuracy / Evasion": "99 / 99",
+    "Exp / SP": "5 227 / 492",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 66"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21816",
-      "type": "npc",
-      "id": 21816,
-      "name": "Lu4",
-      "url": "/lu4/npc/21816-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:5550",
+      "key": "item:57",
       "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:5434",
-      "type": "item",
-      "id": 5434,
-      "name": "Recipe: Dragon Slayer(60%) NG",
-      "url": "/lu4/item/5434-recipe-dragon-slayer60"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1880",
@@ -50,6 +40,13 @@
       "id": 1880,
       "name": "Steel NG",
       "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:4043",
+      "type": "item",
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
     },
     {
       "key": "item:1869",
@@ -66,11 +63,18 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:57",
+      "key": "item:5434",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5434,
+      "name": "Recipe: Dragon Slayer(60%) NG",
+      "url": "/lu4/item/5434-recipe-dragon-slayer60"
+    },
+    {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:5438",

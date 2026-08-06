@@ -2,140 +2,81 @@
   "key": "npc:20042",
   "type": "npc",
   "id": 20042,
-  "name": "Lu4 Wiki: NPC Skeleton Tracker Leader",
+  "name": "Skeleton Tracker Leader",
   "url": "/lu4/npc/20042-skeleton-tracker-leader",
-  "source_url": "https://masterwork.wiki/lu4/npc/20042-skeleton-tracker-leader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20042-skeleton-tracker-leader",
   "raw_html": "library/raw/lu4/npc/20042-skeleton-tracker-leader.html",
   "stats": {
-    "Location": "Озеро Фельмер (+1) Озеро Фельмер Руины Страданий"
+    "Respawn Time": "17 seconds",
+    "Location": "Озеро Фельмер (+1) Озеро Фельмер Руины Страданий",
+    "HP / MP": "483 / 214",
+    "P. Atk. / M. Atk.": "58 / 31",
+    "P. Def. / M. Def.": "88 / 68",
+    "Accuracy / Evasion": "51 / 51",
+    "Exp / SP": "518 / 52",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 18"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20042",
-      "type": "npc",
-      "id": 20042,
-      "name": "Lu4",
-      "url": "/lu4/npc/20042-skeleton-tracker-leader"
-    },
-    {
-      "key": "location:16",
-      "type": "location",
-      "id": 16,
-      "name": "Озеро Фельмер",
-      "url": "/lu4/location/16-ozero-felmer"
-    },
-    {
-      "key": "location:27",
-      "type": "location",
-      "id": 27,
-      "name": "Руины Страданий",
-      "url": "/lu4/location/27-ruiny-stradanij"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
-    },
-    {
-      "key": "item:5268",
-      "type": "item",
-      "id": 5268,
-      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:2254",
-      "type": "item",
-      "id": 2254,
-      "name": "Recipe: Composite Bow NG",
-      "url": "/lu4/item/2254-recipe-composite-bow"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:310",
-      "type": "item",
-      "id": 310,
-      "name": "Relic of the Saints NG",
-      "url": "/lu4/item/310-relic-of-the-saints"
-    },
-    {
-      "key": "item:309",
-      "type": "item",
-      "id": 309,
-      "name": "Tears of Eva NG",
-      "url": "/lu4/item/309-tears-of-eva"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "item:57",
@@ -145,11 +86,53 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2013",
+      "key": "item:309",
       "type": "item",
-      "id": 2013,
-      "name": "Forest Bow Shaft NG",
-      "url": "/lu4/item/2013-forest-bow-shaft"
+      "id": 309,
+      "name": "Tears of Eva NG",
+      "url": "/lu4/item/309-tears-of-eva"
+    },
+    {
+      "key": "item:310",
+      "type": "item",
+      "id": 310,
+      "name": "Relic of the Saints NG",
+      "url": "/lu4/item/310-relic-of-the-saints"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:2254",
+      "type": "item",
+      "id": 2254,
+      "name": "Recipe: Composite Bow NG",
+      "url": "/lu4/item/2254-recipe-composite-bow"
+    },
+    {
+      "key": "item:5268",
+      "type": "item",
+      "id": 5268,
+      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
     },
     {
       "key": "item:734",
@@ -157,6 +140,13 @@
       "id": 734,
       "name": "Haste Potion NG",
       "url": "/lu4/item/734-haste-potion"
+    },
+    {
+      "key": "item:2013",
+      "type": "item",
+      "id": 2013,
+      "name": "Forest Bow Shaft NG",
+      "url": "/lu4/item/2013-forest-bow-shaft"
     }
   ]
 }

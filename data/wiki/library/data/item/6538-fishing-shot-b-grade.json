@@ -2,35 +2,33 @@
   "key": "item:6538",
   "type": "item",
   "id": 6538,
-  "name": "Lu4 Wiki: Item Fishing Shot (B-Grade)",
+  "name": "Fishing Shot (B-Grade)",
   "url": "/lu4/item/6538-fishing-shot-b-grade",
-  "source_url": "https://masterwork.wiki/lu4/item/6538-fishing-shot-b-grade",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/6538-fishing-shot-b-grade",
   "raw_html": "library/raw/lu4/item/6538-fishing-shot-b-grade.html",
   "stats": {
+    "Effect": "Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the pumping or reeling skill is cast. Usable for the B-grade fishing rod.",
+    "NPC Sell Price": "13 Adena",
+    "Weight": "3",
     "Item Skills": "Item - Fishing Shot Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "B",
+    "Type": "Other"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:6538",
-      "type": "item",
-      "id": 6538,
-      "name": "Lu4",
-      "url": "/lu4/item/6538-fishing-shot-b-grade"
-    },
-    {
       "key": "skill:2184",
       "type": "skill",
       "id": 2184,
-      "name": "Item - Fishing Shot Lv. 1",
-      "url": "/lu4/skill/2184-item-fishing-shot/1"
+      "name": "Item - Fishing Shot",
+      "url": "/lu4/skill/2184-item-fishing-shot"
     },
     {
       "key": "npc:18322",
       "type": "npc",
       "id": 18322,
-      "name": "Caught Sea Giant Lv. 40",
+      "name": "Caught Sea Giant",
       "url": "/lu4/npc/18322-caught-sea-giant"
     }
   ]

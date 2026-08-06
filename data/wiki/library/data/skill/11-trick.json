@@ -1,0 +1,37 @@
+{
+  "key": "skill:11",
+  "type": "skill",
+  "id": 11,
+  "name": "Trick",
+  "url": "/lu4/skill/11-trick",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/11-trick",
+  "raw_html": "library/raw/lu4/skill/11-trick.html",
+  "stats": {
+    "Effect": "Reduces an enemy's aggressive tendencies, causing them to cancel their target.",
+    "Consumes": "22 MP",
+    "Reuse Time": "5 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Cast Range": "400 (900)",
+    "Available For": "Treasure HunterLv. 49Abyss WalkerLv. 49",
+    "Type": "Physical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:8",
+      "type": "class",
+      "id": 8,
+      "name": "Treasure HunterLv. 49",
+      "url": "/lu4/class/8-treasurehunter"
+    },
+    {
+      "key": "class:36",
+      "type": "class",
+      "id": 36,
+      "name": "Abyss WalkerLv. 49",
+      "url": "/lu4/class/36-abysswalker"
+    }
+  ]
+}

@@ -2,152 +2,114 @@
   "key": "npc:20967",
   "type": "npc",
   "id": 20967,
-  "name": "Lu4 Wiki: NPC Past Creature",
+  "name": "Past Creature",
   "url": "/lu4/npc/20967-past-creature",
-  "source_url": "https://masterwork.wiki/lu4/npc/20967-past-creature",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20967-past-creature",
   "raw_html": "library/raw/lu4/npc/20967-past-creature.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "8 977 / 1 880",
+    "P. Atk. / M. Atk.": "3 428 / 1 006",
+    "P. Def. / M. Def.": "568 / 906",
+    "Accuracy / Evasion": "115 / 115",
+    "Exp / SP": "22 942 / 2 832",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 MP Increase (1x) Lv. 1 Extremely Strong P. Atk. Lv. 19 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Extremely Strong M. Def. Lv. 18 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Melee Attack Vulnerability Lv. 9 Renders target vulnerable to melee attacks. Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows. Searching Master Lv. 1 Directly attacks a pet's master or summoner.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 76"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20967",
-      "type": "npc",
-      "id": 20967,
-      "name": "Lu4",
-      "url": "/lu4/npc/20967-past-creature"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Extremely Strong P. Atk. Lv. 19",
-      "url": "/lu4/skill/4410-extremely-strong-p-atk/19"
+      "name": "Extremely Strong P. Atk.",
+      "url": "/lu4/skill/4410-extremely-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Extremely Strong M. Def. Lv. 18",
-      "url": "/lu4/skill/4413-extremely-strong-m-def/18"
+      "name": "Extremely Strong M. Def.",
+      "url": "/lu4/skill/4413-extremely-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:5620",
       "type": "skill",
       "id": 5620,
-      "name": "Melee Attack Vulnerability Lv. 9 Renders target vulnerable to melee attacks.",
-      "url": "/lu4/skill/5620-melee-attack-vulnerability/9"
+      "name": "Melee Attack Vulnerability",
+      "url": "/lu4/skill/5620-melee-attack-vulnerability"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:6019",
       "type": "skill",
       "id": 6019,
-      "name": "Searching Master Lv. 1 Directly attacks a pet's master or summoner.",
-      "url": "/lu4/skill/6019-searching-master/1"
+      "name": "Searching Master",
+      "url": "/lu4/skill/6019-searching-master"
     },
     {
-      "key": "item:8752",
+      "key": "item:57",
       "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
-    },
-    {
-      "key": "item:8742",
-      "type": "item",
-      "id": 8742,
-      "name": "Mid-Grade Life Stone NG",
-      "url": "/lu4/item/8742-mid-grade-life-stone"
-    },
-    {
-      "key": "item:8732",
-      "type": "item",
-      "id": 8732,
-      "name": "Life Stone NG",
-      "url": "/lu4/item/8732-life-stone"
-    },
-    {
-      "key": "item:6345",
-      "type": "item",
-      "id": 6345,
-      "name": "Sealed Phoenix Ring Gemstone NG",
-      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
-    },
-    {
-      "key": "item:6343",
-      "type": "item",
-      "id": 6343,
-      "name": "Sealed Phoenix Necklace Beads NG",
-      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
-    },
-    {
-      "key": "item:6341",
-      "type": "item",
-      "id": 6341,
-      "name": "Sealed Phoenix Earring Gemstone NG",
-      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
-    },
-    {
-      "key": "item:6325",
-      "type": "item",
-      "id": 6325,
-      "name": "Sealed Phoenix Ring A",
-      "url": "/lu4/item/6325-sealed-phoenix-ring"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6324",
@@ -157,6 +119,13 @@
       "url": "/lu4/item/6324-sealed-phoenix-earring"
     },
     {
+      "key": "item:6341",
+      "type": "item",
+      "id": 6341,
+      "name": "Sealed Phoenix Earring Gemstone NG",
+      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
+    },
+    {
       "key": "item:6323",
       "type": "item",
       "id": 6323,
@@ -164,39 +133,25 @@
       "url": "/lu4/item/6323-sealed-phoenix-necklace"
     },
     {
-      "key": "item:5001",
+      "key": "item:6343",
       "type": "item",
-      "id": 5001,
-      "name": "Recipe: Lance (60%) NG",
-      "url": "/lu4/item/5001-recipe-lance-60"
+      "id": 6343,
+      "name": "Sealed Phoenix Necklace Beads NG",
+      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
     },
     {
-      "key": "item:4042",
+      "key": "item:6325",
       "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
+      "id": 6325,
+      "name": "Sealed Phoenix Ring A",
+      "url": "/lu4/item/6325-sealed-phoenix-ring"
     },
     {
-      "key": "item:1894",
+      "key": "item:6345",
       "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "url": "/lu4/item/1894-crafted-leather"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
+      "id": 6345,
+      "name": "Sealed Phoenix Ring Gemstone NG",
+      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
     },
     {
       "key": "item:1867",
@@ -206,11 +161,60 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:1872",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:1894",
+      "type": "item",
+      "id": 1894,
+      "name": "Crafted Leather NG",
+      "url": "/lu4/item/1894-crafted-leather"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:5001",
+      "type": "item",
+      "id": 5001,
+      "name": "Recipe: Lance (60%) NG",
+      "url": "/lu4/item/5001-recipe-lance-60"
+    },
+    {
+      "key": "item:8732",
+      "type": "item",
+      "id": 8732,
+      "name": "Life Stone NG",
+      "url": "/lu4/item/8732-life-stone"
+    },
+    {
+      "key": "item:8742",
+      "type": "item",
+      "id": 8742,
+      "name": "Mid-Grade Life Stone NG",
+      "url": "/lu4/item/8742-mid-grade-life-stone"
+    },
+    {
+      "key": "item:8752",
+      "type": "item",
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
     },
     {
       "key": "item:5485",

@@ -2,111 +2,24 @@
   "key": "item:2278",
   "type": "item",
   "id": 2278,
-  "name": "Recipe",
+  "name": "Recipe: Reinforced Long Bow",
   "url": "/lu4/item/2278-recipe-reinforced-long-bow",
-  "source_url": "https://masterwork.wiki/lu4/item/2278-recipe-reinforced-long-bow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2278-recipe-reinforced-long-bow",
   "raw_html": "library/raw/lu4/item/2278-recipe-reinforced-long-bow.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Reinforced Long Bow'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "14 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Reinforced Long Bow D"
+    "Result": "Reinforced Long Bow D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2040",
-      "type": "item",
-      "id": 2040,
-      "name": "Reinforced Long Bow Shaft NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "225"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "1125"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "1125"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "45"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "225"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "45"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "45"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "450"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "135"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "300"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "139"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2278",
-      "type": "item",
-      "id": 2278,
-      "name": "Lu4",
-      "url": "/lu4/item/2278-recipe-reinforced-long-bow"
-    },
     {
       "key": "item:2040",
       "type": "item",
@@ -202,28 +115,28 @@
       "key": "npc:20783",
       "type": "npc",
       "id": 20783,
-      "name": "Dread Wolf Lv. 35",
+      "name": "Dread Wolf",
       "url": "/lu4/npc/20783-dread-wolf"
     },
     {
       "key": "npc:20612",
       "type": "npc",
       "id": 20612,
-      "name": "Salamander Rowin Lv. 33",
+      "name": "Salamander Rowin",
       "url": "/lu4/npc/20612-salamander-rowin"
     },
     {
       "key": "npc:20745",
       "type": "npc",
       "id": 20745,
-      "name": "Gigantiops Lv. 35",
+      "name": "Gigantiops",
       "url": "/lu4/npc/20745-gigantiops"
     },
     {
       "key": "npc:20078",
       "type": "npc",
       "id": 20078,
-      "name": "Whispering Wind Lv. 33",
+      "name": "Whispering Wind",
       "url": "/lu4/npc/20078-whispering-wind"
     }
   ]

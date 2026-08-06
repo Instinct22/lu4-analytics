@@ -2,154 +2,95 @@
   "key": "npc:5036",
   "type": "npc",
   "id": 5036,
-  "name": "Lu4 Wiki: NPC Corpse Gnawer",
+  "name": "Corpse Gnawer",
   "url": "/lu4/npc/5036-corpse-gnawer",
-  "source_url": "https://masterwork.wiki/lu4/npc/5036-corpse-gnawer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5036-corpse-gnawer",
   "raw_html": "library/raw/lu4/npc/5036-corpse-gnawer.html",
   "stats": {
-    "Location": "Древнее Поле Битвы (+1) Древнее Поле Битвы Земли Адена"
+    "Respawn Time": "3 minutes, 40 seconds ± 10 seconds",
+    "Location": "Древнее Поле Битвы (+1) Древнее Поле Битвы Земли Адена",
+    "HP / MP": "25 131 / 1 110",
+    "P. Atk. / M. Atk.": "2 130 / 2 736",
+    "P. Def. / M. Def.": "698 / 571",
+    "Accuracy / Evasion": "107 / 107",
+    "Exp / SP": "53 466 / 5 347",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 15 Very Strong M. Atk. Lv. 16 Strong M. Def. Lv. 14 Strong P. Def. Lv. 14 Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 72"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5036",
-      "type": "npc",
-      "id": 5036,
-      "name": "Lu4",
-      "url": "/lu4/npc/5036-corpse-gnawer"
-    },
-    {
-      "key": "location:96",
-      "type": "location",
-      "id": 96,
-      "name": "Древнее Поле Битвы",
-      "url": "/lu4/location/96-drevnee-pole-bitvy"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Very Strong M. Atk. Lv. 16",
-      "url": "/lu4/skill/4411-very-strong-m-atk/16"
+      "name": "Very Strong M. Atk.",
+      "url": "/lu4/skill/4411-very-strong-m-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:32535",
-      "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
-    },
-    {
-      "key": "item:8300",
-      "type": "item",
-      "id": 8300,
-      "name": "Recipe: Infernal Master (60%) NG",
-      "url": "/lu4/item/8300-recipe-infernal-master-60"
-    },
-    {
-      "key": "item:5543",
-      "type": "item",
-      "id": 5543,
-      "name": "Dasparion's Staff Head NG",
-      "url": "/lu4/item/5543-dasparions-staff-head"
-    },
-    {
-      "key": "item:5468",
-      "type": "item",
-      "id": 5468,
-      "name": "Recipe: Elemental Sword(60%) NG",
-      "url": "/lu4/item/5468-recipe-elemental-sword60"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -187,11 +128,81 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32535",
+      "type": "item",
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+    },
+    {
+      "key": "item:5543",
+      "type": "item",
+      "id": 5543,
+      "name": "Dasparion's Staff Head NG",
+      "url": "/lu4/item/5543-dasparions-staff-head"
+    },
+    {
+      "key": "item:5468",
+      "type": "item",
+      "id": 5468,
+      "name": "Recipe: Elemental Sword(60%) NG",
+      "url": "/lu4/item/5468-recipe-elemental-sword60"
+    },
+    {
+      "key": "item:8300",
+      "type": "item",
+      "id": 8300,
+      "name": "Recipe: Infernal Master (60%) NG",
+      "url": "/lu4/item/8300-recipe-infernal-master-60"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:729",
+      "type": "item",
+      "id": 729,
+      "name": "Scroll: Enchant Weapon (A-Grade) NG",
+      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
+    },
+    {
+      "key": "item:5368",
+      "type": "item",
+      "id": 5368,
+      "name": "Recipe: Sealed Dark Crystal Boots(60%) NG",
+      "url": "/lu4/item/5368-recipe-sealed-dark-crystal-boots60"
+    },
+    {
+      "key": "item:5346",
+      "type": "item",
+      "id": 5346,
+      "name": "Recipe: Sealed Tallum Tunic(60%) NG",
+      "url": "/lu4/item/5346-recipe-sealed-tallum-tunic60"
     },
     {
       "key": "item:5532",
@@ -213,27 +224,6 @@
       "id": 5497,
       "name": "Sealed Tallum Boots Lining NG",
       "url": "/lu4/item/5497-sealed-tallum-boots-lining"
-    },
-    {
-      "key": "item:5368",
-      "type": "item",
-      "id": 5368,
-      "name": "Recipe: Sealed Dark Crystal Boots(60%) NG",
-      "url": "/lu4/item/5368-recipe-sealed-dark-crystal-boots60"
-    },
-    {
-      "key": "item:5346",
-      "type": "item",
-      "id": 5346,
-      "name": "Recipe: Sealed Tallum Tunic(60%) NG",
-      "url": "/lu4/item/5346-recipe-sealed-tallum-tunic60"
-    },
-    {
-      "key": "item:729",
-      "type": "item",
-      "id": 729,
-      "name": "Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     }
   ]
 }

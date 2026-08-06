@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Incense Pouch
+# Incense Pouch
 
-- Source: https://masterwork.wiki/lu4/item/7180-incense-pouch
+- Source: https://masterwork.wiki/lu4-b-w-c/item/7180-incense-pouch
 - Path: /lu4/item/7180-incense-pouch
 - Type: item
 - Key: item:7180
 
 ## Stats
+- Effect: A pouch of incense with mysterious scent.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Incense Pouch
-Lu4
-Eternal
-MasterWork
-Incense Pouch
-NG
-Quest Item
-A pouch of incense with mysterious scent.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-Red-Eyed Invaders
-20 ~ 28
-Quest
-Levels
-Red-Eyed Invaders
-20 ~ 28
-MasterWork 2026
-All rights reserved
+Incense Pouch NG Quest Item A pouch of incense with mysterious scent. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

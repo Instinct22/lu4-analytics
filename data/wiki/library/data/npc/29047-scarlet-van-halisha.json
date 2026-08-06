@@ -2,110 +2,114 @@
   "key": "npc:29047",
   "type": "npc",
   "id": 29047,
-  "name": "Lu4 Wiki: NPC Scarlet van Halisha",
+  "name": "Scarlet van Halisha",
   "url": "/lu4/npc/29047-scarlet-van-halisha",
-  "source_url": "https://masterwork.wiki/lu4/npc/29047-scarlet-van-halisha",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/29047-scarlet-van-halisha",
   "raw_html": "library/raw/lu4/npc/29047-scarlet-van-halisha.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "9 144 990 / 51 408",
+    "P. Atk. / M. Atk.": "37 590 / 159 394",
+    "P. Def. / M. Def.": "2 597 / 8 473",
+    "Accuracy / Evasion": "158 / 158",
+    "Exp / SP": "130 849 000 / 12 034 100",
+    "Attack Attribute": "Unholy 370",
+    "Defense Attributes": "Fire 300, Water 300, Wind 300, Earth 300, Holy 250, Unholy 270",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. Bare Hands Lv. 1 Resist Full Magic Attack Lv. 1 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Frintezza Critical Damage Lv. 1",
+    "Grade": "S",
+    "Type": "Demonic, Lv. 85"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:29047",
-      "type": "npc",
-      "id": 29047,
-      "name": "Lu4",
-      "url": "/lu4/npc/29047-scarlet-van-halisha"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Bare Hands Lv. 1",
-      "url": "/lu4/skill/4415-bare-hands/1"
+      "name": "Bare Hands",
+      "url": "/lu4/skill/4415-bare-hands"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:5078",
       "type": "skill",
       "id": 5078,
-      "name": "Frintezza Critical Damage Lv. 1",
-      "url": "/lu4/skill/5078-frintezza-critical-damage/1"
+      "name": "Frintezza Critical Damage",
+      "url": "/lu4/skill/5078-frintezza-critical-damage"
     },
     {
-      "key": "item:49800",
+      "key": "item:14680",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 14680,
+      "name": "MasterWork Crystal: S-grade S/Dynasty S",
+      "url": "/lu4/item/14680-masterwork-crystal-s-grade"
     }
   ]
 }

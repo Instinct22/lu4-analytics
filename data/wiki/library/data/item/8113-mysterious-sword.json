@@ -2,29 +2,32 @@
   "key": "item:8113",
   "type": "item",
   "id": 8113,
-  "name": "Lu4 Wiki: Item Mysterious Sword",
+  "name": "Mysterious Sword",
   "url": "/lu4/item/8113-mysterious-sword",
-  "source_url": "https://masterwork.wiki/lu4/item/8113-mysterious-sword",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8113-mysterious-sword",
   "raw_html": "library/raw/lu4/item/8113-mysterious-sword.html",
   "stats": {
+    "Effect": "<Magic Use Effect> Casts 'Curse Weakness' Lv.7 on target with 8% chance.",
+    "P. Atk. / M. Atk.": "85 / 81",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "1430",
+    "P. Crit. Rate.": "8",
     "Item Skills": "Curse Weakness Lv. 7",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Mysterious Sword C",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Sword / One-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8113",
-      "type": "item",
-      "id": 8113,
-      "name": "Lu4",
-      "url": "/lu4/item/8113-mysterious-sword"
-    },
-    {
       "key": "skill:1164",
       "type": "skill",
       "id": 1164,
-      "name": "Curse Weakness Lv. 7",
-      "url": "/lu4/skill/1164-curse-weakness/7"
+      "name": "Curse Weakness",
+      "url": "/lu4/skill/1164-curse-weakness"
     }
   ]
 }

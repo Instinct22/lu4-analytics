@@ -2,77 +2,38 @@
   "key": "npc:31036",
   "type": "npc",
   "id": 31036,
-  "name": "Lu4 Wiki: NPC Centurion",
+  "name": "Centurion",
   "url": "/lu4/npc/31036-centurion",
-  "source_url": "https://masterwork.wiki/lu4/npc/31036-centurion",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/31036-centurion",
   "raw_html": "library/raw/lu4/npc/31036-centurion.html",
   "stats": {
-    "Location": "Долина Героев (+5) Долина Героев Нейтральные Воды Плато Бессмертия Плато Бессмертия, север Плато Бессмертия, юг Перекресток Разбойников"
+    "Respawn Time": "1 minute",
+    "Location": "Долина Героев (+5) Долина Героев Нейтральные Воды Плато Бессмертия Плато Бессмертия, север Плато Бессмертия, юг Перекресток Разбойников",
+    "HP / MP": "4 778 / 2 063",
+    "P. Atk. / M. Atk.": "10 179 / 1 158",
+    "P. Def. / M. Def.": "591 / 408",
+    "Accuracy / Evasion": "125 / 125",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Orcs Lv. 17 Created by Pa'agrio, the Orcs are the physically strongest of all the races. They worship the spirits of the past and have a very tribal culture. Resist Full Magic Attack Lv. 1",
+    "Type": "Orc, Lv. 80"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:31036",
-      "type": "npc",
-      "id": 31036,
-      "name": "Lu4",
-      "url": "/lu4/npc/31036-centurion"
-    },
-    {
-      "key": "location:197",
-      "type": "location",
-      "id": 197,
-      "name": "Долина Героев",
-      "url": "/lu4/location/197-dolina-geroev"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
-      "key": "location:189",
-      "type": "location",
-      "id": 189,
-      "name": "Плато Бессмертия, север",
-      "url": "/lu4/location/189-plato-bessmertia-sever"
-    },
-    {
-      "key": "location:191",
-      "type": "location",
-      "id": 191,
-      "name": "Плато Бессмертия, юг",
-      "url": "/lu4/location/191-plato-bessmertia-ug"
-    },
-    {
-      "key": "location:61",
-      "type": "location",
-      "id": 61,
-      "name": "Перекресток Разбойников",
-      "url": "/lu4/location/61-perekrestok-razbojnikov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Orcs Lv. 17 Created by Pa'agrio, the Orcs are the physically strongest of all the races. They worship the spirits of the past and have a very tribal culture.",
-      "url": "/lu4/skill/4416-orcs/17"
+      "name": "Orcs",
+      "url": "/lu4/skill/4416-orcs"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

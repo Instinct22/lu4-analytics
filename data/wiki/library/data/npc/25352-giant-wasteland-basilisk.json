@@ -2,56 +2,53 @@
   "key": "npc:25352",
   "type": "npc",
   "id": 25352,
-  "name": "Lu4 Wiki: NPC Giant Wasteland Basilisk",
+  "name": "Giant Wasteland Basilisk",
   "url": "/lu4/npc/25352-giant-wasteland-basilisk",
-  "source_url": "https://masterwork.wiki/lu4/npc/25352-giant-wasteland-basilisk",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25352-giant-wasteland-basilisk",
   "raw_html": "library/raw/lu4/npc/25352-giant-wasteland-basilisk.html",
   "stats": {
-    "Location": "Пустошь"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Пустошь",
+    "HP / MP": "127 782 / 8 254",
+    "P. Atk. / M. Atk.": "322 / 28",
+    "P. Def. / M. Def.": "428 / 458",
+    "Accuracy / Evasion": "81 / 81",
+    "Exp / SP": "630 000 / 59 660",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Basilisk obtained intelligence after the dark magic polluting the Wasteland mutated him. Bigger and stronger than other Basilisks, he rules over weaker ones. He hates the other tribes and will literally kill most living things he sees. Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 30"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25352",
-      "type": "npc",
-      "id": 25352,
-      "name": "Lu4",
-      "url": "/lu4/npc/25352-giant-wasteland-basilisk"
-    },
-    {
-      "key": "location:15",
-      "type": "location",
-      "id": 15,
-      "name": "Пустошь",
-      "url": "/lu4/location/15-pustos"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4925",
       "type": "skill",
       "id": 4925,
-      "name": "Raid Boss Lv. 1 This Basilisk obtained intelligence after the dark magic polluting the Wasteland mutated him. Bigger and stronger than other Basilisks, he rules over weaker ones. He hates the other tribes and will literally kill most living things he sees.",
-      "url": "/lu4/skill/4925-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4925-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,18 +58,46 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:279",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 279,
+      "name": "Reinforced Long Bow D",
+      "url": "/lu4/item/279-reinforced-long-bow"
     },
     {
-      "key": "item:6575",
+      "key": "item:224",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 224,
+      "name": "Maingauche D",
+      "url": "/lu4/item/224-maingauche"
+    },
+    {
+      "key": "item:261",
+      "type": "item",
+      "id": 261,
+      "name": "Bich'Hwa D",
+      "url": "/lu4/item/261-bichhwa"
+    },
+    {
+      "key": "item:93",
+      "type": "item",
+      "id": 93,
+      "name": "Winged Spear D",
+      "url": "/lu4/item/93-winged-spear"
+    },
+    {
+      "key": "item:2040",
+      "type": "item",
+      "id": 2040,
+      "name": "Reinforced Long Bow Shaft NG",
+      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
+    },
+    {
+      "key": "item:2038",
+      "type": "item",
+      "id": 2038,
+      "name": "Maingauche Edge NG",
+      "url": "/lu4/item/2038-maingauche-edge"
     },
     {
       "key": "item:2039",
@@ -82,39 +107,11 @@
       "url": "/lu4/item/2039-bichhwa-edge"
     },
     {
-      "key": "item:1943",
+      "key": "item:2033",
       "type": "item",
-      "id": 1943,
-      "name": "Manticore Skin Gaiters Pattern NG",
-      "url": "/lu4/item/1943-manticore-skin-gaiters-pattern"
-    },
-    {
-      "key": "item:1942",
-      "type": "item",
-      "id": 1942,
-      "name": "Manticore Skin Shirt Texture NG",
-      "url": "/lu4/item/1942-manticore-skin-shirt-texture"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:417",
-      "type": "item",
-      "id": 417,
-      "name": "Manticore Skin Gaiters D",
-      "url": "/lu4/item/417-manticore-skin-gaiters"
+      "id": 2033,
+      "name": "Winged Spear Blade NG",
+      "url": "/lu4/item/2033-winged-spear-blade"
     },
     {
       "key": "item:395",
@@ -124,11 +121,53 @@
       "url": "/lu4/item/395-manticore-skin-shirt"
     },
     {
-      "key": "item:261",
+      "key": "item:417",
       "type": "item",
-      "id": 261,
-      "name": "Bich'Hwa D",
-      "url": "/lu4/item/261-bichhwa"
+      "id": 417,
+      "name": "Manticore Skin Gaiters D",
+      "url": "/lu4/item/417-manticore-skin-gaiters"
+    },
+    {
+      "key": "item:1942",
+      "type": "item",
+      "id": 1942,
+      "name": "Manticore Skin Shirt Texture NG",
+      "url": "/lu4/item/1942-manticore-skin-shirt-texture"
+    },
+    {
+      "key": "item:1943",
+      "type": "item",
+      "id": 1943,
+      "name": "Manticore Skin Gaiters Pattern NG",
+      "url": "/lu4/item/1943-manticore-skin-gaiters-pattern"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25353",

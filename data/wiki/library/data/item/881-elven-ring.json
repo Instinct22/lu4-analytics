@@ -2,23 +2,22 @@
   "key": "item:881",
   "type": "item",
   "id": 881,
-  "name": "Lu4 Wiki: Item Elven Ring",
+  "name": "Elven Ring",
   "url": "/lu4/item/881-elven-ring",
-  "source_url": "https://masterwork.wiki/lu4/item/881-elven-ring",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/881-elven-ring",
   "raw_html": "library/raw/lu4/item/881-elven-ring.html",
   "stats": {
+    "M. Def.": "22",
+    "Crystal Amount": "88 Crystallization Failed Enchant +0 88 - +1 99 - +2 110 - +3 121 - +4 154 110 +5 187 143 +6 220 176 +7 253 209 +8 286 242",
+    "NPC Sell Price": "23 950 Adena",
+    "Weight": "150",
     "Recipes": "Recipe: Elven Ring NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Accessory / Ring"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:881",
-      "type": "item",
-      "id": 881,
-      "name": "Lu4",
-      "url": "/lu4/item/881-elven-ring"
-    },
     {
       "key": "item:2155",
       "type": "item",
@@ -30,42 +29,49 @@
       "key": "npc:25112",
       "type": "npc",
       "id": 25112,
-      "name": "Beleth's Agent, Meana Lv. 30",
+      "name": "Beleth's Agent, Meana",
       "url": "/lu4/npc/25112-beleths-agent-meana"
+    },
+    {
+      "key": "npc:25095",
+      "type": "npc",
+      "id": 25095,
+      "name": "Elf Renoa",
+      "url": "/lu4/npc/25095-elf-renoa"
     },
     {
       "key": "npc:21105",
       "type": "npc",
       "id": 21105,
-      "name": "Delu Lizardman Special Agent Lv. 33",
+      "name": "Delu Lizardman Special Agent",
       "url": "/lu4/npc/21105-delu-lizardman-special-agent"
     },
     {
       "key": "npc:20780",
       "type": "npc",
       "id": 20780,
-      "name": "Bloody Axe Elite Lv. 35",
+      "name": "Bloody Axe Elite",
       "url": "/lu4/npc/20780-bloody-axe-elite"
     },
     {
       "key": "npc:20269",
       "type": "npc",
       "id": 20269,
-      "name": "Breka Orc Shaman Lv. 34",
+      "name": "Breka Orc Shaman",
       "url": "/lu4/npc/20269-breka-orc-shaman"
     },
     {
       "key": "npc:20268",
       "type": "npc",
       "id": 20268,
-      "name": "Breka Orc Archer Lv. 32",
+      "name": "Breka Orc Archer",
       "url": "/lu4/npc/20268-breka-orc-archer"
     },
     {
       "key": "npc:20144",
       "type": "npc",
       "id": 20144,
-      "name": "Hangman Tree Lv. 35",
+      "name": "Hangman Tree",
       "url": "/lu4/npc/20144-hangman-tree"
     }
   ]

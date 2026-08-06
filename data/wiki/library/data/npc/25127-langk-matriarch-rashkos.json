@@ -2,54 +2,58 @@
   "key": "npc:25127",
   "type": "npc",
   "id": 25127,
-  "name": "Lu4 Wiki: NPC Langk Matriarch Rashkos",
+  "name": "Langk Matriarch Rashkos",
   "url": "/lu4/npc/25127-langk-matriarch-rashkos",
-  "source_url": "https://masterwork.wiki/lu4/npc/25127-langk-matriarch-rashkos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25127-langk-matriarch-rashkos",
   "raw_html": "library/raw/lu4/npc/25127-langk-matriarch-rashkos.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "198 735 / 1 694",
+    "P. Atk. / M. Atk.": "375 / 88",
+    "P. Def. / M. Def.": "274 / 362",
+    "Accuracy / Evasion": "78 / 87",
+    "Exp / SP": "426 240 / 67 853",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 The chieftess of the Langk Lizardmen, she serves the evil spirit Bifrons in exchange for great power. At the command of Bifrons, she captured and slaughtered priests and the Disciples of God traveling on the south road. Recently, she has begun devoting herself to expanding the tribe's power in the north by taking advantage of the chaos in Gludio. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 24"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25127",
-      "type": "npc",
-      "id": 25127,
-      "name": "Lu4",
-      "url": "/lu4/npc/25127-langk-matriarch-rashkos"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4838",
       "type": "skill",
       "id": 4838,
-      "name": "Raid Boss Lv. 1 The chieftess of the Langk Lizardmen, she serves the evil spirit Bifrons in exchange for great power. At the command of Bifrons, she captured and slaughtered priests and the Disciples of God traveling on the south road. Recently, she has begun devoting herself to expanding the tribe's power in the north by taking advantage of the chaos in Gludio.",
-      "url": "/lu4/skill/4838-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4838-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -59,32 +63,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:46",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+      "id": 46,
+      "name": "Bronze Helmet D",
+      "url": "/lu4/item/46-bronze-helmet"
     },
     {
       "key": "item:627",
@@ -101,11 +84,32 @@
       "url": "/lu4/item/222-poniard-dagger"
     },
     {
-      "key": "item:46",
+      "key": "item:956",
       "type": "item",
-      "id": 46,
-      "name": "Bronze Helmet D",
-      "url": "/lu4/item/46-bronze-helmet"
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     }
   ]
 }

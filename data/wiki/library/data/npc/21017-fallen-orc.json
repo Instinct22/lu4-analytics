@@ -2,112 +2,67 @@
   "key": "npc:21017",
   "type": "npc",
   "id": 21017,
-  "name": "Lu4 Wiki: NPC Fallen Orc",
+  "name": "Fallen Orc",
   "url": "/lu4/npc/21017-fallen-orc",
-  "source_url": "https://masterwork.wiki/lu4/npc/21017-fallen-orc",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21017-fallen-orc",
   "raw_html": "library/raw/lu4/npc/21017-fallen-orc.html",
   "stats": {
-    "Location": "Земли Адена (+1) Земли Адена Забытые Равнины"
+    "Respawn Time": "30 seconds ± 5 seconds",
+    "Location": "Земли Адена (+1) Земли Адена Забытые Равнины",
+    "HP / MP": "2 893 / 1 096",
+    "P. Atk. / M. Atk.": "922 / 428",
+    "P. Def. / M. Def.": "303 / 257",
+    "Accuracy / Evasion": "94 / 93",
+    "Exp / SP": "3 216 / 322",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 58"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21017",
-      "type": "npc",
-      "id": 21017,
-      "name": "Lu4",
-      "url": "/lu4/npc/21017-fallen-orc"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
-      "key": "location:73",
-      "type": "location",
-      "id": 73,
-      "name": "Забытые Равнины",
-      "url": "/lu4/location/73-zabytye-ravniny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39297",
+      "key": "item:1866",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32403",
-      "type": "item",
-      "id": 32403,
-      "name": "Unidentified Sealed Avadon Boots B",
-      "url": "/lu4/item/32403-unidentified-sealed-avadon-boots"
-    },
-    {
-      "key": "item:32399",
-      "type": "item",
-      "id": 32399,
-      "name": "Unidentified Sealed Avadon Gloves B",
-      "url": "/lu4/item/32399-unidentified-sealed-avadon-gloves"
-    },
-    {
-      "key": "item:32321",
-      "type": "item",
-      "id": 32321,
-      "name": "Unidentified Great Sword B",
-      "url": "/lu4/item/32321-unidentified-great-sword"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
       "key": "item:5220",
@@ -115,34 +70,6 @@
       "id": 5220,
       "name": "Metal Hardener NG",
       "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:4964",
-      "type": "item",
-      "id": 4964,
-      "name": "Recipe: Heavy War Axe (60%) NG",
-      "url": "/lu4/item/4964-recipe-heavy-war-axe-60"
-    },
-    {
-      "key": "item:4104",
-      "type": "item",
-      "id": 4104,
-      "name": "Great Sword Blade NG",
-      "url": "/lu4/item/4104-great-sword-blade"
-    },
-    {
-      "key": "item:4098",
-      "type": "item",
-      "id": 4098,
-      "name": "Sealed Avadon Boots Design NG",
-      "url": "/lu4/item/4098-sealed-avadon-boots-design"
-    },
-    {
-      "key": "item:4073",
-      "type": "item",
-      "id": 4073,
-      "name": "Sealed Avadon Gloves Part NG",
-      "url": "/lu4/item/4073-sealed-avadon-gloves-part"
     },
     {
       "key": "item:4041",
@@ -166,18 +93,88 @@
       "url": "/lu4/item/1871-charcoal"
     },
     {
-      "key": "item:1866",
+      "key": "item:49800",
       "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:57",
+      "key": "item:4964",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4964,
+      "name": "Recipe: Heavy War Axe (60%) NG",
+      "url": "/lu4/item/4964-recipe-heavy-war-axe-60"
+    },
+    {
+      "key": "item:32321",
+      "type": "item",
+      "id": 32321,
+      "name": "Unidentified Great Sword B",
+      "url": "/lu4/item/32321-unidentified-great-sword"
+    },
+    {
+      "key": "item:4104",
+      "type": "item",
+      "id": 4104,
+      "name": "Great Sword Blade NG",
+      "url": "/lu4/item/4104-great-sword-blade"
+    },
+    {
+      "key": "item:32403",
+      "type": "item",
+      "id": 32403,
+      "name": "Unidentified Sealed Avadon Boots B",
+      "url": "/lu4/item/32403-unidentified-sealed-avadon-boots"
+    },
+    {
+      "key": "item:4098",
+      "type": "item",
+      "id": 4098,
+      "name": "Sealed Avadon Boots Design NG",
+      "url": "/lu4/item/4098-sealed-avadon-boots-design"
+    },
+    {
+      "key": "item:32399",
+      "type": "item",
+      "id": 32399,
+      "name": "Unidentified Sealed Avadon Gloves B",
+      "url": "/lu4/item/32399-unidentified-sealed-avadon-gloves"
+    },
+    {
+      "key": "item:4073",
+      "type": "item",
+      "id": 4073,
+      "name": "Sealed Avadon Gloves Part NG",
+      "url": "/lu4/item/4073-sealed-avadon-gloves-part"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1880",
+      "type": "item",
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
     },
     {
       "key": "item:4952",
@@ -194,13 +191,6 @@
       "url": "/lu4/item/4949-recipe-tunic-of-zubei-60"
     },
     {
-      "key": "item:4108",
-      "type": "item",
-      "id": 4108,
-      "name": "Sword of Valhalla Blade NG",
-      "url": "/lu4/item/4108-sword-of-valhalla-blade"
-    },
-    {
       "key": "item:4051",
       "type": "item",
       "id": 4051,
@@ -208,11 +198,11 @@
       "url": "/lu4/item/4051-adamantite-necklace-chain"
     },
     {
-      "key": "item:1880",
+      "key": "item:4108",
       "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
+      "id": 4108,
+      "name": "Sword of Valhalla Blade NG",
+      "url": "/lu4/item/4108-sword-of-valhalla-blade"
     }
   ]
 }

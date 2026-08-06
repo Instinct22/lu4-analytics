@@ -2,70 +2,74 @@
   "key": "npc:20950",
   "type": "npc",
   "id": 20950,
-  "name": "Lu4 Wiki: NPC Innersen",
+  "name": "Innersen",
   "url": "/lu4/npc/20950-innersen",
-  "source_url": "https://masterwork.wiki/lu4/npc/20950-innersen",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20950-innersen",
   "raw_html": "library/raw/lu4/npc/20950-innersen.html",
   "stats": {
-    "Location": "Школа Полномочий (+1) Школа Полномочий Земли Орена"
+    "Respawn Time": "37 seconds ± 5 seconds",
+    "Location": "Школа Полномочий (+1) Школа Полномочий Земли Орена",
+    "HP / MP": "3 268 / 1 277",
+    "P. Atk. / M. Atk.": "941 / 473",
+    "P. Def. / M. Def.": "438 / 301",
+    "Accuracy / Evasion": "88 / 93",
+    "Exp / SP": "3 595 / 359",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Physical Attack Resistance Lv. 3 Resistant to physical attacks.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 60"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20950",
-      "type": "npc",
-      "id": 20950,
-      "name": "Lu4",
-      "url": "/lu4/npc/20950-innersen"
-    },
-    {
-      "key": "location:105",
-      "type": "location",
-      "id": 105,
-      "name": "Школа Полномочий",
-      "url": "/lu4/location/105-skola-polnomocij"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4084",
       "type": "skill",
       "id": 4084,
-      "name": "Physical Attack Resistance Lv. 3 Resistant to physical attacks.",
-      "url": "/lu4/skill/4084-physical-attack-resistance/3"
+      "name": "Physical Attack Resistance",
+      "url": "/lu4/skill/4084-physical-attack-resistance"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:918",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 918,
+      "name": "Adamantite Necklace B",
+      "url": "/lu4/item/918-adamantite-necklace"
     },
     {
-      "key": "item:39298",
+      "key": "item:4051",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 4051,
+      "name": "Adamantite Necklace Chain NG",
+      "url": "/lu4/item/4051-adamantite-necklace-chain"
+    },
+    {
+      "key": "item:32325",
+      "type": "item",
+      "id": 32325,
+      "name": "Unidentified Heavy War Axe B",
+      "url": "/lu4/item/32325-unidentified-heavy-war-axe"
+    },
+    {
+      "key": "item:4105",
+      "type": "item",
+      "id": 4105,
+      "name": "Heavy War Axe Head NG",
+      "url": "/lu4/item/4105-heavy-war-axe-head"
     },
     {
       "key": "item:32339",
@@ -75,11 +79,25 @@
       "url": "/lu4/item/32339-unidentified-hell-knife"
     },
     {
-      "key": "item:32325",
+      "key": "item:4110",
       "type": "item",
-      "id": 32325,
-      "name": "Unidentified Heavy War Axe B",
-      "url": "/lu4/item/32325-unidentified-heavy-war-axe"
+      "id": 4110,
+      "name": "Hell Knife Edge NG",
+      "url": "/lu4/item/4110-hell-knife-edge"
+    },
+    {
+      "key": "item:4937",
+      "type": "item",
+      "id": 4937,
+      "name": "Recipe: Adamantite Earrings (70%) NG",
+      "url": "/lu4/item/4937-recipe-adamantite-earrings-70"
+    },
+    {
+      "key": "item:4963",
+      "type": "item",
+      "id": 4963,
+      "name": "Recipe: Great Sword (60%) NG",
+      "url": "/lu4/item/4963-recipe-great-sword-60"
     },
     {
       "key": "item:10586",
@@ -96,53 +114,32 @@
       "url": "/lu4/item/8883-spellbook-mystic-immunity"
     },
     {
-      "key": "item:4963",
+      "key": "item:39298",
       "type": "item",
-      "id": 4963,
-      "name": "Recipe: Great Sword (60%) NG",
-      "url": "/lu4/item/4963-recipe-great-sword-60"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
     },
     {
-      "key": "item:4937",
+      "key": "item:39299",
       "type": "item",
-      "id": 4937,
-      "name": "Recipe: Adamantite Earrings (70%) NG",
-      "url": "/lu4/item/4937-recipe-adamantite-earrings-70"
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
     },
     {
-      "key": "item:4110",
+      "key": "item:39300",
       "type": "item",
-      "id": 4110,
-      "name": "Hell Knife Edge NG",
-      "url": "/lu4/item/4110-hell-knife-edge"
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
-      "key": "item:4105",
+      "key": "item:947",
       "type": "item",
-      "id": 4105,
-      "name": "Heavy War Axe Head NG",
-      "url": "/lu4/item/4105-heavy-war-axe-head"
-    },
-    {
-      "key": "item:4051",
-      "type": "item",
-      "id": 4051,
-      "name": "Adamantite Necklace Chain NG",
-      "url": "/lu4/item/4051-adamantite-necklace-chain"
-    },
-    {
-      "key": "item:918",
-      "type": "item",
-      "id": 918,
-      "name": "Adamantite Necklace B",
-      "url": "/lu4/item/918-adamantite-necklace"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 947,
+      "name": "Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
     },
     {
       "key": "item:4960",
@@ -157,13 +154,6 @@
       "id": 4072,
       "name": "Avadon Circlet Pattern NG",
       "url": "/lu4/item/4072-avadon-circlet-pattern"
-    },
-    {
-      "key": "item:947",
-      "type": "item",
-      "id": 947,
-      "name": "Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
     },
     {
       "key": "npc:20949",

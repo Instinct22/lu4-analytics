@@ -2,110 +2,58 @@
   "key": "npc:21211",
   "type": "npc",
   "id": 21211,
-  "name": "Lu4 Wiki: NPC Vault Seer",
+  "name": "Vault Seer",
   "url": "/lu4/npc/21211-vault-seer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21211-vault-seer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21211-vault-seer",
   "raw_html": "library/raw/lu4/npc/21211-vault-seer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 255 / 353",
+    "P. Atk. / M. Atk.": "111 / 65",
+    "P. Def. / M. Def.": "98 / 114",
+    "Accuracy / Evasion": "60 / 70",
+    "Exp / SP": "3 320 / 168",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 27"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21211",
-      "type": "npc",
-      "id": 21211,
-      "name": "Lu4",
-      "url": "/lu4/npc/21211-vault-seer"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
-    },
-    {
-      "key": "item:5437",
-      "type": "item",
-      "id": 5437,
-      "name": "Recipe: Heavy Sword(100%) NG",
-      "url": "/lu4/item/5437-recipe-heavy-sword100"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "url": "/lu4/item/1881-coarse-bone-powder"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:178",
-      "type": "item",
-      "id": 178,
-      "name": "Bone Staff D",
-      "url": "/lu4/item/178-bone-staff"
-    },
-    {
-      "key": "item:167",
-      "type": "item",
-      "id": 167,
-      "name": "Scalpel D",
-      "url": "/lu4/item/167-scalpel"
-    },
-    {
-      "key": "item:156",
-      "type": "item",
-      "id": 156,
-      "name": "Hand Axe D",
-      "url": "/lu4/item/156-hand-axe"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "item:57",
@@ -115,11 +63,67 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2152",
+      "key": "item:156",
       "type": "item",
-      "id": 2152,
-      "name": "Recipe: Enchanted Necklace NG",
-      "url": "/lu4/item/2152-recipe-enchanted-necklace"
+      "id": 156,
+      "name": "Hand Axe D",
+      "url": "/lu4/item/156-hand-axe"
+    },
+    {
+      "key": "item:167",
+      "type": "item",
+      "id": 167,
+      "name": "Scalpel D",
+      "url": "/lu4/item/167-scalpel"
+    },
+    {
+      "key": "item:178",
+      "type": "item",
+      "id": 178,
+      "name": "Bone Staff D",
+      "url": "/lu4/item/178-bone-staff"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
+      "key": "item:1881",
+      "type": "item",
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
+    },
+    {
+      "key": "item:5437",
+      "type": "item",
+      "id": 5437,
+      "name": "Recipe: Heavy Sword(100%) NG",
+      "url": "/lu4/item/5437-recipe-heavy-sword100"
+    },
+    {
+      "key": "item:1931",
+      "type": "item",
+      "id": 1931,
+      "name": "Leather Boots Lining NG",
+      "url": "/lu4/item/1931-leather-boots-lining"
     },
     {
       "key": "item:1932",
@@ -129,11 +133,11 @@
       "url": "/lu4/item/1932-bone-helmet-design"
     },
     {
-      "key": "item:1931",
+      "key": "item:2152",
       "type": "item",
-      "id": 1931,
-      "name": "Leather Boots Lining NG",
-      "url": "/lu4/item/1931-leather-boots-lining"
+      "id": 2152,
+      "name": "Recipe: Enchanted Necklace NG",
+      "url": "/lu4/item/2152-recipe-enchanted-necklace"
     }
   ]
 }

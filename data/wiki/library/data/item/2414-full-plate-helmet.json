@@ -2,24 +2,23 @@
   "key": "item:2414",
   "type": "item",
   "id": 2414,
-  "name": "Lu4 Wiki: Item Full Plate Helmet",
+  "name": "Full Plate Helmet",
   "url": "/lu4/item/2414-full-plate-helmet",
-  "source_url": "https://masterwork.wiki/lu4/item/2414-full-plate-helmet",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2414-full-plate-helmet",
   "raw_html": "library/raw/lu4/item/2414-full-plate-helmet.html",
   "stats": {
+    "P. Def.": "58",
+    "Crystal Amount": "165 Crystallization Failed Enchant +0 165 - +1 171 - +2 177 - +3 183 - +4 201 118 +5 219 136 +6 237 154 +7 255 172 +8 273 190",
+    "NPC Sell Price": "206 300 Adena",
+    "Weight": "600",
     "Set Part": "Full Plate Armor C",
     "Recipes": "Recipe: Full Plate Helmet NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Helmet"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2414",
-      "type": "item",
-      "id": 2414,
-      "name": "Lu4",
-      "url": "/lu4/item/2414-full-plate-helmet"
-    },
     {
       "key": "set:23",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:503",
       "type": "set",
       "id": 503,
-      "name": "",
+      "name": "set:503",
       "url": "/lu4/set/503"
     },
     {
@@ -45,70 +44,84 @@
       "key": "npc:36634",
       "type": "npc",
       "id": 36634,
-      "name": "Oscar Lyeth Lv. 50",
+      "name": "Oscar Lyeth",
       "url": "/lu4/npc/36634-oscar-lyeth"
+    },
+    {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
     },
     {
       "key": "npc:25456",
       "type": "npc",
       "id": 25456,
-      "name": "Mirror of Oblivion Lv. 49",
+      "name": "Mirror of Oblivion",
       "url": "/lu4/npc/25456-mirror-of-oblivion"
     },
     {
       "key": "npc:22082",
       "type": "npc",
       "id": 22082,
-      "name": "Elder Lost Watcher Lv. 54",
+      "name": "Elder Lost Watcher",
       "url": "/lu4/npc/22082-elder-lost-watcher"
     },
     {
       "key": "npc:21812",
       "type": "npc",
       "id": 21812,
-      "name": "Treasure Chest Lv. 54",
+      "name": "Treasure Chest",
       "url": "/lu4/npc/21812-treasure-chest"
     },
     {
       "key": "npc:21222",
       "type": "npc",
       "id": 21222,
-      "name": "Sepulcher Archon Lv. 55",
+      "name": "Sepulcher Archon",
       "url": "/lu4/npc/21222-sepulcher-archon"
     },
     {
       "key": "npc:20645",
       "type": "npc",
       "id": 20645,
-      "name": "Harit Lizardman Matriarch Lv. 55",
+      "name": "Harit Lizardman Matriarch",
       "url": "/lu4/npc/20645-harit-lizardman-matriarch"
     },
     {
       "key": "npc:20598",
       "type": "npc",
       "id": 20598,
-      "name": "Satyr Elder Lv. 54",
+      "name": "Satyr Elder",
       "url": "/lu4/npc/20598-satyr-elder"
     },
     {
       "key": "npc:20596",
       "type": "npc",
       "id": 20596,
-      "name": "Liele Elder Lv. 52",
+      "name": "Liele Elder",
       "url": "/lu4/npc/20596-liele-elder"
     },
     {
       "key": "npc:20161",
       "type": "npc",
       "id": 20161,
-      "name": "Oel Mahum Lv. 53",
+      "name": "Oel Mahum",
       "url": "/lu4/npc/20161-oel-mahum"
     },
     {
       "key": "npc:5083",
       "type": "npc",
       "id": 5083,
-      "name": "Blackbanner Witch Lv. 55",
+      "name": "Blackbanner Witch",
       "url": "/lu4/npc/5083-blackbanner-witch"
     }
   ]

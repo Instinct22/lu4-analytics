@@ -2,140 +2,81 @@
   "key": "npc:21123",
   "type": "npc",
   "id": 21123,
-  "name": "Lu4 Wiki: NPC Baar Dre Vanul Destroyer",
+  "name": "Baar Dre Vanul Destroyer",
   "url": "/lu4/npc/21123-baar-dre-vanul-destroyer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21123-baar-dre-vanul-destroyer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21123-baar-dre-vanul-destroyer",
   "raw_html": "library/raw/lu4/npc/21123-baar-dre-vanul-destroyer.html",
   "stats": {
-    "Location": "Плато Бессмертия, юг"
+    "Respawn Time": "40 seconds",
+    "Location": "Плато Бессмертия, юг",
+    "HP / MP": "747 / 319",
+    "P. Atk. / M. Atk.": "104 / 68",
+    "P. Def. / M. Def.": "111 / 88",
+    "Accuracy / Evasion": "58 / 58",
+    "Exp / SP": "802 / 80",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 25"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21123",
-      "type": "npc",
-      "id": 21123,
-      "name": "Lu4",
-      "url": "/lu4/npc/21123-baar-dre-vanul-destroyer"
-    },
-    {
-      "key": "location:191",
-      "type": "location",
-      "id": 191,
-      "name": "Плато Бессмертия, юг",
-      "url": "/lu4/location/191-plato-bessmertia-ug"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2180",
-      "type": "item",
-      "id": 2180,
-      "name": "Recipe: Scale Mail NG",
-      "url": "/lu4/item/2180-recipe-scale-mail"
-    },
-    {
-      "key": "item:2178",
-      "type": "item",
-      "id": 2178,
-      "name": "Recipe: Dark Stockings NG",
-      "url": "/lu4/item/2178-recipe-dark-stockings"
-    },
-    {
-      "key": "item:2152",
-      "type": "item",
-      "id": 2152,
-      "name": "Recipe: Enchanted Necklace NG",
-      "url": "/lu4/item/2152-recipe-enchanted-necklace"
-    },
-    {
-      "key": "item:2025",
-      "type": "item",
-      "id": 2025,
-      "name": "Dwarven Trident Edge NG",
-      "url": "/lu4/item/2025-dwarven-trident-edge"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1874",
@@ -145,11 +86,32 @@
       "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
       "key": "item:295",
       "type": "item",
       "id": 295,
       "name": "Dwarven Trident D",
       "url": "/lu4/item/295-dwarven-trident"
+    },
+    {
+      "key": "item:2025",
+      "type": "item",
+      "id": 2025,
+      "name": "Dwarven Trident Edge NG",
+      "url": "/lu4/item/2025-dwarven-trident-edge"
     },
     {
       "key": "item:275",
@@ -166,11 +128,46 @@
       "url": "/lu4/item/179-mace-of-prayer"
     },
     {
-      "key": "item:57",
+      "key": "item:2178",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2178,
+      "name": "Recipe: Dark Stockings NG",
+      "url": "/lu4/item/2178-recipe-dark-stockings"
+    },
+    {
+      "key": "item:2152",
+      "type": "item",
+      "id": 2152,
+      "name": "Recipe: Enchanted Necklace NG",
+      "url": "/lu4/item/2152-recipe-enchanted-necklace"
+    },
+    {
+      "key": "item:2180",
+      "type": "item",
+      "id": 2180,
+      "name": "Recipe: Scale Mail NG",
+      "url": "/lu4/item/2180-recipe-scale-mail"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     }
   ]
 }

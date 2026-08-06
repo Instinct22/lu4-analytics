@@ -2,77 +2,74 @@
   "key": "npc:25372",
   "type": "npc",
   "id": 25372,
-  "name": "Lu4 Wiki: NPC Discarded Guardian",
+  "name": "Discarded Guardian",
   "url": "/lu4/npc/25372-discarded-guardian",
-  "source_url": "https://masterwork.wiki/lu4/npc/25372-discarded-guardian",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25372-discarded-guardian",
   "raw_html": "library/raw/lu4/npc/25372-discarded-guardian.html",
   "stats": {
-    "Location": "Эльфийские Руины"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Эльфийские Руины",
+    "HP / MP": "180 654 / 8 254",
+    "P. Atk. / M. Atk.": "259 / 24",
+    "P. Def. / M. Def.": "303 / 308",
+    "Accuracy / Evasion": "71 / 71",
+    "Exp / SP": "300 000 / 37 265",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 Created to protect a huge building in what is now the Elven Ruins, he was discarded without having the opportunity to display his ability when the Elves suddenly abandoned the island. Now this Guardian wanders the ruins, punishing trespassing adventurers and foolish grave robbers. Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 20"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25372",
-      "type": "npc",
-      "id": 25372,
-      "name": "Lu4",
-      "url": "/lu4/npc/25372-discarded-guardian"
-    },
-    {
-      "key": "location:32",
-      "type": "location",
-      "id": 32,
-      "name": "Эльфийские Руины",
-      "url": "/lu4/location/32-elfijskie-ruiny"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4933",
       "type": "skill",
       "id": 4933,
-      "name": "Raid Boss Lv. 1 Created to protect a huge building in what is now the Elven Ruins, he was discarded without having the opportunity to display his ability when the Elves suddenly abandoned the island. Now this Guardian wanders the ruins, punishing trespassing adventurers and foolish grave robbers.",
-      "url": "/lu4/skill/4933-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4933-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -82,53 +79,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:391",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:5531",
-      "type": "item",
-      "id": 5531,
-      "name": "Heavy Sword Edge NG",
-      "url": "/lu4/item/5531-heavy-sword-edge"
-    },
-    {
-      "key": "item:5285",
-      "type": "item",
-      "id": 5285,
-      "name": "Heavy Sword D",
-      "url": "/lu4/item/5285-heavy-sword"
-    },
-    {
-      "key": "item:2017",
-      "type": "item",
-      "id": 2017,
-      "name": "Saber Blade NG",
-      "url": "/lu4/item/2017-saber-blade"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+      "id": 391,
+      "name": "Puma Skin Shirt D",
+      "url": "/lu4/item/391-puma-skin-shirt"
     },
     {
       "key": "item:413",
@@ -138,18 +93,60 @@
       "url": "/lu4/item/413-puma-skin-gaiters"
     },
     {
-      "key": "item:391",
-      "type": "item",
-      "id": 391,
-      "name": "Puma Skin Shirt D",
-      "url": "/lu4/item/391-puma-skin-shirt"
-    },
-    {
       "key": "item:123",
       "type": "item",
       "id": 123,
       "name": "Saber D",
       "url": "/lu4/item/123-saber"
+    },
+    {
+      "key": "item:2017",
+      "type": "item",
+      "id": 2017,
+      "name": "Saber Blade NG",
+      "url": "/lu4/item/2017-saber-blade"
+    },
+    {
+      "key": "item:5285",
+      "type": "item",
+      "id": 5285,
+      "name": "Heavy Sword D",
+      "url": "/lu4/item/5285-heavy-sword"
+    },
+    {
+      "key": "item:5531",
+      "type": "item",
+      "id": 5531,
+      "name": "Heavy Sword Edge NG",
+      "url": "/lu4/item/5531-heavy-sword-edge"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     }
   ]
 }

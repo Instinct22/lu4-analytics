@@ -2,36 +2,33 @@
   "key": "item:39429",
   "type": "item",
   "id": 39429,
-  "name": "Lu4 Wiki: Item Melee Autoloot - 400 range",
+  "name": "Melee Autoloot - 400 range",
   "url": "/lu4/item/39429-melee-autoloot-400-range",
-  "source_url": "https://masterwork.wiki/lu4/item/39429-melee-autoloot-400-range",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/39429-melee-autoloot-400-range",
   "raw_html": "library/raw/lu4/item/39429-melee-autoloot-400-range.html",
   "stats": {
+    "Effect": "Personal temporary item. Grants the Autoloot effect, automatically collecting rewards from defeated monsters within a range of 400. Also increases Speed in peaceful zones by 15.",
+    "Weight": "75",
     "Item Skills": "Autoloot Lv. 1 Autoloot Move Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Quest Item"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:39429",
-      "type": "item",
-      "id": 39429,
-      "name": "Lu4",
-      "url": "/lu4/item/39429-melee-autoloot-400-range"
-    },
-    {
       "key": "skill:12057",
       "type": "skill",
       "id": 12057,
-      "name": "Autoloot Lv. 1",
-      "url": "/lu4/skill/12057-autoloot/1"
+      "name": "Autoloot",
+      "url": "/lu4/skill/12057-autoloot"
     },
     {
       "key": "skill:24570",
       "type": "skill",
       "id": 24570,
-      "name": "Autoloot Move Lv. 1",
-      "url": "/lu4/skill/24570-autoloot-move/1"
+      "name": "Autoloot Move",
+      "url": "/lu4/skill/24570-autoloot-move"
     },
     {
       "key": "item:39417",

@@ -2,98 +2,67 @@
   "key": "npc:20499",
   "type": "npc",
   "id": 20499,
-  "name": "Lu4 Wiki: NPC Turek Orc Footman",
+  "name": "Turek Orc Footman",
   "url": "/lu4/npc/20499-turek-orc-footman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20499-turek-orc-footman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20499-turek-orc-footman",
   "raw_html": "library/raw/lu4/npc/20499-turek-orc-footman.html",
   "stats": {
-    "Location": "Лагерь Орков (+1) Лагерь Орков Земли Глудио"
+    "Respawn Time": "42 seconds",
+    "Location": "Лагерь Орков (+1) Лагерь Орков Земли Глудио",
+    "HP / MP": "2 365 / 336",
+    "P. Atk. / M. Atk.": "112 / 48",
+    "P. Def. / M. Def.": "115 / 91",
+    "Accuracy / Evasion": "62 / 61",
+    "Exp / SP": "2 343 / 234",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 26"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20499",
-      "type": "npc",
-      "id": 20499,
-      "name": "Lu4",
-      "url": "/lu4/npc/20499-turek-orc-footman"
-    },
-    {
-      "key": "location:30",
-      "type": "location",
-      "id": 30,
-      "name": "Лагерь Орков",
-      "url": "/lu4/location/30-lager-orkov"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:2026",
-      "type": "item",
-      "id": 2026,
-      "name": "Two-Handed Sword Edge NG",
-      "url": "/lu4/item/2026-two-handed-sword-edge"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1882",
@@ -152,18 +121,39 @@
       "url": "/lu4/item/124-two-handed-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:2026",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2026,
+      "name": "Two-Handed Sword Edge NG",
+      "url": "/lu4/item/2026-two-handed-sword-edge"
     },
     {
-      "key": "item:2180",
+      "key": "item:39298",
       "type": "item",
-      "id": 2180,
-      "name": "Recipe: Scale Mail NG",
-      "url": "/lu4/item/2180-recipe-scale-mail"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
     },
     {
       "key": "item:2178",
@@ -173,11 +163,11 @@
       "url": "/lu4/item/2178-recipe-dark-stockings"
     },
     {
-      "key": "item:1870",
+      "key": "item:2180",
       "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
+      "id": 2180,
+      "name": "Recipe: Scale Mail NG",
+      "url": "/lu4/item/2180-recipe-scale-mail"
     }
   ]
 }

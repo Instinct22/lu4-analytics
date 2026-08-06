@@ -2,105 +2,88 @@
   "key": "npc:20146",
   "type": "npc",
   "id": 20146,
-  "name": "Lu4 Wiki: NPC Headless Knight",
+  "name": "Headless Knight",
   "url": "/lu4/npc/20146-headless-knight",
-  "source_url": "https://masterwork.wiki/lu4/npc/20146-headless-knight",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20146-headless-knight",
   "raw_html": "library/raw/lu4/npc/20146-headless-knight.html",
   "stats": {
-    "Location": "Долина Драконов"
+    "Respawn Time": "1 minute, 5 seconds",
+    "Location": "Долина Драконов",
+    "HP / MP": "8 981 / 912",
+    "P. Atk. / M. Atk.": "585 / 371",
+    "P. Def. / M. Def.": "307 / 274",
+    "Accuracy / Evasion": "83 / 83",
+    "Exp / SP": "11 311 / 1 131",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -20, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 50"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20146",
-      "type": "npc",
-      "id": 20146,
-      "name": "Lu4",
-      "url": "/lu4/npc/20146-headless-knight"
-    },
-    {
-      "key": "location:12",
-      "type": "location",
-      "id": 12,
-      "name": "Долина Драконов",
-      "url": "/lu4/location/12-dolina-drakonov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:8762",
-      "type": "item",
-      "id": 8762,
-      "name": "Top-Grade Life Stone NG",
-      "url": "/lu4/item/8762-top-grade-life-stone"
-    },
-    {
-      "key": "item:4609",
-      "type": "item",
-      "id": 4609,
-      "name": "Greater Dye of MEN <Men+3 Int-3> NG",
-      "url": "/lu4/item/4609-greater-dye-of-men-men3-int-3"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -110,39 +93,18 @@
       "url": "/lu4/item/4041-mold-hardener"
     },
     {
+      "key": "item:4609",
+      "type": "item",
+      "id": 4609,
+      "name": "Greater Dye of MEN <Men+3 Int-3> NG",
+      "url": "/lu4/item/4609-greater-dye-of-men-men3-int-3"
+    },
+    {
       "key": "item:4040",
       "type": "item",
       "id": 4040,
       "name": "Mold Lubricant NG",
       "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:2346",
-      "type": "item",
-      "id": 2346,
-      "name": "Recipe: Fisted Blade NG",
-      "url": "/lu4/item/2346-recipe-fisted-blade"
-    },
-    {
-      "key": "item:2104",
-      "type": "item",
-      "id": 2104,
-      "name": "Club of Nature Head NG",
-      "url": "/lu4/item/2104-club-of-nature-head"
-    },
-    {
-      "key": "item:2092",
-      "type": "item",
-      "id": 2092,
-      "name": "Homunkulus's Sword Blade NG",
-      "url": "/lu4/item/2092-homunkuluss-sword-blade"
-    },
-    {
-      "key": "item:1978",
-      "type": "item",
-      "id": 1978,
-      "name": "Tower Shield Fragment NG",
-      "url": "/lu4/item/1978-tower-shield-fragment"
     },
     {
       "key": "item:1877",
@@ -166,6 +128,20 @@
       "url": "/lu4/item/1866-suede"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:8762",
+      "type": "item",
+      "id": 8762,
+      "name": "Top-Grade Life Stone NG",
+      "url": "/lu4/item/8762-top-grade-life-stone"
+    },
+    {
       "key": "item:201",
       "type": "item",
       "id": 201,
@@ -173,11 +149,11 @@
       "url": "/lu4/item/201-club-of-nature"
     },
     {
-      "key": "item:103",
+      "key": "item:2104",
       "type": "item",
-      "id": 103,
-      "name": "Tower Shield C",
-      "url": "/lu4/item/103-tower-shield"
+      "id": 2104,
+      "name": "Club of Nature Head NG",
+      "url": "/lu4/item/2104-club-of-nature-head"
     },
     {
       "key": "item:84",
@@ -187,11 +163,39 @@
       "url": "/lu4/item/84-homunkuluss-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:2092",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2092,
+      "name": "Homunkulus's Sword Blade NG",
+      "url": "/lu4/item/2092-homunkuluss-sword-blade"
+    },
+    {
+      "key": "item:103",
+      "type": "item",
+      "id": 103,
+      "name": "Tower Shield C",
+      "url": "/lu4/item/103-tower-shield"
+    },
+    {
+      "key": "item:1978",
+      "type": "item",
+      "id": 1978,
+      "name": "Tower Shield Fragment NG",
+      "url": "/lu4/item/1978-tower-shield-fragment"
+    },
+    {
+      "key": "item:2346",
+      "type": "item",
+      "id": 2346,
+      "name": "Recipe: Fisted Blade NG",
+      "url": "/lu4/item/2346-recipe-fisted-blade"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:4132",
@@ -227,13 +231,6 @@
       "id": 1985,
       "name": "Theca Leather Gaiters Pattern NG",
       "url": "/lu4/item/1985-theca-leather-gaiters-pattern"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
     }
   ]
 }

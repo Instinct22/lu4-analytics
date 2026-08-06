@@ -2,140 +2,67 @@
   "key": "npc:20789",
   "type": "npc",
   "id": 20789,
-  "name": "Lu4 Wiki: NPC Crokian",
+  "name": "Crokian",
   "url": "/lu4/npc/20789-crokian",
-  "source_url": "https://masterwork.wiki/lu4/npc/20789-crokian",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20789-crokian",
   "raw_html": "library/raw/lu4/npc/20789-crokian.html",
   "stats": {
-    "Location": "Шепчущие Поля"
+    "Respawn Time": "35 seconds",
+    "Location": "Шепчущие Поля",
+    "HP / MP": "1 297 / 514",
+    "P. Atk. / M. Atk.": "191 / 93",
+    "P. Def. / M. Def.": "204 / 158",
+    "Accuracy / Evasion": "69 / 69",
+    "Exp / SP": "1 384 / 138",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 36"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20789",
-      "type": "npc",
-      "id": 20789,
-      "name": "Lu4",
-      "url": "/lu4/npc/20789-crokian"
-    },
-    {
-      "key": "location:117",
-      "type": "location",
-      "id": 117,
-      "name": "Шепчущие Поля",
-      "url": "/lu4/location/117-sepcusie-pola"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2933",
-      "type": "item",
-      "id": 2933,
-      "name": "Sage's Worn Gloves Lining NG",
-      "url": "/lu4/item/2933-sages-worn-gloves-lining"
-    },
-    {
-      "key": "item:2451",
-      "type": "item",
-      "id": 2451,
-      "name": "Sage's Worn Gloves D",
-      "url": "/lu4/item/2451-sages-worn-gloves"
-    },
-    {
-      "key": "item:2198",
-      "type": "item",
-      "id": 2198,
-      "name": "Recipe: Sage's Rag NG",
-      "url": "/lu4/item/2198-recipe-sages-rag"
-    },
-    {
-      "key": "item:2195",
-      "type": "item",
-      "id": 2195,
-      "name": "Recipe: Half Plate Armor NG",
-      "url": "/lu4/item/2195-recipe-half-plate-armor"
-    },
-    {
-      "key": "item:2157",
-      "type": "item",
-      "id": 2157,
-      "name": "Recipe: Omen Beast's Eye Earring NG",
-      "url": "/lu4/item/2157-recipe-omen-beasts-eye-earring"
-    },
-    {
-      "key": "item:1957",
-      "type": "item",
-      "id": 1957,
-      "name": "Assault Boots Part NG",
-      "url": "/lu4/item/1957-assault-boots-part"
-    },
-    {
-      "key": "item:1952",
-      "type": "item",
-      "id": 1952,
-      "name": "Salamander Skin Mail Texture NG",
-      "url": "/lu4/item/1952-salamander-skin-mail-texture"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1889",
@@ -180,11 +107,60 @@
       "url": "/lu4/item/1341-bone-arrow"
     },
     {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
+      "key": "item:2195",
+      "type": "item",
+      "id": 2195,
+      "name": "Recipe: Half Plate Armor NG",
+      "url": "/lu4/item/2195-recipe-half-plate-armor"
+    },
+    {
+      "key": "item:2157",
+      "type": "item",
+      "id": 2157,
+      "name": "Recipe: Omen Beast's Eye Earring NG",
+      "url": "/lu4/item/2157-recipe-omen-beasts-eye-earring"
+    },
+    {
+      "key": "item:2198",
+      "type": "item",
+      "id": 2198,
+      "name": "Recipe: Sage's Worn Robe NG",
+      "url": "/lu4/item/2198-recipe-sages-worn-robe"
+    },
+    {
       "key": "item:1125",
       "type": "item",
       "id": 1125,
-      "name": "Assault Boots D",
-      "url": "/lu4/item/1125-assault-boots"
+      "name": "Sage's Worn Boots D",
+      "url": "/lu4/item/1125-sages-worn-boots"
+    },
+    {
+      "key": "item:1957",
+      "type": "item",
+      "id": 1957,
+      "name": "Sage's Worn Boots Part NG",
+      "url": "/lu4/item/1957-sages-worn-boots-part"
+    },
+    {
+      "key": "item:2451",
+      "type": "item",
+      "id": 2451,
+      "name": "Sage's Worn Gloves D",
+      "url": "/lu4/item/2451-sages-worn-gloves"
+    },
+    {
+      "key": "item:2933",
+      "type": "item",
+      "id": 2933,
+      "name": "Sage's Worn Gloves Lining NG",
+      "url": "/lu4/item/2933-sages-worn-gloves-lining"
     },
     {
       "key": "item:396",
@@ -194,18 +170,32 @@
       "url": "/lu4/item/396-salamander-skin-mail"
     },
     {
-      "key": "item:57",
+      "key": "item:1952",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1952,
+      "name": "Salamander Skin Mail Texture NG",
+      "url": "/lu4/item/1952-salamander-skin-mail-texture"
     },
     {
-      "key": "item:2932",
+      "key": "item:39298",
       "type": "item",
-      "id": 2932,
-      "name": "Plate Boots Design NG",
-      "url": "/lu4/item/2932-plate-boots-design"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:2159",
@@ -215,6 +205,13 @@
       "url": "/lu4/item/2159-recipe-necklace-of-darkness"
     },
     {
+      "key": "item:1906",
+      "type": "item",
+      "id": 1906,
+      "name": "Mithril Ring Wire NG",
+      "url": "/lu4/item/1906-mithril-ring-wire"
+    },
+    {
       "key": "item:1907",
       "type": "item",
       "id": 1907,
@@ -222,11 +219,11 @@
       "url": "/lu4/item/1907-necklace-of-darkness-gem"
     },
     {
-      "key": "item:1906",
+      "key": "item:2932",
       "type": "item",
-      "id": 1906,
-      "name": "Mithril Ring Wire NG",
-      "url": "/lu4/item/1906-mithril-ring-wire"
+      "id": 2932,
+      "name": "Half Plate Boots Design NG",
+      "url": "/lu4/item/2932-half-plate-boots-design"
     }
   ]
 }

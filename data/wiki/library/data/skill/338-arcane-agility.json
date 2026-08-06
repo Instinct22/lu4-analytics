@@ -1,0 +1,43 @@
+{
+  "key": "skill:338",
+  "type": "skill",
+  "id": 338,
+  "name": "Arcane Agility",
+  "url": "/lu4/skill/338-arcane-agility",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/338-arcane-agility",
+  "raw_html": "library/raw/lu4/skill/338-arcane-agility.html",
+  "stats": {
+    "Effect": "Cast. Spd. +20% M. Skills Reuse Time -10% M. Skills MP Consumption +10%. Consumes 35 HP per second.",
+    "Consumes": "36 MP",
+    "Reuse Time": "0 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "WarlockLv. 70Elemental SummonerLv. 70Phantom SummonerLv. 70",
+    "Type": "Toggle / Toggle"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:14",
+      "type": "class",
+      "id": 14,
+      "name": "WarlockLv. 70",
+      "url": "/lu4/class/14-warlock"
+    },
+    {
+      "key": "class:28",
+      "type": "class",
+      "id": 28,
+      "name": "Elemental SummonerLv. 70",
+      "url": "/lu4/class/28-elementalsummoner"
+    },
+    {
+      "key": "class:41",
+      "type": "class",
+      "id": 41,
+      "name": "Phantom SummonerLv. 70",
+      "url": "/lu4/class/41-phantomsummoner"
+    }
+  ]
+}

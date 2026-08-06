@@ -1,0 +1,38 @@
+{
+  "key": "skill:352",
+  "type": "skill",
+  "id": 352,
+  "name": "Shield Bash",
+  "url": "/lu4/skill/352-shield-bash",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/352-shield-bash",
+  "raw_html": "library/raw/lu4/skill/352-shield-bash.html",
+  "stats": {
+    "Effect": "Hits an enemy with user's shield and stuns them. Target cancel chance: 70%. While active: Resistance to Stun +99%. Duration: 4 sec.",
+    "Consumes": "18 MP",
+    "Reuse Time": "7 seconds",
+    "Duration": "4 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_shock",
+    "Cast Range": "70 (400)",
+    "Available For": "Temple KnightLv. 52Shillien KnightLv. 52",
+    "Type": "Physical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:20",
+      "type": "class",
+      "id": 20,
+      "name": "Temple KnightLv. 52",
+      "url": "/lu4/class/20-templeknight"
+    },
+    {
+      "key": "class:33",
+      "type": "class",
+      "id": 33,
+      "name": "Shillien KnightLv. 52",
+      "url": "/lu4/class/33-shillienknight"
+    }
+  ]
+}

@@ -2,117 +2,156 @@
   "key": "npc:25296",
   "type": "npc",
   "id": 25296,
-  "name": "Lu4 Wiki: NPC Icicle Emperor Bumbalump",
+  "name": "Icicle Emperor Bumbalump",
   "url": "/lu4/npc/25296-icicle-emperor-bumbalump",
-  "source_url": "https://masterwork.wiki/lu4/npc/25296-icicle-emperor-bumbalump",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25296-icicle-emperor-bumbalump",
   "raw_html": "library/raw/lu4/npc/25296-icicle-emperor-bumbalump.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 019 189 / 3 275",
+    "P. Atk. / M. Atk.": "20 754 / 13 255",
+    "P. Def. / M. Def.": "1 313 / 1 666",
+    "Accuracy / Evasion": "124 / 139",
+    "Exp / SP": "7 118 800 / 1 270 000",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 The leader of the Mineral Spring Yetis in the hot springs area, he styles himself the Icicle Emperor. Despite his arrogant posturing, he is at heart a coward. He once marched into Fire Dragon Valakas' nest to prove his strength, but became frightened and fled at the mere site of Valakas' sleeping form. He is now terrified of Valakas, and runs away or hides at even the sound of roaring. Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Bare Hands Lv. 1 Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 74"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25296",
-      "type": "npc",
-      "id": 25296,
-      "name": "Lu4",
-      "url": "/lu4/npc/25296-icicle-emperor-bumbalump"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4902",
       "type": "skill",
       "id": 4902,
-      "name": "Raid Boss Lv. 1 The leader of the Mineral Spring Yetis in the hot springs area, he styles himself the Icicle Emperor. Despite his arrogant posturing, he is at heart a coward. He once marched into Fire Dragon Valakas' nest to prove his strength, but became frightened and fled at the mere site of Valakas' sleeping form. He is now terrified of Valakas, and runs away or hides at even the sound of roaring.",
-      "url": "/lu4/skill/4902-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4902-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Bare Hands Lv. 1",
-      "url": "/lu4/skill/4415-bare-hands/1"
+      "name": "Bare Hands",
+      "url": "/lu4/skill/4415-bare-hands"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32536",
+      "key": "item:9910",
       "type": "item",
-      "id": 32536,
-      "name": "Unidentified Branch of the Mother Tree A",
-      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:32441",
+      "key": "item:8620",
       "type": "item",
-      "id": 32441,
-      "name": "Unidentified Sirra's Blade A",
-      "url": "/lu4/item/32441-unidentified-sirras-blade"
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
+    },
+    {
+      "key": "item:8621",
+      "type": "item",
+      "id": 8621,
+      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
+      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
+    },
+    {
+      "key": "item:10552",
+      "type": "item",
+      "id": 10552,
+      "name": "Spellbook: Fighter's Will NG",
+      "url": "/lu4/item/10552-spellbook-fighters-will"
+    },
+    {
+      "key": "item:10553",
+      "type": "item",
+      "id": 10553,
+      "name": "Spellbook: Archer's Will NG",
+      "url": "/lu4/item/10553-spellbook-archers-will"
+    },
+    {
+      "key": "item:14219",
+      "type": "item",
+      "id": 14219,
+      "name": "Spellbook: Magician's Will NG",
+      "url": "/lu4/item/14219-spellbook-magicians-will"
+    },
+    {
+      "key": "item:32332",
+      "type": "item",
+      "id": 32332,
+      "name": "Unidentified Elysian A",
+      "url": "/lu4/item/32332-unidentified-elysian"
     },
     {
       "key": "item:32440",
@@ -129,18 +168,46 @@
       "url": "/lu4/item/32436-unidentified-flaming-dragon-skull"
     },
     {
-      "key": "item:32332",
+      "key": "item:32536",
       "type": "item",
-      "id": 32332,
-      "name": "Unidentified Elysian A",
-      "url": "/lu4/item/32332-unidentified-elysian"
+      "id": 32536,
+      "name": "Unidentified Branch of the Mother Tree A",
+      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
     },
     {
-      "key": "item:9910",
+      "key": "item:5440",
       "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
+      "id": 5440,
+      "name": "Recipe: Elysian(60%) NG",
+      "url": "/lu4/item/5440-recipe-elysian60"
+    },
+    {
+      "key": "item:8326",
+      "type": "item",
+      "id": 8326,
+      "name": "Recipe: Doom Crusher (60%) NG",
+      "url": "/lu4/item/8326-recipe-doom-crusher-60"
+    },
+    {
+      "key": "item:8316",
+      "type": "item",
+      "id": 8316,
+      "name": "Recipe: Flaming Dragon Skull (60%) NG",
+      "url": "/lu4/item/8316-recipe-flaming-dragon-skull-60"
+    },
+    {
+      "key": "item:5462",
+      "type": "item",
+      "id": 5462,
+      "name": "Recipe: Branch of the Mother Tree(60%) NG",
+      "url": "/lu4/item/5462-recipe-branch-of-the-mother-tree60"
+    },
+    {
+      "key": "item:5533",
+      "type": "item",
+      "id": 5533,
+      "name": "Elysian Head NG",
+      "url": "/lu4/item/5533-elysian-head"
     },
     {
       "key": "item:8349",
@@ -157,60 +224,11 @@
       "url": "/lu4/item/8342-flaming-dragon-skull-piece"
     },
     {
-      "key": "item:8034",
+      "key": "item:5544",
       "type": "item",
-      "id": 8034,
-      "name": "Rainbow Springs Clan Hall War Decree NG",
-      "url": "/lu4/item/8034-rainbow-springs-clan-hall-war-decree"
-    },
-    {
-      "key": "item:6570",
-      "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
-    },
-    {
-      "key": "item:6569",
-      "type": "item",
-      "id": 6569,
-      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
-    },
-    {
-      "key": "item:6346",
-      "type": "item",
-      "id": 6346,
-      "name": "Sealed Majestic Ring Gemstone NG",
-      "url": "/lu4/item/6346-sealed-majestic-ring-gemstone"
-    },
-    {
-      "key": "item:6344",
-      "type": "item",
-      "id": 6344,
-      "name": "Sealed Majestic Necklace Beads NG",
-      "url": "/lu4/item/6344-sealed-majestic-necklace-beads"
-    },
-    {
-      "key": "item:6342",
-      "type": "item",
-      "id": 6342,
-      "name": "Sealed Majestic Earring Gemstone NG",
-      "url": "/lu4/item/6342-sealed-majestic-earring-gemstone"
-    },
-    {
-      "key": "item:6328",
-      "type": "item",
-      "id": 6328,
-      "name": "Sealed Majestic Ring A",
-      "url": "/lu4/item/6328-sealed-majestic-ring"
-    },
-    {
-      "key": "item:6327",
-      "type": "item",
-      "id": 6327,
-      "name": "Sealed Majestic Earring A",
-      "url": "/lu4/item/6327-sealed-majestic-earring"
+      "id": 5544,
+      "name": "Branch of the Mother Tree Head NG",
+      "url": "/lu4/item/5544-branch-of-the-mother-tree-head"
     },
     {
       "key": "item:6326",
@@ -220,25 +238,11 @@
       "url": "/lu4/item/6326-sealed-majestic-necklace"
     },
     {
-      "key": "item:5544",
+      "key": "item:6327",
       "type": "item",
-      "id": 5544,
-      "name": "Branch of the Mother Tree Head NG",
-      "url": "/lu4/item/5544-branch-of-the-mother-tree-head"
-    },
-    {
-      "key": "item:5533",
-      "type": "item",
-      "id": 5533,
-      "name": "Elysian Head NG",
-      "url": "/lu4/item/5533-elysian-head"
-    },
-    {
-      "key": "item:730",
-      "type": "item",
-      "id": 730,
-      "name": "Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
+      "id": 6327,
+      "name": "Sealed Majestic Earring A",
+      "url": "/lu4/item/6327-sealed-majestic-earring"
     },
     {
       "key": "npc:25297",

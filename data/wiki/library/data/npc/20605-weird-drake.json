@@ -2,119 +2,46 @@
   "key": "npc:20605",
   "type": "npc",
   "id": 20605,
-  "name": "Lu4 Wiki: NPC Weird Drake",
+  "name": "Weird Drake",
   "url": "/lu4/npc/20605-weird-drake",
-  "source_url": "https://masterwork.wiki/lu4/npc/20605-weird-drake",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20605-weird-drake",
   "raw_html": "library/raw/lu4/npc/20605-weird-drake.html",
   "stats": {
-    "Location": "Долина Охотников (+1) Долина Охотников Деревня Охотников"
+    "Respawn Time": "18 seconds",
+    "Location": "Долина Охотников (+1) Долина Охотников Деревня Охотников",
+    "HP / MP": "1 981 / 751",
+    "P. Atk. / M. Atk.": "388 / 195",
+    "P. Def. / M. Def.": "255 / 185",
+    "Accuracy / Evasion": "78 / 78",
+    "Exp / SP": "2 100 / 210",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Dragon, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20605",
-      "type": "npc",
-      "id": 20605,
-      "name": "Lu4",
-      "url": "/lu4/npc/20605-weird-drake"
-    },
-    {
-      "key": "location:237",
-      "type": "location",
-      "id": 237,
-      "name": "Долина Охотников",
-      "url": "/lu4/location/237-dolina-ohotnikov"
-    },
-    {
-      "key": "location:74",
-      "type": "location",
-      "id": 74,
-      "name": "Деревня Охотников",
-      "url": "/lu4/location/74-derevna-ohotnikov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:4044",
-      "type": "item",
-      "id": 4044,
-      "name": "Thons NG",
-      "url": "/lu4/item/4044-thons"
-    },
-    {
-      "key": "item:2947",
-      "type": "item",
-      "id": 2947,
-      "name": "Dwarven Chain Shield Fragment NG",
-      "url": "/lu4/item/2947-dwarven-chain-shield-fragment"
-    },
-    {
-      "key": "item:2496",
-      "type": "item",
-      "id": 2496,
-      "name": "Dwarven Chain Shield C",
-      "url": "/lu4/item/2496-dwarven-chain-shield"
-    },
-    {
-      "key": "item:1911",
-      "type": "item",
-      "id": 1911,
-      "name": "Earring of Protection Gemstone NG",
-      "url": "/lu4/item/1911-earring-of-protection-gemstone"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1868",
@@ -124,6 +51,48 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:4044",
+      "type": "item",
+      "id": 4044,
+      "name": "Thons NG",
+      "url": "/lu4/item/4044-thons"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:2496",
+      "type": "item",
+      "id": 2496,
+      "name": "Dwarven Chain Shield C",
+      "url": "/lu4/item/2496-dwarven-chain-shield"
+    },
+    {
+      "key": "item:2947",
+      "type": "item",
+      "id": 2947,
+      "name": "Dwarven Chain Shield Fragment NG",
+      "url": "/lu4/item/2947-dwarven-chain-shield-fragment"
+    },
+    {
       "key": "item:853",
       "type": "item",
       "id": 853,
@@ -131,11 +100,39 @@
       "url": "/lu4/item/853-earring-of-protection"
     },
     {
-      "key": "item:57",
+      "key": "item:1911",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1911,
+      "name": "Earring of Protection Gemstone NG",
+      "url": "/lu4/item/1911-earring-of-protection-gemstone"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:6573",
@@ -159,13 +156,6 @@
       "url": "/lu4/item/2316-recipe-katana"
     },
     {
-      "key": "item:1970",
-      "type": "item",
-      "id": 1970,
-      "name": "Robe of Seal Fabric NG",
-      "url": "/lu4/item/1970-robe-of-seal-fabric"
-    },
-    {
       "key": "item:1969",
       "type": "item",
       "id": 1969,
@@ -173,11 +163,11 @@
       "url": "/lu4/item/1969-dwarven-chain-gaiters-material"
     },
     {
-      "key": "item:1867",
+      "key": "item:1970",
       "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 1970,
+      "name": "Robe of Seal Fabric NG",
+      "url": "/lu4/item/1970-robe-of-seal-fabric"
     }
   ]
 }

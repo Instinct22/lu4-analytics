@@ -2,119 +2,81 @@
   "key": "npc:20291",
   "type": "npc",
   "id": 20291,
-  "name": "Lu4 Wiki: NPC Enku Orc Champion",
+  "name": "Enku Orc Champion",
   "url": "/lu4/npc/20291-enku-orc-champion",
-  "source_url": "https://masterwork.wiki/lu4/npc/20291-enku-orc-champion",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20291-enku-orc-champion",
   "raw_html": "library/raw/lu4/npc/20291-enku-orc-champion.html",
   "stats": {
-    "Location": "Холмы Диона (+1) Холмы Диона Земли Диона"
+    "Respawn Time": "15 seconds",
+    "Location": "Холмы Диона (+1) Холмы Диона Земли Диона",
+    "HP / MP": "581 / 252",
+    "P. Atk. / M. Atk.": "57 / 29",
+    "P. Def. / M. Def.": "116 / 94",
+    "Accuracy / Evasion": "57 / 56",
+    "Exp / SP": "620 / 62",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 21"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20291",
-      "type": "npc",
-      "id": 20291,
-      "name": "Lu4",
-      "url": "/lu4/npc/20291-enku-orc-champion"
-    },
-    {
-      "key": "location:244",
-      "type": "location",
-      "id": 244,
-      "name": "Холмы Диона",
-      "url": "/lu4/location/244-holmy-diona"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:8343",
+      "key": "item:57",
       "type": "item",
-      "id": 8343,
-      "name": "Titan Hammer Piece NG",
-      "url": "/lu4/item/8343-titan-hammer-piece"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8327",
+      "key": "item:27",
       "type": "item",
-      "id": 8327,
-      "name": "Steel Sword Blade NG",
-      "url": "/lu4/item/8327-steel-sword-blade"
+      "id": 27,
+      "name": "Hard Leather Shirt NG",
+      "url": "/lu4/item/27-hard-leather-shirt"
     },
     {
-      "key": "item:7896",
+      "key": "item:33",
       "type": "item",
-      "id": 7896,
-      "name": "Titan Hammer D",
-      "url": "/lu4/item/7896-titan-hammer"
-    },
-    {
-      "key": "item:7880",
-      "type": "item",
-      "id": 7880,
-      "name": "Steel Sword D",
-      "url": "/lu4/item/7880-steel-sword"
-    },
-    {
-      "key": "item:5531",
-      "type": "item",
-      "id": 5531,
-      "name": "Heavy Sword Edge NG",
-      "url": "/lu4/item/5531-heavy-sword-edge"
-    },
-    {
-      "key": "item:5285",
-      "type": "item",
-      "id": 5285,
-      "name": "Heavy Sword D",
-      "url": "/lu4/item/5285-heavy-sword"
-    },
-    {
-      "key": "item:2020",
-      "type": "item",
-      "id": 2020,
-      "name": "Temptation of Abyss Piece NG",
-      "url": "/lu4/item/2020-temptation-of-abyss-piece"
+      "id": 33,
+      "name": "Hard Leather Gaiters NG",
+      "url": "/lu4/item/33-hard-leather-gaiters"
     },
     {
       "key": "item:1929",
@@ -159,11 +121,39 @@
       "url": "/lu4/item/734-haste-potion"
     },
     {
-      "key": "item:413",
+      "key": "item:178",
       "type": "item",
-      "id": 413,
-      "name": "Puma Skin Gaiters D",
-      "url": "/lu4/item/413-puma-skin-gaiters"
+      "id": 178,
+      "name": "Bone Staff D",
+      "url": "/lu4/item/178-bone-staff"
+    },
+    {
+      "key": "item:5285",
+      "type": "item",
+      "id": 5285,
+      "name": "Heavy Sword D",
+      "url": "/lu4/item/5285-heavy-sword"
+    },
+    {
+      "key": "item:5531",
+      "type": "item",
+      "id": 5531,
+      "name": "Heavy Sword Edge NG",
+      "url": "/lu4/item/5531-heavy-sword-edge"
+    },
+    {
+      "key": "item:7880",
+      "type": "item",
+      "id": 7880,
+      "name": "Steel Sword D",
+      "url": "/lu4/item/7880-steel-sword"
+    },
+    {
+      "key": "item:8327",
+      "type": "item",
+      "id": 8327,
+      "name": "Steel Sword Blade NG",
+      "url": "/lu4/item/8327-steel-sword-blade"
     },
     {
       "key": "item:313",
@@ -173,39 +163,18 @@
       "url": "/lu4/item/313-temptation-of-abyss"
     },
     {
-      "key": "item:178",
+      "key": "item:2020",
       "type": "item",
-      "id": 178,
-      "name": "Bone Staff D",
-      "url": "/lu4/item/178-bone-staff"
+      "id": 2020,
+      "name": "Temptation of Abyss Piece NG",
+      "url": "/lu4/item/2020-temptation-of-abyss-piece"
     },
     {
-      "key": "item:57",
+      "key": "item:413",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:33",
-      "type": "item",
-      "id": 33,
-      "name": "Hard Leather Gaiters NG",
-      "url": "/lu4/item/33-hard-leather-gaiters"
-    },
-    {
-      "key": "item:27",
-      "type": "item",
-      "id": 27,
-      "name": "Hard Leather Shirt NG",
-      "url": "/lu4/item/27-hard-leather-shirt"
-    },
-    {
-      "key": "item:1898",
-      "type": "item",
-      "id": 1898,
-      "name": "Blue Diamond Necklace Gem NG",
-      "url": "/lu4/item/1898-blue-diamond-necklace-gem"
+      "id": 413,
+      "name": "Puma Skin Gaiters D",
+      "url": "/lu4/item/413-puma-skin-gaiters"
     },
     {
       "key": "item:1879",
@@ -213,6 +182,13 @@
       "id": 1879,
       "name": "Cokes NG",
       "url": "/lu4/item/1879-cokes"
+    },
+    {
+      "key": "item:1898",
+      "type": "item",
+      "id": 1898,
+      "name": "Blue Diamond Necklace Gem NG",
+      "url": "/lu4/item/1898-blue-diamond-necklace-gem"
     }
   ]
 }

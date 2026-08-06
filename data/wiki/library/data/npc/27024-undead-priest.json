@@ -2,84 +2,80 @@
   "key": "npc:27024",
   "type": "npc",
   "id": 27024,
-  "name": "Lu4 Wiki: NPC Undead Priest",
+  "name": "Undead Priest",
   "url": "/lu4/npc/27024-undead-priest",
-  "source_url": "https://masterwork.wiki/lu4/npc/27024-undead-priest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27024-undead-priest",
   "raw_html": "library/raw/lu4/npc/27024-undead-priest.html",
   "stats": {
-    "Location": "Руины Отчаяния"
+    "Respawn Time": "15 seconds",
+    "Location": "Руины Отчаяния",
+    "HP / MP": "510 / 204",
+    "P. Atk. / M. Atk.": "43 / 22",
+    "P. Def. / M. Def.": "174 / 132",
+    "Accuracy / Evasion": "50 / 50",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets. Very Strong P. Def. Lv. 16 Very Strong M. Def. Lv. 16 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Bleed Resistance Lv. 5 Resistant to Bleed.",
+    "Type": "Undead, Lv. 17"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:27024",
-      "type": "npc",
-      "id": 27024,
-      "name": "Lu4",
-      "url": "/lu4/npc/27024-undead-priest"
-    },
-    {
-      "key": "location:29",
-      "type": "location",
-      "id": 29,
-      "name": "Руины Отчаяния",
-      "url": "/lu4/location/29-ruiny-otcaania"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 16",
-      "url": "/lu4/skill/4413-very-strong-m-def/16"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     }
   ]
 }

@@ -2,30 +2,28 @@
   "key": "item:8623",
   "type": "item",
   "id": 8623,
-  "name": "Lu4 Wiki: Item Elixir of HP (D-Grade)",
+  "name": "Elixir of HP (D-Grade)",
   "url": "/lu4/item/8623-elixir-of-hp-d-grade",
-  "source_url": "https://masterwork.wiki/lu4/item/8623-elixir-of-hp-d-grade",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8623-elixir-of-hp-d-grade",
   "raw_html": "library/raw/lu4/item/8623-elixir-of-hp-d-grade.html",
   "stats": {
+    "Effect": "Regenerates 650 HP. Can only be used on self. Character level: 20-39. Cooldown: 3 minutes.",
+    "NPC Sell Price": "1 725 Adena",
+    "Weight": "0",
     "Item Skills": "Elixir of Life (Grade D) Lv. 2",
     "Recipes": "Recipe: Elixir of HP (D-Grade) (100%) NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Other / Elixir"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8623",
-      "type": "item",
-      "id": 8623,
-      "name": "Lu4",
-      "url": "/lu4/item/8623-elixir-of-hp-d-grade"
-    },
-    {
       "key": "skill:2287",
       "type": "skill",
       "id": 2287,
-      "name": "Elixir of Life (Grade D) Lv. 2",
-      "url": "/lu4/skill/2287-elixir-of-life-grade-d/2"
+      "name": "Elixir of Life (Grade D)",
+      "url": "/lu4/skill/2287-elixir-of-life-grade-d"
     },
     {
       "key": "item:8641",
@@ -38,85 +36,92 @@
       "key": "npc:36640",
       "type": "npc",
       "id": 36640,
-      "name": "Fenralith Cuthalion Lv. 35",
+      "name": "Fenralith Cuthalion",
       "url": "/lu4/npc/36640-fenralith-cuthalion"
     },
     {
       "key": "npc:36639",
       "type": "npc",
       "id": 36639,
-      "name": "Fenralith Cuthalion Lv. 30",
+      "name": "Fenralith Cuthalion",
       "url": "/lu4/npc/36639-fenralith-cuthalion"
     },
     {
       "key": "npc:36638",
       "type": "npc",
       "id": 36638,
-      "name": "Fenralith Cuthalion Lv. 25",
+      "name": "Fenralith Cuthalion",
       "url": "/lu4/npc/36638-fenralith-cuthalion"
     },
     {
       "key": "npc:36631",
       "type": "npc",
       "id": 36631,
-      "name": "Oscar Lyeth Lv. 35",
+      "name": "Oscar Lyeth",
       "url": "/lu4/npc/36631-oscar-lyeth"
     },
     {
       "key": "npc:36630",
       "type": "npc",
       "id": 36630,
-      "name": "Oscar Lyeth Lv. 30",
+      "name": "Oscar Lyeth",
       "url": "/lu4/npc/36630-oscar-lyeth"
     },
     {
       "key": "npc:36629",
       "type": "npc",
       "id": 36629,
-      "name": "Oscar Lyeth Lv. 25",
+      "name": "Oscar Lyeth",
       "url": "/lu4/npc/36629-oscar-lyeth"
     },
     {
       "key": "npc:36622",
       "type": "npc",
       "id": 36622,
-      "name": "Wren Kain Lv. 35",
+      "name": "Wren Kain",
       "url": "/lu4/npc/36622-wren-kain"
     },
     {
       "key": "npc:36621",
       "type": "npc",
       "id": 36621,
-      "name": "Wren Kain Lv. 30",
+      "name": "Wren Kain",
       "url": "/lu4/npc/36621-wren-kain"
     },
     {
       "key": "npc:36620",
       "type": "npc",
       "id": 36620,
-      "name": "Wren Kain Lv. 25",
+      "name": "Wren Kain",
       "url": "/lu4/npc/36620-wren-kain"
     },
     {
       "key": "npc:36613",
       "type": "npc",
       "id": 36613,
-      "name": "Fianna Arinel Lv. 35",
+      "name": "Fianna Arinel",
       "url": "/lu4/npc/36613-fianna-arinel"
     },
     {
       "key": "npc:36612",
       "type": "npc",
       "id": 36612,
-      "name": "Fianna Arinel Lv. 30",
+      "name": "Fianna Arinel",
       "url": "/lu4/npc/36612-fianna-arinel"
     },
     {
       "key": "npc:36611",
       "type": "npc",
       "id": 36611,
-      "name": "Fianna Arinel Lv. 25",
+      "name": "Fianna Arinel",
       "url": "/lu4/npc/36611-fianna-arinel"
+    },
+    {
+      "key": "quest:38",
+      "type": "quest",
+      "id": 38,
+      "name": "Dragon Fangs",
+      "url": "/lu4/quest/38-dragon-fangs"
     },
     {
       "key": "quest:134",

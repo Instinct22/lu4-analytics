@@ -2,133 +2,95 @@
   "key": "npc:34639",
   "type": "npc",
   "id": 34639,
-  "name": "Lu4 Wiki: NPC Dangerous Crasher",
+  "name": "Dangerous Crasher",
   "url": "/lu4/npc/34639-dangerous-crasher",
-  "source_url": "https://masterwork.wiki/lu4/npc/34639-dangerous-crasher",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/34639-dangerous-crasher",
   "raw_html": "library/raw/lu4/npc/34639-dangerous-crasher.html",
   "stats": {
-    "Location": "Говорящий Остров (север)"
+    "Respawn Time": "40 seconds",
+    "Location": "Говорящий Остров (север)",
+    "HP / MP": "1 582 / 283",
+    "P. Atk. / M. Atk.": "62 / 37",
+    "P. Def. / M. Def.": "97 / 102",
+    "Accuracy / Evasion": "52 / 52",
+    "Exp / SP": "1 710 / 171",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Strong M. Def. Lv. 14 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Bleed Resistance Lv. 5 Resistant to Bleed.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 19"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:34639",
-      "type": "npc",
-      "id": 34639,
-      "name": "Lu4",
-      "url": "/lu4/npc/34639-dangerous-crasher"
-    },
-    {
-      "key": "location:259",
-      "type": "location",
-      "id": 259,
-      "name": "Говорящий Остров (север)",
-      "url": "/lu4/location/259-govorasij-ostrov-sever"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
-    },
-    {
-      "key": "item:2253",
-      "type": "item",
-      "id": 2253,
-      "name": "Recipe: Sword Breaker NG",
-      "url": "/lu4/item/2253-recipe-sword-breaker"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:218",
-      "type": "item",
-      "id": 218,
-      "name": "Throwing Knife NG",
-      "url": "/lu4/item/218-throwing-knife"
-    },
-    {
-      "key": "item:217",
-      "type": "item",
-      "id": 217,
-      "name": "Shining Knife NG",
-      "url": "/lu4/item/217-shining-knife"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "item:57",
@@ -138,11 +100,46 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2012",
+      "key": "item:217",
       "type": "item",
-      "id": 2012,
-      "name": "Sword of Reflection Blade NG",
-      "url": "/lu4/item/2012-sword-of-reflection-blade"
+      "id": 217,
+      "name": "Shining Knife NG",
+      "url": "/lu4/item/217-shining-knife"
+    },
+    {
+      "key": "item:218",
+      "type": "item",
+      "id": 218,
+      "name": "Throwing Knife NG",
+      "url": "/lu4/item/218-throwing-knife"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:2253",
+      "type": "item",
+      "id": 2253,
+      "name": "Recipe: Sword Breaker NG",
+      "url": "/lu4/item/2253-recipe-sword-breaker"
+    },
+    {
+      "key": "item:1817",
+      "type": "item",
+      "id": 1817,
+      "name": "Recipe: Cord NG",
+      "url": "/lu4/item/1817-recipe-cord"
     },
     {
       "key": "item:1880",
@@ -152,11 +149,11 @@
       "url": "/lu4/item/1880-steel"
     },
     {
-      "key": "item:1817",
+      "key": "item:2012",
       "type": "item",
-      "id": 1817,
-      "name": "Recipe: Cord NG",
-      "url": "/lu4/item/1817-recipe-cord"
+      "id": 2012,
+      "name": "Sword of Reflection Blade NG",
+      "url": "/lu4/item/2012-sword-of-reflection-blade"
     }
   ]
 }

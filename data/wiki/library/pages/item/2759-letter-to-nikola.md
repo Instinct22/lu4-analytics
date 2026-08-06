@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Letter to Nikola
+# Letter to Nikola
 
-- Source: https://masterwork.wiki/lu4/item/2759-letter-to-nikola
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2759-letter-to-nikola
 - Path: /lu4/item/2759-letter-to-nikola
 - Type: item
 - Key: item:2759
 
 ## Stats
+- Effect: A letter received from Lockirin of the Iron Gate. Deliver this to Maestro Nikola of the Cruma Tower.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Letter to Nikola
-Lu4
-Eternal
-MasterWork
-Letter to Nikola
-NG
-Quest Item
-A letter received from Lockirin of the Iron Gate. Deliver this to Maestro Nikola of the Cruma Tower.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Testimony of Trust
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Letter to Nikola NG Quest Item A letter received from Lockirin of the Iron Gate. Deliver this to Maestro Nikola of the Cruma Tower. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

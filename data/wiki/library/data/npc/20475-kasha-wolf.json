@@ -2,56 +2,39 @@
   "key": "npc:20475",
   "type": "npc",
   "id": 20475,
-  "name": "Lu4 Wiki: NPC Kasha Wolf",
+  "name": "Kasha Wolf",
   "url": "/lu4/npc/20475-kasha-wolf",
-  "source_url": "https://masterwork.wiki/lu4/npc/20475-kasha-wolf",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20475-kasha-wolf",
   "raw_html": "library/raw/lu4/npc/20475-kasha-wolf.html",
   "stats": {
-    "Location": "Долина Героев"
+    "Respawn Time": "10 seconds",
+    "Location": "Долина Героев",
+    "HP / MP": "126 / 75",
+    "P. Atk. / M. Atk.": "14 / 5",
+    "P. Def. / M. Def.": "44 / 35",
+    "Accuracy / Evasion": "37 / 37",
+    "Exp / SP": "133 / 13",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 4"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20475",
-      "type": "npc",
-      "id": 20475,
-      "name": "Lu4",
-      "url": "/lu4/npc/20475-kasha-wolf"
-    },
-    {
-      "key": "location:197",
-      "type": "location",
-      "id": 197,
-      "name": "Долина Героев",
-      "url": "/lu4/location/197-dolina-geroev"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
-      "key": "item:1873",
+      "key": "item:57",
       "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1786",
-      "type": "item",
-      "id": 1786,
-      "name": "Recipe: Broad Sword NG",
-      "url": "/lu4/item/1786-recipe-broad-sword"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:253",
@@ -61,11 +44,25 @@
       "url": "/lu4/item/253-spiked-gloves"
     },
     {
-      "key": "item:57",
+      "key": "item:1786",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1786,
+      "name": "Recipe: Broad Sword NG",
+      "url": "/lu4/item/1786-recipe-broad-sword"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:426",

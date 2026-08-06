@@ -2,91 +2,81 @@
   "key": "npc:21256",
   "type": "npc",
   "id": 21256,
-  "name": "Lu4 Wiki: NPC Underground Werewolf",
+  "name": "Underground Werewolf",
   "url": "/lu4/npc/21256-underground-werewolf",
-  "source_url": "https://masterwork.wiki/lu4/npc/21256-underground-werewolf",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21256-underground-werewolf",
   "raw_html": "library/raw/lu4/npc/21256-underground-werewolf.html",
   "stats": {
-    "Location": "Мифриловый Рудник"
+    "Respawn Time": "35 seconds",
+    "Location": "Мифриловый Рудник",
+    "HP / MP": "1 330 / 285",
+    "P. Atk. / M. Atk.": "88 / 38",
+    "P. Def. / M. Def.": "97 / 101",
+    "Accuracy / Evasion": "59 / 68",
+    "Exp / SP": "1 301 / 130",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 23"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21256",
-      "type": "npc",
-      "id": 21256,
-      "name": "Lu4",
-      "url": "/lu4/npc/21256-underground-werewolf"
-    },
-    {
-      "key": "location:65",
-      "type": "location",
-      "id": 65,
-      "name": "Мифриловый Рудник",
-      "url": "/lu4/location/65-mifrilovyj-rudnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:27",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 27,
+      "name": "Hard Leather Shirt NG",
+      "url": "/lu4/item/27-hard-leather-shirt"
     },
     {
-      "key": "item:39298",
+      "key": "item:33",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:5153",
-      "type": "item",
-      "id": 5153,
-      "name": "Recipe: Soulshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5153-recipe-soulshot-d-compressed-package-100"
+      "id": 33,
+      "name": "Hard Leather Gaiters NG",
+      "url": "/lu4/item/33-hard-leather-gaiters"
     },
     {
       "key": "item:1929",
@@ -101,13 +91,6 @@
       "id": 1927,
       "name": "Hard Leather Shirt Pattern NG",
       "url": "/lu4/item/1927-hard-leather-shirt-pattern"
-    },
-    {
-      "key": "item:1899",
-      "type": "item",
-      "id": 1899,
-      "name": "Necklace of Devotion Chain NG",
-      "url": "/lu4/item/1899-necklace-of-devotion-chain"
     },
     {
       "key": "item:1882",
@@ -131,13 +114,6 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:910",
-      "type": "item",
-      "id": 910,
-      "name": "Necklace of Devotion D",
-      "url": "/lu4/item/910-necklace-of-devotion"
-    },
-    {
       "key": "item:735",
       "type": "item",
       "id": 735,
@@ -145,11 +121,11 @@
       "url": "/lu4/item/735-alacrity-potion"
     },
     {
-      "key": "item:391",
+      "key": "item:5153",
       "type": "item",
-      "id": 391,
-      "name": "Puma Skin Shirt D",
-      "url": "/lu4/item/391-puma-skin-shirt"
+      "id": 5153,
+      "name": "Recipe: Soulshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5153-recipe-soulshot-d-compressed-package-100"
     },
     {
       "key": "item:156",
@@ -159,32 +135,53 @@
       "url": "/lu4/item/156-hand-axe"
     },
     {
-      "key": "item:57",
+      "key": "item:910",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 910,
+      "name": "Necklace of Devotion D",
+      "url": "/lu4/item/910-necklace-of-devotion"
     },
     {
-      "key": "item:33",
+      "key": "item:1899",
       "type": "item",
-      "id": 33,
-      "name": "Hard Leather Gaiters NG",
-      "url": "/lu4/item/33-hard-leather-gaiters"
+      "id": 1899,
+      "name": "Necklace of Devotion Chain NG",
+      "url": "/lu4/item/1899-necklace-of-devotion-chain"
     },
     {
-      "key": "item:27",
+      "key": "item:391",
       "type": "item",
-      "id": 27,
-      "name": "Hard Leather Shirt NG",
-      "url": "/lu4/item/27-hard-leather-shirt"
+      "id": 391,
+      "name": "Puma Skin Shirt D",
+      "url": "/lu4/item/391-puma-skin-shirt"
     },
     {
-      "key": "item:1934",
+      "key": "item:39298",
       "type": "item",
-      "id": 1934,
-      "name": "Crafted Leather Gloves Lining NG",
-      "url": "/lu4/item/1934-crafted-leather-gloves-lining"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1804",
+      "type": "item",
+      "id": 1804,
+      "name": "Recipe: Soulshot (D-Grade) NG",
+      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
     },
     {
       "key": "item:1898",
@@ -194,11 +191,11 @@
       "url": "/lu4/item/1898-blue-diamond-necklace-gem"
     },
     {
-      "key": "item:1804",
+      "key": "item:1934",
       "type": "item",
-      "id": 1804,
-      "name": "Recipe: Soulshot (D-Grade) NG",
-      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
+      "id": 1934,
+      "name": "Crafted Leather Gloves Lining NG",
+      "url": "/lu4/item/1934-crafted-leather-gloves-lining"
     }
   ]
 }

@@ -1,84 +1,15 @@
-# Lu4 Wiki: Set Majestic Leather Armor
+# Majestic Leather Armor
 
-- Source: https://masterwork.wiki/lu4/set/49-majestic-leather-armor
+- Source: https://masterwork.wiki/lu4-b-w-c/set/49-majestic-leather-armor
 - Path: /lu4/set/49-majestic-leather-armor
 - Type: set
 - Key: set:49
 
 ## Stats
+- Effect: DEX +2 Max MP +360 P. Atk. with Bow +8% Weight Limit +6800 Resistance to Stun +50%.
 - Set Parts: Majestic Leather Armor A Majestic Circlet A Majestic Gauntlets Light Armor A Majestic Boots Light Armor A Majestic Gauntlets Light Armor A Foundation Majestic Boots Light Armor A Foundation Majestic Circlet Light Armor A Foundation
+- Enchant Bonuses: Learn More
+- Grade: A
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Majestic Leather Armor
-Lu4
-Eternal
-MasterWork
-Majestic Leather Armor
-A
-DEX +2
-Max MP +360
-P. Atk. with Bow +8%
-Weight Limit +6800
-Resistance to Stun +50%.
-Set Parts
-Majestic Leather Armor
-A
-Majestic Circlet
-A
-Majestic Gauntlets
-Light Armor
-A
-Majestic Boots
-Light Armor
-A
-Majestic Gauntlets
-Light Armor
-A
-Foundation
-Majestic Boots
-Light Armor
-A
-Foundation
-Majestic Circlet
-Light Armor
-A
-Foundation
-Enchant Bonuses
-Learn More
-MasterWork 2026
-All rights reserved
+Majestic Leather Armor A DEX +2 Max MP +360 P. Atk. with Bow +8% Weight Limit +6800 Resistance to Stun +50%. Set Parts Majestic Leather Armor A Majestic Circlet A Majestic Gauntlets Light Armor A Majestic Boots Light Armor A Majestic Gauntlets Light Armor A Foundation Majestic Boots Light Armor A Foundation Majestic Circlet Light Armor A Foundation Enchant Bonuses Learn More

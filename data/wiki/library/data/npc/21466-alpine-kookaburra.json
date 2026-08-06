@@ -2,40 +2,44 @@
   "key": "npc:21466",
   "type": "npc",
   "id": 21466,
-  "name": "Lu4 Wiki: NPC Alpine Kookaburra",
+  "name": "Alpine Kookaburra",
   "url": "/lu4/npc/21466-alpine-kookaburra",
-  "source_url": "https://masterwork.wiki/lu4/npc/21466-alpine-kookaburra",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21466-alpine-kookaburra",
   "raw_html": "library/raw/lu4/npc/21466-alpine-kookaburra.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "6 930 / 1 464",
+    "P. Atk. / M. Atk.": "1 115 / 655",
+    "P. Def. / M. Def.": "416 / 355",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "15 322 / 1 422",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (2x) Lv. 10 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "B",
+    "Type": "Animal, Lv. 65"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21466",
-      "type": "npc",
-      "id": 21466,
-      "name": "Lu4",
-      "url": "/lu4/npc/21466-alpine-kookaburra"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "item:32405",
@@ -43,41 +47,6 @@
       "id": 32405,
       "name": "Unidentified Sealed Doom Boots B",
       "url": "/lu4/item/32405-unidentified-sealed-doom-boots"
-    },
-    {
-      "key": "item:32404",
-      "type": "item",
-      "id": 32404,
-      "name": "Unidentified Sealed Blue Wolf Boots B",
-      "url": "/lu4/item/32404-unidentified-sealed-blue-wolf-boots"
-    },
-    {
-      "key": "item:32401",
-      "type": "item",
-      "id": 32401,
-      "name": "Unidentified Sealed Doom Gloves B",
-      "url": "/lu4/item/32401-unidentified-sealed-doom-gloves"
-    },
-    {
-      "key": "item:32400",
-      "type": "item",
-      "id": 32400,
-      "name": "Unidentified Sealed Blue Wolf Gloves B",
-      "url": "/lu4/item/32400-unidentified-sealed-blue-wolf-gloves"
-    },
-    {
-      "key": "item:5434",
-      "type": "item",
-      "id": 5434,
-      "name": "Recipe: Dragon Slayer(60%) NG",
-      "url": "/lu4/item/5434-recipe-dragon-slayer60"
-    },
-    {
-      "key": "item:5368",
-      "type": "item",
-      "id": 5368,
-      "name": "Recipe: Sealed Dark Crystal Boots(60%) NG",
-      "url": "/lu4/item/5368-recipe-sealed-dark-crystal-boots60"
     },
     {
       "key": "item:4099",
@@ -106,6 +75,27 @@
       "id": 4090,
       "name": "Sealed Blue Wolf Boots Design NG",
       "url": "/lu4/item/4090-sealed-blue-wolf-boots-design"
+    },
+    {
+      "key": "item:32400",
+      "type": "item",
+      "id": 32400,
+      "name": "Unidentified Sealed Blue Wolf Gloves B",
+      "url": "/lu4/item/32400-unidentified-sealed-blue-wolf-gloves"
+    },
+    {
+      "key": "item:32401",
+      "type": "item",
+      "id": 32401,
+      "name": "Unidentified Sealed Doom Gloves B",
+      "url": "/lu4/item/32401-unidentified-sealed-doom-gloves"
+    },
+    {
+      "key": "item:32404",
+      "type": "item",
+      "id": 32404,
+      "name": "Unidentified Sealed Blue Wolf Boots B",
+      "url": "/lu4/item/32404-unidentified-sealed-blue-wolf-boots"
     },
     {
       "key": "item:4042",
@@ -143,11 +133,18 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:5452",
+      "key": "item:5368",
       "type": "item",
-      "id": 5452,
-      "name": "Recipe: Blood Tornado(60%) NG",
-      "url": "/lu4/item/5452-recipe-blood-tornado60"
+      "id": 5368,
+      "name": "Recipe: Sealed Dark Crystal Boots(60%) NG",
+      "url": "/lu4/item/5368-recipe-sealed-dark-crystal-boots60"
+    },
+    {
+      "key": "item:5434",
+      "type": "item",
+      "id": 5434,
+      "name": "Recipe: Dragon Slayer(60%) NG",
+      "url": "/lu4/item/5434-recipe-dragon-slayer60"
     },
     {
       "key": "item:4119",
@@ -155,6 +152,13 @@
       "id": 4119,
       "name": "Demon's Dagger Edge NG",
       "url": "/lu4/item/4119-demons-dagger-edge"
+    },
+    {
+      "key": "item:5452",
+      "type": "item",
+      "id": 5452,
+      "name": "Recipe: Blood Tornado(60%) NG",
+      "url": "/lu4/item/5452-recipe-blood-tornado60"
     }
   ]
 }

@@ -1,0 +1,43 @@
+{
+  "key": "skill:60",
+  "type": "skill",
+  "id": 60,
+  "name": "Fake Death",
+  "url": "/lu4/skill/60-fake-death",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/60-fake-death",
+  "raw_html": "library/raw/lu4/skill/60-fake-death.html",
+  "stats": {
+    "Effect": "Plays dead to stop monsters from attacking you. Consumes 10 MP per second. Use /stand to stop playing dead.",
+    "Consumes": "200 MP",
+    "Reuse Time": "0 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "Treasure HunterLv. 40Plains WalkerLv. 40Bounty HunterLv. 40",
+    "Type": "Toggle / Toggle"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:8",
+      "type": "class",
+      "id": 8,
+      "name": "Treasure HunterLv. 40",
+      "url": "/lu4/class/8-treasurehunter"
+    },
+    {
+      "key": "class:23",
+      "type": "class",
+      "id": 23,
+      "name": "Plains WalkerLv. 40",
+      "url": "/lu4/class/23-plainwalker"
+    },
+    {
+      "key": "class:55",
+      "type": "class",
+      "id": 55,
+      "name": "Bounty HunterLv. 40",
+      "url": "/lu4/class/55-bountyhunter"
+    }
+  ]
+}

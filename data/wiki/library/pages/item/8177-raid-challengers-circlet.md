@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Raid Challenger&#039;s Circlet
+# Raid Challenger's Circlet
 
-- Source: https://masterwork.wiki/lu4/item/8177-raid-challengers-circlet
+- Source: https://masterwork.wiki/lu4-b-w-c/item/8177-raid-challengers-circlet
 - Path: /lu4/item/8177-raid-challengers-circlet
 - Type: item
 - Key: item:8177
 
 ## Stats
+- Effect: Beginner's Raid Challenger Circlet. <Hair Slot> Uses top hair accessory slot.
+- Weight: 10
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Armor / None / Hair Accessory
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Raid Challenger&#039;s Circlet
-Lu4
-Eternal
-MasterWork
-Raid Challenger's Circlet
-NG
-Armor / None / Hair Accessory
-Beginner's Raid Challenger Circlet.
-<Hair Slot>
-Uses top hair accessory slot.
-Weight
-10
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Contained In
-Item
-Amount
-Get Type
-Adventurer's Box: Hair Accessory
-NG
-1
-Chance-based
-MasterWork 2026
-All rights reserved
+Raid Challenger's Circlet NG Armor / None / Hair Accessory Beginner's Raid Challenger Circlet. <Hair Slot> Uses top hair accessory slot. Weight 10 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

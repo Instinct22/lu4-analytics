@@ -2,36 +2,39 @@
   "key": "item:8793",
   "type": "item",
   "id": 8793,
-  "name": "Lu4 Wiki: Item Sword of Ipos",
+  "name": "Sword of Ipos",
   "url": "/lu4/item/8793-sword-of-ipos",
-  "source_url": "https://masterwork.wiki/lu4/item/8793-sword-of-ipos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8793-sword-of-ipos",
   "raw_html": "library/raw/lu4/item/8793-sword-of-ipos.html",
   "stats": {
+    "Effect": "<Passive Effect> Max HP +25%, Damage in PvP +5%.",
+    "P. Atk. / M. Atk.": "305 / 121",
+    "Soulshot / Spiritshot Consume": "1 / 1",
+    "Crystal Amount": "2157 Crystallization Failed Enchant +0 2157 - +1 2302 - +2 2447 - +3 2592 - +4 2882 1803 +5 3172 2093 +6 3462 2383 +7 3752 2673 +8 4042 2963 +9 4332 3253 +10 4622 3543 +11 4912 3833 +12 5202 4123",
+    "NPC Sell Price": "13 484 200 Adena",
+    "Weight": "1820",
+    "P. Crit. Rate.": "8",
     "Item Skills": "Special Ability: PvP Damage Lv. 1 Special Ability: Health Lv. 4",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Sword of Ipos A",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "A",
+    "Type": "Weapon / Sword / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8793",
-      "type": "item",
-      "id": 8793,
-      "name": "Lu4",
-      "url": "/lu4/item/8793-sword-of-ipos"
-    },
-    {
       "key": "skill:3552",
       "type": "skill",
       "id": 3552,
-      "name": "Special Ability: PvP Damage Lv. 1",
-      "url": "/lu4/skill/3552-special-ability-pvp-damage/1"
+      "name": "Special Ability: PvP Damage",
+      "url": "/lu4/skill/3552-special-ability-pvp-damage"
     },
     {
       "key": "skill:24292",
       "type": "skill",
       "id": 24292,
-      "name": "Special Ability: Health Lv. 4",
-      "url": "/lu4/skill/24292-special-ability-health/4"
+      "name": "Special Ability: Health",
+      "url": "/lu4/skill/24292-special-ability-health"
     }
   ]
 }

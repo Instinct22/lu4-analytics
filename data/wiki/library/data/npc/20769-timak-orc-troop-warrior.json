@@ -2,82 +2,65 @@
   "key": "npc:20769",
   "type": "npc",
   "id": 20769,
-  "name": "Lu4 Wiki: NPC Timak Orc Troop Warrior",
+  "name": "Timak Orc Troop Warrior",
   "url": "/lu4/npc/20769-timak-orc-troop-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/20769-timak-orc-troop-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20769-timak-orc-troop-warrior",
   "raw_html": "library/raw/lu4/npc/20769-timak-orc-troop-warrior.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 899 / 686",
+    "P. Atk. / M. Atk.": "361 / 161",
+    "P. Def. / M. Def.": "214 / 177",
+    "Accuracy / Evasion": "79 / 78",
+    "Exp / SP": "3 936 / 394",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 43"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20769",
-      "type": "npc",
-      "id": 20769,
-      "name": "Lu4",
-      "url": "/lu4/npc/20769-timak-orc-troop-warrior"
-    },
-    {
-      "key": "location:231",
-      "type": "location",
-      "id": 231,
-      "name": "Застава Тимак",
-      "url": "/lu4/location/231-zastava-timak"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:8303",
+      "key": "item:57",
       "type": "item",
-      "id": 8303,
-      "name": "Recipe: Mysterious Sword (100%) NG",
-      "url": "/lu4/item/8303-recipe-mysterious-sword-100"
-    },
-    {
-      "key": "item:5269",
-      "type": "item",
-      "id": 5269,
-      "name": "Recipe: Greater Soulshot (C) Compressed Package(100%) NG",
-      "url": "/lu4/item/5269-recipe-greater-soulshot-c-compressed-package100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5220",
@@ -85,55 +68,6 @@
       "id": 5220,
       "name": "Metal Hardener NG",
       "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2991",
-      "type": "item",
-      "id": 2991,
-      "name": "Recipe: Karmian Boots NG",
-      "url": "/lu4/item/2991-recipe-karmian-boots"
-    },
-    {
-      "key": "item:2944",
-      "type": "item",
-      "id": 2944,
-      "name": "Karmian Gloves Fabric NG",
-      "url": "/lu4/item/2944-karmian-gloves-fabric"
-    },
-    {
-      "key": "item:2935",
-      "type": "item",
-      "id": 2935,
-      "name": "Reinforced Mithril Gaiters Fragment NG",
-      "url": "/lu4/item/2935-reinforced-mithril-gaiters-fragment"
-    },
-    {
-      "key": "item:2454",
-      "type": "item",
-      "id": 2454,
-      "name": "Karmian Gloves C",
-      "url": "/lu4/item/2454-karmian-gloves"
-    },
-    {
-      "key": "item:2387",
-      "type": "item",
-      "id": 2387,
-      "name": "Reinforced Mithril Gaiters C",
-      "url": "/lu4/item/2387-reinforced-mithril-gaiters"
-    },
-    {
-      "key": "item:2306",
-      "type": "item",
-      "id": 2306,
-      "name": "Recipe: Stick of Faith NG",
-      "url": "/lu4/item/2306-recipe-stick-of-faith"
-    },
-    {
-      "key": "item:1967",
-      "type": "item",
-      "id": 1967,
-      "name": "Plated Leather Gaiters Material NG",
-      "url": "/lu4/item/1967-plated-leather-gaiters-material"
     },
     {
       "key": "item:1885",
@@ -157,6 +91,27 @@
       "url": "/lu4/item/1866-suede"
     },
     {
+      "key": "item:5269",
+      "type": "item",
+      "id": 5269,
+      "name": "Recipe: Greater Soulshot (C) Compressed Package(100%) NG",
+      "url": "/lu4/item/5269-recipe-greater-soulshot-c-compressed-package100"
+    },
+    {
+      "key": "item:2454",
+      "type": "item",
+      "id": 2454,
+      "name": "Karmian Gloves C",
+      "url": "/lu4/item/2454-karmian-gloves"
+    },
+    {
+      "key": "item:2944",
+      "type": "item",
+      "id": 2944,
+      "name": "Karmian Gloves Fabric NG",
+      "url": "/lu4/item/2944-karmian-gloves-fabric"
+    },
+    {
       "key": "item:418",
       "type": "item",
       "id": 418,
@@ -164,11 +119,46 @@
       "url": "/lu4/item/418-plated-leather-gaiters"
     },
     {
-      "key": "item:57",
+      "key": "item:1967",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1967,
+      "name": "Plated Leather Gaiters Material NG",
+      "url": "/lu4/item/1967-plated-leather-gaiters-material"
+    },
+    {
+      "key": "item:2387",
+      "type": "item",
+      "id": 2387,
+      "name": "Reinforced Mithril Gaiters C",
+      "url": "/lu4/item/2387-reinforced-mithril-gaiters"
+    },
+    {
+      "key": "item:2935",
+      "type": "item",
+      "id": 2935,
+      "name": "Reinforced Mithril Gaiters Fragment NG",
+      "url": "/lu4/item/2935-reinforced-mithril-gaiters-fragment"
+    },
+    {
+      "key": "item:2991",
+      "type": "item",
+      "id": 2991,
+      "name": "Recipe: Karmian Boots NG",
+      "url": "/lu4/item/2991-recipe-karmian-boots"
+    },
+    {
+      "key": "item:8303",
+      "type": "item",
+      "id": 8303,
+      "name": "Recipe: Mysterious Sword (100%) NG",
+      "url": "/lu4/item/8303-recipe-mysterious-sword-100"
+    },
+    {
+      "key": "item:2306",
+      "type": "item",
+      "id": 2306,
+      "name": "Recipe: Stick of Faith NG",
+      "url": "/lu4/item/2306-recipe-stick-of-faith"
     },
     {
       "key": "item:4469",
@@ -178,18 +168,11 @@
       "url": "/lu4/item/4469-dye-of-str-str1-con-1"
     },
     {
-      "key": "item:2942",
+      "key": "item:2199",
       "type": "item",
-      "id": 2942,
-      "name": "Reinforced Mithril Gloves Design NG",
-      "url": "/lu4/item/2942-reinforced-mithril-gloves-design"
-    },
-    {
-      "key": "item:2936",
-      "type": "item",
-      "id": 2936,
-      "name": "Chain Hood Pattern NG",
-      "url": "/lu4/item/2936-chain-hood-pattern"
+      "id": 2199,
+      "name": "Recipe: Karmian Stockings NG",
+      "url": "/lu4/item/2199-recipe-karmian-stockings"
     },
     {
       "key": "item:2303",
@@ -199,11 +182,18 @@
       "url": "/lu4/item/2303-recipe-skull-graver"
     },
     {
-      "key": "item:2199",
+      "key": "item:2936",
       "type": "item",
-      "id": 2199,
-      "name": "Recipe: Karmian Stockings NG",
-      "url": "/lu4/item/2199-recipe-karmian-stockings"
+      "id": 2936,
+      "name": "Chain Hood Pattern NG",
+      "url": "/lu4/item/2936-chain-hood-pattern"
+    },
+    {
+      "key": "item:2942",
+      "type": "item",
+      "id": 2942,
+      "name": "Reinforced Mithril Gloves Design NG",
+      "url": "/lu4/item/2942-reinforced-mithril-gloves-design"
     },
     {
       "key": "item:2060",

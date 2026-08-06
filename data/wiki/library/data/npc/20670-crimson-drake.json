@@ -2,147 +2,74 @@
   "key": "npc:20670",
   "type": "npc",
   "id": 20670,
-  "name": "Lu4 Wiki: NPC Crimson Drake",
+  "name": "Crimson Drake",
   "url": "/lu4/npc/20670-crimson-drake",
-  "source_url": "https://masterwork.wiki/lu4/npc/20670-crimson-drake",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20670-crimson-drake",
   "raw_html": "library/raw/lu4/npc/20670-crimson-drake.html",
   "stats": {
-    "Location": "Запретные Врата (+1) Запретные Врата Кладбище"
+    "Respawn Time": "35 seconds ± 5 seconds",
+    "Location": "Запретные Врата (+1) Запретные Врата Кладбище",
+    "HP / MP": "7 074 / 1 314",
+    "P. Atk. / M. Atk.": "1 115 / 1 157",
+    "P. Def. / M. Def.": "565 / 302",
+    "Accuracy / Evasion": "97 / 97",
+    "Exp / SP": "8 284 / 828",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% HP Increase (2x) Lv. 10 Slightly Strong M. Atk. Lv. 13 Slightly Weak M. Def. Lv. 10 Slightly Strong P. Def. Lv. 13 Fire Resistance Lv. 1 Resistant to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Dragon, Lv. 64"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20670",
-      "type": "npc",
-      "id": 20670,
-      "name": "Lu4",
-      "url": "/lu4/npc/20670-crimson-drake"
-    },
-    {
-      "key": "location:75",
-      "type": "location",
-      "id": 75,
-      "name": "Запретные Врата",
-      "url": "/lu4/location/75-zapretnye-vrata"
-    },
-    {
-      "key": "location:71",
-      "type": "location",
-      "id": 71,
-      "name": "Кладбище",
-      "url": "/lu4/location/71-kladbise"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4009",
       "type": "skill",
       "id": 4009,
-      "name": "Fire Resistance Lv. 1 Resistant to Fire attacks.",
-      "url": "/lu4/skill/4009-fire-resistance/1"
+      "name": "Fire Resistance",
+      "url": "/lu4/skill/4009-fire-resistance"
     },
     {
-      "key": "item:32355",
+      "key": "item:57",
       "type": "item",
-      "id": 32355,
-      "name": "Unidentified Doom Plate Armor B",
-      "url": "/lu4/item/32355-unidentified-doom-plate-armor"
-    },
-    {
-      "key": "item:32354",
-      "type": "item",
-      "id": 32354,
-      "name": "Unidentified Blue Wolf Gaiters B",
-      "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
-    },
-    {
-      "key": "item:32345",
-      "type": "item",
-      "id": 32345,
-      "name": "Unidentified Bow of Peril B",
-      "url": "/lu4/item/32345-unidentified-bow-of-peril"
-    },
-    {
-      "key": "item:8312",
-      "type": "item",
-      "id": 8312,
-      "name": "Recipe: Kaim Vanul's Bones (60%) NG",
-      "url": "/lu4/item/8312-recipe-kaim-vanuls-bones-60"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:5000",
-      "type": "item",
-      "id": 5000,
-      "name": "Recipe: Sword of Damascus (60%) NG",
-      "url": "/lu4/item/5000-recipe-sword-of-damascus-60"
-    },
-    {
-      "key": "item:4992",
-      "type": "item",
-      "id": 4992,
-      "name": "Recipe: Sealed Blue Wolf Boots (60%) NG",
-      "url": "/lu4/item/4992-recipe-sealed-blue-wolf-boots-60"
-    },
-    {
-      "key": "item:4121",
-      "type": "item",
-      "id": 4121,
-      "name": "Bow of Peril Shaft NG",
-      "url": "/lu4/item/4121-bow-of-peril-shaft"
-    },
-    {
-      "key": "item:4081",
-      "type": "item",
-      "id": 4081,
-      "name": "Doom Plate Armor Temper NG",
-      "url": "/lu4/item/4081-doom-plate-armor-temper"
-    },
-    {
-      "key": "item:4080",
-      "type": "item",
-      "id": 4080,
-      "name": "Blue Wolf Gaiters Material NG",
-      "url": "/lu4/item/4080-blue-wolf-gaiters-material"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -173,6 +100,13 @@
       "url": "/lu4/item/1864-stem"
     },
     {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
+    },
+    {
       "key": "item:1807",
       "type": "item",
       "id": 1807,
@@ -180,25 +114,74 @@
       "url": "/lu4/item/1807-recipe-soulshot-a-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:4992",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4992,
+      "name": "Recipe: Sealed Blue Wolf Boots (60%) NG",
+      "url": "/lu4/item/4992-recipe-sealed-blue-wolf-boots-60"
     },
     {
-      "key": "item:8340",
+      "key": "item:8312",
       "type": "item",
-      "id": 8340,
-      "name": "Bones Head of Kaim Vanul NG",
-      "url": "/lu4/item/8340-bones-head-of-kaim-vanul"
+      "id": 8312,
+      "name": "Recipe: Kaim Vanul's Bones (60%) NG",
+      "url": "/lu4/item/8312-recipe-kaim-vanuls-bones-60"
     },
     {
-      "key": "item:8324",
+      "key": "item:5000",
       "type": "item",
-      "id": 8324,
-      "name": "Recipe: Star Buster (60%) NG",
-      "url": "/lu4/item/8324-recipe-star-buster-60"
+      "id": 5000,
+      "name": "Recipe: Sword of Damascus (60%) NG",
+      "url": "/lu4/item/5000-recipe-sword-of-damascus-60"
+    },
+    {
+      "key": "item:32354",
+      "type": "item",
+      "id": 32354,
+      "name": "Unidentified Blue Wolf Gaiters B",
+      "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
+    },
+    {
+      "key": "item:4080",
+      "type": "item",
+      "id": 4080,
+      "name": "Blue Wolf Gaiters Material NG",
+      "url": "/lu4/item/4080-blue-wolf-gaiters-material"
+    },
+    {
+      "key": "item:32355",
+      "type": "item",
+      "id": 32355,
+      "name": "Unidentified Doom Plate Armor B",
+      "url": "/lu4/item/32355-unidentified-doom-plate-armor"
+    },
+    {
+      "key": "item:4081",
+      "type": "item",
+      "id": 4081,
+      "name": "Doom Plate Armor Temper NG",
+      "url": "/lu4/item/4081-doom-plate-armor-temper"
+    },
+    {
+      "key": "item:32345",
+      "type": "item",
+      "id": 32345,
+      "name": "Unidentified Bow of Peril B",
+      "url": "/lu4/item/32345-unidentified-bow-of-peril"
+    },
+    {
+      "key": "item:4121",
+      "type": "item",
+      "id": 4121,
+      "name": "Bow of Peril Shaft NG",
+      "url": "/lu4/item/4121-bow-of-peril-shaft"
+    },
+    {
+      "key": "item:948",
+      "type": "item",
+      "id": 948,
+      "name": "Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
       "key": "item:4993",
@@ -208,11 +191,11 @@
       "url": "/lu4/item/4993-recipe-sealed-doom-gloves-60"
     },
     {
-      "key": "item:4091",
+      "key": "item:8324",
       "type": "item",
-      "id": 4091,
-      "name": "Sealed Doom Gloves Part NG",
-      "url": "/lu4/item/4091-sealed-doom-gloves-part"
+      "id": 8324,
+      "name": "Recipe: Star Buster (60%) NG",
+      "url": "/lu4/item/8324-recipe-star-buster-60"
     },
     {
       "key": "item:4088",
@@ -222,11 +205,18 @@
       "url": "/lu4/item/4088-blue-wolf-helmet-design"
     },
     {
-      "key": "item:948",
+      "key": "item:8340",
       "type": "item",
-      "id": 948,
-      "name": "Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
+      "id": 8340,
+      "name": "Bones Head of Kaim Vanul NG",
+      "url": "/lu4/item/8340-bones-head-of-kaim-vanul"
+    },
+    {
+      "key": "item:4091",
+      "type": "item",
+      "id": 4091,
+      "name": "Sealed Doom Gloves Part NG",
+      "url": "/lu4/item/4091-sealed-doom-gloves-part"
     }
   ]
 }

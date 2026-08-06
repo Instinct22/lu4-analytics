@@ -2,103 +2,86 @@
   "key": "npc:21192",
   "type": "npc",
   "id": 21192,
-  "name": "Lu4 Wiki: NPC Gigant Officer",
+  "name": "Gigant Officer",
   "url": "/lu4/npc/21192-gigant-officer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21192-gigant-officer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21192-gigant-officer",
   "raw_html": "library/raw/lu4/npc/21192-gigant-officer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "5 113 / 514",
+    "P. Atk. / M. Atk.": "315 / 163",
+    "P. Def. / M. Def.": "175 / 134",
+    "Accuracy / Evasion": "79 / 69",
+    "Exp / SP": "6 676 / 404",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Def. Lv. 12 Slightly Weak M. Def. Lv. 9 Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks. Hold Resistance Lv. 3 Slightly resistant to Hold. Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 36"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21192",
-      "type": "npc",
-      "id": 21192,
-      "name": "Lu4",
-      "url": "/lu4/npc/21192-gigant-officer"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4336",
       "type": "skill",
       "id": 4336,
-      "name": "Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks.",
-      "url": "/lu4/skill/4336-dark-attack-vulnerability/2"
+      "name": "Dark Attack Vulnerability",
+      "url": "/lu4/skill/4336-dark-attack-vulnerability"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
-    },
-    {
-      "key": "item:8317",
-      "type": "item",
-      "id": 8317,
-      "name": "Recipe: Titan Hammer (100%) NG",
-      "url": "/lu4/item/8317-recipe-titan-hammer-100"
-    },
-    {
-      "key": "item:6362",
-      "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
-    },
-    {
-      "key": "item:6361",
-      "type": "item",
-      "id": 6361,
-      "name": "Green Seal Stone NG",
-      "url": "/lu4/item/6361-green-seal-stone"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "item:6360",
@@ -108,11 +91,53 @@
       "url": "/lu4/item/6360-blue-seal-stone"
     },
     {
-      "key": "item:2191",
+      "key": "item:6361",
       "type": "item",
-      "id": 2191,
-      "name": "Recipe: RIP Gauntlets NG",
-      "url": "/lu4/item/2191-recipe-rip-gauntlets"
+      "id": 6361,
+      "name": "Green Seal Stone NG",
+      "url": "/lu4/item/6361-green-seal-stone"
+    },
+    {
+      "key": "item:6362",
+      "type": "item",
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
+    },
+    {
+      "key": "item:83",
+      "type": "item",
+      "id": 83,
+      "name": "Sword of Magic D",
+      "url": "/lu4/item/83-sword-of-magic"
+    },
+    {
+      "key": "item:124",
+      "type": "item",
+      "id": 124,
+      "name": "Two-Handed Sword D",
+      "url": "/lu4/item/124-two-handed-sword"
+    },
+    {
+      "key": "item:127",
+      "type": "item",
+      "id": 127,
+      "name": "Crimson Sword D",
+      "url": "/lu4/item/127-crimson-sword"
+    },
+    {
+      "key": "item:130",
+      "type": "item",
+      "id": 130,
+      "name": "Elven Sword D",
+      "url": "/lu4/item/130-elven-sword"
+    },
+    {
+      "key": "item:144",
+      "type": "item",
+      "id": 144,
+      "name": "Sword of Occult D",
+      "url": "/lu4/item/144-sword-of-occult"
     },
     {
       "key": "item:2026",
@@ -120,6 +145,13 @@
       "id": 2026,
       "name": "Two-Handed Sword Edge NG",
       "url": "/lu4/item/2026-two-handed-sword-edge"
+    },
+    {
+      "key": "item:2191",
+      "type": "item",
+      "id": 2191,
+      "name": "Recipe: RIP Gauntlets NG",
+      "url": "/lu4/item/2191-recipe-rip-gauntlets"
     },
     {
       "key": "item:1874",
@@ -143,39 +175,11 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:144",
+      "key": "item:8317",
       "type": "item",
-      "id": 144,
-      "name": "Sword of Occult D",
-      "url": "/lu4/item/144-sword-of-occult"
-    },
-    {
-      "key": "item:130",
-      "type": "item",
-      "id": 130,
-      "name": "Elven Sword D",
-      "url": "/lu4/item/130-elven-sword"
-    },
-    {
-      "key": "item:127",
-      "type": "item",
-      "id": 127,
-      "name": "Crimson Sword D",
-      "url": "/lu4/item/127-crimson-sword"
-    },
-    {
-      "key": "item:124",
-      "type": "item",
-      "id": 124,
-      "name": "Two-Handed Sword D",
-      "url": "/lu4/item/124-two-handed-sword"
-    },
-    {
-      "key": "item:83",
-      "type": "item",
-      "id": 83,
-      "name": "Sword of Magic D",
-      "url": "/lu4/item/83-sword-of-magic"
+      "id": 8317,
+      "name": "Recipe: Titan Hammer (100%) NG",
+      "url": "/lu4/item/8317-recipe-titan-hammer-100"
     },
     {
       "key": "item:1939",

@@ -2,27 +2,25 @@
   "key": "item:8616",
   "type": "item",
   "id": 8616,
-  "name": "Lu4 Wiki: Item Spellbook: Summon Friend",
+  "name": "Spellbook: Summon Friend",
   "url": "/lu4/item/8616-spellbook-summon-friend",
-  "source_url": "https://masterwork.wiki/lu4/item/8616-spellbook-summon-friend",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8616-spellbook-summon-friend",
   "raw_html": "library/raw/lu4/item/8616-spellbook-summon-friend.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Summon Friend'. Required: Warlock - Lv. 52 Elemental Summoner - Lv. 52 Phantom Summoner - Lv. 52 To obtain this item, hunt the Sanhidro found in Skyshadow Meadow.",
+    "NPC Sell Price": "3 125 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8616",
-      "type": "item",
-      "id": 8616,
-      "name": "Lu4",
-      "url": "/lu4/item/8616-spellbook-summon-friend"
-    },
-    {
       "key": "npc:20946",
       "type": "npc",
       "id": 20946,
-      "name": "Sanhidro Lv. 52",
+      "name": "Sanhidro",
       "url": "/lu4/npc/20946-sanhidro"
     }
   ]

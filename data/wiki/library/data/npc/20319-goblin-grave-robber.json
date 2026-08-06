@@ -2,42 +2,60 @@
   "key": "npc:20319",
   "type": "npc",
   "id": 20319,
-  "name": "Lu4 Wiki: NPC Goblin Grave Robber",
+  "name": "Goblin Grave Robber",
   "url": "/lu4/npc/20319-goblin-grave-robber",
-  "source_url": "https://masterwork.wiki/lu4/npc/20319-goblin-grave-robber",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20319-goblin-grave-robber",
   "raw_html": "library/raw/lu4/npc/20319-goblin-grave-robber.html",
   "stats": {
-    "Location": "Долина Героев"
+    "Respawn Time": "10 seconds",
+    "Location": "Долина Героев",
+    "HP / MP": "149 / 85",
+    "P. Atk. / M. Atk.": "16 / 6",
+    "P. Def. / M. Def.": "47 / 38",
+    "Accuracy / Evasion": "41 / 40",
+    "Exp / SP": "156 / 16",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 5"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20319",
-      "type": "npc",
-      "id": 20319,
-      "name": "Lu4",
-      "url": "/lu4/npc/20319-goblin-grave-robber"
-    },
-    {
-      "key": "location:197",
-      "type": "location",
-      "id": 197,
-      "name": "Долина Героев",
-      "url": "/lu4/location/197-dolina-geroev"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
-      "key": "item:1873",
+      "key": "item:57",
       "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:112",
+      "type": "item",
+      "id": 112,
+      "name": "Apprentice's Earring NG",
+      "url": "/lu4/item/112-apprentices-earring"
+    },
+    {
+      "key": "item:116",
+      "type": "item",
+      "id": 116,
+      "name": "Magic Ring NG",
+      "url": "/lu4/item/116-magic-ring"
+    },
+    {
+      "key": "item:118",
+      "type": "item",
+      "id": 118,
+      "name": "Necklace of Magic NG",
+      "url": "/lu4/item/118-necklace-of-magic"
     },
     {
       "key": "item:1868",
@@ -75,32 +93,11 @@
       "url": "/lu4/item/1787-recipe-willow-staff"
     },
     {
-      "key": "item:118",
+      "key": "item:1873",
       "type": "item",
-      "id": 118,
-      "name": "Necklace of Magic NG",
-      "url": "/lu4/item/118-necklace-of-magic"
-    },
-    {
-      "key": "item:116",
-      "type": "item",
-      "id": 116,
-      "name": "Magic Ring NG",
-      "url": "/lu4/item/116-magic-ring"
-    },
-    {
-      "key": "item:112",
-      "type": "item",
-      "id": 112,
-      "name": "Apprentice's Earring NG",
-      "url": "/lu4/item/112-apprentices-earring"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     }
   ]
 }

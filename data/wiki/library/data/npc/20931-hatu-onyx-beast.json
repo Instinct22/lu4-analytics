@@ -2,126 +2,53 @@
   "key": "npc:20931",
   "type": "npc",
   "id": 20931,
-  "name": "Lu4 Wiki: NPC Hatu Onyx Beast",
+  "name": "Hatu Onyx Beast",
   "url": "/lu4/npc/20931-hatu-onyx-beast",
-  "source_url": "https://masterwork.wiki/lu4/npc/20931-hatu-onyx-beast",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20931-hatu-onyx-beast",
   "raw_html": "library/raw/lu4/npc/20931-hatu-onyx-beast.html",
   "stats": {
-    "Location": "Пасека"
+    "Respawn Time": "55 seconds",
+    "Location": "Пасека",
+    "HP / MP": "3 892 / 514",
+    "P. Atk. / M. Atk.": "244 / 103",
+    "P. Def. / M. Def.": "185 / 144",
+    "Accuracy / Evasion": "69 / 69",
+    "Exp / SP": "4 029 / 403",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 36"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20931",
-      "type": "npc",
-      "id": 20931,
-      "name": "Lu4",
-      "url": "/lu4/npc/20931-hatu-onyx-beast"
-    },
-    {
-      "key": "location:59",
-      "type": "location",
-      "id": 59,
-      "name": "Пасека",
-      "url": "/lu4/location/59-paseka"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
-      "key": "item:3020",
+      "key": "item:57",
       "type": "item",
-      "id": 3020,
-      "name": "Recipe: Elven Long Sword NG",
-      "url": "/lu4/item/3020-recipe-elven-long-sword"
-    },
-    {
-      "key": "item:2934",
-      "type": "item",
-      "id": 2934,
-      "name": "Plate Shield Fragment NG",
-      "url": "/lu4/item/2934-plate-shield-fragment"
-    },
-    {
-      "key": "item:2932",
-      "type": "item",
-      "id": 2932,
-      "name": "Plate Boots Design NG",
-      "url": "/lu4/item/2932-plate-boots-design"
-    },
-    {
-      "key": "item:2494",
-      "type": "item",
-      "id": 2494,
-      "name": "Plate Shield D",
-      "url": "/lu4/item/2494-plate-shield"
-    },
-    {
-      "key": "item:2428",
-      "type": "item",
-      "id": 2428,
-      "name": "Plate Boots D",
-      "url": "/lu4/item/2428-plate-boots"
-    },
-    {
-      "key": "item:2288",
-      "type": "item",
-      "id": 2288,
-      "name": "Recipe: Ghost Staff NG",
-      "url": "/lu4/item/2288-recipe-ghost-staff"
-    },
-    {
-      "key": "item:2158",
-      "type": "item",
-      "id": 2158,
-      "name": "Recipe: Mithril Ring NG",
-      "url": "/lu4/item/2158-recipe-mithril-ring"
-    },
-    {
-      "key": "item:2055",
-      "type": "item",
-      "id": 2055,
-      "name": "Glaive Edge NG",
-      "url": "/lu4/item/2055-glaive-edge"
-    },
-    {
-      "key": "item:2052",
-      "type": "item",
-      "id": 2052,
-      "name": "Mithril Dagger Blade NG",
-      "url": "/lu4/item/2052-mithril-dagger-blade"
-    },
-    {
-      "key": "item:2048",
-      "type": "item",
-      "id": 2048,
-      "name": "Bonebreaker Head NG",
-      "url": "/lu4/item/2048-bonebreaker-head"
-    },
-    {
-      "key": "item:1907",
-      "type": "item",
-      "id": 1907,
-      "name": "Necklace of Darkness Gem NG",
-      "url": "/lu4/item/1907-necklace-of-darkness-gem"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1879",
@@ -152,11 +79,18 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:914",
+      "key": "item:159",
       "type": "item",
-      "id": 914,
-      "name": "Necklace of Darkness D",
-      "url": "/lu4/item/914-necklace-of-darkness"
+      "id": 159,
+      "name": "Bonebreaker D",
+      "url": "/lu4/item/159-bonebreaker"
+    },
+    {
+      "key": "item:2048",
+      "type": "item",
+      "id": 2048,
+      "name": "Bonebreaker Head NG",
+      "url": "/lu4/item/2048-bonebreaker-head"
     },
     {
       "key": "item:297",
@@ -166,6 +100,13 @@
       "url": "/lu4/item/297-glaive"
     },
     {
+      "key": "item:2055",
+      "type": "item",
+      "id": 2055,
+      "name": "Glaive Edge NG",
+      "url": "/lu4/item/2055-glaive-edge"
+    },
+    {
       "key": "item:225",
       "type": "item",
       "id": 225,
@@ -173,25 +114,81 @@
       "url": "/lu4/item/225-mithril-dagger"
     },
     {
-      "key": "item:159",
+      "key": "item:2052",
       "type": "item",
-      "id": 159,
-      "name": "Bonebreaker D",
-      "url": "/lu4/item/159-bonebreaker"
+      "id": 2052,
+      "name": "Mithril Dagger Blade NG",
+      "url": "/lu4/item/2052-mithril-dagger-blade"
     },
     {
-      "key": "item:57",
+      "key": "item:914",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 914,
+      "name": "Necklace of Darkness D",
+      "url": "/lu4/item/914-necklace-of-darkness"
     },
     {
-      "key": "item:2967",
+      "key": "item:1907",
       "type": "item",
-      "id": 2967,
-      "name": "Elven Long Sword Blade NG",
-      "url": "/lu4/item/2967-elven-long-sword-blade"
+      "id": 1907,
+      "name": "Necklace of Darkness Gem NG",
+      "url": "/lu4/item/1907-necklace-of-darkness-gem"
+    },
+    {
+      "key": "item:2428",
+      "type": "item",
+      "id": 2428,
+      "name": "Half Plate Boots D",
+      "url": "/lu4/item/2428-half-plate-boots"
+    },
+    {
+      "key": "item:2932",
+      "type": "item",
+      "id": 2932,
+      "name": "Half Plate Boots Design NG",
+      "url": "/lu4/item/2932-half-plate-boots-design"
+    },
+    {
+      "key": "item:2494",
+      "type": "item",
+      "id": 2494,
+      "name": "Half Plate Shield D",
+      "url": "/lu4/item/2494-half-plate-shield"
+    },
+    {
+      "key": "item:2934",
+      "type": "item",
+      "id": 2934,
+      "name": "Half Plate Shield Fragment NG",
+      "url": "/lu4/item/2934-half-plate-shield-fragment"
+    },
+    {
+      "key": "item:3020",
+      "type": "item",
+      "id": 3020,
+      "name": "Recipe: Elven Long Sword NG",
+      "url": "/lu4/item/3020-recipe-elven-long-sword"
+    },
+    {
+      "key": "item:2288",
+      "type": "item",
+      "id": 2288,
+      "name": "Recipe: Ghost Staff NG",
+      "url": "/lu4/item/2288-recipe-ghost-staff"
+    },
+    {
+      "key": "item:2158",
+      "type": "item",
+      "id": 2158,
+      "name": "Recipe: Mithril Ring NG",
+      "url": "/lu4/item/2158-recipe-mithril-ring"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     },
     {
       "key": "item:2296",
@@ -208,25 +205,25 @@
       "url": "/lu4/item/2201-recipe-square-shield"
     },
     {
-      "key": "item:1952",
+      "key": "item:2967",
       "type": "item",
-      "id": 1952,
-      "name": "Salamander Skin Mail Texture NG",
-      "url": "/lu4/item/1952-salamander-skin-mail-texture"
+      "id": 2967,
+      "name": "Elven Long Sword Blade NG",
+      "url": "/lu4/item/2967-elven-long-sword-blade"
     },
     {
       "key": "item:1949",
       "type": "item",
       "id": 1949,
-      "name": "Mithril Gloves Design NG",
-      "url": "/lu4/item/1949-mithril-gloves-design"
+      "name": "Half Plate Gauntlets Design NG",
+      "url": "/lu4/item/1949-half-plate-gauntlets-design"
     },
     {
-      "key": "item:1864",
+      "key": "item:1952",
       "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
+      "id": 1952,
+      "name": "Salamander Skin Mail Texture NG",
+      "url": "/lu4/item/1952-salamander-skin-mail-texture"
     }
   ]
 }

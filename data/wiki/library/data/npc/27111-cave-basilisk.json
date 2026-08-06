@@ -2,47 +2,37 @@
   "key": "npc:27111",
   "type": "npc",
   "id": 27111,
-  "name": "Lu4 Wiki: NPC Cave Basilisk",
+  "name": "Cave Basilisk",
   "url": "/lu4/npc/27111-cave-basilisk",
-  "source_url": "https://masterwork.wiki/lu4/npc/27111-cave-basilisk",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27111-cave-basilisk",
   "raw_html": "library/raw/lu4/npc/27111-cave-basilisk.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "954 / 405",
+    "P. Atk. / M. Atk.": "126 / 63",
+    "P. Def. / M. Def.": "154 / 115",
+    "Accuracy / Evasion": "63 / 63",
+    "Exp / SP": "1 002 / 100",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 30"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:27111",
-      "type": "npc",
-      "id": 27111,
-      "name": "Lu4",
-      "url": "/lu4/npc/27111-cave-basilisk"
-    },
-    {
-      "key": "location:10",
-      "type": "location",
-      "id": 10,
-      "name": "Туманные Горы",
-      "url": "/lu4/location/10-tumannye-gory"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
-    },
-    {
-      "key": "item:1940",
-      "type": "item",
-      "id": 1940,
-      "name": "Iron Boots Design NG",
-      "url": "/lu4/item/1940-iron-boots-design"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "item:1879",
@@ -80,18 +70,18 @@
       "url": "/lu4/item/553-iron-boots"
     },
     {
+      "key": "item:1940",
+      "type": "item",
+      "id": 1940,
+      "name": "Iron Boots Design NG",
+      "url": "/lu4/item/1940-iron-boots-design"
+    },
+    {
       "key": "item:416",
       "type": "item",
       "id": 416,
       "name": "Reinforced Leather Gaiters D",
       "url": "/lu4/item/416-reinforced-leather-gaiters"
-    },
-    {
-      "key": "item:293",
-      "type": "item",
-      "id": 293,
-      "name": "War Hammer D",
-      "url": "/lu4/item/293-war-hammer"
     },
     {
       "key": "item:144",
@@ -101,11 +91,11 @@
       "url": "/lu4/item/144-sword-of-occult"
     },
     {
-      "key": "item:1864",
+      "key": "item:293",
       "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
+      "id": 293,
+      "name": "War Hammer D",
+      "url": "/lu4/item/293-war-hammer"
     },
     {
       "key": "item:1061",
@@ -113,6 +103,13 @@
       "id": 1061,
       "name": "Healing Potion NG",
       "url": "/lu4/item/1061-healing-potion"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     }
   ]
 }

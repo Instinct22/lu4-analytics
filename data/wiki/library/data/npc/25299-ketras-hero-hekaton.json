@@ -2,103 +2,107 @@
   "key": "npc:25299",
   "type": "npc",
   "id": 25299,
-  "name": "Lu4 Wiki: NPC Ketra's Hero Hekaton",
+  "name": "Ketra's Hero Hekaton",
   "url": "/lu4/npc/25299-ketras-hero-hekaton",
-  "source_url": "https://masterwork.wiki/lu4/npc/25299-ketras-hero-hekaton",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25299-ketras-hero-hekaton",
   "raw_html": "library/raw/lu4/npc/25299-ketras-hero-hekaton.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 666 778 / 3 718",
+    "P. Atk. / M. Atk.": "42 504 / 4 692",
+    "P. Def. / M. Def.": "1 651 / 1 874",
+    "Accuracy / Evasion": "146 / 145",
+    "Exp / SP": "6 080 000 / 835 990",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Orc soldier is the right arm of Commander Tayr and greatly respected by the Ketra Orc Warriors. With his immense axe, nicknamed Divider, he slew so many Silenos that their compatriots are more afraid of him than they are of Commander Tayr. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 6 Blunt Weapons Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25299",
-      "type": "npc",
-      "id": 25299,
-      "name": "Lu4",
-      "url": "/lu4/npc/25299-ketras-hero-hekaton"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4903",
       "type": "skill",
       "id": 4903,
-      "name": "Raid Boss Lv. 1 This Orc soldier is the right arm of Commander Tayr and greatly respected by the Ketra Orc Warriors. With his immense axe, nicknamed Divider, he slew so many Silenos that their compatriots are more afraid of him than they are of Commander Tayr.",
-      "url": "/lu4/skill/4903-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4903-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 6 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/6"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -106,6 +110,13 @@
       "id": 9910,
       "name": "Proof of Loyalty NG",
       "url": "/lu4/item/9910-proof-of-loyalty"
+    },
+    {
+      "key": "item:6691",
+      "type": "item",
+      "id": 6691,
+      "name": "Angel Slayer Blade NG",
+      "url": "/lu4/item/6691-angel-slayer-blade"
     },
     {
       "key": "item:7579",
@@ -122,11 +133,11 @@
       "url": "/lu4/item/6707-sealed-draconic-leather-armor-part"
     },
     {
-      "key": "item:6691",
+      "key": "item:960",
       "type": "item",
-      "id": 6691,
-      "name": "Angel Slayer Blade NG",
-      "url": "/lu4/item/6691-angel-slayer-blade"
+      "id": 960,
+      "name": "Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
       "key": "item:6578",
@@ -136,25 +147,18 @@
       "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:6577",
-      "type": "item",
-      "id": 6577,
-      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
-      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
-    },
-    {
-      "key": "item:960",
-      "type": "item",
-      "id": 960,
-      "name": "Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
-    },
-    {
       "key": "item:959",
       "type": "item",
       "id": 959,
       "name": "Scroll: Enchant Weapon (S-Grade) NG",
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
+    },
+    {
+      "key": "item:6577",
+      "type": "item",
+      "id": 6577,
+      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
+      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
     },
     {
       "key": "npc:25300",

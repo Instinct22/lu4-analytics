@@ -2,34 +2,32 @@
   "key": "item:8389",
   "type": "item",
   "id": 8389,
-  "name": "Lu4 Wiki: Item Spellbook: Greater Shield",
+  "name": "Spellbook: Greater Shield",
   "url": "/lu4/item/8389-spellbook-greater-shield",
-  "source_url": "https://masterwork.wiki/lu4/item/8389-spellbook-greater-shield",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8389-spellbook-greater-shield",
   "raw_html": "library/raw/lu4/item/8389-spellbook-greater-shield.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Greater Shield'. Required: Prophet - Lv. 58 To obtain this item, hunt the Pobby found in Skyshadow Meadow.",
+    "NPC Sell Price": "3 375 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8389",
-      "type": "item",
-      "id": 8389,
-      "name": "Lu4",
-      "url": "/lu4/item/8389-spellbook-greater-shield"
-    },
-    {
       "key": "npc:22094",
       "type": "npc",
       "id": 22094,
-      "name": "Frost Buffalo Lv. 61",
+      "name": "Frost Buffalo",
       "url": "/lu4/npc/22094-frost-buffalo"
     },
     {
       "key": "npc:20953",
       "type": "npc",
       "id": 20953,
-      "name": "Pobby Lv. 57",
+      "name": "Pobby",
       "url": "/lu4/npc/20953-pobby"
     }
   ]

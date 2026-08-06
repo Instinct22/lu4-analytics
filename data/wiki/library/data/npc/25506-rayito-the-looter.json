@@ -2,56 +2,51 @@
   "key": "npc:25506",
   "type": "npc",
   "id": 25506,
-  "name": "Lu4 Wiki: NPC Rayito the Looter",
+  "name": "Rayito the Looter",
   "url": "/lu4/npc/25506-rayito-the-looter",
-  "source_url": "https://masterwork.wiki/lu4/npc/25506-rayito-the-looter",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25506-rayito-the-looter",
   "raw_html": "library/raw/lu4/npc/25506-rayito-the-looter.html",
   "stats": {
-    "Location": "Плато Бессмертия"
+    "HP / MP": "184 671 / 961",
+    "P. Atk. / M. Atk.": "735 / 139",
+    "P. Def. / M. Def.": "524 / 591",
+    "Accuracy / Evasion": "91 / 90",
+    "Exp / SP": "958 300 / 40 000",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This villain preys on adventurers who travel between the Dwarven Village and the Town of Schuttgart. He summoned all the northern Goblin powers to create a great bandit force and rule over them, but he made a serious mistake by stealing tribute intended for Schuttgart. Hearing rumors that the lord was preparing an army to clear out the bandits, he and his followers fled to the mountains. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 37"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25506",
-      "type": "npc",
-      "id": 25506,
-      "name": "Lu4",
-      "url": "/lu4/npc/25506-rayito-the-looter"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:5027",
       "type": "skill",
       "id": 5027,
-      "name": "Raid Boss Lv. 1 This villain preys on adventurers who travel between the Dwarven Village and the Town of Schuttgart. He summoned all the northern Goblin powers to create a great bandit force and rule over them, but he made a serious mistake by stealing tribute intended for Schuttgart. Hearing rumors that the lord was preparing an army to clear out the bandits, he and his followers fled to the mountains.",
-      "url": "/lu4/skill/5027-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/5027-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,39 +56,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:397",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:2935",
-      "type": "item",
-      "id": 2935,
-      "name": "Reinforced Mithril Gaiters Fragment NG",
-      "url": "/lu4/item/2935-reinforced-mithril-gaiters-fragment"
+      "id": 397,
+      "name": "Reinforced Mithril Shirt C",
+      "url": "/lu4/item/397-reinforced-mithril-shirt"
     },
     {
       "key": "item:2387",
@@ -103,18 +70,32 @@
       "url": "/lu4/item/2387-reinforced-mithril-gaiters"
     },
     {
-      "key": "item:2074",
-      "type": "item",
-      "id": 2074,
-      "name": "Crystallized Ice Bow Shaft NG",
-      "url": "/lu4/item/2074-crystallized-ice-bow-shaft"
-    },
-    {
       "key": "item:1961",
       "type": "item",
       "id": 1961,
       "name": "Reinforced Mithril Shirt Fabric NG",
       "url": "/lu4/item/1961-reinforced-mithril-shirt-fabric"
+    },
+    {
+      "key": "item:2935",
+      "type": "item",
+      "id": 2935,
+      "name": "Reinforced Mithril Gaiters Fragment NG",
+      "url": "/lu4/item/2935-reinforced-mithril-gaiters-fragment"
+    },
+    {
+      "key": "item:281",
+      "type": "item",
+      "id": 281,
+      "name": "Crystallized Ice Bow C",
+      "url": "/lu4/item/281-crystallized-ice-bow"
+    },
+    {
+      "key": "item:2074",
+      "type": "item",
+      "id": 2074,
+      "name": "Crystallized Ice Bow Shaft NG",
+      "url": "/lu4/item/2074-crystallized-ice-bow-shaft"
     },
     {
       "key": "item:956",
@@ -124,11 +105,25 @@
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     },
     {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
       "key": "item:955",
       "type": "item",
       "id": 955,
       "name": "Scroll: Enchant Weapon (D-Grade) NG",
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "item:952",
@@ -138,6 +133,13 @@
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
       "key": "item:951",
       "type": "item",
       "id": 951,
@@ -145,18 +147,11 @@
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
-      "key": "item:397",
+      "key": "item:6573",
       "type": "item",
-      "id": 397,
-      "name": "Reinforced Mithril Shirt C",
-      "url": "/lu4/item/397-reinforced-mithril-shirt"
-    },
-    {
-      "key": "item:281",
-      "type": "item",
-      "id": 281,
-      "name": "Crystallized Ice Bow C",
-      "url": "/lu4/item/281-crystallized-ice-bow"
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "npc:25507",

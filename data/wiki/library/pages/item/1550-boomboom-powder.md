@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Boomboom Powder
+# Boomboom Powder
 
-- Source: https://masterwork.wiki/lu4/item/1550-boomboom-powder
+- Source: https://masterwork.wiki/lu4-b-w-c/item/1550-boomboom-powder
 - Path: /lu4/item/1550-boomboom-powder
 - Type: item
 - Key: item:1550
 
 ## Stats
+- Effect: A sack of boomboom powder you got from Trader Shari. Take this to Miner Bolter.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Boomboom Powder
-Lu4
-Eternal
-MasterWork
-Boomboom Powder
-NG
-Quest Item
-A sack of boomboom powder you got from Trader Shari. Take this to Miner Bolter.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-Miner's Favor
-2 ~ 5
-Quest
-Levels
-Miner's Favor
-2 ~ 5
-MasterWork 2026
-All rights reserved
+Boomboom Powder NG Quest Item A sack of boomboom powder you got from Trader Shari. Take this to Miner Bolter. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

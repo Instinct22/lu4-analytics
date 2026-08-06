@@ -2,84 +2,95 @@
   "key": "npc:20806",
   "type": "npc",
   "id": 20806,
-  "name": "Lu4 Wiki: NPC Crokian Lad Warrior",
+  "name": "Crokian Lad Warrior",
   "url": "/lu4/npc/20806-crokian-lad-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/20806-crokian-lad-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20806-crokian-lad-warrior",
   "raw_html": "library/raw/lu4/npc/20806-crokian-lad-warrior.html",
   "stats": {
-    "Location": "Остров Аллигаторов"
+    "Respawn Time": "30 seconds",
+    "Location": "Остров Аллигаторов",
+    "HP / MP": "3 482 / 686",
+    "P. Atk. / M. Atk.": "409 / 169",
+    "P. Def. / M. Def.": "206 / 164",
+    "Accuracy / Evasion": "76 / 76",
+    "Exp / SP": "3 636 / 364",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 43"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20806",
-      "type": "npc",
-      "id": 20806,
-      "name": "Lu4",
-      "url": "/lu4/npc/20806-crokian-lad-warrior"
-    },
-    {
-      "key": "location:120",
-      "type": "location",
-      "id": 120,
-      "name": "Остров Аллигаторов",
-      "url": "/lu4/location/120-ostrov-alligatorov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:1875",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:39298",
+      "key": "item:1879",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:5159",
@@ -89,11 +100,46 @@
       "url": "/lu4/item/5159-recipe-spiritshot-c-compressed-package-100"
     },
     {
-      "key": "item:4913",
+      "key": "item:852",
       "type": "item",
-      "id": 4913,
-      "name": "Spellbook: Word of Fear NG",
-      "url": "/lu4/item/4913-spellbook-word-of-fear"
+      "id": 852,
+      "name": "Moonstone Earring C",
+      "url": "/lu4/item/852-moonstone-earring"
+    },
+    {
+      "key": "item:1908",
+      "type": "item",
+      "id": 1908,
+      "name": "Moonstone Earring Wire NG",
+      "url": "/lu4/item/1908-moonstone-earring-wire"
+    },
+    {
+      "key": "item:173",
+      "type": "item",
+      "id": 173,
+      "name": "Skull Graver C",
+      "url": "/lu4/item/173-skull-graver"
+    },
+    {
+      "key": "item:2065",
+      "type": "item",
+      "id": 2065,
+      "name": "Skull Graver Head NG",
+      "url": "/lu4/item/2065-skull-graver-head"
+    },
+    {
+      "key": "item:193",
+      "type": "item",
+      "id": 193,
+      "name": "Stick of Faith C",
+      "url": "/lu4/item/193-stick-of-faith"
+    },
+    {
+      "key": "item:2068",
+      "type": "item",
+      "id": 2068,
+      "name": "Stick of Faith Shaft NG",
+      "url": "/lu4/item/2068-stick-of-faith-shaft"
     },
     {
       "key": "item:2311",
@@ -117,81 +163,39 @@
       "url": "/lu4/item/2304-recipe-heavy-doom-hammer"
     },
     {
-      "key": "item:2068",
+      "key": "item:4913",
       "type": "item",
-      "id": 2068,
-      "name": "Stick of Faith Shaft NG",
-      "url": "/lu4/item/2068-stick-of-faith-shaft"
+      "id": 4913,
+      "name": "Spellbook: Word of Fear NG",
+      "url": "/lu4/item/4913-spellbook-word-of-fear"
     },
     {
-      "key": "item:2065",
+      "key": "item:39298",
       "type": "item",
-      "id": 2065,
-      "name": "Skull Graver Head NG",
-      "url": "/lu4/item/2065-skull-graver-head"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
     },
     {
-      "key": "item:1908",
+      "key": "item:39299",
       "type": "item",
-      "id": 1908,
-      "name": "Moonstone Earring Wire NG",
-      "url": "/lu4/item/1908-moonstone-earring-wire"
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
     },
     {
-      "key": "item:1879",
+      "key": "item:39300",
       "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
-      "key": "item:1875",
+      "key": "item:1805",
       "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:852",
-      "type": "item",
-      "id": 852,
-      "name": "Moonstone Earring C",
-      "url": "/lu4/item/852-moonstone-earring"
-    },
-    {
-      "key": "item:193",
-      "type": "item",
-      "id": 193,
-      "name": "Stick of Faith C",
-      "url": "/lu4/item/193-stick-of-faith"
-    },
-    {
-      "key": "item:173",
-      "type": "item",
-      "id": 173,
-      "name": "Skull Graver C",
-      "url": "/lu4/item/173-skull-graver"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1805,
+      "name": "Recipe: Soulshot (C-Grade) NG",
+      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
     },
     {
       "key": "item:2991",
@@ -201,18 +205,11 @@
       "url": "/lu4/item/2991-recipe-karmian-boots"
     },
     {
-      "key": "item:2944",
+      "key": "item:2207",
       "type": "item",
-      "id": 2944,
-      "name": "Karmian Gloves Fabric NG",
-      "url": "/lu4/item/2944-karmian-gloves-fabric"
-    },
-    {
-      "key": "item:2938",
-      "type": "item",
-      "id": 2938,
-      "name": "Karmian Boots Fabric NG",
-      "url": "/lu4/item/2938-karmian-boots-fabric"
+      "id": 2207,
+      "name": "Recipe: Karmian Tunic NG",
+      "url": "/lu4/item/2207-recipe-karmian-tunic"
     },
     {
       "key": "item:2937",
@@ -222,18 +219,18 @@
       "url": "/lu4/item/2937-chain-boots-part"
     },
     {
-      "key": "item:2207",
+      "key": "item:2938",
       "type": "item",
-      "id": 2207,
-      "name": "Recipe: Karmian Tunic NG",
-      "url": "/lu4/item/2207-recipe-karmian-tunic"
+      "id": 2938,
+      "name": "Karmian Boots Fabric NG",
+      "url": "/lu4/item/2938-karmian-boots-fabric"
     },
     {
-      "key": "item:1805",
+      "key": "item:2944",
       "type": "item",
-      "id": 1805,
-      "name": "Recipe: Soulshot (C-Grade) NG",
-      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
+      "id": 2944,
+      "name": "Karmian Gloves Fabric NG",
+      "url": "/lu4/item/2944-karmian-gloves-fabric"
     }
   ]
 }

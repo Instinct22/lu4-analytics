@@ -2,34 +2,32 @@
   "key": "item:5813",
   "type": "item",
   "id": 5813,
-  "name": "Lu4 Wiki: Item Spellbook: Servitor Cure",
+  "name": "Spellbook: Servitor Cure",
   "url": "/lu4/item/5813-spellbook-servitor-cure",
-  "source_url": "https://masterwork.wiki/lu4/item/5813-spellbook-servitor-cure",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5813-spellbook-servitor-cure",
   "raw_html": "library/raw/lu4/item/5813-spellbook-servitor-cure.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Servitor Cure'. Required: Warlock - Lv. 40 Elemental Summoner - Lv. 40 Phantom Summoner - Lv. 40 To obtain this item, hunt the Porta found in Cruma Tower.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:5813",
-      "type": "item",
-      "id": 5813,
-      "name": "Lu4",
-      "url": "/lu4/item/5813-spellbook-servitor-cure"
-    },
-    {
       "key": "npc:21219",
       "type": "npc",
       "id": 21219,
-      "name": "Vault Priest Lv. 47",
+      "name": "Vault Priest",
       "url": "/lu4/npc/21219-vault-priest"
     },
     {
       "key": "npc:20213",
       "type": "npc",
       "id": 20213,
-      "name": "Porta Lv. 40",
+      "name": "Porta",
       "url": "/lu4/npc/20213-porta"
     }
   ]

@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4938-raid-boss
+- Path: /lu4/skill/4938-raid-boss
+- Type: skill
+- Key: skill:4938
+
+## Stats
+- Effect: This Devil sustains himself from the storm of hatred and grudges that abound in the ghosts who roam the Execution Grounds. Standing at the center of the Execution Grounds, he controls the ghosts. There is a rumor that Ashton's brutal temperament stemmed in part from this Evil Spirit Tempest.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability This Devil sustains himself from the storm of hatred and grudges that abound in the ghosts who roam the Execution Grounds. Standing at the center of the Execution Grounds, he controls the ghosts. There is a rumor that Ashton's brutal temperament stemmed in part from this Evil Spirit Tempest. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

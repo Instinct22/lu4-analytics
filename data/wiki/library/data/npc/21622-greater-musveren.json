@@ -2,133 +2,74 @@
   "key": "npc:21622",
   "type": "npc",
   "id": 21622,
-  "name": "Lu4 Wiki: NPC Greater Musveren",
+  "name": "Greater Musveren",
   "url": "/lu4/npc/21622-greater-musveren",
-  "source_url": "https://masterwork.wiki/lu4/npc/21622-greater-musveren",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21622-greater-musveren",
   "raw_html": "library/raw/lu4/npc/21622-greater-musveren.html",
   "stats": {
-    "Location": "Остров Дьявола"
+    "Respawn Time": "1 minute, 10 seconds",
+    "Location": "Остров Дьявола",
+    "HP / MP": "8 957 / 887",
+    "P. Atk. / M. Atk.": "556 / 350",
+    "P. Def. / M. Def.": "257 / 198",
+    "Accuracy / Evasion": "82 / 82",
+    "Exp / SP": "10 738 / 1 074",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 49"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21622",
-      "type": "npc",
-      "id": 21622,
-      "name": "Lu4",
-      "url": "/lu4/npc/21622-greater-musveren"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:8345",
+      "key": "item:57",
       "type": "item",
-      "id": 8345,
-      "name": "Karik Horn Piece NG",
-      "url": "/lu4/item/8345-karik-horn-piece"
-    },
-    {
-      "key": "item:7898",
-      "type": "item",
-      "id": 7898,
-      "name": "Karik Horn C",
-      "url": "/lu4/item/7898-karik-horn"
-    },
-    {
-      "key": "item:3005",
-      "type": "item",
-      "id": 3005,
-      "name": "Recipe: Demon's Boots NG",
-      "url": "/lu4/item/3005-recipe-demons-boots"
-    },
-    {
-      "key": "item:2331",
-      "type": "item",
-      "id": 2331,
-      "name": "Recipe: Poleaxe NG",
-      "url": "/lu4/item/2331-recipe-poleaxe"
-    },
-    {
-      "key": "item:2110",
-      "type": "item",
-      "id": 2110,
-      "name": "Heathen's Book Page NG",
-      "url": "/lu4/item/2110-heathens-book-page"
-    },
-    {
-      "key": "item:2108",
-      "type": "item",
-      "id": 2108,
-      "name": "Fisted Blade Piece NG",
-      "url": "/lu4/item/2108-fisted-blade-piece"
-    },
-    {
-      "key": "item:2103",
-      "type": "item",
-      "id": 2103,
-      "name": "Sage's Staff Head NG",
-      "url": "/lu4/item/2103-sages-staff-head"
-    },
-    {
-      "key": "item:2100",
-      "type": "item",
-      "id": 2100,
-      "name": "Paradia Staff Head NG",
-      "url": "/lu4/item/2100-paradia-staff-head"
-    },
-    {
-      "key": "item:1972",
-      "type": "item",
-      "id": 1972,
-      "name": "Knight's Shield Fragment NG",
-      "url": "/lu4/item/1972-knights-shield-fragment"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1873",
@@ -173,11 +114,18 @@
       "url": "/lu4/item/1342-steel-arrow"
     },
     {
-      "key": "item:632",
+      "key": "item:265",
       "type": "item",
-      "id": 632,
-      "name": "Knight's Shield C",
-      "url": "/lu4/item/632-knights-shield"
+      "id": 265,
+      "name": "Fisted Blade C",
+      "url": "/lu4/item/265-fisted-blade"
+    },
+    {
+      "key": "item:2108",
+      "type": "item",
+      "id": 2108,
+      "name": "Fisted Blade Piece NG",
+      "url": "/lu4/item/2108-fisted-blade-piece"
     },
     {
       "key": "item:326",
@@ -187,18 +135,25 @@
       "url": "/lu4/item/326-heathens-book"
     },
     {
-      "key": "item:265",
+      "key": "item:2110",
       "type": "item",
-      "id": 265,
-      "name": "Fisted Blade C",
-      "url": "/lu4/item/265-fisted-blade"
+      "id": 2110,
+      "name": "Heathen's Book Page NG",
+      "url": "/lu4/item/2110-heathens-book-page"
     },
     {
-      "key": "item:200",
+      "key": "item:7898",
       "type": "item",
-      "id": 200,
-      "name": "Sage's Staff C",
-      "url": "/lu4/item/200-sages-staff"
+      "id": 7898,
+      "name": "Karik Horn C",
+      "url": "/lu4/item/7898-karik-horn"
+    },
+    {
+      "key": "item:8345",
+      "type": "item",
+      "id": 8345,
+      "name": "Karik Horn Piece NG",
+      "url": "/lu4/item/8345-karik-horn-piece"
     },
     {
       "key": "item:197",
@@ -208,11 +163,46 @@
       "url": "/lu4/item/197-paradia-staff"
     },
     {
-      "key": "item:3008",
+      "key": "item:2100",
       "type": "item",
-      "id": 3008,
-      "name": "Recipe: Theca Leather Gloves NG",
-      "url": "/lu4/item/3008-recipe-theca-leather-gloves"
+      "id": 2100,
+      "name": "Paradia Staff Head NG",
+      "url": "/lu4/item/2100-paradia-staff-head"
+    },
+    {
+      "key": "item:200",
+      "type": "item",
+      "id": 200,
+      "name": "Sage's Staff C",
+      "url": "/lu4/item/200-sages-staff"
+    },
+    {
+      "key": "item:2103",
+      "type": "item",
+      "id": 2103,
+      "name": "Sage's Staff Head NG",
+      "url": "/lu4/item/2103-sages-staff-head"
+    },
+    {
+      "key": "item:632",
+      "type": "item",
+      "id": 632,
+      "name": "Knight's Shield C",
+      "url": "/lu4/item/632-knights-shield"
+    },
+    {
+      "key": "item:1972",
+      "type": "item",
+      "id": 1972,
+      "name": "Knight's Shield Fragment NG",
+      "url": "/lu4/item/1972-knights-shield-fragment"
+    },
+    {
+      "key": "item:3005",
+      "type": "item",
+      "id": 3005,
+      "name": "Recipe: Demon's Boots NG",
+      "url": "/lu4/item/3005-recipe-demons-boots"
     },
     {
       "key": "item:2344",
@@ -222,11 +212,18 @@
       "url": "/lu4/item/2344-recipe-grace-dagger"
     },
     {
-      "key": "item:2114",
+      "key": "item:3008",
       "type": "item",
-      "id": 2114,
-      "name": "Widowmaker Head NG",
-      "url": "/lu4/item/2114-widowmaker-head"
+      "id": 3008,
+      "name": "Recipe: Theca Leather Gloves NG",
+      "url": "/lu4/item/3008-recipe-theca-leather-gloves"
+    },
+    {
+      "key": "item:2098",
+      "type": "item",
+      "id": 2098,
+      "name": "Nirvana Axe Blade NG",
+      "url": "/lu4/item/2098-nirvana-axe-blade"
     },
     {
       "key": "item:2113",
@@ -236,11 +233,11 @@
       "url": "/lu4/item/2113-scorpion-blade"
     },
     {
-      "key": "item:2098",
+      "key": "item:2114",
       "type": "item",
-      "id": 2098,
-      "name": "Nirvana Axe Blade NG",
-      "url": "/lu4/item/2098-nirvana-axe-blade"
+      "id": 2114,
+      "name": "Widowmaker Head NG",
+      "url": "/lu4/item/2114-widowmaker-head"
     }
   ]
 }

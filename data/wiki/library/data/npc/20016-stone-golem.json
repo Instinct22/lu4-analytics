@@ -2,98 +2,67 @@
   "key": "npc:20016",
   "type": "npc",
   "id": 20016,
-  "name": "Lu4 Wiki: NPC Stone Golem",
+  "name": "Stone Golem",
   "url": "/lu4/npc/20016-stone-golem",
-  "source_url": "https://masterwork.wiki/lu4/npc/20016-stone-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20016-stone-golem",
   "raw_html": "library/raw/lu4/npc/20016-stone-golem.html",
   "stats": {
-    "Location": "Говорящий Остров (север)"
+    "Respawn Time": "15 seconds",
+    "Location": "Говорящий Остров (север)",
+    "HP / MP": "353 / 163",
+    "P. Atk. / M. Atk.": "34 / 16",
+    "P. Def. / M. Def.": "80 / 100",
+    "Accuracy / Evasion": "46 / 46",
+    "Exp / SP": "405 / 41",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Very Strong M. Def. Lv. 16 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Bleed Resistance Lv. 5 Resistant to Bleed.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 13"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20016",
-      "type": "npc",
-      "id": 20016,
-      "name": "Lu4",
-      "url": "/lu4/npc/20016-stone-golem"
-    },
-    {
-      "key": "location:259",
-      "type": "location",
-      "id": 259,
-      "name": "Говорящий Остров (север)",
-      "url": "/lu4/location/259-govorasij-ostrov-sever"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 16",
-      "url": "/lu4/skill/4413-very-strong-m-def/16"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:736",
-      "type": "item",
-      "id": 736,
-      "name": "Scroll of Escape NG",
-      "url": "/lu4/item/736-scroll-of-escape"
-    },
-    {
-      "key": "item:271",
-      "type": "item",
-      "id": 271,
-      "name": "Hunting Bow NG",
-      "url": "/lu4/item/271-hunting-bow"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "item:57",
@@ -103,11 +72,39 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1865",
+      "key": "item:271",
       "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
+      "id": 271,
+      "name": "Hunting Bow NG",
+      "url": "/lu4/item/271-hunting-bow"
+    },
+    {
+      "key": "item:736",
+      "type": "item",
+      "id": 736,
+      "name": "Scroll of Escape NG",
+      "url": "/lu4/item/736-scroll-of-escape"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:37",
+      "type": "item",
+      "id": 37,
+      "name": "Leather Shoes NG",
+      "url": "/lu4/item/37-leather-shoes"
     },
     {
       "key": "item:1833",
@@ -117,11 +114,11 @@
       "url": "/lu4/item/1833-bandage"
     },
     {
-      "key": "item:37",
+      "key": "item:1865",
       "type": "item",
-      "id": 37,
-      "name": "Leather Shoes NG",
-      "url": "/lu4/item/37-leather-shoes"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     }
   ]
 }

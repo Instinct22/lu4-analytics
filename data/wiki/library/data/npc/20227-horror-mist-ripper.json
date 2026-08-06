@@ -2,161 +2,74 @@
   "key": "npc:20227",
   "type": "npc",
   "id": 20227,
-  "name": "Lu4 Wiki: NPC Horror Mist Ripper",
+  "name": "Horror Mist Ripper",
   "url": "/lu4/npc/20227-horror-mist-ripper",
-  "source_url": "https://masterwork.wiki/lu4/npc/20227-horror-mist-ripper",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20227-horror-mist-ripper",
   "raw_html": "library/raw/lu4/npc/20227-horror-mist-ripper.html",
   "stats": {
-    "Location": "Топи Крумы"
+    "Respawn Time": "14 seconds",
+    "Location": "Топи Крумы",
+    "HP / MP": "830 / 353",
+    "P. Atk. / M. Atk.": "120 / 65",
+    "P. Def. / M. Def.": "125 / 94",
+    "Accuracy / Evasion": "60 / 60",
+    "Exp / SP": "890 / 89",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 27"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20227",
-      "type": "npc",
-      "id": 20227,
-      "name": "Lu4",
-      "url": "/lu4/npc/20227-horror-mist-ripper"
-    },
-    {
-      "key": "location:52",
-      "type": "location",
-      "id": 52,
-      "name": "Топи Крумы",
-      "url": "/lu4/location/52-topi-krumy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:6035",
-      "type": "item",
-      "id": 6035,
-      "name": "Magic Haste Potion NG",
-      "url": "/lu4/item/6035-magic-haste-potion"
-    },
-    {
-      "key": "item:1937",
-      "type": "item",
-      "id": 1937,
-      "name": "Scale Gaiters Fragment NG",
-      "url": "/lu4/item/1937-scale-gaiters-fragment"
-    },
-    {
-      "key": "item:1936",
-      "type": "item",
-      "id": 1936,
-      "name": "White Tunic Pattern NG",
-      "url": "/lu4/item/1936-white-tunic-pattern"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:434",
-      "type": "item",
-      "id": 434,
-      "name": "White Tunic D",
-      "url": "/lu4/item/434-white-tunic"
-    },
-    {
-      "key": "item:377",
-      "type": "item",
-      "id": 377,
-      "name": "Scale Gaiters D",
-      "url": "/lu4/item/377-scale-gaiters"
-    },
-    {
-      "key": "item:86",
-      "type": "item",
-      "id": 86,
-      "name": "Tomahawk D",
-      "url": "/lu4/item/86-tomahawk"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "item:57",
@@ -166,11 +79,88 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2026",
+      "key": "item:1867",
       "type": "item",
-      "id": 2026,
-      "name": "Two-Handed Sword Edge NG",
-      "url": "/lu4/item/2026-two-handed-sword-edge"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:6035",
+      "type": "item",
+      "id": 6035,
+      "name": "Magic Haste Potion NG",
+      "url": "/lu4/item/6035-magic-haste-potion"
+    },
+    {
+      "key": "item:377",
+      "type": "item",
+      "id": 377,
+      "name": "Scale Gaiters D",
+      "url": "/lu4/item/377-scale-gaiters"
+    },
+    {
+      "key": "item:1937",
+      "type": "item",
+      "id": 1937,
+      "name": "Scale Gaiters Fragment NG",
+      "url": "/lu4/item/1937-scale-gaiters-fragment"
+    },
+    {
+      "key": "item:86",
+      "type": "item",
+      "id": 86,
+      "name": "Tomahawk D",
+      "url": "/lu4/item/86-tomahawk"
+    },
+    {
+      "key": "item:434",
+      "type": "item",
+      "id": 434,
+      "name": "White Tunic D",
+      "url": "/lu4/item/434-white-tunic"
+    },
+    {
+      "key": "item:1936",
+      "type": "item",
+      "id": 1936,
+      "name": "White Tunic Pattern NG",
+      "url": "/lu4/item/1936-white-tunic-pattern"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:1935",
@@ -178,6 +168,13 @@
       "id": 1935,
       "name": "Scale Mail Fragment NG",
       "url": "/lu4/item/1935-scale-mail-fragment"
+    },
+    {
+      "key": "item:2026",
+      "type": "item",
+      "id": 2026,
+      "name": "Two-Handed Sword Edge NG",
+      "url": "/lu4/item/2026-two-handed-sword-edge"
     }
   ]
 }

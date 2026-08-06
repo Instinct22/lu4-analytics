@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Recommendation of Hollint
+# Recommendation of Hollint
 
-- Source: https://masterwork.wiki/lu4/item/2744-recommendation-of-hollint
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2744-recommendation-of-hollint
 - Path: /lu4/item/2744-recommendation-of-hollint
 - Type: item
 - Key: item:2744
 
 ## Stats
+- Effect: Deliver this to High Priest Biotin at the Temple of Einhasad on Talking Island.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Recommendation of Hollint
-Lu4
-Eternal
-MasterWork
-Recommendation of Hollint
-NG
-Quest Item
-Deliver this to High Priest Biotin at the Temple of Einhasad on Talking Island.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Testimony of Trust
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Recommendation of Hollint NG Quest Item Deliver this to High Priest Biotin at the Temple of Einhasad on Talking Island. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

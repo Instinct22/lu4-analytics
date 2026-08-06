@@ -2,118 +2,24 @@
   "key": "item:2159",
   "type": "item",
   "id": 2159,
-  "name": "Recipe",
+  "name": "Recipe: Necklace of Darkness",
   "url": "/lu4/item/2159-recipe-necklace-of-darkness",
-  "source_url": "https://masterwork.wiki/lu4/item/2159-recipe-necklace-of-darkness",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2159-recipe-necklace-of-darkness",
   "raw_html": "library/raw/lu4/item/2159-recipe-necklace-of-darkness.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Necklace of Darkness'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "1 620 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "129",
     "Success Rate": "100%",
-    "Result": "Necklace of Darkness D"
+    "Result": "Necklace of Darkness D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1907",
-      "type": "item",
-      "id": 1907,
-      "name": "Necklace of Darkness Gem NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1886",
-      "type": "item",
-      "id": 1886,
-      "name": "Silver Mold NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "5"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "25"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "5"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "15"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "15"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "90"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "450"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "18"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "50"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "12"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2159",
-      "type": "item",
-      "id": 2159,
-      "name": "Lu4",
-      "url": "/lu4/item/2159-recipe-necklace-of-darkness"
-    },
     {
       "key": "item:1907",
       "type": "item",
@@ -202,35 +108,35 @@
       "key": "npc:21689",
       "type": "npc",
       "id": 21689,
-      "name": "Dimension Invader Martyrs Lv. 40",
+      "name": "Dimension Invader Martyrs",
       "url": "/lu4/npc/21689-dimension-invader-martyrs"
     },
     {
       "key": "npc:20932",
       "type": "npc",
       "id": 20932,
-      "name": "Hatu Crimson Bear Lv. 38",
+      "name": "Hatu Crimson Bear",
       "url": "/lu4/npc/20932-hatu-crimson-bear"
     },
     {
       "key": "npc:20581",
       "type": "npc",
       "id": 20581,
-      "name": "Leto Lizardman Shaman Lv. 39",
+      "name": "Leto Lizardman Shaman",
       "url": "/lu4/npc/20581-leto-lizardman-shaman"
     },
     {
       "key": "npc:20789",
       "type": "npc",
       "id": 20789,
-      "name": "Crokian Lv. 36",
+      "name": "Crokian",
       "url": "/lu4/npc/20789-crokian"
     },
     {
       "key": "npc:20552",
       "type": "npc",
       "id": 20552,
-      "name": "Fettered Soul Lv. 38",
+      "name": "Fettered Soul",
       "url": "/lu4/npc/20552-fettered-soul"
     }
   ]

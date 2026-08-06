@@ -2,98 +2,74 @@
   "key": "npc:20241",
   "type": "npc",
   "id": 20241,
-  "name": "Lu4 Wiki: NPC Hunter Gargoyle",
+  "name": "Hunter Gargoyle",
   "url": "/lu4/npc/20241-hunter-gargoyle",
-  "source_url": "https://masterwork.wiki/lu4/npc/20241-hunter-gargoyle",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20241-hunter-gargoyle",
   "raw_html": "library/raw/lu4/npc/20241-hunter-gargoyle.html",
   "stats": {
-    "Location": "Долина Драконов"
+    "Respawn Time": "1 minute, 15 seconds",
+    "Location": "Долина Драконов",
+    "HP / MP": "12 816 / 981",
+    "P. Atk. / M. Atk.": "708 / 323",
+    "P. Def. / M. Def.": "290 / 246",
+    "Accuracy / Evasion": "86 / 86",
+    "Exp / SP": "16 846 / 1 685",
+    "Attack Attribute": "Earth 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (5x) Lv. 13 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 One-handed Sword Lv. 3 One-handed Sword",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 53"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20241",
-      "type": "npc",
-      "id": 20241,
-      "name": "Lu4",
-      "url": "/lu4/npc/20241-hunter-gargoyle"
-    },
-    {
-      "key": "location:12",
-      "type": "location",
-      "id": 12,
-      "name": "Долина Драконов",
-      "url": "/lu4/location/12-dolina-drakonov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4609",
@@ -117,46 +93,11 @@
       "url": "/lu4/item/4041-mold-hardener"
     },
     {
-      "key": "item:2963",
+      "key": "item:1867",
       "type": "item",
-      "id": 2963,
-      "name": "Full Plate Gauntlets Part NG",
-      "url": "/lu4/item/2963-full-plate-gauntlets-part"
-    },
-    {
-      "key": "item:2961",
-      "type": "item",
-      "id": 2961,
-      "name": "Full Plate Boots Part NG",
-      "url": "/lu4/item/2961-full-plate-boots-part"
-    },
-    {
-      "key": "item:2958",
-      "type": "item",
-      "id": 2958,
-      "name": "Divine Boots Fabric NG",
-      "url": "/lu4/item/2958-divine-boots-fabric"
-    },
-    {
-      "key": "item:2462",
-      "type": "item",
-      "id": 2462,
-      "name": "Full Plate Gauntlets C",
-      "url": "/lu4/item/2462-full-plate-gauntlets"
-    },
-    {
-      "key": "item:2438",
-      "type": "item",
-      "id": 2438,
-      "name": "Full Plate Boots C",
-      "url": "/lu4/item/2438-full-plate-boots"
-    },
-    {
-      "key": "item:1986",
-      "type": "item",
-      "id": 1986,
-      "name": "Full Plate Armor Temper NG",
-      "url": "/lu4/item/1986-full-plate-armor-temper"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:1881",
@@ -180,11 +121,11 @@
       "url": "/lu4/item/1872-animal-bone"
     },
     {
-      "key": "item:1867",
+      "key": "item:49800",
       "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:603",
@@ -194,6 +135,41 @@
       "url": "/lu4/item/603-divine-boots"
     },
     {
+      "key": "item:2958",
+      "type": "item",
+      "id": 2958,
+      "name": "Divine Boots Fabric NG",
+      "url": "/lu4/item/2958-divine-boots-fabric"
+    },
+    {
+      "key": "item:2438",
+      "type": "item",
+      "id": 2438,
+      "name": "Full Plate Boots C",
+      "url": "/lu4/item/2438-full-plate-boots"
+    },
+    {
+      "key": "item:2961",
+      "type": "item",
+      "id": 2961,
+      "name": "Full Plate Boots Part NG",
+      "url": "/lu4/item/2961-full-plate-boots-part"
+    },
+    {
+      "key": "item:2462",
+      "type": "item",
+      "id": 2462,
+      "name": "Full Plate Gauntlets C",
+      "url": "/lu4/item/2462-full-plate-gauntlets"
+    },
+    {
+      "key": "item:2963",
+      "type": "item",
+      "id": 2963,
+      "name": "Full Plate Gauntlets Part NG",
+      "url": "/lu4/item/2963-full-plate-gauntlets-part"
+    },
+    {
       "key": "item:356",
       "type": "item",
       "id": 356,
@@ -201,25 +177,39 @@
       "url": "/lu4/item/356-full-plate-armor"
     },
     {
-      "key": "item:57",
+      "key": "item:1986",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1986,
+      "name": "Full Plate Armor Temper NG",
+      "url": "/lu4/item/1986-full-plate-armor-temper"
     },
     {
-      "key": "item:8344",
+      "key": "item:39298",
       "type": "item",
-      "id": 8344,
-      "name": "Dwarven Hammer Piece NG",
-      "url": "/lu4/item/8344-dwarven-hammer-piece"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
     },
     {
-      "key": "item:2959",
+      "key": "item:39299",
       "type": "item",
-      "id": 2959,
-      "name": "Full Plate Helmet Design NG",
-      "url": "/lu4/item/2959-full-plate-helmet-design"
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1539",
+      "type": "item",
+      "id": 1539,
+      "name": "Greater Healing Potion NG",
+      "url": "/lu4/item/1539-greater-healing-potion"
     },
     {
       "key": "item:2233",
@@ -236,18 +226,25 @@
       "url": "/lu4/item/2169-recipe-necklace-of-seal"
     },
     {
+      "key": "item:8344",
+      "type": "item",
+      "id": 8344,
+      "name": "Dwarven Hammer Piece NG",
+      "url": "/lu4/item/8344-dwarven-hammer-piece"
+    },
+    {
+      "key": "item:2959",
+      "type": "item",
+      "id": 2959,
+      "name": "Full Plate Helmet Design NG",
+      "url": "/lu4/item/2959-full-plate-helmet-design"
+    },
+    {
       "key": "item:2117",
       "type": "item",
       "id": 2117,
       "name": "Ghoul's Staff Head NG",
       "url": "/lu4/item/2117-ghouls-staff-head"
-    },
-    {
-      "key": "item:1539",
-      "type": "item",
-      "id": 1539,
-      "name": "Greater Healing Potion NG",
-      "url": "/lu4/item/1539-greater-healing-potion"
     }
   ]
 }

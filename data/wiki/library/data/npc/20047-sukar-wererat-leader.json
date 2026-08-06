@@ -2,77 +2,95 @@
   "key": "npc:20047",
   "type": "npc",
   "id": 20047,
-  "name": "Lu4 Wiki: NPC Sukar Wererat Leader",
+  "name": "Sukar Wererat Leader",
   "url": "/lu4/npc/20047-sukar-wererat-leader",
-  "source_url": "https://masterwork.wiki/lu4/npc/20047-sukar-wererat-leader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20047-sukar-wererat-leader",
   "raw_html": "library/raw/lu4/npc/20047-sukar-wererat-leader.html",
   "stats": {
-    "Location": "Эльфийская Крепость (+1) Эльфийская Крепость Эльфийский Лес"
+    "Respawn Time": "30 seconds",
+    "Location": "Эльфийская Крепость (+1) Эльфийская Крепость Эльфийский Лес",
+    "HP / MP": "1 024 / 225",
+    "P. Atk. / M. Atk.": "49 / 27",
+    "P. Def. / M. Def.": "117 / 71",
+    "Accuracy / Evasion": "55 / 54",
+    "Exp / SP": "978 / 98",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 13 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 19"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20047",
-      "type": "npc",
-      "id": 20047,
-      "name": "Lu4",
-      "url": "/lu4/npc/20047-sukar-wererat-leader"
-    },
-    {
-      "key": "location:114",
-      "type": "location",
-      "id": 114,
-      "name": "Эльфийская Крепость",
-      "url": "/lu4/location/114-elfijskaa-krepost"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:5273",
+      "key": "item:57",
       "type": "item",
-      "id": 5273,
-      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
-      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:24",
+      "type": "item",
+      "id": 24,
+      "name": "Bone Breastplate NG",
+      "url": "/lu4/item/24-bone-breastplate"
+    },
+    {
+      "key": "item:31",
+      "type": "item",
+      "id": 31,
+      "name": "Bone Gaiters NG",
+      "url": "/lu4/item/31-bone-gaiters"
+    },
+    {
+      "key": "item:390",
+      "type": "item",
+      "id": 390,
+      "name": "Cotton Shirt NG",
+      "url": "/lu4/item/390-cotton-shirt"
+    },
+    {
+      "key": "item:412",
+      "type": "item",
+      "id": 412,
+      "name": "Cotton Pants NG",
+      "url": "/lu4/item/412-cotton-pants"
     },
     {
       "key": "item:2174",
@@ -110,46 +128,11 @@
       "url": "/lu4/item/734-haste-potion"
     },
     {
-      "key": "item:412",
+      "key": "item:5273",
       "type": "item",
-      "id": 412,
-      "name": "Cotton Pants NG",
-      "url": "/lu4/item/412-cotton-pants"
-    },
-    {
-      "key": "item:390",
-      "type": "item",
-      "id": 390,
-      "name": "Cotton Shirt NG",
-      "url": "/lu4/item/390-cotton-shirt"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:31",
-      "type": "item",
-      "id": 31,
-      "name": "Bone Gaiters NG",
-      "url": "/lu4/item/31-bone-gaiters"
-    },
-    {
-      "key": "item:24",
-      "type": "item",
-      "id": 24,
-      "name": "Bone Breastplate NG",
-      "url": "/lu4/item/24-bone-breastplate"
-    },
-    {
-      "key": "item:2139",
-      "type": "item",
-      "id": 2139,
-      "name": "Recipe: Steel Mold NG",
-      "url": "/lu4/item/2139-recipe-steel-mold"
+      "id": 5273,
+      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
+      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
     },
     {
       "key": "item:38",
@@ -157,6 +140,13 @@
       "id": 38,
       "name": "Low Boots NG",
       "url": "/lu4/item/38-low-boots"
+    },
+    {
+      "key": "item:2139",
+      "type": "item",
+      "id": 2139,
+      "name": "Recipe: Steel Mold NG",
+      "url": "/lu4/item/2139-recipe-steel-mold"
     }
   ]
 }

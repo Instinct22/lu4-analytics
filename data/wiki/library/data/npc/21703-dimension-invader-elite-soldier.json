@@ -2,124 +2,86 @@
   "key": "npc:21703",
   "type": "npc",
   "id": 21703,
-  "name": "Lu4 Wiki: NPC Dimension Invader Elite Soldier",
+  "name": "Dimension Invader Elite Soldier",
   "url": "/lu4/npc/21703-dimension-invader-elite-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21703-dimension-invader-elite-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21703-dimension-invader-elite-soldier",
   "raw_html": "library/raw/lu4/npc/21703-dimension-invader-elite-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "11 224 / 751",
+    "P. Atk. / M. Atk.": "573 / 288",
+    "P. Def. / M. Def.": "179 / 171",
+    "Accuracy / Evasion": "78 / 78",
+    "Exp / SP": "15 499 / 1 074",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (6x) Lv. 14 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Slightly Weak M. Def. Lv. 9 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 45"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21703",
-      "type": "npc",
-      "id": 21703,
-      "name": "Lu4",
-      "url": "/lu4/npc/21703-dimension-invader-elite-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:2945",
+      "key": "item:57",
       "type": "item",
-      "id": 2945,
-      "name": "Chain Shield Fragment NG",
-      "url": "/lu4/item/2945-chain-shield-fragment"
-    },
-    {
-      "key": "item:2936",
-      "type": "item",
-      "id": 2936,
-      "name": "Chain Hood Pattern NG",
-      "url": "/lu4/item/2936-chain-hood-pattern"
-    },
-    {
-      "key": "item:2495",
-      "type": "item",
-      "id": 2495,
-      "name": "Chain Shield C",
-      "url": "/lu4/item/2495-chain-shield"
-    },
-    {
-      "key": "item:2413",
-      "type": "item",
-      "id": 2413,
-      "name": "Chain Hood C",
-      "url": "/lu4/item/2413-chain-hood"
-    },
-    {
-      "key": "item:1964",
-      "type": "item",
-      "id": 1964,
-      "name": "Eldarake Temper NG",
-      "url": "/lu4/item/1964-eldarake-temper"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:631",
@@ -129,11 +91,53 @@
       "url": "/lu4/item/631-eldarake"
     },
     {
-      "key": "item:57",
+      "key": "item:1964",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1964,
+      "name": "Eldarake Temper NG",
+      "url": "/lu4/item/1964-eldarake-temper"
+    },
+    {
+      "key": "item:2413",
+      "type": "item",
+      "id": 2413,
+      "name": "Chain Hood C",
+      "url": "/lu4/item/2413-chain-hood"
+    },
+    {
+      "key": "item:2495",
+      "type": "item",
+      "id": 2495,
+      "name": "Chain Shield C",
+      "url": "/lu4/item/2495-chain-shield"
+    },
+    {
+      "key": "item:2936",
+      "type": "item",
+      "id": 2936,
+      "name": "Chain Hood Pattern NG",
+      "url": "/lu4/item/2936-chain-hood-pattern"
+    },
+    {
+      "key": "item:2945",
+      "type": "item",
+      "id": 2945,
+      "name": "Chain Shield Fragment NG",
+      "url": "/lu4/item/2945-chain-shield-fragment"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
       "key": "item:2163",

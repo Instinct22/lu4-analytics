@@ -2,24 +2,27 @@
   "key": "item:224",
   "type": "item",
   "id": 224,
-  "name": "Lu4 Wiki: Item Maingauche",
+  "name": "Maingauche",
   "url": "/lu4/item/224-maingauche",
-  "source_url": "https://masterwork.wiki/lu4/item/224-maingauche",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/224-maingauche",
   "raw_html": "library/raw/lu4/item/224-maingauche.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Critical Damage: P. Crit. Damage +120. Haste: Atk. Spd. +7%. Focus: P. Crit. Rate +50.",
+    "P. Atk. / M. Atk.": "69 / 47",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1983 Crystallization Failed Enchant +0 1983 - +1 2073 - +2 2163 - +3 2253 - +4 2433 1441 +5 2613 1621 +6 2793 1801 +7 2973 1981 +8 3153 2161 +9 3333 2341 +10 3513 2521 +11 3693 2701 +12 3873 2881",
+    "NPC Sell Price": "537 000 Adena",
+    "Weight": "1070",
+    "P. Crit. Rate.": "12",
+    "Accuracy": "-4",
     "Recipes": "Recipe: Maingauche NG",
     "Soul Crystals": "Maingauche Critical Damage D Maingauche D Gemstone D NG (120 pcs.) Red Soul Crystal - Stage 3 NG Maingauche Focus D Maingauche D Gemstone D NG (120 pcs.) Green Soul Crystal - Stage 3 NG Maingauche Haste D Maingauche D Gemstone D NG (120 pcs.) Blue Soul Crystal - Stage 3 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Dagger / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:224",
-      "type": "item",
-      "id": 224,
-      "name": "Lu4",
-      "url": "/lu4/item/224-maingauche"
-    },
     {
       "key": "item:2276",
       "type": "item",
@@ -80,70 +83,77 @@
       "key": "npc:25501",
       "type": "npc",
       "id": 25501,
-      "name": "Boss Akata Lv. 30",
+      "name": "Boss Akata",
       "url": "/lu4/npc/25501-boss-akata"
     },
     {
       "key": "npc:25401",
       "type": "npc",
       "id": 25401,
-      "name": "Skyla Lv. 32",
+      "name": "Skyla",
       "url": "/lu4/npc/25401-skyla"
     },
     {
-      "key": "npc:25004",
+      "key": "npc:25352",
       "type": "npc",
-      "id": 25004,
-      "name": "Turek Mercenary Captain Lv. 30",
-      "url": "/lu4/npc/25004-turek-mercenary-captain"
+      "id": 25352,
+      "name": "Giant Wasteland Basilisk",
+      "url": "/lu4/npc/25352-giant-wasteland-basilisk"
+    },
+    {
+      "key": "npc:25095",
+      "type": "npc",
+      "id": 25095,
+      "name": "Elf Renoa",
+      "url": "/lu4/npc/25095-elf-renoa"
     },
     {
       "key": "npc:21240",
       "type": "npc",
       "id": 21240,
-      "name": "Barrow Overlord Lv. 40",
+      "name": "Barrow Overlord",
       "url": "/lu4/npc/21240-barrow-overlord"
     },
     {
       "key": "npc:21106",
       "type": "npc",
       "id": 21106,
-      "name": "Cursed Seer Lv. 34",
+      "name": "Cursed Seer",
       "url": "/lu4/npc/21106-cursed-seer"
     },
     {
       "key": "npc:21014",
       "type": "npc",
       "id": 21014,
-      "name": "Lesser Warlike Tyrant Lv. 33",
+      "name": "Lesser Warlike Tyrant",
       "url": "/lu4/npc/21014-lesser-warlike-tyrant"
     },
     {
       "key": "npc:20790",
       "type": "npc",
       "id": 20790,
-      "name": "Dailaon Lv. 37",
+      "name": "Dailaon",
       "url": "/lu4/npc/20790-dailaon"
     },
     {
       "key": "npc:20783",
       "type": "npc",
       "id": 20783,
-      "name": "Dread Wolf Lv. 35",
+      "name": "Dread Wolf",
       "url": "/lu4/npc/20783-dread-wolf"
     },
     {
       "key": "npc:20271",
       "type": "npc",
       "id": 20271,
-      "name": "Breka Orc Warrior Lv. 33",
+      "name": "Breka Orc Warrior",
       "url": "/lu4/npc/20271-breka-orc-warrior"
     },
     {
       "key": "npc:20176",
       "type": "npc",
       "id": 20176,
-      "name": "Wyrm Lv. 35",
+      "name": "Wyrm",
       "url": "/lu4/npc/20176-wyrm"
     }
   ]

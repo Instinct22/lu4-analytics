@@ -1,71 +1,16 @@
-# Lu4 Wiki: Item Sanhidro Skin
+# Sanhidro Skin
 
-- Source: https://masterwork.wiki/lu4/item/39217-sanhidro-skin
+- Source: https://masterwork.wiki/lu4-b-w-c/item/39217-sanhidro-skin
 - Path: /lu4/item/39217-sanhidro-skin
 - Type: item
 - Key: item:39217
 
 ## Stats
+- Effect: Collect enough items and bring them to Grey to receive a reward.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Sanhidro Skin
-Lu4
-Sanhidro Skin
-NG
-Quest Item
-Collect enough items and bring them to Grey to receive a reward.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Song of the Hunter
-30 ~ 65
-MasterWork 2026
-All rights reserved
+Sanhidro Skin NG Quest Item Collect enough items and bring them to Grey to receive a reward. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

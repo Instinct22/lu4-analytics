@@ -2,154 +2,67 @@
   "key": "npc:20271",
   "type": "npc",
   "id": 20271,
-  "name": "Lu4 Wiki: NPC Breka Orc Warrior",
+  "name": "Breka Orc Warrior",
   "url": "/lu4/npc/20271-breka-orc-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/20271-breka-orc-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20271-breka-orc-warrior",
   "raw_html": "library/raw/lu4/npc/20271-breka-orc-warrior.html",
   "stats": {
-    "Location": "Укрепление Бреки (+1) Укрепление Бреки Земли Гирана"
+    "Respawn Time": "23 seconds",
+    "Location": "Укрепление Бреки (+1) Укрепление Бреки Земли Гирана",
+    "HP / MP": "1 262 / 455",
+    "P. Atk. / M. Atk.": "178 / 98",
+    "P. Def. / M. Def.": "159 / 138",
+    "Accuracy / Evasion": "69 / 68",
+    "Exp / SP": "1 356 / 136",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 One-handed Sword Lv. 3 One-handed Sword",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 33"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20271",
-      "type": "npc",
-      "id": 20271,
-      "name": "Lu4",
-      "url": "/lu4/npc/20271-breka-orc-warrior"
-    },
-    {
-      "key": "location:216",
-      "type": "location",
-      "id": 216,
-      "name": "Укрепление Бреки",
-      "url": "/lu4/location/216-ukreplenie-breki"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2919",
-      "type": "item",
-      "id": 2919,
-      "name": "Brigandine Gaiters Material NG",
-      "url": "/lu4/item/2919-brigandine-gaiters-material"
-    },
-    {
-      "key": "item:2378",
-      "type": "item",
-      "id": 2378,
-      "name": "Brigandine Gaiters D",
-      "url": "/lu4/item/2378-brigandine-gaiters"
-    },
-    {
-      "key": "item:2038",
-      "type": "item",
-      "id": 2038,
-      "name": "Maingauche Edge NG",
-      "url": "/lu4/item/2038-maingauche-edge"
-    },
-    {
-      "key": "item:2033",
-      "type": "item",
-      "id": 2033,
-      "name": "Winged Spear Blade NG",
-      "url": "/lu4/item/2033-winged-spear-blade"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
-    },
-    {
-      "key": "item:224",
-      "type": "item",
-      "id": 224,
-      "name": "Maingauche D",
-      "url": "/lu4/item/224-maingauche"
-    },
-    {
-      "key": "item:93",
-      "type": "item",
-      "id": 93,
-      "name": "Winged Spear D",
-      "url": "/lu4/item/93-winged-spear"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "item:57",
@@ -159,6 +72,90 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:1884",
+      "type": "item",
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
+      "key": "item:2378",
+      "type": "item",
+      "id": 2378,
+      "name": "Brigandine Gaiters D",
+      "url": "/lu4/item/2378-brigandine-gaiters"
+    },
+    {
+      "key": "item:2919",
+      "type": "item",
+      "id": 2919,
+      "name": "Brigandine Gaiters Material NG",
+      "url": "/lu4/item/2919-brigandine-gaiters-material"
+    },
+    {
+      "key": "item:224",
+      "type": "item",
+      "id": 224,
+      "name": "Maingauche D",
+      "url": "/lu4/item/224-maingauche"
+    },
+    {
+      "key": "item:2038",
+      "type": "item",
+      "id": 2038,
+      "name": "Maingauche Edge NG",
+      "url": "/lu4/item/2038-maingauche-edge"
+    },
+    {
+      "key": "item:93",
+      "type": "item",
+      "id": 93,
+      "name": "Winged Spear D",
+      "url": "/lu4/item/93-winged-spear"
+    },
+    {
+      "key": "item:2033",
+      "type": "item",
+      "id": 2033,
+      "name": "Winged Spear Blade NG",
+      "url": "/lu4/item/2033-winged-spear-blade"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
       "key": "item:2980",
       "type": "item",
       "id": 2980,
@@ -166,18 +163,18 @@
       "url": "/lu4/item/2980-recipe-brigandine-gauntlets"
     },
     {
-      "key": "item:2929",
-      "type": "item",
-      "id": 2929,
-      "name": "Brigandine Shield Fragment NG",
-      "url": "/lu4/item/2929-brigandine-shield-fragment"
-    },
-    {
       "key": "item:2189",
       "type": "item",
       "id": 2189,
       "name": "Recipe: Mithril Tunic NG",
       "url": "/lu4/item/2189-recipe-mithril-tunic"
+    },
+    {
+      "key": "item:2929",
+      "type": "item",
+      "id": 2929,
+      "name": "Brigandine Shield Fragment NG",
+      "url": "/lu4/item/2929-brigandine-shield-fragment"
     },
     {
       "key": "item:2041",
@@ -192,13 +189,6 @@
       "id": 1944,
       "name": "Elven Mithril Tunic Fabric NG",
       "url": "/lu4/item/1944-elven-mithril-tunic-fabric"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
     }
   ]
 }

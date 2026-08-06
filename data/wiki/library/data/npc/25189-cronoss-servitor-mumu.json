@@ -2,56 +2,53 @@
   "key": "npc:25189",
   "type": "npc",
   "id": 25189,
-  "name": "Lu4 Wiki: NPC Cronos's Servitor Mumu",
+  "name": "Cronos's Servitor Mumu",
   "url": "/lu4/npc/25189-cronoss-servitor-mumu",
-  "source_url": "https://masterwork.wiki/lu4/npc/25189-cronoss-servitor-mumu",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25189-cronoss-servitor-mumu",
   "raw_html": "library/raw/lu4/npc/25189-cronoss-servitor-mumu.html",
   "stats": {
-    "Location": "Земли Иннадрила"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Земли Иннадрила",
+    "HP / MP": "156 584 / 1 982",
+    "P. Atk. / M. Atk.": "454 / 86",
+    "P. Def. / M. Def.": "471 / 531",
+    "Accuracy / Evasion": "85 / 85",
+    "Exp / SP": "809 200 / 100 648",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 He sneaked into Innadril where Eva's religion was widely practiced, and caused confusion by threatening the Goddess of Water's followers. The servant of Elder Cronos lives in the Hunters' Village. In order to obtain ingredients for the wonder drug of happiness that Cronos is making, he came to Innadril. After losing himself in daydreams of the world, Mumu forgot why he came here, and hasn't returned to Cronos because he is afraid of being scolded. Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 34"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25189",
-      "type": "npc",
-      "id": 25189,
-      "name": "Lu4",
-      "url": "/lu4/npc/25189-cronoss-servitor-mumu"
-    },
-    {
-      "key": "location:9",
-      "type": "location",
-      "id": 9,
-      "name": "Земли Иннадрила",
-      "url": "/lu4/location/9-zemli-innadrila"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4862",
       "type": "skill",
       "id": 4862,
-      "name": "Raid Boss Lv. 1 He sneaked into Innadril where Eva's religion was widely practiced, and caused confusion by threatening the Goddess of Water's followers. The servant of Elder Cronos lives in the Hunters' Village. In order to obtain ingredients for the wonder drug of happiness that Cronos is making, he came to Innadril. After losing himself in daydreams of the world, Mumu forgot why he came here, and hasn't returned to Cronos because he is afraid of being scolded.",
-      "url": "/lu4/skill/4862-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4862-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,32 +58,60 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:2499",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 2499,
+      "name": "Elven Long Sword D",
+      "url": "/lu4/item/2499-elven-long-sword"
     },
     {
-      "key": "item:6575",
+      "key": "item:70",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 70,
+      "name": "Claymore D",
+      "url": "/lu4/item/70-claymore"
     },
     {
-      "key": "item:2054",
+      "key": "item:321",
       "type": "item",
-      "id": 2054,
-      "name": "Light Crossbow Shaft NG",
-      "url": "/lu4/item/2054-light-crossbow-shaft"
+      "id": 321,
+      "name": "Demon Fangs D",
+      "url": "/lu4/item/321-demon-fangs"
+    },
+    {
+      "key": "item:2967",
+      "type": "item",
+      "id": 2967,
+      "name": "Elven Long Sword Blade NG",
+      "url": "/lu4/item/2967-elven-long-sword-blade"
+    },
+    {
+      "key": "item:2047",
+      "type": "item",
+      "id": 2047,
+      "name": "Claymore Blade NG",
+      "url": "/lu4/item/2047-claymore-blade"
+    },
+    {
+      "key": "item:2046",
+      "type": "item",
+      "id": 2046,
+      "name": "Demon Fangs Part NG",
+      "url": "/lu4/item/2046-demon-fangs-part"
+    },
+    {
+      "key": "item:438",
+      "type": "item",
+      "id": 438,
+      "name": "Sage's Worn Robe D",
+      "url": "/lu4/item/438-sages-worn-robe"
     },
     {
       "key": "item:1953",
       "type": "item",
       "id": 1953,
-      "name": "Sage's Rag Lining NG",
-      "url": "/lu4/item/1953-sages-rag-lining"
+      "name": "Sage's Worn Robe Lining NG",
+      "url": "/lu4/item/1953-sages-worn-robe-lining"
     },
     {
       "key": "item:956",
@@ -96,6 +121,13 @@
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     },
     {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
       "key": "item:955",
       "type": "item",
       "id": 955,
@@ -103,18 +135,11 @@
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
-      "key": "item:438",
+      "key": "item:6575",
       "type": "item",
-      "id": 438,
-      "name": "Sage's Rag D",
-      "url": "/lu4/item/438-sages-rag"
-    },
-    {
-      "key": "item:280",
-      "type": "item",
-      "id": 280,
-      "name": "Light Crossbow D",
-      "url": "/lu4/item/280-light-crossbow"
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25190",

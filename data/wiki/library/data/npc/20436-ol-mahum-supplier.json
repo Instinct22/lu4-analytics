@@ -2,140 +2,60 @@
   "key": "npc:20436",
   "type": "npc",
   "id": 20436,
-  "name": "Lu4 Wiki: NPC Ol Mahum Supplier",
+  "name": "Ol Mahum Supplier",
   "url": "/lu4/npc/20436-ol-mahum-supplier",
-  "source_url": "https://masterwork.wiki/lu4/npc/20436-ol-mahum-supplier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20436-ol-mahum-supplier",
   "raw_html": "library/raw/lu4/npc/20436-ol-mahum-supplier.html",
   "stats": {
-    "Location": "Земли Глудио (+2) Земли Глудио Заброшенный Лагерь Застава Гноллов"
+    "Respawn Time": "20 seconds",
+    "Location": "Земли Глудио (+2) Земли Глудио Заброшенный Лагерь Застава Гноллов",
+    "HP / MP": "1 492 / 285",
+    "P. Atk. / M. Atk.": "64 / 36",
+    "P. Def. / M. Def.": "138 / 109",
+    "Accuracy / Evasion": "59 / 58",
+    "Exp / SP": "1 440 / 144",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 23"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20436",
-      "type": "npc",
-      "id": 20436,
-      "name": "Lu4",
-      "url": "/lu4/npc/20436-ol-mahum-supplier"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:31",
-      "type": "location",
-      "id": 31,
-      "name": "Заброшенный Лагерь",
-      "url": "/lu4/location/31-zabrosennyj-lager"
-    },
-    {
-      "key": "location:248",
-      "type": "location",
-      "id": 248,
-      "name": "Застава Гноллов",
-      "url": "/lu4/location/248-zastava-gnollov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5158",
-      "type": "item",
-      "id": 5158,
-      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:1932",
-      "type": "item",
-      "id": 1932,
-      "name": "Bone Helmet Design NG",
-      "url": "/lu4/item/1932-bone-helmet-design"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:347",
-      "type": "item",
-      "id": 347,
-      "name": "Ring Mail Breastplate D",
-      "url": "/lu4/item/347-ring-mail-breastplate"
-    },
-    {
-      "key": "item:314",
-      "type": "item",
-      "id": 314,
-      "name": "Proof of Revenge D",
-      "url": "/lu4/item/314-proof-of-revenge"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -145,13 +65,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:45",
-      "type": "item",
-      "id": 45,
-      "name": "Bone Helmet D",
-      "url": "/lu4/item/45-bone-helmet"
-    },
-    {
       "key": "item:16",
       "type": "item",
       "id": 16,
@@ -159,11 +72,81 @@
       "url": "/lu4/item/16-great-spear"
     },
     {
-      "key": "item:2016",
+      "key": "item:1865",
       "type": "item",
-      "id": 2016,
-      "name": "Composite Bow Shaft NG",
-      "url": "/lu4/item/2016-composite-bow-shaft"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:5158",
+      "type": "item",
+      "id": 5158,
+      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
+    },
+    {
+      "key": "item:45",
+      "type": "item",
+      "id": 45,
+      "name": "Bone Helmet D",
+      "url": "/lu4/item/45-bone-helmet"
+    },
+    {
+      "key": "item:1932",
+      "type": "item",
+      "id": 1932,
+      "name": "Bone Helmet Design NG",
+      "url": "/lu4/item/1932-bone-helmet-design"
+    },
+    {
+      "key": "item:314",
+      "type": "item",
+      "id": 314,
+      "name": "Proof of Revenge D",
+      "url": "/lu4/item/314-proof-of-revenge"
+    },
+    {
+      "key": "item:347",
+      "type": "item",
+      "id": 347,
+      "name": "Ring Mail Breastplate D",
+      "url": "/lu4/item/347-ring-mail-breastplate"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:1898",
@@ -173,11 +156,11 @@
       "url": "/lu4/item/1898-blue-diamond-necklace-gem"
     },
     {
-      "key": "item:1869",
+      "key": "item:2016",
       "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
+      "id": 2016,
+      "name": "Composite Bow Shaft NG",
+      "url": "/lu4/item/2016-composite-bow-shaft"
     }
   ]
 }

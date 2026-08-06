@@ -2,27 +2,25 @@
   "key": "item:3065",
   "type": "item",
   "id": 3065,
-  "name": "Lu4 Wiki: Item Spellbook: Death Spike",
+  "name": "Spellbook: Death Spike",
   "url": "/lu4/item/3065-spellbook-death-spike",
-  "source_url": "https://masterwork.wiki/lu4/item/3065-spellbook-death-spike",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/3065-spellbook-death-spike",
   "raw_html": "library/raw/lu4/item/3065-spellbook-death-spike.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Death Spike'. Required: Necromancer - Lv. 40 Spellhowler - Lv. 40 To obtain this item, hunt the Lienrik Lad found in Field of Silence.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:3065",
-      "type": "item",
-      "id": 3065,
-      "name": "Lu4",
-      "url": "/lu4/item/3065-spellbook-death-spike"
-    },
-    {
       "key": "npc:20787",
       "type": "npc",
       "id": 20787,
-      "name": "Lienrik Lad Lv. 40",
+      "name": "Lienrik Lad",
       "url": "/lu4/npc/20787-lienrik-lad"
     }
   ]

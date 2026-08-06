@@ -2,63 +2,32 @@
   "key": "npc:20545",
   "type": "npc",
   "id": 20545,
-  "name": "Lu4 Wiki: NPC Young Keltir",
+  "name": "Young Keltir",
   "url": "/lu4/npc/20545-young-keltir",
-  "source_url": "https://masterwork.wiki/lu4/npc/20545-young-keltir",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20545-young-keltir",
   "raw_html": "library/raw/lu4/npc/20545-young-keltir.html",
   "stats": {
-    "Location": "Говорящий Остров (восток)"
+    "Respawn Time": "12 seconds",
+    "Location": "Говорящий Остров (восток)",
+    "HP / MP": "62 / 49",
+    "P. Atk. / M. Atk.": "9 / 3",
+    "P. Def. / M. Def.": "37 / 29",
+    "Accuracy / Evasion": "34 / 34",
+    "Exp / SP": "65 / 6",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 1"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20545",
-      "type": "npc",
-      "id": 20545,
-      "name": "Lu4",
-      "url": "/lu4/npc/20545-young-keltir"
-    },
-    {
-      "key": "location:262",
-      "type": "location",
-      "id": 262,
-      "name": "Говорящий Остров (восток)",
-      "url": "/lu4/location/262-govorasij-ostrov-vostok"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
-    },
-    {
-      "key": "item:6037",
-      "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1788",
-      "type": "item",
-      "id": 1788,
-      "name": "Recipe: Bow NG",
-      "url": "/lu4/item/1788-recipe-bow"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "item:57",
@@ -68,18 +37,18 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:41",
-      "type": "item",
-      "id": 41,
-      "name": "Cloth Cap NG",
-      "url": "/lu4/item/41-cloth-cap"
-    },
-    {
       "key": "item:18",
       "type": "item",
       "id": 18,
       "name": "Leather Shield NG",
       "url": "/lu4/item/18-leather-shield"
+    },
+    {
+      "key": "item:41",
+      "type": "item",
+      "id": 41,
+      "name": "Cloth Cap NG",
+      "url": "/lu4/item/41-cloth-cap"
     },
     {
       "key": "item:17",
@@ -89,11 +58,32 @@
       "url": "/lu4/item/17-wooden-arrow"
     },
     {
-      "key": "item:1786",
+      "key": "item:1788",
       "type": "item",
-      "id": 1786,
-      "name": "Recipe: Broad Sword NG",
-      "url": "/lu4/item/1786-recipe-broad-sword"
+      "id": 1788,
+      "name": "Recipe: Bow NG",
+      "url": "/lu4/item/1788-recipe-bow"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:6037",
+      "type": "item",
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
     },
     {
       "key": "item:21",
@@ -101,6 +91,13 @@
       "id": 21,
       "name": "Shirt NG",
       "url": "/lu4/item/21-shirt"
+    },
+    {
+      "key": "item:1786",
+      "type": "item",
+      "id": 1786,
+      "name": "Recipe: Broad Sword NG",
+      "url": "/lu4/item/1786-recipe-broad-sword"
     }
   ]
 }

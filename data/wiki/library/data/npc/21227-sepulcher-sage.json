@@ -2,75 +2,79 @@
   "key": "npc:21227",
   "type": "npc",
   "id": 21227,
-  "name": "Lu4 Wiki: NPC Sepulcher Sage",
+  "name": "Sepulcher Sage",
   "url": "/lu4/npc/21227-sepulcher-sage",
-  "source_url": "https://masterwork.wiki/lu4/npc/21227-sepulcher-sage",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21227-sepulcher-sage",
   "raw_html": "library/raw/lu4/npc/21227-sepulcher-sage.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "14 504 / 1 541",
+    "P. Atk. / M. Atk.": "1 225 / 739",
+    "P. Def. / M. Def.": "404 / 376",
+    "Accuracy / Evasion": "100 / 110",
+    "Exp / SP": "21 775 / 2 072",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Slightly Strong P. Def. Lv. 13 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 67"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21227",
-      "type": "npc",
-      "id": 21227,
-      "name": "Lu4",
-      "url": "/lu4/npc/21227-sepulcher-sage"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32345",
@@ -78,6 +82,13 @@
       "id": 32345,
       "name": "Unidentified Bow of Peril B",
       "url": "/lu4/item/32345-unidentified-bow-of-peril"
+    },
+    {
+      "key": "item:4121",
+      "type": "item",
+      "id": 4121,
+      "name": "Bow of Peril Shaft NG",
+      "url": "/lu4/item/4121-bow-of-peril-shaft"
     },
     {
       "key": "item:8314",
@@ -99,13 +110,6 @@
       "id": 5230,
       "name": "Recipe: Mithril Arrow (100%) NG",
       "url": "/lu4/item/5230-recipe-mithril-arrow-100"
-    },
-    {
-      "key": "item:4121",
-      "type": "item",
-      "id": 4121,
-      "name": "Bow of Peril Shaft NG",
-      "url": "/lu4/item/4121-bow-of-peril-shaft"
     },
     {
       "key": "item:4044",
@@ -136,11 +140,11 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:4077",

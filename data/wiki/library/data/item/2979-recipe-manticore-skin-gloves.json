@@ -2,90 +2,24 @@
   "key": "item:2979",
   "type": "item",
   "id": 2979,
-  "name": "Recipe",
+  "name": "Recipe: Manticore Skin Gloves",
   "url": "/lu4/item/2979-recipe-manticore-skin-gloves",
-  "source_url": "https://masterwork.wiki/lu4/item/2979-recipe-manticore-skin-gloves",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2979-recipe-manticore-skin-gloves",
   "raw_html": "library/raw/lu4/item/2979-recipe-manticore-skin-gloves.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Manticore Skin Gloves'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "747 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Manticore Skin Gloves D"
+    "Result": "Manticore Skin Gloves D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2926",
-      "type": "item",
-      "id": 2926,
-      "name": "Manticore Skin Gloves Lining NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "amount": "24"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "144"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "30"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "9"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "24"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "5"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2979",
-      "type": "item",
-      "id": 2979,
-      "name": "Lu4",
-      "url": "/lu4/item/2979-recipe-manticore-skin-gloves"
-    },
     {
       "key": "item:2926",
       "type": "item",
@@ -160,28 +94,28 @@
       "key": "npc:20233",
       "type": "npc",
       "id": 20233,
-      "name": "Marsh Spider Lv. 34",
+      "name": "Marsh Spider",
       "url": "/lu4/npc/20233-marsh-spider"
     },
     {
       "key": "npc:20176",
       "type": "npc",
       "id": 20176,
-      "name": "Wyrm Lv. 35",
+      "name": "Wyrm",
       "url": "/lu4/npc/20176-wyrm"
     },
     {
       "key": "npc:20747",
       "type": "npc",
       "id": 20747,
-      "name": "Roxide Lv. 32",
+      "name": "Roxide",
       "url": "/lu4/npc/20747-roxide"
     },
     {
       "key": "npc:20086",
       "type": "npc",
       "id": 20086,
-      "name": "Ant Guard Lv. 35",
+      "name": "Ant Guard",
       "url": "/lu4/npc/20086-ant-guard"
     }
   ]

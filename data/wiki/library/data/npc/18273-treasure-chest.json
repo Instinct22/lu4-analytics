@@ -2,40 +2,30 @@
   "key": "npc:18273",
   "type": "npc",
   "id": 18273,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/18273-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/18273-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/18273-treasure-chest",
   "raw_html": "library/raw/lu4/npc/18273-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 871 / 751",
+    "P. Atk. / M. Atk.": "394 / 206",
+    "P. Def. / M. Def.": "254 / 201",
+    "Accuracy / Evasion": "78 / 78",
+    "Exp / SP": "2 430 / 169",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 45"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:18273",
-      "type": "npc",
-      "id": 18273,
-      "name": "Lu4",
-      "url": "/lu4/npc/18273-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:57",
@@ -45,11 +35,25 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:4553",
+      "key": "item:951",
       "type": "item",
-      "id": 4553,
-      "name": "Greater Dye of STR <Str+1 Con-1> NG",
-      "url": "/lu4/item/4553-greater-dye-of-str-str1-con-1"
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:1908",
+      "type": "item",
+      "id": 1908,
+      "name": "Moonstone Earring Wire NG",
+      "url": "/lu4/item/1908-moonstone-earring-wire"
     },
     {
       "key": "item:2163",
@@ -59,11 +63,11 @@
       "url": "/lu4/item/2163-recipe-earring-of-protection"
     },
     {
-      "key": "item:1908",
+      "key": "item:4553",
       "type": "item",
-      "id": 1908,
-      "name": "Moonstone Earring Wire NG",
-      "url": "/lu4/item/1908-moonstone-earring-wire"
+      "id": 4553,
+      "name": "Greater Dye of STR <Str+1 Con-1> NG",
+      "url": "/lu4/item/4553-greater-dye-of-str-str1-con-1"
     }
   ]
 }

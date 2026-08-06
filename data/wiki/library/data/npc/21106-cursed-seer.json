@@ -2,84 +2,60 @@
   "key": "npc:21106",
   "type": "npc",
   "id": 21106,
-  "name": "Lu4 Wiki: NPC Cursed Seer",
+  "name": "Cursed Seer",
   "url": "/lu4/npc/21106-cursed-seer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21106-cursed-seer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21106-cursed-seer",
   "raw_html": "library/raw/lu4/npc/21106-cursed-seer.html",
   "stats": {
-    "Location": "Угодья Флорана"
+    "Respawn Time": "18 seconds",
+    "Location": "Угодья Флорана",
+    "HP / MP": "1 219 / 477",
+    "P. Atk. / M. Atk.": "182 / 89",
+    "P. Def. / M. Def.": "156 / 134",
+    "Accuracy / Evasion": "67 / 77",
+    "Exp / SP": "1 280 / 128",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 34"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21106",
-      "type": "npc",
-      "id": 21106,
-      "name": "Lu4",
-      "url": "/lu4/npc/21106-cursed-seer"
-    },
-    {
-      "key": "location:242",
-      "type": "location",
-      "id": 242,
-      "name": "Угодья Флорана",
-      "url": "/lu4/location/242-ugoda-florana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:8295",
-      "type": "item",
-      "id": 8295,
-      "name": "Recipe: Titan Sword (100%) NG",
-      "url": "/lu4/item/8295-recipe-titan-sword-100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5550",
@@ -94,55 +70,6 @@
       "id": 5549,
       "name": "Metallic Thread NG",
       "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:2929",
-      "type": "item",
-      "id": 2929,
-      "name": "Brigandine Shield Fragment NG",
-      "url": "/lu4/item/2929-brigandine-shield-fragment"
-    },
-    {
-      "key": "item:2493",
-      "type": "item",
-      "id": 2493,
-      "name": "Brigandine Shield D",
-      "url": "/lu4/item/2493-brigandine-shield"
-    },
-    {
-      "key": "item:2277",
-      "type": "item",
-      "id": 2277,
-      "name": "Recipe: Bich'hwa NG",
-      "url": "/lu4/item/2277-recipe-bichhwa"
-    },
-    {
-      "key": "item:2189",
-      "type": "item",
-      "id": 2189,
-      "name": "Recipe: Mithril Tunic NG",
-      "url": "/lu4/item/2189-recipe-mithril-tunic"
-    },
-    {
-      "key": "item:2044",
-      "type": "item",
-      "id": 2044,
-      "name": "Cursed Maingauche Edge NG",
-      "url": "/lu4/item/2044-cursed-maingauche-edge"
-    },
-    {
-      "key": "item:2038",
-      "type": "item",
-      "id": 2038,
-      "name": "Maingauche Edge NG",
-      "url": "/lu4/item/2038-maingauche-edge"
-    },
-    {
-      "key": "item:2037",
-      "type": "item",
-      "id": 2037,
-      "name": "Heavy Bone Club Head NG",
-      "url": "/lu4/item/2037-heavy-bone-club-head"
     },
     {
       "key": "item:1885",
@@ -166,6 +93,27 @@
       "url": "/lu4/item/1875-stone-of-purity"
     },
     {
+      "key": "item:1341",
+      "type": "item",
+      "id": 1341,
+      "name": "Bone Arrow D",
+      "url": "/lu4/item/1341-bone-arrow"
+    },
+    {
+      "key": "item:2493",
+      "type": "item",
+      "id": 2493,
+      "name": "Brigandine Shield D",
+      "url": "/lu4/item/2493-brigandine-shield"
+    },
+    {
+      "key": "item:2929",
+      "type": "item",
+      "id": 2929,
+      "name": "Brigandine Shield Fragment NG",
+      "url": "/lu4/item/2929-brigandine-shield-fragment"
+    },
+    {
       "key": "item:1660",
       "type": "item",
       "id": 1660,
@@ -173,11 +121,25 @@
       "url": "/lu4/item/1660-cursed-maingauche"
     },
     {
-      "key": "item:1341",
+      "key": "item:2044",
       "type": "item",
-      "id": 1341,
-      "name": "Bone Arrow D",
-      "url": "/lu4/item/1341-bone-arrow"
+      "id": 2044,
+      "name": "Cursed Maingauche Edge NG",
+      "url": "/lu4/item/2044-cursed-maingauche-edge"
+    },
+    {
+      "key": "item:172",
+      "type": "item",
+      "id": 172,
+      "name": "Heavy Bone Club D",
+      "url": "/lu4/item/172-heavy-bone-club"
+    },
+    {
+      "key": "item:2037",
+      "type": "item",
+      "id": 2037,
+      "name": "Heavy Bone Club Head NG",
+      "url": "/lu4/item/2037-heavy-bone-club-head"
     },
     {
       "key": "item:224",
@@ -187,11 +149,46 @@
       "url": "/lu4/item/224-maingauche"
     },
     {
-      "key": "item:172",
+      "key": "item:2038",
       "type": "item",
-      "id": 172,
-      "name": "Heavy Bone Club D",
-      "url": "/lu4/item/172-heavy-bone-club"
+      "id": 2038,
+      "name": "Maingauche Edge NG",
+      "url": "/lu4/item/2038-maingauche-edge"
+    },
+    {
+      "key": "item:2277",
+      "type": "item",
+      "id": 2277,
+      "name": "Recipe: Bich'hwa NG",
+      "url": "/lu4/item/2277-recipe-bichhwa"
+    },
+    {
+      "key": "item:8295",
+      "type": "item",
+      "id": 8295,
+      "name": "Recipe: Titan Sword (100%) NG",
+      "url": "/lu4/item/8295-recipe-titan-sword-100"
+    },
+    {
+      "key": "item:8317",
+      "type": "item",
+      "id": 8317,
+      "name": "Recipe: Titan Hammer (100%) NG",
+      "url": "/lu4/item/8317-recipe-titan-hammer-100"
+    },
+    {
+      "key": "item:2189",
+      "type": "item",
+      "id": 2189,
+      "name": "Recipe: Mithril Tunic NG",
+      "url": "/lu4/item/2189-recipe-mithril-tunic"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
     },
     {
       "key": "item:2977",
@@ -208,18 +205,18 @@
       "url": "/lu4/item/2927-brigandine-gauntlets-pattern"
     },
     {
-      "key": "item:2031",
-      "type": "item",
-      "id": 2031,
-      "name": "Morning Star Head NG",
-      "url": "/lu4/item/2031-morning-star-head"
-    },
-    {
       "key": "item:1902",
       "type": "item",
       "id": 1902,
       "name": "Elven Earring Beads NG",
       "url": "/lu4/item/1902-elven-earring-beads"
+    },
+    {
+      "key": "item:2031",
+      "type": "item",
+      "id": 2031,
+      "name": "Morning Star Head NG",
+      "url": "/lu4/item/2031-morning-star-head"
     }
   ]
 }

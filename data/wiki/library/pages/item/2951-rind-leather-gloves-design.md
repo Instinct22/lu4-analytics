@@ -1,118 +1,17 @@
-# Lu4 Wiki: Item Rind Leather Gloves Design
+# Rind Leather Gloves Design
 
-- Source: https://masterwork.wiki/lu4/item/2951-rind-leather-gloves-design
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2951-rind-leather-gloves-design
 - Path: /lu4/item/2951-rind-leather-gloves-design
 - Type: item
 - Key: item:2951
 
 ## Stats
+- Effect: A key material for Dwarves to make Rind Leather Gloves.
+- NPC Sell Price: 1 189 Adena
+- Weight: 60
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Other / Material
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Rind Leather Gloves Design
-Lu4
-Eternal
-MasterWork
-Rind Leather Gloves Design
-NG
-Other / Material
-A key material for Dwarves to make Rind Leather Gloves.
-NPC Sell Price
-1 189 Adena
-Weight
-60
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Drop
-Spoil
-NPC
-Amount
-Chance
-Horrifying Cannon Golem IV
-Lv. 48
-1
-1.127320%
-Spelunking Spider
-Lv. 47
-1
-0.758755%
-Unpleasant Shout
-Lv. 46
-1
-1.060000%
-Timak Orc Troop Leader
-Lv. 45
-1
-0.679000%
-Timak Orc Overlord
-Lv. 45
-1
-0.542998%
-Cave Servant
-Lv. 46
-1
-0.679000%
-Bannerless Fletcher
-Lv. 45
-1
-0.542998%
-NPC
-Amount
-Chance
-Timak Orc Troop Shaman
-Lv. 44
-1
-2.380000%
-Enchanted Gargoyle
-Lv. 44
-1
-1.900000%
-Dicor
-Lv. 47
-1
-3.710000%
-MasterWork 2026
-All rights reserved
+Rind Leather Gloves Design NG Other / Material A key material for Dwarves to make Rind Leather Gloves. NPC Sell Price 1 189 Adena Weight 60 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

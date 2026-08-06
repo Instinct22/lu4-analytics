@@ -2,182 +2,130 @@
   "key": "npc:5080",
   "type": "npc",
   "id": 5080,
-  "name": "Lu4 Wiki: NPC Power Angel Amon",
+  "name": "Power Angel Amon",
   "url": "/lu4/npc/5080-power-angel-amon",
-  "source_url": "https://masterwork.wiki/lu4/npc/5080-power-angel-amon",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5080-power-angel-amon",
   "raw_html": "library/raw/lu4/npc/5080-power-angel-amon.html",
   "stats": {
-    "Location": "Башня Дерзости: 13-й этаж"
+    "Respawn Time": "8 minutes, 20 seconds ± 1 minute",
+    "Location": "Башня Дерзости: 13-й этаж",
+    "HP / MP": "316 040 / 1 110",
+    "P. Atk. / M. Atk.": "4 894 / 2 280",
+    "P. Def. / M. Def.": "1 391 / 889",
+    "Accuracy / Evasion": "121 / 121",
+    "Exp / SP": "853 336 / 85 334",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Unique Monster Lv. 1 A unique creature of immense power. It cannot be defeated alone. Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 74"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5080",
-      "type": "npc",
-      "id": 5080,
-      "name": "Lu4",
-      "url": "/lu4/npc/5080-power-angel-amon"
-    },
-    {
-      "key": "location:82",
-      "type": "location",
-      "id": 82,
-      "name": "Башня Дерзости: 13-й этаж",
-      "url": "/lu4/location/82-basna-derzosti-13-j-etaz"
-    },
-    {
       "key": "skill:27944",
       "type": "skill",
       "id": 27944,
-      "name": "Unique Monster Lv. 1 A unique creature of immense power. It cannot be defeated alone.",
-      "url": "/lu4/skill/27944-unique-monster/1"
+      "name": "Unique Monster",
+      "url": "/lu4/skill/27944-unique-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:32536",
+      "key": "item:57",
       "type": "item",
-      "id": 32536,
-      "name": "Unidentified Branch of the Mother Tree A",
-      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
-    },
-    {
-      "key": "item:32440",
-      "type": "item",
-      "id": 32440,
-      "name": "Unidentified Doom Crusher A",
-      "url": "/lu4/item/32440-unidentified-doom-crusher"
-    },
-    {
-      "key": "item:32389",
-      "type": "item",
-      "id": 32389,
-      "name": "Unidentified Sealed Shield of Nightmare A",
-      "url": "/lu4/item/32389-unidentified-sealed-shield-of-nightmare"
-    },
-    {
-      "key": "item:32324",
-      "type": "item",
-      "id": 32324,
-      "name": "Unidentified Dragon Slayer A",
-      "url": "/lu4/item/32324-unidentified-dragon-slayer"
-    },
-    {
-      "key": "item:8349",
-      "type": "item",
-      "id": 8349,
-      "name": "Doom Crusher Head NG",
-      "url": "/lu4/item/8349-doom-crusher-head"
-    },
-    {
-      "key": "item:5544",
-      "type": "item",
-      "id": 5544,
-      "name": "Branch of the Mother Tree Head NG",
-      "url": "/lu4/item/5544-branch-of-the-mother-tree-head"
-    },
-    {
-      "key": "item:5529",
-      "type": "item",
-      "id": 5529,
-      "name": "Dragon Slayer Edge NG",
-      "url": "/lu4/item/5529-dragon-slayer-edge"
-    },
-    {
-      "key": "item:5495",
-      "type": "item",
-      "id": 5495,
-      "name": "Sealed Shield of Nightmare Fragment NG",
-      "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -215,11 +163,60 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:32440",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32440,
+      "name": "Unidentified Doom Crusher A",
+      "url": "/lu4/item/32440-unidentified-doom-crusher"
+    },
+    {
+      "key": "item:8349",
+      "type": "item",
+      "id": 8349,
+      "name": "Doom Crusher Head NG",
+      "url": "/lu4/item/8349-doom-crusher-head"
+    },
+    {
+      "key": "item:32324",
+      "type": "item",
+      "id": 32324,
+      "name": "Unidentified Dragon Slayer A",
+      "url": "/lu4/item/32324-unidentified-dragon-slayer"
+    },
+    {
+      "key": "item:5529",
+      "type": "item",
+      "id": 5529,
+      "name": "Dragon Slayer Edge NG",
+      "url": "/lu4/item/5529-dragon-slayer-edge"
+    },
+    {
+      "key": "item:32536",
+      "type": "item",
+      "id": 32536,
+      "name": "Unidentified Branch of the Mother Tree A",
+      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
+    },
+    {
+      "key": "item:5544",
+      "type": "item",
+      "id": 5544,
+      "name": "Branch of the Mother Tree Head NG",
+      "url": "/lu4/item/5544-branch-of-the-mother-tree-head"
+    },
+    {
+      "key": "item:32389",
+      "type": "item",
+      "id": 32389,
+      "name": "Unidentified Sealed Shield of Nightmare A",
+      "url": "/lu4/item/32389-unidentified-sealed-shield-of-nightmare"
+    },
+    {
+      "key": "item:5495",
+      "type": "item",
+      "id": 5495,
+      "name": "Sealed Shield of Nightmare Fragment NG",
+      "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
     },
     {
       "key": "npc:5081",

@@ -2,96 +2,58 @@
   "key": "npc:21140",
   "type": "npc",
   "id": 21140,
-  "name": "Lu4 Wiki: NPC Catacomb Wisp",
+  "name": "Catacomb Wisp",
   "url": "/lu4/npc/21140-catacomb-wisp",
-  "source_url": "https://masterwork.wiki/lu4/npc/21140-catacomb-wisp",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21140-catacomb-wisp",
   "raw_html": "library/raw/lu4/npc/21140-catacomb-wisp.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 170 / 336",
+    "P. Atk. / M. Atk.": "102 / 49",
+    "P. Def. / M. Def.": "104 / 109",
+    "Accuracy / Evasion": "59 / 69",
+    "Exp / SP": "3 152 / 156",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 26"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21140",
-      "type": "npc",
-      "id": 21140,
-      "name": "Lu4",
-      "url": "/lu4/npc/21140-catacomb-wisp"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:2260",
-      "type": "item",
-      "id": 2260,
-      "name": "Recipe: Mace of Judgment NG",
-      "url": "/lu4/item/2260-recipe-mace-of-judgment"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:376",
-      "type": "item",
-      "id": 376,
-      "name": "Iron Plate Gaiters D",
-      "url": "/lu4/item/376-iron-plate-gaiters"
-    },
-    {
-      "key": "item:347",
-      "type": "item",
-      "id": 347,
-      "name": "Ring Mail Breastplate D",
-      "url": "/lu4/item/347-ring-mail-breastplate"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -101,11 +63,46 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2152",
+      "key": "item:347",
       "type": "item",
-      "id": 2152,
-      "name": "Recipe: Enchanted Necklace NG",
-      "url": "/lu4/item/2152-recipe-enchanted-necklace"
+      "id": 347,
+      "name": "Ring Mail Breastplate D",
+      "url": "/lu4/item/347-ring-mail-breastplate"
+    },
+    {
+      "key": "item:376",
+      "type": "item",
+      "id": 376,
+      "name": "Iron Plate Gaiters D",
+      "url": "/lu4/item/376-iron-plate-gaiters"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:2260",
+      "type": "item",
+      "id": 2260,
+      "name": "Recipe: Mace of Judgment NG",
+      "url": "/lu4/item/2260-recipe-mace-of-judgment"
     },
     {
       "key": "item:1899",
@@ -113,6 +110,13 @@
       "id": 1899,
       "name": "Necklace of Devotion Chain NG",
       "url": "/lu4/item/1899-necklace-of-devotion-chain"
+    },
+    {
+      "key": "item:2152",
+      "type": "item",
+      "id": 2152,
+      "name": "Recipe: Enchanted Necklace NG",
+      "url": "/lu4/item/2152-recipe-enchanted-necklace"
     }
   ]
 }

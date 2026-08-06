@@ -2,105 +2,67 @@
   "key": "npc:20248",
   "type": "npc",
   "id": 20248,
-  "name": "Lu4 Wiki: NPC Turak Bugbear",
+  "name": "Turak Bugbear",
   "url": "/lu4/npc/20248-turak-bugbear",
-  "source_url": "https://masterwork.wiki/lu4/npc/20248-turak-bugbear",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20248-turak-bugbear",
   "raw_html": "library/raw/lu4/npc/20248-turak-bugbear.html",
   "stats": {
-    "Location": "Сад Горгон (+1) Сад Горгон Земли Гирана"
+    "Respawn Time": "20 seconds",
+    "Location": "Сад Горгон (+1) Сад Горгон Земли Гирана",
+    "HP / MP": "1 082 / 423",
+    "P. Atk. / M. Atk.": "134 / 62",
+    "P. Def. / M. Def.": "175 / 132",
+    "Accuracy / Evasion": "59 / 64",
+    "Exp / SP": "1 154 / 115",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 31"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20248",
-      "type": "npc",
-      "id": 20248,
-      "name": "Lu4",
-      "url": "/lu4/npc/20248-turak-bugbear"
-    },
-    {
-      "key": "location:174",
-      "type": "location",
-      "id": 174,
-      "name": "Сад Горгон",
-      "url": "/lu4/location/174-sad-gorgon"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:2029",
-      "type": "item",
-      "id": 2029,
-      "name": "Gastraphetes Shaft NG",
-      "url": "/lu4/item/2029-gastraphetes-shaft"
-    },
-    {
-      "key": "item:1940",
-      "type": "item",
-      "id": 1940,
-      "name": "Iron Boots Design NG",
-      "url": "/lu4/item/1940-iron-boots-design"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1874",
@@ -131,18 +93,18 @@
       "url": "/lu4/item/1829-scroll-of-escape-clan-hall"
     },
     {
-      "key": "item:553",
-      "type": "item",
-      "id": 553,
-      "name": "Iron Boots D",
-      "url": "/lu4/item/553-iron-boots"
-    },
-    {
       "key": "item:278",
       "type": "item",
       "id": 278,
       "name": "Gastraphetes D",
       "url": "/lu4/item/278-gastraphetes"
+    },
+    {
+      "key": "item:2029",
+      "type": "item",
+      "id": 2029,
+      "name": "Gastraphetes Shaft NG",
+      "url": "/lu4/item/2029-gastraphetes-shaft"
     },
     {
       "key": "item:143",
@@ -152,18 +114,39 @@
       "url": "/lu4/item/143-sword-of-mystic"
     },
     {
-      "key": "item:57",
+      "key": "item:553",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 553,
+      "name": "Iron Boots D",
+      "url": "/lu4/item/553-iron-boots"
     },
     {
-      "key": "item:2250",
+      "key": "item:1940",
       "type": "item",
-      "id": 2250,
-      "name": "Recipe: Bone Arrow NG",
-      "url": "/lu4/item/2250-recipe-bone-arrow"
+      "id": 1940,
+      "name": "Iron Boots Design NG",
+      "url": "/lu4/item/1940-iron-boots-design"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:955",
@@ -171,6 +154,13 @@
       "id": 955,
       "name": "Scroll: Enchant Weapon (D-Grade) NG",
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:2250",
+      "type": "item",
+      "id": 2250,
+      "name": "Recipe: Bone Arrow NG",
+      "url": "/lu4/item/2250-recipe-bone-arrow"
     }
   ]
 }

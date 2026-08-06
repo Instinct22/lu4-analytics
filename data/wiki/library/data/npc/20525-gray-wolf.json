@@ -2,70 +2,32 @@
   "key": "npc:20525",
   "type": "npc",
   "id": 20525,
-  "name": "Lu4 Wiki: NPC Gray Wolf",
+  "name": "Gray Wolf",
   "url": "/lu4/npc/20525-gray-wolf",
-  "source_url": "https://masterwork.wiki/lu4/npc/20525-gray-wolf",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20525-gray-wolf",
   "raw_html": "library/raw/lu4/npc/20525-gray-wolf.html",
   "stats": {
-    "Location": "Тень Древа Жизни (+1) Тень Древа Жизни Эльфийский Лес"
+    "Respawn Time": "10 seconds",
+    "Location": "Тень Древа Жизни (+1) Тень Древа Жизни Эльфийский Лес",
+    "HP / MP": "126 / 75",
+    "P. Atk. / M. Atk.": "14 / 5",
+    "P. Def. / M. Def.": "44 / 35",
+    "Accuracy / Evasion": "37 / 37",
+    "Exp / SP": "133 / 13",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 4"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20525",
-      "type": "npc",
-      "id": 20525,
-      "name": "Lu4",
-      "url": "/lu4/npc/20525-gray-wolf"
-    },
-    {
-      "key": "location:111",
-      "type": "location",
-      "id": 111,
-      "name": "Тень Древа Жизни",
-      "url": "/lu4/location/111-ten-dreva-zizni"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1787",
-      "type": "item",
-      "id": 1787,
-      "name": "Recipe: Willow Staff NG",
-      "url": "/lu4/item/1787-recipe-willow-staff"
-    },
-    {
-      "key": "item:1060",
-      "type": "item",
-      "id": 1060,
-      "name": "Lesser Healing Potion NG",
-      "url": "/lu4/item/1060-lesser-healing-potion"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "item:57",
@@ -82,11 +44,39 @@
       "url": "/lu4/item/1-short-sword"
     },
     {
-      "key": "item:5549",
+      "key": "item:1060",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
+      "id": 1060,
+      "name": "Lesser Healing Potion NG",
+      "url": "/lu4/item/1060-lesser-healing-potion"
+    },
+    {
+      "key": "item:1787",
+      "type": "item",
+      "id": 1787,
+      "name": "Recipe: Willow Staff NG",
+      "url": "/lu4/item/1787-recipe-willow-staff"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:1872",
@@ -96,11 +86,11 @@
       "url": "/lu4/item/1872-animal-bone"
     },
     {
-      "key": "item:1867",
+      "key": "item:5549",
       "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     }
   ]
 }

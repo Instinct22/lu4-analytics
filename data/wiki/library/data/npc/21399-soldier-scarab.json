@@ -2,117 +2,128 @@
   "key": "npc:21399",
   "type": "npc",
   "id": 21399,
-  "name": "Lu4 Wiki: NPC Soldier Scarab",
+  "name": "Soldier Scarab",
   "url": "/lu4/npc/21399-soldier-scarab",
-  "source_url": "https://masterwork.wiki/lu4/npc/21399-soldier-scarab",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21399-soldier-scarab",
   "raw_html": "library/raw/lu4/npc/21399-soldier-scarab.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "21 036 / 1 784",
+    "P. Atk. / M. Atk.": "1 715 / 1 069",
+    "P. Def. / M. Def.": "843 / 472",
+    "Accuracy / Evasion": "119 / 129",
+    "Exp / SP": "38 679 / 4 230",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Strong P. Def. Lv. 15 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Greater Bleed Resistance Lv. 4 Highly resistant to Bleed. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Greater Sleep Resistance Lv. 2 Highly resistant to Sleep. High Lv. Lv. 5 NPC High Level",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 78"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21399",
-      "type": "npc",
-      "id": 21399,
-      "name": "Lu4",
-      "url": "/lu4/npc/21399-soldier-scarab"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4437",
       "type": "skill",
       "id": 4437,
-      "name": "Greater Bleed Resistance Lv. 4 Highly resistant to Bleed.",
-      "url": "/lu4/skill/4437-greater-bleed-resistance/4"
+      "name": "Greater Bleed Resistance",
+      "url": "/lu4/skill/4437-greater-bleed-resistance"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 5 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/5"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32327",
@@ -129,25 +140,11 @@
       "url": "/lu4/item/5542-halberd-edge"
     },
     {
-      "key": "item:5167",
+      "key": "item:1895",
       "type": "item",
-      "id": 5167,
-      "name": "Recipe: Blessed Spiritshot (S) Compressed Package (100%) NG",
-      "url": "/lu4/item/5167-recipe-blessed-spiritshot-s-compressed-package-100"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
     },
     {
       "key": "item:4040",
@@ -157,18 +154,25 @@
       "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:1895",
+      "key": "item:4042",
       "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
     },
     {
-      "key": "item:57",
+      "key": "item:4043",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:5167",
+      "type": "item",
+      "id": 5167,
+      "name": "Recipe: Blessed Spiritshot (S) Compressed Package (100%) NG",
+      "url": "/lu4/item/5167-recipe-blessed-spiritshot-s-compressed-package-100"
     },
     {
       "key": "item:6346",
@@ -178,18 +182,18 @@
       "url": "/lu4/item/6346-sealed-majestic-ring-gemstone"
     },
     {
-      "key": "item:5480",
-      "type": "item",
-      "id": 5480,
-      "name": "Sealed Leather Armor of Nightmare Fabric NG",
-      "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
-    },
-    {
       "key": "item:5157",
       "type": "item",
       "id": 5157,
       "name": "Recipe: Soulshot (S) Compressed Package (100%) NG",
       "url": "/lu4/item/5157-recipe-soulshot-s-compressed-package-100"
+    },
+    {
+      "key": "item:5480",
+      "type": "item",
+      "id": 5480,
+      "name": "Sealed Leather Armor of Nightmare Fabric NG",
+      "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
     }
   ]
 }

@@ -2,112 +2,81 @@
   "key": "npc:20437",
   "type": "npc",
   "id": 20437,
-  "name": "Lu4 Wiki: NPC Ol Mahum Recruit",
+  "name": "Ol Mahum Recruit",
   "url": "/lu4/npc/20437-ol-mahum-recruit",
-  "source_url": "https://masterwork.wiki/lu4/npc/20437-ol-mahum-recruit",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20437-ol-mahum-recruit",
   "raw_html": "library/raw/lu4/npc/20437-ol-mahum-recruit.html",
   "stats": {
-    "Location": "Заброшенный Лагерь"
+    "Respawn Time": "25 seconds",
+    "Location": "Заброшенный Лагерь",
+    "HP / MP": "1 302 / 252",
+    "P. Atk. / M. Atk.": "53 / 30",
+    "P. Def. / M. Def.": "127 / 101",
+    "Accuracy / Evasion": "57 / 56",
+    "Exp / SP": "1 251 / 125",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 21"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20437",
-      "type": "npc",
-      "id": 20437,
-      "name": "Lu4",
-      "url": "/lu4/npc/20437-ol-mahum-recruit"
-    },
-    {
-      "key": "location:31",
-      "type": "location",
-      "id": 31,
-      "name": "Заброшенный Лагерь",
-      "url": "/lu4/location/31-zabrosennyj-lager"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39296",
+      "key": "item:39",
       "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
+      "id": 39,
+      "name": "Boots NG",
+      "url": "/lu4/item/39-boots"
     },
     {
-      "key": "item:39295",
+      "key": "item:51",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5268",
-      "type": "item",
-      "id": 5268,
-      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:2258",
-      "type": "item",
-      "id": 2258,
-      "name": "Recipe: Temptation of Abyss NG",
-      "url": "/lu4/item/2258-recipe-temptation-of-abyss"
-    },
-    {
-      "key": "item:2257",
-      "type": "item",
-      "id": 2257,
-      "name": "Recipe: Trident NG",
-      "url": "/lu4/item/2257-recipe-trident"
-    },
-    {
-      "key": "item:2018",
-      "type": "item",
-      "id": 2018,
-      "name": "Assassin Knife Edge NG",
-      "url": "/lu4/item/2018-assassin-knife-edge"
+      "id": 51,
+      "name": "Bracer NG",
+      "url": "/lu4/item/51-bracer"
     },
     {
       "key": "item:1930",
@@ -117,6 +86,13 @@
       "url": "/lu4/item/1930-boot-lining"
     },
     {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
       "key": "item:1871",
       "type": "item",
       "id": 1871,
@@ -124,11 +100,25 @@
       "url": "/lu4/item/1871-charcoal"
     },
     {
-      "key": "item:1866",
+      "key": "item:5268",
       "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "id": 5268,
+      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
+    },
+    {
+      "key": "item:221",
+      "type": "item",
+      "id": 221,
+      "name": "Assassin Knife D",
+      "url": "/lu4/item/221-assassin-knife"
+    },
+    {
+      "key": "item:2018",
+      "type": "item",
+      "id": 2018,
+      "name": "Assassin Knife Edge NG",
+      "url": "/lu4/item/2018-assassin-knife-edge"
     },
     {
       "key": "item:258",
@@ -145,39 +135,46 @@
       "url": "/lu4/item/239-mystic-knife"
     },
     {
-      "key": "item:221",
+      "key": "item:2258",
       "type": "item",
-      "id": 221,
-      "name": "Assassin Knife D",
-      "url": "/lu4/item/221-assassin-knife"
+      "id": 2258,
+      "name": "Recipe: Temptation of Abyss NG",
+      "url": "/lu4/item/2258-recipe-temptation-of-abyss"
     },
     {
-      "key": "item:57",
+      "key": "item:2257",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2257,
+      "name": "Recipe: Trident NG",
+      "url": "/lu4/item/2257-recipe-trident"
     },
     {
-      "key": "item:51",
+      "key": "item:39295",
       "type": "item",
-      "id": 51,
-      "name": "Bracer NG",
-      "url": "/lu4/item/51-bracer"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:39",
+      "key": "item:39296",
       "type": "item",
-      "id": 39,
-      "name": "Boots NG",
-      "url": "/lu4/item/39-boots"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:2017",
+      "key": "item:39297",
       "type": "item",
-      "id": 2017,
-      "name": "Saber Blade NG",
-      "url": "/lu4/item/2017-saber-blade"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1804",
+      "type": "item",
+      "id": 1804,
+      "name": "Recipe: Soulshot (D-Grade) NG",
+      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
     },
     {
       "key": "item:2016",
@@ -187,11 +184,11 @@
       "url": "/lu4/item/2016-composite-bow-shaft"
     },
     {
-      "key": "item:1804",
+      "key": "item:2017",
       "type": "item",
-      "id": 1804,
-      "name": "Recipe: Soulshot (D-Grade) NG",
-      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
+      "id": 2017,
+      "name": "Saber Blade NG",
+      "url": "/lu4/item/2017-saber-blade"
     }
   ]
 }

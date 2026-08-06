@@ -2,27 +2,25 @@
   "key": "item:4207",
   "type": "item",
   "id": 4207,
-  "name": "Lu4 Wiki: Item Spellbook: Mana Regeneration",
+  "name": "Spellbook: Mana Regeneration",
   "url": "/lu4/item/4207-spellbook-mana-regeneration",
-  "source_url": "https://masterwork.wiki/lu4/item/4207-spellbook-mana-regeneration",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/4207-spellbook-mana-regeneration",
   "raw_html": "library/raw/lu4/item/4207-spellbook-mana-regeneration.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Mana Regeneration'. Required: Spellsinger - Lv. 40 To obtain this item, hunt the Giant Fungus found in Sea of Spores.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:4207",
-      "type": "item",
-      "id": 4207,
-      "name": "Lu4",
-      "url": "/lu4/item/4207-spellbook-mana-regeneration"
-    },
-    {
       "key": "npc:20555",
       "type": "npc",
       "id": 20555,
-      "name": "Giant Fungus Lv. 40",
+      "name": "Giant Fungus",
       "url": "/lu4/npc/20555-giant-fungus"
     }
   ]

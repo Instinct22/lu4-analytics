@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Stakato Shell
+# Stakato Shell
 
-- Source: https://masterwork.wiki/lu4/item/3273-stakato-shell
+- Source: https://masterwork.wiki/lu4-b-w-c/item/3273-stakato-shell
 - Path: /lu4/item/3273-stakato-shell
 - Type: item
 - Key: item:3273
 
 ## Stats
+- Effect: The shell of a marsh stakato. A key ingredient in making the titan's key.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Stakato Shell
-Lu4
-Eternal
-MasterWork
-Stakato Shell
-NG
-Quest Item
-The shell of a marsh stakato. A key ingredient in making the titan's key.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-Testimony of Prosperity
-35 ~ 85
-Quest
-Levels
-Testimony of Prosperity
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Stakato Shell NG Quest Item The shell of a marsh stakato. A key ingredient in making the titan's key. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

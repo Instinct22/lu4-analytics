@@ -2,105 +2,74 @@
   "key": "npc:20576",
   "type": "npc",
   "id": 20576,
-  "name": "Lu4 Wiki: NPC Oel Mahum Witch Doctor",
+  "name": "Oel Mahum Witch Doctor",
   "url": "/lu4/npc/20576-oel-mahum-witch-doctor",
-  "source_url": "https://masterwork.wiki/lu4/npc/20576-oel-mahum-witch-doctor",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20576-oel-mahum-witch-doctor",
   "raw_html": "library/raw/lu4/npc/20576-oel-mahum-witch-doctor.html",
   "stats": {
-    "Location": "Лес Разбойников (+1) Лес Разбойников Земли Орена"
+    "Respawn Time": "40 seconds",
+    "Location": "Лес Разбойников (+1) Лес Разбойников Земли Орена",
+    "HP / MP": "7 949 / 1 096",
+    "P. Atk. / M. Atk.": "620 / 509",
+    "P. Def. / M. Def.": "278 / 263",
+    "Accuracy / Evasion": "91 / 90",
+    "Exp / SP": "8 858 / 886",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 10 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 55"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20576",
-      "type": "npc",
-      "id": 20576,
-      "name": "Lu4",
-      "url": "/lu4/npc/20576-oel-mahum-witch-doctor"
-    },
-    {
-      "key": "location:233",
-      "type": "location",
-      "id": 233,
-      "name": "Лес Разбойников",
-      "url": "/lu4/location/233-les-razbojnikov"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8762",
+      "key": "item:1865",
       "type": "item",
-      "id": 8762,
-      "name": "Top-Grade Life Stone NG",
-      "url": "/lu4/item/8762-top-grade-life-stone"
-    },
-    {
-      "key": "item:8338",
-      "type": "item",
-      "id": 8338,
-      "name": "Axe of Eclipse Head NG",
-      "url": "/lu4/item/8338-axe-of-eclipse-head"
-    },
-    {
-      "key": "item:8304",
-      "type": "item",
-      "id": 8304,
-      "name": "Recipe: Ecliptic Sword (100%) NG",
-      "url": "/lu4/item/8304-recipe-ecliptic-sword-100"
-    },
-    {
-      "key": "item:7891",
-      "type": "item",
-      "id": 7891,
-      "name": "Ecliptic Axe C",
-      "url": "/lu4/item/7891-ecliptic-axe"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:5275",
@@ -124,62 +93,6 @@
       "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:2966",
-      "type": "item",
-      "id": 2966,
-      "name": "Full Plate Shield Fragment NG",
-      "url": "/lu4/item/2966-full-plate-shield-fragment"
-    },
-    {
-      "key": "item:2497",
-      "type": "item",
-      "id": 2497,
-      "name": "Full Plate Shield C",
-      "url": "/lu4/item/2497-full-plate-shield"
-    },
-    {
-      "key": "item:2357",
-      "type": "item",
-      "id": 2357,
-      "name": "Recipe: Crystal Dagger NG",
-      "url": "/lu4/item/2357-recipe-crystal-dagger"
-    },
-    {
-      "key": "item:2170",
-      "type": "item",
-      "id": 2170,
-      "name": "Recipe: Nassen's Earring NG",
-      "url": "/lu4/item/2170-recipe-nassens-earring"
-    },
-    {
-      "key": "item:2118",
-      "type": "item",
-      "id": 2118,
-      "name": "Demon's Staff Head NG",
-      "url": "/lu4/item/2118-demons-staff-head"
-    },
-    {
-      "key": "item:2115",
-      "type": "item",
-      "id": 2115,
-      "name": "Samurai Longsword Blade NG",
-      "url": "/lu4/item/2115-samurai-longsword-blade"
-    },
-    {
-      "key": "item:2112",
-      "type": "item",
-      "id": 2112,
-      "name": "Pa'agrian Axe Blade NG",
-      "url": "/lu4/item/2112-paagrian-axe-blade"
-    },
-    {
-      "key": "item:1988",
-      "type": "item",
-      "id": 1988,
-      "name": "Divine Tunic Fabric NG",
-      "url": "/lu4/item/1988-divine-tunic-fabric"
-    },
-    {
       "key": "item:1879",
       "type": "item",
       "id": 1879,
@@ -201,18 +114,88 @@
       "url": "/lu4/item/1870-coal"
     },
     {
-      "key": "item:1865",
+      "key": "item:49800",
       "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:5530",
+      "key": "item:8762",
       "type": "item",
-      "id": 5530,
-      "name": "Berserker Blade Edge NG",
-      "url": "/lu4/item/5530-berserker-blade-edge"
+      "id": 8762,
+      "name": "Top-Grade Life Stone NG",
+      "url": "/lu4/item/8762-top-grade-life-stone"
+    },
+    {
+      "key": "item:206",
+      "type": "item",
+      "id": 206,
+      "name": "Demon's Staff C",
+      "url": "/lu4/item/206-demons-staff"
+    },
+    {
+      "key": "item:2118",
+      "type": "item",
+      "id": 2118,
+      "name": "Demon's Staff Head NG",
+      "url": "/lu4/item/2118-demons-staff-head"
+    },
+    {
+      "key": "item:7891",
+      "type": "item",
+      "id": 7891,
+      "name": "Ecliptic Axe C",
+      "url": "/lu4/item/7891-ecliptic-axe"
+    },
+    {
+      "key": "item:8338",
+      "type": "item",
+      "id": 8338,
+      "name": "Axe of Eclipse Head NG",
+      "url": "/lu4/item/8338-axe-of-eclipse-head"
+    },
+    {
+      "key": "item:203",
+      "type": "item",
+      "id": 203,
+      "name": "Pa'agrian Axe C",
+      "url": "/lu4/item/203-paagrian-axe"
+    },
+    {
+      "key": "item:2112",
+      "type": "item",
+      "id": 2112,
+      "name": "Pa'agrian Axe Blade NG",
+      "url": "/lu4/item/2112-paagrian-axe-blade"
+    },
+    {
+      "key": "item:135",
+      "type": "item",
+      "id": 135,
+      "name": "Samurai Longsword C",
+      "url": "/lu4/item/135-samurai-longsword"
+    },
+    {
+      "key": "item:2115",
+      "type": "item",
+      "id": 2115,
+      "name": "Samurai Longsword Blade NG",
+      "url": "/lu4/item/2115-samurai-longsword-blade"
+    },
+    {
+      "key": "item:442",
+      "type": "item",
+      "id": 442,
+      "name": "Divine Tunic C",
+      "url": "/lu4/item/442-divine-tunic"
+    },
+    {
+      "key": "item:1988",
+      "type": "item",
+      "id": 1988,
+      "name": "Divine Tunic Fabric NG",
+      "url": "/lu4/item/1988-divine-tunic-fabric"
     },
     {
       "key": "item:4591",
@@ -236,11 +219,11 @@
       "url": "/lu4/item/3012-recipe-full-plate-helmet"
     },
     {
-      "key": "item:2961",
+      "key": "item:5530",
       "type": "item",
-      "id": 2961,
-      "name": "Full Plate Boots Part NG",
-      "url": "/lu4/item/2961-full-plate-boots-part"
+      "id": 5530,
+      "name": "Berserker Blade Edge NG",
+      "url": "/lu4/item/5530-berserker-blade-edge"
     },
     {
       "key": "item:2116",
@@ -248,6 +231,13 @@
       "id": 2116,
       "name": "Deadman's Staff Head NG",
       "url": "/lu4/item/2116-deadmans-staff-head"
+    },
+    {
+      "key": "item:2961",
+      "type": "item",
+      "id": 2961,
+      "name": "Full Plate Boots Part NG",
+      "url": "/lu4/item/2961-full-plate-boots-part"
     }
   ]
 }

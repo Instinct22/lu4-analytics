@@ -2,27 +2,25 @@
   "key": "item:1412",
   "type": "item",
   "id": 1412,
-  "name": "Lu4 Wiki: Item Spellbook: Resist Aqua",
+  "name": "Spellbook: Resist Aqua",
   "url": "/lu4/item/1412-spellbook-resist-aqua",
-  "source_url": "https://masterwork.wiki/lu4/item/1412-spellbook-resist-aqua",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1412-spellbook-resist-aqua",
   "raw_html": "library/raw/lu4/item/1412-spellbook-resist-aqua.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Resist Aqua'. Required: Prophet - Lv. 40 Spellsinger - Lv. 40 Elven Elder - Lv. 40 To obtain this item, hunt the Tanor Silenos found in Tanor Canyon.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:1412",
-      "type": "item",
-      "id": 1412,
-      "name": "Lu4",
-      "url": "/lu4/item/1412-spellbook-resist-aqua"
-    },
-    {
       "key": "npc:20936",
       "type": "npc",
       "id": 20936,
-      "name": "Tanor Silenos Lv. 40",
+      "name": "Tanor Silenos",
       "url": "/lu4/npc/20936-tanor-silenos"
     }
   ]

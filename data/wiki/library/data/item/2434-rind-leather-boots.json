@@ -2,24 +2,23 @@
   "key": "item:2434",
   "type": "item",
   "id": 2434,
-  "name": "Lu4 Wiki: Item Rind Leather Boots",
+  "name": "Rind Leather Boots",
   "url": "/lu4/item/2434-rind-leather-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/2434-rind-leather-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2434-rind-leather-boots",
   "raw_html": "library/raw/lu4/item/2434-rind-leather-boots.html",
   "stats": {
+    "P. Def.": "34",
+    "Crystal Amount": "50 Crystallization Failed Enchant +0 50 - +1 56 - +2 62 - +3 68 - +4 86 61 +5 104 79 +6 122 97 +7 140 115 +8 158 133",
+    "NPC Sell Price": "61 950 Adena",
+    "Weight": "1220",
     "Set Part": "Rind Leather Armor C",
     "Recipes": "Recipe: Rind Leather Boots NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Boots"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2434",
-      "type": "item",
-      "id": 2434,
-      "name": "Lu4",
-      "url": "/lu4/item/2434-rind-leather-boots"
-    },
     {
       "key": "set:840",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:843",
       "type": "set",
       "id": 843,
-      "name": "",
+      "name": "set:843",
       "url": "/lu4/set/843"
     },
     {
@@ -42,52 +41,59 @@
       "url": "/lu4/item/3001-recipe-rind-leather-boots"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:22054",
       "type": "npc",
       "id": 22054,
-      "name": "Horrifying Cannon Golem IV Lv. 48",
+      "name": "Horrifying Cannon Golem IV",
       "url": "/lu4/npc/22054-horrifying-cannon-golem-iv"
     },
     {
       "key": "npc:22051",
       "type": "npc",
       "id": 22051,
-      "name": "Spelunking Spider Lv. 47",
+      "name": "Spelunking Spider",
       "url": "/lu4/npc/22051-spelunking-spider"
     },
     {
       "key": "npc:21613",
       "type": "npc",
       "id": 21613,
-      "name": "Unpleasant Shout Lv. 46",
+      "name": "Unpleasant Shout",
       "url": "/lu4/npc/21613-unpleasant-shout"
     },
     {
       "key": "npc:21037",
       "type": "npc",
       "id": 21037,
-      "name": "Ossiud Lv. 47",
+      "name": "Ossiud",
       "url": "/lu4/npc/21037-ossiud"
     },
     {
       "key": "npc:20797",
       "type": "npc",
       "id": 20797,
-      "name": "Blade Stakato Drone Lv. 44",
+      "name": "Blade Stakato Drone",
       "url": "/lu4/npc/20797-blade-stakato-drone"
     },
     {
       "key": "npc:20235",
       "type": "npc",
       "id": 20235,
-      "name": "Shackle Lv. 45",
+      "name": "Shackle",
       "url": "/lu4/npc/20235-shackle"
     },
     {
       "key": "npc:20217",
       "type": "npc",
       "id": 20217,
-      "name": "Krator Lv. 44",
+      "name": "Krator",
       "url": "/lu4/npc/20217-krator"
     }
   ]

@@ -1,0 +1,31 @@
+{
+  "key": "skill:1092",
+  "type": "skill",
+  "id": 1092,
+  "name": "Fear",
+  "url": "/lu4/skill/1092-fear",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1092-fear",
+  "raw_html": "library/raw/lu4/skill/1092-fear.html",
+  "stats": {
+    "Effect": "Frightens an enemy into fleeing.",
+    "Consumes": "15 MP",
+    "Reuse Time": "5 seconds",
+    "Duration": "10 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_derangement",
+    "Cast Range": "600 (1100)",
+    "Available For": "Orc MageLv. 14",
+    "Type": "Magical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:49",
+      "type": "class",
+      "id": 49,
+      "name": "Orc MageLv. 14",
+      "url": "/lu4/class/49-orcmage"
+    }
+  ]
+}

@@ -2,173 +2,142 @@
   "key": "npc:22215",
   "type": "npc",
   "id": 22215,
-  "name": "Lu4 Wiki: NPC Tyrannosaurus",
+  "name": "Tyrannosaurus",
   "url": "/lu4/npc/22215-tyrannosaurus",
-  "source_url": "https://masterwork.wiki/lu4/npc/22215-tyrannosaurus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22215-tyrannosaurus",
   "raw_html": "library/raw/lu4/npc/22215-tyrannosaurus.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "444 274 / 4 328",
+    "P. Atk. / M. Atk.": "30 048 / 74 096",
+    "P. Def. / M. Def.": "1 343 / 1 753",
+    "Accuracy / Evasion": "141 / 141",
+    "Exp / SP": "120 471 / 8 406",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Very Strong M. Def. Lv. 16 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Beast Lv. 4 Beast. Unknown Creature Lv. 24 An unknown life form that has never been discovered before. Greater Sleep Resistance Lv. 5 Sleep Immunity. Greater Hold Resistance Lv. 5 Hold Immunity. Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows. Greater Paralyze Resistance Lv. 5 Paralyze Immunity. Greater Mental Attack Resistance Lv. 5 Silence/Fear Immunity. Greater Spear Resistance Lv. 1 Very resistant to Spears.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22215",
-      "type": "npc",
-      "id": 22215,
-      "name": "Lu4",
-      "url": "/lu4/npc/22215-tyrannosaurus"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 16",
-      "url": "/lu4/skill/4413-very-strong-m-def/16"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Beast Lv. 4 Beast.",
-      "url": "/lu4/skill/4417-beast/4"
+      "name": "Beast",
+      "url": "/lu4/skill/4417-beast"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 5 Sleep Immunity.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/5"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 5 Hold Immunity.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/5"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:4440",
       "type": "skill",
       "id": 4440,
-      "name": "Greater Paralyze Resistance Lv. 5 Paralyze Immunity.",
-      "url": "/lu4/skill/4440-greater-paralyze-resistance/5"
+      "name": "Greater Paralyze Resistance",
+      "url": "/lu4/skill/4440-greater-paralyze-resistance"
     },
     {
       "key": "skill:4441",
       "type": "skill",
       "id": 4441,
-      "name": "Greater Mental Attack Resistance Lv. 5 Silence/Fear Immunity.",
-      "url": "/lu4/skill/4441-greater-mental-attack-resistance/5"
+      "name": "Greater Mental Attack Resistance",
+      "url": "/lu4/skill/4441-greater-mental-attack-resistance"
     },
     {
       "key": "skill:4445",
       "type": "skill",
       "id": 4445,
-      "name": "Greater Spear Resistance Lv. 1 Very resistant to Spears.",
-      "url": "/lu4/skill/4445-greater-spear-resistance/1"
+      "name": "Greater Spear Resistance",
+      "url": "/lu4/skill/4445-greater-spear-resistance"
     },
     {
-      "key": "item:8956",
+      "key": "item:57",
       "type": "item",
-      "id": 8956,
-      "name": "Red Primeval Crystal S",
-      "url": "/lu4/item/8956-red-primeval-crystal"
-    },
-    {
-      "key": "item:8895",
-      "type": "item",
-      "id": 8895,
-      "name": "Ancient Tactical Manual: Symbol of Honor NG",
-      "url": "/lu4/item/8895-ancient-tactical-manual-symbol-of-honor"
-    },
-    {
-      "key": "item:8894",
-      "type": "item",
-      "id": 8894,
-      "name": "Ancient Tactical Manual: Symbol of Resistance NG",
-      "url": "/lu4/item/8894-ancient-tactical-manual-symbol-of-resistance"
-    },
-    {
-      "key": "item:8762",
-      "type": "item",
-      "id": 8762,
-      "name": "Top-Grade Life Stone NG",
-      "url": "/lu4/item/8762-top-grade-life-stone"
-    },
-    {
-      "key": "item:8633",
-      "type": "item",
-      "id": 8633,
-      "name": "Elixir of MP (S-Grade) 76+ S",
-      "url": "/lu4/item/8633-elixir-of-mp-s-grade"
-    },
-    {
-      "key": "item:8627",
-      "type": "item",
-      "id": 8627,
-      "name": "Elixir of HP (S-Grade) 76+ S",
-      "url": "/lu4/item/8627-elixir-of-hp-s-grade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5541",
@@ -178,11 +147,53 @@
       "url": "/lu4/item/5541-tallum-glaive-edge"
     },
     {
-      "key": "item:57",
+      "key": "item:8627",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 8627,
+      "name": "Elixir of HP (S-Grade) 76+ S",
+      "url": "/lu4/item/8627-elixir-of-hp-s-grade"
+    },
+    {
+      "key": "item:8633",
+      "type": "item",
+      "id": 8633,
+      "name": "Elixir of MP (S-Grade) 76+ S",
+      "url": "/lu4/item/8633-elixir-of-mp-s-grade"
+    },
+    {
+      "key": "item:8894",
+      "type": "item",
+      "id": 8894,
+      "name": "Ancient Tactical Manual: Symbol of Resistance NG",
+      "url": "/lu4/item/8894-ancient-tactical-manual-symbol-of-resistance"
+    },
+    {
+      "key": "item:8895",
+      "type": "item",
+      "id": 8895,
+      "name": "Ancient Tactical Manual: Symbol of Honor NG",
+      "url": "/lu4/item/8895-ancient-tactical-manual-symbol-of-honor"
+    },
+    {
+      "key": "item:8956",
+      "type": "item",
+      "id": 8956,
+      "name": "Red Primeval Crystal S",
+      "url": "/lu4/item/8956-red-primeval-crystal"
+    },
+    {
+      "key": "item:8762",
+      "type": "item",
+      "id": 8762,
+      "name": "Top-Grade Life Stone NG",
+      "url": "/lu4/item/8762-top-grade-life-stone"
+    },
+    {
+      "key": "item:6710",
+      "type": "item",
+      "id": 6710,
+      "name": "Sealed Draconic Leather Helmet Pattern NG",
+      "url": "/lu4/item/6710-sealed-draconic-leather-helmet-pattern"
     },
     {
       "key": "item:6901",
@@ -197,13 +208,6 @@
       "id": 6711,
       "name": "Sealed Major Arcana Robe Part NG",
       "url": "/lu4/item/6711-sealed-major-arcana-robe-part"
-    },
-    {
-      "key": "item:6710",
-      "type": "item",
-      "id": 6710,
-      "name": "Sealed Draconic Leather Helmet Pattern NG",
-      "url": "/lu4/item/6710-sealed-draconic-leather-helmet-pattern"
     }
   ]
 }

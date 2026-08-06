@@ -2,105 +2,60 @@
   "key": "npc:20363",
   "type": "npc",
   "id": 20363,
-  "name": "Lu4 Wiki: NPC Maraku Werewolf",
+  "name": "Maraku Werewolf",
   "url": "/lu4/npc/20363-maraku-werewolf",
-  "source_url": "https://masterwork.wiki/lu4/npc/20363-maraku-werewolf",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20363-maraku-werewolf",
   "raw_html": "library/raw/lu4/npc/20363-maraku-werewolf.html",
   "stats": {
-    "Location": "Плато Бессмертия (+1) Плато Бессмертия Плато Бессмертия, север"
+    "Respawn Time": "25 seconds",
+    "Location": "Плато Бессмертия (+1) Плато Бессмертия Плато Бессмертия, север",
+    "HP / MP": "235 / 123",
+    "P. Atk. / M. Atk.": "26 / 12",
+    "P. Def. / M. Def.": "52 / 42",
+    "Accuracy / Evasion": "45 / 44",
+    "Exp / SP": "252 / 25",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 9"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20363",
-      "type": "npc",
-      "id": 20363,
-      "name": "Lu4",
-      "url": "/lu4/npc/20363-maraku-werewolf"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
-      "key": "location:189",
-      "type": "location",
-      "id": 189,
-      "name": "Плато Бессмертия, север",
-      "url": "/lu4/location/189-plato-bessmertia-sever"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1814",
-      "type": "item",
-      "id": 1814,
-      "name": "Recipe: Leather NG",
-      "url": "/lu4/item/1814-recipe-leather"
-    },
-    {
-      "key": "item:735",
-      "type": "item",
-      "id": 735,
-      "name": "Alacrity Potion NG",
-      "url": "/lu4/item/735-alacrity-potion"
-    },
-    {
-      "key": "item:254",
-      "type": "item",
-      "id": 254,
-      "name": "Iron Gloves NG",
-      "url": "/lu4/item/254-iron-gloves"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -110,11 +65,46 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2006",
+      "key": "item:254",
       "type": "item",
-      "id": 2006,
-      "name": "Willow Staff Head NG",
-      "url": "/lu4/item/2006-willow-staff-head"
+      "id": 254,
+      "name": "Iron Gloves NG",
+      "url": "/lu4/item/254-iron-gloves"
+    },
+    {
+      "key": "item:735",
+      "type": "item",
+      "id": 735,
+      "name": "Alacrity Potion NG",
+      "url": "/lu4/item/735-alacrity-potion"
+    },
+    {
+      "key": "item:1814",
+      "type": "item",
+      "id": 1814,
+      "name": "Recipe: Leather NG",
+      "url": "/lu4/item/1814-recipe-leather"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:2005",
@@ -124,11 +114,11 @@
       "url": "/lu4/item/2005-broadsword-blade"
     },
     {
-      "key": "item:1867",
+      "key": "item:2006",
       "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 2006,
+      "name": "Willow Staff Head NG",
+      "url": "/lu4/item/2006-willow-staff-head"
     }
   ]
 }

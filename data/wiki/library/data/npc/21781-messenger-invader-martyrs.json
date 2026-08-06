@@ -2,124 +2,114 @@
   "key": "npc:21781",
   "type": "npc",
   "id": 21781,
-  "name": "Lu4 Wiki: NPC Messenger Invader Martyrs",
+  "name": "Messenger Invader Martyrs",
   "url": "/lu4/npc/21781-messenger-invader-martyrs",
-  "source_url": "https://masterwork.wiki/lu4/npc/21781-messenger-invader-martyrs",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21781-messenger-invader-martyrs",
   "raw_html": "library/raw/lu4/npc/21781-messenger-invader-martyrs.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "13 926 / 1 896",
+    "P. Atk. / M. Atk.": "1 610 / 1 191",
+    "P. Def. / M. Def.": "506 / 513",
+    "Accuracy / Evasion": "125 / 141",
+    "Exp / SP": "21 717 / 2 436",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dagger Lv. 7 Daggers Greater Sleep Resistance Lv. 1 Very resistant to Sleep attacks. Greater Hold Resistance Lv. 1 Very resistant to Hold attack. High Lv. Lv. 6 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21781",
-      "type": "npc",
-      "id": 21781,
-      "name": "Lu4",
-      "url": "/lu4/npc/21781-messenger-invader-martyrs"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Dagger Lv. 7 Daggers",
-      "url": "/lu4/skill/4415-dagger/7"
+      "name": "Dagger",
+      "url": "/lu4/skill/4415-dagger"
     },
     {
       "key": "skill:4286",
       "type": "skill",
       "id": 4286,
-      "name": "Greater Sleep Resistance Lv. 1 Very resistant to Sleep attacks.",
-      "url": "/lu4/skill/4286-greater-sleep-resistance/1"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4286-greater-sleep-resistance"
     },
     {
       "key": "skill:4288",
       "type": "skill",
       "id": 4288,
-      "name": "Greater Hold Resistance Lv. 1 Very resistant to Hold attack.",
-      "url": "/lu4/skill/4288-greater-hold-resistance/1"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4288-greater-hold-resistance"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 6 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/6"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32390",
-      "type": "item",
-      "id": 32390,
-      "name": "Unidentified Sealed Majestic Plate Armor A",
-      "url": "/lu4/item/32390-unidentified-sealed-majestic-plate-armor"
-    },
-    {
-      "key": "item:32385",
-      "type": "item",
-      "id": 32385,
-      "name": "Unidentified Sealed Armor of Nightmare A",
-      "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5523",
@@ -134,6 +124,20 @@
       "id": 5522,
       "name": "Sealed Armor of Nightmare Pattern NG",
       "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
+    },
+    {
+      "key": "item:32390",
+      "type": "item",
+      "id": 32390,
+      "name": "Unidentified Sealed Majestic Plate Armor A",
+      "url": "/lu4/item/32390-unidentified-sealed-majestic-plate-armor"
+    },
+    {
+      "key": "item:32385",
+      "type": "item",
+      "id": 32385,
+      "name": "Unidentified Sealed Armor of Nightmare A",
+      "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
     },
     {
       "key": "item:4041",
@@ -178,11 +182,11 @@
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:6344",

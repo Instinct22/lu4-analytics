@@ -2,140 +2,95 @@
   "key": "npc:20622",
   "type": "npc",
   "id": 20622,
-  "name": "Lu4 Wiki: NPC Maluk Soldier",
+  "name": "Maluk Soldier",
   "url": "/lu4/npc/20622-maluk-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/20622-maluk-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20622-maluk-soldier",
   "raw_html": "library/raw/lu4/npc/20622-maluk-soldier.html",
   "stats": {
-    "Location": "Логово Антараса"
+    "Respawn Time": "3 minutes ± 20 seconds",
+    "Location": "Логово Антараса",
+    "HP / MP": "18 818 / 1 651",
+    "P. Atk. / M. Atk.": "1 411 / 546",
+    "P. Def. / M. Def.": "576 / 315",
+    "Accuracy / Evasion": "94 / 94",
+    "Exp / SP": "32 432 / 3 243",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 5, Unholy 40",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 15 Strong P. Def. Lv. 15 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 61"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20622",
-      "type": "npc",
-      "id": 20622,
-      "name": "Lu4",
-      "url": "/lu4/npc/20622-maluk-soldier"
-    },
-    {
-      "key": "location:45",
-      "type": "location",
-      "id": 45,
-      "name": "Логово Антараса",
-      "url": "/lu4/location/45-logovo-antarasa"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32595",
-      "type": "item",
-      "id": 32595,
-      "name": "Unidentified Zubei's Helmet B",
-      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
-    },
-    {
-      "key": "item:32364",
-      "type": "item",
-      "id": 32364,
-      "name": "Unidentified Avadon Circlet B",
-      "url": "/lu4/item/32364-unidentified-avadon-circlet"
-    },
-    {
-      "key": "item:32335",
-      "type": "item",
-      "id": 32335,
-      "name": "Unidentified Kris B",
-      "url": "/lu4/item/32335-unidentified-kris"
-    },
-    {
-      "key": "item:4109",
-      "type": "item",
-      "id": 4109,
-      "name": "Kris Edge NG",
-      "url": "/lu4/item/4109-kris-edge"
-    },
-    {
-      "key": "item:4102",
-      "type": "item",
-      "id": 4102,
-      "name": "Zubei's Helmet Design NG",
-      "url": "/lu4/item/4102-zubeis-helmet-design"
-    },
-    {
-      "key": "item:4072",
-      "type": "item",
-      "id": 4072,
-      "name": "Avadon Circlet Pattern NG",
-      "url": "/lu4/item/4072-avadon-circlet-pattern"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -173,11 +128,53 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32364",
+      "type": "item",
+      "id": 32364,
+      "name": "Unidentified Avadon Circlet B",
+      "url": "/lu4/item/32364-unidentified-avadon-circlet"
+    },
+    {
+      "key": "item:4072",
+      "type": "item",
+      "id": 4072,
+      "name": "Avadon Circlet Pattern NG",
+      "url": "/lu4/item/4072-avadon-circlet-pattern"
+    },
+    {
+      "key": "item:32595",
+      "type": "item",
+      "id": 32595,
+      "name": "Unidentified Zubei's Helmet B",
+      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
+    },
+    {
+      "key": "item:4102",
+      "type": "item",
+      "id": 4102,
+      "name": "Zubei's Helmet Design NG",
+      "url": "/lu4/item/4102-zubeis-helmet-design"
+    },
+    {
+      "key": "item:32335",
+      "type": "item",
+      "id": 32335,
+      "name": "Unidentified Kris B",
+      "url": "/lu4/item/32335-unidentified-kris"
+    },
+    {
+      "key": "item:4109",
+      "type": "item",
+      "id": 4109,
+      "name": "Kris Edge NG",
+      "url": "/lu4/item/4109-kris-edge"
     },
     {
       "key": "item:4044",

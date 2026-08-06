@@ -2,24 +2,27 @@
   "key": "item:7896",
   "type": "item",
   "id": 7896,
-  "name": "Lu4 Wiki: Item Titan Hammer",
+  "name": "Titan Hammer",
   "url": "/lu4/item/7896-titan-hammer",
-  "source_url": "https://masterwork.wiki/lu4/item/7896-titan-hammer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/7896-titan-hammer",
   "raw_html": "library/raw/lu4/item/7896-titan-hammer.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Rsk. Focus: P. Crit. Rate +85 when HP < 60%. Rsk. Haste: Atk. Spd. +12% when HP < 60%. Health: Max HP +25%.",
+    "P. Atk. / M. Atk.": "96 / 47",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1983 Crystallization Failed Enchant +0 1983 - +1 2073 - +2 2163 - +3 2253 - +4 2433 1441 +5 2613 1621 +6 2793 1801 +7 2973 1981 +8 3153 2161 +9 3333 2341 +10 3513 2521 +11 3693 2701 +12 3873 2881",
+    "NPC Sell Price": "537 000 Adena",
+    "Weight": "2100",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Recipes": "Recipe: Titan Hammer (100%) NG",
     "Soul Crystals": "Titan Hammer Rsk. Focus D Gemstone D NG (120 pcs.) Red Soul Crystal - Stage 3 NG Titan Hammer D Titan Hammer Health D Gemstone D NG (120 pcs.) Green Soul Crystal - Stage 3 NG Titan Hammer D Titan Hammer Rsk. Haste D Gemstone D NG (120 pcs.) Blue Soul Crystal - Stage 3 NG Titan Hammer D",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Blunt / Two-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:7896",
-      "type": "item",
-      "id": 7896,
-      "name": "Lu4",
-      "url": "/lu4/item/7896-titan-hammer"
-    },
     {
       "key": "item:8317",
       "type": "item",
@@ -77,39 +80,60 @@
       "url": "/lu4/item/4654-blue-soul-crystal-stage-3"
     },
     {
-      "key": "npc:21120",
+      "key": "npc:25188",
       "type": "npc",
-      "id": 21120,
-      "name": "Kasha Imp Turen Lv. 22",
-      "url": "/lu4/npc/21120-kasha-imp-turen"
+      "id": 25188,
+      "name": "Apepi",
+      "url": "/lu4/npc/25188-apepi"
     },
     {
-      "key": "npc:20458",
+      "key": "npc:25112",
       "type": "npc",
-      "id": 20458,
-      "name": "Zombie Warrior Lv. 22",
-      "url": "/lu4/npc/20458-zombie-warrior"
+      "id": 25112,
+      "name": "Beleth's Agent, Meana",
+      "url": "/lu4/npc/25112-beleths-agent-meana"
     },
     {
-      "key": "npc:20420",
+      "key": "npc:25079",
       "type": "npc",
-      "id": 20420,
-      "name": "Akaste Succubus Turen Lv. 21",
-      "url": "/lu4/npc/20420-akaste-succubus-turen"
+      "id": 25079,
+      "name": "Cat's Eye Bandit",
+      "url": "/lu4/npc/25079-cats-eye-bandit"
     },
     {
-      "key": "npc:20291",
+      "key": "npc:21638",
       "type": "npc",
-      "id": 20291,
-      "name": "Enku Orc Champion Lv. 21",
-      "url": "/lu4/npc/20291-enku-orc-champion"
+      "id": 21638,
+      "name": "Dread Wolf",
+      "url": "/lu4/npc/21638-dread-wolf"
     },
     {
-      "key": "npc:20062",
+      "key": "npc:20546",
       "type": "npc",
-      "id": 20062,
-      "name": "Tumran Bugbear Lv. 23",
-      "url": "/lu4/npc/20062-tumran-bugbear"
+      "id": 20546,
+      "name": "Turek Orc Elder",
+      "url": "/lu4/npc/20546-turek-orc-elder"
+    },
+    {
+      "key": "npc:20270",
+      "type": "npc",
+      "id": 20270,
+      "name": "Breka Orc Overlord",
+      "url": "/lu4/npc/20270-breka-orc-overlord"
+    },
+    {
+      "key": "npc:20201",
+      "type": "npc",
+      "id": 20201,
+      "name": "Ghoul",
+      "url": "/lu4/npc/20201-ghoul"
+    },
+    {
+      "key": "npc:20192",
+      "type": "npc",
+      "id": 20192,
+      "name": "Tyrant",
+      "url": "/lu4/npc/20192-tyrant"
     }
   ]
 }

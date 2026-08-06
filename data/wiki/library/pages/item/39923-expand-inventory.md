@@ -1,87 +1,17 @@
-# Lu4 Wiki: Item Expand Inventory
+# Expand Inventory
 
-- Source: https://masterwork.wiki/lu4/item/39923-expand-inventory
+- Source: https://masterwork.wiki/lu4-b-w-c/item/39923-expand-inventory
 - Path: /lu4/item/39923-expand-inventory
 - Type: item
 - Key: item:39923
 
 ## Stats
+- Effect: Personal temporary bonuses: Weight Limit: +50% Size of Inventory: +30 slots Size of Private Warehouse: +50 slots Size of Mail Letter: +8 slots Size of Private Store: +5 slots. The remaining period decreases even during log-off state.
+- Weight: 0
 - Item Skills: Expand Inventory Lv. 1
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Expand Inventory
-Lu4
-Expand Inventory
-3 days
-NG
-Quest Item
-Personal temporary bonuses:
-Weight Limit: +50%
-Size of Inventory: +30 slots
-Size of Private Warehouse: +50 slots
-Size of Mail Letter: +8 slots
-Size of Private Store: +5 slots.
-The remaining period decreases even during log-off state.
-Weight
-0
-Item Skills
-Expand Inventory
-Lv. 1
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Contained In
-Item
-Amount
-Get Type
-Box with Expand Inventory
-3 days
-NG
-Foundation
-1
-Guaranteed
-MasterWork 2026
-All rights reserved
+Expand Inventory 3 days NG Quest Item Personal temporary bonuses: Weight Limit: +50% Size of Inventory: +30 slots Size of Private Warehouse: +50 slots Size of Mail Letter: +8 slots Size of Private Store: +5 slots. The remaining period decreases even during log-off state. Weight 0 Item Skills Expand Inventory Lv. 1 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

@@ -2,70 +2,60 @@
   "key": "npc:5009",
   "type": "npc",
   "id": 5009,
-  "name": "Lu4 Wiki: NPC Hollow Reaver",
+  "name": "Hollow Reaver",
   "url": "/lu4/npc/5009-hollow-reaver",
-  "source_url": "https://masterwork.wiki/lu4/npc/5009-hollow-reaver",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5009-hollow-reaver",
   "raw_html": "library/raw/lu4/npc/5009-hollow-reaver.html",
   "stats": {
-    "Location": "Равнины Неистовства (+1) Равнины Неистовства Земли Адена"
+    "Respawn Time": "18 seconds ± 2 seconds",
+    "Location": "Равнины Неистовства (+1) Равнины Неистовства Земли Адена",
+    "HP / MP": "4 057 / 1 110",
+    "P. Atk. / M. Atk.": "435 / 222",
+    "P. Def. / M. Def.": "257 / 228",
+    "Accuracy / Evasion": "80 / 80",
+    "Exp / SP": "4 143 / 414",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. HP Increase (2x) Lv. 10 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 47"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5009",
-      "type": "npc",
-      "id": 5009,
-      "name": "Lu4",
-      "url": "/lu4/npc/5009-hollow-reaver"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:5550",
+      "key": "item:57",
       "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -73,27 +63,6 @@
       "id": 4043,
       "name": "Asofe NG",
       "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:2080",
-      "type": "item",
-      "id": 2080,
-      "name": "Spirit Sword Blade NG",
-      "url": "/lu4/item/2080-spirit-sword-blade"
-    },
-    {
-      "key": "item:1976",
-      "type": "item",
-      "id": 1976,
-      "name": "Rind Leather Gaiters Material NG",
-      "url": "/lu4/item/1976-rind-leather-gaiters-material"
-    },
-    {
-      "key": "item:1970",
-      "type": "item",
-      "id": 1970,
-      "name": "Robe of Seal Fabric NG",
-      "url": "/lu4/item/1970-robe-of-seal-fabric"
     },
     {
       "key": "item:1880",
@@ -131,11 +100,11 @@
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
-      "key": "item:440",
+      "key": "item:5550",
       "type": "item",
-      "id": 440,
-      "name": "Robe of Seal C",
-      "url": "/lu4/item/440-robe-of-seal"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:419",
@@ -145,6 +114,27 @@
       "url": "/lu4/item/419-rind-leather-gaiters"
     },
     {
+      "key": "item:1976",
+      "type": "item",
+      "id": 1976,
+      "name": "Rind Leather Gaiters Material NG",
+      "url": "/lu4/item/1976-rind-leather-gaiters-material"
+    },
+    {
+      "key": "item:440",
+      "type": "item",
+      "id": 440,
+      "name": "Robe of Seal C",
+      "url": "/lu4/item/440-robe-of-seal"
+    },
+    {
+      "key": "item:1970",
+      "type": "item",
+      "id": 1970,
+      "name": "Robe of Seal Fabric NG",
+      "url": "/lu4/item/1970-robe-of-seal-fabric"
+    },
+    {
       "key": "item:131",
       "type": "item",
       "id": 131,
@@ -152,11 +142,11 @@
       "url": "/lu4/item/131-spirit-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:2080",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2080,
+      "name": "Spirit Sword Blade NG",
+      "url": "/lu4/item/2080-spirit-sword-blade"
     },
     {
       "key": "item:3004",
@@ -166,13 +156,6 @@
       "url": "/lu4/item/3004-recipe-rind-leather-gloves"
     },
     {
-      "key": "item:2947",
-      "type": "item",
-      "id": 2947,
-      "name": "Dwarven Chain Shield Fragment NG",
-      "url": "/lu4/item/2947-dwarven-chain-shield-fragment"
-    },
-    {
       "key": "item:2220",
       "type": "item",
       "id": 2220,
@@ -180,18 +163,25 @@
       "url": "/lu4/item/2220-recipe-rind-leather-armor"
     },
     {
-      "key": "item:2083",
-      "type": "item",
-      "id": 2083,
-      "name": "Stiletto Edge NG",
-      "url": "/lu4/item/2083-stiletto-edge"
-    },
-    {
       "key": "item:1968",
       "type": "item",
       "id": 1968,
       "name": "Dwarven Chain Mail Shirt Material NG",
       "url": "/lu4/item/1968-dwarven-chain-mail-shirt-material"
+    },
+    {
+      "key": "item:2947",
+      "type": "item",
+      "id": 2947,
+      "name": "Dwarven Chain Shield Fragment NG",
+      "url": "/lu4/item/2947-dwarven-chain-shield-fragment"
+    },
+    {
+      "key": "item:2083",
+      "type": "item",
+      "id": 2083,
+      "name": "Stiletto Edge NG",
+      "url": "/lu4/item/2083-stiletto-edge"
     }
   ]
 }

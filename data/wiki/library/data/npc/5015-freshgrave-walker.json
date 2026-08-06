@@ -2,203 +2,74 @@
   "key": "npc:5015",
   "type": "npc",
   "id": 5015,
-  "name": "Lu4 Wiki: NPC Freshgrave Walker",
+  "name": "Freshgrave Walker",
   "url": "/lu4/npc/5015-freshgrave-walker",
-  "source_url": "https://masterwork.wiki/lu4/npc/5015-freshgrave-walker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5015-freshgrave-walker",
   "raw_html": "library/raw/lu4/npc/5015-freshgrave-walker.html",
   "stats": {
-    "Location": "Равнины Неистовства (+1) Равнины Неистовства Кладбище"
+    "Respawn Time": "15 seconds ± 3 seconds",
+    "Location": "Равнины Неистовства (+1) Равнины Неистовства Кладбище",
+    "HP / MP": "2 675 / 1 110",
+    "P. Atk. / M. Atk.": "653 / 726",
+    "P. Def. / M. Def.": "274 / 334",
+    "Accuracy / Evasion": "89 / 89",
+    "Exp / SP": "3 266 / 327",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Strong M. Atk. Lv. 14 Slightly Strong M. Def. Lv. 13 Slightly Weak P. Def. Lv. 9 Sleep Resistance Lv. 3 Slightly resistant to Sleep. Greater Hold Resistance Lv. 3 Highly resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 56"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5015",
-      "type": "npc",
-      "id": 5015,
-      "name": "Lu4",
-      "url": "/lu4/npc/5015-freshgrave-walker"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
-      "key": "location:71",
-      "type": "location",
-      "id": 71,
-      "name": "Кладбище",
-      "url": "/lu4/location/71-kladbise"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 3 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/3"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32587",
-      "type": "item",
-      "id": 32587,
-      "name": "Unidentified Tunic of Zubei B",
-      "url": "/lu4/item/32587-unidentified-tunic-of-zubei"
-    },
-    {
-      "key": "item:32399",
-      "type": "item",
-      "id": 32399,
-      "name": "Unidentified Sealed Avadon Gloves B",
-      "url": "/lu4/item/32399-unidentified-sealed-avadon-gloves"
-    },
-    {
-      "key": "item:32357",
-      "type": "item",
-      "id": 32357,
-      "name": "Unidentified Zubei's Leather Gaiters B",
-      "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:5275",
-      "type": "item",
-      "id": 5275,
-      "name": "Recipe: Greater Spiritshot (B) Compressed Package(100%) NG",
-      "url": "/lu4/item/5275-recipe-greater-spiritshot-b-compressed-package100"
-    },
-    {
-      "key": "item:4921",
-      "type": "item",
-      "id": 4921,
-      "name": "Blueprint: Summon Big Boom NG",
-      "url": "/lu4/item/4921-blueprint-summon-big-boom"
-    },
-    {
-      "key": "item:4073",
-      "type": "item",
-      "id": 4073,
-      "name": "Sealed Avadon Gloves Part NG",
-      "url": "/lu4/item/4073-sealed-avadon-gloves-part"
-    },
-    {
-      "key": "item:4069",
-      "type": "item",
-      "id": 4069,
-      "name": "Tunic of Zubei Fabric NG",
-      "url": "/lu4/item/4069-tunic-of-zubei-fabric"
-    },
-    {
-      "key": "item:4067",
-      "type": "item",
-      "id": 4067,
-      "name": "Zubei's Leather Gaiter Texture NG",
-      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
-    },
-    {
-      "key": "item:4044",
-      "type": "item",
-      "id": 4044,
-      "name": "Thons NG",
-      "url": "/lu4/item/4044-thons"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1806",
-      "type": "item",
-      "id": 1806,
-      "name": "Recipe: Soulshot (B-Grade) NG",
-      "url": "/lu4/item/1806-recipe-soulshot-b-grade"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "item:57",
@@ -208,11 +79,130 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8339",
+      "key": "item:1868",
       "type": "item",
-      "id": 8339,
-      "name": "Spell Breaker Head NG",
-      "url": "/lu4/item/8339-spell-breaker-head"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:4044",
+      "type": "item",
+      "id": 4044,
+      "name": "Thons NG",
+      "url": "/lu4/item/4044-thons"
+    },
+    {
+      "key": "item:5275",
+      "type": "item",
+      "id": 5275,
+      "name": "Recipe: Greater Spiritshot (B) Compressed Package(100%) NG",
+      "url": "/lu4/item/5275-recipe-greater-spiritshot-b-compressed-package100"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:1806",
+      "type": "item",
+      "id": 1806,
+      "name": "Recipe: Soulshot (B-Grade) NG",
+      "url": "/lu4/item/1806-recipe-soulshot-b-grade"
+    },
+    {
+      "key": "item:32399",
+      "type": "item",
+      "id": 32399,
+      "name": "Unidentified Sealed Avadon Gloves B",
+      "url": "/lu4/item/32399-unidentified-sealed-avadon-gloves"
+    },
+    {
+      "key": "item:4073",
+      "type": "item",
+      "id": 4073,
+      "name": "Sealed Avadon Gloves Part NG",
+      "url": "/lu4/item/4073-sealed-avadon-gloves-part"
+    },
+    {
+      "key": "item:32357",
+      "type": "item",
+      "id": 32357,
+      "name": "Unidentified Zubei's Leather Gaiters B",
+      "url": "/lu4/item/32357-unidentified-zubeis-leather-gaiters"
+    },
+    {
+      "key": "item:4067",
+      "type": "item",
+      "id": 4067,
+      "name": "Zubei's Leather Gaiter Texture NG",
+      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
+    },
+    {
+      "key": "item:32587",
+      "type": "item",
+      "id": 32587,
+      "name": "Unidentified Tunic of Zubei B",
+      "url": "/lu4/item/32587-unidentified-tunic-of-zubei"
+    },
+    {
+      "key": "item:4069",
+      "type": "item",
+      "id": 4069,
+      "name": "Tunic of Zubei Fabric NG",
+      "url": "/lu4/item/4069-tunic-of-zubei-fabric"
+    },
+    {
+      "key": "item:4921",
+      "type": "item",
+      "id": 4921,
+      "name": "Blueprint: Summon Big Boom NG",
+      "url": "/lu4/item/4921-blueprint-summon-big-boom"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:4970",
+      "type": "item",
+      "id": 4970,
+      "name": "Recipe: Arthro Nail (60%) NG",
+      "url": "/lu4/item/4970-recipe-arthro-nail-60"
     },
     {
       "key": "item:8322",
@@ -222,11 +212,11 @@
       "url": "/lu4/item/8322-recipe-ice-storm-hammer-60"
     },
     {
-      "key": "item:4970",
+      "key": "item:8339",
       "type": "item",
-      "id": 4970,
-      "name": "Recipe: Arthro Nail (60%) NG",
-      "url": "/lu4/item/4970-recipe-arthro-nail-60"
+      "id": 8339,
+      "name": "Spell Breaker Head NG",
+      "url": "/lu4/item/8339-spell-breaker-head"
     }
   ]
 }

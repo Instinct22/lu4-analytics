@@ -2,40 +2,44 @@
   "key": "npc:21505",
   "type": "npc",
   "id": 21505,
-  "name": "Lu4 Wiki: NPC Alpine Cougar",
+  "name": "Alpine Cougar",
   "url": "/lu4/npc/21505-alpine-cougar",
-  "source_url": "https://masterwork.wiki/lu4/npc/21505-alpine-cougar",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21505-alpine-cougar",
   "raw_html": "library/raw/lu4/npc/21505-alpine-cougar.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "7 568 / 1 618",
+    "P. Atk. / M. Atk.": "1 343 / 831",
+    "P. Def. / M. Def.": "469 / 399",
+    "Accuracy / Evasion": "102 / 102",
+    "Exp / SP": "16 605 / 1 624",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (2x) Lv. 10 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "A",
+    "Type": "Animal, Lv. 69"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21505",
-      "type": "npc",
-      "id": 21505,
-      "name": "Lu4",
-      "url": "/lu4/npc/21505-alpine-cougar"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "item:32337",
@@ -45,53 +49,11 @@
       "url": "/lu4/item/32337-unidentified-bloody-orchid"
     },
     {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
       "key": "item:5536",
       "type": "item",
       "id": 5536,
       "name": "Bloody Orchid Head NG",
       "url": "/lu4/item/5536-bloody-orchid-head"
-    },
-    {
-      "key": "item:5464",
-      "type": "item",
-      "id": 5464,
-      "name": "Recipe: Dark Legion's Edge(60%) NG",
-      "url": "/lu4/item/5464-recipe-dark-legions-edge60"
-    },
-    {
-      "key": "item:5430",
-      "type": "item",
-      "id": 5430,
-      "name": "Recipe: Sealed Helm of Nightmare(60%) NG",
-      "url": "/lu4/item/5430-recipe-sealed-helm-of-nightmare60"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:1864",
@@ -101,11 +63,46 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:5532",
+      "key": "item:1869",
       "type": "item",
-      "id": 5532,
-      "name": "Meteor Shower Head NG",
-      "url": "/lu4/item/5532-meteor-shower-head"
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1880",
+      "type": "item",
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:4043",
+      "type": "item",
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:5430",
+      "type": "item",
+      "id": 5430,
+      "name": "Recipe: Sealed Helm of Nightmare(60%) NG",
+      "url": "/lu4/item/5430-recipe-sealed-helm-of-nightmare60"
+    },
+    {
+      "key": "item:5464",
+      "type": "item",
+      "id": 5464,
+      "name": "Recipe: Dark Legion's Edge(60%) NG",
+      "url": "/lu4/item/5464-recipe-dark-legions-edge60"
+    },
+    {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:5366",
@@ -113,6 +110,13 @@
       "id": 5366,
       "name": "Recipe: Sealed Shield of Nightmare(60%) NG",
       "url": "/lu4/item/5366-recipe-sealed-shield-of-nightmare60"
+    },
+    {
+      "key": "item:5532",
+      "type": "item",
+      "id": 5532,
+      "name": "Meteor Shower Head NG",
+      "url": "/lu4/item/5532-meteor-shower-head"
     }
   ]
 }

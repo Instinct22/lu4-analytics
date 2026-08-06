@@ -2,70 +2,67 @@
   "key": "npc:25038",
   "type": "npc",
   "id": 25038,
-  "name": "Lu4 Wiki: NPC Tirak",
+  "name": "Tirak",
   "url": "/lu4/npc/25038-tirak",
-  "source_url": "https://masterwork.wiki/lu4/npc/25038-tirak",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25038-tirak",
   "raw_html": "library/raw/lu4/npc/25038-tirak.html",
   "stats": {
-    "Location": "Забытый Храм"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Забытый Храм",
+    "HP / MP": "116 582 / 1 552",
+    "P. Atk. / M. Atk.": "270 / 45",
+    "P. Def. / M. Def.": "377 / 424",
+    "Accuracy / Evasion": "79 / 79",
+    "Exp / SP": "560 560 / 74 683",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A servant of the Knight Barion, he gained the body of a devil through the dark magic of the Devil Kernon. He has only a growing anger towards General Karte, who made him a devil, and Karte's loyal officer, Barion. What he doesn't know is that this hatred is magical, inflamed by the schemes of the Devil Kernon. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 28"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25038",
-      "type": "npc",
-      "id": 25038,
-      "name": "Lu4",
-      "url": "/lu4/npc/25038-tirak"
-    },
-    {
-      "key": "location:28",
-      "type": "location",
-      "id": 28,
-      "name": "Забытый Храм",
-      "url": "/lu4/location/28-zabytyj-hram"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4803",
       "type": "skill",
       "id": 4803,
-      "name": "Raid Boss Lv. 1 A servant of the Knight Barion, he gained the body of a devil through the dark magic of the Devil Kernon. He has only a growing anger towards General Karte, who made him a devil, and Karte's loyal officer, Barion. What he doesn't know is that this hatred is magical, inflamed by the schemes of the Devil Kernon.",
-      "url": "/lu4/skill/4803-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4803-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -75,25 +72,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:849",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:2026",
-      "type": "item",
-      "id": 2026,
-      "name": "Two-Handed Sword Edge NG",
-      "url": "/lu4/item/2026-two-handed-sword-edge"
+      "id": 849,
+      "name": "Tiger's Eye Earring D",
+      "url": "/lu4/item/849-tigers-eye-earring"
     },
     {
       "key": "item:1901",
@@ -101,20 +84,6 @@
       "id": 1901,
       "name": "Tiger's Eye Earring Stone NG",
       "url": "/lu4/item/1901-tigers-eye-earring-stone"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "item:912",
@@ -131,11 +100,11 @@
       "url": "/lu4/item/880-black-pearl-ring"
     },
     {
-      "key": "item:849",
+      "key": "item:83",
       "type": "item",
-      "id": 849,
-      "name": "Tiger's Eye Earring D",
-      "url": "/lu4/item/849-tigers-eye-earring"
+      "id": 83,
+      "name": "Sword of Magic D",
+      "url": "/lu4/item/83-sword-of-magic"
     },
     {
       "key": "item:144",
@@ -166,11 +135,39 @@
       "url": "/lu4/item/124-two-handed-sword"
     },
     {
-      "key": "item:83",
+      "key": "item:2026",
       "type": "item",
-      "id": 83,
-      "name": "Sword of Magic D",
-      "url": "/lu4/item/83-sword-of-magic"
+      "id": 2026,
+      "name": "Two-Handed Sword Edge NG",
+      "url": "/lu4/item/2026-two-handed-sword-edge"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25039",

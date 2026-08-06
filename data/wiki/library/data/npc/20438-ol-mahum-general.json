@@ -2,147 +2,67 @@
   "key": "npc:20438",
   "type": "npc",
   "id": 20438,
-  "name": "Lu4 Wiki: NPC Ol Mahum General",
+  "name": "Ol Mahum General",
   "url": "/lu4/npc/20438-ol-mahum-general",
-  "source_url": "https://masterwork.wiki/lu4/npc/20438-ol-mahum-general",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20438-ol-mahum-general",
   "raw_html": "library/raw/lu4/npc/20438-ol-mahum-general.html",
   "stats": {
-    "Location": "Земли Глудио (+1) Земли Глудио Заброшенный Лагерь"
+    "Respawn Time": "15 seconds",
+    "Location": "Земли Глудио (+1) Земли Глудио Заброшенный Лагерь",
+    "HP / MP": "1 766 / 336",
+    "P. Atk. / M. Atk.": "80 / 41",
+    "P. Def. / M. Def.": "154 / 131",
+    "Accuracy / Evasion": "62 / 61",
+    "Exp / SP": "1 742 / 174",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 13",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 26"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20438",
-      "type": "npc",
-      "id": 20438,
-      "name": "Lu4",
-      "url": "/lu4/npc/20438-ol-mahum-general"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:31",
-      "type": "location",
-      "id": 31,
-      "name": "Заброшенный Лагерь",
-      "url": "/lu4/location/31-zabrosennyj-lager"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:1936",
-      "type": "item",
-      "id": 1936,
-      "name": "White Tunic Pattern NG",
-      "url": "/lu4/item/1936-white-tunic-pattern"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:434",
-      "type": "item",
-      "id": 434,
-      "name": "White Tunic D",
-      "url": "/lu4/item/434-white-tunic"
-    },
-    {
-      "key": "item:392",
-      "type": "item",
-      "id": 392,
-      "name": "Lion Skin Shirt D",
-      "url": "/lu4/item/392-lion-skin-shirt"
-    },
-    {
-      "key": "item:182",
-      "type": "item",
-      "id": 182,
-      "name": "Doom Hammer D",
-      "url": "/lu4/item/182-doom-hammer"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -152,18 +72,81 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1937",
+      "key": "item:1875",
       "type": "item",
-      "id": 1937,
-      "name": "Scale Gaiters Fragment NG",
-      "url": "/lu4/item/1937-scale-gaiters-fragment"
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:1933",
+      "key": "item:1879",
       "type": "item",
-      "id": 1933,
-      "name": "Dark Stockings Fabric NG",
-      "url": "/lu4/item/1933-dark-stockings-fabric"
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:182",
+      "type": "item",
+      "id": 182,
+      "name": "Doom Hammer D",
+      "url": "/lu4/item/182-doom-hammer"
+    },
+    {
+      "key": "item:392",
+      "type": "item",
+      "id": 392,
+      "name": "Lion Skin Shirt D",
+      "url": "/lu4/item/392-lion-skin-shirt"
+    },
+    {
+      "key": "item:434",
+      "type": "item",
+      "id": 434,
+      "name": "White Tunic D",
+      "url": "/lu4/item/434-white-tunic"
+    },
+    {
+      "key": "item:1936",
+      "type": "item",
+      "id": 1936,
+      "name": "White Tunic Pattern NG",
+      "url": "/lu4/item/1936-white-tunic-pattern"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:1869",
@@ -173,11 +156,18 @@
       "url": "/lu4/item/1869-iron-ore"
     },
     {
-      "key": "item:1865",
+      "key": "item:1933",
       "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
+      "id": 1933,
+      "name": "Dark Stockings Fabric NG",
+      "url": "/lu4/item/1933-dark-stockings-fabric"
+    },
+    {
+      "key": "item:1937",
+      "type": "item",
+      "id": 1937,
+      "name": "Scale Gaiters Fragment NG",
+      "url": "/lu4/item/1937-scale-gaiters-fragment"
     }
   ]
 }

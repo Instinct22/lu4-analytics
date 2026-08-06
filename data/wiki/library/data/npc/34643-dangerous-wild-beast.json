@@ -2,133 +2,67 @@
   "key": "npc:34643",
   "type": "npc",
   "id": 34643,
-  "name": "Lu4 Wiki: NPC Dangerous Wild Beast",
+  "name": "Dangerous Wild Beast",
   "url": "/lu4/npc/34643-dangerous-wild-beast",
-  "source_url": "https://masterwork.wiki/lu4/npc/34643-dangerous-wild-beast",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/34643-dangerous-wild-beast",
   "raw_html": "library/raw/lu4/npc/34643-dangerous-wild-beast.html",
   "stats": {
-    "Location": "Темный Лес (+1) Темный Лес Жертвенный Лес"
+    "Respawn Time": "25 seconds",
+    "Location": "Темный Лес (+1) Темный Лес Жертвенный Лес",
+    "HP / MP": "1 081 / 283",
+    "P. Atk. / M. Atk.": "69 / 36",
+    "P. Def. / M. Def.": "91 / 74",
+    "Accuracy / Evasion": "53 / 53",
+    "Exp / SP": "1 056 / 106",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 9 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 20"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:34643",
-      "type": "npc",
-      "id": 34643,
-      "name": "Lu4",
-      "url": "/lu4/npc/34643-dangerous-wild-beast"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
-      "key": "location:227",
-      "type": "location",
-      "id": 227,
-      "name": "Жертвенный Лес",
-      "url": "/lu4/location/227-zertvennyj-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:2144",
-      "type": "item",
-      "id": 2144,
-      "name": "Recipe: Compound Braid NG",
-      "url": "/lu4/item/2144-recipe-compound-braid"
-    },
-    {
-      "key": "item:2011",
-      "type": "item",
-      "id": 2011,
-      "name": "Short Spear Edge NG",
-      "url": "/lu4/item/2011-short-spear-edge"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1832",
-      "type": "item",
-      "id": 1832,
-      "name": "Greater Antidote NG",
-      "url": "/lu4/item/1832-greater-antidote"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -145,11 +79,60 @@
       "url": "/lu4/item/15-short-spear"
     },
     {
-      "key": "item:1925",
+      "key": "item:2011",
       "type": "item",
-      "id": 1925,
-      "name": "Leather Gloves Lining NG",
-      "url": "/lu4/item/1925-leather-gloves-lining"
+      "id": 2011,
+      "name": "Short Spear Edge NG",
+      "url": "/lu4/item/2011-short-spear-edge"
+    },
+    {
+      "key": "item:1832",
+      "type": "item",
+      "id": 1832,
+      "name": "Greater Antidote NG",
+      "url": "/lu4/item/1832-greater-antidote"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:2144",
+      "type": "item",
+      "id": 2144,
+      "name": "Recipe: Compound Braid NG",
+      "url": "/lu4/item/2144-recipe-compound-braid"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:735",
@@ -157,6 +140,13 @@
       "id": 735,
       "name": "Alacrity Potion NG",
       "url": "/lu4/item/735-alacrity-potion"
+    },
+    {
+      "key": "item:1925",
+      "type": "item",
+      "id": 1925,
+      "name": "Leather Gloves Lining NG",
+      "url": "/lu4/item/1925-leather-gloves-lining"
     }
   ]
 }

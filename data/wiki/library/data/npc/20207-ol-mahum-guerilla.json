@@ -2,147 +2,60 @@
   "key": "npc:20207",
   "type": "npc",
   "id": 20207,
-  "name": "Lu4 Wiki: NPC Ol Mahum Guerilla",
+  "name": "Ol Mahum Guerilla",
   "url": "/lu4/npc/20207-ol-mahum-guerilla",
-  "source_url": "https://masterwork.wiki/lu4/npc/20207-ol-mahum-guerilla",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20207-ol-mahum-guerilla",
   "raw_html": "library/raw/lu4/npc/20207-ol-mahum-guerilla.html",
   "stats": {
-    "Location": "Холмы Диона (+2) Холмы Диона Лагерь Партизан Земли Диона"
+    "Respawn Time": "25 seconds",
+    "Location": "Холмы Диона (+2) Холмы Диона Лагерь Партизан Земли Диона",
+    "HP / MP": "1 766 / 336",
+    "P. Atk. / M. Atk.": "80 / 46",
+    "P. Def. / M. Def.": "154 / 120",
+    "Accuracy / Evasion": "62 / 61",
+    "Exp / SP": "1 718 / 172",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 26"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20207",
-      "type": "npc",
-      "id": 20207,
-      "name": "Lu4",
-      "url": "/lu4/npc/20207-ol-mahum-guerilla"
-    },
-    {
-      "key": "location:244",
-      "type": "location",
-      "id": 244,
-      "name": "Холмы Диона",
-      "url": "/lu4/location/244-holmy-diona"
-    },
-    {
-      "key": "location:50",
-      "type": "location",
-      "id": 50,
-      "name": "Лагерь Партизан",
-      "url": "/lu4/location/50-lager-partizan"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:2022",
-      "type": "item",
-      "id": 2022,
-      "name": "Mace of Judgment Head NG",
-      "url": "/lu4/item/2022-mace-of-judgment-head"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:292",
-      "type": "item",
-      "id": 292,
-      "name": "Pike D",
-      "url": "/lu4/item/292-pike"
-    },
-    {
-      "key": "item:180",
-      "type": "item",
-      "id": 180,
-      "name": "Mace of Judgment D",
-      "url": "/lu4/item/180-mace-of-judgment"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -152,11 +65,81 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
+      "key": "item:1879",
+      "type": "item",
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
+    },
+    {
       "key": "item:46",
       "type": "item",
       "id": 46,
       "name": "Bronze Helmet D",
       "url": "/lu4/item/46-bronze-helmet"
+    },
+    {
+      "key": "item:180",
+      "type": "item",
+      "id": 180,
+      "name": "Mace of Judgment D",
+      "url": "/lu4/item/180-mace-of-judgment"
+    },
+    {
+      "key": "item:2022",
+      "type": "item",
+      "id": 2022,
+      "name": "Mace of Judgment Head NG",
+      "url": "/lu4/item/2022-mace-of-judgment-head"
+    },
+    {
+      "key": "item:292",
+      "type": "item",
+      "id": 292,
+      "name": "Pike D",
+      "url": "/lu4/item/292-pike"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     }
   ]
 }

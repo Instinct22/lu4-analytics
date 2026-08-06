@@ -2,34 +2,32 @@
   "key": "item:8390",
   "type": "item",
   "id": 8390,
-  "name": "Lu4 Wiki: Item Amulet: War Chant",
+  "name": "Amulet: War Chant",
   "url": "/lu4/item/8390-amulet-war-chant",
-  "source_url": "https://masterwork.wiki/lu4/item/8390-amulet-war-chant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8390-amulet-war-chant",
   "raw_html": "library/raw/lu4/item/8390-amulet-war-chant.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Amulet needed to learn 'War Chant'. Required: Warcryer - Lv. 58 To obtain this item, hunt the Luminun found in Skyshadow Meadow.",
+    "NPC Sell Price": "3 375 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8390",
-      "type": "item",
-      "id": 8390,
-      "name": "Lu4",
-      "url": "/lu4/item/8390-amulet-war-chant"
-    },
-    {
       "key": "npc:22094",
       "type": "npc",
       "id": 22094,
-      "name": "Frost Buffalo Lv. 61",
+      "name": "Frost Buffalo",
       "url": "/lu4/npc/22094-frost-buffalo"
     },
     {
       "key": "npc:20949",
       "type": "npc",
       "id": 20949,
-      "name": "Luminun Lv. 58",
+      "name": "Luminun",
       "url": "/lu4/npc/20949-luminun"
     }
   ]

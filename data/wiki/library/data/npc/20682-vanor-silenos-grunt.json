@@ -2,105 +2,67 @@
   "key": "npc:20682",
   "type": "npc",
   "id": 20682,
-  "name": "Lu4 Wiki: NPC Vanor Silenos Grunt",
+  "name": "Vanor Silenos Grunt",
   "url": "/lu4/npc/20682-vanor-silenos-grunt",
-  "source_url": "https://masterwork.wiki/lu4/npc/20682-vanor-silenos-grunt",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20682-vanor-silenos-grunt",
   "raw_html": "library/raw/lu4/npc/20682-vanor-silenos-grunt.html",
   "stats": {
-    "Location": "Равнины Славы"
+    "Respawn Time": "20 seconds",
+    "Location": "Равнины Славы",
+    "HP / MP": "4 386 / 785",
+    "P. Atk. / M. Atk.": "435 / 198",
+    "P. Def. / M. Def.": "260 / 195",
+    "Accuracy / Evasion": "82 / 81",
+    "Exp / SP": "4 476 / 448",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak M. Def. Lv. 10 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 46"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20682",
-      "type": "npc",
-      "id": 20682,
-      "name": "Lu4",
-      "url": "/lu4/npc/20682-vanor-silenos-grunt"
-    },
-    {
-      "key": "location:209",
-      "type": "location",
-      "id": 209,
-      "name": "Равнины Славы",
-      "url": "/lu4/location/209-ravniny-slavy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:4043",
+      "key": "item:57",
       "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:4039",
-      "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
-    },
-    {
-      "key": "item:2950",
-      "type": "item",
-      "id": 2950,
-      "name": "Gloves of Seal Pattern NG",
-      "url": "/lu4/item/2950-gloves-of-seal-pattern"
-    },
-    {
-      "key": "item:2457",
-      "type": "item",
-      "id": 2457,
-      "name": "Gloves of Seal C",
-      "url": "/lu4/item/2457-gloves-of-seal"
-    },
-    {
-      "key": "item:2323",
-      "type": "item",
-      "id": 2323,
-      "name": "Recipe: Elemental Bow NG",
-      "url": "/lu4/item/2323-recipe-elemental-bow"
-    },
-    {
-      "key": "item:1968",
-      "type": "item",
-      "id": 1968,
-      "name": "Dwarven Chain Mail Shirt Material NG",
-      "url": "/lu4/item/1968-dwarven-chain-mail-shirt-material"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1874",
@@ -124,6 +86,20 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
+      "key": "item:4039",
+      "type": "item",
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
+    },
+    {
+      "key": "item:4043",
+      "type": "item",
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
       "key": "item:355",
       "type": "item",
       "id": 355,
@@ -131,39 +107,39 @@
       "url": "/lu4/item/355-dwarven-chain-mail-shirt"
     },
     {
-      "key": "item:57",
+      "key": "item:1968",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1968,
+      "name": "Dwarven Chain Mail Shirt Material NG",
+      "url": "/lu4/item/1968-dwarven-chain-mail-shirt-material"
     },
     {
-      "key": "item:2316",
+      "key": "item:2457",
       "type": "item",
-      "id": 2316,
-      "name": "Recipe: Katana NG",
-      "url": "/lu4/item/2316-recipe-katana"
+      "id": 2457,
+      "name": "Gloves of Seal C",
+      "url": "/lu4/item/2457-gloves-of-seal"
     },
     {
-      "key": "item:2085",
+      "key": "item:2950",
       "type": "item",
-      "id": 2085,
-      "name": "Elemental Bow Shaft NG",
-      "url": "/lu4/item/2085-elemental-bow-shaft"
+      "id": 2950,
+      "name": "Gloves of Seal Pattern NG",
+      "url": "/lu4/item/2950-gloves-of-seal-pattern"
     },
     {
-      "key": "item:2084",
+      "key": "item:2323",
       "type": "item",
-      "id": 2084,
-      "name": "Soulfire Dirk Blade NG",
-      "url": "/lu4/item/2084-soulfire-dirk-blade"
+      "id": 2323,
+      "name": "Recipe: Elemental Bow NG",
+      "url": "/lu4/item/2323-recipe-elemental-bow"
     },
     {
-      "key": "item:2080",
+      "key": "item:951",
       "type": "item",
-      "id": 2080,
-      "name": "Spirit Sword Blade NG",
-      "url": "/lu4/item/2080-spirit-sword-blade"
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "item:1876",
@@ -173,11 +149,32 @@
       "url": "/lu4/item/1876-mithril-ore"
     },
     {
-      "key": "item:951",
+      "key": "item:2316",
       "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+      "id": 2316,
+      "name": "Recipe: Katana NG",
+      "url": "/lu4/item/2316-recipe-katana"
+    },
+    {
+      "key": "item:2084",
+      "type": "item",
+      "id": 2084,
+      "name": "Soulfire Dirk Blade NG",
+      "url": "/lu4/item/2084-soulfire-dirk-blade"
+    },
+    {
+      "key": "item:2085",
+      "type": "item",
+      "id": 2085,
+      "name": "Elemental Bow Shaft NG",
+      "url": "/lu4/item/2085-elemental-bow-shaft"
+    },
+    {
+      "key": "item:2080",
+      "type": "item",
+      "id": 2080,
+      "name": "Spirit Sword Blade NG",
+      "url": "/lu4/item/2080-spirit-sword-blade"
     }
   ]
 }

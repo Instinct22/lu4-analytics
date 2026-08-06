@@ -2,27 +2,25 @@
   "key": "item:10573",
   "type": "item",
   "id": 10573,
-  "name": "Lu4 Wiki: Item Spellbook: Frost Armor",
+  "name": "Spellbook: Frost Armor",
   "url": "/lu4/item/10573-spellbook-frost-armor",
-  "source_url": "https://masterwork.wiki/lu4/item/10573-spellbook-frost-armor",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/10573-spellbook-frost-armor",
   "raw_html": "library/raw/lu4/item/10573-spellbook-frost-armor.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Frost Armor'. Required: Spellsinger - Lv. 70 To obtain this item, hunt the Lava Wyrm found in Blazing Swamp.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:10573",
-      "type": "item",
-      "id": 10573,
-      "name": "Lu4",
-      "url": "/lu4/item/10573-spellbook-frost-armor"
-    },
-    {
       "key": "npc:21111",
       "type": "npc",
       "id": 21111,
-      "name": "Lava Wyrm Lv. 70",
+      "name": "Lava Wyrm",
       "url": "/lu4/npc/21111-lava-wyrm"
     }
   ]

@@ -2,75 +2,79 @@
   "key": "npc:21191",
   "type": "npc",
   "id": 21191,
-  "name": "Lu4 Wiki: NPC Gigant Cleric",
+  "name": "Gigant Cleric",
   "url": "/lu4/npc/21191-gigant-cleric",
-  "source_url": "https://masterwork.wiki/lu4/npc/21191-gigant-cleric",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21191-gigant-cleric",
   "raw_html": "library/raw/lu4/npc/21191-gigant-cleric.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "4 437 / 458",
+    "P. Atk. / M. Atk.": "247 / 121",
+    "P. Def. / M. Def.": "119 / 138",
+    "Accuracy / Evasion": "76 / 66",
+    "Exp / SP": "5 228 / 300",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks. Sleep Resistance Lv. 5 Resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 33"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21191",
-      "type": "npc",
-      "id": 21191,
-      "name": "Lu4",
-      "url": "/lu4/npc/21191-gigant-cleric"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4336",
       "type": "skill",
       "id": 4336,
-      "name": "Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks.",
-      "url": "/lu4/skill/4336-dark-attack-vulnerability/2"
+      "name": "Dark Attack Vulnerability",
+      "url": "/lu4/skill/4336-dark-attack-vulnerability"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
-      "key": "item:6362",
+      "key": "item:6360",
       "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
+      "id": 6360,
+      "name": "Blue Seal Stone NG",
+      "url": "/lu4/item/6360-blue-seal-stone"
     },
     {
       "key": "item:6361",
@@ -80,11 +84,25 @@
       "url": "/lu4/item/6361-green-seal-stone"
     },
     {
-      "key": "item:6360",
+      "key": "item:6362",
       "type": "item",
-      "id": 6360,
-      "name": "Blue Seal Stone NG",
-      "url": "/lu4/item/6360-blue-seal-stone"
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
+    },
+    {
+      "key": "item:47",
+      "type": "item",
+      "id": 47,
+      "name": "Mithril Helmet D",
+      "url": "/lu4/item/47-mithril-helmet"
+    },
+    {
+      "key": "item:628",
+      "type": "item",
+      "id": 628,
+      "name": "Hoplon D",
+      "url": "/lu4/item/628-hoplon"
     },
     {
       "key": "item:5550",
@@ -122,25 +140,11 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:628",
+      "key": "item:1901",
       "type": "item",
-      "id": 628,
-      "name": "Hoplon D",
-      "url": "/lu4/item/628-hoplon"
-    },
-    {
-      "key": "item:47",
-      "type": "item",
-      "id": 47,
-      "name": "Mithril Helmet D",
-      "url": "/lu4/item/47-mithril-helmet"
-    },
-    {
-      "key": "item:2154",
-      "type": "item",
-      "id": 2154,
-      "name": "Recipe: Elven Earring NG",
-      "url": "/lu4/item/2154-recipe-elven-earring"
+      "id": 1901,
+      "name": "Tiger's Eye Earring Stone NG",
+      "url": "/lu4/item/1901-tigers-eye-earring-stone"
     },
     {
       "key": "item:1938",
@@ -150,11 +154,11 @@
       "url": "/lu4/item/1938-mithril-banded-mail-material"
     },
     {
-      "key": "item:1901",
+      "key": "item:2154",
       "type": "item",
-      "id": 1901,
-      "name": "Tiger's Eye Earring Stone NG",
-      "url": "/lu4/item/1901-tigers-eye-earring-stone"
+      "id": 2154,
+      "name": "Recipe: Elven Earring NG",
+      "url": "/lu4/item/2154-recipe-elven-earring"
     }
   ]
 }

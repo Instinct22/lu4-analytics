@@ -2,77 +2,32 @@
   "key": "npc:20469",
   "type": "npc",
   "id": 20469,
-  "name": "Lu4 Wiki: NPC Kaboo Orc Archer",
+  "name": "Kaboo Orc Archer",
   "url": "/lu4/npc/20469-kaboo-orc-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20469-kaboo-orc-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20469-kaboo-orc-archer",
   "raw_html": "library/raw/lu4/npc/20469-kaboo-orc-archer.html",
   "stats": {
-    "Location": "Эльфийский Лес (+1) Эльфийский Лес Тень Древа Жизни"
+    "Respawn Time": "12 seconds",
+    "Location": "Эльфийский Лес (+1) Эльфийский Лес Тень Древа Жизни",
+    "HP / MP": "209 / 113",
+    "P. Atk. / M. Atk.": "39 / 9",
+    "P. Def. / M. Def.": "54 / 44",
+    "Accuracy / Evasion": "44 / 43",
+    "Exp / SP": "219 / 22",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 8"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20469",
-      "type": "npc",
-      "id": 20469,
-      "name": "Lu4",
-      "url": "/lu4/npc/20469-kaboo-orc-archer"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
-      "key": "location:111",
-      "type": "location",
-      "id": 111,
-      "name": "Тень Древа Жизни",
-      "url": "/lu4/location/111-ten-dreva-zizni"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
-    },
-    {
-      "key": "item:2007",
-      "type": "item",
-      "id": 2007,
-      "name": "Bow Shaft NG",
-      "url": "/lu4/item/2007-bow-shaft"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1833",
-      "type": "item",
-      "id": 1833,
-      "name": "Bandage NG",
-      "url": "/lu4/item/1833-bandage"
-    },
-    {
-      "key": "item:1795",
-      "type": "item",
-      "id": 1795,
-      "name": "Recipe: Leather Shoes NG",
-      "url": "/lu4/item/1795-recipe-leather-shoes"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "item:57",
@@ -89,11 +44,39 @@
       "url": "/lu4/item/14-bow"
     },
     {
-      "key": "item:1864",
+      "key": "item:2007",
       "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
+      "id": 2007,
+      "name": "Bow Shaft NG",
+      "url": "/lu4/item/2007-bow-shaft"
+    },
+    {
+      "key": "item:1795",
+      "type": "item",
+      "id": 1795,
+      "name": "Recipe: Leather Shoes NG",
+      "url": "/lu4/item/1795-recipe-leather-shoes"
+    },
+    {
+      "key": "item:1833",
+      "type": "item",
+      "id": 1833,
+      "name": "Bandage NG",
+      "url": "/lu4/item/1833-bandage"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:1666",
@@ -101,6 +84,13 @@
       "id": 1666,
       "name": "Recipe: Wooden Arrow NG",
       "url": "/lu4/item/1666-recipe-wooden-arrow"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     }
   ]
 }

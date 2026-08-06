@@ -2,70 +2,32 @@
   "key": "npc:20782",
   "type": "npc",
   "id": 20782,
-  "name": "Lu4 Wiki: NPC Ol Mahum Novice",
+  "name": "Ol Mahum Novice",
   "url": "/lu4/npc/20782-ol-mahum-novice",
-  "source_url": "https://masterwork.wiki/lu4/npc/20782-ol-mahum-novice",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20782-ol-mahum-novice",
   "raw_html": "library/raw/lu4/npc/20782-ol-mahum-novice.html",
   "stats": {
-    "Location": "Заброшенный Лагерь"
+    "Respawn Time": "10 seconds",
+    "Location": "Заброшенный Лагерь",
+    "HP / MP": "455 / 204",
+    "P. Atk. / M. Atk.": "47 / 23",
+    "P. Def. / M. Def.": "89 / 72",
+    "Accuracy / Evasion": "53 / 52",
+    "Exp / SP": "478 / 48",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 17"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20782",
-      "type": "npc",
-      "id": 20782,
-      "name": "Lu4",
-      "url": "/lu4/npc/20782-ol-mahum-novice"
-    },
-    {
-      "key": "location:31",
-      "type": "location",
-      "id": 31,
-      "name": "Заброшенный Лагерь",
-      "url": "/lu4/location/31-zabrosennyj-lager"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
-    },
-    {
-      "key": "item:5268",
-      "type": "item",
-      "id": 5268,
-      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:2150",
-      "type": "item",
-      "id": 2150,
-      "name": "Recipe: Blue Diamond Necklace NG",
-      "url": "/lu4/item/2150-recipe-blue-diamond-necklace"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:256",
-      "type": "item",
-      "id": 256,
-      "name": "Cestus NG",
-      "url": "/lu4/item/256-cestus"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "item:57",
@@ -75,11 +37,46 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1924",
+      "key": "item:256",
       "type": "item",
-      "id": 1924,
-      "name": "Leather Helmet Design NG",
-      "url": "/lu4/item/1924-leather-helmet-design"
+      "id": 256,
+      "name": "Cestus NG",
+      "url": "/lu4/item/256-cestus"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:2150",
+      "type": "item",
+      "id": 2150,
+      "name": "Recipe: Blue Diamond Necklace NG",
+      "url": "/lu4/item/2150-recipe-blue-diamond-necklace"
+    },
+    {
+      "key": "item:5268",
+      "type": "item",
+      "id": 5268,
+      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
+    },
+    {
+      "key": "item:1800",
+      "type": "item",
+      "id": 1800,
+      "name": "Recipe: Piece Bone Breastplate NG",
+      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
     },
     {
       "key": "item:1801",
@@ -89,11 +86,11 @@
       "url": "/lu4/item/1801-recipe-piece-bone-gaiters"
     },
     {
-      "key": "item:1800",
+      "key": "item:1924",
       "type": "item",
-      "id": 1800,
-      "name": "Recipe: Piece Bone Breastplate NG",
-      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
+      "id": 1924,
+      "name": "Leather Helmet Design NG",
+      "url": "/lu4/item/1924-leather-helmet-design"
     }
   ]
 }

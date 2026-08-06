@@ -2,154 +2,81 @@
   "key": "npc:20567",
   "type": "npc",
   "id": 20567,
-  "name": "Lu4 Wiki: NPC Enchanted Gargoyle",
+  "name": "Enchanted Gargoyle",
   "url": "/lu4/npc/20567-enchanted-gargoyle",
-  "source_url": "https://masterwork.wiki/lu4/npc/20567-enchanted-gargoyle",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20567-enchanted-gargoyle",
   "raw_html": "library/raw/lu4/npc/20567-enchanted-gargoyle.html",
   "stats": {
-    "Location": "Кратер Башни Слоновой Кости"
+    "Respawn Time": "17 seconds ± 4 seconds",
+    "Location": "Кратер Башни Слоновой Кости",
+    "HP / MP": "1 814 / 719",
+    "P. Atk. / M. Atk.": "419 / 227",
+    "P. Def. / M. Def.": "212 / 170",
+    "Accuracy / Evasion": "77 / 77",
+    "Exp / SP": "1 968 / 197",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20567",
-      "type": "npc",
-      "id": 20567,
-      "name": "Lu4",
-      "url": "/lu4/npc/20567-enchanted-gargoyle"
-    },
-    {
-      "key": "location:239",
-      "type": "location",
-      "id": 239,
-      "name": "Кратер Башни Слоновой Кости",
-      "url": "/lu4/location/239-krater-basni-slonovoj-kosti"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:3002",
-      "type": "item",
-      "id": 3002,
-      "name": "Recipe: Dwarven Chain Gloves NG",
-      "url": "/lu4/item/3002-recipe-dwarven-chain-gloves"
-    },
-    {
-      "key": "item:2086",
-      "type": "item",
-      "id": 2086,
-      "name": "Noble Elven Bow Shaft NG",
-      "url": "/lu4/item/2086-noble-elven-bow-shaft"
-    },
-    {
-      "key": "item:2077",
-      "type": "item",
-      "id": 2077,
-      "name": "Shamshir Blade NG",
-      "url": "/lu4/item/2077-shamshir-blade"
-    },
-    {
-      "key": "item:1974",
-      "type": "item",
-      "id": 1974,
-      "name": "Crimson Boot Fabric NG",
-      "url": "/lu4/item/1974-crimson-boot-fabric"
-    },
-    {
-      "key": "item:1126",
-      "type": "item",
-      "id": 1126,
-      "name": "Crimson Boots C",
-      "url": "/lu4/item/1126-crimson-boots"
-    },
-    {
-      "key": "item:285",
-      "type": "item",
-      "id": 285,
-      "name": "Noble Elven Bow C",
-      "url": "/lu4/item/285-noble-elven-bow"
-    },
-    {
-      "key": "item:73",
-      "type": "item",
-      "id": 73,
-      "name": "Shamshir C",
-      "url": "/lu4/item/73-shamshir"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "item:57",
@@ -159,6 +86,83 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:1126",
+      "type": "item",
+      "id": 1126,
+      "name": "Crimson Boots C",
+      "url": "/lu4/item/1126-crimson-boots"
+    },
+    {
+      "key": "item:1974",
+      "type": "item",
+      "id": 1974,
+      "name": "Crimson Boot Fabric NG",
+      "url": "/lu4/item/1974-crimson-boot-fabric"
+    },
+    {
+      "key": "item:285",
+      "type": "item",
+      "id": 285,
+      "name": "Noble Elven Bow C",
+      "url": "/lu4/item/285-noble-elven-bow"
+    },
+    {
+      "key": "item:2086",
+      "type": "item",
+      "id": 2086,
+      "name": "Noble Elven Bow Shaft NG",
+      "url": "/lu4/item/2086-noble-elven-bow-shaft"
+    },
+    {
+      "key": "item:73",
+      "type": "item",
+      "id": 73,
+      "name": "Shamshir C",
+      "url": "/lu4/item/73-shamshir"
+    },
+    {
+      "key": "item:2077",
+      "type": "item",
+      "id": 2077,
+      "name": "Shamshir Blade NG",
+      "url": "/lu4/item/2077-shamshir-blade"
+    },
+    {
+      "key": "item:3002",
+      "type": "item",
+      "id": 3002,
+      "name": "Recipe: Dwarven Chain Gauntlets NG",
+      "url": "/lu4/item/3002-recipe-dwarven-chain-gauntlets"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
       "key": "item:3003",
       "type": "item",
       "id": 3003,
@@ -166,18 +170,18 @@
       "url": "/lu4/item/3003-recipe-gloves-of-seal"
     },
     {
-      "key": "item:2951",
-      "type": "item",
-      "id": 2951,
-      "name": "Rind Leather Gloves Design NG",
-      "url": "/lu4/item/2951-rind-leather-gloves-design"
-    },
-    {
       "key": "item:2164",
       "type": "item",
       "id": 2164,
       "name": "Recipe: Ring of Protection NG",
       "url": "/lu4/item/2164-recipe-ring-of-protection"
+    },
+    {
+      "key": "item:2951",
+      "type": "item",
+      "id": 2951,
+      "name": "Rind Leather Gloves Design NG",
+      "url": "/lu4/item/2951-rind-leather-gloves-design"
     },
     {
       "key": "item:1975",
@@ -192,13 +196,6 @@
       "id": 1912,
       "name": "Ring of Protection Gemstone NG",
       "url": "/lu4/item/1912-ring-of-protection-gemstone"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     }
   ]
 }

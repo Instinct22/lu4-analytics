@@ -2,91 +2,67 @@
   "key": "npc:20755",
   "type": "npc",
   "id": 20755,
-  "name": "Lu4 Wiki: NPC Talakin",
+  "name": "Talakin",
   "url": "/lu4/npc/20755-talakin",
-  "source_url": "https://masterwork.wiki/lu4/npc/20755-talakin",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20755-talakin",
   "raw_html": "library/raw/lu4/npc/20755-talakin.html",
   "stats": {
-    "Location": "Земли Диона (+1) Земли Диона Лагерь Партизан"
+    "Respawn Time": "46 seconds",
+    "Location": "Земли Диона (+1) Земли Диона Лагерь Партизан",
+    "HP / MP": "2 863 / 405",
+    "P. Atk. / M. Atk.": "113 / 63",
+    "P. Def. / M. Def.": "160 / 126",
+    "Accuracy / Evasion": "66 / 65",
+    "Exp / SP": "2 910 / 291",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 30"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20755",
-      "type": "npc",
-      "id": 20755,
-      "name": "Lu4",
-      "url": "/lu4/npc/20755-talakin"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
-      "key": "location:50",
-      "type": "location",
-      "id": 50,
-      "name": "Лагерь Партизан",
-      "url": "/lu4/location/50-lager-partizan"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:8307",
+      "key": "item:57",
       "type": "item",
-      "id": 8307,
-      "name": "Recipe: Priest Mace (100%) NG",
-      "url": "/lu4/item/8307-recipe-priest-mace-100"
-    },
-    {
-      "key": "item:2262",
-      "type": "item",
-      "id": 2262,
-      "name": "Recipe: Elven Bow NG",
-      "url": "/lu4/item/2262-recipe-elven-bow"
-    },
-    {
-      "key": "item:2027",
-      "type": "item",
-      "id": 2027,
-      "name": "Spiked Club Head NG",
-      "url": "/lu4/item/2027-spiked-club-head"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1882",
@@ -145,13 +121,6 @@
       "url": "/lu4/item/316-sages-blood"
     },
     {
-      "key": "item:157",
-      "type": "item",
-      "id": 157,
-      "name": "Spiked Club D",
-      "url": "/lu4/item/157-spiked-club"
-    },
-    {
       "key": "item:130",
       "type": "item",
       "id": 130,
@@ -159,11 +128,39 @@
       "url": "/lu4/item/130-elven-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:157",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 157,
+      "name": "Spiked Club D",
+      "url": "/lu4/item/157-spiked-club"
+    },
+    {
+      "key": "item:2027",
+      "type": "item",
+      "id": 2027,
+      "name": "Spiked Club Head NG",
+      "url": "/lu4/item/2027-spiked-club-head"
+    },
+    {
+      "key": "item:2262",
+      "type": "item",
+      "id": 2262,
+      "name": "Recipe: Elven Bow NG",
+      "url": "/lu4/item/2262-recipe-elven-bow"
+    },
+    {
+      "key": "item:8307",
+      "type": "item",
+      "id": 8307,
+      "name": "Recipe: Priest Mace (100%) NG",
+      "url": "/lu4/item/8307-recipe-priest-mace-100"
+    },
+    {
+      "key": "item:1061",
+      "type": "item",
+      "id": 1061,
+      "name": "Healing Potion NG",
+      "url": "/lu4/item/1061-healing-potion"
     },
     {
       "key": "item:2042",
@@ -178,13 +175,6 @@
       "id": 1939,
       "name": "Mithril Banded Gaiters Material NG",
       "url": "/lu4/item/1939-mithril-banded-gaiters-material"
-    },
-    {
-      "key": "item:1061",
-      "type": "item",
-      "id": 1061,
-      "name": "Healing Potion NG",
-      "url": "/lu4/item/1061-healing-potion"
     },
     {
       "key": "npc:20756",

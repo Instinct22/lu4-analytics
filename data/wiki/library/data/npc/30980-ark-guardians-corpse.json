@@ -2,42 +2,38 @@
   "key": "npc:30980",
   "type": "npc",
   "id": 30980,
-  "name": "Lu4 Wiki: NPC Ark Guardian's Corpse",
+  "name": "Ark Guardian's Corpse",
   "url": "/lu4/npc/30980-ark-guardians-corpse",
-  "source_url": "https://masterwork.wiki/lu4/npc/30980-ark-guardians-corpse",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30980-ark-guardians-corpse",
   "raw_html": "library/raw/lu4/npc/30980-ark-guardians-corpse.html",
   "stats": {
-    "Location": "Темный Лес"
+    "Respawn Time": "1 minute",
+    "Location": "Темный Лес",
+    "HP / MP": "3 862 / 1 657",
+    "P. Atk. / M. Atk.": "1 304 / 776",
+    "P. Def. / M. Def.": "477 / 382",
+    "Accuracy / Evasion": "113 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% Resist Full Magic Attack Lv. 1",
+    "Type": "Angel, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30980",
-      "type": "npc",
-      "id": 30980,
-      "name": "Lu4",
-      "url": "/lu4/npc/30980-ark-guardians-corpse"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

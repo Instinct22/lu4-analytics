@@ -1,0 +1,38 @@
+{
+  "key": "skill:103",
+  "type": "skill",
+  "id": 103,
+  "name": "Corpse Plague",
+  "url": "/lu4/skill/103-corpse-plague",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/103-corpse-plague",
+  "raw_html": "library/raw/lu4/skill/103-corpse-plague.html",
+  "stats": {
+    "Effect": "Causes a poison cloud to pour out of a corpse. Inflicts poison on enemies near the corpse, and makes them consume 41 HP every second.",
+    "Consumes": "22 MP",
+    "Reuse Time": "5 seconds",
+    "Duration": "30 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_poison",
+    "Cast Range": "400 (900)",
+    "Available For": "Dark AvengerLv. 46Shillien KnightLv. 46",
+    "Type": "Magical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:6",
+      "type": "class",
+      "id": 6,
+      "name": "Dark AvengerLv. 46",
+      "url": "/lu4/class/6-darkavenger"
+    },
+    {
+      "key": "class:33",
+      "type": "class",
+      "id": 33,
+      "name": "Shillien KnightLv. 46",
+      "url": "/lu4/class/33-shillienknight"
+    }
+  ]
+}

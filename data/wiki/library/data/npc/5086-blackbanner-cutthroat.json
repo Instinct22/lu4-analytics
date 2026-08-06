@@ -2,119 +2,95 @@
   "key": "npc:5086",
   "type": "npc",
   "id": 5086,
-  "name": "Lu4 Wiki: NPC Blackbanner Cutthroat",
+  "name": "Blackbanner Cutthroat",
   "url": "/lu4/npc/5086-blackbanner-cutthroat",
-  "source_url": "https://masterwork.wiki/lu4/npc/5086-blackbanner-cutthroat",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5086-blackbanner-cutthroat",
   "raw_html": "library/raw/lu4/npc/5086-blackbanner-cutthroat.html",
   "stats": {
-    "Location": "Земли Адена"
+    "Respawn Time": "35 seconds ± 5 seconds",
+    "Location": "Земли Адена",
+    "HP / MP": "5 460 / 1 110",
+    "P. Atk. / M. Atk.": "835 / 384",
+    "P. Def. / M. Def.": "286 / 243",
+    "Accuracy / Evasion": "127 / 95",
+    "Exp / SP": "5 867 / 587",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Grumpy Lv. 1 Strikes without warning. HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak M. Def. Lv. 10 Slightly Weak P. Def. Lv. 10 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Skill_32534 Lv. 1 Evasion Lv. 1 Increases P. Evasion by 4.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 56"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5086",
-      "type": "npc",
-      "id": 5086,
-      "name": "Lu4",
-      "url": "/lu4/npc/5086-blackbanner-cutthroat"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:32534",
       "type": "skill",
       "id": 32534,
-      "name": "Skill_32534 Lv. 1",
-      "url": "/lu4/skill/32534-skill32534/1"
+      "name": "Skill_32534",
+      "url": "/lu4/skill/32534-skill32534"
     },
     {
       "key": "skill:4093",
       "type": "skill",
       "id": 4093,
-      "name": "Evasion Lv. 1 Increases P. Evasion by 4.",
-      "url": "/lu4/skill/4093-evasion/1"
+      "name": "Evasion",
+      "url": "/lu4/skill/4093-evasion"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32399",
-      "type": "item",
-      "id": 32399,
-      "name": "Unidentified Sealed Avadon Gloves B",
-      "url": "/lu4/item/32399-unidentified-sealed-avadon-gloves"
-    },
-    {
-      "key": "item:32361",
-      "type": "item",
-      "id": 32361,
-      "name": "Unidentified Stockings of Zubei B",
-      "url": "/lu4/item/32361-unidentified-stockings-of-zubei"
-    },
-    {
-      "key": "item:32353",
-      "type": "item",
-      "id": 32353,
-      "name": "Unidentified Avadon Gaiters B",
-      "url": "/lu4/item/32353-unidentified-avadon-gaiters"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5220",
@@ -124,25 +100,11 @@
       "url": "/lu4/item/5220-metal-hardener"
     },
     {
-      "key": "item:4073",
+      "key": "item:1874",
       "type": "item",
-      "id": 4073,
-      "name": "Sealed Avadon Gloves Part NG",
-      "url": "/lu4/item/4073-sealed-avadon-gloves-part"
-    },
-    {
-      "key": "item:4070",
-      "type": "item",
-      "id": 4070,
-      "name": "Stockings of Zubei Fabric NG",
-      "url": "/lu4/item/4070-stockings-of-zubei-fabric"
-    },
-    {
-      "key": "item:4065",
-      "type": "item",
-      "id": 4065,
-      "name": "Avadon Gaiters Material NG",
-      "url": "/lu4/item/4065-avadon-gaiters-material"
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
       "key": "item:1889",
@@ -166,18 +128,53 @@
       "url": "/lu4/item/1878-braided-hemp"
     },
     {
-      "key": "item:1874",
+      "key": "item:49800",
       "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:57",
+      "key": "item:32353",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32353,
+      "name": "Unidentified Avadon Gaiters B",
+      "url": "/lu4/item/32353-unidentified-avadon-gaiters"
+    },
+    {
+      "key": "item:4065",
+      "type": "item",
+      "id": 4065,
+      "name": "Avadon Gaiters Material NG",
+      "url": "/lu4/item/4065-avadon-gaiters-material"
+    },
+    {
+      "key": "item:32361",
+      "type": "item",
+      "id": 32361,
+      "name": "Unidentified Stockings of Zubei B",
+      "url": "/lu4/item/32361-unidentified-stockings-of-zubei"
+    },
+    {
+      "key": "item:4070",
+      "type": "item",
+      "id": 4070,
+      "name": "Stockings of Zubei Fabric NG",
+      "url": "/lu4/item/4070-stockings-of-zubei-fabric"
+    },
+    {
+      "key": "item:32399",
+      "type": "item",
+      "id": 32399,
+      "name": "Unidentified Sealed Avadon Gloves B",
+      "url": "/lu4/item/32399-unidentified-sealed-avadon-gloves"
+    },
+    {
+      "key": "item:4073",
+      "type": "item",
+      "id": 4073,
+      "name": "Sealed Avadon Gloves Part NG",
+      "url": "/lu4/item/4073-sealed-avadon-gloves-part"
     },
     {
       "key": "item:4963",

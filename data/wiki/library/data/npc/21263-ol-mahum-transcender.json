@@ -2,70 +2,46 @@
   "key": "npc:21263",
   "type": "npc",
   "id": 21263,
-  "name": "Lu4 Wiki: NPC Ol Mahum Transcender",
+  "name": "Ol Mahum Transcender",
   "url": "/lu4/npc/21263-ol-mahum-transcender",
-  "source_url": "https://masterwork.wiki/lu4/npc/21263-ol-mahum-transcender",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21263-ol-mahum-transcender",
   "raw_html": "library/raw/lu4/npc/21263-ol-mahum-transcender.html",
   "stats": {
-    "Location": "Лес Разбойников (+1) Лес Разбойников Земли Орена"
+    "Respawn Time": "40 seconds",
+    "Location": "Лес Разбойников (+1) Лес Разбойников Земли Орена",
+    "HP / MP": "7 949 / 1 096",
+    "P. Atk. / M. Atk.": "689 / 363",
+    "P. Def. / M. Def.": "309 / 263",
+    "Accuracy / Evasion": "91 / 90",
+    "Exp / SP": "8 604 / 860",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (3x) Lv. 11",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 55"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21263",
-      "type": "npc",
-      "id": 21263,
-      "name": "Lu4",
-      "url": "/lu4/npc/21263-ol-mahum-transcender"
-    },
-    {
-      "key": "location:233",
-      "type": "location",
-      "id": 233,
-      "name": "Лес Разбойников",
-      "url": "/lu4/location/233-les-razbojnikov"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
-      "key": "item:5550",
+      "key": "item:57",
       "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:5530",
-      "type": "item",
-      "id": 5530,
-      "name": "Berserker Blade Edge NG",
-      "url": "/lu4/item/5530-berserker-blade-edge"
-    },
-    {
-      "key": "item:5286",
-      "type": "item",
-      "id": 5286,
-      "name": "Berserker Blade C",
-      "url": "/lu4/item/5286-berserker-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -73,55 +49,6 @@
       "id": 4043,
       "name": "Asofe NG",
       "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:2966",
-      "type": "item",
-      "id": 2966,
-      "name": "Full Plate Shield Fragment NG",
-      "url": "/lu4/item/2966-full-plate-shield-fragment"
-    },
-    {
-      "key": "item:2960",
-      "type": "item",
-      "id": 2960,
-      "name": "Drake Leather Boots Design NG",
-      "url": "/lu4/item/2960-drake-leather-boots-design"
-    },
-    {
-      "key": "item:2497",
-      "type": "item",
-      "id": 2497,
-      "name": "Full Plate Shield C",
-      "url": "/lu4/item/2497-full-plate-shield"
-    },
-    {
-      "key": "item:2437",
-      "type": "item",
-      "id": 2437,
-      "name": "Drake Leather Boots C",
-      "url": "/lu4/item/2437-drake-leather-boots"
-    },
-    {
-      "key": "item:2118",
-      "type": "item",
-      "id": 2118,
-      "name": "Demon's Staff Head NG",
-      "url": "/lu4/item/2118-demons-staff-head"
-    },
-    {
-      "key": "item:2116",
-      "type": "item",
-      "id": 2116,
-      "name": "Deadman's Staff Head NG",
-      "url": "/lu4/item/2116-deadmans-staff-head"
-    },
-    {
-      "key": "item:1989",
-      "type": "item",
-      "id": 1989,
-      "name": "Divine Stocking Pattern NG",
-      "url": "/lu4/item/1989-divine-stocking-pattern"
     },
     {
       "key": "item:1880",
@@ -152,18 +79,25 @@
       "url": "/lu4/item/1539-greater-healing-potion"
     },
     {
-      "key": "item:473",
+      "key": "item:5550",
       "type": "item",
-      "id": 473,
-      "name": "Divine Stockings C",
-      "url": "/lu4/item/473-divine-stockings"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
-      "key": "item:206",
+      "key": "item:5286",
       "type": "item",
-      "id": 206,
-      "name": "Demon's Staff C",
-      "url": "/lu4/item/206-demons-staff"
+      "id": 5286,
+      "name": "Berserker Blade C",
+      "url": "/lu4/item/5286-berserker-blade"
+    },
+    {
+      "key": "item:5530",
+      "type": "item",
+      "id": 5530,
+      "name": "Berserker Blade Edge NG",
+      "url": "/lu4/item/5530-berserker-blade-edge"
     },
     {
       "key": "item:204",
@@ -173,18 +107,67 @@
       "url": "/lu4/item/204-deadmans-staff"
     },
     {
-      "key": "item:57",
+      "key": "item:2116",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2116,
+      "name": "Deadman's Staff Head NG",
+      "url": "/lu4/item/2116-deadmans-staff-head"
     },
     {
-      "key": "item:8335",
+      "key": "item:206",
       "type": "item",
-      "id": 8335,
-      "name": "Ecliptic Sword Blade NG",
-      "url": "/lu4/item/8335-ecliptic-sword-blade"
+      "id": 206,
+      "name": "Demon's Staff C",
+      "url": "/lu4/item/206-demons-staff"
+    },
+    {
+      "key": "item:2118",
+      "type": "item",
+      "id": 2118,
+      "name": "Demon's Staff Head NG",
+      "url": "/lu4/item/2118-demons-staff-head"
+    },
+    {
+      "key": "item:473",
+      "type": "item",
+      "id": 473,
+      "name": "Divine Stockings C",
+      "url": "/lu4/item/473-divine-stockings"
+    },
+    {
+      "key": "item:1989",
+      "type": "item",
+      "id": 1989,
+      "name": "Divine Stocking Pattern NG",
+      "url": "/lu4/item/1989-divine-stocking-pattern"
+    },
+    {
+      "key": "item:2437",
+      "type": "item",
+      "id": 2437,
+      "name": "Drake Leather Boots C",
+      "url": "/lu4/item/2437-drake-leather-boots"
+    },
+    {
+      "key": "item:2960",
+      "type": "item",
+      "id": 2960,
+      "name": "Drake Leather Boots Design NG",
+      "url": "/lu4/item/2960-drake-leather-boots-design"
+    },
+    {
+      "key": "item:2497",
+      "type": "item",
+      "id": 2497,
+      "name": "Full Plate Shield C",
+      "url": "/lu4/item/2497-full-plate-shield"
+    },
+    {
+      "key": "item:2966",
+      "type": "item",
+      "id": 2966,
+      "name": "Full Plate Shield Fragment NG",
+      "url": "/lu4/item/2966-full-plate-shield-fragment"
     },
     {
       "key": "item:3017",
@@ -194,11 +177,11 @@
       "url": "/lu4/item/3017-recipe-divine-gloves"
     },
     {
-      "key": "item:2969",
+      "key": "item:2359",
       "type": "item",
-      "id": 2969,
-      "name": "Yaksa Mace Head NG",
-      "url": "/lu4/item/2969-yaksa-mace-head"
+      "id": 2359,
+      "name": "Recipe: Eminence Bow NG",
+      "url": "/lu4/item/2359-recipe-eminence-bow"
     },
     {
       "key": "item:2962",
@@ -208,11 +191,18 @@
       "url": "/lu4/item/2962-drake-leather-gloves-design"
     },
     {
-      "key": "item:2359",
+      "key": "item:8335",
       "type": "item",
-      "id": 2359,
-      "name": "Recipe: Eminence Bow NG",
-      "url": "/lu4/item/2359-recipe-eminence-bow"
+      "id": 8335,
+      "name": "Ecliptic Sword Blade NG",
+      "url": "/lu4/item/8335-ecliptic-sword-blade"
+    },
+    {
+      "key": "item:2969",
+      "type": "item",
+      "id": 2969,
+      "name": "Yaksa Mace Head NG",
+      "url": "/lu4/item/2969-yaksa-mace-head"
     }
   ]
 }

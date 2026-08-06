@@ -2,55 +2,24 @@
   "key": "item:2139",
   "type": "item",
   "id": 2139,
-  "name": "Recipe",
+  "name": "Recipe: Steel Mold",
   "url": "/lu4/item/2139-recipe-steel-mold",
-  "source_url": "https://masterwork.wiki/lu4/item/2139-recipe-steel-mold",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2139-recipe-steel-mold",
   "raw_html": "library/raw/lu4/item/2139-recipe-steel-mold.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Steel Mold'. Requires Create Item - Skill Level 2 (Artisan Lv. 20). The success rate is 100%.",
+    "NPC Sell Price": "500 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "20",
     "Success Rate": "100%",
-    "Result": "Steel Mold NG"
+    "Result": "Steel Mold NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "5"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "25"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "5"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "5"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2139",
-      "type": "item",
-      "id": 2139,
-      "name": "Lu4",
-      "url": "/lu4/item/2139-recipe-steel-mold"
-    },
     {
       "key": "item:1878",
       "type": "item",
@@ -90,70 +59,70 @@
       "key": "npc:21117",
       "type": "npc",
       "id": 21117,
-      "name": "Kasha Imp Lv. 19",
+      "name": "Kasha Imp",
       "url": "/lu4/npc/21117-kasha-imp"
     },
     {
       "key": "npc:20543",
       "type": "npc",
       "id": 20543,
-      "name": "Ghost Lv. 20",
+      "name": "Ghost",
       "url": "/lu4/npc/20543-ghost"
     },
     {
       "key": "npc:20483",
       "type": "npc",
       "id": 20483,
-      "name": "Corpse Candle Lv. 17",
+      "name": "Corpse Candle",
       "url": "/lu4/npc/20483-corpse-candle"
     },
     {
       "key": "npc:20416",
       "type": "npc",
       "id": 20416,
-      "name": "Scarlet Salamander Elder Lv. 18",
+      "name": "Scarlet Salamander Elder",
       "url": "/lu4/npc/20416-scarlet-salamander-elder"
     },
     {
       "key": "npc:20115",
       "type": "npc",
       "id": 20115,
-      "name": "Undine Noble Lv. 19",
+      "name": "Undine Noble",
       "url": "/lu4/npc/20115-undine-noble"
     },
     {
       "key": "npc:20029",
       "type": "npc",
       "id": 20029,
-      "name": "Ruin Zombie Leader Lv. 16",
+      "name": "Ruin Zombie Leader",
       "url": "/lu4/npc/20029-ruin-zombie-leader"
     },
     {
       "key": "npc:20292",
       "type": "npc",
       "id": 20292,
-      "name": "Enku Orc Shaman Lv. 20",
+      "name": "Enku Orc Shaman",
       "url": "/lu4/npc/20292-enku-orc-shaman"
     },
     {
       "key": "npc:20047",
       "type": "npc",
       "id": 20047,
-      "name": "Sukar Wererat Leader Lv. 19",
+      "name": "Sukar Wererat Leader",
       "url": "/lu4/npc/20047-sukar-wererat-leader"
     },
     {
       "key": "npc:20046",
       "type": "npc",
       "id": 20046,
-      "name": "Stink Zombie Lv. 19",
+      "name": "Stink Zombie",
       "url": "/lu4/npc/20046-stink-zombie"
     },
     {
       "key": "npc:20033",
       "type": "npc",
       "id": 20033,
-      "name": "Shade Horror Lv. 17",
+      "name": "Shade Horror",
       "url": "/lu4/npc/20033-shade-horror"
     }
   ]

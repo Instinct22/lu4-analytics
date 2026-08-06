@@ -2,91 +2,74 @@
   "key": "npc:21134",
   "type": "npc",
   "id": 21134,
-  "name": "Lu4 Wiki: NPC Dead Pit Spartoi",
+  "name": "Dead Pit Spartoi",
   "url": "/lu4/npc/21134-dead-pit-spartoi",
-  "source_url": "https://masterwork.wiki/lu4/npc/21134-dead-pit-spartoi",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21134-dead-pit-spartoi",
   "raw_html": "library/raw/lu4/npc/21134-dead-pit-spartoi.html",
   "stats": {
-    "Location": "Мифриловый Рудник"
+    "Respawn Time": "40 seconds",
+    "Location": "Мифриловый Рудник",
+    "HP / MP": "2 365 / 336",
+    "P. Atk. / M. Atk.": "97 / 48",
+    "P. Def. / M. Def.": "114 / 101",
+    "Accuracy / Evasion": "59 / 69",
+    "Exp / SP": "2 325 / 232",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 26"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21134",
-      "type": "npc",
-      "id": 21134,
-      "name": "Lu4",
-      "url": "/lu4/npc/21134-dead-pit-spartoi"
-    },
-    {
-      "key": "location:65",
-      "type": "location",
-      "id": 65,
-      "name": "Мифриловый Рудник",
-      "url": "/lu4/location/65-mifrilovyj-rudnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:1879",
+      "key": "item:57",
       "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1865",
@@ -96,6 +79,27 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
+      "key": "item:1879",
+      "type": "item",
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
+    },
+    {
       "key": "item:627",
       "type": "item",
       "id": 627,
@@ -103,18 +107,11 @@
       "url": "/lu4/item/627-aspis"
     },
     {
-      "key": "item:466",
+      "key": "item:182",
       "type": "item",
-      "id": 466,
-      "name": "Elven Stockings D",
-      "url": "/lu4/item/466-elven-stockings"
-    },
-    {
-      "key": "item:392",
-      "type": "item",
-      "id": 392,
-      "name": "Lion Skin Shirt D",
-      "url": "/lu4/item/392-lion-skin-shirt"
+      "id": 182,
+      "name": "Doom Hammer D",
+      "url": "/lu4/item/182-doom-hammer"
     },
     {
       "key": "item:222",
@@ -131,25 +128,18 @@
       "url": "/lu4/item/185-staff-of-mana"
     },
     {
-      "key": "item:182",
+      "key": "item:466",
       "type": "item",
-      "id": 182,
-      "name": "Doom Hammer D",
-      "url": "/lu4/item/182-doom-hammer"
+      "id": 466,
+      "name": "Elven Stockings D",
+      "url": "/lu4/item/466-elven-stockings"
     },
     {
-      "key": "item:57",
+      "key": "item:392",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:2264",
-      "type": "item",
-      "id": 2264,
-      "name": "Recipe: Two-handed Sword NG",
-      "url": "/lu4/item/2264-recipe-two-handed-sword"
+      "id": 392,
+      "name": "Lion Skin Shirt D",
+      "url": "/lu4/item/392-lion-skin-shirt"
     },
     {
       "key": "item:2263",
@@ -157,6 +147,13 @@
       "id": 2263,
       "name": "Recipe: Dwarven Trident NG",
       "url": "/lu4/item/2263-recipe-dwarven-trident"
+    },
+    {
+      "key": "item:2264",
+      "type": "item",
+      "id": 2264,
+      "name": "Recipe: Two-handed Sword NG",
+      "url": "/lu4/item/2264-recipe-two-handed-sword"
     },
     {
       "key": "item:2025",

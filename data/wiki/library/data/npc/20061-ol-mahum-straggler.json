@@ -2,161 +2,60 @@
   "key": "npc:20061",
   "type": "npc",
   "id": 20061,
-  "name": "Lu4 Wiki: NPC Ol Mahum Straggler",
+  "name": "Ol Mahum Straggler",
   "url": "/lu4/npc/20061-ol-mahum-straggler",
-  "source_url": "https://masterwork.wiki/lu4/npc/20061-ol-mahum-straggler",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20061-ol-mahum-straggler",
   "raw_html": "library/raw/lu4/npc/20061-ol-mahum-straggler.html",
   "stats": {
-    "Location": "Заброшенный Лагерь (+2) Заброшенный Лагерь Застава Гноллов Земли Глудио"
+    "Respawn Time": "25 seconds",
+    "Location": "Заброшенный Лагерь (+2) Заброшенный Лагерь Застава Гноллов Земли Глудио",
+    "HP / MP": "1 330 / 285",
+    "P. Atk. / M. Atk.": "88 / 38",
+    "P. Def. / M. Def.": "103 / 82",
+    "Accuracy / Evasion": "59 / 58",
+    "Exp / SP": "1 271 / 127",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 23"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20061",
-      "type": "npc",
-      "id": 20061,
-      "name": "Lu4",
-      "url": "/lu4/npc/20061-ol-mahum-straggler"
-    },
-    {
-      "key": "location:31",
-      "type": "location",
-      "id": 31,
-      "name": "Заброшенный Лагерь",
-      "url": "/lu4/location/31-zabrosennyj-lager"
-    },
-    {
-      "key": "location:248",
-      "type": "location",
-      "id": 248,
-      "name": "Застава Гноллов",
-      "url": "/lu4/location/248-zastava-gnollov"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5268",
-      "type": "item",
-      "id": 5268,
-      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:2016",
-      "type": "item",
-      "id": 2016,
-      "name": "Composite Bow Shaft NG",
-      "url": "/lu4/item/2016-composite-bow-shaft"
-    },
-    {
-      "key": "item:1934",
-      "type": "item",
-      "id": 1934,
-      "name": "Crafted Leather Gloves Lining NG",
-      "url": "/lu4/item/1934-crafted-leather-gloves-lining"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:604",
-      "type": "item",
-      "id": 604,
-      "name": "Crafted Leather Gloves D",
-      "url": "/lu4/item/604-crafted-leather-gloves"
-    },
-    {
-      "key": "item:312",
-      "type": "item",
-      "id": 312,
-      "name": "Branch of Life D",
-      "url": "/lu4/item/312-branch-of-life"
-    },
-    {
-      "key": "item:273",
-      "type": "item",
-      "id": 273,
-      "name": "Composite Bow NG",
-      "url": "/lu4/item/273-composite-bow"
-    },
-    {
-      "key": "item:258",
-      "type": "item",
-      "id": 258,
-      "name": "Bagh-Nakh D",
-      "url": "/lu4/item/258-bagh-nakh"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -166,11 +65,88 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1927",
+      "key": "item:273",
       "type": "item",
-      "id": 1927,
-      "name": "Hard Leather Shirt Pattern NG",
-      "url": "/lu4/item/1927-hard-leather-shirt-pattern"
+      "id": 273,
+      "name": "Composite Bow NG",
+      "url": "/lu4/item/273-composite-bow"
+    },
+    {
+      "key": "item:2016",
+      "type": "item",
+      "id": 2016,
+      "name": "Composite Bow Shaft NG",
+      "url": "/lu4/item/2016-composite-bow-shaft"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:5268",
+      "type": "item",
+      "id": 5268,
+      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
+    },
+    {
+      "key": "item:258",
+      "type": "item",
+      "id": 258,
+      "name": "Bagh-Nakh D",
+      "url": "/lu4/item/258-bagh-nakh"
+    },
+    {
+      "key": "item:312",
+      "type": "item",
+      "id": 312,
+      "name": "Branch of Life D",
+      "url": "/lu4/item/312-branch-of-life"
+    },
+    {
+      "key": "item:604",
+      "type": "item",
+      "id": 604,
+      "name": "Crafted Leather Gloves D",
+      "url": "/lu4/item/604-crafted-leather-gloves"
+    },
+    {
+      "key": "item:1934",
+      "type": "item",
+      "id": 1934,
+      "name": "Crafted Leather Gloves Lining NG",
+      "url": "/lu4/item/1934-crafted-leather-gloves-lining"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:1880",
@@ -178,6 +154,13 @@
       "id": 1880,
       "name": "Steel NG",
       "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:1927",
+      "type": "item",
+      "id": 1927,
+      "name": "Hard Leather Shirt Pattern NG",
+      "url": "/lu4/item/1927-hard-leather-shirt-pattern"
     }
   ]
 }

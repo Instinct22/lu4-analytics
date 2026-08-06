@@ -1,0 +1,37 @@
+{
+  "key": "skill:121",
+  "type": "skill",
+  "id": 121,
+  "name": "Battle Roar",
+  "url": "/lu4/skill/121-battle-roar",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/121-battle-roar",
+  "raw_html": "library/raw/lu4/skill/121-battle-roar.html",
+  "stats": {
+    "Effect": "Regenerates 12% of the user's original HP and increases the user's Max HP by 12%.",
+    "Consumes": "18 MP",
+    "Reuse Time": "2 minutes, 30 seconds",
+    "Duration": "20 minutes",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "WarriorLv. 28Orc RaiderLv. 28",
+    "Type": "Physical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:1",
+      "type": "class",
+      "id": 1,
+      "name": "WarriorLv. 28",
+      "url": "/lu4/class/1-warrior"
+    },
+    {
+      "key": "class:45",
+      "type": "class",
+      "id": 45,
+      "name": "Orc RaiderLv. 28",
+      "url": "/lu4/class/45-orcraider"
+    }
+  ]
+}

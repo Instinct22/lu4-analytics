@@ -2,63 +2,60 @@
   "key": "npc:21103",
   "type": "npc",
   "id": 21103,
-  "name": "Lu4 Wiki: NPC Roughly Hewn Rock Golem",
+  "name": "Roughly Hewn Rock Golem",
   "url": "/lu4/npc/21103-roughly-hewn-rock-golem",
-  "source_url": "https://masterwork.wiki/lu4/npc/21103-roughly-hewn-rock-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21103-roughly-hewn-rock-golem",
   "raw_html": "library/raw/lu4/npc/21103-roughly-hewn-rock-golem.html",
   "stats": {
-    "Location": "Угодья Флорана"
+    "Respawn Time": "17 seconds",
+    "Location": "Угодья Флорана",
+    "HP / MP": "1 042 / 423",
+    "P. Atk. / M. Atk.": "140 / 69",
+    "P. Def. / M. Def.": "167 / 120",
+    "Accuracy / Evasion": "64 / 64",
+    "Exp / SP": "1 094 / 109",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 31"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21103",
-      "type": "npc",
-      "id": 21103,
-      "name": "Lu4",
-      "url": "/lu4/npc/21103-roughly-hewn-rock-golem"
-    },
-    {
-      "key": "location:242",
-      "type": "location",
-      "id": 242,
-      "name": "Угодья Флорана",
-      "url": "/lu4/location/242-ugoda-florana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:5550",
+      "key": "item:57",
       "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5549",
@@ -66,20 +63,6 @@
       "id": 5549,
       "name": "Metallic Thread NG",
       "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:2422",
-      "type": "item",
-      "id": 2422,
-      "name": "Reinforced Leather Boots D",
-      "url": "/lu4/item/2422-reinforced-leather-boots"
-    },
-    {
-      "key": "item:1901",
-      "type": "item",
-      "id": 1901,
-      "name": "Tiger's Eye Earring Stone NG",
-      "url": "/lu4/item/1901-tigers-eye-earring-stone"
     },
     {
       "key": "item:1885",
@@ -110,11 +93,11 @@
       "url": "/lu4/item/1061-healing-potion"
     },
     {
-      "key": "item:849",
+      "key": "item:5550",
       "type": "item",
-      "id": 849,
-      "name": "Tiger's Eye Earring D",
-      "url": "/lu4/item/849-tigers-eye-earring"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:127",
@@ -124,18 +107,32 @@
       "url": "/lu4/item/127-crimson-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:2422",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2422,
+      "name": "Reinforced Leather Boots D",
+      "url": "/lu4/item/2422-reinforced-leather-boots"
     },
     {
-      "key": "item:2265",
+      "key": "item:849",
       "type": "item",
-      "id": 2265,
-      "name": "Recipe: Spiked Club NG",
-      "url": "/lu4/item/2265-recipe-spiked-club"
+      "id": 849,
+      "name": "Tiger's Eye Earring D",
+      "url": "/lu4/item/849-tigers-eye-earring"
+    },
+    {
+      "key": "item:1901",
+      "type": "item",
+      "id": 1901,
+      "name": "Tiger's Eye Earring Stone NG",
+      "url": "/lu4/item/1901-tigers-eye-earring-stone"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "item:2262",
@@ -145,18 +142,18 @@
       "url": "/lu4/item/2262-recipe-elven-bow"
     },
     {
+      "key": "item:2265",
+      "type": "item",
+      "id": 2265,
+      "name": "Recipe: Spiked Club NG",
+      "url": "/lu4/item/2265-recipe-spiked-club"
+    },
+    {
       "key": "item:2029",
       "type": "item",
       "id": 2029,
       "name": "Gastraphetes Shaft NG",
       "url": "/lu4/item/2029-gastraphetes-shaft"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     }
   ]
 }

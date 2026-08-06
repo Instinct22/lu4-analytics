@@ -2,208 +2,143 @@
   "key": "npc:36628",
   "type": "npc",
   "id": 36628,
-  "name": "Lu4 Wiki: NPC Wren Kain",
+  "name": "Wren Kain",
   "url": "/lu4/npc/36628-wren-kain",
-  "source_url": "https://masterwork.wiki/lu4/npc/36628-wren-kain",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/36628-wren-kain",
   "raw_html": "library/raw/lu4/npc/36628-wren-kain.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "65 000 / 2 110",
+    "P. Atk. / M. Atk.": "2 500 / 2 500",
+    "P. Def. / M. Def.": "1 190 / 1 050",
+    "Max Acquired Damage": "3250",
+    "Accuracy / Evasion": "113 / 113",
+    "Exp / SP": "261 950 / 26 000",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Lethal Immunity Lv. 1 Not today. Mana Burn Resistance Lv. 6 Immune against Vampiric Rage. Greater Sleep Resistance Lv. 5 Sleep Immunity. Greater Hold Resistance Lv. 5 Hold Immunity. Greater Paralyze Resistance Lv. 5 Paralyze Immunity. Greater Mental Attack Resistance Lv. 5 Silence/Fear Immunity. High Stun Attack Resistance Lv. 5 Stun Immunity.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 65"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:36628",
-      "type": "npc",
-      "id": 36628,
-      "name": "Lu4",
-      "url": "/lu4/npc/36628-wren-kain"
-    },
     {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:32433",
       "type": "skill",
       "id": 32433,
-      "name": "Mana Burn Resistance Lv. 6 Immune against Vampiric Rage.",
-      "url": "/lu4/skill/32433-mana-burn-resistance/6"
+      "name": "Mana Burn Resistance",
+      "url": "/lu4/skill/32433-mana-burn-resistance"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 5 Sleep Immunity.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/5"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 5 Hold Immunity.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/5"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "skill:4440",
       "type": "skill",
       "id": 4440,
-      "name": "Greater Paralyze Resistance Lv. 5 Paralyze Immunity.",
-      "url": "/lu4/skill/4440-greater-paralyze-resistance/5"
+      "name": "Greater Paralyze Resistance",
+      "url": "/lu4/skill/4440-greater-paralyze-resistance"
     },
     {
       "key": "skill:4441",
       "type": "skill",
       "id": 4441,
-      "name": "Greater Mental Attack Resistance Lv. 5 Silence/Fear Immunity.",
-      "url": "/lu4/skill/4441-greater-mental-attack-resistance/5"
+      "name": "Greater Mental Attack Resistance",
+      "url": "/lu4/skill/4441-greater-mental-attack-resistance"
     },
     {
       "key": "skill:4435",
       "type": "skill",
       "id": 4435,
-      "name": "High Stun Attack Resistance Lv. 5 Stun Immunity.",
-      "url": "/lu4/skill/4435-high-stun-attack-resistance/5"
+      "name": "High Stun Attack Resistance",
+      "url": "/lu4/skill/4435-high-stun-attack-resistance"
     },
     {
-      "key": "item:36185",
+      "key": "item:57",
       "type": "item",
-      "id": 36185,
-      "name": "Superior-Grade Life Stone NG Foundation",
-      "url": "/lu4/item/36185-superior-grade-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:32439",
+      "key": "item:1465",
       "type": "item",
-      "id": 32439,
-      "name": "Unidentified Star Buster B",
-      "url": "/lu4/item/32439-unidentified-star-buster"
+      "id": 1465,
+      "name": "Soulshot (B-Grade) B",
+      "url": "/lu4/item/1465-soulshot-b-grade"
     },
     {
-      "key": "item:32430",
+      "key": "item:3950",
       "type": "item",
-      "id": 32430,
-      "name": "Unidentified Guardian Sword B",
-      "url": "/lu4/item/32430-unidentified-guardian-sword"
+      "id": 3950,
+      "name": "Blessed Spiritshot (B-Grade) B",
+      "url": "/lu4/item/3950-blessed-spiritshot-b-grade"
     },
     {
-      "key": "item:32404",
+      "key": "item:1539",
       "type": "item",
-      "id": 32404,
-      "name": "Unidentified Sealed Blue Wolf Boots B",
-      "url": "/lu4/item/32404-unidentified-sealed-blue-wolf-boots"
+      "id": 1539,
+      "name": "Greater Healing Potion NG",
+      "url": "/lu4/item/1539-greater-healing-potion"
     },
     {
-      "key": "item:32400",
+      "key": "item:1374",
       "type": "item",
-      "id": 32400,
-      "name": "Unidentified Sealed Blue Wolf Gloves B",
-      "url": "/lu4/item/32400-unidentified-sealed-blue-wolf-gloves"
+      "id": 1374,
+      "name": "Greater Haste Potion NG",
+      "url": "/lu4/item/1374-greater-haste-potion"
     },
     {
-      "key": "item:32365",
+      "key": "item:1375",
       "type": "item",
-      "id": 32365,
-      "name": "Unidentified Blue Wolf Helmet B",
-      "url": "/lu4/item/32365-unidentified-blue-wolf-helmet"
+      "id": 1375,
+      "name": "Greater Swift Attack Potion NG",
+      "url": "/lu4/item/1375-greater-swift-attack-potion"
     },
     {
-      "key": "item:32354",
+      "key": "item:6036",
       "type": "item",
-      "id": 32354,
-      "name": "Unidentified Blue Wolf Gaiters B",
-      "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
+      "id": 6036,
+      "name": "Greater Magic Haste Potion NG",
+      "url": "/lu4/item/6036-greater-magic-haste-potion"
     },
     {
-      "key": "item:32351",
+      "key": "item:8625",
       "type": "item",
-      "id": 32351,
-      "name": "Unidentified Blue Wolf Breastplate B",
-      "url": "/lu4/item/32351-unidentified-blue-wolf-breastplate"
-    },
-    {
-      "key": "item:32341",
-      "type": "item",
-      "id": 32341,
-      "name": "Unidentified Bellion Cestus B",
-      "url": "/lu4/item/32341-unidentified-bellion-cestus"
-    },
-    {
-      "key": "item:32326",
-      "type": "item",
-      "id": 32326,
-      "name": "Unidentified Lance B",
-      "url": "/lu4/item/32326-unidentified-lance"
-    },
-    {
-      "key": "item:12763",
-      "type": "item",
-      "id": 12763,
-      "name": "Accessory Life Stone - Necklace NG",
-      "url": "/lu4/item/12763-accessory-life-stone-necklace"
-    },
-    {
-      "key": "item:12762",
-      "type": "item",
-      "id": 12762,
-      "name": "Accessory Life Stone - Earring NG",
-      "url": "/lu4/item/12762-accessory-life-stone-earring"
-    },
-    {
-      "key": "item:12761",
-      "type": "item",
-      "id": 12761,
-      "name": "Accessory Life Stone - Ring NG",
-      "url": "/lu4/item/12761-accessory-life-stone-ring"
-    },
-    {
-      "key": "item:8762",
-      "type": "item",
-      "id": 8762,
-      "name": "Top-Grade Life Stone NG",
-      "url": "/lu4/item/8762-top-grade-life-stone"
-    },
-    {
-      "key": "item:8752",
-      "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
-    },
-    {
-      "key": "item:8742",
-      "type": "item",
-      "id": 8742,
-      "name": "Mid-Grade Life Stone NG",
-      "url": "/lu4/item/8742-mid-grade-life-stone"
-    },
-    {
-      "key": "item:8732",
-      "type": "item",
-      "id": 8732,
-      "name": "Life Stone NG",
-      "url": "/lu4/item/8732-life-stone"
-    },
-    {
-      "key": "item:8637",
-      "type": "item",
-      "id": 8637,
-      "name": "Elixir of CP (B-Grade) 52-63 B",
-      "url": "/lu4/item/8637-elixir-of-cp-b-grade"
+      "id": 8625,
+      "name": "Elixir of HP (B-Grade) 52-63 B",
+      "url": "/lu4/item/8625-elixir-of-hp-b-grade"
     },
     {
       "key": "item:8631",
@@ -213,11 +148,81 @@
       "url": "/lu4/item/8631-elixir-of-mp-b-grade"
     },
     {
-      "key": "item:8625",
+      "key": "item:8637",
       "type": "item",
-      "id": 8625,
-      "name": "Elixir of HP (B-Grade) 52-63 B",
-      "url": "/lu4/item/8625-elixir-of-hp-b-grade"
+      "id": 8637,
+      "name": "Elixir of CP (B-Grade) 52-63 B",
+      "url": "/lu4/item/8637-elixir-of-cp-b-grade"
+    },
+    {
+      "key": "item:1538",
+      "type": "item",
+      "id": 1538,
+      "name": "Blessed Scroll of Escape NG",
+      "url": "/lu4/item/1538-blessed-scroll-of-escape"
+    },
+    {
+      "key": "item:3936",
+      "type": "item",
+      "id": 3936,
+      "name": "Blessed Scroll of Resurrection NG",
+      "url": "/lu4/item/3936-blessed-scroll-of-resurrection"
+    },
+    {
+      "key": "item:12761",
+      "type": "item",
+      "id": 12761,
+      "name": "Accessory Life Stone - Ring NG",
+      "url": "/lu4/item/12761-accessory-life-stone-ring"
+    },
+    {
+      "key": "item:12762",
+      "type": "item",
+      "id": 12762,
+      "name": "Accessory Life Stone - Earring NG",
+      "url": "/lu4/item/12762-accessory-life-stone-earring"
+    },
+    {
+      "key": "item:12763",
+      "type": "item",
+      "id": 12763,
+      "name": "Accessory Life Stone - Necklace NG",
+      "url": "/lu4/item/12763-accessory-life-stone-necklace"
+    },
+    {
+      "key": "item:8732",
+      "type": "item",
+      "id": 8732,
+      "name": "Life Stone NG",
+      "url": "/lu4/item/8732-life-stone"
+    },
+    {
+      "key": "item:8742",
+      "type": "item",
+      "id": 8742,
+      "name": "Mid-Grade Life Stone NG",
+      "url": "/lu4/item/8742-mid-grade-life-stone"
+    },
+    {
+      "key": "item:8752",
+      "type": "item",
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
+    },
+    {
+      "key": "item:8762",
+      "type": "item",
+      "id": 8762,
+      "name": "Top-Grade Life Stone NG",
+      "url": "/lu4/item/8762-top-grade-life-stone"
+    },
+    {
+      "key": "item:36185",
+      "type": "item",
+      "id": 36185,
+      "name": "Superior-Grade Life Stone NG Foundation",
+      "url": "/lu4/item/36185-superior-grade-life-stone"
     }
   ]
 }

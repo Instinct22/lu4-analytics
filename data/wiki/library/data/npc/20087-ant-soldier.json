@@ -2,98 +2,74 @@
   "key": "npc:20087",
   "type": "npc",
   "id": 20087,
-  "name": "Lu4 Wiki: NPC Ant Soldier",
+  "name": "Ant Soldier",
   "url": "/lu4/npc/20087-ant-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/20087-ant-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20087-ant-soldier",
   "raw_html": "library/raw/lu4/npc/20087-ant-soldier.html",
   "stats": {
-    "Location": "Муравейник"
+    "Respawn Time": "37 seconds ± 12 seconds",
+    "Location": "Муравейник",
+    "HP / MP": "2 357 / 495",
+    "P. Atk. / M. Atk.": "227 / 96",
+    "P. Def. / M. Def.": "162 / 125",
+    "Accuracy / Evasion": "68 / 73",
+    "Exp / SP": "2 316 / 232",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 HP Increase (2x) Lv. 10 Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 35"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20087",
-      "type": "npc",
-      "id": 20087,
-      "name": "Lu4",
-      "url": "/lu4/npc/20087-ant-soldier"
-    },
-    {
-      "key": "location:17",
-      "type": "location",
-      "id": 17,
-      "name": "Муравейник",
-      "url": "/lu4/location/17-muravejnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:2919",
+      "key": "item:57",
       "type": "item",
-      "id": 2919,
-      "name": "Brigandine Gaiters Material NG",
-      "url": "/lu4/item/2919-brigandine-gaiters-material"
-    },
-    {
-      "key": "item:2378",
-      "type": "item",
-      "id": 2378,
-      "name": "Brigandine Gaiters D",
-      "url": "/lu4/item/2378-brigandine-gaiters"
-    },
-    {
-      "key": "item:2044",
-      "type": "item",
-      "id": 2044,
-      "name": "Cursed Maingauche Edge NG",
-      "url": "/lu4/item/2044-cursed-maingauche-edge"
-    },
-    {
-      "key": "item:1947",
-      "type": "item",
-      "id": 1947,
-      "name": "Kite Shield Fragment NG",
-      "url": "/lu4/item/1947-kite-shield-fragment"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1877",
@@ -124,11 +100,32 @@
       "url": "/lu4/item/1832-greater-antidote"
     },
     {
+      "key": "item:2378",
+      "type": "item",
+      "id": 2378,
+      "name": "Brigandine Gaiters D",
+      "url": "/lu4/item/2378-brigandine-gaiters"
+    },
+    {
+      "key": "item:2919",
+      "type": "item",
+      "id": 2919,
+      "name": "Brigandine Gaiters Material NG",
+      "url": "/lu4/item/2919-brigandine-gaiters-material"
+    },
+    {
       "key": "item:1660",
       "type": "item",
       "id": 1660,
       "name": "Cursed Maingauche D",
       "url": "/lu4/item/1660-cursed-maingauche"
+    },
+    {
+      "key": "item:2044",
+      "type": "item",
+      "id": 2044,
+      "name": "Cursed Maingauche Edge NG",
+      "url": "/lu4/item/2044-cursed-maingauche-edge"
     },
     {
       "key": "item:629",
@@ -138,11 +135,11 @@
       "url": "/lu4/item/629-kite-shield"
     },
     {
-      "key": "item:57",
+      "key": "item:1947",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1947,
+      "name": "Kite Shield Fragment NG",
+      "url": "/lu4/item/1947-kite-shield-fragment"
     },
     {
       "key": "item:2187",

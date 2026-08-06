@@ -2,112 +2,74 @@
   "key": "npc:5060",
   "type": "npc",
   "id": 5060,
-  "name": "Lu4 Wiki: NPC Phantom Castellan",
+  "name": "Phantom Castellan",
   "url": "/lu4/npc/5060-phantom-castellan",
-  "source_url": "https://masterwork.wiki/lu4/npc/5060-phantom-castellan",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5060-phantom-castellan",
   "raw_html": "library/raw/lu4/npc/5060-phantom-castellan.html",
   "stats": {
-    "Location": "Земли Адена"
+    "Respawn Time": "38 seconds ± 5 seconds",
+    "Location": "Земли Адена",
+    "HP / MP": "6 841 / 1 110",
+    "P. Atk. / M. Atk.": "809 / 450",
+    "P. Def. / M. Def.": "452 / 358",
+    "Accuracy / Evasion": "93 / 93",
+    "Exp / SP": "7 542 / 754",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. HP Increase (2x) Lv. 10 Slightly Strong M. Def. Lv. 12 Slightly Strong P. Def. Lv. 12 Bow/Crossbow Resistance Lv. 2 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 60"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5060",
-      "type": "npc",
-      "id": 5060,
-      "name": "Lu4",
-      "url": "/lu4/npc/5060-phantom-castellan"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 2 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/2"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:32591",
+      "key": "item:57",
       "type": "item",
-      "id": 32591,
-      "name": "Unidentified Avadon Shield B",
-      "url": "/lu4/item/32591-unidentified-avadon-shield"
-    },
-    {
-      "key": "item:32403",
-      "type": "item",
-      "id": 32403,
-      "name": "Unidentified Sealed Avadon Boots B",
-      "url": "/lu4/item/32403-unidentified-sealed-avadon-boots"
-    },
-    {
-      "key": "item:32358",
-      "type": "item",
-      "id": 32358,
-      "name": "Unidentified Avadon Leather Armor B",
-      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
-    },
-    {
-      "key": "item:4439",
-      "type": "item",
-      "id": 4439,
-      "name": "Avadon Shield Fragment NG",
-      "url": "/lu4/item/4439-avadon-shield-fragment"
-    },
-    {
-      "key": "item:4098",
-      "type": "item",
-      "id": 4098,
-      "name": "Sealed Avadon Boots Design NG",
-      "url": "/lu4/item/4098-sealed-avadon-boots-design"
-    },
-    {
-      "key": "item:4068",
-      "type": "item",
-      "id": 4068,
-      "name": "Avadon Leather Armor Lining NG",
-      "url": "/lu4/item/4068-avadon-leather-armor-lining"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -145,11 +107,46 @@
       "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:32358",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32358,
+      "name": "Unidentified Avadon Leather Armor B",
+      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
+    },
+    {
+      "key": "item:4068",
+      "type": "item",
+      "id": 4068,
+      "name": "Avadon Leather Armor Lining NG",
+      "url": "/lu4/item/4068-avadon-leather-armor-lining"
+    },
+    {
+      "key": "item:32591",
+      "type": "item",
+      "id": 32591,
+      "name": "Unidentified Avadon Shield B",
+      "url": "/lu4/item/32591-unidentified-avadon-shield"
+    },
+    {
+      "key": "item:4439",
+      "type": "item",
+      "id": 4439,
+      "name": "Avadon Shield Fragment NG",
+      "url": "/lu4/item/4439-avadon-shield-fragment"
+    },
+    {
+      "key": "item:32403",
+      "type": "item",
+      "id": 32403,
+      "name": "Unidentified Sealed Avadon Boots B",
+      "url": "/lu4/item/32403-unidentified-sealed-avadon-boots"
+    },
+    {
+      "key": "item:4098",
+      "type": "item",
+      "id": 4098,
+      "name": "Sealed Avadon Boots Design NG",
+      "url": "/lu4/item/4098-sealed-avadon-boots-design"
     },
     {
       "key": "item:4972",

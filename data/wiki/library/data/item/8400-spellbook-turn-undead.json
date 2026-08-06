@@ -2,34 +2,32 @@
   "key": "item:8400",
   "type": "item",
   "id": 8400,
-  "name": "Lu4 Wiki: Item Spellbook: Turn Undead",
+  "name": "Spellbook: Turn Undead",
   "url": "/lu4/item/8400-spellbook-turn-undead",
-  "source_url": "https://masterwork.wiki/lu4/item/8400-spellbook-turn-undead",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8400-spellbook-turn-undead",
   "raw_html": "library/raw/lu4/item/8400-spellbook-turn-undead.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Turn Undead'. Required: Bishop - Lv. 56 Prophet - Lv. 56 Elven Elder - Lv. 56 Shillien Elder - Lv. 56 To obtain this item, hunt the Pobby Escort found in Skyshadow Meadow.",
+    "NPC Sell Price": "3 125 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8400",
-      "type": "item",
-      "id": 8400,
-      "name": "Lu4",
-      "url": "/lu4/item/8400-spellbook-turn-undead"
-    },
-    {
       "key": "npc:22084",
       "type": "npc",
       "id": 22084,
-      "name": "Panthera Lv. 56",
+      "name": "Panthera",
       "url": "/lu4/npc/22084-panthera"
     },
     {
       "key": "npc:20952",
       "type": "npc",
       "id": 20952,
-      "name": "Pobby Escort Lv. 55",
+      "name": "Pobby Escort",
       "url": "/lu4/npc/20952-pobby-escort"
     }
   ]

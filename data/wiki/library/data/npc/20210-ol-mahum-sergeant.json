@@ -2,91 +2,67 @@
   "key": "npc:20210",
   "type": "npc",
   "id": 20210,
-  "name": "Lu4 Wiki: NPC Ol Mahum Sergeant",
+  "name": "Ol Mahum Sergeant",
   "url": "/lu4/npc/20210-ol-mahum-sergeant",
-  "source_url": "https://masterwork.wiki/lu4/npc/20210-ol-mahum-sergeant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20210-ol-mahum-sergeant",
   "raw_html": "library/raw/lu4/npc/20210-ol-mahum-sergeant.html",
   "stats": {
-    "Location": "Холмы Диона (+2) Холмы Диона Лагерь Партизан Земли Диона"
+    "Respawn Time": "25 seconds",
+    "Location": "Холмы Диона (+2) Холмы Диона Лагерь Партизан Земли Диона",
+    "HP / MP": "2 045 / 387",
+    "P. Atk. / M. Atk.": "98 / 56",
+    "P. Def. / M. Def.": "170 / 132",
+    "Accuracy / Evasion": "65 / 64",
+    "Exp / SP": "2 002 / 200",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 29"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20210",
-      "type": "npc",
-      "id": 20210,
-      "name": "Lu4",
-      "url": "/lu4/npc/20210-ol-mahum-sergeant"
-    },
-    {
-      "key": "location:244",
-      "type": "location",
-      "id": 244,
-      "name": "Холмы Диона",
-      "url": "/lu4/location/244-holmy-diona"
-    },
-    {
-      "key": "location:50",
-      "type": "location",
-      "id": 50,
-      "name": "Лагерь Партизан",
-      "url": "/lu4/location/50-lager-partizan"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:5549",
+      "key": "item:57",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:2423",
-      "type": "item",
-      "id": 2423,
-      "name": "Boots of Knowledge D",
-      "url": "/lu4/item/2423-boots-of-knowledge"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1889",
@@ -110,18 +86,18 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:143",
+      "key": "item:5549",
       "type": "item",
-      "id": 143,
-      "name": "Sword of Mystic D",
-      "url": "/lu4/item/143-sword-of-mystic"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:2423",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2423,
+      "name": "Boots of Knowledge D",
+      "url": "/lu4/item/2423-boots-of-knowledge"
     },
     {
       "key": "item:47",
@@ -129,6 +105,13 @@
       "id": 47,
       "name": "Mithril Helmet D",
       "url": "/lu4/item/47-mithril-helmet"
+    },
+    {
+      "key": "item:143",
+      "type": "item",
+      "id": 143,
+      "name": "Sword of Mystic D",
+      "url": "/lu4/item/143-sword-of-mystic"
     }
   ]
 }

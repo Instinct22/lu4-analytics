@@ -2,56 +2,32 @@
   "key": "npc:20536",
   "type": "npc",
   "id": 20536,
-  "name": "Lu4 Wiki: NPC Elder Brown Keltir",
+  "name": "Elder Brown Keltir",
   "url": "/lu4/npc/20536-elder-brown-keltir",
-  "source_url": "https://masterwork.wiki/lu4/npc/20536-elder-brown-keltir",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20536-elder-brown-keltir",
   "raw_html": "library/raw/lu4/npc/20536-elder-brown-keltir.html",
   "stats": {
-    "Location": "Сад Шилен"
+    "Respawn Time": "8 seconds",
+    "Location": "Сад Шилен",
+    "HP / MP": "106 / 67",
+    "P. Atk. / M. Atk.": "12 / 5",
+    "P. Def. / M. Def.": "42 / 33",
+    "Accuracy / Evasion": "36 / 36",
+    "Exp / SP": "111 / 11",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 3"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20536",
-      "type": "npc",
-      "id": 20536,
-      "name": "Lu4",
-      "url": "/lu4/npc/20536-elder-brown-keltir"
-    },
-    {
-      "key": "location:224",
-      "type": "location",
-      "id": 224,
-      "name": "Сад Шилен",
-      "url": "/lu4/location/224-sad-silen"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1787",
-      "type": "item",
-      "id": 1787,
-      "name": "Recipe: Willow Staff NG",
-      "url": "/lu4/item/1787-recipe-willow-staff"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "item:57",
@@ -68,11 +44,32 @@
       "url": "/lu4/item/13-short-bow"
     },
     {
-      "key": "item:1871",
+      "key": "item:1787",
       "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 1787,
+      "name": "Recipe: Willow Staff NG",
+      "url": "/lu4/item/1787-recipe-willow-staff"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:18",
+      "type": "item",
+      "id": 18,
+      "name": "Leather Shield NG",
+      "url": "/lu4/item/18-leather-shield"
     },
     {
       "key": "item:1788",
@@ -82,11 +79,11 @@
       "url": "/lu4/item/1788-recipe-bow"
     },
     {
-      "key": "item:18",
+      "key": "item:1871",
       "type": "item",
-      "id": 18,
-      "name": "Leather Shield NG",
-      "url": "/lu4/item/18-leather-shield"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
     }
   ]
 }

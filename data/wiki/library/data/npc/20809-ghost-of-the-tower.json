@@ -2,189 +2,74 @@
   "key": "npc:20809",
   "type": "npc",
   "id": 20809,
-  "name": "Lu4 Wiki: NPC Ghost of the Tower",
+  "name": "Ghost of the Tower",
   "url": "/lu4/npc/20809-ghost-of-the-tower",
-  "source_url": "https://masterwork.wiki/lu4/npc/20809-ghost-of-the-tower",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20809-ghost-of-the-tower",
   "raw_html": "library/raw/lu4/npc/20809-ghost-of-the-tower.html",
   "stats": {
-    "Location": "Башня Дерзости: 1-й этаж"
+    "Respawn Time": "2 minutes, 35 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 1-й этаж",
+    "HP / MP": "19 510 / 1 277",
+    "P. Atk. / M. Atk.": "1 376 / 1 574",
+    "P. Def. / M. Def.": "512 / 411",
+    "Accuracy / Evasion": "96 / 96",
+    "Exp / SP": "35 708 / 3 571",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 15 Slightly Strong M. Def. Lv. 13 Strong P. Def. Lv. 14 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 63"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20809",
-      "type": "npc",
-      "id": 20809,
-      "name": "Lu4",
-      "url": "/lu4/npc/20809-ghost-of-the-tower"
-    },
-    {
-      "key": "location:84",
-      "type": "location",
-      "id": 84,
-      "name": "Башня Дерзости: 1-й этаж",
-      "url": "/lu4/location/84-basna-derzosti-1-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 15",
-      "url": "/lu4/skill/4411-strong-m-atk/15"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
-    },
-    {
-      "key": "item:49800",
-      "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:39290",
-      "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32589",
-      "type": "item",
-      "id": 32589,
-      "name": "Unidentified Tunic of Doom B",
-      "url": "/lu4/item/32589-unidentified-tunic-of-doom"
-    },
-    {
-      "key": "item:32430",
-      "type": "item",
-      "id": 32430,
-      "name": "Unidentified Guardian Sword B",
-      "url": "/lu4/item/32430-unidentified-guardian-sword"
-    },
-    {
-      "key": "item:32333",
-      "type": "item",
-      "id": 32333,
-      "name": "Unidentified Deadman's Glory B",
-      "url": "/lu4/item/32333-unidentified-deadmans-glory"
-    },
-    {
-      "key": "item:8330",
-      "type": "item",
-      "id": 8330,
-      "name": "Guardian Sword Blade NG",
-      "url": "/lu4/item/8330-guardian-sword-blade"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:4116",
-      "type": "item",
-      "id": 4116,
-      "name": "Deadman's Glory Stone NG",
-      "url": "/lu4/item/4116-deadmans-glory-stone"
-    },
-    {
-      "key": "item:4085",
-      "type": "item",
-      "id": 4085,
-      "name": "Tunic of Doom Pattern NG",
-      "url": "/lu4/item/4085-tunic-of-doom-pattern"
-    },
-    {
-      "key": "item:4044",
-      "type": "item",
-      "id": 4044,
-      "name": "Thons NG",
-      "url": "/lu4/item/4044-thons"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "item:57",
@@ -194,11 +79,116 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:4096",
+      "key": "item:5549",
       "type": "item",
-      "id": 4096,
-      "name": "Sealed Blue Wolf Gloves Fabric NG",
-      "url": "/lu4/item/4096-sealed-blue-wolf-gloves-fabric"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:4044",
+      "type": "item",
+      "id": 4044,
+      "name": "Thons NG",
+      "url": "/lu4/item/4044-thons"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:39290",
+      "type": "item",
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
+    },
+    {
+      "key": "item:32333",
+      "type": "item",
+      "id": 32333,
+      "name": "Unidentified Deadman's Glory B",
+      "url": "/lu4/item/32333-unidentified-deadmans-glory"
+    },
+    {
+      "key": "item:4116",
+      "type": "item",
+      "id": 4116,
+      "name": "Deadman's Glory Stone NG",
+      "url": "/lu4/item/4116-deadmans-glory-stone"
+    },
+    {
+      "key": "item:32430",
+      "type": "item",
+      "id": 32430,
+      "name": "Unidentified Guardian Sword B",
+      "url": "/lu4/item/32430-unidentified-guardian-sword"
+    },
+    {
+      "key": "item:8330",
+      "type": "item",
+      "id": 8330,
+      "name": "Guardian Sword Blade NG",
+      "url": "/lu4/item/8330-guardian-sword-blade"
+    },
+    {
+      "key": "item:32589",
+      "type": "item",
+      "id": 32589,
+      "name": "Unidentified Tunic of Doom B",
+      "url": "/lu4/item/32589-unidentified-tunic-of-doom"
+    },
+    {
+      "key": "item:4085",
+      "type": "item",
+      "id": 4085,
+      "name": "Tunic of Doom Pattern NG",
+      "url": "/lu4/item/4085-tunic-of-doom-pattern"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:4080",
@@ -206,6 +196,13 @@
       "id": 4080,
       "name": "Blue Wolf Gaiters Material NG",
       "url": "/lu4/item/4080-blue-wolf-gaiters-material"
+    },
+    {
+      "key": "item:4096",
+      "type": "item",
+      "id": 4096,
+      "name": "Sealed Blue Wolf Gloves Fabric NG",
+      "url": "/lu4/item/4096-sealed-blue-wolf-gloves-fabric"
     }
   ]
 }
