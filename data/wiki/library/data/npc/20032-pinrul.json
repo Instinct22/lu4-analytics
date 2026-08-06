@@ -2,105 +2,67 @@
   "key": "npc:20032",
   "type": "npc",
   "id": 20032,
-  "name": "Lu4 Wiki: NPC Pinrul",
+  "name": "Pinrul",
   "url": "/lu4/npc/20032-pinrul",
-  "source_url": "https://masterwork.wiki/lu4/npc/20032-pinrul",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20032-pinrul",
   "raw_html": "library/raw/lu4/npc/20032-pinrul.html",
   "stats": {
-    "Location": "Охотничьи Угодья Зла"
+    "Respawn Time": "15 seconds",
+    "Location": "Охотничьи Угодья Зла",
+    "HP / MP": "432 / 204",
+    "P. Atk. / M. Atk.": "54 / 29",
+    "P. Def. / M. Def.": "84 / 65",
+    "Accuracy / Evasion": "50 / 55",
+    "Exp / SP": "463 / 46",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 17"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20032",
-      "type": "npc",
-      "id": 20032,
-      "name": "Lu4",
-      "url": "/lu4/npc/20032-pinrul"
-    },
-    {
-      "key": "location:229",
-      "type": "location",
-      "id": 229,
-      "name": "Охотничьи Угодья Зла",
-      "url": "/lu4/location/229-ohotnici-ugoda-zla"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
-    },
-    {
-      "key": "item:2141",
-      "type": "item",
-      "id": 2141,
-      "name": "Recipe: Silver Mold NG",
-      "url": "/lu4/item/2141-recipe-silver-mold"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:412",
-      "type": "item",
-      "id": 412,
-      "name": "Cotton Pants NG",
-      "url": "/lu4/item/412-cotton-pants"
-    },
-    {
-      "key": "item:390",
-      "type": "item",
-      "id": 390,
-      "name": "Cotton Shirt NG",
-      "url": "/lu4/item/390-cotton-shirt"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
       "key": "item:57",
@@ -110,13 +72,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:31",
-      "type": "item",
-      "id": 31,
-      "name": "Bone Gaiters NG",
-      "url": "/lu4/item/31-bone-gaiters"
-    },
-    {
       "key": "item:24",
       "type": "item",
       "id": 24,
@@ -124,11 +79,53 @@
       "url": "/lu4/item/24-bone-breastplate"
     },
     {
-      "key": "item:1868",
+      "key": "item:31",
       "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "id": 31,
+      "name": "Bone Gaiters NG",
+      "url": "/lu4/item/31-bone-gaiters"
+    },
+    {
+      "key": "item:390",
+      "type": "item",
+      "id": 390,
+      "name": "Cotton Shirt NG",
+      "url": "/lu4/item/390-cotton-shirt"
+    },
+    {
+      "key": "item:412",
+      "type": "item",
+      "id": 412,
+      "name": "Cotton Pants NG",
+      "url": "/lu4/item/412-cotton-pants"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:2141",
+      "type": "item",
+      "id": 2141,
+      "name": "Recipe: Silver Mold NG",
+      "url": "/lu4/item/2141-recipe-silver-mold"
+    },
+    {
+      "key": "item:734",
+      "type": "item",
+      "id": 734,
+      "name": "Haste Potion NG",
+      "url": "/lu4/item/734-haste-potion"
     },
     {
       "key": "item:1800",
@@ -138,11 +135,11 @@
       "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
     },
     {
-      "key": "item:734",
+      "key": "item:1868",
       "type": "item",
-      "id": 734,
-      "name": "Haste Potion NG",
-      "url": "/lu4/item/734-haste-potion"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     }
   ]
 }

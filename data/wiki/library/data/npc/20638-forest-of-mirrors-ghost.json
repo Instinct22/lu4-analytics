@@ -2,133 +2,88 @@
   "key": "npc:20638",
   "type": "npc",
   "id": 20638,
-  "name": "Lu4 Wiki: NPC Forest of Mirrors Ghost",
+  "name": "Forest of Mirrors Ghost",
   "url": "/lu4/npc/20638-forest-of-mirrors-ghost",
-  "source_url": "https://masterwork.wiki/lu4/npc/20638-forest-of-mirrors-ghost",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20638-forest-of-mirrors-ghost",
   "raw_html": "library/raw/lu4/npc/20638-forest-of-mirrors-ghost.html",
   "stats": {
-    "Location": "Лес Зеркал"
+    "Respawn Time": "26 seconds",
+    "Location": "Лес Зеркал",
+    "HP / MP": "4 203 / 852",
+    "P. Atk. / M. Atk.": "528 / 236",
+    "P. Def. / M. Def.": "238 / 192",
+    "Accuracy / Evasion": "81 / 85",
+    "Exp / SP": "4 286 / 429",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Evasion Lv. 1 Increases P. Evasion by 4.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 48"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20638",
-      "type": "npc",
-      "id": 20638,
-      "name": "Lu4",
-      "url": "/lu4/npc/20638-forest-of-mirrors-ghost"
-    },
-    {
-      "key": "location:68",
-      "type": "location",
-      "id": 68,
-      "name": "Лес Зеркал",
-      "url": "/lu4/location/68-les-zerkal"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4093",
       "type": "skill",
       "id": 4093,
-      "name": "Evasion Lv. 1 Increases P. Evasion by 4.",
-      "url": "/lu4/skill/4093-evasion/1"
+      "name": "Evasion",
+      "url": "/lu4/skill/4093-evasion"
     },
     {
-      "key": "item:8296",
+      "key": "item:57",
       "type": "item",
-      "id": 8296,
-      "name": "Recipe: Pa'agrian Sword (100%) NG",
-      "url": "/lu4/item/8296-recipe-paagrian-sword-100"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
-    },
-    {
-      "key": "item:2344",
-      "type": "item",
-      "id": 2344,
-      "name": "Recipe: Grace Dagger NG",
-      "url": "/lu4/item/2344-recipe-grace-dagger"
-    },
-    {
-      "key": "item:2224",
-      "type": "item",
-      "id": 2224,
-      "name": "Recipe: Demon's Tunic NG",
-      "url": "/lu4/item/2224-recipe-demons-tunic"
-    },
-    {
-      "key": "item:2105",
-      "type": "item",
-      "id": 2105,
-      "name": "Mace of Underworld Head NG",
-      "url": "/lu4/item/2105-mace-of-underworld-head"
-    },
-    {
-      "key": "item:2099",
-      "type": "item",
-      "id": 2099,
-      "name": "Stick of Eternity Shaft NG",
-      "url": "/lu4/item/2099-stick-of-eternity-shaft"
-    },
-    {
-      "key": "item:1981",
-      "type": "item",
-      "id": 1981,
-      "name": "Composite Gauntlets Design NG",
-      "url": "/lu4/item/1981-composite-gauntlets-design"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1894",
@@ -166,11 +121,11 @@
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
-      "key": "item:608",
+      "key": "item:4042",
       "type": "item",
-      "id": 608,
-      "name": "Composite Gauntlets C",
-      "url": "/lu4/item/608-composite-gauntlets"
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
     },
     {
       "key": "item:202",
@@ -180,6 +135,13 @@
       "url": "/lu4/item/202-mace-of-underworld"
     },
     {
+      "key": "item:2105",
+      "type": "item",
+      "id": 2105,
+      "name": "Mace of Underworld Head NG",
+      "url": "/lu4/item/2105-mace-of-underworld-head"
+    },
+    {
       "key": "item:196",
       "type": "item",
       "id": 196,
@@ -187,25 +149,53 @@
       "url": "/lu4/item/196-stick-of-eternity"
     },
     {
-      "key": "item:57",
+      "key": "item:2099",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2099,
+      "name": "Stick of Eternity Shaft NG",
+      "url": "/lu4/item/2099-stick-of-eternity-shaft"
     },
     {
-      "key": "item:8345",
+      "key": "item:608",
       "type": "item",
-      "id": 8345,
-      "name": "Karik Horn Piece NG",
-      "url": "/lu4/item/8345-karik-horn-piece"
+      "id": 608,
+      "name": "Composite Gauntlets C",
+      "url": "/lu4/item/608-composite-gauntlets"
     },
     {
-      "key": "item:2968",
+      "key": "item:1981",
       "type": "item",
-      "id": 2968,
-      "name": "Dwarven War Hammer Head NG",
-      "url": "/lu4/item/2968-dwarven-war-hammer-head"
+      "id": 1981,
+      "name": "Composite Gauntlets Design NG",
+      "url": "/lu4/item/1981-composite-gauntlets-design"
+    },
+    {
+      "key": "item:2224",
+      "type": "item",
+      "id": 2224,
+      "name": "Recipe: Demon's Tunic NG",
+      "url": "/lu4/item/2224-recipe-demons-tunic"
+    },
+    {
+      "key": "item:2344",
+      "type": "item",
+      "id": 2344,
+      "name": "Recipe: Grace Dagger NG",
+      "url": "/lu4/item/2344-recipe-grace-dagger"
+    },
+    {
+      "key": "item:8296",
+      "type": "item",
+      "id": 8296,
+      "name": "Recipe: Pa'agrian Sword (100%) NG",
+      "url": "/lu4/item/8296-recipe-paagrian-sword-100"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:2346",
@@ -229,11 +219,18 @@
       "url": "/lu4/item/2107-dark-screamer-edge"
     },
     {
-      "key": "item:1873",
+      "key": "item:2968",
       "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 2968,
+      "name": "Dwarven War Hammer Head NG",
+      "url": "/lu4/item/2968-dwarven-war-hammer-head"
+    },
+    {
+      "key": "item:8345",
+      "type": "item",
+      "id": 8345,
+      "name": "Karik Horn Piece NG",
+      "url": "/lu4/item/8345-karik-horn-piece"
     }
   ]
 }

@@ -2,91 +2,95 @@
   "key": "npc:20099",
   "type": "npc",
   "id": 20099,
-  "name": "Lu4 Wiki: NPC Skeleton",
+  "name": "Skeleton",
   "url": "/lu4/npc/20099-skeleton",
-  "source_url": "https://masterwork.wiki/lu4/npc/20099-skeleton",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20099-skeleton",
   "raw_html": "library/raw/lu4/npc/20099-skeleton.html",
   "stats": {
-    "Location": "Эльфийские Руины"
+    "Respawn Time": "30 seconds",
+    "Location": "Эльфийские Руины",
+    "HP / MP": "629 / 153",
+    "P. Atk. / M. Atk.": "28 / 13",
+    "P. Def. / M. Def.": "80 / 61",
+    "Accuracy / Evasion": "45 / 45",
+    "Exp / SP": "587 / 59",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 12"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20099",
-      "type": "npc",
-      "id": 20099,
-      "name": "Lu4",
-      "url": "/lu4/npc/20099-skeleton"
-    },
-    {
-      "key": "location:32",
-      "type": "location",
-      "id": 32,
-      "name": "Эльфийские Руины",
-      "url": "/lu4/location/32-elfijskie-ruiny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2010",
@@ -94,48 +98,6 @@
       "id": 2010,
       "name": "Brandish Blade NG",
       "url": "/lu4/item/2010-brandish-blade"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1794",
-      "type": "item",
-      "id": 1794,
-      "name": "Recipe: Forest Bow NG",
-      "url": "/lu4/item/1794-recipe-forest-bow"
     },
     {
       "key": "item:1333",
@@ -152,18 +114,53 @@
       "url": "/lu4/item/66-gladius"
     },
     {
-      "key": "item:57",
+      "key": "item:1794",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1794,
+      "name": "Recipe: Forest Bow NG",
+      "url": "/lu4/item/1794-recipe-forest-bow"
     },
     {
-      "key": "item:2009",
+      "key": "item:1864",
       "type": "item",
-      "id": 2009,
-      "name": "Dirk Blade NG",
-      "url": "/lu4/item/2009-dirk-blade"
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1832",
+      "type": "item",
+      "id": 1832,
+      "name": "Greater Antidote NG",
+      "url": "/lu4/item/1832-greater-antidote"
     },
     {
       "key": "item:1896",
@@ -173,11 +170,11 @@
       "url": "/lu4/item/1896-necklace-of-anguish-chain"
     },
     {
-      "key": "item:1832",
+      "key": "item:2009",
       "type": "item",
-      "id": 1832,
-      "name": "Greater Antidote NG",
-      "url": "/lu4/item/1832-greater-antidote"
+      "id": 2009,
+      "name": "Dirk Blade NG",
+      "url": "/lu4/item/2009-dirk-blade"
     }
   ]
 }

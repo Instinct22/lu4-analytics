@@ -2,112 +2,81 @@
   "key": "npc:20311",
   "type": "npc",
   "id": 20311,
-  "name": "Lu4 Wiki: NPC Rakeclaw Imp",
+  "name": "Rakeclaw Imp",
   "url": "/lu4/npc/20311-rakeclaw-imp",
-  "source_url": "https://masterwork.wiki/lu4/npc/20311-rakeclaw-imp",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20311-rakeclaw-imp",
   "raw_html": "library/raw/lu4/npc/20311-rakeclaw-imp.html",
   "stats": {
-    "Location": "Долина Героев"
+    "Respawn Time": "10 seconds",
+    "Location": "Долина Героев",
+    "HP / MP": "162 / 94",
+    "P. Atk. / M. Atk.": "20 / 9",
+    "P. Def. / M. Def.": "47 / 38",
+    "Accuracy / Evasion": "39 / 39",
+    "Exp / SP": "174 / 17",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 6"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20311",
-      "type": "npc",
-      "id": 20311,
-      "name": "Lu4",
-      "url": "/lu4/npc/20311-rakeclaw-imp"
-    },
-    {
-      "key": "location:197",
-      "type": "location",
-      "id": 197,
-      "name": "Долина Героев",
-      "url": "/lu4/location/197-dolina-geroev"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
-      "key": "item:1873",
+      "key": "item:57",
       "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1789",
-      "type": "item",
-      "id": 1789,
-      "name": "Recipe: Cedar Staff NG",
-      "url": "/lu4/item/1789-recipe-cedar-staff"
-    },
-    {
-      "key": "item:1129",
-      "type": "item",
-      "id": 1129,
-      "name": "Crude Leather Shoes NG",
-      "url": "/lu4/item/1129-crude-leather-shoes"
-    },
-    {
-      "key": "item:1122",
-      "type": "item",
-      "id": 1122,
-      "name": "Cotton Shoes NG",
-      "url": "/lu4/item/1122-cotton-shoes"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1119",
@@ -117,6 +86,20 @@
       "url": "/lu4/item/1119-short-leather-gloves"
     },
     {
+      "key": "item:1122",
+      "type": "item",
+      "id": 1122,
+      "name": "Cotton Shoes NG",
+      "url": "/lu4/item/1122-cotton-shoes"
+    },
+    {
+      "key": "item:1129",
+      "type": "item",
+      "id": 1129,
+      "name": "Crude Leather Shoes NG",
+      "url": "/lu4/item/1129-crude-leather-shoes"
+    },
+    {
       "key": "item:1060",
       "type": "item",
       "id": 1060,
@@ -124,11 +107,25 @@
       "url": "/lu4/item/1060-lesser-healing-potion"
     },
     {
-      "key": "item:57",
+      "key": "item:1789",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1789,
+      "name": "Recipe: Cedar Staff NG",
+      "url": "/lu4/item/1789-recipe-cedar-staff"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:2005",

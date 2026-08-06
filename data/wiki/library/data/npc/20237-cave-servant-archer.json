@@ -2,112 +2,67 @@
   "key": "npc:20237",
   "type": "npc",
   "id": 20237,
-  "name": "Lu4 Wiki: NPC Cave Servant Archer",
+  "name": "Cave Servant Archer",
   "url": "/lu4/npc/20237-cave-servant-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20237-cave-servant-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20237-cave-servant-archer",
   "raw_html": "library/raw/lu4/npc/20237-cave-servant-archer.html",
   "stats": {
-    "Location": "Долина Драконов"
+    "Respawn Time": "35 seconds",
+    "Location": "Долина Драконов",
+    "HP / MP": "3 975 / 811",
+    "P. Atk. / M. Atk.": "1 787 / 222",
+    "P. Def. / M. Def.": "212 / 192",
+    "Accuracy / Evasion": "80 / 80",
+    "Exp / SP": "3 887 / 389",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -20, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Bow Lv. 9 Bows HP Increase (2x) Lv. 10 Slightly Weak M. Def. Lv. 9 Slightly Weak P. Def. Lv. 9",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 47"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20237",
-      "type": "npc",
-      "id": 20237,
-      "name": "Lu4",
-      "url": "/lu4/npc/20237-cave-servant-archer"
-    },
-    {
-      "key": "location:12",
-      "type": "location",
-      "id": 12,
-      "name": "Долина Драконов",
-      "url": "/lu4/location/12-dolina-drakonov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Bow Lv. 9 Bows",
-      "url": "/lu4/skill/4415-bow/9"
+      "name": "Bow",
+      "url": "/lu4/skill/4415-bow"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -115,34 +70,6 @@
       "id": 4043,
       "name": "Asofe NG",
       "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:2940",
-      "type": "item",
-      "id": 2940,
-      "name": "Dwarven Chain Boots Part NG",
-      "url": "/lu4/item/2940-dwarven-chain-boots-part"
-    },
-    {
-      "key": "item:2432",
-      "type": "item",
-      "id": 2432,
-      "name": "Dwarven Chain Boots C",
-      "url": "/lu4/item/2432-dwarven-chain-boots"
-    },
-    {
-      "key": "item:2078",
-      "type": "item",
-      "id": 2078,
-      "name": "Katana Blade NG",
-      "url": "/lu4/item/2078-katana-blade"
-    },
-    {
-      "key": "item:1975",
-      "type": "item",
-      "id": 1975,
-      "name": "Rind Leather Armor Design NG",
-      "url": "/lu4/item/1975-rind-leather-armor-design"
     },
     {
       "key": "item:1880",
@@ -173,11 +100,25 @@
       "url": "/lu4/item/1342-steel-arrow"
     },
     {
-      "key": "item:399",
+      "key": "item:5550",
       "type": "item",
-      "id": 399,
-      "name": "Rind Leather Armor C",
-      "url": "/lu4/item/399-rind-leather-armor"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
+    },
+    {
+      "key": "item:2432",
+      "type": "item",
+      "id": 2432,
+      "name": "Dwarven Chain Boots C",
+      "url": "/lu4/item/2432-dwarven-chain-boots"
+    },
+    {
+      "key": "item:2940",
+      "type": "item",
+      "id": 2940,
+      "name": "Dwarven Chain Boots Part NG",
+      "url": "/lu4/item/2940-dwarven-chain-boots-part"
     },
     {
       "key": "item:74",
@@ -187,18 +128,74 @@
       "url": "/lu4/item/74-katana"
     },
     {
-      "key": "item:57",
+      "key": "item:2078",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2078,
+      "name": "Katana Blade NG",
+      "url": "/lu4/item/2078-katana-blade"
     },
     {
-      "key": "item:2950",
+      "key": "item:399",
       "type": "item",
-      "id": 2950,
-      "name": "Gloves of Seal Pattern NG",
-      "url": "/lu4/item/2950-gloves-of-seal-pattern"
+      "id": 399,
+      "name": "Rind Leather Armor C",
+      "url": "/lu4/item/399-rind-leather-armor"
+    },
+    {
+      "key": "item:1975",
+      "type": "item",
+      "id": 1975,
+      "name": "Rind Leather Armor Design NG",
+      "url": "/lu4/item/1975-rind-leather-armor-design"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:2315",
+      "type": "item",
+      "id": 2315,
+      "name": "Recipe: Shamshir NG",
+      "url": "/lu4/item/2315-recipe-shamshir"
     },
     {
       "key": "item:2318",
@@ -208,11 +205,11 @@
       "url": "/lu4/item/2318-recipe-spirit-sword"
     },
     {
-      "key": "item:2315",
+      "key": "item:2950",
       "type": "item",
-      "id": 2315,
-      "name": "Recipe: Shamshir NG",
-      "url": "/lu4/item/2315-recipe-shamshir"
+      "id": 2950,
+      "name": "Gloves of Seal Pattern NG",
+      "url": "/lu4/item/2950-gloves-of-seal-pattern"
     },
     {
       "key": "item:1913",

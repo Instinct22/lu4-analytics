@@ -1,70 +1,16 @@
-# Lu4 Wiki: Item Teddy Bear Hat
+# Teddy Bear Hat
 
-- Source: https://masterwork.wiki/lu4/item/8560-teddy-bear-hat
+- Source: https://masterwork.wiki/lu4-b-w-c/item/8560-teddy-bear-hat
 - Path: /lu4/item/8560-teddy-bear-hat
 - Type: item
 - Key: item:8560
 
 ## Stats
+- Effect: A fun, bear-shaped hair accessory. <Hair Slot> Uses 2 hair accessory slots.
+- Weight: 10
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Armor / None / Hair Accessory
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Teddy Bear Hat
-Lu4
-Eternal
-MasterWork
-Teddy Bear Hat
-NG
-Armor / None / Hair Accessory
-A fun, bear-shaped hair accessory.
-<Hair Slot>
-Uses 2 hair accessory slots.
-Weight
-10
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-MasterWork 2026
-All rights reserved
+Teddy Bear Hat NG Armor / None / Hair Accessory A fun, bear-shaped hair accessory. <Hair Slot> Uses 2 hair accessory slots. Weight 10 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

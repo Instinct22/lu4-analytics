@@ -2,41 +2,24 @@
   "key": "item:2137",
   "type": "item",
   "id": 2137,
-  "name": "Recipe",
+  "name": "Recipe: Steel",
   "url": "/lu4/item/2137-recipe-steel",
-  "source_url": "https://masterwork.wiki/lu4/item/2137-recipe-steel",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2137-recipe-steel",
   "raw_html": "library/raw/lu4/item/2137-recipe-steel.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Steel'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "340 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "10",
     "Success Rate": "100%",
-    "Result": "Steel NG"
+    "Result": "Steel NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "5"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "5"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2137",
-      "type": "item",
-      "id": 2137,
-      "name": "Lu4",
-      "url": "/lu4/item/2137-recipe-steel"
-    },
     {
       "key": "item:1865",
       "type": "item",
@@ -62,35 +45,35 @@
       "key": "npc:20426",
       "type": "npc",
       "id": 20426,
-      "name": "Evil Eye Lv. 10",
+      "name": "Evil Eye",
       "url": "/lu4/npc/20426-evil-eye"
     },
     {
       "key": "npc:20322",
       "type": "npc",
       "id": 20322,
-      "name": "Goblin Brigand Lv. 8",
+      "name": "Goblin Brigand",
       "url": "/lu4/npc/20322-goblin-brigand"
     },
     {
       "key": "npc:20092",
       "type": "npc",
       "id": 20092,
-      "name": "Monster Eye Lv. 10",
+      "name": "Monster Eye",
       "url": "/lu4/npc/20092-monster-eye"
     },
     {
       "key": "npc:20328",
       "type": "npc",
       "id": 20328,
-      "name": "Goblin Lookout Lv. 8",
+      "name": "Goblin Lookout",
       "url": "/lu4/npc/20328-goblin-lookout"
     },
     {
       "key": "npc:20307",
       "type": "npc",
       "id": 20307,
-      "name": "Garum Werewolf Lv. 9",
+      "name": "Garum Werewolf",
       "url": "/lu4/npc/20307-garum-werewolf"
     }
   ]

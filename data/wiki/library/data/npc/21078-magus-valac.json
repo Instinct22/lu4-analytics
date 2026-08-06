@@ -2,126 +2,95 @@
   "key": "npc:21078",
   "type": "npc",
   "id": 21078,
-  "name": "Lu4 Wiki: NPC Magus Valac",
+  "name": "Magus Valac",
   "url": "/lu4/npc/21078-magus-valac",
-  "source_url": "https://masterwork.wiki/lu4/npc/21078-magus-valac",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21078-magus-valac",
   "raw_html": "library/raw/lu4/npc/21078-magus-valac.html",
   "stats": {
-    "Location": "Башня Дерзости: 7-й этаж"
+    "Respawn Time": "8 minutes, 20 seconds ± 1 minute",
+    "Location": "Башня Дерзости: 7-й этаж",
+    "HP / MP": "262 337 / 1 494",
+    "P. Atk. / M. Atk.": "6 211 / 4 352",
+    "P. Def. / M. Def.": "969 / 813",
+    "Accuracy / Evasion": "102 / 102",
+    "Exp / SP": "696 167 / 69 617",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind -5, Earth 20, Holy -13, Unholy 184",
+    "Skills": "Unique Monster Lv. 1 A unique creature of immense power. It cannot be defeated alone. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 69"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21078",
-      "type": "npc",
-      "id": 21078,
-      "name": "Lu4",
-      "url": "/lu4/npc/21078-magus-valac"
-    },
-    {
-      "key": "location:90",
-      "type": "location",
-      "id": 90,
-      "name": "Башня Дерзости: 7-й этаж",
-      "url": "/lu4/location/90-basna-derzosti-7-j-etaz"
-    },
-    {
       "key": "skill:27944",
       "type": "skill",
       "id": 27944,
-      "name": "Unique Monster Lv. 1 A unique creature of immense power. It cannot be defeated alone.",
-      "url": "/lu4/skill/27944-unique-monster/1"
+      "name": "Unique Monster",
+      "url": "/lu4/skill/27944-unique-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:39290",
+      "key": "item:57",
       "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32437",
-      "type": "item",
-      "id": 32437,
-      "name": "Unidentified Destroyer Hammer A",
-      "url": "/lu4/item/32437-unidentified-destroyer-hammer"
-    },
-    {
-      "key": "item:32370",
-      "type": "item",
-      "id": 32370,
-      "name": "Unidentified Sealed Dark Crystal Gaiters A",
-      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
-    },
-    {
-      "key": "item:8346",
-      "type": "item",
-      "id": 8346,
-      "name": "Hammer Piece of Destroyer NG",
-      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
-    },
-    {
-      "key": "item:5524",
-      "type": "item",
-      "id": 5524,
-      "name": "Sealed Dark Crystal Gaiters Pattern NG",
-      "url": "/lu4/item/5524-sealed-dark-crystal-gaiters-pattern"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -159,11 +128,39 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:39290",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
+    },
+    {
+      "key": "item:32437",
+      "type": "item",
+      "id": 32437,
+      "name": "Unidentified Destroyer Hammer A",
+      "url": "/lu4/item/32437-unidentified-destroyer-hammer"
+    },
+    {
+      "key": "item:8346",
+      "type": "item",
+      "id": 8346,
+      "name": "Hammer Piece of Destroyer NG",
+      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
+    },
+    {
+      "key": "item:32370",
+      "type": "item",
+      "id": 32370,
+      "name": "Unidentified Sealed Dark Crystal Gaiters A",
+      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
+    },
+    {
+      "key": "item:5524",
+      "type": "item",
+      "id": 5524,
+      "name": "Sealed Dark Crystal Gaiters Pattern NG",
+      "url": "/lu4/item/5524-sealed-dark-crystal-gaiters-pattern"
     },
     {
       "key": "item:4040",

@@ -2,29 +2,33 @@
   "key": "item:7701",
   "type": "item",
   "id": 7701,
-  "name": "Lu4 Wiki: Item Stick of Faith",
+  "name": "Stick of Faith",
   "url": "/lu4/item/7701-stick-of-faith",
-  "source_url": "https://masterwork.wiki/lu4/item/7701-stick-of-faith",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/7701-stick-of-faith",
   "raw_html": "library/raw/lu4/item/7701-stick-of-faith.html",
   "stats": {
+    "Effect": "<Passive Effect> Casting Spd. +15%.",
+    "P. Atk. / M. Atk.": "85 / 81",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "1160",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Item Skills": "Special Ability: Acumen Lv. 2",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Stick of Faith C",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Blunt / One-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:7701",
-      "type": "item",
-      "id": 7701,
-      "name": "Lu4",
-      "url": "/lu4/item/7701-stick-of-faith"
-    },
-    {
       "key": "skill:24301",
       "type": "skill",
       "id": 24301,
-      "name": "Special Ability: Acumen Lv. 2",
-      "url": "/lu4/skill/24301-special-ability-acumen/2"
+      "name": "Special Ability: Acumen",
+      "url": "/lu4/skill/24301-special-ability-acumen"
     }
   ]
 }

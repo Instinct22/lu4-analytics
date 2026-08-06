@@ -2,133 +2,74 @@
   "key": "npc:21015",
   "type": "npc",
   "id": 21015,
-  "name": "Lu4 Wiki: NPC Ol Mahum Van Leader",
+  "name": "Ol Mahum Van Leader",
   "url": "/lu4/npc/21015-ol-mahum-van-leader",
-  "source_url": "https://masterwork.wiki/lu4/npc/21015-ol-mahum-van-leader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21015-ol-mahum-van-leader",
   "raw_html": "library/raw/lu4/npc/21015-ol-mahum-van-leader.html",
   "stats": {
-    "Location": "Подножье Горы (+1) Подножье Горы Пустошь"
+    "Respawn Time": "15 seconds",
+    "Location": "Подножье Горы (+1) Подножье Горы Пустошь",
+    "HP / MP": "1 183 / 477",
+    "P. Atk. / M. Atk.": "210 / 111",
+    "P. Def. / M. Def.": "149 / 121",
+    "Accuracy / Evasion": "70 / 69",
+    "Exp / SP": "1 271 / 127",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 34"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21015",
-      "type": "npc",
-      "id": 21015,
-      "name": "Lu4",
-      "url": "/lu4/npc/21015-ol-mahum-van-leader"
-    },
-    {
-      "key": "location:24",
-      "type": "location",
-      "id": 24,
-      "name": "Подножье Горы",
-      "url": "/lu4/location/24-podnoze-gory"
-    },
-    {
-      "key": "location:15",
-      "type": "location",
-      "id": 15,
-      "name": "Пустошь",
-      "url": "/lu4/location/15-pustos"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:2929",
-      "type": "item",
-      "id": 2929,
-      "name": "Brigandine Shield Fragment NG",
-      "url": "/lu4/item/2929-brigandine-shield-fragment"
-    },
-    {
-      "key": "item:2919",
-      "type": "item",
-      "id": 2919,
-      "name": "Brigandine Gaiters Material NG",
-      "url": "/lu4/item/2919-brigandine-gaiters-material"
-    },
-    {
-      "key": "item:2493",
-      "type": "item",
-      "id": 2493,
-      "name": "Brigandine Shield D",
-      "url": "/lu4/item/2493-brigandine-shield"
-    },
-    {
-      "key": "item:2378",
-      "type": "item",
-      "id": 2378,
-      "name": "Brigandine Gaiters D",
-      "url": "/lu4/item/2378-brigandine-gaiters"
-    },
-    {
-      "key": "item:2034",
-      "type": "item",
-      "id": 2034,
-      "name": "Sword of Revolution Blade NG",
-      "url": "/lu4/item/2034-sword-of-revolution-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1876",
@@ -152,6 +93,34 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:2378",
+      "type": "item",
+      "id": 2378,
+      "name": "Brigandine Gaiters D",
+      "url": "/lu4/item/2378-brigandine-gaiters"
+    },
+    {
+      "key": "item:2919",
+      "type": "item",
+      "id": 2919,
+      "name": "Brigandine Gaiters Material NG",
+      "url": "/lu4/item/2919-brigandine-gaiters-material"
+    },
+    {
+      "key": "item:2493",
+      "type": "item",
+      "id": 2493,
+      "name": "Brigandine Shield D",
+      "url": "/lu4/item/2493-brigandine-shield"
+    },
+    {
+      "key": "item:2929",
+      "type": "item",
+      "id": 2929,
+      "name": "Brigandine Shield Fragment NG",
+      "url": "/lu4/item/2929-brigandine-shield-fragment"
+    },
+    {
       "key": "item:129",
       "type": "item",
       "id": 129,
@@ -159,18 +128,39 @@
       "url": "/lu4/item/129-sword-of-revolution"
     },
     {
-      "key": "item:57",
+      "key": "item:2034",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2034,
+      "name": "Sword of Revolution Blade NG",
+      "url": "/lu4/item/2034-sword-of-revolution-blade"
     },
     {
-      "key": "item:8302",
+      "key": "item:39298",
       "type": "item",
-      "id": 8302,
-      "name": "Recipe: Sword of Magic Fog (100%) NG",
-      "url": "/lu4/item/8302-recipe-sword-of-magic-fog-100"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:2154",
@@ -180,18 +170,18 @@
       "url": "/lu4/item/2154-recipe-elven-earring"
     },
     {
+      "key": "item:8302",
+      "type": "item",
+      "id": 8302,
+      "name": "Recipe: Sword of Magic Fog (100%) NG",
+      "url": "/lu4/item/8302-recipe-sword-of-magic-fog-100"
+    },
+    {
       "key": "item:2039",
       "type": "item",
       "id": 2039,
       "name": "Bich'Hwa Edge NG",
       "url": "/lu4/item/2039-bichhwa-edge"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
     }
   ]
 }

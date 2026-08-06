@@ -2,110 +2,114 @@
   "key": "npc:21306",
   "type": "npc",
   "id": 21306,
-  "name": "Lu4 Wiki: NPC Disciples of Protection",
+  "name": "Disciples of Protection",
   "url": "/lu4/npc/21306-disciples-of-protection",
-  "source_url": "https://masterwork.wiki/lu4/npc/21306-disciples-of-protection",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21306-disciples-of-protection",
   "raw_html": "library/raw/lu4/npc/21306-disciples-of-protection.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "20 794 / 1 637",
+    "P. Atk. / M. Atk.": "1 671 / 645",
+    "P. Def. / M. Def.": "675 / 564",
+    "Accuracy / Evasion": "121 / 114",
+    "Exp / SP": "42 206 / 4 400",
+    "Attack Attribute": "Holy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 200, Unholy -83",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Weak P. Atk. Lv. 8 Weak M. Atk. Lv. 8 Strong P. Def. Lv. 14 Strong M. Def. Lv. 14 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 4 One-handed Sword Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. High Lv. Lv. 3 NPC High Level",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 74"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21306",
-      "type": "npc",
-      "id": 21306,
-      "name": "Lu4",
-      "url": "/lu4/npc/21306-disciples-of-protection"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Weak P. Atk. Lv. 8",
-      "url": "/lu4/skill/4410-weak-p-atk/8"
+      "name": "Weak P. Atk.",
+      "url": "/lu4/skill/4410-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Weak M. Atk. Lv. 8",
-      "url": "/lu4/skill/4411-weak-m-atk/8"
+      "name": "Weak M. Atk.",
+      "url": "/lu4/skill/4411-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 4 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/4"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 3 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/3"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32342",
@@ -115,11 +119,11 @@
       "url": "/lu4/item/32342-unidentified-blood-tornado"
     },
     {
-      "key": "item:8762",
+      "key": "item:5539",
       "type": "item",
-      "id": 8762,
-      "name": "Top-Grade Life Stone NG",
-      "url": "/lu4/item/8762-top-grade-life-stone"
+      "id": 5539,
+      "name": "Blood Tornado Edge NG",
+      "url": "/lu4/item/5539-blood-tornado-edge"
     },
     {
       "key": "item:6901",
@@ -127,13 +131,6 @@
       "id": 6901,
       "name": "Recipe: Shining Arrow (100%) NG",
       "url": "/lu4/item/6901-recipe-shining-arrow-100"
-    },
-    {
-      "key": "item:5539",
-      "type": "item",
-      "id": 5539,
-      "name": "Blood Tornado Edge NG",
-      "url": "/lu4/item/5539-blood-tornado-edge"
     },
     {
       "key": "item:4040",
@@ -178,18 +175,18 @@
       "url": "/lu4/item/1344-mithril-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:5548",
+      "key": "item:8762",
       "type": "item",
-      "id": 5548,
-      "name": "Tallum Blade Edge NG",
-      "url": "/lu4/item/5548-tallum-blade-edge"
+      "id": 8762,
+      "name": "Top-Grade Life Stone NG",
+      "url": "/lu4/item/8762-top-grade-life-stone"
     },
     {
       "key": "item:5547",
@@ -204,6 +201,13 @@
       "id": 5442,
       "name": "Recipe: Soul Bow(60%) NG",
       "url": "/lu4/item/5442-recipe-soul-bow60"
+    },
+    {
+      "key": "item:5548",
+      "type": "item",
+      "id": 5548,
+      "name": "Tallum Blade Edge NG",
+      "url": "/lu4/item/5548-tallum-blade-edge"
     }
   ]
 }

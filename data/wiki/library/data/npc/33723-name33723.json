@@ -2,138 +2,86 @@
   "key": "npc:33723",
   "type": "npc",
   "id": 33723,
-  "name": "Lu4 Wiki: NPC Name_33723",
+  "name": "Name_33723",
   "url": "/lu4/npc/33723-name33723",
-  "source_url": "https://masterwork.wiki/lu4/npc/33723-name33723",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/33723-name33723",
   "raw_html": "library/raw/lu4/npc/33723-name33723.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "128 000 / 3 660",
+    "P. Atk. / M. Atk.": "34 927 / 66 458",
+    "P. Def. / M. Def.": "2 265 / 1 665",
+    "Accuracy / Evasion": "143 / 143",
+    "Exp / SP": "695 224 / 90 000",
+    "Attack Attribute": "Unholy 350",
+    "Defense Attributes": "Fire 300, Water 300, Wind 300, Earth 300, Holy 300, Unholy 300",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. Greater Hold Resistance Lv. 1 Resistant to Hold. Greater Sleep Resistance Lv. 1 Resistant to Sleep. Greater Paralyze Resistance Lv. 1 Resistant to Paralyze attack. Greater Mental Attack Resistance Lv. 1 Resistant to Silence/Fear. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. High Stun Attack Resistance Lv. 1 Resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 86"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:33723",
-      "type": "npc",
-      "id": 33723,
-      "name": "Lu4",
-      "url": "/lu4/npc/33723-name33723"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 1 Resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/1"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 1 Resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/1"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "skill:4440",
       "type": "skill",
       "id": 4440,
-      "name": "Greater Paralyze Resistance Lv. 1 Resistant to Paralyze attack.",
-      "url": "/lu4/skill/4440-greater-paralyze-resistance/1"
+      "name": "Greater Paralyze Resistance",
+      "url": "/lu4/skill/4440-greater-paralyze-resistance"
     },
     {
       "key": "skill:4441",
       "type": "skill",
       "id": 4441,
-      "name": "Greater Mental Attack Resistance Lv. 1 Resistant to Silence/Fear.",
-      "url": "/lu4/skill/4441-greater-mental-attack-resistance/1"
+      "name": "Greater Mental Attack Resistance",
+      "url": "/lu4/skill/4441-greater-mental-attack-resistance"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4435",
       "type": "skill",
       "id": 4435,
-      "name": "High Stun Attack Resistance Lv. 1 Resistant to Stun.",
-      "url": "/lu4/skill/4435-high-stun-attack-resistance/1"
-    },
-    {
-      "key": "item:36185",
-      "type": "item",
-      "id": 36185,
-      "name": "Superior-Grade Life Stone NG Foundation",
-      "url": "/lu4/item/36185-superior-grade-life-stone"
-    },
-    {
-      "key": "item:5553",
-      "type": "item",
-      "id": 5553,
-      "name": "Arcsmith's Anvil NG",
-      "url": "/lu4/item/5553-arcsmiths-anvil"
-    },
-    {
-      "key": "item:5551",
-      "type": "item",
-      "id": 5551,
-      "name": "Reorin's Mold NG",
-      "url": "/lu4/item/5551-reorins-mold"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1888",
-      "type": "item",
-      "id": 1888,
-      "name": "Synthetic Cokes NG",
-      "url": "/lu4/item/1888-synthetic-cokes"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
+      "name": "High Stun Attack Resistance",
+      "url": "/lu4/skill/4435-high-stun-attack-resistance"
     },
     {
       "key": "item:57",
@@ -143,11 +91,67 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:49800",
+      "key": "item:36185",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 36185,
+      "name": "Superior-Grade Life Stone NG Foundation",
+      "url": "/lu4/item/36185-superior-grade-life-stone"
+    },
+    {
+      "key": "item:5551",
+      "type": "item",
+      "id": 5551,
+      "name": "Reorin's Mold NG",
+      "url": "/lu4/item/5551-reorins-mold"
+    },
+    {
+      "key": "item:5553",
+      "type": "item",
+      "id": 5553,
+      "name": "Arcsmith's Anvil NG",
+      "url": "/lu4/item/5553-arcsmiths-anvil"
+    },
+    {
+      "key": "item:4043",
+      "type": "item",
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:1884",
+      "type": "item",
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
+    },
+    {
+      "key": "item:1888",
+      "type": "item",
+      "id": 1888,
+      "name": "Synthetic Cokes NG",
+      "url": "/lu4/item/1888-synthetic-cokes"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:5550",
@@ -157,18 +161,18 @@
       "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
       "key": "item:2134",
       "type": "item",
       "id": 2134,
       "name": "Gemstone S NG",
       "url": "/lu4/item/2134-gemstone-s"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
     }
   ]
 }

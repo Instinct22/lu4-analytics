@@ -2,48 +2,24 @@
   "key": "item:1786",
   "type": "item",
   "id": 1786,
-  "name": "Recipe",
+  "name": "Recipe: Broad Sword",
   "url": "/lu4/item/1786-recipe-broad-sword",
-  "source_url": "https://masterwork.wiki/lu4/item/1786-recipe-broad-sword",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1786-recipe-broad-sword",
   "raw_html": "library/raw/lu4/item/1786-recipe-broad-sword.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Broadsword'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "125 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "30",
     "Success Rate": "100%",
-    "Result": "Broadsword NG"
+    "Result": "Broadsword NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2005",
-      "type": "item",
-      "id": 2005,
-      "name": "Broadsword Blade NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "18"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "18"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:1786",
-      "type": "item",
-      "id": 1786,
-      "name": "Lu4",
-      "url": "/lu4/item/1786-recipe-broad-sword"
-    },
     {
       "key": "item:2005",
       "type": "item",
@@ -76,126 +52,126 @@
       "key": "npc:20538",
       "type": "npc",
       "id": 20538,
-      "name": "Elder Prairie Keltir Lv. 3",
+      "name": "Elder Prairie Keltir",
       "url": "/lu4/npc/20538-elder-prairie-keltir"
     },
     {
       "key": "npc:20535",
       "type": "npc",
       "id": 20535,
-      "name": "Prairie Keltir Lv. 2",
+      "name": "Prairie Keltir",
       "url": "/lu4/npc/20535-prairie-keltir"
     },
     {
       "key": "npc:20532",
       "type": "npc",
       "id": 20532,
-      "name": "Brown Keltir Lv. 2",
+      "name": "Brown Keltir",
       "url": "/lu4/npc/20532-brown-keltir"
     },
     {
       "key": "npc:20530",
       "type": "npc",
       "id": 20530,
-      "name": "Young Red Keltir Lv. 1",
+      "name": "Young Red Keltir",
       "url": "/lu4/npc/20530-young-red-keltir"
     },
     {
       "key": "npc:20481",
       "type": "npc",
       "id": 20481,
-      "name": "Bearded Keltir Lv. 1",
+      "name": "Bearded Keltir",
       "url": "/lu4/npc/20481-bearded-keltir"
     },
     {
       "key": "npc:20475",
       "type": "npc",
       "id": 20475,
-      "name": "Kasha Wolf Lv. 4",
+      "name": "Kasha Wolf",
       "url": "/lu4/npc/20475-kasha-wolf"
     },
     {
       "key": "npc:20327",
       "type": "npc",
       "id": 20327,
-      "name": "Goblin Snooper Lv. 5",
+      "name": "Goblin Snooper",
       "url": "/lu4/npc/20327-goblin-snooper"
     },
     {
       "key": "npc:20121",
       "type": "npc",
       "id": 20121,
-      "name": "Giant Toad Lv. 5",
+      "name": "Giant Toad",
       "url": "/lu4/npc/20121-giant-toad"
     },
     {
       "key": "npc:20120",
       "type": "npc",
       "id": 20120,
-      "name": "Wolf Lv. 4",
+      "name": "Wolf",
       "url": "/lu4/npc/20120-wolf"
     },
     {
       "key": "npc:18003",
       "type": "npc",
       "id": 18003,
-      "name": "Bearded Keltir Lv. 1",
+      "name": "Bearded Keltir",
       "url": "/lu4/npc/18003-bearded-keltir"
     },
     {
       "key": "npc:20545",
       "type": "npc",
       "id": 20545,
-      "name": "Young Keltir Lv. 1",
+      "name": "Young Keltir",
       "url": "/lu4/npc/20545-young-keltir"
     },
     {
       "key": "npc:20539",
       "type": "npc",
       "id": 20539,
-      "name": "Elder Longtail Keltir Lv. 3",
+      "name": "Elder Longtail Keltir",
       "url": "/lu4/npc/20539-elder-longtail-keltir"
     },
     {
       "key": "npc:20534",
       "type": "npc",
       "id": 20534,
-      "name": "Red Keltir Lv. 2",
+      "name": "Red Keltir",
       "url": "/lu4/npc/20534-red-keltir"
     },
     {
       "key": "npc:20529",
       "type": "npc",
       "id": 20529,
-      "name": "Young Brown Keltir Lv. 1",
+      "name": "Young Brown Keltir",
       "url": "/lu4/npc/20529-young-brown-keltir"
     },
     {
       "key": "npc:20442",
       "type": "npc",
       "id": 20442,
-      "name": "Elder Wolf Lv. 5",
+      "name": "Elder Wolf",
       "url": "/lu4/npc/20442-elder-wolf"
     },
     {
       "key": "npc:20325",
       "type": "npc",
       "id": 20325,
-      "name": "Goblin Raider Lv. 5",
+      "name": "Goblin Raider",
       "url": "/lu4/npc/20325-goblin-raider"
     },
     {
       "key": "npc:20317",
       "type": "npc",
       "id": 20317,
-      "name": "Black Wolf Lv. 4",
+      "name": "Black Wolf",
       "url": "/lu4/npc/20317-black-wolf"
     },
     {
       "key": "npc:20003",
       "type": "npc",
       "id": 20003,
-      "name": "Goblin Lv. 5",
+      "name": "Goblin",
       "url": "/lu4/npc/20003-goblin"
     }
   ]

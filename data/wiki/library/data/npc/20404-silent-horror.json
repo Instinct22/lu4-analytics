@@ -2,112 +2,67 @@
   "key": "npc:20404",
   "type": "npc",
   "id": 20404,
-  "name": "Lu4 Wiki: NPC Silent Horror",
+  "name": "Silent Horror",
   "url": "/lu4/npc/20404-silent-horror",
-  "source_url": "https://masterwork.wiki/lu4/npc/20404-silent-horror",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20404-silent-horror",
   "raw_html": "library/raw/lu4/npc/20404-silent-horror.html",
   "stats": {
-    "Location": "Эльфийские Руины"
+    "Respawn Time": "40 seconds",
+    "Location": "Эльфийские Руины",
+    "HP / MP": "1 431 / 193",
+    "P. Atk. / M. Atk.": "40 / 20",
+    "P. Def. / M. Def.": "117 / 81",
+    "Accuracy / Evasion": "49 / 49",
+    "Exp / SP": "1 440 / 144",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 16"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20404",
-      "type": "npc",
-      "id": 20404,
-      "name": "Lu4",
-      "url": "/lu4/npc/20404-silent-horror"
-    },
-    {
-      "key": "location:32",
-      "type": "location",
-      "id": 32,
-      "name": "Эльфийские Руины",
-      "url": "/lu4/location/32-elfijskie-ruiny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
-    },
-    {
-      "key": "item:6035",
-      "type": "item",
-      "id": 6035,
-      "name": "Magic Haste Potion NG",
-      "url": "/lu4/item/6035-magic-haste-potion"
-    },
-    {
-      "key": "item:2254",
-      "type": "item",
-      "id": 2254,
-      "name": "Recipe: Composite Bow NG",
-      "url": "/lu4/item/2254-recipe-composite-bow"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1104",
-      "type": "item",
-      "id": 1104,
-      "name": "Stockings of Devotion NG",
-      "url": "/lu4/item/1104-stockings-of-devotion"
-    },
-    {
-      "key": "item:1101",
-      "type": "item",
-      "id": 1101,
-      "name": "Tunic of Devotion NG",
-      "url": "/lu4/item/1101-tunic-of-devotion"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "item:57",
@@ -117,11 +72,53 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2253",
+      "key": "item:1101",
       "type": "item",
-      "id": 2253,
-      "name": "Recipe: Sword Breaker NG",
-      "url": "/lu4/item/2253-recipe-sword-breaker"
+      "id": 1101,
+      "name": "Tunic of Devotion NG",
+      "url": "/lu4/item/1101-tunic-of-devotion"
+    },
+    {
+      "key": "item:1104",
+      "type": "item",
+      "id": 1104,
+      "name": "Stockings of Devotion NG",
+      "url": "/lu4/item/1104-stockings-of-devotion"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:2254",
+      "type": "item",
+      "id": 2254,
+      "name": "Recipe: Composite Bow NG",
+      "url": "/lu4/item/2254-recipe-composite-bow"
+    },
+    {
+      "key": "item:6035",
+      "type": "item",
+      "id": 6035,
+      "name": "Magic Haste Potion NG",
+      "url": "/lu4/item/6035-magic-haste-potion"
+    },
+    {
+      "key": "item:735",
+      "type": "item",
+      "id": 735,
+      "name": "Alacrity Potion NG",
+      "url": "/lu4/item/735-alacrity-potion"
     },
     {
       "key": "item:1897",
@@ -131,11 +128,11 @@
       "url": "/lu4/item/1897-necklace-of-wisdom-chain"
     },
     {
-      "key": "item:735",
+      "key": "item:2253",
       "type": "item",
-      "id": 735,
-      "name": "Alacrity Potion NG",
-      "url": "/lu4/item/735-alacrity-potion"
+      "id": 2253,
+      "name": "Recipe: Sword Breaker NG",
+      "url": "/lu4/item/2253-recipe-sword-breaker"
     }
   ]
 }

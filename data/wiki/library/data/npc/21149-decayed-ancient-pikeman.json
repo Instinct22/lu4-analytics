@@ -2,75 +2,107 @@
   "key": "npc:21149",
   "type": "npc",
   "id": 21149,
-  "name": "Lu4 Wiki: NPC Decayed Ancient Pikeman",
+  "name": "Decayed Ancient Pikeman",
   "url": "/lu4/npc/21149-decayed-ancient-pikeman",
-  "source_url": "https://masterwork.wiki/lu4/npc/21149-decayed-ancient-pikeman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21149-decayed-ancient-pikeman",
   "raw_html": "library/raw/lu4/npc/21149-decayed-ancient-pikeman.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "7 774 / 785",
+    "P. Atk. / M. Atk.": "422 / 225",
+    "P. Def. / M. Def.": "263 / 209",
+    "Accuracy / Evasion": "79 / 79",
+    "Exp / SP": "9 676 / 684",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Hold Resistance Lv. 3 Slightly resistant to Hold. Sleep Resistance Lv. 3 Slightly resistant to Sleep. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 46"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21149",
-      "type": "npc",
-      "id": 21149,
-      "name": "Lu4",
-      "url": "/lu4/npc/21149-decayed-ancient-pikeman"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:8752",
+      "key": "item:57",
       "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:226",
+      "type": "item",
+      "id": 226,
+      "name": "Cursed Dagger C",
+      "url": "/lu4/item/226-cursed-dagger"
+    },
+    {
+      "key": "item:232",
+      "type": "item",
+      "id": 232,
+      "name": "Dark Elven Dagger C",
+      "url": "/lu4/item/232-dark-elven-dagger"
+    },
+    {
+      "key": "item:2072",
+      "type": "item",
+      "id": 2072,
+      "name": "Dark Elven Dagger Edge NG",
+      "url": "/lu4/item/2072-dark-elven-dagger-edge"
+    },
+    {
+      "key": "item:2070",
+      "type": "item",
+      "id": 2070,
+      "name": "Cursed Dagger Blade NG",
+      "url": "/lu4/item/2070-cursed-dagger-blade"
     },
     {
       "key": "item:4042",
@@ -92,20 +124,6 @@
       "id": 2215,
       "name": "Recipe: Robe of Seal NG",
       "url": "/lu4/item/2215-recipe-robe-of-seal"
-    },
-    {
-      "key": "item:2072",
-      "type": "item",
-      "id": 2072,
-      "name": "Dark Elven Dagger Edge NG",
-      "url": "/lu4/item/2072-dark-elven-dagger-edge"
-    },
-    {
-      "key": "item:2070",
-      "type": "item",
-      "id": 2070,
-      "name": "Cursed Dagger Blade NG",
-      "url": "/lu4/item/2070-cursed-dagger-blade"
     },
     {
       "key": "item:1895",
@@ -136,32 +154,18 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:232",
+      "key": "item:8752",
       "type": "item",
-      "id": 232,
-      "name": "Dark Elven Dagger C",
-      "url": "/lu4/item/232-dark-elven-dagger"
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
     },
     {
-      "key": "item:226",
+      "key": "item:1908",
       "type": "item",
-      "id": 226,
-      "name": "Cursed Dagger C",
-      "url": "/lu4/item/226-cursed-dagger"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:2163",
-      "type": "item",
-      "id": 2163,
-      "name": "Recipe: Earring of Protection NG",
-      "url": "/lu4/item/2163-recipe-earring-of-protection"
+      "id": 1908,
+      "name": "Moonstone Earring Wire NG",
+      "url": "/lu4/item/1908-moonstone-earring-wire"
     },
     {
       "key": "item:1909",
@@ -171,11 +175,11 @@
       "url": "/lu4/item/1909-aquastone-ring-wire"
     },
     {
-      "key": "item:1908",
+      "key": "item:2163",
       "type": "item",
-      "id": 1908,
-      "name": "Moonstone Earring Wire NG",
-      "url": "/lu4/item/1908-moonstone-earring-wire"
+      "id": 2163,
+      "name": "Recipe: Earring of Protection NG",
+      "url": "/lu4/item/2163-recipe-earring-of-protection"
     }
   ]
 }

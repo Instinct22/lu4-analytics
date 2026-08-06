@@ -2,68 +2,72 @@
   "key": "npc:21652",
   "type": "npc",
   "id": 21652,
-  "name": "Lu4 Wiki: NPC Scarlet Stakato Noble",
+  "name": "Scarlet Stakato Noble",
   "url": "/lu4/npc/21652-scarlet-stakato-noble",
-  "source_url": "https://masterwork.wiki/lu4/npc/21652-scarlet-stakato-noble",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21652-scarlet-stakato-noble",
   "raw_html": "library/raw/lu4/npc/21652-scarlet-stakato-noble.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "22 452 / 2 021",
+    "P. Atk. / M. Atk.": "2 104 / 1 968",
+    "P. Def. / M. Def.": "978 / 370",
+    "Accuracy / Evasion": "125 / 124",
+    "Exp / SP": "46 911 / 5 195",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (5x) Lv. 13 Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Very Strong P. Def. Lv. 16 Weak M. Def. Lv. 8",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 79"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21652",
-      "type": "npc",
-      "id": 21652,
-      "name": "Lu4",
-      "url": "/lu4/npc/21652-scarlet-stakato-noble"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32349",
@@ -122,18 +126,18 @@
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:5545",
+      "key": "item:5272",
       "type": "item",
-      "id": 5545,
-      "name": "Dark Legion's Edge Blade NG",
-      "url": "/lu4/item/5545-dark-legions-edge-blade"
+      "id": 5272,
+      "name": "Recipe: Greater Soulshot (S) Compressed Package(100%) NG",
+      "url": "/lu4/item/5272-recipe-greater-soulshot-s-compressed-package100"
     },
     {
       "key": "item:5277",
@@ -143,11 +147,11 @@
       "url": "/lu4/item/5277-recipe-greater-spiritshot-s-compressed-package100"
     },
     {
-      "key": "item:5272",
+      "key": "item:5545",
       "type": "item",
-      "id": 5272,
-      "name": "Recipe: Greater Soulshot (S) Compressed Package(100%) NG",
-      "url": "/lu4/item/5272-recipe-greater-soulshot-s-compressed-package100"
+      "id": 5545,
+      "name": "Dark Legion's Edge Blade NG",
+      "url": "/lu4/item/5545-dark-legions-edge-blade"
     },
     {
       "key": "npc:21378",

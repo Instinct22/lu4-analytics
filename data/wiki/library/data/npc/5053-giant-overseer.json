@@ -2,140 +2,102 @@
   "key": "npc:5053",
   "type": "npc",
   "id": 5053,
-  "name": "Lu4 Wiki: NPC Giant Overseer",
+  "name": "Giant Overseer",
   "url": "/lu4/npc/5053-giant-overseer",
-  "source_url": "https://masterwork.wiki/lu4/npc/5053-giant-overseer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5053-giant-overseer",
   "raw_html": "library/raw/lu4/npc/5053-giant-overseer.html",
   "stats": {
-    "Location": "Пещера Гигантов"
+    "Respawn Time": "3 minutes, 20 seconds ± 20 seconds",
+    "Location": "Пещера Гигантов",
+    "HP / MP": "35 834 / 1 110",
+    "P. Atk. / M. Atk.": "2 929 / 893",
+    "P. Def. / M. Def.": "909 / 541",
+    "Accuracy / Evasion": "98 / 103",
+    "Exp / SP": "77 969 / 7 797",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Grumpy Lv. 1 Strikes without warning. HP Increase (7x) Lv. 15 Very Strong P. Atk. Lv. 17 Slightly Strong M. Def. Lv. 13 Strong P. Def. Lv. 15 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Short-Range Physical Attack Resistance Lv. 2 Resistant to short-range physical attacks. High Stun Attack Resistance Lv. 3 Highly resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5053",
-      "type": "npc",
-      "id": 5053,
-      "name": "Lu4",
-      "url": "/lu4/npc/5053-giant-overseer"
-    },
-    {
-      "key": "location:69",
-      "type": "location",
-      "id": 69,
-      "name": "Пещера Гигантов",
-      "url": "/lu4/location/69-pesera-gigantov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (7x) Lv. 15",
-      "url": "/lu4/skill/4408-hp-increase-7x/15"
+      "name": "HP Increase (7x)",
+      "url": "/lu4/skill/4408-hp-increase-7x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 17",
-      "url": "/lu4/skill/4410-very-strong-p-atk/17"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:5601",
       "type": "skill",
       "id": 5601,
-      "name": "Short-Range Physical Attack Resistance Lv. 2 Resistant to short-range physical attacks.",
-      "url": "/lu4/skill/5601-short-range-physical-attack-resistance/2"
+      "name": "Short-Range Physical Attack Resistance",
+      "url": "/lu4/skill/5601-short-range-physical-attack-resistance"
     },
     {
       "key": "skill:4435",
       "type": "skill",
       "id": 4435,
-      "name": "High Stun Attack Resistance Lv. 3 Highly resistant to Stun.",
-      "url": "/lu4/skill/4435-high-stun-attack-resistance/3"
+      "name": "High Stun Attack Resistance",
+      "url": "/lu4/skill/4435-high-stun-attack-resistance"
     },
     {
-      "key": "item:32431",
+      "key": "item:57",
       "type": "item",
-      "id": 32431,
-      "name": "Unidentified Infernal Master A",
-      "url": "/lu4/item/32431-unidentified-infernal-master"
-    },
-    {
-      "key": "item:32379",
-      "type": "item",
-      "id": 32379,
-      "name": "Unidentified Sealed Dark Crystal Leather Armor A",
-      "url": "/lu4/item/32379-unidentified-sealed-dark-crystal-leather-armor"
-    },
-    {
-      "key": "item:8331",
-      "type": "item",
-      "id": 8331,
-      "name": "Infernal Master Blade NG",
-      "url": "/lu4/item/8331-infernal-master-blade"
-    },
-    {
-      "key": "item:6345",
-      "type": "item",
-      "id": 6345,
-      "name": "Sealed Phoenix Ring Gemstone NG",
-      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
-    },
-    {
-      "key": "item:6325",
-      "type": "item",
-      "id": 6325,
-      "name": "Sealed Phoenix Ring A",
-      "url": "/lu4/item/6325-sealed-phoenix-ring"
-    },
-    {
-      "key": "item:5478",
-      "type": "item",
-      "id": 5478,
-      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
-      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4040",
@@ -173,32 +135,53 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:57",
+      "key": "item:32431",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32431,
+      "name": "Unidentified Infernal Master A",
+      "url": "/lu4/item/32431-unidentified-infernal-master"
     },
     {
-      "key": "item:5536",
+      "key": "item:8331",
       "type": "item",
-      "id": 5536,
-      "name": "Bloody Orchid Head NG",
-      "url": "/lu4/item/5536-bloody-orchid-head"
+      "id": 8331,
+      "name": "Infernal Master Blade NG",
+      "url": "/lu4/item/8331-infernal-master-blade"
     },
     {
-      "key": "item:5526",
+      "key": "item:32379",
       "type": "item",
-      "id": 5526,
-      "name": "Sealed Tallum Helm Design NG",
-      "url": "/lu4/item/5526-sealed-tallum-helm-design"
+      "id": 32379,
+      "name": "Unidentified Sealed Dark Crystal Leather Armor A",
+      "url": "/lu4/item/32379-unidentified-sealed-dark-crystal-leather-armor"
     },
     {
-      "key": "item:5508",
+      "key": "item:5478",
       "type": "item",
-      "id": 5508,
-      "name": "Sealed Dark Crystal Gloves Design NG",
-      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
+      "id": 5478,
+      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
+      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
+    },
+    {
+      "key": "item:6325",
+      "type": "item",
+      "id": 6325,
+      "name": "Sealed Phoenix Ring A",
+      "url": "/lu4/item/6325-sealed-phoenix-ring"
+    },
+    {
+      "key": "item:6345",
+      "type": "item",
+      "id": 6345,
+      "name": "Sealed Phoenix Ring Gemstone NG",
+      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
+    },
+    {
+      "key": "item:729",
+      "type": "item",
+      "id": 729,
+      "name": "Scroll: Enchant Weapon (A-Grade) NG",
+      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     },
     {
       "key": "item:5446",
@@ -215,11 +198,25 @@
       "url": "/lu4/item/5418-recipe-sealed-tallum-plate-armor60"
     },
     {
-      "key": "item:729",
+      "key": "item:5536",
       "type": "item",
-      "id": 729,
-      "name": "Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
+      "id": 5536,
+      "name": "Bloody Orchid Head NG",
+      "url": "/lu4/item/5536-bloody-orchid-head"
+    },
+    {
+      "key": "item:5508",
+      "type": "item",
+      "id": 5508,
+      "name": "Sealed Dark Crystal Gloves Design NG",
+      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
+    },
+    {
+      "key": "item:5526",
+      "type": "item",
+      "id": 5526,
+      "name": "Sealed Tallum Helm Design NG",
+      "url": "/lu4/item/5526-sealed-tallum-helm-design"
     }
   ]
 }

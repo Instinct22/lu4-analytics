@@ -2,24 +2,23 @@
   "key": "item:399",
   "type": "item",
   "id": 399,
-  "name": "Lu4 Wiki: Item Rind Leather Armor",
+  "name": "Rind Leather Armor",
   "url": "/lu4/item/399-rind-leather-armor",
-  "source_url": "https://masterwork.wiki/lu4/item/399-rind-leather-armor",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/399-rind-leather-armor",
   "raw_html": "library/raw/lu4/item/399-rind-leather-armor.html",
   "stats": {
+    "P. Def.": "97",
+    "Crystal Amount": "149 Crystallization Failed Enchant +0 149 - +1 155 - +2 161 - +3 167 - +4 185 110 +5 203 128 +6 221 146 +7 239 164 +8 257 182",
+    "NPC Sell Price": "186 000 Adena",
+    "Weight": "4420",
     "Set Part": "Rind Leather Armor C",
     "Recipes": "Recipe: Rind Leather Armor NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / Light / Upper Body"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:399",
-      "type": "item",
-      "id": 399,
-      "name": "Lu4",
-      "url": "/lu4/item/399-rind-leather-armor"
-    },
     {
       "key": "set:840",
       "type": "set",
@@ -35,52 +34,59 @@
       "url": "/lu4/item/2220-recipe-rind-leather-armor"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25007",
       "type": "npc",
       "id": 25007,
-      "name": "Retreat Spider Cletu Lv. 42",
+      "name": "Retreat Spider Cletu",
       "url": "/lu4/npc/25007-retreat-spider-cletu"
     },
     {
       "key": "npc:21613",
       "type": "npc",
       "id": 21613,
-      "name": "Unpleasant Shout Lv. 46",
+      "name": "Unpleasant Shout",
       "url": "/lu4/npc/21613-unpleasant-shout"
     },
     {
       "key": "npc:21243",
       "type": "npc",
       "id": 21243,
-      "name": "Grave Priest Lv. 47",
+      "name": "Grave Priest",
       "url": "/lu4/npc/21243-grave-priest"
     },
     {
       "key": "npc:20939",
       "type": "npc",
       "id": 20939,
-      "name": "Tanor Silenos Warrior Lv. 46",
+      "name": "Tanor Silenos Warrior",
       "url": "/lu4/npc/20939-tanor-silenos-warrior"
     },
     {
       "key": "npc:20751",
       "type": "npc",
       "id": 20751,
-      "name": "Snipe Lv. 44",
+      "name": "Snipe",
       "url": "/lu4/npc/20751-snipe"
     },
     {
       "key": "npc:20636",
       "type": "npc",
       "id": 20636,
-      "name": "Forest of Mirrors Ghost Lv. 46",
+      "name": "Forest of Mirrors Ghost",
       "url": "/lu4/npc/20636-forest-of-mirrors-ghost"
     },
     {
       "key": "npc:20237",
       "type": "npc",
       "id": 20237,
-      "name": "Cave Servant Archer Lv. 47",
+      "name": "Cave Servant Archer",
       "url": "/lu4/npc/20237-cave-servant-archer"
     }
   ]

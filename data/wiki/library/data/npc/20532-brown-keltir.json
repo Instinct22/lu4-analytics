@@ -2,56 +2,32 @@
   "key": "npc:20532",
   "type": "npc",
   "id": 20532,
-  "name": "Lu4 Wiki: NPC Brown Keltir",
+  "name": "Brown Keltir",
   "url": "/lu4/npc/20532-brown-keltir",
-  "source_url": "https://masterwork.wiki/lu4/npc/20532-brown-keltir",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20532-brown-keltir",
   "raw_html": "library/raw/lu4/npc/20532-brown-keltir.html",
   "stats": {
-    "Location": "Сад Шилен"
+    "Respawn Time": "8 seconds",
+    "Location": "Сад Шилен",
+    "HP / MP": "84 / 58",
+    "P. Atk. / M. Atk.": "10 / 4",
+    "P. Def. / M. Def.": "39 / 31",
+    "Accuracy / Evasion": "35 / 35",
+    "Exp / SP": "88 / 9",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 2"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20532",
-      "type": "npc",
-      "id": 20532,
-      "name": "Lu4",
-      "url": "/lu4/npc/20532-brown-keltir"
-    },
-    {
-      "key": "location:224",
-      "type": "location",
-      "id": 224,
-      "name": "Сад Шилен",
-      "url": "/lu4/location/224-sad-silen"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1786",
-      "type": "item",
-      "id": 1786,
-      "name": "Recipe: Broad Sword NG",
-      "url": "/lu4/item/1786-recipe-broad-sword"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "item:57",
@@ -61,13 +37,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:41",
-      "type": "item",
-      "id": 41,
-      "name": "Cloth Cap NG",
-      "url": "/lu4/item/41-cloth-cap"
-    },
-    {
       "key": "item:18",
       "type": "item",
       "id": 18,
@@ -75,11 +44,32 @@
       "url": "/lu4/item/18-leather-shield"
     },
     {
-      "key": "item:1787",
+      "key": "item:41",
       "type": "item",
-      "id": 1787,
-      "name": "Recipe: Willow Staff NG",
-      "url": "/lu4/item/1787-recipe-willow-staff"
+      "id": 41,
+      "name": "Cloth Cap NG",
+      "url": "/lu4/item/41-cloth-cap"
+    },
+    {
+      "key": "item:1786",
+      "type": "item",
+      "id": 1786,
+      "name": "Recipe: Broad Sword NG",
+      "url": "/lu4/item/1786-recipe-broad-sword"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:35",
@@ -87,6 +77,13 @@
       "id": 35,
       "name": "Cloth Shoes NG",
       "url": "/lu4/item/35-cloth-shoes"
+    },
+    {
+      "key": "item:1787",
+      "type": "item",
+      "id": 1787,
+      "name": "Recipe: Willow Staff NG",
+      "url": "/lu4/item/1787-recipe-willow-staff"
     }
   ]
 }

@@ -2,77 +2,74 @@
   "key": "npc:20610",
   "type": "npc",
   "id": 20610,
-  "name": "Lu4 Wiki: NPC Sentinel Of Water",
+  "name": "Sentinel Of Water",
   "url": "/lu4/npc/20610-sentinel-of-water",
-  "source_url": "https://masterwork.wiki/lu4/npc/20610-sentinel-of-water",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20610-sentinel-of-water",
   "raw_html": "library/raw/lu4/npc/20610-sentinel-of-water.html",
   "stats": {
-    "Location": "Забытый Храм"
+    "Respawn Time": "52 seconds",
+    "Location": "Забытый Храм",
+    "HP / MP": "4 166 / 423",
+    "P. Atk. / M. Atk.": "160 / 87",
+    "P. Def. / M. Def.": "150 / 108",
+    "Accuracy / Evasion": "64 / 64",
+    "Exp / SP": "4 552 / 455",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 31"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20610",
-      "type": "npc",
-      "id": 20610,
-      "name": "Lu4",
-      "url": "/lu4/npc/20610-sentinel-of-water"
-    },
-    {
-      "key": "location:28",
-      "type": "location",
-      "id": 28,
-      "name": "Забытый Храм",
-      "url": "/lu4/location/28-zabytyj-hram"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:1938",
+      "key": "item:57",
       "type": "item",
-      "id": 1938,
-      "name": "Mithril Banded Mail Material NG",
-      "url": "/lu4/item/1938-mithril-banded-mail-material"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1873",
@@ -117,18 +114,18 @@
       "url": "/lu4/item/1341-bone-arrow"
     },
     {
-      "key": "item:436",
-      "type": "item",
-      "id": 436,
-      "name": "Tunic of Knowledge D",
-      "url": "/lu4/item/436-tunic-of-knowledge"
-    },
-    {
       "key": "item:393",
       "type": "item",
       "id": 393,
       "name": "Mithril Banded Mail D",
       "url": "/lu4/item/393-mithril-banded-mail"
+    },
+    {
+      "key": "item:1938",
+      "type": "item",
+      "id": 1938,
+      "name": "Mithril Banded Mail Material NG",
+      "url": "/lu4/item/1938-mithril-banded-mail-material"
     },
     {
       "key": "item:83",
@@ -138,11 +135,11 @@
       "url": "/lu4/item/83-sword-of-magic"
     },
     {
-      "key": "item:57",
+      "key": "item:436",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 436,
+      "name": "Tunic of Knowledge D",
+      "url": "/lu4/item/436-tunic-of-knowledge"
     },
     {
       "key": "item:2024",

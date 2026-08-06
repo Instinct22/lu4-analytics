@@ -2,117 +2,107 @@
   "key": "npc:21434",
   "type": "npc",
   "id": 21434,
-  "name": "Lu4 Wiki: NPC Seer of Blood",
+  "name": "Seer of Blood",
   "url": "/lu4/npc/21434-seer-of-blood",
-  "source_url": "https://masterwork.wiki/lu4/npc/21434-seer-of-blood",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21434-seer-of-blood",
   "raw_html": "library/raw/lu4/npc/21434-seer-of-blood.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "28 543 / 1 973",
+    "P. Atk. / M. Atk.": "2 724 / 1 310",
+    "P. Def. / M. Def.": "1 305 / 566",
+    "Accuracy / Evasion": "131 / 138",
+    "Exp / SP": "141 365 / 16 242",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -34, Unholy 184",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Extremely Strong P. Def. Lv. 20 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 6 Blunt Weapons Sleep Resistance Lv. 3 Slightly resistant to Sleep. High Lv. Lv. 7 NPC High Level",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 82"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21434",
-      "type": "npc",
-      "id": 21434,
-      "name": "Lu4",
-      "url": "/lu4/npc/21434-seer-of-blood"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Extremely Strong P. Def. Lv. 20",
-      "url": "/lu4/skill/4412-extremely-strong-p-def/20"
+      "name": "Extremely Strong P. Def.",
+      "url": "/lu4/skill/4412-extremely-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 6 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/6"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 7 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/7"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32395",
-      "type": "item",
-      "id": 32395,
-      "name": "Unidentified Sealed Majestic Leather Armor A",
-      "url": "/lu4/item/32395-unidentified-sealed-majestic-leather-armor"
-    },
-    {
-      "key": "item:32394",
-      "type": "item",
-      "id": 32394,
-      "name": "Unidentified Sealed Leather Armor of Nightmare A",
-      "url": "/lu4/item/32394-unidentified-sealed-leather-armor-of-nightmare"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5481",
@@ -127,6 +117,20 @@
       "id": 5480,
       "name": "Sealed Leather Armor of Nightmare Fabric NG",
       "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
+    },
+    {
+      "key": "item:32395",
+      "type": "item",
+      "id": 32395,
+      "name": "Unidentified Sealed Majestic Leather Armor A",
+      "url": "/lu4/item/32395-unidentified-sealed-majestic-leather-armor"
+    },
+    {
+      "key": "item:32394",
+      "type": "item",
+      "id": 32394,
+      "name": "Unidentified Sealed Leather Armor of Nightmare A",
+      "url": "/lu4/item/32394-unidentified-sealed-leather-armor-of-nightmare"
     },
     {
       "key": "item:4041",
@@ -171,18 +175,11 @@
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:6342",
-      "type": "item",
-      "id": 6342,
-      "name": "Sealed Majestic Earring Gemstone NG",
-      "url": "/lu4/item/6342-sealed-majestic-earring-gemstone"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:5282",
@@ -190,6 +187,13 @@
       "id": 5282,
       "name": "Recipe: Greater Blessed Spiritshot (S) Compressed Package(100%) NG",
       "url": "/lu4/item/5282-recipe-greater-blessed-spiritshot-s-compressed-package100"
+    },
+    {
+      "key": "item:6342",
+      "type": "item",
+      "id": 6342,
+      "name": "Sealed Majestic Earring Gemstone NG",
+      "url": "/lu4/item/6342-sealed-majestic-earring-gemstone"
     },
     {
       "key": "npc:21435",

@@ -2,24 +2,27 @@
   "key": "item:321",
   "type": "item",
   "id": 321,
-  "name": "Lu4 Wiki: Item Demon Fangs",
+  "name": "Demon Fangs",
   "url": "/lu4/item/321-demon-fangs",
-  "source_url": "https://masterwork.wiki/lu4/item/321-demon-fangs",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/321-demon-fangs",
   "raw_html": "library/raw/lu4/item/321-demon-fangs.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Acumen: Casting Spd. +15%. Mana Up: Max MP +30%. Conversion: Max HP -40%, Max MP +60%.",
+    "P. Atk. / M. Atk.": "67 / 66",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "2164 Crystallization Failed Enchant +0 2164 - +1 2254 - +2 2344 - +3 2434 - +4 2614 1532 +5 2794 1712 +6 2974 1892 +7 3154 2072 +8 3334 2252 +9 3514 2432 +10 3694 2612 +11 3874 2792 +12 4054 2972",
+    "NPC Sell Price": "585 950 Adena",
+    "Weight": "1600",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Recipes": "Recipe: Demon Fangs NG",
     "Soul Crystals": "Demon Fangs Acumen D Demon Fangs D Gemstone D NG (120 pcs.) Red Soul Crystal - Stage 3 NG Demon Fangs Conversion D Demon Fangs D Gemstone D NG (120 pcs.) Green Soul Crystal - Stage 3 NG Demon Fangs Mana Up D Demon Fangs D Gemstone D NG (120 pcs.) Blue Soul Crystal - Stage 3 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Blunt / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:321",
-      "type": "item",
-      "id": 321,
-      "name": "Lu4",
-      "url": "/lu4/item/321-demon-fangs"
-    },
     {
       "key": "item:2284",
       "type": "item",
@@ -77,38 +80,87 @@
       "url": "/lu4/item/4654-blue-soul-crystal-stage-3"
     },
     {
+      "key": "npc:25398",
+      "type": "npc",
+      "id": 25398,
+      "name": "Beleth's Eye",
+      "url": "/lu4/npc/25398-beleths-eye"
+    },
+    {
+      "key": "npc:25385",
+      "type": "npc",
+      "id": 25385,
+      "name": "Evil Spirit Tempest",
+      "url": "/lu4/npc/25385-evil-spirit-tempest"
+    },
+    {
+      "key": "npc:25383",
+      "type": "npc",
+      "id": 25383,
+      "name": "Revenant of Sir Calibus",
+      "url": "/lu4/npc/25383-revenant-of-sir-calibus"
+    },
+    {
+      "key": "npc:25189",
+      "type": "npc",
+      "id": 25189,
+      "name": "Cronos's Servitor Mumu",
+      "url": "/lu4/npc/25189-cronoss-servitor-mumu"
+    },
+    {
+      "key": "npc:25185",
+      "type": "npc",
+      "id": 25185,
+      "name": "Tasaba Patriarch Hellena",
+      "url": "/lu4/npc/25185-tasaba-patriarch-hellena"
+    },
+    {
+      "key": "npc:25128",
+      "type": "npc",
+      "id": 25128,
+      "name": "Vuku Grand Seer Gharmash",
+      "url": "/lu4/npc/25128-vuku-grand-seer-gharmash"
+    },
+    {
+      "key": "npc:25098",
+      "type": "npc",
+      "id": 25098,
+      "name": "Sejarr's Servitor",
+      "url": "/lu4/npc/25098-sejarrs-servitor"
+    },
+    {
       "key": "npc:21104",
       "type": "npc",
       "id": 21104,
-      "name": "Delu Lizardman Supplier Lv. 32",
+      "name": "Delu Lizardman Supplier",
       "url": "/lu4/npc/21104-delu-lizardman-supplier"
     },
     {
       "key": "npc:20929",
       "type": "npc",
       "id": 20929,
-      "name": "Hatu Dire Wolf Lv. 34",
+      "name": "Hatu Dire Wolf",
       "url": "/lu4/npc/20929-hatu-dire-wolf"
     },
     {
       "key": "npc:20788",
       "type": "npc",
       "id": 20788,
-      "name": "Rakul Lv. 35",
+      "name": "Rakul",
       "url": "/lu4/npc/20788-rakul"
     },
     {
       "key": "npc:20233",
       "type": "npc",
       "id": 20233,
-      "name": "Marsh Spider Lv. 34",
+      "name": "Marsh Spider",
       "url": "/lu4/npc/20233-marsh-spider"
     },
     {
       "key": "npc:20082",
       "type": "npc",
       "id": 20082,
-      "name": "Ant Recruit Lv. 33",
+      "name": "Ant Recruit",
       "url": "/lu4/npc/20082-ant-recruit"
     }
   ]

@@ -1,0 +1,44 @@
+{
+  "key": "skill:31188",
+  "type": "skill",
+  "id": 31188,
+  "name": "Illusion Immersion",
+  "url": "/lu4/skill/31188-illusion-immersion",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/31188-illusion-immersion",
+  "raw_html": "library/raw/lu4/skill/31188-illusion-immersion.html",
+  "stats": {
+    "Effect": "Gives full debuff immunity. Chance to evade P./M. Skills +25%. Effect only works when character's HP is below 60%.",
+    "Consumes": "25 MP",
+    "Reuse Time": "10 minutes",
+    "Duration": "10 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "Treasure HunterLv. 60Plains WalkerLv. 60Abyss WalkerLv. 60",
+    "Type": "Physical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:8",
+      "type": "class",
+      "id": 8,
+      "name": "Treasure HunterLv. 60",
+      "url": "/lu4/class/8-treasurehunter"
+    },
+    {
+      "key": "class:23",
+      "type": "class",
+      "id": 23,
+      "name": "Plains WalkerLv. 60",
+      "url": "/lu4/class/23-plainwalker"
+    },
+    {
+      "key": "class:36",
+      "type": "class",
+      "id": 36,
+      "name": "Abyss WalkerLv. 60",
+      "url": "/lu4/class/36-abysswalker"
+    }
+  ]
+}

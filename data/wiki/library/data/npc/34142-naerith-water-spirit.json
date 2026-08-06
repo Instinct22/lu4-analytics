@@ -2,84 +2,44 @@
   "key": "npc:34142",
   "type": "npc",
   "id": 34142,
-  "name": "Lu4 Wiki: NPC Naerith, Water Spirit",
+  "name": "Naerith, Water Spirit",
   "url": "/lu4/npc/34142-naerith-water-spirit",
-  "source_url": "https://masterwork.wiki/lu4/npc/34142-naerith-water-spirit",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/34142-naerith-water-spirit",
   "raw_html": "library/raw/lu4/npc/34142-naerith-water-spirit.html",
   "stats": {
-    "Location": "Остров Аллигаторов"
+    "HP / MP": "1 461 913 / 5 257",
+    "P. Atk. / M. Atk.": "9 494 / 35 227",
+    "P. Def. / M. Def.": "1 208 / 1 177",
+    "Accuracy / Evasion": "111 / 121",
+    "Exp / SP": "5 408 000 / 1 000 000",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 65"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:34142",
-      "type": "npc",
-      "id": 34142,
-      "name": "Lu4",
-      "url": "/lu4/npc/34142-naerith-water-spirit"
-    },
-    {
-      "key": "location:120",
-      "type": "location",
-      "id": 120,
-      "name": "Остров Аллигаторов",
-      "url": "/lu4/location/120-ostrov-alligatorov"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:32346",
-      "type": "item",
-      "id": 32346,
-      "name": "Unidentified Carnage Bow A",
-      "url": "/lu4/item/32346-unidentified-carnage-bow"
-    },
-    {
-      "key": "item:32337",
-      "type": "item",
-      "id": 32337,
-      "name": "Unidentified Bloody Orchid A",
-      "url": "/lu4/item/32337-unidentified-bloody-orchid"
-    },
-    {
-      "key": "item:14219",
-      "type": "item",
-      "id": 14219,
-      "name": "Spellbook: Magician's Will NG",
-      "url": "/lu4/item/14219-spellbook-magicians-will"
-    },
-    {
-      "key": "item:10553",
-      "type": "item",
-      "id": 10553,
-      "name": "Spellbook: Archer's Will NG",
-      "url": "/lu4/item/10553-spellbook-archers-will"
-    },
-    {
-      "key": "item:10552",
-      "type": "item",
-      "id": 10552,
-      "name": "Spellbook: Fighter's Will NG",
-      "url": "/lu4/item/10552-spellbook-fighters-will"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -89,13 +49,6 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:8621",
-      "type": "item",
-      "id": 8621,
-      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
-      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
-    },
-    {
       "key": "item:8620",
       "type": "item",
       "id": 8620,
@@ -103,25 +56,116 @@
       "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
     },
     {
-      "key": "item:6570",
+      "key": "item:8621",
       "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
+      "id": 8621,
+      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
+      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
     },
     {
-      "key": "item:6569",
+      "key": "item:10552",
       "type": "item",
-      "id": 6569,
-      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
+      "id": 10552,
+      "name": "Spellbook: Fighter's Will NG",
+      "url": "/lu4/item/10552-spellbook-fighters-will"
     },
     {
-      "key": "item:6345",
+      "key": "item:10553",
       "type": "item",
-      "id": 6345,
-      "name": "Sealed Phoenix Ring Gemstone NG",
-      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
+      "id": 10553,
+      "name": "Spellbook: Archer's Will NG",
+      "url": "/lu4/item/10553-spellbook-archers-will"
+    },
+    {
+      "key": "item:14219",
+      "type": "item",
+      "id": 14219,
+      "name": "Spellbook: Magician's Will NG",
+      "url": "/lu4/item/14219-spellbook-magicians-will"
+    },
+    {
+      "key": "item:32337",
+      "type": "item",
+      "id": 32337,
+      "name": "Unidentified Bloody Orchid A",
+      "url": "/lu4/item/32337-unidentified-bloody-orchid"
+    },
+    {
+      "key": "item:32346",
+      "type": "item",
+      "id": 32346,
+      "name": "Unidentified Carnage Bow A",
+      "url": "/lu4/item/32346-unidentified-carnage-bow"
+    },
+    {
+      "key": "item:5446",
+      "type": "item",
+      "id": 5446,
+      "name": "Recipe: Bloody Orchid(60%) NG",
+      "url": "/lu4/item/5446-recipe-bloody-orchid60"
+    },
+    {
+      "key": "item:5444",
+      "type": "item",
+      "id": 5444,
+      "name": "Recipe: Carnage Bow(60%) NG",
+      "url": "/lu4/item/5444-recipe-carnage-bow60"
+    },
+    {
+      "key": "item:5536",
+      "type": "item",
+      "id": 5536,
+      "name": "Bloody Orchid Head NG",
+      "url": "/lu4/item/5536-bloody-orchid-head"
+    },
+    {
+      "key": "item:5535",
+      "type": "item",
+      "id": 5535,
+      "name": "Carnage Bow Stave NG",
+      "url": "/lu4/item/5535-carnage-bow-stave"
+    },
+    {
+      "key": "item:6323",
+      "type": "item",
+      "id": 6323,
+      "name": "Sealed Phoenix Necklace A",
+      "url": "/lu4/item/6323-sealed-phoenix-necklace"
+    },
+    {
+      "key": "item:6324",
+      "type": "item",
+      "id": 6324,
+      "name": "Sealed Phoenix Earring A",
+      "url": "/lu4/item/6324-sealed-phoenix-earring"
+    },
+    {
+      "key": "item:6325",
+      "type": "item",
+      "id": 6325,
+      "name": "Sealed Phoenix Ring A",
+      "url": "/lu4/item/6325-sealed-phoenix-ring"
+    },
+    {
+      "key": "item:6329",
+      "type": "item",
+      "id": 6329,
+      "name": "Recipe: Sealed Phoenix Necklace(70%) NG",
+      "url": "/lu4/item/6329-recipe-sealed-phoenix-necklace70"
+    },
+    {
+      "key": "item:6331",
+      "type": "item",
+      "id": 6331,
+      "name": "Recipe: Sealed Phoenix Earring(70%) NG",
+      "url": "/lu4/item/6331-recipe-sealed-phoenix-earring70"
+    },
+    {
+      "key": "item:6333",
+      "type": "item",
+      "id": 6333,
+      "name": "Recipe: Sealed Phoenix Ring(70%) NG",
+      "url": "/lu4/item/6333-recipe-sealed-phoenix-ring70"
     },
     {
       "key": "item:6343",
@@ -136,55 +180,6 @@
       "id": 6341,
       "name": "Sealed Phoenix Earring Gemstone NG",
       "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
-    },
-    {
-      "key": "item:6333",
-      "type": "item",
-      "id": 6333,
-      "name": "Recipe: Sealed Phoenix Ring(70%) NG",
-      "url": "/lu4/item/6333-recipe-sealed-phoenix-ring70"
-    },
-    {
-      "key": "item:6331",
-      "type": "item",
-      "id": 6331,
-      "name": "Recipe: Sealed Phoenix Earring(70%) NG",
-      "url": "/lu4/item/6331-recipe-sealed-phoenix-earring70"
-    },
-    {
-      "key": "item:6329",
-      "type": "item",
-      "id": 6329,
-      "name": "Recipe: Sealed Phoenix Necklace(70%) NG",
-      "url": "/lu4/item/6329-recipe-sealed-phoenix-necklace70"
-    },
-    {
-      "key": "item:6325",
-      "type": "item",
-      "id": 6325,
-      "name": "Sealed Phoenix Ring A",
-      "url": "/lu4/item/6325-sealed-phoenix-ring"
-    },
-    {
-      "key": "item:6324",
-      "type": "item",
-      "id": 6324,
-      "name": "Sealed Phoenix Earring A",
-      "url": "/lu4/item/6324-sealed-phoenix-earring"
-    },
-    {
-      "key": "item:6323",
-      "type": "item",
-      "id": 6323,
-      "name": "Sealed Phoenix Necklace A",
-      "url": "/lu4/item/6323-sealed-phoenix-necklace"
-    },
-    {
-      "key": "item:5536",
-      "type": "item",
-      "id": 5536,
-      "name": "Bloody Orchid Head NG",
-      "url": "/lu4/item/5536-bloody-orchid-head"
     }
   ]
 }

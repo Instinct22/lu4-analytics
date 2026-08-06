@@ -2,140 +2,88 @@
   "key": "npc:20645",
   "type": "npc",
   "id": 20645,
-  "name": "Lu4 Wiki: NPC Harit Lizardman Matriarch",
+  "name": "Harit Lizardman Matriarch",
   "url": "/lu4/npc/20645-harit-lizardman-matriarch",
-  "source_url": "https://masterwork.wiki/lu4/npc/20645-harit-lizardman-matriarch",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20645-harit-lizardman-matriarch",
   "raw_html": "library/raw/lu4/npc/20645-harit-lizardman-matriarch.html",
   "stats": {
-    "Location": "Лес Зеркал (+1) Лес Зеркал Ангельский Водопад"
+    "Respawn Time": "1 minute, 5 seconds",
+    "Location": "Лес Зеркал (+1) Лес Зеркал Ангельский Водопад",
+    "HP / MP": "13 248 / 1 096",
+    "P. Atk. / M. Atk.": "620 / 363",
+    "P. Def. / M. Def.": "371 / 316",
+    "Accuracy / Evasion": "91 / 90",
+    "Exp / SP": "18 479 / 1 848",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (5x) Lv. 13 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 13 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Stun Attack Resistance Lv. 5 Resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 55"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20645",
-      "type": "npc",
-      "id": 20645,
-      "name": "Lu4",
-      "url": "/lu4/npc/20645-harit-lizardman-matriarch"
-    },
-    {
-      "key": "location:68",
-      "type": "location",
-      "id": 68,
-      "name": "Лес Зеркал",
-      "url": "/lu4/location/68-les-zerkal"
-    },
-    {
-      "key": "location:78",
-      "type": "location",
-      "id": 78,
-      "name": "Ангельский Водопад",
-      "url": "/lu4/location/78-angelskij-vodopad"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5275",
@@ -159,41 +107,6 @@
       "url": "/lu4/item/4039-mold-glue"
     },
     {
-      "key": "item:2964",
-      "type": "item",
-      "id": 2964,
-      "name": "Divine Gloves Pattern NG",
-      "url": "/lu4/item/2964-divine-gloves-pattern"
-    },
-    {
-      "key": "item:2959",
-      "type": "item",
-      "id": 2959,
-      "name": "Full Plate Helmet Design NG",
-      "url": "/lu4/item/2959-full-plate-helmet-design"
-    },
-    {
-      "key": "item:2463",
-      "type": "item",
-      "id": 2463,
-      "name": "Divine Gloves C",
-      "url": "/lu4/item/2463-divine-gloves"
-    },
-    {
-      "key": "item:2414",
-      "type": "item",
-      "id": 2414,
-      "name": "Full Plate Helmet C",
-      "url": "/lu4/item/2414-full-plate-helmet"
-    },
-    {
-      "key": "item:2112",
-      "type": "item",
-      "id": 2112,
-      "name": "Pa'agrian Axe Blade NG",
-      "url": "/lu4/item/2112-paagrian-axe-blade"
-    },
-    {
       "key": "item:1874",
       "type": "item",
       "id": 1874,
@@ -215,6 +128,41 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:2463",
+      "type": "item",
+      "id": 2463,
+      "name": "Divine Gloves C",
+      "url": "/lu4/item/2463-divine-gloves"
+    },
+    {
+      "key": "item:2964",
+      "type": "item",
+      "id": 2964,
+      "name": "Divine Gloves Pattern NG",
+      "url": "/lu4/item/2964-divine-gloves-pattern"
+    },
+    {
+      "key": "item:2414",
+      "type": "item",
+      "id": 2414,
+      "name": "Full Plate Helmet C",
+      "url": "/lu4/item/2414-full-plate-helmet"
+    },
+    {
+      "key": "item:2959",
+      "type": "item",
+      "id": 2959,
+      "name": "Full Plate Helmet Design NG",
+      "url": "/lu4/item/2959-full-plate-helmet-design"
+    },
+    {
       "key": "item:203",
       "type": "item",
       "id": 203,
@@ -222,46 +170,53 @@
       "url": "/lu4/item/203-paagrian-axe"
     },
     {
-      "key": "item:57",
+      "key": "item:2112",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2112,
+      "name": "Pa'agrian Axe Blade NG",
+      "url": "/lu4/item/2112-paagrian-axe-blade"
     },
     {
-      "key": "item:2963",
+      "key": "item:39295",
       "type": "item",
-      "id": 2963,
-      "name": "Full Plate Gauntlets Part NG",
-      "url": "/lu4/item/2963-full-plate-gauntlets-part"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:2962",
+      "key": "item:39296",
       "type": "item",
-      "id": 2962,
-      "name": "Drake Leather Gloves Design NG",
-      "url": "/lu4/item/2962-drake-leather-gloves-design"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:2355",
+      "key": "item:39297",
       "type": "item",
-      "id": 2355,
-      "name": "Recipe: Ghoul's Staff NG",
-      "url": "/lu4/item/2355-recipe-ghouls-staff"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
-      "key": "item:2231",
+      "key": "item:39298",
       "type": "item",
-      "id": 2231,
-      "name": "Recipe: Full Plate Armor NG",
-      "url": "/lu4/item/2231-recipe-full-plate-armor"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
     },
     {
-      "key": "item:1988",
+      "key": "item:39299",
       "type": "item",
-      "id": 1988,
-      "name": "Divine Tunic Fabric NG",
-      "url": "/lu4/item/1988-divine-tunic-fabric"
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:1885",
@@ -276,6 +231,41 @@
       "id": 1872,
       "name": "Animal Bone NG",
       "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:2231",
+      "type": "item",
+      "id": 2231,
+      "name": "Recipe: Full Plate Armor NG",
+      "url": "/lu4/item/2231-recipe-full-plate-armor"
+    },
+    {
+      "key": "item:2355",
+      "type": "item",
+      "id": 2355,
+      "name": "Recipe: Ghoul's Staff NG",
+      "url": "/lu4/item/2355-recipe-ghouls-staff"
+    },
+    {
+      "key": "item:1988",
+      "type": "item",
+      "id": 1988,
+      "name": "Divine Tunic Fabric NG",
+      "url": "/lu4/item/1988-divine-tunic-fabric"
+    },
+    {
+      "key": "item:2962",
+      "type": "item",
+      "id": 2962,
+      "name": "Drake Leather Gloves Design NG",
+      "url": "/lu4/item/2962-drake-leather-gloves-design"
+    },
+    {
+      "key": "item:2963",
+      "type": "item",
+      "id": 2963,
+      "name": "Full Plate Gauntlets Part NG",
+      "url": "/lu4/item/2963-full-plate-gauntlets-part"
     }
   ]
 }

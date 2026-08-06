@@ -2,24 +2,24 @@
   "key": "item:2493",
   "type": "item",
   "id": 2493,
-  "name": "Lu4 Wiki: Item Brigandine Shield",
+  "name": "Brigandine Shield",
   "url": "/lu4/item/2493-brigandine-shield",
-  "source_url": "https://masterwork.wiki/lu4/item/2493-brigandine-shield",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2493-brigandine-shield",
   "raw_html": "library/raw/lu4/item/2493-brigandine-shield.html",
   "stats": {
+    "Shield Defense": "142 (20%)",
+    "Crystal Amount": "111 Crystallization Failed Enchant +0 111 - +1 122 - +2 133 - +3 144 - +4 177 121 +5 210 154 +6 243 187 +7 276 220 +8 309 253",
+    "NPC Sell Price": "30 150 Adena",
+    "Weight": "1320",
+    "Evasion": "-8",
     "Set Part": "Brigandine Breastplate D",
     "Recipes": "Recipe: Brigandine Shield NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Armor / None / Shield"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2493",
-      "type": "item",
-      "id": 2493,
-      "name": "Lu4",
-      "url": "/lu4/item/2493-brigandine-shield"
-    },
     {
       "key": "set:7",
       "type": "set",
@@ -31,7 +31,7 @@
       "key": "set:500",
       "type": "set",
       "id": 500,
-      "name": "",
+      "name": "set:500",
       "url": "/lu4/set/500"
     },
     {
@@ -42,45 +42,52 @@
       "url": "/lu4/item/2982-recipe-brigandine-shield"
     },
     {
+      "key": "npc:25392",
+      "type": "npc",
+      "id": 25392,
+      "name": "Captain of Queen's Royal Guards",
+      "url": "/lu4/npc/25392-captain-of-queens-royal-guards"
+    },
+    {
       "key": "npc:25188",
       "type": "npc",
       "id": 25188,
-      "name": "Apepi Lv. 30",
+      "name": "Apepi",
       "url": "/lu4/npc/25188-apepi"
     },
     {
       "key": "npc:21106",
       "type": "npc",
       "id": 21106,
-      "name": "Cursed Seer Lv. 34",
+      "name": "Cursed Seer",
       "url": "/lu4/npc/21106-cursed-seer"
     },
     {
       "key": "npc:21015",
       "type": "npc",
       "id": 21015,
-      "name": "Ol Mahum Van Leader Lv. 34",
+      "name": "Ol Mahum Van Leader",
       "url": "/lu4/npc/21015-ol-mahum-van-leader"
     },
     {
       "key": "npc:20747",
       "type": "npc",
       "id": 20747,
-      "name": "Roxide Lv. 32",
+      "name": "Roxide",
       "url": "/lu4/npc/20747-roxide"
     },
     {
       "key": "npc:20270",
       "type": "npc",
       "id": 20270,
-      "name": "Breka Orc Overlord Lv. 35",
+      "name": "Breka Orc Overlord",
       "url": "/lu4/npc/20270-breka-orc-overlord"
     },
     {
       "key": "npc:20249",
       "type": "npc",
       "id": 20249,
-      "name": "Turak Bugbear Warrior Lv. 33",
+      "name": "Turak Bugbear Warrior",
       "url": "/lu4/npc/20249-turak-bugbear-warrior"
     }
   ]

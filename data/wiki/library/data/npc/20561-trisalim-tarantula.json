@@ -2,63 +2,67 @@
   "key": "npc:20561",
   "type": "npc",
   "id": 20561,
-  "name": "Lu4 Wiki: NPC Trisalim Tarantula",
+  "name": "Trisalim Tarantula",
   "url": "/lu4/npc/20561-trisalim-tarantula",
-  "source_url": "https://masterwork.wiki/lu4/npc/20561-trisalim-tarantula",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20561-trisalim-tarantula",
   "raw_html": "library/raw/lu4/npc/20561-trisalim-tarantula.html",
   "stats": {
-    "Location": "Море Спор"
+    "Respawn Time": "35 seconds",
+    "Location": "Море Спор",
+    "HP / MP": "5 579 / 785",
+    "P. Atk. / M. Atk.": "370 / 208",
+    "P. Def. / M. Def.": "275 / 221",
+    "Accuracy / Evasion": "79 / 84",
+    "Exp / SP": "5 952 / 595",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 46"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20561",
-      "type": "npc",
-      "id": 20561,
-      "name": "Lu4",
-      "url": "/lu4/npc/20561-trisalim-tarantula"
-    },
-    {
-      "key": "location:104",
-      "type": "location",
-      "id": 104,
-      "name": "Море Спор",
-      "url": "/lu4/location/104-more-spor"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6037",
@@ -68,13 +72,6 @@
       "url": "/lu4/item/6037-waking-scroll"
     },
     {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
       "key": "item:4041",
       "type": "item",
       "id": 4041,
@@ -82,46 +79,11 @@
       "url": "/lu4/item/4041-mold-hardener"
     },
     {
-      "key": "item:3000",
+      "key": "item:5220",
       "type": "item",
-      "id": 3000,
-      "name": "Recipe: Dwarven Chain Shield NG",
-      "url": "/lu4/item/3000-recipe-dwarven-chain-shield"
-    },
-    {
-      "key": "item:2319",
-      "type": "item",
-      "id": 2319,
-      "name": "Recipe: Raid Sword NG",
-      "url": "/lu4/item/2319-recipe-raid-sword"
-    },
-    {
-      "key": "item:2220",
-      "type": "item",
-      "id": 2220,
-      "name": "Recipe: Rind Leather Armor NG",
-      "url": "/lu4/item/2220-recipe-rind-leather-armor"
-    },
-    {
-      "key": "item:2082",
-      "type": "item",
-      "id": 2082,
-      "name": "Cursed Staff Head NG",
-      "url": "/lu4/item/2082-cursed-staff-head"
-    },
-    {
-      "key": "item:2078",
-      "type": "item",
-      "id": 2078,
-      "name": "Katana Blade NG",
-      "url": "/lu4/item/2078-katana-blade"
-    },
-    {
-      "key": "item:2077",
-      "type": "item",
-      "id": 2077,
-      "name": "Shamshir Blade NG",
-      "url": "/lu4/item/2077-shamshir-blade"
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
     },
     {
       "key": "item:1885",
@@ -159,11 +121,25 @@
       "url": "/lu4/item/195-cursed-staff"
     },
     {
+      "key": "item:2082",
+      "type": "item",
+      "id": 2082,
+      "name": "Cursed Staff Head NG",
+      "url": "/lu4/item/2082-cursed-staff-head"
+    },
+    {
       "key": "item:74",
       "type": "item",
       "id": 74,
       "name": "Katana C",
       "url": "/lu4/item/74-katana"
+    },
+    {
+      "key": "item:2078",
+      "type": "item",
+      "id": 2078,
+      "name": "Katana Blade NG",
+      "url": "/lu4/item/2078-katana-blade"
     },
     {
       "key": "item:73",
@@ -173,18 +149,39 @@
       "url": "/lu4/item/73-shamshir"
     },
     {
-      "key": "item:57",
+      "key": "item:2077",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2077,
+      "name": "Shamshir Blade NG",
+      "url": "/lu4/item/2077-shamshir-blade"
     },
     {
-      "key": "item:2949",
+      "key": "item:3000",
       "type": "item",
-      "id": 2949,
-      "name": "Dwarven Chain Gloves Design NG",
-      "url": "/lu4/item/2949-dwarven-chain-gloves-design"
+      "id": 3000,
+      "name": "Recipe: Dwarven Chain Shield NG",
+      "url": "/lu4/item/3000-recipe-dwarven-chain-shield"
+    },
+    {
+      "key": "item:2319",
+      "type": "item",
+      "id": 2319,
+      "name": "Recipe: Raid Sword NG",
+      "url": "/lu4/item/2319-recipe-raid-sword"
+    },
+    {
+      "key": "item:2220",
+      "type": "item",
+      "id": 2220,
+      "name": "Recipe: Rind Leather Armor NG",
+      "url": "/lu4/item/2220-recipe-rind-leather-armor"
+    },
+    {
+      "key": "item:1880",
+      "type": "item",
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
     },
     {
       "key": "item:2940",
@@ -194,11 +191,11 @@
       "url": "/lu4/item/2940-dwarven-chain-boots-part"
     },
     {
-      "key": "item:1880",
+      "key": "item:2949",
       "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
+      "id": 2949,
+      "name": "Dwarven Chain Gauntlets Design NG",
+      "url": "/lu4/item/2949-dwarven-chain-gauntlets-design"
     }
   ]
 }

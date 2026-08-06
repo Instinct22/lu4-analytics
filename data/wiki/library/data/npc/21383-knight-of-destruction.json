@@ -2,96 +2,128 @@
   "key": "npc:21383",
   "type": "npc",
   "id": 21383,
-  "name": "Lu4 Wiki: NPC Knight of Destruction",
+  "name": "Knight of Destruction",
   "url": "/lu4/npc/21383-knight-of-destruction",
-  "source_url": "https://masterwork.wiki/lu4/npc/21383-knight-of-destruction",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21383-knight-of-destruction",
   "raw_html": "library/raw/lu4/npc/21383-knight-of-destruction.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "23 210 / 1 896",
+    "P. Atk. / M. Atk.": "2 128 / 1 489",
+    "P. Def. / M. Def.": "1 071 / 462",
+    "Accuracy / Evasion": "125 / 131",
+    "Exp / SP": "71 181 / 5 835",
+    "Attack Attribute": "Unholy 50",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Very Strong P. Def. Lv. 17 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. High Lv. Lv. 6 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21383",
-      "type": "npc",
-      "id": 21383,
-      "name": "Lu4",
-      "url": "/lu4/npc/21383-knight-of-destruction"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 17",
-      "url": "/lu4/skill/4412-very-strong-p-def/17"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 6 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/6"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:6688",
+      "type": "item",
+      "id": 6688,
+      "name": "Forgotten Blade Edge NG",
+      "url": "/lu4/item/6688-forgotten-blade-edge"
+    },
+    {
+      "key": "item:6696",
+      "type": "item",
+      "id": 6696,
+      "name": "Heavens Divider Edge NG",
+      "url": "/lu4/item/6696-heavens-divider-edge"
+    },
+    {
+      "key": "item:5522",
+      "type": "item",
+      "id": 5522,
+      "name": "Sealed Armor of Nightmare Pattern NG",
+      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
     },
     {
       "key": "item:32390",
@@ -108,46 +140,11 @@
       "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
     },
     {
-      "key": "item:6696",
-      "type": "item",
-      "id": 6696,
-      "name": "Heavens Divider Edge NG",
-      "url": "/lu4/item/6696-heavens-divider-edge"
-    },
-    {
-      "key": "item:6688",
-      "type": "item",
-      "id": 6688,
-      "name": "Forgotten Blade Edge NG",
-      "url": "/lu4/item/6688-forgotten-blade-edge"
-    },
-    {
       "key": "item:5523",
       "type": "item",
       "id": 5523,
       "name": "Sealed Majestic Plate Armor Pattern NG",
       "url": "/lu4/item/5523-sealed-majestic-plate-armor-pattern"
-    },
-    {
-      "key": "item:5522",
-      "type": "item",
-      "id": 5522,
-      "name": "Sealed Armor of Nightmare Pattern NG",
-      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:1866",
@@ -162,6 +159,13 @@
       "id": 1865,
       "name": "Varnish NG",
       "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:1864",
@@ -185,18 +189,11 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:1868",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:5514",
-      "type": "item",
-      "id": 5514,
-      "name": "Sealed Gauntlets of Nightmare Design NG",
-      "url": "/lu4/item/5514-sealed-gauntlets-of-nightmare-design"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:5503",
@@ -211,6 +208,13 @@
       "id": 5162,
       "name": "Recipe: Spiritshot (S) Compressed Package (100%) NG",
       "url": "/lu4/item/5162-recipe-spiritshot-s-compressed-package-100"
+    },
+    {
+      "key": "item:5514",
+      "type": "item",
+      "id": 5514,
+      "name": "Sealed Gauntlets of Nightmare Design NG",
+      "url": "/lu4/item/5514-sealed-gauntlets-of-nightmare-design"
     }
   ]
 }

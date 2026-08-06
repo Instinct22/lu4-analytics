@@ -2,125 +2,24 @@
   "key": "item:2282",
   "type": "item",
   "id": 2282,
-  "name": "Recipe",
+  "name": "Recipe: Cursed Maingauche",
   "url": "/lu4/item/2282-recipe-cursed-maingauche",
-  "source_url": "https://masterwork.wiki/lu4/item/2282-recipe-cursed-maingauche",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2282-recipe-cursed-maingauche",
   "raw_html": "library/raw/lu4/item/2282-recipe-cursed-maingauche.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Cursed Maingauche'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "14 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Cursed Maingauche D"
+    "Result": "Cursed Maingauche D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2044",
-      "type": "item",
-      "id": 2044,
-      "name": "Cursed Maingauche Edge NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1883",
-      "type": "item",
-      "id": 1883,
-      "name": "Steel Mold NG",
-      "amount": "2"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "50"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "175"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "875"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "875"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "175"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "525"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "525"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "430"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "139"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2282",
-      "type": "item",
-      "id": 2282,
-      "name": "Lu4",
-      "url": "/lu4/item/2282-recipe-cursed-maingauche"
-    },
     {
       "key": "item:2044",
       "type": "item",
@@ -216,28 +115,28 @@
       "key": "npc:20783",
       "type": "npc",
       "id": 20783,
-      "name": "Dread Wolf Lv. 35",
+      "name": "Dread Wolf",
       "url": "/lu4/npc/20783-dread-wolf"
     },
     {
       "key": "npc:20176",
       "type": "npc",
       "id": 20176,
-      "name": "Wyrm Lv. 35",
+      "name": "Wyrm",
       "url": "/lu4/npc/20176-wyrm"
     },
     {
       "key": "npc:21105",
       "type": "npc",
       "id": 21105,
-      "name": "Delu Lizardman Special Agent Lv. 33",
+      "name": "Delu Lizardman Special Agent",
       "url": "/lu4/npc/21105-delu-lizardman-special-agent"
     },
     {
       "key": "npc:20549",
       "type": "npc",
       "id": 20549,
-      "name": "Ol Mahum Lord Lv. 34",
+      "name": "Ol Mahum Lord",
       "url": "/lu4/npc/20549-ol-mahum-lord"
     }
   ]

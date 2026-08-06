@@ -2,55 +2,24 @@
   "key": "item:5153",
   "type": "item",
   "id": 5153,
-  "name": "Recipe",
+  "name": "Recipe: Soulshot (D) Compressed Package (100%)",
   "url": "/lu4/item/5153-recipe-soulshot-d-compressed-package-100",
-  "source_url": "https://masterwork.wiki/lu4/item/5153-recipe-soulshot-d-compressed-package-100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5153-recipe-soulshot-d-compressed-package-100",
   "raw_html": "library/raw/lu4/item/5153-recipe-soulshot-d-compressed-package-100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Compressed Package of Soulshots (D-Grade)'. Requires Create Item - Skill Level 2 (Artisan Lv. 20). The success rate is 100%.",
+    "NPC Sell Price": "2 500 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "90",
     "Success Rate": "100%",
-    "Result": "Compressed Package of Soulshots (D-Grade) NG"
+    "Result": "Compressed Package of Soulshots (D-Grade) NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1463",
-      "type": "item",
-      "id": 1463,
-      "name": "Soulshot (D-Grade) D",
-      "amount": "300"
-    },
-    {
-      "key": "item:1785",
-      "type": "item",
-      "id": 1785,
-      "name": "Soul Ore NG",
-      "amount": "4.5"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "1.5"
-    },
-    {
-      "key": "item:5192",
-      "type": "item",
-      "id": 5192,
-      "name": "Rope of Magic (D-Grade) NG",
-      "amount": "3"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:5153",
-      "type": "item",
-      "id": 5153,
-      "name": "Lu4",
-      "url": "/lu4/item/5153-recipe-soulshot-d-compressed-package-100"
-    },
     {
       "key": "item:1463",
       "type": "item",
@@ -90,28 +59,28 @@
       "key": "npc:21256",
       "type": "npc",
       "id": 21256,
-      "name": "Underground Werewolf Lv. 23",
+      "name": "Underground Werewolf",
       "url": "/lu4/npc/21256-underground-werewolf"
     },
     {
       "key": "npc:20401",
       "type": "npc",
       "id": 20401,
-      "name": "Veelan Bugbear Lv. 23",
+      "name": "Veelan Bugbear",
       "url": "/lu4/npc/20401-veelan-bugbear"
     },
     {
       "key": "npc:20367",
       "type": "npc",
       "id": 20367,
-      "name": "Merkenis's Escort Lv. 20",
+      "name": "Merkenis's Escort",
       "url": "/lu4/npc/20367-merkeniss-escort"
     },
     {
       "key": "npc:20224",
       "type": "npc",
       "id": 20224,
-      "name": "Ol Mahum Ranger Lv. 22",
+      "name": "Ol Mahum Ranger",
       "url": "/lu4/npc/20224-ol-mahum-ranger"
     }
   ]

@@ -2,36 +2,39 @@
   "key": "item:34898",
   "type": "item",
   "id": 34898,
-  "name": "Lu4 Wiki: Item Tarbar*Work Hammer",
+  "name": "Tarbar*Work Hammer",
   "url": "/lu4/item/34898-tarbarwork-hammer",
-  "source_url": "https://masterwork.wiki/lu4/item/34898-tarbarwork-hammer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/34898-tarbarwork-hammer",
   "raw_html": "library/raw/lu4/item/34898-tarbarwork-hammer.html",
   "stats": {
+    "Effect": "<Effects> P. Skill Reuse Time +10%. <+4 Enchant Effect> Max HP +25%.",
+    "P. Atk. / M. Atk.": "118 / 51",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "2355 Crystallization Failed Enchant +0 2355 - +1 2445 - +2 2535 - +3 2625 - +4 2805 1627 +5 2985 1807 +6 3165 1987 +7 3345 2167 +8 3525 2347 +9 3705 2527 +10 3885 2707 +11 4065 2887 +12 4245 3067",
+    "NPC Sell Price": "537 850 Adena",
+    "Weight": "3000",
+    "P. Crit. Rate.": "6",
+    "Accuracy": "5",
     "Item Skills": "Special Ability: Health Lv. 1 Weight of Dualblunt Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Dualblunt / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:34898",
-      "type": "item",
-      "id": 34898,
-      "name": "Lu4",
-      "url": "/lu4/item/34898-tarbarwork-hammer"
-    },
-    {
       "key": "skill:24292",
       "type": "skill",
       "id": 24292,
-      "name": "Special Ability: Health Lv. 1",
-      "url": "/lu4/skill/24292-special-ability-health/1"
+      "name": "Special Ability: Health",
+      "url": "/lu4/skill/24292-special-ability-health"
     },
     {
       "key": "skill:32397",
       "type": "skill",
       "id": 32397,
-      "name": "Weight of Dualblunt Lv. 1",
-      "url": "/lu4/skill/32397-weight-of-dualblunt/1"
+      "name": "Weight of Dualblunt",
+      "url": "/lu4/skill/32397-weight-of-dualblunt"
     }
   ]
 }

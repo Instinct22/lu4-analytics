@@ -2,91 +2,81 @@
   "key": "npc:20823",
   "type": "npc",
   "id": 20823,
-  "name": "Lu4 Wiki: NPC Platinum Tribe Soldier",
+  "name": "Platinum Tribe Soldier",
   "url": "/lu4/npc/20823-platinum-tribe-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/20823-platinum-tribe-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20823-platinum-tribe-soldier",
   "raw_html": "library/raw/lu4/npc/20823-platinum-tribe-soldier.html",
   "stats": {
-    "Location": "Башня Дерзости: 5-й этаж"
+    "Respawn Time": "3 minutes, 20 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 5-й этаж",
+    "HP / MP": "27 255 / 1 541",
+    "P. Atk. / M. Atk.": "2 327 / 826",
+    "P. Def. / M. Def.": "1 136 / 583",
+    "Accuracy / Evasion": "111 / 91",
+    "Exp / SP": "55 837 / 5 584",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 16 Strong M. Def. Lv. 14 Very Strong P. Def. Lv. 16 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. Stun Attack Resistance Lv. 5 Resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 68"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20823",
-      "type": "npc",
-      "id": 20823,
-      "name": "Lu4",
-      "url": "/lu4/npc/20823-platinum-tribe-soldier"
-    },
-    {
-      "key": "location:88",
-      "type": "location",
-      "id": 88,
-      "name": "Башня Дерзости: 5-й этаж",
-      "url": "/lu4/location/88-basna-derzosti-5-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
-      "key": "item:39290",
+      "key": "item:57",
       "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32372",
-      "type": "item",
-      "id": 32372,
-      "name": "Unidentified Sealed Dark Crystal Gloves A",
-      "url": "/lu4/item/32372-unidentified-sealed-dark-crystal-gloves"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5550",
@@ -94,27 +84,6 @@
       "id": 5550,
       "name": "Durable Metal Plate NG",
       "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:5508",
-      "type": "item",
-      "id": 5508,
-      "name": "Sealed Dark Crystal Gloves Design NG",
-      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
-    },
-    {
-      "key": "item:5368",
-      "type": "item",
-      "id": 5368,
-      "name": "Recipe: Sealed Dark Crystal Boots(60%) NG",
-      "url": "/lu4/item/5368-recipe-sealed-dark-crystal-boots60"
-    },
-    {
-      "key": "item:5346",
-      "type": "item",
-      "id": 5346,
-      "name": "Recipe: Sealed Tallum Tunic(60%) NG",
-      "url": "/lu4/item/5346-recipe-sealed-tallum-tunic60"
     },
     {
       "key": "item:4043",
@@ -145,18 +114,39 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:57",
+      "key": "item:39290",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
     },
     {
-      "key": "item:5509",
+      "key": "item:32372",
       "type": "item",
-      "id": 5509,
-      "name": "Sealed Tallum Gloves Design NG",
-      "url": "/lu4/item/5509-sealed-tallum-gloves-design"
+      "id": 32372,
+      "name": "Unidentified Sealed Dark Crystal Gloves A",
+      "url": "/lu4/item/32372-unidentified-sealed-dark-crystal-gloves"
+    },
+    {
+      "key": "item:5508",
+      "type": "item",
+      "id": 5508,
+      "name": "Sealed Dark Crystal Gloves Design NG",
+      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
+    },
+    {
+      "key": "item:5368",
+      "type": "item",
+      "id": 5368,
+      "name": "Recipe: Sealed Dark Crystal Boots(60%) NG",
+      "url": "/lu4/item/5368-recipe-sealed-dark-crystal-boots60"
+    },
+    {
+      "key": "item:5346",
+      "type": "item",
+      "id": 5346,
+      "name": "Recipe: Sealed Tallum Tunic(60%) NG",
+      "url": "/lu4/item/5346-recipe-sealed-tallum-tunic60"
     },
     {
       "key": "item:5332",
@@ -164,6 +154,13 @@
       "id": 5332,
       "name": "Recipe: Sealed Dark Crystal Leather Armor(60%) NG",
       "url": "/lu4/item/5332-recipe-sealed-dark-crystal-leather-armor60"
+    },
+    {
+      "key": "item:5509",
+      "type": "item",
+      "id": 5509,
+      "name": "Sealed Tallum Gloves Design NG",
+      "url": "/lu4/item/5509-sealed-tallum-gloves-design"
     }
   ]
 }

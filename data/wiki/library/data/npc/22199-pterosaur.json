@@ -2,138 +2,170 @@
   "key": "npc:22199",
   "type": "npc",
   "id": 22199,
-  "name": "Lu4 Wiki: NPC Pterosaur",
+  "name": "Pterosaur",
   "url": "/lu4/npc/22199-pterosaur",
-  "source_url": "https://masterwork.wiki/lu4/npc/22199-pterosaur",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22199-pterosaur",
   "raw_html": "library/raw/lu4/npc/22199-pterosaur.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "112 798 / 2 277",
+    "P. Atk. / M. Atk.": "15 013 / 10 136",
+    "P. Def. / M. Def.": "1 343 / 814",
+    "Accuracy / Evasion": "125 / 125",
+    "Exp / SP": "56 471 / 8 406",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Strong M. Def. Lv. 15 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Beast Lv. 4 Beast. Unknown Creature Lv. 24 An unknown life form that has never been discovered before. Greater Sleep Resistance Lv. 5 Sleep Immunity. Greater Hold Resistance Lv. 5 Hold Immunity. Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks. Greater Paralyze Resistance Lv. 5 Paralyze Immunity. Greater Mental Attack Resistance Lv. 5 Silence/Fear Immunity. Greater Spear Resistance Lv. 1 Very resistant to Spears.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22199",
-      "type": "npc",
-      "id": 22199,
-      "name": "Lu4",
-      "url": "/lu4/npc/22199-pterosaur"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 15",
-      "url": "/lu4/skill/4413-strong-m-def/15"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Beast Lv. 4 Beast.",
-      "url": "/lu4/skill/4417-beast/4"
+      "name": "Beast",
+      "url": "/lu4/skill/4417-beast"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 5 Sleep Immunity.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/5"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 5 Hold Immunity.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/5"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/3"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4440",
       "type": "skill",
       "id": 4440,
-      "name": "Greater Paralyze Resistance Lv. 5 Paralyze Immunity.",
-      "url": "/lu4/skill/4440-greater-paralyze-resistance/5"
+      "name": "Greater Paralyze Resistance",
+      "url": "/lu4/skill/4440-greater-paralyze-resistance"
     },
     {
       "key": "skill:4441",
       "type": "skill",
       "id": 4441,
-      "name": "Greater Mental Attack Resistance Lv. 5 Silence/Fear Immunity.",
-      "url": "/lu4/skill/4441-greater-mental-attack-resistance/5"
+      "name": "Greater Mental Attack Resistance",
+      "url": "/lu4/skill/4441-greater-mental-attack-resistance"
     },
     {
       "key": "skill:4445",
       "type": "skill",
       "id": 4445,
-      "name": "Greater Spear Resistance Lv. 1 Very resistant to Spears.",
-      "url": "/lu4/skill/4445-greater-spear-resistance/1"
+      "name": "Greater Spear Resistance",
+      "url": "/lu4/skill/4445-greater-spear-resistance"
     },
     {
-      "key": "item:8954",
+      "key": "item:57",
       "type": "item",
-      "id": 8954,
-      "name": "Blue Primeval Crystal S",
-      "url": "/lu4/item/8954-blue-primeval-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:6327",
+      "type": "item",
+      "id": 6327,
+      "name": "Sealed Majestic Earring A",
+      "url": "/lu4/item/6327-sealed-majestic-earring"
+    },
+    {
+      "key": "item:6342",
+      "type": "item",
+      "id": 6342,
+      "name": "Sealed Majestic Earring Gemstone NG",
+      "url": "/lu4/item/6342-sealed-majestic-earring-gemstone"
+    },
+    {
+      "key": "item:6344",
+      "type": "item",
+      "id": 6344,
+      "name": "Sealed Majestic Necklace Beads NG",
+      "url": "/lu4/item/6344-sealed-majestic-necklace-beads"
+    },
+    {
+      "key": "item:6346",
+      "type": "item",
+      "id": 6346,
+      "name": "Sealed Majestic Ring Gemstone NG",
+      "url": "/lu4/item/6346-sealed-majestic-ring-gemstone"
     },
     {
       "key": "item:8904",
@@ -157,13 +189,6 @@
       "url": "/lu4/item/8881-spellbook-cleanse"
     },
     {
-      "key": "item:8762",
-      "type": "item",
-      "id": 8762,
-      "name": "Top-Grade Life Stone NG",
-      "url": "/lu4/item/8762-top-grade-life-stone"
-    },
-    {
       "key": "item:8633",
       "type": "item",
       "id": 8633,
@@ -178,39 +203,25 @@
       "url": "/lu4/item/8627-elixir-of-hp-s-grade"
     },
     {
-      "key": "item:6346",
+      "key": "item:8954",
       "type": "item",
-      "id": 6346,
-      "name": "Sealed Majestic Ring Gemstone NG",
-      "url": "/lu4/item/6346-sealed-majestic-ring-gemstone"
+      "id": 8954,
+      "name": "Blue Primeval Crystal S",
+      "url": "/lu4/item/8954-blue-primeval-crystal"
     },
     {
-      "key": "item:6344",
+      "key": "item:8762",
       "type": "item",
-      "id": 6344,
-      "name": "Sealed Majestic Necklace Beads NG",
-      "url": "/lu4/item/6344-sealed-majestic-necklace-beads"
+      "id": 8762,
+      "name": "Top-Grade Life Stone NG",
+      "url": "/lu4/item/8762-top-grade-life-stone"
     },
     {
-      "key": "item:6342",
+      "key": "item:6691",
       "type": "item",
-      "id": 6342,
-      "name": "Sealed Majestic Earring Gemstone NG",
-      "url": "/lu4/item/6342-sealed-majestic-earring-gemstone"
-    },
-    {
-      "key": "item:6327",
-      "type": "item",
-      "id": 6327,
-      "name": "Sealed Majestic Earring A",
-      "url": "/lu4/item/6327-sealed-majestic-earring"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 6691,
+      "name": "Angel Slayer Blade NG",
+      "url": "/lu4/item/6691-angel-slayer-blade"
     },
     {
       "key": "item:6901",
@@ -225,13 +236,6 @@
       "id": 6693,
       "name": "Dragon Hunter Axe Blade NG",
       "url": "/lu4/item/6693-dragon-hunter-axe-blade"
-    },
-    {
-      "key": "item:6691",
-      "type": "item",
-      "id": 6691,
-      "name": "Angel Slayer Blade NG",
-      "url": "/lu4/item/6691-angel-slayer-blade"
     }
   ]
 }

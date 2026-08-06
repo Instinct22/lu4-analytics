@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Order Oren
+# Order Oren
 
-- Source: https://masterwork.wiki/lu4/item/2766-order-oren
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2766-order-oren
 - Path: /lu4/item/2766-order-oren
 - Type: item
 - Key: item:2766
 
 ## Stats
+- Effect: Kill at least 10 Leto lizardman overlords and 10 enchanted monster eyes in Oren.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Order Oren
-Lu4
-Eternal
-MasterWork
-Order Oren
-NG
-Quest Item
-Kill at least 10 Leto lizardman overlords and 10 enchanted monster eyes in Oren.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Test of the Duelist
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Order Oren NG Quest Item Kill at least 10 Leto lizardman overlords and 10 enchanted monster eyes in Oren. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

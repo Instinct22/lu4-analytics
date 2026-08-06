@@ -2,154 +2,88 @@
   "key": "npc:5064",
   "type": "npc",
   "id": 5064,
-  "name": "Lu4 Wiki: NPC Hound Dog of Hallate",
+  "name": "Hound Dog of Hallate",
   "url": "/lu4/npc/5064-hound-dog-of-hallate",
-  "source_url": "https://masterwork.wiki/lu4/npc/5064-hound-dog-of-hallate",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5064-hound-dog-of-hallate",
   "raw_html": "library/raw/lu4/npc/5064-hound-dog-of-hallate.html",
   "stats": {
-    "Location": "Башня Дерзости: 4-й этаж"
+    "Respawn Time": "3 minutes, 5 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 4-й этаж",
+    "HP / MP": "21 946 / 1 110",
+    "P. Atk. / M. Atk.": "1 888 / 763",
+    "P. Def. / M. Def.": "700 / 437",
+    "Accuracy / Evasion": "99 / 99",
+    "Exp / SP": "42 549 / 4 255",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Grumpy Lv. 1 Strikes without warning. HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 15 Slightly Strong M. Def. Lv. 13 Strong P. Def. Lv. 15 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 66"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5064",
-      "type": "npc",
-      "id": 5064,
-      "name": "Lu4",
-      "url": "/lu4/npc/5064-hound-dog-of-hallate"
-    },
-    {
-      "key": "location:87",
-      "type": "location",
-      "id": 87,
-      "name": "Башня Дерзости: 4-й этаж",
-      "url": "/lu4/location/87-basna-derzosti-4-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32382",
-      "type": "item",
-      "id": 32382,
-      "name": "Unidentified Sealed Tallum Tunic A",
-      "url": "/lu4/item/32382-unidentified-sealed-tallum-tunic"
-    },
-    {
-      "key": "item:32370",
-      "type": "item",
-      "id": 32370,
-      "name": "Unidentified Sealed Dark Crystal Gaiters A",
-      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
-    },
-    {
-      "key": "item:6343",
-      "type": "item",
-      "id": 6343,
-      "name": "Sealed Phoenix Necklace Beads NG",
-      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
-    },
-    {
-      "key": "item:6323",
-      "type": "item",
-      "id": 6323,
-      "name": "Sealed Phoenix Necklace A",
-      "url": "/lu4/item/6323-sealed-phoenix-necklace"
-    },
-    {
-      "key": "item:5524",
-      "type": "item",
-      "id": 5524,
-      "name": "Sealed Dark Crystal Gaiters Pattern NG",
-      "url": "/lu4/item/5524-sealed-dark-crystal-gaiters-pattern"
-    },
-    {
-      "key": "item:5485",
-      "type": "item",
-      "id": 5485,
-      "name": "Sealed Tallum Tunic Texture NG",
-      "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -180,18 +114,74 @@
       "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:5539",
+      "key": "item:32370",
       "type": "item",
-      "id": 5539,
-      "name": "Blood Tornado Edge NG",
-      "url": "/lu4/item/5539-blood-tornado-edge"
+      "id": 32370,
+      "name": "Unidentified Sealed Dark Crystal Gaiters A",
+      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
+    },
+    {
+      "key": "item:5524",
+      "type": "item",
+      "id": 5524,
+      "name": "Sealed Dark Crystal Gaiters Pattern NG",
+      "url": "/lu4/item/5524-sealed-dark-crystal-gaiters-pattern"
+    },
+    {
+      "key": "item:6323",
+      "type": "item",
+      "id": 6323,
+      "name": "Sealed Phoenix Necklace A",
+      "url": "/lu4/item/6323-sealed-phoenix-necklace"
+    },
+    {
+      "key": "item:6343",
+      "type": "item",
+      "id": 6343,
+      "name": "Sealed Phoenix Necklace Beads NG",
+      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
+    },
+    {
+      "key": "item:32382",
+      "type": "item",
+      "id": 32382,
+      "name": "Unidentified Sealed Tallum Tunic A",
+      "url": "/lu4/item/32382-unidentified-sealed-tallum-tunic"
+    },
+    {
+      "key": "item:5485",
+      "type": "item",
+      "id": 5485,
+      "name": "Sealed Tallum Tunic Texture NG",
+      "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:5418",
@@ -199,6 +189,13 @@
       "id": 5418,
       "name": "Recipe: Sealed Tallum Plate Armor(60%) NG",
       "url": "/lu4/item/5418-recipe-sealed-tallum-plate-armor60"
+    },
+    {
+      "key": "item:5539",
+      "type": "item",
+      "id": 5539,
+      "name": "Blood Tornado Edge NG",
+      "url": "/lu4/item/5539-blood-tornado-edge"
     }
   ]
 }

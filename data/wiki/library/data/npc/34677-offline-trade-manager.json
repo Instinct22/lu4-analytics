@@ -2,98 +2,38 @@
   "key": "npc:34677",
   "type": "npc",
   "id": 34677,
-  "name": "Lu4 Wiki: NPC Offline Trade Manager",
+  "name": "Offline Trade Manager",
   "url": "/lu4/npc/34677-offline-trade-manager",
-  "source_url": "https://masterwork.wiki/lu4/npc/34677-offline-trade-manager",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/34677-offline-trade-manager",
   "raw_html": "library/raw/lu4/npc/34677-offline-trade-manager.html",
   "stats": {
-    "Location": "Деревня Гномов (+8) Деревня Гномов Глудин Глудио Дион Гиран Гавань Гирана Орен Деревня Охотников Аден"
+    "Respawn Time": "1 minute",
+    "Location": "Деревня Гномов (+8) Деревня Гномов Глудин Глудио Дион Гиран Гавань Гирана Орен Деревня Охотников Аден",
+    "HP / MP": "3 862 / 1 642",
+    "P. Atk. / M. Atk.": "1 314 / 780",
+    "P. Def. / M. Def.": "501 / 399",
+    "Accuracy / Evasion": "98 / 108",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 150, Water 150, Wind 150, Earth 150, Holy 150, Unholy 150",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 Resist Full Magic Attack Lv. 1",
+    "Type": "Elemental, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:34677",
-      "type": "npc",
-      "id": 34677,
-      "name": "Lu4",
-      "url": "/lu4/npc/34677-offline-trade-manager"
-    },
-    {
-      "key": "location:64",
-      "type": "location",
-      "id": 64,
-      "name": "Деревня Гномов",
-      "url": "/lu4/location/64-derevna-gnomov"
-    },
-    {
-      "key": "location:21",
-      "type": "location",
-      "id": 21,
-      "name": "Глудин",
-      "url": "/lu4/location/21-gludin"
-    },
-    {
-      "key": "location:20",
-      "type": "location",
-      "id": 20,
-      "name": "Глудио",
-      "url": "/lu4/location/20-gludio"
-    },
-    {
-      "key": "location:48",
-      "type": "location",
-      "id": 48,
-      "name": "Дион",
-      "url": "/lu4/location/48-dion"
-    },
-    {
-      "key": "location:43",
-      "type": "location",
-      "id": 43,
-      "name": "Гиран",
-      "url": "/lu4/location/43-giran"
-    },
-    {
-      "key": "location:44",
-      "type": "location",
-      "id": 44,
-      "name": "Гавань Гирана",
-      "url": "/lu4/location/44-gavan-girana"
-    },
-    {
-      "key": "location:101",
-      "type": "location",
-      "id": 101,
-      "name": "Орен",
-      "url": "/lu4/location/101-oren"
-    },
-    {
-      "key": "location:74",
-      "type": "location",
-      "id": 74,
-      "name": "Деревня Охотников",
-      "url": "/lu4/location/74-derevna-ohotnikov"
-    },
-    {
-      "key": "location:77",
-      "type": "location",
-      "id": 77,
-      "name": "Аден",
-      "url": "/lu4/location/77-aden"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

@@ -2,133 +2,39 @@
   "key": "npc:21107",
   "type": "npc",
   "id": 21107,
-  "name": "Lu4 Wiki: NPC Delu Lizardman Commander",
+  "name": "Delu Lizardman Commander",
   "url": "/lu4/npc/21107-delu-lizardman-commander",
-  "source_url": "https://masterwork.wiki/lu4/npc/21107-delu-lizardman-commander",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21107-delu-lizardman-commander",
   "raw_html": "library/raw/lu4/npc/21107-delu-lizardman-commander.html",
   "stats": {
-    "Location": "Угодья Флорана (+2) Угодья Флорана Земли Диона Земли Гирана"
+    "Respawn Time": "18 seconds",
+    "Location": "Угодья Флорана (+2) Угодья Флорана Земли Диона Земли Гирана",
+    "HP / MP": "2 481 / 495",
+    "P. Atk. / M. Atk.": "197 / 96",
+    "P. Def. / M. Def.": "171 / 139",
+    "Accuracy / Evasion": "71 / 70",
+    "Exp / SP": "2 411 / 241",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 35"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21107",
-      "type": "npc",
-      "id": 21107,
-      "name": "Lu4",
-      "url": "/lu4/npc/21107-delu-lizardman-commander"
-    },
-    {
-      "key": "location:242",
-      "type": "location",
-      "id": 242,
-      "name": "Угодья Флорана",
-      "url": "/lu4/location/242-ugoda-florana"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
-    },
-    {
-      "key": "item:2926",
-      "type": "item",
-      "id": 2926,
-      "name": "Manticore Skin Gloves Lining NG",
-      "url": "/lu4/item/2926-manticore-skin-gloves-lining"
-    },
-    {
-      "key": "item:2918",
-      "type": "item",
-      "id": 2918,
-      "name": "Mithril Scale Gaiters Material NG",
-      "url": "/lu4/item/2918-mithril-scale-gaiters-material"
-    },
-    {
-      "key": "item:2448",
-      "type": "item",
-      "id": 2448,
-      "name": "Manticore Skin Gloves D",
-      "url": "/lu4/item/2448-manticore-skin-gloves"
-    },
-    {
-      "key": "item:2377",
-      "type": "item",
-      "id": 2377,
-      "name": "Mithril Scale Gaiters D",
-      "url": "/lu4/item/2377-mithril-scale-gaiters"
-    },
-    {
-      "key": "item:2041",
-      "type": "item",
-      "id": 2041,
-      "name": "War Pick Head NG",
-      "url": "/lu4/item/2041-war-pick-head"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "url": "/lu4/item/1881-coarse-bone-powder"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1876",
-      "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "url": "/lu4/item/1876-mithril-ore"
-    },
-    {
-      "key": "item:294",
-      "type": "item",
-      "id": 294,
-      "name": "War Pick D",
-      "url": "/lu4/item/294-war-pick"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "item:57",
@@ -138,18 +44,81 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2929",
+      "key": "item:1876",
       "type": "item",
-      "id": 2929,
-      "name": "Brigandine Shield Fragment NG",
-      "url": "/lu4/item/2929-brigandine-shield-fragment"
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
     },
     {
-      "key": "item:2273",
+      "key": "item:1877",
       "type": "item",
-      "id": 2273,
-      "name": "Recipe: Tarbar NG",
-      "url": "/lu4/item/2273-recipe-tarbar"
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:1880",
+      "type": "item",
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:1881",
+      "type": "item",
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:294",
+      "type": "item",
+      "id": 294,
+      "name": "War Pick D",
+      "url": "/lu4/item/294-war-pick"
+    },
+    {
+      "key": "item:2041",
+      "type": "item",
+      "id": 2041,
+      "name": "War Pick Head NG",
+      "url": "/lu4/item/2041-war-pick-head"
+    },
+    {
+      "key": "item:2448",
+      "type": "item",
+      "id": 2448,
+      "name": "Manticore Skin Gloves D",
+      "url": "/lu4/item/2448-manticore-skin-gloves"
+    },
+    {
+      "key": "item:2926",
+      "type": "item",
+      "id": 2926,
+      "name": "Manticore Skin Gloves Lining NG",
+      "url": "/lu4/item/2926-manticore-skin-gloves-lining"
+    },
+    {
+      "key": "item:2377",
+      "type": "item",
+      "id": 2377,
+      "name": "Mithril Scale Gaiters D",
+      "url": "/lu4/item/2377-mithril-scale-gaiters"
+    },
+    {
+      "key": "item:2918",
+      "type": "item",
+      "id": 2918,
+      "name": "Mithril Scale Gaiters Material NG",
+      "url": "/lu4/item/2918-mithril-scale-gaiters-material"
     },
     {
       "key": "item:2191",
@@ -159,11 +128,18 @@
       "url": "/lu4/item/2191-recipe-rip-gauntlets"
     },
     {
-      "key": "item:2032",
+      "key": "item:2273",
       "type": "item",
-      "id": 2032,
-      "name": "Goat Head Staff Head NG",
-      "url": "/lu4/item/2032-goat-head-staff-head"
+      "id": 2273,
+      "name": "Recipe: Tarbar NG",
+      "url": "/lu4/item/2273-recipe-tarbar"
+    },
+    {
+      "key": "item:2929",
+      "type": "item",
+      "id": 2929,
+      "name": "Brigandine Shield Fragment NG",
+      "url": "/lu4/item/2929-brigandine-shield-fragment"
     },
     {
       "key": "item:1904",
@@ -171,6 +147,13 @@
       "id": 1904,
       "name": "Elven Necklace Beads NG",
       "url": "/lu4/item/1904-elven-necklace-beads"
+    },
+    {
+      "key": "item:2032",
+      "type": "item",
+      "id": 2032,
+      "name": "Goat Head Staff Head NG",
+      "url": "/lu4/item/2032-goat-head-staff-head"
     }
   ]
 }

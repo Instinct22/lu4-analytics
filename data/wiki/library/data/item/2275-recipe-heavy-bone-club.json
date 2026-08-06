@@ -2,118 +2,24 @@
   "key": "item:2275",
   "type": "item",
   "id": 2275,
-  "name": "Recipe",
+  "name": "Recipe: Heavy Bone Club",
   "url": "/lu4/item/2275-recipe-heavy-bone-club",
-  "source_url": "https://masterwork.wiki/lu4/item/2275-recipe-heavy-bone-club",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2275-recipe-heavy-bone-club",
   "raw_html": "library/raw/lu4/item/2275-recipe-heavy-bone-club.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Heavy Bone Club'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "14 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Heavy Bone Club D"
+    "Result": "Heavy Bone Club D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2037",
-      "type": "item",
-      "id": 2037,
-      "name": "Heavy Bone Club Head NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "640"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "640"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "384"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "384"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "64"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "64"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "640"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "192"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "430"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "139"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2275",
-      "type": "item",
-      "id": 2275,
-      "name": "Lu4",
-      "url": "/lu4/item/2275-recipe-heavy-bone-club"
-    },
     {
       "key": "item:2037",
       "type": "item",
@@ -216,28 +122,28 @@
       "key": "npc:20930",
       "type": "npc",
       "id": 20930,
-      "name": "Hatu Brown Bear Lv. 34",
+      "name": "Hatu Brown Bear",
       "url": "/lu4/npc/20930-hatu-brown-bear"
     },
     {
       "key": "npc:20081",
       "type": "npc",
       "id": 20081,
-      "name": "Ant Overseer Lv. 32",
+      "name": "Ant Overseer",
       "url": "/lu4/npc/20081-ant-overseer"
     },
     {
       "key": "npc:20082",
       "type": "npc",
       "id": 20082,
-      "name": "Ant Recruit Lv. 33",
+      "name": "Ant Recruit",
       "url": "/lu4/npc/20082-ant-recruit"
     },
     {
       "key": "npc:20078",
       "type": "npc",
       "id": 20078,
-      "name": "Whispering Wind Lv. 33",
+      "name": "Whispering Wind",
       "url": "/lu4/npc/20078-whispering-wind"
     }
   ]

@@ -2,61 +2,30 @@
   "key": "npc:21801",
   "type": "npc",
   "id": 21801,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21801-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21801-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21801-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21801-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "575 / 252",
+    "P. Atk. / M. Atk.": "64 / 27",
+    "P. Def. / M. Def.": "107 / 85",
+    "Accuracy / Evasion": "54 / 54",
+    "Exp / SP": "630 / 29",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 21"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21801",
-      "type": "npc",
-      "id": 21801,
-      "name": "Lu4",
-      "url": "/lu4/npc/21801-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:2151",
-      "type": "item",
-      "id": 2151,
-      "name": "Recipe: Necklace of Devotion NG",
-      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
-    },
-    {
-      "key": "item:1930",
-      "type": "item",
-      "id": 1930,
-      "name": "Boot Lining NG",
-      "url": "/lu4/item/1930-boot-lining"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:57",
@@ -66,6 +35,13 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:39",
+      "type": "item",
+      "id": 39,
+      "name": "Boots NG",
+      "url": "/lu4/item/39-boots"
+    },
+    {
       "key": "item:51",
       "type": "item",
       "id": 51,
@@ -73,11 +49,39 @@
       "url": "/lu4/item/51-bracer"
     },
     {
-      "key": "item:39",
+      "key": "item:1930",
       "type": "item",
-      "id": 39,
-      "name": "Boots NG",
-      "url": "/lu4/item/39-boots"
+      "id": 1930,
+      "name": "Boot Lining NG",
+      "url": "/lu4/item/1930-boot-lining"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:2151",
+      "type": "item",
+      "id": 2151,
+      "name": "Recipe: Necklace of Devotion NG",
+      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
     },
     {
       "key": "item:1926",

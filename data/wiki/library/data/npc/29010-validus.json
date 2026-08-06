@@ -2,42 +2,38 @@
   "key": "npc:29010",
   "type": "npc",
   "id": 29010,
-  "name": "Lu4 Wiki: NPC Validus",
+  "name": "Validus",
   "url": "/lu4/npc/29010-validus",
-  "source_url": "https://masterwork.wiki/lu4/npc/29010-validus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/29010-validus",
   "raw_html": "library/raw/lu4/npc/29010-validus.html",
   "stats": {
-    "Location": "Башня Крумы: 1-й этаж"
+    "Respawn Time": "3 hours",
+    "Location": "Башня Крумы: 1-й этаж",
+    "HP / MP": "34 965 / 785",
+    "P. Atk. / M. Atk.": "2 189 / 284",
+    "P. Def. / M. Def.": "539 / 321",
+    "Accuracy / Evasion": "83 / 83",
+    "Exp / SP": "0 / 1",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Resist Full Magic Attack Lv. 1",
+    "Type": "Beast, Lv. 50"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:29010",
-      "type": "npc",
-      "id": 29010,
-      "name": "Lu4",
-      "url": "/lu4/npc/29010-validus"
-    },
-    {
-      "key": "location:545",
-      "type": "location",
-      "id": 545,
-      "name": "Башня Крумы: 1-й этаж",
-      "url": "/lu4/location/545-basna-krumy-1-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

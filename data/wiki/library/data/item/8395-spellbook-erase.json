@@ -2,34 +2,32 @@
   "key": "item:8395",
   "type": "item",
   "id": 8395,
-  "name": "Lu4 Wiki: Item Spellbook: Erase",
+  "name": "Spellbook: Erase",
   "url": "/lu4/item/8395-spellbook-erase",
-  "source_url": "https://masterwork.wiki/lu4/item/8395-spellbook-erase",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8395-spellbook-erase",
   "raw_html": "library/raw/lu4/item/8395-spellbook-erase.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Erase'. Required: Bishop - Lv. 56 Prophet - Lv. 56 Elven Elder - Lv. 56 Shillien Elder - Lv. 56 To obtain this item, hunt the Connabi found in Skyshadow Meadow.",
+    "NPC Sell Price": "3 125 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8395",
-      "type": "item",
-      "id": 8395,
-      "name": "Lu4",
-      "url": "/lu4/item/8395-spellbook-erase"
-    },
-    {
       "key": "npc:22082",
       "type": "npc",
       "id": 22082,
-      "name": "Elder Lost Watcher Lv. 54",
+      "name": "Elder Lost Watcher",
       "url": "/lu4/npc/22082-elder-lost-watcher"
     },
     {
       "key": "npc:20947",
       "type": "npc",
       "id": 20947,
-      "name": "Connabi Lv. 54",
+      "name": "Connabi",
       "url": "/lu4/npc/20947-connabi"
     }
   ]

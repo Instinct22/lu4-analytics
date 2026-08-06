@@ -2,54 +2,44 @@
   "key": "npc:21486",
   "type": "npc",
   "id": 21486,
-  "name": "Lu4 Wiki: NPC Alpine Buffalo",
+  "name": "Alpine Buffalo",
   "url": "/lu4/npc/21486-alpine-buffalo",
-  "source_url": "https://masterwork.wiki/lu4/npc/21486-alpine-buffalo",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21486-alpine-buffalo",
   "raw_html": "library/raw/lu4/npc/21486-alpine-buffalo.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "7 252 / 1 541",
+    "P. Atk. / M. Atk.": "1 702 / 739",
+    "P. Def. / M. Def.": "442 / 376",
+    "Accuracy / Evasion": "100 / 100",
+    "Exp / SP": "15 656 / 1 490",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (2x) Lv. 10 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "B",
+    "Type": "Animal, Lv. 67"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21486",
-      "type": "npc",
-      "id": 21486,
-      "name": "Lu4",
-      "url": "/lu4/npc/21486-alpine-buffalo"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
-    },
-    {
-      "key": "item:32355",
-      "type": "item",
-      "id": 32355,
-      "name": "Unidentified Doom Plate Armor B",
-      "url": "/lu4/item/32355-unidentified-doom-plate-armor"
-    },
-    {
-      "key": "item:32354",
-      "type": "item",
-      "id": 32354,
-      "name": "Unidentified Blue Wolf Gaiters B",
-      "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "item:32351",
@@ -57,13 +47,6 @@
       "id": 32351,
       "name": "Unidentified Blue Wolf Breastplate B",
       "url": "/lu4/item/32351-unidentified-blue-wolf-breastplate"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
     },
     {
       "key": "item:4081",
@@ -87,11 +70,18 @@
       "url": "/lu4/item/4078-blue-wolf-breastplate-part"
     },
     {
-      "key": "item:4041",
+      "key": "item:32355",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 32355,
+      "name": "Unidentified Doom Plate Armor B",
+      "url": "/lu4/item/32355-unidentified-doom-plate-armor"
+    },
+    {
+      "key": "item:32354",
+      "type": "item",
+      "id": 32354,
+      "name": "Unidentified Blue Wolf Gaiters B",
+      "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
     },
     {
       "key": "item:1885",
@@ -99,6 +89,13 @@
       "id": 1885,
       "name": "High-Grade Suede NG",
       "url": "/lu4/item/1885-high-grade-suede"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
       "key": "item:1871",
@@ -122,11 +119,18 @@
       "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     },
     {
-      "key": "item:5470",
+      "key": "item:5220",
       "type": "item",
-      "id": 5470,
-      "name": "Recipe: Tallum Blade(60%) NG",
-      "url": "/lu4/item/5470-recipe-tallum-blade60"
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
+      "key": "item:4087",
+      "type": "item",
+      "id": 4087,
+      "name": "Stockings of Doom Pattern NG",
+      "url": "/lu4/item/4087-stockings-of-doom-pattern"
     },
     {
       "key": "item:4088",
@@ -136,11 +140,11 @@
       "url": "/lu4/item/4088-blue-wolf-helmet-design"
     },
     {
-      "key": "item:4087",
+      "key": "item:5470",
       "type": "item",
-      "id": 4087,
-      "name": "Stockings of Doom Pattern NG",
-      "url": "/lu4/item/4087-stockings-of-doom-pattern"
+      "id": 5470,
+      "name": "Recipe: Tallum Blade(60%) NG",
+      "url": "/lu4/item/5470-recipe-tallum-blade60"
     }
   ]
 }

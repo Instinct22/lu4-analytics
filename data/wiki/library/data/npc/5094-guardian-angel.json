@@ -2,168 +2,102 @@
   "key": "npc:5094",
   "type": "npc",
   "id": 5094,
-  "name": "Lu4 Wiki: NPC Guardian Angel",
+  "name": "Guardian Angel",
   "url": "/lu4/npc/5094-guardian-angel",
-  "source_url": "https://masterwork.wiki/lu4/npc/5094-guardian-angel",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5094-guardian-angel",
   "raw_html": "library/raw/lu4/npc/5094-guardian-angel.html",
   "stats": {
-    "Location": "Башня Дерзости: 9-й этаж (+1) Башня Дерзости: 9-й этаж Башня Дерзости: 8-й этаж"
+    "Respawn Time": "3 minutes, 25 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 9-й этаж (+1) Башня Дерзости: 9-й этаж Башня Дерзости: 8-й этаж",
+    "HP / MP": "25 748 / 1 110",
+    "P. Atk. / M. Atk.": "2 545 / 2 767",
+    "P. Def. / M. Def.": "920 / 602",
+    "Accuracy / Evasion": "115 / 105",
+    "Exp / SP": "57 202 / 5 720",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% Grumpy Lv. 1 Strikes without warning. HP Increase (6x) Lv. 14 Very Strong M. Atk. Lv. 16 Very Strong P. Atk. Lv. 16 Strong M. Def. Lv. 14 Very Strong P. Def. Lv. 16 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Hold Resistance Lv. 5 Resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 71"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5094",
-      "type": "npc",
-      "id": 5094,
-      "name": "Lu4",
-      "url": "/lu4/npc/5094-guardian-angel"
-    },
-    {
-      "key": "location:92",
-      "type": "location",
-      "id": 92,
-      "name": "Башня Дерзости: 9-й этаж",
-      "url": "/lu4/location/92-basna-derzosti-9-j-etaz"
-    },
-    {
-      "key": "location:91",
-      "type": "location",
-      "id": 91,
-      "name": "Башня Дерзости: 8-й этаж",
-      "url": "/lu4/location/91-basna-derzosti-8-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Very Strong M. Atk. Lv. 16",
-      "url": "/lu4/skill/4411-very-strong-m-atk/16"
+      "name": "Very Strong M. Atk.",
+      "url": "/lu4/skill/4411-very-strong-m-atk"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:39290",
-      "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32431",
-      "type": "item",
-      "id": 32431,
-      "name": "Unidentified Infernal Master A",
-      "url": "/lu4/item/32431-unidentified-infernal-master"
-    },
-    {
-      "key": "item:32371",
-      "type": "item",
-      "id": 32371,
-      "name": "Unidentified Sealed Dark Crystal Helmet A",
-      "url": "/lu4/item/32371-unidentified-sealed-dark-crystal-helmet"
-    },
-    {
-      "key": "item:8331",
-      "type": "item",
-      "id": 8331,
-      "name": "Infernal Master Blade NG",
-      "url": "/lu4/item/8331-infernal-master-blade"
-    },
-    {
-      "key": "item:5525",
-      "type": "item",
-      "id": 5525,
-      "name": "Sealed Dark Crystal Helmet Design NG",
-      "url": "/lu4/item/5525-sealed-dark-crystal-helmet-design"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -208,18 +142,67 @@
       "url": "/lu4/item/1344-mithril-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:8487",
+      "key": "item:39290",
       "type": "item",
-      "id": 8487,
-      "name": "Recipe: Destroyer Hammer (60%) NG",
-      "url": "/lu4/item/8487-recipe-destroyer-hammer-60"
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
+    },
+    {
+      "key": "item:32431",
+      "type": "item",
+      "id": 32431,
+      "name": "Unidentified Infernal Master A",
+      "url": "/lu4/item/32431-unidentified-infernal-master"
+    },
+    {
+      "key": "item:8331",
+      "type": "item",
+      "id": 8331,
+      "name": "Infernal Master Blade NG",
+      "url": "/lu4/item/8331-infernal-master-blade"
+    },
+    {
+      "key": "item:32371",
+      "type": "item",
+      "id": 32371,
+      "name": "Unidentified Sealed Dark Crystal Helmet A",
+      "url": "/lu4/item/32371-unidentified-sealed-dark-crystal-helmet"
+    },
+    {
+      "key": "item:5525",
+      "type": "item",
+      "id": 5525,
+      "name": "Sealed Dark Crystal Helmet Design NG",
+      "url": "/lu4/item/5525-sealed-dark-crystal-helmet-design"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:5444",
@@ -227,6 +210,13 @@
       "id": 5444,
       "name": "Recipe: Carnage Bow(60%) NG",
       "url": "/lu4/item/5444-recipe-carnage-bow60"
+    },
+    {
+      "key": "item:8487",
+      "type": "item",
+      "id": 8487,
+      "name": "Recipe: Destroyer Hammer (60%) NG",
+      "url": "/lu4/item/8487-recipe-destroyer-hammer-60"
     }
   ]
 }

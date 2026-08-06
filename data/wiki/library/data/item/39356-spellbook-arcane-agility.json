@@ -2,27 +2,25 @@
   "key": "item:39356",
   "type": "item",
   "id": 39356,
-  "name": "Lu4 Wiki: Item Spellbook: Arcane Agility",
+  "name": "Spellbook: Arcane Agility",
   "url": "/lu4/item/39356-spellbook-arcane-agility",
-  "source_url": "https://masterwork.wiki/lu4/item/39356-spellbook-arcane-agility",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/39356-spellbook-arcane-agility",
   "raw_html": "library/raw/lu4/item/39356-spellbook-arcane-agility.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Arcane Agility'. Required: Warlock - Lv. 70 Elemental Summoner - Lv. 70 Phantom Summoner - Lv. 70 To obtain this item, hunt the Tulben found in Blazing Swamp.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:39356",
-      "type": "item",
-      "id": 39356,
-      "name": "Lu4",
-      "url": "/lu4/item/39356-spellbook-arcane-agility"
-    },
-    {
       "key": "npc:20677",
       "type": "npc",
       "id": 20677,
-      "name": "Tulben Lv. 69",
+      "name": "Tulben",
       "url": "/lu4/npc/20677-tulben"
     }
   ]

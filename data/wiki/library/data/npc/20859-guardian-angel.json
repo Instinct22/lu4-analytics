@@ -2,147 +2,81 @@
   "key": "npc:20859",
   "type": "npc",
   "id": 20859,
-  "name": "Lu4 Wiki: NPC Guardian Angel",
+  "name": "Guardian Angel",
   "url": "/lu4/npc/20859-guardian-angel",
-  "source_url": "https://masterwork.wiki/lu4/npc/20859-guardian-angel",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20859-guardian-angel",
   "raw_html": "library/raw/lu4/npc/20859-guardian-angel.html",
   "stats": {
-    "Location": "Башня Дерзости: 7-й этаж (+1) Башня Дерзости: 7-й этаж Башня Дерзости: 6-й этаж"
+    "Respawn Time": "3 minutes, 25 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 7-й этаж (+1) Башня Дерзости: 7-й этаж Башня Дерзости: 6-й этаж",
+    "HP / MP": "27 985 / 1 565",
+    "P. Atk. / M. Atk.": "2 051 / 859",
+    "P. Def. / M. Def.": "1 009 / 691",
+    "Accuracy / Evasion": "112 / 102",
+    "Exp / SP": "57 437 / 5 744",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind -5, Earth 20, Holy 53, Unholy -13",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 15 Strong M. Def. Lv. 15 Very Strong P. Def. Lv. 16 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 69"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20859",
-      "type": "npc",
-      "id": 20859,
-      "name": "Lu4",
-      "url": "/lu4/npc/20859-guardian-angel"
-    },
-    {
-      "key": "location:90",
-      "type": "location",
-      "id": 90,
-      "name": "Башня Дерзости: 7-й этаж",
-      "url": "/lu4/location/90-basna-derzosti-7-j-etaz"
-    },
-    {
-      "key": "location:89",
-      "type": "location",
-      "id": 89,
-      "name": "Башня Дерзости: 6-й этаж",
-      "url": "/lu4/location/89-basna-derzosti-6-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 15",
-      "url": "/lu4/skill/4413-strong-m-def/15"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39290",
-      "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32382",
-      "type": "item",
-      "id": 32382,
-      "name": "Unidentified Sealed Tallum Tunic A",
-      "url": "/lu4/item/32382-unidentified-sealed-tallum-tunic"
-    },
-    {
-      "key": "item:6345",
-      "type": "item",
-      "id": 6345,
-      "name": "Sealed Phoenix Ring Gemstone NG",
-      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
-    },
-    {
-      "key": "item:6325",
-      "type": "item",
-      "id": 6325,
-      "name": "Sealed Phoenix Ring A",
-      "url": "/lu4/item/6325-sealed-phoenix-ring"
-    },
-    {
-      "key": "item:5485",
-      "type": "item",
-      "id": 5485,
-      "name": "Sealed Tallum Tunic Texture NG",
-      "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -180,11 +114,67 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:39290",
+      "type": "item",
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
+    },
+    {
+      "key": "item:6325",
+      "type": "item",
+      "id": 6325,
+      "name": "Sealed Phoenix Ring A",
+      "url": "/lu4/item/6325-sealed-phoenix-ring"
+    },
+    {
+      "key": "item:6345",
+      "type": "item",
+      "id": 6345,
+      "name": "Sealed Phoenix Ring Gemstone NG",
+      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
+    },
+    {
+      "key": "item:32382",
+      "type": "item",
+      "id": 32382,
+      "name": "Unidentified Sealed Tallum Tunic A",
+      "url": "/lu4/item/32382-unidentified-sealed-tallum-tunic"
+    },
+    {
+      "key": "item:5485",
+      "type": "item",
+      "id": 5485,
+      "name": "Sealed Tallum Tunic Texture NG",
+      "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:6569",

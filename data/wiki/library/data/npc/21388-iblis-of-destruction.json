@@ -2,103 +2,135 @@
   "key": "npc:21388",
   "type": "npc",
   "id": 21388,
-  "name": "Lu4 Wiki: NPC Iblis of Destruction",
+  "name": "Iblis of Destruction",
   "url": "/lu4/npc/21388-iblis-of-destruction",
-  "source_url": "https://masterwork.wiki/lu4/npc/21388-iblis-of-destruction",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21388-iblis-of-destruction",
   "raw_html": "library/raw/lu4/npc/21388-iblis-of-destruction.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "28 543 / 1 973",
+    "P. Atk. / M. Atk.": "2 243 / 1 600",
+    "P. Def. / M. Def.": "528 / 503",
+    "Accuracy / Evasion": "125 / 132",
+    "Exp / SP": "74 527 / 6 354",
+    "Attack Attribute": "Unholy 50",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -13, Unholy 184",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword High Lv. Lv. 7 NPC High Level Mental Attack Resistance Lv. 4 Provides resistance against mental attack. Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21388",
-      "type": "npc",
-      "id": 21388,
-      "name": "Lu4",
-      "url": "/lu4/npc/21388-iblis-of-destruction"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 7 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/7"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 4 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/4"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:5514",
+      "type": "item",
+      "id": 5514,
+      "name": "Sealed Gauntlets of Nightmare Design NG",
+      "url": "/lu4/item/5514-sealed-gauntlets-of-nightmare-design"
+    },
+    {
+      "key": "item:5503",
+      "type": "item",
+      "id": 5503,
+      "name": "Sealed Majestic Boots Lining NG",
+      "url": "/lu4/item/5503-sealed-majestic-boots-lining"
+    },
+    {
+      "key": "item:5502",
+      "type": "item",
+      "id": 5502,
+      "name": "Sealed Boots of Nightmare Lining NG",
+      "url": "/lu4/item/5502-sealed-boots-of-nightmare-lining"
     },
     {
       "key": "item:32393",
@@ -134,27 +166,6 @@
       "id": 5515,
       "name": "Sealed Majestic Gauntlets Design NG",
       "url": "/lu4/item/5515-sealed-majestic-gauntlets-design"
-    },
-    {
-      "key": "item:5514",
-      "type": "item",
-      "id": 5514,
-      "name": "Sealed Gauntlets of Nightmare Design NG",
-      "url": "/lu4/item/5514-sealed-gauntlets-of-nightmare-design"
-    },
-    {
-      "key": "item:5503",
-      "type": "item",
-      "id": 5503,
-      "name": "Sealed Majestic Boots Lining NG",
-      "url": "/lu4/item/5503-sealed-majestic-boots-lining"
-    },
-    {
-      "key": "item:5502",
-      "type": "item",
-      "id": 5502,
-      "name": "Sealed Boots of Nightmare Lining NG",
-      "url": "/lu4/item/5502-sealed-boots-of-nightmare-lining"
     },
     {
       "key": "item:4041",
@@ -206,20 +217,6 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:5527",
-      "type": "item",
-      "id": 5527,
-      "name": "Sealed Helm of Nightmare Design NG",
-      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
-    },
-    {
       "key": "item:5523",
       "type": "item",
       "id": 5523,
@@ -232,6 +229,13 @@
       "id": 1808,
       "name": "Recipe: Soulshot (S-Grade) NG",
       "url": "/lu4/item/1808-recipe-soulshot-s-grade"
+    },
+    {
+      "key": "item:5527",
+      "type": "item",
+      "id": 5527,
+      "name": "Sealed Helm of Nightmare Design NG",
+      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
     }
   ]
 }

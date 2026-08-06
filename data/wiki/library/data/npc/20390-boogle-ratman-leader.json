@@ -2,91 +2,88 @@
   "key": "npc:20390",
   "type": "npc",
   "id": 20390,
-  "name": "Lu4 Wiki: NPC Boogle Ratman Leader",
+  "name": "Boogle Ratman Leader",
   "url": "/lu4/npc/20390-boogle-ratman-leader",
-  "source_url": "https://masterwork.wiki/lu4/npc/20390-boogle-ratman-leader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20390-boogle-ratman-leader",
   "raw_html": "library/raw/lu4/npc/20390-boogle-ratman-leader.html",
   "stats": {
-    "Location": "Горный Хребет (+3) Горный Хребет Восточные Рудники Заброшенный Угольный Рудник Вход в Руины"
+    "Respawn Time": "15 seconds",
+    "Location": "Горный Хребет (+3) Горный Хребет Восточные Рудники Заброшенный Угольный Рудник Вход в Руины",
+    "HP / MP": "483 / 214",
+    "P. Atk. / M. Atk.": "58 / 31",
+    "P. Def. / M. Def.": "84 / 68",
+    "Accuracy / Evasion": "54 / 53",
+    "Exp / SP": "518 / 52",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 18"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20390",
-      "type": "npc",
-      "id": 20390,
-      "name": "Lu4",
-      "url": "/lu4/npc/20390-boogle-ratman-leader"
-    },
-    {
-      "key": "location:352",
-      "type": "location",
-      "id": 352,
-      "name": "Горный Хребет",
-      "url": "/lu4/location/352-gornyj-hrebet"
-    },
-    {
-      "key": "location:204",
-      "type": "location",
-      "id": 204,
-      "name": "Восточные Рудники",
-      "url": "/lu4/location/204-vostocnye-rudniki"
-    },
-    {
-      "key": "location:66",
-      "type": "location",
-      "id": 66,
-      "name": "Заброшенный Угольный Рудник",
-      "url": "/lu4/location/66-zabrosennyj-ugolnyj-rudnik"
-    },
-    {
-      "key": "location:252",
-      "type": "location",
-      "id": 252,
-      "name": "Вход в Руины",
-      "url": "/lu4/location/252-vhod-v-ruiny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:5158",
+      "key": "item:57",
       "type": "item",
-      "id": 5158,
-      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:2",
+      "type": "item",
+      "id": 2,
+      "name": "Long Sword NG",
+      "url": "/lu4/item/2-long-sword"
+    },
+    {
+      "key": "item:120",
+      "type": "item",
+      "id": 120,
+      "name": "Sword of Reflection NG",
+      "url": "/lu4/item/120-sword-of-reflection"
+    },
+    {
+      "key": "item:121",
+      "type": "item",
+      "id": 121,
+      "name": "Sword of Watershadow NG",
+      "url": "/lu4/item/121-sword-of-watershadow"
     },
     {
       "key": "item:2012",
@@ -124,39 +121,11 @@
       "url": "/lu4/item/734-haste-potion"
     },
     {
-      "key": "item:121",
+      "key": "item:5158",
       "type": "item",
-      "id": 121,
-      "name": "Sword of Watershadow NG",
-      "url": "/lu4/item/121-sword-of-watershadow"
-    },
-    {
-      "key": "item:120",
-      "type": "item",
-      "id": 120,
-      "name": "Sword of Reflection NG",
-      "url": "/lu4/item/120-sword-of-reflection"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:2",
-      "type": "item",
-      "id": 2,
-      "name": "Long Sword NG",
-      "url": "/lu4/item/2-long-sword"
-    },
-    {
-      "key": "item:1897",
-      "type": "item",
-      "id": 1897,
-      "name": "Necklace of Wisdom Chain NG",
-      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
+      "id": 5158,
+      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
     },
     {
       "key": "item:1881",
@@ -164,6 +133,13 @@
       "id": 1881,
       "name": "Coarse Bone Powder NG",
       "url": "/lu4/item/1881-coarse-bone-powder"
+    },
+    {
+      "key": "item:1897",
+      "type": "item",
+      "id": 1897,
+      "name": "Necklace of Wisdom Chain NG",
+      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
     }
   ]
 }

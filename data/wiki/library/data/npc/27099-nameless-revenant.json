@@ -2,77 +2,74 @@
   "key": "npc:27099",
   "type": "npc",
   "id": 27099,
-  "name": "Lu4 Wiki: NPC Nameless Revenant",
+  "name": "Nameless Revenant",
   "url": "/lu4/npc/27099-nameless-revenant",
-  "source_url": "https://masterwork.wiki/lu4/npc/27099-nameless-revenant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27099-nameless-revenant",
   "raw_html": "library/raw/lu4/npc/27099-nameless-revenant.html",
   "stats": {
-    "Location": "Земля Казненных"
+    "Respawn Time": "30 seconds",
+    "Location": "Земля Казненных",
+    "HP / MP": "1 413 / 552",
+    "P. Atk. / M. Atk.": "243 / 118",
+    "P. Def. / M. Def.": "196 / 154",
+    "Accuracy / Evasion": "71 / 71",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Bleed Resistance Lv. 5 Resistant to Bleed.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 38"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:27099",
-      "type": "npc",
-      "id": 27099,
-      "name": "Lu4",
-      "url": "/lu4/npc/27099-nameless-revenant"
-    },
-    {
-      "key": "location:51",
-      "type": "location",
-      "id": 51,
-      "name": "Земля Казненных",
-      "url": "/lu4/location/51-zemla-kaznennyh"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
-      "key": "item:39297",
+      "key": "item:39295",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
       "key": "item:39296",
@@ -82,11 +79,11 @@
       "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:39295",
+      "key": "item:39297",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     }
   ]
 }

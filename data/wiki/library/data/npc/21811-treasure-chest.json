@@ -2,33 +2,51 @@
   "key": "npc:21811",
   "type": "npc",
   "id": 21811,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21811-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21811-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21811-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21811-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 323 / 956",
+    "P. Atk. / M. Atk.": "543 / 285",
+    "P. Def. / M. Def.": "290 / 234",
+    "Accuracy / Evasion": "84 / 84",
+    "Exp / SP": "3 121 / 238",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 51"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21811",
-      "type": "npc",
-      "id": 21811,
-      "name": "Lu4",
-      "url": "/lu4/npc/21811-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:4039",
+      "key": "item:57",
       "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:64",
+      "type": "item",
+      "id": 64,
+      "name": "Composite Boots C",
+      "url": "/lu4/item/64-composite-boots"
+    },
+    {
+      "key": "item:608",
+      "type": "item",
+      "id": 608,
+      "name": "Composite Gauntlets C",
+      "url": "/lu4/item/608-composite-gauntlets"
     },
     {
       "key": "item:2956",
@@ -38,18 +56,18 @@
       "url": "/lu4/item/2956-composite-boots-part"
     },
     {
-      "key": "item:2169",
-      "type": "item",
-      "id": 2169,
-      "name": "Recipe: Necklace of Seal NG",
-      "url": "/lu4/item/2169-recipe-necklace-of-seal"
-    },
-    {
       "key": "item:1981",
       "type": "item",
       "id": 1981,
       "name": "Composite Gauntlets Design NG",
       "url": "/lu4/item/1981-composite-gauntlets-design"
+    },
+    {
+      "key": "item:2169",
+      "type": "item",
+      "id": 2169,
+      "name": "Recipe: Necklace of Seal NG",
+      "url": "/lu4/item/2169-recipe-necklace-of-seal"
     },
     {
       "key": "item:1884",
@@ -80,25 +98,11 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:608",
+      "key": "item:4039",
       "type": "item",
-      "id": 608,
-      "name": "Composite Gauntlets C",
-      "url": "/lu4/item/608-composite-gauntlets"
-    },
-    {
-      "key": "item:64",
-      "type": "item",
-      "id": 64,
-      "name": "Composite Boots C",
-      "url": "/lu4/item/64-composite-boots"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
     },
     {
       "key": "item:4601",

@@ -2,105 +2,81 @@
   "key": "npc:20090",
   "type": "npc",
   "id": 20090,
-  "name": "Lu4 Wiki: NPC Noble Ant Leader",
+  "name": "Noble Ant Leader",
   "url": "/lu4/npc/20090-noble-ant-leader",
-  "source_url": "https://masterwork.wiki/lu4/npc/20090-noble-ant-leader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20090-noble-ant-leader",
   "raw_html": "library/raw/lu4/npc/20090-noble-ant-leader.html",
   "stats": {
-    "Location": "Муравейник"
+    "Respawn Time": "45 seconds",
+    "Location": "Муравейник",
+    "HP / MP": "2 684 / 552",
+    "P. Atk. / M. Atk.": "279 / 147",
+    "P. Def. / M. Def.": "177 / 139",
+    "Accuracy / Evasion": "71 / 76",
+    "Exp / SP": "2 691 / 269",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 38"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20090",
-      "type": "npc",
-      "id": 20090,
-      "name": "Lu4",
-      "url": "/lu4/npc/20090-noble-ant-leader"
-    },
-    {
-      "key": "location:17",
-      "type": "location",
-      "id": 17,
-      "name": "Муравейник",
-      "url": "/lu4/location/17-muravejnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:5472",
+      "key": "item:57",
       "type": "item",
-      "id": 5472,
-      "name": "Recipe: Metallic Thread(100%) NG",
-      "url": "/lu4/item/5472-recipe-metallic-thread100"
-    },
-    {
-      "key": "item:1956",
-      "type": "item",
-      "id": 1956,
-      "name": "Square Shield Fragment NG",
-      "url": "/lu4/item/1956-square-shield-fragment"
-    },
-    {
-      "key": "item:1951",
-      "type": "item",
-      "id": 1951,
-      "name": "Plate Gaiters Part NG",
-      "url": "/lu4/item/1951-plate-gaiters-part"
-    },
-    {
-      "key": "item:1907",
-      "type": "item",
-      "id": 1907,
-      "name": "Necklace of Darkness Gem NG",
-      "url": "/lu4/item/1907-necklace-of-darkness-gem"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1882",
@@ -145,11 +121,39 @@
       "url": "/lu4/item/1341-bone-arrow"
     },
     {
+      "key": "item:5472",
+      "type": "item",
+      "id": 5472,
+      "name": "Recipe: Metallic Thread(100%) NG",
+      "url": "/lu4/item/5472-recipe-metallic-thread100"
+    },
+    {
       "key": "item:914",
       "type": "item",
       "id": 914,
       "name": "Necklace of Darkness D",
       "url": "/lu4/item/914-necklace-of-darkness"
+    },
+    {
+      "key": "item:1907",
+      "type": "item",
+      "id": 1907,
+      "name": "Necklace of Darkness Gem NG",
+      "url": "/lu4/item/1907-necklace-of-darkness-gem"
+    },
+    {
+      "key": "item:380",
+      "type": "item",
+      "id": 380,
+      "name": "Half Plate Gaiters D",
+      "url": "/lu4/item/380-half-plate-gaiters"
+    },
+    {
+      "key": "item:1951",
+      "type": "item",
+      "id": 1951,
+      "name": "Half Plate Gaiters Part NG",
+      "url": "/lu4/item/1951-half-plate-gaiters-part"
     },
     {
       "key": "item:630",
@@ -159,18 +163,25 @@
       "url": "/lu4/item/630-square-shield"
     },
     {
-      "key": "item:380",
+      "key": "item:1956",
       "type": "item",
-      "id": 380,
-      "name": "Plate Gaiters D",
-      "url": "/lu4/item/380-plate-gaiters"
+      "id": 1956,
+      "name": "Square Shield Fragment NG",
+      "url": "/lu4/item/1956-square-shield-fragment"
     },
     {
-      "key": "item:57",
+      "key": "item:1825",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1825,
+      "name": "Recipe: Oriharukon NG",
+      "url": "/lu4/item/1825-recipe-oriharukon"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:2287",
@@ -183,8 +194,8 @@
       "key": "item:2198",
       "type": "item",
       "id": 2198,
-      "name": "Recipe: Sage's Rag NG",
-      "url": "/lu4/item/2198-recipe-sages-rag"
+      "name": "Recipe: Sage's Worn Robe NG",
+      "url": "/lu4/item/2198-recipe-sages-worn-robe"
     },
     {
       "key": "item:2053",
@@ -192,20 +203,6 @@
       "id": 2053,
       "name": "Scallop Jamadhr Edge NG",
       "url": "/lu4/item/2053-scallop-jamadhr-edge"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1825",
-      "type": "item",
-      "id": 1825,
-      "name": "Recipe: Oriharukon NG",
-      "url": "/lu4/item/1825-recipe-oriharukon"
     }
   ]
 }

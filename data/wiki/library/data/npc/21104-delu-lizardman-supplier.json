@@ -2,91 +2,39 @@
   "key": "npc:21104",
   "type": "npc",
   "id": 21104,
-  "name": "Lu4 Wiki: NPC Delu Lizardman Supplier",
+  "name": "Delu Lizardman Supplier",
   "url": "/lu4/npc/21104-delu-lizardman-supplier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21104-delu-lizardman-supplier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21104-delu-lizardman-supplier",
   "raw_html": "library/raw/lu4/npc/21104-delu-lizardman-supplier.html",
   "stats": {
-    "Location": "Угодья Флорана"
+    "Respawn Time": "18 seconds",
+    "Location": "Угодья Флорана",
+    "HP / MP": "1 068 / 441",
+    "P. Atk. / M. Atk.": "154 / 76",
+    "P. Def. / M. Def.": "156 / 124",
+    "Accuracy / Evasion": "68 / 67",
+    "Exp / SP": "1 121 / 112",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 32"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21104",
-      "type": "npc",
-      "id": 21104,
-      "name": "Lu4",
-      "url": "/lu4/npc/21104-delu-lizardman-supplier"
-    },
-    {
-      "key": "location:242",
-      "type": "location",
-      "id": 242,
-      "name": "Угодья Флорана",
-      "url": "/lu4/location/242-ugoda-florana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:2928",
-      "type": "item",
-      "id": 2928,
-      "name": "Elven Mithril Gloves Design NG",
-      "url": "/lu4/item/2928-elven-mithril-gloves-design"
-    },
-    {
-      "key": "item:2450",
-      "type": "item",
-      "id": 2450,
-      "name": "Elven Mithril Gloves D",
-      "url": "/lu4/item/2450-elven-mithril-gloves"
-    },
-    {
-      "key": "item:2274",
-      "type": "item",
-      "id": 2274,
-      "name": "Recipe: Skull Breaker NG",
-      "url": "/lu4/item/2274-recipe-skull-breaker"
-    },
-    {
-      "key": "item:2046",
-      "type": "item",
-      "id": 2046,
-      "name": "Demon Fangs Part NG",
-      "url": "/lu4/item/2046-demon-fangs-part"
-    },
-    {
-      "key": "item:2034",
-      "type": "item",
-      "id": 2034,
-      "name": "Sword of Revolution Blade NG",
-      "url": "/lu4/item/2034-sword-of-revolution-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1882",
@@ -131,6 +79,13 @@
       "url": "/lu4/item/321-demon-fangs"
     },
     {
+      "key": "item:2046",
+      "type": "item",
+      "id": 2046,
+      "name": "Demon Fangs Part NG",
+      "url": "/lu4/item/2046-demon-fangs-part"
+    },
+    {
       "key": "item:129",
       "type": "item",
       "id": 129,
@@ -138,18 +93,60 @@
       "url": "/lu4/item/129-sword-of-revolution"
     },
     {
-      "key": "item:57",
+      "key": "item:2034",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2034,
+      "name": "Sword of Revolution Blade NG",
+      "url": "/lu4/item/2034-sword-of-revolution-blade"
     },
     {
-      "key": "item:8333",
+      "key": "item:2450",
       "type": "item",
-      "id": 8333,
-      "name": "Sword of Magic Fog Blade NG",
-      "url": "/lu4/item/8333-sword-of-magic-fog-blade"
+      "id": 2450,
+      "name": "Elven Mithril Gloves D",
+      "url": "/lu4/item/2450-elven-mithril-gloves"
+    },
+    {
+      "key": "item:2928",
+      "type": "item",
+      "id": 2928,
+      "name": "Elven Mithril Gloves Design NG",
+      "url": "/lu4/item/2928-elven-mithril-gloves-design"
+    },
+    {
+      "key": "item:2274",
+      "type": "item",
+      "id": 2274,
+      "name": "Recipe: Skull Breaker NG",
+      "url": "/lu4/item/2274-recipe-skull-breaker"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1061",
+      "type": "item",
+      "id": 1061,
+      "name": "Healing Potion NG",
+      "url": "/lu4/item/1061-healing-potion"
     },
     {
       "key": "item:2978",
@@ -173,11 +170,11 @@
       "url": "/lu4/item/2919-brigandine-gaiters-material"
     },
     {
-      "key": "item:1061",
+      "key": "item:8333",
       "type": "item",
-      "id": 1061,
-      "name": "Healing Potion NG",
-      "url": "/lu4/item/1061-healing-potion"
+      "id": 8333,
+      "name": "Sword of Magic Fog Blade NG",
+      "url": "/lu4/item/8333-sword-of-magic-fog-blade"
     }
   ]
 }

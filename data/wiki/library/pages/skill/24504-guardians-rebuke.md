@@ -1,0 +1,21 @@
+# Guardian's Rebuke
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/24504-guardians-rebuke
+- Path: /lu4/skill/24504-guardians-rebuke
+- Type: skill
+- Key: skill:24504
+
+## Stats
+- Effect: When party member first receives ordinary melee attack, applies to attacker: 'Seal of Judgment' that can't be removed. Atk. Spd. -23%. Duration: 5 sec. If attacker is already affected by 'Seal of Judgment', it is not reapplied. Instead applies to attacker: Incoming Damage +12%. Duration: 5 sec. Can be applied only to party member. Can't be used for 30 sec after joining a party. Effect only works while in a party with the caster.
+- Consumes: 60 MP
+- Reuse Time: 30 seconds
+- Duration: 5 seconds
+- Can be used on Olympiad: Yes
+- Attribute: None
+- Trait: trait_none
+- Cast Range: 400 (900)
+- Available For: ProphetLv. 64
+- Type: Magical / Buff
+
+## Content
+Guardian's Rebuke Lv. 1 Magical / Buff When party member first receives ordinary melee attack, applies to attacker: 'Seal of Judgment' that can't be removed. Atk. Spd. -23%. Duration: 5 sec. If attacker is already affected by 'Seal of Judgment', it is not reapplied. Instead applies to attacker: Incoming Damage +12%. Duration: 5 sec. Can be applied only to party member. Can't be used for 30 sec after joining a party. Effect only works while in a party with the caster. Consumes 60 MP Reuse Time 30 seconds Duration 5 seconds Can be used on Olympiad Yes Attribute None Trait trait_none Cast Range 400 (900) Available For Prophet Lv. 64

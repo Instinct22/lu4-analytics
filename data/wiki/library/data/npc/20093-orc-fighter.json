@@ -2,77 +2,32 @@
   "key": "npc:20093",
   "type": "npc",
   "id": 20093,
-  "name": "Lu4 Wiki: NPC Orc Fighter",
+  "name": "Orc Fighter",
   "url": "/lu4/npc/20093-orc-fighter",
-  "source_url": "https://masterwork.wiki/lu4/npc/20093-orc-fighter",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20093-orc-fighter",
   "raw_html": "library/raw/lu4/npc/20093-orc-fighter.html",
   "stats": {
-    "Location": "Говорящий Остров (север) (+1) Говорящий Остров (север) Говорящий Остров (восток)"
+    "Respawn Time": "15 seconds",
+    "Location": "Говорящий Остров (север) (+1) Говорящий Остров (север) Говорящий Остров (восток)",
+    "HP / MP": "258 / 133",
+    "P. Atk. / M. Atk.": "25 / 11",
+    "P. Def. / M. Def.": "61 / 49",
+    "Accuracy / Evasion": "46 / 45",
+    "Exp / SP": "270 / 27",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 10"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20093",
-      "type": "npc",
-      "id": 20093,
-      "name": "Lu4",
-      "url": "/lu4/npc/20093-orc-fighter"
-    },
-    {
-      "key": "location:259",
-      "type": "location",
-      "id": 259,
-      "name": "Говорящий Остров (север)",
-      "url": "/lu4/location/259-govorasij-ostrov-sever"
-    },
-    {
-      "key": "location:262",
-      "type": "location",
-      "id": 262,
-      "name": "Говорящий Остров (восток)",
-      "url": "/lu4/location/262-govorasij-ostrov-vostok"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
-    },
-    {
-      "key": "item:2138",
-      "type": "item",
-      "id": 2138,
-      "name": "Recipe: Coarse Bone Powder (100%) NG",
-      "url": "/lu4/item/2138-recipe-coarse-bone-powder-100"
-    },
-    {
-      "key": "item:2005",
-      "type": "item",
-      "id": 2005,
-      "name": "Broadsword Blade NG",
-      "url": "/lu4/item/2005-broadsword-blade"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1060",
-      "type": "item",
-      "id": 1060,
-      "name": "Lesser Healing Potion NG",
-      "url": "/lu4/item/1060-lesser-healing-potion"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "item:57",
@@ -89,11 +44,39 @@
       "url": "/lu4/item/3-broadsword"
     },
     {
-      "key": "item:2007",
+      "key": "item:2005",
       "type": "item",
-      "id": 2007,
-      "name": "Bow Shaft NG",
-      "url": "/lu4/item/2007-bow-shaft"
+      "id": 2005,
+      "name": "Broadsword Blade NG",
+      "url": "/lu4/item/2005-broadsword-blade"
+    },
+    {
+      "key": "item:1060",
+      "type": "item",
+      "id": 1060,
+      "name": "Lesser Healing Potion NG",
+      "url": "/lu4/item/1060-lesser-healing-potion"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:2138",
+      "type": "item",
+      "id": 2138,
+      "name": "Recipe: Coarse Bone Powder (100%) NG",
+      "url": "/lu4/item/2138-recipe-coarse-bone-powder-100"
     },
     {
       "key": "item:1666",
@@ -101,6 +84,13 @@
       "id": 1666,
       "name": "Recipe: Wooden Arrow NG",
       "url": "/lu4/item/1666-recipe-wooden-arrow"
+    },
+    {
+      "key": "item:2007",
+      "type": "item",
+      "id": 2007,
+      "name": "Bow Shaft NG",
+      "url": "/lu4/item/2007-bow-shaft"
     }
   ]
 }

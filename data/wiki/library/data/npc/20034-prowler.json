@@ -2,119 +2,74 @@
   "key": "npc:20034",
   "type": "npc",
   "id": 20034,
-  "name": "Lu4 Wiki: NPC Prowler",
+  "name": "Prowler",
   "url": "/lu4/npc/20034-prowler",
-  "source_url": "https://masterwork.wiki/lu4/npc/20034-prowler",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20034-prowler",
   "raw_html": "library/raw/lu4/npc/20034-prowler.html",
   "stats": {
-    "Location": "Эльфийский Лес (+3) Эльфийский Лес Темный Лес Холм Черного Камня Гнездо Пауков"
+    "Respawn Time": "15 seconds",
+    "Location": "Эльфийский Лес (+3) Эльфийский Лес Темный Лес Холм Черного Камня Гнездо Пауков",
+    "HP / MP": "432 / 204",
+    "P. Atk. / M. Atk.": "54 / 29",
+    "P. Def. / M. Def.": "84 / 65",
+    "Accuracy / Evasion": "50 / 55",
+    "Exp / SP": "463 / 46",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 17"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20034",
-      "type": "npc",
-      "id": 20034,
-      "name": "Lu4",
-      "url": "/lu4/npc/20034-prowler"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
-      "key": "location:220",
-      "type": "location",
-      "id": 220,
-      "name": "Холм Черного Камня",
-      "url": "/lu4/location/220-holm-cernogo-kamna"
-    },
-    {
-      "key": "location:218",
-      "type": "location",
-      "id": 218,
-      "name": "Гнездо Пауков",
-      "url": "/lu4/location/218-gnezdo-paukov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:6035",
+      "key": "item:57",
       "type": "item",
-      "id": 6035,
-      "name": "Magic Haste Potion NG",
-      "url": "/lu4/item/6035-magic-haste-potion"
-    },
-    {
-      "key": "item:2143",
-      "type": "item",
-      "id": 2143,
-      "name": "Recipe: Synthetic Cokes NG",
-      "url": "/lu4/item/2143-recipe-synthetic-cokes"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:256",
@@ -124,11 +79,32 @@
       "url": "/lu4/item/256-cestus"
     },
     {
-      "key": "item:57",
+      "key": "item:1868",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:2143",
+      "type": "item",
+      "id": 2143,
+      "name": "Recipe: Synthetic Cokes NG",
+      "url": "/lu4/item/2143-recipe-synthetic-cokes"
+    },
+    {
+      "key": "item:6035",
+      "type": "item",
+      "id": 6035,
+      "name": "Magic Haste Potion NG",
+      "url": "/lu4/item/6035-magic-haste-potion"
     },
     {
       "key": "item:2254",

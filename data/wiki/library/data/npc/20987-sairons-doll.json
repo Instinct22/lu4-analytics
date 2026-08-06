@@ -2,131 +2,72 @@
   "key": "npc:20987",
   "type": "npc",
   "id": 20987,
-  "name": "Lu4 Wiki: NPC Sairon's Doll",
+  "name": "Sairon's Doll",
   "url": "/lu4/npc/20987-sairons-doll",
-  "source_url": "https://masterwork.wiki/lu4/npc/20987-sairons-doll",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20987-sairons-doll",
   "raw_html": "library/raw/lu4/npc/20987-sairons-doll.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "4 977 / 1 025",
+    "P. Atk. / M. Atk.": "615 / 333",
+    "P. Def. / M. Def.": "291 / 248",
+    "Accuracy / Evasion": "86 / 86",
+    "Exp / SP": "5 258 / 526",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 53"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20987",
-      "type": "npc",
-      "id": 20987,
-      "name": "Lu4",
-      "url": "/lu4/npc/20987-sairons-doll"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:8338",
-      "type": "item",
-      "id": 8338,
-      "name": "Axe of Eclipse Head NG",
-      "url": "/lu4/item/8338-axe-of-eclipse-head"
-    },
-    {
-      "key": "item:7891",
-      "type": "item",
-      "id": 7891,
-      "name": "Ecliptic Axe C",
-      "url": "/lu4/item/7891-ecliptic-axe"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5270",
@@ -157,39 +98,81 @@
       "url": "/lu4/item/3034-recipe-spiritshot-b"
     },
     {
-      "key": "item:3015",
+      "key": "item:1864",
       "type": "item",
-      "id": 3015,
-      "name": "Recipe: Drake Leather Gloves NG",
-      "url": "/lu4/item/3015-recipe-drake-leather-gloves"
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:2966",
+      "key": "item:1884",
       "type": "item",
-      "id": 2966,
-      "name": "Full Plate Shield Fragment NG",
-      "url": "/lu4/item/2966-full-plate-shield-fragment"
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
     },
     {
-      "key": "item:2960",
+      "key": "item:1878",
       "type": "item",
-      "id": 2960,
-      "name": "Drake Leather Boots Design NG",
-      "url": "/lu4/item/2960-drake-leather-boots-design"
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
     },
     {
-      "key": "item:2917",
+      "key": "item:1869",
       "type": "item",
-      "id": 2917,
-      "name": "Ring of Seal Gemstone NG",
-      "url": "/lu4/item/2917-ring-of-seal-gemstone"
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
-      "key": "item:2497",
+      "key": "item:49800",
       "type": "item",
-      "id": 2497,
-      "name": "Full Plate Shield C",
-      "url": "/lu4/item/2497-full-plate-shield"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:228",
+      "type": "item",
+      "id": 228,
+      "name": "Crystal Dagger C",
+      "url": "/lu4/item/228-crystal-dagger"
+    },
+    {
+      "key": "item:2119",
+      "type": "item",
+      "id": 2119,
+      "name": "Crystal Dagger Blade NG",
+      "url": "/lu4/item/2119-crystal-dagger-blade"
+    },
+    {
+      "key": "item:206",
+      "type": "item",
+      "id": 206,
+      "name": "Demon's Staff C",
+      "url": "/lu4/item/206-demons-staff"
+    },
+    {
+      "key": "item:2118",
+      "type": "item",
+      "id": 2118,
+      "name": "Demon's Staff Head NG",
+      "url": "/lu4/item/2118-demons-staff-head"
+    },
+    {
+      "key": "item:7891",
+      "type": "item",
+      "id": 7891,
+      "name": "Ecliptic Axe C",
+      "url": "/lu4/item/7891-ecliptic-axe"
+    },
+    {
+      "key": "item:8338",
+      "type": "item",
+      "id": 8338,
+      "name": "Axe of Eclipse Head NG",
+      "url": "/lu4/item/8338-axe-of-eclipse-head"
     },
     {
       "key": "item:2437",
@@ -199,11 +182,32 @@
       "url": "/lu4/item/2437-drake-leather-boots"
     },
     {
-      "key": "item:2355",
+      "key": "item:2960",
       "type": "item",
-      "id": 2355,
-      "name": "Recipe: Ghoul's Staff NG",
-      "url": "/lu4/item/2355-recipe-ghouls-staff"
+      "id": 2960,
+      "name": "Drake Leather Boots Design NG",
+      "url": "/lu4/item/2960-drake-leather-boots-design"
+    },
+    {
+      "key": "item:2497",
+      "type": "item",
+      "id": 2497,
+      "name": "Full Plate Shield C",
+      "url": "/lu4/item/2497-full-plate-shield"
+    },
+    {
+      "key": "item:2966",
+      "type": "item",
+      "id": 2966,
+      "name": "Full Plate Shield Fragment NG",
+      "url": "/lu4/item/2966-full-plate-shield-fragment"
+    },
+    {
+      "key": "item:2350",
+      "type": "item",
+      "id": 2350,
+      "name": "Recipe: Pa'agrian Axe NG",
+      "url": "/lu4/item/2350-recipe-paagrian-axe"
     },
     {
       "key": "item:3022",
@@ -220,20 +224,6 @@
       "url": "/lu4/item/2963-full-plate-gauntlets-part"
     },
     {
-      "key": "item:2350",
-      "type": "item",
-      "id": 2350,
-      "name": "Recipe: Pa'agrian Axe NG",
-      "url": "/lu4/item/2350-recipe-paagrian-axe"
-    },
-    {
-      "key": "item:2122",
-      "type": "item",
-      "id": 2122,
-      "name": "Orcish Poleaxe Blade NG",
-      "url": "/lu4/item/2122-orcish-poleaxe-blade"
-    },
-    {
       "key": "item:1918",
       "type": "item",
       "id": 1918,
@@ -241,11 +231,11 @@
       "url": "/lu4/item/1918-nassens-earring-gemstone"
     },
     {
-      "key": "item:1864",
+      "key": "item:2122",
       "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
+      "id": 2122,
+      "name": "Orcish Poleaxe Blade NG",
+      "url": "/lu4/item/2122-orcish-poleaxe-blade"
     }
   ]
 }

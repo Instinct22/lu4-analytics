@@ -2,24 +2,23 @@
   "key": "item:2458",
   "type": "item",
   "id": 2458,
-  "name": "Lu4 Wiki: Item Rind Leather Gloves",
+  "name": "Rind Leather Gloves",
   "url": "/lu4/item/2458-rind-leather-gloves",
-  "source_url": "https://masterwork.wiki/lu4/item/2458-rind-leather-gloves",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2458-rind-leather-gloves",
   "raw_html": "library/raw/lu4/item/2458-rind-leather-gloves.html",
   "stats": {
+    "P. Def.": "34",
+    "Crystal Amount": "50 Crystallization Failed Enchant +0 50 - +1 56 - +2 62 - +3 68 - +4 86 61 +5 104 79 +6 122 97 +7 140 115 +8 158 133",
+    "NPC Sell Price": "61 950 Adena",
+    "Weight": "600",
     "Set Part": "Rind Leather Armor C",
     "Recipes": "Recipe: Rind Leather Gloves NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Gloves"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2458",
-      "type": "item",
-      "id": 2458,
-      "name": "Lu4",
-      "url": "/lu4/item/2458-rind-leather-gloves"
-    },
     {
       "key": "set:840",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:843",
       "type": "set",
       "id": 843,
-      "name": "",
+      "name": "set:843",
       "url": "/lu4/set/843"
     },
     {
@@ -42,52 +41,59 @@
       "url": "/lu4/item/3004-recipe-rind-leather-gloves"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:22054",
       "type": "npc",
       "id": 22054,
-      "name": "Horrifying Cannon Golem IV Lv. 48",
+      "name": "Horrifying Cannon Golem IV",
       "url": "/lu4/npc/22054-horrifying-cannon-golem-iv"
     },
     {
       "key": "npc:22051",
       "type": "npc",
       "id": 22051,
-      "name": "Spelunking Spider Lv. 47",
+      "name": "Spelunking Spider",
       "url": "/lu4/npc/22051-spelunking-spider"
     },
     {
       "key": "npc:21613",
       "type": "npc",
       "id": 21613,
-      "name": "Unpleasant Shout Lv. 46",
+      "name": "Unpleasant Shout",
       "url": "/lu4/npc/21613-unpleasant-shout"
     },
     {
       "key": "npc:20767",
       "type": "npc",
       "id": 20767,
-      "name": "Timak Orc Troop Leader Lv. 45",
+      "name": "Timak Orc Troop Leader",
       "url": "/lu4/npc/20767-timak-orc-troop-leader"
     },
     {
       "key": "npc:20588",
       "type": "npc",
       "id": 20588,
-      "name": "Timak Orc Overlord Lv. 45",
+      "name": "Timak Orc Overlord",
       "url": "/lu4/npc/20588-timak-orc-overlord"
     },
     {
       "key": "npc:20236",
       "type": "npc",
       "id": 20236,
-      "name": "Cave Servant Lv. 46",
+      "name": "Cave Servant",
       "url": "/lu4/npc/20236-cave-servant"
     },
     {
       "key": "npc:5006",
       "type": "npc",
       "id": 5006,
-      "name": "Bannerless Fletcher Lv. 45",
+      "name": "Bannerless Fletcher",
       "url": "/lu4/npc/5006-bannerless-fletcher"
     }
   ]

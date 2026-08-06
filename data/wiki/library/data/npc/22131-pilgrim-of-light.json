@@ -2,103 +2,121 @@
   "key": "npc:22131",
   "type": "npc",
   "id": 22131,
-  "name": "Lu4 Wiki: NPC Pilgrim of Light",
+  "name": "Pilgrim of Light",
   "url": "/lu4/npc/22131-pilgrim-of-light",
-  "source_url": "https://masterwork.wiki/lu4/npc/22131-pilgrim-of-light",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22131-pilgrim-of-light",
   "raw_html": "library/raw/lu4/npc/22131-pilgrim-of-light.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "24 550 / 2 091",
+    "P. Atk. / M. Atk.": "2 095 / 2 776",
+    "P. Def. / M. Def.": "649 / 1 282",
+    "Accuracy / Evasion": "135 / 135",
+    "Exp / SP": "54 656 / 6 505",
+    "Attack Attribute": "Holy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 103, Unholy -83",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Strong M. Atk. Lv. 15 Average P. Def. Lv. 11 Very Strong M. Def. Lv. 17 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Angels Lv. 16 Angels. High Lv. Lv. 10 NPC High Level",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22131",
-      "type": "npc",
-      "id": 22131,
-      "name": "Lu4",
-      "url": "/lu4/npc/22131-pilgrim-of-light"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 15",
-      "url": "/lu4/skill/4411-strong-m-atk/15"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 17",
-      "url": "/lu4/skill/4413-very-strong-m-def/17"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Angels Lv. 16 Angels.",
-      "url": "/lu4/skill/4417-angels/16"
+      "name": "Angels",
+      "url": "/lu4/skill/4417-angels"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 10 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/10"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:5488",
+      "type": "item",
+      "id": 5488,
+      "name": "Sealed Majestic Robe Fabric NG",
+      "url": "/lu4/item/5488-sealed-majestic-robe-fabric"
+    },
+    {
+      "key": "item:5487",
+      "type": "item",
+      "id": 5487,
+      "name": "Sealed Robe of Nightmare Fabric NG",
+      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
     },
     {
       "key": "item:32397",
@@ -115,39 +133,11 @@
       "url": "/lu4/item/32396-unidentified-sealed-robe-of-nightmare"
     },
     {
-      "key": "item:8056",
-      "type": "item",
-      "id": 8056,
-      "name": "Key of Splendor Room NG",
-      "url": "/lu4/item/8056-key-of-splendor-room"
-    },
-    {
-      "key": "item:7911",
-      "type": "item",
-      "id": 7911,
-      "name": "Blessing of Sanctity NG",
-      "url": "/lu4/item/7911-blessing-of-sanctity"
-    },
-    {
       "key": "item:5549",
       "type": "item",
       "id": 5549,
       "name": "Metallic Thread NG",
       "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:5488",
-      "type": "item",
-      "id": 5488,
-      "name": "Sealed Majestic Robe Fabric NG",
-      "url": "/lu4/item/5488-sealed-majestic-robe-fabric"
-    },
-    {
-      "key": "item:5487",
-      "type": "item",
-      "id": 5487,
-      "name": "Sealed Robe of Nightmare Fabric NG",
-      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
     },
     {
       "key": "item:4044",
@@ -206,18 +196,32 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:7911",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 7911,
+      "name": "Blessing of Sanctity NG",
+      "url": "/lu4/item/7911-blessing-of-sanctity"
     },
     {
-      "key": "item:6706",
+      "key": "item:8056",
       "type": "item",
-      "id": 6706,
-      "name": "Sealed Imperial Crusader Helmet Pattern NG",
-      "url": "/lu4/item/6706-sealed-imperial-crusader-helmet-pattern"
+      "id": 8056,
+      "name": "Key of Splendor Room NG",
+      "url": "/lu4/item/8056-key-of-splendor-room"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:6704",
+      "type": "item",
+      "id": 6704,
+      "name": "Sealed Imperial Crusader Boots Design NG",
+      "url": "/lu4/item/6704-sealed-imperial-crusader-boots-design"
     },
     {
       "key": "item:6705",
@@ -227,11 +231,11 @@
       "url": "/lu4/item/6705-sealed-imperial-crusader-shield-part"
     },
     {
-      "key": "item:6704",
+      "key": "item:6706",
       "type": "item",
-      "id": 6704,
-      "name": "Sealed Imperial Crusader Boots Design NG",
-      "url": "/lu4/item/6704-sealed-imperial-crusader-boots-design"
+      "id": 6706,
+      "name": "Sealed Imperial Crusader Helmet Pattern NG",
+      "url": "/lu4/item/6706-sealed-imperial-crusader-helmet-pattern"
     }
   ]
 }

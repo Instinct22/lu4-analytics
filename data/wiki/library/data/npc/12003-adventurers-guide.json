@@ -2,203 +2,31 @@
   "key": "npc:12003",
   "type": "npc",
   "id": 12003,
-  "name": "Lu4 Wiki: NPC Adventurers' Guide",
+  "name": "Adventurers' Guide",
   "url": "/lu4/npc/12003-adventurers-guide",
-  "source_url": "https://masterwork.wiki/lu4/npc/12003-adventurers-guide",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/12003-adventurers-guide",
   "raw_html": "library/raw/lu4/npc/12003-adventurers-guide.html",
   "stats": {
-    "Location": "Школа Сэдрика (+24) Школа Сэдрика Школа Магов Айнховант Тень Древа Жизни Храм Шилен Храм Паагрио Рудник Возрождения Гавань Гирана Гиран Арена Деревня Говорящего Острова Глудио Деревня Гномов Деревня Орков Деревня Темных Эльфов Эльфийская Деревня Орен Хейн Земли Гирана Аден Деревня Охотников Колизей Дион Флоран Глудин Ипподром"
+    "Respawn Time": "1 minute",
+    "Location": "Школа Сэдрика (+24) Школа Сэдрика Школа Магов Айнховант Тень Древа Жизни Храм Шилен Храм Паагрио Рудник Возрождения Гавань Гирана Гиран Арена Деревня Говорящего Острова Глудио Деревня Гномов Деревня Орков Деревня Темных Эльфов Эльфийская Деревня Орен Хейн Земли Гирана Аден Деревня Охотников Колизей Дион Флоран Глудин Ипподром",
+    "HP / MP": "3 862 / 1 642",
+    "P. Atk. / M. Atk.": "1 314 / 780",
+    "P. Def. / M. Def.": "477 / 420",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 150, Water 150, Wind 150, Earth 150, Holy 150, Unholy 150",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Type": "Elemental, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:12003",
-      "type": "npc",
-      "id": 12003,
-      "name": "Lu4",
-      "url": "/lu4/npc/12003-adventurers-guide"
-    },
-    {
-      "key": "location:36",
-      "type": "location",
-      "id": 36,
-      "name": "Школа Сэдрика",
-      "url": "/lu4/location/36-skola-sedrika"
-    },
-    {
-      "key": "location:37",
-      "type": "location",
-      "id": 37,
-      "name": "Школа Магов Айнховант",
-      "url": "/lu4/location/37-skola-magov-ajnhovant"
-    },
-    {
-      "key": "location:111",
-      "type": "location",
-      "id": 111,
-      "name": "Тень Древа Жизни",
-      "url": "/lu4/location/111-ten-dreva-zizni"
-    },
-    {
-      "key": "location:108",
-      "type": "location",
-      "id": 108,
-      "name": "Храм Шилен",
-      "url": "/lu4/location/108-hram-silen"
-    },
-    {
-      "key": "location:63",
-      "type": "location",
-      "id": 63,
-      "name": "Храм Паагрио",
-      "url": "/lu4/location/63-hram-paagrio"
-    },
-    {
-      "key": "location:67",
-      "type": "location",
-      "id": 67,
-      "name": "Рудник Возрождения",
-      "url": "/lu4/location/67-rudnik-vozrozdenia"
-    },
-    {
-      "key": "location:44",
-      "type": "location",
-      "id": 44,
-      "name": "Гавань Гирана",
-      "url": "/lu4/location/44-gavan-girana"
-    },
-    {
-      "key": "location:43",
-      "type": "location",
-      "id": 43,
-      "name": "Гиран",
-      "url": "/lu4/location/43-giran"
-    },
-    {
-      "key": "location:18",
-      "type": "location",
-      "id": 18,
-      "name": "Арена",
-      "url": "/lu4/location/18-arena"
-    },
-    {
-      "key": "location:35",
-      "type": "location",
-      "id": 35,
-      "name": "Деревня Говорящего Острова",
-      "url": "/lu4/location/35-derevna-govorasego-ostrova"
-    },
-    {
-      "key": "location:20",
-      "type": "location",
-      "id": 20,
-      "name": "Глудио",
-      "url": "/lu4/location/20-gludio"
-    },
-    {
-      "key": "location:64",
-      "type": "location",
-      "id": 64,
-      "name": "Деревня Гномов",
-      "url": "/lu4/location/64-derevna-gnomov"
-    },
-    {
-      "key": "location:62",
-      "type": "location",
-      "id": 62,
-      "name": "Деревня Орков",
-      "url": "/lu4/location/62-derevna-orkov"
-    },
-    {
-      "key": "location:107",
-      "type": "location",
-      "id": 107,
-      "name": "Деревня Темных Эльфов",
-      "url": "/lu4/location/107-derevna-temnyh-elfov"
-    },
-    {
-      "key": "location:113",
-      "type": "location",
-      "id": 113,
-      "name": "Эльфийская Деревня",
-      "url": "/lu4/location/113-elfijskaa-derevna"
-    },
-    {
-      "key": "location:101",
-      "type": "location",
-      "id": 101,
-      "name": "Орен",
-      "url": "/lu4/location/101-oren"
-    },
-    {
-      "key": "location:118",
-      "type": "location",
-      "id": 118,
-      "name": "Хейн",
-      "url": "/lu4/location/118-hejn"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
-      "key": "location:77",
-      "type": "location",
-      "id": 77,
-      "name": "Аден",
-      "url": "/lu4/location/77-aden"
-    },
-    {
-      "key": "location:74",
-      "type": "location",
-      "id": 74,
-      "name": "Деревня Охотников",
-      "url": "/lu4/location/74-derevna-ohotnikov"
-    },
-    {
-      "key": "location:93",
-      "type": "location",
-      "id": 93,
-      "name": "Колизей",
-      "url": "/lu4/location/93-kolizej"
-    },
-    {
-      "key": "location:48",
-      "type": "location",
-      "id": 48,
-      "name": "Дион",
-      "url": "/lu4/location/48-dion"
-    },
-    {
-      "key": "location:58",
-      "type": "location",
-      "id": 58,
-      "name": "Флоран",
-      "url": "/lu4/location/58-floran"
-    },
-    {
-      "key": "location:21",
-      "type": "location",
-      "id": 21,
-      "name": "Глудин",
-      "url": "/lu4/location/21-gludin"
-    },
-    {
-      "key": "location:49",
-      "type": "location",
-      "id": 49,
-      "name": "Ипподром",
-      "url": "/lu4/location/49-ippodrom"
-    },
-    {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

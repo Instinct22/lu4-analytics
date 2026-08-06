@@ -1,0 +1,44 @@
+{
+  "key": "skill:112",
+  "type": "skill",
+  "id": 112,
+  "name": "Deflect Arrow",
+  "url": "/lu4/skill/112-deflect-arrow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/112-deflect-arrow",
+  "raw_html": "library/raw/lu4/skill/112-deflect-arrow.html",
+  "stats": {
+    "Effect": "Resistance to Bow attacks +8%.",
+    "Consumes": "11 MP",
+    "Reuse Time": "3 seconds",
+    "Duration": "20 minutes",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "KnightLv. 24Elven KnightLv. 24Palus KnightLv. 24",
+    "Type": "Physical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:4",
+      "type": "class",
+      "id": 4,
+      "name": "KnightLv. 24",
+      "url": "/lu4/class/4-knight"
+    },
+    {
+      "key": "class:19",
+      "type": "class",
+      "id": 19,
+      "name": "Elven KnightLv. 24",
+      "url": "/lu4/class/19-elvenknight"
+    },
+    {
+      "key": "class:32",
+      "type": "class",
+      "id": 32,
+      "name": "Palus KnightLv. 24",
+      "url": "/lu4/class/32-palusknight"
+    }
+  ]
+}

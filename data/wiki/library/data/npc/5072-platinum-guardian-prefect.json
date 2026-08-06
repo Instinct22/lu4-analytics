@@ -2,161 +2,102 @@
   "key": "npc:5072",
   "type": "npc",
   "id": 5072,
-  "name": "Lu4 Wiki: NPC Platinum Guardian Prefect",
+  "name": "Platinum Guardian Prefect",
   "url": "/lu4/npc/5072-platinum-guardian-prefect",
-  "source_url": "https://masterwork.wiki/lu4/npc/5072-platinum-guardian-prefect",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5072-platinum-guardian-prefect",
   "raw_html": "library/raw/lu4/npc/5072-platinum-guardian-prefect.html",
   "stats": {
-    "Location": "Башня Дерзости: 9-й этаж (+1) Башня Дерзости: 9-й этаж Башня Дерзости: 10-й этаж"
+    "Respawn Time": "3 minutes, 35 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 9-й этаж (+1) Башня Дерзости: 9-й этаж Башня Дерзости: 10-й этаж",
+    "HP / MP": "30 165 / 1 110",
+    "P. Atk. / M. Atk.": "2 939 / 964",
+    "P. Def. / M. Def.": "1 075 / 747",
+    "Accuracy / Evasion": "117 / 107",
+    "Exp / SP": "64 739 / 6 474",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 17 Strong M. Def. Lv. 15 Very Strong P. Def. Lv. 16 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Double Skill Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 72"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5072",
-      "type": "npc",
-      "id": 5072,
-      "name": "Lu4",
-      "url": "/lu4/npc/5072-platinum-guardian-prefect"
-    },
-    {
-      "key": "location:92",
-      "type": "location",
-      "id": 92,
-      "name": "Башня Дерзости: 9-й этаж",
-      "url": "/lu4/location/92-basna-derzosti-9-j-etaz"
-    },
-    {
-      "key": "location:79",
-      "type": "location",
-      "id": 79,
-      "name": "Башня Дерзости: 10-й этаж",
-      "url": "/lu4/location/79-basna-derzosti-10-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 17",
-      "url": "/lu4/skill/4410-very-strong-p-atk/17"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 15",
-      "url": "/lu4/skill/4413-strong-m-def/15"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:5622",
       "type": "skill",
       "id": 5622,
-      "name": "Double Skill Attack Lv. 1",
-      "url": "/lu4/skill/5622-double-skill-attack/1"
+      "name": "Double Skill Attack",
+      "url": "/lu4/skill/5622-double-skill-attack"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32381",
-      "type": "item",
-      "id": 32381,
-      "name": "Unidentified Sealed Tallum Leather Armor A",
-      "url": "/lu4/item/32381-unidentified-sealed-tallum-leather-armor"
-    },
-    {
-      "key": "item:32330",
-      "type": "item",
-      "id": 32330,
-      "name": "Unidentified Elemental Sword A",
-      "url": "/lu4/item/32330-unidentified-elemental-sword"
-    },
-    {
-      "key": "item:5547",
-      "type": "item",
-      "id": 5547,
-      "name": "Elemental Sword Edge NG",
-      "url": "/lu4/item/5547-elemental-sword-edge"
-    },
-    {
-      "key": "item:5479",
-      "type": "item",
-      "id": 5479,
-      "name": "Sealed Tallum Leather Armor Pattern NG",
-      "url": "/lu4/item/5479-sealed-tallum-leather-armor-pattern"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -194,18 +135,60 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:5539",
+      "key": "item:32330",
       "type": "item",
-      "id": 5539,
-      "name": "Blood Tornado Edge NG",
-      "url": "/lu4/item/5539-blood-tornado-edge"
+      "id": 32330,
+      "name": "Unidentified Elemental Sword A",
+      "url": "/lu4/item/32330-unidentified-elemental-sword"
+    },
+    {
+      "key": "item:5547",
+      "type": "item",
+      "id": 5547,
+      "name": "Elemental Sword Edge NG",
+      "url": "/lu4/item/5547-elemental-sword-edge"
+    },
+    {
+      "key": "item:32381",
+      "type": "item",
+      "id": 32381,
+      "name": "Unidentified Sealed Tallum Leather Armor A",
+      "url": "/lu4/item/32381-unidentified-sealed-tallum-leather-armor"
+    },
+    {
+      "key": "item:5479",
+      "type": "item",
+      "id": 5479,
+      "name": "Sealed Tallum Leather Armor Pattern NG",
+      "url": "/lu4/item/5479-sealed-tallum-leather-armor-pattern"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:5452",
@@ -220,6 +203,13 @@
       "id": 5332,
       "name": "Recipe: Sealed Dark Crystal Leather Armor(60%) NG",
       "url": "/lu4/item/5332-recipe-sealed-dark-crystal-leather-armor60"
+    },
+    {
+      "key": "item:5539",
+      "type": "item",
+      "id": 5539,
+      "name": "Blood Tornado Edge NG",
+      "url": "/lu4/item/5539-blood-tornado-edge"
     }
   ]
 }

@@ -2,175 +2,81 @@
   "key": "npc:20052",
   "type": "npc",
   "id": 20052,
-  "name": "Lu4 Wiki: NPC Lesser Succubus Turen",
+  "name": "Lesser Succubus Turen",
   "url": "/lu4/npc/20052-lesser-succubus-turen",
-  "source_url": "https://masterwork.wiki/lu4/npc/20052-lesser-succubus-turen",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20052-lesser-succubus-turen",
   "raw_html": "library/raw/lu4/npc/20052-lesser-succubus-turen.html",
   "stats": {
-    "Location": "Школа Темной Магии"
+    "Respawn Time": "50 seconds",
+    "Location": "Школа Темной Магии",
+    "HP / MP": "2 326 / 252",
+    "P. Atk. / M. Atk.": "73 / 52",
+    "P. Def. / M. Def.": "95 / 77",
+    "Accuracy / Evasion": "54 / 54",
+    "Exp / SP": "2 457 / 246",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 21"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20052",
-      "type": "npc",
-      "id": 20052,
-      "name": "Lu4",
-      "url": "/lu4/npc/20052-lesser-succubus-turen"
-    },
-    {
-      "key": "location:110",
-      "type": "location",
-      "id": 110,
-      "name": "Школа Темной Магии",
-      "url": "/lu4/location/110-skola-temnoj-magii"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5158",
-      "type": "item",
-      "id": 5158,
-      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:2015",
-      "type": "item",
-      "id": 2015,
-      "name": "Sword Breaker Edge NG",
-      "url": "/lu4/item/2015-sword-breaker-edge"
-    },
-    {
-      "key": "item:1931",
-      "type": "item",
-      "id": 1931,
-      "name": "Leather Boots Lining NG",
-      "url": "/lu4/item/1931-leather-boots-lining"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1804",
-      "type": "item",
-      "id": 1804,
-      "name": "Recipe: Soulshot (D-Grade) NG",
-      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
-    },
-    {
-      "key": "item:847",
-      "type": "item",
-      "id": 847,
-      "name": "Red Crescent Earring D",
-      "url": "/lu4/item/847-red-crescent-earring"
-    },
-    {
-      "key": "item:219",
-      "type": "item",
-      "id": 219,
-      "name": "Sword Breaker NG",
-      "url": "/lu4/item/219-sword-breaker"
-    },
-    {
-      "key": "item:168",
-      "type": "item",
-      "id": 168,
-      "name": "Work Hammer D",
-      "url": "/lu4/item/168-work-hammer"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "item:57",
@@ -180,6 +86,55 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:219",
+      "type": "item",
+      "id": 219,
+      "name": "Sword Breaker NG",
+      "url": "/lu4/item/219-sword-breaker"
+    },
+    {
+      "key": "item:2015",
+      "type": "item",
+      "id": 2015,
+      "name": "Sword Breaker Edge NG",
+      "url": "/lu4/item/2015-sword-breaker-edge"
+    },
+    {
+      "key": "item:1804",
+      "type": "item",
+      "id": 1804,
+      "name": "Recipe: Soulshot (D-Grade) NG",
+      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1880",
+      "type": "item",
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:5158",
+      "type": "item",
+      "id": 5158,
+      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
+    },
+    {
       "key": "item:40",
       "type": "item",
       "id": 40,
@@ -187,18 +142,53 @@
       "url": "/lu4/item/40-leather-boots"
     },
     {
-      "key": "item:2255",
+      "key": "item:1931",
       "type": "item",
-      "id": 2255,
-      "name": "Recipe: Saber NG",
-      "url": "/lu4/item/2255-recipe-saber"
+      "id": 1931,
+      "name": "Leather Boots Lining NG",
+      "url": "/lu4/item/1931-leather-boots-lining"
     },
     {
-      "key": "item:2151",
+      "key": "item:847",
       "type": "item",
-      "id": 2151,
-      "name": "Recipe: Necklace of Devotion NG",
-      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
+      "id": 847,
+      "name": "Red Crescent Earring D",
+      "url": "/lu4/item/847-red-crescent-earring"
+    },
+    {
+      "key": "item:168",
+      "type": "item",
+      "id": 168,
+      "name": "Work Hammer D",
+      "url": "/lu4/item/168-work-hammer"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
       "key": "item:1868",
@@ -208,11 +198,18 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:1866",
+      "key": "item:2151",
       "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "id": 2151,
+      "name": "Recipe: Necklace of Devotion NG",
+      "url": "/lu4/item/2151-recipe-necklace-of-devotion"
+    },
+    {
+      "key": "item:2255",
+      "type": "item",
+      "id": 2255,
+      "name": "Recipe: Saber NG",
+      "url": "/lu4/item/2255-recipe-saber"
     }
   ]
 }

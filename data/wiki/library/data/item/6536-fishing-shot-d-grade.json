@@ -2,35 +2,33 @@
   "key": "item:6536",
   "type": "item",
   "id": 6536,
-  "name": "Lu4 Wiki: Item Fishing Shot (D-Grade)",
+  "name": "Fishing Shot (D-Grade)",
   "url": "/lu4/item/6536-fishing-shot-d-grade",
-  "source_url": "https://masterwork.wiki/lu4/item/6536-fishing-shot-d-grade",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/6536-fishing-shot-d-grade",
   "raw_html": "library/raw/lu4/item/6536-fishing-shot-d-grade.html",
   "stats": {
+    "Effect": "Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the pumping or reeling skill is cast. Usable for the D-grade fishing rod.",
+    "NPC Sell Price": "3 Adena",
+    "Weight": "3",
     "Item Skills": "Item - Fishing Shot Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Other"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:6536",
-      "type": "item",
-      "id": 6536,
-      "name": "Lu4",
-      "url": "/lu4/item/6536-fishing-shot-d-grade"
-    },
-    {
       "key": "skill:2182",
       "type": "skill",
       "id": 2182,
-      "name": "Item - Fishing Shot Lv. 1",
-      "url": "/lu4/skill/2182-item-fishing-shot/1"
+      "name": "Item - Fishing Shot",
+      "url": "/lu4/skill/2182-item-fishing-shot"
     },
     {
       "key": "npc:18320",
       "type": "npc",
       "id": 18320,
-      "name": "Caught Undine Lv. 20",
+      "name": "Caught Undine",
       "url": "/lu4/npc/18320-caught-undine"
     }
   ]

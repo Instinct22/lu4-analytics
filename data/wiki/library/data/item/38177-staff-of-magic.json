@@ -2,36 +2,40 @@
   "key": "item:38177",
   "type": "item",
   "id": 38177,
-  "name": "Lu4 Wiki: Item Staff of Magic",
+  "name": "Staff of Magic",
   "url": "/lu4/item/38177-staff-of-magic",
-  "source_url": "https://masterwork.wiki/lu4/item/38177-staff-of-magic",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/38177-staff-of-magic",
   "raw_html": "library/raw/lu4/item/38177-staff-of-magic.html",
   "stats": {
+    "Effect": "<Passive Effect> M. Atk. +20%, Consumption MP for Magic skills +10%.",
+    "P. Atk. / M. Atk.": "62 / 57",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "1373 Crystallization Failed Enchant +0 1373 - +1 1463 - +2 1553 - +3 1643 - +4 1823 1136 +5 2003 1316 +6 2183 1496 +7 2363 1676 +8 2543 1856 +9 2723 2036 +10 2903 2216 +11 3083 2396 +12 3263 2576",
+    "NPC Sell Price": "371 750 Adena",
+    "Weight": "1020",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Item Skills": "Special Ability: Empower Lv. 1 Magic Essence Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Staff of Magic D",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Blunt / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:38177",
-      "type": "item",
-      "id": 38177,
-      "name": "Lu4",
-      "url": "/lu4/item/38177-staff-of-magic"
-    },
-    {
       "key": "skill:24304",
       "type": "skill",
       "id": 24304,
-      "name": "Special Ability: Empower Lv. 1",
-      "url": "/lu4/skill/24304-special-ability-empower/1"
+      "name": "Special Ability: Empower",
+      "url": "/lu4/skill/24304-special-ability-empower"
     },
     {
       "key": "skill:24479",
       "type": "skill",
       "id": 24479,
-      "name": "Magic Essence Lv. 1",
-      "url": "/lu4/skill/24479-magic-essence/1"
+      "name": "Magic Essence",
+      "url": "/lu4/skill/24479-magic-essence"
     }
   ]
 }

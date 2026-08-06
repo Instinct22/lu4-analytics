@@ -2,138 +2,79 @@
   "key": "npc:20762",
   "type": "npc",
   "id": 20762,
-  "name": "Lu4 Wiki: NPC Pytan Knight",
+  "name": "Pytan Knight",
   "url": "/lu4/npc/20762-pytan-knight",
-  "source_url": "https://masterwork.wiki/lu4/npc/20762-pytan-knight",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20762-pytan-knight",
   "raw_html": "library/raw/lu4/npc/20762-pytan-knight.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "19 908 / 1 651",
+    "P. Atk. / M. Atk.": "1 647 / 667",
+    "P. Def. / M. Def.": "616 / 399",
+    "Accuracy / Evasion": "96 / 96",
+    "Exp / SP": "35 538 / 3 554",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 5, Unholy 40",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 15 Strong P. Def. Lv. 15 Slightly Strong M. Def. Lv. 13 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 63"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20762",
-      "type": "npc",
-      "id": 20762,
-      "name": "Lu4",
-      "url": "/lu4/npc/20762-pytan-knight"
-    },
-    {
-      "key": "location:45",
-      "type": "location",
-      "id": 45,
-      "name": "Логово Антараса",
-      "url": "/lu4/location/45-logovo-antarasa"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32432",
-      "type": "item",
-      "id": 32432,
-      "name": "Unidentified Wizard's Tear B",
-      "url": "/lu4/item/32432-unidentified-wizards-tear"
-    },
-    {
-      "key": "item:32401",
-      "type": "item",
-      "id": 32401,
-      "name": "Unidentified Sealed Doom Gloves B",
-      "url": "/lu4/item/32401-unidentified-sealed-doom-gloves"
-    },
-    {
-      "key": "item:32359",
-      "type": "item",
-      "id": 32359,
-      "name": "Unidentified Blue Wolf Leather Armor B",
-      "url": "/lu4/item/32359-unidentified-blue-wolf-leather-armor"
-    },
-    {
-      "key": "item:8336",
-      "type": "item",
-      "id": 8336,
-      "name": "Blade of the Wizard's Tear NG",
-      "url": "/lu4/item/8336-blade-of-the-wizards-tear"
-    },
-    {
-      "key": "item:4091",
-      "type": "item",
-      "id": 4091,
-      "name": "Sealed Doom Gloves Part NG",
-      "url": "/lu4/item/4091-sealed-doom-gloves-part"
-    },
-    {
-      "key": "item:4082",
-      "type": "item",
-      "id": 4082,
-      "name": "Blue Wolf Leather Armor Texture NG",
-      "url": "/lu4/item/4082-blue-wolf-leather-armor-texture"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -171,18 +112,67 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:32359",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32359,
+      "name": "Unidentified Blue Wolf Leather Armor B",
+      "url": "/lu4/item/32359-unidentified-blue-wolf-leather-armor"
     },
     {
-      "key": "item:8348",
+      "key": "item:4082",
       "type": "item",
-      "id": 8348,
-      "name": "Star Buster Head NG",
-      "url": "/lu4/item/8348-star-buster-head"
+      "id": 4082,
+      "name": "Blue Wolf Leather Armor Texture NG",
+      "url": "/lu4/item/4082-blue-wolf-leather-armor-texture"
+    },
+    {
+      "key": "item:32401",
+      "type": "item",
+      "id": 32401,
+      "name": "Unidentified Sealed Doom Gloves B",
+      "url": "/lu4/item/32401-unidentified-sealed-doom-gloves"
+    },
+    {
+      "key": "item:4091",
+      "type": "item",
+      "id": 4091,
+      "name": "Sealed Doom Gloves Part NG",
+      "url": "/lu4/item/4091-sealed-doom-gloves-part"
+    },
+    {
+      "key": "item:32432",
+      "type": "item",
+      "id": 32432,
+      "name": "Unidentified Wizard's Tear B",
+      "url": "/lu4/item/32432-unidentified-wizards-tear"
+    },
+    {
+      "key": "item:8336",
+      "type": "item",
+      "id": 8336,
+      "name": "Blade of the Wizard's Tear NG",
+      "url": "/lu4/item/8336-blade-of-the-wizards-tear"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:4985",
@@ -211,6 +201,13 @@
       "id": 4118,
       "name": "Evil Spirit Head NG",
       "url": "/lu4/item/4118-evil-spirit-head"
+    },
+    {
+      "key": "item:8348",
+      "type": "item",
+      "id": 8348,
+      "name": "Star Buster Head NG",
+      "url": "/lu4/item/8348-star-buster-head"
     }
   ]
 }

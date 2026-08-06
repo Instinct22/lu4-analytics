@@ -2,27 +2,25 @@
   "key": "item:3068",
   "type": "item",
   "id": 3068,
-  "name": "Lu4 Wiki: Item Spellbook: Vitalize",
+  "name": "Spellbook: Vitalize",
   "url": "/lu4/item/3068-spellbook-vitalize",
-  "source_url": "https://masterwork.wiki/lu4/item/3068-spellbook-vitalize",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/3068-spellbook-vitalize",
   "raw_html": "library/raw/lu4/item/3068-spellbook-vitalize.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Vitalize'. Required: Bishop - Lv. 48 Elven Elder - Lv. 48 To obtain this item, hunt the Dragon Bearer Archer found in Dragon Valley.",
+    "NPC Sell Price": "2 300 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:3068",
-      "type": "item",
-      "id": 3068,
-      "name": "Lu4",
-      "url": "/lu4/item/3068-spellbook-vitalize"
-    },
-    {
       "key": "npc:20760",
       "type": "npc",
       "id": 20760,
-      "name": "Dragon Bearer Archer Lv. 47",
+      "name": "Dragon Bearer Archer",
       "url": "/lu4/npc/20760-dragon-bearer-archer"
     }
   ]

@@ -2,34 +2,32 @@
   "key": "item:7651",
   "type": "item",
   "id": 7651,
-  "name": "Lu4 Wiki: Item Spellbook: Wind Vortex",
+  "name": "Spellbook: Wind Vortex",
   "url": "/lu4/item/7651-spellbook-wind-vortex",
-  "source_url": "https://masterwork.wiki/lu4/item/7651-spellbook-wind-vortex",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/7651-spellbook-wind-vortex",
   "raw_html": "library/raw/lu4/item/7651-spellbook-wind-vortex.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Wind Vortex'. Required: Spellhowler - Lv. 72 To obtain this item, hunt the Cindermire Golem found in Blazing Swamp.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:7651",
-      "type": "item",
-      "id": 7651,
-      "name": "Lu4",
-      "url": "/lu4/item/7651-spellbook-wind-vortex"
-    },
-    {
       "key": "npc:21319",
       "type": "npc",
       "id": 21319,
-      "name": "Hot Springs Nepenthes Lv. 75",
+      "name": "Hot Springs Nepenthes",
       "url": "/lu4/npc/21319-hot-springs-nepenthes"
     },
     {
       "key": "npc:5054",
       "type": "npc",
       "id": 5054,
-      "name": "Cindermire Golem Lv. 72",
+      "name": "Cindermire Golem",
       "url": "/lu4/npc/5054-cindermire-golem"
     }
   ]

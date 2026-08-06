@@ -2,24 +2,23 @@
   "key": "item:2430",
   "type": "item",
   "id": 2430,
-  "name": "Lu4 Wiki: Item Karmian Boots",
+  "name": "Karmian Boots",
   "url": "/lu4/item/2430-karmian-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/2430-karmian-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2430-karmian-boots",
   "raw_html": "library/raw/lu4/item/2430-karmian-boots.html",
   "stats": {
+    "P. Def.": "32",
+    "Crystal Amount": "39 Crystallization Failed Enchant +0 39 - +1 45 - +2 51 - +3 57 - +4 75 55 +5 93 73 +6 111 91 +7 129 109 +8 147 127",
+    "NPC Sell Price": "48 550 Adena",
+    "Weight": "1230",
     "Set Part": "Karmian Tunic C",
     "Recipes": "Recipe: Karmian Boots NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Boots"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2430",
-      "type": "item",
-      "id": 2430,
-      "name": "Lu4",
-      "url": "/lu4/item/2430-karmian-boots"
-    },
     {
       "key": "set:14",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:505",
       "type": "set",
       "id": 505,
-      "name": "",
+      "name": "set:505",
       "url": "/lu4/set/505"
     },
     {
@@ -42,73 +41,80 @@
       "url": "/lu4/item/2991-recipe-karmian-boots"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25504",
       "type": "npc",
       "id": 25504,
-      "name": "Nellis' Vengeful Spirit Lv. 39",
+      "name": "Nellis' Vengeful Spirit",
       "url": "/lu4/npc/25504-nellis-vengeful-spirit"
     },
     {
       "key": "npc:25487",
       "type": "npc",
       "id": 25487,
-      "name": "Water Spirit Lian Lv. 40",
+      "name": "Water Spirit Lian",
       "url": "/lu4/npc/25487-water-spirit-lian"
     },
     {
       "key": "npc:25115",
       "type": "npc",
       "id": 25115,
-      "name": "Icarus Sample 1 Lv. 40",
+      "name": "Icarus Sample 1",
       "url": "/lu4/npc/25115-icarus-sample-1"
     },
     {
       "key": "npc:21809",
       "type": "npc",
       "id": 21809,
-      "name": "Treasure Chest Lv. 45",
+      "name": "Treasure Chest",
       "url": "/lu4/npc/21809-treasure-chest"
     },
     {
       "key": "npc:20837",
       "type": "npc",
       "id": 20837,
-      "name": "Tainted Ogre Lv. 45",
+      "name": "Tainted Ogre",
       "url": "/lu4/npc/20837-tainted-ogre"
     },
     {
       "key": "npc:20794",
       "type": "npc",
       "id": 20794,
-      "name": "Blade Stakato Lv. 41",
+      "name": "Blade Stakato",
       "url": "/lu4/npc/20794-blade-stakato"
     },
     {
       "key": "npc:20586",
       "type": "npc",
       "id": 20586,
-      "name": "Timak Orc Warrior Lv. 43",
+      "name": "Timak Orc Warrior",
       "url": "/lu4/npc/20586-timak-orc-warrior"
     },
     {
       "key": "npc:20582",
       "type": "npc",
       "id": 20582,
-      "name": "Leto Lizardman Overlord Lv. 40",
+      "name": "Leto Lizardman Overlord",
       "url": "/lu4/npc/20582-leto-lizardman-overlord"
     },
     {
       "key": "npc:20565",
       "type": "npc",
       "id": 20565,
-      "name": "Enchanted Stone Golem Lv. 42",
+      "name": "Enchanted Stone Golem",
       "url": "/lu4/npc/20565-enchanted-stone-golem"
     },
     {
       "key": "npc:20554",
       "type": "npc",
       "id": 20554,
-      "name": "Grandis Lv. 40",
+      "name": "Grandis",
       "url": "/lu4/npc/20554-grandis"
     }
   ]

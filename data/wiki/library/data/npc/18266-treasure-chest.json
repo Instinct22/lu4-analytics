@@ -2,40 +2,30 @@
   "key": "npc:18266",
   "type": "npc",
   "id": 18266,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/18266-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/18266-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/18266-treasure-chest",
   "raw_html": "library/raw/lu4/npc/18266-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "687 / 302",
+    "P. Atk. / M. Atk.": "85 / 39",
+    "P. Def. / M. Def.": "124 / 98",
+    "Accuracy / Evasion": "57 / 57",
+    "Exp / SP": "771 / 38",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 24"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:18266",
-      "type": "npc",
-      "id": 18266,
-      "name": "Lu4",
-      "url": "/lu4/npc/18266-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:57",
@@ -45,11 +35,25 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2176",
+      "key": "item:955",
       "type": "item",
-      "id": 2176,
-      "name": "Recipe: Leather Boots NG",
-      "url": "/lu4/item/2176-recipe-leather-boots"
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:1928",
+      "type": "item",
+      "id": 1928,
+      "name": "Piece Bone Gaiters Fragment NG",
+      "url": "/lu4/item/1928-piece-bone-gaiters-fragment"
     },
     {
       "key": "item:2151",
@@ -59,11 +63,11 @@
       "url": "/lu4/item/2151-recipe-necklace-of-devotion"
     },
     {
-      "key": "item:1928",
+      "key": "item:2176",
       "type": "item",
-      "id": 1928,
-      "name": "Piece Bone Gaiters Fragment NG",
-      "url": "/lu4/item/1928-piece-bone-gaiters-fragment"
+      "id": 2176,
+      "name": "Recipe: Leather Boots NG",
+      "url": "/lu4/item/2176-recipe-leather-boots"
     }
   ]
 }

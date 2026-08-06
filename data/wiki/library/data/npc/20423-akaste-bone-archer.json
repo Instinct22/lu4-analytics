@@ -2,98 +2,74 @@
   "key": "npc:20423",
   "type": "npc",
   "id": 20423,
-  "name": "Lu4 Wiki: NPC Akaste Bone Archer",
+  "name": "Akaste Bone Archer",
   "url": "/lu4/npc/20423-akaste-bone-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20423-akaste-bone-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20423-akaste-bone-archer",
   "raw_html": "library/raw/lu4/npc/20423-akaste-bone-archer.html",
   "stats": {
-    "Location": "Заброшенный Угольный Рудник"
+    "Respawn Time": "20 seconds",
+    "Location": "Заброшенный Угольный Рудник",
+    "HP / MP": "363 / 173",
+    "P. Atk. / M. Atk.": "79 / 17",
+    "P. Def. / M. Def.": "70 / 67",
+    "Accuracy / Evasion": "47 / 47",
+    "Exp / SP": "391 / 39",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 14"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20423",
-      "type": "npc",
-      "id": 20423,
-      "name": "Lu4",
-      "url": "/lu4/npc/20423-akaste-bone-archer"
-    },
-    {
-      "key": "location:66",
-      "type": "location",
-      "id": 66,
-      "name": "Заброшенный Угольный Рудник",
-      "url": "/lu4/location/66-zabrosennyj-ugolnyj-rudnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:271",
-      "type": "item",
-      "id": 271,
-      "name": "Hunting Bow NG",
-      "url": "/lu4/item/271-hunting-bow"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "item:57",
@@ -103,11 +79,32 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1921",
+      "key": "item:271",
       "type": "item",
-      "id": 1921,
-      "name": "Leather Shoes Texture NG",
-      "url": "/lu4/item/1921-leather-shoes-texture"
+      "id": 271,
+      "name": "Hunting Bow NG",
+      "url": "/lu4/item/271-hunting-bow"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1792",
+      "type": "item",
+      "id": 1792,
+      "name": "Recipe: Short Spear NG",
+      "url": "/lu4/item/1792-recipe-short-spear"
     },
     {
       "key": "item:1793",
@@ -117,11 +114,11 @@
       "url": "/lu4/item/1793-recipe-sword-of-reflection"
     },
     {
-      "key": "item:1792",
+      "key": "item:1921",
       "type": "item",
-      "id": 1792,
-      "name": "Recipe: Short Spear NG",
-      "url": "/lu4/item/1792-recipe-short-spear"
+      "id": 1921,
+      "name": "Leather Shoes Texture NG",
+      "url": "/lu4/item/1921-leather-shoes-texture"
     }
   ]
 }

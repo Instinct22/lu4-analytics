@@ -2,69 +2,24 @@
   "key": "item:2149",
   "type": "item",
   "id": 2149,
-  "name": "Recipe",
+  "name": "Recipe: Metallic Fiber",
   "url": "/lu4/item/2149-recipe-metallic-fiber",
-  "source_url": "https://masterwork.wiki/lu4/item/2149-recipe-metallic-fiber",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2149-recipe-metallic-fiber",
   "raw_html": "library/raw/lu4/item/2149-recipe-metallic-fiber.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Metallic Fiber'. Requires Create Item - Skill Level 4 (Artisan Lv. 36). The success rate is 100%.",
+    "NPC Sell Price": "1 400 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "4",
     "MP Consume": "40",
     "Success Rate": "100%",
-    "Result": "Metallic Fiber NG (20 pcs.)"
+    "Result": "Metallic Fiber NG (20 pcs.)",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "amount": "20"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "2"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "25"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "amount": "15"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2149",
-      "type": "item",
-      "id": 2149,
-      "name": "Lu4",
-      "url": "/lu4/item/2149-recipe-metallic-fiber"
-    },
     {
       "key": "item:1884",
       "type": "item",
@@ -118,28 +73,28 @@
       "key": "npc:22029",
       "type": "npc",
       "id": 22029,
-      "name": "Ragna Orc Lv. 40",
+      "name": "Ragna Orc",
       "url": "/lu4/npc/22029-ragna-orc"
     },
     {
       "key": "npc:20764",
       "type": "npc",
       "id": 20764,
-      "name": "Shaman of the Plains Lv. 39",
+      "name": "Shaman of the Plains",
       "url": "/lu4/npc/20764-shaman-of-the-plains"
     },
     {
       "key": "npc:21687",
       "type": "npc",
       "id": 21687,
-      "name": "Dimension Invader Priest Lv. 40",
+      "name": "Dimension Invader Priest",
       "url": "/lu4/npc/21687-dimension-invader-priest"
     },
     {
       "key": "npc:20088",
       "type": "npc",
       "id": 20088,
-      "name": "Ant Warrior Captain Lv. 36",
+      "name": "Ant Warrior Captain",
       "url": "/lu4/npc/20088-ant-warrior-captain"
     }
   ]

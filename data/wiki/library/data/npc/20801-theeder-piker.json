@@ -2,70 +2,74 @@
   "key": "npc:20801",
   "type": "npc",
   "id": 20801,
-  "name": "Lu4 Wiki: NPC Theeder Piker",
+  "name": "Theeder Piker",
   "url": "/lu4/npc/20801-theeder-piker",
-  "source_url": "https://masterwork.wiki/lu4/npc/20801-theeder-piker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20801-theeder-piker",
   "raw_html": "library/raw/lu4/npc/20801-theeder-piker.html",
   "stats": {
-    "Location": "Сады Богини Евы"
+    "Respawn Time": "1 minute, 15 seconds",
+    "Location": "Сады Богини Евы",
+    "HP / MP": "10 507 / 852",
+    "P. Atk. / M. Atk.": "413 / 236",
+    "P. Def. / M. Def.": "305 / 223",
+    "Accuracy / Evasion": "76 / 86",
+    "Exp / SP": "13 634 / 1 363",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 HP Increase (5x) Lv. 13 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 48"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20801",
-      "type": "npc",
-      "id": 20801,
-      "name": "Lu4",
-      "url": "/lu4/npc/20801-theeder-piker"
-    },
-    {
-      "key": "location:121",
-      "type": "location",
-      "id": 121,
-      "name": "Сады Богини Евы",
-      "url": "/lu4/location/121-sady-bogini-evy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -73,34 +77,6 @@
       "id": 4042,
       "name": "Enria NG",
       "url": "/lu4/item/4042-enria"
-    },
-    {
-      "key": "item:2954",
-      "type": "item",
-      "id": 2954,
-      "name": "Theca Leather Boots Texture NG",
-      "url": "/lu4/item/2954-theca-leather-boots-texture"
-    },
-    {
-      "key": "item:2436",
-      "type": "item",
-      "id": 2436,
-      "name": "Theca Leather Boots C",
-      "url": "/lu4/item/2436-theca-leather-boots"
-    },
-    {
-      "key": "item:2093",
-      "type": "item",
-      "id": 2093,
-      "name": "Poleaxe Blade NG",
-      "url": "/lu4/item/2093-poleaxe-blade"
-    },
-    {
-      "key": "item:1985",
-      "type": "item",
-      "id": 1985,
-      "name": "Theca Leather Gaiters Pattern NG",
-      "url": "/lu4/item/1985-theca-leather-gaiters-pattern"
     },
     {
       "key": "item:1895",
@@ -138,13 +114,6 @@
       "url": "/lu4/item/1539-greater-healing-potion"
     },
     {
-      "key": "item:420",
-      "type": "item",
-      "id": 420,
-      "name": "Theca Leather Gaiters C",
-      "url": "/lu4/item/420-theca-leather-gaiters"
-    },
-    {
       "key": "item:95",
       "type": "item",
       "id": 95,
@@ -152,11 +121,39 @@
       "url": "/lu4/item/95-poleaxe"
     },
     {
-      "key": "item:57",
+      "key": "item:2093",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2093,
+      "name": "Poleaxe Blade NG",
+      "url": "/lu4/item/2093-poleaxe-blade"
+    },
+    {
+      "key": "item:2436",
+      "type": "item",
+      "id": 2436,
+      "name": "Theca Leather Boots C",
+      "url": "/lu4/item/2436-theca-leather-boots"
+    },
+    {
+      "key": "item:2954",
+      "type": "item",
+      "id": 2954,
+      "name": "Theca Leather Boots Texture NG",
+      "url": "/lu4/item/2954-theca-leather-boots-texture"
+    },
+    {
+      "key": "item:420",
+      "type": "item",
+      "id": 420,
+      "name": "Theca Leather Gaiters C",
+      "url": "/lu4/item/420-theca-leather-gaiters"
+    },
+    {
+      "key": "item:1985",
+      "type": "item",
+      "id": 1985,
+      "name": "Theca Leather Gaiters Pattern NG",
+      "url": "/lu4/item/1985-theca-leather-gaiters-pattern"
     }
   ]
 }

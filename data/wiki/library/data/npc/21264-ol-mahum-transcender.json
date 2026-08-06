@@ -2,70 +2,46 @@
   "key": "npc:21264",
   "type": "npc",
   "id": 21264,
-  "name": "Lu4 Wiki: NPC Ol Mahum Transcender",
+  "name": "Ol Mahum Transcender",
   "url": "/lu4/npc/21264-ol-mahum-transcender",
-  "source_url": "https://masterwork.wiki/lu4/npc/21264-ol-mahum-transcender",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21264-ol-mahum-transcender",
   "raw_html": "library/raw/lu4/npc/21264-ol-mahum-transcender.html",
   "stats": {
-    "Location": "Лес Разбойников (+1) Лес Разбойников Земли Орена"
+    "Respawn Time": "50 seconds",
+    "Location": "Лес Разбойников (+1) Лес Разбойников Земли Орена",
+    "HP / MP": "11 572 / 1 203",
+    "P. Atk. / M. Atk.": "802 / 428",
+    "P. Def. / M. Def.": "354 / 300",
+    "Accuracy / Evasion": "101 / 91",
+    "Exp / SP": "13 876 / 1 388",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (4x) Lv. 12",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 58"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21264",
-      "type": "npc",
-      "id": 21264,
-      "name": "Lu4",
-      "url": "/lu4/npc/21264-ol-mahum-transcender"
-    },
-    {
-      "key": "location:233",
-      "type": "location",
-      "id": 233,
-      "name": "Лес Разбойников",
-      "url": "/lu4/location/233-les-razbojnikov"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32361",
-      "type": "item",
-      "id": 32361,
-      "name": "Unidentified Stockings of Zubei B",
-      "url": "/lu4/item/32361-unidentified-stockings-of-zubei"
-    },
-    {
-      "key": "item:32358",
-      "type": "item",
-      "id": 32358,
-      "name": "Unidentified Avadon Leather Armor B",
-      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5550",
@@ -73,27 +49,6 @@
       "id": 5550,
       "name": "Durable Metal Plate NG",
       "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:4070",
-      "type": "item",
-      "id": 4070,
-      "name": "Stockings of Zubei Fabric NG",
-      "url": "/lu4/item/4070-stockings-of-zubei-fabric"
-    },
-    {
-      "key": "item:4068",
-      "type": "item",
-      "id": 4068,
-      "name": "Avadon Leather Armor Lining NG",
-      "url": "/lu4/item/4068-avadon-leather-armor-lining"
-    },
-    {
-      "key": "item:4051",
-      "type": "item",
-      "id": 4051,
-      "name": "Adamantite Necklace Chain NG",
-      "url": "/lu4/item/4051-adamantite-necklace-chain"
     },
     {
       "key": "item:4043",
@@ -131,6 +86,13 @@
       "url": "/lu4/item/1539-greater-healing-potion"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
       "key": "item:918",
       "type": "item",
       "id": 918,
@@ -138,11 +100,39 @@
       "url": "/lu4/item/918-adamantite-necklace"
     },
     {
-      "key": "item:57",
+      "key": "item:4051",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4051,
+      "name": "Adamantite Necklace Chain NG",
+      "url": "/lu4/item/4051-adamantite-necklace-chain"
+    },
+    {
+      "key": "item:32358",
+      "type": "item",
+      "id": 32358,
+      "name": "Unidentified Avadon Leather Armor B",
+      "url": "/lu4/item/32358-unidentified-avadon-leather-armor"
+    },
+    {
+      "key": "item:4068",
+      "type": "item",
+      "id": 4068,
+      "name": "Avadon Leather Armor Lining NG",
+      "url": "/lu4/item/4068-avadon-leather-armor-lining"
+    },
+    {
+      "key": "item:32361",
+      "type": "item",
+      "id": 32361,
+      "name": "Unidentified Stockings of Zubei B",
+      "url": "/lu4/item/32361-unidentified-stockings-of-zubei"
+    },
+    {
+      "key": "item:4070",
+      "type": "item",
+      "id": 4070,
+      "name": "Stockings of Zubei Fabric NG",
+      "url": "/lu4/item/4070-stockings-of-zubei-fabric"
     },
     {
       "key": "item:4966",
@@ -159,6 +149,13 @@
       "url": "/lu4/item/4962-recipe-zubeis-helmet-60"
     },
     {
+      "key": "item:4049",
+      "type": "item",
+      "id": 4049,
+      "name": "Adamantite Earring Gemstone NG",
+      "url": "/lu4/item/4049-adamantite-earring-gemstone"
+    },
+    {
       "key": "item:4065",
       "type": "item",
       "id": 4065,
@@ -171,13 +168,6 @@
       "id": 4057,
       "name": "Zubei's Gaiter Material NG",
       "url": "/lu4/item/4057-zubeis-gaiter-material"
-    },
-    {
-      "key": "item:4049",
-      "type": "item",
-      "id": 4049,
-      "name": "Adamantite Earring Gemstone NG",
-      "url": "/lu4/item/4049-adamantite-earring-gemstone"
     }
   ]
 }

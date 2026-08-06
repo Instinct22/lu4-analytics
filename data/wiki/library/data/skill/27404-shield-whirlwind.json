@@ -1,0 +1,38 @@
+{
+  "key": "skill:27404",
+  "type": "skill",
+  "id": 27404,
+  "name": "Shield Whirlwind",
+  "url": "/lu4/skill/27404-shield-whirlwind",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/27404-shield-whirlwind",
+  "raw_html": "library/raw/lu4/skill/27404-shield-whirlwind.html",
+  "stats": {
+    "Effect": "Inflicts physical damage. Power: 946. Applies to enemy: Speed -75% Atk. Spd. -75% Cast. Spd. -75%. Over-hit and Critical hit are possible. Minimal range: 200.",
+    "Consumes": "48 MP",
+    "Reuse Time": "30 seconds",
+    "Duration": "2 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_paralyze",
+    "Cast Range": "600 (900)",
+    "Available For": "Temple KnightLv. 52Shillien KnightLv. 52",
+    "Type": "Physical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:20",
+      "type": "class",
+      "id": 20,
+      "name": "Temple KnightLv. 52",
+      "url": "/lu4/class/20-templeknight"
+    },
+    {
+      "key": "class:33",
+      "type": "class",
+      "id": 33,
+      "name": "Shillien KnightLv. 52",
+      "url": "/lu4/class/33-shillienknight"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4971-raid-boss
+- Path: /lu4/skill/4971-raid-boss
+- Type: skill
+- Key: skill:4971
+
+## Stats
+- Effect: Originally a follower of Beleth under the leadership of Devil Kurikups, this Dark Mage was cursed by the Pirate King Zaken, who believed Kenishee lied to him that the Cruma Tower had secrets of immortality hidden inside. Instead of dying, he became a ghost - some say because of the Dark Arts he had studied so well.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability Originally a follower of Beleth under the leadership of Devil Kurikups, this Dark Mage was cursed by the Pirate King Zaken, who believed Kenishee lied to him that the Cruma Tower had secrets of immortality hidden inside. Instead of dying, he became a ghost - some say because of the Dark Arts he had studied so well. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

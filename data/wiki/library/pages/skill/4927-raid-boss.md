@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4927-raid-boss
+- Path: /lu4/skill/4927-raid-boss
+- Type: skill
+- Key: skill:4927
+
+## Stats
+- Effect: This Ratman Chief lives in Gludio Mountain and uses mercenary Bugbear Soldiers to plunder travelers passing through Gludio Castle. To stop the attacks, the lord of Gludio has offered a reward on his head. Despite Gludio's efforts, Sukar continues to harass wayfarers.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability This Ratman Chief lives in Gludio Mountain and uses mercenary Bugbear Soldiers to plunder travelers passing through Gludio Castle. To stop the attacks, the lord of Gludio has offered a reward on his head. Despite Gludio's efforts, Sukar continues to harass wayfarers. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

@@ -2,89 +2,128 @@
   "key": "npc:21289",
   "type": "npc",
   "id": 21289,
-  "name": "Lu4 Wiki: NPC Buffalo",
+  "name": "Buffalo",
   "url": "/lu4/npc/21289-buffalo",
-  "source_url": "https://masterwork.wiki/lu4/npc/21289-buffalo",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21289-buffalo",
   "raw_html": "library/raw/lu4/npc/21289-buffalo.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 862 / 1 642",
+    "P. Atk. / M. Atk.": "2 177 / 1 092",
+    "P. Def. / M. Def.": "405 / 357",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "9 857 / 977",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Slightly Weak M. Def. Lv. 9 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 6 Blunt Weapons Melee Attack Vulnerability Lv. 6 Renders target vulnerable to melee attacks.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 70"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21289",
-      "type": "npc",
-      "id": 21289,
-      "name": "Lu4",
-      "url": "/lu4/npc/21289-buffalo"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 6 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/6"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:5620",
       "type": "skill",
       "id": 5620,
-      "name": "Melee Attack Vulnerability Lv. 6 Renders target vulnerable to melee attacks.",
-      "url": "/lu4/skill/5620-melee-attack-vulnerability/6"
+      "name": "Melee Attack Vulnerability",
+      "url": "/lu4/skill/5620-melee-attack-vulnerability"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:5509",
+      "type": "item",
+      "id": 5509,
+      "name": "Sealed Tallum Gloves Design NG",
+      "url": "/lu4/item/5509-sealed-tallum-gloves-design"
+    },
+    {
+      "key": "item:5508",
+      "type": "item",
+      "id": 5508,
+      "name": "Sealed Dark Crystal Gloves Design NG",
+      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
+    },
+    {
+      "key": "item:5497",
+      "type": "item",
+      "id": 5497,
+      "name": "Sealed Tallum Boots Lining NG",
+      "url": "/lu4/item/5497-sealed-tallum-boots-lining"
+    },
+    {
+      "key": "item:5496",
+      "type": "item",
+      "id": 5496,
+      "name": "Sealed Dark Crystal Boots Lining NG",
+      "url": "/lu4/item/5496-sealed-dark-crystal-boots-lining"
     },
     {
       "key": "item:32378",
@@ -115,95 +154,11 @@
       "url": "/lu4/item/32372-unidentified-sealed-dark-crystal-gloves"
     },
     {
-      "key": "item:8614",
+      "key": "item:8600",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
-    },
-    {
-      "key": "item:8613",
-      "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
-    },
-    {
-      "key": "item:8612",
-      "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
-    },
-    {
-      "key": "item:8611",
-      "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
-    },
-    {
-      "key": "item:8610",
-      "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
-    },
-    {
-      "key": "item:8609",
-      "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
-    },
-    {
-      "key": "item:8608",
-      "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
+      "id": 8600,
+      "name": "Herb of Life NG",
+      "url": "/lu4/item/8600-herb-of-life"
     },
     {
       "key": "item:8601",
@@ -213,11 +168,74 @@
       "url": "/lu4/item/8601-greater-herb-of-life"
     },
     {
-      "key": "item:8600",
+      "key": "item:8602",
       "type": "item",
-      "id": 8600,
-      "name": "Herb of Life NG",
-      "url": "/lu4/item/8600-herb-of-life"
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
+    },
+    {
+      "key": "item:8607",
+      "type": "item",
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
+    },
+    {
+      "key": "item:8609",
+      "type": "item",
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
+    },
+    {
+      "key": "item:8603",
+      "type": "item",
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:8605",
+      "type": "item",
+      "id": 8605,
+      "name": "Superior Herb of Mana NG",
+      "url": "/lu4/item/8605-superior-herb-of-mana"
+    },
+    {
+      "key": "item:8606",
+      "type": "item",
+      "id": 8606,
+      "name": "Herb of Power NG",
+      "url": "/lu4/item/8606-herb-of-power"
+    },
+    {
+      "key": "item:8608",
+      "type": "item",
+      "id": 8608,
+      "name": "Herb of Alacrity NG",
+      "url": "/lu4/item/8608-herb-of-alacrity"
+    },
+    {
+      "key": "item:8610",
+      "type": "item",
+      "id": 8610,
+      "name": "Herb of Critical Attack - Probability NG",
+      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
     },
     {
       "key": "item:5549",
@@ -232,13 +250,6 @@
       "id": 6343,
       "name": "Sealed Phoenix Necklace Beads NG",
       "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
     }
   ]
 }

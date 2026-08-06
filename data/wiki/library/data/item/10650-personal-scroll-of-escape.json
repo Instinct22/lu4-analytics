@@ -2,29 +2,40 @@
   "key": "item:10650",
   "type": "item",
   "id": 10650,
-  "name": "Lu4 Wiki: Item Personal Scroll of Escape",
+  "name": "Personal Scroll of Escape",
   "url": "/lu4/item/10650-personal-scroll-of-escape",
-  "source_url": "https://masterwork.wiki/lu4/item/10650-personal-scroll-of-escape",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/10650-personal-scroll-of-escape",
   "raw_html": "library/raw/lu4/item/10650-personal-scroll-of-escape.html",
   "stats": {
+    "Effect": "Magic scroll that moves you to the nearest village.",
+    "Weight": "120",
     "Item Skills": "Adventurer's Scroll of Escape Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Scroll"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:10650",
-      "type": "item",
-      "id": 10650,
-      "name": "Lu4",
-      "url": "/lu4/item/10650-personal-scroll-of-escape"
-    },
-    {
       "key": "skill:2531",
       "type": "skill",
       "id": 2531,
-      "name": "Adventurer's Scroll of Escape Lv. 1",
-      "url": "/lu4/skill/2531-adventurers-scroll-of-escape/1"
+      "name": "Adventurer's Scroll of Escape",
+      "url": "/lu4/skill/2531-adventurers-scroll-of-escape"
+    },
+    {
+      "key": "item:39983",
+      "type": "item",
+      "id": 39983,
+      "name": "Referral Reward Box lvl.20 NG",
+      "url": "/lu4/item/39983-referral-reward-box-lvl20"
+    },
+    {
+      "key": "item:39984",
+      "type": "item",
+      "id": 39984,
+      "name": "Referral Reward Box lvl.40 NG",
+      "url": "/lu4/item/39984-referral-reward-box-lvl40"
     }
   ]
 }

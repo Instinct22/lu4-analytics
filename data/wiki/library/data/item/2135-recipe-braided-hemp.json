@@ -2,34 +2,24 @@
   "key": "item:2135",
   "type": "item",
   "id": 2135,
-  "name": "Recipe",
+  "name": "Recipe: Braided Hemp",
   "url": "/lu4/item/2135-recipe-braided-hemp",
-  "source_url": "https://masterwork.wiki/lu4/item/2135-recipe-braided-hemp",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2135-recipe-braided-hemp",
   "raw_html": "library/raw/lu4/item/2135-recipe-braided-hemp.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Braided Hemp'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "340 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "10",
     "Success Rate": "100%",
-    "Result": "Braided Hemp NG"
+    "Result": "Braided Hemp NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "5"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2135",
-      "type": "item",
-      "id": 2135,
-      "name": "Lu4",
-      "url": "/lu4/item/2135-recipe-braided-hemp"
-    },
     {
       "key": "item:1864",
       "type": "item",
@@ -48,21 +38,21 @@
       "key": "npc:20470",
       "type": "npc",
       "id": 20470,
-      "name": "Kaboo Orc Grunt Lv. 7",
+      "name": "Kaboo Orc Grunt",
       "url": "/lu4/npc/20470-kaboo-orc-grunt"
     },
     {
       "key": "npc:20450",
       "type": "npc",
       "id": 20450,
-      "name": "Relic Werewolf Lv. 9",
+      "name": "Relic Werewolf",
       "url": "/lu4/npc/20450-relic-werewolf"
     },
     {
       "key": "npc:20326",
       "type": "npc",
       "id": 20326,
-      "name": "Goblin Scout Lv. 8",
+      "name": "Goblin Scout",
       "url": "/lu4/npc/20326-goblin-scout"
     }
   ]

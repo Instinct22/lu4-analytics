@@ -1,107 +1,17 @@
-# Lu4 Wiki: Item Earring of Wisdom
+# Earring of Wisdom
 
-- Source: https://masterwork.wiki/lu4/item/115-earring-of-wisdom
+- Source: https://masterwork.wiki/lu4-b-w-c/item/115-earring-of-wisdom
 - Path: /lu4/item/115-earring-of-wisdom
 - Type: item
 - Key: item:115
 
 ## Stats
+- M. Def.: 16
+- NPC Sell Price: 1 350 Adena
+- Weight: 150
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Accessory / Earring
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Earring of Wisdom
-Lu4
-Eternal
-MasterWork
-Earring of Wisdom
-NG
-Accessory / Earring
-M. Def.
-16
-NPC Sell Price
-1 350 Adena
-Weight
-150
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Drop
-Spoil
-NPC
-Amount
-Chance
-Obsidian Golem
-Lv. 15
-1
-0.350594%
-Evil Eye Patroller
-Lv. 14
-1
-0.300197%
-Blood Fungus
-Lv. 12
-1
-0.281603%
-Stone Soldier
-Lv. 14
-1
-0.337396%
-Stone Giant
-Lv. 13
-1
-0.271386%
-Crasher
-Lv. 14
-1
-0.337374%
-NPC
-Amount
-Chance
-Will-O-Wisp
-Lv. 15
-1
-2.106200%
-MasterWork 2026
-All rights reserved
+Earring of Wisdom NG Accessory / Earring M. Def. 16 NPC Sell Price 1 350 Adena Weight 150 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

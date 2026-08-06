@@ -2,42 +2,38 @@
   "key": "npc:35419",
   "type": "npc",
   "id": 35419,
-  "name": "Lu4 Wiki: NPC Hephaeston",
+  "name": "Hephaeston",
   "url": "/lu4/npc/35419-hephaeston",
-  "source_url": "https://masterwork.wiki/lu4/npc/35419-hephaeston",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/35419-hephaeston",
   "raw_html": "library/raw/lu4/npc/35419-hephaeston.html",
   "stats": {
-    "Location": "Поле Брани"
+    "Respawn Time": "1 minute",
+    "Location": "Поле Брани",
+    "HP / MP": "350 000 / 49",
+    "P. Atk. / M. Atk.": "4 / 3",
+    "P. Def. / M. Def.": "46 / 30",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "0 / 2",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Resist Full Magic Attack Lv. 1",
+    "Type": "Undead, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:35419",
-      "type": "npc",
-      "id": 35419,
-      "name": "Lu4",
-      "url": "/lu4/npc/35419-hephaeston"
-    },
-    {
-      "key": "location:188",
-      "type": "location",
-      "id": 188,
-      "name": "Поле Брани",
-      "url": "/lu4/location/188-pole-brani"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

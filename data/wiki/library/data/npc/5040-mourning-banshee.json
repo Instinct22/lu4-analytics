@@ -2,189 +2,95 @@
   "key": "npc:5040",
   "type": "npc",
   "id": 5040,
-  "name": "Lu4 Wiki: NPC Mourning Banshee",
+  "name": "Mourning Banshee",
   "url": "/lu4/npc/5040-mourning-banshee",
-  "source_url": "https://masterwork.wiki/lu4/npc/5040-mourning-banshee",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5040-mourning-banshee",
   "raw_html": "library/raw/lu4/npc/5040-mourning-banshee.html",
   "stats": {
-    "Location": "Древнее Поле Битвы (+1) Древнее Поле Битвы Земли Адена"
+    "Respawn Time": "3 minutes, 40 seconds ± 10 seconds",
+    "Location": "Древнее Поле Битвы (+1) Древнее Поле Битвы Земли Адена",
+    "HP / MP": "25 738 / 1 110",
+    "P. Atk. / M. Atk.": "2 205 / 2 838",
+    "P. Def. / M. Def.": "712 / 675",
+    "Accuracy / Evasion": "109 / 109",
+    "Exp / SP": "55 871 / 5 587",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 15 Very Strong M. Atk. Lv. 16 Strong P. Def. Lv. 14 Strong M. Def. Lv. 15 Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 73"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5040",
-      "type": "npc",
-      "id": 5040,
-      "name": "Lu4",
-      "url": "/lu4/npc/5040-mourning-banshee"
-    },
-    {
-      "key": "location:96",
-      "type": "location",
-      "id": 96,
-      "name": "Древнее Поле Битвы",
-      "url": "/lu4/location/96-drevnee-pole-bitvy"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Very Strong M. Atk. Lv. 16",
-      "url": "/lu4/skill/4411-very-strong-m-atk/16"
+      "name": "Very Strong M. Atk.",
+      "url": "/lu4/skill/4411-very-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 15",
-      "url": "/lu4/skill/4413-strong-m-def/15"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32388",
-      "type": "item",
-      "id": 32388,
-      "name": "Unidentified Sealed Boots of Nightmare A",
-      "url": "/lu4/item/32388-unidentified-sealed-boots-of-nightmare"
-    },
-    {
-      "key": "item:32386",
-      "type": "item",
-      "id": 32386,
-      "name": "Unidentified Sealed Helm of Nightmare A",
-      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
-    },
-    {
-      "key": "item:32385",
-      "type": "item",
-      "id": 32385,
-      "name": "Unidentified Sealed Armor of Nightmare A",
-      "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
-    },
-    {
-      "key": "item:8316",
-      "type": "item",
-      "id": 8316,
-      "name": "Recipe: Flaming Dragon Skull (60%) NG",
-      "url": "/lu4/item/8316-recipe-flaming-dragon-skull-60"
-    },
-    {
-      "key": "item:6335",
-      "type": "item",
-      "id": 6335,
-      "name": "Recipe: Sealed Majestic Necklace(70%) NG",
-      "url": "/lu4/item/6335-recipe-sealed-majestic-necklace70"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:5527",
-      "type": "item",
-      "id": 5527,
-      "name": "Sealed Helm of Nightmare Design NG",
-      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
-    },
-    {
-      "key": "item:5522",
-      "type": "item",
-      "id": 5522,
-      "name": "Sealed Armor of Nightmare Pattern NG",
-      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
-    },
-    {
-      "key": "item:5502",
-      "type": "item",
-      "id": 5502,
-      "name": "Sealed Boots of Nightmare Lining NG",
-      "url": "/lu4/item/5502-sealed-boots-of-nightmare-lining"
-    },
-    {
-      "key": "item:5352",
-      "type": "item",
-      "id": 5352,
-      "name": "Recipe: Sealed Majestic Robe(60%) NG",
-      "url": "/lu4/item/5352-recipe-sealed-majestic-robe60"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4044",
@@ -215,6 +121,13 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
       "key": "item:730",
       "type": "item",
       "id": 730,
@@ -222,18 +135,95 @@
       "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:32385",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32385,
+      "name": "Unidentified Sealed Armor of Nightmare A",
+      "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
     },
     {
-      "key": "item:8349",
+      "key": "item:5522",
       "type": "item",
-      "id": 8349,
-      "name": "Doom Crusher Head NG",
-      "url": "/lu4/item/8349-doom-crusher-head"
+      "id": 5522,
+      "name": "Sealed Armor of Nightmare Pattern NG",
+      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
+    },
+    {
+      "key": "item:32388",
+      "type": "item",
+      "id": 32388,
+      "name": "Unidentified Sealed Boots of Nightmare A",
+      "url": "/lu4/item/32388-unidentified-sealed-boots-of-nightmare"
+    },
+    {
+      "key": "item:5502",
+      "type": "item",
+      "id": 5502,
+      "name": "Sealed Boots of Nightmare Lining NG",
+      "url": "/lu4/item/5502-sealed-boots-of-nightmare-lining"
+    },
+    {
+      "key": "item:32386",
+      "type": "item",
+      "id": 32386,
+      "name": "Unidentified Sealed Helm of Nightmare A",
+      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
+    },
+    {
+      "key": "item:5527",
+      "type": "item",
+      "id": 5527,
+      "name": "Sealed Helm of Nightmare Design NG",
+      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
+    },
+    {
+      "key": "item:8316",
+      "type": "item",
+      "id": 8316,
+      "name": "Recipe: Flaming Dragon Skull (60%) NG",
+      "url": "/lu4/item/8316-recipe-flaming-dragon-skull-60"
+    },
+    {
+      "key": "item:6335",
+      "type": "item",
+      "id": 6335,
+      "name": "Recipe: Sealed Majestic Necklace(70%) NG",
+      "url": "/lu4/item/6335-recipe-sealed-majestic-necklace70"
+    },
+    {
+      "key": "item:5352",
+      "type": "item",
+      "id": 5352,
+      "name": "Recipe: Sealed Majestic Robe(60%) NG",
+      "url": "/lu4/item/5352-recipe-sealed-majestic-robe60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:5464",
+      "type": "item",
+      "id": 5464,
+      "name": "Recipe: Dark Legion's Edge(60%) NG",
+      "url": "/lu4/item/5464-recipe-dark-legions-edge60"
     },
     {
       "key": "item:6339",
@@ -241,6 +231,13 @@
       "id": 6339,
       "name": "Recipe: Sealed Majestic Ring(70%) NG",
       "url": "/lu4/item/6339-recipe-sealed-majestic-ring70"
+    },
+    {
+      "key": "item:8349",
+      "type": "item",
+      "id": 8349,
+      "name": "Doom Crusher Head NG",
+      "url": "/lu4/item/8349-doom-crusher-head"
     },
     {
       "key": "item:5546",
@@ -255,13 +252,6 @@
       "id": 5544,
       "name": "Branch of the Mother Tree Head NG",
       "url": "/lu4/item/5544-branch-of-the-mother-tree-head"
-    },
-    {
-      "key": "item:5464",
-      "type": "item",
-      "id": 5464,
-      "name": "Recipe: Dark Legion's Edge(60%) NG",
-      "url": "/lu4/item/5464-recipe-dark-legions-edge60"
     }
   ]
 }

@@ -2,30 +2,31 @@
   "key": "item:15",
   "type": "item",
   "id": 15,
-  "name": "Lu4 Wiki: Item Short Spear",
+  "name": "Short Spear",
   "url": "/lu4/item/15-short-spear",
-  "source_url": "https://masterwork.wiki/lu4/item/15-short-spear",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/15-short-spear",
   "raw_html": "library/raw/lu4/item/15-short-spear.html",
   "stats": {
+    "P. Atk. / M. Atk.": "24 / 17",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "NPC Sell Price": "52 500 Adena",
+    "Weight": "2140",
+    "P. Crit. Rate.": "8",
+    "Accuracy": "-4",
     "Item Skills": "Polearm Multi-Attack Lv. 1",
     "Recipes": "Recipe: Short Spear NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Weapon / Polearm / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:15",
-      "type": "item",
-      "id": 15,
-      "name": "Lu4",
-      "url": "/lu4/item/15-short-spear"
-    },
-    {
       "key": "skill:3599",
       "type": "skill",
       "id": 3599,
-      "name": "Polearm Multi-Attack Lv. 1",
-      "url": "/lu4/skill/3599-polearm-multi-attack/1"
+      "name": "Polearm Multi-Attack",
+      "url": "/lu4/skill/3599-polearm-multi-attack"
     },
     {
       "key": "item:1792",
@@ -38,56 +39,56 @@
       "key": "npc:34643",
       "type": "npc",
       "id": 34643,
-      "name": "Dangerous Wild Beast Lv. 20",
+      "name": "Dangerous Wild Beast",
       "url": "/lu4/npc/34643-dangerous-wild-beast"
     },
     {
       "key": "npc:21125",
       "type": "npc",
       "id": 21125,
-      "name": "Northern Trimden Lv. 19",
+      "name": "Northern Trimden",
       "url": "/lu4/npc/21125-northern-trimden"
     },
     {
       "key": "npc:20775",
       "type": "npc",
       "id": 20775,
-      "name": "Bugbear Raider Lv. 17",
+      "name": "Bugbear Raider",
       "url": "/lu4/npc/20775-bugbear-raider"
     },
     {
       "key": "npc:20515",
       "type": "npc",
       "id": 20515,
-      "name": "Skeleton Infantryman Lv. 16",
+      "name": "Skeleton Infantryman",
       "url": "/lu4/npc/20515-skeleton-infantryman"
     },
     {
       "key": "npc:20457",
       "type": "npc",
       "id": 20457,
-      "name": "Zombie Soldier Lv. 19",
+      "name": "Zombie Soldier",
       "url": "/lu4/npc/20457-zombie-soldier"
     },
     {
       "key": "npc:20105",
       "type": "npc",
       "id": 20105,
-      "name": "Dark Horror Lv. 16",
+      "name": "Dark Horror",
       "url": "/lu4/npc/20105-dark-horror"
     },
     {
       "key": "npc:20050",
       "type": "npc",
       "id": 20050,
-      "name": "Arachnid Predator Lv. 20",
+      "name": "Arachnid Predator",
       "url": "/lu4/npc/20050-arachnid-predator"
     },
     {
       "key": "npc:20029",
       "type": "npc",
       "id": 20029,
-      "name": "Ruin Zombie Leader Lv. 16",
+      "name": "Ruin Zombie Leader",
       "url": "/lu4/npc/20029-ruin-zombie-leader"
     }
   ]

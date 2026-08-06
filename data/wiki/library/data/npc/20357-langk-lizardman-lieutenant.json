@@ -2,77 +2,74 @@
   "key": "npc:20357",
   "type": "npc",
   "id": 20357,
-  "name": "Lu4 Wiki: NPC Langk Lizardman Lieutenant",
+  "name": "Langk Lizardman Lieutenant",
   "url": "/lu4/npc/20357-langk-lizardman-lieutenant",
-  "source_url": "https://masterwork.wiki/lu4/npc/20357-langk-lizardman-lieutenant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20357-langk-lizardman-lieutenant",
   "raw_html": "library/raw/lu4/npc/20357-langk-lizardman-lieutenant.html",
   "stats": {
-    "Location": "Поселение Ящеров Лангк (+2) Поселение Ящеров Лангк Подножье Горы Земли Глудио"
+    "Respawn Time": "25 seconds",
+    "Location": "Поселение Ящеров Лангк (+2) Поселение Ящеров Лангк Подножье Горы Земли Глудио",
+    "HP / MP": "1 245 / 269",
+    "P. Atk. / M. Atk.": "63 / 35",
+    "P. Def. / M. Def.": "121 / 106",
+    "Accuracy / Evasion": "58 / 57",
+    "Exp / SP": "1 222 / 122",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 13",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 22"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20357",
-      "type": "npc",
-      "id": 20357,
-      "name": "Lu4",
-      "url": "/lu4/npc/20357-langk-lizardman-lieutenant"
-    },
-    {
-      "key": "location:23",
-      "type": "location",
-      "id": 23,
-      "name": "Поселение Ящеров Лангк",
-      "url": "/lu4/location/23-poselenie-aserov-langk"
-    },
-    {
-      "key": "location:24",
-      "type": "location",
-      "id": 24,
-      "name": "Подножье Горы",
-      "url": "/lu4/location/24-podnoze-gory"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:68",
+      "type": "item",
+      "id": 68,
+      "name": "Falchion NG",
+      "url": "/lu4/item/68-falchion"
     },
     {
       "key": "item:5284",
@@ -82,18 +79,11 @@
       "url": "/lu4/item/5284-zweihander"
     },
     {
-      "key": "item:1899",
+      "key": "item:1864",
       "type": "item",
-      "id": 1899,
-      "name": "Necklace of Devotion Chain NG",
-      "url": "/lu4/item/1899-necklace-of-devotion-chain"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     },
     {
       "key": "item:1869",
@@ -103,18 +93,11 @@
       "url": "/lu4/item/1869-iron-ore"
     },
     {
-      "key": "item:1864",
+      "key": "item:1880",
       "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:910",
-      "type": "item",
-      "id": 910,
-      "name": "Necklace of Devotion D",
-      "url": "/lu4/item/910-necklace-of-devotion"
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
     },
     {
       "key": "item:626",
@@ -131,25 +114,25 @@
       "url": "/lu4/item/166-heavy-mace"
     },
     {
-      "key": "item:68",
+      "key": "item:910",
       "type": "item",
-      "id": 68,
-      "name": "Falchion NG",
-      "url": "/lu4/item/68-falchion"
+      "id": 910,
+      "name": "Necklace of Devotion D",
+      "url": "/lu4/item/910-necklace-of-devotion"
     },
     {
-      "key": "item:57",
+      "key": "item:1899",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1899,
+      "name": "Necklace of Devotion Chain NG",
+      "url": "/lu4/item/1899-necklace-of-devotion-chain"
     },
     {
-      "key": "item:1926",
+      "key": "item:1804",
       "type": "item",
-      "id": 1926,
-      "name": "Piece Bone Breastplate Fragment NG",
-      "url": "/lu4/item/1926-piece-bone-breastplate-fragment"
+      "id": 1804,
+      "name": "Recipe: Soulshot (D-Grade) NG",
+      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
     },
     {
       "key": "item:1898",
@@ -159,11 +142,11 @@
       "url": "/lu4/item/1898-blue-diamond-necklace-gem"
     },
     {
-      "key": "item:1804",
+      "key": "item:1926",
       "type": "item",
-      "id": 1804,
-      "name": "Recipe: Soulshot (D-Grade) NG",
-      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
+      "id": 1926,
+      "name": "Piece Bone Breastplate Fragment NG",
+      "url": "/lu4/item/1926-piece-bone-breastplate-fragment"
     }
   ]
 }

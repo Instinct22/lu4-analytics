@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4848-raid-boss
+- Path: /lu4/skill/4848-raid-boss
+- Type: skill
+- Key: skill:4848
+
+## Stats
+- Effect: Once the ruler of the Selu Orc tribe, he went mad after a dangerous experimental summoning spell he created failed disastrously. Calling himself the Shaman King, he left the tribe's village and, with a group of equally insane followers, preys on hapless travelers. He has some M. Skills, but habitually overestimates his ability.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability Once the ruler of the Selu Orc tribe, he went mad after a dangerous experimental summoning spell he created failed disastrously. Calling himself the Shaman King, he left the tribe's village and, with a group of equally insane followers, preys on hapless travelers. He has some M. Skills, but habitually overestimates his ability. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

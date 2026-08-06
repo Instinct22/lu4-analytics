@@ -2,27 +2,25 @@
   "key": "item:4921",
   "type": "item",
   "id": 4921,
-  "name": "Lu4 Wiki: Item Blueprint: Summon Big Boom",
+  "name": "Blueprint: Summon Big Boom",
   "url": "/lu4/item/4921-blueprint-summon-big-boom",
-  "source_url": "https://masterwork.wiki/lu4/item/4921-blueprint-summon-big-boom",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/4921-blueprint-summon-big-boom",
   "raw_html": "library/raw/lu4/item/4921-blueprint-summon-big-boom.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Blueprint needed to learn 'Summon Big Boom'. Required: Warsmith - Lv. 58 To obtain this item, hunt the Freshgrave Walker found in The cemetery.",
+    "NPC Sell Price": "3 375 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:4921",
-      "type": "item",
-      "id": 4921,
-      "name": "Lu4",
-      "url": "/lu4/item/4921-blueprint-summon-big-boom"
-    },
-    {
       "key": "npc:5015",
       "type": "npc",
       "id": 5015,
-      "name": "Freshgrave Walker Lv. 56",
+      "name": "Freshgrave Walker",
       "url": "/lu4/npc/5015-freshgrave-walker"
     }
   ]

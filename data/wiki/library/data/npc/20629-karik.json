@@ -2,140 +2,81 @@
   "key": "npc:20629",
   "type": "npc",
   "id": 20629,
-  "name": "Lu4 Wiki: NPC Karik",
+  "name": "Karik",
   "url": "/lu4/npc/20629-karik",
-  "source_url": "https://masterwork.wiki/lu4/npc/20629-karik",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20629-karik",
   "raw_html": "library/raw/lu4/npc/20629-karik.html",
   "stats": {
-    "Location": "Логово Антараса"
+    "Respawn Time": "3 minutes, 20 seconds ± 20 seconds",
+    "Location": "Логово Антараса",
+    "HP / MP": "21 330 / 1 814",
+    "P. Atk. / M. Atk.": "2 134 / 741",
+    "P. Def. / M. Def.": "685 / 467",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "39 076 / 3 908",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 5, Unholy 40",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 16 Strong P. Def. Lv. 15 Slightly Strong M. Def. Lv. 13 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 65"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20629",
-      "type": "npc",
-      "id": 20629,
-      "name": "Lu4",
-      "url": "/lu4/npc/20629-karik"
-    },
-    {
-      "key": "location:45",
-      "type": "location",
-      "id": 45,
-      "name": "Логово Антараса",
-      "url": "/lu4/location/45-logovo-antarasa"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:32359",
-      "type": "item",
-      "id": 32359,
-      "name": "Unidentified Blue Wolf Leather Armor B",
-      "url": "/lu4/item/32359-unidentified-blue-wolf-leather-armor"
-    },
-    {
-      "key": "item:32355",
-      "type": "item",
-      "id": 32355,
-      "name": "Unidentified Doom Plate Armor B",
-      "url": "/lu4/item/32355-unidentified-doom-plate-armor"
-    },
-    {
-      "key": "item:32354",
-      "type": "item",
-      "id": 32354,
-      "name": "Unidentified Blue Wolf Gaiters B",
-      "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
-    },
-    {
-      "key": "item:4082",
-      "type": "item",
-      "id": 4082,
-      "name": "Blue Wolf Leather Armor Texture NG",
-      "url": "/lu4/item/4082-blue-wolf-leather-armor-texture"
-    },
-    {
-      "key": "item:4081",
-      "type": "item",
-      "id": 4081,
-      "name": "Doom Plate Armor Temper NG",
-      "url": "/lu4/item/4081-doom-plate-armor-temper"
-    },
-    {
-      "key": "item:4080",
-      "type": "item",
-      "id": 4080,
-      "name": "Blue Wolf Gaiters Material NG",
-      "url": "/lu4/item/4080-blue-wolf-gaiters-material"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -173,18 +114,74 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:32354",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32354,
+      "name": "Unidentified Blue Wolf Gaiters B",
+      "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
     },
     {
-      "key": "item:8330",
+      "key": "item:4080",
       "type": "item",
-      "id": 8330,
-      "name": "Guardian Sword Blade NG",
-      "url": "/lu4/item/8330-guardian-sword-blade"
+      "id": 4080,
+      "name": "Blue Wolf Gaiters Material NG",
+      "url": "/lu4/item/4080-blue-wolf-gaiters-material"
+    },
+    {
+      "key": "item:32355",
+      "type": "item",
+      "id": 32355,
+      "name": "Unidentified Doom Plate Armor B",
+      "url": "/lu4/item/32355-unidentified-doom-plate-armor"
+    },
+    {
+      "key": "item:4081",
+      "type": "item",
+      "id": 4081,
+      "name": "Doom Plate Armor Temper NG",
+      "url": "/lu4/item/4081-doom-plate-armor-temper"
+    },
+    {
+      "key": "item:32359",
+      "type": "item",
+      "id": 32359,
+      "name": "Unidentified Blue Wolf Leather Armor B",
+      "url": "/lu4/item/32359-unidentified-blue-wolf-leather-armor"
+    },
+    {
+      "key": "item:4082",
+      "type": "item",
+      "id": 4082,
+      "name": "Blue Wolf Leather Armor Texture NG",
+      "url": "/lu4/item/4082-blue-wolf-leather-armor-texture"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:948",
+      "type": "item",
+      "id": 948,
+      "name": "Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
       "key": "item:4992",
@@ -194,13 +191,6 @@
       "url": "/lu4/item/4992-recipe-sealed-blue-wolf-boots-60"
     },
     {
-      "key": "item:4114",
-      "type": "item",
-      "id": 4114,
-      "name": "Sword of Damascus Blade NG",
-      "url": "/lu4/item/4114-sword-of-damascus-blade"
-    },
-    {
       "key": "item:4091",
       "type": "item",
       "id": 4091,
@@ -208,11 +198,18 @@
       "url": "/lu4/item/4091-sealed-doom-gloves-part"
     },
     {
-      "key": "item:948",
+      "key": "item:8330",
       "type": "item",
-      "id": 948,
-      "name": "Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
+      "id": 8330,
+      "name": "Guardian Sword Blade NG",
+      "url": "/lu4/item/8330-guardian-sword-blade"
+    },
+    {
+      "key": "item:4114",
+      "type": "item",
+      "id": 4114,
+      "name": "Sword of Damascus Blade NG",
+      "url": "/lu4/item/4114-sword-of-damascus-blade"
     }
   ]
 }

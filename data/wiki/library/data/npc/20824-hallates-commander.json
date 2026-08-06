@@ -2,140 +2,88 @@
   "key": "npc:20824",
   "type": "npc",
   "id": 20824,
-  "name": "Lu4 Wiki: NPC Hallate's Commander",
+  "name": "Hallate's Commander",
   "url": "/lu4/npc/20824-hallates-commander",
-  "source_url": "https://masterwork.wiki/lu4/npc/20824-hallates-commander",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20824-hallates-commander",
   "raw_html": "library/raw/lu4/npc/20824-hallates-commander.html",
   "stats": {
-    "Location": "Башня Дерзости: 5-й этаж"
+    "Respawn Time": "3 minutes, 20 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 5-й этаж",
+    "HP / MP": "22 562 / 1 541",
+    "P. Atk. / M. Atk.": "2 317 / 795",
+    "P. Def. / M. Def.": "753 / 486",
+    "Accuracy / Evasion": "100 / 100",
+    "Exp / SP": "45 492 / 4 549",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 16 Strong M. Def. Lv. 14 Strong P. Def. Lv. 15 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Greater Hold Resistance Lv. 2 Highly resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 67"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20824",
-      "type": "npc",
-      "id": 20824,
-      "name": "Lu4",
-      "url": "/lu4/npc/20824-hallates-commander"
-    },
-    {
-      "key": "location:88",
-      "type": "location",
-      "id": 88,
-      "name": "Башня Дерзости: 5-й этаж",
-      "url": "/lu4/location/88-basna-derzosti-5-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 2 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/2"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39290",
-      "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32323",
-      "type": "item",
-      "id": 32323,
-      "name": "Unidentified Tallum Blade A",
-      "url": "/lu4/item/32323-unidentified-tallum-blade"
-    },
-    {
-      "key": "item:6345",
-      "type": "item",
-      "id": 6345,
-      "name": "Sealed Phoenix Ring Gemstone NG",
-      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
-    },
-    {
-      "key": "item:6325",
-      "type": "item",
-      "id": 6325,
-      "name": "Sealed Phoenix Ring A",
-      "url": "/lu4/item/6325-sealed-phoenix-ring"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6036",
@@ -143,13 +91,6 @@
       "id": 6036,
       "name": "Greater Magic Haste Potion NG",
       "url": "/lu4/item/6036-greater-magic-haste-potion"
-    },
-    {
-      "key": "item:5548",
-      "type": "item",
-      "id": 5548,
-      "name": "Tallum Blade Edge NG",
-      "url": "/lu4/item/5548-tallum-blade-edge"
     },
     {
       "key": "item:4043",
@@ -187,11 +128,74 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:39290",
+      "type": "item",
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
+    },
+    {
+      "key": "item:6325",
+      "type": "item",
+      "id": 6325,
+      "name": "Sealed Phoenix Ring A",
+      "url": "/lu4/item/6325-sealed-phoenix-ring"
+    },
+    {
+      "key": "item:6345",
+      "type": "item",
+      "id": 6345,
+      "name": "Sealed Phoenix Ring Gemstone NG",
+      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
+    },
+    {
+      "key": "item:32323",
+      "type": "item",
+      "id": 32323,
+      "name": "Unidentified Tallum Blade A",
+      "url": "/lu4/item/32323-unidentified-tallum-blade"
+    },
+    {
+      "key": "item:5548",
+      "type": "item",
+      "id": 5548,
+      "name": "Tallum Blade Edge NG",
+      "url": "/lu4/item/5548-tallum-blade-edge"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:6570",
+      "type": "item",
+      "id": 6570,
+      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
+      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
     },
     {
       "key": "item:8300",
@@ -201,11 +205,11 @@
       "url": "/lu4/item/8300-recipe-infernal-master-60"
     },
     {
-      "key": "item:6570",
+      "key": "item:5334",
       "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
+      "id": 5334,
+      "name": "Recipe: Sealed Tallum Leather Armor(60%) NG",
+      "url": "/lu4/item/5334-recipe-sealed-tallum-leather-armor60"
     },
     {
       "key": "item:5524",
@@ -220,13 +224,6 @@
       "id": 5482,
       "name": "Sealed Dark Crystal Leggings Design NG",
       "url": "/lu4/item/5482-sealed-dark-crystal-leggings-design"
-    },
-    {
-      "key": "item:5334",
-      "type": "item",
-      "id": 5334,
-      "name": "Recipe: Sealed Tallum Leather Armor(60%) NG",
-      "url": "/lu4/item/5334-recipe-sealed-tallum-leather-armor60"
     }
   ]
 }

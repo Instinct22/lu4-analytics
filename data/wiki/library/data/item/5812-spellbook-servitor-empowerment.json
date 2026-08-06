@@ -2,34 +2,32 @@
   "key": "item:5812",
   "type": "item",
   "id": 5812,
-  "name": "Lu4 Wiki: Item Spellbook: Servitor Empowerment",
+  "name": "Spellbook: Servitor Empowerment",
   "url": "/lu4/item/5812-spellbook-servitor-empowerment",
-  "source_url": "https://masterwork.wiki/lu4/item/5812-spellbook-servitor-empowerment",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5812-spellbook-servitor-empowerment",
   "raw_html": "library/raw/lu4/item/5812-spellbook-servitor-empowerment.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Servitor Empowerment'. Required: Warlock - Lv. 52 Elemental Summoner - Lv. 52 Phantom Summoner - Lv. 52 To obtain this item, hunt the Sanhidro found in Skyshadow Meadow.",
+    "NPC Sell Price": "2 700 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:5812",
-      "type": "item",
-      "id": 5812,
-      "name": "Lu4",
-      "url": "/lu4/item/5812-spellbook-servitor-empowerment"
-    },
-    {
       "key": "npc:21219",
       "type": "npc",
       "id": 21219,
-      "name": "Vault Priest Lv. 47",
+      "name": "Vault Priest",
       "url": "/lu4/npc/21219-vault-priest"
     },
     {
       "key": "npc:20946",
       "type": "npc",
       "id": 20946,
-      "name": "Sanhidro Lv. 52",
+      "name": "Sanhidro",
       "url": "/lu4/npc/20946-sanhidro"
     }
   ]

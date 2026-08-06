@@ -1,72 +1,17 @@
-# Lu4 Wiki: Item Spellbook: Summon Mew the Cat
+# Spellbook: Summon Mew the Cat
 
-- Source: https://masterwork.wiki/lu4/item/1668-spellbook-summon-mew-the-cat
+- Source: https://masterwork.wiki/lu4-b-w-c/item/1668-spellbook-summon-mew-the-cat
 - Path: /lu4/item/1668-spellbook-summon-mew-the-cat
 - Type: item
 - Key: item:1668
 
 ## Stats
+- Effect: Spellbook needed to learn 'Summon Mew the Cat'. Required: Human Wizard - Lv. 20
+- NPC Sell Price: 625 Adena
+- Weight: 120
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Other / Spellbook
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Spellbook: Summon Mew the Cat
-Lu4
-Eternal
-MasterWork
-Spellbook: Summon Mew the Cat
-NG
-Other / Spellbook
-Spellbook needed to learn 'Summon Mew the Cat'.
-Required:
-Human Wizard - Lv. 20
-NPC Sell Price
-625 Adena
-Weight
-120
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-MasterWork 2026
-All rights reserved
+Spellbook: Summon Mew the Cat NG Other / Spellbook Spellbook needed to learn 'Summon Mew the Cat'. Required: Human Wizard - Lv. 20 NPC Sell Price 625 Adena Weight 120 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

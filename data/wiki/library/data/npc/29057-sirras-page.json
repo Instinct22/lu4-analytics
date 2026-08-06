@@ -2,47 +2,50 @@
   "key": "npc:29057",
   "type": "npc",
   "id": 29057,
-  "name": "Lu4 Wiki: NPC Sirra's Page",
+  "name": "Sirra's Page",
   "url": "/lu4/npc/29057-sirras-page",
-  "source_url": "https://masterwork.wiki/lu4/npc/29057-sirras-page",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/29057-sirras-page",
   "raw_html": "library/raw/lu4/npc/29057-sirras-page.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "12 212 / 841",
+    "P. Atk. / M. Atk.": "3 511 / 3 436",
+    "P. Def. / M. Def.": "24 / 31",
+    "Accuracy / Evasion": "87 / 107",
+    "Exp / SP": "0 / 2",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Water Resistance Lv. 5 Resistant to Water attacks. Resist Full Magic Attack Lv. 1",
+    "Type": "Elemental, Lv. 59"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:29057",
-      "type": "npc",
-      "id": 29057,
-      "name": "Lu4",
-      "url": "/lu4/npc/29057-sirras-page"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4010",
       "type": "skill",
       "id": 4010,
-      "name": "Water Resistance Lv. 5 Resistant to Water attacks.",
-      "url": "/lu4/skill/4010-water-resistance/5"
+      "name": "Water Resistance",
+      "url": "/lu4/skill/4010-water-resistance"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

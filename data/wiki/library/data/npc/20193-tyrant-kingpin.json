@@ -2,119 +2,67 @@
   "key": "npc:20193",
   "type": "npc",
   "id": 20193,
-  "name": "Lu4 Wiki: NPC Tyrant Kingpin",
+  "name": "Tyrant Kingpin",
   "url": "/lu4/npc/20193-tyrant-kingpin",
-  "source_url": "https://masterwork.wiki/lu4/npc/20193-tyrant-kingpin",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20193-tyrant-kingpin",
   "raw_html": "library/raw/lu4/npc/20193-tyrant-kingpin.html",
   "stats": {
-    "Location": "Пустошь (+1) Пустошь Муравейник"
+    "Respawn Time": "15 seconds",
+    "Location": "Пустошь (+1) Пустошь Муравейник",
+    "HP / MP": "1 297 / 514",
+    "P. Atk. / M. Atk.": "244 / 103",
+    "P. Def. / M. Def.": "167 / 130",
+    "Accuracy / Evasion": "69 / 69",
+    "Exp / SP": "1 376 / 138",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 36"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20193",
-      "type": "npc",
-      "id": 20193,
-      "name": "Lu4",
-      "url": "/lu4/npc/20193-tyrant-kingpin"
-    },
-    {
-      "key": "location:15",
-      "type": "location",
-      "id": 15,
-      "name": "Пустошь",
-      "url": "/lu4/location/15-pustos"
-    },
-    {
-      "key": "location:17",
-      "type": "location",
-      "id": 17,
-      "name": "Муравейник",
-      "url": "/lu4/location/17-muravejnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:6576",
-      "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:2053",
-      "type": "item",
-      "id": 2053,
-      "name": "Scallop Jamadhr Edge NG",
-      "url": "/lu4/item/2053-scallop-jamadhr-edge"
-    },
-    {
-      "key": "item:1957",
-      "type": "item",
-      "id": 1957,
-      "name": "Assault Boots Part NG",
-      "url": "/lu4/item/1957-assault-boots-part"
-    },
-    {
-      "key": "item:1953",
-      "type": "item",
-      "id": 1953,
-      "name": "Sage's Rag Lining NG",
-      "url": "/lu4/item/1953-sages-rag-lining"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1894",
@@ -152,18 +100,39 @@
       "url": "/lu4/item/1341-bone-arrow"
     },
     {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
       "key": "item:1125",
       "type": "item",
       "id": 1125,
-      "name": "Assault Boots D",
-      "url": "/lu4/item/1125-assault-boots"
+      "name": "Sage's Worn Boots D",
+      "url": "/lu4/item/1125-sages-worn-boots"
+    },
+    {
+      "key": "item:1957",
+      "type": "item",
+      "id": 1957,
+      "name": "Sage's Worn Boots Part NG",
+      "url": "/lu4/item/1957-sages-worn-boots-part"
     },
     {
       "key": "item:438",
       "type": "item",
       "id": 438,
-      "name": "Sage's Rag D",
-      "url": "/lu4/item/438-sages-rag"
+      "name": "Sage's Worn Robe D",
+      "url": "/lu4/item/438-sages-worn-robe"
+    },
+    {
+      "key": "item:1953",
+      "type": "item",
+      "id": 1953,
+      "name": "Sage's Worn Robe Lining NG",
+      "url": "/lu4/item/1953-sages-worn-robe-lining"
     },
     {
       "key": "item:262",
@@ -173,11 +142,39 @@
       "url": "/lu4/item/262-scallop-jamadhr"
     },
     {
-      "key": "item:57",
+      "key": "item:2053",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2053,
+      "name": "Scallop Jamadhr Edge NG",
+      "url": "/lu4/item/2053-scallop-jamadhr-edge"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
       "key": "item:2296",
@@ -194,13 +191,6 @@
       "url": "/lu4/item/2055-glaive-edge"
     },
     {
-      "key": "item:1956",
-      "type": "item",
-      "id": 1956,
-      "name": "Square Shield Fragment NG",
-      "url": "/lu4/item/1956-square-shield-fragment"
-    },
-    {
       "key": "item:1906",
       "type": "item",
       "id": 1906,
@@ -208,11 +198,11 @@
       "url": "/lu4/item/1906-mithril-ring-wire"
     },
     {
-      "key": "item:1874",
+      "key": "item:1956",
       "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
+      "id": 1956,
+      "name": "Square Shield Fragment NG",
+      "url": "/lu4/item/1956-square-shield-fragment"
     }
   ]
 }

@@ -1,0 +1,18 @@
+# Tallum Plate Armor
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/3741-tallum-plate-armor
+- Path: /lu4/skill/3741-tallum-plate-armor
+- Type: skill
+- Key: skill:3741
+
+## Stats
+- Effect: Atk. Spd. +2.2% Weight Limit +2100 Resistance to Poison +21% Resistance to Bleed +21% Resistance to Mental attacks +15%.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Item2
+
+## Content
+Tallum Plate Armor Lv. 1 Passive / Item2 Atk. Spd. +2.2% Weight Limit +2100 Resistance to Poison +21% Resistance to Bleed +21% Resistance to Mental attacks +15%. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

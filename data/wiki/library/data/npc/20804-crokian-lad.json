@@ -2,147 +2,46 @@
   "key": "npc:20804",
   "type": "npc",
   "id": 20804,
-  "name": "Lu4 Wiki: NPC Crokian Lad",
+  "name": "Crokian Lad",
   "url": "/lu4/npc/20804-crokian-lad",
-  "source_url": "https://masterwork.wiki/lu4/npc/20804-crokian-lad",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20804-crokian-lad",
   "raw_html": "library/raw/lu4/npc/20804-crokian-lad.html",
   "stats": {
-    "Location": "Остров Аллигаторов"
+    "Respawn Time": "30 seconds",
+    "Location": "Остров Аллигаторов",
+    "HP / MP": "3 198 / 622",
+    "P. Atk. / M. Atk.": "296 / 145",
+    "P. Def. / M. Def.": "215 / 171",
+    "Accuracy / Evasion": "74 / 74",
+    "Exp / SP": "3 179 / 318",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (2x) Lv. 10",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 41"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20804",
-      "type": "npc",
-      "id": 20804,
-      "name": "Lu4",
-      "url": "/lu4/npc/20804-crokian-lad"
-    },
-    {
-      "key": "location:120",
-      "type": "location",
-      "id": 120,
-      "name": "Остров Аллигаторов",
-      "url": "/lu4/location/120-ostrov-alligatorov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:5274",
-      "type": "item",
-      "id": 5274,
-      "name": "Recipe: Greater Spiritshot (C) Compressed Package(100%) NG",
-      "url": "/lu4/item/5274-recipe-greater-spiritshot-c-compressed-package100"
-    },
-    {
-      "key": "item:4909",
-      "type": "item",
-      "id": 4909,
-      "name": "Spellbook: Shadow Flare NG",
-      "url": "/lu4/item/4909-spellbook-shadow-flare"
-    },
-    {
-      "key": "item:3093",
-      "type": "item",
-      "id": 3093,
-      "name": "Spellbook: Servitor Haste NG",
-      "url": "/lu4/item/3093-spellbook-servitor-haste"
-    },
-    {
-      "key": "item:3092",
-      "type": "item",
-      "id": 3092,
-      "name": "Spellbook: Servitor Physical Shield NG",
-      "url": "/lu4/item/3092-spellbook-servitor-physical-shield"
-    },
-    {
-      "key": "item:3091",
-      "type": "item",
-      "id": 3091,
-      "name": "Spellbook: Servitor Magic Shield NG",
-      "url": "/lu4/item/3091-spellbook-servitor-magic-shield"
-    },
-    {
-      "key": "item:2989",
-      "type": "item",
-      "id": 2989,
-      "name": "Recipe: Chain Hood NG",
-      "url": "/lu4/item/2989-recipe-chain-hood"
-    },
-    {
-      "key": "item:2942",
-      "type": "item",
-      "id": 2942,
-      "name": "Reinforced Mithril Gloves Design NG",
-      "url": "/lu4/item/2942-reinforced-mithril-gloves-design"
-    },
-    {
-      "key": "item:2452",
-      "type": "item",
-      "id": 2452,
-      "name": "Reinforced Mithril Gloves C",
-      "url": "/lu4/item/2452-reinforced-mithril-gloves"
-    },
-    {
-      "key": "item:2211",
-      "type": "item",
-      "id": 2211,
-      "name": "Recipe: Plated Leather Shirt NG",
-      "url": "/lu4/item/2211-recipe-plated-leather-shirt"
-    },
-    {
-      "key": "item:2205",
-      "type": "item",
-      "id": 2205,
-      "name": "Recipe: Chain Gaiters NG",
-      "url": "/lu4/item/2205-recipe-chain-gaiters"
-    },
-    {
-      "key": "item:2075",
-      "type": "item",
-      "id": 2075,
-      "name": "Orcish Glaive Blade NG",
-      "url": "/lu4/item/2075-orcish-glaive-blade"
-    },
-    {
-      "key": "item:2062",
-      "type": "item",
-      "id": 2062,
-      "name": "Scythe Edge NG",
-      "url": "/lu4/item/2062-scythe-edge"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1884",
@@ -180,11 +79,116 @@
       "url": "/lu4/item/735-alacrity-potion"
     },
     {
+      "key": "item:5274",
+      "type": "item",
+      "id": 5274,
+      "name": "Recipe: Greater Spiritshot (C) Compressed Package(100%) NG",
+      "url": "/lu4/item/5274-recipe-greater-spiritshot-c-compressed-package100"
+    },
+    {
+      "key": "item:298",
+      "type": "item",
+      "id": 298,
+      "name": "Orcish Glaive C",
+      "url": "/lu4/item/298-orcish-glaive"
+    },
+    {
+      "key": "item:2075",
+      "type": "item",
+      "id": 2075,
+      "name": "Orcish Glaive Blade NG",
+      "url": "/lu4/item/2075-orcish-glaive-blade"
+    },
+    {
+      "key": "item:96",
+      "type": "item",
+      "id": 96,
+      "name": "Scythe C",
+      "url": "/lu4/item/96-scythe"
+    },
+    {
+      "key": "item:2062",
+      "type": "item",
+      "id": 2062,
+      "name": "Scythe Edge NG",
+      "url": "/lu4/item/2062-scythe-edge"
+    },
+    {
+      "key": "item:2452",
+      "type": "item",
+      "id": 2452,
+      "name": "Reinforced Mithril Gloves C",
+      "url": "/lu4/item/2452-reinforced-mithril-gloves"
+    },
+    {
+      "key": "item:2942",
+      "type": "item",
+      "id": 2942,
+      "name": "Reinforced Mithril Gloves Design NG",
+      "url": "/lu4/item/2942-reinforced-mithril-gloves-design"
+    },
+    {
+      "key": "item:2205",
+      "type": "item",
+      "id": 2205,
+      "name": "Recipe: Chain Gaiters NG",
+      "url": "/lu4/item/2205-recipe-chain-gaiters"
+    },
+    {
+      "key": "item:2989",
+      "type": "item",
+      "id": 2989,
+      "name": "Recipe: Chain Hood NG",
+      "url": "/lu4/item/2989-recipe-chain-hood"
+    },
+    {
+      "key": "item:2211",
+      "type": "item",
+      "id": 2211,
+      "name": "Recipe: Plated Leather Shirt NG",
+      "url": "/lu4/item/2211-recipe-plated-leather-shirt"
+    },
+    {
+      "key": "item:3093",
+      "type": "item",
+      "id": 3093,
+      "name": "Spellbook: Servitor Haste NG",
+      "url": "/lu4/item/3093-spellbook-servitor-haste"
+    },
+    {
+      "key": "item:3091",
+      "type": "item",
+      "id": 3091,
+      "name": "Spellbook: Servitor Magic Shield NG",
+      "url": "/lu4/item/3091-spellbook-servitor-magic-shield"
+    },
+    {
+      "key": "item:3092",
+      "type": "item",
+      "id": 3092,
+      "name": "Spellbook: Servitor Physical Shield NG",
+      "url": "/lu4/item/3092-spellbook-servitor-physical-shield"
+    },
+    {
+      "key": "item:4909",
+      "type": "item",
+      "id": 4909,
+      "name": "Spellbook: Shadow Flare NG",
+      "url": "/lu4/item/4909-spellbook-shadow-flare"
+    },
+    {
       "key": "item:4470",
       "type": "item",
       "id": 4470,
       "name": "Dye of STR <Str+1 Dex-1> NG",
       "url": "/lu4/item/4470-dye-of-str-str1-dex-1"
+    },
+    {
+      "key": "item:2204",
+      "type": "item",
+      "id": 2204,
+      "name": "Recipe: Chain Mail Shirt NG",
+      "url": "/lu4/item/2204-recipe-chain-mail-shirt"
     },
     {
       "key": "item:2303",
@@ -194,11 +198,11 @@
       "url": "/lu4/item/2303-recipe-skull-graver"
     },
     {
-      "key": "item:2204",
+      "key": "item:1959",
       "type": "item",
-      "id": 2204,
-      "name": "Recipe: Chain Mail Shirt NG",
-      "url": "/lu4/item/2204-recipe-chain-mail-shirt"
+      "id": 1959,
+      "name": "Chain Mail Shirt Material NG",
+      "url": "/lu4/item/1959-chain-mail-shirt-material"
     },
     {
       "key": "item:2074",
@@ -213,13 +217,6 @@
       "id": 1964,
       "name": "Eldarake Temper NG",
       "url": "/lu4/item/1964-eldarake-temper"
-    },
-    {
-      "key": "item:1959",
-      "type": "item",
-      "id": 1959,
-      "name": "Chain Mail Shirt Material NG",
-      "url": "/lu4/item/1959-chain-mail-shirt-material"
     }
   ]
 }

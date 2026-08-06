@@ -2,56 +2,53 @@
   "key": "npc:25146",
   "type": "npc",
   "id": 25146,
-  "name": "Lu4 Wiki: NPC Serpent Demon Bifrons",
+  "name": "Serpent Demon Bifrons",
   "url": "/lu4/npc/25146-serpent-demon-bifrons",
-  "source_url": "https://masterwork.wiki/lu4/npc/25146-serpent-demon-bifrons",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25146-serpent-demon-bifrons",
   "raw_html": "library/raw/lu4/npc/25146-serpent-demon-bifrons.html",
   "stats": {
-    "Location": "Земли Глудио"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Земли Глудио",
+    "HP / MP": "90 170 / 1 077",
+    "P. Atk. / M. Atk.": "142 / 9",
+    "P. Def. / M. Def.": "301 / 321",
+    "Accuracy / Evasion": "72 / 72",
+    "Exp / SP": "330 750 / 45 688",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 An Evil Spirit worshipped like a god by the Langk Lizardmen who live in the south of Gludio. He looks like a snake and has ruled the spiritual world of the lizardmen for hundreds of years. However, he resents the cursed body the gods in the heaven created for him, and he tries to slaughter the messengers of the gods in retribution. He is very violent and burns to destroy the entire area of Gludio one day through the Langk Lizardmen. Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 21"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25146",
-      "type": "npc",
-      "id": 25146,
-      "name": "Lu4",
-      "url": "/lu4/npc/25146-serpent-demon-bifrons"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4845",
       "type": "skill",
       "id": 4845,
-      "name": "Raid Boss Lv. 1 An Evil Spirit worshipped like a god by the Langk Lizardmen who live in the south of Gludio. He looks like a snake and has ruled the spiritual world of the lizardmen for hundreds of years. However, he resents the cursed body the gods in the heaven created for him, and he tries to slaughter the messengers of the gods in retribution. He is very violent and burns to destroy the entire area of Gludio one day through the Langk Lizardmen.",
-      "url": "/lu4/skill/4845-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4845-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,60 +58,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
-      "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
       "key": "item:2024",
       "type": "item",
       "id": 2024,
       "name": "Elven Bow Shaft NG",
       "url": "/lu4/item/2024-elven-bow-shaft"
-    },
-    {
-      "key": "item:1900",
-      "type": "item",
-      "id": 1900,
-      "name": "Enchanted Necklace Chain NG",
-      "url": "/lu4/item/1900-enchanted-necklace-chain"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:911",
-      "type": "item",
-      "id": 911,
-      "name": "Enchanted Necklace D",
-      "url": "/lu4/item/911-enchanted-necklace"
-    },
-    {
-      "key": "item:879",
-      "type": "item",
-      "id": 879,
-      "name": "Enchanted Ring D",
-      "url": "/lu4/item/879-enchanted-ring"
     },
     {
       "key": "item:848",
@@ -124,11 +72,25 @@
       "url": "/lu4/item/848-enchanted-earring"
     },
     {
-      "key": "item:276",
+      "key": "item:879",
       "type": "item",
-      "id": 276,
-      "name": "Elven Bow D",
-      "url": "/lu4/item/276-elven-bow"
+      "id": 879,
+      "name": "Enchanted Ring D",
+      "url": "/lu4/item/879-enchanted-ring"
+    },
+    {
+      "key": "item:911",
+      "type": "item",
+      "id": 911,
+      "name": "Enchanted Necklace D",
+      "url": "/lu4/item/911-enchanted-necklace"
+    },
+    {
+      "key": "item:1900",
+      "type": "item",
+      "id": 1900,
+      "name": "Enchanted Necklace Chain NG",
+      "url": "/lu4/item/1900-enchanted-necklace-chain"
     },
     {
       "key": "item:275",
@@ -136,6 +98,41 @@
       "id": 275,
       "name": "Long Bow D",
       "url": "/lu4/item/275-long-bow"
+    },
+    {
+      "key": "item:276",
+      "type": "item",
+      "id": 276,
+      "name": "Elven Bow D",
+      "url": "/lu4/item/276-elven-bow"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25147",

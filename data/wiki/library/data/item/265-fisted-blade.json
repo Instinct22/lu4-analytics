@@ -2,24 +2,27 @@
   "key": "item:265",
   "type": "item",
   "id": 265,
-  "name": "Lu4 Wiki: Item Fisted Blade",
+  "name": "Fisted Blade",
   "url": "/lu4/item/265-fisted-blade",
-  "source_url": "https://masterwork.wiki/lu4/item/265-fisted-blade",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/265-fisted-blade",
   "raw_html": "library/raw/lu4/item/265-fisted-blade.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Health: Max HP +25%. Haste: Atk. Spd. +7%. Rsk. Haste: Atk. Spd. +14% when HP < 60%.",
+    "P. Atk. / M. Atk.": "169 / 76",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1322 Crystallization Failed Enchant +0 1322 - +1 1367 - +2 1412 - +3 1457 - +4 1547 886 +5 1637 976 +6 1727 1066 +7 1817 1156 +8 1907 1246 +9 1997 1336 +10 2087 1426 +11 2177 1516 +12 2267 1606",
+    "NPC Sell Price": "1 652 150 Adena",
+    "Weight": "1480",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Recipes": "Recipe: Fisted Blade NG",
     "Soul Crystals": "Fisted Blade Health C Fisted Blade C Gemstone C NG (306 pcs.) Red Soul Crystal - Stage 7 NG Fisted Blade Rsk. Haste C Fisted Blade C Gemstone C NG (306 pcs.) Green Soul Crystal - Stage 7 NG Fisted Blade Haste C Fisted Blade C Gemstone C NG (306 pcs.) Blue Soul Crystal - Stage 7 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Fist / Two-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:265",
-      "type": "item",
-      "id": 265,
-      "name": "Lu4",
-      "url": "/lu4/item/265-fisted-blade"
-    },
     {
       "key": "item:2346",
       "type": "item",
@@ -77,66 +80,87 @@
       "url": "/lu4/item/4658-blue-soul-crystal-stage-7"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25437",
       "type": "npc",
       "id": 25437,
-      "name": "Timak Orc Gosmos Lv. 45",
+      "name": "Timak Orc Gosmos",
       "url": "/lu4/npc/25437-timak-orc-gosmos"
     },
     {
       "key": "npc:25431",
       "type": "npc",
       "id": 25431,
-      "name": "Flamestone Golem Lv. 44",
+      "name": "Flamestone Golem",
       "url": "/lu4/npc/25431-flamestone-golem"
     },
     {
       "key": "npc:22064",
       "type": "npc",
       "id": 22064,
-      "name": "Bloodthirsty Ginzu Golem II Lv. 52",
+      "name": "Bloodthirsty Ginzu Golem II",
       "url": "/lu4/npc/22064-bloodthirsty-ginzu-golem-ii"
     },
     {
       "key": "npc:22059",
       "type": "npc",
       "id": 22059,
-      "name": "Bloodthirsty Ginzu Golem VII Lv. 51",
+      "name": "Bloodthirsty Ginzu Golem VII",
       "url": "/lu4/npc/22059-bloodthirsty-ginzu-golem-vii"
     },
     {
       "key": "npc:21622",
       "type": "npc",
       "id": 21622,
-      "name": "Greater Musveren Lv. 49",
+      "name": "Greater Musveren",
       "url": "/lu4/npc/21622-greater-musveren"
     },
     {
       "key": "npc:21261",
       "type": "npc",
       "id": 21261,
-      "name": "Ol Mahum Transcender Lv. 50",
+      "name": "Ol Mahum Transcender",
       "url": "/lu4/npc/21261-ol-mahum-transcender"
     },
     {
       "key": "npc:20996",
       "type": "npc",
       "id": 20996,
-      "name": "Spiteful Ghost of Ruins Lv. 50",
+      "name": "Spiteful Ghost of Ruins",
       "url": "/lu4/npc/20996-spiteful-ghost-of-ruins"
     },
     {
       "key": "npc:20940",
       "type": "npc",
       "id": 20940,
-      "name": "Tanor Silenos Shaman Lv. 48",
+      "name": "Tanor Silenos Shaman",
       "url": "/lu4/npc/20940-tanor-silenos-shaman"
     },
     {
       "key": "npc:20754",
       "type": "npc",
       "id": 20754,
-      "name": "Dark Knight Lv. 48",
+      "name": "Dark Knight",
       "url": "/lu4/npc/20754-dark-knight"
     }
   ]

@@ -1,0 +1,43 @@
+{
+  "key": "skill:221",
+  "type": "skill",
+  "id": 221,
+  "name": "Silent Move",
+  "url": "/lu4/skill/221-silent-move",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/221-silent-move",
+  "raw_html": "library/raw/lu4/skill/221-silent-move.html",
+  "stats": {
+    "Effect": "Prevents preemptive attacks from monsters. P. Def. -8% M. Def. -8%.",
+    "Consumes": "0 MP",
+    "Reuse Time": "0 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "Treasure HunterLv. 40Plains WalkerLv. 40Abyss WalkerLv. 40",
+    "Type": "Toggle / Toggle"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:8",
+      "type": "class",
+      "id": 8,
+      "name": "Treasure HunterLv. 40",
+      "url": "/lu4/class/8-treasurehunter"
+    },
+    {
+      "key": "class:23",
+      "type": "class",
+      "id": 23,
+      "name": "Plains WalkerLv. 40",
+      "url": "/lu4/class/23-plainwalker"
+    },
+    {
+      "key": "class:36",
+      "type": "class",
+      "id": 36,
+      "name": "Abyss WalkerLv. 40",
+      "url": "/lu4/class/36-abysswalker"
+    }
+  ]
+}

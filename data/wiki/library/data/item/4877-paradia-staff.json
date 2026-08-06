@@ -2,36 +2,40 @@
   "key": "item:4877",
   "type": "item",
   "id": 4877,
-  "name": "Lu4 Wiki: Item Paradia Staff",
+  "name": "Paradia Staff",
   "url": "/lu4/item/4877-paradia-staff",
-  "source_url": "https://masterwork.wiki/lu4/item/4877-paradia-staff",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/4877-paradia-staff",
   "raw_html": "library/raw/lu4/item/4877-paradia-staff.html",
   "stats": {
+    "Effect": "<Magic Use Effect> Casts 'Mental Shield' Lv.3 on target with 50% chance.",
+    "P. Atk. / M. Atk.": "135 / 111",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1322 Crystallization Failed Enchant +0 1322 - +1 1367 - +2 1412 - +3 1457 - +4 1547 886 +5 1637 976 +6 1727 1066 +7 1817 1156 +8 1907 1246 +9 1997 1336 +10 2087 1426 +11 2177 1516 +12 2267 1606",
+    "NPC Sell Price": "1 652 150 Adena",
+    "Weight": "1010",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Item Skills": "Mental Shield Lv. 3 Magic Essence Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Paradia Staff C",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Blunt / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:4877",
-      "type": "item",
-      "id": 4877,
-      "name": "Lu4",
-      "url": "/lu4/item/4877-paradia-staff"
-    },
-    {
       "key": "skill:1035",
       "type": "skill",
       "id": 1035,
-      "name": "Mental Shield Lv. 3",
-      "url": "/lu4/skill/1035-mental-shield/3"
+      "name": "Mental Shield",
+      "url": "/lu4/skill/1035-mental-shield"
     },
     {
       "key": "skill:24479",
       "type": "skill",
       "id": 24479,
-      "name": "Magic Essence Lv. 1",
-      "url": "/lu4/skill/24479-magic-essence/1"
+      "name": "Magic Essence",
+      "url": "/lu4/skill/24479-magic-essence"
     }
   ]
 }

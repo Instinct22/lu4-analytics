@@ -2,98 +2,81 @@
   "key": "npc:20642",
   "type": "npc",
   "id": 20642,
-  "name": "Lu4 Wiki: NPC Harit Lizardman Archer",
+  "name": "Harit Lizardman Archer",
   "url": "/lu4/npc/20642-harit-lizardman-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20642-harit-lizardman-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20642-harit-lizardman-archer",
   "raw_html": "library/raw/lu4/npc/20642-harit-lizardman-archer.html",
   "stats": {
-    "Location": "Лес Зеркал (+1) Лес Зеркал Земли Адена"
+    "Respawn Time": "27 seconds",
+    "Location": "Лес Зеркал (+1) Лес Зеркал Земли Адена",
+    "HP / MP": "4 718 / 990",
+    "P. Atk. / M. Atk.": "1 286 / 303",
+    "P. Def. / M. Def.": "247 / 215",
+    "Accuracy / Evasion": "88 / 87",
+    "Exp / SP": "5 022 / 502",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 52"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20642",
-      "type": "npc",
-      "id": 20642,
-      "name": "Lu4",
-      "url": "/lu4/npc/20642-harit-lizardman-archer"
-    },
-    {
-      "key": "location:68",
-      "type": "location",
-      "id": 68,
-      "name": "Лес Зеркал",
-      "url": "/lu4/location/68-les-zerkal"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8308",
+      "key": "item:1342",
       "type": "item",
-      "id": 8308,
-      "name": "Recipe: Ecliptic Axe (100%) NG",
-      "url": "/lu4/item/8308-recipe-ecliptic-axe-100"
-    },
-    {
-      "key": "item:5436",
-      "type": "item",
-      "id": 5436,
-      "name": "Recipe: Berserker Blade(100%) NG",
-      "url": "/lu4/item/5436-recipe-berserker-blade100"
+      "id": 1342,
+      "name": "Steel Arrow C",
+      "url": "/lu4/item/1342-steel-arrow"
     },
     {
       "key": "item:5155",
@@ -115,48 +98,6 @@
       "id": 4042,
       "name": "Enria NG",
       "url": "/lu4/item/4042-enria"
-    },
-    {
-      "key": "item:2964",
-      "type": "item",
-      "id": 2964,
-      "name": "Divine Gloves Pattern NG",
-      "url": "/lu4/item/2964-divine-gloves-pattern"
-    },
-    {
-      "key": "item:2958",
-      "type": "item",
-      "id": 2958,
-      "name": "Divine Boots Fabric NG",
-      "url": "/lu4/item/2958-divine-boots-fabric"
-    },
-    {
-      "key": "item:2463",
-      "type": "item",
-      "id": 2463,
-      "name": "Divine Gloves C",
-      "url": "/lu4/item/2463-divine-gloves"
-    },
-    {
-      "key": "item:2359",
-      "type": "item",
-      "id": 2359,
-      "name": "Recipe: Eminence Bow NG",
-      "url": "/lu4/item/2359-recipe-eminence-bow"
-    },
-    {
-      "key": "item:2116",
-      "type": "item",
-      "id": 2116,
-      "name": "Deadman's Staff Head NG",
-      "url": "/lu4/item/2116-deadmans-staff-head"
-    },
-    {
-      "key": "item:1987",
-      "type": "item",
-      "id": 1987,
-      "name": "Drake Leather Armor Texture NG",
-      "url": "/lu4/item/1987-drake-leather-armor-texture"
     },
     {
       "key": "item:1895",
@@ -187,11 +128,46 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:1342",
+      "key": "item:49800",
       "type": "item",
-      "id": 1342,
-      "name": "Steel Arrow C",
-      "url": "/lu4/item/1342-steel-arrow"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:5436",
+      "type": "item",
+      "id": 5436,
+      "name": "Recipe: Berserker Blade(100%) NG",
+      "url": "/lu4/item/5436-recipe-berserker-blade100"
+    },
+    {
+      "key": "item:8308",
+      "type": "item",
+      "id": 8308,
+      "name": "Recipe: Ecliptic Axe (100%) NG",
+      "url": "/lu4/item/8308-recipe-ecliptic-axe-100"
+    },
+    {
+      "key": "item:2359",
+      "type": "item",
+      "id": 2359,
+      "name": "Recipe: Eminence Bow NG",
+      "url": "/lu4/item/2359-recipe-eminence-bow"
+    },
+    {
+      "key": "item:2463",
+      "type": "item",
+      "id": 2463,
+      "name": "Divine Gloves C",
+      "url": "/lu4/item/2463-divine-gloves"
+    },
+    {
+      "key": "item:2964",
+      "type": "item",
+      "id": 2964,
+      "name": "Divine Gloves Pattern NG",
+      "url": "/lu4/item/2964-divine-gloves-pattern"
     },
     {
       "key": "item:603",
@@ -201,11 +177,11 @@
       "url": "/lu4/item/603-divine-boots"
     },
     {
-      "key": "item:401",
+      "key": "item:2958",
       "type": "item",
-      "id": 401,
-      "name": "Drake Leather Armor C",
-      "url": "/lu4/item/401-drake-leather-armor"
+      "id": 2958,
+      "name": "Divine Boots Fabric NG",
+      "url": "/lu4/item/2958-divine-boots-fabric"
     },
     {
       "key": "item:204",
@@ -215,25 +191,18 @@
       "url": "/lu4/item/204-deadmans-staff"
     },
     {
-      "key": "item:8335",
+      "key": "item:2116",
       "type": "item",
-      "id": 8335,
-      "name": "Ecliptic Sword Blade NG",
-      "url": "/lu4/item/8335-ecliptic-sword-blade"
+      "id": 2116,
+      "name": "Deadman's Staff Head NG",
+      "url": "/lu4/item/2116-deadmans-staff-head"
     },
     {
-      "key": "item:8304",
+      "key": "item:401",
       "type": "item",
-      "id": 8304,
-      "name": "Recipe: Ecliptic Sword (100%) NG",
-      "url": "/lu4/item/8304-recipe-ecliptic-sword-100"
-    },
-    {
-      "key": "item:2969",
-      "type": "item",
-      "id": 2969,
-      "name": "Yaksa Mace Head NG",
-      "url": "/lu4/item/2969-yaksa-mace-head"
+      "id": 401,
+      "name": "Drake Leather Armor C",
+      "url": "/lu4/item/401-drake-leather-armor"
     },
     {
       "key": "item:2170",
@@ -243,11 +212,32 @@
       "url": "/lu4/item/2170-recipe-nassens-earring"
     },
     {
+      "key": "item:8304",
+      "type": "item",
+      "id": 8304,
+      "name": "Recipe: Ecliptic Sword (100%) NG",
+      "url": "/lu4/item/8304-recipe-ecliptic-sword-100"
+    },
+    {
       "key": "item:2115",
       "type": "item",
       "id": 2115,
       "name": "Samurai Longsword Blade NG",
       "url": "/lu4/item/2115-samurai-longsword-blade"
+    },
+    {
+      "key": "item:8335",
+      "type": "item",
+      "id": 8335,
+      "name": "Ecliptic Sword Blade NG",
+      "url": "/lu4/item/8335-ecliptic-sword-blade"
+    },
+    {
+      "key": "item:2969",
+      "type": "item",
+      "id": 2969,
+      "name": "Yaksa Mace Head NG",
+      "url": "/lu4/item/2969-yaksa-mace-head"
     }
   ]
 }

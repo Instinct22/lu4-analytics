@@ -2,27 +2,25 @@
   "key": "item:3432",
   "type": "item",
   "id": 3432,
-  "name": "Lu4 Wiki: Item Spellbook: Remedy",
+  "name": "Spellbook: Remedy",
   "url": "/lu4/item/3432-spellbook-remedy",
-  "source_url": "https://masterwork.wiki/lu4/item/3432-spellbook-remedy",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/3432-spellbook-remedy",
   "raw_html": "library/raw/lu4/item/3432-spellbook-remedy.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Remedy'. Required: Paladin - Lv. 40 To obtain this item, hunt the Taik Orc found in The Forest of Mirrors.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:3432",
-      "type": "item",
-      "id": 3432,
-      "name": "Lu4",
-      "url": "/lu4/item/3432-spellbook-remedy"
-    },
-    {
       "key": "npc:20630",
       "type": "npc",
       "id": 20630,
-      "name": "Taik Orc Lv. 40",
+      "name": "Taik Orc",
       "url": "/lu4/npc/20630-taik-orc"
     }
   ]

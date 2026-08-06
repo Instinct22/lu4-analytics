@@ -1,77 +1,17 @@
-# Lu4 Wiki: Item Red Soul Crystal
+# Red Soul Crystal
 
-- Source: https://masterwork.wiki/lu4/item/4629-red-soul-crystal
+- Source: https://masterwork.wiki/lu4-b-w-c/item/4629-red-soul-crystal
 - Path: /lu4/item/4629-red-soul-crystal
 - Type: item
 - Key: item:4629
 
 ## Stats
+- Effect: A red crystal that absorbs souls. Once saturated it bestows special abilities to a weapon. 26 MP is consumed each time it is used.
+- Weight: 20
 - Item Skills: Soul Crystal Lv. 1
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Other / Scroll
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Red Soul Crystal
-Lu4
-Eternal
-MasterWork
-Red Soul Crystal
-NG
-Other / Scroll
-A red crystal that absorbs souls. Once saturated it bestows special abilities to a weapon. 26 MP is consumed each time it is used.
-Weight
-20
-Item Skills
-Soul Crystal
-Lv. 1
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Enhance Your Weapon
-40 ~ 80
-MasterWork 2026
-All rights reserved
+Red Soul Crystal NG Other / Scroll A red crystal that absorbs souls. Once saturated it bestows special abilities to a weapon. 26 MP is consumed each time it is used. Weight 20 Item Skills Soul Crystal Lv. 1 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

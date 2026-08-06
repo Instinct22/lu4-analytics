@@ -2,96 +2,100 @@
   "key": "npc:21313",
   "type": "npc",
   "id": 21313,
-  "name": "Lu4 Wiki: NPC Sly Hound Dog",
+  "name": "Sly Hound Dog",
   "url": "/lu4/npc/21313-sly-hound-dog",
-  "source_url": "https://masterwork.wiki/lu4/npc/21313-sly-hound-dog",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21313-sly-hound-dog",
   "raw_html": "library/raw/lu4/npc/21313-sly-hound-dog.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "12 040 / 1 565",
+    "P. Atk. / M. Atk.": "2 340 / 1 189",
+    "P. Def. / M. Def.": "423 / 327",
+    "Accuracy / Evasion": "107 / 109",
+    "Exp / SP": "30 882 / 3 138",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (3x) Lv. 11 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Slightly Weak M. Def. Lv. 9 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 4 One-handed Sword High Lv. Lv. 2 NPC High Level",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 72"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21313",
-      "type": "npc",
-      "id": 21313,
-      "name": "Lu4",
-      "url": "/lu4/npc/21313-sly-hound-dog"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 4 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/4"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 2 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/2"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:32346",
+      "key": "item:57",
       "type": "item",
-      "id": 32346,
-      "name": "Unidentified Carnage Bow A",
-      "url": "/lu4/item/32346-unidentified-carnage-bow"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5535",
@@ -101,46 +105,11 @@
       "url": "/lu4/item/5535-carnage-bow-stave"
     },
     {
-      "key": "item:5380",
+      "key": "item:32346",
       "type": "item",
-      "id": 5380,
-      "name": "Recipe: Sealed Boots of Nightmare(60%) NG",
-      "url": "/lu4/item/5380-recipe-sealed-boots-of-nightmare60"
-    },
-    {
-      "key": "item:5272",
-      "type": "item",
-      "id": 5272,
-      "name": "Recipe: Greater Soulshot (S) Compressed Package(100%) NG",
-      "url": "/lu4/item/5272-recipe-greater-soulshot-s-compressed-package100"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
-    },
-    {
-      "key": "item:1895",
-      "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
-    },
-    {
-      "key": "item:1876",
-      "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "url": "/lu4/item/1876-mithril-ore"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 32346,
+      "name": "Unidentified Carnage Bow A",
+      "url": "/lu4/item/32346-unidentified-carnage-bow"
     },
     {
       "key": "item:1868",
@@ -150,11 +119,46 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:1873",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1876",
+      "type": "item",
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:5272",
+      "type": "item",
+      "id": 5272,
+      "name": "Recipe: Greater Soulshot (S) Compressed Package(100%) NG",
+      "url": "/lu4/item/5272-recipe-greater-soulshot-s-compressed-package100"
+    },
+    {
+      "key": "item:5380",
+      "type": "item",
+      "id": 5380,
+      "name": "Recipe: Sealed Boots of Nightmare(60%) NG",
+      "url": "/lu4/item/5380-recipe-sealed-boots-of-nightmare60"
+    },
+    {
+      "key": "item:1895",
+      "type": "item",
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
     },
     {
       "key": "item:730",

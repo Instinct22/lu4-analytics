@@ -2,105 +2,81 @@
   "key": "npc:27054",
   "type": "npc",
   "id": 27054,
-  "name": "Lu4 Wiki: NPC Umbar Orc",
+  "name": "Umbar Orc",
   "url": "/lu4/npc/27054-umbar-orc",
-  "source_url": "https://masterwork.wiki/lu4/npc/27054-umbar-orc",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27054-umbar-orc",
   "raw_html": "library/raw/lu4/npc/27054-umbar-orc.html",
   "stats": {
-    "Location": "Темный Лес"
+    "Respawn Time": "15 seconds",
+    "Location": "Темный Лес",
+    "HP / MP": "1 081 / 236",
+    "P. Atk. / M. Atk.": "52 / 26",
+    "P. Def. / M. Def.": "122 / 91",
+    "Accuracy / Evasion": "56 / 55",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets. HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 20"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:27054",
-      "type": "npc",
-      "id": 27054,
-      "name": "Lu4",
-      "url": "/lu4/npc/27054-umbar-orc"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:39295",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
       "key": "item:39296",
@@ -110,11 +86,32 @@
       "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:39295",
+      "key": "item:39297",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     }
   ]
 }

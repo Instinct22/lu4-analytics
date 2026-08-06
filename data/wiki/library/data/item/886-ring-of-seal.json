@@ -2,23 +2,22 @@
   "key": "item:886",
   "type": "item",
   "id": 886,
-  "name": "Lu4 Wiki: Item Ring of Seal",
+  "name": "Ring of Seal",
   "url": "/lu4/item/886-ring-of-seal",
-  "source_url": "https://masterwork.wiki/lu4/item/886-ring-of-seal",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/886-ring-of-seal",
   "raw_html": "library/raw/lu4/item/886-ring-of-seal.html",
   "stats": {
+    "M. Def.": "32",
+    "Crystal Amount": "87 Crystallization Failed Enchant +0 87 - +1 93 - +2 99 - +3 105 - +4 123 79 +5 141 97 +6 159 115 +7 177 133 +8 195 151",
+    "NPC Sell Price": "108 600 Adena",
+    "Weight": "150",
     "Recipes": "Recipe: Ring of Seal NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Accessory / Ring"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:886",
-      "type": "item",
-      "id": 886,
-      "name": "Lu4",
-      "url": "/lu4/item/886-ring-of-seal"
-    },
     {
       "key": "item:2970",
       "type": "item",
@@ -27,80 +26,94 @@
       "url": "/lu4/item/2970-recipe-ring-of-seal"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
       "key": "npc:25026",
       "type": "npc",
       "id": 25026,
-      "name": "Ketra Commander Atis Lv. 49",
+      "name": "Ketra Commander Atis",
       "url": "/lu4/npc/25026-ketra-commander-atis"
     },
     {
       "key": "npc:22085",
       "type": "npc",
       "id": 22085,
-      "name": "Lost Gargoyle Lv. 55",
+      "name": "Lost Gargoyle",
       "url": "/lu4/npc/22085-lost-gargoyle"
     },
     {
       "key": "npc:22083",
       "type": "npc",
       "id": 22083,
-      "name": "Baby Panthera Lv. 55",
+      "name": "Baby Panthera",
       "url": "/lu4/npc/22083-baby-panthera"
     },
     {
       "key": "npc:22080",
       "type": "npc",
       "id": 22080,
-      "name": "Massive Lost Bandersnatch Lv. 54",
+      "name": "Massive Lost Bandersnatch",
       "url": "/lu4/npc/22080-massive-lost-bandersnatch"
     },
     {
       "key": "npc:21727",
       "type": "npc",
       "id": 21727,
-      "name": "Purgatory Invader Magus Lv. 53",
+      "name": "Purgatory Invader Magus",
       "url": "/lu4/npc/21727-purgatory-invader-magus"
     },
     {
       "key": "npc:21726",
       "type": "npc",
       "id": 21726,
-      "name": "Purgatory Invader Elite Soldier Lv. 55",
+      "name": "Purgatory Invader Elite Soldier",
       "url": "/lu4/npc/21726-purgatory-invader-elite-soldier"
     },
     {
       "key": "npc:21246",
       "type": "npc",
       "id": 21246,
-      "name": "Tomb Archon Lv. 55",
+      "name": "Tomb Archon",
       "url": "/lu4/npc/21246-tomb-archon"
     },
     {
       "key": "npc:20988",
       "type": "npc",
       "id": 20988,
-      "name": "Sairon's Puppet Lv. 53",
+      "name": "Sairon's Puppet",
       "url": "/lu4/npc/20988-sairons-puppet"
     },
     {
       "key": "npc:20987",
       "type": "npc",
       "id": 20987,
-      "name": "Sairon's Doll Lv. 53",
+      "name": "Sairon's Doll",
       "url": "/lu4/npc/20987-sairons-doll"
     },
     {
       "key": "npc:20847",
       "type": "npc",
       "id": 20847,
-      "name": "Veil Master Lv. 54",
+      "name": "Veil Master",
       "url": "/lu4/npc/20847-veil-master"
     },
     {
       "key": "npc:5084",
       "type": "npc",
       "id": 5084,
-      "name": "Blackbanner Poacher Lv. 55",
+      "name": "Blackbanner Poacher",
       "url": "/lu4/npc/5084-blackbanner-poacher"
     }
   ]

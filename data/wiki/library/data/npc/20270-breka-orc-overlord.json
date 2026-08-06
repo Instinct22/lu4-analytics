@@ -2,140 +2,74 @@
   "key": "npc:20270",
   "type": "npc",
   "id": 20270,
-  "name": "Lu4 Wiki: NPC Breka Orc Overlord",
+  "name": "Breka Orc Overlord",
   "url": "/lu4/npc/20270-breka-orc-overlord",
-  "source_url": "https://masterwork.wiki/lu4/npc/20270-breka-orc-overlord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20270-breka-orc-overlord",
   "raw_html": "library/raw/lu4/npc/20270-breka-orc-overlord.html",
   "stats": {
-    "Location": "Укрепление Бреки (+1) Укрепление Бреки Земли Гирана"
+    "Respawn Time": "30 seconds",
+    "Location": "Укрепление Бреки (+1) Укрепление Бреки Земли Гирана",
+    "HP / MP": "2 481 / 491",
+    "P. Atk. / M. Atk.": "197 / 96",
+    "P. Def. / M. Def.": "154 / 138",
+    "Accuracy / Evasion": "71 / 70",
+    "Exp / SP": "2 388 / 239",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 35"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20270",
-      "type": "npc",
-      "id": 20270,
-      "name": "Lu4",
-      "url": "/lu4/npc/20270-breka-orc-overlord"
-    },
-    {
-      "key": "location:216",
-      "type": "location",
-      "id": 216,
-      "name": "Укрепление Бреки",
-      "url": "/lu4/location/216-ukreplenie-breki"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
-      "key": "item:8328",
+      "key": "item:57",
       "type": "item",
-      "id": 8328,
-      "name": "Titan Sword Blade NG",
-      "url": "/lu4/item/8328-titan-sword-blade"
-    },
-    {
-      "key": "item:7881",
-      "type": "item",
-      "id": 7881,
-      "name": "Titan Sword D",
-      "url": "/lu4/item/7881-titan-sword"
-    },
-    {
-      "key": "item:2929",
-      "type": "item",
-      "id": 2929,
-      "name": "Brigandine Shield Fragment NG",
-      "url": "/lu4/item/2929-brigandine-shield-fragment"
-    },
-    {
-      "key": "item:2928",
-      "type": "item",
-      "id": 2928,
-      "name": "Elven Mithril Gloves Design NG",
-      "url": "/lu4/item/2928-elven-mithril-gloves-design"
-    },
-    {
-      "key": "item:2493",
-      "type": "item",
-      "id": 2493,
-      "name": "Brigandine Shield D",
-      "url": "/lu4/item/2493-brigandine-shield"
-    },
-    {
-      "key": "item:2450",
-      "type": "item",
-      "id": 2450,
-      "name": "Elven Mithril Gloves D",
-      "url": "/lu4/item/2450-elven-mithril-gloves"
-    },
-    {
-      "key": "item:2041",
-      "type": "item",
-      "id": 2041,
-      "name": "War Pick Head NG",
-      "url": "/lu4/item/2041-war-pick-head"
-    },
-    {
-      "key": "item:1902",
-      "type": "item",
-      "id": 1902,
-      "name": "Elven Earring Beads NG",
-      "url": "/lu4/item/1902-elven-earring-beads"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1870",
@@ -152,11 +86,32 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
+    },
+    {
       "key": "item:1341",
       "type": "item",
       "id": 1341,
       "name": "Bone Arrow D",
       "url": "/lu4/item/1341-bone-arrow"
+    },
+    {
+      "key": "item:2493",
+      "type": "item",
+      "id": 2493,
+      "name": "Brigandine Shield D",
+      "url": "/lu4/item/2493-brigandine-shield"
+    },
+    {
+      "key": "item:2929",
+      "type": "item",
+      "id": 2929,
+      "name": "Brigandine Shield Fragment NG",
+      "url": "/lu4/item/2929-brigandine-shield-fragment"
     },
     {
       "key": "item:850",
@@ -166,6 +121,41 @@
       "url": "/lu4/item/850-elven-earring"
     },
     {
+      "key": "item:1902",
+      "type": "item",
+      "id": 1902,
+      "name": "Elven Earring Beads NG",
+      "url": "/lu4/item/1902-elven-earring-beads"
+    },
+    {
+      "key": "item:2450",
+      "type": "item",
+      "id": 2450,
+      "name": "Elven Mithril Gloves D",
+      "url": "/lu4/item/2450-elven-mithril-gloves"
+    },
+    {
+      "key": "item:2928",
+      "type": "item",
+      "id": 2928,
+      "name": "Elven Mithril Gloves Design NG",
+      "url": "/lu4/item/2928-elven-mithril-gloves-design"
+    },
+    {
+      "key": "item:7881",
+      "type": "item",
+      "id": 7881,
+      "name": "Titan Sword D",
+      "url": "/lu4/item/7881-titan-sword"
+    },
+    {
+      "key": "item:8328",
+      "type": "item",
+      "id": 8328,
+      "name": "Titan Sword Blade NG",
+      "url": "/lu4/item/8328-titan-sword-blade"
+    },
+    {
       "key": "item:294",
       "type": "item",
       "id": 294,
@@ -173,11 +163,25 @@
       "url": "/lu4/item/294-war-pick"
     },
     {
-      "key": "item:57",
+      "key": "item:2041",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2041,
+      "name": "War Pick Head NG",
+      "url": "/lu4/item/2041-war-pick-head"
+    },
+    {
+      "key": "item:7896",
+      "type": "item",
+      "id": 7896,
+      "name": "Titan Hammer D",
+      "url": "/lu4/item/7896-titan-hammer"
+    },
+    {
+      "key": "item:8343",
+      "type": "item",
+      "id": 8343,
+      "name": "Titan Hammer Piece NG",
+      "url": "/lu4/item/8343-titan-hammer-piece"
     },
     {
       "key": "item:2284",
@@ -187,18 +191,18 @@
       "url": "/lu4/item/2284-recipe-demon-fangs"
     },
     {
-      "key": "item:2044",
-      "type": "item",
-      "id": 2044,
-      "name": "Cursed Maingauche Edge NG",
-      "url": "/lu4/item/2044-cursed-maingauche-edge"
-    },
-    {
       "key": "item:2039",
       "type": "item",
       "id": 2039,
       "name": "Bich'Hwa Edge NG",
       "url": "/lu4/item/2039-bichhwa-edge"
+    },
+    {
+      "key": "item:2044",
+      "type": "item",
+      "id": 2044,
+      "name": "Cursed Maingauche Edge NG",
+      "url": "/lu4/item/2044-cursed-maingauche-edge"
     }
   ]
 }

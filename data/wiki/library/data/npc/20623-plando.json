@@ -2,105 +2,88 @@
   "key": "npc:20623",
   "type": "npc",
   "id": 20623,
-  "name": "Lu4 Wiki: NPC Plando",
+  "name": "Plando",
   "url": "/lu4/npc/20623-plando",
-  "source_url": "https://masterwork.wiki/lu4/npc/20623-plando",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20623-plando",
   "raw_html": "library/raw/lu4/npc/20623-plando.html",
   "stats": {
-    "Location": "Логово Антараса"
+    "Respawn Time": "3 minutes ± 20 seconds",
+    "Location": "Логово Антараса",
+    "HP / MP": "18 439 / 1 651",
+    "P. Atk. / M. Atk.": "2 611 / 546",
+    "P. Def. / M. Def.": "460 / 374",
+    "Accuracy / Evasion": "97 / 96",
+    "Exp / SP": "32 068 / 3 207",
+    "Attack Attribute": "Wind 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 15 Strong P. Def. Lv. 14 Slightly Strong M. Def. Lv. 13 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 61"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20623",
-      "type": "npc",
-      "id": 20623,
-      "name": "Lu4",
-      "url": "/lu4/npc/20623-plando"
-    },
-    {
-      "key": "location:45",
-      "type": "location",
-      "id": 45,
-      "name": "Логово Антараса",
-      "url": "/lu4/location/45-logovo-antarasa"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/3"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32361",
-      "type": "item",
-      "id": 32361,
-      "name": "Unidentified Stockings of Zubei B",
-      "url": "/lu4/item/32361-unidentified-stockings-of-zubei"
-    },
-    {
-      "key": "item:32339",
-      "type": "item",
-      "id": 32339,
-      "name": "Unidentified Hell Knife B",
-      "url": "/lu4/item/32339-unidentified-hell-knife"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5549",
@@ -108,27 +91,6 @@
       "id": 5549,
       "name": "Metallic Thread NG",
       "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:4110",
-      "type": "item",
-      "id": 4110,
-      "name": "Hell Knife Edge NG",
-      "url": "/lu4/item/4110-hell-knife-edge"
-    },
-    {
-      "key": "item:4070",
-      "type": "item",
-      "id": 4070,
-      "name": "Stockings of Zubei Fabric NG",
-      "url": "/lu4/item/4070-stockings-of-zubei-fabric"
-    },
-    {
-      "key": "item:4049",
-      "type": "item",
-      "id": 4049,
-      "name": "Adamantite Earring Gemstone NG",
-      "url": "/lu4/item/4049-adamantite-earring-gemstone"
     },
     {
       "key": "item:4044",
@@ -159,6 +121,13 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
       "key": "item:947",
       "type": "item",
       "id": 947,
@@ -173,25 +142,46 @@
       "url": "/lu4/item/856-adamantite-earring"
     },
     {
-      "key": "item:57",
+      "key": "item:4049",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4049,
+      "name": "Adamantite Earring Gemstone NG",
+      "url": "/lu4/item/4049-adamantite-earring-gemstone"
     },
     {
-      "key": "item:6571",
+      "key": "item:32339",
       "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
+      "id": 32339,
+      "name": "Unidentified Hell Knife B",
+      "url": "/lu4/item/32339-unidentified-hell-knife"
     },
     {
-      "key": "item:5230",
+      "key": "item:4110",
       "type": "item",
-      "id": 5230,
-      "name": "Recipe: Mithril Arrow (100%) NG",
-      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
+      "id": 4110,
+      "name": "Hell Knife Edge NG",
+      "url": "/lu4/item/4110-hell-knife-edge"
+    },
+    {
+      "key": "item:32361",
+      "type": "item",
+      "id": 32361,
+      "name": "Unidentified Stockings of Zubei B",
+      "url": "/lu4/item/32361-unidentified-stockings-of-zubei"
+    },
+    {
+      "key": "item:4070",
+      "type": "item",
+      "id": 4070,
+      "name": "Stockings of Zubei Fabric NG",
+      "url": "/lu4/item/4070-stockings-of-zubei-fabric"
+    },
+    {
+      "key": "item:4039",
+      "type": "item",
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
     },
     {
       "key": "item:4040",
@@ -201,11 +191,18 @@
       "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:4039",
+      "key": "item:5230",
       "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
+      "id": 5230,
+      "name": "Recipe: Mithril Arrow (100%) NG",
+      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
+    },
+    {
+      "key": "item:6571",
+      "type": "item",
+      "id": 6571,
+      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
     }
   ]
 }

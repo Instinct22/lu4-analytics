@@ -2,56 +2,51 @@
   "key": "npc:25420",
   "type": "npc",
   "id": 25420,
-  "name": "Lu4 Wiki: NPC Orfen's Handmaiden",
+  "name": "Orfen's Handmaiden",
   "url": "/lu4/npc/25420-orfens-handmaiden",
-  "source_url": "https://masterwork.wiki/lu4/npc/25420-orfens-handmaiden",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25420-orfens-handmaiden",
   "raw_html": "library/raw/lu4/npc/25420-orfens-handmaiden.html",
   "stats": {
-    "Location": "Море Спор"
+    "HP / MP": "319 189 / 8 254",
+    "P. Atk. / M. Atk.": "2 681 / 1 111",
+    "P. Def. / M. Def.": "791 / 851",
+    "Accuracy / Evasion": "99 / 104",
+    "Exp / SP": "1 612 800 / 244 248",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Riba follows Arachne Orfen. Unlike other monsters living in the Sea of Spores, he possesses great intelligence and profound magical knowledge. At Orfen's command, he is searching for flaws in the Ivory Tower's magic force field, which blocks the spores from advancing. Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 48"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25420",
-      "type": "npc",
-      "id": 25420,
-      "name": "Lu4",
-      "url": "/lu4/npc/25420-orfens-handmaiden"
-    },
-    {
-      "key": "location:104",
-      "type": "location",
-      "id": 104,
-      "name": "Море Спор",
-      "url": "/lu4/location/104-more-spor"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4952",
       "type": "skill",
       "id": 4952,
-      "name": "Raid Boss Lv. 1 This Riba follows Arachne Orfen. Unlike other monsters living in the Sea of Spores, he possesses great intelligence and profound magical knowledge. At Orfen's command, he is searching for flaws in the Ivory Tower's magic force field, which blocks the spores from advancing.",
-      "url": "/lu4/skill/4952-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4952-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,13 +56,6 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:8335",
-      "type": "item",
-      "id": 8335,
-      "name": "Ecliptic Sword Blade NG",
-      "url": "/lu4/item/8335-ecliptic-sword-blade"
-    },
-    {
       "key": "item:7888",
       "type": "item",
       "id": 7888,
@@ -75,18 +63,32 @@
       "url": "/lu4/item/7888-ecliptic-sword"
     },
     {
-      "key": "item:6574",
+      "key": "item:206",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+      "id": 206,
+      "name": "Demon's Staff C",
+      "url": "/lu4/item/206-demons-staff"
     },
     {
-      "key": "item:6573",
+      "key": "item:205",
       "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+      "id": 205,
+      "name": "Ghoul's Staff C",
+      "url": "/lu4/item/205-ghouls-staff"
+    },
+    {
+      "key": "item:204",
+      "type": "item",
+      "id": 204,
+      "name": "Deadman's Staff C",
+      "url": "/lu4/item/204-deadmans-staff"
+    },
+    {
+      "key": "item:8335",
+      "type": "item",
+      "id": 8335,
+      "name": "Ecliptic Sword Blade NG",
+      "url": "/lu4/item/8335-ecliptic-sword-blade"
     },
     {
       "key": "item:2118",
@@ -110,32 +112,11 @@
       "url": "/lu4/item/2116-deadmans-staff-head"
     },
     {
-      "key": "item:1989",
+      "key": "item:442",
       "type": "item",
-      "id": 1989,
-      "name": "Divine Stocking Pattern NG",
-      "url": "/lu4/item/1989-divine-stocking-pattern"
-    },
-    {
-      "key": "item:1988",
-      "type": "item",
-      "id": 1988,
-      "name": "Divine Tunic Fabric NG",
-      "url": "/lu4/item/1988-divine-tunic-fabric"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+      "id": 442,
+      "name": "Divine Tunic C",
+      "url": "/lu4/item/442-divine-tunic"
     },
     {
       "key": "item:473",
@@ -145,32 +126,46 @@
       "url": "/lu4/item/473-divine-stockings"
     },
     {
-      "key": "item:442",
+      "key": "item:1988",
       "type": "item",
-      "id": 442,
-      "name": "Divine Tunic C",
-      "url": "/lu4/item/442-divine-tunic"
+      "id": 1988,
+      "name": "Divine Tunic Fabric NG",
+      "url": "/lu4/item/1988-divine-tunic-fabric"
     },
     {
-      "key": "item:206",
+      "key": "item:1989",
       "type": "item",
-      "id": 206,
-      "name": "Demon's Staff C",
-      "url": "/lu4/item/206-demons-staff"
+      "id": 1989,
+      "name": "Divine Stocking Pattern NG",
+      "url": "/lu4/item/1989-divine-stocking-pattern"
     },
     {
-      "key": "item:205",
+      "key": "item:952",
       "type": "item",
-      "id": 205,
-      "name": "Ghoul's Staff C",
-      "url": "/lu4/item/205-ghouls-staff"
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
-      "key": "item:204",
+      "key": "item:6574",
       "type": "item",
-      "id": 204,
-      "name": "Deadman's Staff C",
-      "url": "/lu4/item/204-deadmans-staff"
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "npc:25421",

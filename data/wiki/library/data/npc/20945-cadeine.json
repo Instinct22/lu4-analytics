@@ -2,56 +2,81 @@
   "key": "npc:20945",
   "type": "npc",
   "id": 20945,
-  "name": "Lu4 Wiki: NPC Cadeine",
+  "name": "Cadeine",
   "url": "/lu4/npc/20945-cadeine",
-  "source_url": "https://masterwork.wiki/lu4/npc/20945-cadeine",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20945-cadeine",
   "raw_html": "library/raw/lu4/npc/20945-cadeine.html",
   "stats": {
-    "Location": "Школа Полномочий (+1) Школа Полномочий Земли Орена"
+    "Respawn Time": "20 seconds ± 5 seconds",
+    "Location": "Школа Полномочий (+1) Школа Полномочий Земли Орена",
+    "HP / MP": "2 605 / 921",
+    "P. Atk. / M. Atk.": "500 / 269",
+    "P. Def. / M. Def.": "301 / 253",
+    "Accuracy / Evasion": "87 / 86",
+    "Exp / SP": "2 762 / 276",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Hold Resistance Lv. 4 Resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 51"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20945",
-      "type": "npc",
-      "id": 20945,
-      "name": "Lu4",
-      "url": "/lu4/npc/20945-cadeine"
-    },
-    {
-      "key": "location:105",
-      "type": "location",
-      "id": 105,
-      "name": "Школа Полномочий",
-      "url": "/lu4/location/105-skola-polnomocij"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 4 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/4"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:1895",
+      "type": "item",
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
+    },
+    {
+      "key": "item:1876",
+      "type": "item",
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:49800",
@@ -61,60 +86,11 @@
       "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
       "key": "item:8762",
       "type": "item",
       "id": 8762,
       "name": "Top-Grade Life Stone NG",
       "url": "/lu4/item/8762-top-grade-life-stone"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
     },
     {
       "key": "item:2347",
@@ -138,25 +114,11 @@
       "url": "/lu4/item/2226-recipe-composite-gauntlets"
     },
     {
-      "key": "item:2113",
+      "key": "item:472",
       "type": "item",
-      "id": 2113,
-      "name": "Scorpion Blade NG",
-      "url": "/lu4/item/2113-scorpion-blade"
-    },
-    {
-      "key": "item:2099",
-      "type": "item",
-      "id": 2099,
-      "name": "Stick of Eternity Shaft NG",
-      "url": "/lu4/item/2099-stick-of-eternity-shaft"
-    },
-    {
-      "key": "item:2095",
-      "type": "item",
-      "id": 2095,
-      "name": "Sword of Nightmare Blade NG",
-      "url": "/lu4/item/2095-sword-of-nightmare-blade"
+      "id": 472,
+      "name": "Demon's Stockings C",
+      "url": "/lu4/item/472-demons-stockings"
     },
     {
       "key": "item:1980",
@@ -166,11 +128,11 @@
       "url": "/lu4/item/1980-demons-stocking-pattern"
     },
     {
-      "key": "item:1916",
+      "key": "item:854",
       "type": "item",
-      "id": 1916,
-      "name": "Necklace of Mermaid Teardrop NG",
-      "url": "/lu4/item/1916-necklace-of-mermaid-teardrop"
+      "id": 854,
+      "name": "Earring of Seal C",
+      "url": "/lu4/item/854-earring-of-seal"
     },
     {
       "key": "item:1914",
@@ -180,18 +142,39 @@
       "url": "/lu4/item/1914-earring-of-seal-gemstone"
     },
     {
-      "key": "item:1895",
+      "key": "item:917",
       "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
+      "id": 917,
+      "name": "Necklace of Mermaid C",
+      "url": "/lu4/item/917-necklace-of-mermaid"
     },
     {
-      "key": "item:1876",
+      "key": "item:1916",
       "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "url": "/lu4/item/1876-mithril-ore"
+      "id": 1916,
+      "name": "Necklace of Mermaid Teardrop NG",
+      "url": "/lu4/item/1916-necklace-of-mermaid-teardrop"
+    },
+    {
+      "key": "item:301",
+      "type": "item",
+      "id": 301,
+      "name": "Scorpion C",
+      "url": "/lu4/item/301-scorpion"
+    },
+    {
+      "key": "item:2113",
+      "type": "item",
+      "id": 2113,
+      "name": "Scorpion Blade NG",
+      "url": "/lu4/item/2113-scorpion-blade"
+    },
+    {
+      "key": "item:196",
+      "type": "item",
+      "id": 196,
+      "name": "Stick of Eternity C",
+      "url": "/lu4/item/196-stick-of-eternity"
     },
     {
       "key": "item:8319",
@@ -208,11 +191,11 @@
       "url": "/lu4/item/2339-recipe-inferno-staff"
     },
     {
-      "key": "item:2114",
+      "key": "item:1979",
       "type": "item",
-      "id": 2114,
-      "name": "Widowmaker Head NG",
-      "url": "/lu4/item/2114-widowmaker-head"
+      "id": 1979,
+      "name": "Demon's Tunic Fabric NG",
+      "url": "/lu4/item/1979-demons-tunic-fabric"
     },
     {
       "key": "item:2110",
@@ -222,11 +205,11 @@
       "url": "/lu4/item/2110-heathens-book-page"
     },
     {
-      "key": "item:1979",
+      "key": "item:2114",
       "type": "item",
-      "id": 1979,
-      "name": "Demon's Tunic Fabric NG",
-      "url": "/lu4/item/1979-demons-tunic-fabric"
+      "id": 2114,
+      "name": "Widowmaker Head NG",
+      "url": "/lu4/item/2114-widowmaker-head"
     }
   ]
 }

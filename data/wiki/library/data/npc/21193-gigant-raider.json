@@ -2,110 +2,93 @@
   "key": "npc:21193",
   "type": "npc",
   "id": 21193,
-  "name": "Lu4 Wiki: NPC Gigant Raider",
+  "name": "Gigant Raider",
   "url": "/lu4/npc/21193-gigant-raider",
-  "source_url": "https://masterwork.wiki/lu4/npc/21193-gigant-raider",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21193-gigant-raider",
   "raw_html": "library/raw/lu4/npc/21193-gigant-raider.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "5 846 / 571",
+    "P. Atk. / M. Atk.": "397 / 215",
+    "P. Def. / M. Def.": "144 / 152",
+    "Accuracy / Evasion": "82 / 82",
+    "Exp / SP": "7 888 / 500",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Def. Lv. 12 Slightly Weak M. Def. Lv. 9 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks. Hold Resistance Lv. 5 Resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 39"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21193",
-      "type": "npc",
-      "id": 21193,
-      "name": "Lu4",
-      "url": "/lu4/npc/21193-gigant-raider"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4336",
       "type": "skill",
       "id": 4336,
-      "name": "Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks.",
-      "url": "/lu4/skill/4336-dark-attack-vulnerability/2"
+      "name": "Dark Attack Vulnerability",
+      "url": "/lu4/skill/4336-dark-attack-vulnerability"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
-      "key": "item:7640",
+      "key": "item:6360",
       "type": "item",
-      "id": 7640,
-      "name": "Spellbook: Mass Summon Phantom Cubic NG",
-      "url": "/lu4/item/7640-spellbook-mass-summon-phantom-cubic"
-    },
-    {
-      "key": "item:7639",
-      "type": "item",
-      "id": 7639,
-      "name": "Spellbook: Mass Summon Aqua Cubic NG",
-      "url": "/lu4/item/7639-spellbook-mass-summon-aqua-cubic"
-    },
-    {
-      "key": "item:7638",
-      "type": "item",
-      "id": 7638,
-      "name": "Spellbook: Mass Summon Storm Cubic NG",
-      "url": "/lu4/item/7638-spellbook-mass-summon-storm-cubic"
-    },
-    {
-      "key": "item:6362",
-      "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
+      "id": 6360,
+      "name": "Blue Seal Stone NG",
+      "url": "/lu4/item/6360-blue-seal-stone"
     },
     {
       "key": "item:6361",
@@ -115,11 +98,18 @@
       "url": "/lu4/item/6361-green-seal-stone"
     },
     {
-      "key": "item:6360",
+      "key": "item:6362",
       "type": "item",
-      "id": 6360,
-      "name": "Blue Seal Stone NG",
-      "url": "/lu4/item/6360-blue-seal-stone"
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
+    },
+    {
+      "key": "item:88",
+      "type": "item",
+      "id": 88,
+      "name": "Morning Star D",
+      "url": "/lu4/item/88-morning-star"
     },
     {
       "key": "item:2037",
@@ -185,18 +175,32 @@
       "url": "/lu4/item/90-goat-head-staff"
     },
     {
-      "key": "item:88",
+      "key": "item:7639",
       "type": "item",
-      "id": 88,
-      "name": "Morning Star D",
-      "url": "/lu4/item/88-morning-star"
+      "id": 7639,
+      "name": "Spellbook: Mass Summon Aqua Cubic NG",
+      "url": "/lu4/item/7639-spellbook-mass-summon-aqua-cubic"
     },
     {
-      "key": "item:2145",
+      "key": "item:7638",
       "type": "item",
-      "id": 2145,
-      "name": "Recipe: Mithril Alloy NG",
-      "url": "/lu4/item/2145-recipe-mithril-alloy"
+      "id": 7638,
+      "name": "Spellbook: Mass Summon Storm Cubic NG",
+      "url": "/lu4/item/7638-spellbook-mass-summon-storm-cubic"
+    },
+    {
+      "key": "item:7640",
+      "type": "item",
+      "id": 7640,
+      "name": "Spellbook: Mass Summon Phantom Cubic NG",
+      "url": "/lu4/item/7640-spellbook-mass-summon-phantom-cubic"
+    },
+    {
+      "key": "item:1825",
+      "type": "item",
+      "id": 1825,
+      "name": "Recipe: Oriharukon NG",
+      "url": "/lu4/item/1825-recipe-oriharukon"
     },
     {
       "key": "item:1902",
@@ -206,11 +210,11 @@
       "url": "/lu4/item/1902-elven-earring-beads"
     },
     {
-      "key": "item:1825",
+      "key": "item:2145",
       "type": "item",
-      "id": 1825,
-      "name": "Recipe: Oriharukon NG",
-      "url": "/lu4/item/1825-recipe-oriharukon"
+      "id": 2145,
+      "name": "Recipe: Mithril Alloy NG",
+      "url": "/lu4/item/2145-recipe-mithril-alloy"
     }
   ]
 }

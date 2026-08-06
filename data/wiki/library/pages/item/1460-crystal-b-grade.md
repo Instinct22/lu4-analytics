@@ -1,70 +1,17 @@
-# Lu4 Wiki: Item Crystal (B-Grade)
+# Crystal (B-Grade)
 
-- Source: https://masterwork.wiki/lu4/item/1460-crystal-b-grade
+- Source: https://masterwork.wiki/lu4-b-w-c/item/1460-crystal-b-grade
 - Path: /lu4/item/1460-crystal-b-grade
 - Type: item
 - Key: item:1460
 
 ## Stats
+- Effect: A crystal of B-Grade.
+- NPC Sell Price: 4 500 Adena
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: B
+- Type: Other
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Crystal (B-Grade)
-Lu4
-Eternal
-MasterWork
-Crystal (B-Grade)
-B
-Other
-A crystal of B-Grade.
-NPC Sell Price
-4 500 Adena
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-MasterWork 2026
-All rights reserved
+Crystal (B-Grade) B Other A crystal of B-Grade. NPC Sell Price 4 500 Adena Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

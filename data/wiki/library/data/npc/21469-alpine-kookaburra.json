@@ -2,68 +2,72 @@
   "key": "npc:21469",
   "type": "npc",
   "id": 21469,
-  "name": "Lu4 Wiki: NPC Alpine Kookaburra",
+  "name": "Alpine Kookaburra",
   "url": "/lu4/npc/21469-alpine-kookaburra",
-  "source_url": "https://masterwork.wiki/lu4/npc/21469-alpine-kookaburra",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21469-alpine-kookaburra",
   "raw_html": "library/raw/lu4/npc/21469-alpine-kookaburra.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "13 860 / 1 464",
+    "P. Atk. / M. Atk.": "1 928 / 1 048",
+    "P. Def. / M. Def.": "251 / 284",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "24 637 / 2 288",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (4x) Lv. 12 Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Weak P. Def. Lv. 8 Weak M. Def. Lv. 8 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 65"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21469",
-      "type": "npc",
-      "id": 21469,
-      "name": "Lu4",
-      "url": "/lu4/npc/21469-alpine-kookaburra"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Weak P. Def. Lv. 8",
-      "url": "/lu4/skill/4412-weak-p-def/8"
+      "name": "Weak P. Def.",
+      "url": "/lu4/skill/4412-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "item:57",
@@ -73,11 +77,11 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:5468",
+      "key": "item:4053",
       "type": "item",
-      "id": 5468,
-      "name": "Recipe: Elemental Sword(60%) NG",
-      "url": "/lu4/item/5468-recipe-elemental-sword60"
+      "id": 4053,
+      "name": "Ring of Black Ore Gemstone NG",
+      "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
     },
     {
       "key": "item:5460",
@@ -87,11 +91,11 @@
       "url": "/lu4/item/5460-recipe-dasparions-staff60"
     },
     {
-      "key": "item:4053",
+      "key": "item:5468",
       "type": "item",
-      "id": 4053,
-      "name": "Ring of Black Ore Gemstone NG",
-      "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
+      "id": 5468,
+      "name": "Recipe: Elemental Sword(60%) NG",
+      "url": "/lu4/item/5468-recipe-elemental-sword60"
     }
   ]
 }

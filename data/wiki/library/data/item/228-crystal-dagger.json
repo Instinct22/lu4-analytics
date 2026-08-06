@@ -2,24 +2,27 @@
   "key": "item:228",
   "type": "item",
   "id": 228,
-  "name": "Lu4 Wiki: Item Crystal Dagger",
+  "name": "Crystal Dagger",
   "url": "/lu4/item/228-crystal-dagger",
-  "source_url": "https://masterwork.wiki/lu4/item/228-crystal-dagger",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/228-crystal-dagger",
   "raw_html": "library/raw/lu4/item/228-crystal-dagger.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Focus: P. Crit. Rate +60. Critical Damage: P. Crit. Damage +140. Haste: Atk. Spd. +7%.",
+    "P. Atk. / M. Atk.": "136 / 83",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "2452 Crystallization Failed Enchant +0 2452 - +1 2497 - +2 2542 - +3 2587 - +4 2677 1451 +5 2767 1541 +6 2857 1631 +7 2947 1721 +8 3037 1811 +9 3127 1901 +10 3217 1991 +11 3307 2081 +12 3397 2171",
+    "NPC Sell Price": "2 356 750 Adena",
+    "Weight": "1000",
+    "P. Crit. Rate.": "12",
+    "Accuracy": "-4",
     "Recipes": "Recipe: Crystal Dagger NG",
     "Soul Crystals": "Crystal Dagger Focus C Crystal Dagger C Gemstone C NG (555 pcs.) Red Soul Crystal - Stage 8 NG Crystal Dagger Haste C Crystal Dagger C Gemstone C NG (555 pcs.) Green Soul Crystal - Stage 8 NG Crystal Dagger Critical Damage C Crystal Dagger C Gemstone C NG (555 pcs.) Blue Soul Crystal - Stage 8 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Dagger / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:228",
-      "type": "item",
-      "id": 228,
-      "name": "Lu4",
-      "url": "/lu4/item/228-crystal-dagger"
-    },
     {
       "key": "item:2357",
       "type": "item",
@@ -80,63 +83,77 @@
       "key": "npc:36643",
       "type": "npc",
       "id": 36643,
-      "name": "Fenralith Cuthalion Lv. 50",
+      "name": "Fenralith Cuthalion",
       "url": "/lu4/npc/36643-fenralith-cuthalion"
     },
     {
       "key": "npc:34659",
       "type": "npc",
       "id": 34659,
-      "name": "Hunter Gargoyle Lv. 52",
+      "name": "Hunter Gargoyle",
       "url": "/lu4/npc/34659-hunter-gargoyle"
+    },
+    {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
     },
     {
       "key": "npc:25047",
       "type": "npc",
       "id": 25047,
-      "name": "Karte Lv. 55",
+      "name": "Karte",
       "url": "/lu4/npc/25047-karte"
     },
     {
       "key": "npc:25026",
       "type": "npc",
       "id": 25026,
-      "name": "Ketra Commander Atis Lv. 49",
+      "name": "Ketra Commander Atis",
       "url": "/lu4/npc/25026-ketra-commander-atis"
     },
     {
       "key": "npc:21631",
       "type": "npc",
       "id": 21631,
-      "name": "Zombie Captain's Spiritual Body Lv. 52",
+      "name": "Zombie Captain's Spiritual Body",
       "url": "/lu4/npc/21631-zombie-captains-spiritual-body"
     },
     {
       "key": "npc:20999",
       "type": "npc",
       "id": 20999,
-      "name": "Roving Soul Lv. 53",
+      "name": "Roving Soul",
       "url": "/lu4/npc/20999-roving-soul"
     },
     {
       "key": "npc:20987",
       "type": "npc",
       "id": 20987,
-      "name": "Sairon's Doll Lv. 53",
+      "name": "Sairon's Doll",
       "url": "/lu4/npc/20987-sairons-doll"
     },
     {
       "key": "npc:20951",
       "type": "npc",
       "id": 20951,
-      "name": "Pobby's Maid Lv. 53",
+      "name": "Pobby's Maid",
       "url": "/lu4/npc/20951-pobbys-maid"
     },
     {
       "key": "npc:20242",
       "type": "npc",
       "id": 20242,
-      "name": "Dustwind Gargoyle Lv. 54",
+      "name": "Dustwind Gargoyle",
       "url": "/lu4/npc/20242-dustwind-gargoyle"
     }
   ]

@@ -2,105 +2,67 @@
   "key": "npc:20066",
   "type": "npc",
   "id": 20066,
-  "name": "Lu4 Wiki: NPC Ol Mahum Captain",
+  "name": "Ol Mahum Captain",
   "url": "/lu4/npc/20066-ol-mahum-captain",
-  "source_url": "https://masterwork.wiki/lu4/npc/20066-ol-mahum-captain",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20066-ol-mahum-captain",
   "raw_html": "library/raw/lu4/npc/20066-ol-mahum-captain.html",
   "stats": {
-    "Location": "Земли Глудио (+3) Земли Глудио Заброшенный Лагерь Застава Гноллов Поместье Виндавуд"
+    "Respawn Time": "12 seconds",
+    "Location": "Земли Глудио (+3) Земли Глудио Заброшенный Лагерь Застава Гноллов Поместье Виндавуд",
+    "HP / MP": "1 495 / 319",
+    "P. Atk. / M. Atk.": "104 / 45",
+    "P. Def. / M. Def.": "148 / 88",
+    "Accuracy / Evasion": "61 / 60",
+    "Exp / SP": "1 489 / 149",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Strong P. Def. Lv. 13 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 25"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20066",
-      "type": "npc",
-      "id": 20066,
-      "name": "Lu4",
-      "url": "/lu4/npc/20066-ol-mahum-captain"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:31",
-      "type": "location",
-      "id": 31,
-      "name": "Заброшенный Лагерь",
-      "url": "/lu4/location/31-zabrosennyj-lager"
-    },
-    {
-      "key": "location:248",
-      "type": "location",
-      "id": 248,
-      "name": "Застава Гноллов",
-      "url": "/lu4/location/248-zastava-gnollov"
-    },
-    {
-      "key": "location:246",
-      "type": "location",
-      "id": 246,
-      "name": "Поместье Виндавуд",
-      "url": "/lu4/location/246-pomeste-vindavud"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:5549",
+      "key": "item:57",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:1936",
-      "type": "item",
-      "id": 1936,
-      "name": "White Tunic Pattern NG",
-      "url": "/lu4/item/1936-white-tunic-pattern"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1868",
@@ -110,25 +72,25 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
       "key": "item:879",
       "type": "item",
       "id": 879,
       "name": "Enchanted Ring D",
       "url": "/lu4/item/879-enchanted-ring"
-    },
-    {
-      "key": "item:434",
-      "type": "item",
-      "id": 434,
-      "name": "White Tunic D",
-      "url": "/lu4/item/434-white-tunic"
-    },
-    {
-      "key": "item:179",
-      "type": "item",
-      "id": 179,
-      "name": "Mace of Prayer D",
-      "url": "/lu4/item/179-mace-of-prayer"
     },
     {
       "key": "item:128",
@@ -138,11 +100,32 @@
       "url": "/lu4/item/128-knights-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:179",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 179,
+      "name": "Mace of Prayer D",
+      "url": "/lu4/item/179-mace-of-prayer"
+    },
+    {
+      "key": "item:434",
+      "type": "item",
+      "id": 434,
+      "name": "White Tunic D",
+      "url": "/lu4/item/434-white-tunic"
+    },
+    {
+      "key": "item:1936",
+      "type": "item",
+      "id": 1936,
+      "name": "White Tunic Pattern NG",
+      "url": "/lu4/item/1936-white-tunic-pattern"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:2261",
@@ -157,13 +140,6 @@
       "id": 2260,
       "name": "Recipe: Mace of Judgment NG",
       "url": "/lu4/item/2260-recipe-mace-of-judgment"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
     }
   ]
 }

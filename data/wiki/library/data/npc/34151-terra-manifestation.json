@@ -2,42 +2,38 @@
   "key": "npc:34151",
   "type": "npc",
   "id": 34151,
-  "name": "Lu4 Wiki: NPC Terra Manifestation",
+  "name": "Terra Manifestation",
   "url": "/lu4/npc/34151-terra-manifestation",
-  "source_url": "https://masterwork.wiki/lu4/npc/34151-terra-manifestation",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/34151-terra-manifestation",
   "raw_html": "library/raw/lu4/npc/34151-terra-manifestation.html",
   "stats": {
-    "Location": "Волшебная Долина"
+    "Respawn Time": "1 minute",
+    "Location": "Волшебная Долина",
+    "HP / MP": "3 862 / 1 657",
+    "P. Atk. / M. Atk.": "1 304 / 776",
+    "P. Def. / M. Def.": "501 / 346",
+    "Accuracy / Evasion": "98 / 108",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 Resist Full Magic Attack Lv. 1",
+    "Type": "Elemental, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:34151",
-      "type": "npc",
-      "id": 34151,
-      "name": "Lu4",
-      "url": "/lu4/npc/34151-terra-manifestation"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

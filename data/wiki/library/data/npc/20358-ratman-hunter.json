@@ -2,119 +2,60 @@
   "key": "npc:20358",
   "type": "npc",
   "id": 20358,
-  "name": "Lu4 Wiki: NPC Ratman Hunter",
+  "name": "Ratman Hunter",
   "url": "/lu4/npc/20358-ratman-hunter",
-  "source_url": "https://masterwork.wiki/lu4/npc/20358-ratman-hunter",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20358-ratman-hunter",
   "raw_html": "library/raw/lu4/npc/20358-ratman-hunter.html",
   "stats": {
-    "Location": "Охотничьи Угодья Фельмер (+3) Охотничьи Угодья Фельмер Нейтральные Воды Земли Глудио Охотничьи Угодья Зла"
+    "Respawn Time": "17 seconds",
+    "Location": "Охотничьи Угодья Фельмер (+3) Охотничьи Угодья Фельмер Нейтральные Воды Земли Глудио Охотничьи Угодья Зла",
+    "HP / MP": "483 / 214",
+    "P. Atk. / M. Atk.": "46 / 22",
+    "P. Def. / M. Def.": "102 / 83",
+    "Accuracy / Evasion": "54 / 53",
+    "Exp / SP": "515 / 52",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 18"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20358",
-      "type": "npc",
-      "id": 20358,
-      "name": "Lu4",
-      "url": "/lu4/npc/20358-ratman-hunter"
-    },
-    {
-      "key": "location:249",
-      "type": "location",
-      "id": 249,
-      "name": "Охотничьи Угодья Фельмер",
-      "url": "/lu4/location/249-ohotnici-ugoda-felmer"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:229",
-      "type": "location",
-      "id": 229,
-      "name": "Охотничьи Угодья Зла",
-      "url": "/lu4/location/229-ohotnici-ugoda-zla"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1800",
-      "type": "item",
-      "id": 1800,
-      "name": "Recipe: Piece Bone Breastplate NG",
-      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
-    },
-    {
-      "key": "item:218",
-      "type": "item",
-      "id": 218,
-      "name": "Throwing Knife NG",
-      "url": "/lu4/item/218-throwing-knife"
-    },
-    {
-      "key": "item:217",
-      "type": "item",
-      "id": 217,
-      "name": "Shining Knife NG",
-      "url": "/lu4/item/217-shining-knife"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -124,11 +65,46 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2141",
+      "key": "item:217",
       "type": "item",
-      "id": 2141,
-      "name": "Recipe: Silver Mold NG",
-      "url": "/lu4/item/2141-recipe-silver-mold"
+      "id": 217,
+      "name": "Shining Knife NG",
+      "url": "/lu4/item/217-shining-knife"
+    },
+    {
+      "key": "item:218",
+      "type": "item",
+      "id": 218,
+      "name": "Throwing Knife NG",
+      "url": "/lu4/item/218-throwing-knife"
+    },
+    {
+      "key": "item:1800",
+      "type": "item",
+      "id": 1800,
+      "name": "Recipe: Piece Bone Breastplate NG",
+      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1924",
+      "type": "item",
+      "id": 1924,
+      "name": "Leather Helmet Design NG",
+      "url": "/lu4/item/1924-leather-helmet-design"
     },
     {
       "key": "item:2140",
@@ -138,11 +114,11 @@
       "url": "/lu4/item/2140-recipe-high-grade-suede"
     },
     {
-      "key": "item:1924",
+      "key": "item:2141",
       "type": "item",
-      "id": 1924,
-      "name": "Leather Helmet Design NG",
-      "url": "/lu4/item/1924-leather-helmet-design"
+      "id": 2141,
+      "name": "Recipe: Silver Mold NG",
+      "url": "/lu4/item/2141-recipe-silver-mold"
     }
   ]
 }

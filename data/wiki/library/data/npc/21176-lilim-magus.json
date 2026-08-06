@@ -2,75 +2,114 @@
   "key": "npc:21176",
   "type": "npc",
   "id": 21176,
-  "name": "Lu4 Wiki: NPC Lilim Magus",
+  "name": "Lilim Magus",
   "url": "/lu4/npc/21176-lilim-magus",
-  "source_url": "https://masterwork.wiki/lu4/npc/21176-lilim-magus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21176-lilim-magus",
   "raw_html": "library/raw/lu4/npc/21176-lilim-magus.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "9 290 / 956",
+    "P. Atk. / M. Atk.": "789 / 414",
+    "P. Def. / M. Def.": "195 / 234",
+    "Accuracy / Evasion": "84 / 84",
+    "Exp / SP": "12 492 / 952",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Sleep Resistance Lv. 5 Resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 51"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21176",
-      "type": "npc",
-      "id": 21176,
-      "name": "Lu4",
-      "url": "/lu4/npc/21176-lilim-magus"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
+    },
+    {
+      "key": "item:6360",
+      "type": "item",
+      "id": 6360,
+      "name": "Blue Seal Stone NG",
+      "url": "/lu4/item/6360-blue-seal-stone"
+    },
+    {
+      "key": "item:6361",
+      "type": "item",
+      "id": 6361,
+      "name": "Green Seal Stone NG",
+      "url": "/lu4/item/6361-green-seal-stone"
+    },
+    {
+      "key": "item:6362",
+      "type": "item",
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
+    },
+    {
+      "key": "item:326",
+      "type": "item",
+      "id": 326,
+      "name": "Heathen's Book C",
+      "url": "/lu4/item/326-heathens-book"
+    },
+    {
+      "key": "item:2110",
+      "type": "item",
+      "id": 2110,
+      "name": "Heathen's Book Page NG",
+      "url": "/lu4/item/2110-heathens-book-page"
     },
     {
       "key": "item:49800",
@@ -87,27 +126,6 @@
       "url": "/lu4/item/8752-high-grade-life-stone"
     },
     {
-      "key": "item:6362",
-      "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
-    },
-    {
-      "key": "item:6361",
-      "type": "item",
-      "id": 6361,
-      "name": "Green Seal Stone NG",
-      "url": "/lu4/item/6361-green-seal-stone"
-    },
-    {
-      "key": "item:6360",
-      "type": "item",
-      "id": 6360,
-      "name": "Blue Seal Stone NG",
-      "url": "/lu4/item/6360-blue-seal-stone"
-    },
-    {
       "key": "item:3012",
       "type": "item",
       "id": 3012,
@@ -120,13 +138,6 @@
       "id": 2232,
       "name": "Recipe: Drake Leather Armor NG",
       "url": "/lu4/item/2232-recipe-drake-leather-armor"
-    },
-    {
-      "key": "item:2110",
-      "type": "item",
-      "id": 2110,
-      "name": "Heathen's Book Page NG",
-      "url": "/lu4/item/2110-heathens-book-page"
     },
     {
       "key": "item:1873",
@@ -164,18 +175,11 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:326",
+      "key": "item:1872",
       "type": "item",
-      "id": 326,
-      "name": "Heathen's Book C",
-      "url": "/lu4/item/326-heathens-book"
-    },
-    {
-      "key": "item:4601",
-      "type": "item",
-      "id": 4601,
-      "name": "Greater Dye of STR <Str+3 Con-3> NG",
-      "url": "/lu4/item/4601-greater-dye-of-str-str3-con-3"
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
     },
     {
       "key": "item:4041",
@@ -185,11 +189,11 @@
       "url": "/lu4/item/4041-mold-hardener"
     },
     {
-      "key": "item:1872",
+      "key": "item:4601",
       "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
+      "id": 4601,
+      "name": "Greater Dye of STR <Str+3 Con-3> NG",
+      "url": "/lu4/item/4601-greater-dye-of-str-str3-con-3"
     }
   ]
 }

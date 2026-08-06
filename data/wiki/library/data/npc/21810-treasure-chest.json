@@ -2,33 +2,51 @@
   "key": "npc:21810",
   "type": "npc",
   "id": 21810,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21810-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21810-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21810-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21810-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 090 / 852",
+    "P. Atk. / M. Atk.": "484 / 265",
+    "P. Def. / M. Def.": "284 / 226",
+    "Accuracy / Evasion": "81 / 81",
+    "Exp / SP": "2 764 / 202",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 48"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21810",
-      "type": "npc",
-      "id": 21810,
-      "name": "Lu4",
-      "url": "/lu4/npc/21810-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:4042",
+      "key": "item:57",
       "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:500",
+      "type": "item",
+      "id": 500,
+      "name": "Great Helmet C",
+      "url": "/lu4/item/500-great-helmet"
+    },
+    {
+      "key": "item:632",
+      "type": "item",
+      "id": 632,
+      "name": "Knight's Shield C",
+      "url": "/lu4/item/632-knights-shield"
     },
     {
       "key": "item:2947",
@@ -45,13 +63,6 @@
       "url": "/lu4/item/2496-dwarven-chain-shield"
     },
     {
-      "key": "item:2166",
-      "type": "item",
-      "id": 2166,
-      "name": "Recipe: Earring of Seal (100%) NG",
-      "url": "/lu4/item/2166-recipe-earring-of-seal-100"
-    },
-    {
       "key": "item:1972",
       "type": "item",
       "id": 1972,
@@ -64,6 +75,13 @@
       "id": 1971,
       "name": "Great Helmet Material NG",
       "url": "/lu4/item/1971-great-helmet-material"
+    },
+    {
+      "key": "item:2166",
+      "type": "item",
+      "id": 2166,
+      "name": "Recipe: Earring of Seal (100%) NG",
+      "url": "/lu4/item/2166-recipe-earring-of-seal-100"
     },
     {
       "key": "item:1895",
@@ -94,32 +112,11 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:632",
+      "key": "item:4042",
       "type": "item",
-      "id": 632,
-      "name": "Knight's Shield C",
-      "url": "/lu4/item/632-knights-shield"
-    },
-    {
-      "key": "item:500",
-      "type": "item",
-      "id": 500,
-      "name": "Great Helmet C",
-      "url": "/lu4/item/500-great-helmet"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:1967",
-      "type": "item",
-      "id": 1967,
-      "name": "Plated Leather Gaiters Material NG",
-      "url": "/lu4/item/1967-plated-leather-gaiters-material"
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
     },
     {
       "key": "item:1966",
@@ -127,6 +124,13 @@
       "id": 1966,
       "name": "Plated Leather Shirt Fragment NG",
       "url": "/lu4/item/1966-plated-leather-shirt-fragment"
+    },
+    {
+      "key": "item:1967",
+      "type": "item",
+      "id": 1967,
+      "name": "Plated Leather Gaiters Material NG",
+      "url": "/lu4/item/1967-plated-leather-gaiters-material"
     }
   ]
 }

@@ -2,124 +2,107 @@
   "key": "npc:21207",
   "type": "npc",
   "id": 21207,
-  "name": "Lu4 Wiki: NPC Nephilim Commander",
+  "name": "Nephilim Commander",
   "url": "/lu4/npc/21207-nephilim-commander",
-  "source_url": "https://masterwork.wiki/lu4/npc/21207-nephilim-commander",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21207-nephilim-commander",
   "raw_html": "library/raw/lu4/npc/21207-nephilim-commander.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "18 568 / 1 896",
+    "P. Atk. / M. Atk.": "2 221 / 1 668",
+    "P. Def. / M. Def.": "1 012 / 388",
+    "Accuracy / Evasion": "135 / 125",
+    "Exp / SP": "41 856 / 4 696",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 53, Unholy -83",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Very Strong P. Def. Lv. 16 Slightly Weak M. Def. Lv. 9 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Hold Resistance Lv. 3 Slightly resistant to Hold. Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21207",
-      "type": "npc",
-      "id": 21207,
-      "name": "Lu4",
-      "url": "/lu4/npc/21207-nephilim-commander"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:6361",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32391",
-      "type": "item",
-      "id": 32391,
-      "name": "Unidentified Sealed Majestic Circlet A",
-      "url": "/lu4/item/32391-unidentified-sealed-majestic-circlet"
-    },
-    {
-      "key": "item:32389",
-      "type": "item",
-      "id": 32389,
-      "name": "Unidentified Sealed Shield of Nightmare A",
-      "url": "/lu4/item/32389-unidentified-sealed-shield-of-nightmare"
-    },
-    {
-      "key": "item:32386",
-      "type": "item",
-      "id": 32386,
-      "name": "Unidentified Sealed Helm of Nightmare A",
-      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
+      "id": 6361,
+      "name": "Green Seal Stone NG",
+      "url": "/lu4/item/6361-green-seal-stone"
     },
     {
       "key": "item:6362",
@@ -129,11 +112,11 @@
       "url": "/lu4/item/6362-red-seal-stone"
     },
     {
-      "key": "item:6361",
+      "key": "item:32389",
       "type": "item",
-      "id": 6361,
-      "name": "Green Seal Stone NG",
-      "url": "/lu4/item/6361-green-seal-stone"
+      "id": 32389,
+      "name": "Unidentified Sealed Shield of Nightmare A",
+      "url": "/lu4/item/32389-unidentified-sealed-shield-of-nightmare"
     },
     {
       "key": "item:5528",
@@ -155,6 +138,34 @@
       "id": 5495,
       "name": "Sealed Shield of Nightmare Fragment NG",
       "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
+    },
+    {
+      "key": "item:32391",
+      "type": "item",
+      "id": 32391,
+      "name": "Unidentified Sealed Majestic Circlet A",
+      "url": "/lu4/item/32391-unidentified-sealed-majestic-circlet"
+    },
+    {
+      "key": "item:32386",
+      "type": "item",
+      "id": 32386,
+      "name": "Unidentified Sealed Helm of Nightmare A",
+      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:729",
+      "type": "item",
+      "id": 729,
+      "name": "Scroll: Enchant Weapon (A-Grade) NG",
+      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     },
     {
       "key": "item:4041",
@@ -192,13 +203,6 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:729",
-      "type": "item",
-      "id": 729,
-      "name": "Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
-    },
-    {
       "key": "item:5488",
       "type": "item",
       "id": 5488,
@@ -206,18 +210,18 @@
       "url": "/lu4/item/5488-sealed-majestic-robe-fabric"
     },
     {
-      "key": "item:5480",
-      "type": "item",
-      "id": 5480,
-      "name": "Sealed Leather Armor of Nightmare Fabric NG",
-      "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
-    },
-    {
       "key": "item:730",
       "type": "item",
       "id": 730,
       "name": "Scroll: Enchant Armor (A-Grade) NG",
       "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
+    },
+    {
+      "key": "item:5480",
+      "type": "item",
+      "id": 5480,
+      "name": "Sealed Leather Armor of Nightmare Fabric NG",
+      "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
     }
   ]
 }

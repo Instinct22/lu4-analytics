@@ -2,189 +2,186 @@
   "key": "npc:29001",
   "type": "npc",
   "id": 29001,
-  "name": "Lu4 Wiki: NPC Queen Ant",
+  "name": "Queen Ant",
   "url": "/lu4/npc/29001-queen-ant",
-  "source_url": "https://masterwork.wiki/lu4/npc/29001-queen-ant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/29001-queen-ant",
   "raw_html": "library/raw/lu4/npc/29001-queen-ant.html",
   "stats": {
-    "Location": "Муравейник"
+    "Respawn Time": "Fixed",
+    "Location": "Муравейник",
+    "HP / MP": "2 953 170 / 10 550",
+    "P. Atk. / M. Atk.": "4 136 / 468",
+    "P. Def. / M. Def.": "560 / 668",
+    "Accuracy / Evasion": "91 / 96",
+    "Exp / SP": "6 471 500 / 1 000 000",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Queen Ant Lv. 1 Vulnerable to Fire attacks but highly resistant to archery attacks. Resist Full Magic Attack Lv. 3",
+    "Grade": "C",
+    "Type": "Bug, Lv. 43"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:29001",
-      "type": "npc",
-      "id": 29001,
-      "name": "Lu4",
-      "url": "/lu4/npc/29001-queen-ant"
-    },
-    {
-      "key": "location:17",
-      "type": "location",
-      "id": 17,
-      "name": "Муравейник",
-      "url": "/lu4/location/17-muravejnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4021",
       "type": "skill",
       "id": 4021,
-      "name": "Queen Ant Lv. 1 Vulnerable to Fire attacks but highly resistant to archery attacks.",
-      "url": "/lu4/skill/4021-queen-ant/1"
+      "name": "Queen Ant",
+      "url": "/lu4/skill/4021-queen-ant"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 3",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/3"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:36454",
+      "key": "item:32615",
       "type": "item",
-      "id": 36454,
-      "name": "Magical Ring of Queen Ant C",
-      "url": "/lu4/item/36454-magical-ring-of-queen-ant"
+      "id": 32615,
+      "name": "The 1st Physical Ring of Queen Ant C",
+      "url": "/lu4/item/32615-the-1st-physical-ring-of-queen-ant"
     },
     {
-      "key": "item:32595",
+      "key": "item:36457",
       "type": "item",
-      "id": 32595,
-      "name": "Unidentified Zubei's Helmet B",
-      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
+      "id": 36457,
+      "name": "The 1st Magical Ring of Queen Ant C",
+      "url": "/lu4/item/36457-the-1st-magical-ring-of-queen-ant"
     },
     {
-      "key": "item:32594",
+      "key": "item:8620",
       "type": "item",
-      "id": 32594,
-      "name": "Unidentified Avadon Breastplate B",
-      "url": "/lu4/item/32594-unidentified-avadon-breastplate"
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
     },
     {
-      "key": "item:32593",
+      "key": "item:72",
       "type": "item",
-      "id": 32593,
-      "name": "Unidentified Zubei's Shield B",
-      "url": "/lu4/item/32593-unidentified-zubeis-shield"
+      "id": 72,
+      "name": "Stormbringer C",
+      "url": "/lu4/item/72-stormbringer"
     },
     {
-      "key": "item:32592",
+      "key": "item:71",
       "type": "item",
-      "id": 32592,
-      "name": "Unidentified Doom Shield B",
-      "url": "/lu4/item/32592-unidentified-doom-shield"
+      "id": 71,
+      "name": "Flamberge C",
+      "url": "/lu4/item/71-flamberge"
     },
     {
-      "key": "item:32591",
+      "key": "item:161",
       "type": "item",
-      "id": 32591,
-      "name": "Unidentified Avadon Shield B",
-      "url": "/lu4/item/32591-unidentified-avadon-shield"
+      "id": 161,
+      "name": "Silver Axe C",
+      "url": "/lu4/item/161-silver-axe"
     },
     {
-      "key": "item:32590",
+      "key": "item:7887",
       "type": "item",
-      "id": 32590,
-      "name": "Unidentified Avadon Robe B",
-      "url": "/lu4/item/32590-unidentified-avadon-robe"
+      "id": 7887,
+      "name": "Mysterious Sword C",
+      "url": "/lu4/item/7887-mysterious-sword"
     },
     {
-      "key": "item:32589",
+      "key": "item:192",
       "type": "item",
-      "id": 32589,
-      "name": "Unidentified Tunic of Doom B",
-      "url": "/lu4/item/32589-unidentified-tunic-of-doom"
+      "id": 192,
+      "name": "Crystal Staff C",
+      "url": "/lu4/item/192-crystal-staff"
     },
     {
-      "key": "item:32588",
+      "key": "item:242",
       "type": "item",
-      "id": 32588,
-      "name": "Unidentified Blue Wolf Tunic B",
-      "url": "/lu4/item/32588-unidentified-blue-wolf-tunic"
+      "id": 242,
+      "name": "Soulfire Dirk C",
+      "url": "/lu4/item/242-soulfire-dirk"
     },
     {
-      "key": "item:32587",
+      "key": "item:226",
       "type": "item",
-      "id": 32587,
-      "name": "Unidentified Tunic of Zubei B",
-      "url": "/lu4/item/32587-unidentified-tunic-of-zubei"
+      "id": 226,
+      "name": "Cursed Dagger C",
+      "url": "/lu4/item/226-cursed-dagger"
     },
     {
-      "key": "item:32535",
+      "key": "item:263",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+      "id": 263,
+      "name": "Chakram C",
+      "url": "/lu4/item/263-chakram"
     },
     {
-      "key": "item:32534",
+      "key": "item:281",
       "type": "item",
-      "id": 32534,
-      "name": "Unidentified Staff of Evil Spirits B",
-      "url": "/lu4/item/32534-unidentified-staff-of-evil-spirits"
+      "id": 281,
+      "name": "Crystallized Ice Bow C",
+      "url": "/lu4/item/281-crystallized-ice-bow"
     },
     {
-      "key": "item:32533",
+      "key": "item:298",
       "type": "item",
-      "id": 32533,
-      "name": "Unidentified Sprite's Staff B",
-      "url": "/lu4/item/32533-unidentified-sprites-staff"
+      "id": 298,
+      "name": "Orcish Glaive C",
+      "url": "/lu4/item/298-orcish-glaive"
     },
     {
-      "key": "item:32439",
+      "key": "item:76",
       "type": "item",
-      "id": 32439,
-      "name": "Unidentified Star Buster B",
-      "url": "/lu4/item/32439-unidentified-star-buster"
+      "id": 76,
+      "name": "Sword of Delusion C",
+      "url": "/lu4/item/76-sword-of-delusion"
     },
     {
-      "key": "item:32438",
+      "key": "item:7882",
       "type": "item",
-      "id": 32438,
-      "name": "Unidentified Ice Storm Hammer B",
-      "url": "/lu4/item/32438-unidentified-ice-storm-hammer"
+      "id": 7882,
+      "name": "Pa'agrian Sword C",
+      "url": "/lu4/item/7882-paagrian-sword"
     },
     {
-      "key": "item:32437",
+      "key": "item:162",
       "type": "item",
-      "id": 32437,
-      "name": "Unidentified Destroyer Hammer A",
-      "url": "/lu4/item/32437-unidentified-destroyer-hammer"
+      "id": 162,
+      "name": "War Axe C",
+      "url": "/lu4/item/162-war-axe"
     },
     {
-      "key": "item:32435",
+      "key": "item:7898",
       "type": "item",
-      "id": 32435,
-      "name": "Unidentified Spiritual Eye A",
-      "url": "/lu4/item/32435-unidentified-spiritual-eye"
+      "id": 7898,
+      "name": "Karik Horn C",
+      "url": "/lu4/item/7898-karik-horn"
     },
     {
-      "key": "item:32434",
+      "key": "item:84",
       "type": "item",
-      "id": 32434,
-      "name": "Unidentified Kaim Vanul's Bones B",
-      "url": "/lu4/item/32434-unidentified-kaim-vanuls-bones"
+      "id": 84,
+      "name": "Homunkulus's Sword C",
+      "url": "/lu4/item/84-homunkuluss-sword"
     },
     {
-      "key": "item:32433",
+      "key": "item:145",
       "type": "item",
-      "id": 32433,
-      "name": "Unidentified Spell Breaker B",
-      "url": "/lu4/item/32433-unidentified-spell-breaker"
+      "id": 145,
+      "name": "Sword of Whispering Death C",
+      "url": "/lu4/item/145-sword-of-whispering-death"
     },
     {
-      "key": "item:32432",
+      "key": "item:201",
       "type": "item",
-      "id": 32432,
-      "name": "Unidentified Wizard's Tear B",
-      "url": "/lu4/item/32432-unidentified-wizards-tear"
+      "id": 201,
+      "name": "Club of Nature C",
+      "url": "/lu4/item/201-club-of-nature"
     },
     {
       "key": "npc:29003",

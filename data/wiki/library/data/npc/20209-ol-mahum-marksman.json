@@ -2,126 +2,67 @@
   "key": "npc:20209",
   "type": "npc",
   "id": 20209,
-  "name": "Lu4 Wiki: NPC Ol Mahum Marksman",
+  "name": "Ol Mahum Marksman",
   "url": "/lu4/npc/20209-ol-mahum-marksman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20209-ol-mahum-marksman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20209-ol-mahum-marksman",
   "raw_html": "library/raw/lu4/npc/20209-ol-mahum-marksman.html",
   "stats": {
-    "Location": "Холмы Диона (+2) Холмы Диона Лагерь Партизан Земли Диона"
+    "Respawn Time": "25 seconds",
+    "Location": "Холмы Диона (+2) Холмы Диона Лагерь Партизан Земли Диона",
+    "HP / MP": "1 710 / 371",
+    "P. Atk. / M. Atk.": "288 / 56",
+    "P. Def. / M. Def.": "119 / 96",
+    "Accuracy / Evasion": "64 / 63",
+    "Exp / SP": "1 842 / 184",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Strong P. Atk. Lv. 15 Slightly Weak M. Def. Lv. 10 Slightly Weak P. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 28"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20209",
-      "type": "npc",
-      "id": 20209,
-      "name": "Lu4",
-      "url": "/lu4/npc/20209-ol-mahum-marksman"
-    },
-    {
-      "key": "location:244",
-      "type": "location",
-      "id": 244,
-      "name": "Холмы Диона",
-      "url": "/lu4/location/244-holmy-diona"
-    },
-    {
-      "key": "location:50",
-      "type": "location",
-      "id": 50,
-      "name": "Лагерь Партизан",
-      "url": "/lu4/location/50-lager-partizan"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:1939",
-      "type": "item",
-      "id": 1939,
-      "name": "Mithril Banded Gaiters Material NG",
-      "url": "/lu4/item/1939-mithril-banded-gaiters-material"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1061",
@@ -131,18 +72,25 @@
       "url": "/lu4/item/1061-healing-potion"
     },
     {
-      "key": "item:415",
+      "key": "item:1867",
       "type": "item",
-      "id": 415,
-      "name": "Mithril Banded Gaiters D",
-      "url": "/lu4/item/415-mithril-banded-gaiters"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:394",
+      "key": "item:1872",
       "type": "item",
-      "id": 394,
-      "name": "Reinforced Leather Shirt D",
-      "url": "/lu4/item/394-reinforced-leather-shirt"
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
     },
     {
       "key": "item:316",
@@ -152,11 +100,53 @@
       "url": "/lu4/item/316-sages-blood"
     },
     {
-      "key": "item:57",
+      "key": "item:415",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 415,
+      "name": "Mithril Banded Gaiters D",
+      "url": "/lu4/item/415-mithril-banded-gaiters"
+    },
+    {
+      "key": "item:1939",
+      "type": "item",
+      "id": 1939,
+      "name": "Mithril Banded Gaiters Material NG",
+      "url": "/lu4/item/1939-mithril-banded-gaiters-material"
+    },
+    {
+      "key": "item:394",
+      "type": "item",
+      "id": 394,
+      "name": "Reinforced Leather Shirt D",
+      "url": "/lu4/item/394-reinforced-leather-shirt"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
     },
     {
       "key": "item:1940",
@@ -171,13 +161,6 @@
       "id": 1938,
       "name": "Mithril Banded Mail Material NG",
       "url": "/lu4/item/1938-mithril-banded-mail-material"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
     }
   ]
 }

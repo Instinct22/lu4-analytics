@@ -1,79 +1,16 @@
-# Lu4 Wiki: Item Upper Arsenal Catalogue - Part V
+# Upper Arsenal Catalogue - Part V
 
-- Source: https://masterwork.wiki/lu4/item/39333-upper-arsenal-catalogue-part-v
+- Source: https://masterwork.wiki/lu4-b-w-c/item/39333-upper-arsenal-catalogue-part-v
 - Path: /lu4/item/39333-upper-arsenal-catalogue-part-v
 - Type: item
 - Key: item:39333
 
 ## Stats
+- Effect: A catalog of weapon blueprints from the upper archive of Tower of Insolence. Part 5 of 5. Take it to Blueprint Seller Lara in the Aden Blacksmith Shop.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Other
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Upper Arsenal Catalogue - Part V
-Lu4
-Upper Arsenal Catalogue - Part V
-NG
-Other
-A catalog of weapon blueprints from the upper archive of Tower of Insolence. Part 5 of 5. Take it to Blueprint Seller Lara in the Aden Blacksmith Shop.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Contained In
-Quest
-Levels
-The Sealed Archives, part 2
-70 ~ 75
-Item
-Amount
-Get Type
-Sealed Tome of Upper Archive
-NG
-1
-Chance-based
-MasterWork 2026
-All rights reserved
+Upper Arsenal Catalogue - Part V NG Other A catalog of weapon blueprints from the upper archive of Tower of Insolence. Part 5 of 5. Take it to Blueprint Seller Lara in the Aden Blacksmith Shop. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

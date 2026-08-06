@@ -2,112 +2,74 @@
   "key": "npc:20105",
   "type": "npc",
   "id": 20105,
-  "name": "Lu4 Wiki: NPC Dark Horror",
+  "name": "Dark Horror",
   "url": "/lu4/npc/20105-dark-horror",
-  "source_url": "https://masterwork.wiki/lu4/npc/20105-dark-horror",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20105-dark-horror",
   "raw_html": "library/raw/lu4/npc/20105-dark-horror.html",
   "stats": {
-    "Location": "Кровавые Топи"
+    "Respawn Time": "15 seconds",
+    "Location": "Кровавые Топи",
+    "HP / MP": "427 / 193",
+    "P. Atk. / M. Atk.": "50 / 26",
+    "P. Def. / M. Def.": "80 / 62",
+    "Accuracy / Evasion": "49 / 49",
+    "Exp / SP": "457 / 46",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 16"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20105",
-      "type": "npc",
-      "id": 20105,
-      "name": "Lu4",
-      "url": "/lu4/npc/20105-dark-horror"
-    },
-    {
-      "key": "location:106",
-      "type": "location",
-      "id": 106,
-      "name": "Кровавые Топи",
-      "url": "/lu4/location/106-krovavye-topi"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
-    },
-    {
-      "key": "item:2140",
-      "type": "item",
-      "id": 2140,
-      "name": "Recipe: High-Grade Suede NG",
-      "url": "/lu4/item/2140-recipe-high-grade-suede"
-    },
-    {
-      "key": "item:2011",
-      "type": "item",
-      "id": 2011,
-      "name": "Short Spear Edge NG",
-      "url": "/lu4/item/2011-short-spear-edge"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:735",
-      "type": "item",
-      "id": 735,
-      "name": "Alacrity Potion NG",
-      "url": "/lu4/item/735-alacrity-potion"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "item:57",
@@ -124,11 +86,39 @@
       "url": "/lu4/item/15-short-spear"
     },
     {
-      "key": "item:1801",
+      "key": "item:2011",
       "type": "item",
-      "id": 1801,
-      "name": "Recipe: Piece Bone Gaiters NG",
-      "url": "/lu4/item/1801-recipe-piece-bone-gaiters"
+      "id": 2011,
+      "name": "Short Spear Edge NG",
+      "url": "/lu4/item/2011-short-spear-edge"
+    },
+    {
+      "key": "item:735",
+      "type": "item",
+      "id": 735,
+      "name": "Alacrity Potion NG",
+      "url": "/lu4/item/735-alacrity-potion"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:2140",
+      "type": "item",
+      "id": 2140,
+      "name": "Recipe: High-Grade Suede NG",
+      "url": "/lu4/item/2140-recipe-high-grade-suede"
     },
     {
       "key": "item:734",
@@ -136,6 +126,13 @@
       "id": 734,
       "name": "Haste Potion NG",
       "url": "/lu4/item/734-haste-potion"
+    },
+    {
+      "key": "item:1801",
+      "type": "item",
+      "id": 1801,
+      "name": "Recipe: Piece Bone Gaiters NG",
+      "url": "/lu4/item/1801-recipe-piece-bone-gaiters"
     }
   ]
 }

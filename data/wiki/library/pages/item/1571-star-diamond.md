@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Star Diamond
+# Star Diamond
 
-- Source: https://masterwork.wiki/lu4/item/1571-star-diamond
+- Source: https://masterwork.wiki/lu4-b-w-c/item/1571-star-diamond
 - Path: /lu4/item/1571-star-diamond
 - Type: item
 - Key: item:1571
 
 ## Stats
+- Effect: Everyone is looking for this diamond. Take this to the real owner.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Star Diamond
-Lu4
-Eternal
-MasterWork
-Star Diamond
-NG
-Quest Item
-Everyone is looking for this diamond. Take this to the real owner.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-Jumble, Tumble, Diamond Fuss
-10 ~ 14
-Quest
-Levels
-Jumble, Tumble, Diamond Fuss
-10 ~ 14
-MasterWork 2026
-All rights reserved
+Star Diamond NG Quest Item Everyone is looking for this diamond. Take this to the real owner. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

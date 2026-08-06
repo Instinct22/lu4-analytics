@@ -2,84 +2,130 @@
   "key": "npc:20584",
   "type": "npc",
   "id": 20584,
-  "name": "Lu4 Wiki: NPC Timak Orc Archer",
+  "name": "Timak Orc Archer",
   "url": "/lu4/npc/20584-timak-orc-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20584-timak-orc-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20584-timak-orc-archer",
   "raw_html": "library/raw/lu4/npc/20584-timak-orc-archer.html",
   "stats": {
-    "Location": "Застава Тимак"
+    "Respawn Time": "27 seconds ± 7 seconds",
+    "Location": "Застава Тимак",
+    "HP / MP": "1 567 / 622",
+    "P. Atk. / M. Atk.": "493 / 130",
+    "P. Def. / M. Def.": "218 / 186",
+    "Accuracy / Evasion": "77 / 76",
+    "Exp / SP": "1 689 / 169",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 41"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20584",
-      "type": "npc",
-      "id": 20584,
-      "name": "Lu4",
-      "url": "/lu4/npc/20584-timak-orc-archer"
-    },
-    {
-      "key": "location:231",
-      "type": "location",
-      "id": 231,
-      "name": "Застава Тимак",
-      "url": "/lu4/location/231-zastava-timak"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39296",
+      "key": "item:281",
       "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
+      "id": 281,
+      "name": "Crystallized Ice Bow C",
+      "url": "/lu4/item/281-crystallized-ice-bow"
     },
     {
-      "key": "item:39295",
+      "key": "item:2074",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 2074,
+      "name": "Crystallized Ice Bow Shaft NG",
+      "url": "/lu4/item/2074-crystallized-ice-bow-shaft"
+    },
+    {
+      "key": "item:72",
+      "type": "item",
+      "id": 72,
+      "name": "Stormbringer C",
+      "url": "/lu4/item/72-stormbringer"
+    },
+    {
+      "key": "item:2060",
+      "type": "item",
+      "id": 2060,
+      "name": "Stormbringer Blade NG",
+      "url": "/lu4/item/2060-stormbringer-blade"
+    },
+    {
+      "key": "item:2454",
+      "type": "item",
+      "id": 2454,
+      "name": "Karmian Gloves C",
+      "url": "/lu4/item/2454-karmian-gloves"
+    },
+    {
+      "key": "item:2944",
+      "type": "item",
+      "id": 2944,
+      "name": "Karmian Gloves Fabric NG",
+      "url": "/lu4/item/2944-karmian-gloves-fabric"
+    },
+    {
+      "key": "item:2305",
+      "type": "item",
+      "id": 2305,
+      "name": "Recipe: Crystal Staff NG",
+      "url": "/lu4/item/2305-recipe-crystal-staff"
+    },
+    {
+      "key": "item:2995",
+      "type": "item",
+      "id": 2995,
+      "name": "Recipe: Reinforced Mithril Gloves NG",
+      "url": "/lu4/item/2995-recipe-reinforced-mithril-gloves"
+    },
+    {
+      "key": "item:2306",
+      "type": "item",
+      "id": 2306,
+      "name": "Recipe: Stick of Faith NG",
+      "url": "/lu4/item/2306-recipe-stick-of-faith"
     },
     {
       "key": "item:4923",
@@ -96,13 +142,6 @@
       "url": "/lu4/item/4922-spellbook-summon-binding-cubic"
     },
     {
-      "key": "item:4918",
-      "type": "item",
-      "id": 4918,
-      "name": "Spellbook: Summon Kai the Cat NG",
-      "url": "/lu4/item/4918-spellbook-summon-kai-the-cat"
-    },
-    {
       "key": "item:3056",
       "type": "item",
       "id": 3056,
@@ -110,74 +149,39 @@
       "url": "/lu4/item/3056-spellbook-summon-dark-panther"
     },
     {
-      "key": "item:2995",
+      "key": "item:4918",
       "type": "item",
-      "id": 2995,
-      "name": "Recipe: Reinforced Mithril Gloves NG",
-      "url": "/lu4/item/2995-recipe-reinforced-mithril-gloves"
+      "id": 4918,
+      "name": "Spellbook: Summon Kai the Cat NG",
+      "url": "/lu4/item/4918-spellbook-summon-kai-the-cat"
     },
     {
-      "key": "item:2944",
+      "key": "item:39295",
       "type": "item",
-      "id": 2944,
-      "name": "Karmian Gloves Fabric NG",
-      "url": "/lu4/item/2944-karmian-gloves-fabric"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:2454",
+      "key": "item:39296",
       "type": "item",
-      "id": 2454,
-      "name": "Karmian Gloves C",
-      "url": "/lu4/item/2454-karmian-gloves"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:2306",
+      "key": "item:39297",
       "type": "item",
-      "id": 2306,
-      "name": "Recipe: Stick of Faith NG",
-      "url": "/lu4/item/2306-recipe-stick-of-faith"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
-      "key": "item:2305",
+      "key": "item:1805",
       "type": "item",
-      "id": 2305,
-      "name": "Recipe: Crystal Staff NG",
-      "url": "/lu4/item/2305-recipe-crystal-staff"
-    },
-    {
-      "key": "item:2074",
-      "type": "item",
-      "id": 2074,
-      "name": "Crystallized Ice Bow Shaft NG",
-      "url": "/lu4/item/2074-crystallized-ice-bow-shaft"
-    },
-    {
-      "key": "item:2060",
-      "type": "item",
-      "id": 2060,
-      "name": "Stormbringer Blade NG",
-      "url": "/lu4/item/2060-stormbringer-blade"
-    },
-    {
-      "key": "item:281",
-      "type": "item",
-      "id": 281,
-      "name": "Crystallized Ice Bow C",
-      "url": "/lu4/item/281-crystallized-ice-bow"
-    },
-    {
-      "key": "item:72",
-      "type": "item",
-      "id": 72,
-      "name": "Stormbringer C",
-      "url": "/lu4/item/72-stormbringer"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1805,
+      "name": "Recipe: Soulshot (C-Grade) NG",
+      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
     },
     {
       "key": "item:2310",
@@ -194,13 +198,6 @@
       "url": "/lu4/item/2297-recipe-flamberge"
     },
     {
-      "key": "item:2068",
-      "type": "item",
-      "id": 2068,
-      "name": "Stick of Faith Shaft NG",
-      "url": "/lu4/item/2068-stick-of-faith-shaft"
-    },
-    {
       "key": "item:2066",
       "type": "item",
       "id": 2066,
@@ -208,11 +205,11 @@
       "url": "/lu4/item/2066-heavy-doom-hammer-head"
     },
     {
-      "key": "item:1805",
+      "key": "item:2068",
       "type": "item",
-      "id": 1805,
-      "name": "Recipe: Soulshot (C-Grade) NG",
-      "url": "/lu4/item/1805-recipe-soulshot-c-grade"
+      "id": 2068,
+      "name": "Stick of Faith Shaft NG",
+      "url": "/lu4/item/2068-stick-of-faith-shaft"
     }
   ]
 }

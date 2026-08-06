@@ -2,30 +2,32 @@
   "key": "item:295",
   "type": "item",
   "id": 295,
-  "name": "Lu4 Wiki: Item Dwarven Trident",
+  "name": "Dwarven Trident",
   "url": "/lu4/item/295-dwarven-trident",
-  "source_url": "https://masterwork.wiki/lu4/item/295-dwarven-trident",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/295-dwarven-trident",
   "raw_html": "library/raw/lu4/item/295-dwarven-trident.html",
   "stats": {
+    "P. Atk. / M. Atk.": "51 / 32",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "915 Crystallization Failed Enchant +0 915 - +1 1005 - +2 1095 - +3 1185 - +4 1365 907 +5 1545 1087 +6 1725 1267 +7 1905 1447 +8 2085 1627 +9 2265 1807 +10 2445 1987 +11 2625 2167 +12 2805 2347",
+    "NPC Sell Price": "247 750 Adena",
+    "Weight": "2090",
+    "P. Crit. Rate.": "8",
+    "Accuracy": "-4",
     "Item Skills": "Polearm Multi-Attack Lv. 1",
     "Recipes": "Recipe: Dwarven Trident NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Polearm / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:295",
-      "type": "item",
-      "id": 295,
-      "name": "Lu4",
-      "url": "/lu4/item/295-dwarven-trident"
-    },
-    {
       "key": "skill:3599",
       "type": "skill",
       "id": 3599,
-      "name": "Polearm Multi-Attack Lv. 1",
-      "url": "/lu4/skill/3599-polearm-multi-attack/1"
+      "name": "Polearm Multi-Attack",
+      "url": "/lu4/skill/3599-polearm-multi-attack"
     },
     {
       "key": "item:2263",
@@ -38,35 +40,35 @@
       "key": "npc:21135",
       "type": "npc",
       "id": 21135,
-      "name": "Underground Kobold Warrior Lv. 27",
+      "name": "Underground Kobold Warrior",
       "url": "/lu4/npc/21135-underground-kobold-warrior"
     },
     {
       "key": "npc:21133",
       "type": "npc",
       "id": 21133,
-      "name": "Dead Pit Skeleton Archer Lv. 25",
+      "name": "Dead Pit Skeleton Archer",
       "url": "/lu4/npc/21133-dead-pit-skeleton-archer"
     },
     {
       "key": "npc:21123",
       "type": "npc",
       "id": 21123,
-      "name": "Baar Dre Vanul Destroyer Lv. 25",
+      "name": "Baar Dre Vanul Destroyer",
       "url": "/lu4/npc/21123-baar-dre-vanul-destroyer"
     },
     {
       "key": "npc:20926",
       "type": "npc",
       "id": 20926,
-      "name": "Poison Araneid Lv. 25",
+      "name": "Poison Araneid",
       "url": "/lu4/npc/20926-poison-araneid"
     },
     {
       "key": "npc:20921",
       "type": "npc",
       "id": 20921,
-      "name": "Maille Lizardman Guard Lv. 24",
+      "name": "Maille Lizardman Guard",
       "url": "/lu4/npc/20921-maille-lizardman-guard"
     }
   ]

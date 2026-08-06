@@ -2,82 +2,65 @@
   "key": "npc:21148",
   "type": "npc",
   "id": 21148,
-  "name": "Lu4 Wiki: NPC Catacomb Liviona",
+  "name": "Catacomb Liviona",
   "url": "/lu4/npc/21148-catacomb-liviona",
-  "source_url": "https://masterwork.wiki/lu4/npc/21148-catacomb-liviona",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21148-catacomb-liviona",
   "raw_html": "library/raw/lu4/npc/21148-catacomb-liviona.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "7 414 / 719",
+    "P. Atk. / M. Atk.": "367 / 190",
+    "P. Def. / M. Def.": "186 / 193",
+    "Accuracy / Evasion": "77 / 87",
+    "Exp / SP": "8 400 / 572",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 44"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21148",
-      "type": "npc",
-      "id": 21148,
-      "name": "Lu4",
-      "url": "/lu4/npc/21148-catacomb-liviona"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
-      "key": "item:6037",
+      "key": "item:57",
       "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:2217",
-      "type": "item",
-      "id": 2217,
-      "name": "Recipe: Knight's Shield NG",
-      "url": "/lu4/item/2217-recipe-knights-shield"
-    },
-    {
-      "key": "item:2163",
-      "type": "item",
-      "id": 2163,
-      "name": "Recipe: Earring of Protection NG",
-      "url": "/lu4/item/2163-recipe-earring-of-protection"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2074",
@@ -87,18 +70,11 @@
       "url": "/lu4/item/2074-crystallized-ice-bow-shaft"
     },
     {
-      "key": "item:1880",
+      "key": "item:281",
       "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
+      "id": 281,
+      "name": "Crystallized Ice Bow C",
+      "url": "/lu4/item/281-crystallized-ice-bow"
     },
     {
       "key": "item:1864",
@@ -108,18 +84,46 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:281",
+      "key": "item:1869",
       "type": "item",
-      "id": 281,
-      "name": "Crystallized Ice Bow C",
-      "url": "/lu4/item/281-crystallized-ice-bow"
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
-      "key": "item:57",
+      "key": "item:1880",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:2163",
+      "type": "item",
+      "id": 2163,
+      "name": "Recipe: Earring of Protection NG",
+      "url": "/lu4/item/2163-recipe-earring-of-protection"
+    },
+    {
+      "key": "item:2217",
+      "type": "item",
+      "id": 2217,
+      "name": "Recipe: Knight's Shield NG",
+      "url": "/lu4/item/2217-recipe-knights-shield"
+    },
+    {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
+    },
+    {
+      "key": "item:6037",
+      "type": "item",
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
     }
   ]
 }

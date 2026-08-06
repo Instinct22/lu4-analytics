@@ -1,0 +1,37 @@
+{
+  "key": "skill:1159",
+  "type": "skill",
+  "id": 1159,
+  "name": "Curse Death Link",
+  "url": "/lu4/skill/1159-curse-death-link",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1159-curse-death-link",
+  "raw_html": "library/raw/lu4/skill/1159-curse-death-link.html",
+  "stats": {
+    "Effect": "Transfers user's pain, using 68 Power to inflict dark damage on an enemy. Power increases as HP decreases.",
+    "Consumes": "45 MP",
+    "Reuse Time": "1 second",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "Unholy 0",
+    "Trait": "trait_unholy",
+    "Cast Range": "900 (1400)",
+    "Available For": "NecromancerLv. 52SpellhowlerLv. 52",
+    "Type": "Magical / Magical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:13",
+      "type": "class",
+      "id": 13,
+      "name": "NecromancerLv. 52",
+      "url": "/lu4/class/13-necromancer"
+    },
+    {
+      "key": "class:40",
+      "type": "class",
+      "id": 40,
+      "name": "SpellhowlerLv. 52",
+      "url": "/lu4/class/40-spellhowler"
+    }
+  ]
+}

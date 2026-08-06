@@ -2,125 +2,24 @@
   "key": "item:2266",
   "type": "item",
   "id": 2266,
-  "name": "Recipe",
+  "name": "Recipe: Shilen Knife",
   "url": "/lu4/item/2266-recipe-shilen-knife",
-  "source_url": "https://masterwork.wiki/lu4/item/2266-recipe-shilen-knife",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2266-recipe-shilen-knife",
   "raw_html": "library/raw/lu4/item/2266-recipe-shilen-knife.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Shilen Knife'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "9 670 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "108",
     "Success Rate": "100%",
-    "Result": "Shilen Knife D"
+    "Result": "Shilen Knife D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2028",
-      "type": "item",
-      "id": 2028,
-      "name": "Shilen Knife Edge NG",
-      "amount": "6"
-    },
-    {
-      "key": "item:1883",
-      "type": "item",
-      "id": 1883,
-      "name": "Steel Mold NG",
-      "amount": "2"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "50"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "118"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "590"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "590"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "118"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "354"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "354"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "300"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "91"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2266",
-      "type": "item",
-      "id": 2266,
-      "name": "Lu4",
-      "url": "/lu4/item/2266-recipe-shilen-knife"
-    },
     {
       "key": "item:2028",
       "type": "item",
@@ -216,28 +115,28 @@
       "key": "npc:20615",
       "type": "npc",
       "id": 20615,
-      "name": "Ritmal Swordsman Lv. 29",
+      "name": "Ritmal Swordsman",
       "url": "/lu4/npc/20615-ritmal-swordsman"
     },
     {
       "key": "npc:20253",
       "type": "npc",
       "id": 20253,
-      "name": "Delu Lizardman Warrior Lv. 30",
+      "name": "Delu Lizardman Warrior",
       "url": "/lu4/npc/20253-delu-lizardman-warrior"
     },
     {
       "key": "npc:34656",
       "type": "npc",
       "id": 34656,
-      "name": "Red Fox Lv. 30",
+      "name": "Red Fox",
       "url": "/lu4/npc/34656-red-fox"
     },
     {
       "key": "npc:20079",
       "type": "npc",
       "id": 20079,
-      "name": "Ant Lv. 30",
+      "name": "Ant",
       "url": "/lu4/npc/20079-ant"
     }
   ]

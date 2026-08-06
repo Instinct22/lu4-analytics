@@ -2,24 +2,23 @@
   "key": "item:2432",
   "type": "item",
   "id": 2432,
-  "name": "Lu4 Wiki: Item Dwarven Chain Boots",
+  "name": "Dwarven Chain Boots",
   "url": "/lu4/item/2432-dwarven-chain-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/2432-dwarven-chain-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2432-dwarven-chain-boots",
   "raw_html": "library/raw/lu4/item/2432-dwarven-chain-boots.html",
   "stats": {
+    "P. Def.": "34",
+    "Crystal Amount": "39 Crystallization Failed Enchant +0 39 - +1 45 - +2 51 - +3 57 - +4 75 55 +5 93 73 +6 111 91 +7 129 109 +8 147 127",
+    "NPC Sell Price": "48 550 Adena",
+    "Weight": "1210",
     "Set Part": "Dwarven Chain Mail Shirt C",
     "Recipes": "Recipe: Dwarven Chain Boots NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Boots"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2432",
-      "type": "item",
-      "id": 2432,
-      "name": "Lu4",
-      "url": "/lu4/item/2432-dwarven-chain-boots"
-    },
     {
       "key": "set:839",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:842",
       "type": "set",
       "id": 842,
-      "name": "",
+      "name": "set:842",
       "url": "/lu4/set/842"
     },
     {
@@ -42,73 +41,80 @@
       "url": "/lu4/item/2993-recipe-dwarven-chain-boots"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25504",
       "type": "npc",
       "id": 25504,
-      "name": "Nellis' Vengeful Spirit Lv. 39",
+      "name": "Nellis' Vengeful Spirit",
       "url": "/lu4/npc/25504-nellis-vengeful-spirit"
     },
     {
       "key": "npc:25487",
       "type": "npc",
       "id": 25487,
-      "name": "Water Spirit Lian Lv. 40",
+      "name": "Water Spirit Lian",
       "url": "/lu4/npc/25487-water-spirit-lian"
     },
     {
       "key": "npc:25115",
       "type": "npc",
       "id": 25115,
-      "name": "Icarus Sample 1 Lv. 40",
+      "name": "Icarus Sample 1",
       "url": "/lu4/npc/25115-icarus-sample-1"
     },
     {
       "key": "npc:21809",
       "type": "npc",
       "id": 21809,
-      "name": "Treasure Chest Lv. 45",
+      "name": "Treasure Chest",
       "url": "/lu4/npc/21809-treasure-chest"
     },
     {
       "key": "npc:20837",
       "type": "npc",
       "id": 20837,
-      "name": "Tainted Ogre Lv. 45",
+      "name": "Tainted Ogre",
       "url": "/lu4/npc/20837-tainted-ogre"
     },
     {
       "key": "npc:20800",
       "type": "npc",
       "id": 20800,
-      "name": "Eva's Seeker Lv. 47",
+      "name": "Eva's Seeker",
       "url": "/lu4/npc/20800-evas-seeker"
     },
     {
       "key": "npc:20798",
       "type": "npc",
       "id": 20798,
-      "name": "Water Giant Lv. 45",
+      "name": "Water Giant",
       "url": "/lu4/npc/20798-water-giant"
     },
     {
       "key": "npc:20681",
       "type": "npc",
       "id": 20681,
-      "name": "Vanor Silenos Lv. 45",
+      "name": "Vanor Silenos",
       "url": "/lu4/npc/20681-vanor-silenos"
     },
     {
       "key": "npc:20590",
       "type": "npc",
       "id": 20590,
-      "name": "Liele Lv. 46",
+      "name": "Liele",
       "url": "/lu4/npc/20590-liele"
     },
     {
       "key": "npc:20237",
       "type": "npc",
       "id": 20237,
-      "name": "Cave Servant Archer Lv. 47",
+      "name": "Cave Servant Archer",
       "url": "/lu4/npc/20237-cave-servant-archer"
     }
   ]

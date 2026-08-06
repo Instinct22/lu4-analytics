@@ -2,24 +2,27 @@
   "key": "item:158",
   "type": "item",
   "id": 158,
-  "name": "Lu4 Wiki: Item Tarbar",
+  "name": "Tarbar",
   "url": "/lu4/item/158-tarbar",
-  "source_url": "https://masterwork.wiki/lu4/item/158-tarbar",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/158-tarbar",
   "raw_html": "library/raw/lu4/item/158-tarbar.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Focus: P. Crit. Rate +50. Haste: Atk. Spd. +7%. Health: Max HP +25%.",
+    "P. Atk. / M. Atk.": "79 / 47",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1983 Crystallization Failed Enchant +0 1983 - +1 2073 - +2 2163 - +3 2253 - +4 2433 1441 +5 2613 1621 +6 2793 1801 +7 2973 1981 +8 3153 2161 +9 3333 2341 +10 3513 2521 +11 3693 2701 +12 3873 2881",
+    "NPC Sell Price": "537 000 Adena",
+    "Weight": "1730",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Recipes": "Recipe: Tarbar NG",
     "Soul Crystals": "Tarbar Health D Tarbar D Gemstone D NG (120 pcs.) Red Soul Crystal - Stage 3 NG Tarbar Focus D Tarbar D Gemstone D NG (120 pcs.) Green Soul Crystal - Stage 3 NG Tarbar Haste D Tarbar D Gemstone D NG (120 pcs.) Blue Soul Crystal - Stage 3 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Blunt / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:158",
-      "type": "item",
-      "id": 158,
-      "name": "Lu4",
-      "url": "/lu4/item/158-tarbar"
-    },
     {
       "key": "item:2273",
       "type": "item",
@@ -80,70 +83,84 @@
       "key": "npc:25188",
       "type": "npc",
       "id": 25188,
-      "name": "Apepi Lv. 30",
+      "name": "Apepi",
       "url": "/lu4/npc/25188-apepi"
+    },
+    {
+      "key": "npc:25112",
+      "type": "npc",
+      "id": 25112,
+      "name": "Beleth's Agent, Meana",
+      "url": "/lu4/npc/25112-beleths-agent-meana"
+    },
+    {
+      "key": "npc:25079",
+      "type": "npc",
+      "id": 25079,
+      "name": "Cat's Eye Bandit",
+      "url": "/lu4/npc/25079-cats-eye-bandit"
     },
     {
       "key": "npc:21694",
       "type": "npc",
       "id": 21694,
-      "name": "Dimension Invader Food Lv. 40",
+      "name": "Dimension Invader Food",
       "url": "/lu4/npc/21694-dimension-invader-food"
     },
     {
       "key": "npc:21193",
       "type": "npc",
       "id": 21193,
-      "name": "Gigant Raider Lv. 39",
+      "name": "Gigant Raider",
       "url": "/lu4/npc/21193-gigant-raider"
     },
     {
       "key": "npc:21172",
       "type": "npc",
       "id": 21172,
-      "name": "Lith Patrolman Lv. 39",
+      "name": "Lith Patrolman",
       "url": "/lu4/npc/21172-lith-patrolman"
     },
     {
       "key": "npc:21146",
       "type": "npc",
       "id": 21146,
-      "name": "Grave Keeper Dark Horror Lv. 40",
+      "name": "Grave Keeper Dark Horror",
       "url": "/lu4/npc/21146-grave-keeper-dark-horror"
     },
     {
       "key": "npc:20930",
       "type": "npc",
       "id": 20930,
-      "name": "Hatu Brown Bear Lv. 34",
+      "name": "Hatu Brown Bear",
       "url": "/lu4/npc/20930-hatu-brown-bear"
     },
     {
       "key": "npc:20781",
       "type": "npc",
       "id": 20781,
-      "name": "Delu Lizardman Shaman Lv. 35",
+      "name": "Delu Lizardman Shaman",
       "url": "/lu4/npc/20781-delu-lizardman-shaman"
     },
     {
       "key": "npc:20546",
       "type": "npc",
       "id": 20546,
-      "name": "Turek Orc Elder Lv. 32",
+      "name": "Turek Orc Elder",
       "url": "/lu4/npc/20546-turek-orc-elder"
     },
     {
       "key": "npc:20201",
       "type": "npc",
       "id": 20201,
-      "name": "Ghoul Lv. 32",
+      "name": "Ghoul",
       "url": "/lu4/npc/20201-ghoul"
     },
     {
       "key": "npc:20192",
       "type": "npc",
       "id": 20192,
-      "name": "Tyrant Lv. 35",
+      "name": "Tyrant",
       "url": "/lu4/npc/20192-tyrant"
     }
   ]

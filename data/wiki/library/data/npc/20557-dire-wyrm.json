@@ -2,98 +2,81 @@
   "key": "npc:20557",
   "type": "npc",
   "id": 20557,
-  "name": "Lu4 Wiki: NPC Dire Wyrm",
+  "name": "Dire Wyrm",
   "url": "/lu4/npc/20557-dire-wyrm",
-  "source_url": "https://masterwork.wiki/lu4/npc/20557-dire-wyrm",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20557-dire-wyrm",
   "raw_html": "library/raw/lu4/npc/20557-dire-wyrm.html",
   "stats": {
-    "Location": "Море Спор"
+    "Respawn Time": "18 seconds ± 3 seconds",
+    "Location": "Море Спор",
+    "HP / MP": "1 754 / 654",
+    "P. Atk. / M. Atk.": "287 / 157",
+    "P. Def. / M. Def.": "256 / 184",
+    "Accuracy / Evasion": "75 / 75",
+    "Exp / SP": "1 897 / 190",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Dragon, Lv. 42"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20557",
-      "type": "npc",
-      "id": 20557,
-      "name": "Lu4",
-      "url": "/lu4/npc/20557-dire-wyrm"
-    },
-    {
-      "key": "location:104",
-      "type": "location",
-      "id": 104,
-      "name": "Море Спор",
-      "url": "/lu4/location/104-more-spor"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:1866",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:39298",
+      "key": "item:1871",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
     },
     {
-      "key": "item:39297",
+      "key": "item:1877",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
     },
     {
       "key": "item:5154",
@@ -103,11 +86,81 @@
       "url": "/lu4/item/5154-recipe-soulshot-c-compressed-package-100"
     },
     {
-      "key": "item:2988",
+      "key": "item:952",
       "type": "item",
-      "id": 2988,
-      "name": "Recipe: Reinforced Mithril Gaiters NG",
-      "url": "/lu4/item/2988-recipe-reinforced-mithril-gaiters"
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:302",
+      "type": "item",
+      "id": 302,
+      "name": "Body Slasher C",
+      "url": "/lu4/item/302-body-slasher"
+    },
+    {
+      "key": "item:2076",
+      "type": "item",
+      "id": 2076,
+      "name": "Body Slasher Blade NG",
+      "url": "/lu4/item/2076-body-slasher-blade"
+    },
+    {
+      "key": "item:96",
+      "type": "item",
+      "id": 96,
+      "name": "Scythe C",
+      "url": "/lu4/item/96-scythe"
+    },
+    {
+      "key": "item:2062",
+      "type": "item",
+      "id": 2062,
+      "name": "Scythe Edge NG",
+      "url": "/lu4/item/2062-scythe-edge"
+    },
+    {
+      "key": "item:72",
+      "type": "item",
+      "id": 72,
+      "name": "Stormbringer C",
+      "url": "/lu4/item/72-stormbringer"
+    },
+    {
+      "key": "item:2060",
+      "type": "item",
+      "id": 2060,
+      "name": "Stormbringer Blade NG",
+      "url": "/lu4/item/2060-stormbringer-blade"
+    },
+    {
+      "key": "item:398",
+      "type": "item",
+      "id": 398,
+      "name": "Plated Leather Shirt C",
+      "url": "/lu4/item/398-plated-leather-shirt"
+    },
+    {
+      "key": "item:1966",
+      "type": "item",
+      "id": 1966,
+      "name": "Plated Leather Shirt Fragment NG",
+      "url": "/lu4/item/1966-plated-leather-shirt-fragment"
+    },
+    {
+      "key": "item:397",
+      "type": "item",
+      "id": 397,
+      "name": "Reinforced Mithril Shirt C",
+      "url": "/lu4/item/397-reinforced-mithril-shirt"
+    },
+    {
+      "key": "item:1961",
+      "type": "item",
+      "id": 1961,
+      "name": "Reinforced Mithril Shirt Fabric NG",
+      "url": "/lu4/item/1961-reinforced-mithril-shirt-fabric"
     },
     {
       "key": "item:2162",
@@ -124,88 +177,18 @@
       "url": "/lu4/item/2161-recipe-aquastone-ring"
     },
     {
-      "key": "item:2076",
+      "key": "item:2988",
       "type": "item",
-      "id": 2076,
-      "name": "Body Slasher Blade NG",
-      "url": "/lu4/item/2076-body-slasher-blade"
+      "id": 2988,
+      "name": "Recipe: Reinforced Mithril Gaiters NG",
+      "url": "/lu4/item/2988-recipe-reinforced-mithril-gaiters"
     },
     {
-      "key": "item:2062",
+      "key": "item:39295",
       "type": "item",
-      "id": 2062,
-      "name": "Scythe Edge NG",
-      "url": "/lu4/item/2062-scythe-edge"
-    },
-    {
-      "key": "item:2060",
-      "type": "item",
-      "id": 2060,
-      "name": "Stormbringer Blade NG",
-      "url": "/lu4/item/2060-stormbringer-blade"
-    },
-    {
-      "key": "item:1966",
-      "type": "item",
-      "id": 1966,
-      "name": "Plated Leather Shirt Fragment NG",
-      "url": "/lu4/item/1966-plated-leather-shirt-fragment"
-    },
-    {
-      "key": "item:1961",
-      "type": "item",
-      "id": 1961,
-      "name": "Reinforced Mithril Shirt Fabric NG",
-      "url": "/lu4/item/1961-reinforced-mithril-shirt-fabric"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:398",
-      "type": "item",
-      "id": 398,
-      "name": "Plated Leather Shirt C",
-      "url": "/lu4/item/398-plated-leather-shirt"
-    },
-    {
-      "key": "item:8334",
-      "type": "item",
-      "id": 8334,
-      "name": "Mysterious Sword Blade NG",
-      "url": "/lu4/item/8334-mysterious-sword-blade"
-    },
-    {
-      "key": "item:4469",
-      "type": "item",
-      "id": 4469,
-      "name": "Dye of STR <Str+1 Con-1> NG",
-      "url": "/lu4/item/4469-dye-of-str-str1-con-1"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
       "key": "item:3954",
@@ -215,6 +198,13 @@
       "url": "/lu4/item/3954-recipe-blessed-spiritshot-c"
     },
     {
+      "key": "item:4469",
+      "type": "item",
+      "id": 4469,
+      "name": "Dye of STR <Str+1 Con-1> NG",
+      "url": "/lu4/item/4469-dye-of-str-str1-con-1"
+    },
+    {
       "key": "item:2990",
       "type": "item",
       "id": 2990,
@@ -222,25 +212,32 @@
       "url": "/lu4/item/2990-recipe-chain-boots"
     },
     {
-      "key": "item:2946",
-      "type": "item",
-      "id": 2946,
-      "name": "Plate Leather Gloves Design NG",
-      "url": "/lu4/item/2946-plate-leather-gloves-design"
-    },
-    {
-      "key": "item:2943",
-      "type": "item",
-      "id": 2943,
-      "name": "Chain Gloves Design NG",
-      "url": "/lu4/item/2943-chain-gloves-design"
-    },
-    {
       "key": "item:2209",
       "type": "item",
       "id": 2209,
       "name": "Recipe: Eldarake NG",
       "url": "/lu4/item/2209-recipe-eldarake"
+    },
+    {
+      "key": "item:2943",
+      "type": "item",
+      "id": 2943,
+      "name": "Chain Gauntlets Design NG",
+      "url": "/lu4/item/2943-chain-gauntlets-design"
+    },
+    {
+      "key": "item:8334",
+      "type": "item",
+      "id": 8334,
+      "name": "Mysterious Sword Blade NG",
+      "url": "/lu4/item/8334-mysterious-sword-blade"
+    },
+    {
+      "key": "item:2946",
+      "type": "item",
+      "id": 2946,
+      "name": "Plate Leather Gloves Design NG",
+      "url": "/lu4/item/2946-plate-leather-gloves-design"
     }
   ]
 }

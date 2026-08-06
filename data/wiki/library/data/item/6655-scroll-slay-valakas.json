@@ -2,63 +2,61 @@
   "key": "item:6655",
   "type": "item",
   "id": 6655,
-  "name": "Lu4 Wiki: Item Scroll: Slay Valakas",
+  "name": "Scroll: Slay Valakas",
   "url": "/lu4/item/6655-scroll-slay-valakas",
-  "source_url": "https://masterwork.wiki/lu4/item/6655-scroll-slay-valakas",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/6655-scroll-slay-valakas",
   "raw_html": "library/raw/lu4/item/6655-scroll-slay-valakas.html",
   "stats": {
+    "Effect": "Increases your P. Atk. when fighting against Valakas.",
+    "NPC Sell Price": "4 000 Adena",
+    "Weight": "10",
     "Item Skills": "Amulet: Slay Valakas Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Scroll"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:6655",
-      "type": "item",
-      "id": 6655,
-      "name": "Lu4",
-      "url": "/lu4/item/6655-scroll-slay-valakas"
-    },
-    {
       "key": "skill:2232",
       "type": "skill",
       "id": 2232,
-      "name": "Amulet: Slay Valakas Lv. 1",
-      "url": "/lu4/skill/2232-amulet-slay-valakas/1"
+      "name": "Amulet: Slay Valakas",
+      "url": "/lu4/skill/2232-amulet-slay-valakas"
     },
     {
       "key": "npc:29040",
       "type": "npc",
       "id": 29040,
-      "name": "Wings of Flame, Ixion Lv. 85",
+      "name": "Wings of Flame, Ixion",
       "url": "/lu4/npc/29040-wings-of-flame-ixion"
     },
     {
       "key": "npc:29037",
       "type": "npc",
       "id": 29037,
-      "name": "Fenril Hound Kinaz Lv. 84",
+      "name": "Fenril Hound Kinaz",
       "url": "/lu4/npc/29037-fenril-hound-kinaz"
     },
     {
       "key": "npc:29036",
       "type": "npc",
       "id": 29036,
-      "name": "Fenril Hound Uruz Lv. 83",
+      "name": "Fenril Hound Uruz",
       "url": "/lu4/npc/29036-fenril-hound-uruz"
     },
     {
       "key": "npc:29033",
       "type": "npc",
       "id": 29033,
-      "name": "Fenril Hound Freki Lv. 82",
+      "name": "Fenril Hound Freki",
       "url": "/lu4/npc/29033-fenril-hound-freki"
     },
     {
       "key": "npc:29030",
       "type": "npc",
       "id": 29030,
-      "name": "Fenril Hound Kerinne Lv. 81",
+      "name": "Fenril Hound Kerinne",
       "url": "/lu4/npc/29030-fenril-hound-kerinne"
     }
   ]

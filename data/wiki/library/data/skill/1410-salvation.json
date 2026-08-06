@@ -1,0 +1,38 @@
+{
+  "key": "skill:1410",
+  "type": "skill",
+  "id": 1410,
+  "name": "Salvation",
+  "url": "/lu4/skill/1410-salvation",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1410-salvation",
+  "raw_html": "library/raw/lu4/skill/1410-salvation.html",
+  "stats": {
+    "Effect": "Revives from death with completely recovered status. Maintains buffs and debuffs. 'Noblesse Blessing' disappear, however.",
+    "Consumes": "87 MP , Einhasad's Holy Water, 2 pcs.",
+    "Reuse Time": "1 hour",
+    "Duration": "1 hour",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Cast Range": "400 (900)",
+    "Available For": "BishopLv. 68",
+    "Type": "Magical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "item:8874",
+      "type": "item",
+      "id": 8874,
+      "name": "Einhasad's Holy Water, 2 pcs.",
+      "url": "/lu4/item/8874-einhasads-holy-water"
+    },
+    {
+      "key": "class:16",
+      "type": "class",
+      "id": 16,
+      "name": "BishopLv. 68",
+      "url": "/lu4/class/16-bishop"
+    }
+  ]
+}

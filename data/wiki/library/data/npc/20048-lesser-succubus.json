@@ -2,112 +2,81 @@
   "key": "npc:20048",
   "type": "npc",
   "id": 20048,
-  "name": "Lu4 Wiki: NPC Lesser Succubus",
+  "name": "Lesser Succubus",
   "url": "/lu4/npc/20048-lesser-succubus",
-  "source_url": "https://masterwork.wiki/lu4/npc/20048-lesser-succubus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20048-lesser-succubus",
   "raw_html": "library/raw/lu4/npc/20048-lesser-succubus.html",
   "stats": {
-    "Location": "Школа Темной Магии"
+    "Respawn Time": "50 seconds",
+    "Location": "Школа Темной Магии",
+    "HP / MP": "2 161 / 236",
+    "P. Atk. / M. Atk.": "66 / 54",
+    "P. Def. / M. Def.": "91 / 70",
+    "Accuracy / Evasion": "53 / 53",
+    "Exp / SP": "2 309 / 231",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 9 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 20"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20048",
-      "type": "npc",
-      "id": 20048,
-      "name": "Lu4",
-      "url": "/lu4/npc/20048-lesser-succubus"
-    },
-    {
-      "key": "location:110",
-      "type": "location",
-      "id": 110,
-      "name": "Школа Темной Магии",
-      "url": "/lu4/location/110-skola-temnoj-magii"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
-    },
-    {
-      "key": "item:2142",
-      "type": "item",
-      "id": 2142,
-      "name": "Recipe: Varnish of Purity NG",
-      "url": "/lu4/item/2142-recipe-varnish-of-purity"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:256",
-      "type": "item",
-      "id": 256,
-      "name": "Cestus NG",
-      "url": "/lu4/item/256-cestus"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "item:57",
@@ -117,11 +86,39 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2144",
+      "key": "item:256",
       "type": "item",
-      "id": 2144,
-      "name": "Recipe: Compound Braid NG",
-      "url": "/lu4/item/2144-recipe-compound-braid"
+      "id": 256,
+      "name": "Cestus NG",
+      "url": "/lu4/item/256-cestus"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:2142",
+      "type": "item",
+      "id": 2142,
+      "name": "Recipe: Varnish of Purity NG",
+      "url": "/lu4/item/2142-recipe-varnish-of-purity"
+    },
+    {
+      "key": "item:50",
+      "type": "item",
+      "id": 50,
+      "name": "Leather Gloves NG",
+      "url": "/lu4/item/50-leather-gloves"
     },
     {
       "key": "item:1924",
@@ -131,11 +128,11 @@
       "url": "/lu4/item/1924-leather-helmet-design"
     },
     {
-      "key": "item:50",
+      "key": "item:2144",
       "type": "item",
-      "id": 50,
-      "name": "Leather Gloves NG",
-      "url": "/lu4/item/50-leather-gloves"
+      "id": 2144,
+      "name": "Recipe: Compound Braid NG",
+      "url": "/lu4/item/2144-recipe-compound-braid"
     }
   ]
 }

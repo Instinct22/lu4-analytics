@@ -2,70 +2,67 @@
   "key": "npc:25166",
   "type": "npc",
   "id": 25166,
-  "name": "Lu4 Wiki: NPC Ikuntai",
+  "name": "Ikuntai",
   "url": "/lu4/npc/25166-ikuntai",
-  "source_url": "https://masterwork.wiki/lu4/npc/25166-ikuntai",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25166-ikuntai",
   "raw_html": "library/raw/lu4/npc/25166-ikuntai.html",
   "stats": {
-    "Location": "Руины Отчаяния"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Руины Отчаяния",
+    "HP / MP": "134 813 / 1 345",
+    "P. Atk. / M. Atk.": "382 / 103",
+    "P. Def. / M. Def.": "353 / 377",
+    "Accuracy / Evasion": "76 / 76",
+    "Exp / SP": "459 375 / 108 133",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A handiwork of darkness created by evil necromancers to contain their desire. It is known that he has a close relationship with the moon. Although many researchers were dispatched from the Ivory Tower to learn his true purpose, all of them succumbed to Ikuntai's dark power and joined the side of evil. The Ivory Tower has since forbidden any further study of Ikuntai. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 25"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25166",
-      "type": "npc",
-      "id": 25166,
-      "name": "Lu4",
-      "url": "/lu4/npc/25166-ikuntai"
-    },
-    {
-      "key": "location:29",
-      "type": "location",
-      "id": 29,
-      "name": "Руины Отчаяния",
-      "url": "/lu4/location/29-ruiny-otcaania"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4853",
       "type": "skill",
       "id": 4853,
-      "name": "Raid Boss Lv. 1 A handiwork of darkness created by evil necromancers to contain their desire. It is known that he has a close relationship with the moon. Although many researchers were dispatched from the Ivory Tower to learn his true purpose, all of them succumbed to Ikuntai's dark power and joined the side of evil. The Ivory Tower has since forbidden any further study of Ikuntai.",
-      "url": "/lu4/skill/4853-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4853-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -75,53 +72,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:849",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:2027",
-      "type": "item",
-      "id": 2027,
-      "name": "Spiked Club Head NG",
-      "url": "/lu4/item/2027-spiked-club-head"
-    },
-    {
-      "key": "item:1901",
-      "type": "item",
-      "id": 1901,
-      "name": "Tiger's Eye Earring Stone NG",
-      "url": "/lu4/item/1901-tigers-eye-earring-stone"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:912",
-      "type": "item",
-      "id": 912,
-      "name": "Near Forest Necklace D",
-      "url": "/lu4/item/912-near-forest-necklace"
+      "id": 849,
+      "name": "Tiger's Eye Earring D",
+      "url": "/lu4/item/849-tigers-eye-earring"
     },
     {
       "key": "item:880",
@@ -131,11 +86,25 @@
       "url": "/lu4/item/880-black-pearl-ring"
     },
     {
-      "key": "item:849",
+      "key": "item:912",
       "type": "item",
-      "id": 849,
-      "name": "Tiger's Eye Earring D",
-      "url": "/lu4/item/849-tigers-eye-earring"
+      "id": 912,
+      "name": "Near Forest Necklace D",
+      "url": "/lu4/item/912-near-forest-necklace"
+    },
+    {
+      "key": "item:1901",
+      "type": "item",
+      "id": 1901,
+      "name": "Tiger's Eye Earring Stone NG",
+      "url": "/lu4/item/1901-tigers-eye-earring-stone"
+    },
+    {
+      "key": "item:157",
+      "type": "item",
+      "id": 157,
+      "name": "Spiked Club D",
+      "url": "/lu4/item/157-spiked-club"
     },
     {
       "key": "item:186",
@@ -145,11 +114,39 @@
       "url": "/lu4/item/186-staff-of-magic"
     },
     {
-      "key": "item:157",
+      "key": "item:2027",
       "type": "item",
-      "id": 157,
-      "name": "Spiked Club D",
-      "url": "/lu4/item/157-spiked-club"
+      "id": 2027,
+      "name": "Spiked Club Head NG",
+      "url": "/lu4/item/2027-spiked-club-head"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25167",

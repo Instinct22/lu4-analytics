@@ -2,112 +2,144 @@
   "key": "npc:20565",
   "type": "npc",
   "id": 20565,
-  "name": "Lu4 Wiki: NPC Enchanted Stone Golem",
+  "name": "Enchanted Stone Golem",
   "url": "/lu4/npc/20565-enchanted-stone-golem",
-  "source_url": "https://masterwork.wiki/lu4/npc/20565-enchanted-stone-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20565-enchanted-stone-golem",
   "raw_html": "library/raw/lu4/npc/20565-enchanted-stone-golem.html",
   "stats": {
-    "Location": "Кратер Башни Слоновой Кости"
+    "Respawn Time": "17 seconds ± 3 seconds",
+    "Location": "Кратер Башни Слоновой Кости",
+    "HP / MP": "1 720 / 654",
+    "P. Atk. / M. Atk.": "366 / 196",
+    "P. Def. / M. Def.": "209 / 300",
+    "Accuracy / Evasion": "75 / 75",
+    "Exp / SP": "2 064 / 206",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Very Strong M. Def. Lv. 16 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Bleed Resistance Lv. 5 Resistant to Bleed.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 42"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20565",
-      "type": "npc",
-      "id": 20565,
-      "name": "Lu4",
-      "url": "/lu4/npc/20565-enchanted-stone-golem"
-    },
-    {
-      "key": "location:239",
-      "type": "location",
-      "id": 239,
-      "name": "Кратер Башни Слоновой Кости",
-      "url": "/lu4/location/239-krater-basni-slonovoj-kosti"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 16",
-      "url": "/lu4/skill/4413-very-strong-m-def/16"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:263",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 263,
+      "name": "Chakram C",
+      "url": "/lu4/item/263-chakram"
     },
     {
-      "key": "item:39298",
+      "key": "item:2073",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 2073,
+      "name": "Chakram Edge NG",
+      "url": "/lu4/item/2073-chakram-edge"
+    },
+    {
+      "key": "item:298",
+      "type": "item",
+      "id": 298,
+      "name": "Orcish Glaive C",
+      "url": "/lu4/item/298-orcish-glaive"
+    },
+    {
+      "key": "item:2075",
+      "type": "item",
+      "id": 2075,
+      "name": "Orcish Glaive Blade NG",
+      "url": "/lu4/item/2075-orcish-glaive-blade"
+    },
+    {
+      "key": "item:193",
+      "type": "item",
+      "id": 193,
+      "name": "Stick of Faith C",
+      "url": "/lu4/item/193-stick-of-faith"
+    },
+    {
+      "key": "item:2068",
+      "type": "item",
+      "id": 2068,
+      "name": "Stick of Faith Shaft NG",
+      "url": "/lu4/item/2068-stick-of-faith-shaft"
+    },
+    {
+      "key": "item:2430",
+      "type": "item",
+      "id": 2430,
+      "name": "Karmian Boots C",
+      "url": "/lu4/item/2430-karmian-boots"
     },
     {
       "key": "item:2938",
@@ -117,11 +149,11 @@
       "url": "/lu4/item/2938-karmian-boots-fabric"
     },
     {
-      "key": "item:2430",
+      "key": "item:2204",
       "type": "item",
-      "id": 2430,
-      "name": "Karmian Boots C",
-      "url": "/lu4/item/2430-karmian-boots"
+      "id": 2204,
+      "name": "Recipe: Chain Mail Shirt NG",
+      "url": "/lu4/item/2204-recipe-chain-mail-shirt"
     },
     {
       "key": "item:2312",
@@ -138,60 +170,32 @@
       "url": "/lu4/item/2310-recipe-dark-elven-dagger"
     },
     {
-      "key": "item:2204",
+      "key": "item:39298",
       "type": "item",
-      "id": 2204,
-      "name": "Recipe: Chain Mail Shirt NG",
-      "url": "/lu4/item/2204-recipe-chain-mail-shirt"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
     },
     {
-      "key": "item:2075",
+      "key": "item:39299",
       "type": "item",
-      "id": 2075,
-      "name": "Orcish Glaive Blade NG",
-      "url": "/lu4/item/2075-orcish-glaive-blade"
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
     },
     {
-      "key": "item:2073",
+      "key": "item:39300",
       "type": "item",
-      "id": 2073,
-      "name": "Chakram Edge NG",
-      "url": "/lu4/item/2073-chakram-edge"
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
-      "key": "item:2068",
+      "key": "item:1865",
       "type": "item",
-      "id": 2068,
-      "name": "Stick of Faith Shaft NG",
-      "url": "/lu4/item/2068-stick-of-faith-shaft"
-    },
-    {
-      "key": "item:298",
-      "type": "item",
-      "id": 298,
-      "name": "Orcish Glaive C",
-      "url": "/lu4/item/298-orcish-glaive"
-    },
-    {
-      "key": "item:263",
-      "type": "item",
-      "id": 263,
-      "name": "Chakram C",
-      "url": "/lu4/item/263-chakram"
-    },
-    {
-      "key": "item:193",
-      "type": "item",
-      "id": 193,
-      "name": "Stick of Faith C",
-      "url": "/lu4/item/193-stick-of-faith"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:3954",
@@ -234,13 +238,6 @@
       "id": 1958,
       "name": "Reinforced Mithril Boots Design NG",
       "url": "/lu4/item/1958-reinforced-mithril-boots-design"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
     }
   ]
 }

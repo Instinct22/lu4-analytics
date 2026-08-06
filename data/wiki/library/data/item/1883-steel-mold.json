@@ -2,23 +2,21 @@
   "key": "item:1883",
   "type": "item",
   "id": 1883,
-  "name": "Lu4 Wiki: Item Steel Mold",
+  "name": "Steel Mold",
   "url": "/lu4/item/1883-steel-mold",
-  "source_url": "https://masterwork.wiki/lu4/item/1883-steel-mold",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1883-steel-mold",
   "raw_html": "library/raw/lu4/item/1883-steel-mold.html",
   "stats": {
+    "Effect": "A material used to make Dwarven items.",
+    "NPC Sell Price": "2 250 Adena",
+    "Weight": "2",
     "Recipes": "Recipe: Steel Mold NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Material"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:1883",
-      "type": "item",
-      "id": 1883,
-      "name": "Lu4",
-      "url": "/lu4/item/1883-steel-mold"
-    },
     {
       "key": "item:2139",
       "type": "item",
@@ -30,7 +28,7 @@
       "key": "npc:33722",
       "type": "npc",
       "id": 33722,
-      "name": "Name_33722 Lv. 86",
+      "name": "Name_33722",
       "url": "/lu4/npc/33722-name33722"
     }
   ]

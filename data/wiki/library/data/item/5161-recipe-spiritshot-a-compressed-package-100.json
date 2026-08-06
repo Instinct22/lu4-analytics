@@ -2,55 +2,24 @@
   "key": "item:5161",
   "type": "item",
   "id": 5161,
-  "name": "Recipe",
+  "name": "Recipe: Spiritshot (A) Compressed Package (100%)",
   "url": "/lu4/item/5161-recipe-spiritshot-a-compressed-package-100",
-  "source_url": "https://masterwork.wiki/lu4/item/5161-recipe-spiritshot-a-compressed-package-100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5161-recipe-spiritshot-a-compressed-package-100",
   "raw_html": "library/raw/lu4/item/5161-recipe-spiritshot-a-compressed-package-100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Compressed Package of Spiritshots (A-Grade)'. Requires Create Item - Skill Level 7 (Warsmith Lv. 55). The success rate is 100%.",
+    "NPC Sell Price": "75 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "7",
     "MP Consume": "720",
     "Success Rate": "100%",
-    "Result": "Compressed Package of Spiritshots (A-Grade) NG"
+    "Result": "Compressed Package of Spiritshots (A-Grade) NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2513",
-      "type": "item",
-      "id": 2513,
-      "name": "Spiritshot (A-Grade) A",
-      "amount": "300"
-    },
-    {
-      "key": "item:3031",
-      "type": "item",
-      "id": 3031,
-      "name": "Spirit Ore NG",
-      "amount": "25.714285714286"
-    },
-    {
-      "key": "item:1461",
-      "type": "item",
-      "id": 1461,
-      "name": "Crystal (A-Grade) A",
-      "amount": "0.85714285714286"
-    },
-    {
-      "key": "item:5195",
-      "type": "item",
-      "id": 5195,
-      "name": "Rope of Magic (A-Grade) NG",
-      "amount": "9"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:5161",
-      "type": "item",
-      "id": 5161,
-      "name": "Lu4",
-      "url": "/lu4/item/5161-recipe-spiritshot-a-compressed-package-100"
-    },
     {
       "key": "item:2513",
       "type": "item",
@@ -90,56 +59,56 @@
       "key": "npc:21229",
       "type": "npc",
       "id": 21229,
-      "name": "Sepulcher Preacher Lv. 72",
+      "name": "Sepulcher Preacher",
       "url": "/lu4/npc/21229-sepulcher-preacher"
     },
     {
       "key": "npc:21741",
       "type": "npc",
       "id": 21741,
-      "name": "Forbidden Path Invader Elite Soldier Lv. 65",
+      "name": "Forbidden Path Invader Elite Soldier",
       "url": "/lu4/npc/21741-forbidden-path-invader-elite-soldier"
     },
     {
       "key": "npc:21563",
       "type": "npc",
       "id": 21563,
-      "name": "Bone Collector Lv. 67",
+      "name": "Bone Collector",
       "url": "/lu4/npc/21563-bone-collector"
     },
     {
       "key": "npc:21528",
       "type": "npc",
       "id": 21528,
-      "name": "Anger of Splendor Lv. 63",
+      "name": "Anger of Splendor",
       "url": "/lu4/npc/21528-anger-of-splendor"
     },
     {
       "key": "npc:21527",
       "type": "npc",
       "id": 21527,
-      "name": "Anger of Splendor Lv. 63",
+      "name": "Anger of Splendor",
       "url": "/lu4/npc/21527-anger-of-splendor"
     },
     {
       "key": "npc:21470",
       "type": "npc",
       "id": 21470,
-      "name": "Alpine Buffalo Lv. 67",
+      "name": "Alpine Buffalo",
       "url": "/lu4/npc/21470-alpine-buffalo"
     },
     {
       "key": "npc:21455",
       "type": "npc",
       "id": 21455,
-      "name": "Alpine Kookaburra Lv. 65",
+      "name": "Alpine Kookaburra",
       "url": "/lu4/npc/21455-alpine-kookaburra"
     },
     {
       "key": "npc:20969",
       "type": "npc",
       "id": 20969,
-      "name": "Giant's Shadow Lv. 78",
+      "name": "Giant's Shadow",
       "url": "/lu4/npc/20969-giants-shadow"
     }
   ]

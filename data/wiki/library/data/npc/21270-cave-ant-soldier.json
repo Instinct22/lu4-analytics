@@ -2,61 +2,44 @@
   "key": "npc:21270",
   "type": "npc",
   "id": 21270,
-  "name": "Lu4 Wiki: NPC Cave Ant Soldier",
+  "name": "Cave Ant Soldier",
   "url": "/lu4/npc/21270-cave-ant-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21270-cave-ant-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21270-cave-ant-soldier",
   "raw_html": "library/raw/lu4/npc/21270-cave-ant-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 342 / 552",
+    "P. Atk. / M. Atk.": "243 / 118",
+    "P. Def. / M. Def.": "196 / 154",
+    "Accuracy / Evasion": "71 / 76",
+    "Exp / SP": "1 409 / 141",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 38"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21270",
-      "type": "npc",
-      "id": 21270,
-      "name": "Lu4",
-      "url": "/lu4/npc/21270-cave-ant-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:5549",
+      "key": "item:57",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:3020",
-      "type": "item",
-      "id": 3020,
-      "name": "Recipe: Elven Long Sword NG",
-      "url": "/lu4/item/3020-recipe-elven-long-sword"
-    },
-    {
-      "key": "item:2986",
-      "type": "item",
-      "id": 2986,
-      "name": "Recipe: Sage's Worn Gloves NG",
-      "url": "/lu4/item/2986-recipe-sages-worn-gloves"
-    },
-    {
-      "key": "item:2289",
-      "type": "item",
-      "id": 2289,
-      "name": "Recipe: Staff of Life NG",
-      "url": "/lu4/item/2289-recipe-staff-of-life"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2145",
@@ -64,27 +47,6 @@
       "id": 2145,
       "name": "Recipe: Mithril Alloy NG",
       "url": "/lu4/item/2145-recipe-mithril-alloy"
-    },
-    {
-      "key": "item:2054",
-      "type": "item",
-      "id": 2054,
-      "name": "Light Crossbow Shaft NG",
-      "url": "/lu4/item/2054-light-crossbow-shaft"
-    },
-    {
-      "key": "item:2050",
-      "type": "item",
-      "id": 2050,
-      "name": "Ghost Staff Head NG",
-      "url": "/lu4/item/2050-ghost-staff-head"
-    },
-    {
-      "key": "item:1950",
-      "type": "item",
-      "id": 1950,
-      "name": "Half Plate Temper NG",
-      "url": "/lu4/item/1950-half-plate-temper"
     },
     {
       "key": "item:1889",
@@ -108,11 +70,11 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:353",
+      "key": "item:5549",
       "type": "item",
-      "id": 353,
-      "name": "Half Plate Armor D",
-      "url": "/lu4/item/353-half-plate-armor"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     },
     {
       "key": "item:280",
@@ -122,6 +84,13 @@
       "url": "/lu4/item/280-light-crossbow"
     },
     {
+      "key": "item:2054",
+      "type": "item",
+      "id": 2054,
+      "name": "Light Crossbow Shaft NG",
+      "url": "/lu4/item/2054-light-crossbow-shaft"
+    },
+    {
       "key": "item:188",
       "type": "item",
       "id": 188,
@@ -129,11 +98,46 @@
       "url": "/lu4/item/188-ghost-staff"
     },
     {
-      "key": "item:57",
+      "key": "item:2050",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2050,
+      "name": "Ghost Staff Head NG",
+      "url": "/lu4/item/2050-ghost-staff-head"
+    },
+    {
+      "key": "item:353",
+      "type": "item",
+      "id": 353,
+      "name": "Half Plate Armor D",
+      "url": "/lu4/item/353-half-plate-armor"
+    },
+    {
+      "key": "item:1950",
+      "type": "item",
+      "id": 1950,
+      "name": "Half Plate Temper NG",
+      "url": "/lu4/item/1950-half-plate-temper"
+    },
+    {
+      "key": "item:3020",
+      "type": "item",
+      "id": 3020,
+      "name": "Recipe: Elven Long Sword NG",
+      "url": "/lu4/item/3020-recipe-elven-long-sword"
+    },
+    {
+      "key": "item:2289",
+      "type": "item",
+      "id": 2289,
+      "name": "Recipe: Staff of Life NG",
+      "url": "/lu4/item/2289-recipe-staff-of-life"
+    },
+    {
+      "key": "item:2986",
+      "type": "item",
+      "id": 2986,
+      "name": "Recipe: Sage's Worn Gloves NG",
+      "url": "/lu4/item/2986-recipe-sages-worn-gloves"
     },
     {
       "key": "item:6036",
@@ -143,18 +147,18 @@
       "url": "/lu4/item/6036-greater-magic-haste-potion"
     },
     {
-      "key": "item:2196",
-      "type": "item",
-      "id": 2196,
-      "name": "Recipe: Plate Gaiters NG",
-      "url": "/lu4/item/2196-recipe-plate-gaiters"
-    },
-    {
       "key": "item:2157",
       "type": "item",
       "id": 2157,
       "name": "Recipe: Omen Beast's Eye Earring NG",
       "url": "/lu4/item/2157-recipe-omen-beasts-eye-earring"
+    },
+    {
+      "key": "item:2196",
+      "type": "item",
+      "id": 2196,
+      "name": "Recipe: Half Plate Gaiters NG",
+      "url": "/lu4/item/2196-recipe-half-plate-gaiters"
     }
   ]
 }

@@ -2,98 +2,60 @@
   "key": "npc:20573",
   "type": "npc",
   "id": 20573,
-  "name": "Lu4 Wiki: NPC Tarlk Basilisk",
+  "name": "Tarlk Basilisk",
   "url": "/lu4/npc/20573-tarlk-basilisk",
-  "source_url": "https://masterwork.wiki/lu4/npc/20573-tarlk-basilisk",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20573-tarlk-basilisk",
   "raw_html": "library/raw/lu4/npc/20573-tarlk-basilisk.html",
   "stats": {
-    "Location": "Лес Разбойников (+1) Лес Разбойников Земли Орена"
+    "Respawn Time": "40 seconds",
+    "Location": "Лес Разбойников (+1) Лес Разбойников Земли Орена",
+    "HP / MP": "2 245 / 921",
+    "P. Atk. / M. Atk.": "458 / 265",
+    "P. Def. / M. Def.": "307 / 249",
+    "Accuracy / Evasion": "83 / 83",
+    "Exp / SP": "2 429 / 243",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 50"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20573",
-      "type": "npc",
-      "id": 20573,
-      "name": "Lu4",
-      "url": "/lu4/npc/20573-tarlk-basilisk"
-    },
-    {
-      "key": "location:233",
-      "type": "location",
-      "id": 233,
-      "name": "Лес Разбойников",
-      "url": "/lu4/location/233-les-razbojnikov"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5549",
@@ -110,60 +72,11 @@
       "url": "/lu4/item/4044-thons"
     },
     {
-      "key": "item:2955",
+      "key": "item:1342",
       "type": "item",
-      "id": 2955,
-      "name": "Theca Leather Gloves Texture NG",
-      "url": "/lu4/item/2955-theca-leather-gloves-texture"
-    },
-    {
-      "key": "item:2460",
-      "type": "item",
-      "id": 2460,
-      "name": "Theca Leather Gloves C",
-      "url": "/lu4/item/2460-theca-leather-gloves"
-    },
-    {
-      "key": "item:2331",
-      "type": "item",
-      "id": 2331,
-      "name": "Recipe: Poleaxe NG",
-      "url": "/lu4/item/2331-recipe-poleaxe"
-    },
-    {
-      "key": "item:2229",
-      "type": "item",
-      "id": 2229,
-      "name": "Recipe: Theca Leather Armor NG",
-      "url": "/lu4/item/2229-recipe-theca-leather-armor"
-    },
-    {
-      "key": "item:2223",
-      "type": "item",
-      "id": 2223,
-      "name": "Recipe: Tower Shield NG",
-      "url": "/lu4/item/2223-recipe-tower-shield"
-    },
-    {
-      "key": "item:2107",
-      "type": "item",
-      "id": 2107,
-      "name": "Dark Screamer Edge NG",
-      "url": "/lu4/item/2107-dark-screamer-edge"
-    },
-    {
-      "key": "item:1977",
-      "type": "item",
-      "id": 1977,
-      "name": "Composite Armor Temper NG",
-      "url": "/lu4/item/1977-composite-armor-temper"
-    },
-    {
-      "key": "item:1916",
-      "type": "item",
-      "id": 1916,
-      "name": "Necklace of Mermaid Teardrop NG",
-      "url": "/lu4/item/1916-necklace-of-mermaid-teardrop"
+      "id": 1342,
+      "name": "Steel Arrow C",
+      "url": "/lu4/item/1342-steel-arrow"
     },
     {
       "key": "item:1889",
@@ -187,11 +100,46 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:1342",
+      "key": "item:49800",
       "type": "item",
-      "id": 1342,
-      "name": "Steel Arrow C",
-      "url": "/lu4/item/1342-steel-arrow"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:60",
+      "type": "item",
+      "id": 60,
+      "name": "Composite Armor C",
+      "url": "/lu4/item/60-composite-armor"
+    },
+    {
+      "key": "item:1977",
+      "type": "item",
+      "id": 1977,
+      "name": "Composite Armor Temper NG",
+      "url": "/lu4/item/1977-composite-armor-temper"
+    },
+    {
+      "key": "item:233",
+      "type": "item",
+      "id": 233,
+      "name": "Dark Screamer C",
+      "url": "/lu4/item/233-dark-screamer"
+    },
+    {
+      "key": "item:2107",
+      "type": "item",
+      "id": 2107,
+      "name": "Dark Screamer Edge NG",
+      "url": "/lu4/item/2107-dark-screamer-edge"
     },
     {
       "key": "item:917",
@@ -199,6 +147,48 @@
       "id": 917,
       "name": "Necklace of Mermaid C",
       "url": "/lu4/item/917-necklace-of-mermaid"
+    },
+    {
+      "key": "item:1916",
+      "type": "item",
+      "id": 1916,
+      "name": "Necklace of Mermaid Teardrop NG",
+      "url": "/lu4/item/1916-necklace-of-mermaid-teardrop"
+    },
+    {
+      "key": "item:2460",
+      "type": "item",
+      "id": 2460,
+      "name": "Theca Leather Gloves C",
+      "url": "/lu4/item/2460-theca-leather-gloves"
+    },
+    {
+      "key": "item:2955",
+      "type": "item",
+      "id": 2955,
+      "name": "Theca Leather Gloves Texture NG",
+      "url": "/lu4/item/2955-theca-leather-gloves-texture"
+    },
+    {
+      "key": "item:2331",
+      "type": "item",
+      "id": 2331,
+      "name": "Recipe: Poleaxe NG",
+      "url": "/lu4/item/2331-recipe-poleaxe"
+    },
+    {
+      "key": "item:2229",
+      "type": "item",
+      "id": 2229,
+      "name": "Recipe: Theca Leather Armor NG",
+      "url": "/lu4/item/2229-recipe-theca-leather-armor"
+    },
+    {
+      "key": "item:2223",
+      "type": "item",
+      "id": 2223,
+      "name": "Recipe: Tower Shield NG",
+      "url": "/lu4/item/2223-recipe-tower-shield"
     },
     {
       "key": "item:4122",
@@ -213,13 +203,6 @@
       "id": 3021,
       "name": "Recipe: Dwarven War Hammer NG",
       "url": "/lu4/item/3021-recipe-dwarven-war-hammer"
-    },
-    {
-      "key": "item:2954",
-      "type": "item",
-      "id": 2954,
-      "name": "Theca Leather Boots Texture NG",
-      "url": "/lu4/item/2954-theca-leather-boots-texture"
     },
     {
       "key": "item:2333",
@@ -241,6 +224,13 @@
       "id": 2104,
       "name": "Club of Nature Head NG",
       "url": "/lu4/item/2104-club-of-nature-head"
+    },
+    {
+      "key": "item:2954",
+      "type": "item",
+      "id": 2954,
+      "name": "Theca Leather Boots Texture NG",
+      "url": "/lu4/item/2954-theca-leather-boots-texture"
     }
   ]
 }

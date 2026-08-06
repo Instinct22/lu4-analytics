@@ -2,91 +2,107 @@
   "key": "npc:25467",
   "type": "npc",
   "id": 25467,
-  "name": "Lu4 Wiki: NPC Gorgolos",
+  "name": "Gorgolos",
   "url": "/lu4/npc/25467-gorgolos",
-  "source_url": "https://masterwork.wiki/lu4/npc/25467-gorgolos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25467-gorgolos",
   "raw_html": "library/raw/lu4/npc/25467-gorgolos.html",
   "stats": {
-    "Location": "Пещера Гигантов"
+    "HP / MP": "961 867 / 8 254",
+    "P. Atk. / M. Atk.": "10 541 / 2 258",
+    "P. Def. / M. Def.": "1 293 / 1 327",
+    "Accuracy / Evasion": "115 / 115",
+    "Exp / SP": "4 710 400 / 740 000",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 Created by Giants who fled Einhasad's rage, this living organism was evolved from the Monster Eye. After the punishment of the Gods ended, Gorgolos turned its vicious teeth on its creators. Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 64"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25467",
-      "type": "npc",
-      "id": 25467,
-      "name": "Lu4",
-      "url": "/lu4/npc/25467-gorgolos"
-    },
-    {
-      "key": "location:69",
-      "type": "location",
-      "id": 69,
-      "name": "Пещера Гигантов",
-      "url": "/lu4/location/69-pesera-gigantov"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4966",
       "type": "skill",
       "id": 4966,
-      "name": "Raid Boss Lv. 1 Created by Giants who fled Einhasad's rage, this living organism was evolved from the Monster Eye. After the punishment of the Gods ended, Gorgolos turned its vicious teeth on its creators.",
-      "url": "/lu4/skill/4966-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4966-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32376",
+      "key": "item:9910",
       "type": "item",
-      "id": 32376,
-      "name": "Unidentified Sealed Tallum Helmet A",
-      "url": "/lu4/item/32376-unidentified-sealed-tallum-helmet"
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:32374",
+      "key": "item:8620",
       "type": "item",
-      "id": 32374,
-      "name": "Unidentified Sealed Dark Crystal Shield A",
-      "url": "/lu4/item/32374-unidentified-sealed-dark-crystal-shield"
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
     },
     {
-      "key": "item:32371",
+      "key": "item:8621",
       "type": "item",
-      "id": 32371,
-      "name": "Unidentified Sealed Dark Crystal Helmet A",
-      "url": "/lu4/item/32371-unidentified-sealed-dark-crystal-helmet"
+      "id": 8621,
+      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
+      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
+    },
+    {
+      "key": "item:10552",
+      "type": "item",
+      "id": 10552,
+      "name": "Spellbook: Fighter's Will NG",
+      "url": "/lu4/item/10552-spellbook-fighters-will"
+    },
+    {
+      "key": "item:10553",
+      "type": "item",
+      "id": 10553,
+      "name": "Spellbook: Archer's Will NG",
+      "url": "/lu4/item/10553-spellbook-archers-will"
+    },
+    {
+      "key": "item:14219",
+      "type": "item",
+      "id": 14219,
+      "name": "Spellbook: Magician's Will NG",
+      "url": "/lu4/item/14219-spellbook-magicians-will"
     },
     {
       "key": "item:32342",
@@ -103,95 +119,11 @@
       "url": "/lu4/item/32327-unidentified-halberd"
     },
     {
-      "key": "item:14219",
+      "key": "item:5452",
       "type": "item",
-      "id": 14219,
-      "name": "Spellbook: Magician's Will NG",
-      "url": "/lu4/item/14219-spellbook-magicians-will"
-    },
-    {
-      "key": "item:10553",
-      "type": "item",
-      "id": 10553,
-      "name": "Spellbook: Archer's Will NG",
-      "url": "/lu4/item/10553-spellbook-archers-will"
-    },
-    {
-      "key": "item:10552",
-      "type": "item",
-      "id": 10552,
-      "name": "Spellbook: Fighter's Will NG",
-      "url": "/lu4/item/10552-spellbook-fighters-will"
-    },
-    {
-      "key": "item:9910",
-      "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:8621",
-      "type": "item",
-      "id": 8621,
-      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
-      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
-    },
-    {
-      "key": "item:8620",
-      "type": "item",
-      "id": 8620,
-      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
-      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
-    },
-    {
-      "key": "item:6570",
-      "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
-    },
-    {
-      "key": "item:6569",
-      "type": "item",
-      "id": 6569,
-      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
-    },
-    {
-      "key": "item:5542",
-      "type": "item",
-      "id": 5542,
-      "name": "Halberd Edge NG",
-      "url": "/lu4/item/5542-halberd-edge"
-    },
-    {
-      "key": "item:5539",
-      "type": "item",
-      "id": 5539,
-      "name": "Blood Tornado Edge NG",
-      "url": "/lu4/item/5539-blood-tornado-edge"
-    },
-    {
-      "key": "item:5526",
-      "type": "item",
-      "id": 5526,
-      "name": "Sealed Tallum Helm Design NG",
-      "url": "/lu4/item/5526-sealed-tallum-helm-design"
-    },
-    {
-      "key": "item:5525",
-      "type": "item",
-      "id": 5525,
-      "name": "Sealed Dark Crystal Helmet Design NG",
-      "url": "/lu4/item/5525-sealed-dark-crystal-helmet-design"
-    },
-    {
-      "key": "item:5494",
-      "type": "item",
-      "id": 5494,
-      "name": "Sealed Dark Crystal Shield Fragment NG",
-      "url": "/lu4/item/5494-sealed-dark-crystal-shield-fragment"
+      "id": 5452,
+      "name": "Recipe: Blood Tornado(60%) NG",
+      "url": "/lu4/item/5452-recipe-blood-tornado60"
     },
     {
       "key": "item:5458",
@@ -201,11 +133,74 @@
       "url": "/lu4/item/5458-recipe-halberd60"
     },
     {
-      "key": "item:5452",
+      "key": "item:5539",
       "type": "item",
-      "id": 5452,
-      "name": "Recipe: Blood Tornado(60%) NG",
-      "url": "/lu4/item/5452-recipe-blood-tornado60"
+      "id": 5539,
+      "name": "Blood Tornado Edge NG",
+      "url": "/lu4/item/5539-blood-tornado-edge"
+    },
+    {
+      "key": "item:5542",
+      "type": "item",
+      "id": 5542,
+      "name": "Halberd Edge NG",
+      "url": "/lu4/item/5542-halberd-edge"
+    },
+    {
+      "key": "item:32371",
+      "type": "item",
+      "id": 32371,
+      "name": "Unidentified Sealed Dark Crystal Helmet A",
+      "url": "/lu4/item/32371-unidentified-sealed-dark-crystal-helmet"
+    },
+    {
+      "key": "item:32376",
+      "type": "item",
+      "id": 32376,
+      "name": "Unidentified Sealed Tallum Helmet A",
+      "url": "/lu4/item/32376-unidentified-sealed-tallum-helmet"
+    },
+    {
+      "key": "item:32374",
+      "type": "item",
+      "id": 32374,
+      "name": "Unidentified Sealed Dark Crystal Shield A",
+      "url": "/lu4/item/32374-unidentified-sealed-dark-crystal-shield"
+    },
+    {
+      "key": "item:5426",
+      "type": "item",
+      "id": 5426,
+      "name": "Recipe: Sealed Dark Crystal Helmet(60%) NG",
+      "url": "/lu4/item/5426-recipe-sealed-dark-crystal-helmet60"
+    },
+    {
+      "key": "item:5428",
+      "type": "item",
+      "id": 5428,
+      "name": "Recipe: Sealed Tallum Helmet(60%) NG",
+      "url": "/lu4/item/5428-recipe-sealed-tallum-helmet60"
+    },
+    {
+      "key": "item:5364",
+      "type": "item",
+      "id": 5364,
+      "name": "Recipe: Sealed Dark Crystal Shield(60%) NG",
+      "url": "/lu4/item/5364-recipe-sealed-dark-crystal-shield60"
+    },
+    {
+      "key": "item:5525",
+      "type": "item",
+      "id": 5525,
+      "name": "Sealed Dark Crystal Helmet Design NG",
+      "url": "/lu4/item/5525-sealed-dark-crystal-helmet-design"
+    },
+    {
+      "key": "item:5526",
+      "type": "item",
+      "id": 5526,
+      "name": "Sealed Tallum Helm Design NG",
+      "url": "/lu4/item/5526-sealed-tallum-helm-design"
     },
     {
       "key": "npc:25468",

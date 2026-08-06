@@ -1,0 +1,50 @@
+{
+  "key": "skill:339",
+  "type": "skill",
+  "id": 339,
+  "name": "Parry Stance",
+  "url": "/lu4/skill/339-parry-stance",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/339-parry-stance",
+  "raw_html": "library/raw/lu4/skill/339-parry-stance.html",
+  "stats": {
+    "Effect": "P. Def. +15% M. Def. +15% Speed -5% Atk. Spd. -10% Accuracy -3. Continuously consumes MP proportionately to the user's level.",
+    "Consumes": "36 MP",
+    "Reuse Time": "0 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "WarlordLv. 70DestroyerLv. 70Bounty HunterLv. 70WarsmithLv. 70",
+    "Type": "Toggle / Toggle"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:3",
+      "type": "class",
+      "id": 3,
+      "name": "WarlordLv. 70",
+      "url": "/lu4/class/3-warlord"
+    },
+    {
+      "key": "class:46",
+      "type": "class",
+      "id": 46,
+      "name": "DestroyerLv. 70",
+      "url": "/lu4/class/46-destroyer"
+    },
+    {
+      "key": "class:55",
+      "type": "class",
+      "id": 55,
+      "name": "Bounty HunterLv. 70",
+      "url": "/lu4/class/55-bountyhunter"
+    },
+    {
+      "key": "class:57",
+      "type": "class",
+      "id": 57,
+      "name": "WarsmithLv. 70",
+      "url": "/lu4/class/57-warsmith"
+    }
+  ]
+}

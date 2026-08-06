@@ -2,131 +2,107 @@
   "key": "npc:25349",
   "type": "npc",
   "id": 25349,
-  "name": "Lu4 Wiki: NPC Shadow of Halisha Morigul",
+  "name": "Shadow of Halisha Morigul",
   "url": "/lu4/npc/25349-shadow-of-halisha-morigul",
-  "source_url": "https://masterwork.wiki/lu4/npc/25349-shadow-of-halisha-morigul",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25349-shadow-of-halisha-morigul",
   "raw_html": "library/raw/lu4/npc/25349-shadow-of-halisha-morigul.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "842 160 / 3 831",
+    "P. Atk. / M. Atk.": "45 584 / 4 210",
+    "P. Def. / M. Def.": "1 688 / 1 917",
+    "Accuracy / Evasion": "143 / 143",
+    "Exp / SP": "4 800 000 / 523 301",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -13, Unholy 189",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 One of four Guardian Knights assigned to protect Prince Frintezza, he was sacrificed and sold to Halisha by the unwise Prince in an attempt to save his own skin. In his lifetime, he was called Valkyrie Morigul of the Ivory Tower because he hailed from the Ivory Tower. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. Bow Lv. 9 Bows Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25349",
-      "type": "npc",
-      "id": 25349,
-      "name": "Lu4",
-      "url": "/lu4/npc/25349-shadow-of-halisha-morigul"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4924",
       "type": "skill",
       "id": 4924,
-      "name": "Raid Boss Lv. 1 One of four Guardian Knights assigned to protect Prince Frintezza, he was sacrificed and sold to Halisha by the unwise Prince in an attempt to save his own skin. In his lifetime, he was called Valkyrie Morigul of the Ivory Tower because he hailed from the Ivory Tower.",
-      "url": "/lu4/skill/4924-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4924-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Bow Lv. 9 Bows",
-      "url": "/lu4/skill/4415-bow/9"
+      "name": "Bow",
+      "url": "/lu4/skill/4415-bow"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:6711",
-      "type": "item",
-      "id": 6711,
-      "name": "Sealed Major Arcana Robe Part NG",
-      "url": "/lu4/item/6711-sealed-major-arcana-robe-part"
-    },
-    {
-      "key": "item:6697",
-      "type": "item",
-      "id": 6697,
-      "name": "Arcana Mace Head NG",
-      "url": "/lu4/item/6697-arcana-mace-head"
-    },
-    {
-      "key": "item:6693",
-      "type": "item",
-      "id": 6693,
-      "name": "Dragon Hunter Axe Blade NG",
-      "url": "/lu4/item/6693-dragon-hunter-axe-blade"
-    },
-    {
-      "key": "item:6690",
-      "type": "item",
-      "id": 6690,
-      "name": "Imperial Staff Head NG",
-      "url": "/lu4/item/6690-imperial-staff-head"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:6689",
@@ -136,18 +112,32 @@
       "url": "/lu4/item/6689-basalt-battlehammer-head"
     },
     {
-      "key": "item:6578",
+      "key": "item:6693",
       "type": "item",
-      "id": 6578,
-      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+      "id": 6693,
+      "name": "Dragon Hunter Axe Blade NG",
+      "url": "/lu4/item/6693-dragon-hunter-axe-blade"
     },
     {
-      "key": "item:6577",
+      "key": "item:6697",
       "type": "item",
-      "id": 6577,
-      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
-      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
+      "id": 6697,
+      "name": "Arcana Mace Head NG",
+      "url": "/lu4/item/6697-arcana-mace-head"
+    },
+    {
+      "key": "item:6690",
+      "type": "item",
+      "id": 6690,
+      "name": "Imperial Staff Head NG",
+      "url": "/lu4/item/6690-imperial-staff-head"
+    },
+    {
+      "key": "item:6711",
+      "type": "item",
+      "id": 6711,
+      "name": "Sealed Major Arcana Robe Part NG",
+      "url": "/lu4/item/6711-sealed-major-arcana-robe-part"
     },
     {
       "key": "item:960",
@@ -157,11 +147,25 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
+      "key": "item:6578",
+      "type": "item",
+      "id": 6578,
+      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+    },
+    {
       "key": "item:959",
       "type": "item",
       "id": 959,
       "name": "Scroll: Enchant Weapon (S-Grade) NG",
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
+    },
+    {
+      "key": "item:6577",
+      "type": "item",
+      "id": 6577,
+      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
+      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
     },
     {
       "key": "npc:25350",

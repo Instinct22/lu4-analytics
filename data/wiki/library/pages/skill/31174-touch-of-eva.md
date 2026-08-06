@@ -1,0 +1,21 @@
+# Touch of Eva
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/31174-touch-of-eva
+- Path: /lu4/skill/31174-touch-of-eva
+- Type: skill
+- Key: skill:31174
+
+## Stats
+- Effect: For party members: Restores 50% HP instantly Restores 20 HP every second Speed +10 Atk. Spd. +7% Evasion +4 Resistance to Mana Burn +30% Resistance to debuffs +20% Incoming Heal Power +20%. Can't be used for 30 sec after joining a party. Skill only works while in a party with the caster. Only one of these effects can be active at a time: 'Flame Icon', 'Touch of Eva', or 'Spirit of Shillien'.
+- Consumes: 0 MP 650 HP
+- Reuse Time: 5 minutes
+- Duration: 30 seconds
+- Can be used on Olympiad: Yes
+- Attribute: None
+- Trait: trait_none
+- Cast Range: 70 (400)
+- Available For: Temple KnightLv. 68
+- Type: Physical / Buff
+
+## Content
+Touch of Eva Lv. 1 Physical / Buff For party members: Restores 50% HP instantly Restores 20 HP every second Speed +10 Atk. Spd. +7% Evasion +4 Resistance to Mana Burn +30% Resistance to debuffs +20% Incoming Heal Power +20%. Can't be used for 30 sec after joining a party. Skill only works while in a party with the caster. Only one of these effects can be active at a time: 'Flame Icon', 'Touch of Eva', or 'Spirit of Shillien'. Consumes 0 MP 650 HP Reuse Time 5 minutes Duration 30 seconds Can be used on Olympiad Yes Attribute None Trait trait_none Cast Range 70 (400) Available For Temple Knight Lv. 68

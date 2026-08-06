@@ -1,0 +1,44 @@
+{
+  "key": "npc:27044",
+  "type": "npc",
+  "id": 27044,
+  "name": "Kasha Bear Totem Spirit",
+  "url": "/lu4/npc/27044-kasha-bear-totem-spirit",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27044-kasha-bear-totem-spirit",
+  "raw_html": "library/raw/lu4/npc/27044-kasha-bear-totem-spirit.html",
+  "stats": {
+    "HP / MP": "446 / 204",
+    "P. Atk. / M. Atk.": "43 / 27",
+    "P. Def. / M. Def.": "96 / 73",
+    "Accuracy / Evasion": "50 / 50",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Type": "Animal, Lv. 17"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "skill:4416",
+      "type": "skill",
+      "id": 4416,
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
+    },
+    {
+      "key": "skill:4278",
+      "type": "skill",
+      "id": 4278,
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
+    },
+    {
+      "key": "skill:4333",
+      "type": "skill",
+      "id": 4333,
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
+    }
+  ]
+}

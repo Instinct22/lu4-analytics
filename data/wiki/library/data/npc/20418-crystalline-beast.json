@@ -2,126 +2,60 @@
   "key": "npc:20418",
   "type": "npc",
   "id": 20418,
-  "name": "Lu4 Wiki: NPC Crystalline Beast",
+  "name": "Crystalline Beast",
   "url": "/lu4/npc/20418-crystalline-beast",
-  "source_url": "https://masterwork.wiki/lu4/npc/20418-crystalline-beast",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20418-crystalline-beast",
   "raw_html": "library/raw/lu4/npc/20418-crystalline-beast.html",
   "stats": {
-    "Location": "Темный Лес (+1) Темный Лес Гнездо Пауков"
+    "Respawn Time": "15 seconds",
+    "Location": "Темный Лес (+1) Темный Лес Гнездо Пауков",
+    "HP / MP": "483 / 214",
+    "P. Atk. / M. Atk.": "58 / 31",
+    "P. Def. / M. Def.": "88 / 68",
+    "Accuracy / Evasion": "51 / 51",
+    "Exp / SP": "518 / 52",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 18"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20418",
-      "type": "npc",
-      "id": 20418,
-      "name": "Lu4",
-      "url": "/lu4/npc/20418-crystalline-beast"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
-      "key": "location:218",
-      "type": "location",
-      "id": 218,
-      "name": "Гнездо Пауков",
-      "url": "/lu4/location/218-gnezdo-paukov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
-    },
-    {
-      "key": "item:2140",
-      "type": "item",
-      "id": 2140,
-      "name": "Recipe: High-Grade Suede NG",
-      "url": "/lu4/item/2140-recipe-high-grade-suede"
-    },
-    {
-      "key": "item:1897",
-      "type": "item",
-      "id": 1897,
-      "name": "Necklace of Wisdom Chain NG",
-      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:908",
-      "type": "item",
-      "id": 908,
-      "name": "Necklace of Wisdom NG",
-      "url": "/lu4/item/908-necklace-of-wisdom"
-    },
-    {
-      "key": "item:877",
-      "type": "item",
-      "id": 877,
-      "name": "Ring of Wisdom NG",
-      "url": "/lu4/item/877-ring-of-wisdom"
-    },
-    {
-      "key": "item:845",
-      "type": "item",
-      "id": 845,
-      "name": "Cat's Eye Earring NG",
-      "url": "/lu4/item/845-cats-eye-earring"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -131,11 +65,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1925",
+      "key": "item:845",
       "type": "item",
-      "id": 1925,
-      "name": "Leather Gloves Lining NG",
-      "url": "/lu4/item/1925-leather-gloves-lining"
+      "id": 845,
+      "name": "Cat's Eye Earring NG",
+      "url": "/lu4/item/845-cats-eye-earring"
+    },
+    {
+      "key": "item:877",
+      "type": "item",
+      "id": 877,
+      "name": "Ring of Wisdom NG",
+      "url": "/lu4/item/877-ring-of-wisdom"
+    },
+    {
+      "key": "item:908",
+      "type": "item",
+      "id": 908,
+      "name": "Necklace of Wisdom NG",
+      "url": "/lu4/item/908-necklace-of-wisdom"
+    },
+    {
+      "key": "item:1897",
+      "type": "item",
+      "id": 1897,
+      "name": "Necklace of Wisdom Chain NG",
+      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:2140",
+      "type": "item",
+      "id": 2140,
+      "name": "Recipe: High-Grade Suede NG",
+      "url": "/lu4/item/2140-recipe-high-grade-suede"
     },
     {
       "key": "item:1800",
@@ -143,6 +126,13 @@
       "id": 1800,
       "name": "Recipe: Piece Bone Breastplate NG",
       "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
+    },
+    {
+      "key": "item:1925",
+      "type": "item",
+      "id": 1925,
+      "name": "Leather Gloves Lining NG",
+      "url": "/lu4/item/1925-leather-gloves-lining"
     }
   ]
 }

@@ -1,0 +1,37 @@
+{
+  "key": "skill:356",
+  "type": "skill",
+  "id": 356,
+  "name": "Focus Chance",
+  "url": "/lu4/skill/356-focus-chance",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/356-focus-chance",
+  "raw_html": "library/raw/lu4/skill/356-focus-chance.html",
+  "stats": {
+    "Effect": "Frontal P. Crit. Rate -15% Side P. Crit. Rate +15% Back P. Crit. Rate +30%.",
+    "Consumes": "30 MP",
+    "Reuse Time": "2 minutes",
+    "Duration": "20 minutes",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "Treasure HunterLv. 60Plains WalkerLv. 60",
+    "Type": "Physical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:8",
+      "type": "class",
+      "id": 8,
+      "name": "Treasure HunterLv. 60",
+      "url": "/lu4/class/8-treasurehunter"
+    },
+    {
+      "key": "class:23",
+      "type": "class",
+      "id": 23,
+      "name": "Plains WalkerLv. 60",
+      "url": "/lu4/class/23-plainwalker"
+    }
+  ]
+}

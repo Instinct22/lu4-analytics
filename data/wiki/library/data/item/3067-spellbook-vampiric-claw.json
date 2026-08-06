@@ -2,27 +2,25 @@
   "key": "item:3067",
   "type": "item",
   "id": 3067,
-  "name": "Lu4 Wiki: Item Spellbook: Vampiric Claw",
+  "name": "Spellbook: Vampiric Claw",
   "url": "/lu4/item/3067-spellbook-vampiric-claw",
-  "source_url": "https://masterwork.wiki/lu4/item/3067-spellbook-vampiric-claw",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/3067-spellbook-vampiric-claw",
   "raw_html": "library/raw/lu4/item/3067-spellbook-vampiric-claw.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Vampiric Claw'. Required: Necromancer - Lv. 40 Spellhowler - Lv. 40 To obtain this item, hunt the Tamlin Orc found in Hunters Valley.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:3067",
-      "type": "item",
-      "id": 3067,
-      "name": "Lu4",
-      "url": "/lu4/item/3067-spellbook-vampiric-claw"
-    },
-    {
       "key": "npc:20601",
       "type": "npc",
       "id": 20601,
-      "name": "Tamlin Orc Lv. 41",
+      "name": "Tamlin Orc",
       "url": "/lu4/npc/20601-tamlin-orc"
     }
   ]

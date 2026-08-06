@@ -2,166 +2,65 @@
   "key": "npc:21452",
   "type": "npc",
   "id": 21452,
-  "name": "Lu4 Wiki: NPC Alpine Kookaburra",
+  "name": "Alpine Kookaburra",
   "url": "/lu4/npc/21452-alpine-kookaburra",
-  "source_url": "https://masterwork.wiki/lu4/npc/21452-alpine-kookaburra",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21452-alpine-kookaburra",
   "raw_html": "library/raw/lu4/npc/21452-alpine-kookaburra.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 465 / 1 464",
+    "P. Atk. / M. Atk.": "783 / 524",
+    "P. Def. / M. Def.": "602 / 425",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "7 312 / 679",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Slightly Weak P. Atk. Lv. 9 Slightly Weak M. Atk. Lv. 9 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 13 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 65"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21452",
-      "type": "npc",
-      "id": 21452,
-      "name": "Lu4",
-      "url": "/lu4/npc/21452-alpine-kookaburra"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 9",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/9"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 9",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/9"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
-    },
-    {
-      "key": "item:8614",
-      "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
-    },
-    {
-      "key": "item:8613",
-      "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
-    },
-    {
-      "key": "item:8612",
-      "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
-    },
-    {
-      "key": "item:8611",
-      "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
-    },
-    {
-      "key": "item:8610",
-      "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
-    },
-    {
-      "key": "item:8609",
-      "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
-    },
-    {
-      "key": "item:8608",
-      "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
-    },
-    {
-      "key": "item:8600",
-      "type": "item",
-      "id": 8600,
-      "name": "Herb of Life NG",
-      "url": "/lu4/item/8600-herb-of-life"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "item:57",
@@ -171,11 +70,116 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:4081",
+      "key": "item:8600",
       "type": "item",
-      "id": 4081,
-      "name": "Doom Plate Armor Temper NG",
-      "url": "/lu4/item/4081-doom-plate-armor-temper"
+      "id": 8600,
+      "name": "Herb of Life NG",
+      "url": "/lu4/item/8600-herb-of-life"
+    },
+    {
+      "key": "item:8601",
+      "type": "item",
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
+    },
+    {
+      "key": "item:8602",
+      "type": "item",
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
+    },
+    {
+      "key": "item:8607",
+      "type": "item",
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
+    },
+    {
+      "key": "item:8609",
+      "type": "item",
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
+    },
+    {
+      "key": "item:8603",
+      "type": "item",
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:8605",
+      "type": "item",
+      "id": 8605,
+      "name": "Superior Herb of Mana NG",
+      "url": "/lu4/item/8605-superior-herb-of-mana"
+    },
+    {
+      "key": "item:8606",
+      "type": "item",
+      "id": 8606,
+      "name": "Herb of Power NG",
+      "url": "/lu4/item/8606-herb-of-power"
+    },
+    {
+      "key": "item:8608",
+      "type": "item",
+      "id": 8608,
+      "name": "Herb of Alacrity NG",
+      "url": "/lu4/item/8608-herb-of-alacrity"
+    },
+    {
+      "key": "item:8610",
+      "type": "item",
+      "id": 8610,
+      "name": "Herb of Critical Attack - Probability NG",
+      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+    },
+    {
+      "key": "item:8611",
+      "type": "item",
+      "id": 8611,
+      "name": "Herb of Speed NG",
+      "url": "/lu4/item/8611-herb-of-speed"
+    },
+    {
+      "key": "item:8612",
+      "type": "item",
+      "id": 8612,
+      "name": "Herb of the Warrior NG",
+      "url": "/lu4/item/8612-herb-of-the-warrior"
+    },
+    {
+      "key": "item:8613",
+      "type": "item",
+      "id": 8613,
+      "name": "Herb of the Mystic NG",
+      "url": "/lu4/item/8613-herb-of-the-mystic"
+    },
+    {
+      "key": "item:8614",
+      "type": "item",
+      "id": 8614,
+      "name": "Herb of Recovery NG",
+      "url": "/lu4/item/8614-herb-of-recovery"
+    },
+    {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
       "key": "item:3035",
@@ -185,11 +189,11 @@
       "url": "/lu4/item/3035-recipe-spiritshot-a"
     },
     {
-      "key": "item:1875",
+      "key": "item:4081",
       "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
+      "id": 4081,
+      "name": "Doom Plate Armor Temper NG",
+      "url": "/lu4/item/4081-doom-plate-armor-temper"
     }
   ]
 }

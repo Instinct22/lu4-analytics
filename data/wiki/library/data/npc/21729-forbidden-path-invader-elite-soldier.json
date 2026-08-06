@@ -2,138 +2,86 @@
   "key": "npc:21729",
   "type": "npc",
   "id": 21729,
-  "name": "Lu4 Wiki: NPC Forbidden Path Invader Elite Soldier",
+  "name": "Forbidden Path Invader Elite Soldier",
   "url": "/lu4/npc/21729-forbidden-path-invader-elite-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21729-forbidden-path-invader-elite-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21729-forbidden-path-invader-elite-soldier",
   "raw_html": "library/raw/lu4/npc/21729-forbidden-path-invader-elite-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "10 395 / 1 464",
+    "P. Atk. / M. Atk.": "586 / 465",
+    "P. Def. / M. Def.": "878 / 461",
+    "Accuracy / Evasion": "98 / 108",
+    "Exp / SP": "21 452 / 1 992",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (3x) Lv. 11 Weak P. Atk. Lv. 8 Weak M. Atk. Lv. 8 Extremely Strong P. Def. Lv. 20 Strong M. Def. Lv. 14 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 65"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21729",
-      "type": "npc",
-      "id": 21729,
-      "name": "Lu4",
-      "url": "/lu4/npc/21729-forbidden-path-invader-elite-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Weak P. Atk. Lv. 8",
-      "url": "/lu4/skill/4410-weak-p-atk/8"
+      "name": "Weak P. Atk.",
+      "url": "/lu4/skill/4410-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Weak M. Atk. Lv. 8",
-      "url": "/lu4/skill/4411-weak-m-atk/8"
+      "name": "Weak M. Atk.",
+      "url": "/lu4/skill/4411-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Extremely Strong P. Def. Lv. 20",
-      "url": "/lu4/skill/4412-extremely-strong-p-def/20"
+      "name": "Extremely Strong P. Def.",
+      "url": "/lu4/skill/4412-extremely-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
-    },
-    {
-      "key": "item:32326",
-      "type": "item",
-      "id": 32326,
-      "name": "Unidentified Lance B",
-      "url": "/lu4/item/32326-unidentified-lance"
-    },
-    {
-      "key": "item:6337",
-      "type": "item",
-      "id": 6337,
-      "name": "Recipe: Sealed Majestic Earring(70%) NG",
-      "url": "/lu4/item/6337-recipe-sealed-majestic-earring70"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:4115",
-      "type": "item",
-      "id": 4115,
-      "name": "Lance Blade NG",
-      "url": "/lu4/item/4115-lance-blade"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "item:57",
@@ -143,11 +91,67 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:4085",
+      "key": "item:32326",
       "type": "item",
-      "id": 4085,
-      "name": "Tunic of Doom Pattern NG",
-      "url": "/lu4/item/4085-tunic-of-doom-pattern"
+      "id": 32326,
+      "name": "Unidentified Lance B",
+      "url": "/lu4/item/32326-unidentified-lance"
+    },
+    {
+      "key": "item:4115",
+      "type": "item",
+      "id": 4115,
+      "name": "Lance Blade NG",
+      "url": "/lu4/item/4115-lance-blade"
+    },
+    {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:1884",
+      "type": "item",
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
+      "key": "item:6337",
+      "type": "item",
+      "id": 6337,
+      "name": "Recipe: Sealed Majestic Earring(70%) NG",
+      "url": "/lu4/item/6337-recipe-sealed-majestic-earring70"
+    },
+    {
+      "key": "item:1807",
+      "type": "item",
+      "id": 1807,
+      "name": "Recipe: Soulshot (A-Grade) NG",
+      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
     },
     {
       "key": "item:3035",
@@ -157,11 +161,11 @@
       "url": "/lu4/item/3035-recipe-spiritshot-a"
     },
     {
-      "key": "item:1807",
+      "key": "item:4085",
       "type": "item",
-      "id": 1807,
-      "name": "Recipe: Soulshot (A-Grade) NG",
-      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
+      "id": 4085,
+      "name": "Tunic of Doom Pattern NG",
+      "url": "/lu4/item/4085-tunic-of-doom-pattern"
     }
   ]
 }

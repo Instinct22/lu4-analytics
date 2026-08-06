@@ -2,133 +2,81 @@
   "key": "npc:20112",
   "type": "npc",
   "id": 20112,
-  "name": "Lu4 Wiki: NPC Salamander Elder",
+  "name": "Salamander Elder",
   "url": "/lu4/npc/20112-salamander-elder",
-  "source_url": "https://masterwork.wiki/lu4/npc/20112-salamander-elder",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20112-salamander-elder",
   "raw_html": "library/raw/lu4/npc/20112-salamander-elder.html",
   "stats": {
-    "Location": "Эльфийские Руины"
+    "Respawn Time": "40 seconds",
+    "Location": "Эльфийские Руины",
+    "HP / MP": "1 450 / 214",
+    "P. Atk. / M. Atk.": "61 / 31",
+    "P. Def. / M. Def.": "92 / 61",
+    "Accuracy / Evasion": "46 / 56",
+    "Exp / SP": "1 453 / 145",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 9 Fire Resistance Lv. 5 Resistant to Fire attacks. Water Vulnerability Lv. 1 Vulnerable to Water attacks.",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 18"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20112",
-      "type": "npc",
-      "id": 20112,
-      "name": "Lu4",
-      "url": "/lu4/npc/20112-salamander-elder"
-    },
-    {
-      "key": "location:32",
-      "type": "location",
-      "id": 32,
-      "name": "Эльфийские Руины",
-      "url": "/lu4/location/32-elfijskie-ruiny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4009",
       "type": "skill",
       "id": 4009,
-      "name": "Fire Resistance Lv. 5 Resistant to Fire attacks.",
-      "url": "/lu4/skill/4009-fire-resistance/5"
+      "name": "Fire Resistance",
+      "url": "/lu4/skill/4009-fire-resistance"
     },
     {
       "key": "skill:4280",
       "type": "skill",
       "id": 4280,
-      "name": "Water Vulnerability Lv. 1 Vulnerable to Water attacks.",
-      "url": "/lu4/skill/4280-water-vulnerability/1"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1800",
-      "type": "item",
-      "id": 1800,
-      "name": "Recipe: Piece Bone Breastplate NG",
-      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
-    },
-    {
-      "key": "item:1104",
-      "type": "item",
-      "id": 1104,
-      "name": "Stockings of Devotion NG",
-      "url": "/lu4/item/1104-stockings-of-devotion"
-    },
-    {
-      "key": "item:1101",
-      "type": "item",
-      "id": 1101,
-      "name": "Tunic of Devotion NG",
-      "url": "/lu4/item/1101-tunic-of-devotion"
-    },
-    {
-      "key": "item:734",
-      "type": "item",
-      "id": 734,
-      "name": "Haste Potion NG",
-      "url": "/lu4/item/734-haste-potion"
+      "name": "Water Vulnerability",
+      "url": "/lu4/skill/4280-water-vulnerability"
     },
     {
       "key": "item:57",
@@ -138,11 +86,53 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1924",
+      "key": "item:1101",
       "type": "item",
-      "id": 1924,
-      "name": "Leather Helmet Design NG",
-      "url": "/lu4/item/1924-leather-helmet-design"
+      "id": 1101,
+      "name": "Tunic of Devotion NG",
+      "url": "/lu4/item/1101-tunic-of-devotion"
+    },
+    {
+      "key": "item:1104",
+      "type": "item",
+      "id": 1104,
+      "name": "Stockings of Devotion NG",
+      "url": "/lu4/item/1104-stockings-of-devotion"
+    },
+    {
+      "key": "item:734",
+      "type": "item",
+      "id": 734,
+      "name": "Haste Potion NG",
+      "url": "/lu4/item/734-haste-potion"
+    },
+    {
+      "key": "item:1800",
+      "type": "item",
+      "id": 1800,
+      "name": "Recipe: Piece Bone Breastplate NG",
+      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
     },
     {
       "key": "item:1801",
@@ -150,6 +140,13 @@
       "id": 1801,
       "name": "Recipe: Piece Bone Gaiters NG",
       "url": "/lu4/item/1801-recipe-piece-bone-gaiters"
+    },
+    {
+      "key": "item:1924",
+      "type": "item",
+      "id": 1924,
+      "name": "Leather Helmet Design NG",
+      "url": "/lu4/item/1924-leather-helmet-design"
     }
   ]
 }

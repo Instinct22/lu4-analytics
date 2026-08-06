@@ -2,89 +2,100 @@
   "key": "npc:21601",
   "type": "npc",
   "id": 21601,
-  "name": "Lu4 Wiki: NPC Requiem Behemoth",
+  "name": "Requiem Behemoth",
   "url": "/lu4/npc/21601-requiem-behemoth",
-  "source_url": "https://masterwork.wiki/lu4/npc/21601-requiem-behemoth",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21601-requiem-behemoth",
   "raw_html": "library/raw/lu4/npc/21601-requiem-behemoth.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 862 / 1 494",
+    "P. Atk. / M. Atk.": "1 512 / 975",
+    "P. Def. / M. Def.": "620 / 313",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "10 732 / 1 064",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire -5, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Strong P. Def. Lv. 14 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 70"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21601",
-      "type": "npc",
-      "id": 21601,
-      "name": "Lu4",
-      "url": "/lu4/npc/21601-requiem-behemoth"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
-      "key": "item:32535",
+      "key": "item:57",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:8341",
+      "type": "item",
+      "id": 8341,
+      "name": "Spiritual Eye Piece NG",
+      "url": "/lu4/item/8341-spiritual-eye-piece"
     },
     {
       "key": "item:32437",
@@ -101,116 +112,18 @@
       "url": "/lu4/item/32435-unidentified-spiritual-eye"
     },
     {
-      "key": "item:32368",
+      "key": "item:5543",
       "type": "item",
-      "id": 32368,
-      "name": "Unidentified Meteor Shower A",
-      "url": "/lu4/item/32368-unidentified-meteor-shower"
+      "id": 5543,
+      "name": "Dasparion's Staff Head NG",
+      "url": "/lu4/item/5543-dasparions-staff-head"
     },
     {
-      "key": "item:8614",
+      "key": "item:5532",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
-    },
-    {
-      "key": "item:8613",
-      "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
-    },
-    {
-      "key": "item:8612",
-      "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
-    },
-    {
-      "key": "item:8611",
-      "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
-    },
-    {
-      "key": "item:8610",
-      "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
-    },
-    {
-      "key": "item:8609",
-      "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
-    },
-    {
-      "key": "item:8608",
-      "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
-    },
-    {
-      "key": "item:8600",
-      "type": "item",
-      "id": 8600,
-      "name": "Herb of Life NG",
-      "url": "/lu4/item/8600-herb-of-life"
+      "id": 5532,
+      "name": "Meteor Shower Head NG",
+      "url": "/lu4/item/5532-meteor-shower-head"
     },
     {
       "key": "item:8346",
@@ -220,11 +133,95 @@
       "url": "/lu4/item/8346-hammer-piece-of-destroyer"
     },
     {
-      "key": "item:5521",
+      "key": "item:32368",
       "type": "item",
-      "id": 5521,
-      "name": "Sealed Tallum Plate Armor Pattern NG",
-      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
+      "id": 32368,
+      "name": "Unidentified Meteor Shower A",
+      "url": "/lu4/item/32368-unidentified-meteor-shower"
+    },
+    {
+      "key": "item:32535",
+      "type": "item",
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+    },
+    {
+      "key": "item:8600",
+      "type": "item",
+      "id": 8600,
+      "name": "Herb of Life NG",
+      "url": "/lu4/item/8600-herb-of-life"
+    },
+    {
+      "key": "item:8601",
+      "type": "item",
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
+    },
+    {
+      "key": "item:8602",
+      "type": "item",
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
+    },
+    {
+      "key": "item:8607",
+      "type": "item",
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
+    },
+    {
+      "key": "item:8609",
+      "type": "item",
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
+    },
+    {
+      "key": "item:8603",
+      "type": "item",
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:8605",
+      "type": "item",
+      "id": 8605,
+      "name": "Superior Herb of Mana NG",
+      "url": "/lu4/item/8605-superior-herb-of-mana"
+    },
+    {
+      "key": "item:8606",
+      "type": "item",
+      "id": 8606,
+      "name": "Herb of Power NG",
+      "url": "/lu4/item/8606-herb-of-power"
+    },
+    {
+      "key": "item:8608",
+      "type": "item",
+      "id": 8608,
+      "name": "Herb of Alacrity NG",
+      "url": "/lu4/item/8608-herb-of-alacrity"
+    },
+    {
+      "key": "item:8610",
+      "type": "item",
+      "id": 8610,
+      "name": "Herb of Critical Attack - Probability NG",
+      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
     },
     {
       "key": "item:5520",
@@ -239,6 +236,13 @@
       "id": 5464,
       "name": "Recipe: Dark Legion's Edge(60%) NG",
       "url": "/lu4/item/5464-recipe-dark-legions-edge60"
+    },
+    {
+      "key": "item:5521",
+      "type": "item",
+      "id": 5521,
+      "name": "Sealed Tallum Plate Armor Pattern NG",
+      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
     }
   ]
 }

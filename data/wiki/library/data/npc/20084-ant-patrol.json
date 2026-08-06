@@ -2,140 +2,74 @@
   "key": "npc:20084",
   "type": "npc",
   "id": 20084,
-  "name": "Lu4 Wiki: NPC Ant Patrol",
+  "name": "Ant Patrol",
   "url": "/lu4/npc/20084-ant-patrol",
-  "source_url": "https://masterwork.wiki/lu4/npc/20084-ant-patrol",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20084-ant-patrol",
   "raw_html": "library/raw/lu4/npc/20084-ant-patrol.html",
   "stats": {
-    "Location": "Муравейник"
+    "Respawn Time": "36 seconds ± 12 seconds",
+    "Location": "Муравейник",
+    "HP / MP": "1 124 / 477",
+    "P. Atk. / M. Atk.": "210 / 111",
+    "P. Def. / M. Def.": "157 / 121",
+    "Accuracy / Evasion": "67 / 72",
+    "Exp / SP": "1 208 / 121",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 34"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20084",
-      "type": "npc",
-      "id": 20084,
-      "name": "Lu4",
-      "url": "/lu4/npc/20084-ant-patrol"
-    },
-    {
-      "key": "location:17",
-      "type": "location",
-      "id": 17,
-      "name": "Муравейник",
-      "url": "/lu4/location/17-muravejnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:2982",
-      "type": "item",
-      "id": 2982,
-      "name": "Recipe: Brigandine Shield NG",
-      "url": "/lu4/item/2982-recipe-brigandine-shield"
-    },
-    {
-      "key": "item:2923",
-      "type": "item",
-      "id": 2923,
-      "name": "Manticore Skin Boot Lining NG",
-      "url": "/lu4/item/2923-manticore-skin-boot-lining"
-    },
-    {
-      "key": "item:2424",
-      "type": "item",
-      "id": 2424,
-      "name": "Manticore Skin Boots D",
-      "url": "/lu4/item/2424-manticore-skin-boots"
-    },
-    {
-      "key": "item:2271",
-      "type": "item",
-      "id": 2271,
-      "name": "Recipe: Winged Spear NG",
-      "url": "/lu4/item/2271-recipe-winged-spear"
-    },
-    {
-      "key": "item:2187",
-      "type": "item",
-      "id": 2187,
-      "name": "Recipe: Manticore Skin Shirt NG",
-      "url": "/lu4/item/2187-recipe-manticore-skin-shirt"
-    },
-    {
-      "key": "item:2040",
-      "type": "item",
-      "id": 2040,
-      "name": "Reinforced Long Bow Shaft NG",
-      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
-    },
-    {
-      "key": "item:2031",
-      "type": "item",
-      "id": 2031,
-      "name": "Morning Star Head NG",
-      "url": "/lu4/item/2031-morning-star-head"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1882",
@@ -180,11 +114,18 @@
       "url": "/lu4/item/1341-bone-arrow"
     },
     {
-      "key": "item:279",
+      "key": "item:2424",
       "type": "item",
-      "id": 279,
-      "name": "Reinforced Long Bow D",
-      "url": "/lu4/item/279-reinforced-long-bow"
+      "id": 2424,
+      "name": "Manticore Skin Boots D",
+      "url": "/lu4/item/2424-manticore-skin-boots"
+    },
+    {
+      "key": "item:2923",
+      "type": "item",
+      "id": 2923,
+      "name": "Manticore Skin Boot Lining NG",
+      "url": "/lu4/item/2923-manticore-skin-boot-lining"
     },
     {
       "key": "item:88",
@@ -194,11 +135,74 @@
       "url": "/lu4/item/88-morning-star"
     },
     {
-      "key": "item:57",
+      "key": "item:2031",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2031,
+      "name": "Morning Star Head NG",
+      "url": "/lu4/item/2031-morning-star-head"
+    },
+    {
+      "key": "item:279",
+      "type": "item",
+      "id": 279,
+      "name": "Reinforced Long Bow D",
+      "url": "/lu4/item/279-reinforced-long-bow"
+    },
+    {
+      "key": "item:2040",
+      "type": "item",
+      "id": 2040,
+      "name": "Reinforced Long Bow Shaft NG",
+      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
+    },
+    {
+      "key": "item:2982",
+      "type": "item",
+      "id": 2982,
+      "name": "Recipe: Brigandine Shield NG",
+      "url": "/lu4/item/2982-recipe-brigandine-shield"
+    },
+    {
+      "key": "item:2187",
+      "type": "item",
+      "id": 2187,
+      "name": "Recipe: Manticore Skin Shirt NG",
+      "url": "/lu4/item/2187-recipe-manticore-skin-shirt"
+    },
+    {
+      "key": "item:2271",
+      "type": "item",
+      "id": 2271,
+      "name": "Recipe: Winged Spear NG",
+      "url": "/lu4/item/2271-recipe-winged-spear"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
     },
     {
       "key": "item:2276",
@@ -213,13 +217,6 @@
       "id": 2036,
       "name": "Skull Breaker Head NG",
       "url": "/lu4/item/2036-skull-breaker-head"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
     }
   ]
 }

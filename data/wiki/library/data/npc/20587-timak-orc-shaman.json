@@ -2,133 +2,60 @@
   "key": "npc:20587",
   "type": "npc",
   "id": 20587,
-  "name": "Lu4 Wiki: NPC Timak Orc Shaman",
+  "name": "Timak Orc Shaman",
   "url": "/lu4/npc/20587-timak-orc-shaman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20587-timak-orc-shaman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20587-timak-orc-shaman",
   "raw_html": "library/raw/lu4/npc/20587-timak-orc-shaman.html",
   "stats": {
-    "Location": "Застава Тимак (+1) Застава Тимак Земли Орена"
+    "Respawn Time": "25 seconds",
+    "Location": "Застава Тимак (+1) Застава Тимак Земли Орена",
+    "HP / MP": "1 778 / 719",
+    "P. Atk. / M. Atk.": "426 / 268",
+    "P. Def. / M. Def.": "193 / 175",
+    "Accuracy / Evasion": "80 / 79",
+    "Exp / SP": "2 041 / 204",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong M. Atk. Lv. 12 Strong P. Atk. Lv. 14 Slightly Weak M. Def. Lv. 10 Slightly Weak P. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20587",
-      "type": "npc",
-      "id": 20587,
-      "name": "Lu4",
-      "url": "/lu4/npc/20587-timak-orc-shaman"
-    },
-    {
-      "key": "location:231",
-      "type": "location",
-      "id": 231,
-      "name": "Застава Тимак",
-      "url": "/lu4/location/231-zastava-timak"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:2947",
-      "type": "item",
-      "id": 2947,
-      "name": "Dwarven Chain Shield Fragment NG",
-      "url": "/lu4/item/2947-dwarven-chain-shield-fragment"
-    },
-    {
-      "key": "item:2496",
-      "type": "item",
-      "id": 2496,
-      "name": "Dwarven Chain Shield C",
-      "url": "/lu4/item/2496-dwarven-chain-shield"
-    },
-    {
-      "key": "item:2084",
-      "type": "item",
-      "id": 2084,
-      "name": "Soulfire Dirk Blade NG",
-      "url": "/lu4/item/2084-soulfire-dirk-blade"
-    },
-    {
-      "key": "item:1912",
-      "type": "item",
-      "id": 1912,
-      "name": "Ring of Protection Gemstone NG",
-      "url": "/lu4/item/1912-ring-of-protection-gemstone"
-    },
-    {
-      "key": "item:884",
-      "type": "item",
-      "id": 884,
-      "name": "Ring of Protection C",
-      "url": "/lu4/item/884-ring-of-protection"
-    },
-    {
-      "key": "item:242",
-      "type": "item",
-      "id": 242,
-      "name": "Soulfire Dirk C",
-      "url": "/lu4/item/242-soulfire-dirk"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "item:57",
@@ -138,18 +65,74 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2949",
+      "key": "item:242",
       "type": "item",
-      "id": 2949,
-      "name": "Dwarven Chain Gloves Design NG",
-      "url": "/lu4/item/2949-dwarven-chain-gloves-design"
+      "id": 242,
+      "name": "Soulfire Dirk C",
+      "url": "/lu4/item/242-soulfire-dirk"
     },
     {
-      "key": "item:2321",
+      "key": "item:2084",
       "type": "item",
-      "id": 2321,
-      "name": "Recipe: Stiletto NG",
-      "url": "/lu4/item/2321-recipe-stiletto"
+      "id": 2084,
+      "name": "Soulfire Dirk Blade NG",
+      "url": "/lu4/item/2084-soulfire-dirk-blade"
+    },
+    {
+      "key": "item:2496",
+      "type": "item",
+      "id": 2496,
+      "name": "Dwarven Chain Shield C",
+      "url": "/lu4/item/2496-dwarven-chain-shield"
+    },
+    {
+      "key": "item:2947",
+      "type": "item",
+      "id": 2947,
+      "name": "Dwarven Chain Shield Fragment NG",
+      "url": "/lu4/item/2947-dwarven-chain-shield-fragment"
+    },
+    {
+      "key": "item:884",
+      "type": "item",
+      "id": 884,
+      "name": "Ring of Protection C",
+      "url": "/lu4/item/884-ring-of-protection"
+    },
+    {
+      "key": "item:1912",
+      "type": "item",
+      "id": 1912,
+      "name": "Ring of Protection Gemstone NG",
+      "url": "/lu4/item/1912-ring-of-protection-gemstone"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
       "key": "item:2215",
@@ -159,18 +142,25 @@
       "url": "/lu4/item/2215-recipe-robe-of-seal"
     },
     {
+      "key": "item:2321",
+      "type": "item",
+      "id": 2321,
+      "name": "Recipe: Stiletto NG",
+      "url": "/lu4/item/2321-recipe-stiletto"
+    },
+    {
+      "key": "item:2949",
+      "type": "item",
+      "id": 2949,
+      "name": "Dwarven Chain Gauntlets Design NG",
+      "url": "/lu4/item/2949-dwarven-chain-gauntlets-design"
+    },
+    {
       "key": "item:1911",
       "type": "item",
       "id": 1911,
       "name": "Earring of Protection Gemstone NG",
       "url": "/lu4/item/1911-earring-of-protection-gemstone"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "key": "skill:341",
+  "type": "skill",
+  "id": 341,
+  "name": "Touch of Life",
+  "url": "/lu4/skill/341-touch-of-life",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/341-touch-of-life",
+  "raw_html": "library/raw/lu4/skill/341-touch-of-life.html",
+  "stats": {
+    "Effect": "Restores 50% HP instantly Restores 20 HP every second. Resistance to buff-canceling attacks +100% (by 2 times) Resistance to debuffs attacks +30% Incoming Heal Power +30%. Can't be used for 30 sec after joining a party. Can be applied only to your character or party member. Skill only works while in a party with the caster.",
+    "Consumes": "0 MP 405 HP",
+    "Reuse Time": "5 minutes",
+    "Duration": "30 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "Holy 0",
+    "Trait": "trait_holy",
+    "Cast Range": "150 (400)",
+    "Available For": "PaladinLv. 56Temple KnightLv. 56",
+    "Type": "Physical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:5",
+      "type": "class",
+      "id": 5,
+      "name": "PaladinLv. 56",
+      "url": "/lu4/class/5-paladin"
+    },
+    {
+      "key": "class:20",
+      "type": "class",
+      "id": 20,
+      "name": "Temple KnightLv. 56",
+      "url": "/lu4/class/20-templeknight"
+    }
+  ]
+}

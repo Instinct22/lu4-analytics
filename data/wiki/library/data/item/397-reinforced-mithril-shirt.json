@@ -2,24 +2,23 @@
   "key": "item:397",
   "type": "item",
   "id": 397,
-  "name": "Lu4 Wiki: Item Reinforced Mithril Shirt",
+  "name": "Reinforced Mithril Shirt",
   "url": "/lu4/item/397-reinforced-mithril-shirt",
-  "source_url": "https://masterwork.wiki/lu4/item/397-reinforced-mithril-shirt",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/397-reinforced-mithril-shirt",
   "raw_html": "library/raw/lu4/item/397-reinforced-mithril-shirt.html",
   "stats": {
+    "P. Def.": "90",
+    "Crystal Amount": "116 Crystallization Failed Enchant +0 116 - +1 122 - +2 128 - +3 134 - +4 152 94 +5 170 112 +6 188 130 +7 206 148 +8 224 166",
+    "NPC Sell Price": "145 500 Adena",
+    "Weight": "4470",
     "Set Part": "Reinforced Mithril Shirt C",
     "Recipes": "Recipe: Reinforced Mithril Shirt NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / Light / Upper Body"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:397",
-      "type": "item",
-      "id": 397,
-      "name": "Lu4",
-      "url": "/lu4/item/397-reinforced-mithril-shirt"
-    },
     {
       "key": "set:12",
       "type": "set",
@@ -35,59 +34,66 @@
       "url": "/lu4/item/2206-recipe-reinforced-mithril-shirt"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25506",
       "type": "npc",
       "id": 25506,
-      "name": "Rayito the Looter Lv. 37",
+      "name": "Rayito the Looter",
       "url": "/lu4/npc/25506-rayito-the-looter"
     },
     {
       "key": "npc:25334",
       "type": "npc",
       "id": 25334,
-      "name": "Anakazel Lv. 38",
+      "name": "Anakazel",
       "url": "/lu4/npc/25334-anakazel"
     },
     {
       "key": "npc:25155",
       "type": "npc",
       "id": 25155,
-      "name": "Shaman King Selu Lv. 40",
+      "name": "Shaman King Selu",
       "url": "/lu4/npc/25155-shaman-king-selu"
     },
     {
       "key": "npc:20849",
       "type": "npc",
       "id": 20849,
-      "name": "Light Worm Lv. 41",
+      "name": "Light Worm",
       "url": "/lu4/npc/20849-light-worm"
     },
     {
       "key": "npc:20770",
       "type": "npc",
       "id": 20770,
-      "name": "Timak Orc Troop Archer Lv. 41",
+      "name": "Timak Orc Troop Archer",
       "url": "/lu4/npc/20770-timak-orc-troop-archer"
     },
     {
       "key": "npc:20602",
       "type": "npc",
       "id": 20602,
-      "name": "Tamlin Orc Archer Lv. 42",
+      "name": "Tamlin Orc Archer",
       "url": "/lu4/npc/20602-tamlin-orc-archer"
     },
     {
       "key": "npc:20582",
       "type": "npc",
       "id": 20582,
-      "name": "Leto Lizardman Overlord Lv. 40",
+      "name": "Leto Lizardman Overlord",
       "url": "/lu4/npc/20582-leto-lizardman-overlord"
     },
     {
       "key": "npc:20557",
       "type": "npc",
       "id": 20557,
-      "name": "Dire Wyrm Lv. 42",
+      "name": "Dire Wyrm",
       "url": "/lu4/npc/20557-dire-wyrm"
     }
   ]

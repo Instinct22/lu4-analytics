@@ -2,110 +2,107 @@
   "key": "npc:25514",
   "type": "npc",
   "id": 25514,
-  "name": "Lu4 Wiki: NPC Queen Shyeed",
+  "name": "Queen Shyeed",
   "url": "/lu4/npc/25514-queen-shyeed",
-  "source_url": "https://masterwork.wiki/lu4/npc/25514-queen-shyeed",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25514-queen-shyeed",
   "raw_html": "library/raw/lu4/npc/25514-queen-shyeed.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 666 778 / 3 718",
+    "P. Atk. / M. Atk.": "61 601 / 4 692",
+    "P. Def. / M. Def.": "1 651 / 1 874",
+    "Accuracy / Evasion": "146 / 145",
+    "Exp / SP": "6 080 000 / 835 990",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Queen of Spike Stakatos conducts breeding experiments using top-ranking Spike Stakatos. She knows that her life running out and is desperately trying to grow a new Stakato queen in her nest, despite the low chances for success. Nursing her power, she dreams of a resurgence of her weakened race. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25514",
-      "type": "npc",
-      "id": 25514,
-      "name": "Lu4",
-      "url": "/lu4/npc/25514-queen-shyeed"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:5031",
       "type": "skill",
       "id": 5031,
-      "name": "Raid Boss Lv. 1 This Queen of Spike Stakatos conducts breeding experiments using top-ranking Spike Stakatos. She knows that her life running out and is desperately trying to grow a new Stakato queen in her nest, despite the low chances for success. Nursing her power, she dreams of a resurgence of her weakened race.",
-      "url": "/lu4/skill/5031-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/5031-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:32447",
-      "type": "item",
-      "id": 32447,
-      "name": "Unidentified Shyeed's Bow A",
-      "url": "/lu4/item/32447-unidentified-shyeeds-bow"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -115,39 +112,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:7579",
+      "key": "item:32447",
       "type": "item",
-      "id": 7579,
-      "name": "Draconic Bow Shaft NG",
-      "url": "/lu4/item/7579-draconic-bow-shaft"
-    },
-    {
-      "key": "item:6714",
-      "type": "item",
-      "id": 6714,
-      "name": "Sealed Major Arcana Circlet Pattern NG",
-      "url": "/lu4/item/6714-sealed-major-arcana-circlet-pattern"
-    },
-    {
-      "key": "item:6710",
-      "type": "item",
-      "id": 6710,
-      "name": "Sealed Draconic Leather Helmet Pattern NG",
-      "url": "/lu4/item/6710-sealed-draconic-leather-helmet-pattern"
-    },
-    {
-      "key": "item:6706",
-      "type": "item",
-      "id": 6706,
-      "name": "Sealed Imperial Crusader Helmet Pattern NG",
-      "url": "/lu4/item/6706-sealed-imperial-crusader-helmet-pattern"
-    },
-    {
-      "key": "item:6705",
-      "type": "item",
-      "id": 6705,
-      "name": "Sealed Imperial Crusader Shield Part NG",
-      "url": "/lu4/item/6705-sealed-imperial-crusader-shield-part"
+      "id": 32447,
+      "name": "Unidentified Shyeed's Bow A",
+      "url": "/lu4/item/32447-unidentified-shyeeds-bow"
     },
     {
       "key": "item:6691",
@@ -157,18 +126,39 @@
       "url": "/lu4/item/6691-angel-slayer-blade"
     },
     {
-      "key": "item:6578",
+      "key": "item:7579",
       "type": "item",
-      "id": 6578,
-      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+      "id": 7579,
+      "name": "Draconic Bow Shaft NG",
+      "url": "/lu4/item/7579-draconic-bow-shaft"
     },
     {
-      "key": "item:6577",
+      "key": "item:6706",
       "type": "item",
-      "id": 6577,
-      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
-      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
+      "id": 6706,
+      "name": "Sealed Imperial Crusader Helmet Pattern NG",
+      "url": "/lu4/item/6706-sealed-imperial-crusader-helmet-pattern"
+    },
+    {
+      "key": "item:6710",
+      "type": "item",
+      "id": 6710,
+      "name": "Sealed Draconic Leather Helmet Pattern NG",
+      "url": "/lu4/item/6710-sealed-draconic-leather-helmet-pattern"
+    },
+    {
+      "key": "item:6714",
+      "type": "item",
+      "id": 6714,
+      "name": "Sealed Major Arcana Circlet Pattern NG",
+      "url": "/lu4/item/6714-sealed-major-arcana-circlet-pattern"
+    },
+    {
+      "key": "item:6705",
+      "type": "item",
+      "id": 6705,
+      "name": "Sealed Imperial Crusader Shield Part NG",
+      "url": "/lu4/item/6705-sealed-imperial-crusader-shield-part"
     },
     {
       "key": "item:960",
@@ -178,11 +168,25 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
+      "key": "item:6578",
+      "type": "item",
+      "id": 6578,
+      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+    },
+    {
       "key": "item:959",
       "type": "item",
       "id": 959,
       "name": "Scroll: Enchant Weapon (S-Grade) NG",
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
+    },
+    {
+      "key": "item:6577",
+      "type": "item",
+      "id": 6577,
+      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
+      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
     },
     {
       "key": "npc:25515",

@@ -2,24 +2,27 @@
   "key": "item:226",
   "type": "item",
   "id": 226,
-  "name": "Lu4 Wiki: Item Cursed Dagger",
+  "name": "Cursed Dagger",
   "url": "/lu4/item/226-cursed-dagger",
-  "source_url": "https://masterwork.wiki/lu4/item/226-cursed-dagger",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/226-cursed-dagger",
   "raw_html": "library/raw/lu4/item/226-cursed-dagger.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Critical Damage: P. Crit. Damage +140. Haste: Atk. Spd. +7%. Focus: P. Crit. Rate +60.",
+    "P. Atk. / M. Atk.": "94 / 61",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "1040",
+    "P. Crit. Rate.": "12",
+    "Accuracy": "-4",
     "Recipes": "Recipe: Cursed Dagger NG",
     "Soul Crystals": "Cursed Dagger Critical Damage C Cursed Dagger C Gemstone C NG (97 pcs.) Red Soul Crystal - Stage 5 NG Cursed Dagger Focus C Cursed Dagger C Gemstone C NG (97 pcs.) Green Soul Crystal - Stage 5 NG Cursed Dagger Haste C Cursed Dagger C Gemstone C NG (97 pcs.) Blue Soul Crystal - Stage 5 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Dagger / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:226",
-      "type": "item",
-      "id": 226,
-      "name": "Lu4",
-      "url": "/lu4/item/226-cursed-dagger"
-    },
     {
       "key": "item:2308",
       "type": "item",
@@ -77,66 +80,73 @@
       "url": "/lu4/item/4656-blue-soul-crystal-stage-5"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25170",
       "type": "npc",
       "id": 25170,
-      "name": "Lizardmen Leader Hellion Lv. 38",
+      "name": "Lizardmen Leader Hellion",
       "url": "/lu4/npc/25170-lizardmen-leader-hellion"
     },
     {
       "key": "npc:25155",
       "type": "npc",
       "id": 25155,
-      "name": "Shaman King Selu Lv. 40",
+      "name": "Shaman King Selu",
       "url": "/lu4/npc/25155-shaman-king-selu"
     },
     {
       "key": "npc:22050",
       "type": "npc",
       "id": 22050,
-      "name": "Probe Golem Prodigy IV Lv. 46",
+      "name": "Probe Golem Prodigy IV",
       "url": "/lu4/npc/22050-probe-golem-prodigy-iv"
     },
     {
       "key": "npc:21645",
       "type": "npc",
       "id": 21645,
-      "name": "Lienrik Lad Lv. 40",
+      "name": "Lienrik Lad",
       "url": "/lu4/npc/21645-lienrik-lad"
     },
     {
       "key": "npc:21149",
       "type": "npc",
       "id": 21149,
-      "name": "Decayed Ancient Pikeman Lv. 46",
+      "name": "Decayed Ancient Pikeman",
       "url": "/lu4/npc/21149-decayed-ancient-pikeman"
     },
     {
       "key": "npc:20832",
       "type": "npc",
       "id": 20832,
-      "name": "Zaken's Pikeman Lv. 43",
+      "name": "Zaken's Pikeman",
       "url": "/lu4/npc/20832-zakens-pikeman"
     },
     {
       "key": "npc:20632",
       "type": "npc",
       "id": 20632,
-      "name": "Taik Orc Warrior Lv. 42",
+      "name": "Taik Orc Warrior",
       "url": "/lu4/npc/20632-taik-orc-warrior"
     },
     {
       "key": "npc:20566",
       "type": "npc",
       "id": 20566,
-      "name": "Enchanted Iron Golem Lv. 43",
+      "name": "Enchanted Iron Golem",
       "url": "/lu4/npc/20566-enchanted-iron-golem"
     },
     {
       "key": "npc:20216",
       "type": "npc",
       "id": 20216,
-      "name": "Ricenseo Lv. 43",
+      "name": "Ricenseo",
       "url": "/lu4/npc/20216-ricenseo"
     }
   ]

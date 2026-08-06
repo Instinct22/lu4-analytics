@@ -2,24 +2,26 @@
   "key": "item:7887",
   "type": "item",
   "id": 7887,
-  "name": "Lu4 Wiki: Item Mysterious Sword",
+  "name": "Mysterious Sword",
   "url": "/lu4/item/7887-mysterious-sword",
-  "source_url": "https://masterwork.wiki/lu4/item/7887-mysterious-sword",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/7887-mysterious-sword",
   "raw_html": "library/raw/lu4/item/7887-mysterious-sword.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Acumen: Casting Spd. +15%. Magic Weakness: Casts 'Curse Weakness' Lv.7 on target with 8% chance. Conversion: Max HP -40%, Max MP +60%.",
+    "P. Atk. / M. Atk.": "85 / 81",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "1430",
+    "P. Crit. Rate.": "8",
     "Recipes": "Recipe: Mysterious Sword (100%) NG",
     "Soul Crystals": "Mysterious Sword Acumen C Gemstone C NG (97 pcs.) Red Soul Crystal - Stage 5 NG Mysterious Sword C Mysterious Sword Conversion C Gemstone C NG (97 pcs.) Green Soul Crystal - Stage 5 NG Mysterious Sword C Mysterious Sword Magic Weakness C Gemstone C NG (97 pcs.) Blue Soul Crystal - Stage 5 NG Mysterious Sword C",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Sword / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:7887",
-      "type": "item",
-      "id": 7887,
-      "name": "Lu4",
-      "url": "/lu4/item/7887-mysterious-sword"
-    },
     {
       "key": "item:8303",
       "type": "item",
@@ -77,38 +79,45 @@
       "url": "/lu4/item/4656-blue-soul-crystal-stage-5"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:20795",
       "type": "npc",
       "id": 20795,
-      "name": "Blade Stakato Worker Lv. 42",
+      "name": "Blade Stakato Worker",
       "url": "/lu4/npc/20795-blade-stakato-worker"
     },
     {
       "key": "npc:20793",
       "type": "npc",
       "id": 20793,
-      "name": "Nos Lv. 40",
+      "name": "Nos",
       "url": "/lu4/npc/20793-nos"
     },
     {
       "key": "npc:20763",
       "type": "npc",
       "id": 20763,
-      "name": "Lord of the Plains Lv. 40",
+      "name": "Lord of the Plains",
       "url": "/lu4/npc/20763-lord-of-the-plains"
     },
     {
       "key": "npc:20586",
       "type": "npc",
       "id": 20586,
-      "name": "Timak Orc Warrior Lv. 43",
+      "name": "Timak Orc Warrior",
       "url": "/lu4/npc/20586-timak-orc-warrior"
     },
     {
       "key": "npc:20583",
       "type": "npc",
       "id": 20583,
-      "name": "Timak Orc Lv. 40",
+      "name": "Timak Orc",
       "url": "/lu4/npc/20583-timak-orc"
     }
   ]

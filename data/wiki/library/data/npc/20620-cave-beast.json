@@ -2,161 +2,53 @@
   "key": "npc:20620",
   "type": "npc",
   "id": 20620,
-  "name": "Lu4 Wiki: NPC Cave Beast",
+  "name": "Cave Beast",
   "url": "/lu4/npc/20620-cave-beast",
-  "source_url": "https://masterwork.wiki/lu4/npc/20620-cave-beast",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20620-cave-beast",
   "raw_html": "library/raw/lu4/npc/20620-cave-beast.html",
   "stats": {
-    "Location": "Логово Антараса"
+    "Respawn Time": "3 minutes, 20 seconds ± 15 seconds",
+    "Location": "Логово Антараса",
+    "HP / MP": "12 217 / 1 651",
+    "P. Atk. / M. Atk.": "1 012 / 473",
+    "P. Def. / M. Def.": "374 / 301",
+    "Accuracy / Evasion": "93 / 93",
+    "Exp / SP": "15 094 / 1 509",
+    "Attack Attribute": "Earth 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 60"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20620",
-      "type": "npc",
-      "id": 20620,
-      "name": "Lu4",
-      "url": "/lu4/npc/20620-cave-beast"
-    },
-    {
-      "key": "location:45",
-      "type": "location",
-      "id": 45,
-      "name": "Логово Антараса",
-      "url": "/lu4/location/45-logovo-antarasa"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32438",
-      "type": "item",
-      "id": 32438,
-      "name": "Unidentified Ice Storm Hammer B",
-      "url": "/lu4/item/32438-unidentified-ice-storm-hammer"
-    },
-    {
-      "key": "item:32335",
-      "type": "item",
-      "id": 32335,
-      "name": "Unidentified Kris B",
-      "url": "/lu4/item/32335-unidentified-kris"
-    },
-    {
-      "key": "item:32325",
-      "type": "item",
-      "id": 32325,
-      "name": "Unidentified Heavy War Axe B",
-      "url": "/lu4/item/32325-unidentified-heavy-war-axe"
-    },
-    {
-      "key": "item:8347",
-      "type": "item",
-      "id": 8347,
-      "name": "Ice Storm Hammer Head NG",
-      "url": "/lu4/item/8347-ice-storm-hammer-head"
-    },
-    {
-      "key": "item:4971",
-      "type": "item",
-      "id": 4971,
-      "name": "Recipe: Dark Elven Long Bow (60%) NG",
-      "url": "/lu4/item/4971-recipe-dark-elven-long-bow-60"
-    },
-    {
-      "key": "item:4965",
-      "type": "item",
-      "id": 4965,
-      "name": "Recipe: Sprite's Staff (60%) NG",
-      "url": "/lu4/item/4965-recipe-sprites-staff-60"
-    },
-    {
-      "key": "item:4958",
-      "type": "item",
-      "id": 4958,
-      "name": "Recipe: Sealed Zubei's Boots (60%) NG",
-      "url": "/lu4/item/4958-recipe-sealed-zubeis-boots-60"
-    },
-    {
-      "key": "item:4109",
-      "type": "item",
-      "id": 4109,
-      "name": "Kris Edge NG",
-      "url": "/lu4/item/4109-kris-edge"
-    },
-    {
-      "key": "item:4105",
-      "type": "item",
-      "id": 4105,
-      "name": "Heavy War Axe Head NG",
-      "url": "/lu4/item/4105-heavy-war-axe-head"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4044",
@@ -185,6 +77,111 @@
       "id": 1894,
       "name": "Crafted Leather NG",
       "url": "/lu4/item/1894-crafted-leather"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32325",
+      "type": "item",
+      "id": 32325,
+      "name": "Unidentified Heavy War Axe B",
+      "url": "/lu4/item/32325-unidentified-heavy-war-axe"
+    },
+    {
+      "key": "item:4105",
+      "type": "item",
+      "id": 4105,
+      "name": "Heavy War Axe Head NG",
+      "url": "/lu4/item/4105-heavy-war-axe-head"
+    },
+    {
+      "key": "item:32438",
+      "type": "item",
+      "id": 32438,
+      "name": "Unidentified Ice Storm Hammer B",
+      "url": "/lu4/item/32438-unidentified-ice-storm-hammer"
+    },
+    {
+      "key": "item:8347",
+      "type": "item",
+      "id": 8347,
+      "name": "Ice Storm Hammer Head NG",
+      "url": "/lu4/item/8347-ice-storm-hammer-head"
+    },
+    {
+      "key": "item:32335",
+      "type": "item",
+      "id": 32335,
+      "name": "Unidentified Kris B",
+      "url": "/lu4/item/32335-unidentified-kris"
+    },
+    {
+      "key": "item:4109",
+      "type": "item",
+      "id": 4109,
+      "name": "Kris Edge NG",
+      "url": "/lu4/item/4109-kris-edge"
+    },
+    {
+      "key": "item:4971",
+      "type": "item",
+      "id": 4971,
+      "name": "Recipe: Dark Elven Long Bow (60%) NG",
+      "url": "/lu4/item/4971-recipe-dark-elven-long-bow-60"
+    },
+    {
+      "key": "item:4958",
+      "type": "item",
+      "id": 4958,
+      "name": "Recipe: Sealed Zubei's Boots (60%) NG",
+      "url": "/lu4/item/4958-recipe-sealed-zubeis-boots-60"
+    },
+    {
+      "key": "item:4965",
+      "type": "item",
+      "id": 4965,
+      "name": "Recipe: Sprite's Staff (60%) NG",
+      "url": "/lu4/item/4965-recipe-sprites-staff-60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
     },
     {
       "key": "item:4108",

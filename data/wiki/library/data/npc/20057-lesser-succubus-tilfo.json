@@ -2,154 +2,81 @@
   "key": "npc:20057",
   "type": "npc",
   "id": 20057,
-  "name": "Lu4 Wiki: NPC Lesser Succubus Tilfo",
+  "name": "Lesser Succubus Tilfo",
   "url": "/lu4/npc/20057-lesser-succubus-tilfo",
-  "source_url": "https://masterwork.wiki/lu4/npc/20057-lesser-succubus-tilfo",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20057-lesser-succubus-tilfo",
   "raw_html": "library/raw/lu4/npc/20057-lesser-succubus-tilfo.html",
   "stats": {
-    "Location": "Школа Темной Магии"
+    "Respawn Time": "50 seconds",
+    "Location": "Школа Темной Магии",
+    "HP / MP": "2 490 / 269",
+    "P. Atk. / M. Atk.": "81 / 63",
+    "P. Def. / M. Def.": "99 / 80",
+    "Accuracy / Evasion": "55 / 55",
+    "Exp / SP": "2 707 / 271",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 22"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20057",
-      "type": "npc",
-      "id": 20057,
-      "name": "Lu4",
-      "url": "/lu4/npc/20057-lesser-succubus-tilfo"
-    },
-    {
-      "key": "location:110",
-      "type": "location",
-      "id": 110,
-      "name": "Школа Темной Магии",
-      "url": "/lu4/location/110-skola-temnoj-magii"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
-    },
-    {
-      "key": "item:5531",
-      "type": "item",
-      "id": 5531,
-      "name": "Heavy Sword Edge NG",
-      "url": "/lu4/item/5531-heavy-sword-edge"
-    },
-    {
-      "key": "item:5285",
-      "type": "item",
-      "id": 5285,
-      "name": "Heavy Sword D",
-      "url": "/lu4/item/5285-heavy-sword"
-    },
-    {
-      "key": "item:5273",
-      "type": "item",
-      "id": 5273,
-      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
-      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
-    },
-    {
-      "key": "item:2019",
-      "type": "item",
-      "id": 2019,
-      "name": "Trident Edge NG",
-      "url": "/lu4/item/2019-trident-edge"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1105",
-      "type": "item",
-      "id": 1105,
-      "name": "Stockings of Magic NG",
-      "url": "/lu4/item/1105-stockings-of-magic"
-    },
-    {
-      "key": "item:1102",
-      "type": "item",
-      "id": 1102,
-      "name": "Tunic of Magic NG",
-      "url": "/lu4/item/1102-tunic-of-magic"
-    },
-    {
-      "key": "item:626",
-      "type": "item",
-      "id": 626,
-      "name": "Bronze Shield D",
-      "url": "/lu4/item/626-bronze-shield"
-    },
-    {
-      "key": "item:291",
-      "type": "item",
-      "id": 291,
-      "name": "Trident D",
-      "url": "/lu4/item/291-trident"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "item:57",
@@ -159,11 +86,74 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8343",
+      "key": "item:1102",
       "type": "item",
-      "id": 8343,
-      "name": "Titan Hammer Piece NG",
-      "url": "/lu4/item/8343-titan-hammer-piece"
+      "id": 1102,
+      "name": "Tunic of Magic NG",
+      "url": "/lu4/item/1102-tunic-of-magic"
+    },
+    {
+      "key": "item:1105",
+      "type": "item",
+      "id": 1105,
+      "name": "Stockings of Magic NG",
+      "url": "/lu4/item/1105-stockings-of-magic"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:5273",
+      "type": "item",
+      "id": 5273,
+      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
+      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
+    },
+    {
+      "key": "item:626",
+      "type": "item",
+      "id": 626,
+      "name": "Bronze Shield D",
+      "url": "/lu4/item/626-bronze-shield"
+    },
+    {
+      "key": "item:5285",
+      "type": "item",
+      "id": 5285,
+      "name": "Heavy Sword D",
+      "url": "/lu4/item/5285-heavy-sword"
+    },
+    {
+      "key": "item:5531",
+      "type": "item",
+      "id": 5531,
+      "name": "Heavy Sword Edge NG",
+      "url": "/lu4/item/5531-heavy-sword-edge"
+    },
+    {
+      "key": "item:291",
+      "type": "item",
+      "id": 291,
+      "name": "Trident D",
+      "url": "/lu4/item/291-trident"
+    },
+    {
+      "key": "item:2019",
+      "type": "item",
+      "id": 2019,
+      "name": "Trident Edge NG",
+      "url": "/lu4/item/2019-trident-edge"
     },
     {
       "key": "item:1927",

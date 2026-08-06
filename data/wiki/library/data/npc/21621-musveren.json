@@ -2,194 +2,107 @@
   "key": "npc:21621",
   "type": "npc",
   "id": 21621,
-  "name": "Lu4 Wiki: NPC Musveren",
+  "name": "Musveren",
   "url": "/lu4/npc/21621-musveren",
-  "source_url": "https://masterwork.wiki/lu4/npc/21621-musveren",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21621-musveren",
   "raw_html": "library/raw/lu4/npc/21621-musveren.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 233 / 887",
+    "P. Atk. / M. Atk.": "896 / 459",
+    "P. Def. / M. Def.": "187 / 188",
+    "Accuracy / Evasion": "82 / 82",
+    "Exp / SP": "5 595 / 414",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Weak P. Def. Lv. 8 Weak M. Def. Lv. 8 Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 49"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21621",
-      "type": "npc",
-      "id": 21621,
-      "name": "Lu4",
-      "url": "/lu4/npc/21621-musveren"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Weak P. Def. Lv. 8",
-      "url": "/lu4/skill/4412-weak-p-def/8"
+      "name": "Weak P. Def.",
+      "url": "/lu4/skill/4412-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:8614",
+      "key": "item:57",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8613",
+      "key": "item:853",
       "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
+      "id": 853,
+      "name": "Earring of Protection C",
+      "url": "/lu4/item/853-earring-of-protection"
     },
     {
-      "key": "item:8612",
+      "key": "item:884",
       "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
+      "id": 884,
+      "name": "Ring of Protection C",
+      "url": "/lu4/item/884-ring-of-protection"
     },
     {
-      "key": "item:8611",
+      "key": "item:916",
       "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
-    },
-    {
-      "key": "item:8610",
-      "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
-    },
-    {
-      "key": "item:8609",
-      "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
-    },
-    {
-      "key": "item:8608",
-      "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
-    },
-    {
-      "key": "item:8600",
-      "type": "item",
-      "id": 8600,
-      "name": "Herb of Life NG",
-      "url": "/lu4/item/8600-herb-of-life"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:4039",
-      "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
+      "id": 916,
+      "name": "Necklace of Protection C",
+      "url": "/lu4/item/916-necklace-of-protection"
     },
     {
       "key": "item:1913",
@@ -213,11 +126,102 @@
       "url": "/lu4/item/1911-earring-of-protection-gemstone"
     },
     {
-      "key": "item:2335",
+      "key": "item:8600",
       "type": "item",
-      "id": 2335,
-      "name": "Recipe: War Axe NG",
-      "url": "/lu4/item/2335-recipe-war-axe"
+      "id": 8600,
+      "name": "Herb of Life NG",
+      "url": "/lu4/item/8600-herb-of-life"
+    },
+    {
+      "key": "item:8601",
+      "type": "item",
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
+    },
+    {
+      "key": "item:8602",
+      "type": "item",
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
+    },
+    {
+      "key": "item:8607",
+      "type": "item",
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
+    },
+    {
+      "key": "item:8609",
+      "type": "item",
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
+    },
+    {
+      "key": "item:8603",
+      "type": "item",
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:8605",
+      "type": "item",
+      "id": 8605,
+      "name": "Superior Herb of Mana NG",
+      "url": "/lu4/item/8605-superior-herb-of-mana"
+    },
+    {
+      "key": "item:8606",
+      "type": "item",
+      "id": 8606,
+      "name": "Herb of Power NG",
+      "url": "/lu4/item/8606-herb-of-power"
+    },
+    {
+      "key": "item:8608",
+      "type": "item",
+      "id": 8608,
+      "name": "Herb of Alacrity NG",
+      "url": "/lu4/item/8608-herb-of-alacrity"
+    },
+    {
+      "key": "item:8610",
+      "type": "item",
+      "id": 8610,
+      "name": "Herb of Critical Attack - Probability NG",
+      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+    },
+    {
+      "key": "item:8611",
+      "type": "item",
+      "id": 8611,
+      "name": "Herb of Speed NG",
+      "url": "/lu4/item/8611-herb-of-speed"
+    },
+    {
+      "key": "item:8612",
+      "type": "item",
+      "id": 8612,
+      "name": "Herb of the Warrior NG",
+      "url": "/lu4/item/8612-herb-of-the-warrior"
+    },
+    {
+      "key": "item:1976",
+      "type": "item",
+      "id": 1976,
+      "name": "Rind Leather Gaiters Material NG",
+      "url": "/lu4/item/1976-rind-leather-gaiters-material"
     },
     {
       "key": "item:2167",
@@ -227,11 +231,11 @@
       "url": "/lu4/item/2167-recipe-ring-of-ages"
     },
     {
-      "key": "item:1976",
+      "key": "item:2335",
       "type": "item",
-      "id": 1976,
-      "name": "Rind Leather Gaiters Material NG",
-      "url": "/lu4/item/1976-rind-leather-gaiters-material"
+      "id": 2335,
+      "name": "Recipe: War Axe NG",
+      "url": "/lu4/item/2335-recipe-war-axe"
     }
   ]
 }

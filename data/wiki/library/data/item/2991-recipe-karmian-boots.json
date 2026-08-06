@@ -2,146 +2,24 @@
   "key": "item:2991",
   "type": "item",
   "id": 2991,
-  "name": "Recipe",
+  "name": "Recipe: Karmian Boots",
   "url": "/lu4/item/2991-recipe-karmian-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/2991-recipe-karmian-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2991-recipe-karmian-boots",
   "raw_html": "library/raw/lu4/item/2991-recipe-karmian-boots.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Karmian Boots'. Requires Create Item - Skill Level 4 (Artisan Lv. 36). The success rate is 100%.",
+    "NPC Sell Price": "1 260 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "4",
     "MP Consume": "138",
     "Success Rate": "100%",
-    "Result": "Karmian Boots C"
+    "Result": "Karmian Boots C",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2991",
-      "type": "item",
-      "id": 2991,
-      "name": "Recipe: Karmian Boots NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:2938",
-      "type": "item",
-      "id": 2938,
-      "name": "Karmian Boots Fabric NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1894",
-      "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "3.2"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "16"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "16"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "40"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "192"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "40"
-    },
-    {
-      "key": "item:2131",
-      "type": "item",
-      "id": 2131,
-      "name": "Gemstone C NG",
-      "amount": "3"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2991",
-      "type": "item",
-      "id": 2991,
-      "name": "Lu4",
-      "url": "/lu4/item/2991-recipe-karmian-boots"
-    },
     {
       "key": "item:2938",
       "type": "item",
@@ -265,28 +143,28 @@
       "key": "npc:20769",
       "type": "npc",
       "id": 20769,
-      "name": "Timak Orc Troop Warrior Lv. 43",
+      "name": "Timak Orc Troop Warrior",
       "url": "/lu4/npc/20769-timak-orc-troop-warrior"
     },
     {
       "key": "npc:20632",
       "type": "npc",
       "id": 20632,
-      "name": "Taik Orc Warrior Lv. 42",
+      "name": "Taik Orc Warrior",
       "url": "/lu4/npc/20632-taik-orc-warrior"
     },
     {
       "key": "npc:21035",
       "type": "npc",
       "id": 21035,
-      "name": "Catherok Lv. 42",
+      "name": "Catherok",
       "url": "/lu4/npc/21035-catherok"
     },
     {
       "key": "npc:20806",
       "type": "npc",
       "id": 20806,
-      "name": "Crokian Lad Warrior Lv. 43",
+      "name": "Crokian Lad Warrior",
       "url": "/lu4/npc/20806-crokian-lad-warrior"
     }
   ]

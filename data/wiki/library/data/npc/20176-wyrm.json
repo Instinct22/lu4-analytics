@@ -2,119 +2,109 @@
   "key": "npc:20176",
   "type": "npc",
   "id": 20176,
-  "name": "Lu4 Wiki: NPC Wyrm",
+  "name": "Wyrm",
   "url": "/lu4/npc/20176-wyrm",
-  "source_url": "https://masterwork.wiki/lu4/npc/20176-wyrm",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20176-wyrm",
   "raw_html": "library/raw/lu4/npc/20176-wyrm.html",
   "stats": {
-    "Location": "Сад Горгон (+2) Сад Горгон Земли Гирана Долина Смерти"
+    "Respawn Time": "27 seconds",
+    "Location": "Сад Горгон (+2) Сад Горгон Земли Гирана Долина Смерти",
+    "HP / MP": "1 302 / 491",
+    "P. Atk. / M. Atk.": "227 / 120",
+    "P. Def. / M. Def.": "170 / 131",
+    "Accuracy / Evasion": "68 / 68",
+    "Exp / SP": "1 399 / 140",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Dragon, Lv. 35"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20176",
-      "type": "npc",
-      "id": 20176,
-      "name": "Lu4",
-      "url": "/lu4/npc/20176-wyrm"
-    },
-    {
-      "key": "location:174",
-      "type": "location",
-      "id": 174,
-      "name": "Сад Горгон",
-      "url": "/lu4/location/174-sad-gorgon"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
-      "key": "location:46",
-      "type": "location",
-      "id": 46,
-      "name": "Долина Смерти",
-      "url": "/lu4/location/46-dolina-smerti"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/3"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:1867",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:39298",
+      "key": "item:1872",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
     },
     {
       "key": "item:6575",
@@ -124,11 +114,46 @@
       "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
-      "key": "item:2979",
+      "key": "item:352",
       "type": "item",
-      "id": 2979,
-      "name": "Recipe: Manticore Skin Gloves NG",
-      "url": "/lu4/item/2979-recipe-manticore-skin-gloves"
+      "id": 352,
+      "name": "Brigandine Breastplate D",
+      "url": "/lu4/item/352-brigandine-breastplate"
+    },
+    {
+      "key": "item:1941",
+      "type": "item",
+      "id": 1941,
+      "name": "Brigandine Breastplate Temper NG",
+      "url": "/lu4/item/1941-brigandine-breastplate-temper"
+    },
+    {
+      "key": "item:172",
+      "type": "item",
+      "id": 172,
+      "name": "Heavy Bone Club D",
+      "url": "/lu4/item/172-heavy-bone-club"
+    },
+    {
+      "key": "item:2037",
+      "type": "item",
+      "id": 2037,
+      "name": "Heavy Bone Club Head NG",
+      "url": "/lu4/item/2037-heavy-bone-club-head"
+    },
+    {
+      "key": "item:224",
+      "type": "item",
+      "id": 224,
+      "name": "Maingauche D",
+      "url": "/lu4/item/224-maingauche"
+    },
+    {
+      "key": "item:2038",
+      "type": "item",
+      "id": 2038,
+      "name": "Maingauche Edge NG",
+      "url": "/lu4/item/2038-maingauche-edge"
     },
     {
       "key": "item:2282",
@@ -145,88 +170,32 @@
       "url": "/lu4/item/2154-recipe-elven-earring"
     },
     {
-      "key": "item:2038",
+      "key": "item:2979",
       "type": "item",
-      "id": 2038,
-      "name": "Maingauche Edge NG",
-      "url": "/lu4/item/2038-maingauche-edge"
+      "id": 2979,
+      "name": "Recipe: Manticore Skin Gloves NG",
+      "url": "/lu4/item/2979-recipe-manticore-skin-gloves"
     },
     {
-      "key": "item:2037",
+      "key": "item:39298",
       "type": "item",
-      "id": 2037,
-      "name": "Heavy Bone Club Head NG",
-      "url": "/lu4/item/2037-heavy-bone-club-head"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
     },
     {
-      "key": "item:1941",
+      "key": "item:39299",
       "type": "item",
-      "id": 1941,
-      "name": "Brigandine Breastplate Temper NG",
-      "url": "/lu4/item/1941-brigandine-breastplate-temper"
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
     },
     {
-      "key": "item:1882",
+      "key": "item:39300",
       "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:352",
-      "type": "item",
-      "id": 352,
-      "name": "Brigandine Breastplate D",
-      "url": "/lu4/item/352-brigandine-breastplate"
-    },
-    {
-      "key": "item:224",
-      "type": "item",
-      "id": 224,
-      "name": "Maingauche D",
-      "url": "/lu4/item/224-maingauche"
-    },
-    {
-      "key": "item:172",
-      "type": "item",
-      "id": 172,
-      "name": "Heavy Bone Club D",
-      "url": "/lu4/item/172-heavy-bone-club"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:2924",
-      "type": "item",
-      "id": 2924,
-      "name": "Brigandine Boots Design NG",
-      "url": "/lu4/item/2924-brigandine-boots-design"
-    },
-    {
-      "key": "item:2187",
-      "type": "item",
-      "id": 2187,
-      "name": "Recipe: Manticore Skin Shirt NG",
-      "url": "/lu4/item/2187-recipe-manticore-skin-shirt"
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:1873",
@@ -241,6 +210,20 @@
       "id": 956,
       "name": "Scroll: Enchant Armor (D-Grade) NG",
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:2187",
+      "type": "item",
+      "id": 2187,
+      "name": "Recipe: Manticore Skin Shirt NG",
+      "url": "/lu4/item/2187-recipe-manticore-skin-shirt"
+    },
+    {
+      "key": "item:2924",
+      "type": "item",
+      "id": 2924,
+      "name": "Brigandine Boots Design NG",
+      "url": "/lu4/item/2924-brigandine-boots-design"
     }
   ]
 }

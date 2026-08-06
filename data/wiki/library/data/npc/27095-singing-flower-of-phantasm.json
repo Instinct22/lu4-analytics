@@ -2,70 +2,46 @@
   "key": "npc:27095",
   "type": "npc",
   "id": 27095,
-  "name": "Lu4 Wiki: NPC Singing Flower of Phantasm",
+  "name": "Singing Flower of Phantasm",
   "url": "/lu4/npc/27095-singing-flower-of-phantasm",
-  "source_url": "https://masterwork.wiki/lu4/npc/27095-singing-flower-of-phantasm",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27095-singing-flower-of-phantasm",
   "raw_html": "library/raw/lu4/npc/27095-singing-flower-of-phantasm.html",
   "stats": {
-    "Location": "Озеро Фельмер"
+    "Respawn Time": "30 seconds",
+    "Location": "Озеро Фельмер",
+    "HP / MP": "1 814 / 719",
+    "P. Atk. / M. Atk.": "364 / 182",
+    "P. Def. / M. Def.": "235 / 189",
+    "Accuracy / Evasion": "77 / 77",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
+    "Grade": "NG",
+    "Type": "Plant, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:27095",
-      "type": "npc",
-      "id": 27095,
-      "name": "Lu4",
-      "url": "/lu4/npc/27095-singing-flower-of-phantasm"
-    },
-    {
-      "key": "location:16",
-      "type": "location",
-      "id": 16,
-      "name": "Озеро Фельмер",
-      "url": "/lu4/location/16-ozero-felmer"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-plants/5"
+      "name": "Plants",
+      "url": "/lu4/skill/4416-plants"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
-      "key": "item:39300",
+      "key": "item:39295",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
       "key": "item:39296",
@@ -75,11 +51,32 @@
       "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:39295",
+      "key": "item:39297",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     }
   ]
 }

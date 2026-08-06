@@ -2,34 +2,32 @@
   "key": "item:7647",
   "type": "item",
   "id": 7647,
-  "name": "Lu4 Wiki: Item Spellbook: Curse of Abyss",
+  "name": "Spellbook: Curse of Abyss",
   "url": "/lu4/item/7647-spellbook-curse-of-abyss",
-  "source_url": "https://masterwork.wiki/lu4/item/7647-spellbook-curse-of-abyss",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/7647-spellbook-curse-of-abyss",
   "raw_html": "library/raw/lu4/item/7647-spellbook-curse-of-abyss.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Curse of Abyss'. Required: Necromancer - Lv. 69 To obtain this item, hunt the Doom Warrior found in Fields of Massacre.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:7647",
-      "type": "item",
-      "id": 7647,
-      "name": "Lu4",
-      "url": "/lu4/item/7647-spellbook-curse-of-abyss"
-    },
-    {
       "key": "npc:21254",
       "type": "npc",
       "id": 21254,
-      "name": "Tomb Guard Lv. 75",
+      "name": "Tomb Guard",
       "url": "/lu4/npc/21254-tomb-guard"
     },
     {
       "key": "npc:21010",
       "type": "npc",
       "id": 21010,
-      "name": "Doom Warrior Lv. 67",
+      "name": "Doom Warrior",
       "url": "/lu4/npc/21010-doom-warrior"
     }
   ]

@@ -2,175 +2,81 @@
   "key": "npc:5055",
   "type": "npc",
   "id": 5055,
-  "name": "Lu4 Wiki: NPC Slagbound Colossus",
+  "name": "Slagbound Colossus",
   "url": "/lu4/npc/5055-slagbound-colossus",
-  "source_url": "https://masterwork.wiki/lu4/npc/5055-slagbound-colossus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5055-slagbound-colossus",
   "raw_html": "library/raw/lu4/npc/5055-slagbound-colossus.html",
   "stats": {
-    "Location": "Раскаленные Топи"
+    "Respawn Time": "55 seconds ± 5 seconds",
+    "Location": "Раскаленные Топи",
+    "HP / MP": "15 447 / 1 110",
+    "P. Atk. / M. Atk.": "1 970 / 1 359",
+    "P. Def. / M. Def.": "598 / 524",
+    "Accuracy / Evasion": "109 / 109",
+    "Exp / SP": "23 135 / 2 314",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (3x) Lv. 11 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 12 Bow/Crossbow Resistance Lv. 2 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 73"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5055",
-      "type": "npc",
-      "id": 5055,
-      "name": "Lu4",
-      "url": "/lu4/npc/5055-slagbound-colossus"
-    },
-    {
-      "key": "location:95",
-      "type": "location",
-      "id": 95,
-      "name": "Раскаленные Топи",
-      "url": "/lu4/location/95-raskalennye-topi"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 2 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/2"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:39402",
+      "key": "item:57",
       "type": "item",
-      "id": 39402,
-      "name": "Spellbook: Terra Armor NG",
-      "url": "/lu4/item/39402-spellbook-terra-armor"
-    },
-    {
-      "key": "item:32536",
-      "type": "item",
-      "id": 32536,
-      "name": "Unidentified Branch of the Mother Tree A",
-      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
-    },
-    {
-      "key": "item:32392",
-      "type": "item",
-      "id": 32392,
-      "name": "Unidentified Sealed Majestic Gauntlets A",
-      "url": "/lu4/item/32392-unidentified-sealed-majestic-gauntlets"
-    },
-    {
-      "key": "item:32387",
-      "type": "item",
-      "id": 32387,
-      "name": "Unidentified Sealed Gauntlets of Nightmare A",
-      "url": "/lu4/item/32387-unidentified-sealed-gauntlets-of-nightmare"
-    },
-    {
-      "key": "item:32367",
-      "type": "item",
-      "id": 32367,
-      "name": "Unidentified Dark Legion's Edge A",
-      "url": "/lu4/item/32367-unidentified-dark-legions-edge"
-    },
-    {
-      "key": "item:8886",
-      "type": "item",
-      "id": 8886,
-      "name": "Amulet: Victory of Pa'agrio NG",
-      "url": "/lu4/item/8886-amulet-victory-of-paagrio"
-    },
-    {
-      "key": "item:6570",
-      "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
-    },
-    {
-      "key": "item:5545",
-      "type": "item",
-      "id": 5545,
-      "name": "Dark Legion's Edge Blade NG",
-      "url": "/lu4/item/5545-dark-legions-edge-blade"
-    },
-    {
-      "key": "item:5544",
-      "type": "item",
-      "id": 5544,
-      "name": "Branch of the Mother Tree Head NG",
-      "url": "/lu4/item/5544-branch-of-the-mother-tree-head"
-    },
-    {
-      "key": "item:5515",
-      "type": "item",
-      "id": 5515,
-      "name": "Sealed Majestic Gauntlets Design NG",
-      "url": "/lu4/item/5515-sealed-majestic-gauntlets-design"
-    },
-    {
-      "key": "item:5514",
-      "type": "item",
-      "id": 5514,
-      "name": "Sealed Gauntlets of Nightmare Design NG",
-      "url": "/lu4/item/5514-sealed-gauntlets-of-nightmare-design"
-    },
-    {
-      "key": "item:5456",
-      "type": "item",
-      "id": 5456,
-      "name": "Recipe: Tallum Glaive(60%) NG",
-      "url": "/lu4/item/5456-recipe-tallum-glaive60"
-    },
-    {
-      "key": "item:5420",
-      "type": "item",
-      "id": 5420,
-      "name": "Recipe: Sealed Armor of Nightmare(60%) NG",
-      "url": "/lu4/item/5420-recipe-sealed-armor-of-nightmare60"
-    },
-    {
-      "key": "item:5382",
-      "type": "item",
-      "id": 5382,
-      "name": "Recipe: Sealed Majestic Boots(60%) NG",
-      "url": "/lu4/item/5382-recipe-sealed-majestic-boots60"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -208,32 +114,109 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:6570",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 6570,
+      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
+      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
     },
     {
-      "key": "item:6344",
+      "key": "item:32367",
       "type": "item",
-      "id": 6344,
-      "name": "Sealed Majestic Necklace Beads NG",
-      "url": "/lu4/item/6344-sealed-majestic-necklace-beads"
+      "id": 32367,
+      "name": "Unidentified Dark Legion's Edge A",
+      "url": "/lu4/item/32367-unidentified-dark-legions-edge"
     },
     {
-      "key": "item:5528",
+      "key": "item:5545",
       "type": "item",
-      "id": 5528,
-      "name": "Sealed Majestic Circlet Design NG",
-      "url": "/lu4/item/5528-sealed-majestic-circlet-design"
+      "id": 5545,
+      "name": "Dark Legion's Edge Blade NG",
+      "url": "/lu4/item/5545-dark-legions-edge-blade"
     },
     {
-      "key": "item:5503",
+      "key": "item:32536",
       "type": "item",
-      "id": 5503,
-      "name": "Sealed Majestic Boots Lining NG",
-      "url": "/lu4/item/5503-sealed-majestic-boots-lining"
+      "id": 32536,
+      "name": "Unidentified Branch of the Mother Tree A",
+      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
+    },
+    {
+      "key": "item:5544",
+      "type": "item",
+      "id": 5544,
+      "name": "Branch of the Mother Tree Head NG",
+      "url": "/lu4/item/5544-branch-of-the-mother-tree-head"
+    },
+    {
+      "key": "item:32387",
+      "type": "item",
+      "id": 32387,
+      "name": "Unidentified Sealed Gauntlets of Nightmare A",
+      "url": "/lu4/item/32387-unidentified-sealed-gauntlets-of-nightmare"
+    },
+    {
+      "key": "item:5514",
+      "type": "item",
+      "id": 5514,
+      "name": "Sealed Gauntlets of Nightmare Design NG",
+      "url": "/lu4/item/5514-sealed-gauntlets-of-nightmare-design"
+    },
+    {
+      "key": "item:32392",
+      "type": "item",
+      "id": 32392,
+      "name": "Unidentified Sealed Majestic Gauntlets A",
+      "url": "/lu4/item/32392-unidentified-sealed-majestic-gauntlets"
+    },
+    {
+      "key": "item:5515",
+      "type": "item",
+      "id": 5515,
+      "name": "Sealed Majestic Gauntlets Design NG",
+      "url": "/lu4/item/5515-sealed-majestic-gauntlets-design"
+    },
+    {
+      "key": "item:5420",
+      "type": "item",
+      "id": 5420,
+      "name": "Recipe: Sealed Armor of Nightmare(60%) NG",
+      "url": "/lu4/item/5420-recipe-sealed-armor-of-nightmare60"
+    },
+    {
+      "key": "item:5382",
+      "type": "item",
+      "id": 5382,
+      "name": "Recipe: Sealed Majestic Boots(60%) NG",
+      "url": "/lu4/item/5382-recipe-sealed-majestic-boots60"
+    },
+    {
+      "key": "item:5456",
+      "type": "item",
+      "id": 5456,
+      "name": "Recipe: Tallum Glaive(60%) NG",
+      "url": "/lu4/item/5456-recipe-tallum-glaive60"
+    },
+    {
+      "key": "item:39402",
+      "type": "item",
+      "id": 39402,
+      "name": "Spellbook: Terra Armor NG",
+      "url": "/lu4/item/39402-spellbook-terra-armor"
+    },
+    {
+      "key": "item:8886",
+      "type": "item",
+      "id": 8886,
+      "name": "Amulet: Victory of Pa'agrio NG",
+      "url": "/lu4/item/8886-amulet-victory-of-paagrio"
+    },
+    {
+      "key": "item:5352",
+      "type": "item",
+      "id": 5352,
+      "name": "Recipe: Sealed Majestic Robe(60%) NG",
+      "url": "/lu4/item/5352-recipe-sealed-majestic-robe60"
     },
     {
       "key": "item:5442",
@@ -243,11 +226,25 @@
       "url": "/lu4/item/5442-recipe-soul-bow60"
     },
     {
-      "key": "item:5352",
+      "key": "item:5503",
       "type": "item",
-      "id": 5352,
-      "name": "Recipe: Sealed Majestic Robe(60%) NG",
-      "url": "/lu4/item/5352-recipe-sealed-majestic-robe60"
+      "id": 5503,
+      "name": "Sealed Majestic Boots Lining NG",
+      "url": "/lu4/item/5503-sealed-majestic-boots-lining"
+    },
+    {
+      "key": "item:5528",
+      "type": "item",
+      "id": 5528,
+      "name": "Sealed Majestic Circlet Design NG",
+      "url": "/lu4/item/5528-sealed-majestic-circlet-design"
+    },
+    {
+      "key": "item:6344",
+      "type": "item",
+      "id": 6344,
+      "name": "Sealed Majestic Necklace Beads NG",
+      "url": "/lu4/item/6344-sealed-majestic-necklace-beads"
     }
   ]
 }

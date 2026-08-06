@@ -2,77 +2,74 @@
   "key": "npc:20643",
   "type": "npc",
   "id": 20643,
-  "name": "Lu4 Wiki: NPC Harit Lizardman Warrior",
+  "name": "Harit Lizardman Warrior",
   "url": "/lu4/npc/20643-harit-lizardman-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/20643-harit-lizardman-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20643-harit-lizardman-warrior",
   "raw_html": "library/raw/lu4/npc/20643-harit-lizardman-warrior.html",
   "stats": {
-    "Location": "Лес Зеркал (+1) Лес Зеркал Ангельский Водопад"
+    "Respawn Time": "45 seconds",
+    "Location": "Лес Зеркал (+1) Лес Зеркал Ангельский Водопад",
+    "HP / MP": "9 954 / 1 025",
+    "P. Atk. / M. Atk.": "708 / 323",
+    "P. Def. / M. Def.": "321 / 273",
+    "Accuracy / Evasion": "89 / 88",
+    "Exp / SP": "12 464 / 1 246",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Stun Attack Resistance Lv. 5 Resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 53"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20643",
-      "type": "npc",
-      "id": 20643,
-      "name": "Lu4",
-      "url": "/lu4/npc/20643-harit-lizardman-warrior"
-    },
-    {
-      "key": "location:68",
-      "type": "location",
-      "id": 68,
-      "name": "Лес Зеркал",
-      "url": "/lu4/location/68-les-zerkal"
-    },
-    {
-      "key": "location:78",
-      "type": "location",
-      "id": 78,
-      "name": "Ангельский Водопад",
-      "url": "/lu4/location/78-angelskij-vodopad"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5275",
@@ -110,55 +107,6 @@
       "url": "/lu4/item/4039-mold-glue"
     },
     {
-      "key": "item:3016",
-      "type": "item",
-      "id": 3016,
-      "name": "Recipe: Full Plate Gauntlets NG",
-      "url": "/lu4/item/3016-recipe-full-plate-gauntlets"
-    },
-    {
-      "key": "item:2969",
-      "type": "item",
-      "id": 2969,
-      "name": "Yaksa Mace Head NG",
-      "url": "/lu4/item/2969-yaksa-mace-head"
-    },
-    {
-      "key": "item:2503",
-      "type": "item",
-      "id": 2503,
-      "name": "Yaksa Mace C",
-      "url": "/lu4/item/2503-yaksa-mace"
-    },
-    {
-      "key": "item:2232",
-      "type": "item",
-      "id": 2232,
-      "name": "Recipe: Drake Leather Armor NG",
-      "url": "/lu4/item/2232-recipe-drake-leather-armor"
-    },
-    {
-      "key": "item:2170",
-      "type": "item",
-      "id": 2170,
-      "name": "Recipe: Nassen's Earring NG",
-      "url": "/lu4/item/2170-recipe-nassens-earring"
-    },
-    {
-      "key": "item:2122",
-      "type": "item",
-      "id": 2122,
-      "name": "Orcish Poleaxe Blade NG",
-      "url": "/lu4/item/2122-orcish-poleaxe-blade"
-    },
-    {
-      "key": "item:1920",
-      "type": "item",
-      "id": 1920,
-      "name": "Necklace of Seal Chain NG",
-      "url": "/lu4/item/1920-necklace-of-seal-chain"
-    },
-    {
       "key": "item:1894",
       "type": "item",
       "id": 1894,
@@ -173,13 +121,6 @@
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
-      "key": "item:299",
-      "type": "item",
-      "id": 299,
-      "name": "Orcish Poleaxe C",
-      "url": "/lu4/item/299-orcish-poleaxe"
-    },
-    {
       "key": "item:119",
       "type": "item",
       "id": 119,
@@ -187,18 +128,60 @@
       "url": "/lu4/item/119-necklace-of-seal"
     },
     {
-      "key": "item:57",
+      "key": "item:1920",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1920,
+      "name": "Necklace of Seal Chain NG",
+      "url": "/lu4/item/1920-necklace-of-seal-chain"
     },
     {
-      "key": "item:5436",
+      "key": "item:299",
       "type": "item",
-      "id": 5436,
-      "name": "Recipe: Berserker Blade(100%) NG",
-      "url": "/lu4/item/5436-recipe-berserker-blade100"
+      "id": 299,
+      "name": "Orcish Poleaxe C",
+      "url": "/lu4/item/299-orcish-poleaxe"
+    },
+    {
+      "key": "item:2122",
+      "type": "item",
+      "id": 2122,
+      "name": "Orcish Poleaxe Blade NG",
+      "url": "/lu4/item/2122-orcish-poleaxe-blade"
+    },
+    {
+      "key": "item:2503",
+      "type": "item",
+      "id": 2503,
+      "name": "Yaksa Mace C",
+      "url": "/lu4/item/2503-yaksa-mace"
+    },
+    {
+      "key": "item:2969",
+      "type": "item",
+      "id": 2969,
+      "name": "Yaksa Mace Head NG",
+      "url": "/lu4/item/2969-yaksa-mace-head"
+    },
+    {
+      "key": "item:2232",
+      "type": "item",
+      "id": 2232,
+      "name": "Recipe: Drake Leather Armor NG",
+      "url": "/lu4/item/2232-recipe-drake-leather-armor"
+    },
+    {
+      "key": "item:3016",
+      "type": "item",
+      "id": 3016,
+      "name": "Recipe: Full Plate Gauntlets NG",
+      "url": "/lu4/item/3016-recipe-full-plate-gauntlets"
+    },
+    {
+      "key": "item:2170",
+      "type": "item",
+      "id": 2170,
+      "name": "Recipe: Nassen's Earring NG",
+      "url": "/lu4/item/2170-recipe-nassens-earring"
     },
     {
       "key": "item:3955",
@@ -208,18 +191,11 @@
       "url": "/lu4/item/3955-recipe-blessed-spiritshot-b"
     },
     {
-      "key": "item:2966",
+      "key": "item:5436",
       "type": "item",
-      "id": 2966,
-      "name": "Full Plate Shield Fragment NG",
-      "url": "/lu4/item/2966-full-plate-shield-fragment"
-    },
-    {
-      "key": "item:2960",
-      "type": "item",
-      "id": 2960,
-      "name": "Drake Leather Boots Design NG",
-      "url": "/lu4/item/2960-drake-leather-boots-design"
+      "id": 5436,
+      "name": "Recipe: Berserker Blade(100%) NG",
+      "url": "/lu4/item/5436-recipe-berserker-blade100"
     },
     {
       "key": "item:2353",
@@ -229,11 +205,25 @@
       "url": "/lu4/item/2353-recipe-samurai-longsword"
     },
     {
+      "key": "item:2960",
+      "type": "item",
+      "id": 2960,
+      "name": "Drake Leather Boots Design NG",
+      "url": "/lu4/item/2960-drake-leather-boots-design"
+    },
+    {
       "key": "item:1986",
       "type": "item",
       "id": 1986,
       "name": "Full Plate Armor Temper NG",
       "url": "/lu4/item/1986-full-plate-armor-temper"
+    },
+    {
+      "key": "item:2966",
+      "type": "item",
+      "id": 2966,
+      "name": "Full Plate Shield Fragment NG",
+      "url": "/lu4/item/2966-full-plate-shield-fragment"
     }
   ]
 }

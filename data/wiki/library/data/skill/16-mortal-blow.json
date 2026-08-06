@@ -1,0 +1,51 @@
+{
+  "key": "skill:16",
+  "type": "skill",
+  "id": 16,
+  "name": "Mortal Blow",
+  "url": "/lu4/skill/16-mortal-blow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/16-mortal-blow",
+  "raw_html": "library/raw/lu4/skill/16-mortal-blow.html",
+  "stats": {
+    "Effect": "Attacks the target's vital points with 73 Power added to P. Atk. Over-hit is possible.",
+    "Consumes": "8 MP",
+    "Reuse Time": "3 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Cast Range": "70 (400)",
+    "Available For": "FighterLv. 3Elven FighterLv. 3Dark FighterLv. 3Dwarven FighterLv. 3",
+    "Type": "Physical / Physical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:0",
+      "type": "class",
+      "id": 0,
+      "name": "FighterLv. 3",
+      "url": "/lu4/class/0-fighter"
+    },
+    {
+      "key": "class:18",
+      "type": "class",
+      "id": 18,
+      "name": "Elven FighterLv. 3",
+      "url": "/lu4/class/18-elvenfighter"
+    },
+    {
+      "key": "class:31",
+      "type": "class",
+      "id": 31,
+      "name": "Dark FighterLv. 3",
+      "url": "/lu4/class/31-darkfighter"
+    },
+    {
+      "key": "class:53",
+      "type": "class",
+      "id": 53,
+      "name": "Dwarven FighterLv. 3",
+      "url": "/lu4/class/53-dwarvenfighter"
+    }
+  ]
+}

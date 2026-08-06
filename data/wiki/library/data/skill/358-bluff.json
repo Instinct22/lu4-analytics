@@ -1,0 +1,45 @@
+{
+  "key": "skill:358",
+  "type": "skill",
+  "id": 358,
+  "name": "Bluff",
+  "url": "/lu4/skill/358-bluff",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/358-bluff",
+  "raw_html": "library/raw/lu4/skill/358-bluff.html",
+  "stats": {
+    "Effect": "Deceives an enemy into turning his back, losing his urge to attack and becoming stunned. Target cancel is possible.",
+    "Consumes": "20 MP",
+    "Reuse Time": "8 seconds",
+    "Duration": "3 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_derangement",
+    "Cast Range": "70 (400)",
+    "Available For": "Treasure HunterLv. 55Plains WalkerLv. 55Abyss WalkerLv. 55",
+    "Type": "Physical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:8",
+      "type": "class",
+      "id": 8,
+      "name": "Treasure HunterLv. 55",
+      "url": "/lu4/class/8-treasurehunter"
+    },
+    {
+      "key": "class:23",
+      "type": "class",
+      "id": 23,
+      "name": "Plains WalkerLv. 55",
+      "url": "/lu4/class/23-plainwalker"
+    },
+    {
+      "key": "class:36",
+      "type": "class",
+      "id": 36,
+      "name": "Abyss WalkerLv. 55",
+      "url": "/lu4/class/36-abysswalker"
+    }
+  ]
+}

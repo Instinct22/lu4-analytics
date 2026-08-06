@@ -2,98 +2,95 @@
   "key": "npc:20604",
   "type": "npc",
   "id": 20604,
-  "name": "Lu4 Wiki: NPC Lakin",
+  "name": "Lakin",
   "url": "/lu4/npc/20604-lakin",
-  "source_url": "https://masterwork.wiki/lu4/npc/20604-lakin",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20604-lakin",
   "raw_html": "library/raw/lu4/npc/20604-lakin.html",
   "stats": {
-    "Location": "Долина Охотников (+1) Долина Охотников Деревня Охотников"
+    "Respawn Time": "18 seconds",
+    "Location": "Долина Охотников (+1) Долина Охотников Деревня Охотников",
+    "HP / MP": "1 814 / 719",
+    "P. Atk. / M. Atk.": "419 / 227",
+    "P. Def. / M. Def.": "201 / 170",
+    "Accuracy / Evasion": "80 / 79",
+    "Exp / SP": "1 968 / 197",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20604",
-      "type": "npc",
-      "id": 20604,
-      "name": "Lu4",
-      "url": "/lu4/npc/20604-lakin"
-    },
-    {
-      "key": "location:237",
-      "type": "location",
-      "id": 237,
-      "name": "Долина Охотников",
-      "url": "/lu4/location/237-dolina-ohotnikov"
-    },
-    {
-      "key": "location:74",
-      "type": "location",
-      "id": 74,
-      "name": "Деревня Охотников",
-      "url": "/lu4/location/74-derevna-ohotnikov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39296",
+      "key": "item:325",
       "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
+      "id": 325,
+      "name": "Horn of Glory C",
+      "url": "/lu4/item/325-horn-of-glory"
     },
     {
-      "key": "item:39295",
+      "key": "item:2088",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 2088,
+      "name": "Horn of Glory Fragment NG",
+      "url": "/lu4/item/2088-horn-of-glory-fragment"
     },
     {
-      "key": "item:2321",
+      "key": "item:73",
       "type": "item",
-      "id": 2321,
-      "name": "Recipe: Stiletto NG",
-      "url": "/lu4/item/2321-recipe-stiletto"
+      "id": 73,
+      "name": "Shamshir C",
+      "url": "/lu4/item/73-shamshir"
+    },
+    {
+      "key": "item:2077",
+      "type": "item",
+      "id": 2077,
+      "name": "Shamshir Blade NG",
+      "url": "/lu4/item/2077-shamshir-blade"
     },
     {
       "key": "item:2317",
@@ -110,39 +107,32 @@
       "url": "/lu4/item/2219-recipe-crimson-boots"
     },
     {
-      "key": "item:2088",
+      "key": "item:2321",
       "type": "item",
-      "id": 2088,
-      "name": "Horn of Glory Fragment NG",
-      "url": "/lu4/item/2088-horn-of-glory-fragment"
+      "id": 2321,
+      "name": "Recipe: Stiletto NG",
+      "url": "/lu4/item/2321-recipe-stiletto"
     },
     {
-      "key": "item:2077",
+      "key": "item:39295",
       "type": "item",
-      "id": 2077,
-      "name": "Shamshir Blade NG",
-      "url": "/lu4/item/2077-shamshir-blade"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:325",
+      "key": "item:39296",
       "type": "item",
-      "id": 325,
-      "name": "Horn of Glory C",
-      "url": "/lu4/item/325-horn-of-glory"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:73",
+      "key": "item:39297",
       "type": "item",
-      "id": 73,
-      "name": "Shamshir C",
-      "url": "/lu4/item/73-shamshir"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:4553",
@@ -173,6 +163,13 @@
       "url": "/lu4/item/2319-recipe-raid-sword"
     },
     {
+      "key": "item:1911",
+      "type": "item",
+      "id": 1911,
+      "name": "Earring of Protection Gemstone NG",
+      "url": "/lu4/item/1911-earring-of-protection-gemstone"
+    },
+    {
       "key": "item:2081",
       "type": "item",
       "id": 2081,
@@ -185,13 +182,6 @@
       "id": 2080,
       "name": "Spirit Sword Blade NG",
       "url": "/lu4/item/2080-spirit-sword-blade"
-    },
-    {
-      "key": "item:1911",
-      "type": "item",
-      "id": 1911,
-      "name": "Earring of Protection Gemstone NG",
-      "url": "/lu4/item/1911-earring-of-protection-gemstone"
     }
   ]
 }

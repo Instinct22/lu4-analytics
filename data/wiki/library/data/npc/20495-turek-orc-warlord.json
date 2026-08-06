@@ -2,126 +2,67 @@
   "key": "npc:20495",
   "type": "npc",
   "id": 20495,
-  "name": "Lu4 Wiki: NPC Turek Orc Warlord",
+  "name": "Turek Orc Warlord",
   "url": "/lu4/npc/20495-turek-orc-warlord",
-  "source_url": "https://masterwork.wiki/lu4/npc/20495-turek-orc-warlord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20495-turek-orc-warlord",
   "raw_html": "library/raw/lu4/npc/20495-turek-orc-warlord.html",
   "stats": {
-    "Location": "Нейтральные Воды (+1) Нейтральные Воды Лагерь Орков"
+    "Respawn Time": "35 seconds",
+    "Location": "Нейтральные Воды (+1) Нейтральные Воды Лагерь Орков",
+    "HP / MP": "1 909 / 405",
+    "P. Atk. / M. Atk.": "145 / 63",
+    "P. Def. / M. Def.": "131 / 126",
+    "Accuracy / Evasion": "66 / 65",
+    "Exp / SP": "1 889 / 189",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 30"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20495",
-      "type": "npc",
-      "id": 20495,
-      "name": "Lu4",
-      "url": "/lu4/npc/20495-turek-orc-warlord"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
-      "key": "location:30",
-      "type": "location",
-      "id": 30,
-      "name": "Лагерь Орков",
-      "url": "/lu4/location/30-lager-orkov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:6576",
-      "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5549",
@@ -131,18 +72,11 @@
       "url": "/lu4/item/5549-metallic-thread"
     },
     {
-      "key": "item:2024",
+      "key": "item:5550",
       "type": "item",
-      "id": 2024,
-      "name": "Elven Bow Shaft NG",
-      "url": "/lu4/item/2024-elven-bow-shaft"
-    },
-    {
-      "key": "item:1938",
-      "type": "item",
-      "id": 1938,
-      "name": "Mithril Banded Mail Material NG",
-      "url": "/lu4/item/1938-mithril-banded-mail-material"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:1885",
@@ -173,11 +107,11 @@
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
-      "key": "item:393",
+      "key": "item:6576",
       "type": "item",
-      "id": 393,
-      "name": "Mithril Banded Mail D",
-      "url": "/lu4/item/393-mithril-banded-mail"
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
     },
     {
       "key": "item:316",
@@ -194,25 +128,67 @@
       "url": "/lu4/item/276-elven-bow"
     },
     {
-      "key": "item:57",
+      "key": "item:2024",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2024,
+      "name": "Elven Bow Shaft NG",
+      "url": "/lu4/item/2024-elven-bow-shaft"
     },
     {
-      "key": "item:8337",
+      "key": "item:393",
       "type": "item",
-      "id": 8337,
-      "name": "Priest Mace Head NG",
-      "url": "/lu4/item/8337-priest-mace-head"
+      "id": 393,
+      "name": "Mithril Banded Mail D",
+      "url": "/lu4/item/393-mithril-banded-mail"
     },
     {
-      "key": "item:1939",
+      "key": "item:1938",
       "type": "item",
-      "id": 1939,
-      "name": "Mithril Banded Gaiters Material NG",
-      "url": "/lu4/item/1939-mithril-banded-gaiters-material"
+      "id": 1938,
+      "name": "Mithril Banded Mail Material NG",
+      "url": "/lu4/item/1938-mithril-banded-mail-material"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:1884",
@@ -227,6 +203,20 @@
       "id": 1866,
       "name": "Suede NG",
       "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:8337",
+      "type": "item",
+      "id": 8337,
+      "name": "Priest Mace Head NG",
+      "url": "/lu4/item/8337-priest-mace-head"
+    },
+    {
+      "key": "item:1939",
+      "type": "item",
+      "id": 1939,
+      "name": "Mithril Banded Gaiters Material NG",
+      "url": "/lu4/item/1939-mithril-banded-gaiters-material"
     }
   ]
 }

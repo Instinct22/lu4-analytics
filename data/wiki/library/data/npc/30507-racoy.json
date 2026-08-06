@@ -2,42 +2,38 @@
   "key": "npc:30507",
   "type": "npc",
   "id": 30507,
-  "name": "Lu4 Wiki: NPC Racoy",
+  "name": "Racoy",
   "url": "/lu4/npc/30507-racoy",
-  "source_url": "https://masterwork.wiki/lu4/npc/30507-racoy",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30507-racoy",
   "raw_html": "library/raw/lu4/npc/30507-racoy.html",
   "stats": {
-    "Location": "Глудио"
+    "Respawn Time": "1 minute",
+    "Location": "Глудио",
+    "HP / MP": "4 055 / 1 657",
+    "P. Atk. / M. Atk.": "1 311 / 776",
+    "P. Def. / M. Def.": "477 / 359",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Orcs Lv. 17 Created by Pa'agrio, the Orcs are the physically strongest of all the races. They worship the spirits of the past and have a very tribal culture. Resist Full Magic Attack Lv. 1",
+    "Type": "Orc, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30507",
-      "type": "npc",
-      "id": 30507,
-      "name": "Lu4",
-      "url": "/lu4/npc/30507-racoy"
-    },
-    {
-      "key": "location:20",
-      "type": "location",
-      "id": 20,
-      "name": "Глудио",
-      "url": "/lu4/location/20-gludio"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Orcs Lv. 17 Created by Pa'agrio, the Orcs are the physically strongest of all the races. They worship the spirits of the past and have a very tribal culture.",
-      "url": "/lu4/skill/4416-orcs/17"
+      "name": "Orcs",
+      "url": "/lu4/skill/4416-orcs"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

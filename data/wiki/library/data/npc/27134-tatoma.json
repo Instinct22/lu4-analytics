@@ -2,26 +2,29 @@
   "key": "npc:27134",
   "type": "npc",
   "id": 27134,
-  "name": "Lu4 Wiki: NPC Tatoma",
+  "name": "Tatoma",
   "url": "/lu4/npc/27134-tatoma",
-  "source_url": "https://masterwork.wiki/lu4/npc/27134-tatoma",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27134-tatoma",
   "raw_html": "library/raw/lu4/npc/27134-tatoma.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 129 / 441",
+    "P. Atk. / M. Atk.": "152 / 78",
+    "P. Def. / M. Def.": "177 / 126",
+    "Accuracy / Evasion": "60 / 65",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
+    "Type": "Humanoid, Lv. 32"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:27134",
-      "type": "npc",
-      "id": 27134,
-      "name": "Lu4",
-      "url": "/lu4/npc/27134-tatoma"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     }
   ]
 }

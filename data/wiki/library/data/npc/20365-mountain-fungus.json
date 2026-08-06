@@ -2,105 +2,74 @@
   "key": "npc:20365",
   "type": "npc",
   "id": 20365,
-  "name": "Lu4 Wiki: NPC Mountain Fungus",
+  "name": "Mountain Fungus",
   "url": "/lu4/npc/20365-mountain-fungus",
-  "source_url": "https://masterwork.wiki/lu4/npc/20365-mountain-fungus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20365-mountain-fungus",
   "raw_html": "library/raw/lu4/npc/20365-mountain-fungus.html",
   "stats": {
-    "Location": "Плато Бессмертия (+1) Плато Бессмертия Плато Бессмертия, север"
+    "Respawn Time": "25 seconds",
+    "Location": "Плато Бессмертия (+1) Плато Бессмертия Плато Бессмертия, север",
+    "HP / MP": "213 / 113",
+    "P. Atk. / M. Atk.": "24 / 11",
+    "P. Def. / M. Def.": "52 / 40",
+    "Accuracy / Evasion": "41 / 41",
+    "Exp / SP": "229 / 23",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Fire Vulnerability Lv. 1 Vulnerable to Fire attacks. Poison Resistance Lv. 5 Resistant to Poison attack.",
+    "Grade": "NG",
+    "Type": "Plant, Lv. 8"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20365",
-      "type": "npc",
-      "id": 20365,
-      "name": "Lu4",
-      "url": "/lu4/npc/20365-mountain-fungus"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
-      "key": "location:189",
-      "type": "location",
-      "id": 189,
-      "name": "Плато Бессмертия, север",
-      "url": "/lu4/location/189-plato-bessmertia-sever"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-plants/5"
+      "name": "Plants",
+      "url": "/lu4/skill/4416-plants"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
       "key": "skill:4277",
       "type": "skill",
       "id": 4277,
-      "name": "Poison Resistance Lv. 5 Resistant to Poison attack.",
-      "url": "/lu4/skill/4277-poison-resistance/5"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1666",
-      "type": "item",
-      "id": 1666,
-      "name": "Recipe: Wooden Arrow NG",
-      "url": "/lu4/item/1666-recipe-wooden-arrow"
+      "name": "Poison Resistance",
+      "url": "/lu4/skill/4277-poison-resistance"
     },
     {
       "key": "item:57",
@@ -110,6 +79,13 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:22",
+      "type": "item",
+      "id": 22,
+      "name": "Leather Shirt NG",
+      "url": "/lu4/item/22-leather-shirt"
+    },
+    {
       "key": "item:29",
       "type": "item",
       "id": 29,
@@ -117,11 +93,25 @@
       "url": "/lu4/item/29-leather-pants"
     },
     {
-      "key": "item:22",
+      "key": "item:1666",
       "type": "item",
-      "id": 22,
-      "name": "Leather Shirt NG",
-      "url": "/lu4/item/22-leather-shirt"
+      "id": 1666,
+      "name": "Recipe: Wooden Arrow NG",
+      "url": "/lu4/item/1666-recipe-wooden-arrow"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
     },
     {
       "key": "item:1864",

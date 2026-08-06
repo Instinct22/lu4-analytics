@@ -2,118 +2,24 @@
   "key": "item:2271",
   "type": "item",
   "id": 2271,
-  "name": "Recipe",
+  "name": "Recipe: Winged Spear",
   "url": "/lu4/item/2271-recipe-winged-spear",
-  "source_url": "https://masterwork.wiki/lu4/item/2271-recipe-winged-spear",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2271-recipe-winged-spear",
   "raw_html": "library/raw/lu4/item/2271-recipe-winged-spear.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Winged Spear'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "14 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Winged Spear D"
+    "Result": "Winged Spear D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2033",
-      "type": "item",
-      "id": 2033,
-      "name": "Winged Spear Blade NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "180"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "900"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "900"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "90"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "270"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "270"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "45"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "45"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "450"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "135"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "430"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "139"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2271",
-      "type": "item",
-      "id": 2271,
-      "name": "Lu4",
-      "url": "/lu4/item/2271-recipe-winged-spear"
-    },
     {
       "key": "item:2033",
       "type": "item",
@@ -216,35 +122,35 @@
       "key": "npc:21672",
       "type": "npc",
       "id": 21672,
-      "name": "Otherworldly Invader Elite Soldier Lv. 35",
+      "name": "Otherworldly Invader Elite Soldier",
       "url": "/lu4/npc/21672-otherworldly-invader-elite-soldier"
     },
     {
       "key": "npc:20192",
       "type": "npc",
       "id": 20192,
-      "name": "Tyrant Lv. 35",
+      "name": "Tyrant",
       "url": "/lu4/npc/20192-tyrant"
     },
     {
       "key": "npc:20084",
       "type": "npc",
       "id": 20084,
-      "name": "Ant Patrol Lv. 34",
+      "name": "Ant Patrol",
       "url": "/lu4/npc/20084-ant-patrol"
     },
     {
       "key": "npc:20783",
       "type": "npc",
       "id": 20783,
-      "name": "Dread Wolf Lv. 35",
+      "name": "Dread Wolf",
       "url": "/lu4/npc/20783-dread-wolf"
     },
     {
       "key": "npc:20546",
       "type": "npc",
       "id": 20546,
-      "name": "Turek Orc Elder Lv. 32",
+      "name": "Turek Orc Elder",
       "url": "/lu4/npc/20546-turek-orc-elder"
     }
   ]

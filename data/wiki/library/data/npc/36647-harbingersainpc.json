@@ -2,35 +2,31 @@
   "key": "npc:36647",
   "type": "npc",
   "id": 36647,
-  "name": "Lu4 Wiki: NPC harbingers_ai_npc",
+  "name": "harbingers_ai_npc",
   "url": "/lu4/npc/36647-harbingersainpc",
-  "source_url": "https://masterwork.wiki/lu4/npc/36647-harbingersainpc",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/36647-harbingersainpc",
   "raw_html": "library/raw/lu4/npc/36647-harbingersainpc.html",
   "stats": {
-    "Location": "Нейтральные Воды"
+    "Respawn Time": "10 seconds",
+    "Location": "Нейтральные Воды",
+    "HP / MP": "3 862 / 1 642",
+    "P. Atk. / M. Atk.": "1 314 / 780",
+    "P. Def. / M. Def.": "477 / 420",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 150, Water 150, Wind 150, Earth 150, Holy 150, Unholy 150",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Type": "Construct, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:36647",
-      "type": "npc",
-      "id": 36647,
-      "name": "Lu4",
-      "url": "/lu4/npc/36647-harbingersainpc"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

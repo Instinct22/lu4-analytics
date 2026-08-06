@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Alligator Tooth
+# Alligator Tooth
 
-- Source: https://masterwork.wiki/lu4/item/5863-alligator-tooth
+- Source: https://masterwork.wiki/lu4-b-w-c/item/5863-alligator-tooth
 - Path: /lu4/item/5863-alligator-tooth
 - Type: item
 - Key: item:5863
 
 ## Stats
+- Effect: Sharp canine tooth of the Alligator. Bring this to the warehouse keeper of Heine.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Alligator Tooth
-Lu4
-Eternal
-MasterWork
-Alligator Tooth
-NG
-Quest Item
-Sharp canine tooth of the Alligator. Bring this to the warehouse keeper of Heine.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-Conquest of Alligator Island
-38 ~ 49
-Quest
-Levels
-Conquest of Alligator Island
-38 ~ 49
-MasterWork 2026
-All rights reserved
+Alligator Tooth NG Quest Item Sharp canine tooth of the Alligator. Bring this to the warehouse keeper of Heine. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

@@ -2,36 +2,40 @@
   "key": "item:4837",
   "type": "item",
   "id": 4837,
-  "name": "Lu4 Wiki: Item Orcish Glaive",
+  "name": "Orcish Glaive",
   "url": "/lu4/item/4837-orcish-glaive",
-  "source_url": "https://masterwork.wiki/lu4/item/4837-orcish-glaive",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/4837-orcish-glaive",
   "raw_html": "library/raw/lu4/item/4837-orcish-glaive.html",
   "stats": {
+    "Effect": "<Passive Effect> Max HP +25%.",
+    "P. Atk. / M. Atk.": "107 / 61",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "2030",
+    "P. Crit. Rate.": "8",
+    "Accuracy": "-4",
     "Item Skills": "Polearm Multi-Attack Lv. 1 Special Ability: Health Lv. 2",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Orcish Glaive C",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Polearm / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:4837",
-      "type": "item",
-      "id": 4837,
-      "name": "Lu4",
-      "url": "/lu4/item/4837-orcish-glaive"
-    },
-    {
       "key": "skill:3599",
       "type": "skill",
       "id": 3599,
-      "name": "Polearm Multi-Attack Lv. 1",
-      "url": "/lu4/skill/3599-polearm-multi-attack/1"
+      "name": "Polearm Multi-Attack",
+      "url": "/lu4/skill/3599-polearm-multi-attack"
     },
     {
       "key": "skill:24292",
       "type": "skill",
       "id": 24292,
-      "name": "Special Ability: Health Lv. 2",
-      "url": "/lu4/skill/24292-special-ability-health/2"
+      "name": "Special Ability: Health",
+      "url": "/lu4/skill/24292-special-ability-health"
     }
   ]
 }

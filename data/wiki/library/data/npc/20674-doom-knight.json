@@ -2,175 +2,81 @@
   "key": "npc:20674",
   "type": "npc",
   "id": 20674,
-  "name": "Lu4 Wiki: NPC Doom Knight",
+  "name": "Doom Knight",
   "url": "/lu4/npc/20674-doom-knight",
-  "source_url": "https://masterwork.wiki/lu4/npc/20674-doom-knight",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20674-doom-knight",
   "raw_html": "library/raw/lu4/npc/20674-doom-knight.html",
   "stats": {
-    "Location": "Поле Брани (+2) Поле Брани Земли Адена Кладбище"
+    "Respawn Time": "45 seconds ± 5 seconds",
+    "Location": "Поле Брани (+2) Поле Брани Земли Адена Кладбище",
+    "HP / MP": "8 121 / 1 464",
+    "P. Atk. / M. Atk.": "1 396 / 709",
+    "P. Def. / M. Def.": "480 / 347",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "8 878 / 888",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak M. Def. Lv. 10 Slightly Weak P. Def. Lv. 10 Dark Attack Lv. 1 Unleashes a dark attack. Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 65"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20674",
-      "type": "npc",
-      "id": 20674,
-      "name": "Lu4",
-      "url": "/lu4/npc/20674-doom-knight"
-    },
-    {
-      "key": "location:188",
-      "type": "location",
-      "id": 188,
-      "name": "Поле Брани",
-      "url": "/lu4/location/188-pole-brani"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
-      "key": "location:71",
-      "type": "location",
-      "id": 71,
-      "name": "Кладбище",
-      "url": "/lu4/location/71-kladbise"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39369",
-      "type": "item",
-      "id": 39369,
-      "name": "Spellbook: Circlet of Atonement NG",
-      "url": "/lu4/item/39369-spellbook-circlet-of-atonement"
-    },
-    {
-      "key": "item:32405",
-      "type": "item",
-      "id": 32405,
-      "name": "Unidentified Sealed Doom Boots B",
-      "url": "/lu4/item/32405-unidentified-sealed-doom-boots"
-    },
-    {
-      "key": "item:32365",
-      "type": "item",
-      "id": 32365,
-      "name": "Unidentified Blue Wolf Helmet B",
-      "url": "/lu4/item/32365-unidentified-blue-wolf-helmet"
-    },
-    {
-      "key": "item:14226",
-      "type": "item",
-      "id": 14226,
-      "name": "Amulet: Onslaught of Pa'agrio NG",
-      "url": "/lu4/item/14226-amulet-onslaught-of-paagrio"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
-    },
-    {
-      "key": "item:5006",
-      "type": "item",
-      "id": 5006,
-      "name": "Recipe: Bellion Cestus (60%) NG",
-      "url": "/lu4/item/5006-recipe-bellion-cestus-60"
-    },
-    {
-      "key": "item:5003",
-      "type": "item",
-      "id": 5003,
-      "name": "Recipe: Art of Battle Axe (60%) NG",
-      "url": "/lu4/item/5003-recipe-art-of-battle-axe-60"
-    },
-    {
-      "key": "item:4988",
-      "type": "item",
-      "id": 4988,
-      "name": "Recipe: Blue Wolf Stockings (60%) NG",
-      "url": "/lu4/item/4988-recipe-blue-wolf-stockings-60"
-    },
-    {
-      "key": "item:4099",
-      "type": "item",
-      "id": 4099,
-      "name": "Sealed Doom Boots Part NG",
-      "url": "/lu4/item/4099-sealed-doom-boots-part"
-    },
-    {
-      "key": "item:4088",
-      "type": "item",
-      "id": 4088,
-      "name": "Blue Wolf Helmet Design NG",
-      "url": "/lu4/item/4088-blue-wolf-helmet-design"
-    },
-    {
-      "key": "item:4052",
-      "type": "item",
-      "id": 4052,
-      "name": "Earring of Black Ore Piece NG",
-      "url": "/lu4/item/4052-earring-of-black-ore-piece"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -178,13 +84,6 @@
       "id": 4041,
       "name": "Mold Hardener NG",
       "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:3035",
-      "type": "item",
-      "id": 3035,
-      "name": "Recipe: Spiritshot A NG",
-      "url": "/lu4/item/3035-recipe-spiritshot-a"
     },
     {
       "key": "item:1881",
@@ -215,6 +114,41 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:6571",
+      "type": "item",
+      "id": 6571,
+      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
+    },
+    {
+      "key": "item:3035",
+      "type": "item",
+      "id": 3035,
+      "name": "Recipe: Spiritshot A NG",
+      "url": "/lu4/item/3035-recipe-spiritshot-a"
+    },
+    {
+      "key": "item:32365",
+      "type": "item",
+      "id": 32365,
+      "name": "Unidentified Blue Wolf Helmet B",
+      "url": "/lu4/item/32365-unidentified-blue-wolf-helmet"
+    },
+    {
+      "key": "item:4088",
+      "type": "item",
+      "id": 4088,
+      "name": "Blue Wolf Helmet Design NG",
+      "url": "/lu4/item/4088-blue-wolf-helmet-design"
+    },
+    {
       "key": "item:864",
       "type": "item",
       "id": 864,
@@ -222,25 +156,67 @@
       "url": "/lu4/item/864-earring-of-black-ore"
     },
     {
-      "key": "item:57",
+      "key": "item:4052",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4052,
+      "name": "Earring of Black Ore Piece NG",
+      "url": "/lu4/item/4052-earring-of-black-ore-piece"
     },
     {
-      "key": "item:8336",
+      "key": "item:32405",
       "type": "item",
-      "id": 8336,
-      "name": "Blade of the Wizard's Tear NG",
-      "url": "/lu4/item/8336-blade-of-the-wizards-tear"
+      "id": 32405,
+      "name": "Unidentified Sealed Doom Boots B",
+      "url": "/lu4/item/32405-unidentified-sealed-doom-boots"
     },
     {
-      "key": "item:8312",
+      "key": "item:4099",
       "type": "item",
-      "id": 8312,
-      "name": "Recipe: Kaim Vanul's Bones (60%) NG",
-      "url": "/lu4/item/8312-recipe-kaim-vanuls-bones-60"
+      "id": 4099,
+      "name": "Sealed Doom Boots Part NG",
+      "url": "/lu4/item/4099-sealed-doom-boots-part"
+    },
+    {
+      "key": "item:5003",
+      "type": "item",
+      "id": 5003,
+      "name": "Recipe: Art of Battle Axe (60%) NG",
+      "url": "/lu4/item/5003-recipe-art-of-battle-axe-60"
+    },
+    {
+      "key": "item:5006",
+      "type": "item",
+      "id": 5006,
+      "name": "Recipe: Bellion Cestus (60%) NG",
+      "url": "/lu4/item/5006-recipe-bellion-cestus-60"
+    },
+    {
+      "key": "item:4988",
+      "type": "item",
+      "id": 4988,
+      "name": "Recipe: Blue Wolf Stockings (60%) NG",
+      "url": "/lu4/item/4988-recipe-blue-wolf-stockings-60"
+    },
+    {
+      "key": "item:39369",
+      "type": "item",
+      "id": 39369,
+      "name": "Spellbook: Circlet of Atonement NG",
+      "url": "/lu4/item/39369-spellbook-circlet-of-atonement"
+    },
+    {
+      "key": "item:14226",
+      "type": "item",
+      "id": 14226,
+      "name": "Amulet: Onslaught of Pa'agrio NG",
+      "url": "/lu4/item/14226-amulet-onslaught-of-paagrio"
+    },
+    {
+      "key": "item:4124",
+      "type": "item",
+      "id": 4124,
+      "name": "Recipe: Craftsman Mold (100%) NG",
+      "url": "/lu4/item/4124-recipe-craftsman-mold-100"
     },
     {
       "key": "item:4992",
@@ -250,11 +226,11 @@
       "url": "/lu4/item/4992-recipe-sealed-blue-wolf-boots-60"
     },
     {
-      "key": "item:4124",
+      "key": "item:8312",
       "type": "item",
-      "id": 4124,
-      "name": "Recipe: Craftsman Mold (100%) NG",
-      "url": "/lu4/item/4124-recipe-craftsman-mold-100"
+      "id": 8312,
+      "name": "Recipe: Kaim Vanul's Bones (60%) NG",
+      "url": "/lu4/item/8312-recipe-kaim-vanuls-bones-60"
     },
     {
       "key": "item:4089",
@@ -269,6 +245,13 @@
       "id": 4087,
       "name": "Stockings of Doom Pattern NG",
       "url": "/lu4/item/4087-stockings-of-doom-pattern"
+    },
+    {
+      "key": "item:8336",
+      "type": "item",
+      "id": 8336,
+      "name": "Blade of the Wizard's Tear NG",
+      "url": "/lu4/item/8336-blade-of-the-wizards-tear"
     }
   ]
 }

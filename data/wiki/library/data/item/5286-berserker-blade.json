@@ -2,24 +2,26 @@
   "key": "item:5286",
   "type": "item",
   "id": 5286,
-  "name": "Lu4 Wiki: Item Berserker Blade",
+  "name": "Berserker Blade",
   "url": "/lu4/item/5286-berserker-blade",
-  "source_url": "https://masterwork.wiki/lu4/item/5286-berserker-blade",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5286-berserker-blade",
   "raw_html": "library/raw/lu4/item/5286-berserker-blade.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Focus: P. Crit. Rate +60. Haste: Atk. Spd. +7%. Health: Max HP +25%.",
+    "P. Atk. / M. Atk.": "190 / 83",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "2452 Crystallization Failed Enchant +0 2452 - +1 2497 - +2 2542 - +3 2587 - +4 2677 1451 +5 2767 1541 +6 2857 1631 +7 2947 1721 +8 3037 1811 +9 3127 1901 +10 3217 1991 +11 3307 2081 +12 3397 2171",
+    "NPC Sell Price": "2 356 750 Adena",
+    "Weight": "1380",
+    "P. Crit. Rate.": "8",
     "Recipes": "Recipe: Berserker Blade(100%) NG",
     "Soul Crystals": "Berserker Blade Focus C Gemstone C NG (555 pcs.) Red Soul Crystal - Stage 8 NG Berserker Blade C Berserker Blade Health C Gemstone C NG (555 pcs.) Green Soul Crystal - Stage 8 NG Berserker Blade C Berserker Blade Haste C Gemstone C NG (555 pcs.) Blue Soul Crystal - Stage 8 NG Berserker Blade C",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Sword / Two-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:5286",
-      "type": "item",
-      "id": 5286,
-      "name": "Lu4",
-      "url": "/lu4/item/5286-berserker-blade"
-    },
     {
       "key": "item:5436",
       "type": "item",
@@ -80,84 +82,98 @@
       "key": "npc:36625",
       "type": "npc",
       "id": 36625,
-      "name": "Wren Kain Lv. 50",
+      "name": "Wren Kain",
       "url": "/lu4/npc/36625-wren-kain"
+    },
+    {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
     },
     {
       "key": "npc:25158",
       "type": "npc",
       "id": 25158,
-      "name": "King Tarlk Lv. 48",
+      "name": "King Tarlk",
       "url": "/lu4/npc/25158-king-tarlk"
     },
     {
       "key": "npc:22076",
       "type": "npc",
       "id": 22076,
-      "name": "Deadly Ginzu Golem V Lv. 53",
+      "name": "Deadly Ginzu Golem V",
       "url": "/lu4/npc/22076-deadly-ginzu-golem-v"
     },
     {
       "key": "npc:22074",
       "type": "npc",
       "id": 22074,
-      "name": "Epic Cannon Golem Lv. 53",
+      "name": "Epic Cannon Golem",
       "url": "/lu4/npc/22074-epic-cannon-golem"
     },
     {
       "key": "npc:21716",
       "type": "npc",
       "id": 21716,
-      "name": "Purgatory Invader Berserker Lv. 55",
+      "name": "Purgatory Invader Berserker",
       "url": "/lu4/npc/21716-purgatory-invader-berserker"
     },
     {
       "key": "npc:21713",
       "type": "npc",
       "id": 21713,
-      "name": "Purgatory Invader Warrior Lv. 53",
+      "name": "Purgatory Invader Warrior",
       "url": "/lu4/npc/21713-purgatory-invader-warrior"
     },
     {
       "key": "npc:21706",
       "type": "npc",
       "id": 21706,
-      "name": "Purgatory Invader Soldier Lv. 55",
+      "name": "Purgatory Invader Soldier",
       "url": "/lu4/npc/21706-purgatory-invader-soldier"
     },
     {
       "key": "npc:21637",
       "type": "npc",
       "id": 21637,
-      "name": "Crimson Veil Master Lv. 54",
+      "name": "Crimson Veil Master",
       "url": "/lu4/npc/21637-crimson-veil-master"
     },
     {
       "key": "npc:21263",
       "type": "npc",
       "id": 21263,
-      "name": "Ol Mahum Transcender Lv. 55",
+      "name": "Ol Mahum Transcender",
       "url": "/lu4/npc/21263-ol-mahum-transcender"
     },
     {
       "key": "npc:20952",
       "type": "npc",
       "id": 20952,
-      "name": "Pobby Escort Lv. 55",
+      "name": "Pobby Escort",
       "url": "/lu4/npc/20952-pobby-escort"
     },
     {
       "key": "npc:20644",
       "type": "npc",
       "id": 20644,
-      "name": "Harit Lizardman Shaman Lv. 54",
+      "name": "Harit Lizardman Shaman",
       "url": "/lu4/npc/20644-harit-lizardman-shaman"
     },
     {
       "key": "npc:20575",
       "type": "npc",
       "id": 20575,
-      "name": "Oel Mahum Warrior Lv. 54",
+      "name": "Oel Mahum Warrior",
       "url": "/lu4/npc/20575-oel-mahum-warrior"
     }
   ]

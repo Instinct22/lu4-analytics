@@ -2,56 +2,67 @@
   "key": "npc:21020",
   "type": "npc",
   "id": 21020,
-  "name": "Lu4 Wiki: NPC Fallen Orc Shaman",
+  "name": "Fallen Orc Shaman",
   "url": "/lu4/npc/21020-fallen-orc-shaman",
-  "source_url": "https://masterwork.wiki/lu4/npc/21020-fallen-orc-shaman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21020-fallen-orc-shaman",
   "raw_html": "library/raw/lu4/npc/21020-fallen-orc-shaman.html",
   "stats": {
-    "Location": "Забытые Равнины"
+    "Respawn Time": "30 seconds ± 5 seconds",
+    "Location": "Забытые Равнины",
+    "HP / MP": "2 914 / 1 203",
+    "P. Atk. / M. Atk.": "757 / 744",
+    "P. Def. / M. Def.": "299 / 302",
+    "Accuracy / Evasion": "95 / 94",
+    "Exp / SP": "3 358 / 336",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Greater Sleep Resistance Lv. 3 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 59"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21020",
-      "type": "npc",
-      "id": 21020,
-      "name": "Lu4",
-      "url": "/lu4/npc/21020-fallen-orc-shaman"
-    },
-    {
-      "key": "location:73",
-      "type": "location",
-      "id": 73,
-      "name": "Забытые Равнины",
-      "url": "/lu4/location/73-zabytye-ravniny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 3 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/3"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:1832",
+      "type": "item",
+      "id": 1832,
+      "name": "Greater Antidote NG",
+      "url": "/lu4/item/1832-greater-antidote"
     },
     {
       "key": "item:49800",
@@ -68,39 +79,18 @@
       "url": "/lu4/item/32590-unidentified-avadon-robe"
     },
     {
+      "key": "item:4071",
+      "type": "item",
+      "id": 4071,
+      "name": "Avadon Robe Fabric NG",
+      "url": "/lu4/item/4071-avadon-robe-fabric"
+    },
+    {
       "key": "item:32344",
       "type": "item",
       "id": 32344,
       "name": "Unidentified Dark Elven Long Bow B",
       "url": "/lu4/item/32344-unidentified-dark-elven-long-bow"
-    },
-    {
-      "key": "item:32328",
-      "type": "item",
-      "id": 32328,
-      "name": "Unidentified Keshanberk B",
-      "url": "/lu4/item/32328-unidentified-keshanberk"
-    },
-    {
-      "key": "item:4964",
-      "type": "item",
-      "id": 4964,
-      "name": "Recipe: Heavy War Axe (60%) NG",
-      "url": "/lu4/item/4964-recipe-heavy-war-axe-60"
-    },
-    {
-      "key": "item:4944",
-      "type": "item",
-      "id": 4944,
-      "name": "Recipe: Avadon Breastplate (60%) NG",
-      "url": "/lu4/item/4944-recipe-avadon-breastplate-60"
-    },
-    {
-      "key": "item:4938",
-      "type": "item",
-      "id": 4938,
-      "name": "Recipe: Adamantite Ring (70%) NG",
-      "url": "/lu4/item/4938-recipe-adamantite-ring-70"
     },
     {
       "key": "item:4112",
@@ -110,6 +100,13 @@
       "url": "/lu4/item/4112-dark-elven-longbow-shaft"
     },
     {
+      "key": "item:32328",
+      "type": "item",
+      "id": 32328,
+      "name": "Unidentified Keshanberk B",
+      "url": "/lu4/item/32328-unidentified-keshanberk"
+    },
+    {
       "key": "item:4107",
       "type": "item",
       "id": 4107,
@@ -117,25 +114,25 @@
       "url": "/lu4/item/4107-keshanberk-blade"
     },
     {
-      "key": "item:4071",
+      "key": "item:4938",
       "type": "item",
-      "id": 4071,
-      "name": "Avadon Robe Fabric NG",
-      "url": "/lu4/item/4071-avadon-robe-fabric"
+      "id": 4938,
+      "name": "Recipe: Adamantite Ring (70%) NG",
+      "url": "/lu4/item/4938-recipe-adamantite-ring-70"
     },
     {
-      "key": "item:1832",
+      "key": "item:4944",
       "type": "item",
-      "id": 1832,
-      "name": "Greater Antidote NG",
-      "url": "/lu4/item/1832-greater-antidote"
+      "id": 4944,
+      "name": "Recipe: Avadon Breastplate (60%) NG",
+      "url": "/lu4/item/4944-recipe-avadon-breastplate-60"
     },
     {
-      "key": "item:57",
+      "key": "item:4964",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4964,
+      "name": "Recipe: Heavy War Axe (60%) NG",
+      "url": "/lu4/item/4964-recipe-heavy-war-axe-60"
     },
     {
       "key": "item:4961",

@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Tonar&#039;s Spine
+# Tonar's Spine
 
-- Source: https://masterwork.wiki/lu4/item/2891-tonars-spine
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2891-tonars-spine
 - Path: /lu4/item/2891-tonars-spine
 - Type: item
 - Key: item:2891
 
 ## Stats
+- Effect: The spine bones of Tonar, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Pekiron.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Tonar&#039;s Spine
-Lu4
-Eternal
-MasterWork
-Tonar's Spine
-NG
-Quest Item
-The spine bones of Tonar, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Pekiron.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Test of the War Spirit
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Tonar's Spine NG Quest Item The spine bones of Tonar, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Pekiron. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

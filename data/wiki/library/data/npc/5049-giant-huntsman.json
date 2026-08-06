@@ -2,147 +2,95 @@
   "key": "npc:5049",
   "type": "npc",
   "id": 5049,
-  "name": "Lu4 Wiki: NPC Giant Huntsman",
+  "name": "Giant Huntsman",
   "url": "/lu4/npc/5049-giant-huntsman",
-  "source_url": "https://masterwork.wiki/lu4/npc/5049-giant-huntsman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5049-giant-huntsman",
   "raw_html": "library/raw/lu4/npc/5049-giant-huntsman.html",
   "stats": {
-    "Location": "Пещера Гигантов"
+    "Respawn Time": "3 minutes, 20 seconds ± 20 seconds",
+    "Location": "Пещера Гигантов",
+    "HP / MP": "26 201 / 1 110",
+    "P. Atk. / M. Atk.": "4 098 / 905",
+    "P. Def. / M. Def.": "579 / 523",
+    "Accuracy / Evasion": "97 / 112",
+    "Exp / SP": "49 585 / 4 959",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Grumpy Lv. 1 Strikes without warning. HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 14 Strong M. Def. Lv. 14 Strong P. Def. Lv. 14 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Greater Mental Attack Resistance Lv. 3 Highly resistant to Silence/Fear.",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 69"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5049",
-      "type": "npc",
-      "id": 5049,
-      "name": "Lu4",
-      "url": "/lu4/npc/5049-giant-huntsman"
-    },
-    {
-      "key": "location:69",
-      "type": "location",
-      "id": 69,
-      "name": "Пещера Гигантов",
-      "url": "/lu4/location/69-pesera-gigantov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4441",
       "type": "skill",
       "id": 4441,
-      "name": "Greater Mental Attack Resistance Lv. 3 Highly resistant to Silence/Fear.",
-      "url": "/lu4/skill/4441-greater-mental-attack-resistance/3"
+      "name": "Greater Mental Attack Resistance",
+      "url": "/lu4/skill/4441-greater-mental-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:32384",
-      "type": "item",
-      "id": 32384,
-      "name": "Unidentified Sealed Dark Crystal Robe A",
-      "url": "/lu4/item/32384-unidentified-sealed-dark-crystal-robe"
-    },
-    {
-      "key": "item:32373",
-      "type": "item",
-      "id": 32373,
-      "name": "Unidentified Sealed Dark Crystal Boots A",
-      "url": "/lu4/item/32373-unidentified-sealed-dark-crystal-boots"
-    },
-    {
-      "key": "item:5496",
-      "type": "item",
-      "id": 5496,
-      "name": "Sealed Dark Crystal Boots Lining NG",
-      "url": "/lu4/item/5496-sealed-dark-crystal-boots-lining"
-    },
-    {
-      "key": "item:5486",
-      "type": "item",
-      "id": 5486,
-      "name": "Sealed Dark Crystal Robe Fabric NG",
-      "url": "/lu4/item/5486-sealed-dark-crystal-robe-fabric"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -180,6 +128,13 @@
       "url": "/lu4/item/1866-suede"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
       "key": "item:730",
       "type": "item",
       "id": 730,
@@ -187,18 +142,53 @@
       "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:32373",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32373,
+      "name": "Unidentified Sealed Dark Crystal Boots A",
+      "url": "/lu4/item/32373-unidentified-sealed-dark-crystal-boots"
     },
     {
-      "key": "item:8346",
+      "key": "item:5496",
       "type": "item",
-      "id": 8346,
-      "name": "Hammer Piece of Destroyer NG",
-      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
+      "id": 5496,
+      "name": "Sealed Dark Crystal Boots Lining NG",
+      "url": "/lu4/item/5496-sealed-dark-crystal-boots-lining"
+    },
+    {
+      "key": "item:32384",
+      "type": "item",
+      "id": 32384,
+      "name": "Unidentified Sealed Dark Crystal Robe A",
+      "url": "/lu4/item/32384-unidentified-sealed-dark-crystal-robe"
+    },
+    {
+      "key": "item:5486",
+      "type": "item",
+      "id": 5486,
+      "name": "Sealed Dark Crystal Robe Fabric NG",
+      "url": "/lu4/item/5486-sealed-dark-crystal-robe-fabric"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:5543",
@@ -206,6 +196,13 @@
       "id": 5543,
       "name": "Dasparion's Staff Head NG",
       "url": "/lu4/item/5543-dasparions-staff-head"
+    },
+    {
+      "key": "item:8346",
+      "type": "item",
+      "id": 8346,
+      "name": "Hammer Piece of Destroyer NG",
+      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
     },
     {
       "key": "item:5532",

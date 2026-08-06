@@ -2,23 +2,23 @@
   "key": "item:103",
   "type": "item",
   "id": 103,
-  "name": "Lu4 Wiki: Item Tower Shield",
+  "name": "Tower Shield",
   "url": "/lu4/item/103-tower-shield",
-  "source_url": "https://masterwork.wiki/lu4/item/103-tower-shield",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/103-tower-shield",
   "raw_html": "library/raw/lu4/item/103-tower-shield.html",
   "stats": {
+    "Shield Defense": "190 (20%)",
+    "Crystal Amount": "79 Crystallization Failed Enchant +0 79 - +1 85 - +2 91 - +3 97 - +4 115 75 +5 133 93 +6 151 111 +7 169 129 +8 187 147",
+    "NPC Sell Price": "99 150 Adena",
+    "Weight": "1240",
+    "Evasion": "-8",
     "Recipes": "Recipe: Tower Shield NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Shield"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:103",
-      "type": "item",
-      "id": 103,
-      "name": "Lu4",
-      "url": "/lu4/item/103-tower-shield"
-    },
     {
       "key": "item:2223",
       "type": "item",
@@ -27,59 +27,80 @@
       "url": "/lu4/item/2223-recipe-tower-shield"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25418",
       "type": "npc",
       "id": 25418,
-      "name": "Dread Avenger Kraven Lv. 44",
+      "name": "Dread Avenger Kraven",
       "url": "/lu4/npc/25418-dread-avenger-kraven"
     },
     {
       "key": "npc:25395",
       "type": "npc",
       "id": 25395,
-      "name": "Archon Suscepter Lv. 45",
+      "name": "Archon Suscepter",
       "url": "/lu4/npc/25395-archon-suscepter"
     },
     {
       "key": "npc:25260",
       "type": "npc",
       "id": 25260,
-      "name": "Iron Giant Totem Lv. 45",
+      "name": "Iron Giant Totem",
       "url": "/lu4/npc/25260-iron-giant-totem"
     },
     {
       "key": "npc:21717",
       "type": "npc",
       "id": 21717,
-      "name": "Purgatory Invader Food Lv. 50",
+      "name": "Purgatory Invader Food",
       "url": "/lu4/npc/21717-purgatory-invader-food"
     },
     {
       "key": "npc:20940",
       "type": "npc",
       "id": 20940,
-      "name": "Tanor Silenos Shaman Lv. 48",
+      "name": "Tanor Silenos Shaman",
       "url": "/lu4/npc/20940-tanor-silenos-shaman"
     },
     {
       "key": "npc:20841",
       "type": "npc",
       "id": 20841,
-      "name": "Fiend Archer Lv. 48",
+      "name": "Fiend Archer",
       "url": "/lu4/npc/20841-fiend-archer"
     },
     {
       "key": "npc:20759",
       "type": "npc",
       "id": 20759,
-      "name": "Dragon Bearer Warrior Lv. 48",
+      "name": "Dragon Bearer Warrior",
       "url": "/lu4/npc/20759-dragon-bearer-warrior"
     },
     {
       "key": "npc:20146",
       "type": "npc",
       "id": 20146,
-      "name": "Headless Knight Lv. 50",
+      "name": "Headless Knight",
       "url": "/lu4/npc/20146-headless-knight"
     }
   ]

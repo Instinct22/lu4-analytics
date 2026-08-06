@@ -2,140 +2,46 @@
   "key": "npc:20848",
   "type": "npc",
   "id": 20848,
-  "name": "Lu4 Wiki: NPC Light Bringer",
+  "name": "Light Bringer",
   "url": "/lu4/npc/20848-light-bringer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20848-light-bringer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20848-light-bringer",
   "raw_html": "library/raw/lu4/npc/20848-light-bringer.html",
   "stats": {
-    "Location": "Остров Дьявола"
+    "Respawn Time": "35 seconds",
+    "Location": "Остров Дьявола",
+    "HP / MP": "3 915 / 785",
+    "P. Atk. / M. Atk.": "411 / 208",
+    "P. Def. / M. Def.": "250 / 201",
+    "Accuracy / Evasion": "79 / 79",
+    "Exp / SP": "3 933 / 393",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (2x) Lv. 10",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 46"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20848",
-      "type": "npc",
-      "id": 20848,
-      "name": "Lu4",
-      "url": "/lu4/npc/20848-light-bringer"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:3111",
-      "type": "item",
-      "id": 3111,
-      "name": "Amulet: Seal of Suspension NG",
-      "url": "/lu4/item/3111-amulet-seal-of-suspension"
-    },
-    {
-      "key": "item:3109",
-      "type": "item",
-      "id": 3109,
-      "name": "Amulet: Seal of Silence NG",
-      "url": "/lu4/item/3109-amulet-seal-of-silence"
-    },
-    {
-      "key": "item:3106",
-      "type": "item",
-      "id": 3106,
-      "name": "Amulet: Seal of Flame NG",
-      "url": "/lu4/item/3106-amulet-seal-of-flame"
-    },
-    {
-      "key": "item:3089",
-      "type": "item",
-      "id": 3089,
-      "name": "Spellbook: Tempest NG",
-      "url": "/lu4/item/3089-spellbook-tempest"
-    },
-    {
-      "key": "item:2316",
-      "type": "item",
-      "id": 2316,
-      "name": "Recipe: Katana NG",
-      "url": "/lu4/item/2316-recipe-katana"
-    },
-    {
-      "key": "item:2215",
-      "type": "item",
-      "id": 2215,
-      "name": "Recipe: Robe of Seal NG",
-      "url": "/lu4/item/2215-recipe-robe-of-seal"
-    },
-    {
-      "key": "item:2165",
-      "type": "item",
-      "id": 2165,
-      "name": "Recipe: Necklace of Protection NG",
-      "url": "/lu4/item/2165-recipe-necklace-of-protection"
-    },
-    {
-      "key": "item:1911",
-      "type": "item",
-      "id": 1911,
-      "name": "Earring of Protection Gemstone NG",
-      "url": "/lu4/item/1911-earring-of-protection-gemstone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1873",
@@ -180,11 +86,102 @@
       "url": "/lu4/item/853-earring-of-protection"
     },
     {
-      "key": "item:2081",
+      "key": "item:1911",
       "type": "item",
-      "id": 2081,
-      "name": "Raid Sword Blade NG",
-      "url": "/lu4/item/2081-raid-sword-blade"
+      "id": 1911,
+      "name": "Earring of Protection Gemstone NG",
+      "url": "/lu4/item/1911-earring-of-protection-gemstone"
+    },
+    {
+      "key": "item:2316",
+      "type": "item",
+      "id": 2316,
+      "name": "Recipe: Katana NG",
+      "url": "/lu4/item/2316-recipe-katana"
+    },
+    {
+      "key": "item:2165",
+      "type": "item",
+      "id": 2165,
+      "name": "Recipe: Necklace of Protection NG",
+      "url": "/lu4/item/2165-recipe-necklace-of-protection"
+    },
+    {
+      "key": "item:2215",
+      "type": "item",
+      "id": 2215,
+      "name": "Recipe: Robe of Seal NG",
+      "url": "/lu4/item/2215-recipe-robe-of-seal"
+    },
+    {
+      "key": "item:3106",
+      "type": "item",
+      "id": 3106,
+      "name": "Amulet: Seal of Flame NG",
+      "url": "/lu4/item/3106-amulet-seal-of-flame"
+    },
+    {
+      "key": "item:3109",
+      "type": "item",
+      "id": 3109,
+      "name": "Amulet: Seal of Silence NG",
+      "url": "/lu4/item/3109-amulet-seal-of-silence"
+    },
+    {
+      "key": "item:3111",
+      "type": "item",
+      "id": 3111,
+      "name": "Amulet: Seal of Suspension NG",
+      "url": "/lu4/item/3111-amulet-seal-of-suspension"
+    },
+    {
+      "key": "item:3089",
+      "type": "item",
+      "id": 3089,
+      "name": "Spellbook: Tempest NG",
+      "url": "/lu4/item/3089-spellbook-tempest"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
     },
     {
       "key": "item:1895",
@@ -194,11 +191,11 @@
       "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:1871",
+      "key": "item:2081",
       "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 2081,
+      "name": "Raid Sword Blade NG",
+      "url": "/lu4/item/2081-raid-sword-blade"
     }
   ]
 }

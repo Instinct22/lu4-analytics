@@ -2,75 +2,93 @@
   "key": "npc:21657",
   "type": "npc",
   "id": 21657,
-  "name": "Lu4 Wiki: NPC Magma Drake",
+  "name": "Magma Drake",
   "url": "/lu4/npc/21657-magma-drake",
-  "source_url": "https://masterwork.wiki/lu4/npc/21657-magma-drake",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21657-magma-drake",
   "raw_html": "library/raw/lu4/npc/21657-magma-drake.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "30 320 / 2 274",
+    "P. Atk. / M. Atk.": "2 705 / 2 158",
+    "P. Def. / M. Def.": "812 / 342",
+    "Accuracy / Evasion": "125 / 125",
+    "Exp / SP": "54 371 / 6 468",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Slightly Strong P. Def. Lv. 13 Weak M. Def. Lv. 8 Fire Resistance Lv. 3 Resistant to Fire attacks. Water Vulnerability Lv. 1 Vulnerable to Water attacks.",
+    "Grade": "NG",
+    "Type": "Dragon, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21657",
-      "type": "npc",
-      "id": 21657,
-      "name": "Lu4",
-      "url": "/lu4/npc/21657-magma-drake"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
       "key": "skill:4009",
       "type": "skill",
       "id": 4009,
-      "name": "Fire Resistance Lv. 3 Resistant to Fire attacks.",
-      "url": "/lu4/skill/4009-fire-resistance/3"
+      "name": "Fire Resistance",
+      "url": "/lu4/skill/4009-fire-resistance"
     },
     {
       "key": "skill:4280",
       "type": "skill",
       "id": 4280,
-      "name": "Water Vulnerability Lv. 1 Vulnerable to Water attacks.",
-      "url": "/lu4/skill/4280-water-vulnerability/1"
+      "name": "Water Vulnerability",
+      "url": "/lu4/skill/4280-water-vulnerability"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:5480",
+      "type": "item",
+      "id": 5480,
+      "name": "Sealed Leather Armor of Nightmare Fabric NG",
+      "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
     },
     {
       "key": "item:32395",
@@ -94,27 +112,6 @@
       "url": "/lu4/item/5481-sealed-majestic-leather-armor-fabric"
     },
     {
-      "key": "item:5480",
-      "type": "item",
-      "id": 5480,
-      "name": "Sealed Leather Armor of Nightmare Fabric NG",
-      "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
-    },
-    {
       "key": "item:1875",
       "type": "item",
       "id": 1875,
@@ -127,6 +124,13 @@
       "id": 1870,
       "name": "Coal NG",
       "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
     },
     {
       "key": "item:1865",
@@ -150,18 +154,18 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:1879",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
     },
     {
-      "key": "item:6690",
+      "key": "item:6688",
       "type": "item",
-      "id": 6690,
-      "name": "Imperial Staff Head NG",
-      "url": "/lu4/item/6690-imperial-staff-head"
+      "id": 6688,
+      "name": "Forgotten Blade Edge NG",
+      "url": "/lu4/item/6688-forgotten-blade-edge"
     },
     {
       "key": "item:6689",
@@ -171,11 +175,11 @@
       "url": "/lu4/item/6689-basalt-battlehammer-head"
     },
     {
-      "key": "item:6688",
+      "key": "item:6690",
       "type": "item",
-      "id": 6688,
-      "name": "Forgotten Blade Edge NG",
-      "url": "/lu4/item/6688-forgotten-blade-edge"
+      "id": 6690,
+      "name": "Imperial Staff Head NG",
+      "url": "/lu4/item/6690-imperial-staff-head"
     },
     {
       "key": "npc:21393",

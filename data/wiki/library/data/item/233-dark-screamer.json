@@ -2,24 +2,27 @@
   "key": "item:233",
   "type": "item",
   "id": 233,
-  "name": "Lu4 Wiki: Item Dark Screamer",
+  "name": "Dark Screamer",
   "url": "/lu4/item/233-dark-screamer",
-  "source_url": "https://masterwork.wiki/lu4/item/233-dark-screamer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/233-dark-screamer",
   "raw_html": "library/raw/lu4/item/233-dark-screamer.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Critical Damage: P. Crit. Damage +140. Haste: Atk. Spd. +7%. Focus: P. Crit. Rate +60.",
+    "P. Atk. / M. Atk.": "122 / 76",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1322 Crystallization Failed Enchant +0 1322 - +1 1367 - +2 1412 - +3 1457 - +4 1547 886 +5 1637 976 +6 1727 1066 +7 1817 1156 +8 1907 1246 +9 1997 1336 +10 2087 1426 +11 2177 1516 +12 2267 1606",
+    "NPC Sell Price": "1 652 150 Adena",
+    "Weight": "1010",
+    "P. Crit. Rate.": "12",
+    "Accuracy": "-4",
     "Recipes": "Recipe: Dark Screamer NG",
     "Soul Crystals": "Dark Screamer Critical Damage C Dark Screamer C Gemstone C NG (306 pcs.) Red Soul Crystal - Stage 7 NG Dark Screamer Focus C Dark Screamer C Gemstone C NG (306 pcs.) Green Soul Crystal - Stage 7 NG Dark Screamer Haste C Dark Screamer C Gemstone C NG (306 pcs.) Blue Soul Crystal - Stage 7 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Dagger / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:233",
-      "type": "item",
-      "id": 233,
-      "name": "Lu4",
-      "url": "/lu4/item/233-dark-screamer"
-    },
     {
       "key": "item:2345",
       "type": "item",
@@ -77,73 +80,94 @@
       "url": "/lu4/item/4658-blue-soul-crystal-stage-7"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25498",
       "type": "npc",
       "id": 25498,
-      "name": "Fafurion's Henchman Istary Lv. 45",
+      "name": "Fafurion's Henchman Istary",
       "url": "/lu4/npc/25498-fafurions-henchman-istary"
     },
     {
       "key": "npc:25057",
       "type": "npc",
       "id": 25057,
-      "name": "Beacon of Blue Sky Lv. 45",
+      "name": "Beacon of Blue Sky",
       "url": "/lu4/npc/25057-beacon-of-blue-sky"
     },
     {
       "key": "npc:22075",
       "type": "npc",
       "id": 22075,
-      "name": "Epic Cannon Golem Adjunct Lv. 52",
+      "name": "Epic Cannon Golem Adjunct",
       "url": "/lu4/npc/22075-epic-cannon-golem-adjunct"
     },
     {
       "key": "npc:22062",
       "type": "npc",
       "id": 22062,
-      "name": "Horrifying Jackhammer Golem Lv. 52",
+      "name": "Horrifying Jackhammer Golem",
       "url": "/lu4/npc/22062-horrifying-jackhammer-golem"
     },
     {
       "key": "npc:21721",
       "type": "npc",
       "id": 21721,
-      "name": "Purgatory Invader Elite Soldier Lv. 50",
+      "name": "Purgatory Invader Elite Soldier",
       "url": "/lu4/npc/21721-purgatory-invader-elite-soldier"
     },
     {
       "key": "npc:21628",
       "type": "npc",
       "id": 21628,
-      "name": "Kaim Vanul Lad Lv. 51",
+      "name": "Kaim Vanul Lad",
       "url": "/lu4/npc/21628-kaim-vanul-lad"
     },
     {
       "key": "npc:21151",
       "type": "npc",
       "id": 21151,
-      "name": "Decayed Ancient Knight Lv. 50",
+      "name": "Decayed Ancient Knight",
       "url": "/lu4/npc/21151-decayed-ancient-knight"
     },
     {
       "key": "npc:20844",
       "type": "npc",
       "id": 20844,
-      "name": "Kaim Vanul Lv. 51",
+      "name": "Kaim Vanul",
       "url": "/lu4/npc/20844-kaim-vanul"
     },
     {
       "key": "npc:20592",
       "type": "npc",
       "id": 20592,
-      "name": "Satyr Lv. 48",
+      "name": "Satyr",
       "url": "/lu4/npc/20592-satyr"
     },
     {
       "key": "npc:20573",
       "type": "npc",
       "id": 20573,
-      "name": "Tarlk Basilisk Lv. 50",
+      "name": "Tarlk Basilisk",
       "url": "/lu4/npc/20573-tarlk-basilisk"
     }
   ]

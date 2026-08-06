@@ -2,124 +2,107 @@
   "key": "npc:22135",
   "type": "npc",
   "id": 22135,
-  "name": "Lu4 Wiki: NPC Beholder of Light",
+  "name": "Beholder of Light",
   "url": "/lu4/npc/22135-beholder-of-light",
-  "source_url": "https://masterwork.wiki/lu4/npc/22135-beholder-of-light",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22135-beholder-of-light",
   "raw_html": "library/raw/lu4/npc/22135-beholder-of-light.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "29 986 / 2 170",
+    "P. Atk. / M. Atk.": "3 604 / 1 464",
+    "P. Def. / M. Def.": "701 / 1 386",
+    "Accuracy / Evasion": "135 / 135",
+    "Exp / SP": "66 785 / 8 406",
+    "Attack Attribute": "Holy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 103, Unholy -83",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (6x) Lv. 14 MP Increase (1x) Lv. 1 Very Strong P. Atk. Lv. 16 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Very Strong M. Def. Lv. 17 Standard Type Lv. 2 Normal P. Def. and Evasion. Spear Lv. 11 Spears Angels Lv. 17 Angels. High Lv. Lv. 10 NPC High Level",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22135",
-      "type": "npc",
-      "id": 22135,
-      "name": "Lu4",
-      "url": "/lu4/npc/22135-beholder-of-light"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 17",
-      "url": "/lu4/skill/4413-very-strong-m-def/17"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Spear Lv. 11 Spears",
-      "url": "/lu4/skill/4415-spear/11"
+      "name": "Spear",
+      "url": "/lu4/skill/4415-spear"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Angels Lv. 17 Angels.",
-      "url": "/lu4/skill/4417-angels/17"
+      "name": "Angels",
+      "url": "/lu4/skill/4417-angels"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 10 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/10"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:8056",
-      "type": "item",
-      "id": 8056,
-      "name": "Key of Splendor Room NG",
-      "url": "/lu4/item/8056-key-of-splendor-room"
-    },
-    {
-      "key": "item:7911",
-      "type": "item",
-      "id": 7911,
-      "name": "Blessing of Sanctity NG",
-      "url": "/lu4/item/7911-blessing-of-sanctity"
-    },
-    {
-      "key": "item:6901",
-      "type": "item",
-      "id": 6901,
-      "name": "Recipe: Shining Arrow (100%) NG",
-      "url": "/lu4/item/6901-recipe-shining-arrow-100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:6346",
@@ -192,18 +175,39 @@
       "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:57",
+      "key": "item:6901",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 6901,
+      "name": "Recipe: Shining Arrow (100%) NG",
+      "url": "/lu4/item/6901-recipe-shining-arrow-100"
     },
     {
-      "key": "item:6694",
+      "key": "item:7911",
       "type": "item",
-      "id": 6694,
-      "name": "Saint Spear Blade NG",
-      "url": "/lu4/item/6694-saint-spear-blade"
+      "id": 7911,
+      "name": "Blessing of Sanctity NG",
+      "url": "/lu4/item/7911-blessing-of-sanctity"
+    },
+    {
+      "key": "item:8056",
+      "type": "item",
+      "id": 8056,
+      "name": "Key of Splendor Room NG",
+      "url": "/lu4/item/8056-key-of-splendor-room"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:6691",
+      "type": "item",
+      "id": 6691,
+      "name": "Angel Slayer Blade NG",
+      "url": "/lu4/item/6691-angel-slayer-blade"
     },
     {
       "key": "item:6693",
@@ -213,11 +217,11 @@
       "url": "/lu4/item/6693-dragon-hunter-axe-blade"
     },
     {
-      "key": "item:6691",
+      "key": "item:6694",
       "type": "item",
-      "id": 6691,
-      "name": "Angel Slayer Blade NG",
-      "url": "/lu4/item/6691-angel-slayer-blade"
+      "id": 6694,
+      "name": "Saint Spear Blade NG",
+      "url": "/lu4/item/6694-saint-spear-blade"
     }
   ]
 }

@@ -2,40 +2,44 @@
   "key": "npc:18287",
   "type": "npc",
   "id": 18287,
-  "name": "Lu4 Wiki: NPC Otherworldly Invader Food",
+  "name": "Otherworldly Invader Food",
   "url": "/lu4/npc/18287-otherworldly-invader-food",
-  "source_url": "https://masterwork.wiki/lu4/npc/18287-otherworldly-invader-food",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/18287-otherworldly-invader-food",
   "raw_html": "library/raw/lu4/npc/18287-otherworldly-invader-food.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 142 / 458",
+    "P. Atk. / M. Atk.": "170 / 86",
+    "P. Def. / M. Def.": "176 / 132",
+    "Accuracy / Evasion": "66 / 66",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 33"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:18287",
-      "type": "npc",
-      "id": 18287,
-      "name": "Lu4",
-      "url": "/lu4/npc/18287-otherworldly-invader-food"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:956",
+      "key": "item:57",
       "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:955",
@@ -45,11 +49,11 @@
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:956",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     }
   ]
 }

@@ -2,82 +2,79 @@
   "key": "npc:20759",
   "type": "npc",
   "id": 20759,
-  "name": "Lu4 Wiki: NPC Dragon Bearer Warrior",
+  "name": "Dragon Bearer Warrior",
   "url": "/lu4/npc/20759-dragon-bearer-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/20759-dragon-bearer-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20759-dragon-bearer-warrior",
   "raw_html": "library/raw/lu4/npc/20759-dragon-bearer-warrior.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "7 063 / 852",
+    "P. Atk. / M. Atk.": "486 / 224",
+    "P. Def. / M. Def.": "261 / 208",
+    "Accuracy / Evasion": "81 / 81",
+    "Exp / SP": "7 455 / 745",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 48"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20759",
-      "type": "npc",
-      "id": 20759,
-      "name": "Lu4",
-      "url": "/lu4/npc/20759-dragon-bearer-warrior"
-    },
-    {
-      "key": "location:12",
-      "type": "location",
-      "id": 12,
-      "name": "Долина Драконов",
-      "url": "/lu4/location/12-dolina-drakonov"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:4043",
+      "key": "item:57",
       "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4039",
@@ -85,27 +82,6 @@
       "id": 4039,
       "name": "Mold Glue NG",
       "url": "/lu4/item/4039-mold-glue"
-    },
-    {
-      "key": "item:2089",
-      "type": "item",
-      "id": 2089,
-      "name": "Caliburs Edge NG",
-      "url": "/lu4/item/2089-caliburs-edge"
-    },
-    {
-      "key": "item:1985",
-      "type": "item",
-      "id": 1985,
-      "name": "Theca Leather Gaiters Pattern NG",
-      "url": "/lu4/item/1985-theca-leather-gaiters-pattern"
-    },
-    {
-      "key": "item:1978",
-      "type": "item",
-      "id": 1978,
-      "name": "Tower Shield Fragment NG",
-      "url": "/lu4/item/1978-tower-shield-fragment"
     },
     {
       "key": "item:1874",
@@ -129,18 +105,11 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:420",
+      "key": "item:4043",
       "type": "item",
-      "id": 420,
-      "name": "Theca Leather Gaiters C",
-      "url": "/lu4/item/420-theca-leather-gaiters"
-    },
-    {
-      "key": "item:103",
-      "type": "item",
-      "id": 103,
-      "name": "Tower Shield C",
-      "url": "/lu4/item/103-tower-shield"
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
     },
     {
       "key": "item:75",
@@ -150,18 +119,39 @@
       "url": "/lu4/item/75-caliburs"
     },
     {
-      "key": "item:57",
+      "key": "item:2089",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2089,
+      "name": "Caliburs Edge NG",
+      "url": "/lu4/item/2089-caliburs-edge"
     },
     {
-      "key": "item:3007",
+      "key": "item:420",
       "type": "item",
-      "id": 3007,
-      "name": "Recipe: Theca Leather Boots NG",
-      "url": "/lu4/item/3007-recipe-theca-leather-boots"
+      "id": 420,
+      "name": "Theca Leather Gaiters C",
+      "url": "/lu4/item/420-theca-leather-gaiters"
+    },
+    {
+      "key": "item:1985",
+      "type": "item",
+      "id": 1985,
+      "name": "Theca Leather Gaiters Pattern NG",
+      "url": "/lu4/item/1985-theca-leather-gaiters-pattern"
+    },
+    {
+      "key": "item:103",
+      "type": "item",
+      "id": 103,
+      "name": "Tower Shield C",
+      "url": "/lu4/item/103-tower-shield"
+    },
+    {
+      "key": "item:1978",
+      "type": "item",
+      "id": 1978,
+      "name": "Tower Shield Fragment NG",
+      "url": "/lu4/item/1978-tower-shield-fragment"
     },
     {
       "key": "item:2224",
@@ -171,6 +161,13 @@
       "url": "/lu4/item/2224-recipe-demons-tunic"
     },
     {
+      "key": "item:3007",
+      "type": "item",
+      "id": 3007,
+      "name": "Recipe: Theca Leather Boots NG",
+      "url": "/lu4/item/3007-recipe-theca-leather-boots"
+    },
+    {
       "key": "item:2110",
       "type": "item",
       "id": 2110,
@@ -178,18 +175,18 @@
       "url": "/lu4/item/2110-heathens-book-page"
     },
     {
-      "key": "item:2097",
-      "type": "item",
-      "id": 2097,
-      "name": "War Axe Blade NG",
-      "url": "/lu4/item/2097-war-axe-blade"
-    },
-    {
       "key": "item:1915",
       "type": "item",
       "id": 1915,
       "name": "Ring of Ages Gemstone NG",
       "url": "/lu4/item/1915-ring-of-ages-gemstone"
+    },
+    {
+      "key": "item:2097",
+      "type": "item",
+      "id": 2097,
+      "name": "War Axe Blade NG",
+      "url": "/lu4/item/2097-war-axe-blade"
     }
   ]
 }

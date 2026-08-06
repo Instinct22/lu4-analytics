@@ -2,63 +2,32 @@
   "key": "npc:20011",
   "type": "npc",
   "id": 20011,
-  "name": "Lu4 Wiki: NPC Vuku Orc Archer",
+  "name": "Vuku Orc Archer",
   "url": "/lu4/npc/20011-vuku-orc-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20011-vuku-orc-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20011-vuku-orc-archer",
   "raw_html": "library/raw/lu4/npc/20011-vuku-orc-archer.html",
   "stats": {
-    "Location": "Земли Глудио"
+    "Respawn Time": "17 seconds",
+    "Location": "Земли Глудио",
+    "HP / MP": "390 / 183",
+    "P. Atk. / M. Atk.": "75 / 19",
+    "P. Def. / M. Def.": "78 / 65",
+    "Accuracy / Evasion": "51 / 50",
+    "Exp / SP": "410 / 41",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 15"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20011",
-      "type": "npc",
-      "id": 20011,
-      "name": "Lu4",
-      "url": "/lu4/npc/20011-vuku-orc-archer"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1799",
-      "type": "item",
-      "id": 1799,
-      "name": "Recipe: Leather Gloves NG",
-      "url": "/lu4/item/1799-recipe-leather-gloves"
-    },
-    {
-      "key": "item:271",
-      "type": "item",
-      "id": 271,
-      "name": "Hunting Bow NG",
-      "url": "/lu4/item/271-hunting-bow"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "item:57",
@@ -68,11 +37,32 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1921",
+      "key": "item:271",
       "type": "item",
-      "id": 1921,
-      "name": "Leather Shoes Texture NG",
-      "url": "/lu4/item/1921-leather-shoes-texture"
+      "id": 271,
+      "name": "Hunting Bow NG",
+      "url": "/lu4/item/271-hunting-bow"
+    },
+    {
+      "key": "item:1799",
+      "type": "item",
+      "id": 1799,
+      "name": "Recipe: Leather Gloves NG",
+      "url": "/lu4/item/1799-recipe-leather-gloves"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
     },
     {
       "key": "item:1792",
@@ -80,6 +70,13 @@
       "id": 1792,
       "name": "Recipe: Short Spear NG",
       "url": "/lu4/item/1792-recipe-short-spear"
+    },
+    {
+      "key": "item:1921",
+      "type": "item",
+      "id": 1921,
+      "name": "Leather Shoes Texture NG",
+      "url": "/lu4/item/1921-leather-shoes-texture"
     }
   ]
 }

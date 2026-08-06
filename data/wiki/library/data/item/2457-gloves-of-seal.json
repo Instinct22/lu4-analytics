@@ -2,24 +2,23 @@
   "key": "item:2457",
   "type": "item",
   "id": 2457,
-  "name": "Lu4 Wiki: Item Gloves of Seal",
+  "name": "Gloves of Seal",
   "url": "/lu4/item/2457-gloves-of-seal",
-  "source_url": "https://masterwork.wiki/lu4/item/2457-gloves-of-seal",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2457-gloves-of-seal",
   "raw_html": "library/raw/lu4/item/2457-gloves-of-seal.html",
   "stats": {
+    "P. Def.": "34",
+    "Crystal Amount": "50 Crystallization Failed Enchant +0 50 - +1 56 - +2 62 - +3 68 - +4 86 61 +5 104 79 +6 122 97 +7 140 115 +8 158 133",
+    "NPC Sell Price": "61 950 Adena",
+    "Weight": "620",
     "Set Part": "Robe of Seal C",
     "Recipes": "Recipe: Gloves of Seal NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Gloves"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2457",
-      "type": "item",
-      "id": 2457,
-      "name": "Lu4",
-      "url": "/lu4/item/2457-gloves-of-seal"
-    },
     {
       "key": "set:841",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:844",
       "type": "set",
       "id": 844,
-      "name": "",
+      "name": "set:844",
       "url": "/lu4/set/844"
     },
     {
@@ -42,52 +41,59 @@
       "url": "/lu4/item/3003-recipe-gloves-of-seal"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:22054",
       "type": "npc",
       "id": 22054,
-      "name": "Horrifying Cannon Golem IV Lv. 48",
+      "name": "Horrifying Cannon Golem IV",
       "url": "/lu4/npc/22054-horrifying-cannon-golem-iv"
     },
     {
       "key": "npc:22051",
       "type": "npc",
       "id": 22051,
-      "name": "Spelunking Spider Lv. 47",
+      "name": "Spelunking Spider",
       "url": "/lu4/npc/22051-spelunking-spider"
     },
     {
       "key": "npc:20992",
       "type": "npc",
       "id": 20992,
-      "name": "Swamp Alligator Lv. 44",
+      "name": "Swamp Alligator",
       "url": "/lu4/npc/20992-swamp-alligator"
     },
     {
       "key": "npc:20991",
       "type": "npc",
       "id": 20991,
-      "name": "Swamp Tribe Lv. 45",
+      "name": "Swamp Tribe",
       "url": "/lu4/npc/20991-swamp-tribe"
     },
     {
       "key": "npc:20799",
       "type": "npc",
       "id": 20799,
-      "name": "Queen Undine Lad Lv. 46",
+      "name": "Queen Undine Lad",
       "url": "/lu4/npc/20799-queen-undine-lad"
     },
     {
       "key": "npc:20682",
       "type": "npc",
       "id": 20682,
-      "name": "Vanor Silenos Grunt Lv. 46",
+      "name": "Vanor Silenos Grunt",
       "url": "/lu4/npc/20682-vanor-silenos-grunt"
     },
     {
       "key": "npc:20218",
       "type": "npc",
       "id": 20218,
-      "name": "Premo Lv. 45",
+      "name": "Premo",
       "url": "/lu4/npc/20218-premo"
     }
   ]

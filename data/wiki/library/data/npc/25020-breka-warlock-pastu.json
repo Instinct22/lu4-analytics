@@ -2,54 +2,58 @@
   "key": "npc:25020",
   "type": "npc",
   "id": 25020,
-  "name": "Lu4 Wiki: NPC Breka Warlock Pastu",
+  "name": "Breka Warlock Pastu",
   "url": "/lu4/npc/25020-breka-warlock-pastu",
-  "source_url": "https://masterwork.wiki/lu4/npc/25020-breka-warlock-pastu",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25020-breka-warlock-pastu",
   "raw_html": "library/raw/lu4/npc/25020-breka-warlock-pastu.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "156 584 / 1 982",
+    "P. Atk. / M. Atk.": "454 / 181",
+    "P. Def. / M. Def.": "400 / 531",
+    "Accuracy / Evasion": "88 / 97",
+    "Exp / SP": "809 200 / 135 023",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 An Orc Dark Mage with superior talent. He was once known as 'the Hope of the Breka Orc tribe,' but he was tricked into plotting against his leader, and exiled. Now, he dreams of the day he will take vengeance on those who betrayed and exiled him. He grows in power, and uses summoning magic learned from the Dark Elves to harness powerful servitors and minions. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 34"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25020",
-      "type": "npc",
-      "id": 25020,
-      "name": "Lu4",
-      "url": "/lu4/npc/25020-breka-warlock-pastu"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4797",
       "type": "skill",
       "id": 4797,
-      "name": "Raid Boss Lv. 1 An Orc Dark Mage with superior talent. He was once known as 'the Hope of the Breka Orc tribe,' but he was tricked into plotting against his leader, and exiled. Now, he dreams of the day he will take vengeance on those who betrayed and exiled him. He grows in power, and uses summoning magic learned from the Dark Elves to harness powerful servitors and minions.",
-      "url": "/lu4/skill/4797-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4797-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -59,25 +63,39 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:159",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 159,
+      "name": "Bonebreaker D",
+      "url": "/lu4/item/159-bonebreaker"
     },
     {
-      "key": "item:6575",
+      "key": "item:189",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 189,
+      "name": "Staff of Life D",
+      "url": "/lu4/item/189-staff-of-life"
     },
     {
-      "key": "item:2058",
+      "key": "item:190",
       "type": "item",
-      "id": 2058,
-      "name": "Atuba Mace Head NG",
-      "url": "/lu4/item/2058-atuba-mace-head"
+      "id": 190,
+      "name": "Atuba Mace D",
+      "url": "/lu4/item/190-atuba-mace"
+    },
+    {
+      "key": "item:187",
+      "type": "item",
+      "id": 187,
+      "name": "Atuba Hammer D",
+      "url": "/lu4/item/187-atuba-hammer"
+    },
+    {
+      "key": "item:2048",
+      "type": "item",
+      "id": 2048,
+      "name": "Bonebreaker Head NG",
+      "url": "/lu4/item/2048-bonebreaker-head"
     },
     {
       "key": "item:2051",
@@ -87,11 +105,11 @@
       "url": "/lu4/item/2051-staff-of-life-shaft"
     },
     {
-      "key": "item:2050",
+      "key": "item:2058",
       "type": "item",
-      "id": 2050,
-      "name": "Ghost Staff Head NG",
-      "url": "/lu4/item/2050-ghost-staff-head"
+      "id": 2058,
+      "name": "Atuba Mace Head NG",
+      "url": "/lu4/item/2058-atuba-mace-head"
     },
     {
       "key": "item:2049",
@@ -101,11 +119,11 @@
       "url": "/lu4/item/2049-atuba-hammer-head"
     },
     {
-      "key": "item:2048",
+      "key": "item:396",
       "type": "item",
-      "id": 2048,
-      "name": "Bonebreaker Head NG",
-      "url": "/lu4/item/2048-bonebreaker-head"
+      "id": 396,
+      "name": "Salamander Skin Mail D",
+      "url": "/lu4/item/396-salamander-skin-mail"
     },
     {
       "key": "item:1952",
@@ -122,6 +140,13 @@
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     },
     {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
       "key": "item:955",
       "type": "item",
       "id": 955,
@@ -129,46 +154,11 @@
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
-      "key": "item:396",
+      "key": "item:6575",
       "type": "item",
-      "id": 396,
-      "name": "Salamander Skin Mail D",
-      "url": "/lu4/item/396-salamander-skin-mail"
-    },
-    {
-      "key": "item:190",
-      "type": "item",
-      "id": 190,
-      "name": "Atuba Mace D",
-      "url": "/lu4/item/190-atuba-mace"
-    },
-    {
-      "key": "item:189",
-      "type": "item",
-      "id": 189,
-      "name": "Staff of Life D",
-      "url": "/lu4/item/189-staff-of-life"
-    },
-    {
-      "key": "item:188",
-      "type": "item",
-      "id": 188,
-      "name": "Ghost Staff D",
-      "url": "/lu4/item/188-ghost-staff"
-    },
-    {
-      "key": "item:187",
-      "type": "item",
-      "id": 187,
-      "name": "Atuba Hammer D",
-      "url": "/lu4/item/187-atuba-hammer"
-    },
-    {
-      "key": "item:159",
-      "type": "item",
-      "id": 159,
-      "name": "Bonebreaker D",
-      "url": "/lu4/item/159-bonebreaker"
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25021",

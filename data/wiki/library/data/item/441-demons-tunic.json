@@ -2,24 +2,24 @@
   "key": "item:441",
   "type": "item",
   "id": 441,
-  "name": "Lu4 Wiki: Item Demon&#039;s Tunic",
+  "name": "Demon's Tunic",
   "url": "/lu4/item/441-demons-tunic",
-  "source_url": "https://masterwork.wiki/lu4/item/441-demons-tunic",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/441-demons-tunic",
   "raw_html": "library/raw/lu4/item/441-demons-tunic.html",
   "stats": {
+    "P. Def.": "69",
+    "MP Bonus": "284",
+    "Crystal Amount": "226 Crystallization Failed Enchant +0 226 - +1 232 - +2 238 - +3 244 - +4 262 149 +5 280 167 +6 298 185 +7 316 203 +8 334 221",
+    "NPC Sell Price": "283 000 Adena",
+    "Weight": "1990",
     "Set Part": "Demon's Tunic C",
     "Recipes": "Recipe: Demon's Tunic NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / Robe / Upper Body"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:441",
-      "type": "item",
-      "id": 441,
-      "name": "Lu4",
-      "url": "/lu4/item/441-demons-tunic"
-    },
     {
       "key": "set:20",
       "type": "set",
@@ -35,31 +35,52 @@
       "url": "/lu4/item/2224-recipe-demons-tunic"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:20803",
       "type": "npc",
       "id": 20803,
-      "name": "Doll Master Lv. 50",
+      "name": "Doll Master",
       "url": "/lu4/npc/20803-doll-master"
     },
     {
       "key": "npc:20802",
       "type": "npc",
       "id": 20802,
-      "name": "Theeder Mage Lv. 49",
+      "name": "Theeder Mage",
       "url": "/lu4/npc/20802-theeder-mage"
     },
     {
       "key": "npc:20574",
       "type": "npc",
       "id": 20574,
-      "name": "Elder Tarlk Basilisk Lv. 51",
+      "name": "Elder Tarlk Basilisk",
       "url": "/lu4/npc/20574-elder-tarlk-basilisk"
     },
     {
       "key": "npc:5013",
       "type": "npc",
       "id": 5013,
-      "name": "Torn Standardbearer Lv. 50",
+      "name": "Torn Standardbearer",
       "url": "/lu4/npc/5013-torn-standardbearer"
     }
   ]

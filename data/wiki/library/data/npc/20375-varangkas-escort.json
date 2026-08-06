@@ -2,168 +2,88 @@
   "key": "npc:20375",
   "type": "npc",
   "id": 20375,
-  "name": "Lu4 Wiki: NPC Varangka's Escort",
+  "name": "Varangka's Escort",
   "url": "/lu4/npc/20375-varangkas-escort",
-  "source_url": "https://masterwork.wiki/lu4/npc/20375-varangkas-escort",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20375-varangkas-escort",
   "raw_html": "library/raw/lu4/npc/20375-varangkas-escort.html",
   "stats": {
-    "Location": "Плато Бессмертия"
+    "Respawn Time": "50 seconds",
+    "Location": "Плато Бессмертия",
+    "HP / MP": "2 326 / 252",
+    "P. Atk. / M. Atk.": "73 / 40",
+    "P. Def. / M. Def.": "100 / 77",
+    "Accuracy / Evasion": "54 / 54",
+    "Exp / SP": "2 457 / 246",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 21"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20375",
-      "type": "npc",
-      "id": 20375,
-      "name": "Lu4",
-      "url": "/lu4/npc/20375-varangkas-escort"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5158",
-      "type": "item",
-      "id": 5158,
-      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:2257",
-      "type": "item",
-      "id": 2257,
-      "name": "Recipe: Trident NG",
-      "url": "/lu4/item/2257-recipe-trident"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:240",
-      "type": "item",
-      "id": 240,
-      "name": "Conjurer's Knife D",
-      "url": "/lu4/item/240-conjurers-knife"
-    },
-    {
-      "key": "item:238",
-      "type": "item",
-      "id": 238,
-      "name": "Dagger of Mana D",
-      "url": "/lu4/item/238-dagger-of-mana"
-    },
-    {
-      "key": "item:178",
-      "type": "item",
-      "id": 178,
-      "name": "Bone Staff D",
-      "url": "/lu4/item/178-bone-staff"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "item:57",
@@ -180,11 +100,88 @@
       "url": "/lu4/item/16-great-spear"
     },
     {
-      "key": "item:2176",
+      "key": "item:1865",
       "type": "item",
-      "id": 2176,
-      "name": "Recipe: Leather Boots NG",
-      "url": "/lu4/item/2176-recipe-leather-boots"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1879",
+      "type": "item",
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
+    },
+    {
+      "key": "item:5158",
+      "type": "item",
+      "id": 5158,
+      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
+    },
+    {
+      "key": "item:178",
+      "type": "item",
+      "id": 178,
+      "name": "Bone Staff D",
+      "url": "/lu4/item/178-bone-staff"
+    },
+    {
+      "key": "item:240",
+      "type": "item",
+      "id": 240,
+      "name": "Conjurer's Knife D",
+      "url": "/lu4/item/240-conjurers-knife"
+    },
+    {
+      "key": "item:238",
+      "type": "item",
+      "id": 238,
+      "name": "Dagger of Mana D",
+      "url": "/lu4/item/238-dagger-of-mana"
+    },
+    {
+      "key": "item:2257",
+      "type": "item",
+      "id": 2257,
+      "name": "Recipe: Trident NG",
+      "url": "/lu4/item/2257-recipe-trident"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:1804",
+      "type": "item",
+      "id": 1804,
+      "name": "Recipe: Soulshot (D-Grade) NG",
+      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
     },
     {
       "key": "item:2014",
@@ -194,11 +191,11 @@
       "url": "/lu4/item/2014-iron-hammer-head"
     },
     {
-      "key": "item:1804",
+      "key": "item:2176",
       "type": "item",
-      "id": 1804,
-      "name": "Recipe: Soulshot (D-Grade) NG",
-      "url": "/lu4/item/1804-recipe-soulshot-d-grade"
+      "id": 2176,
+      "name": "Recipe: Leather Boots NG",
+      "url": "/lu4/item/2176-recipe-leather-boots"
     }
   ]
 }

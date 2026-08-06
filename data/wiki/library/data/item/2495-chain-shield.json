@@ -2,24 +2,24 @@
   "key": "item:2495",
   "type": "item",
   "id": 2495,
-  "name": "Lu4 Wiki: Item Chain Shield",
+  "name": "Chain Shield",
   "url": "/lu4/item/2495-chain-shield",
-  "source_url": "https://masterwork.wiki/lu4/item/2495-chain-shield",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2495-chain-shield",
   "raw_html": "library/raw/lu4/item/2495-chain-shield.html",
   "stats": {
+    "Shield Defense": "166 (20%)",
+    "Crystal Amount": "41 Crystallization Failed Enchant +0 41 - +1 47 - +2 53 - +3 59 - +4 77 56 +5 95 74 +6 113 92 +7 131 110 +8 149 128",
+    "NPC Sell Price": "51 000 Adena",
+    "Weight": "1280",
+    "Evasion": "-8",
     "Set Part": "Chain Mail Shirt C",
     "Recipes": "Recipe: Chain Shield NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Shield"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2495",
-      "type": "item",
-      "id": 2495,
-      "name": "Lu4",
-      "url": "/lu4/item/2495-chain-shield"
-    },
     {
       "key": "set:13",
       "type": "set",
@@ -35,94 +35,101 @@
       "url": "/lu4/item/2998-recipe-chain-shield"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25490",
       "type": "npc",
       "id": 25490,
-      "name": "Gwindorr Lv. 40",
+      "name": "Gwindorr",
       "url": "/lu4/npc/25490-gwindorr"
     },
     {
       "key": "npc:25170",
       "type": "npc",
       "id": 25170,
-      "name": "Lizardmen Leader Hellion Lv. 38",
+      "name": "Lizardmen Leader Hellion",
       "url": "/lu4/npc/25170-lizardmen-leader-hellion"
     },
     {
       "key": "npc:25134",
       "type": "npc",
       "id": 25134,
-      "name": "Leto Chief Talkin Lv. 40",
+      "name": "Leto Chief Talkin",
       "url": "/lu4/npc/25134-leto-chief-talkin"
     },
     {
       "key": "npc:21703",
       "type": "npc",
       "id": 21703,
-      "name": "Dimension Invader Elite Soldier Lv. 45",
+      "name": "Dimension Invader Elite Soldier",
       "url": "/lu4/npc/21703-dimension-invader-elite-soldier"
     },
     {
       "key": "npc:21693",
       "type": "npc",
       "id": 21693,
-      "name": "Dimension Invader Berserker Lv. 45",
+      "name": "Dimension Invader Berserker",
       "url": "/lu4/npc/21693-dimension-invader-berserker"
     },
     {
       "key": "npc:21612",
       "type": "npc",
       "id": 21612,
-      "name": "Unpleasant Humming Lv. 46",
+      "name": "Unpleasant Humming",
       "url": "/lu4/npc/21612-unpleasant-humming"
     },
     {
       "key": "npc:21611",
       "type": "npc",
       "id": 21611,
-      "name": "Unpleasant Humming Lv. 46",
+      "name": "Unpleasant Humming",
       "url": "/lu4/npc/21611-unpleasant-humming"
     },
     {
       "key": "npc:20794",
       "type": "npc",
       "id": 20794,
-      "name": "Blade Stakato Lv. 41",
+      "name": "Blade Stakato",
       "url": "/lu4/npc/20794-blade-stakato"
     },
     {
       "key": "npc:20787",
       "type": "npc",
       "id": 20787,
-      "name": "Lienrik Lad Lv. 40",
+      "name": "Lienrik Lad",
       "url": "/lu4/npc/20787-lienrik-lad"
     },
     {
       "key": "npc:20659",
       "type": "npc",
       "id": 20659,
-      "name": "Grave Wanderer Lv. 45",
+      "name": "Grave Wanderer",
       "url": "/lu4/npc/20659-grave-wanderer"
     },
     {
       "key": "npc:20600",
       "type": "npc",
       "id": 20600,
-      "name": "Karul Bugbear Lv. 40",
+      "name": "Karul Bugbear",
       "url": "/lu4/npc/20600-karul-bugbear"
     },
     {
       "key": "npc:20558",
       "type": "npc",
       "id": 20558,
-      "name": "Rotting tree Lv. 43",
+      "name": "Rotting tree",
       "url": "/lu4/npc/20558-rotting-tree"
     },
     {
       "key": "npc:20555",
       "type": "npc",
       "id": 20555,
-      "name": "Giant Fungus Lv. 40",
+      "name": "Giant Fungus",
       "url": "/lu4/npc/20555-giant-fungus"
     }
   ]

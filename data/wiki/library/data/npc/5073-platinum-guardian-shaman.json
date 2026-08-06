@@ -2,189 +2,102 @@
   "key": "npc:5073",
   "type": "npc",
   "id": 5073,
-  "name": "Lu4 Wiki: NPC Platinum Guardian Shaman",
+  "name": "Platinum Guardian Shaman",
   "url": "/lu4/npc/5073-platinum-guardian-shaman",
-  "source_url": "https://masterwork.wiki/lu4/npc/5073-platinum-guardian-shaman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5073-platinum-guardian-shaman",
   "raw_html": "library/raw/lu4/npc/5073-platinum-guardian-shaman.html",
   "stats": {
-    "Location": "Башня Дерзости: 11-й этаж (+1) Башня Дерзости: 11-й этаж Башня Дерзости: 10-й этаж"
+    "Respawn Time": "3 minutes, 15 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 11-й этаж (+1) Башня Дерзости: 11-й этаж Башня Дерзости: 10-й этаж",
+    "HP / MP": "27 027 / 1 110",
+    "P. Atk. / M. Atk.": "2 728 / 3 104",
+    "P. Def. / M. Def.": "959 / 730",
+    "Accuracy / Evasion": "119 / 109",
+    "Exp / SP": "62 238 / 6 224",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 16 Very Strong M. Atk. Lv. 17 Strong M. Def. Lv. 15 Very Strong P. Def. Lv. 16 Mental Attack Resistance Lv. 3 Provides resistance against mental attack. Greater Sleep Resistance Lv. 3 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 73"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5073",
-      "type": "npc",
-      "id": 5073,
-      "name": "Lu4",
-      "url": "/lu4/npc/5073-platinum-guardian-shaman"
-    },
-    {
-      "key": "location:80",
-      "type": "location",
-      "id": 80,
-      "name": "Башня Дерзости: 11-й этаж",
-      "url": "/lu4/location/80-basna-derzosti-11-j-etaz"
-    },
-    {
-      "key": "location:79",
-      "type": "location",
-      "id": 79,
-      "name": "Башня Дерзости: 10-й этаж",
-      "url": "/lu4/location/79-basna-derzosti-10-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Very Strong M. Atk. Lv. 17",
-      "url": "/lu4/skill/4411-very-strong-m-atk/17"
+      "name": "Very Strong M. Atk.",
+      "url": "/lu4/skill/4411-very-strong-m-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 15",
-      "url": "/lu4/skill/4413-strong-m-def/15"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 3 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/3"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 3 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/3"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32396",
-      "type": "item",
-      "id": 32396,
-      "name": "Unidentified Sealed Robe of Nightmare A",
-      "url": "/lu4/item/32396-unidentified-sealed-robe-of-nightmare"
-    },
-    {
-      "key": "item:32395",
-      "type": "item",
-      "id": 32395,
-      "name": "Unidentified Sealed Majestic Leather Armor A",
-      "url": "/lu4/item/32395-unidentified-sealed-majestic-leather-armor"
-    },
-    {
-      "key": "item:32324",
-      "type": "item",
-      "id": 32324,
-      "name": "Unidentified Dragon Slayer A",
-      "url": "/lu4/item/32324-unidentified-dragon-slayer"
-    },
-    {
-      "key": "item:5529",
-      "type": "item",
-      "id": 5529,
-      "name": "Dragon Slayer Edge NG",
-      "url": "/lu4/item/5529-dragon-slayer-edge"
-    },
-    {
-      "key": "item:5487",
-      "type": "item",
-      "id": 5487,
-      "name": "Sealed Robe of Nightmare Fabric NG",
-      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
-    },
-    {
-      "key": "item:5481",
-      "type": "item",
-      "id": 5481,
-      "name": "Sealed Majestic Leather Armor Fabric NG",
-      "url": "/lu4/item/5481-sealed-majestic-leather-armor-fabric"
-    },
-    {
-      "key": "item:5422",
-      "type": "item",
-      "id": 5422,
-      "name": "Recipe: Sealed Majestic Plate Armor(60%) NG",
-      "url": "/lu4/item/5422-recipe-sealed-majestic-plate-armor60"
-    },
-    {
-      "key": "item:5352",
-      "type": "item",
-      "id": 5352,
-      "name": "Recipe: Sealed Majestic Robe(60%) NG",
-      "url": "/lu4/item/5352-recipe-sealed-majestic-robe60"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -229,18 +142,95 @@
       "url": "/lu4/item/1344-mithril-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:8342",
+      "key": "item:32324",
       "type": "item",
-      "id": 8342,
-      "name": "Flaming Dragon Skull Piece NG",
-      "url": "/lu4/item/8342-flaming-dragon-skull-piece"
+      "id": 32324,
+      "name": "Unidentified Dragon Slayer A",
+      "url": "/lu4/item/32324-unidentified-dragon-slayer"
+    },
+    {
+      "key": "item:5529",
+      "type": "item",
+      "id": 5529,
+      "name": "Dragon Slayer Edge NG",
+      "url": "/lu4/item/5529-dragon-slayer-edge"
+    },
+    {
+      "key": "item:32395",
+      "type": "item",
+      "id": 32395,
+      "name": "Unidentified Sealed Majestic Leather Armor A",
+      "url": "/lu4/item/32395-unidentified-sealed-majestic-leather-armor"
+    },
+    {
+      "key": "item:5481",
+      "type": "item",
+      "id": 5481,
+      "name": "Sealed Majestic Leather Armor Fabric NG",
+      "url": "/lu4/item/5481-sealed-majestic-leather-armor-fabric"
+    },
+    {
+      "key": "item:32396",
+      "type": "item",
+      "id": 32396,
+      "name": "Unidentified Sealed Robe of Nightmare A",
+      "url": "/lu4/item/32396-unidentified-sealed-robe-of-nightmare"
+    },
+    {
+      "key": "item:5487",
+      "type": "item",
+      "id": 5487,
+      "name": "Sealed Robe of Nightmare Fabric NG",
+      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
+    },
+    {
+      "key": "item:5422",
+      "type": "item",
+      "id": 5422,
+      "name": "Recipe: Sealed Majestic Plate Armor(60%) NG",
+      "url": "/lu4/item/5422-recipe-sealed-majestic-plate-armor60"
+    },
+    {
+      "key": "item:5352",
+      "type": "item",
+      "id": 5352,
+      "name": "Recipe: Sealed Majestic Robe(60%) NG",
+      "url": "/lu4/item/5352-recipe-sealed-majestic-robe60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:5440",
+      "type": "item",
+      "id": 5440,
+      "name": "Recipe: Elysian(60%) NG",
+      "url": "/lu4/item/5440-recipe-elysian60"
     },
     {
       "key": "item:6335",
@@ -248,6 +238,13 @@
       "id": 6335,
       "name": "Recipe: Sealed Majestic Necklace(70%) NG",
       "url": "/lu4/item/6335-recipe-sealed-majestic-necklace70"
+    },
+    {
+      "key": "item:8342",
+      "type": "item",
+      "id": 8342,
+      "name": "Flaming Dragon Skull Piece NG",
+      "url": "/lu4/item/8342-flaming-dragon-skull-piece"
     },
     {
       "key": "item:5522",
@@ -262,13 +259,6 @@
       "id": 5480,
       "name": "Sealed Leather Armor of Nightmare Fabric NG",
       "url": "/lu4/item/5480-sealed-leather-armor-of-nightmare-fabric"
-    },
-    {
-      "key": "item:5440",
-      "type": "item",
-      "id": 5440,
-      "name": "Recipe: Elysian(60%) NG",
-      "url": "/lu4/item/5440-recipe-elysian60"
     }
   ]
 }

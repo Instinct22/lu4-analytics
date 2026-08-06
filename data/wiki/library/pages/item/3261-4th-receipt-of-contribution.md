@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item 4th Receipt of Contribution
+# 4th Receipt of Contribution
 
-- Source: https://masterwork.wiki/lu4/item/3261-4th-receipt-of-contribution
+- Source: https://masterwork.wiki/lu4-b-w-c/item/3261-4th-receipt-of-contribution
 - Path: /lu4/item/3261-4th-receipt-of-contribution
 - Type: item
 - Key: item:3261
 
 ## Stats
+- Effect: A contribution receipt received from Filaur of the Gray Pillar. Collect 5 receipts and take them to Lockirin of the Iron Gate.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-4th Receipt of Contribution
-Lu4
-Eternal
-MasterWork
-4th Receipt of Contribution
-NG
-Quest Item
-A contribution receipt received from Filaur of the Gray Pillar. Collect 5 receipts and take them to Lockirin of the Iron Gate.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Testimony of Prosperity
-35 ~ 85
-MasterWork 2026
-All rights reserved
+4th Receipt of Contribution NG Quest Item A contribution receipt received from Filaur of the Gray Pillar. Collect 5 receipts and take them to Lockirin of the Iron Gate. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

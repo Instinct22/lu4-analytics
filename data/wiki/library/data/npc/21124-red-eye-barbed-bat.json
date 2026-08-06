@@ -2,105 +2,53 @@
   "key": "npc:21124",
   "type": "npc",
   "id": 21124,
-  "name": "Lu4 Wiki: NPC Red Eye Barbed Bat",
+  "name": "Red Eye Barbed Bat",
   "url": "/lu4/npc/21124-red-eye-barbed-bat",
-  "source_url": "https://masterwork.wiki/lu4/npc/21124-red-eye-barbed-bat",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21124-red-eye-barbed-bat",
   "raw_html": "library/raw/lu4/npc/21124-red-eye-barbed-bat.html",
   "stats": {
-    "Location": "Восточные Рудники (+1) Восточные Рудники Горный Хребет"
+    "Respawn Time": "15 seconds",
+    "Location": "Восточные Рудники (+1) Восточные Рудники Горный Хребет",
+    "HP / MP": "483 / 214",
+    "P. Atk. / M. Atk.": "51 / 25",
+    "P. Def. / M. Def.": "83 / 75",
+    "Accuracy / Evasion": "51 / 61",
+    "Exp / SP": "508 / 51",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 18"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21124",
-      "type": "npc",
-      "id": 21124,
-      "name": "Lu4",
-      "url": "/lu4/npc/21124-red-eye-barbed-bat"
-    },
-    {
-      "key": "location:204",
-      "type": "location",
-      "id": 204,
-      "name": "Восточные Рудники",
-      "url": "/lu4/location/204-vostocnye-rudniki"
-    },
-    {
-      "key": "location:352",
-      "type": "location",
-      "id": 352,
-      "name": "Горный Хребет",
-      "url": "/lu4/location/352-gornyj-hrebet"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1800",
-      "type": "item",
-      "id": 1800,
-      "name": "Recipe: Piece Bone Breastplate NG",
-      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
-    },
-    {
-      "key": "item:310",
-      "type": "item",
-      "id": 310,
-      "name": "Relic of the Saints NG",
-      "url": "/lu4/item/310-relic-of-the-saints"
-    },
-    {
-      "key": "item:309",
-      "type": "item",
-      "id": 309,
-      "name": "Tears of Eva NG",
-      "url": "/lu4/item/309-tears-of-eva"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -110,11 +58,46 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1897",
+      "key": "item:309",
       "type": "item",
-      "id": 1897,
-      "name": "Necklace of Wisdom Chain NG",
-      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
+      "id": 309,
+      "name": "Tears of Eva NG",
+      "url": "/lu4/item/309-tears-of-eva"
+    },
+    {
+      "key": "item:310",
+      "type": "item",
+      "id": 310,
+      "name": "Relic of the Saints NG",
+      "url": "/lu4/item/310-relic-of-the-saints"
+    },
+    {
+      "key": "item:1800",
+      "type": "item",
+      "id": 1800,
+      "name": "Recipe: Piece Bone Breastplate NG",
+      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1879",
+      "type": "item",
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
     },
     {
       "key": "item:735",
@@ -122,6 +105,13 @@
       "id": 735,
       "name": "Alacrity Potion NG",
       "url": "/lu4/item/735-alacrity-potion"
+    },
+    {
+      "key": "item:1897",
+      "type": "item",
+      "id": 1897,
+      "name": "Necklace of Wisdom Chain NG",
+      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
     }
   ]
 }

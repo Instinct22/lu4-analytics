@@ -1,93 +1,20 @@
-# Lu4 Wiki: Item Doom Dagger
+# Doom Dagger
 
-- Source: https://masterwork.wiki/lu4/item/215-doom-dagger
+- Source: https://masterwork.wiki/lu4-b-w-c/item/215-doom-dagger
 - Path: /lu4/item/215-doom-dagger
 - Type: item
 - Key: item:215
 
 ## Stats
+- P. Atk. / M. Atk.: 10 / 9
+- Soulshot / Spiritshot Consume: 1 / 1
+- NPC Sell Price: 4 800 Adena
+- Weight: 1130
+- P. Crit. Rate.: 12
+- Accuracy: -4
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Weapon / Dagger / One-handed
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Doom Dagger
-Lu4
-Eternal
-MasterWork
-Doom Dagger
-NG
-Weapon / Dagger / One-handed
-P. Atk. / M. Atk.
-10 / 9
-Soulshot / Spiritshot Consume
-1 / 1
-NPC Sell Price
-4 800 Adena
-Weight
-1130
-P. Crit. Rate.
-12
-Accuracy
--4
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Drop
-NPC
-Amount
-Chance
-Kasha Timber Wolf
-Lv. 6
-1
-0.072800%
-Goblin Lookout
-Lv. 8
-1
-0.117800%
-Goblin Brigand
-Lv. 8
-1
-0.117800%
-MasterWork 2026
-All rights reserved
+Doom Dagger NG Weapon / Dagger / One-handed P. Atk. / M. Atk. 10 / 9 Soulshot / Spiritshot Consume 1 / 1 NPC Sell Price 4 800 Adena Weight 1130 P. Crit. Rate. 12 Accuracy -4 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

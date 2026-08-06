@@ -2,63 +2,100 @@
   "key": "npc:25179",
   "type": "npc",
   "id": 25179,
-  "name": "Lu4 Wiki: NPC Guardian of the Statue of Giant Karum",
+  "name": "Guardian of the Statue of Giant Karum",
   "url": "/lu4/npc/25179-guardian-of-the-statue-of-giant-karum",
-  "source_url": "https://masterwork.wiki/lu4/npc/25179-guardian-of-the-statue-of-giant-karum",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25179-guardian-of-the-statue-of-giant-karum",
   "raw_html": "library/raw/lu4/npc/25179-guardian-of-the-statue-of-giant-karum.html",
   "stats": {
-    "Location": "Пещера Гигантов"
+    "HP / MP": "868 645 / 5 257",
+    "P. Atk. / M. Atk.": "8 972 / 4 216",
+    "P. Def. / M. Def.": "1 128 / 1 215",
+    "Accuracy / Evasion": "108 / 113",
+    "Exp / SP": "4 420 600 / 700 000",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 Another subordinate of Glaki. Like Glaki, he also guards the statue of the giants but he does not consider this work a sacred duty. According to legend, the Statue of the Giants can resurrect an incomplete body of a giant to regain a complete body. It is said that the reason he is guarding the statue is to earn the trust of Glaki but to fulfill his secret ambition to obtain a perfect and powerful body. Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 62"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25179",
-      "type": "npc",
-      "id": 25179,
-      "name": "Lu4",
-      "url": "/lu4/npc/25179-guardian-of-the-statue-of-giant-karum"
-    },
-    {
-      "key": "location:69",
-      "type": "location",
-      "id": 69,
-      "name": "Пещера Гигантов",
-      "url": "/lu4/location/69-pesera-gigantov"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4858",
       "type": "skill",
       "id": 4858,
-      "name": "Raid Boss Lv. 1 Another subordinate of Glaki. Like Glaki, he also guards the statue of the giants but he does not consider this work a sacred duty. According to legend, the Statue of the Giants can resurrect an incomplete body of a giant to regain a complete body. It is said that the reason he is guarding the statue is to earn the trust of Glaki but to fulfill his secret ambition to obtain a perfect and powerful body.",
-      "url": "/lu4/skill/4858-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4858-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32535",
+      "key": "item:9910",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
+    },
+    {
+      "key": "item:8620",
+      "type": "item",
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
+    },
+    {
+      "key": "item:8621",
+      "type": "item",
+      "id": 8621,
+      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
+      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
+    },
+    {
+      "key": "item:10552",
+      "type": "item",
+      "id": 10552,
+      "name": "Spellbook: Fighter's Will NG",
+      "url": "/lu4/item/10552-spellbook-fighters-will"
+    },
+    {
+      "key": "item:10553",
+      "type": "item",
+      "id": 10553,
+      "name": "Spellbook: Archer's Will NG",
+      "url": "/lu4/item/10553-spellbook-archers-will"
+    },
+    {
+      "key": "item:14219",
+      "type": "item",
+      "id": 14219,
+      "name": "Spellbook: Magician's Will NG",
+      "url": "/lu4/item/14219-spellbook-magicians-will"
+    },
+    {
+      "key": "item:32368",
+      "type": "item",
+      "id": 32368,
+      "name": "Unidentified Meteor Shower A",
+      "url": "/lu4/item/32368-unidentified-meteor-shower"
     },
     {
       "key": "item:32437",
@@ -75,53 +112,18 @@
       "url": "/lu4/item/32435-unidentified-spiritual-eye"
     },
     {
-      "key": "item:32368",
+      "key": "item:32535",
       "type": "item",
-      "id": 32368,
-      "name": "Unidentified Meteor Shower A",
-      "url": "/lu4/item/32368-unidentified-meteor-shower"
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
     },
     {
-      "key": "item:14219",
+      "key": "item:5438",
       "type": "item",
-      "id": 14219,
-      "name": "Spellbook: Magician's Will NG",
-      "url": "/lu4/item/14219-spellbook-magicians-will"
-    },
-    {
-      "key": "item:10553",
-      "type": "item",
-      "id": 10553,
-      "name": "Spellbook: Archer's Will NG",
-      "url": "/lu4/item/10553-spellbook-archers-will"
-    },
-    {
-      "key": "item:10552",
-      "type": "item",
-      "id": 10552,
-      "name": "Spellbook: Fighter's Will NG",
-      "url": "/lu4/item/10552-spellbook-fighters-will"
-    },
-    {
-      "key": "item:9910",
-      "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:8621",
-      "type": "item",
-      "id": 8621,
-      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
-      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
-    },
-    {
-      "key": "item:8620",
-      "type": "item",
-      "id": 8620,
-      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
-      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
+      "id": 5438,
+      "name": "Recipe: Meteor Shower(60%) NG",
+      "url": "/lu4/item/5438-recipe-meteor-shower60"
     },
     {
       "key": "item:8487",
@@ -129,6 +131,27 @@
       "id": 8487,
       "name": "Recipe: Destroyer Hammer (60%) NG",
       "url": "/lu4/item/8487-recipe-destroyer-hammer-60"
+    },
+    {
+      "key": "item:8314",
+      "type": "item",
+      "id": 8314,
+      "name": "Recipe: Spiritual Eye (60%) NG",
+      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
+    },
+    {
+      "key": "item:5460",
+      "type": "item",
+      "id": 5460,
+      "name": "Recipe: Dasparion's Staff(60%) NG",
+      "url": "/lu4/item/5460-recipe-dasparions-staff60"
+    },
+    {
+      "key": "item:5532",
+      "type": "item",
+      "id": 5532,
+      "name": "Meteor Shower Head NG",
+      "url": "/lu4/item/5532-meteor-shower-head"
     },
     {
       "key": "item:8346",
@@ -145,53 +168,25 @@
       "url": "/lu4/item/8341-spiritual-eye-piece"
     },
     {
-      "key": "item:8314",
+      "key": "item:5543",
       "type": "item",
-      "id": 8314,
-      "name": "Recipe: Spiritual Eye (60%) NG",
-      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
+      "id": 5543,
+      "name": "Dasparion's Staff Head NG",
+      "url": "/lu4/item/5543-dasparions-staff-head"
     },
     {
-      "key": "item:6570",
+      "key": "item:6323",
       "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
+      "id": 6323,
+      "name": "Sealed Phoenix Necklace A",
+      "url": "/lu4/item/6323-sealed-phoenix-necklace"
     },
     {
-      "key": "item:6569",
+      "key": "item:6324",
       "type": "item",
-      "id": 6569,
-      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
-    },
-    {
-      "key": "item:6345",
-      "type": "item",
-      "id": 6345,
-      "name": "Sealed Phoenix Ring Gemstone NG",
-      "url": "/lu4/item/6345-sealed-phoenix-ring-gemstone"
-    },
-    {
-      "key": "item:6343",
-      "type": "item",
-      "id": 6343,
-      "name": "Sealed Phoenix Necklace Beads NG",
-      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
-    },
-    {
-      "key": "item:6341",
-      "type": "item",
-      "id": 6341,
-      "name": "Sealed Phoenix Earring Gemstone NG",
-      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
-    },
-    {
-      "key": "item:6333",
-      "type": "item",
-      "id": 6333,
-      "name": "Recipe: Sealed Phoenix Ring(70%) NG",
-      "url": "/lu4/item/6333-recipe-sealed-phoenix-ring70"
+      "id": 6324,
+      "name": "Sealed Phoenix Earring A",
+      "url": "/lu4/item/6324-sealed-phoenix-earring"
     },
     {
       "key": "npc:25180",

@@ -2,119 +2,74 @@
   "key": "npc:20613",
   "type": "npc",
   "id": 20613,
-  "name": "Lu4 Wiki: NPC Lafi Lizardman",
+  "name": "Lafi Lizardman",
   "url": "/lu4/npc/20613-lafi-lizardman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20613-lafi-lizardman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20613-lafi-lizardman",
   "raw_html": "library/raw/lu4/npc/20613-lafi-lizardman.html",
   "stats": {
-    "Location": "Забытый Храм"
+    "Respawn Time": "38 seconds",
+    "Location": "Забытый Храм",
+    "HP / MP": "1 659 / 353",
+    "P. Atk. / M. Atk.": "120 / 65",
+    "P. Def. / M. Def.": "119 / 94",
+    "Accuracy / Evasion": "63 / 62",
+    "Exp / SP": "1 622 / 162",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 27"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20613",
-      "type": "npc",
-      "id": 20613,
-      "name": "Lu4",
-      "url": "/lu4/npc/20613-lafi-lizardman"
-    },
-    {
-      "key": "location:28",
-      "type": "location",
-      "id": 28,
-      "name": "Забытый Храм",
-      "url": "/lu4/location/28-zabytyj-hram"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:1900",
-      "type": "item",
-      "id": 1900,
-      "name": "Enchanted Necklace Chain NG",
-      "url": "/lu4/item/1900-enchanted-necklace-chain"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1873",
@@ -159,13 +114,6 @@
       "url": "/lu4/item/1832-greater-antidote"
     },
     {
-      "key": "item:911",
-      "type": "item",
-      "id": 911,
-      "name": "Enchanted Necklace D",
-      "url": "/lu4/item/911-enchanted-necklace"
-    },
-    {
       "key": "item:627",
       "type": "item",
       "id": 627,
@@ -180,11 +128,60 @@
       "url": "/lu4/item/69-bastard-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:911",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 911,
+      "name": "Enchanted Necklace D",
+      "url": "/lu4/item/911-enchanted-necklace"
+    },
+    {
+      "key": "item:1900",
+      "type": "item",
+      "id": 1900,
+      "name": "Enchanted Necklace Chain NG",
+      "url": "/lu4/item/1900-enchanted-necklace-chain"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:1885",

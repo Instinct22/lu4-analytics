@@ -2,110 +2,93 @@
   "key": "npc:20757",
   "type": "npc",
   "id": 20757,
-  "name": "Lu4 Wiki: NPC Talakin Raider",
+  "name": "Talakin Raider",
   "url": "/lu4/npc/20757-talakin-raider",
-  "source_url": "https://masterwork.wiki/lu4/npc/20757-talakin-raider",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20757-talakin-raider",
   "raw_html": "library/raw/lu4/npc/20757-talakin-raider.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 659 / 353",
+    "P. Atk. / M. Atk.": "120 / 52",
+    "P. Def. / M. Def.": "119 / 94",
+    "Accuracy / Evasion": "63 / 62",
+    "Exp / SP": "1 601 / 160",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 27"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20757",
-      "type": "npc",
-      "id": 20757,
-      "name": "Lu4",
-      "url": "/lu4/npc/20757-talakin-raider"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
-      "key": "location:50",
-      "type": "location",
-      "id": 50,
-      "name": "Лагерь Партизан",
-      "url": "/lu4/location/50-lager-partizan"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:1875",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:39298",
+      "key": "item:1879",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
     },
     {
-      "key": "item:39297",
+      "key": "item:1885",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
     },
     {
-      "key": "item:39296",
+      "key": "item:5549",
       "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     },
     {
       "key": "item:5550",
@@ -115,11 +98,32 @@
       "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
-      "key": "item:5549",
+      "key": "item:126",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
+      "id": 126,
+      "name": "Artisan's Sword D",
+      "url": "/lu4/item/126-artisans-sword"
+    },
+    {
+      "key": "item:69",
+      "type": "item",
+      "id": 69,
+      "name": "Bastard Sword D",
+      "url": "/lu4/item/69-bastard-sword"
+    },
+    {
+      "key": "item:124",
+      "type": "item",
+      "id": 124,
+      "name": "Two-Handed Sword D",
+      "url": "/lu4/item/124-two-handed-sword"
+    },
+    {
+      "key": "item:2026",
+      "type": "item",
+      "id": 2026,
+      "name": "Two-Handed Sword Edge NG",
+      "url": "/lu4/item/2026-two-handed-sword-edge"
     },
     {
       "key": "item:2263",
@@ -143,67 +147,46 @@
       "url": "/lu4/item/2181-recipe-white-tunic"
     },
     {
-      "key": "item:2026",
+      "key": "item:39295",
       "type": "item",
-      "id": 2026,
-      "name": "Two-Handed Sword Edge NG",
-      "url": "/lu4/item/2026-two-handed-sword-edge"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:1885",
+      "key": "item:39296",
       "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:1879",
+      "key": "item:39297",
       "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
-      "key": "item:1875",
+      "key": "item:39298",
       "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
     },
     {
-      "key": "item:126",
+      "key": "item:39299",
       "type": "item",
-      "id": 126,
-      "name": "Artisan's Sword D",
-      "url": "/lu4/item/126-artisans-sword"
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
     },
     {
-      "key": "item:124",
+      "key": "item:39300",
       "type": "item",
-      "id": 124,
-      "name": "Two-Handed Sword D",
-      "url": "/lu4/item/124-two-handed-sword"
-    },
-    {
-      "key": "item:69",
-      "type": "item",
-      "id": 69,
-      "name": "Bastard Sword D",
-      "url": "/lu4/item/69-bastard-sword"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:2023",
-      "type": "item",
-      "id": 2023,
-      "name": "Conjuror's Staff Head NG",
-      "url": "/lu4/item/2023-conjurors-staff-head"
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:1868",
@@ -211,6 +194,13 @@
       "id": 1868,
       "name": "Thread NG",
       "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:2023",
+      "type": "item",
+      "id": 2023,
+      "name": "Conjuror's Staff Head NG",
+      "url": "/lu4/item/2023-conjurors-staff-head"
     }
   ]
 }

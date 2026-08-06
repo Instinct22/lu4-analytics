@@ -2,63 +2,46 @@
   "key": "npc:20086",
   "type": "npc",
   "id": 20086,
-  "name": "Lu4 Wiki: NPC Ant Guard",
+  "name": "Ant Guard",
   "url": "/lu4/npc/20086-ant-guard",
-  "source_url": "https://masterwork.wiki/lu4/npc/20086-ant-guard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20086-ant-guard",
   "raw_html": "library/raw/lu4/npc/20086-ant-guard.html",
   "stats": {
-    "Location": "Муравейник"
+    "Respawn Time": "37 seconds ± 12 seconds",
+    "Location": "Муравейник",
+    "HP / MP": "1 178 / 495",
+    "P. Atk. / M. Atk.": "197 / 96",
+    "P. Def. / M. Def.": "180 / 139",
+    "Accuracy / Evasion": "68 / 73",
+    "Exp / SP": "1 237 / 124",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 35"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20086",
-      "type": "npc",
-      "id": 20086,
-      "name": "Lu4",
-      "url": "/lu4/npc/20086-ant-guard"
-    },
-    {
-      "key": "location:17",
-      "type": "location",
-      "id": 17,
-      "name": "Муравейник",
-      "url": "/lu4/location/17-muravejnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5220",
@@ -66,48 +49,6 @@
       "id": 5220,
       "name": "Metal Hardener NG",
       "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2980",
-      "type": "item",
-      "id": 2980,
-      "name": "Recipe: Brigandine Gauntlets NG",
-      "url": "/lu4/item/2980-recipe-brigandine-gauntlets"
-    },
-    {
-      "key": "item:2924",
-      "type": "item",
-      "id": 2924,
-      "name": "Brigandine Boots Design NG",
-      "url": "/lu4/item/2924-brigandine-boots-design"
-    },
-    {
-      "key": "item:2425",
-      "type": "item",
-      "id": 2425,
-      "name": "Brigandine Boots D",
-      "url": "/lu4/item/2425-brigandine-boots"
-    },
-    {
-      "key": "item:2277",
-      "type": "item",
-      "id": 2277,
-      "name": "Recipe: Bich'hwa NG",
-      "url": "/lu4/item/2277-recipe-bichhwa"
-    },
-    {
-      "key": "item:1946",
-      "type": "item",
-      "id": 1946,
-      "name": "Rip Gauntlets Pattern NG",
-      "url": "/lu4/item/1946-rip-gauntlets-pattern"
-    },
-    {
-      "key": "item:1904",
-      "type": "item",
-      "id": 1904,
-      "name": "Elven Necklace Beads NG",
-      "url": "/lu4/item/1904-elven-necklace-beads"
     },
     {
       "key": "item:1889",
@@ -138,11 +79,32 @@
       "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
-      "key": "item:913",
+      "key": "item:2277",
       "type": "item",
-      "id": 913,
-      "name": "Elven Necklace D",
-      "url": "/lu4/item/913-elven-necklace"
+      "id": 2277,
+      "name": "Recipe: Bich'hwa NG",
+      "url": "/lu4/item/2277-recipe-bichhwa"
+    },
+    {
+      "key": "item:2980",
+      "type": "item",
+      "id": 2980,
+      "name": "Recipe: Brigandine Gauntlets NG",
+      "url": "/lu4/item/2980-recipe-brigandine-gauntlets"
+    },
+    {
+      "key": "item:2425",
+      "type": "item",
+      "id": 2425,
+      "name": "Brigandine Boots D",
+      "url": "/lu4/item/2425-brigandine-boots"
+    },
+    {
+      "key": "item:2924",
+      "type": "item",
+      "id": 2924,
+      "name": "Brigandine Boots Design NG",
+      "url": "/lu4/item/2924-brigandine-boots-design"
     },
     {
       "key": "item:606",
@@ -152,18 +114,53 @@
       "url": "/lu4/item/606-rip-gauntlets"
     },
     {
-      "key": "item:57",
+      "key": "item:1946",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1946,
+      "name": "Rip Gauntlets Pattern NG",
+      "url": "/lu4/item/1946-rip-gauntlets-pattern"
     },
     {
-      "key": "item:2979",
+      "key": "item:913",
       "type": "item",
-      "id": 2979,
-      "name": "Recipe: Manticore Skin Gloves NG",
-      "url": "/lu4/item/2979-recipe-manticore-skin-gloves"
+      "id": 913,
+      "name": "Elven Necklace D",
+      "url": "/lu4/item/913-elven-necklace"
+    },
+    {
+      "key": "item:1904",
+      "type": "item",
+      "id": 1904,
+      "name": "Elven Necklace Beads NG",
+      "url": "/lu4/item/1904-elven-necklace-beads"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:2975",
@@ -173,11 +170,11 @@
       "url": "/lu4/item/2975-recipe-brigandine-helmet"
     },
     {
-      "key": "item:1868",
+      "key": "item:2979",
       "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "id": 2979,
+      "name": "Recipe: Manticore Skin Gloves NG",
+      "url": "/lu4/item/2979-recipe-manticore-skin-gloves"
     }
   ]
 }

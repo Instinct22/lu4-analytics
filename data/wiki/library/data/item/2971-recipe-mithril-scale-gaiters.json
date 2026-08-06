@@ -2,104 +2,24 @@
   "key": "item:2971",
   "type": "item",
   "id": 2971,
-  "name": "Recipe",
+  "name": "Recipe: Mithril Scale Gaiters",
   "url": "/lu4/item/2971-recipe-mithril-scale-gaiters",
-  "source_url": "https://masterwork.wiki/lu4/item/2971-recipe-mithril-scale-gaiters",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2971-recipe-mithril-scale-gaiters",
   "raw_html": "library/raw/lu4/item/2971-recipe-mithril-scale-gaiters.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Mithril Scale Gaiters'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "1 870 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Mithril Scale Gaiters D"
+    "Result": "Mithril Scale Gaiters D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2918",
-      "type": "item",
-      "id": 2918,
-      "name": "Mithril Scale Gaiters Material NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1883",
-      "type": "item",
-      "id": 1883,
-      "name": "Steel Mold NG",
-      "amount": "2"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "50"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "160"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "160"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "60"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "14"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2971",
-      "type": "item",
-      "id": 2971,
-      "name": "Lu4",
-      "url": "/lu4/item/2971-recipe-mithril-scale-gaiters"
-    },
     {
       "key": "item:2918",
       "type": "item",
@@ -181,28 +101,28 @@
       "key": "npc:20612",
       "type": "npc",
       "id": 20612,
-      "name": "Salamander Rowin Lv. 33",
+      "name": "Salamander Rowin",
       "url": "/lu4/npc/20612-salamander-rowin"
     },
     {
       "key": "npc:20232",
       "type": "npc",
       "id": 20232,
-      "name": "Marsh Stakato Soldier Lv. 33",
+      "name": "Marsh Stakato Soldier",
       "url": "/lu4/npc/20232-marsh-stakato-soldier"
     },
     {
       "key": "npc:20201",
       "type": "npc",
       "id": 20201,
-      "name": "Ghoul Lv. 32",
+      "name": "Ghoul",
       "url": "/lu4/npc/20201-ghoul"
     },
     {
       "key": "npc:20192",
       "type": "npc",
       "id": 20192,
-      "name": "Tyrant Lv. 35",
+      "name": "Tyrant",
       "url": "/lu4/npc/20192-tyrant"
     }
   ]

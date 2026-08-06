@@ -2,96 +2,107 @@
   "key": "npc:22116",
   "type": "npc",
   "id": 22116,
-  "name": "Lu4 Wiki: NPC Spiked Stakato Drone",
+  "name": "Spiked Stakato Drone",
   "url": "/lu4/npc/22116-spiked-stakato-drone",
-  "source_url": "https://masterwork.wiki/lu4/npc/22116-spiked-stakato-drone",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22116-spiked-stakato-drone",
   "raw_html": "library/raw/lu4/npc/22116-spiked-stakato-drone.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "17 456 / 1 747",
+    "P. Atk. / M. Atk.": "2 164 / 1 032",
+    "P. Def. / M. Def.": "783 / 509",
+    "Accuracy / Evasion": "120 / 114",
+    "Exp / SP": "36 760 / 3 976",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 53, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Strong P. Atk. Lv. 14 Average M. Atk. Lv. 11 Strong P. Def. Lv. 14 Average M. Def. Lv. 11 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. One-handed Sword Lv. 3 One-handed Sword Humanoids Lv. 29 Humanoids. High Lv. Lv. 5 NPC High Level",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 77"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22116",
-      "type": "npc",
-      "id": 22116,
-      "name": "Lu4",
-      "url": "/lu4/npc/22116-spiked-stakato-drone"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Humanoids Lv. 29 Humanoids.",
-      "url": "/lu4/skill/4417-humanoids/29"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4417-humanoids"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 5 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/5"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32342",
@@ -108,32 +119,11 @@
       "url": "/lu4/item/5539-blood-tornado-edge"
     },
     {
-      "key": "item:5220",
+      "key": "item:1866",
       "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:5167",
-      "type": "item",
-      "id": 5167,
-      "name": "Recipe: Blessed Spiritshot (S) Compressed Package (100%) NG",
-      "url": "/lu4/item/5167-recipe-blessed-spiritshot-s-compressed-package-100"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
       "key": "item:1871",
@@ -143,25 +133,32 @@
       "url": "/lu4/item/1871-charcoal"
     },
     {
-      "key": "item:1866",
+      "key": "item:1885",
       "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:4041",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
-      "key": "item:5495",
+      "key": "item:5167",
       "type": "item",
-      "id": 5495,
-      "name": "Sealed Shield of Nightmare Fragment NG",
-      "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
+      "id": 5167,
+      "name": "Recipe: Blessed Spiritshot (S) Compressed Package (100%) NG",
+      "url": "/lu4/item/5167-recipe-blessed-spiritshot-s-compressed-package-100"
+    },
+    {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
     },
     {
       "key": "item:5162",
@@ -169,6 +166,13 @@
       "id": 5162,
       "name": "Recipe: Spiritshot (S) Compressed Package (100%) NG",
       "url": "/lu4/item/5162-recipe-spiritshot-s-compressed-package-100"
+    },
+    {
+      "key": "item:5495",
+      "type": "item",
+      "id": 5495,
+      "name": "Sealed Shield of Nightmare Fragment NG",
+      "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
     }
   ]
 }

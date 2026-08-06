@@ -2,168 +2,144 @@
   "key": "npc:5090",
   "type": "npc",
   "id": 5090,
-  "name": "Lu4 Wiki: NPC Giant Huntmaster",
+  "name": "Giant Huntmaster",
   "url": "/lu4/npc/5090-giant-huntmaster",
-  "source_url": "https://masterwork.wiki/lu4/npc/5090-giant-huntmaster",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5090-giant-huntmaster",
   "raw_html": "library/raw/lu4/npc/5090-giant-huntmaster.html",
   "stats": {
-    "Location": "Долина Безмолвия"
+    "Respawn Time": "3 minutes, 50 seconds ± 25 seconds",
+    "Location": "Долина Безмолвия",
+    "HP / MP": "32 106 / 1 110",
+    "P. Atk. / M. Atk.": "11 414 / 2 153",
+    "P. Def. / M. Def.": "889 / 795",
+    "Accuracy / Evasion": "113 / 113",
+    "Exp / SP": "81 088 / 8 109",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Lethal Immunity Lv. 1 Not today. I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets. Hold Resistance Lv. 5 Resistant to Hold. Sleep Resistance Lv. 5 Resistant to Sleep. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Stun Attack Resistance Lv. 5 Resistant to Stun. Bleed Resistance Lv. 5 Resistant to Bleed. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 75"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5090",
-      "type": "npc",
-      "id": 5090,
-      "name": "Lu4",
-      "url": "/lu4/npc/5090-giant-huntmaster"
-    },
-    {
-      "key": "location:70",
-      "type": "location",
-      "id": 70,
-      "name": "Долина Безмолвия",
-      "url": "/lu4/location/70-dolina-bezmolvia"
-    },
-    {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39296",
+      "key": "item:4041",
       "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
-      "key": "item:39295",
+      "key": "item:1867",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:32536",
+      "key": "item:1881",
       "type": "item",
-      "id": 32536,
-      "name": "Unidentified Branch of the Mother Tree A",
-      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
     },
     {
-      "key": "item:32397",
+      "key": "item:1875",
       "type": "item",
-      "id": 32397,
-      "name": "Unidentified Sealed Majestic Robe A",
-      "url": "/lu4/item/32397-unidentified-sealed-majestic-robe"
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:32394",
+      "key": "item:1872",
       "type": "item",
-      "id": 32394,
-      "name": "Unidentified Sealed Leather Armor of Nightmare A",
-      "url": "/lu4/item/32394-unidentified-sealed-leather-armor-of-nightmare"
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
     },
     {
-      "key": "item:32388",
+      "key": "item:730",
       "type": "item",
-      "id": 32388,
-      "name": "Unidentified Sealed Boots of Nightmare A",
-      "url": "/lu4/item/32388-unidentified-sealed-boots-of-nightmare"
-    },
-    {
-      "key": "item:32386",
-      "type": "item",
-      "id": 32386,
-      "name": "Unidentified Sealed Helm of Nightmare A",
-      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
-    },
-    {
-      "key": "item:32385",
-      "type": "item",
-      "id": 32385,
-      "name": "Unidentified Sealed Armor of Nightmare A",
-      "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
-    },
-    {
-      "key": "item:32349",
-      "type": "item",
-      "id": 32349,
-      "name": "Unidentified Tallum Glaive A",
-      "url": "/lu4/item/32349-unidentified-tallum-glaive"
+      "id": 730,
+      "name": "Scroll: Enchant Armor (A-Grade) NG",
+      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     },
     {
       "key": "item:32343",
@@ -173,39 +149,18 @@
       "url": "/lu4/item/32343-unidentified-dragon-grinder"
     },
     {
-      "key": "item:6346",
+      "key": "item:5538",
       "type": "item",
-      "id": 6346,
-      "name": "Sealed Majestic Ring Gemstone NG",
-      "url": "/lu4/item/6346-sealed-majestic-ring-gemstone"
+      "id": 5538,
+      "name": "Dragon Grinder Edge NG",
+      "url": "/lu4/item/5538-dragon-grinder-edge"
     },
     {
-      "key": "item:6342",
+      "key": "item:32349",
       "type": "item",
-      "id": 6342,
-      "name": "Sealed Majestic Earring Gemstone NG",
-      "url": "/lu4/item/6342-sealed-majestic-earring-gemstone"
-    },
-    {
-      "key": "item:6328",
-      "type": "item",
-      "id": 6328,
-      "name": "Sealed Majestic Ring A",
-      "url": "/lu4/item/6328-sealed-majestic-ring"
-    },
-    {
-      "key": "item:6327",
-      "type": "item",
-      "id": 6327,
-      "name": "Sealed Majestic Earring A",
-      "url": "/lu4/item/6327-sealed-majestic-earring"
-    },
-    {
-      "key": "item:5544",
-      "type": "item",
-      "id": 5544,
-      "name": "Branch of the Mother Tree Head NG",
-      "url": "/lu4/item/5544-branch-of-the-mother-tree-head"
+      "id": 32349,
+      "name": "Unidentified Tallum Glaive A",
+      "url": "/lu4/item/32349-unidentified-tallum-glaive"
     },
     {
       "key": "item:5541",
@@ -215,11 +170,53 @@
       "url": "/lu4/item/5541-tallum-glaive-edge"
     },
     {
-      "key": "item:5538",
+      "key": "item:32536",
       "type": "item",
-      "id": 5538,
-      "name": "Dragon Grinder Edge NG",
-      "url": "/lu4/item/5538-dragon-grinder-edge"
+      "id": 32536,
+      "name": "Unidentified Branch of the Mother Tree A",
+      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
+    },
+    {
+      "key": "item:5544",
+      "type": "item",
+      "id": 5544,
+      "name": "Branch of the Mother Tree Head NG",
+      "url": "/lu4/item/5544-branch-of-the-mother-tree-head"
+    },
+    {
+      "key": "item:32385",
+      "type": "item",
+      "id": 32385,
+      "name": "Unidentified Sealed Armor of Nightmare A",
+      "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
+    },
+    {
+      "key": "item:5522",
+      "type": "item",
+      "id": 5522,
+      "name": "Sealed Armor of Nightmare Pattern NG",
+      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
+    },
+    {
+      "key": "item:32388",
+      "type": "item",
+      "id": 32388,
+      "name": "Unidentified Sealed Boots of Nightmare A",
+      "url": "/lu4/item/32388-unidentified-sealed-boots-of-nightmare"
+    },
+    {
+      "key": "item:5502",
+      "type": "item",
+      "id": 5502,
+      "name": "Sealed Boots of Nightmare Lining NG",
+      "url": "/lu4/item/5502-sealed-boots-of-nightmare-lining"
+    },
+    {
+      "key": "item:32386",
+      "type": "item",
+      "id": 32386,
+      "name": "Unidentified Sealed Helm of Nightmare A",
+      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
     },
     {
       "key": "item:5527",
@@ -229,11 +226,11 @@
       "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
     },
     {
-      "key": "item:5522",
+      "key": "item:32394",
       "type": "item",
-      "id": 5522,
-      "name": "Sealed Armor of Nightmare Pattern NG",
-      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
+      "id": 32394,
+      "name": "Unidentified Sealed Leather Armor of Nightmare A",
+      "url": "/lu4/item/32394-unidentified-sealed-leather-armor-of-nightmare"
     },
     {
       "key": "item:729",

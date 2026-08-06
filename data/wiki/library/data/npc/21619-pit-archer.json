@@ -2,133 +2,88 @@
   "key": "npc:21619",
   "type": "npc",
   "id": 21619,
-  "name": "Lu4 Wiki: NPC Pit Archer",
+  "name": "Pit Archer",
   "url": "/lu4/npc/21619-pit-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21619-pit-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21619-pit-archer",
   "raw_html": "library/raw/lu4/npc/21619-pit-archer.html",
   "stats": {
-    "Location": "Остров Дьявола"
+    "Respawn Time": "1 minute, 10 seconds",
+    "Location": "Остров Дьявола",
+    "HP / MP": "8 235 / 852",
+    "P. Atk. / M. Atk.": "1 020 / 246",
+    "P. Def. / M. Def.": "187 / 191",
+    "Accuracy / Evasion": "81 / 91",
+    "Exp / SP": "9 741 / 974",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 48"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21619",
-      "type": "npc",
-      "id": 21619,
-      "name": "Lu4",
-      "url": "/lu4/npc/21619-pit-archer"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
-      "key": "item:2095",
+      "key": "item:57",
       "type": "item",
-      "id": 2095,
-      "name": "Sword of Nightmare Blade NG",
-      "url": "/lu4/item/2095-sword-of-nightmare-blade"
-    },
-    {
-      "key": "item:1984",
-      "type": "item",
-      "id": 1984,
-      "name": "Theca Leather Armor Pattern NG",
-      "url": "/lu4/item/1984-theca-leather-armor-pattern"
-    },
-    {
-      "key": "item:1983",
-      "type": "item",
-      "id": 1983,
-      "name": "Shining Circlet Pattern NG",
-      "url": "/lu4/item/1983-shining-circlet-pattern"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1867",
@@ -138,6 +93,34 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
       "key": "item:1149",
       "type": "item",
       "id": 1149,
@@ -145,11 +128,11 @@
       "url": "/lu4/item/1149-shining-circlet"
     },
     {
-      "key": "item:400",
+      "key": "item:1983",
       "type": "item",
-      "id": 400,
-      "name": "Theca Leather Armor C",
-      "url": "/lu4/item/400-theca-leather-armor"
+      "id": 1983,
+      "name": "Shining Circlet Pattern NG",
+      "url": "/lu4/item/1983-shining-circlet-pattern"
     },
     {
       "key": "item:134",
@@ -159,11 +142,25 @@
       "url": "/lu4/item/134-sword-of-nightmare"
     },
     {
-      "key": "item:57",
+      "key": "item:2095",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2095,
+      "name": "Sword of Nightmare Blade NG",
+      "url": "/lu4/item/2095-sword-of-nightmare-blade"
+    },
+    {
+      "key": "item:400",
+      "type": "item",
+      "id": 400,
+      "name": "Theca Leather Armor C",
+      "url": "/lu4/item/400-theca-leather-armor"
+    },
+    {
+      "key": "item:1984",
+      "type": "item",
+      "id": 1984,
+      "name": "Theca Leather Armor Pattern NG",
+      "url": "/lu4/item/1984-theca-leather-armor-pattern"
     },
     {
       "key": "item:2347",
@@ -180,6 +177,13 @@
       "url": "/lu4/item/2328-recipe-sword-of-delusion"
     },
     {
+      "key": "item:1980",
+      "type": "item",
+      "id": 1980,
+      "name": "Demon's Stocking Pattern NG",
+      "url": "/lu4/item/1980-demons-stocking-pattern"
+    },
+    {
       "key": "item:2108",
       "type": "item",
       "id": 2108,
@@ -192,13 +196,6 @@
       "id": 2099,
       "name": "Stick of Eternity Shaft NG",
       "url": "/lu4/item/2099-stick-of-eternity-shaft"
-    },
-    {
-      "key": "item:1980",
-      "type": "item",
-      "id": 1980,
-      "name": "Demon's Stocking Pattern NG",
-      "url": "/lu4/item/1980-demons-stocking-pattern"
     }
   ]
 }

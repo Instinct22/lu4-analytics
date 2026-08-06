@@ -2,154 +2,74 @@
   "key": "npc:20266",
   "type": "npc",
   "id": 20266,
-  "name": "Lu4 Wiki: NPC Monster Eye Gazer",
+  "name": "Monster Eye Gazer",
   "url": "/lu4/npc/20266-monster-eye-gazer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20266-monster-eye-gazer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20266-monster-eye-gazer",
   "raw_html": "library/raw/lu4/npc/20266-monster-eye-gazer.html",
   "stats": {
-    "Location": "Холмы Диона (+1) Холмы Диона Земли Диона"
+    "Respawn Time": "15 seconds",
+    "Location": "Холмы Диона (+1) Холмы Диона Земли Диона",
+    "HP / MP": "770 / 319",
+    "P. Atk. / M. Atk.": "81 / 40",
+    "P. Def. / M. Def.": "149 / 108",
+    "Accuracy / Evasion": "58 / 58",
+    "Exp / SP": "821 / 82",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 25"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20266",
-      "type": "npc",
-      "id": 20266,
-      "name": "Lu4",
-      "url": "/lu4/npc/20266-monster-eye-gazer"
-    },
-    {
-      "key": "location:244",
-      "type": "location",
-      "id": 244,
-      "name": "Холмы Диона",
-      "url": "/lu4/location/244-holmy-diona"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2260",
-      "type": "item",
-      "id": 2260,
-      "name": "Recipe: Mace of Judgment NG",
-      "url": "/lu4/item/2260-recipe-mace-of-judgment"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
-    },
-    {
-      "key": "item:468",
-      "type": "item",
-      "id": 468,
-      "name": "Mystic's Stockings D",
-      "url": "/lu4/item/468-mystics-stockings"
-    },
-    {
-      "key": "item:183",
-      "type": "item",
-      "id": 183,
-      "name": "Mystic Staff D",
-      "url": "/lu4/item/183-mystic-staff"
-    },
-    {
-      "key": "item:69",
-      "type": "item",
-      "id": 69,
-      "name": "Bastard Sword D",
-      "url": "/lu4/item/69-bastard-sword"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -159,11 +79,74 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1937",
+      "key": "item:1874",
       "type": "item",
-      "id": 1937,
-      "name": "Scale Gaiters Fragment NG",
-      "url": "/lu4/item/1937-scale-gaiters-fragment"
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
+      "key": "item:69",
+      "type": "item",
+      "id": 69,
+      "name": "Bastard Sword D",
+      "url": "/lu4/item/69-bastard-sword"
+    },
+    {
+      "key": "item:183",
+      "type": "item",
+      "id": 183,
+      "name": "Mystic Staff D",
+      "url": "/lu4/item/183-mystic-staff"
+    },
+    {
+      "key": "item:468",
+      "type": "item",
+      "id": 468,
+      "name": "Mystic's Stockings D",
+      "url": "/lu4/item/468-mystics-stockings"
+    },
+    {
+      "key": "item:2260",
+      "type": "item",
+      "id": 2260,
+      "name": "Recipe: Mace of Judgment NG",
+      "url": "/lu4/item/2260-recipe-mace-of-judgment"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:1866",
@@ -171,6 +154,13 @@
       "id": 1866,
       "name": "Suede NG",
       "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1937",
+      "type": "item",
+      "id": 1937,
+      "name": "Scale Gaiters Fragment NG",
+      "url": "/lu4/item/1937-scale-gaiters-fragment"
     }
   ]
 }

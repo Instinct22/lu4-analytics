@@ -2,133 +2,53 @@
   "key": "npc:21005",
   "type": "npc",
   "id": 21005,
-  "name": "Lu4 Wiki: NPC Grave Predator",
+  "name": "Grave Predator",
   "url": "/lu4/npc/21005-grave-predator",
-  "source_url": "https://masterwork.wiki/lu4/npc/21005-grave-predator",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21005-grave-predator",
   "raw_html": "library/raw/lu4/npc/21005-grave-predator.html",
   "stats": {
-    "Location": "Поле Брани (+1) Поле Брани Земли Адена"
+    "Respawn Time": "30 seconds ± 5 seconds",
+    "Location": "Поле Брани (+1) Поле Брани Земли Адена",
+    "HP / MP": "3 058 / 1 240",
+    "P. Atk. / M. Atk.": "1 326 / 606",
+    "P. Def. / M. Def.": "397 / 290",
+    "Accuracy / Evasion": "95 / 100",
+    "Exp / SP": "3 532 / 353",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong P. Atk. Lv. 13 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 62"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21005",
-      "type": "npc",
-      "id": 21005,
-      "name": "Lu4",
-      "url": "/lu4/npc/21005-grave-predator"
-    },
-    {
-      "key": "location:188",
-      "type": "location",
-      "id": 188,
-      "name": "Поле Брани",
-      "url": "/lu4/location/188-pole-brani"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:32400",
-      "type": "item",
-      "id": 32400,
-      "name": "Unidentified Sealed Blue Wolf Gloves B",
-      "url": "/lu4/item/32400-unidentified-sealed-blue-wolf-gloves"
-    },
-    {
-      "key": "item:32366",
-      "type": "item",
-      "id": 32366,
-      "name": "Unidentified Doom Helmet B",
-      "url": "/lu4/item/32366-unidentified-doom-helmet"
-    },
-    {
-      "key": "item:4981",
-      "type": "item",
-      "id": 4981,
-      "name": "Recipe: Blue Wolf Breastplate (60%) NG",
-      "url": "/lu4/item/4981-recipe-blue-wolf-breastplate-60"
-    },
-    {
-      "key": "item:4974",
-      "type": "item",
-      "id": 4974,
-      "name": "Recipe: Ring of Black Ore (70%) NG",
-      "url": "/lu4/item/4974-recipe-ring-of-black-ore-70"
-    },
-    {
-      "key": "item:4096",
-      "type": "item",
-      "id": 4096,
-      "name": "Sealed Blue Wolf Gloves Fabric NG",
-      "url": "/lu4/item/4096-sealed-blue-wolf-gloves-fabric"
-    },
-    {
-      "key": "item:4089",
-      "type": "item",
-      "id": 4089,
-      "name": "Doom Helmet Pattern NG",
-      "url": "/lu4/item/4089-doom-helmet-pattern"
-    },
-    {
-      "key": "item:4052",
-      "type": "item",
-      "id": 4052,
-      "name": "Earring of Black Ore Piece NG",
-      "url": "/lu4/item/4052-earring-of-black-ore-piece"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -166,6 +86,27 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32366",
+      "type": "item",
+      "id": 32366,
+      "name": "Unidentified Doom Helmet B",
+      "url": "/lu4/item/32366-unidentified-doom-helmet"
+    },
+    {
+      "key": "item:4089",
+      "type": "item",
+      "id": 4089,
+      "name": "Doom Helmet Pattern NG",
+      "url": "/lu4/item/4089-doom-helmet-pattern"
+    },
+    {
       "key": "item:864",
       "type": "item",
       "id": 864,
@@ -173,11 +114,67 @@
       "url": "/lu4/item/864-earring-of-black-ore"
     },
     {
-      "key": "item:57",
+      "key": "item:4052",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4052,
+      "name": "Earring of Black Ore Piece NG",
+      "url": "/lu4/item/4052-earring-of-black-ore-piece"
+    },
+    {
+      "key": "item:32400",
+      "type": "item",
+      "id": 32400,
+      "name": "Unidentified Sealed Blue Wolf Gloves B",
+      "url": "/lu4/item/32400-unidentified-sealed-blue-wolf-gloves"
+    },
+    {
+      "key": "item:4096",
+      "type": "item",
+      "id": 4096,
+      "name": "Sealed Blue Wolf Gloves Fabric NG",
+      "url": "/lu4/item/4096-sealed-blue-wolf-gloves-fabric"
+    },
+    {
+      "key": "item:4981",
+      "type": "item",
+      "id": 4981,
+      "name": "Recipe: Blue Wolf Breastplate (60%) NG",
+      "url": "/lu4/item/4981-recipe-blue-wolf-breastplate-60"
+    },
+    {
+      "key": "item:4974",
+      "type": "item",
+      "id": 4974,
+      "name": "Recipe: Ring of Black Ore (70%) NG",
+      "url": "/lu4/item/4974-recipe-ring-of-black-ore-70"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1880",
+      "type": "item",
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
     },
     {
       "key": "item:8312",
@@ -213,13 +210,6 @@
       "id": 4053,
       "name": "Ring of Black Ore Gemstone NG",
       "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
     }
   ]
 }

@@ -2,27 +2,25 @@
   "key": "item:3078",
   "type": "item",
   "id": 3078,
-  "name": "Lu4 Wiki: Item Spellbook: Decay",
+  "name": "Spellbook: Decay",
   "url": "/lu4/item/3078-spellbook-decay",
-  "source_url": "https://masterwork.wiki/lu4/item/3078-spellbook-decay",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/3078-spellbook-decay",
   "raw_html": "library/raw/lu4/item/3078-spellbook-decay.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Decay'. Required: Sorcerer - Lv. 48 To obtain this item, hunt the Tanor Silenos Shaman found in Tanor Canyon.",
+    "NPC Sell Price": "2 300 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:3078",
-      "type": "item",
-      "id": 3078,
-      "name": "Lu4",
-      "url": "/lu4/item/3078-spellbook-decay"
-    },
-    {
       "key": "npc:20940",
       "type": "npc",
       "id": 20940,
-      "name": "Tanor Silenos Shaman Lv. 48",
+      "name": "Tanor Silenos Shaman",
       "url": "/lu4/npc/20940-tanor-silenos-shaman"
     }
   ]

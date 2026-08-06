@@ -2,35 +2,33 @@
   "key": "item:6537",
   "type": "item",
   "id": 6537,
-  "name": "Lu4 Wiki: Item Fishing Shot (C-Grade)",
+  "name": "Fishing Shot (C-Grade)",
   "url": "/lu4/item/6537-fishing-shot-c-grade",
-  "source_url": "https://masterwork.wiki/lu4/item/6537-fishing-shot-c-grade",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/6537-fishing-shot-c-grade",
   "raw_html": "library/raw/lu4/item/6537-fishing-shot-c-grade.html",
   "stats": {
+    "Effect": "Soulshot consumed by a fishing rod like general soulshots. Gives double damage when the pumping or reeling skill is cast. Usable for the C-grade fishing rod.",
+    "NPC Sell Price": "4 Adena",
+    "Weight": "3",
     "Item Skills": "Item - Fishing Shot Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Other"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:6537",
-      "type": "item",
-      "id": 6537,
-      "name": "Lu4",
-      "url": "/lu4/item/6537-fishing-shot-c-grade"
-    },
-    {
       "key": "skill:2183",
       "type": "skill",
       "id": 2183,
-      "name": "Item - Fishing Shot Lv. 1",
-      "url": "/lu4/skill/2183-item-fishing-shot/1"
+      "name": "Item - Fishing Shot",
+      "url": "/lu4/skill/2183-item-fishing-shot"
     },
     {
       "key": "npc:18321",
       "type": "npc",
       "id": 18321,
-      "name": "Caught Rakul Lv. 30",
+      "name": "Caught Rakul",
       "url": "/lu4/npc/18321-caught-rakul"
     }
   ]

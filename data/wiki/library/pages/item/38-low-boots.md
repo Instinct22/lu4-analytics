@@ -1,119 +1,17 @@
-# Lu4 Wiki: Item Low Boots
+# Low Boots
 
-- Source: https://masterwork.wiki/lu4/item/38-low-boots
+- Source: https://masterwork.wiki/lu4-b-w-c/item/38-low-boots
 - Path: /lu4/item/38-low-boots
 - Type: item
 - Key: item:38
 
 ## Stats
+- P. Def.: 15
+- NPC Sell Price: 2 605 Adena
+- Weight: 1320
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Armor / None / Boots
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Low Boots
-Lu4
-Eternal
-MasterWork
-Low Boots
-NG
-Armor / None / Boots
-P. Def.
-15
-NPC Sell Price
-2 605 Adena
-Weight
-1320
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Drop
-Spoil
-NPC
-Amount
-Chance
-Hallowed Watchman
-Lv. 20
-1
-0.919734%
-Kasha Imp
-Lv. 19
-1
-0.303990%
-Hunter Tarantula
-Lv. 16
-1
-0.276579%
-Brown Bear
-Lv. 16
-1
-0.279181%
-Hook Spider
-Lv. 16
-1
-0.276580%
-Undine Noble
-Lv. 19
-1
-0.480579%
-Blade Spider
-Lv. 17
-1
-0.292198%
-Talon Spider
-Lv. 16
-1
-0.276580%
-Skeleton Tracker
-Lv. 17
-1
-0.286383%
-NPC
-Amount
-Chance
-Sukar Wererat Leader
-Lv. 19
-1
-1.049300%
-MasterWork 2026
-All rights reserved
+Low Boots NG Armor / None / Boots P. Def. 15 NPC Sell Price 2 605 Adena Weight 1320 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

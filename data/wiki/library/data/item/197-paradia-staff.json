@@ -2,31 +2,34 @@
   "key": "item:197",
   "type": "item",
   "id": 197,
-  "name": "Lu4 Wiki: Item Paradia Staff",
+  "name": "Paradia Staff",
   "url": "/lu4/item/197-paradia-staff",
-  "source_url": "https://masterwork.wiki/lu4/item/197-paradia-staff",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/197-paradia-staff",
   "raw_html": "library/raw/lu4/item/197-paradia-staff.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Magic Regeneration: Casts 'Regeneration' Lv.2 on target with 30% chance. Empower: M. Atk. +20%, Consumption MP for Magic skills +10%. Mental Shield: Casts 'Mental Shield' Lv.3 on target with 50% chance.",
+    "P. Atk. / M. Atk.": "135 / 111",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1322 Crystallization Failed Enchant +0 1322 - +1 1367 - +2 1412 - +3 1457 - +4 1547 886 +5 1637 976 +6 1727 1066 +7 1817 1156 +8 1907 1246 +9 1997 1336 +10 2087 1426 +11 2177 1516 +12 2267 1606",
+    "NPC Sell Price": "1 652 150 Adena",
+    "Weight": "1010",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Item Skills": "Magic Essence Lv. 1",
     "Recipes": "Recipe: Paradia Staff NG",
     "Soul Crystals": "Paradia Staff Magic Regeneration C Paradia Staff C Gemstone C NG (306 pcs.) Red Soul Crystal - Stage 7 NG Paradia Staff Mental Shield C Paradia Staff C Gemstone C NG (306 pcs.) Green Soul Crystal - Stage 7 NG Paradia Staff Empower C Paradia Staff C Gemstone C NG (306 pcs.) Blue Soul Crystal - Stage 7 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Blunt / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:197",
-      "type": "item",
-      "id": 197,
-      "name": "Lu4",
-      "url": "/lu4/item/197-paradia-staff"
-    },
-    {
       "key": "skill:24479",
       "type": "skill",
       "id": 24479,
-      "name": "Magic Essence Lv. 1",
-      "url": "/lu4/skill/24479-magic-essence/1"
+      "name": "Magic Essence",
+      "url": "/lu4/skill/24479-magic-essence"
     },
     {
       "key": "item:2338",
@@ -88,63 +91,63 @@
       "key": "npc:25418",
       "type": "npc",
       "id": 25418,
-      "name": "Dread Avenger Kraven Lv. 44",
+      "name": "Dread Avenger Kraven",
       "url": "/lu4/npc/25418-dread-avenger-kraven"
     },
     {
       "key": "npc:25395",
       "type": "npc",
       "id": 25395,
-      "name": "Archon Suscepter Lv. 45",
+      "name": "Archon Suscepter",
       "url": "/lu4/npc/25395-archon-suscepter"
     },
     {
       "key": "npc:21725",
       "type": "npc",
       "id": 21725,
-      "name": "Purgatory Invader Elite Soldier Lv. 50",
+      "name": "Purgatory Invader Elite Soldier",
       "url": "/lu4/npc/21725-purgatory-invader-elite-soldier"
     },
     {
       "key": "npc:21622",
       "type": "npc",
       "id": 21622,
-      "name": "Greater Musveren Lv. 49",
+      "name": "Greater Musveren",
       "url": "/lu4/npc/21622-greater-musveren"
     },
     {
       "key": "npc:20998",
       "type": "npc",
       "id": 20998,
-      "name": "Cruel Punisher Lv. 52",
+      "name": "Cruel Punisher",
       "url": "/lu4/npc/20998-cruel-punisher"
     },
     {
       "key": "npc:20753",
       "type": "npc",
       "id": 20753,
-      "name": "Dark Lord Lv. 50",
+      "name": "Dark Lord",
       "url": "/lu4/npc/20753-dark-lord"
     },
     {
       "key": "npc:20665",
       "type": "npc",
       "id": 20665,
-      "name": "Taik Orc Supply Lv. 51",
+      "name": "Taik Orc Supply",
       "url": "/lu4/npc/20665-taik-orc-supply"
     },
     {
       "key": "npc:20594",
       "type": "npc",
       "id": 20594,
-      "name": "Forest Runner Lv. 50",
+      "name": "Forest Runner",
       "url": "/lu4/npc/20594-forest-runner"
     },
     {
       "key": "npc:20572",
       "type": "npc",
       "id": 20572,
-      "name": "Tarlk Bugbear High Warrior Lv. 49",
+      "name": "Tarlk Bugbear High Warrior",
       "url": "/lu4/npc/20572-tarlk-bugbear-high-warrior"
     }
   ]

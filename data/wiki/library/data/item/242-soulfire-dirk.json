@@ -2,24 +2,27 @@
   "key": "item:242",
   "type": "item",
   "id": 242,
-  "name": "Lu4 Wiki: Item Soulfire Dirk",
+  "name": "Soulfire Dirk",
   "url": "/lu4/item/242-soulfire-dirk",
-  "source_url": "https://masterwork.wiki/lu4/item/242-soulfire-dirk",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/242-soulfire-dirk",
   "raw_html": "library/raw/lu4/item/242-soulfire-dirk.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Focus: P. Crit. Rate +60. Acumen: Casting Spd. +15%. Haste: Atk. Spd. +7%.",
+    "P. Atk. / M. Atk.": "86 / 91",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "884 Crystallization Failed Enchant +0 884 - +1 929 - +2 974 - +3 1019 - +4 1109 667 +5 1199 757 +6 1289 847 +7 1379 937 +8 1469 1027 +9 1559 1117 +10 1649 1207 +11 1739 1297 +12 1829 1387",
+    "NPC Sell Price": "1 104 850 Adena",
+    "Weight": "750",
+    "P. Crit. Rate.": "12",
+    "Accuracy": "-4",
     "Recipes": "Recipe: Soulfire Dirk NG",
     "Soul Crystals": "Soulfire Dirk Acumen C Soulfire Dirk C Gemstone C NG (238 pcs.) Blue Soul Crystal - Stage 6 NG Soulfire Dirk Focus C Soulfire Dirk C Gemstone C NG (238 pcs.) Red Soul Crystal - Stage 6 NG Soulfire Dirk Haste C Soulfire Dirk C Gemstone C NG (238 pcs.) Green Soul Crystal - Stage 6 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Dagger / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:242",
-      "type": "item",
-      "id": 242,
-      "name": "Lu4",
-      "url": "/lu4/item/242-soulfire-dirk"
-    },
     {
       "key": "item:2322",
       "type": "item",
@@ -77,73 +80,80 @@
       "url": "/lu4/item/4646-green-soul-crystal-stage-6"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25088",
       "type": "npc",
       "id": 25088,
-      "name": "Crazy Mechanic Golem Lv. 43",
+      "name": "Crazy Mechanic Golem",
       "url": "/lu4/npc/25088-crazy-mechanic-golem"
     },
     {
       "key": "npc:21615",
       "type": "npc",
       "id": 21615,
-      "name": "Death Flyer Lv. 47",
+      "name": "Death Flyer",
       "url": "/lu4/npc/21615-death-flyer"
     },
     {
       "key": "npc:21614",
       "type": "npc",
       "id": 21614,
-      "name": "Death Flyer Lv. 47",
+      "name": "Death Flyer",
       "url": "/lu4/npc/21614-death-flyer"
     },
     {
       "key": "npc:21196",
       "type": "npc",
       "id": 21196,
-      "name": "Nephilim Sentinel Lv. 48",
+      "name": "Nephilim Sentinel",
       "url": "/lu4/npc/21196-nephilim-sentinel"
     },
     {
       "key": "npc:21175",
       "type": "npc",
       "id": 21175,
-      "name": "Lilim Butcher Lv. 48",
+      "name": "Lilim Butcher",
       "url": "/lu4/npc/21175-lilim-butcher"
     },
     {
       "key": "npc:20840",
       "type": "npc",
       "id": 20840,
-      "name": "Death Flyer Lv. 47",
+      "name": "Death Flyer",
       "url": "/lu4/npc/20840-death-flyer"
     },
     {
       "key": "npc:20798",
       "type": "npc",
       "id": 20798,
-      "name": "Water Giant Lv. 45",
+      "name": "Water Giant",
       "url": "/lu4/npc/20798-water-giant"
     },
     {
       "key": "npc:20587",
       "type": "npc",
       "id": 20587,
-      "name": "Timak Orc Shaman Lv. 44",
+      "name": "Timak Orc Shaman",
       "url": "/lu4/npc/20587-timak-orc-shaman"
     },
     {
       "key": "npc:20569",
       "type": "npc",
       "id": 20569,
-      "name": "Formor Elder Lv. 46",
+      "name": "Formor Elder",
       "url": "/lu4/npc/20569-formor-elder"
     },
     {
       "key": "npc:20560",
       "type": "npc",
       "id": 20560,
-      "name": "Trisalim Spider Lv. 45",
+      "name": "Trisalim Spider",
       "url": "/lu4/npc/20560-trisalim-spider"
     }
   ]

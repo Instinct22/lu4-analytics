@@ -2,27 +2,25 @@
   "key": "item:3060",
   "type": "item",
   "id": 3060,
-  "name": "Lu4 Wiki: Item Spellbook: Forget",
+  "name": "Spellbook: Forget",
   "url": "/lu4/item/3060-spellbook-forget",
-  "source_url": "https://masterwork.wiki/lu4/item/3060-spellbook-forget",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/3060-spellbook-forget",
   "raw_html": "library/raw/lu4/item/3060-spellbook-forget.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Forget'. Required: Necromancer - Lv. 44 To obtain this item, hunt the Tanor Silenos Scout found in Tanor Canyon.",
+    "NPC Sell Price": "1 925 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:3060",
-      "type": "item",
-      "id": 3060,
-      "name": "Lu4",
-      "url": "/lu4/item/3060-spellbook-forget"
-    },
-    {
       "key": "npc:20938",
       "type": "npc",
       "id": 20938,
-      "name": "Tanor Silenos Scout Lv. 44",
+      "name": "Tanor Silenos Scout",
       "url": "/lu4/npc/20938-tanor-silenos-scout"
     }
   ]

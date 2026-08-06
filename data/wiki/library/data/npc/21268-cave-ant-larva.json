@@ -2,126 +2,81 @@
   "key": "npc:21268",
   "type": "npc",
   "id": 21268,
-  "name": "Lu4 Wiki: NPC Cave Ant Larva",
+  "name": "Cave Ant Larva",
   "url": "/lu4/npc/21268-cave-ant-larva",
-  "source_url": "https://masterwork.wiki/lu4/npc/21268-cave-ant-larva",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21268-cave-ant-larva",
   "raw_html": "library/raw/lu4/npc/21268-cave-ant-larva.html",
   "stats": {
-    "Location": "Муравьиный Инкубатор"
+    "Respawn Time": "44 seconds ± 9 seconds",
+    "Location": "Муравьиный Инкубатор",
+    "HP / MP": "2 465 / 514",
+    "P. Atk. / M. Atk.": "191 / 93",
+    "P. Def. / M. Def.": "204 / 158",
+    "Accuracy / Evasion": "69 / 74",
+    "Exp / SP": "2 442 / 244",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 36"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21268",
-      "type": "npc",
-      "id": 21268,
-      "name": "Lu4",
-      "url": "/lu4/npc/21268-cave-ant-larva"
-    },
-    {
-      "key": "location:306",
-      "type": "location",
-      "id": 306,
-      "name": "Муравьиный Инкубатор",
-      "url": "/lu4/location/306-muravinyj-inkubator"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:6037",
+      "key": "item:57",
       "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
-    },
-    {
-      "key": "item:2967",
-      "type": "item",
-      "id": 2967,
-      "name": "Elven Long Sword Blade NG",
-      "url": "/lu4/item/2967-elven-long-sword-blade"
-    },
-    {
-      "key": "item:2934",
-      "type": "item",
-      "id": 2934,
-      "name": "Plate Shield Fragment NG",
-      "url": "/lu4/item/2934-plate-shield-fragment"
-    },
-    {
-      "key": "item:2499",
-      "type": "item",
-      "id": 2499,
-      "name": "Elven Long Sword D",
-      "url": "/lu4/item/2499-elven-long-sword"
-    },
-    {
-      "key": "item:2494",
-      "type": "item",
-      "id": 2494,
-      "name": "Plate Shield D",
-      "url": "/lu4/item/2494-plate-shield"
-    },
-    {
-      "key": "item:2055",
-      "type": "item",
-      "id": 2055,
-      "name": "Glaive Edge NG",
-      "url": "/lu4/item/2055-glaive-edge"
-    },
-    {
-      "key": "item:1963",
-      "type": "item",
-      "id": 1963,
-      "name": "Ogre Power Gauntlets Part NG",
-      "url": "/lu4/item/1963-ogre-power-gauntlets-part"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1894",
@@ -159,11 +114,25 @@
       "url": "/lu4/item/1341-bone-arrow"
     },
     {
-      "key": "item:607",
+      "key": "item:6037",
       "type": "item",
-      "id": 607,
-      "name": "Ogre Power Gauntlets D",
-      "url": "/lu4/item/607-ogre-power-gauntlets"
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
+    },
+    {
+      "key": "item:2499",
+      "type": "item",
+      "id": 2499,
+      "name": "Elven Long Sword D",
+      "url": "/lu4/item/2499-elven-long-sword"
+    },
+    {
+      "key": "item:2967",
+      "type": "item",
+      "id": 2967,
+      "name": "Elven Long Sword Blade NG",
+      "url": "/lu4/item/2967-elven-long-sword-blade"
     },
     {
       "key": "item:297",
@@ -173,11 +142,39 @@
       "url": "/lu4/item/297-glaive"
     },
     {
-      "key": "item:57",
+      "key": "item:2055",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2055,
+      "name": "Glaive Edge NG",
+      "url": "/lu4/item/2055-glaive-edge"
+    },
+    {
+      "key": "item:607",
+      "type": "item",
+      "id": 607,
+      "name": "Salamander Skin Gloves D",
+      "url": "/lu4/item/607-salamander-skin-gloves"
+    },
+    {
+      "key": "item:1963",
+      "type": "item",
+      "id": 1963,
+      "name": "Salamander Skin Gloves Part NG",
+      "url": "/lu4/item/1963-salamander-skin-gloves-part"
+    },
+    {
+      "key": "item:2494",
+      "type": "item",
+      "id": 2494,
+      "name": "Half Plate Shield D",
+      "url": "/lu4/item/2494-half-plate-shield"
+    },
+    {
+      "key": "item:2934",
+      "type": "item",
+      "id": 2934,
+      "name": "Half Plate Shield Fragment NG",
+      "url": "/lu4/item/2934-half-plate-shield-fragment"
     },
     {
       "key": "item:2285",
@@ -190,8 +187,8 @@
       "key": "item:2196",
       "type": "item",
       "id": 2196,
-      "name": "Recipe: Plate Gaiters NG",
-      "url": "/lu4/item/2196-recipe-plate-gaiters"
+      "name": "Recipe: Half Plate Gaiters NG",
+      "url": "/lu4/item/2196-recipe-half-plate-gaiters"
     },
     {
       "key": "item:2058",

@@ -2,119 +2,74 @@
   "key": "npc:20506",
   "type": "npc",
   "id": 20506,
-  "name": "Lu4 Wiki: NPC Ruin Imp",
+  "name": "Ruin Imp",
   "url": "/lu4/npc/20506-ruin-imp",
-  "source_url": "https://masterwork.wiki/lu4/npc/20506-ruin-imp",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20506-ruin-imp",
   "raw_html": "library/raw/lu4/npc/20506-ruin-imp.html",
   "stats": {
-    "Location": "Руины Отчаяния"
+    "Respawn Time": "17 seconds",
+    "Location": "Руины Отчаяния",
+    "HP / MP": "432 / 204",
+    "P. Atk. / M. Atk.": "54 / 29",
+    "P. Def. / M. Def.": "84 / 68",
+    "Accuracy / Evasion": "50 / 50",
+    "Exp / SP": "463 / 46",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 17"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20506",
-      "type": "npc",
-      "id": 20506,
-      "name": "Lu4",
-      "url": "/lu4/npc/20506-ruin-imp"
-    },
-    {
-      "key": "location:29",
-      "type": "location",
-      "id": 29,
-      "name": "Руины Отчаяния",
-      "url": "/lu4/location/29-ruiny-otcaania"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:5273",
-      "type": "item",
-      "id": 5273,
-      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
-      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
-    },
-    {
-      "key": "item:2141",
-      "type": "item",
-      "id": 2141,
-      "name": "Recipe: Silver Mold NG",
-      "url": "/lu4/item/2141-recipe-silver-mold"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:412",
-      "type": "item",
-      "id": 412,
-      "name": "Cotton Pants NG",
-      "url": "/lu4/item/412-cotton-pants"
-    },
-    {
-      "key": "item:390",
-      "type": "item",
-      "id": 390,
-      "name": "Cotton Shirt NG",
-      "url": "/lu4/item/390-cotton-shirt"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -124,13 +79,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:31",
-      "type": "item",
-      "id": 31,
-      "name": "Bone Gaiters NG",
-      "url": "/lu4/item/31-bone-gaiters"
-    },
-    {
       "key": "item:24",
       "type": "item",
       "id": 24,
@@ -138,11 +86,53 @@
       "url": "/lu4/item/24-bone-breastplate"
     },
     {
-      "key": "item:2150",
+      "key": "item:31",
       "type": "item",
-      "id": 2150,
-      "name": "Recipe: Blue Diamond Necklace NG",
-      "url": "/lu4/item/2150-recipe-blue-diamond-necklace"
+      "id": 31,
+      "name": "Bone Gaiters NG",
+      "url": "/lu4/item/31-bone-gaiters"
+    },
+    {
+      "key": "item:390",
+      "type": "item",
+      "id": 390,
+      "name": "Cotton Shirt NG",
+      "url": "/lu4/item/390-cotton-shirt"
+    },
+    {
+      "key": "item:412",
+      "type": "item",
+      "id": 412,
+      "name": "Cotton Pants NG",
+      "url": "/lu4/item/412-cotton-pants"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:2141",
+      "type": "item",
+      "id": 2141,
+      "name": "Recipe: Silver Mold NG",
+      "url": "/lu4/item/2141-recipe-silver-mold"
+    },
+    {
+      "key": "item:5273",
+      "type": "item",
+      "id": 5273,
+      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
+      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
     },
     {
       "key": "item:1924",
@@ -150,6 +140,13 @@
       "id": 1924,
       "name": "Leather Helmet Design NG",
       "url": "/lu4/item/1924-leather-helmet-design"
+    },
+    {
+      "key": "item:2150",
+      "type": "item",
+      "id": 2150,
+      "name": "Recipe: Blue Diamond Necklace NG",
+      "url": "/lu4/item/2150-recipe-blue-diamond-necklace"
     }
   ]
 }

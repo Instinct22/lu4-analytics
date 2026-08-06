@@ -2,31 +2,34 @@
   "key": "item:187",
   "type": "item",
   "id": 187,
-  "name": "Lu4 Wiki: Item Atuba Hammer",
+  "name": "Atuba Hammer",
   "url": "/lu4/item/187-atuba-hammer",
-  "source_url": "https://masterwork.wiki/lu4/item/187-atuba-hammer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/187-atuba-hammer",
   "raw_html": "library/raw/lu4/item/187-atuba-hammer.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Empower: M. Atk. +20%, Consumption MP for Magic skills +10%. Mana Up: Max MP +30%. Health: Max HP +25%.",
+    "P. Atk. / M. Atk.": "90 / 79",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "2561 Crystallization Failed Enchant +0 2561 - +1 2651 - +2 2741 - +3 2831 - +4 3011 1730 +5 3191 1910 +6 3371 2090 +7 3551 2270 +8 3731 2450 +9 3911 2630 +10 4091 2810 +11 4271 2990 +12 4451 3170",
+    "NPC Sell Price": "693 500 Adena",
+    "Weight": "1010",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Item Skills": "Magic Essence Lv. 1",
     "Recipes": "Recipe: Atuba Hammer NG",
     "Soul Crystals": "Atuba Hammer Empower D Atuba Hammer D Gemstone D NG (150 pcs.) Red Soul Crystal - Stage 4 NG Atuba Hammer Health D Atuba Hammer D Gemstone D NG (150 pcs.) Green Soul Crystal - Stage 4 NG Atuba Hammer Mana Up D Atuba Hammer D Gemstone D NG (150 pcs.) Blue Soul Crystal - Stage 4 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Blunt / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:187",
-      "type": "item",
-      "id": 187,
-      "name": "Lu4",
-      "url": "/lu4/item/187-atuba-hammer"
-    },
-    {
       "key": "skill:24479",
       "type": "skill",
       "id": 24479,
-      "name": "Magic Essence Lv. 1",
-      "url": "/lu4/skill/24479-magic-essence/1"
+      "name": "Magic Essence",
+      "url": "/lu4/skill/24479-magic-essence"
     },
     {
       "key": "item:2287",
@@ -88,63 +91,91 @@
       "key": "npc:25415",
       "type": "npc",
       "id": 25415,
-      "name": "Nakondas Lv. 38",
+      "name": "Nakondas",
       "url": "/lu4/npc/25415-nakondas"
+    },
+    {
+      "key": "npc:25391",
+      "type": "npc",
+      "id": 25391,
+      "name": "Nurka's Messenger",
+      "url": "/lu4/npc/25391-nurkas-messenger"
+    },
+    {
+      "key": "npc:25354",
+      "type": "npc",
+      "id": 25354,
+      "name": "Gargoyle Lord Sirocco",
+      "url": "/lu4/npc/25354-gargoyle-lord-sirocco"
+    },
+    {
+      "key": "npc:25223",
+      "type": "npc",
+      "id": 25223,
+      "name": "Soul Collector Acheron",
+      "url": "/lu4/npc/25223-soul-collector-acheron"
     },
     {
       "key": "npc:25118",
       "type": "npc",
       "id": 25118,
-      "name": "Guilotine, Warden of the Execution Grounds Lv. 35",
+      "name": "Guilotine, Warden of the Execution Grounds",
       "url": "/lu4/npc/25118-guilotine-warden-of-the-execution-grounds"
+    },
+    {
+      "key": "npc:25041",
+      "type": "npc",
+      "id": 25041,
+      "name": "Remmel",
+      "url": "/lu4/npc/25041-remmel"
     },
     {
       "key": "npc:25020",
       "type": "npc",
       "id": 25020,
-      "name": "Breka Warlock Pastu Lv. 34",
+      "name": "Breka Warlock Pastu",
       "url": "/lu4/npc/25020-breka-warlock-pastu"
     },
     {
       "key": "npc:21692",
       "type": "npc",
       "id": 21692,
-      "name": "Dimension Invader Discipline Lv. 43",
+      "name": "Dimension Invader Discipline",
       "url": "/lu4/npc/21692-dimension-invader-discipline"
     },
     {
       "key": "npc:21272",
       "type": "npc",
       "id": 21272,
-      "name": "Cave Ant Soldier Lv. 38",
+      "name": "Cave Ant Soldier",
       "url": "/lu4/npc/21272-cave-ant-soldier"
     },
     {
       "key": "npc:21271",
       "type": "npc",
       "id": 21271,
-      "name": "Cave Ant Lv. 37",
+      "name": "Cave Ant",
       "url": "/lu4/npc/21271-cave-ant"
     },
     {
       "key": "npc:20989",
       "type": "npc",
       "id": 20989,
-      "name": "Lageos Lv. 38",
+      "name": "Lageos",
       "url": "/lu4/npc/20989-lageos"
     },
     {
       "key": "npc:20553",
       "type": "npc",
       "id": 20553,
-      "name": "Windsus Lv. 39",
+      "name": "Windsus",
       "url": "/lu4/npc/20553-windsus"
     },
     {
       "key": "npc:20088",
       "type": "npc",
       "id": 20088,
-      "name": "Ant Warrior Captain Lv. 36",
+      "name": "Ant Warrior Captain",
       "url": "/lu4/npc/20088-ant-warrior-captain"
     }
   ]

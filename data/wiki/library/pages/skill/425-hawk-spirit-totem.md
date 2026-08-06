@@ -1,0 +1,20 @@
+# Hawk Spirit Totem
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/425-hawk-spirit-totem
+- Path: /lu4/skill/425-hawk-spirit-totem
+- Type: skill
+- Key: skill:425
+
+## Stats
+- Effect: With Dual Fist, Sword, Blunt/Dual Blunt: Accuracy +6. With Dual Fist, Blunt/Dual Blunt: P. Crit. Rate +100 P. Crit. Damage +30%.
+- Consumes: 68 MP
+- Reuse Time: 2 minutes, 30 seconds
+- Duration: 20 minutes
+- Can be used on Olympiad: Yes
+- Attribute: None
+- Trait: trait_none
+- Available For: TyrantLv. 65
+- Type: Physical / Buff
+
+## Content
+Hawk Spirit Totem Lv. 1 Physical / Buff With Dual Fist, Sword, Blunt/Dual Blunt: Accuracy +6. With Dual Fist, Blunt/Dual Blunt: P. Crit. Rate +100 P. Crit. Damage +30%. Consumes 68 MP Reuse Time 2 minutes, 30 seconds Duration 20 minutes Can be used on Olympiad Yes Attribute None Trait trait_none Available For Tyrant Lv. 65

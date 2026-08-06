@@ -2,124 +2,100 @@
   "key": "npc:21160",
   "type": "npc",
   "id": 21160,
-  "name": "Lu4 Wiki: NPC Purgatory Liviona",
+  "name": "Purgatory Liviona",
   "url": "/lu4/npc/21160-purgatory-liviona",
-  "source_url": "https://masterwork.wiki/lu4/npc/21160-purgatory-liviona",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21160-purgatory-liviona",
   "raw_html": "library/raw/lu4/npc/21160-purgatory-liviona.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "16 227 / 1 529",
+    "P. Atk. / M. Atk.": "1 364 / 815",
+    "P. Def. / M. Def.": "435 / 356",
+    "Accuracy / Evasion": "105 / 115",
+    "Exp / SP": "21 872 / 2 192",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind -5, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 71"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21160",
-      "type": "npc",
-      "id": 21160,
-      "name": "Lu4",
-      "url": "/lu4/npc/21160-purgatory-liviona"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32384",
-      "type": "item",
-      "id": 32384,
-      "name": "Unidentified Sealed Dark Crystal Robe A",
-      "url": "/lu4/item/32384-unidentified-sealed-dark-crystal-robe"
-    },
-    {
-      "key": "item:32383",
-      "type": "item",
-      "id": 32383,
-      "name": "Unidentified Sealed Tallum Stockings A",
-      "url": "/lu4/item/32383-unidentified-sealed-tallum-stockings"
-    },
-    {
-      "key": "item:32382",
-      "type": "item",
-      "id": 32382,
-      "name": "Unidentified Sealed Tallum Tunic A",
-      "url": "/lu4/item/32382-unidentified-sealed-tallum-tunic"
-    },
-    {
-      "key": "item:6037",
-      "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5489",
@@ -141,6 +117,27 @@
       "id": 5485,
       "name": "Sealed Tallum Tunic Texture NG",
       "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
+    },
+    {
+      "key": "item:32384",
+      "type": "item",
+      "id": 32384,
+      "name": "Unidentified Sealed Dark Crystal Robe A",
+      "url": "/lu4/item/32384-unidentified-sealed-dark-crystal-robe"
+    },
+    {
+      "key": "item:32383",
+      "type": "item",
+      "id": 32383,
+      "name": "Unidentified Sealed Tallum Stockings A",
+      "url": "/lu4/item/32383-unidentified-sealed-tallum-stockings"
+    },
+    {
+      "key": "item:32382",
+      "type": "item",
+      "id": 32382,
+      "name": "Unidentified Sealed Tallum Tunic A",
+      "url": "/lu4/item/32382-unidentified-sealed-tallum-tunic"
     },
     {
       "key": "item:4044",
@@ -185,18 +182,18 @@
       "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:6037",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
     },
     {
-      "key": "item:5482",
+      "key": "item:49800",
       "type": "item",
-      "id": 5482,
-      "name": "Sealed Dark Crystal Leggings Design NG",
-      "url": "/lu4/item/5482-sealed-dark-crystal-leggings-design"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:5479",
@@ -204,6 +201,13 @@
       "id": 5479,
       "name": "Sealed Tallum Leather Armor Pattern NG",
       "url": "/lu4/item/5479-sealed-tallum-leather-armor-pattern"
+    },
+    {
+      "key": "item:5482",
+      "type": "item",
+      "id": 5482,
+      "name": "Sealed Dark Crystal Leggings Design NG",
+      "url": "/lu4/item/5482-sealed-dark-crystal-leggings-design"
     }
   ]
 }

@@ -2,56 +2,51 @@
   "key": "npc:25214",
   "type": "npc",
   "id": 25214,
-  "name": "Lu4 Wiki: NPC Fafurion's Page Sika",
+  "name": "Fafurion's Page Sika",
   "url": "/lu4/npc/25214-fafurions-page-sika",
-  "source_url": "https://masterwork.wiki/lu4/npc/25214-fafurions-page-sika",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25214-fafurions-page-sika",
   "raw_html": "library/raw/lu4/npc/25214-fafurions-page-sika.html",
   "stats": {
-    "Location": "Пляж Аллигаторов"
+    "HP / MP": "234 128 / 5 257",
+    "P. Atk. / M. Atk.": "960 / 120",
+    "P. Def. / M. Def.": "611 / 656",
+    "Accuracy / Evasion": "86 / 91",
+    "Exp / SP": "1 120 000 / 139 773",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 As Water Dragon Fafurion's lieutenant, this Evil Spirit defeated countless disciples of the gods. Known as Sika of Storm during the War of the Gods, he is a veteran warrior and an engaging storyteller. Currently, he travels the world and tells stories at the command of Fafurion. Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 40"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25214",
-      "type": "npc",
-      "id": 25214,
-      "name": "Lu4",
-      "url": "/lu4/npc/25214-fafurions-page-sika"
-    },
-    {
-      "key": "location:208",
-      "type": "location",
-      "id": 208,
-      "name": "Пляж Аллигаторов",
-      "url": "/lu4/location/208-plaz-alligatorov"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4866",
       "type": "skill",
       "id": 4866,
-      "name": "Raid Boss Lv. 1 As Water Dragon Fafurion's lieutenant, this Evil Spirit defeated countless disciples of the gods. Known as Sika of Storm during the War of the Gods, he is a veteran warrior and an engaging storyteller. Currently, he travels the world and tells stories at the command of Fafurion.",
-      "url": "/lu4/skill/4866-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4866-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -59,34 +54,6 @@
       "id": 9910,
       "name": "Proof of Loyalty NG",
       "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:6576",
-      "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:6575",
-      "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "item:2076",
@@ -110,60 +77,11 @@
       "url": "/lu4/item/2062-scythe-edge"
     },
     {
-      "key": "item:1962",
+      "key": "item:96",
       "type": "item",
-      "id": 1962,
-      "name": "Karmian Tunic Pattern NG",
-      "url": "/lu4/item/1962-karmian-tunic-pattern"
-    },
-    {
-      "key": "item:1954",
-      "type": "item",
-      "id": 1954,
-      "name": "Karmian Stocking Design NG",
-      "url": "/lu4/item/1954-karmian-stocking-design"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:471",
-      "type": "item",
-      "id": 471,
-      "name": "Karmian Stockings C",
-      "url": "/lu4/item/471-karmian-stockings"
-    },
-    {
-      "key": "item:439",
-      "type": "item",
-      "id": 439,
-      "name": "Karmian Tunic C",
-      "url": "/lu4/item/439-karmian-tunic"
+      "id": 96,
+      "name": "Scythe C",
+      "url": "/lu4/item/96-scythe"
     },
     {
       "key": "item:302",
@@ -180,11 +98,88 @@
       "url": "/lu4/item/298-orcish-glaive"
     },
     {
-      "key": "item:96",
+      "key": "item:1962",
       "type": "item",
-      "id": 96,
-      "name": "Scythe C",
-      "url": "/lu4/item/96-scythe"
+      "id": 1962,
+      "name": "Karmian Tunic Pattern NG",
+      "url": "/lu4/item/1962-karmian-tunic-pattern"
+    },
+    {
+      "key": "item:439",
+      "type": "item",
+      "id": 439,
+      "name": "Karmian Tunic C",
+      "url": "/lu4/item/439-karmian-tunic"
+    },
+    {
+      "key": "item:471",
+      "type": "item",
+      "id": 471,
+      "name": "Karmian Stockings C",
+      "url": "/lu4/item/471-karmian-stockings"
+    },
+    {
+      "key": "item:1954",
+      "type": "item",
+      "id": 1954,
+      "name": "Karmian Stocking Design NG",
+      "url": "/lu4/item/1954-karmian-stocking-design"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "npc:25215",

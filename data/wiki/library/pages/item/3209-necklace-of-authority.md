@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Necklace of Authority
+# Necklace of Authority
 
-- Source: https://masterwork.wiki/lu4/item/3209-necklace-of-authority
+- Source: https://masterwork.wiki/lu4-b-w-c/item/3209-necklace-of-authority
 - Path: /lu4/item/3209-necklace-of-authority
 - Type: item
 - Key: item:3209
 
 ## Stats
+- Effect: A symbol given to those representing Pa'agrio Lord Kakai.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Necklace of Authority
-Lu4
-Eternal
-MasterWork
-Necklace of Authority
-NG
-Quest Item
-A symbol given to those representing Pa'agrio Lord Kakai.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Testimony of Glory
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Necklace of Authority NG Quest Item A symbol given to those representing Pa'agrio Lord Kakai. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

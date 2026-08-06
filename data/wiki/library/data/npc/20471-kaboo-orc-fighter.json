@@ -2,98 +2,60 @@
   "key": "npc:20471",
   "type": "npc",
   "id": 20471,
-  "name": "Lu4 Wiki: NPC Kaboo Orc Fighter",
+  "name": "Kaboo Orc Fighter",
   "url": "/lu4/npc/20471-kaboo-orc-fighter",
-  "source_url": "https://masterwork.wiki/lu4/npc/20471-kaboo-orc-fighter",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20471-kaboo-orc-fighter",
   "raw_html": "library/raw/lu4/npc/20471-kaboo-orc-fighter.html",
   "stats": {
-    "Location": "Эльфийский Лес (+1) Эльфийский Лес Тень Древа Жизни"
+    "Respawn Time": "12 seconds",
+    "Location": "Эльфийский Лес (+1) Эльфийский Лес Тень Древа Жизни",
+    "HP / MP": "258 / 133",
+    "P. Atk. / M. Atk.": "22 / 10",
+    "P. Def. / M. Def.": "67 / 54",
+    "Accuracy / Evasion": "46 / 45",
+    "Exp / SP": "274 / 27",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 10"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20471",
-      "type": "npc",
-      "id": 20471,
-      "name": "Lu4",
-      "url": "/lu4/npc/20471-kaboo-orc-fighter"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
-      "key": "location:111",
-      "type": "location",
-      "id": 111,
-      "name": "Тень Древа Жизни",
-      "url": "/lu4/location/111-ten-dreva-zizni"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:2005",
-      "type": "item",
-      "id": 2005,
-      "name": "Broadsword Blade NG",
-      "url": "/lu4/item/2005-broadsword-blade"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1666",
-      "type": "item",
-      "id": 1666,
-      "name": "Recipe: Wooden Arrow NG",
-      "url": "/lu4/item/1666-recipe-wooden-arrow"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -110,11 +72,32 @@
       "url": "/lu4/item/3-broadsword"
     },
     {
-      "key": "item:1797",
+      "key": "item:2005",
       "type": "item",
-      "id": 1797,
-      "name": "Recipe: Leather Stockings NG",
-      "url": "/lu4/item/1797-recipe-leather-stockings"
+      "id": 2005,
+      "name": "Broadsword Blade NG",
+      "url": "/lu4/item/2005-broadsword-blade"
+    },
+    {
+      "key": "item:1666",
+      "type": "item",
+      "id": 1666,
+      "name": "Recipe: Wooden Arrow NG",
+      "url": "/lu4/item/1666-recipe-wooden-arrow"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:428",
@@ -122,6 +105,13 @@
       "id": 428,
       "name": "Feriotic Tunic NG",
       "url": "/lu4/item/428-feriotic-tunic"
+    },
+    {
+      "key": "item:1797",
+      "type": "item",
+      "id": 1797,
+      "name": "Recipe: Leather Stockings NG",
+      "url": "/lu4/item/1797-recipe-leather-stockings"
     }
   ]
 }

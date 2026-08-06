@@ -2,133 +2,116 @@
   "key": "npc:20980",
   "type": "npc",
   "id": 20980,
-  "name": "Lu4 Wiki: NPC Hallate's Follower Mul",
+  "name": "Hallate's Follower Mul",
   "url": "/lu4/npc/20980-hallates-follower-mul",
-  "source_url": "https://masterwork.wiki/lu4/npc/20980-hallates-follower-mul",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20980-hallates-follower-mul",
   "raw_html": "library/raw/lu4/npc/20980-hallates-follower-mul.html",
   "stats": {
-    "Location": "Башня Дерзости: 5-й этаж"
+    "Respawn Time": "8 minutes, 20 seconds ± 1 minute",
+    "Location": "Башня Дерзости: 5-й этаж",
+    "HP / MP": "248 750 / 1 580",
+    "P. Atk. / M. Atk.": "5 749 / 4 018",
+    "P. Def. / M. Def.": "928 / 770",
+    "Accuracy / Evasion": "135 / 100",
+    "Exp / SP": "655 451 / 65 545",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Unique Monster Lv. 1 A unique creature of immense power. It cannot be defeated alone. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Skill_32534 Lv. 1 Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 67"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20980",
-      "type": "npc",
-      "id": 20980,
-      "name": "Lu4",
-      "url": "/lu4/npc/20980-hallates-follower-mul"
-    },
-    {
-      "key": "location:88",
-      "type": "location",
-      "id": 88,
-      "name": "Башня Дерзости: 5-й этаж",
-      "url": "/lu4/location/88-basna-derzosti-5-j-etaz"
-    },
-    {
       "key": "skill:27944",
       "type": "skill",
       "id": 27944,
-      "name": "Unique Monster Lv. 1 A unique creature of immense power. It cannot be defeated alone.",
-      "url": "/lu4/skill/27944-unique-monster/1"
+      "name": "Unique Monster",
+      "url": "/lu4/skill/27944-unique-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:32534",
       "type": "skill",
       "id": 32534,
-      "name": "Skill_32534 Lv. 1",
-      "url": "/lu4/skill/32534-skill32534/1"
+      "name": "Skill_32534",
+      "url": "/lu4/skill/32534-skill32534"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:39290",
+      "key": "item:57",
       "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32431",
-      "type": "item",
-      "id": 32431,
-      "name": "Unidentified Infernal Master A",
-      "url": "/lu4/item/32431-unidentified-infernal-master"
-    },
-    {
-      "key": "item:8331",
-      "type": "item",
-      "id": 8331,
-      "name": "Infernal Master Blade NG",
-      "url": "/lu4/item/8331-infernal-master-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1872",
@@ -166,18 +149,25 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:39290",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
     },
     {
-      "key": "item:4041",
+      "key": "item:32431",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 32431,
+      "name": "Unidentified Infernal Master A",
+      "url": "/lu4/item/32431-unidentified-infernal-master"
+    },
+    {
+      "key": "item:8331",
+      "type": "item",
+      "id": 8331,
+      "name": "Infernal Master Blade NG",
+      "url": "/lu4/item/8331-infernal-master-blade"
     },
     {
       "key": "item:4039",
@@ -185,6 +175,13 @@
       "id": 4039,
       "name": "Mold Glue NG",
       "url": "/lu4/item/4039-mold-glue"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
       "key": "npc:20981",

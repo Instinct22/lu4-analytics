@@ -2,63 +2,74 @@
   "key": "npc:20439",
   "type": "npc",
   "id": 20439,
-  "name": "Lu4 Wiki: NPC Ol Mahum Officer",
+  "name": "Ol Mahum Officer",
   "url": "/lu4/npc/20439-ol-mahum-officer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20439-ol-mahum-officer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20439-ol-mahum-officer",
   "raw_html": "library/raw/lu4/npc/20439-ol-mahum-officer.html",
   "stats": {
-    "Location": "Земли Глудио (+2) Земли Глудио Заброшенный Лагерь Застава Гноллов"
+    "Respawn Time": "20 seconds",
+    "Location": "Земли Глудио (+2) Земли Глудио Заброшенный Лагерь Застава Гноллов",
+    "HP / MP": "1 413 / 302",
+    "P. Atk. / M. Atk.": "84 / 41",
+    "P. Def. / M. Def.": "119 / 95",
+    "Accuracy / Evasion": "60 / 59",
+    "Exp / SP": "1 338 / 134",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 24"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20439",
-      "type": "npc",
-      "id": 20439,
-      "name": "Lu4",
-      "url": "/lu4/npc/20439-ol-mahum-officer"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:31",
-      "type": "location",
-      "id": 31,
-      "name": "Заброшенный Лагерь",
-      "url": "/lu4/location/31-zabrosennyj-lager"
-    },
-    {
-      "key": "location:248",
-      "type": "location",
-      "id": 248,
-      "name": "Застава Гноллов",
-      "url": "/lu4/location/248-zastava-gnollov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
-      "key": "item:2021",
+      "key": "item:57",
       "type": "item",
-      "id": 2021,
-      "name": "Spinebone Sword Blade NG",
-      "url": "/lu4/item/2021-spinebone-sword-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:25",
+      "type": "item",
+      "id": 25,
+      "name": "Piece Bone Breastplate NG",
+      "url": "/lu4/item/25-piece-bone-breastplate"
+    },
+    {
+      "key": "item:26",
+      "type": "item",
+      "id": 26,
+      "name": "Bronze Breastplate NG",
+      "url": "/lu4/item/26-bronze-breastplate"
+    },
+    {
+      "key": "item:32",
+      "type": "item",
+      "id": 32,
+      "name": "Piece Bone Gaiters NG",
+      "url": "/lu4/item/32-piece-bone-gaiters"
+    },
+    {
+      "key": "item:34",
+      "type": "item",
+      "id": 34,
+      "name": "Bronze Gaiters NG",
+      "url": "/lu4/item/34-bronze-gaiters"
     },
     {
       "key": "item:1928",
@@ -110,46 +121,11 @@
       "url": "/lu4/item/125-spinebone-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:2021",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:34",
-      "type": "item",
-      "id": 34,
-      "name": "Bronze Gaiters NG",
-      "url": "/lu4/item/34-bronze-gaiters"
-    },
-    {
-      "key": "item:32",
-      "type": "item",
-      "id": 32,
-      "name": "Piece Bone Gaiters NG",
-      "url": "/lu4/item/32-piece-bone-gaiters"
-    },
-    {
-      "key": "item:26",
-      "type": "item",
-      "id": 26,
-      "name": "Bronze Breastplate NG",
-      "url": "/lu4/item/26-bronze-breastplate"
-    },
-    {
-      "key": "item:25",
-      "type": "item",
-      "id": 25,
-      "name": "Piece Bone Breastplate NG",
-      "url": "/lu4/item/25-piece-bone-breastplate"
-    },
-    {
-      "key": "item:2180",
-      "type": "item",
-      "id": 2180,
-      "name": "Recipe: Scale Mail NG",
-      "url": "/lu4/item/2180-recipe-scale-mail"
+      "id": 2021,
+      "name": "Spinebone Sword Blade NG",
+      "url": "/lu4/item/2021-spinebone-sword-blade"
     },
     {
       "key": "item:2015",
@@ -157,6 +133,13 @@
       "id": 2015,
       "name": "Sword Breaker Edge NG",
       "url": "/lu4/item/2015-sword-breaker-edge"
+    },
+    {
+      "key": "item:2180",
+      "type": "item",
+      "id": 2180,
+      "name": "Recipe: Scale Mail NG",
+      "url": "/lu4/item/2180-recipe-scale-mail"
     }
   ]
 }

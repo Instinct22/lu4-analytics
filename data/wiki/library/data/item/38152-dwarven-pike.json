@@ -2,36 +2,40 @@
   "key": "item:38152",
   "type": "item",
   "id": 38152,
-  "name": "Lu4 Wiki: Item Dwarven Pike",
+  "name": "Dwarven Pike",
   "url": "/lu4/item/38152-dwarven-pike",
-  "source_url": "https://masterwork.wiki/lu4/item/38152-dwarven-pike",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/38152-dwarven-pike",
   "raw_html": "library/raw/lu4/item/38152-dwarven-pike.html",
   "stats": {
+    "Effect": "<Passive Effect> Accuracy +5.",
+    "P. Atk. / M. Atk.": "64 / 39",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "1373 Crystallization Failed Enchant +0 1373 - +1 1463 - +2 1553 - +3 1643 - +4 1823 1136 +5 2003 1316 +6 2183 1496 +7 2363 1676 +8 2543 1856 +9 2723 2036 +10 2903 2216 +11 3083 2396 +12 3263 2576",
+    "NPC Sell Price": "371 750 Adena",
+    "Weight": "2070",
+    "P. Crit. Rate.": "8",
+    "Accuracy": "-4",
     "Item Skills": "Polearm Multi-Attack Lv. 1 Special Ability: Guidance Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Dwarven Pike D",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Polearm / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:38152",
-      "type": "item",
-      "id": 38152,
-      "name": "Lu4",
-      "url": "/lu4/item/38152-dwarven-pike"
-    },
-    {
       "key": "skill:3599",
       "type": "skill",
       "id": 3599,
-      "name": "Polearm Multi-Attack Lv. 1",
-      "url": "/lu4/skill/3599-polearm-multi-attack/1"
+      "name": "Polearm Multi-Attack",
+      "url": "/lu4/skill/3599-polearm-multi-attack"
     },
     {
       "key": "skill:24297",
       "type": "skill",
       "id": 24297,
-      "name": "Special Ability: Guidance Lv. 1",
-      "url": "/lu4/skill/24297-special-ability-guidance/1"
+      "name": "Special Ability: Guidance",
+      "url": "/lu4/skill/24297-special-ability-guidance"
     }
   ]
 }

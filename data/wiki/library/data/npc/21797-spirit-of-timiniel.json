@@ -2,154 +2,81 @@
   "key": "npc:21797",
   "type": "npc",
   "id": 21797,
-  "name": "Lu4 Wiki: NPC Spirit of Timiniel",
+  "name": "Spirit of Timiniel",
   "url": "/lu4/npc/21797-spirit-of-timiniel",
-  "source_url": "https://masterwork.wiki/lu4/npc/21797-spirit-of-timiniel",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21797-spirit-of-timiniel",
   "raw_html": "library/raw/lu4/npc/21797-spirit-of-timiniel.html",
   "stats": {
-    "Location": "Волшебная Долина"
+    "Respawn Time": "1 minute, 10 seconds ± 5 seconds",
+    "Location": "Волшебная Долина",
+    "HP / MP": "10 993 / 1 096",
+    "P. Atk. / M. Atk.": "962 / 599",
+    "P. Def. / M. Def.": "361 / 270",
+    "Accuracy / Evasion": "91 / 101",
+    "Exp / SP": "14 699 / 1 470",
+    "Attack Attribute": "Wind 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Def. Lv. 13 Slightly Weak M. Def. Lv. 10 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 58"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21797",
-      "type": "npc",
-      "id": 21797,
-      "name": "Lu4",
-      "url": "/lu4/npc/21797-spirit-of-timiniel"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32433",
-      "type": "item",
-      "id": 32433,
-      "name": "Unidentified Spell Breaker B",
-      "url": "/lu4/item/32433-unidentified-spell-breaker"
-    },
-    {
-      "key": "item:32403",
-      "type": "item",
-      "id": 32403,
-      "name": "Unidentified Sealed Avadon Boots B",
-      "url": "/lu4/item/32403-unidentified-sealed-avadon-boots"
-    },
-    {
-      "key": "item:8339",
-      "type": "item",
-      "id": 8339,
-      "name": "Spell Breaker Head NG",
-      "url": "/lu4/item/8339-spell-breaker-head"
-    },
-    {
-      "key": "item:4098",
-      "type": "item",
-      "id": 4098,
-      "name": "Sealed Avadon Boots Design NG",
-      "url": "/lu4/item/4098-sealed-avadon-boots-design"
-    },
-    {
-      "key": "item:4049",
-      "type": "item",
-      "id": 4049,
-      "name": "Adamantite Earring Gemstone NG",
-      "url": "/lu4/item/4049-adamantite-earring-gemstone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1872",
@@ -194,18 +121,81 @@
       "url": "/lu4/item/856-adamantite-earring"
     },
     {
-      "key": "item:57",
+      "key": "item:4049",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4049,
+      "name": "Adamantite Earring Gemstone NG",
+      "url": "/lu4/item/4049-adamantite-earring-gemstone"
     },
     {
-      "key": "item:4106",
+      "key": "item:32403",
       "type": "item",
-      "id": 4106,
-      "name": "Sprite's Staff Head NG",
-      "url": "/lu4/item/4106-sprites-staff-head"
+      "id": 32403,
+      "name": "Unidentified Sealed Avadon Boots B",
+      "url": "/lu4/item/32403-unidentified-sealed-avadon-boots"
+    },
+    {
+      "key": "item:4098",
+      "type": "item",
+      "id": 4098,
+      "name": "Sealed Avadon Boots Design NG",
+      "url": "/lu4/item/4098-sealed-avadon-boots-design"
+    },
+    {
+      "key": "item:32433",
+      "type": "item",
+      "id": 32433,
+      "name": "Unidentified Spell Breaker B",
+      "url": "/lu4/item/32433-unidentified-spell-breaker"
+    },
+    {
+      "key": "item:8339",
+      "type": "item",
+      "id": 8339,
+      "name": "Spell Breaker Head NG",
+      "url": "/lu4/item/8339-spell-breaker-head"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:4104",
@@ -220,6 +210,13 @@
       "id": 4066,
       "name": "Zubei's Leather Shirt Fabric NG",
       "url": "/lu4/item/4066-zubeis-leather-shirt-fabric"
+    },
+    {
+      "key": "item:4106",
+      "type": "item",
+      "id": 4106,
+      "name": "Sprite's Staff Head NG",
+      "url": "/lu4/item/4106-sprites-staff-head"
     }
   ]
 }

@@ -2,105 +2,95 @@
   "key": "npc:20753",
   "type": "npc",
   "id": 20753,
-  "name": "Lu4 Wiki: NPC Dark Lord",
+  "name": "Dark Lord",
   "url": "/lu4/npc/20753-dark-lord",
-  "source_url": "https://masterwork.wiki/lu4/npc/20753-dark-lord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20753-dark-lord",
   "raw_html": "library/raw/lu4/npc/20753-dark-lord.html",
   "stats": {
-    "Location": "Башня Крумы: 2-й этаж"
+    "Respawn Time": "1 minute, 10 seconds ± 10 seconds",
+    "Location": "Башня Крумы: 2-й этаж",
+    "HP / MP": "8 981 / 921",
+    "P. Atk. / M. Atk.": "432 / 371",
+    "P. Def. / M. Def.": "307 / 249",
+    "Accuracy / Evasion": "83 / 83",
+    "Exp / SP": "10 898 / 1 090",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Slightly Weak P. Atk. Lv. 9 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Stun Attack Resistance Lv. 1 Slightly resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 50"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20753",
-      "type": "npc",
-      "id": 20753,
-      "name": "Lu4",
-      "url": "/lu4/npc/20753-dark-lord"
-    },
-    {
-      "key": "location:55",
-      "type": "location",
-      "id": 55,
-      "name": "Башня Крумы: 2-й этаж",
-      "url": "/lu4/location/55-basna-krumy-2-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 9",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/9"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 1 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/1"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
-      "key": "item:5549",
+      "key": "item:57",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:4609",
-      "type": "item",
-      "id": 4609,
-      "name": "Greater Dye of MEN <Men+3 Int-3> NG",
-      "url": "/lu4/item/4609-greater-dye-of-men-men3-int-3"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4044",
@@ -110,32 +100,18 @@
       "url": "/lu4/item/4044-thons"
     },
     {
-      "key": "item:2953",
+      "key": "item:4609",
       "type": "item",
-      "id": 2953,
-      "name": "Demon's Gloves Fabric NG",
-      "url": "/lu4/item/2953-demons-gloves-fabric"
+      "id": 4609,
+      "name": "Greater Dye of MEN <Men+3 Int-3> NG",
+      "url": "/lu4/item/4609-greater-dye-of-men-men3-int-3"
     },
     {
-      "key": "item:2459",
+      "key": "item:1342",
       "type": "item",
-      "id": 2459,
-      "name": "Demon's Gloves C",
-      "url": "/lu4/item/2459-demons-gloves"
-    },
-    {
-      "key": "item:2100",
-      "type": "item",
-      "id": 2100,
-      "name": "Paradia Staff Head NG",
-      "url": "/lu4/item/2100-paradia-staff-head"
-    },
-    {
-      "key": "item:1984",
-      "type": "item",
-      "id": 1984,
-      "name": "Theca Leather Armor Pattern NG",
-      "url": "/lu4/item/1984-theca-leather-armor-pattern"
+      "id": 1342,
+      "name": "Steel Arrow C",
+      "url": "/lu4/item/1342-steel-arrow"
     },
     {
       "key": "item:1889",
@@ -159,18 +135,25 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:1342",
+      "key": "item:5549",
       "type": "item",
-      "id": 1342,
-      "name": "Steel Arrow C",
-      "url": "/lu4/item/1342-steel-arrow"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     },
     {
-      "key": "item:400",
+      "key": "item:2459",
       "type": "item",
-      "id": 400,
-      "name": "Theca Leather Armor C",
-      "url": "/lu4/item/400-theca-leather-armor"
+      "id": 2459,
+      "name": "Demon's Gloves C",
+      "url": "/lu4/item/2459-demons-gloves"
+    },
+    {
+      "key": "item:2953",
+      "type": "item",
+      "id": 2953,
+      "name": "Demon's Gloves Fabric NG",
+      "url": "/lu4/item/2953-demons-gloves-fabric"
     },
     {
       "key": "item:197",
@@ -180,53 +163,32 @@
       "url": "/lu4/item/197-paradia-staff"
     },
     {
-      "key": "item:57",
+      "key": "item:2100",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2100,
+      "name": "Paradia Staff Head NG",
+      "url": "/lu4/item/2100-paradia-staff-head"
     },
     {
-      "key": "item:4601",
+      "key": "item:400",
       "type": "item",
-      "id": 4601,
-      "name": "Greater Dye of STR <Str+3 Con-3> NG",
-      "url": "/lu4/item/4601-greater-dye-of-str-str3-con-3"
+      "id": 400,
+      "name": "Theca Leather Armor C",
+      "url": "/lu4/item/400-theca-leather-armor"
     },
     {
-      "key": "item:3010",
+      "key": "item:1984",
       "type": "item",
-      "id": 3010,
-      "name": "Recipe: Composite Helmet NG",
-      "url": "/lu4/item/3010-recipe-composite-helmet"
+      "id": 1984,
+      "name": "Theca Leather Armor Pattern NG",
+      "url": "/lu4/item/1984-theca-leather-armor-pattern"
     },
     {
-      "key": "item:3009",
+      "key": "item:1874",
       "type": "item",
-      "id": 3009,
-      "name": "Recipe: Composite Boots NG",
-      "url": "/lu4/item/3009-recipe-composite-boots"
-    },
-    {
-      "key": "item:2104",
-      "type": "item",
-      "id": 2104,
-      "name": "Club of Nature Head NG",
-      "url": "/lu4/item/2104-club-of-nature-head"
-    },
-    {
-      "key": "item:2091",
-      "type": "item",
-      "id": 2091,
-      "name": "Tsurugi Blade NG",
-      "url": "/lu4/item/2091-tsurugi-blade"
-    },
-    {
-      "key": "item:1978",
-      "type": "item",
-      "id": 1978,
-      "name": "Tower Shield Fragment NG",
-      "url": "/lu4/item/1978-tower-shield-fragment"
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
       "key": "item:1875",
@@ -236,11 +198,46 @@
       "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:1874",
+      "key": "item:4601",
       "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
+      "id": 4601,
+      "name": "Greater Dye of STR <Str+3 Con-3> NG",
+      "url": "/lu4/item/4601-greater-dye-of-str-str3-con-3"
+    },
+    {
+      "key": "item:3009",
+      "type": "item",
+      "id": 3009,
+      "name": "Recipe: Composite Boots NG",
+      "url": "/lu4/item/3009-recipe-composite-boots"
+    },
+    {
+      "key": "item:3010",
+      "type": "item",
+      "id": 3010,
+      "name": "Recipe: Composite Helmet NG",
+      "url": "/lu4/item/3010-recipe-composite-helmet"
+    },
+    {
+      "key": "item:2104",
+      "type": "item",
+      "id": 2104,
+      "name": "Club of Nature Head NG",
+      "url": "/lu4/item/2104-club-of-nature-head"
+    },
+    {
+      "key": "item:1978",
+      "type": "item",
+      "id": 1978,
+      "name": "Tower Shield Fragment NG",
+      "url": "/lu4/item/1978-tower-shield-fragment"
+    },
+    {
+      "key": "item:2091",
+      "type": "item",
+      "id": 2091,
+      "name": "Tsurugi Blade NG",
+      "url": "/lu4/item/2091-tsurugi-blade"
     },
     {
       "key": "npc:20754",

@@ -2,90 +2,24 @@
   "key": "item:2191",
   "type": "item",
   "id": 2191,
-  "name": "Recipe",
+  "name": "Recipe: RIP Gauntlets",
   "url": "/lu4/item/2191-recipe-rip-gauntlets",
-  "source_url": "https://masterwork.wiki/lu4/item/2191-recipe-rip-gauntlets",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2191-recipe-rip-gauntlets",
   "raw_html": "library/raw/lu4/item/2191-recipe-rip-gauntlets.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Rip Gauntlets'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "747 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Rip Gauntlets D"
+    "Result": "Rip Gauntlets D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1946",
-      "type": "item",
-      "id": 1946,
-      "name": "Rip Gauntlets Pattern NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "amount": "24"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "144"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "30"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "9"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "24"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "5"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2191",
-      "type": "item",
-      "id": 2191,
-      "name": "Lu4",
-      "url": "/lu4/item/2191-recipe-rip-gauntlets"
-    },
     {
       "key": "item:1946",
       "type": "item",
@@ -160,49 +94,49 @@
       "key": "npc:21192",
       "type": "npc",
       "id": 21192,
-      "name": "Gigant Officer Lv. 36",
+      "name": "Gigant Officer",
       "url": "/lu4/npc/21192-gigant-officer"
     },
     {
       "key": "npc:21171",
       "type": "npc",
       "id": 21171,
-      "name": "Lith Overlord Lv. 36",
+      "name": "Lith Overlord",
       "url": "/lu4/npc/21171-lith-overlord"
     },
     {
       "key": "npc:20085",
       "type": "npc",
       "id": 20085,
-      "name": "Puncher Lv. 34",
+      "name": "Puncher",
       "url": "/lu4/npc/20085-puncher"
     },
     {
       "key": "npc:20082",
       "type": "npc",
       "id": 20082,
-      "name": "Ant Recruit Lv. 33",
+      "name": "Ant Recruit",
       "url": "/lu4/npc/20082-ant-recruit"
     },
     {
       "key": "npc:21662",
       "type": "npc",
       "id": 21662,
-      "name": "Otherworldly Invader Elite Soldier Lv. 35",
+      "name": "Otherworldly Invader Elite Soldier",
       "url": "/lu4/npc/21662-otherworldly-invader-elite-soldier"
     },
     {
       "key": "npc:21107",
       "type": "npc",
       "id": 21107,
-      "name": "Delu Lizardman Commander Lv. 35",
+      "name": "Delu Lizardman Commander",
       "url": "/lu4/npc/21107-delu-lizardman-commander"
     },
     {
       "key": "npc:20930",
       "type": "npc",
       "id": 20930,
-      "name": "Hatu Brown Bear Lv. 34",
+      "name": "Hatu Brown Bear",
       "url": "/lu4/npc/20930-hatu-brown-bear"
     }
   ]

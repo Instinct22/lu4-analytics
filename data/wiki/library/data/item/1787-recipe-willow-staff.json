@@ -2,55 +2,24 @@
   "key": "item:1787",
   "type": "item",
   "id": 1787,
-  "name": "Recipe",
+  "name": "Recipe: Willow Staff",
   "url": "/lu4/item/1787-recipe-willow-staff",
-  "source_url": "https://masterwork.wiki/lu4/item/1787-recipe-willow-staff",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1787-recipe-willow-staff",
   "raw_html": "library/raw/lu4/item/1787-recipe-willow-staff.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Willow Staff'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "125 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "30",
     "Success Rate": "100%",
-    "Result": "Willow Staff NG"
+    "Result": "Willow Staff NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2006",
-      "type": "item",
-      "id": 2006,
-      "name": "Willow Staff Head NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "12"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "24"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "12"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:1787",
-      "type": "item",
-      "id": 1787,
-      "name": "Lu4",
-      "url": "/lu4/item/1787-recipe-willow-staff"
-    },
     {
       "key": "item:2006",
       "type": "item",
@@ -90,98 +59,98 @@
       "key": "npc:20539",
       "type": "npc",
       "id": 20539,
-      "name": "Elder Longtail Keltir Lv. 3",
+      "name": "Elder Longtail Keltir",
       "url": "/lu4/npc/20539-elder-longtail-keltir"
     },
     {
       "key": "npc:20536",
       "type": "npc",
       "id": 20536,
-      "name": "Elder Brown Keltir Lv. 3",
+      "name": "Elder Brown Keltir",
       "url": "/lu4/npc/20536-elder-brown-keltir"
     },
     {
       "key": "npc:20533",
       "type": "npc",
       "id": 20533,
-      "name": "Longtail Keltir Lv. 2",
+      "name": "Longtail Keltir",
       "url": "/lu4/npc/20533-longtail-keltir"
     },
     {
       "key": "npc:20531",
       "type": "npc",
       "id": 20531,
-      "name": "Young Prairie Keltir Lv. 1",
+      "name": "Young Prairie Keltir",
       "url": "/lu4/npc/20531-young-prairie-keltir"
     },
     {
       "key": "npc:20525",
       "type": "npc",
       "id": 20525,
-      "name": "Gray Wolf Lv. 4",
+      "name": "Gray Wolf",
       "url": "/lu4/npc/20525-gray-wolf"
     },
     {
       "key": "npc:20442",
       "type": "npc",
       "id": 20442,
-      "name": "Elder Wolf Lv. 5",
+      "name": "Elder Wolf",
       "url": "/lu4/npc/20442-elder-wolf"
     },
     {
       "key": "npc:20432",
       "type": "npc",
       "id": 20432,
-      "name": "Elpy Lv. 1",
+      "name": "Elpy",
       "url": "/lu4/npc/20432-elpy"
     },
     {
       "key": "npc:20319",
       "type": "npc",
       "id": 20319,
-      "name": "Goblin Grave Robber Lv. 5",
+      "name": "Goblin Grave Robber",
       "url": "/lu4/npc/20319-goblin-grave-robber"
     },
     {
       "key": "npc:20317",
       "type": "npc",
       "id": 20317,
-      "name": "Black Wolf Lv. 4",
+      "name": "Black Wolf",
       "url": "/lu4/npc/20317-black-wolf"
     },
     {
       "key": "npc:20535",
       "type": "npc",
       "id": 20535,
-      "name": "Prairie Keltir Lv. 2",
+      "name": "Prairie Keltir",
       "url": "/lu4/npc/20535-prairie-keltir"
     },
     {
       "key": "npc:20532",
       "type": "npc",
       "id": 20532,
-      "name": "Brown Keltir Lv. 2",
+      "name": "Brown Keltir",
       "url": "/lu4/npc/20532-brown-keltir"
     },
     {
       "key": "npc:20530",
       "type": "npc",
       "id": 20530,
-      "name": "Young Red Keltir Lv. 1",
+      "name": "Young Red Keltir",
       "url": "/lu4/npc/20530-young-red-keltir"
     },
     {
       "key": "npc:20325",
       "type": "npc",
       "id": 20325,
-      "name": "Goblin Raider Lv. 5",
+      "name": "Goblin Raider",
       "url": "/lu4/npc/20325-goblin-raider"
     },
     {
       "key": "npc:20120",
       "type": "npc",
       "id": 20120,
-      "name": "Wolf Lv. 4",
+      "name": "Wolf",
       "url": "/lu4/npc/20120-wolf"
     }
   ]

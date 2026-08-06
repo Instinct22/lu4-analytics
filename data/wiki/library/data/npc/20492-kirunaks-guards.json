@@ -2,154 +2,109 @@
   "key": "npc:20492",
   "type": "npc",
   "id": 20492,
-  "name": "Lu4 Wiki: NPC Kirunak's Guards",
+  "name": "Kirunak's Guards",
   "url": "/lu4/npc/20492-kirunaks-guards",
-  "source_url": "https://masterwork.wiki/lu4/npc/20492-kirunaks-guards",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20492-kirunaks-guards",
   "raw_html": "library/raw/lu4/npc/20492-kirunaks-guards.html",
   "stats": {
-    "Location": "Эльфийская Крепость"
+    "Respawn Time": "35 seconds",
+    "Location": "Эльфийская Крепость",
+    "HP / MP": "1 163 / 252",
+    "P. Atk. / M. Atk.": "57 / 29",
+    "P. Def. / M. Def.": "122 / 94",
+    "Accuracy / Evasion": "54 / 54",
+    "Exp / SP": "1 112 / 111",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 21"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20492",
-      "type": "npc",
-      "id": 20492,
-      "name": "Lu4",
-      "url": "/lu4/npc/20492-kirunaks-guards"
-    },
-    {
-      "key": "location:114",
-      "type": "location",
-      "id": 114,
-      "name": "Эльфийская Крепость",
-      "url": "/lu4/location/114-elfijskaa-krepost"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:27",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 27,
+      "name": "Hard Leather Shirt NG",
+      "url": "/lu4/item/27-hard-leather-shirt"
     },
     {
-      "key": "item:39298",
+      "key": "item:33",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:8332",
-      "type": "item",
-      "id": 8332,
-      "name": "Priest Sword Blade NG",
-      "url": "/lu4/item/8332-priest-sword-blade"
-    },
-    {
-      "key": "item:7885",
-      "type": "item",
-      "id": 7885,
-      "name": "Priest Sword D",
-      "url": "/lu4/item/7885-priest-sword"
-    },
-    {
-      "key": "item:5278",
-      "type": "item",
-      "id": 5278,
-      "name": "Recipe: Greater Blessed Spiritshot (D) Compressed Package(100%) NG",
-      "url": "/lu4/item/5278-recipe-greater-blessed-spiritshot-d-compressed-package100"
+      "id": 33,
+      "name": "Hard Leather Gaiters NG",
+      "url": "/lu4/item/33-hard-leather-gaiters"
     },
     {
       "key": "item:1929",
@@ -164,6 +119,13 @@
       "id": 1927,
       "name": "Hard Leather Shirt Pattern NG",
       "url": "/lu4/item/1927-hard-leather-shirt-pattern"
+    },
+    {
+      "key": "item:5278",
+      "type": "item",
+      "id": 5278,
+      "name": "Recipe: Greater Blessed Spiritshot (D) Compressed Package(100%) NG",
+      "url": "/lu4/item/5278-recipe-greater-blessed-spiritshot-d-compressed-package100"
     },
     {
       "key": "item:1879",
@@ -187,11 +149,25 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:847",
+      "key": "item:166",
       "type": "item",
-      "id": 847,
-      "name": "Red Crescent Earring D",
-      "url": "/lu4/item/847-red-crescent-earring"
+      "id": 166,
+      "name": "Heavy Mace D",
+      "url": "/lu4/item/166-heavy-mace"
+    },
+    {
+      "key": "item:7885",
+      "type": "item",
+      "id": 7885,
+      "name": "Priest Sword D",
+      "url": "/lu4/item/7885-priest-sword"
+    },
+    {
+      "key": "item:8332",
+      "type": "item",
+      "id": 8332,
+      "name": "Priest Sword Blade NG",
+      "url": "/lu4/item/8332-priest-sword-blade"
     },
     {
       "key": "item:168",
@@ -201,46 +177,53 @@
       "url": "/lu4/item/168-work-hammer"
     },
     {
-      "key": "item:166",
+      "key": "item:847",
       "type": "item",
-      "id": 166,
-      "name": "Heavy Mace D",
-      "url": "/lu4/item/166-heavy-mace"
+      "id": 847,
+      "name": "Red Crescent Earring D",
+      "url": "/lu4/item/847-red-crescent-earring"
     },
     {
-      "key": "item:57",
+      "key": "item:39295",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:33",
+      "key": "item:39296",
       "type": "item",
-      "id": 33,
-      "name": "Hard Leather Gaiters NG",
-      "url": "/lu4/item/33-hard-leather-gaiters"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:27",
+      "key": "item:39297",
       "type": "item",
-      "id": 27,
-      "name": "Hard Leather Shirt NG",
-      "url": "/lu4/item/27-hard-leather-shirt"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
-      "key": "item:8343",
+      "key": "item:39298",
       "type": "item",
-      "id": 8343,
-      "name": "Titan Hammer Piece NG",
-      "url": "/lu4/item/8343-titan-hammer-piece"
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
     },
     {
-      "key": "item:8327",
+      "key": "item:39299",
       "type": "item",
-      "id": 8327,
-      "name": "Steel Sword Blade NG",
-      "url": "/lu4/item/8327-steel-sword-blade"
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:25",
@@ -248,6 +231,13 @@
       "id": 25,
       "name": "Piece Bone Breastplate NG",
       "url": "/lu4/item/25-piece-bone-breastplate"
+    },
+    {
+      "key": "item:8327",
+      "type": "item",
+      "id": 8327,
+      "name": "Steel Sword Blade NG",
+      "url": "/lu4/item/8327-steel-sword-blade"
     }
   ]
 }

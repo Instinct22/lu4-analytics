@@ -2,103 +2,72 @@
   "key": "npc:21686",
   "type": "npc",
   "id": 21686,
-  "name": "Lu4 Wiki: NPC Dimension Invader Shaman",
+  "name": "Dimension Invader Shaman",
   "url": "/lu4/npc/21686-dimension-invader-shaman",
-  "source_url": "https://masterwork.wiki/lu4/npc/21686-dimension-invader-shaman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21686-dimension-invader-shaman",
   "raw_html": "library/raw/lu4/npc/21686-dimension-invader-shaman.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "5 186 / 686",
+    "P. Atk. / M. Atk.": "342 / 173",
+    "P. Def. / M. Def.": "170 / 353",
+    "Accuracy / Evasion": "76 / 86",
+    "Exp / SP": "9 597 / 648",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Extremely Strong M. Def. Lv. 18 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 43"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21686",
-      "type": "npc",
-      "id": 21686,
-      "name": "Lu4",
-      "url": "/lu4/npc/21686-dimension-invader-shaman"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Extremely Strong M. Def. Lv. 18",
-      "url": "/lu4/skill/4413-extremely-strong-m-def/18"
+      "name": "Extremely Strong M. Def.",
+      "url": "/lu4/skill/4413-extremely-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:2161",
+      "key": "item:57",
       "type": "item",
-      "id": 2161,
-      "name": "Recipe: Aquastone Ring NG",
-      "url": "/lu4/item/2161-recipe-aquastone-ring"
-    },
-    {
-      "key": "item:2054",
-      "type": "item",
-      "id": 2054,
-      "name": "Light Crossbow Shaft NG",
-      "url": "/lu4/item/2054-light-crossbow-shaft"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:280",
@@ -108,11 +77,46 @@
       "url": "/lu4/item/280-light-crossbow"
     },
     {
-      "key": "item:57",
+      "key": "item:2054",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2054,
+      "name": "Light Crossbow Shaft NG",
+      "url": "/lu4/item/2054-light-crossbow-shaft"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:1884",
+      "type": "item",
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
+    },
+    {
+      "key": "item:2161",
+      "type": "item",
+      "id": 2161,
+      "name": "Recipe: Aquastone Ring NG",
+      "url": "/lu4/item/2161-recipe-aquastone-ring"
     },
     {
       "key": "item:4470",

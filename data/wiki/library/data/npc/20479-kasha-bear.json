@@ -2,133 +2,60 @@
   "key": "npc:20479",
   "type": "npc",
   "id": 20479,
-  "name": "Lu4 Wiki: NPC Kasha Bear",
+  "name": "Kasha Bear",
   "url": "/lu4/npc/20479-kasha-bear",
-  "source_url": "https://masterwork.wiki/lu4/npc/20479-kasha-bear",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20479-kasha-bear",
   "raw_html": "library/raw/lu4/npc/20479-kasha-bear.html",
   "stats": {
-    "Location": "Плато Бессмертия (+4) Плато Бессмертия Плато Бессмертия, юг Нейтральные Воды Перекресток Разбойников Плато Бессмертия, север"
+    "Respawn Time": "25 seconds",
+    "Location": "Плато Бессмертия (+4) Плато Бессмертия Плато Бессмертия, юг Нейтральные Воды Перекресток Разбойников Плато Бессмертия, север",
+    "HP / MP": "398 / 183",
+    "P. Atk. / M. Atk.": "37 / 17",
+    "P. Def. / M. Def.": "89 / 72",
+    "Accuracy / Evasion": "48 / 48",
+    "Exp / SP": "424 / 42",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 15"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20479",
-      "type": "npc",
-      "id": 20479,
-      "name": "Lu4",
-      "url": "/lu4/npc/20479-kasha-bear"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
-      "key": "location:191",
-      "type": "location",
-      "id": 191,
-      "name": "Плато Бессмертия, юг",
-      "url": "/lu4/location/191-plato-bessmertia-ug"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
-      "key": "location:61",
-      "type": "location",
-      "id": 61,
-      "name": "Перекресток Разбойников",
-      "url": "/lu4/location/61-perekrestok-razbojnikov"
-    },
-    {
-      "key": "location:189",
-      "type": "location",
-      "id": 189,
-      "name": "Плато Бессмертия, север",
-      "url": "/lu4/location/189-plato-bessmertia-sever"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:2008",
-      "type": "item",
-      "id": 2008,
-      "name": "Cedar Staff Head NG",
-      "url": "/lu4/item/2008-cedar-staff-head"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1833",
-      "type": "item",
-      "id": 1833,
-      "name": "Bandage NG",
-      "url": "/lu4/item/1833-bandage"
-    },
-    {
-      "key": "item:1792",
-      "type": "item",
-      "id": 1792,
-      "name": "Recipe: Short Spear NG",
-      "url": "/lu4/item/1792-recipe-short-spear"
-    },
-    {
-      "key": "item:154",
-      "type": "item",
-      "id": 154,
-      "name": "Dwarven Mace NG",
-      "url": "/lu4/item/154-dwarven-mace"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -145,11 +72,46 @@
       "url": "/lu4/item/9-cedar-staff"
     },
     {
-      "key": "item:1922",
+      "key": "item:154",
       "type": "item",
-      "id": 1922,
-      "name": "Leather Tunic Pattern NG",
-      "url": "/lu4/item/1922-leather-tunic-pattern"
+      "id": 154,
+      "name": "Dwarven Mace NG",
+      "url": "/lu4/item/154-dwarven-mace"
+    },
+    {
+      "key": "item:2008",
+      "type": "item",
+      "id": 2008,
+      "name": "Cedar Staff Head NG",
+      "url": "/lu4/item/2008-cedar-staff-head"
+    },
+    {
+      "key": "item:1792",
+      "type": "item",
+      "id": 1792,
+      "name": "Recipe: Short Spear NG",
+      "url": "/lu4/item/1792-recipe-short-spear"
+    },
+    {
+      "key": "item:1833",
+      "type": "item",
+      "id": 1833,
+      "name": "Bandage NG",
+      "url": "/lu4/item/1833-bandage"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
     },
     {
       "key": "item:1793",
@@ -157,6 +119,13 @@
       "id": 1793,
       "name": "Recipe: Sword of Reflection NG",
       "url": "/lu4/item/1793-recipe-sword-of-reflection"
+    },
+    {
+      "key": "item:1922",
+      "type": "item",
+      "id": 1922,
+      "name": "Leather Tunic Pattern NG",
+      "url": "/lu4/item/1922-leather-tunic-pattern"
     }
   ]
 }

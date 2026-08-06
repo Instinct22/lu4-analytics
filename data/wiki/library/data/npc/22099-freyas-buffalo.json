@@ -2,89 +2,86 @@
   "key": "npc:22099",
   "type": "npc",
   "id": 22099,
-  "name": "Lu4 Wiki: NPC Freya's Buffalo",
+  "name": "Freya's Buffalo",
   "url": "/lu4/npc/22099-freyas-buffalo",
-  "source_url": "https://masterwork.wiki/lu4/npc/22099-freyas-buffalo",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22099-freyas-buffalo",
   "raw_html": "library/raw/lu4/npc/22099-freyas-buffalo.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "179 640 / 1 284",
+    "P. Atk. / M. Atk.": "1 810 / 447",
+    "P. Def. / M. Def.": "344 / 611",
+    "Accuracy / Evasion": "90 / 80",
+    "Exp / SP": "26 698 / 2 149",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (8x) Lv. 16 Extremely Strong P. Atk. Lv. 18 Extremely Strong M. Def. Lv. 20 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. Greater Hold Resistance Lv. 5 Hold Immunity. Greater Sleep Resistance Lv. 5 Sleep Immunity. Spear Resistance Lv. 5 Resistant to spear/pole arm attacks.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 57"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22099",
-      "type": "npc",
-      "id": 22099,
-      "name": "Lu4",
-      "url": "/lu4/npc/22099-freyas-buffalo"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (8x) Lv. 16",
-      "url": "/lu4/skill/4408-hp-increase-8x/16"
+      "name": "HP Increase (8x)",
+      "url": "/lu4/skill/4408-hp-increase-8x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Extremely Strong P. Atk. Lv. 18",
-      "url": "/lu4/skill/4410-extremely-strong-p-atk/18"
+      "name": "Extremely Strong P. Atk.",
+      "url": "/lu4/skill/4410-extremely-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Extremely Strong M. Def. Lv. 20",
-      "url": "/lu4/skill/4413-extremely-strong-m-def/20"
+      "name": "Extremely Strong M. Def.",
+      "url": "/lu4/skill/4413-extremely-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 5 Hold Immunity.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/5"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 5 Sleep Immunity.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/5"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "skill:4379",
       "type": "skill",
       "id": 4379,
-      "name": "Spear Resistance Lv. 5 Resistant to spear/pole arm attacks.",
-      "url": "/lu4/skill/4379-spear-resistance/5"
+      "name": "Spear Resistance",
+      "url": "/lu4/skill/4379-spear-resistance"
     },
     {
-      "key": "item:4108",
+      "key": "item:57",
       "type": "item",
-      "id": 4108,
-      "name": "Sword of Valhalla Blade NG",
-      "url": "/lu4/item/4108-sword-of-valhalla-blade"
-    },
-    {
-      "key": "item:4107",
-      "type": "item",
-      "id": 4107,
-      "name": "Keshanberk Blade NG",
-      "url": "/lu4/item/4107-keshanberk-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4104",
@@ -94,32 +91,18 @@
       "url": "/lu4/item/4104-great-sword-blade"
     },
     {
-      "key": "item:4039",
+      "key": "item:4107",
       "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
+      "id": 4107,
+      "name": "Keshanberk Blade NG",
+      "url": "/lu4/item/4107-keshanberk-blade"
     },
     {
-      "key": "item:1884",
+      "key": "item:4108",
       "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
+      "id": 4108,
+      "name": "Sword of Valhalla Blade NG",
+      "url": "/lu4/item/4108-sword-of-valhalla-blade"
     },
     {
       "key": "item:1864",
@@ -129,11 +112,32 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:57",
+      "key": "item:1869",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:1884",
+      "type": "item",
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
+    },
+    {
+      "key": "item:4039",
+      "type": "item",
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
     }
   ]
 }

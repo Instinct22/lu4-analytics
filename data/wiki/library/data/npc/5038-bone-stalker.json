@@ -2,224 +2,109 @@
   "key": "npc:5038",
   "type": "npc",
   "id": 5038,
-  "name": "Lu4 Wiki: NPC Bone Stalker",
+  "name": "Bone Stalker",
   "url": "/lu4/npc/5038-bone-stalker",
-  "source_url": "https://masterwork.wiki/lu4/npc/5038-bone-stalker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5038-bone-stalker",
   "raw_html": "library/raw/lu4/npc/5038-bone-stalker.html",
   "stats": {
-    "Location": "Древнее Поле Битвы (+1) Древнее Поле Битвы Земли Адена"
+    "Respawn Time": "3 minutes, 40 seconds ± 10 seconds",
+    "Location": "Древнее Поле Битвы (+1) Древнее Поле Битвы Земли Адена",
+    "HP / MP": "25 131 / 1 110",
+    "P. Atk. / M. Atk.": "4 378 / 966",
+    "P. Def. / M. Def.": "705 / 506",
+    "Accuracy / Evasion": "107 / 107",
+    "Exp / SP": "48 490 / 4 849",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets. HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 15 Slightly Strong M. Def. Lv. 13 Strong P. Def. Lv. 14 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Hold Resistance Lv. 5 Resistant to Hold. Sleep Resistance Lv. 5 Resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 72"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5038",
-      "type": "npc",
-      "id": 5038,
-      "name": "Lu4",
-      "url": "/lu4/npc/5038-bone-stalker"
-    },
-    {
-      "key": "location:96",
-      "type": "location",
-      "id": 96,
-      "name": "Древнее Поле Битвы",
-      "url": "/lu4/location/96-drevnee-pole-bitvy"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
-    },
-    {
-      "key": "item:49800",
-      "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32376",
-      "type": "item",
-      "id": 32376,
-      "name": "Unidentified Sealed Tallum Helmet A",
-      "url": "/lu4/item/32376-unidentified-sealed-tallum-helmet"
-    },
-    {
-      "key": "item:6037",
-      "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
-    },
-    {
-      "key": "item:5526",
-      "type": "item",
-      "id": 5526,
-      "name": "Sealed Tallum Helm Design NG",
-      "url": "/lu4/item/5526-sealed-tallum-helm-design"
-    },
-    {
-      "key": "item:5364",
-      "type": "item",
-      "id": 5364,
-      "name": "Recipe: Sealed Dark Crystal Shield(60%) NG",
-      "url": "/lu4/item/5364-recipe-sealed-dark-crystal-shield60"
-    },
-    {
-      "key": "item:5348",
-      "type": "item",
-      "id": 5348,
-      "name": "Recipe: Sealed Dark Crystal Robe(60%) NG",
-      "url": "/lu4/item/5348-recipe-sealed-dark-crystal-robe60"
-    },
-    {
-      "key": "item:5340",
-      "type": "item",
-      "id": 5340,
-      "name": "Recipe: Sealed Dark Crystal Leggings(60%) NG",
-      "url": "/lu4/item/5340-recipe-sealed-dark-crystal-leggings60"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "item:57",
@@ -229,11 +114,123 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:6037",
+      "type": "item",
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32376",
+      "type": "item",
+      "id": 32376,
+      "name": "Unidentified Sealed Tallum Helmet A",
+      "url": "/lu4/item/32376-unidentified-sealed-tallum-helmet"
+    },
+    {
+      "key": "item:5526",
+      "type": "item",
+      "id": 5526,
+      "name": "Sealed Tallum Helm Design NG",
+      "url": "/lu4/item/5526-sealed-tallum-helm-design"
+    },
+    {
+      "key": "item:5348",
+      "type": "item",
+      "id": 5348,
+      "name": "Recipe: Sealed Dark Crystal Robe(60%) NG",
+      "url": "/lu4/item/5348-recipe-sealed-dark-crystal-robe60"
+    },
+    {
+      "key": "item:5364",
+      "type": "item",
+      "id": 5364,
+      "name": "Recipe: Sealed Dark Crystal Shield(60%) NG",
+      "url": "/lu4/item/5364-recipe-sealed-dark-crystal-shield60"
+    },
+    {
+      "key": "item:5340",
+      "type": "item",
+      "id": 5340,
+      "name": "Recipe: Sealed Dark Crystal Leggings(60%) NG",
+      "url": "/lu4/item/5340-recipe-sealed-dark-crystal-leggings60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
       "key": "item:6570",
       "type": "item",
       "id": 6570,
       "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
       "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
+    },
+    {
+      "key": "item:5460",
+      "type": "item",
+      "id": 5460,
+      "name": "Recipe: Dasparion's Staff(60%) NG",
+      "url": "/lu4/item/5460-recipe-dasparions-staff60"
     },
     {
       "key": "item:6333",
@@ -262,13 +259,6 @@
       "id": 5485,
       "name": "Sealed Tallum Tunic Texture NG",
       "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
-    },
-    {
-      "key": "item:5460",
-      "type": "item",
-      "id": 5460,
-      "name": "Recipe: Dasparion's Staff(60%) NG",
-      "url": "/lu4/item/5460-recipe-dasparions-staff60"
     }
   ]
 }

@@ -2,103 +2,107 @@
   "key": "npc:25319",
   "type": "npc",
   "id": 25319,
-  "name": "Lu4 Wiki: NPC Ember",
+  "name": "Ember",
   "url": "/lu4/npc/25319-ember",
-  "source_url": "https://masterwork.wiki/lu4/npc/25319-ember",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25319-ember",
   "raw_html": "library/raw/lu4/npc/25319-ember.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 905 746 / 4 305",
+    "P. Atk. / M. Atk.": "55 440 / 19 154",
+    "P. Def. / M. Def.": "2 029 / 1 982",
+    "Accuracy / Evasion": "143 / 143",
+    "Exp / SP": "6 400 000 / 1 356 050",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 Known as Valakas' Hound, Valakas fashioned this monster out of lava to punish trespassers and fend off enemies while he sleeps. Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Dragon, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25319",
-      "type": "npc",
-      "id": 25319,
-      "name": "Lu4",
-      "url": "/lu4/npc/25319-ember"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4911",
       "type": "skill",
       "id": 4911,
-      "name": "Raid Boss Lv. 1 Known as Valakas' Hound, Valakas fashioned this monster out of lava to punish trespassers and fend off enemies while he sleeps.",
-      "url": "/lu4/skill/4911-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4911-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -108,53 +112,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6713",
+      "key": "item:6689",
       "type": "item",
-      "id": 6713,
-      "name": "Sealed Major Arcana Boots Design NG",
-      "url": "/lu4/item/6713-sealed-major-arcana-boots-design"
-    },
-    {
-      "key": "item:6712",
-      "type": "item",
-      "id": 6712,
-      "name": "Sealed Major Arcana Gloves fabric NG",
-      "url": "/lu4/item/6712-sealed-major-arcana-gloves-fabric"
-    },
-    {
-      "key": "item:6709",
-      "type": "item",
-      "id": 6709,
-      "name": "Sealed Draconic Leather Boots Design NG",
-      "url": "/lu4/item/6709-sealed-draconic-leather-boots-design"
-    },
-    {
-      "key": "item:6708",
-      "type": "item",
-      "id": 6708,
-      "name": "Sealed Draconic Leather Gloves Fabric NG",
-      "url": "/lu4/item/6708-sealed-draconic-leather-gloves-fabric"
-    },
-    {
-      "key": "item:6704",
-      "type": "item",
-      "id": 6704,
-      "name": "Sealed Imperial Crusader Boots Design NG",
-      "url": "/lu4/item/6704-sealed-imperial-crusader-boots-design"
-    },
-    {
-      "key": "item:6703",
-      "type": "item",
-      "id": 6703,
-      "name": "Sealed Imperial Crusader Gauntlets Design NG",
-      "url": "/lu4/item/6703-sealed-imperial-crusader-gauntlets-design"
-    },
-    {
-      "key": "item:6697",
-      "type": "item",
-      "id": 6697,
-      "name": "Arcana Mace Head NG",
-      "url": "/lu4/item/6697-arcana-mace-head"
+      "id": 6689,
+      "name": "Basalt Battlehammer Head NG",
+      "url": "/lu4/item/6689-basalt-battlehammer-head"
     },
     {
       "key": "item:6693",
@@ -164,11 +126,53 @@
       "url": "/lu4/item/6693-dragon-hunter-axe-blade"
     },
     {
+      "key": "item:6697",
+      "type": "item",
+      "id": 6697,
+      "name": "Arcana Mace Head NG",
+      "url": "/lu4/item/6697-arcana-mace-head"
+    },
+    {
       "key": "item:6690",
       "type": "item",
       "id": 6690,
       "name": "Imperial Staff Head NG",
       "url": "/lu4/item/6690-imperial-staff-head"
+    },
+    {
+      "key": "item:6703",
+      "type": "item",
+      "id": 6703,
+      "name": "Sealed Imperial Crusader Gauntlets Design NG",
+      "url": "/lu4/item/6703-sealed-imperial-crusader-gauntlets-design"
+    },
+    {
+      "key": "item:6708",
+      "type": "item",
+      "id": 6708,
+      "name": "Sealed Draconic Leather Gloves Fabric NG",
+      "url": "/lu4/item/6708-sealed-draconic-leather-gloves-fabric"
+    },
+    {
+      "key": "item:6712",
+      "type": "item",
+      "id": 6712,
+      "name": "Sealed Major Arcana Gloves fabric NG",
+      "url": "/lu4/item/6712-sealed-major-arcana-gloves-fabric"
+    },
+    {
+      "key": "item:6704",
+      "type": "item",
+      "id": 6704,
+      "name": "Sealed Imperial Crusader Boots Design NG",
+      "url": "/lu4/item/6704-sealed-imperial-crusader-boots-design"
+    },
+    {
+      "key": "item:6709",
+      "type": "item",
+      "id": 6709,
+      "name": "Sealed Draconic Leather Boots Design NG",
+      "url": "/lu4/item/6709-sealed-draconic-leather-boots-design"
     },
     {
       "key": "npc:25320",

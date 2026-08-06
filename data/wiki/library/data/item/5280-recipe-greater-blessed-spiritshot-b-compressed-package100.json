@@ -2,55 +2,24 @@
   "key": "item:5280",
   "type": "item",
   "id": 5280,
-  "name": "Recipe",
+  "name": "Recipe: Greater Blessed Spiritshot (B) Compressed Package(100%)",
   "url": "/lu4/item/5280-recipe-greater-blessed-spiritshot-b-compressed-package100",
-  "source_url": "https://masterwork.wiki/lu4/item/5280-recipe-greater-blessed-spiritshot-b-compressed-package100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5280-recipe-greater-blessed-spiritshot-b-compressed-package100",
   "raw_html": "library/raw/lu4/item/5280-recipe-greater-blessed-spiritshot-b-compressed-package100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Greater Compressed Package of Blessed Spiritshots (B-Grade)'. Requires Create Item - Skill Level 6 (Warsmith Lv. 49). The success rate is 100%.",
+    "NPC Sell Price": "50 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "6",
     "MP Consume": "540",
     "Success Rate": "100%",
-    "Result": "Greater Compressed Package of Blessed Spiritshots (B-Grade) NG"
+    "Result": "Greater Compressed Package of Blessed Spiritshots (B-Grade) NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:3950",
-      "type": "item",
-      "id": 3950,
-      "name": "Blessed Spiritshot (B-Grade) B",
-      "amount": "1000"
-    },
-    {
-      "key": "item:3031",
-      "type": "item",
-      "id": 3031,
-      "name": "Spirit Ore NG",
-      "amount": "133.33333333333"
-    },
-    {
-      "key": "item:1460",
-      "type": "item",
-      "id": 1460,
-      "name": "Crystal (B-Grade) B",
-      "amount": "16.666666666667"
-    },
-    {
-      "key": "item:5194",
-      "type": "item",
-      "id": 5194,
-      "name": "Rope of Magic (B-Grade) NG",
-      "amount": "248"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:5280",
-      "type": "item",
-      "id": 5280,
-      "name": "Lu4",
-      "url": "/lu4/item/5280-recipe-greater-blessed-spiritshot-b-compressed-package100"
-    },
     {
       "key": "item:3950",
       "type": "item",
@@ -90,42 +59,42 @@
       "key": "npc:21221",
       "type": "npc",
       "id": 21221,
-      "name": "Sepulcher Inquisitor Lv. 52",
+      "name": "Sepulcher Inquisitor",
       "url": "/lu4/npc/21221-sepulcher-inquisitor"
     },
     {
       "key": "npc:21153",
       "type": "npc",
       "id": 21153,
-      "name": "Purgatory Serpent Lv. 56",
+      "name": "Purgatory Serpent",
       "url": "/lu4/npc/21153-purgatory-serpent"
     },
     {
       "key": "npc:20999",
       "type": "npc",
       "id": 20999,
-      "name": "Roving Soul Lv. 53",
+      "name": "Roving Soul",
       "url": "/lu4/npc/20999-roving-soul"
     },
     {
       "key": "npc:20593",
       "type": "npc",
       "id": 20593,
-      "name": "Unicorn Lv. 49",
+      "name": "Unicorn",
       "url": "/lu4/npc/20593-unicorn"
     },
     {
       "key": "npc:20161",
       "type": "npc",
       "id": 20161,
-      "name": "Oel Mahum Lv. 53",
+      "name": "Oel Mahum",
       "url": "/lu4/npc/20161-oel-mahum"
     },
     {
       "key": "npc:5012",
       "type": "npc",
       "id": 5012,
-      "name": "Oathbroken Deadeye Lv. 49",
+      "name": "Oathbroken Deadeye",
       "url": "/lu4/npc/5012-oathbroken-deadeye"
     }
   ]

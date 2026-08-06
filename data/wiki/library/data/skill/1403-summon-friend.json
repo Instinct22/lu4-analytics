@@ -1,0 +1,43 @@
+{
+  "key": "skill:1403",
+  "type": "skill",
+  "id": 1403,
+  "name": "Summon Friend",
+  "url": "/lu4/skill/1403-summon-friend",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1403-summon-friend",
+  "raw_html": "library/raw/lu4/skill/1403-summon-friend.html",
+  "stats": {
+    "Effect": "Teleports a party member to one's current location. Requires a Summon Crystal on the target.",
+    "Consumes": "180 MP",
+    "Reuse Time": "2 minutes, 30 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "WarlockLv. 52Elemental SummonerLv. 52Phantom SummonerLv. 52",
+    "Type": "Magical / Magical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:14",
+      "type": "class",
+      "id": 14,
+      "name": "WarlockLv. 52",
+      "url": "/lu4/class/14-warlock"
+    },
+    {
+      "key": "class:28",
+      "type": "class",
+      "id": 28,
+      "name": "Elemental SummonerLv. 52",
+      "url": "/lu4/class/28-elementalsummoner"
+    },
+    {
+      "key": "class:41",
+      "type": "class",
+      "id": 41,
+      "name": "Phantom SummonerLv. 52",
+      "url": "/lu4/class/41-phantomsummoner"
+    }
+  ]
+}

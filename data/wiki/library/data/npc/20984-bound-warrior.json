@@ -2,124 +2,100 @@
   "key": "npc:20984",
   "type": "npc",
   "id": 20984,
-  "name": "Lu4 Wiki: NPC Bound Warrior",
+  "name": "Bound Warrior",
   "url": "/lu4/npc/20984-bound-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/20984-bound-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20984-bound-warrior",
   "raw_html": "library/raw/lu4/npc/20984-bound-warrior.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "33 186 / 1 565",
+    "P. Atk. / M. Atk.": "5 826 / 2 373",
+    "P. Def. / M. Def.": "1 017 / 727",
+    "Accuracy / Evasion": "115 / 105",
+    "Exp / SP": "82 814 / 8 281",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 53, Unholy -13",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Triple Skill Attack Lv. 2 Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 71"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20984",
-      "type": "npc",
-      "id": 20984,
-      "name": "Lu4",
-      "url": "/lu4/npc/20984-bound-warrior"
-    },
-    {
-      "key": "location:92",
-      "type": "location",
-      "id": 92,
-      "name": "Башня Дерзости: 9-й этаж",
-      "url": "/lu4/location/92-basna-derzosti-9-j-etaz"
-    },
     {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:5622",
       "type": "skill",
       "id": 5622,
-      "name": "Triple Skill Attack Lv. 2",
-      "url": "/lu4/skill/5622-triple-skill-attack/2"
+      "name": "Triple Skill Attack",
+      "url": "/lu4/skill/5622-triple-skill-attack"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:32379",
+      "key": "item:57",
       "type": "item",
-      "id": 32379,
-      "name": "Unidentified Sealed Dark Crystal Leather Armor A",
-      "url": "/lu4/item/32379-unidentified-sealed-dark-crystal-leather-armor"
-    },
-    {
-      "key": "item:6343",
-      "type": "item",
-      "id": 6343,
-      "name": "Sealed Phoenix Necklace Beads NG",
-      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
-    },
-    {
-      "key": "item:6323",
-      "type": "item",
-      "id": 6323,
-      "name": "Sealed Phoenix Necklace A",
-      "url": "/lu4/item/6323-sealed-phoenix-necklace"
-    },
-    {
-      "key": "item:5478",
-      "type": "item",
-      "id": 5478,
-      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
-      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -157,11 +133,32 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:57",
+      "key": "item:32379",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32379,
+      "name": "Unidentified Sealed Dark Crystal Leather Armor A",
+      "url": "/lu4/item/32379-unidentified-sealed-dark-crystal-leather-armor"
+    },
+    {
+      "key": "item:5478",
+      "type": "item",
+      "id": 5478,
+      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
+      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
+    },
+    {
+      "key": "item:6323",
+      "type": "item",
+      "id": 6323,
+      "name": "Sealed Phoenix Necklace A",
+      "url": "/lu4/item/6323-sealed-phoenix-necklace"
+    },
+    {
+      "key": "item:6343",
+      "type": "item",
+      "id": 6343,
+      "name": "Sealed Phoenix Necklace Beads NG",
+      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
     },
     {
       "key": "item:4041",

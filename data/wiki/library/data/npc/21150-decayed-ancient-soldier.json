@@ -2,54 +2,79 @@
   "key": "npc:21150",
   "type": "npc",
   "id": 21150,
-  "name": "Lu4 Wiki: NPC Decayed Ancient Soldier",
+  "name": "Decayed Ancient Soldier",
   "url": "/lu4/npc/21150-decayed-ancient-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21150-decayed-ancient-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21150-decayed-ancient-soldier",
   "raw_html": "library/raw/lu4/npc/21150-decayed-ancient-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "8 671 / 887",
+    "P. Atk. / M. Atk.": "517 / 287",
+    "P. Def. / M. Def.": "296 / 235",
+    "Accuracy / Evasion": "82 / 82",
+    "Exp / SP": "10 980 / 812",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 49"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21150",
-      "type": "npc",
-      "id": 21150,
-      "name": "Lu4",
-      "url": "/lu4/npc/21150-decayed-ancient-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:4041",
+      "key": "item:57",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:2088",
+      "type": "item",
+      "id": 2088,
+      "name": "Horn of Glory Fragment NG",
+      "url": "/lu4/item/2088-horn-of-glory-fragment"
+    },
+    {
+      "key": "item:325",
+      "type": "item",
+      "id": 325,
+      "name": "Horn of Glory C",
+      "url": "/lu4/item/325-horn-of-glory"
+    },
+    {
+      "key": "item:1342",
+      "type": "item",
+      "id": 1342,
+      "name": "Steel Arrow C",
+      "url": "/lu4/item/1342-steel-arrow"
     },
     {
       "key": "item:4040",
@@ -80,13 +105,6 @@
       "url": "/lu4/item/2166-recipe-earring-of-seal-100"
     },
     {
-      "key": "item:2088",
-      "type": "item",
-      "id": 2088,
-      "name": "Horn of Glory Fragment NG",
-      "url": "/lu4/item/2088-horn-of-glory-fragment"
-    },
-    {
       "key": "item:1877",
       "type": "item",
       "id": 1877,
@@ -108,32 +126,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:1342",
+      "key": "item:4041",
       "type": "item",
-      "id": 1342,
-      "name": "Steel Arrow C",
-      "url": "/lu4/item/1342-steel-arrow"
-    },
-    {
-      "key": "item:325",
-      "type": "item",
-      "id": 325,
-      "name": "Horn of Glory C",
-      "url": "/lu4/item/325-horn-of-glory"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:1911",
-      "type": "item",
-      "id": 1911,
-      "name": "Earring of Protection Gemstone NG",
-      "url": "/lu4/item/1911-earring-of-protection-gemstone"
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
       "key": "item:951",
@@ -141,6 +138,13 @@
       "id": 951,
       "name": "Scroll: Enchant Weapon (C-Grade) NG",
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:1911",
+      "type": "item",
+      "id": 1911,
+      "name": "Earring of Protection Gemstone NG",
+      "url": "/lu4/item/1911-earring-of-protection-gemstone"
     }
   ]
 }

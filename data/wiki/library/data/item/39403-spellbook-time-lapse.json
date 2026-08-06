@@ -2,27 +2,25 @@
   "key": "item:39403",
   "type": "item",
   "id": 39403,
-  "name": "Lu4 Wiki: Item Spellbook: Time Lapse",
+  "name": "Spellbook: Time Lapse",
   "url": "/lu4/item/39403-spellbook-time-lapse",
-  "source_url": "https://masterwork.wiki/lu4/item/39403-spellbook-time-lapse",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/39403-spellbook-time-lapse",
   "raw_html": "library/raw/lu4/item/39403-spellbook-time-lapse.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Time Lapse'. Required: Elven Elder - Lv. 40 To obtain this item, hunt the Tamlin Orc found in Hunters Valley.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:39403",
-      "type": "item",
-      "id": 39403,
-      "name": "Lu4",
-      "url": "/lu4/item/39403-spellbook-time-lapse"
-    },
-    {
       "key": "npc:20601",
       "type": "npc",
       "id": 20601,
-      "name": "Tamlin Orc Lv. 41",
+      "name": "Tamlin Orc",
       "url": "/lu4/npc/20601-tamlin-orc"
     }
   ]

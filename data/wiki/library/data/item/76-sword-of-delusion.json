@@ -2,24 +2,26 @@
   "key": "item:76",
   "type": "item",
   "id": 76,
-  "name": "Lu4 Wiki: Item Sword of Delusion",
+  "name": "Sword of Delusion",
   "url": "/lu4/item/76-sword-of-delusion",
-  "source_url": "https://masterwork.wiki/lu4/item/76-sword-of-delusion",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/76-sword-of-delusion",
   "raw_html": "library/raw/lu4/item/76-sword-of-delusion.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Focus: P. Crit. Rate +60. Rsk. Haste: Atk. Spd. +14% when HP < 60%. Health: Max HP +25%.",
+    "P. Atk. / M. Atk.": "139 / 76",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1322 Crystallization Failed Enchant +0 1322 - +1 1367 - +2 1412 - +3 1457 - +4 1547 886 +5 1637 976 +6 1727 1066 +7 1817 1156 +8 1907 1246 +9 1997 1336 +10 2087 1426 +11 2177 1516 +12 2267 1606",
+    "NPC Sell Price": "1 652 150 Adena",
+    "Weight": "1400",
+    "P. Crit. Rate.": "8",
     "Recipes": "Recipe: Sword of Delusion NG",
     "Soul Crystals": "Sword of Delusion Focus C Sword of Delusion C Gemstone C NG (306 pcs.) Red Soul Crystal - Stage 7 NG Sword of Delusion Health C Sword of Delusion C Gemstone C NG (306 pcs.) Green Soul Crystal - Stage 7 NG Sword of Delusion Rsk. Haste C Sword of Delusion C Gemstone C NG (306 pcs.) Blue Soul Crystal - Stage 7 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Sword / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:76",
-      "type": "item",
-      "id": 76,
-      "name": "Lu4",
-      "url": "/lu4/item/76-sword-of-delusion"
-    },
     {
       "key": "item:2328",
       "type": "item",
@@ -77,80 +79,101 @@
       "url": "/lu4/item/4658-blue-soul-crystal-stage-7"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25260",
       "type": "npc",
       "id": 25260,
-      "name": "Iron Giant Totem Lv. 45",
+      "name": "Iron Giant Totem",
       "url": "/lu4/npc/25260-iron-giant-totem"
     },
     {
       "key": "npc:25099",
       "type": "npc",
       "id": 25099,
-      "name": "Rotting Tree Repiro Lv. 44",
+      "name": "Rotting Tree Repiro",
       "url": "/lu4/npc/25099-rotting-tree-repiro"
     },
     {
       "key": "npc:22063",
       "type": "npc",
       "id": 22063,
-      "name": "Ginzu Golem Prodigy X Lv. 52",
+      "name": "Ginzu Golem Prodigy X",
       "url": "/lu4/npc/22063-ginzu-golem-prodigy-x"
     },
     {
       "key": "npc:22060",
       "type": "npc",
       "id": 22060,
-      "name": "Horrifying Cannon Golem Lv. 52",
+      "name": "Horrifying Cannon Golem",
       "url": "/lu4/npc/22060-horrifying-cannon-golem"
     },
     {
       "key": "npc:21705",
       "type": "npc",
       "id": 21705,
-      "name": "Purgatory Invader Soldier Lv. 50",
+      "name": "Purgatory Invader Soldier",
       "url": "/lu4/npc/21705-purgatory-invader-soldier"
     },
     {
       "key": "npc:21630",
       "type": "npc",
       "id": 21630,
-      "name": "Pirate Zombie Captain Lv. 52",
+      "name": "Pirate Zombie Captain",
       "url": "/lu4/npc/21630-pirate-zombie-captain"
     },
     {
       "key": "npc:21629",
       "type": "npc",
       "id": 21629,
-      "name": "Pirate Zombie Captain Lv. 52",
+      "name": "Pirate Zombie Captain",
       "url": "/lu4/npc/21629-pirate-zombie-captain"
     },
     {
       "key": "npc:20758",
       "type": "npc",
       "id": 20758,
-      "name": "Dragon Bearer Chief Lv. 49",
+      "name": "Dragon Bearer Chief",
       "url": "/lu4/npc/20758-dragon-bearer-chief"
     },
     {
       "key": "npc:20685",
       "type": "npc",
       "id": 20685,
-      "name": "Vanor Silenos Shaman Lv. 49",
+      "name": "Vanor Silenos Shaman",
       "url": "/lu4/npc/20685-vanor-silenos-shaman"
     },
     {
       "key": "npc:20684",
       "type": "npc",
       "id": 20684,
-      "name": "Vanor Silenos Warrior Lv. 48",
+      "name": "Vanor Silenos Warrior",
       "url": "/lu4/npc/20684-vanor-silenos-warrior"
     },
     {
       "key": "npc:5013",
       "type": "npc",
       "id": 5013,
-      "name": "Torn Standardbearer Lv. 50",
+      "name": "Torn Standardbearer",
       "url": "/lu4/npc/5013-torn-standardbearer"
     }
   ]

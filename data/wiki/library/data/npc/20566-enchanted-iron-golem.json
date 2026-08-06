@@ -2,175 +2,88 @@
   "key": "npc:20566",
   "type": "npc",
   "id": 20566,
-  "name": "Lu4 Wiki: NPC Enchanted Iron Golem",
+  "name": "Enchanted Iron Golem",
   "url": "/lu4/npc/20566-enchanted-iron-golem",
-  "source_url": "https://masterwork.wiki/lu4/npc/20566-enchanted-iron-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20566-enchanted-iron-golem",
   "raw_html": "library/raw/lu4/npc/20566-enchanted-iron-golem.html",
   "stats": {
-    "Location": "Кратер Башни Слоновой Кости"
+    "Respawn Time": "17 seconds ± 4 seconds",
+    "Location": "Кратер Башни Слоновой Кости",
+    "HP / MP": "1 793 / 686",
+    "P. Atk. / M. Atk.": "307 / 152",
+    "P. Def. / M. Def.": "264 / 310",
+    "Accuracy / Evasion": "76 / 76",
+    "Exp / SP": "2 104 / 210",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Very Strong M. Def. Lv. 16 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Bleed Resistance Lv. 5 Resistant to Bleed.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 43"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20566",
-      "type": "npc",
-      "id": 20566,
-      "name": "Lu4",
-      "url": "/lu4/npc/20566-enchanted-iron-golem"
-    },
-    {
-      "key": "location:239",
-      "type": "location",
-      "id": 239,
-      "name": "Кратер Башни Слоновой Кости",
-      "url": "/lu4/location/239-krater-basni-slonovoj-kosti"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 16",
-      "url": "/lu4/skill/4413-very-strong-m-def/16"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:2990",
-      "type": "item",
-      "id": 2990,
-      "name": "Recipe: Chain Boots NG",
-      "url": "/lu4/item/2990-recipe-chain-boots"
-    },
-    {
-      "key": "item:2299",
-      "type": "item",
-      "id": 2299,
-      "name": "Recipe: Big Hammer NG",
-      "url": "/lu4/item/2299-recipe-big-hammer"
-    },
-    {
-      "key": "item:2212",
-      "type": "item",
-      "id": 2212,
-      "name": "Recipe: Plated Leather Gaiters NG",
-      "url": "/lu4/item/2212-recipe-plated-leather-gaiters"
-    },
-    {
-      "key": "item:2070",
-      "type": "item",
-      "id": 2070,
-      "name": "Cursed Dagger Blade NG",
-      "url": "/lu4/item/2070-cursed-dagger-blade"
-    },
-    {
-      "key": "item:2065",
-      "type": "item",
-      "id": 2065,
-      "name": "Skull Graver Head NG",
-      "url": "/lu4/item/2065-skull-graver-head"
-    },
-    {
-      "key": "item:1959",
-      "type": "item",
-      "id": 1959,
-      "name": "Chain Mail Shirt Material NG",
-      "url": "/lu4/item/1959-chain-mail-shirt-material"
-    },
-    {
-      "key": "item:354",
-      "type": "item",
-      "id": 354,
-      "name": "Chain Mail Shirt C",
-      "url": "/lu4/item/354-chain-mail-shirt"
-    },
-    {
-      "key": "item:226",
-      "type": "item",
-      "id": 226,
-      "name": "Cursed Dagger C",
-      "url": "/lu4/item/226-cursed-dagger"
-    },
-    {
-      "key": "item:173",
-      "type": "item",
-      "id": 173,
-      "name": "Skull Graver C",
-      "url": "/lu4/item/173-skull-graver"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "item:57",
@@ -180,11 +93,88 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8334",
+      "key": "item:354",
       "type": "item",
-      "id": 8334,
-      "name": "Mysterious Sword Blade NG",
-      "url": "/lu4/item/8334-mysterious-sword-blade"
+      "id": 354,
+      "name": "Chain Mail Shirt C",
+      "url": "/lu4/item/354-chain-mail-shirt"
+    },
+    {
+      "key": "item:1959",
+      "type": "item",
+      "id": 1959,
+      "name": "Chain Mail Shirt Material NG",
+      "url": "/lu4/item/1959-chain-mail-shirt-material"
+    },
+    {
+      "key": "item:226",
+      "type": "item",
+      "id": 226,
+      "name": "Cursed Dagger C",
+      "url": "/lu4/item/226-cursed-dagger"
+    },
+    {
+      "key": "item:2070",
+      "type": "item",
+      "id": 2070,
+      "name": "Cursed Dagger Blade NG",
+      "url": "/lu4/item/2070-cursed-dagger-blade"
+    },
+    {
+      "key": "item:173",
+      "type": "item",
+      "id": 173,
+      "name": "Skull Graver C",
+      "url": "/lu4/item/173-skull-graver"
+    },
+    {
+      "key": "item:2065",
+      "type": "item",
+      "id": 2065,
+      "name": "Skull Graver Head NG",
+      "url": "/lu4/item/2065-skull-graver-head"
+    },
+    {
+      "key": "item:2299",
+      "type": "item",
+      "id": 2299,
+      "name": "Recipe: Big Hammer NG",
+      "url": "/lu4/item/2299-recipe-big-hammer"
+    },
+    {
+      "key": "item:2990",
+      "type": "item",
+      "id": 2990,
+      "name": "Recipe: Chain Boots NG",
+      "url": "/lu4/item/2990-recipe-chain-boots"
+    },
+    {
+      "key": "item:2212",
+      "type": "item",
+      "id": 2212,
+      "name": "Recipe: Plated Leather Gaiters NG",
+      "url": "/lu4/item/2212-recipe-plated-leather-gaiters"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:6573",
@@ -194,6 +184,13 @@
       "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
+      "key": "item:2301",
+      "type": "item",
+      "id": 2301,
+      "name": "Recipe: Battle Axe NG",
+      "url": "/lu4/item/2301-recipe-battle-axe"
+    },
+    {
       "key": "item:2313",
       "type": "item",
       "id": 2313,
@@ -201,11 +198,11 @@
       "url": "/lu4/item/2313-recipe-orcish-glaive"
     },
     {
-      "key": "item:2301",
+      "key": "item:2061",
       "type": "item",
-      "id": 2301,
-      "name": "Recipe: Battle Axe NG",
-      "url": "/lu4/item/2301-recipe-battle-axe"
+      "id": 2061,
+      "name": "Big Hammer Head NG",
+      "url": "/lu4/item/2061-big-hammer-head"
     },
     {
       "key": "item:2067",
@@ -215,11 +212,11 @@
       "url": "/lu4/item/2067-crystal-staff-head"
     },
     {
-      "key": "item:2061",
+      "key": "item:8334",
       "type": "item",
-      "id": 2061,
-      "name": "Big Hammer Head NG",
-      "url": "/lu4/item/2061-big-hammer-head"
+      "id": 8334,
+      "name": "Mysterious Sword Blade NG",
+      "url": "/lu4/item/8334-mysterious-sword-blade"
     }
   ]
 }

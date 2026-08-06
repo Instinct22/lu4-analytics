@@ -2,34 +2,32 @@
   "key": "item:6352",
   "type": "item",
   "id": 6352,
-  "name": "Lu4 Wiki: Item Spellbook: Prayer Aura",
+  "name": "Spellbook: Prayer Aura",
   "url": "/lu4/item/6352-spellbook-prayer-aura",
-  "source_url": "https://masterwork.wiki/lu4/item/6352-spellbook-prayer-aura",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/6352-spellbook-prayer-aura",
   "raw_html": "library/raw/lu4/item/6352-spellbook-prayer-aura.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Prayer Aura'. Required: Bishop - Lv. 62 To obtain this item, hunt the Veilbound Widow found in The cemetery.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:6352",
-      "type": "item",
-      "id": 6352,
-      "name": "Lu4",
-      "url": "/lu4/item/6352-spellbook-prayer-aura"
-    },
-    {
       "key": "npc:21225",
       "type": "npc",
       "id": 21225,
-      "name": "Sepulcher Sage Lv. 62",
+      "name": "Sepulcher Sage",
       "url": "/lu4/npc/21225-sepulcher-sage"
     },
     {
       "key": "npc:5023",
       "type": "npc",
       "id": 5023,
-      "name": "Veilbound Widow Lv. 60",
+      "name": "Veilbound Widow",
       "url": "/lu4/npc/5023-veilbound-widow"
     }
   ]

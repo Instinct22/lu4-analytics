@@ -2,103 +2,114 @@
   "key": "npc:21800",
   "type": "npc",
   "id": 21800,
-  "name": "Lu4 Wiki: NPC Vassal Ghost",
+  "name": "Vassal Ghost",
   "url": "/lu4/npc/21800-vassal-ghost",
-  "source_url": "https://masterwork.wiki/lu4/npc/21800-vassal-ghost",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21800-vassal-ghost",
   "raw_html": "library/raw/lu4/npc/21800-vassal-ghost.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "8 728 / 1 747",
+    "P. Atk. / M. Atk.": "1 665 / 1 032",
+    "P. Def. / M. Def.": "552 / 463",
+    "Accuracy / Evasion": "117 / 122",
+    "Exp / SP": "13 232 / 1 432",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. High Lv. Lv. 5 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 77"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21800",
-      "type": "npc",
-      "id": 21800,
-      "name": "Lu4",
-      "url": "/lu4/npc/21800-vassal-ghost"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 5 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/5"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:32535",
+      "key": "item:57",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:8341",
+      "type": "item",
+      "id": 8341,
+      "name": "Spiritual Eye Piece NG",
+      "url": "/lu4/item/8341-spiritual-eye-piece"
     },
     {
       "key": "item:32437",
@@ -115,116 +126,18 @@
       "url": "/lu4/item/32435-unidentified-spiritual-eye"
     },
     {
-      "key": "item:32368",
+      "key": "item:5543",
       "type": "item",
-      "id": 32368,
-      "name": "Unidentified Meteor Shower A",
-      "url": "/lu4/item/32368-unidentified-meteor-shower"
+      "id": 5543,
+      "name": "Dasparion's Staff Head NG",
+      "url": "/lu4/item/5543-dasparions-staff-head"
     },
     {
-      "key": "item:8614",
+      "key": "item:5532",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
-    },
-    {
-      "key": "item:8613",
-      "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
-    },
-    {
-      "key": "item:8612",
-      "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
-    },
-    {
-      "key": "item:8611",
-      "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
-    },
-    {
-      "key": "item:8610",
-      "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
-    },
-    {
-      "key": "item:8609",
-      "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
-    },
-    {
-      "key": "item:8608",
-      "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
-    },
-    {
-      "key": "item:8600",
-      "type": "item",
-      "id": 8600,
-      "name": "Herb of Life NG",
-      "url": "/lu4/item/8600-herb-of-life"
+      "id": 5532,
+      "name": "Meteor Shower Head NG",
+      "url": "/lu4/item/5532-meteor-shower-head"
     },
     {
       "key": "item:8346",
@@ -234,11 +147,95 @@
       "url": "/lu4/item/8346-hammer-piece-of-destroyer"
     },
     {
-      "key": "item:5529",
+      "key": "item:32368",
       "type": "item",
-      "id": 5529,
-      "name": "Dragon Slayer Edge NG",
-      "url": "/lu4/item/5529-dragon-slayer-edge"
+      "id": 32368,
+      "name": "Unidentified Meteor Shower A",
+      "url": "/lu4/item/32368-unidentified-meteor-shower"
+    },
+    {
+      "key": "item:32535",
+      "type": "item",
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+    },
+    {
+      "key": "item:1894",
+      "type": "item",
+      "id": 1894,
+      "name": "Crafted Leather NG",
+      "url": "/lu4/item/1894-crafted-leather"
+    },
+    {
+      "key": "item:5272",
+      "type": "item",
+      "id": 5272,
+      "name": "Recipe: Greater Soulshot (S) Compressed Package(100%) NG",
+      "url": "/lu4/item/5272-recipe-greater-soulshot-s-compressed-package100"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1344",
+      "type": "item",
+      "id": 1344,
+      "name": "Mithril Arrow A",
+      "url": "/lu4/item/1344-mithril-arrow"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:8600",
+      "type": "item",
+      "id": 8600,
+      "name": "Herb of Life NG",
+      "url": "/lu4/item/8600-herb-of-life"
+    },
+    {
+      "key": "item:8601",
+      "type": "item",
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
+    },
+    {
+      "key": "item:8602",
+      "type": "item",
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
+    },
+    {
+      "key": "item:8607",
+      "type": "item",
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
     },
     {
       "key": "item:5167",
@@ -248,11 +245,11 @@
       "url": "/lu4/item/5167-recipe-blessed-spiritshot-s-compressed-package-100"
     },
     {
-      "key": "item:4042",
+      "key": "item:5529",
       "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
+      "id": 5529,
+      "name": "Dragon Slayer Edge NG",
+      "url": "/lu4/item/5529-dragon-slayer-edge"
     }
   ]
 }

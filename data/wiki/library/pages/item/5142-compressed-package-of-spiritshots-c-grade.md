@@ -1,84 +1,18 @@
-# Lu4 Wiki: Item Compressed Package of Spiritshots (C-Grade)
+# Compressed Package of Spiritshots (C-Grade)
 
-- Source: https://masterwork.wiki/lu4/item/5142-compressed-package-of-spiritshots-c-grade
+- Source: https://masterwork.wiki/lu4-b-w-c/item/5142-compressed-package-of-spiritshots-c-grade
 - Path: /lu4/item/5142-compressed-package-of-spiritshots-c-grade
 - Type: item
 - Key: item:5142
 
 ## Stats
+- Effect: 300 compressed spiritshots. C-grade.
+- Weight: 450
 - Item Skills: Compressed Package of Spiritshots: C-grade Lv. 1
 - Recipes: Recipe: Spiritshot (C) Compressed Package (100%) NG
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Other
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Compressed Package of Spiritshots (C-Grade)
-Lu4
-Eternal
-MasterWork
-Compressed Package of Spiritshots (C-Grade)
-NG
-Other
-300 compressed spiritshots. C-grade.
-Weight
-450
-Item Skills
-Compressed Package of Spiritshots: C-grade
-Lv. 1
-Recipes
-Recipe: Spiritshot (C) Compressed Package (100%)
-NG
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Contains
-Item
-Amount
-Get Type
-Spiritshot (C-Grade)
-C
-300
-Guaranteed
-MasterWork 2026
-All rights reserved
+Compressed Package of Spiritshots (C-Grade) NG Other 300 compressed spiritshots. C-grade. Weight 450 Item Skills Compressed Package of Spiritshots: C-grade Lv. 1 Recipes Recipe: Spiritshot (C) Compressed Package (100%) NG Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

@@ -2,110 +2,121 @@
   "key": "npc:21432",
   "type": "npc",
   "id": 21432,
-  "name": "Lu4 Wiki: NPC Chakram Beetle",
+  "name": "Chakram Beetle",
   "url": "/lu4/npc/21432-chakram-beetle",
-  "source_url": "https://masterwork.wiki/lu4/npc/21432-chakram-beetle",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21432-chakram-beetle",
   "raw_html": "library/raw/lu4/npc/21432-chakram-beetle.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "26 459 / 1 896",
+    "P. Atk. / M. Atk.": "1 851 / 1 191",
+    "P. Def. / M. Def.": "893 / 770",
+    "Accuracy / Evasion": "125 / 136",
+    "Exp / SP": "72 929 / 8 184",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (6x) Lv. 14 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Strong P. Def. Lv. 15 Strong M. Def. Lv. 15 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Greater Bleed Resistance Lv. 4 Highly resistant to Bleed. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. High Lv. Lv. 6 NPC High Level",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21432",
-      "type": "npc",
-      "id": 21432,
-      "name": "Lu4",
-      "url": "/lu4/npc/21432-chakram-beetle"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 15",
-      "url": "/lu4/skill/4413-strong-m-def/15"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4437",
       "type": "skill",
       "id": 4437,
-      "name": "Greater Bleed Resistance Lv. 4 Highly resistant to Bleed.",
-      "url": "/lu4/skill/4437-greater-bleed-resistance/4"
+      "name": "Greater Bleed Resistance",
+      "url": "/lu4/skill/4437-greater-bleed-resistance"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 6 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/6"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32343",
@@ -122,32 +133,11 @@
       "url": "/lu4/item/5538-dragon-grinder-edge"
     },
     {
-      "key": "item:4042",
+      "key": "item:959",
       "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
-    },
-    {
-      "key": "item:1895",
-      "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
-    },
-    {
-      "key": "item:1876",
-      "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "url": "/lu4/item/1876-mithril-ore"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 959,
+      "name": "Scroll: Enchant Weapon (S-Grade) NG",
+      "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
     },
     {
       "key": "item:1868",
@@ -157,25 +147,32 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:959",
+      "key": "item:1873",
       "type": "item",
-      "id": 959,
-      "name": "Scroll: Enchant Weapon (S-Grade) NG",
-      "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
-      "key": "item:57",
+      "key": "item:1876",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
     },
     {
-      "key": "item:5537",
+      "key": "item:1895",
       "type": "item",
-      "id": 5537,
-      "name": "Soul Separator Head NG",
-      "url": "/lu4/item/5537-soul-separator-head"
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
     },
     {
       "key": "item:5534",
@@ -190,6 +187,13 @@
       "id": 1808,
       "name": "Recipe: Soulshot (S-Grade) NG",
       "url": "/lu4/item/1808-recipe-soulshot-s-grade"
+    },
+    {
+      "key": "item:5537",
+      "type": "item",
+      "id": 5537,
+      "name": "Soul Separator Head NG",
+      "url": "/lu4/item/5537-soul-separator-head"
     },
     {
       "key": "npc:21433",

@@ -2,96 +2,107 @@
   "key": "npc:21304",
   "type": "npc",
   "id": 21304,
-  "name": "Lu4 Wiki: NPC Grendel Slave",
+  "name": "Grendel Slave",
   "url": "/lu4/npc/21304-grendel-slave",
-  "source_url": "https://masterwork.wiki/lu4/npc/21304-grendel-slave",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21304-grendel-slave",
   "raw_html": "library/raw/lu4/npc/21304-grendel-slave.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "16 635 / 1 637",
+    "P. Atk. / M. Atk.": "2 402 / 1 151",
+    "P. Def. / M. Def.": "444 / 372",
+    "Accuracy / Evasion": "111 / 114",
+    "Exp / SP": "31 671 / 3 300",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 4 One-handed Sword High Lv. Lv. 3 NPC High Level",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 74"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21304",
-      "type": "npc",
-      "id": 21304,
-      "name": "Lu4",
-      "url": "/lu4/npc/21304-grendel-slave"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 4 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/4"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 3 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/3"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:32535",
+      "key": "item:57",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:8341",
+      "type": "item",
+      "id": 8341,
+      "name": "Spiritual Eye Piece NG",
+      "url": "/lu4/item/8341-spiritual-eye-piece"
     },
     {
       "key": "item:32437",
@@ -108,27 +119,6 @@
       "url": "/lu4/item/32435-unidentified-spiritual-eye"
     },
     {
-      "key": "item:32368",
-      "type": "item",
-      "id": 32368,
-      "name": "Unidentified Meteor Shower A",
-      "url": "/lu4/item/32368-unidentified-meteor-shower"
-    },
-    {
-      "key": "item:8346",
-      "type": "item",
-      "id": 8346,
-      "name": "Hammer Piece of Destroyer NG",
-      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
-    },
-    {
-      "key": "item:8341",
-      "type": "item",
-      "id": 8341,
-      "name": "Spiritual Eye Piece NG",
-      "url": "/lu4/item/8341-spiritual-eye-piece"
-    },
-    {
       "key": "item:5543",
       "type": "item",
       "id": 5543,
@@ -143,18 +133,25 @@
       "url": "/lu4/item/5532-meteor-shower-head"
     },
     {
-      "key": "item:5277",
+      "key": "item:8346",
       "type": "item",
-      "id": 5277,
-      "name": "Recipe: Greater Spiritshot (S) Compressed Package(100%) NG",
-      "url": "/lu4/item/5277-recipe-greater-spiritshot-s-compressed-package100"
+      "id": 8346,
+      "name": "Hammer Piece of Destroyer NG",
+      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
     },
     {
-      "key": "item:4044",
+      "key": "item:32368",
       "type": "item",
-      "id": 4044,
-      "name": "Thons NG",
-      "url": "/lu4/item/4044-thons"
+      "id": 32368,
+      "name": "Unidentified Meteor Shower A",
+      "url": "/lu4/item/32368-unidentified-meteor-shower"
+    },
+    {
+      "key": "item:32535",
+      "type": "item",
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
     },
     {
       "key": "item:4041",
@@ -162,6 +159,13 @@
       "id": 4041,
       "name": "Mold Hardener NG",
       "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:5277",
+      "type": "item",
+      "id": 5277,
+      "name": "Recipe: Greater Spiritshot (S) Compressed Package(100%) NG",
+      "url": "/lu4/item/5277-recipe-greater-spiritshot-s-compressed-package100"
     },
     {
       "key": "item:4039",
@@ -185,11 +189,11 @@
       "url": "/lu4/item/1344-mithril-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:4044",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4044,
+      "name": "Thons NG",
+      "url": "/lu4/item/4044-thons"
     },
     {
       "key": "item:5542",

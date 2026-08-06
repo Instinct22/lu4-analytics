@@ -2,84 +2,53 @@
   "key": "npc:20225",
   "type": "npc",
   "id": 20225,
-  "name": "Lu4 Wiki: NPC Giant Mist Leech",
+  "name": "Giant Mist Leech",
   "url": "/lu4/npc/20225-giant-mist-leech",
-  "source_url": "https://masterwork.wiki/lu4/npc/20225-giant-mist-leech",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20225-giant-mist-leech",
   "raw_html": "library/raw/lu4/npc/20225-giant-mist-leech.html",
   "stats": {
-    "Location": "Топи Крумы"
+    "Respawn Time": "13 seconds",
+    "Location": "Топи Крумы",
+    "HP / MP": "710 / 319",
+    "P. Atk. / M. Atk.": "90 / 45",
+    "P. Def. / M. Def.": "129 / 98",
+    "Accuracy / Evasion": "58 / 63",
+    "Exp / SP": "746 / 75",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Fire Vulnerability Lv. 1 Vulnerable to Fire attacks. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 25"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20225",
-      "type": "npc",
-      "id": 20225,
-      "name": "Lu4",
-      "url": "/lu4/npc/20225-giant-mist-leech"
-    },
-    {
-      "key": "location:52",
-      "type": "location",
-      "id": 52,
-      "name": "Топи Крумы",
-      "url": "/lu4/location/52-topi-krumy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:2026",
-      "type": "item",
-      "id": 2026,
-      "name": "Two-Handed Sword Edge NG",
-      "url": "/lu4/item/2026-two-handed-sword-edge"
-    },
-    {
-      "key": "item:1935",
-      "type": "item",
-      "id": 1935,
-      "name": "Scale Mail Fragment NG",
-      "url": "/lu4/item/1935-scale-mail-fragment"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1879",
@@ -124,6 +93,13 @@
       "url": "/lu4/item/348-scale-mail"
     },
     {
+      "key": "item:1935",
+      "type": "item",
+      "id": 1935,
+      "name": "Scale Mail Fragment NG",
+      "url": "/lu4/item/1935-scale-mail-fragment"
+    },
+    {
       "key": "item:124",
       "type": "item",
       "id": 124,
@@ -131,11 +107,32 @@
       "url": "/lu4/item/124-two-handed-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:2026",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2026,
+      "name": "Two-Handed Sword Edge NG",
+      "url": "/lu4/item/2026-two-handed-sword-edge"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     }
   ]
 }

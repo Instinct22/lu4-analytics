@@ -2,154 +2,74 @@
   "key": "npc:20791",
   "type": "npc",
   "id": 20791,
-  "name": "Lu4 Wiki: NPC Crokian Warrior",
+  "name": "Crokian Warrior",
   "url": "/lu4/npc/20791-crokian-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/20791-crokian-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20791-crokian-warrior",
   "raw_html": "library/raw/lu4/npc/20791-crokian-warrior.html",
   "stats": {
-    "Location": "Пляж Аллигаторов (+2) Пляж Аллигаторов Остров Аллигаторов Шепчущие Поля"
+    "Respawn Time": "30 seconds",
+    "Location": "Пляж Аллигаторов (+2) Пляж Аллигаторов Остров Аллигаторов Шепчущие Поля",
+    "HP / MP": "2 825 / 552",
+    "P. Atk. / M. Atk.": "279 / 147",
+    "P. Def. / M. Def.": "177 / 139",
+    "Accuracy / Evasion": "71 / 71",
+    "Exp / SP": "2 833 / 283",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 38"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20791",
-      "type": "npc",
-      "id": 20791,
-      "name": "Lu4",
-      "url": "/lu4/npc/20791-crokian-warrior"
-    },
-    {
-      "key": "location:208",
-      "type": "location",
-      "id": 208,
-      "name": "Пляж Аллигаторов",
-      "url": "/lu4/location/208-plaz-alligatorov"
-    },
-    {
-      "key": "location:120",
-      "type": "location",
-      "id": 120,
-      "name": "Остров Аллигаторов",
-      "url": "/lu4/location/120-ostrov-alligatorov"
-    },
-    {
-      "key": "location:117",
-      "type": "location",
-      "id": 117,
-      "name": "Шепчущие Поля",
-      "url": "/lu4/location/117-sepcusie-pola"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:2932",
-      "type": "item",
-      "id": 2932,
-      "name": "Plate Boots Design NG",
-      "url": "/lu4/item/2932-plate-boots-design"
-    },
-    {
-      "key": "item:2428",
-      "type": "item",
-      "id": 2428,
-      "name": "Plate Boots D",
-      "url": "/lu4/item/2428-plate-boots"
-    },
-    {
-      "key": "item:2054",
-      "type": "item",
-      "id": 2054,
-      "name": "Light Crossbow Shaft NG",
-      "url": "/lu4/item/2054-light-crossbow-shaft"
-    },
-    {
-      "key": "item:1905",
-      "type": "item",
-      "id": 1905,
-      "name": "Omen Beast's Eye Earring Gemstone NG",
-      "url": "/lu4/item/1905-omen-beasts-eye-earring-gemstone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1882",
@@ -194,13 +114,6 @@
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     },
     {
-      "key": "item:851",
-      "type": "item",
-      "id": 851,
-      "name": "Omen Beast's Eye Earring D",
-      "url": "/lu4/item/851-omen-beasts-eye-earring"
-    },
-    {
       "key": "item:280",
       "type": "item",
       "id": 280,
@@ -208,11 +121,88 @@
       "url": "/lu4/item/280-light-crossbow"
     },
     {
-      "key": "item:57",
+      "key": "item:2054",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2054,
+      "name": "Light Crossbow Shaft NG",
+      "url": "/lu4/item/2054-light-crossbow-shaft"
+    },
+    {
+      "key": "item:851",
+      "type": "item",
+      "id": 851,
+      "name": "Omen Beast's Eye Earring D",
+      "url": "/lu4/item/851-omen-beasts-eye-earring"
+    },
+    {
+      "key": "item:1905",
+      "type": "item",
+      "id": 1905,
+      "name": "Omen Beast's Eye Earring Gemstone NG",
+      "url": "/lu4/item/1905-omen-beasts-eye-earring-gemstone"
+    },
+    {
+      "key": "item:2428",
+      "type": "item",
+      "id": 2428,
+      "name": "Half Plate Boots D",
+      "url": "/lu4/item/2428-half-plate-boots"
+    },
+    {
+      "key": "item:2932",
+      "type": "item",
+      "id": 2932,
+      "name": "Half Plate Boots Design NG",
+      "url": "/lu4/item/2932-half-plate-boots-design"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1825",
+      "type": "item",
+      "id": 1825,
+      "name": "Recipe: Oriharukon NG",
+      "url": "/lu4/item/1825-recipe-oriharukon"
     },
     {
       "key": "item:2289",
@@ -225,15 +215,8 @@
       "key": "item:2208",
       "type": "item",
       "id": 2208,
-      "name": "Recipe: Ogre Power Gauntlets NG",
-      "url": "/lu4/item/2208-recipe-ogre-power-gauntlets"
-    },
-    {
-      "key": "item:2050",
-      "type": "item",
-      "id": 2050,
-      "name": "Ghost Staff Head NG",
-      "url": "/lu4/item/2050-ghost-staff-head"
+      "name": "Recipe: Salamander Skin Gloves NG",
+      "url": "/lu4/item/2208-recipe-salamander-skin-gloves"
     },
     {
       "key": "item:2048",
@@ -243,18 +226,18 @@
       "url": "/lu4/item/2048-bonebreaker-head"
     },
     {
+      "key": "item:2050",
+      "type": "item",
+      "id": 2050,
+      "name": "Ghost Staff Head NG",
+      "url": "/lu4/item/2050-ghost-staff-head"
+    },
+    {
       "key": "item:1907",
       "type": "item",
       "id": 1907,
       "name": "Necklace of Darkness Gem NG",
       "url": "/lu4/item/1907-necklace-of-darkness-gem"
-    },
-    {
-      "key": "item:1825",
-      "type": "item",
-      "id": 1825,
-      "name": "Recipe: Oriharukon NG",
-      "url": "/lu4/item/1825-recipe-oriharukon"
     }
   ]
 }

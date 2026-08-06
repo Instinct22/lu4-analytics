@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Contribution of Toma
+# Contribution of Toma
 
-- Source: https://masterwork.wiki/lu4/item/3256-contribution-of-toma
+- Source: https://masterwork.wiki/lu4-b-w-c/item/3256-contribution-of-toma
 - Path: /lu4/item/3256-contribution-of-toma
 - Type: item
 - Key: item:3256
 
 ## Stats
+- Effect: Master Toma's guild contribution. Take this to Black Anvil's Arin.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Contribution of Toma
-Lu4
-Eternal
-MasterWork
-Contribution of Toma
-NG
-Quest Item
-Master Toma's guild contribution. Take this to Black Anvil's Arin.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Testimony of Prosperity
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Contribution of Toma NG Quest Item Master Toma's guild contribution. Take this to Black Anvil's Arin. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

@@ -2,84 +2,74 @@
   "key": "npc:20683",
   "type": "npc",
   "id": 20683,
-  "name": "Lu4 Wiki: NPC Vanor Silenos Scout",
+  "name": "Vanor Silenos Scout",
   "url": "/lu4/npc/20683-vanor-silenos-scout",
-  "source_url": "https://masterwork.wiki/lu4/npc/20683-vanor-silenos-scout",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20683-vanor-silenos-scout",
   "raw_html": "library/raw/lu4/npc/20683-vanor-silenos-scout.html",
   "stats": {
-    "Location": "Равнины Славы"
+    "Respawn Time": "14 seconds",
+    "Location": "Равнины Славы",
+    "HP / MP": "2 029 / 819",
+    "P. Atk. / M. Atk.": "392 / 222",
+    "P. Def. / M. Def.": "269 / 228",
+    "Accuracy / Evasion": "83 / 82",
+    "Exp / SP": "2 195 / 219",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 47"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20683",
-      "type": "npc",
-      "id": 20683,
-      "name": "Lu4",
-      "url": "/lu4/npc/20683-vanor-silenos-scout"
-    },
-    {
-      "key": "location:209",
-      "type": "location",
-      "id": 209,
-      "name": "Равнины Славы",
-      "url": "/lu4/location/209-ravniny-slavy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39296",
+      "key": "item:1868",
       "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:5549",
@@ -96,34 +86,6 @@
       "url": "/lu4/item/4044-thons"
     },
     {
-      "key": "item:3003",
-      "type": "item",
-      "id": 3003,
-      "name": "Recipe: Gloves of Seal NG",
-      "url": "/lu4/item/3003-recipe-gloves-of-seal"
-    },
-    {
-      "key": "item:2993",
-      "type": "item",
-      "id": 2993,
-      "name": "Recipe: Dwarven Chain Boots NG",
-      "url": "/lu4/item/2993-recipe-dwarven-chain-boots"
-    },
-    {
-      "key": "item:2318",
-      "type": "item",
-      "id": 2318,
-      "name": "Recipe: Spirit Sword NG",
-      "url": "/lu4/item/2318-recipe-spirit-sword"
-    },
-    {
-      "key": "item:2083",
-      "type": "item",
-      "id": 2083,
-      "name": "Stiletto Edge NG",
-      "url": "/lu4/item/2083-stiletto-edge"
-    },
-    {
       "key": "item:1889",
       "type": "item",
       "id": 1889,
@@ -138,13 +100,6 @@
       "url": "/lu4/item/1873-silver-nugget"
     },
     {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
       "key": "item:227",
       "type": "item",
       "id": 227,
@@ -152,11 +107,53 @@
       "url": "/lu4/item/227-stiletto"
     },
     {
-      "key": "item:57",
+      "key": "item:2083",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2083,
+      "name": "Stiletto Edge NG",
+      "url": "/lu4/item/2083-stiletto-edge"
+    },
+    {
+      "key": "item:2993",
+      "type": "item",
+      "id": 2993,
+      "name": "Recipe: Dwarven Chain Boots NG",
+      "url": "/lu4/item/2993-recipe-dwarven-chain-boots"
+    },
+    {
+      "key": "item:3003",
+      "type": "item",
+      "id": 3003,
+      "name": "Recipe: Gloves of Seal NG",
+      "url": "/lu4/item/3003-recipe-gloves-of-seal"
+    },
+    {
+      "key": "item:2318",
+      "type": "item",
+      "id": 2318,
+      "name": "Recipe: Spirit Sword NG",
+      "url": "/lu4/item/2318-recipe-spirit-sword"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:6573",
@@ -166,13 +163,6 @@
       "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
-      "key": "item:2319",
-      "type": "item",
-      "id": 2319,
-      "name": "Recipe: Raid Sword NG",
-      "url": "/lu4/item/2319-recipe-raid-sword"
-    },
-    {
       "key": "item:2317",
       "type": "item",
       "id": 2317,
@@ -180,11 +170,18 @@
       "url": "/lu4/item/2317-recipe-bec-de-corbin"
     },
     {
-      "key": "item:2078",
+      "key": "item:2319",
       "type": "item",
-      "id": 2078,
-      "name": "Katana Blade NG",
-      "url": "/lu4/item/2078-katana-blade"
+      "id": 2319,
+      "name": "Recipe: Raid Sword NG",
+      "url": "/lu4/item/2319-recipe-raid-sword"
+    },
+    {
+      "key": "item:1969",
+      "type": "item",
+      "id": 1969,
+      "name": "Dwarven Chain Gaiters Material NG",
+      "url": "/lu4/item/1969-dwarven-chain-gaiters-material"
     },
     {
       "key": "item:1971",
@@ -194,11 +191,11 @@
       "url": "/lu4/item/1971-great-helmet-material"
     },
     {
-      "key": "item:1969",
+      "key": "item:2078",
       "type": "item",
-      "id": 1969,
-      "name": "Dwarven Chain Gaiters Material NG",
-      "url": "/lu4/item/1969-dwarven-chain-gaiters-material"
+      "id": 2078,
+      "name": "Katana Blade NG",
+      "url": "/lu4/item/2078-katana-blade"
     }
   ]
 }

@@ -2,42 +2,38 @@
   "key": "npc:30852",
   "type": "npc",
   "id": 30852,
-  "name": "Lu4 Wiki: NPC Sinden",
+  "name": "Sinden",
   "url": "/lu4/npc/30852-sinden",
-  "source_url": "https://masterwork.wiki/lu4/npc/30852-sinden",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30852-sinden",
   "raw_html": "library/raw/lu4/npc/30852-sinden.html",
   "stats": {
-    "Location": "Аден"
+    "Respawn Time": "1 minute",
+    "Location": "Аден",
+    "HP / MP": "3 668 / 1 657",
+    "P. Atk. / M. Atk.": "1 304 / 776",
+    "P. Def. / M. Def.": "477 / 369",
+    "Accuracy / Evasion": "106 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elves Lv. 15 This water race worships Eva and love peace. They possess vast knowledge, but lack the will and strength to implement it. The original students of magic, they have since taught its principles to humans. Resist Full Magic Attack Lv. 1",
+    "Type": "Elf, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30852",
-      "type": "npc",
-      "id": 30852,
-      "name": "Lu4",
-      "url": "/lu4/npc/30852-sinden"
-    },
-    {
-      "key": "location:77",
-      "type": "location",
-      "id": 77,
-      "name": "Аден",
-      "url": "/lu4/location/77-aden"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Elves Lv. 15 This water race worships Eva and love peace. They possess vast knowledge, but lack the will and strength to implement it. The original students of magic, they have since taught its principles to humans.",
-      "url": "/lu4/skill/4416-elves/15"
+      "name": "Elves",
+      "url": "/lu4/skill/4416-elves"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

@@ -2,147 +2,60 @@
   "key": "npc:21018",
   "type": "npc",
   "id": 21018,
-  "name": "Lu4 Wiki: NPC Ancient Gargoyle",
+  "name": "Ancient Gargoyle",
   "url": "/lu4/npc/21018-ancient-gargoyle",
-  "source_url": "https://masterwork.wiki/lu4/npc/21018-ancient-gargoyle",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21018-ancient-gargoyle",
   "raw_html": "library/raw/lu4/npc/21018-ancient-gargoyle.html",
   "stats": {
-    "Location": "Забытые Равнины"
+    "Respawn Time": "30 seconds ± 5 seconds",
+    "Location": "Забытые Равнины",
+    "HP / MP": "2 895 / 1 131",
+    "P. Atk. / M. Atk.": "687 / 406",
+    "P. Def. / M. Def.": "434 / 278",
+    "Accuracy / Evasion": "90 / 90",
+    "Exp / SP": "3 265 / 327",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 13 Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 57"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21018",
-      "type": "npc",
-      "id": 21018,
-      "name": "Lu4",
-      "url": "/lu4/npc/21018-ancient-gargoyle"
-    },
-    {
-      "key": "location:73",
-      "type": "location",
-      "id": 73,
-      "name": "Забытые Равнины",
-      "url": "/lu4/location/73-zabytye-ravniny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/3"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32590",
-      "type": "item",
-      "id": 32590,
-      "name": "Unidentified Avadon Robe B",
-      "url": "/lu4/item/32590-unidentified-avadon-robe"
-    },
-    {
-      "key": "item:32433",
-      "type": "item",
-      "id": 32433,
-      "name": "Unidentified Spell Breaker B",
-      "url": "/lu4/item/32433-unidentified-spell-breaker"
-    },
-    {
-      "key": "item:32344",
-      "type": "item",
-      "id": 32344,
-      "name": "Unidentified Dark Elven Long Bow B",
-      "url": "/lu4/item/32344-unidentified-dark-elven-long-bow"
-    },
-    {
-      "key": "item:8339",
-      "type": "item",
-      "id": 8339,
-      "name": "Spell Breaker Head NG",
-      "url": "/lu4/item/8339-spell-breaker-head"
-    },
-    {
-      "key": "item:4967",
-      "type": "item",
-      "id": 4967,
-      "name": "Recipe: Sword of Valhalla (60%) NG",
-      "url": "/lu4/item/4967-recipe-sword-of-valhalla-60"
-    },
-    {
-      "key": "item:4959",
-      "type": "item",
-      "id": 4959,
-      "name": "Recipe: Sealed Avadon Boots (60%) NG",
-      "url": "/lu4/item/4959-recipe-sealed-avadon-boots-60"
-    },
-    {
-      "key": "item:4958",
-      "type": "item",
-      "id": 4958,
-      "name": "Recipe: Sealed Zubei's Boots (60%) NG",
-      "url": "/lu4/item/4958-recipe-sealed-zubeis-boots-60"
-    },
-    {
-      "key": "item:4112",
-      "type": "item",
-      "id": 4112,
-      "name": "Dark Elven Longbow Shaft NG",
-      "url": "/lu4/item/4112-dark-elven-longbow-shaft"
-    },
-    {
-      "key": "item:4071",
-      "type": "item",
-      "id": 4071,
-      "name": "Avadon Robe Fabric NG",
-      "url": "/lu4/item/4071-avadon-robe-fabric"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -150,13 +63,6 @@
       "id": 4041,
       "name": "Mold Hardener NG",
       "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:3955",
-      "type": "item",
-      "id": 3955,
-      "name": "Recipe: Blessed Spiritshot B NG",
-      "url": "/lu4/item/3955-recipe-blessed-spiritshot-b"
     },
     {
       "key": "item:1881",
@@ -187,11 +93,102 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:3955",
+      "type": "item",
+      "id": 3955,
+      "name": "Recipe: Blessed Spiritshot B NG",
+      "url": "/lu4/item/3955-recipe-blessed-spiritshot-b"
+    },
+    {
+      "key": "item:32590",
+      "type": "item",
+      "id": 32590,
+      "name": "Unidentified Avadon Robe B",
+      "url": "/lu4/item/32590-unidentified-avadon-robe"
+    },
+    {
+      "key": "item:4071",
+      "type": "item",
+      "id": 4071,
+      "name": "Avadon Robe Fabric NG",
+      "url": "/lu4/item/4071-avadon-robe-fabric"
+    },
+    {
+      "key": "item:32344",
+      "type": "item",
+      "id": 32344,
+      "name": "Unidentified Dark Elven Long Bow B",
+      "url": "/lu4/item/32344-unidentified-dark-elven-long-bow"
+    },
+    {
+      "key": "item:4112",
+      "type": "item",
+      "id": 4112,
+      "name": "Dark Elven Longbow Shaft NG",
+      "url": "/lu4/item/4112-dark-elven-longbow-shaft"
+    },
+    {
+      "key": "item:32433",
+      "type": "item",
+      "id": 32433,
+      "name": "Unidentified Spell Breaker B",
+      "url": "/lu4/item/32433-unidentified-spell-breaker"
+    },
+    {
+      "key": "item:8339",
+      "type": "item",
+      "id": 8339,
+      "name": "Spell Breaker Head NG",
+      "url": "/lu4/item/8339-spell-breaker-head"
+    },
+    {
+      "key": "item:4959",
+      "type": "item",
+      "id": 4959,
+      "name": "Recipe: Sealed Avadon Boots (60%) NG",
+      "url": "/lu4/item/4959-recipe-sealed-avadon-boots-60"
+    },
+    {
+      "key": "item:4958",
+      "type": "item",
+      "id": 4958,
+      "name": "Recipe: Sealed Zubei's Boots (60%) NG",
+      "url": "/lu4/item/4958-recipe-sealed-zubeis-boots-60"
+    },
+    {
+      "key": "item:4967",
+      "type": "item",
+      "id": 4967,
+      "name": "Recipe: Sword of Valhalla (60%) NG",
+      "url": "/lu4/item/4967-recipe-sword-of-valhalla-60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:6572",
@@ -201,18 +198,18 @@
       "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
     },
     {
-      "key": "item:4968",
-      "type": "item",
-      "id": 4968,
-      "name": "Recipe: Kris (60%) NG",
-      "url": "/lu4/item/4968-recipe-kris-60"
-    },
-    {
       "key": "item:4953",
       "type": "item",
       "id": 4953,
       "name": "Recipe: Sealed Avadon Gloves (60%) NG",
       "url": "/lu4/item/4953-recipe-sealed-avadon-gloves-60"
+    },
+    {
+      "key": "item:4968",
+      "type": "item",
+      "id": 4968,
+      "name": "Recipe: Kris (60%) NG",
+      "url": "/lu4/item/4968-recipe-kris-60"
     },
     {
       "key": "item:4439",

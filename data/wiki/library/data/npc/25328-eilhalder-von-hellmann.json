@@ -2,138 +2,107 @@
   "key": "npc:25328",
   "type": "npc",
   "id": 25328,
-  "name": "Lu4 Wiki: NPC Eilhalder von Hellmann",
+  "name": "Eilhalder von Hellmann",
   "url": "/lu4/npc/25328-eilhalder-von-hellmann",
-  "source_url": "https://masterwork.wiki/lu4/npc/25328-eilhalder-von-hellmann",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25328-eilhalder-von-hellmann",
   "raw_html": "library/raw/lu4/npc/25328-eilhalder-von-hellmann.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 900 467 / 3 059",
+    "P. Atk. / M. Atk.": "18 347 / 11 935",
+    "P. Def. / M. Def.": "1 377 / 1 563",
+    "Accuracy / Evasion": "123 / 123",
+    "Exp / SP": "6 553 300 / 1 270 000",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -13, Unholy 189",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 The oldest son of the notorious von Hellmann Family that was executed for treason. Through a diabolical contract, he was resurrected as a vampire. He now wanders the Forest of the Dead, dreaming about his revenge. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. Bare Hands Lv. 1 Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 71"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25328",
-      "type": "npc",
-      "id": 25328,
-      "name": "Lu4",
-      "url": "/lu4/npc/25328-eilhalder-von-hellmann"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4914",
       "type": "skill",
       "id": 4914,
-      "name": "Raid Boss Lv. 1 The oldest son of the notorious von Hellmann Family that was executed for treason. Through a diabolical contract, he was resurrected as a vampire. He now wanders the Forest of the Dead, dreaming about his revenge.",
-      "url": "/lu4/skill/4914-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4914-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Bare Hands Lv. 1",
-      "url": "/lu4/skill/4415-bare-hands/1"
+      "name": "Bare Hands",
+      "url": "/lu4/skill/4415-bare-hands"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:32390",
-      "type": "item",
-      "id": 32390,
-      "name": "Unidentified Sealed Majestic Plate Armor A",
-      "url": "/lu4/item/32390-unidentified-sealed-majestic-plate-armor"
-    },
-    {
-      "key": "item:32385",
-      "type": "item",
-      "id": 32385,
-      "name": "Unidentified Sealed Armor of Nightmare A",
-      "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
-    },
-    {
-      "key": "item:32367",
-      "type": "item",
-      "id": 32367,
-      "name": "Unidentified Dark Legion's Edge A",
-      "url": "/lu4/item/32367-unidentified-dark-legions-edge"
-    },
-    {
-      "key": "item:32331",
-      "type": "item",
-      "id": 32331,
-      "name": "Unidentified Sword of Miracles A",
-      "url": "/lu4/item/32331-unidentified-sword-of-miracles"
-    },
-    {
-      "key": "item:32324",
-      "type": "item",
-      "id": 32324,
-      "name": "Unidentified Dragon Slayer A",
-      "url": "/lu4/item/32324-unidentified-dragon-slayer"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -143,25 +112,81 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6570",
+      "key": "item:8620",
       "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
     },
     {
-      "key": "item:6569",
+      "key": "item:8621",
       "type": "item",
-      "id": 6569,
-      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
+      "id": 8621,
+      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
+      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
     },
     {
-      "key": "item:5546",
+      "key": "item:10552",
       "type": "item",
-      "id": 5546,
-      "name": "Sword of Miracles Edge NG",
-      "url": "/lu4/item/5546-sword-of-miracles-edge"
+      "id": 10552,
+      "name": "Spellbook: Fighter's Will NG",
+      "url": "/lu4/item/10552-spellbook-fighters-will"
+    },
+    {
+      "key": "item:10553",
+      "type": "item",
+      "id": 10553,
+      "name": "Spellbook: Archer's Will NG",
+      "url": "/lu4/item/10553-spellbook-archers-will"
+    },
+    {
+      "key": "item:14219",
+      "type": "item",
+      "id": 14219,
+      "name": "Spellbook: Magician's Will NG",
+      "url": "/lu4/item/14219-spellbook-magicians-will"
+    },
+    {
+      "key": "item:32367",
+      "type": "item",
+      "id": 32367,
+      "name": "Unidentified Dark Legion's Edge A",
+      "url": "/lu4/item/32367-unidentified-dark-legions-edge"
+    },
+    {
+      "key": "item:32324",
+      "type": "item",
+      "id": 32324,
+      "name": "Unidentified Dragon Slayer A",
+      "url": "/lu4/item/32324-unidentified-dragon-slayer"
+    },
+    {
+      "key": "item:32331",
+      "type": "item",
+      "id": 32331,
+      "name": "Unidentified Sword of Miracles A",
+      "url": "/lu4/item/32331-unidentified-sword-of-miracles"
+    },
+    {
+      "key": "item:5464",
+      "type": "item",
+      "id": 5464,
+      "name": "Recipe: Dark Legion's Edge(60%) NG",
+      "url": "/lu4/item/5464-recipe-dark-legions-edge60"
+    },
+    {
+      "key": "item:5434",
+      "type": "item",
+      "id": 5434,
+      "name": "Recipe: Dragon Slayer(60%) NG",
+      "url": "/lu4/item/5434-recipe-dragon-slayer60"
+    },
+    {
+      "key": "item:5466",
+      "type": "item",
+      "id": 5466,
+      "name": "Recipe: Sword of Miracles(60%) NG",
+      "url": "/lu4/item/5466-recipe-sword-of-miracles60"
     },
     {
       "key": "item:5545",
@@ -178,32 +203,46 @@
       "url": "/lu4/item/5529-dragon-slayer-edge"
     },
     {
+      "key": "item:5546",
+      "type": "item",
+      "id": 5546,
+      "name": "Sword of Miracles Edge NG",
+      "url": "/lu4/item/5546-sword-of-miracles-edge"
+    },
+    {
+      "key": "item:32390",
+      "type": "item",
+      "id": 32390,
+      "name": "Unidentified Sealed Majestic Plate Armor A",
+      "url": "/lu4/item/32390-unidentified-sealed-majestic-plate-armor"
+    },
+    {
+      "key": "item:32385",
+      "type": "item",
+      "id": 32385,
+      "name": "Unidentified Sealed Armor of Nightmare A",
+      "url": "/lu4/item/32385-unidentified-sealed-armor-of-nightmare"
+    },
+    {
+      "key": "item:5422",
+      "type": "item",
+      "id": 5422,
+      "name": "Recipe: Sealed Majestic Plate Armor(60%) NG",
+      "url": "/lu4/item/5422-recipe-sealed-majestic-plate-armor60"
+    },
+    {
+      "key": "item:5420",
+      "type": "item",
+      "id": 5420,
+      "name": "Recipe: Sealed Armor of Nightmare(60%) NG",
+      "url": "/lu4/item/5420-recipe-sealed-armor-of-nightmare60"
+    },
+    {
       "key": "item:5523",
       "type": "item",
       "id": 5523,
       "name": "Sealed Majestic Plate Armor Pattern NG",
       "url": "/lu4/item/5523-sealed-majestic-plate-armor-pattern"
-    },
-    {
-      "key": "item:5522",
-      "type": "item",
-      "id": 5522,
-      "name": "Sealed Armor of Nightmare Pattern NG",
-      "url": "/lu4/item/5522-sealed-armor-of-nightmare-pattern"
-    },
-    {
-      "key": "item:730",
-      "type": "item",
-      "id": 730,
-      "name": "Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
-    },
-    {
-      "key": "item:729",
-      "type": "item",
-      "id": 729,
-      "name": "Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     },
     {
       "key": "npc:25329",

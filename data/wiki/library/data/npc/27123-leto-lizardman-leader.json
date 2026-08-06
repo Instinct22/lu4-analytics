@@ -2,26 +2,29 @@
   "key": "npc:27123",
   "type": "npc",
   "id": 27123,
-  "name": "Lu4 Wiki: NPC Leto Lizardman Leader",
+  "name": "Leto Lizardman Leader",
   "url": "/lu4/npc/27123-leto-lizardman-leader",
-  "source_url": "https://masterwork.wiki/lu4/npc/27123-leto-lizardman-leader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27123-leto-lizardman-leader",
   "raw_html": "library/raw/lu4/npc/27123-leto-lizardman-leader.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 400 / 552",
+    "P. Atk. / M. Atk.": "254 / 140",
+    "P. Def. / M. Def.": "198 / 164",
+    "Accuracy / Evasion": "74 / 73",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Type": "Humanoid, Lv. 38"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:27123",
-      "type": "npc",
-      "id": 27123,
-      "name": "Lu4",
-      "url": "/lu4/npc/27123-leto-lizardman-leader"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     }
   ]
 }

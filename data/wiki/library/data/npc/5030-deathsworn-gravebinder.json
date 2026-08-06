@@ -2,154 +2,109 @@
   "key": "npc:5030",
   "type": "npc",
   "id": 5030,
-  "name": "Lu4 Wiki: NPC Deathsworn Gravebinder",
+  "name": "Deathsworn Gravebinder",
   "url": "/lu4/npc/5030-deathsworn-gravebinder",
-  "source_url": "https://masterwork.wiki/lu4/npc/5030-deathsworn-gravebinder",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5030-deathsworn-gravebinder",
   "raw_html": "library/raw/lu4/npc/5030-deathsworn-gravebinder.html",
   "stats": {
-    "Location": "Кладбище (+2) Кладбище Земли Адена Равнины Неистовства"
+    "Respawn Time": "3 minutes, 30 seconds ± 20 seconds",
+    "Location": "Кладбище (+2) Кладбище Земли Адена Равнины Неистовства",
+    "HP / MP": "24 910 / 1 110",
+    "P. Atk. / M. Atk.": "2 911 / 3 020",
+    "P. Def. / M. Def.": "826 / 729",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "53 974 / 5 397",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. Hold Resistance Lv. 5 Resistant to Hold. Sleep Resistance Lv. 5 Resistant to Sleep. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Stun Attack Resistance Lv. 5 Resistant to Stun. Bleed Resistance Lv. 5 Resistant to Bleed. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 65"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5030",
-      "type": "npc",
-      "id": 5030,
-      "name": "Lu4",
-      "url": "/lu4/npc/5030-deathsworn-gravebinder"
-    },
-    {
-      "key": "location:71",
-      "type": "location",
-      "id": 71,
-      "name": "Кладбище",
-      "url": "/lu4/location/71-kladbise"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:32592",
+      "key": "item:57",
       "type": "item",
-      "id": 32592,
-      "name": "Unidentified Doom Shield B",
-      "url": "/lu4/item/32592-unidentified-doom-shield"
-    },
-    {
-      "key": "item:32336",
-      "type": "item",
-      "id": 32336,
-      "name": "Unidentified Demon's Dagger B",
-      "url": "/lu4/item/32336-unidentified-demons-dagger"
-    },
-    {
-      "key": "item:4119",
-      "type": "item",
-      "id": 4119,
-      "name": "Demon's Dagger Edge NG",
-      "url": "/lu4/item/4119-demons-dagger-edge"
-    },
-    {
-      "key": "item:4077",
-      "type": "item",
-      "id": 4077,
-      "name": "Doom Shield Fragment NG",
-      "url": "/lu4/item/4077-doom-shield-fragment"
-    },
-    {
-      "key": "item:4052",
-      "type": "item",
-      "id": 4052,
-      "name": "Earring of Black Ore Piece NG",
-      "url": "/lu4/item/4052-earring-of-black-ore-piece"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -187,6 +142,34 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:32336",
+      "type": "item",
+      "id": 32336,
+      "name": "Unidentified Demon's Dagger B",
+      "url": "/lu4/item/32336-unidentified-demons-dagger"
+    },
+    {
+      "key": "item:4119",
+      "type": "item",
+      "id": 4119,
+      "name": "Demon's Dagger Edge NG",
+      "url": "/lu4/item/4119-demons-dagger-edge"
+    },
+    {
+      "key": "item:32592",
+      "type": "item",
+      "id": 32592,
+      "name": "Unidentified Doom Shield B",
+      "url": "/lu4/item/32592-unidentified-doom-shield"
+    },
+    {
+      "key": "item:4077",
+      "type": "item",
+      "id": 4077,
+      "name": "Doom Shield Fragment NG",
+      "url": "/lu4/item/4077-doom-shield-fragment"
+    },
+    {
       "key": "item:864",
       "type": "item",
       "id": 864,
@@ -194,11 +177,11 @@
       "url": "/lu4/item/864-earring-of-black-ore"
     },
     {
-      "key": "item:57",
+      "key": "item:4052",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4052,
+      "name": "Earring of Black Ore Piece NG",
+      "url": "/lu4/item/4052-earring-of-black-ore-piece"
     }
   ]
 }

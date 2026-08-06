@@ -2,117 +2,114 @@
   "key": "npc:20966",
   "type": "npc",
   "id": 20966,
-  "name": "Lu4 Wiki: NPC Black Shadow",
+  "name": "Black Shadow",
   "url": "/lu4/npc/20966-black-shadow",
-  "source_url": "https://masterwork.wiki/lu4/npc/20966-black-shadow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20966-black-shadow",
   "raw_html": "library/raw/lu4/npc/20966-black-shadow.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "12 851 / 1 800",
+    "P. Atk. / M. Atk.": "3 179 / 921",
+    "P. Def. / M. Def.": "627 / 870",
+    "Accuracy / Evasion": "111 / 101",
+    "Exp / SP": "31 161 / 3 736",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (3x) Lv. 11 MP Increase (1x) Lv. 1 Extremely Strong P. Atk. Lv. 19 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Extremely Strong M. Def. Lv. 18 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. One-handed Sword Lv. 3 One-handed Sword Melee Attack Vulnerability Lv. 8 Renders target vulnerable to melee attacks. Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows. Searching Master Lv. 1 Directly attacks a pet's master or summoner.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 74"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20966",
-      "type": "npc",
-      "id": 20966,
-      "name": "Lu4",
-      "url": "/lu4/npc/20966-black-shadow"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Extremely Strong P. Atk. Lv. 19",
-      "url": "/lu4/skill/4410-extremely-strong-p-atk/19"
+      "name": "Extremely Strong P. Atk.",
+      "url": "/lu4/skill/4410-extremely-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Extremely Strong M. Def. Lv. 18",
-      "url": "/lu4/skill/4413-extremely-strong-m-def/18"
+      "name": "Extremely Strong M. Def.",
+      "url": "/lu4/skill/4413-extremely-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:5620",
       "type": "skill",
       "id": 5620,
-      "name": "Melee Attack Vulnerability Lv. 8 Renders target vulnerable to melee attacks.",
-      "url": "/lu4/skill/5620-melee-attack-vulnerability/8"
+      "name": "Melee Attack Vulnerability",
+      "url": "/lu4/skill/5620-melee-attack-vulnerability"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:6019",
       "type": "skill",
       "id": 6019,
-      "name": "Searching Master Lv. 1 Directly attacks a pet's master or summoner.",
-      "url": "/lu4/skill/6019-searching-master/1"
+      "name": "Searching Master",
+      "url": "/lu4/skill/6019-searching-master"
     },
     {
-      "key": "item:32381",
+      "key": "item:57",
       "type": "item",
-      "id": 32381,
-      "name": "Unidentified Sealed Tallum Leather Armor A",
-      "url": "/lu4/item/32381-unidentified-sealed-tallum-leather-armor"
-    },
-    {
-      "key": "item:32380",
-      "type": "item",
-      "id": 32380,
-      "name": "Unidentified Sealed Dark Crystal Leggings A",
-      "url": "/lu4/item/32380-unidentified-sealed-dark-crystal-leggings"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32379",
@@ -122,46 +119,18 @@
       "url": "/lu4/item/32379-unidentified-sealed-dark-crystal-leather-armor"
     },
     {
-      "key": "item:8762",
+      "key": "item:5478",
       "type": "item",
-      "id": 8762,
-      "name": "Top-Grade Life Stone NG",
-      "url": "/lu4/item/8762-top-grade-life-stone"
+      "id": 5478,
+      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
+      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
     },
     {
-      "key": "item:8752",
+      "key": "item:32381",
       "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
-    },
-    {
-      "key": "item:8742",
-      "type": "item",
-      "id": 8742,
-      "name": "Mid-Grade Life Stone NG",
-      "url": "/lu4/item/8742-mid-grade-life-stone"
-    },
-    {
-      "key": "item:8732",
-      "type": "item",
-      "id": 8732,
-      "name": "Life Stone NG",
-      "url": "/lu4/item/8732-life-stone"
-    },
-    {
-      "key": "item:6037",
-      "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
-    },
-    {
-      "key": "item:5482",
-      "type": "item",
-      "id": 5482,
-      "name": "Sealed Dark Crystal Leggings Design NG",
-      "url": "/lu4/item/5482-sealed-dark-crystal-leggings-design"
+      "id": 32381,
+      "name": "Unidentified Sealed Tallum Leather Armor A",
+      "url": "/lu4/item/32381-unidentified-sealed-tallum-leather-armor"
     },
     {
       "key": "item:5479",
@@ -171,39 +140,18 @@
       "url": "/lu4/item/5479-sealed-tallum-leather-armor-pattern"
     },
     {
-      "key": "item:5478",
+      "key": "item:32380",
       "type": "item",
-      "id": 5478,
-      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
-      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
+      "id": 32380,
+      "name": "Unidentified Sealed Dark Crystal Leggings A",
+      "url": "/lu4/item/32380-unidentified-sealed-dark-crystal-leggings"
     },
     {
-      "key": "item:4617",
+      "key": "item:5482",
       "type": "item",
-      "id": 4617,
-      "name": "Greater Dye of DEX <Dex+4 Str-4> NG",
-      "url": "/lu4/item/4617-greater-dye-of-dex-dex4-str-4"
-    },
-    {
-      "key": "item:4044",
-      "type": "item",
-      "id": 4044,
-      "name": "Thons NG",
-      "url": "/lu4/item/4044-thons"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:4039",
-      "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
+      "id": 5482,
+      "name": "Sealed Dark Crystal Leggings Design NG",
+      "url": "/lu4/item/5482-sealed-dark-crystal-leggings-design"
     },
     {
       "key": "item:1894",
@@ -213,11 +161,67 @@
       "url": "/lu4/item/1894-crafted-leather"
     },
     {
-      "key": "item:57",
+      "key": "item:4039",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:4044",
+      "type": "item",
+      "id": 4044,
+      "name": "Thons NG",
+      "url": "/lu4/item/4044-thons"
+    },
+    {
+      "key": "item:4617",
+      "type": "item",
+      "id": 4617,
+      "name": "Greater Dye of DEX <Dex+4 Str-4> NG",
+      "url": "/lu4/item/4617-greater-dye-of-dex-dex4-str-4"
+    },
+    {
+      "key": "item:6037",
+      "type": "item",
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
+    },
+    {
+      "key": "item:8732",
+      "type": "item",
+      "id": 8732,
+      "name": "Life Stone NG",
+      "url": "/lu4/item/8732-life-stone"
+    },
+    {
+      "key": "item:8742",
+      "type": "item",
+      "id": 8742,
+      "name": "Mid-Grade Life Stone NG",
+      "url": "/lu4/item/8742-mid-grade-life-stone"
+    },
+    {
+      "key": "item:8752",
+      "type": "item",
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
+    },
+    {
+      "key": "item:8762",
+      "type": "item",
+      "id": 8762,
+      "name": "Top-Grade Life Stone NG",
+      "url": "/lu4/item/8762-top-grade-life-stone"
     },
     {
       "key": "item:4085",

@@ -2,112 +2,81 @@
   "key": "npc:21061",
   "type": "npc",
   "id": 21061,
-  "name": "Lu4 Wiki: NPC Hallate's Guardian",
+  "name": "Hallate's Guardian",
   "url": "/lu4/npc/21061-hallates-guardian",
-  "source_url": "https://masterwork.wiki/lu4/npc/21061-hallates-guardian",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21061-hallates-guardian",
   "raw_html": "library/raw/lu4/npc/21061-hallates-guardian.html",
   "stats": {
-    "Location": "Башня Дерзости: 5-й этаж"
+    "Respawn Time": "3 minutes, 20 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 5-й этаж",
+    "HP / MP": "23 017 / 1 618",
+    "P. Atk. / M. Atk.": "2 578 / 821",
+    "P. Def. / M. Def.": "723 / 491",
+    "Accuracy / Evasion": "100 / 100",
+    "Exp / SP": "47 321 / 4 732",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 17 Strong M. Def. Lv. 14 Strong P. Def. Lv. 15 Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 67"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21061",
-      "type": "npc",
-      "id": 21061,
-      "name": "Lu4",
-      "url": "/lu4/npc/21061-hallates-guardian"
-    },
-    {
-      "key": "location:88",
-      "type": "location",
-      "id": 88,
-      "name": "Башня Дерзости: 5-й этаж",
-      "url": "/lu4/location/88-basna-derzosti-5-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 17",
-      "url": "/lu4/skill/4410-very-strong-p-atk/17"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32379",
-      "type": "item",
-      "id": 32379,
-      "name": "Unidentified Sealed Dark Crystal Leather Armor A",
-      "url": "/lu4/item/32379-unidentified-sealed-dark-crystal-leather-armor"
-    },
-    {
-      "key": "item:6343",
-      "type": "item",
-      "id": 6343,
-      "name": "Sealed Phoenix Necklace Beads NG",
-      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
-    },
-    {
-      "key": "item:6323",
-      "type": "item",
-      "id": 6323,
-      "name": "Sealed Phoenix Necklace A",
-      "url": "/lu4/item/6323-sealed-phoenix-necklace"
-    },
-    {
-      "key": "item:5478",
-      "type": "item",
-      "id": 5478,
-      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
-      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -145,11 +114,39 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32379",
+      "type": "item",
+      "id": 32379,
+      "name": "Unidentified Sealed Dark Crystal Leather Armor A",
+      "url": "/lu4/item/32379-unidentified-sealed-dark-crystal-leather-armor"
+    },
+    {
+      "key": "item:5478",
+      "type": "item",
+      "id": 5478,
+      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
+      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
+    },
+    {
+      "key": "item:6323",
+      "type": "item",
+      "id": 6323,
+      "name": "Sealed Phoenix Necklace A",
+      "url": "/lu4/item/6323-sealed-phoenix-necklace"
+    },
+    {
+      "key": "item:6343",
+      "type": "item",
+      "id": 6343,
+      "name": "Sealed Phoenix Necklace Beads NG",
+      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
     },
     {
       "key": "item:5348",

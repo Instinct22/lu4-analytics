@@ -2,133 +2,60 @@
   "key": "npc:20476",
   "type": "npc",
   "id": 20476,
-  "name": "Lu4 Wiki: NPC Kasha Fang Spider",
+  "name": "Kasha Fang Spider",
   "url": "/lu4/npc/20476-kasha-fang-spider",
-  "source_url": "https://masterwork.wiki/lu4/npc/20476-kasha-fang-spider",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20476-kasha-fang-spider",
   "raw_html": "library/raw/lu4/npc/20476-kasha-fang-spider.html",
   "stats": {
-    "Location": "Нейтральные Воды (+3) Нейтральные Воды Плато Бессмертия Перекресток Разбойников Плато Бессмертия, север"
+    "Respawn Time": "25 seconds",
+    "Location": "Нейтральные Воды (+3) Нейтральные Воды Плато Бессмертия Перекресток Разбойников Плато Бессмертия, север",
+    "HP / MP": "405 / 193",
+    "P. Atk. / M. Atk.": "50 / 26",
+    "P. Def. / M. Def.": "80 / 62",
+    "Accuracy / Evasion": "49 / 54",
+    "Exp / SP": "434 / 43",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 16"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20476",
-      "type": "npc",
-      "id": 20476,
-      "name": "Lu4",
-      "url": "/lu4/npc/20476-kasha-fang-spider"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
-      "key": "location:61",
-      "type": "location",
-      "id": 61,
-      "name": "Перекресток Разбойников",
-      "url": "/lu4/location/61-perekrestok-razbojnikov"
-    },
-    {
-      "key": "location:189",
-      "type": "location",
-      "id": 189,
-      "name": "Плато Бессмертия, север",
-      "url": "/lu4/location/189-plato-bessmertia-sever"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
-    },
-    {
-      "key": "item:5273",
-      "type": "item",
-      "id": 5273,
-      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
-      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
-    },
-    {
-      "key": "item:2012",
-      "type": "item",
-      "id": 2012,
-      "name": "Sword of Reflection Blade NG",
-      "url": "/lu4/item/2012-sword-of-reflection-blade"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1800",
-      "type": "item",
-      "id": 1800,
-      "name": "Recipe: Piece Bone Breastplate NG",
-      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
-    },
-    {
-      "key": "item:121",
-      "type": "item",
-      "id": 121,
-      "name": "Sword of Watershadow NG",
-      "url": "/lu4/item/121-sword-of-watershadow"
-    },
-    {
-      "key": "item:120",
-      "type": "item",
-      "id": 120,
-      "name": "Sword of Reflection NG",
-      "url": "/lu4/item/120-sword-of-reflection"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -145,11 +72,60 @@
       "url": "/lu4/item/2-long-sword"
     },
     {
-      "key": "item:5549",
+      "key": "item:120",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
+      "id": 120,
+      "name": "Sword of Reflection NG",
+      "url": "/lu4/item/120-sword-of-reflection"
+    },
+    {
+      "key": "item:121",
+      "type": "item",
+      "id": 121,
+      "name": "Sword of Watershadow NG",
+      "url": "/lu4/item/121-sword-of-watershadow"
+    },
+    {
+      "key": "item:2012",
+      "type": "item",
+      "id": 2012,
+      "name": "Sword of Reflection Blade NG",
+      "url": "/lu4/item/2012-sword-of-reflection-blade"
+    },
+    {
+      "key": "item:1800",
+      "type": "item",
+      "id": 1800,
+      "name": "Recipe: Piece Bone Breastplate NG",
+      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:5273",
+      "type": "item",
+      "id": 5273,
+      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
+      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
+    },
+    {
+      "key": "item:945",
+      "type": "item",
+      "id": 945,
+      "name": "Skeleton Buckler NG",
+      "url": "/lu4/item/945-skeleton-buckler"
     },
     {
       "key": "item:1866",
@@ -159,11 +135,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:945",
+      "key": "item:5549",
       "type": "item",
-      "id": 945,
-      "name": "Skeleton Buckler NG",
-      "url": "/lu4/item/945-skeleton-buckler"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     }
   ]
 }

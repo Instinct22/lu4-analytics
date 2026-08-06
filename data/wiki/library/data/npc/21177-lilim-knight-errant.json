@@ -2,103 +2,100 @@
   "key": "npc:21177",
   "type": "npc",
   "id": 21177,
-  "name": "Lu4 Wiki: NPC Lilim Knight-Errant",
+  "name": "Lilim Knight-Errant",
   "url": "/lu4/npc/21177-lilim-knight-errant",
-  "source_url": "https://masterwork.wiki/lu4/npc/21177-lilim-knight-errant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21177-lilim-knight-errant",
   "raw_html": "library/raw/lu4/npc/21177-lilim-knight-errant.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "10 251 / 1 060",
+    "P. Atk. / M. Atk.": "950 / 517",
+    "P. Def. / M. Def.": "331 / 223",
+    "Accuracy / Evasion": "87 / 87",
+    "Exp / SP": "17 540 / 1 396",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Strong P. Def. Lv. 14 Slightly Weak M. Def. Lv. 9 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Hold Resistance Lv. 3 Slightly resistant to Hold. Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 54"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21177",
-      "type": "npc",
-      "id": 21177,
-      "name": "Lu4",
-      "url": "/lu4/npc/21177-lilim-knight-errant"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:6360",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:6362",
-      "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
+      "id": 6360,
+      "name": "Blue Seal Stone NG",
+      "url": "/lu4/item/6360-blue-seal-stone"
     },
     {
       "key": "item:6361",
@@ -108,11 +105,67 @@
       "url": "/lu4/item/6361-green-seal-stone"
     },
     {
-      "key": "item:6360",
+      "key": "item:6362",
       "type": "item",
-      "id": 6360,
-      "name": "Blue Seal Stone NG",
-      "url": "/lu4/item/6360-blue-seal-stone"
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
+    },
+    {
+      "key": "item:299",
+      "type": "item",
+      "id": 299,
+      "name": "Orcish Poleaxe C",
+      "url": "/lu4/item/299-orcish-poleaxe"
+    },
+    {
+      "key": "item:2122",
+      "type": "item",
+      "id": 2122,
+      "name": "Orcish Poleaxe Blade NG",
+      "url": "/lu4/item/2122-orcish-poleaxe-blade"
+    },
+    {
+      "key": "item:2114",
+      "type": "item",
+      "id": 2114,
+      "name": "Widowmaker Head NG",
+      "url": "/lu4/item/2114-widowmaker-head"
+    },
+    {
+      "key": "item:2113",
+      "type": "item",
+      "id": 2113,
+      "name": "Scorpion Blade NG",
+      "url": "/lu4/item/2113-scorpion-blade"
+    },
+    {
+      "key": "item:301",
+      "type": "item",
+      "id": 301,
+      "name": "Scorpion C",
+      "url": "/lu4/item/301-scorpion"
+    },
+    {
+      "key": "item:303",
+      "type": "item",
+      "id": 303,
+      "name": "Widow Maker C",
+      "url": "/lu4/item/303-widow-maker"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:1876",
+      "type": "item",
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
     },
     {
       "key": "item:4968",
@@ -143,39 +196,11 @@
       "url": "/lu4/item/3034-recipe-spiritshot-b"
     },
     {
-      "key": "item:2122",
+      "key": "item:1868",
       "type": "item",
-      "id": 2122,
-      "name": "Orcish Poleaxe Blade NG",
-      "url": "/lu4/item/2122-orcish-poleaxe-blade"
-    },
-    {
-      "key": "item:2114",
-      "type": "item",
-      "id": 2114,
-      "name": "Widowmaker Head NG",
-      "url": "/lu4/item/2114-widowmaker-head"
-    },
-    {
-      "key": "item:2113",
-      "type": "item",
-      "id": 2113,
-      "name": "Scorpion Blade NG",
-      "url": "/lu4/item/2113-scorpion-blade"
-    },
-    {
-      "key": "item:1895",
-      "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
-    },
-    {
-      "key": "item:1876",
-      "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "url": "/lu4/item/1876-mithril-ore"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:1873",
@@ -185,39 +210,18 @@
       "url": "/lu4/item/1873-silver-nugget"
     },
     {
-      "key": "item:1868",
+      "key": "item:1895",
       "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:303",
+      "key": "item:1806",
       "type": "item",
-      "id": 303,
-      "name": "Widow Maker C",
-      "url": "/lu4/item/303-widow-maker"
-    },
-    {
-      "key": "item:301",
-      "type": "item",
-      "id": 301,
-      "name": "Scorpion C",
-      "url": "/lu4/item/301-scorpion"
-    },
-    {
-      "key": "item:299",
-      "type": "item",
-      "id": 299,
-      "name": "Orcish Poleaxe C",
-      "url": "/lu4/item/299-orcish-poleaxe"
-    },
-    {
-      "key": "item:4594",
-      "type": "item",
-      "id": 4594,
-      "name": "Greater Dye of DEX <Dex+2 Con-2> NG",
-      "url": "/lu4/item/4594-greater-dye-of-dex-dex2-con-2"
+      "id": 1806,
+      "name": "Recipe: Soulshot (B-Grade) NG",
+      "url": "/lu4/item/1806-recipe-soulshot-b-grade"
     },
     {
       "key": "item:1920",
@@ -227,11 +231,11 @@
       "url": "/lu4/item/1920-necklace-of-seal-chain"
     },
     {
-      "key": "item:1806",
+      "key": "item:4594",
       "type": "item",
-      "id": 1806,
-      "name": "Recipe: Soulshot (B-Grade) NG",
-      "url": "/lu4/item/1806-recipe-soulshot-b-grade"
+      "id": 4594,
+      "name": "Greater Dye of DEX <Dex+2 Con-2> NG",
+      "url": "/lu4/item/4594-greater-dye-of-dex-dex2-con-2"
     }
   ]
 }

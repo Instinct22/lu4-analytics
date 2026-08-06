@@ -2,49 +2,67 @@
   "key": "npc:20336",
   "type": "npc",
   "id": 20336,
-  "name": "Lu4 Wiki: NPC Green Dryad",
+  "name": "Green Dryad",
   "url": "/lu4/npc/20336-green-dryad",
-  "source_url": "https://masterwork.wiki/lu4/npc/20336-green-dryad",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20336-green-dryad",
   "raw_html": "library/raw/lu4/npc/20336-green-dryad.html",
   "stats": {
-    "Location": "Тень Древа Жизни (+1) Тень Древа Жизни Эльфийский Лес"
+    "Respawn Time": "12 seconds",
+    "Location": "Тень Древа Жизни (+1) Тень Древа Жизни Эльфийский Лес",
+    "HP / MP": "203 / 113",
+    "P. Atk. / M. Atk.": "21 / 9",
+    "P. Def. / M. Def.": "58 / 47",
+    "Accuracy / Evasion": "41 / 41",
+    "Exp / SP": "213 / 21",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 8"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20336",
-      "type": "npc",
-      "id": 20336,
-      "name": "Lu4",
-      "url": "/lu4/npc/20336-green-dryad"
-    },
-    {
-      "key": "location:111",
-      "type": "location",
-      "id": 111,
-      "name": "Тень Древа Жизни",
-      "url": "/lu4/location/111-ten-dreva-zizni"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
-      "key": "item:1873",
+      "key": "item:57",
       "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:428",
+      "type": "item",
+      "id": 428,
+      "name": "Feriotic Tunic NG",
+      "url": "/lu4/item/428-feriotic-tunic"
+    },
+    {
+      "key": "item:463",
+      "type": "item",
+      "id": 463,
+      "name": "Feriotic Stockings NG",
+      "url": "/lu4/item/463-feriotic-stockings"
+    },
+    {
+      "key": "item:1100",
+      "type": "item",
+      "id": 1100,
+      "name": "Cotton Tunic NG",
+      "url": "/lu4/item/1100-cotton-tunic"
+    },
+    {
+      "key": "item:1103",
+      "type": "item",
+      "id": 1103,
+      "name": "Cotton Stockings NG",
+      "url": "/lu4/item/1103-cotton-stockings"
     },
     {
       "key": "item:1868",
@@ -82,46 +100,18 @@
       "url": "/lu4/item/1789-recipe-cedar-staff"
     },
     {
-      "key": "item:1103",
+      "key": "item:1873",
       "type": "item",
-      "id": 1103,
-      "name": "Cotton Stockings NG",
-      "url": "/lu4/item/1103-cotton-stockings"
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
-      "key": "item:1100",
+      "key": "item:29",
       "type": "item",
-      "id": 1100,
-      "name": "Cotton Tunic NG",
-      "url": "/lu4/item/1100-cotton-tunic"
-    },
-    {
-      "key": "item:463",
-      "type": "item",
-      "id": 463,
-      "name": "Feriotic Stockings NG",
-      "url": "/lu4/item/463-feriotic-stockings"
-    },
-    {
-      "key": "item:428",
-      "type": "item",
-      "id": 428,
-      "name": "Feriotic Tunic NG",
-      "url": "/lu4/item/428-feriotic-tunic"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:1802",
-      "type": "item",
-      "id": 1802,
-      "name": "Recipe: Necklace of Anguish NG",
-      "url": "/lu4/item/1802-recipe-necklace-of-anguish"
+      "id": 29,
+      "name": "Leather Pants NG",
+      "url": "/lu4/item/29-leather-pants"
     },
     {
       "key": "item:1060",
@@ -131,11 +121,11 @@
       "url": "/lu4/item/1060-lesser-healing-potion"
     },
     {
-      "key": "item:29",
+      "key": "item:1802",
       "type": "item",
-      "id": 29,
-      "name": "Leather Pants NG",
-      "url": "/lu4/item/29-leather-pants"
+      "id": 1802,
+      "name": "Recipe: Necklace of Anguish NG",
+      "url": "/lu4/item/1802-recipe-necklace-of-anguish"
     }
   ]
 }

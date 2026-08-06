@@ -2,103 +2,114 @@
   "key": "npc:21415",
   "type": "npc",
   "id": 21415,
-  "name": "Lu4 Wiki: NPC Assassin of Empire",
+  "name": "Assassin of Empire",
   "url": "/lu4/npc/21415-assassin-of-empire",
-  "source_url": "https://masterwork.wiki/lu4/npc/21415-assassin-of-empire",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21415-assassin-of-empire",
   "raw_html": "library/raw/lu4/npc/21415-assassin-of-empire.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "23 504 / 1 935",
+    "P. Atk. / M. Atk.": "1 490 / 1 107",
+    "P. Def. / M. Def.": "667 / 597",
+    "Accuracy / Evasion": "125 / 132",
+    "Exp / SP": "36 496 / 4 140",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire -5, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Standard Type Lv. 2 Normal P. Def. and Evasion. Dagger Lv. 7 Daggers Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. High Lv. Lv. 7 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21415",
-      "type": "npc",
-      "id": 21415,
-      "name": "Lu4",
-      "url": "/lu4/npc/21415-assassin-of-empire"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Dagger Lv. 7 Daggers",
-      "url": "/lu4/skill/4415-dagger/7"
+      "name": "Dagger",
+      "url": "/lu4/skill/4415-dagger"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 7 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/7"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:32536",
+      "key": "item:57",
       "type": "item",
-      "id": 32536,
-      "name": "Unidentified Branch of the Mother Tree A",
-      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:8342",
+      "type": "item",
+      "id": 8342,
+      "name": "Flaming Dragon Skull Piece NG",
+      "url": "/lu4/item/8342-flaming-dragon-skull-piece"
     },
     {
       "key": "item:32440",
@@ -115,27 +126,6 @@
       "url": "/lu4/item/32436-unidentified-flaming-dragon-skull"
     },
     {
-      "key": "item:32332",
-      "type": "item",
-      "id": 32332,
-      "name": "Unidentified Elysian A",
-      "url": "/lu4/item/32332-unidentified-elysian"
-    },
-    {
-      "key": "item:8349",
-      "type": "item",
-      "id": 8349,
-      "name": "Doom Crusher Head NG",
-      "url": "/lu4/item/8349-doom-crusher-head"
-    },
-    {
-      "key": "item:8342",
-      "type": "item",
-      "id": 8342,
-      "name": "Flaming Dragon Skull Piece NG",
-      "url": "/lu4/item/8342-flaming-dragon-skull-piece"
-    },
-    {
       "key": "item:5544",
       "type": "item",
       "id": 5544,
@@ -150,18 +140,25 @@
       "url": "/lu4/item/5533-elysian-head"
     },
     {
-      "key": "item:4041",
+      "key": "item:8349",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 8349,
+      "name": "Doom Crusher Head NG",
+      "url": "/lu4/item/8349-doom-crusher-head"
     },
     {
-      "key": "item:4040",
+      "key": "item:32536",
       "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
+      "id": 32536,
+      "name": "Unidentified Branch of the Mother Tree A",
+      "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
+    },
+    {
+      "key": "item:32332",
+      "type": "item",
+      "id": 32332,
+      "name": "Unidentified Elysian A",
+      "url": "/lu4/item/32332-unidentified-elysian"
     },
     {
       "key": "item:1877",
@@ -176,6 +173,13 @@
       "id": 1871,
       "name": "Charcoal NG",
       "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
       "key": "item:1866",
@@ -199,11 +203,11 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:4040",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
     },
     {
       "key": "item:6344",

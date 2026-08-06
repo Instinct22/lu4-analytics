@@ -2,54 +2,50 @@
   "key": "npc:25074",
   "type": "npc",
   "id": 25074,
-  "name": "Lu4 Wiki: NPC Rudelto's Banshee",
+  "name": "Rudelto's Banshee",
   "url": "/lu4/npc/25074-rudeltos-banshee",
-  "source_url": "https://masterwork.wiki/lu4/npc/25074-rudeltos-banshee",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25074-rudeltos-banshee",
   "raw_html": "library/raw/lu4/npc/25074-rudeltos-banshee.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "91 632 / 1 618",
+    "P. Atk. / M. Atk.": "4 081 / 14 404",
+    "P. Def. / M. Def.": "904 / 776",
+    "Accuracy / Evasion": "101 / 101",
+    "Exp / SP": "0 / 2 160",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Resist Full Magic Attack Lv. 1",
+    "Type": "Demonic, Lv. 68"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25074",
-      "type": "npc",
-      "id": 25074,
-      "name": "Lu4",
-      "url": "/lu4/npc/25074-rudeltos-banshee"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:1344",
-      "type": "item",
-      "id": 1344,
-      "name": "Mithril Arrow A",
-      "url": "/lu4/item/1344-mithril-arrow"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

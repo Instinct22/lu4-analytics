@@ -2,161 +2,74 @@
   "key": "npc:20974",
   "type": "npc",
   "id": 20974,
-  "name": "Lu4 Wiki: NPC Spiteful Soul Leader",
+  "name": "Spiteful Soul Leader",
   "url": "/lu4/npc/20974-spiteful-soul-leader",
-  "source_url": "https://masterwork.wiki/lu4/npc/20974-spiteful-soul-leader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20974-spiteful-soul-leader",
   "raw_html": "library/raw/lu4/npc/20974-spiteful-soul-leader.html",
   "stats": {
-    "Location": "Поле Брани (+1) Поле Брани Земли Адена"
+    "Respawn Time": "1 minute, 30 seconds ± 10 seconds",
+    "Location": "Поле Брани (+1) Поле Брани Земли Адена",
+    "HP / MP": "10 665 / 1 464",
+    "P. Atk. / M. Atk.": "1 294 / 731",
+    "P. Def. / M. Def.": "432 / 318",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "11 567 / 1 157",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Slightly Weak M. Def. Lv. 10 Slightly Weak P. Def. Lv. 10 Dark Attack Lv. 1 Unleashes a dark attack. Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 65"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20974",
-      "type": "npc",
-      "id": 20974,
-      "name": "Lu4",
-      "url": "/lu4/npc/20974-spiteful-soul-leader"
-    },
-    {
-      "key": "location:188",
-      "type": "location",
-      "id": 188,
-      "name": "Поле Брани",
-      "url": "/lu4/location/188-pole-brani"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
-      "key": "item:32592",
+      "key": "item:57",
       "type": "item",
-      "id": 32592,
-      "name": "Unidentified Doom Shield B",
-      "url": "/lu4/item/32592-unidentified-doom-shield"
-    },
-    {
-      "key": "item:32401",
-      "type": "item",
-      "id": 32401,
-      "name": "Unidentified Sealed Doom Gloves B",
-      "url": "/lu4/item/32401-unidentified-sealed-doom-gloves"
-    },
-    {
-      "key": "item:32365",
-      "type": "item",
-      "id": 32365,
-      "name": "Unidentified Blue Wolf Helmet B",
-      "url": "/lu4/item/32365-unidentified-blue-wolf-helmet"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:5006",
-      "type": "item",
-      "id": 5006,
-      "name": "Recipe: Bellion Cestus (60%) NG",
-      "url": "/lu4/item/5006-recipe-bellion-cestus-60"
-    },
-    {
-      "key": "item:5004",
-      "type": "item",
-      "id": 5004,
-      "name": "Recipe: Staff of Evil Spirits (60%) NG",
-      "url": "/lu4/item/5004-recipe-staff-of-evil-spirits-60"
-    },
-    {
-      "key": "item:4983",
-      "type": "item",
-      "id": 4983,
-      "name": "Recipe: Doom Plate Armor (60%) NG",
-      "url": "/lu4/item/4983-recipe-doom-plate-armor-60"
-    },
-    {
-      "key": "item:4091",
-      "type": "item",
-      "id": 4091,
-      "name": "Sealed Doom Gloves Part NG",
-      "url": "/lu4/item/4091-sealed-doom-gloves-part"
-    },
-    {
-      "key": "item:4088",
-      "type": "item",
-      "id": 4088,
-      "name": "Blue Wolf Helmet Design NG",
-      "url": "/lu4/item/4088-blue-wolf-helmet-design"
-    },
-    {
-      "key": "item:4077",
-      "type": "item",
-      "id": 4077,
-      "name": "Doom Shield Fragment NG",
-      "url": "/lu4/item/4077-doom-shield-fragment"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1871",
@@ -166,6 +79,20 @@
       "url": "/lu4/item/1871-charcoal"
     },
     {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
       "key": "item:1866",
       "type": "item",
       "id": 1866,
@@ -173,11 +100,74 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:5220",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
+      "key": "item:32365",
+      "type": "item",
+      "id": 32365,
+      "name": "Unidentified Blue Wolf Helmet B",
+      "url": "/lu4/item/32365-unidentified-blue-wolf-helmet"
+    },
+    {
+      "key": "item:4088",
+      "type": "item",
+      "id": 4088,
+      "name": "Blue Wolf Helmet Design NG",
+      "url": "/lu4/item/4088-blue-wolf-helmet-design"
+    },
+    {
+      "key": "item:32592",
+      "type": "item",
+      "id": 32592,
+      "name": "Unidentified Doom Shield B",
+      "url": "/lu4/item/32592-unidentified-doom-shield"
+    },
+    {
+      "key": "item:4077",
+      "type": "item",
+      "id": 4077,
+      "name": "Doom Shield Fragment NG",
+      "url": "/lu4/item/4077-doom-shield-fragment"
+    },
+    {
+      "key": "item:32401",
+      "type": "item",
+      "id": 32401,
+      "name": "Unidentified Sealed Doom Gloves B",
+      "url": "/lu4/item/32401-unidentified-sealed-doom-gloves"
+    },
+    {
+      "key": "item:4091",
+      "type": "item",
+      "id": 4091,
+      "name": "Sealed Doom Gloves Part NG",
+      "url": "/lu4/item/4091-sealed-doom-gloves-part"
+    },
+    {
+      "key": "item:5006",
+      "type": "item",
+      "id": 5006,
+      "name": "Recipe: Bellion Cestus (60%) NG",
+      "url": "/lu4/item/5006-recipe-bellion-cestus-60"
+    },
+    {
+      "key": "item:4983",
+      "type": "item",
+      "id": 4983,
+      "name": "Recipe: Doom Plate Armor (60%) NG",
+      "url": "/lu4/item/4983-recipe-doom-plate-armor-60"
+    },
+    {
+      "key": "item:5004",
+      "type": "item",
+      "id": 5004,
+      "name": "Recipe: Staff of Evil Spirits (60%) NG",
+      "url": "/lu4/item/5004-recipe-staff-of-evil-spirits-60"
     },
     {
       "key": "item:5001",
@@ -194,11 +184,11 @@
       "url": "/lu4/item/4985-recipe-leather-armor-of-doom-60"
     },
     {
-      "key": "item:4118",
+      "key": "item:4078",
       "type": "item",
-      "id": 4118,
-      "name": "Evil Spirit Head NG",
-      "url": "/lu4/item/4118-evil-spirit-head"
+      "id": 4078,
+      "name": "Blue Wolf Breastplate Part NG",
+      "url": "/lu4/item/4078-blue-wolf-breastplate-part"
     },
     {
       "key": "item:4099",
@@ -208,11 +198,11 @@
       "url": "/lu4/item/4099-sealed-doom-boots-part"
     },
     {
-      "key": "item:4078",
+      "key": "item:4118",
       "type": "item",
-      "id": 4078,
-      "name": "Blue Wolf Breastplate Part NG",
-      "url": "/lu4/item/4078-blue-wolf-breastplate-part"
+      "id": 4118,
+      "name": "Evil Spirit Head NG",
+      "url": "/lu4/item/4118-evil-spirit-head"
     },
     {
       "key": "npc:20975",

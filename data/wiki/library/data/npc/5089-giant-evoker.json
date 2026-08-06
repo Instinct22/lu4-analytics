@@ -2,154 +2,109 @@
   "key": "npc:5089",
   "type": "npc",
   "id": 5089,
-  "name": "Lu4 Wiki: NPC Giant Evoker",
+  "name": "Giant Evoker",
   "url": "/lu4/npc/5089-giant-evoker",
-  "source_url": "https://masterwork.wiki/lu4/npc/5089-giant-evoker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5089-giant-evoker",
   "raw_html": "library/raw/lu4/npc/5089-giant-evoker.html",
   "stats": {
-    "Location": "Долина Безмолвия"
+    "Respawn Time": "3 minutes, 50 seconds ± 25 seconds",
+    "Location": "Долина Безмолвия",
+    "HP / MP": "34 353 / 1 110",
+    "P. Atk. / M. Atk.": "4 501 / 4 446",
+    "P. Def. / M. Def.": "1 021 / 945",
+    "Accuracy / Evasion": "108 / 113",
+    "Exp / SP": "86 765 / 8 676",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 75"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5089",
-      "type": "npc",
-      "id": 5089,
-      "name": "Lu4",
-      "url": "/lu4/npc/5089-giant-evoker"
-    },
-    {
-      "key": "location:70",
-      "type": "location",
-      "id": 70,
-      "name": "Долина Безмолвия",
-      "url": "/lu4/location/70-dolina-bezmolvia"
-    },
-    {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32440",
-      "type": "item",
-      "id": 32440,
-      "name": "Unidentified Doom Crusher A",
-      "url": "/lu4/item/32440-unidentified-doom-crusher"
-    },
-    {
-      "key": "item:32387",
-      "type": "item",
-      "id": 32387,
-      "name": "Unidentified Sealed Gauntlets of Nightmare A",
-      "url": "/lu4/item/32387-unidentified-sealed-gauntlets-of-nightmare"
-    },
-    {
-      "key": "item:32338",
-      "type": "item",
-      "id": 32338,
-      "name": "Unidentified Soul Separator A",
-      "url": "/lu4/item/32338-unidentified-soul-separator"
-    },
-    {
-      "key": "item:8349",
-      "type": "item",
-      "id": 8349,
-      "name": "Doom Crusher Head NG",
-      "url": "/lu4/item/8349-doom-crusher-head"
-    },
-    {
-      "key": "item:5537",
-      "type": "item",
-      "id": 5537,
-      "name": "Soul Separator Head NG",
-      "url": "/lu4/item/5537-soul-separator-head"
-    },
-    {
-      "key": "item:5514",
-      "type": "item",
-      "id": 5514,
-      "name": "Sealed Gauntlets of Nightmare Design NG",
-      "url": "/lu4/item/5514-sealed-gauntlets-of-nightmare-design"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -187,6 +142,13 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
       "key": "item:729",
       "type": "item",
       "id": 729,
@@ -194,11 +156,53 @@
       "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:32440",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32440,
+      "name": "Unidentified Doom Crusher A",
+      "url": "/lu4/item/32440-unidentified-doom-crusher"
+    },
+    {
+      "key": "item:8349",
+      "type": "item",
+      "id": 8349,
+      "name": "Doom Crusher Head NG",
+      "url": "/lu4/item/8349-doom-crusher-head"
+    },
+    {
+      "key": "item:32338",
+      "type": "item",
+      "id": 32338,
+      "name": "Unidentified Soul Separator A",
+      "url": "/lu4/item/32338-unidentified-soul-separator"
+    },
+    {
+      "key": "item:5537",
+      "type": "item",
+      "id": 5537,
+      "name": "Soul Separator Head NG",
+      "url": "/lu4/item/5537-soul-separator-head"
+    },
+    {
+      "key": "item:32387",
+      "type": "item",
+      "id": 32387,
+      "name": "Unidentified Sealed Gauntlets of Nightmare A",
+      "url": "/lu4/item/32387-unidentified-sealed-gauntlets-of-nightmare"
+    },
+    {
+      "key": "item:5514",
+      "type": "item",
+      "id": 5514,
+      "name": "Sealed Gauntlets of Nightmare Design NG",
+      "url": "/lu4/item/5514-sealed-gauntlets-of-nightmare-design"
+    },
+    {
+      "key": "item:730",
+      "type": "item",
+      "id": 730,
+      "name": "Scroll: Enchant Armor (A-Grade) NG",
+      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     },
     {
       "key": "item:8342",
@@ -213,13 +217,6 @@
       "id": 5538,
       "name": "Dragon Grinder Edge NG",
       "url": "/lu4/item/5538-dragon-grinder-edge"
-    },
-    {
-      "key": "item:730",
-      "type": "item",
-      "id": 730,
-      "name": "Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     }
   ]
 }

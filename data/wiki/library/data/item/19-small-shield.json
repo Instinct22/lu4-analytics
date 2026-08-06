@@ -2,48 +2,47 @@
   "key": "item:19",
   "type": "item",
   "id": 19,
-  "name": "Lu4 Wiki: Item Small Shield",
+  "name": "Small Shield",
   "url": "/lu4/item/19-small-shield",
-  "source_url": "https://masterwork.wiki/lu4/item/19-small-shield",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/19-small-shield",
   "raw_html": "library/raw/lu4/item/19-small-shield.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Shield Defense": "56 (20%)",
+    "NPC Sell Price": "245 Adena",
+    "Weight": "1420",
+    "Evasion": "-8",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Armor / None / Shield"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:19",
-      "type": "item",
-      "id": 19,
-      "name": "Lu4",
-      "url": "/lu4/item/19-small-shield"
-    },
-    {
       "key": "npc:20470",
       "type": "npc",
       "id": 20470,
-      "name": "Kaboo Orc Grunt Lv. 7",
+      "name": "Kaboo Orc Grunt",
       "url": "/lu4/npc/20470-kaboo-orc-grunt"
     },
     {
       "key": "npc:20312",
       "type": "npc",
       "id": 20312,
-      "name": "Rakeclaw Imp Hunter Lv. 7",
+      "name": "Rakeclaw Imp Hunter",
       "url": "/lu4/npc/20312-rakeclaw-imp-hunter"
     },
     {
       "key": "npc:20131",
       "type": "npc",
       "id": 20131,
-      "name": "Orc Grunt Lv. 7",
+      "name": "Orc Grunt",
       "url": "/lu4/npc/20131-orc-grunt"
     },
     {
       "key": "npc:20005",
       "type": "npc",
       "id": 20005,
-      "name": "Imp Elder Lv. 7",
+      "name": "Imp Elder",
       "url": "/lu4/npc/20005-imp-elder"
     }
   ]

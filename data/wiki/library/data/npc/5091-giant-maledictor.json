@@ -2,182 +2,109 @@
   "key": "npc:5091",
   "type": "npc",
   "id": 5091,
-  "name": "Lu4 Wiki: NPC Giant Maledictor",
+  "name": "Giant Maledictor",
   "url": "/lu4/npc/5091-giant-maledictor",
-  "source_url": "https://masterwork.wiki/lu4/npc/5091-giant-maledictor",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5091-giant-maledictor",
   "raw_html": "library/raw/lu4/npc/5091-giant-maledictor.html",
   "stats": {
-    "Location": "Долина Безмолвия"
+    "Respawn Time": "3 minutes, 50 seconds ± 25 seconds",
+    "Location": "Долина Безмолвия",
+    "HP / MP": "34 353 / 1 110",
+    "P. Atk. / M. Atk.": "4 501 / 4 446",
+    "P. Def. / M. Def.": "1 021 / 945",
+    "Accuracy / Evasion": "108 / 113",
+    "Exp / SP": "86 765 / 8 676",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. Hold Resistance Lv. 5 Resistant to Hold. Sleep Resistance Lv. 5 Resistant to Sleep. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Stun Attack Resistance Lv. 5 Resistant to Stun. Bleed Resistance Lv. 5 Resistant to Bleed. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 75"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5091",
-      "type": "npc",
-      "id": 5091,
-      "name": "Lu4",
-      "url": "/lu4/npc/5091-giant-maledictor"
-    },
-    {
-      "key": "location:70",
-      "type": "location",
-      "id": 70,
-      "name": "Долина Безмолвия",
-      "url": "/lu4/location/70-dolina-bezmolvia"
-    },
-    {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32397",
-      "type": "item",
-      "id": 32397,
-      "name": "Unidentified Sealed Majestic Robe A",
-      "url": "/lu4/item/32397-unidentified-sealed-majestic-robe"
-    },
-    {
-      "key": "item:32390",
-      "type": "item",
-      "id": 32390,
-      "name": "Unidentified Sealed Majestic Plate Armor A",
-      "url": "/lu4/item/32390-unidentified-sealed-majestic-plate-armor"
-    },
-    {
-      "key": "item:32386",
-      "type": "item",
-      "id": 32386,
-      "name": "Unidentified Sealed Helm of Nightmare A",
-      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
-    },
-    {
-      "key": "item:6569",
-      "type": "item",
-      "id": 6569,
-      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
-    },
-    {
-      "key": "item:5527",
-      "type": "item",
-      "id": 5527,
-      "name": "Sealed Helm of Nightmare Design NG",
-      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
-    },
-    {
-      "key": "item:5523",
-      "type": "item",
-      "id": 5523,
-      "name": "Sealed Majestic Plate Armor Pattern NG",
-      "url": "/lu4/item/5523-sealed-majestic-plate-armor-pattern"
-    },
-    {
-      "key": "item:5488",
-      "type": "item",
-      "id": 5488,
-      "name": "Sealed Majestic Robe Fabric NG",
-      "url": "/lu4/item/5488-sealed-majestic-robe-fabric"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -215,18 +142,81 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:5515",
+      "key": "item:6569",
       "type": "item",
-      "id": 5515,
-      "name": "Sealed Majestic Gauntlets Design NG",
-      "url": "/lu4/item/5515-sealed-majestic-gauntlets-design"
+      "id": 6569,
+      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
+      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
+    },
+    {
+      "key": "item:32386",
+      "type": "item",
+      "id": 32386,
+      "name": "Unidentified Sealed Helm of Nightmare A",
+      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
+    },
+    {
+      "key": "item:5527",
+      "type": "item",
+      "id": 5527,
+      "name": "Sealed Helm of Nightmare Design NG",
+      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
+    },
+    {
+      "key": "item:32390",
+      "type": "item",
+      "id": 32390,
+      "name": "Unidentified Sealed Majestic Plate Armor A",
+      "url": "/lu4/item/32390-unidentified-sealed-majestic-plate-armor"
+    },
+    {
+      "key": "item:5523",
+      "type": "item",
+      "id": 5523,
+      "name": "Sealed Majestic Plate Armor Pattern NG",
+      "url": "/lu4/item/5523-sealed-majestic-plate-armor-pattern"
+    },
+    {
+      "key": "item:32397",
+      "type": "item",
+      "id": 32397,
+      "name": "Unidentified Sealed Majestic Robe A",
+      "url": "/lu4/item/32397-unidentified-sealed-majestic-robe"
+    },
+    {
+      "key": "item:5488",
+      "type": "item",
+      "id": 5488,
+      "name": "Sealed Majestic Robe Fabric NG",
+      "url": "/lu4/item/5488-sealed-majestic-robe-fabric"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:5336",
@@ -234,6 +224,13 @@
       "id": 5336,
       "name": "Recipe: Sealed Leather Armor of Nightmare(60%) NG",
       "url": "/lu4/item/5336-recipe-sealed-leather-armor-of-nightmare60"
+    },
+    {
+      "key": "item:5515",
+      "type": "item",
+      "id": 5515,
+      "name": "Sealed Majestic Gauntlets Design NG",
+      "url": "/lu4/item/5515-sealed-majestic-gauntlets-design"
     }
   ]
 }

@@ -2,24 +2,27 @@
   "key": "item:266",
   "type": "item",
   "id": 266,
-  "name": "Lu4 Wiki: Item Great Pata",
+  "name": "Great Pata",
   "url": "/lu4/item/266-great-pata",
-  "source_url": "https://masterwork.wiki/lu4/item/266-great-pata",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/266-great-pata",
   "raw_html": "library/raw/lu4/item/266-great-pata.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Health: Max HP +25%. Rsk. Haste: Atk. Spd. +14% when HP < 60%. Haste: Atk. Spd. +7%.",
+    "P. Atk. / M. Atk.": "190 / 83",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "2452 Crystallization Failed Enchant +0 2452 - +1 2497 - +2 2542 - +3 2587 - +4 2677 1451 +5 2767 1541 +6 2857 1631 +7 2947 1721 +8 3037 1811 +9 3127 1901 +10 3217 1991 +11 3307 2081 +12 3397 2171",
+    "NPC Sell Price": "2 356 750 Adena",
+    "Weight": "1460",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Recipes": "Recipe: Great Pata NG",
     "Soul Crystals": "Great Pata Health C Great Pata C Gemstone C NG (555 pcs.) Red Soul Crystal - Stage 8 NG Great Pata Haste C Great Pata C Gemstone C NG (555 pcs.) Green Soul Crystal - Stage 8 NG Great Pata Rsk. Haste C Great Pata C Gemstone C NG (555 pcs.) Blue Soul Crystal - Stage 8 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Fist / Two-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:266",
-      "type": "item",
-      "id": 266,
-      "name": "Lu4",
-      "url": "/lu4/item/266-great-pata"
-    },
     {
       "key": "item:2358",
       "type": "item",
@@ -80,56 +83,70 @@
       "key": "npc:36625",
       "type": "npc",
       "id": 36625,
-      "name": "Wren Kain Lv. 50",
+      "name": "Wren Kain",
       "url": "/lu4/npc/36625-wren-kain"
+    },
+    {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
     },
     {
       "key": "npc:25412",
       "type": "npc",
       "id": 25412,
-      "name": "Necrosentinel Royal Guard Lv. 47",
+      "name": "Necrosentinel Royal Guard",
       "url": "/lu4/npc/25412-necrosentinel-royal-guard"
     },
     {
       "key": "npc:22065",
       "type": "npc",
       "id": 22065,
-      "name": "Horrifying Ginzu Golem V Lv. 53",
+      "name": "Horrifying Ginzu Golem V",
       "url": "/lu4/npc/22065-horrifying-ginzu-golem-v"
     },
     {
       "key": "npc:20846",
       "type": "npc",
       "id": 20846,
-      "name": "Doll Blader Lv. 53",
+      "name": "Doll Blader",
       "url": "/lu4/npc/20846-doll-blader"
     },
     {
       "key": "npc:20597",
       "type": "npc",
       "id": 20597,
-      "name": "Valley Treant Elder Lv. 53",
+      "name": "Valley Treant Elder",
       "url": "/lu4/npc/20597-valley-treant-elder"
     },
     {
       "key": "npc:20596",
       "type": "npc",
       "id": 20596,
-      "name": "Liele Elder Lv. 52",
+      "name": "Liele Elder",
       "url": "/lu4/npc/20596-liele-elder"
     },
     {
       "key": "npc:20161",
       "type": "npc",
       "id": 20161,
-      "name": "Oel Mahum Lv. 53",
+      "name": "Oel Mahum",
       "url": "/lu4/npc/20161-oel-mahum"
     },
     {
       "key": "npc:5083",
       "type": "npc",
       "id": 5083,
-      "name": "Blackbanner Witch Lv. 55",
+      "name": "Blackbanner Witch",
       "url": "/lu4/npc/5083-blackbanner-witch"
     }
   ]

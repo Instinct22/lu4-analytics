@@ -2,40 +2,30 @@
   "key": "npc:18281",
   "type": "npc",
   "id": 18281,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/18281-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/18281-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/18281-treasure-chest",
   "raw_html": "library/raw/lu4/npc/18281-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 784 / 1 618",
+    "P. Atk. / M. Atk.": "1 343 / 831",
+    "P. Def. / M. Def.": "493 / 399",
+    "Accuracy / Evasion": "102 / 102",
+    "Exp / SP": "5 713 / 559",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 69"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:18281",
-      "type": "npc",
-      "id": 18281,
-      "name": "Lu4",
-      "url": "/lu4/npc/18281-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:730",
-      "type": "item",
-      "id": 730,
-      "name": "Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
-    },
-    {
-      "key": "item:729",
-      "type": "item",
-      "id": 729,
-      "name": "Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:57",
@@ -45,11 +35,25 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:5478",
+      "key": "item:729",
       "type": "item",
-      "id": 5478,
-      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
-      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
+      "id": 729,
+      "name": "Scroll: Enchant Weapon (A-Grade) NG",
+      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
+    },
+    {
+      "key": "item:730",
+      "type": "item",
+      "id": 730,
+      "name": "Scroll: Enchant Armor (A-Grade) NG",
+      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
+    },
+    {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
       "key": "item:5434",
@@ -59,11 +63,11 @@
       "url": "/lu4/item/5434-recipe-dragon-slayer60"
     },
     {
-      "key": "item:1874",
+      "key": "item:5478",
       "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
+      "id": 5478,
+      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
+      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
     }
   ]
 }

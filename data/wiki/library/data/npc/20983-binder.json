@@ -2,126 +2,95 @@
   "key": "npc:20983",
   "type": "npc",
   "id": 20983,
-  "name": "Lu4 Wiki: NPC Binder",
+  "name": "Binder",
   "url": "/lu4/npc/20983-binder",
-  "source_url": "https://masterwork.wiki/lu4/npc/20983-binder",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20983-binder",
   "raw_html": "library/raw/lu4/npc/20983-binder.html",
   "stats": {
-    "Location": "Башня Дерзости: 9-й этаж"
+    "Respawn Time": "8 minutes, 20 seconds ± 1 minute",
+    "Location": "Башня Дерзости: 9-й этаж",
+    "HP / MP": "294 340 / 1 601",
+    "P. Atk. / M. Atk.": "4 414 / 2 042",
+    "P. Def. / M. Def.": "1 538 / 825",
+    "Accuracy / Evasion": "115 / 105",
+    "Exp / SP": "786 577 / 78 658",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 53, Unholy -13",
+    "Skills": "Unique Monster Lv. 1 A unique creature of immense power. It cannot be defeated alone. Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 71"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20983",
-      "type": "npc",
-      "id": 20983,
-      "name": "Lu4",
-      "url": "/lu4/npc/20983-binder"
-    },
-    {
-      "key": "location:92",
-      "type": "location",
-      "id": 92,
-      "name": "Башня Дерзости: 9-й этаж",
-      "url": "/lu4/location/92-basna-derzosti-9-j-etaz"
-    },
-    {
       "key": "skill:27944",
       "type": "skill",
       "id": 27944,
-      "name": "Unique Monster Lv. 1 A unique creature of immense power. It cannot be defeated alone.",
-      "url": "/lu4/skill/27944-unique-monster/1"
+      "name": "Unique Monster",
+      "url": "/lu4/skill/27944-unique-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:39290",
+      "key": "item:57",
       "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32381",
-      "type": "item",
-      "id": 32381,
-      "name": "Unidentified Sealed Tallum Leather Armor A",
-      "url": "/lu4/item/32381-unidentified-sealed-tallum-leather-armor"
-    },
-    {
-      "key": "item:32372",
-      "type": "item",
-      "id": 32372,
-      "name": "Unidentified Sealed Dark Crystal Gloves A",
-      "url": "/lu4/item/32372-unidentified-sealed-dark-crystal-gloves"
-    },
-    {
-      "key": "item:5508",
-      "type": "item",
-      "id": 5508,
-      "name": "Sealed Dark Crystal Gloves Design NG",
-      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
-    },
-    {
-      "key": "item:5479",
-      "type": "item",
-      "id": 5479,
-      "name": "Sealed Tallum Leather Armor Pattern NG",
-      "url": "/lu4/item/5479-sealed-tallum-leather-armor-pattern"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -159,11 +128,39 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:39290",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
+    },
+    {
+      "key": "item:32372",
+      "type": "item",
+      "id": 32372,
+      "name": "Unidentified Sealed Dark Crystal Gloves A",
+      "url": "/lu4/item/32372-unidentified-sealed-dark-crystal-gloves"
+    },
+    {
+      "key": "item:5508",
+      "type": "item",
+      "id": 5508,
+      "name": "Sealed Dark Crystal Gloves Design NG",
+      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
+    },
+    {
+      "key": "item:32381",
+      "type": "item",
+      "id": 32381,
+      "name": "Unidentified Sealed Tallum Leather Armor A",
+      "url": "/lu4/item/32381-unidentified-sealed-tallum-leather-armor"
+    },
+    {
+      "key": "item:5479",
+      "type": "item",
+      "id": 5479,
+      "name": "Sealed Tallum Leather Armor Pattern NG",
+      "url": "/lu4/item/5479-sealed-tallum-leather-armor-pattern"
     },
     {
       "key": "item:5549",

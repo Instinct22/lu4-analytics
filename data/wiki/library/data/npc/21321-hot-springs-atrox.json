@@ -2,110 +2,121 @@
   "key": "npc:21321",
   "type": "npc",
   "id": 21321,
-  "name": "Lu4 Wiki: NPC Hot Springs Atrox",
+  "name": "Hot Springs Atrox",
   "url": "/lu4/npc/21321-hot-springs-atrox",
-  "source_url": "https://masterwork.wiki/lu4/npc/21321-hot-springs-atrox",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21321-hot-springs-atrox",
   "raw_html": "library/raw/lu4/npc/21321-hot-springs-atrox.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "8 165 / 1 710",
+    "P. Atk. / M. Atk.": "2 228 / 995",
+    "P. Def. / M. Def.": "541 / 663",
+    "Accuracy / Evasion": "115 / 124",
+    "Exp / SP": "22 270 / 2 380",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (2x) Lv. 10 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Strong M. Def. Lv. 15 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 4 One-handed Sword Mutation Resistance Lv. 1 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. High Lv. Lv. 4 NPC High Level",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 76"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21321",
-      "type": "npc",
-      "id": 21321,
-      "name": "Lu4",
-      "url": "/lu4/npc/21321-hot-springs-atrox"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 15",
-      "url": "/lu4/skill/4413-strong-m-def/15"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 4 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/4"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4555",
       "type": "skill",
       "id": 4555,
-      "name": "Mutation Resistance Lv. 1",
-      "url": "/lu4/skill/4555-mutation-resistance/1"
+      "name": "Mutation Resistance",
+      "url": "/lu4/skill/4555-mutation-resistance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 4 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/4"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32342",
@@ -115,102 +126,11 @@
       "url": "/lu4/item/32342-unidentified-blood-tornado"
     },
     {
-      "key": "item:8614",
+      "key": "item:5539",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
-    },
-    {
-      "key": "item:8613",
-      "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
-    },
-    {
-      "key": "item:8612",
-      "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
-    },
-    {
-      "key": "item:8611",
-      "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
-    },
-    {
-      "key": "item:8610",
-      "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
-    },
-    {
-      "key": "item:8609",
-      "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
-    },
-    {
-      "key": "item:8608",
-      "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
+      "id": 5539,
+      "name": "Blood Tornado Edge NG",
+      "url": "/lu4/item/5539-blood-tornado-edge"
     },
     {
       "key": "item:8600",
@@ -220,39 +140,123 @@
       "url": "/lu4/item/8600-herb-of-life"
     },
     {
-      "key": "item:8034",
+      "key": "item:8601",
       "type": "item",
-      "id": 8034,
-      "name": "Rainbow Springs Clan Hall War Decree NG",
-      "url": "/lu4/item/8034-rainbow-springs-clan-hall-war-decree"
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
     },
     {
-      "key": "item:5539",
+      "key": "item:8602",
       "type": "item",
-      "id": 5539,
-      "name": "Blood Tornado Edge NG",
-      "url": "/lu4/item/5539-blood-tornado-edge"
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
     },
     {
-      "key": "item:5167",
+      "key": "item:8607",
       "type": "item",
-      "id": 5167,
-      "name": "Recipe: Blessed Spiritshot (S) Compressed Package (100%) NG",
-      "url": "/lu4/item/5167-recipe-blessed-spiritshot-s-compressed-package-100"
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
     },
     {
-      "key": "item:4042",
+      "key": "item:8609",
       "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
     },
     {
-      "key": "item:6346",
+      "key": "item:8603",
       "type": "item",
-      "id": 6346,
-      "name": "Sealed Majestic Ring Gemstone NG",
-      "url": "/lu4/item/6346-sealed-majestic-ring-gemstone"
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:8605",
+      "type": "item",
+      "id": 8605,
+      "name": "Superior Herb of Mana NG",
+      "url": "/lu4/item/8605-superior-herb-of-mana"
+    },
+    {
+      "key": "item:8606",
+      "type": "item",
+      "id": 8606,
+      "name": "Herb of Power NG",
+      "url": "/lu4/item/8606-herb-of-power"
+    },
+    {
+      "key": "item:8608",
+      "type": "item",
+      "id": 8608,
+      "name": "Herb of Alacrity NG",
+      "url": "/lu4/item/8608-herb-of-alacrity"
+    },
+    {
+      "key": "item:8610",
+      "type": "item",
+      "id": 8610,
+      "name": "Herb of Critical Attack - Probability NG",
+      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+    },
+    {
+      "key": "item:8611",
+      "type": "item",
+      "id": 8611,
+      "name": "Herb of Speed NG",
+      "url": "/lu4/item/8611-herb-of-speed"
+    },
+    {
+      "key": "item:8612",
+      "type": "item",
+      "id": 8612,
+      "name": "Herb of the Warrior NG",
+      "url": "/lu4/item/8612-herb-of-the-warrior"
+    },
+    {
+      "key": "item:8613",
+      "type": "item",
+      "id": 8613,
+      "name": "Herb of the Mystic NG",
+      "url": "/lu4/item/8613-herb-of-the-mystic"
+    },
+    {
+      "key": "item:8614",
+      "type": "item",
+      "id": 8614,
+      "name": "Herb of Recovery NG",
+      "url": "/lu4/item/8614-herb-of-recovery"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1876",
+      "type": "item",
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
     },
     {
       "key": "item:1895",
@@ -262,11 +266,11 @@
       "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:1876",
+      "key": "item:6346",
       "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "url": "/lu4/item/1876-mithril-ore"
+      "id": 6346,
+      "name": "Sealed Majestic Ring Gemstone NG",
+      "url": "/lu4/item/6346-sealed-majestic-ring-gemstone"
     }
   ]
 }

@@ -2,140 +2,74 @@
   "key": "npc:5032",
   "type": "npc",
   "id": 5032,
-  "name": "Lu4 Wiki: NPC Ashtrail Stalker",
+  "name": "Ashtrail Stalker",
   "url": "/lu4/npc/5032-ashtrail-stalker",
-  "source_url": "https://masterwork.wiki/lu4/npc/5032-ashtrail-stalker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5032-ashtrail-stalker",
   "raw_html": "library/raw/lu4/npc/5032-ashtrail-stalker.html",
   "stats": {
-    "Location": "Запретные Врата"
+    "Respawn Time": "45 seconds ± 5 seconds",
+    "Location": "Запретные Врата",
+    "HP / MP": "12 542 / 1 110",
+    "P. Atk. / M. Atk.": "1 437 / 740",
+    "P. Def. / M. Def.": "516 / 433",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "14 509 / 1 451",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Grumpy Lv. 1 Strikes without warning. HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Def. Lv. 12 Stun Attack Resistance Lv. 3 Slightly resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 65"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5032",
-      "type": "npc",
-      "id": 5032,
-      "name": "Lu4",
-      "url": "/lu4/npc/5032-ashtrail-stalker"
-    },
-    {
-      "key": "location:75",
-      "type": "location",
-      "id": 75,
-      "name": "Запретные Врата",
-      "url": "/lu4/location/75-zapretnye-vrata"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/3"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
-      "key": "item:32360",
+      "key": "item:57",
       "type": "item",
-      "id": 32360,
-      "name": "Unidentified Leather Armor of Doom B",
-      "url": "/lu4/item/32360-unidentified-leather-armor-of-doom"
-    },
-    {
-      "key": "item:32333",
-      "type": "item",
-      "id": 32333,
-      "name": "Unidentified Deadman's Glory B",
-      "url": "/lu4/item/32333-unidentified-deadmans-glory"
-    },
-    {
-      "key": "item:32322",
-      "type": "item",
-      "id": 32322,
-      "name": "Unidentified Sword of Damascus B",
-      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
-    },
-    {
-      "key": "item:8324",
-      "type": "item",
-      "id": 8324,
-      "name": "Recipe: Star Buster (60%) NG",
-      "url": "/lu4/item/8324-recipe-star-buster-60"
-    },
-    {
-      "key": "item:4998",
-      "type": "item",
-      "id": 4998,
-      "name": "Recipe: Sealed Blue Wolf Gloves (60%) NG",
-      "url": "/lu4/item/4998-recipe-sealed-blue-wolf-gloves-60"
-    },
-    {
-      "key": "item:4989",
-      "type": "item",
-      "id": 4989,
-      "name": "Recipe: Stockings of Doom (60%) NG",
-      "url": "/lu4/item/4989-recipe-stockings-of-doom-60"
-    },
-    {
-      "key": "item:4116",
-      "type": "item",
-      "id": 4116,
-      "name": "Deadman's Glory Stone NG",
-      "url": "/lu4/item/4116-deadmans-glory-stone"
-    },
-    {
-      "key": "item:4114",
-      "type": "item",
-      "id": 4114,
-      "name": "Sword of Damascus Blade NG",
-      "url": "/lu4/item/4114-sword-of-damascus-blade"
-    },
-    {
-      "key": "item:4083",
-      "type": "item",
-      "id": 4083,
-      "name": "Leather Armor of Doom Design NG",
-      "url": "/lu4/item/4083-leather-armor-of-doom-design"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1894",
@@ -159,18 +93,18 @@
       "url": "/lu4/item/1872-animal-bone"
     },
     {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
       "key": "item:1867",
       "type": "item",
       "id": 1867,
       "name": "Animal Skin NG",
       "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:1807",
-      "type": "item",
-      "id": 1807,
-      "name": "Recipe: Soulshot (A-Grade) NG",
-      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
     },
     {
       "key": "item:1343",
@@ -180,18 +114,102 @@
       "url": "/lu4/item/1343-silver-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:1807",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1807,
+      "name": "Recipe: Soulshot (A-Grade) NG",
+      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
     },
     {
-      "key": "item:4991",
+      "key": "item:32333",
       "type": "item",
-      "id": 4991,
-      "name": "Recipe: Doom Helmet (60%) NG",
-      "url": "/lu4/item/4991-recipe-doom-helmet-60"
+      "id": 32333,
+      "name": "Unidentified Deadman's Glory B",
+      "url": "/lu4/item/32333-unidentified-deadmans-glory"
+    },
+    {
+      "key": "item:4116",
+      "type": "item",
+      "id": 4116,
+      "name": "Deadman's Glory Stone NG",
+      "url": "/lu4/item/4116-deadmans-glory-stone"
+    },
+    {
+      "key": "item:32322",
+      "type": "item",
+      "id": 32322,
+      "name": "Unidentified Sword of Damascus B",
+      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
+    },
+    {
+      "key": "item:4114",
+      "type": "item",
+      "id": 4114,
+      "name": "Sword of Damascus Blade NG",
+      "url": "/lu4/item/4114-sword-of-damascus-blade"
+    },
+    {
+      "key": "item:32360",
+      "type": "item",
+      "id": 32360,
+      "name": "Unidentified Leather Armor of Doom B",
+      "url": "/lu4/item/32360-unidentified-leather-armor-of-doom"
+    },
+    {
+      "key": "item:4083",
+      "type": "item",
+      "id": 4083,
+      "name": "Leather Armor of Doom Design NG",
+      "url": "/lu4/item/4083-leather-armor-of-doom-design"
+    },
+    {
+      "key": "item:4998",
+      "type": "item",
+      "id": 4998,
+      "name": "Recipe: Sealed Blue Wolf Gloves (60%) NG",
+      "url": "/lu4/item/4998-recipe-sealed-blue-wolf-gloves-60"
+    },
+    {
+      "key": "item:4989",
+      "type": "item",
+      "id": 4989,
+      "name": "Recipe: Stockings of Doom (60%) NG",
+      "url": "/lu4/item/4989-recipe-stockings-of-doom-60"
+    },
+    {
+      "key": "item:8324",
+      "type": "item",
+      "id": 8324,
+      "name": "Recipe: Star Buster (60%) NG",
+      "url": "/lu4/item/8324-recipe-star-buster-60"
+    },
+    {
+      "key": "item:32589",
+      "type": "item",
+      "id": 32589,
+      "name": "Unidentified Tunic of Doom B",
+      "url": "/lu4/item/32589-unidentified-tunic-of-doom"
+    },
+    {
+      "key": "item:4085",
+      "type": "item",
+      "id": 4085,
+      "name": "Tunic of Doom Pattern NG",
+      "url": "/lu4/item/4085-tunic-of-doom-pattern"
+    },
+    {
+      "key": "item:8312",
+      "type": "item",
+      "id": 8312,
+      "name": "Recipe: Kaim Vanul's Bones (60%) NG",
+      "url": "/lu4/item/8312-recipe-kaim-vanuls-bones-60"
+    },
+    {
+      "key": "item:947",
+      "type": "item",
+      "id": 947,
+      "name": "Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
     },
     {
       "key": "item:4988",
@@ -201,11 +219,11 @@
       "url": "/lu4/item/4988-recipe-blue-wolf-stockings-60"
     },
     {
-      "key": "item:4120",
+      "key": "item:4991",
       "type": "item",
-      "id": 4120,
-      "name": "Bellion Cestus Edge NG",
-      "url": "/lu4/item/4120-bellion-cestus-edge"
+      "id": 4991,
+      "name": "Recipe: Doom Helmet (60%) NG",
+      "url": "/lu4/item/4991-recipe-doom-helmet-60"
     },
     {
       "key": "item:4117",
@@ -215,6 +233,13 @@
       "url": "/lu4/item/4117-art-of-battle-axe-blade"
     },
     {
+      "key": "item:4120",
+      "type": "item",
+      "id": 4120,
+      "name": "Bellion Cestus Edge NG",
+      "url": "/lu4/item/4120-bellion-cestus-edge"
+    },
+    {
       "key": "item:4052",
       "type": "item",
       "id": 4052,
@@ -222,11 +247,18 @@
       "url": "/lu4/item/4052-earring-of-black-ore-piece"
     },
     {
-      "key": "item:947",
+      "key": "item:4982",
       "type": "item",
-      "id": 947,
-      "name": "Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+      "id": 4982,
+      "name": "Recipe: Blue Wolf Gaiters (60%) NG",
+      "url": "/lu4/item/4982-recipe-blue-wolf-gaiters-60"
+    },
+    {
+      "key": "item:4983",
+      "type": "item",
+      "id": 4983,
+      "name": "Recipe: Doom Plate Armor (60%) NG",
+      "url": "/lu4/item/4983-recipe-doom-plate-armor-60"
     }
   ]
 }

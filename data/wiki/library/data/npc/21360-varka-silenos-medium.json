@@ -2,103 +2,107 @@
   "key": "npc:21360",
   "type": "npc",
   "id": 21360,
-  "name": "Lu4 Wiki: NPC Varka Silenos Medium",
+  "name": "Varka Silenos Medium",
   "url": "/lu4/npc/21360-varka-silenos-medium",
-  "source_url": "https://masterwork.wiki/lu4/npc/21360-varka-silenos-medium",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21360-varka-silenos-medium",
   "raw_html": "library/raw/lu4/npc/21360-varka-silenos-medium.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "9 399 / 1 784",
+    "P. Atk. / M. Atk.": "2 492 / 1 140",
+    "P. Def. / M. Def.": "459 / 553",
+    "Accuracy / Evasion": "128 / 144",
+    "Exp / SP": "31 784 / 3 608",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. One-handed Blunt Weapons Lv. 6 Blunt Weapons High Lv. Lv. 7 NPC High Level Melee Attack Vulnerability Lv. 6 Renders target vulnerable to melee attacks.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21360",
-      "type": "npc",
-      "id": 21360,
-      "name": "Lu4",
-      "url": "/lu4/npc/21360-varka-silenos-medium"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 6 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/6"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 7 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/7"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
       "key": "skill:5620",
       "type": "skill",
       "id": 5620,
-      "name": "Melee Attack Vulnerability Lv. 6 Renders target vulnerable to melee attacks.",
-      "url": "/lu4/skill/5620-melee-attack-vulnerability/6"
+      "name": "Melee Attack Vulnerability",
+      "url": "/lu4/skill/5620-melee-attack-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32338",
@@ -108,102 +112,11 @@
       "url": "/lu4/item/32338-unidentified-soul-separator"
     },
     {
-      "key": "item:8614",
+      "key": "item:5537",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
-    },
-    {
-      "key": "item:8613",
-      "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
-    },
-    {
-      "key": "item:8612",
-      "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
-    },
-    {
-      "key": "item:8611",
-      "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
-    },
-    {
-      "key": "item:8610",
-      "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
-    },
-    {
-      "key": "item:8609",
-      "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
-    },
-    {
-      "key": "item:8608",
-      "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
+      "id": 5537,
+      "name": "Soul Separator Head NG",
+      "url": "/lu4/item/5537-soul-separator-head"
     },
     {
       "key": "item:8600",
@@ -213,11 +126,102 @@
       "url": "/lu4/item/8600-herb-of-life"
     },
     {
-      "key": "item:5537",
+      "key": "item:8601",
       "type": "item",
-      "id": 5537,
-      "name": "Soul Separator Head NG",
-      "url": "/lu4/item/5537-soul-separator-head"
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
+    },
+    {
+      "key": "item:8602",
+      "type": "item",
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
+    },
+    {
+      "key": "item:8607",
+      "type": "item",
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
+    },
+    {
+      "key": "item:8609",
+      "type": "item",
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
+    },
+    {
+      "key": "item:8603",
+      "type": "item",
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:8605",
+      "type": "item",
+      "id": 8605,
+      "name": "Superior Herb of Mana NG",
+      "url": "/lu4/item/8605-superior-herb-of-mana"
+    },
+    {
+      "key": "item:8606",
+      "type": "item",
+      "id": 8606,
+      "name": "Herb of Power NG",
+      "url": "/lu4/item/8606-herb-of-power"
+    },
+    {
+      "key": "item:8608",
+      "type": "item",
+      "id": 8608,
+      "name": "Herb of Alacrity NG",
+      "url": "/lu4/item/8608-herb-of-alacrity"
+    },
+    {
+      "key": "item:8610",
+      "type": "item",
+      "id": 8610,
+      "name": "Herb of Critical Attack - Probability NG",
+      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+    },
+    {
+      "key": "item:8611",
+      "type": "item",
+      "id": 8611,
+      "name": "Herb of Speed NG",
+      "url": "/lu4/item/8611-herb-of-speed"
+    },
+    {
+      "key": "item:8612",
+      "type": "item",
+      "id": 8612,
+      "name": "Herb of the Warrior NG",
+      "url": "/lu4/item/8612-herb-of-the-warrior"
+    },
+    {
+      "key": "item:8613",
+      "type": "item",
+      "id": 8613,
+      "name": "Herb of the Mystic NG",
+      "url": "/lu4/item/8613-herb-of-the-mystic"
+    },
+    {
+      "key": "item:8614",
+      "type": "item",
+      "id": 8614,
+      "name": "Herb of Recovery NG",
+      "url": "/lu4/item/8614-herb-of-recovery"
     },
     {
       "key": "item:4041",
@@ -234,6 +238,13 @@
       "url": "/lu4/item/1881-coarse-bone-powder"
     },
     {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
       "key": "item:5527",
       "type": "item",
       "id": 5527,
@@ -246,13 +257,6 @@
       "id": 5162,
       "name": "Recipe: Spiritshot (S) Compressed Package (100%) NG",
       "url": "/lu4/item/5162-recipe-spiritshot-s-compressed-package-100"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
     }
   ]
 }

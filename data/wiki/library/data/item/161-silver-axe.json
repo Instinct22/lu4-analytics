@@ -2,24 +2,27 @@
   "key": "item:161",
   "type": "item",
   "id": 161,
-  "name": "Lu4 Wiki: Item Silver Axe",
+  "name": "Silver Axe",
   "url": "/lu4/item/161-silver-axe",
-  "source_url": "https://masterwork.wiki/lu4/item/161-silver-axe",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/161-silver-axe",
   "raw_html": "library/raw/lu4/item/161-silver-axe.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Health: Max HP +25%. Haste: Atk. Spd. +7%. Focus: P. Crit. Rate +60.",
+    "P. Atk. / M. Atk.": "107 / 61",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "1690",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Recipes": "Recipe: Silver Axe NG",
     "Soul Crystals": "Silver Axe Health C Silver Axe C Gemstone C NG (97 pcs.) Red Soul Crystal - Stage 5 NG Silver Axe Focus C Silver Axe C Gemstone C NG (97 pcs.) Green Soul Crystal - Stage 5 NG Silver Axe Haste C Silver Axe C Gemstone C NG (97 pcs.) Blue Soul Crystal - Stage 5 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Blunt / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:161",
-      "type": "item",
-      "id": 161,
-      "name": "Lu4",
-      "url": "/lu4/item/161-silver-axe"
-    },
     {
       "key": "item:2302",
       "type": "item",
@@ -77,52 +80,59 @@
       "url": "/lu4/item/4656-blue-soul-crystal-stage-5"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25487",
       "type": "npc",
       "id": 25487,
-      "name": "Water Spirit Lian Lv. 40",
+      "name": "Water Spirit Lian",
       "url": "/lu4/npc/25487-water-spirit-lian"
     },
     {
       "key": "npc:25064",
       "type": "npc",
       "id": 25064,
-      "name": "Wizard of Storm Teruk Lv. 40",
+      "name": "Wizard of Storm Teruk",
       "url": "/lu4/npc/25064-wizard-of-storm-teruk"
     },
     {
       "key": "npc:21604",
       "type": "npc",
       "id": 21604,
-      "name": "Zaken's Elite Pikeman Lv. 43",
+      "name": "Zaken's Elite Pikeman",
       "url": "/lu4/npc/21604-zakens-elite-pikeman"
     },
     {
       "key": "npc:20805",
       "type": "npc",
       "id": 20805,
-      "name": "Dailaon Lad Lv. 42",
+      "name": "Dailaon Lad",
       "url": "/lu4/npc/20805-dailaon-lad"
     },
     {
       "key": "npc:20796",
       "type": "npc",
       "id": 20796,
-      "name": "Blade Stakato Warrior Lv. 43",
+      "name": "Blade Stakato Warrior",
       "url": "/lu4/npc/20796-blade-stakato-warrior"
     },
     {
       "key": "npc:20770",
       "type": "npc",
       "id": 20770,
-      "name": "Timak Orc Troop Archer Lv. 41",
+      "name": "Timak Orc Troop Archer",
       "url": "/lu4/npc/20770-timak-orc-troop-archer"
     },
     {
       "key": "npc:20556",
       "type": "npc",
       "id": 20556,
-      "name": "Giant Monstereye Lv. 41",
+      "name": "Giant Monstereye",
       "url": "/lu4/npc/20556-giant-monstereye"
     }
   ]

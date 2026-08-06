@@ -2,117 +2,100 @@
   "key": "npc:21721",
   "type": "npc",
   "id": 21721,
-  "name": "Lu4 Wiki: NPC Purgatory Invader Elite Soldier",
+  "name": "Purgatory Invader Elite Soldier",
   "url": "/lu4/npc/21721-purgatory-invader-elite-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21721-purgatory-invader-elite-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21721-purgatory-invader-elite-soldier",
   "raw_html": "library/raw/lu4/npc/21721-purgatory-invader-elite-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 123 / 921",
+    "P. Atk. / M. Atk.": "662 / 439",
+    "P. Def. / M. Def.": "213 / 181",
+    "Accuracy / Evasion": "83 / 83",
+    "Exp / SP": "2 160 / 163",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1/2x) Lv. 9 Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Weak P. Def. Lv. 8 Weak M. Def. Lv. 8 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Sleep Resistance Lv. 3 Slightly resistant to Sleep. Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 50"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21721",
-      "type": "npc",
-      "id": 21721,
-      "name": "Lu4",
-      "url": "/lu4/npc/21721-purgatory-invader-elite-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1/2x) Lv. 9",
-      "url": "/lu4/skill/4408-hp-increase-12x/9"
+      "name": "HP Increase (1/2x)",
+      "url": "/lu4/skill/4408-hp-increase-12x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Weak P. Def. Lv. 8",
-      "url": "/lu4/skill/4412-weak-p-def/8"
+      "name": "Weak P. Def.",
+      "url": "/lu4/skill/4412-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:4039",
-      "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
-    },
-    {
-      "key": "item:2353",
-      "type": "item",
-      "id": 2353,
-      "name": "Recipe: Samurai Longsword NG",
-      "url": "/lu4/item/2353-recipe-samurai-longsword"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2107",
@@ -129,27 +112,6 @@
       "url": "/lu4/item/2106-grace-dagger-edge"
     },
     {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
       "key": "item:233",
       "type": "item",
       "id": 233,
@@ -164,18 +126,53 @@
       "url": "/lu4/item/231-grace-dagger"
     },
     {
-      "key": "item:57",
+      "key": "item:1865",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:4603",
+      "key": "item:1870",
       "type": "item",
-      "id": 4603,
-      "name": "Greater Dye of CON <Con+3 Str-3> NG",
-      "url": "/lu4/item/4603-greater-dye-of-con-con3-str-3"
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
+    },
+    {
+      "key": "item:2353",
+      "type": "item",
+      "id": 2353,
+      "name": "Recipe: Samurai Longsword NG",
+      "url": "/lu4/item/2353-recipe-samurai-longsword"
+    },
+    {
+      "key": "item:4039",
+      "type": "item",
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
+    },
+    {
+      "key": "item:4043",
+      "type": "item",
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:1539",
@@ -183,6 +180,13 @@
       "id": 1539,
       "name": "Greater Healing Potion NG",
       "url": "/lu4/item/1539-greater-healing-potion"
+    },
+    {
+      "key": "item:4603",
+      "type": "item",
+      "id": 4603,
+      "name": "Greater Dye of CON <Con+3 Str-3> NG",
+      "url": "/lu4/item/4603-greater-dye-of-con-con3-str-3"
     }
   ]
 }

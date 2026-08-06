@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4941-raid-boss
+- Path: /lu4/skill/4941-raid-boss
+- Type: skill
+- Key: skill:4941
+
+## Stats
+- Effect: Royal Guard Captain of Stakato Queen Zyrnna, he is the strongest soldier among the Marsh Stakatos and commands a Royal Guard consisting only of Stakato nobles. He is as cruel as Zyrnna, and has murdered many of his people at his Queen's command.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability Royal Guard Captain of Stakato Queen Zyrnna, he is the strongest soldier among the Marsh Stakatos and commands a Royal Guard consisting only of Stakato nobles. He is as cruel as Zyrnna, and has murdered many of his people at his Queen's command. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

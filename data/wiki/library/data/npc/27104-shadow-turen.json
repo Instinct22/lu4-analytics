@@ -2,49 +2,46 @@
   "key": "npc:27104",
   "type": "npc",
   "id": 27104,
-  "name": "Lu4 Wiki: NPC Shadow Turen",
+  "name": "Shadow Turen",
   "url": "/lu4/npc/27104-shadow-turen",
-  "source_url": "https://masterwork.wiki/lu4/npc/27104-shadow-turen",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27104-shadow-turen",
   "raw_html": "library/raw/lu4/npc/27104-shadow-turen.html",
   "stats": {
-    "Location": "Топи Крумы"
+    "Respawn Time": "15 seconds",
+    "Location": "Топи Крумы",
+    "HP / MP": "1 469 / 571",
+    "P. Atk. / M. Atk.": "258 / 135",
+    "P. Def. / M. Def.": "192 / 159",
+    "Accuracy / Evasion": "72 / 72",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 39"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:27104",
-      "type": "npc",
-      "id": 27104,
-      "name": "Lu4",
-      "url": "/lu4/npc/27104-shadow-turen"
-    },
-    {
-      "key": "location:52",
-      "type": "location",
-      "id": 52,
-      "name": "Топи Крумы",
-      "url": "/lu4/location/52-topi-krumy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
-      "key": "item:39297",
+      "key": "item:39295",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
       "key": "item:39296",
@@ -54,11 +51,11 @@
       "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:39295",
+      "key": "item:39297",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     }
   ]
 }

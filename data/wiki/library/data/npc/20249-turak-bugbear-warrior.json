@@ -2,133 +2,88 @@
   "key": "npc:20249",
   "type": "npc",
   "id": 20249,
-  "name": "Lu4 Wiki: NPC Turak Bugbear Warrior",
+  "name": "Turak Bugbear Warrior",
   "url": "/lu4/npc/20249-turak-bugbear-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/20249-turak-bugbear-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20249-turak-bugbear-warrior",
   "raw_html": "library/raw/lu4/npc/20249-turak-bugbear-warrior.html",
   "stats": {
-    "Location": "Сад Горгон (+1) Сад Горгон Земли Гирана"
+    "Respawn Time": "27 seconds",
+    "Location": "Сад Горгон (+1) Сад Горгон Земли Гирана",
+    "HP / MP": "2 411 / 455",
+    "P. Atk. / M. Atk.": "162 / 74",
+    "P. Def. / M. Def.": "186 / 156",
+    "Accuracy / Evasion": "61 / 66",
+    "Exp / SP": "2 373 / 237",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 One-handed Sword Lv. 3 One-handed Sword",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 33"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20249",
-      "type": "npc",
-      "id": 20249,
-      "name": "Lu4",
-      "url": "/lu4/npc/20249-turak-bugbear-warrior"
-    },
-    {
-      "key": "location:174",
-      "type": "location",
-      "id": 174,
-      "name": "Сад Горгон",
-      "url": "/lu4/location/174-sad-gorgon"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
-      "key": "item:5549",
+      "key": "item:57",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2929",
+      "key": "item:1868",
       "type": "item",
-      "id": 2929,
-      "name": "Brigandine Shield Fragment NG",
-      "url": "/lu4/item/2929-brigandine-shield-fragment"
-    },
-    {
-      "key": "item:2927",
-      "type": "item",
-      "id": 2927,
-      "name": "Brigandine Gauntlets Pattern NG",
-      "url": "/lu4/item/2927-brigandine-gauntlets-pattern"
-    },
-    {
-      "key": "item:2493",
-      "type": "item",
-      "id": 2493,
-      "name": "Brigandine Shield D",
-      "url": "/lu4/item/2493-brigandine-shield"
-    },
-    {
-      "key": "item:2449",
-      "type": "item",
-      "id": 2449,
-      "name": "Brigandine Gauntlets D",
-      "url": "/lu4/item/2449-brigandine-gauntlets"
-    },
-    {
-      "key": "item:1941",
-      "type": "item",
-      "id": 1941,
-      "name": "Brigandine Breastplate Temper NG",
-      "url": "/lu4/item/1941-brigandine-breastplate-temper"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:1873",
@@ -138,11 +93,18 @@
       "url": "/lu4/item/1873-silver-nugget"
     },
     {
-      "key": "item:1868",
+      "key": "item:5549",
       "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
     },
     {
       "key": "item:1341",
@@ -159,25 +121,46 @@
       "url": "/lu4/item/352-brigandine-breastplate"
     },
     {
-      "key": "item:57",
+      "key": "item:1941",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1941,
+      "name": "Brigandine Breastplate Temper NG",
+      "url": "/lu4/item/1941-brigandine-breastplate-temper"
     },
     {
-      "key": "item:8328",
+      "key": "item:2449",
       "type": "item",
-      "id": 8328,
-      "name": "Titan Sword Blade NG",
-      "url": "/lu4/item/8328-titan-sword-blade"
+      "id": 2449,
+      "name": "Brigandine Gauntlets D",
+      "url": "/lu4/item/2449-brigandine-gauntlets"
     },
     {
-      "key": "item:2926",
+      "key": "item:2927",
       "type": "item",
-      "id": 2926,
-      "name": "Manticore Skin Gloves Lining NG",
-      "url": "/lu4/item/2926-manticore-skin-gloves-lining"
+      "id": 2927,
+      "name": "Brigandine Gauntlets Pattern NG",
+      "url": "/lu4/item/2927-brigandine-gauntlets-pattern"
+    },
+    {
+      "key": "item:2493",
+      "type": "item",
+      "id": 2493,
+      "name": "Brigandine Shield D",
+      "url": "/lu4/item/2493-brigandine-shield"
+    },
+    {
+      "key": "item:2929",
+      "type": "item",
+      "id": 2929,
+      "name": "Brigandine Shield Fragment NG",
+      "url": "/lu4/item/2929-brigandine-shield-fragment"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:2284",
@@ -194,11 +177,25 @@
       "url": "/lu4/item/2188-recipe-manticore-skin-gaiters"
     },
     {
-      "key": "item:1865",
+      "key": "item:8328",
       "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
+      "id": 8328,
+      "name": "Titan Sword Blade NG",
+      "url": "/lu4/item/8328-titan-sword-blade"
+    },
+    {
+      "key": "item:8343",
+      "type": "item",
+      "id": 8343,
+      "name": "Titan Hammer Piece NG",
+      "url": "/lu4/item/8343-titan-hammer-piece"
+    },
+    {
+      "key": "item:2926",
+      "type": "item",
+      "id": 2926,
+      "name": "Manticore Skin Gloves Lining NG",
+      "url": "/lu4/item/2926-manticore-skin-gloves-lining"
     }
   ]
 }

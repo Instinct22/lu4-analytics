@@ -2,110 +2,212 @@
   "key": "npc:29019",
   "type": "npc",
   "id": 29019,
-  "name": "Lu4 Wiki: NPC Antharas",
+  "name": "Antharas",
   "url": "/lu4/npc/29019-antharas",
-  "source_url": "https://masterwork.wiki/lu4/npc/29019-antharas",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/29019-antharas",
   "raw_html": "library/raw/lu4/npc/29019-antharas.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "24 990 000 / 39 960",
+    "P. Atk. / M. Atk.": "20 004 / 42 149",
+    "P. Def. / M. Def.": "5 017 / 2 923",
+    "Accuracy / Evasion": "140 / 140",
+    "Exp / SP": "262 721 000 / 29 116 400",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 50, Water 50, Wind -83, Earth 300, Holy 50, Unholy 50",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Resist Full Magic Attack Lv. 1 Antharas Lv. 1 Vulnerable to Wind attacks but has a very powerful Earth Resistance. Bow/Crossbow Resistance Lv. 2 Resistant to Bow/Crossbow attacks.",
+    "Grade": "A",
+    "Type": "Dragon, Lv. 79"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:29019",
-      "type": "npc",
-      "id": 29019,
-      "name": "Lu4",
-      "url": "/lu4/npc/29019-antharas"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "skill:4122",
       "type": "skill",
       "id": 4122,
-      "name": "Antharas Lv. 1 Vulnerable to Wind attacks but has a very powerful Earth Resistance.",
-      "url": "/lu4/skill/4122-antharas/1"
+      "name": "Antharas",
+      "url": "/lu4/skill/4122-antharas"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 2 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/2"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:32323",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 32323,
+      "name": "Unidentified Tallum Blade A",
+      "url": "/lu4/item/32323-unidentified-tallum-blade"
+    },
+    {
+      "key": "item:32327",
+      "type": "item",
+      "id": 32327,
+      "name": "Unidentified Halberd A",
+      "url": "/lu4/item/32327-unidentified-halberd"
+    },
+    {
+      "key": "item:32342",
+      "type": "item",
+      "id": 32342,
+      "name": "Unidentified Blood Tornado A",
+      "url": "/lu4/item/32342-unidentified-blood-tornado"
+    },
+    {
+      "key": "item:32368",
+      "type": "item",
+      "id": 32368,
+      "name": "Unidentified Meteor Shower A",
+      "url": "/lu4/item/32368-unidentified-meteor-shower"
+    },
+    {
+      "key": "item:32337",
+      "type": "item",
+      "id": 32337,
+      "name": "Unidentified Bloody Orchid A",
+      "url": "/lu4/item/32337-unidentified-bloody-orchid"
+    },
+    {
+      "key": "item:32346",
+      "type": "item",
+      "id": 32346,
+      "name": "Unidentified Carnage Bow A",
+      "url": "/lu4/item/32346-unidentified-carnage-bow"
+    },
+    {
+      "key": "item:32330",
+      "type": "item",
+      "id": 32330,
+      "name": "Unidentified Elemental Sword A",
+      "url": "/lu4/item/32330-unidentified-elemental-sword"
+    },
+    {
+      "key": "item:32535",
+      "type": "item",
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+    },
+    {
+      "key": "item:32324",
+      "type": "item",
+      "id": 32324,
+      "name": "Unidentified Dragon Slayer A",
+      "url": "/lu4/item/32324-unidentified-dragon-slayer"
+    },
+    {
+      "key": "item:32331",
+      "type": "item",
+      "id": 32331,
+      "name": "Unidentified Sword of Miracles A",
+      "url": "/lu4/item/32331-unidentified-sword-of-miracles"
+    },
+    {
+      "key": "item:32367",
+      "type": "item",
+      "id": 32367,
+      "name": "Unidentified Dark Legion's Edge A",
+      "url": "/lu4/item/32367-unidentified-dark-legions-edge"
+    },
+    {
+      "key": "item:32332",
+      "type": "item",
+      "id": 32332,
+      "name": "Unidentified Elysian A",
+      "url": "/lu4/item/32332-unidentified-elysian"
+    },
+    {
+      "key": "item:32338",
+      "type": "item",
+      "id": 32338,
+      "name": "Unidentified Soul Separator A",
+      "url": "/lu4/item/32338-unidentified-soul-separator"
+    },
+    {
+      "key": "item:32343",
+      "type": "item",
+      "id": 32343,
+      "name": "Unidentified Dragon Grinder A",
+      "url": "/lu4/item/32343-unidentified-dragon-grinder"
+    },
+    {
+      "key": "item:32347",
+      "type": "item",
+      "id": 32347,
+      "name": "Unidentified Soul Bow A",
+      "url": "/lu4/item/32347-unidentified-soul-bow"
     },
     {
       "key": "item:32536",
@@ -115,11 +217,11 @@
       "url": "/lu4/item/32536-unidentified-branch-of-the-mother-tree"
     },
     {
-      "key": "item:32535",
+      "key": "item:32349",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+      "id": 32349,
+      "name": "Unidentified Tallum Glaive A",
+      "url": "/lu4/item/32349-unidentified-tallum-glaive"
     }
   ]
 }

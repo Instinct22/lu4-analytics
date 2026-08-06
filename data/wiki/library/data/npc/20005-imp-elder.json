@@ -2,112 +2,74 @@
   "key": "npc:20005",
   "type": "npc",
   "id": 20005,
-  "name": "Lu4 Wiki: NPC Imp Elder",
+  "name": "Imp Elder",
   "url": "/lu4/npc/20005-imp-elder",
-  "source_url": "https://masterwork.wiki/lu4/npc/20005-imp-elder",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20005-imp-elder",
   "raw_html": "library/raw/lu4/npc/20005-imp-elder.html",
   "stats": {
-    "Location": "Сад Шилен (+2) Сад Шилен Темный Лес Храм Шилен"
+    "Respawn Time": "8 seconds",
+    "Location": "Сад Шилен (+2) Сад Шилен Темный Лес Храм Шилен",
+    "HP / MP": "183 / 104",
+    "P. Atk. / M. Atk.": "22 / 10",
+    "P. Def. / M. Def.": "50 / 40",
+    "Accuracy / Evasion": "40 / 40",
+    "Exp / SP": "196 / 20",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 7"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20005",
-      "type": "npc",
-      "id": 20005,
-      "name": "Lu4",
-      "url": "/lu4/npc/20005-imp-elder"
-    },
-    {
-      "key": "location:224",
-      "type": "location",
-      "id": 224,
-      "name": "Сад Шилен",
-      "url": "/lu4/location/224-sad-silen"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
-      "key": "location:108",
-      "type": "location",
-      "id": 108,
-      "name": "Храм Шилен",
-      "url": "/lu4/location/108-hram-silen"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1789",
-      "type": "item",
-      "id": 1789,
-      "name": "Recipe: Cedar Staff NG",
-      "url": "/lu4/item/1789-recipe-cedar-staff"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -117,18 +79,18 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:42",
-      "type": "item",
-      "id": 42,
-      "name": "Leather Cap NG",
-      "url": "/lu4/item/42-leather-cap"
-    },
-    {
       "key": "item:19",
       "type": "item",
       "id": 19,
       "name": "Small Shield NG",
       "url": "/lu4/item/19-small-shield"
+    },
+    {
+      "key": "item:42",
+      "type": "item",
+      "id": 42,
+      "name": "Leather Cap NG",
+      "url": "/lu4/item/42-leather-cap"
     },
     {
       "key": "item:17",
@@ -138,11 +100,32 @@
       "url": "/lu4/item/17-wooden-arrow"
     },
     {
-      "key": "item:1866",
+      "key": "item:1789",
       "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "id": 1789,
+      "name": "Recipe: Cedar Staff NG",
+      "url": "/lu4/item/1789-recipe-cedar-staff"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1060",
+      "type": "item",
+      "id": 1060,
+      "name": "Lesser Healing Potion NG",
+      "url": "/lu4/item/1060-lesser-healing-potion"
     },
     {
       "key": "item:1666",
@@ -152,11 +135,11 @@
       "url": "/lu4/item/1666-recipe-wooden-arrow"
     },
     {
-      "key": "item:1060",
+      "key": "item:1866",
       "type": "item",
-      "id": 1060,
-      "name": "Lesser Healing Potion NG",
-      "url": "/lu4/item/1060-lesser-healing-potion"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     }
   ]
 }

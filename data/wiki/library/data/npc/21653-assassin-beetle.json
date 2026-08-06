@@ -2,82 +2,86 @@
   "key": "npc:21653",
   "type": "npc",
   "id": 21653,
-  "name": "Lu4 Wiki: NPC Assassin Beetle",
+  "name": "Assassin Beetle",
   "url": "/lu4/npc/21653-assassin-beetle",
-  "source_url": "https://masterwork.wiki/lu4/npc/21653-assassin-beetle",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21653-assassin-beetle",
   "raw_html": "library/raw/lu4/npc/21653-assassin-beetle.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "21 614 / 2 063",
+    "P. Atk. / M. Atk.": "2 391 / 1 852",
+    "P. Def. / M. Def.": "473 / 330",
+    "Accuracy / Evasion": "125 / 130",
+    "Exp / SP": "34 019 / 3 815",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (5x) Lv. 13 Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Weak P. Def. Lv. 8 Weak M. Def. Lv. 8 Greater Bleed Resistance Lv. 4 Highly resistant to Bleed. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21653",
-      "type": "npc",
-      "id": 21653,
-      "name": "Lu4",
-      "url": "/lu4/npc/21653-assassin-beetle"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Weak P. Def. Lv. 8",
-      "url": "/lu4/skill/4412-weak-p-def/8"
+      "name": "Weak P. Def.",
+      "url": "/lu4/skill/4412-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
       "key": "skill:4437",
       "type": "skill",
       "id": 4437,
-      "name": "Greater Bleed Resistance Lv. 4 Highly resistant to Bleed.",
-      "url": "/lu4/skill/4437-greater-bleed-resistance/4"
+      "name": "Greater Bleed Resistance",
+      "url": "/lu4/skill/4437-greater-bleed-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32343",
@@ -136,18 +140,18 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:5545",
+      "key": "item:5157",
       "type": "item",
-      "id": 5545,
-      "name": "Dark Legion's Edge Blade NG",
-      "url": "/lu4/item/5545-dark-legions-edge-blade"
+      "id": 5157,
+      "name": "Recipe: Soulshot (S) Compressed Package (100%) NG",
+      "url": "/lu4/item/5157-recipe-soulshot-s-compressed-package-100"
     },
     {
       "key": "item:5544",
@@ -157,11 +161,11 @@
       "url": "/lu4/item/5544-branch-of-the-mother-tree-head"
     },
     {
-      "key": "item:5157",
+      "key": "item:5545",
       "type": "item",
-      "id": 5157,
-      "name": "Recipe: Soulshot (S) Compressed Package (100%) NG",
-      "url": "/lu4/item/5157-recipe-soulshot-s-compressed-package-100"
+      "id": 5545,
+      "name": "Dark Legion's Edge Blade NG",
+      "url": "/lu4/item/5545-dark-legions-edge-blade"
     },
     {
       "key": "npc:21381",

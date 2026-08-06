@@ -2,111 +2,24 @@
   "key": "item:2262",
   "type": "item",
   "id": 2262,
-  "name": "Recipe",
+  "name": "Recipe: Elven Bow",
   "url": "/lu4/item/2262-recipe-elven-bow",
-  "source_url": "https://masterwork.wiki/lu4/item/2262-recipe-elven-bow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2262-recipe-elven-bow",
   "raw_html": "library/raw/lu4/item/2262-recipe-elven-bow.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Elven Bow'. Requires Create Item - Skill Level 2 (Artisan Lv. 20). The success rate is 100%.",
+    "NPC Sell Price": "6 440 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "96",
     "Success Rate": "100%",
-    "Result": "Elven Bow D"
+    "Result": "Elven Bow D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2024",
-      "type": "item",
-      "id": 2024,
-      "name": "Elven Bow Shaft NG",
-      "amount": "5"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "100"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "500"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "500"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "20"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "100"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "20"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "20"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "200"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "60"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "200"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "57"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2262",
-      "type": "item",
-      "id": 2262,
-      "name": "Lu4",
-      "url": "/lu4/item/2262-recipe-elven-bow"
-    },
     {
       "key": "item:2024",
       "type": "item",
@@ -202,42 +115,42 @@
       "key": "npc:21189",
       "type": "npc",
       "id": 21189,
-      "name": "Gigant Overseer Lv. 27",
+      "name": "Gigant Overseer",
       "url": "/lu4/npc/21189-gigant-overseer"
     },
     {
       "key": "npc:21168",
       "type": "npc",
       "id": 21168,
-      "name": "Lith Warrior Lv. 27",
+      "name": "Lith Warrior",
       "url": "/lu4/npc/21168-lith-warrior"
     },
     {
       "key": "npc:20755",
       "type": "npc",
       "id": 20755,
-      "name": "Talakin Lv. 30",
+      "name": "Talakin",
       "url": "/lu4/npc/20755-talakin"
     },
     {
       "key": "npc:20230",
       "type": "npc",
       "id": 20230,
-      "name": "Marsh Stakato Worker Lv. 31",
+      "name": "Marsh Stakato Worker",
       "url": "/lu4/npc/20230-marsh-stakato-worker"
     },
     {
       "key": "npc:21103",
       "type": "npc",
       "id": 21103,
-      "name": "Roughly Hewn Rock Golem Lv. 31",
+      "name": "Roughly Hewn Rock Golem",
       "url": "/lu4/npc/21103-roughly-hewn-rock-golem"
     },
     {
       "key": "npc:20746",
       "type": "npc",
       "id": 20746,
-      "name": "Young Gigantiops Lv. 31",
+      "name": "Young Gigantiops",
       "url": "/lu4/npc/20746-young-gigantiops"
     }
   ]

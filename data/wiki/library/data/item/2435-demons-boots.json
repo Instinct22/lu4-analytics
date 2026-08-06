@@ -2,24 +2,23 @@
   "key": "item:2435",
   "type": "item",
   "id": 2435,
-  "name": "Lu4 Wiki: Item Demon&#039;s Boots",
+  "name": "Demon's Boots",
   "url": "/lu4/item/2435-demons-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/2435-demons-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2435-demons-boots",
   "raw_html": "library/raw/lu4/item/2435-demons-boots.html",
   "stats": {
+    "P. Def.": "36",
+    "Crystal Amount": "76 Crystallization Failed Enchant +0 76 - +1 82 - +2 88 - +3 94 - +4 112 74 +5 130 92 +6 148 110 +7 166 128 +8 184 146",
+    "NPC Sell Price": "94 400 Adena",
+    "Weight": "1220",
     "Set Part": "Demon's Tunic C",
     "Recipes": "Recipe: Demon's Boots NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Boots"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2435",
-      "type": "item",
-      "id": 2435,
-      "name": "Lu4",
-      "url": "/lu4/item/2435-demons-boots"
-    },
     {
       "key": "set:20",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:506",
       "type": "set",
       "id": 506,
-      "name": "",
+      "name": "set:506",
       "url": "/lu4/set/506"
     },
     {
@@ -42,31 +41,52 @@
       "url": "/lu4/item/3005-recipe-demons-boots"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:21040",
       "type": "npc",
       "id": 21040,
-      "name": "Soldier of Darkness Lv. 49",
+      "name": "Soldier of Darkness",
       "url": "/lu4/npc/21040-soldier-of-darkness"
     },
     {
       "key": "npc:21038",
       "type": "npc",
       "id": 21038,
-      "name": "Liangma Lv. 49",
+      "name": "Liangma",
       "url": "/lu4/npc/21038-liangma"
     },
     {
       "key": "npc:20803",
       "type": "npc",
       "id": 20803,
-      "name": "Doll Master Lv. 50",
+      "name": "Doll Master",
       "url": "/lu4/npc/20803-doll-master"
     },
     {
       "key": "npc:20686",
       "type": "npc",
       "id": 20686,
-      "name": "Vanor Silenos Chieftain Lv. 50",
+      "name": "Vanor Silenos Chieftain",
       "url": "/lu4/npc/20686-vanor-silenos-chieftain"
     }
   ]

@@ -2,70 +2,107 @@
   "key": "npc:25263",
   "type": "npc",
   "id": 25263,
-  "name": "Lu4 Wiki: NPC Kernon's Faithful Servant Kelone",
+  "name": "Kernon's Faithful Servant Kelone",
   "url": "/lu4/npc/25263-kernons-faithful-servant-kelone",
-  "source_url": "https://masterwork.wiki/lu4/npc/25263-kernons-faithful-servant-kelone",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25263-kernons-faithful-servant-kelone",
   "raw_html": "library/raw/lu4/npc/25263-kernons-faithful-servant-kelone.html",
   "stats": {
-    "Location": "Восточная Пограничная Застава"
+    "HP / MP": "1 015 389 / 6 318",
+    "P. Atk. / M. Atk.": "11 956 / 14 189",
+    "P. Def. / M. Def.": "1 125 / 1 427",
+    "Accuracy / Evasion": "118 / 128",
+    "Exp / SP": "5 162 350 / 800 000",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 Like most monsters in the Blazing Swamp, Sekina also became a devil after receiving the power of Hallate. She is loyal to Kernon, who is currently in the Tower of Insolence, and is currently carrying out a secret mission on his orders in the Blazing Swamp area. The exact nature of the mission is unknown. Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 67"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25263",
-      "type": "npc",
-      "id": 25263,
-      "name": "Lu4",
-      "url": "/lu4/npc/25263-kernons-faithful-servant-kelone"
-    },
-    {
-      "key": "location:97",
-      "type": "location",
-      "id": 97,
-      "name": "Восточная Пограничная Застава",
-      "url": "/lu4/location/97-vostocnaa-pogranicnaa-zastava"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4887",
       "type": "skill",
       "id": 4887,
-      "name": "Raid Boss Lv. 1 Like most monsters in the Blazing Swamp, Sekina also became a devil after receiving the power of Hallate. She is loyal to Kernon, who is currently in the Tower of Insolence, and is currently carrying out a secret mission on his orders in the Blazing Swamp area. The exact nature of the mission is unknown.",
-      "url": "/lu4/skill/4887-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4887-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32535",
+      "key": "item:9910",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
+    },
+    {
+      "key": "item:8620",
+      "type": "item",
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
+    },
+    {
+      "key": "item:8621",
+      "type": "item",
+      "id": 8621,
+      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
+      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
+    },
+    {
+      "key": "item:10552",
+      "type": "item",
+      "id": 10552,
+      "name": "Spellbook: Fighter's Will NG",
+      "url": "/lu4/item/10552-spellbook-fighters-will"
+    },
+    {
+      "key": "item:10553",
+      "type": "item",
+      "id": 10553,
+      "name": "Spellbook: Archer's Will NG",
+      "url": "/lu4/item/10553-spellbook-archers-will"
+    },
+    {
+      "key": "item:14219",
+      "type": "item",
+      "id": 14219,
+      "name": "Spellbook: Magician's Will NG",
+      "url": "/lu4/item/14219-spellbook-magicians-will"
+    },
+    {
+      "key": "item:32368",
+      "type": "item",
+      "id": 32368,
+      "name": "Unidentified Meteor Shower A",
+      "url": "/lu4/item/32368-unidentified-meteor-shower"
     },
     {
       "key": "item:32437",
@@ -82,74 +119,18 @@
       "url": "/lu4/item/32435-unidentified-spiritual-eye"
     },
     {
-      "key": "item:32381",
+      "key": "item:32535",
       "type": "item",
-      "id": 32381,
-      "name": "Unidentified Sealed Tallum Leather Armor A",
-      "url": "/lu4/item/32381-unidentified-sealed-tallum-leather-armor"
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
     },
     {
-      "key": "item:32380",
+      "key": "item:5438",
       "type": "item",
-      "id": 32380,
-      "name": "Unidentified Sealed Dark Crystal Leggings A",
-      "url": "/lu4/item/32380-unidentified-sealed-dark-crystal-leggings"
-    },
-    {
-      "key": "item:32379",
-      "type": "item",
-      "id": 32379,
-      "name": "Unidentified Sealed Dark Crystal Leather Armor A",
-      "url": "/lu4/item/32379-unidentified-sealed-dark-crystal-leather-armor"
-    },
-    {
-      "key": "item:32368",
-      "type": "item",
-      "id": 32368,
-      "name": "Unidentified Meteor Shower A",
-      "url": "/lu4/item/32368-unidentified-meteor-shower"
-    },
-    {
-      "key": "item:14219",
-      "type": "item",
-      "id": 14219,
-      "name": "Spellbook: Magician's Will NG",
-      "url": "/lu4/item/14219-spellbook-magicians-will"
-    },
-    {
-      "key": "item:10553",
-      "type": "item",
-      "id": 10553,
-      "name": "Spellbook: Archer's Will NG",
-      "url": "/lu4/item/10553-spellbook-archers-will"
-    },
-    {
-      "key": "item:10552",
-      "type": "item",
-      "id": 10552,
-      "name": "Spellbook: Fighter's Will NG",
-      "url": "/lu4/item/10552-spellbook-fighters-will"
-    },
-    {
-      "key": "item:9910",
-      "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:8621",
-      "type": "item",
-      "id": 8621,
-      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
-      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
-    },
-    {
-      "key": "item:8620",
-      "type": "item",
-      "id": 8620,
-      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
-      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
+      "id": 5438,
+      "name": "Recipe: Meteor Shower(60%) NG",
+      "url": "/lu4/item/5438-recipe-meteor-shower60"
     },
     {
       "key": "item:8487",
@@ -157,6 +138,27 @@
       "id": 8487,
       "name": "Recipe: Destroyer Hammer (60%) NG",
       "url": "/lu4/item/8487-recipe-destroyer-hammer-60"
+    },
+    {
+      "key": "item:8314",
+      "type": "item",
+      "id": 8314,
+      "name": "Recipe: Spiritual Eye (60%) NG",
+      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
+    },
+    {
+      "key": "item:5460",
+      "type": "item",
+      "id": 5460,
+      "name": "Recipe: Dasparion's Staff(60%) NG",
+      "url": "/lu4/item/5460-recipe-dasparions-staff60"
+    },
+    {
+      "key": "item:5532",
+      "type": "item",
+      "id": 5532,
+      "name": "Meteor Shower Head NG",
+      "url": "/lu4/item/5532-meteor-shower-head"
     },
     {
       "key": "item:8346",
@@ -173,32 +175,25 @@
       "url": "/lu4/item/8341-spiritual-eye-piece"
     },
     {
-      "key": "item:8314",
-      "type": "item",
-      "id": 8314,
-      "name": "Recipe: Spiritual Eye (60%) NG",
-      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
-    },
-    {
-      "key": "item:6570",
-      "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
-    },
-    {
-      "key": "item:6569",
-      "type": "item",
-      "id": 6569,
-      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
-    },
-    {
       "key": "item:5543",
       "type": "item",
       "id": 5543,
       "name": "Dasparion's Staff Head NG",
       "url": "/lu4/item/5543-dasparions-staff-head"
+    },
+    {
+      "key": "item:32379",
+      "type": "item",
+      "id": 32379,
+      "name": "Unidentified Sealed Dark Crystal Leather Armor A",
+      "url": "/lu4/item/32379-unidentified-sealed-dark-crystal-leather-armor"
+    },
+    {
+      "key": "item:32380",
+      "type": "item",
+      "id": 32380,
+      "name": "Unidentified Sealed Dark Crystal Leggings A",
+      "url": "/lu4/item/32380-unidentified-sealed-dark-crystal-leggings"
     },
     {
       "key": "npc:25264",

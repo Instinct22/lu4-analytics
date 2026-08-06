@@ -2,89 +2,86 @@
   "key": "npc:25335",
   "type": "npc",
   "id": 25335,
-  "name": "Lu4 Wiki: NPC Anakazel",
+  "name": "Anakazel",
   "url": "/lu4/npc/25335-anakazel",
-  "source_url": "https://masterwork.wiki/lu4/npc/25335-anakazel",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25335-anakazel",
   "raw_html": "library/raw/lu4/npc/25335-anakazel.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "494 363 / 8 254",
+    "P. Atk. / M. Atk.": "1 546 / 1 665",
+    "P. Def. / M. Def.": "751 / 851",
+    "Accuracy / Evasion": "99 / 99",
+    "Exp / SP": "1 173 350 / 137 957",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A being that tries to invade the real world by crossing the Dimensional Rift along with the otherworldly devils. Due to the influence of the rift where time and space are distorted, it has a very unstable shape. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Resist Full Magic Attack Lv. 1",
+    "Grade": "C",
+    "Type": "Demonic, Lv. 48"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25335",
-      "type": "npc",
-      "id": 25335,
-      "name": "Lu4",
-      "url": "/lu4/npc/25335-anakazel"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4917",
       "type": "skill",
       "id": 4917,
-      "name": "Raid Boss Lv. 1 A being that tries to invade the real world by crossing the Dimensional Rift along with the otherworldly devils. Due to the influence of the rift where time and space are distorted, it has a very unstable shape.",
-      "url": "/lu4/skill/4917-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4917-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:8176",
+      "key": "item:356",
       "type": "item",
-      "id": 8176,
-      "name": "Destruction Tombstone NG",
-      "url": "/lu4/item/8176-destruction-tombstone"
+      "id": 356,
+      "name": "Full Plate Armor C",
+      "url": "/lu4/item/356-full-plate-armor"
     },
     {
-      "key": "item:4603",
+      "key": "item:1986",
       "type": "item",
-      "id": 4603,
-      "name": "Greater Dye of CON <Con+3 Str-3> NG",
-      "url": "/lu4/item/4603-greater-dye-of-con-con3-str-3"
+      "id": 1986,
+      "name": "Full Plate Armor Temper NG",
+      "url": "/lu4/item/1986-full-plate-armor-temper"
     },
     {
-      "key": "item:4602",
+      "key": "item:203",
       "type": "item",
-      "id": 4602,
-      "name": "Greater Dye of STR <Str+3 Dex-3> NG",
-      "url": "/lu4/item/4602-greater-dye-of-str-str3-dex-3"
-    },
-    {
-      "key": "item:4601",
-      "type": "item",
-      "id": 4601,
-      "name": "Greater Dye of STR <Str+3 Con-3> NG",
-      "url": "/lu4/item/4601-greater-dye-of-str-str3-con-3"
+      "id": 203,
+      "name": "Pa'agrian Axe C",
+      "url": "/lu4/item/203-paagrian-axe"
     },
     {
       "key": "item:2969",
@@ -129,27 +126,6 @@
       "url": "/lu4/item/2112-paagrian-axe-blade"
     },
     {
-      "key": "item:1986",
-      "type": "item",
-      "id": 1986,
-      "name": "Full Plate Armor Temper NG",
-      "url": "/lu4/item/1986-full-plate-armor-temper"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:356",
-      "type": "item",
-      "id": 356,
-      "name": "Full Plate Armor C",
-      "url": "/lu4/item/356-full-plate-armor"
-    },
-    {
       "key": "item:206",
       "type": "item",
       "id": 206,
@@ -171,11 +147,39 @@
       "url": "/lu4/item/204-deadmans-staff"
     },
     {
-      "key": "item:203",
+      "key": "item:4603",
       "type": "item",
-      "id": 203,
-      "name": "Pa'agrian Axe C",
-      "url": "/lu4/item/203-paagrian-axe"
+      "id": 4603,
+      "name": "Greater Dye of CON <Con+3 Str-3> NG",
+      "url": "/lu4/item/4603-greater-dye-of-con-con3-str-3"
+    },
+    {
+      "key": "item:4602",
+      "type": "item",
+      "id": 4602,
+      "name": "Greater Dye of STR <Str+3 Dex-3> NG",
+      "url": "/lu4/item/4602-greater-dye-of-str-str3-dex-3"
+    },
+    {
+      "key": "item:4601",
+      "type": "item",
+      "id": 4601,
+      "name": "Greater Dye of STR <Str+3 Con-3> NG",
+      "url": "/lu4/item/4601-greater-dye-of-str-str3-con-3"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:8176",
+      "type": "item",
+      "id": 8176,
+      "name": "Destruction Tombstone NG",
+      "url": "/lu4/item/8176-destruction-tombstone"
     }
   ]
 }

@@ -2,110 +2,121 @@
   "key": "npc:21309",
   "type": "npc",
   "id": 21309,
-  "name": "Lu4 Wiki: NPC Disciples of Punishment",
+  "name": "Disciples of Punishment",
   "url": "/lu4/npc/21309-disciples-of-punishment",
-  "source_url": "https://masterwork.wiki/lu4/npc/21309-disciples-of-punishment",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21309-disciples-of-punishment",
   "raw_html": "library/raw/lu4/npc/21309-disciples-of-punishment.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "21 146 / 1 674",
+    "P. Atk. / M. Atk.": "1 835 / 766",
+    "P. Def. / M. Def.": "636 / 546",
+    "Accuracy / Evasion": "123 / 117",
+    "Exp / SP": "40 961 / 4 320",
+    "Attack Attribute": "Holy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 200, Unholy -83",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Slightly Weak P. Atk. Lv. 9 Slightly Weak M. Atk. Lv. 9 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 13 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 4 One-handed Sword Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. High Lv. Lv. 4 NPC High Level",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 75"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21309",
-      "type": "npc",
-      "id": 21309,
-      "name": "Lu4",
-      "url": "/lu4/npc/21309-disciples-of-punishment"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 9",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/9"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 9",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/9"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 4 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/4"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 4 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/4"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:32535",
+      "key": "item:57",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:8341",
+      "type": "item",
+      "id": 8341,
+      "name": "Spiritual Eye Piece NG",
+      "url": "/lu4/item/8341-spiritual-eye-piece"
     },
     {
       "key": "item:32437",
@@ -122,27 +133,6 @@
       "url": "/lu4/item/32435-unidentified-spiritual-eye"
     },
     {
-      "key": "item:32368",
-      "type": "item",
-      "id": 32368,
-      "name": "Unidentified Meteor Shower A",
-      "url": "/lu4/item/32368-unidentified-meteor-shower"
-    },
-    {
-      "key": "item:8346",
-      "type": "item",
-      "id": 8346,
-      "name": "Hammer Piece of Destroyer NG",
-      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
-    },
-    {
-      "key": "item:8341",
-      "type": "item",
-      "id": 8341,
-      "name": "Spiritual Eye Piece NG",
-      "url": "/lu4/item/8341-spiritual-eye-piece"
-    },
-    {
       "key": "item:5543",
       "type": "item",
       "id": 5543,
@@ -157,18 +147,25 @@
       "url": "/lu4/item/5532-meteor-shower-head"
     },
     {
-      "key": "item:5282",
+      "key": "item:8346",
       "type": "item",
-      "id": 5282,
-      "name": "Recipe: Greater Blessed Spiritshot (S) Compressed Package(100%) NG",
-      "url": "/lu4/item/5282-recipe-greater-blessed-spiritshot-s-compressed-package100"
+      "id": 8346,
+      "name": "Hammer Piece of Destroyer NG",
+      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
     },
     {
-      "key": "item:4041",
+      "key": "item:32368",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 32368,
+      "name": "Unidentified Meteor Shower A",
+      "url": "/lu4/item/32368-unidentified-meteor-shower"
+    },
+    {
+      "key": "item:32535",
+      "type": "item",
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
     },
     {
       "key": "item:1881",
@@ -176,6 +173,13 @@
       "id": 1881,
       "name": "Coarse Bone Powder NG",
       "url": "/lu4/item/1881-coarse-bone-powder"
+    },
+    {
+      "key": "item:5282",
+      "type": "item",
+      "id": 5282,
+      "name": "Recipe: Greater Blessed Spiritshot (S) Compressed Package(100%) NG",
+      "url": "/lu4/item/5282-recipe-greater-blessed-spiritshot-s-compressed-package100"
     },
     {
       "key": "item:1875",
@@ -206,18 +210,11 @@
       "url": "/lu4/item/1344-mithril-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:4041",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:5487",
-      "type": "item",
-      "id": 5487,
-      "name": "Sealed Robe of Nightmare Fabric NG",
-      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
       "key": "item:3036",
@@ -225,6 +222,13 @@
       "id": 3036,
       "name": "Recipe: Spiritshot S NG",
       "url": "/lu4/item/3036-recipe-spiritshot-s"
+    },
+    {
+      "key": "item:5487",
+      "type": "item",
+      "id": 5487,
+      "name": "Sealed Robe of Nightmare Fabric NG",
+      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
     }
   ]
 }

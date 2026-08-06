@@ -2,56 +2,53 @@
   "key": "npc:25063",
   "type": "npc",
   "id": 25063,
-  "name": "Lu4 Wiki: NPC Chertuba of Great Soul",
+  "name": "Chertuba of Great Soul",
   "url": "/lu4/npc/25063-chertuba-of-great-soul",
-  "source_url": "https://masterwork.wiki/lu4/npc/25063-chertuba-of-great-soul",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25063-chertuba-of-great-soul",
   "raw_html": "library/raw/lu4/npc/25063-chertuba-of-great-soul.html",
   "stats": {
-    "Location": "Лагерь Орков"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Лагерь Орков",
+    "HP / MP": "330 580 / 2 058",
+    "P. Atk. / M. Atk.": "986 / 378",
+    "P. Def. / M. Def.": "488 / 551",
+    "Accuracy / Evasion": "89 / 88",
+    "Exp / SP": "1 041 250 / 103 175",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A Turek Orc leader praised for his powerful soul, bravery, and wisdom. He has retired from the field, and lives in a secluded corner of the Orc Barracks giving counsel to those who seek his advice. Normally reserved, when roused he does not shy away from battle. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 35"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25063",
-      "type": "npc",
-      "id": 25063,
-      "name": "Lu4",
-      "url": "/lu4/npc/25063-chertuba-of-great-soul"
-    },
-    {
-      "key": "location:30",
-      "type": "location",
-      "id": 30,
-      "name": "Лагерь Орков",
-      "url": "/lu4/location/30-lager-orkov"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4812",
       "type": "skill",
       "id": 4812,
-      "name": "Raid Boss Lv. 1 A Turek Orc leader praised for his powerful soul, bravery, and wisdom. He has retired from the field, and lives in a secluded corner of the Orc Barracks giving counsel to those who seek his advice. Normally reserved, when roused he does not shy away from battle.",
-      "url": "/lu4/skill/4812-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4812-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,46 +58,53 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:280",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 280,
+      "name": "Light Crossbow D",
+      "url": "/lu4/item/280-light-crossbow"
     },
     {
-      "key": "item:6575",
+      "key": "item:225",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 225,
+      "name": "Mithril Dagger D",
+      "url": "/lu4/item/225-mithril-dagger"
     },
     {
-      "key": "item:2934",
+      "key": "item:262",
       "type": "item",
-      "id": 2934,
-      "name": "Plate Shield Fragment NG",
-      "url": "/lu4/item/2934-plate-shield-fragment"
+      "id": 262,
+      "name": "Scallop Jamadhr D",
+      "url": "/lu4/item/262-scallop-jamadhr"
     },
     {
-      "key": "item:2930",
+      "key": "item:297",
       "type": "item",
-      "id": 2930,
-      "name": "Plate Helmet Design NG",
-      "url": "/lu4/item/2930-plate-helmet-design"
+      "id": 297,
+      "name": "Glaive D",
+      "url": "/lu4/item/297-glaive"
     },
     {
-      "key": "item:2494",
+      "key": "item:2054",
       "type": "item",
-      "id": 2494,
-      "name": "Plate Shield D",
-      "url": "/lu4/item/2494-plate-shield"
+      "id": 2054,
+      "name": "Light Crossbow Shaft NG",
+      "url": "/lu4/item/2054-light-crossbow-shaft"
     },
     {
-      "key": "item:2412",
+      "key": "item:2052",
       "type": "item",
-      "id": 2412,
-      "name": "Plate Helmet D",
-      "url": "/lu4/item/2412-plate-helmet"
+      "id": 2052,
+      "name": "Mithril Dagger Blade NG",
+      "url": "/lu4/item/2052-mithril-dagger-blade"
+    },
+    {
+      "key": "item:2053",
+      "type": "item",
+      "id": 2053,
+      "name": "Scallop Jamadhr Edge NG",
+      "url": "/lu4/item/2053-scallop-jamadhr-edge"
     },
     {
       "key": "item:2055",
@@ -110,11 +114,32 @@
       "url": "/lu4/item/2055-glaive-edge"
     },
     {
-      "key": "item:1956",
+      "key": "item:2412",
       "type": "item",
-      "id": 1956,
-      "name": "Square Shield Fragment NG",
-      "url": "/lu4/item/1956-square-shield-fragment"
+      "id": 2412,
+      "name": "Half Plate Helmet D",
+      "url": "/lu4/item/2412-half-plate-helmet"
+    },
+    {
+      "key": "item:2494",
+      "type": "item",
+      "id": 2494,
+      "name": "Half Plate Shield D",
+      "url": "/lu4/item/2494-half-plate-shield"
+    },
+    {
+      "key": "item:2930",
+      "type": "item",
+      "id": 2930,
+      "name": "Half Plate Helmet Design NG",
+      "url": "/lu4/item/2930-half-plate-helmet-design"
+    },
+    {
+      "key": "item:2934",
+      "type": "item",
+      "id": 2934,
+      "name": "Half Plate Shield Fragment NG",
+      "url": "/lu4/item/2934-half-plate-shield-fragment"
     },
     {
       "key": "item:956",
@@ -124,6 +149,13 @@
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     },
     {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
       "key": "item:955",
       "type": "item",
       "id": 955,
@@ -131,18 +163,11 @@
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
-      "key": "item:630",
+      "key": "item:6575",
       "type": "item",
-      "id": 630,
-      "name": "Square Shield D",
-      "url": "/lu4/item/630-square-shield"
-    },
-    {
-      "key": "item:297",
-      "type": "item",
-      "id": 297,
-      "name": "Glaive D",
-      "url": "/lu4/item/297-glaive"
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     }
   ]
 }

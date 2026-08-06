@@ -2,117 +2,128 @@
   "key": "npc:21440",
   "type": "npc",
   "id": 21440,
-  "name": "Lu4 Wiki: NPC Heathen Archer",
+  "name": "Heathen Archer",
   "url": "/lu4/npc/21440-heathen-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21440-heathen-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21440-heathen-archer",
   "raw_html": "library/raw/lu4/npc/21440-heathen-archer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "14 504 / 1 541",
+    "P. Atk. / M. Atk.": "3 906 / 1 009",
+    "P. Def. / M. Def.": "330 / 445",
+    "Accuracy / Evasion": "104 / 114",
+    "Exp / SP": "21 252 / 1 872",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 13 Greater Sleep Resistance Lv. 5 Sleep Immunity. Mental Attack Resistance Lv. 4 Provides resistance against mental attack. Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 65"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21440",
-      "type": "npc",
-      "id": 21440,
-      "name": "Lu4",
-      "url": "/lu4/npc/21440-heathen-archer"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 5 Sleep Immunity.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/5"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 4 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/4"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/3"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:4080",
+      "type": "item",
+      "id": 4080,
+      "name": "Blue Wolf Gaiters Material NG",
+      "url": "/lu4/item/4080-blue-wolf-gaiters-material"
     },
     {
       "key": "item:32355",
@@ -129,6 +140,13 @@
       "url": "/lu4/item/32354-unidentified-blue-wolf-gaiters"
     },
     {
+      "key": "item:4081",
+      "type": "item",
+      "id": 4081,
+      "name": "Doom Plate Armor Temper NG",
+      "url": "/lu4/item/4081-doom-plate-armor-temper"
+    },
+    {
       "key": "item:32351",
       "type": "item",
       "id": 32351,
@@ -136,18 +154,11 @@
       "url": "/lu4/item/32351-unidentified-blue-wolf-breastplate"
     },
     {
-      "key": "item:5334",
+      "key": "item:4078",
       "type": "item",
-      "id": 5334,
-      "name": "Recipe: Sealed Tallum Leather Armor(60%) NG",
-      "url": "/lu4/item/5334-recipe-sealed-tallum-leather-armor60"
-    },
-    {
-      "key": "item:4615",
-      "type": "item",
-      "id": 4615,
-      "name": "Greater Dye of CON <Con+4 Str-4> NG",
-      "url": "/lu4/item/4615-greater-dye-of-con-con4-str-4"
+      "id": 4078,
+      "name": "Blue Wolf Breastplate Part NG",
+      "url": "/lu4/item/4078-blue-wolf-breastplate-part"
     },
     {
       "key": "item:4402",
@@ -157,25 +168,18 @@
       "url": "/lu4/item/4402-blue-dimensional-stone"
     },
     {
-      "key": "item:4081",
+      "key": "item:4615",
       "type": "item",
-      "id": 4081,
-      "name": "Doom Plate Armor Temper NG",
-      "url": "/lu4/item/4081-doom-plate-armor-temper"
+      "id": 4615,
+      "name": "Greater Dye of CON <Con+4 Str-4> NG",
+      "url": "/lu4/item/4615-greater-dye-of-con-con4-str-4"
     },
     {
-      "key": "item:4080",
+      "key": "item:5334",
       "type": "item",
-      "id": 4080,
-      "name": "Blue Wolf Gaiters Material NG",
-      "url": "/lu4/item/4080-blue-wolf-gaiters-material"
-    },
-    {
-      "key": "item:4078",
-      "type": "item",
-      "id": 4078,
-      "name": "Blue Wolf Breastplate Part NG",
-      "url": "/lu4/item/4078-blue-wolf-breastplate-part"
+      "id": 5334,
+      "name": "Recipe: Sealed Tallum Leather Armor(60%) NG",
+      "url": "/lu4/item/5334-recipe-sealed-tallum-leather-armor60"
     },
     {
       "key": "item:4041",
@@ -213,18 +217,18 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:5382",
+      "key": "item:4053",
       "type": "item",
-      "id": 5382,
-      "name": "Recipe: Sealed Majestic Boots(60%) NG",
-      "url": "/lu4/item/5382-recipe-sealed-majestic-boots60"
+      "id": 4053,
+      "name": "Ring of Black Ore Gemstone NG",
+      "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
     },
     {
       "key": "item:5230",
@@ -234,11 +238,11 @@
       "url": "/lu4/item/5230-recipe-mithril-arrow-100"
     },
     {
-      "key": "item:4053",
+      "key": "item:5382",
       "type": "item",
-      "id": 4053,
-      "name": "Ring of Black Ore Gemstone NG",
-      "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
+      "id": 5382,
+      "name": "Recipe: Sealed Majestic Boots(60%) NG",
+      "url": "/lu4/item/5382-recipe-sealed-majestic-boots60"
     }
   ]
 }

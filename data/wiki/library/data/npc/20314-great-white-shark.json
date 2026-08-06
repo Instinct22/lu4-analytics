@@ -2,168 +2,67 @@
   "key": "npc:20314",
   "type": "npc",
   "id": 20314,
-  "name": "Lu4 Wiki: NPC Great White Shark",
+  "name": "Great White Shark",
   "url": "/lu4/npc/20314-great-white-shark",
-  "source_url": "https://masterwork.wiki/lu4/npc/20314-great-white-shark",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20314-great-white-shark",
   "raw_html": "library/raw/lu4/npc/20314-great-white-shark.html",
   "stats": {
-    "Location": "Земли Иннадрила (+1) Земли Иннадрила Сады Богини Евы"
+    "Respawn Time": "2 minutes",
+    "Location": "Земли Иннадрила (+1) Земли Иннадрила Сады Богини Евы",
+    "HP / MP": "5 010 / 654",
+    "P. Atk. / M. Atk.": "366 / 157",
+    "P. Def. / M. Def.": "199 / 159",
+    "Accuracy / Evasion": "75 / 75",
+    "Exp / SP": "5 216 / 522",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 42"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20314",
-      "type": "npc",
-      "id": 20314,
-      "name": "Lu4",
-      "url": "/lu4/npc/20314-great-white-shark"
-    },
-    {
-      "key": "location:9",
-      "type": "location",
-      "id": 9,
-      "name": "Земли Иннадрила",
-      "url": "/lu4/location/9-zemli-innadrila"
-    },
-    {
-      "key": "location:121",
-      "type": "location",
-      "id": 121,
-      "name": "Сады Богини Евы",
-      "url": "/lu4/location/121-sady-bogini-evy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:2999",
-      "type": "item",
-      "id": 2999,
-      "name": "Recipe: Plated Leather Gloves NG",
-      "url": "/lu4/item/2999-recipe-plated-leather-gloves"
-    },
-    {
-      "key": "item:2307",
-      "type": "item",
-      "id": 2307,
-      "name": "Recipe: Heavy Doom Axe NG",
-      "url": "/lu4/item/2307-recipe-heavy-doom-axe"
-    },
-    {
-      "key": "item:2305",
-      "type": "item",
-      "id": 2305,
-      "name": "Recipe: Crystal Staff NG",
-      "url": "/lu4/item/2305-recipe-crystal-staff"
-    },
-    {
-      "key": "item:2076",
-      "type": "item",
-      "id": 2076,
-      "name": "Body Slasher Blade NG",
-      "url": "/lu4/item/2076-body-slasher-blade"
-    },
-    {
-      "key": "item:2061",
-      "type": "item",
-      "id": 2061,
-      "name": "Big Hammer Head NG",
-      "url": "/lu4/item/2061-big-hammer-head"
-    },
-    {
-      "key": "item:2059",
-      "type": "item",
-      "id": 2059,
-      "name": "Flamberge Blade NG",
-      "url": "/lu4/item/2059-flamberge-blade"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1869",
@@ -173,18 +72,25 @@
       "url": "/lu4/item/1869-iron-ore"
     },
     {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:1884",
+      "type": "item",
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
+    },
+    {
       "key": "item:1864",
       "type": "item",
       "id": 1864,
       "name": "Stem NG",
       "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:302",
-      "type": "item",
-      "id": 302,
-      "name": "Body Slasher C",
-      "url": "/lu4/item/302-body-slasher"
     },
     {
       "key": "item:89",
@@ -194,6 +100,27 @@
       "url": "/lu4/item/89-big-hammer"
     },
     {
+      "key": "item:2061",
+      "type": "item",
+      "id": 2061,
+      "name": "Big Hammer Head NG",
+      "url": "/lu4/item/2061-big-hammer-head"
+    },
+    {
+      "key": "item:302",
+      "type": "item",
+      "id": 302,
+      "name": "Body Slasher C",
+      "url": "/lu4/item/302-body-slasher"
+    },
+    {
+      "key": "item:2076",
+      "type": "item",
+      "id": 2076,
+      "name": "Body Slasher Blade NG",
+      "url": "/lu4/item/2076-body-slasher-blade"
+    },
+    {
       "key": "item:71",
       "type": "item",
       "id": 71,
@@ -201,11 +128,81 @@
       "url": "/lu4/item/71-flamberge"
     },
     {
-      "key": "item:57",
+      "key": "item:2059",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2059,
+      "name": "Flamberge Blade NG",
+      "url": "/lu4/item/2059-flamberge-blade"
+    },
+    {
+      "key": "item:2305",
+      "type": "item",
+      "id": 2305,
+      "name": "Recipe: Crystal Staff NG",
+      "url": "/lu4/item/2305-recipe-crystal-staff"
+    },
+    {
+      "key": "item:2307",
+      "type": "item",
+      "id": 2307,
+      "name": "Recipe: Heavy Doom Axe NG",
+      "url": "/lu4/item/2307-recipe-heavy-doom-axe"
+    },
+    {
+      "key": "item:2999",
+      "type": "item",
+      "id": 2999,
+      "name": "Recipe: Plated Leather Gloves NG",
+      "url": "/lu4/item/2999-recipe-plated-leather-gloves"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
       "key": "item:4472",
@@ -229,6 +226,13 @@
       "url": "/lu4/item/2199-recipe-karmian-stockings"
     },
     {
+      "key": "item:1954",
+      "type": "item",
+      "id": 1954,
+      "name": "Karmian Stocking Design NG",
+      "url": "/lu4/item/1954-karmian-stocking-design"
+    },
+    {
       "key": "item:2075",
       "type": "item",
       "id": 2075,
@@ -241,20 +245,6 @@
       "id": 2064,
       "name": "Silver Axe Head NG",
       "url": "/lu4/item/2064-silver-axe-head"
-    },
-    {
-      "key": "item:1954",
-      "type": "item",
-      "id": 1954,
-      "name": "Karmian Stocking Design NG",
-      "url": "/lu4/item/1954-karmian-stocking-design"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
     }
   ]
 }

@@ -2,34 +2,32 @@
   "key": "item:7663",
   "type": "item",
   "id": 7663,
-  "name": "Lu4 Wiki: Item Spellbook: Divine Protection",
+  "name": "Spellbook: Divine Protection",
   "url": "/lu4/item/7663-spellbook-divine-protection",
-  "source_url": "https://masterwork.wiki/lu4/item/7663-spellbook-divine-protection",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/7663-spellbook-divine-protection",
   "raw_html": "library/raw/lu4/item/7663-spellbook-divine-protection.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Divine Protection'. Required: Bishop - Lv. 72 Elven Elder - Lv. 72 To obtain this item, hunt the Hames Orc Scout found in Blazing Swamp.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:7663",
-      "type": "item",
-      "id": 7663,
-      "name": "Lu4",
-      "url": "/lu4/item/7663-spellbook-divine-protection"
-    },
-    {
       "key": "npc:21255",
       "type": "npc",
       "id": 21255,
-      "name": "Tomb Preacher Lv. 77",
+      "name": "Tomb Preacher",
       "url": "/lu4/npc/21255-tomb-preacher"
     },
     {
       "key": "npc:21109",
       "type": "npc",
       "id": 21109,
-      "name": "Hames Orc Scout Lv. 72",
+      "name": "Hames Orc Scout",
       "url": "/lu4/npc/21109-hames-orc-scout"
     }
   ]

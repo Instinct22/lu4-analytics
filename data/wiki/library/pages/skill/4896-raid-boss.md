@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4896-raid-boss
+- Path: /lu4/skill/4896-raid-boss
+- Type: skill
+- Key: skill:4896
+
+## Stats
+- Effect: A powerful death lord who came up from Purgatory at the request of Death Lord Hallant. Unlike Hallant, who exhausted its power in order to break the seal on the Tower of Insolence, it has kept most of its power from Purgatory. Unlike Death Lord Ipos, it doesn't make relationships with humans, and it acts alone without heeding the words of Hallant.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability A powerful death lord who came up from Purgatory at the request of Death Lord Hallant. Unlike Hallant, who exhausted its power in order to break the seal on the Tower of Insolence, it has kept most of its power from Purgatory. Unlike Death Lord Ipos, it doesn't make relationships with humans, and it acts alone without heeding the words of Hallant. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

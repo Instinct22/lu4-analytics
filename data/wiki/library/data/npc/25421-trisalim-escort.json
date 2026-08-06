@@ -2,47 +2,44 @@
   "key": "npc:25421",
   "type": "npc",
   "id": 25421,
-  "name": "Lu4 Wiki: NPC Trisalim Escort",
+  "name": "Trisalim Escort",
   "url": "/lu4/npc/25421-trisalim-escort",
-  "source_url": "https://masterwork.wiki/lu4/npc/25421-trisalim-escort",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25421-trisalim-escort",
   "raw_html": "library/raw/lu4/npc/25421-trisalim-escort.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "21 620 / 2 063",
+    "P. Atk. / M. Atk.": "801 / 927",
+    "P. Def. / M. Def.": "462 / 435",
+    "Accuracy / Evasion": "80 / 95",
+    "Exp / SP": "0 / 760",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "C",
+    "Type": "Bug, Lv. 47"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25421",
-      "type": "npc",
-      "id": 25421,
-      "name": "Lu4",
-      "url": "/lu4/npc/25421-trisalim-escort"
-    },
-    {
-      "key": "location:104",
-      "type": "location",
-      "id": 104,
-      "name": "Море Спор",
-      "url": "/lu4/location/104-more-spor"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:1342",

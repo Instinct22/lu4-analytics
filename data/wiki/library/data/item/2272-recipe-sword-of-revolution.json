@@ -2,125 +2,24 @@
   "key": "item:2272",
   "type": "item",
   "id": 2272,
-  "name": "Recipe",
+  "name": "Recipe: Sword of Revolution",
   "url": "/lu4/item/2272-recipe-sword-of-revolution",
-  "source_url": "https://masterwork.wiki/lu4/item/2272-recipe-sword-of-revolution",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2272-recipe-sword-of-revolution",
   "raw_html": "library/raw/lu4/item/2272-recipe-sword-of-revolution.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Sword of Revolution'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "14 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Sword of Revolution D"
+    "Result": "Sword of Revolution D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2034",
-      "type": "item",
-      "id": 2034,
-      "name": "Sword of Revolution Blade NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1883",
-      "type": "item",
-      "id": 1883,
-      "name": "Steel Mold NG",
-      "amount": "2"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "50"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "175"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "875"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "875"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "175"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "525"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "525"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "430"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "139"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2272",
-      "type": "item",
-      "id": 2272,
-      "name": "Lu4",
-      "url": "/lu4/item/2272-recipe-sword-of-revolution"
-    },
     {
       "key": "item:2034",
       "type": "item",
@@ -216,35 +115,35 @@
       "key": "npc:21673",
       "type": "npc",
       "id": 21673,
-      "name": "Otherworldly Invader Elite Soldier Lv. 35",
+      "name": "Otherworldly Invader Elite Soldier",
       "url": "/lu4/npc/21673-otherworldly-invader-elite-soldier"
     },
     {
       "key": "npc:21016",
       "type": "npc",
       "id": 21016,
-      "name": "Warlike Tyrant Lv. 35",
+      "name": "Warlike Tyrant",
       "url": "/lu4/npc/21016-warlike-tyrant"
     },
     {
       "key": "npc:20749",
       "type": "npc",
       "id": 20749,
-      "name": "Death Fire Lv. 32",
+      "name": "Death Fire",
       "url": "/lu4/npc/20749-death-fire"
     },
     {
       "key": "npc:21013",
       "type": "npc",
       "id": 21013,
-      "name": "Ol Mahum Van Archer Lv. 32",
+      "name": "Ol Mahum Van Archer",
       "url": "/lu4/npc/21013-ol-mahum-van-archer"
     },
     {
       "key": "npc:20745",
       "type": "npc",
       "id": 20745,
-      "name": "Gigantiops Lv. 35",
+      "name": "Gigantiops",
       "url": "/lu4/npc/20745-gigantiops"
     }
   ]

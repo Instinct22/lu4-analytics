@@ -2,145 +2,93 @@
   "key": "npc:21707",
   "type": "npc",
   "id": 21707,
-  "name": "Lu4 Wiki: NPC Purgatory Invader Archer",
+  "name": "Purgatory Invader Archer",
   "url": "/lu4/npc/21707-purgatory-invader-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21707-purgatory-invader-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21707-purgatory-invader-archer",
   "raw_html": "library/raw/lu4/npc/21707-purgatory-invader-archer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "7 442 / 1 025",
+    "P. Atk. / M. Atk.": "2 368 / 533",
+    "P. Def. / M. Def.": "205 / 202",
+    "Accuracy / Evasion": "86 / 96",
+    "Exp / SP": "11 550 / 906",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Slightly Strong P. Def. Lv. 13 Weak M. Def. Lv. 8 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 53"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21707",
-      "type": "npc",
-      "id": 21707,
-      "name": "Lu4",
-      "url": "/lu4/npc/21707-purgatory-invader-archer"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:4134",
-      "type": "item",
-      "id": 4134,
-      "name": "Recipe: Zubei's Gaiters (100%) NG",
-      "url": "/lu4/item/4134-recipe-zubeis-gaiters-100"
-    },
-    {
-      "key": "item:2121",
-      "type": "item",
-      "id": 2121,
-      "name": "Eminence Bow Shaft NG",
-      "url": "/lu4/item/2121-eminence-bow-shaft"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:286",
-      "type": "item",
-      "id": 286,
-      "name": "Eminence Bow C",
-      "url": "/lu4/item/286-eminence-bow"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "item:57",
@@ -150,11 +98,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:3034",
+      "key": "item:286",
       "type": "item",
-      "id": 3034,
-      "name": "Recipe: Spiritshot B NG",
-      "url": "/lu4/item/3034-recipe-spiritshot-b"
+      "id": 286,
+      "name": "Eminence Bow C",
+      "url": "/lu4/item/286-eminence-bow"
+    },
+    {
+      "key": "item:2121",
+      "type": "item",
+      "id": 2121,
+      "name": "Eminence Bow Shaft NG",
+      "url": "/lu4/item/2121-eminence-bow-shaft"
+    },
+    {
+      "key": "item:1875",
+      "type": "item",
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
+      "key": "item:1879",
+      "type": "item",
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
+    },
+    {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
+    },
+    {
+      "key": "item:4134",
+      "type": "item",
+      "id": 4134,
+      "name": "Recipe: Zubei's Gaiters (100%) NG",
+      "url": "/lu4/item/4134-recipe-zubeis-gaiters-100"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:1920",
@@ -162,6 +159,13 @@
       "id": 1920,
       "name": "Necklace of Seal Chain NG",
       "url": "/lu4/item/1920-necklace-of-seal-chain"
+    },
+    {
+      "key": "item:3034",
+      "type": "item",
+      "id": 3034,
+      "name": "Recipe: Spiritshot B NG",
+      "url": "/lu4/item/3034-recipe-spiritshot-b"
     }
   ]
 }

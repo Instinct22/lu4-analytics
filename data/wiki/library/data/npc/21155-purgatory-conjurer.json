@@ -2,82 +2,86 @@
   "key": "npc:21155",
   "type": "npc",
   "id": 21155,
-  "name": "Lu4 Wiki: NPC Purgatory Conjurer",
+  "name": "Purgatory Conjurer",
   "url": "/lu4/npc/21155-purgatory-conjurer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21155-purgatory-conjurer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21155-purgatory-conjurer",
   "raw_html": "library/raw/lu4/npc/21155-purgatory-conjurer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "11 882 / 1 240",
+    "P. Atk. / M. Atk.": "874 / 514",
+    "P. Def. / M. Def.": "277 / 311",
+    "Accuracy / Evasion": "92 / 102",
+    "Exp / SP": "15 103 / 1 288",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (4x) Lv. 12 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 59"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21155",
-      "type": "npc",
-      "id": 21155,
-      "name": "Lu4",
-      "url": "/lu4/npc/21155-purgatory-conjurer"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8752",
+      "key": "item:856",
       "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
+      "id": 856,
+      "name": "Adamantite Earring B",
+      "url": "/lu4/item/856-adamantite-earring"
     },
     {
-      "key": "item:6037",
+      "key": "item:887",
       "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
+      "id": 887,
+      "name": "Adamantite Ring B",
+      "url": "/lu4/item/887-adamantite-ring"
     },
     {
-      "key": "item:4154",
+      "key": "item:918",
       "type": "item",
-      "id": 4154,
-      "name": "Recipe: Doom Shield (100%) NG",
-      "url": "/lu4/item/4154-recipe-doom-shield-100"
+      "id": 918,
+      "name": "Adamantite Necklace B",
+      "url": "/lu4/item/918-adamantite-necklace"
     },
     {
       "key": "item:4051",
@@ -99,6 +103,20 @@
       "id": 4049,
       "name": "Adamantite Earring Gemstone NG",
       "url": "/lu4/item/4049-adamantite-earring-gemstone"
+    },
+    {
+      "key": "item:6037",
+      "type": "item",
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
+    },
+    {
+      "key": "item:4154",
+      "type": "item",
+      "id": 4154,
+      "name": "Recipe: Doom Shield (100%) NG",
+      "url": "/lu4/item/4154-recipe-doom-shield-100"
     },
     {
       "key": "item:4043",
@@ -129,32 +147,18 @@
       "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:918",
+      "key": "item:49800",
       "type": "item",
-      "id": 918,
-      "name": "Adamantite Necklace B",
-      "url": "/lu4/item/918-adamantite-necklace"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:887",
+      "key": "item:8752",
       "type": "item",
-      "id": 887,
-      "name": "Adamantite Ring B",
-      "url": "/lu4/item/887-adamantite-ring"
-    },
-    {
-      "key": "item:856",
-      "type": "item",
-      "id": 856,
-      "name": "Adamantite Earring B",
-      "url": "/lu4/item/856-adamantite-earring"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
     },
     {
       "key": "item:4130",

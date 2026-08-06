@@ -2,63 +2,60 @@
   "key": "npc:20070",
   "type": "npc",
   "id": 20070,
-  "name": "Lu4 Wiki: NPC Lesser Basilisk",
+  "name": "Lesser Basilisk",
   "url": "/lu4/npc/20070-lesser-basilisk",
-  "source_url": "https://masterwork.wiki/lu4/npc/20070-lesser-basilisk",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20070-lesser-basilisk",
   "raw_html": "library/raw/lu4/npc/20070-lesser-basilisk.html",
   "stats": {
-    "Location": "Пустошь (+1) Пустошь Нейтральные Воды"
+    "Respawn Time": "15 seconds",
+    "Location": "Пустошь (+1) Пустошь Нейтральные Воды",
+    "HP / MP": "830 / 353",
+    "P. Atk. / M. Atk.": "120 / 52",
+    "P. Def. / M. Def.": "125 / 94",
+    "Accuracy / Evasion": "60 / 60",
+    "Exp / SP": "880 / 88",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 27"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20070",
-      "type": "npc",
-      "id": 20070,
-      "name": "Lu4",
-      "url": "/lu4/npc/20070-lesser-basilisk"
-    },
-    {
-      "key": "location:15",
-      "type": "location",
-      "id": 15,
-      "name": "Пустошь",
-      "url": "/lu4/location/15-pustos"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1881",
@@ -89,6 +86,13 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
+      "key": "item:46",
+      "type": "item",
+      "id": 46,
+      "name": "Bronze Helmet D",
+      "url": "/lu4/item/46-bronze-helmet"
+    },
+    {
       "key": "item:879",
       "type": "item",
       "id": 879,
@@ -101,20 +105,6 @@
       "id": 222,
       "name": "Poniard Dagger D",
       "url": "/lu4/item/222-poniard-dagger"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:46",
-      "type": "item",
-      "id": 46,
-      "name": "Bronze Helmet D",
-      "url": "/lu4/item/46-bronze-helmet"
     },
     {
       "key": "item:2025",

@@ -2,147 +2,60 @@
   "key": "npc:20497",
   "type": "npc",
   "id": 20497,
-  "name": "Lu4 Wiki: NPC Turek Orc Skirmisher",
+  "name": "Turek Orc Skirmisher",
   "url": "/lu4/npc/20497-turek-orc-skirmisher",
-  "source_url": "https://masterwork.wiki/lu4/npc/20497-turek-orc-skirmisher",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20497-turek-orc-skirmisher",
   "raw_html": "library/raw/lu4/npc/20497-turek-orc-skirmisher.html",
   "stats": {
-    "Location": "Нейтральные Воды (+2) Нейтральные Воды Лагерь Орков Земли Глудио"
+    "Respawn Time": "50 seconds",
+    "Location": "Нейтральные Воды (+2) Нейтральные Воды Лагерь Орков Земли Глудио",
+    "HP / MP": "3 489 / 371",
+    "P. Atk. / M. Atk.": "95 / 56",
+    "P. Def. / M. Def.": "164 / 130",
+    "Accuracy / Evasion": "64 / 63",
+    "Exp / SP": "3 846 / 385",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (4x) Lv. 12 Slightly Weak P. Atk. Lv. 9 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 13",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 28"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20497",
-      "type": "npc",
-      "id": 20497,
-      "name": "Lu4",
-      "url": "/lu4/npc/20497-turek-orc-skirmisher"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
-      "key": "location:30",
-      "type": "location",
-      "id": 30,
-      "name": "Лагерь Орков",
-      "url": "/lu4/location/30-lager-orkov"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 9",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/9"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:2042",
-      "type": "item",
-      "id": 2042,
-      "name": "Crucifix of Blood Piece NG",
-      "url": "/lu4/item/2042-crucifix-of-blood-piece"
-    },
-    {
-      "key": "item:1938",
-      "type": "item",
-      "id": 1938,
-      "name": "Mithril Banded Mail Material NG",
-      "url": "/lu4/item/1938-mithril-banded-mail-material"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
-    },
-    {
-      "key": "item:393",
-      "type": "item",
-      "id": 393,
-      "name": "Mithril Banded Mail D",
-      "url": "/lu4/item/393-mithril-banded-mail"
-    },
-    {
-      "key": "item:318",
-      "type": "item",
-      "id": 318,
-      "name": "Crucifix of Blood D",
-      "url": "/lu4/item/318-crucifix-of-blood"
-    },
-    {
-      "key": "item:186",
-      "type": "item",
-      "id": 186,
-      "name": "Staff of Magic D",
-      "url": "/lu4/item/186-staff-of-magic"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -152,11 +65,74 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2268",
+      "key": "item:1874",
       "type": "item",
-      "id": 2268,
-      "name": "Recipe: Tome of Blood NG",
-      "url": "/lu4/item/2268-recipe-tome-of-blood"
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:1884",
+      "type": "item",
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
+      "key": "item:318",
+      "type": "item",
+      "id": 318,
+      "name": "Crucifix of Blood D",
+      "url": "/lu4/item/318-crucifix-of-blood"
+    },
+    {
+      "key": "item:2042",
+      "type": "item",
+      "id": 2042,
+      "name": "Crucifix of Blood Piece NG",
+      "url": "/lu4/item/2042-crucifix-of-blood-piece"
+    },
+    {
+      "key": "item:186",
+      "type": "item",
+      "id": 186,
+      "name": "Staff of Magic D",
+      "url": "/lu4/item/186-staff-of-magic"
+    },
+    {
+      "key": "item:393",
+      "type": "item",
+      "id": 393,
+      "name": "Mithril Banded Mail D",
+      "url": "/lu4/item/393-mithril-banded-mail"
+    },
+    {
+      "key": "item:1938",
+      "type": "item",
+      "id": 1938,
+      "name": "Mithril Banded Mail Material NG",
+      "url": "/lu4/item/1938-mithril-banded-mail-material"
     },
     {
       "key": "item:1880",
@@ -164,6 +140,13 @@
       "id": 1880,
       "name": "Steel NG",
       "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:2268",
+      "type": "item",
+      "id": 2268,
+      "name": "Recipe: Tome of Blood NG",
+      "url": "/lu4/item/2268-recipe-tome-of-blood"
     }
   ]
 }

@@ -2,26 +2,29 @@
   "key": "npc:27083",
   "type": "npc",
   "id": 27083,
-  "name": "Lu4 Wiki: NPC Makum Bugbear Thug",
+  "name": "Makum Bugbear Thug",
   "url": "/lu4/npc/27083-makum-bugbear-thug",
-  "source_url": "https://masterwork.wiki/lu4/npc/27083-makum-bugbear-thug",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27083-makum-bugbear-thug",
   "raw_html": "library/raw/lu4/npc/27083-makum-bugbear-thug.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 432 / 533",
+    "P. Atk. / M. Atk.": "276 / 128",
+    "P. Def. / M. Def.": "182 / 156",
+    "Accuracy / Evasion": "65 / 70",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
+    "Type": "Humanoid, Lv. 37"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:27083",
-      "type": "npc",
-      "id": 27083,
-      "name": "Lu4",
-      "url": "/lu4/npc/27083-makum-bugbear-thug"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     }
   ]
 }

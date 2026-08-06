@@ -2,98 +2,53 @@
   "key": "npc:20230",
   "type": "npc",
   "id": 20230,
-  "name": "Lu4 Wiki: NPC Marsh Stakato Worker",
+  "name": "Marsh Stakato Worker",
   "url": "/lu4/npc/20230-marsh-stakato-worker",
-  "source_url": "https://masterwork.wiki/lu4/npc/20230-marsh-stakato-worker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20230-marsh-stakato-worker",
   "raw_html": "library/raw/lu4/npc/20230-marsh-stakato-worker.html",
   "stats": {
-    "Location": "Топи Крумы"
+    "Respawn Time": "14 seconds",
+    "Location": "Топи Крумы",
+    "HP / MP": "961 / 423",
+    "P. Atk. / M. Atk.": "140 / 69",
+    "P. Def. / M. Def.": "159 / 120",
+    "Accuracy / Evasion": "64 / 69",
+    "Exp / SP": "1 009 / 101",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 31"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20230",
-      "type": "npc",
-      "id": 20230,
-      "name": "Lu4",
-      "url": "/lu4/npc/20230-marsh-stakato-worker"
-    },
-    {
-      "key": "location:52",
-      "type": "location",
-      "id": 52,
-      "name": "Топи Крумы",
-      "url": "/lu4/location/52-topi-krumy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:956",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:2268",
-      "type": "item",
-      "id": 2268,
-      "name": "Recipe: Tome of Blood NG",
-      "url": "/lu4/item/2268-recipe-tome-of-blood"
-    },
-    {
-      "key": "item:2262",
-      "type": "item",
-      "id": 2262,
-      "name": "Recipe: Elven Bow NG",
-      "url": "/lu4/item/2262-recipe-elven-bow"
-    },
-    {
-      "key": "item:2183",
-      "type": "item",
-      "id": 2183,
-      "name": "Recipe: Mithril Banded Mail NG",
-      "url": "/lu4/item/2183-recipe-mithril-banded-mail"
-    },
-    {
-      "key": "item:1874",
-      "type": "item",
-      "id": 1874,
-      "name": "Oriharukon Ore NG",
-      "url": "/lu4/item/1874-oriharukon-ore"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     },
     {
       "key": "item:1865",
@@ -103,11 +58,18 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:956",
+      "key": "item:1870",
       "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1874",
+      "type": "item",
+      "id": 1874,
+      "name": "Oriharukon Ore NG",
+      "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
       "key": "item:277",
@@ -131,11 +93,53 @@
       "url": "/lu4/item/144-sword-of-occult"
     },
     {
-      "key": "item:57",
+      "key": "item:2262",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2262,
+      "name": "Recipe: Elven Bow NG",
+      "url": "/lu4/item/2262-recipe-elven-bow"
+    },
+    {
+      "key": "item:2183",
+      "type": "item",
+      "id": 2183,
+      "name": "Recipe: Mithril Banded Mail NG",
+      "url": "/lu4/item/2183-recipe-mithril-banded-mail"
+    },
+    {
+      "key": "item:2268",
+      "type": "item",
+      "id": 2268,
+      "name": "Recipe: Tome of Blood NG",
+      "url": "/lu4/item/2268-recipe-tome-of-blood"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:1834",
+      "type": "item",
+      "id": 1834,
+      "name": "Emergency Dressing NG",
+      "url": "/lu4/item/1834-emergency-dressing"
     },
     {
       "key": "item:8307",
@@ -145,13 +149,6 @@
       "url": "/lu4/item/8307-recipe-priest-mace-100"
     },
     {
-      "key": "item:2027",
-      "type": "item",
-      "id": 2027,
-      "name": "Spiked Club Head NG",
-      "url": "/lu4/item/2027-spiked-club-head"
-    },
-    {
       "key": "item:1940",
       "type": "item",
       "id": 1940,
@@ -159,11 +156,11 @@
       "url": "/lu4/item/1940-iron-boots-design"
     },
     {
-      "key": "item:1834",
+      "key": "item:2027",
       "type": "item",
-      "id": 1834,
-      "name": "Emergency Dressing NG",
-      "url": "/lu4/item/1834-emergency-dressing"
+      "id": 2027,
+      "name": "Spiked Club Head NG",
+      "url": "/lu4/item/2027-spiked-club-head"
     }
   ]
 }

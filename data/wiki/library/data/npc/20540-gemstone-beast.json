@@ -2,84 +2,53 @@
   "key": "npc:20540",
   "type": "npc",
   "id": 20540,
-  "name": "Lu4 Wiki: NPC Gemstone Beast",
+  "name": "Gemstone Beast",
   "url": "/lu4/npc/20540-gemstone-beast",
-  "source_url": "https://masterwork.wiki/lu4/npc/20540-gemstone-beast",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20540-gemstone-beast",
   "raw_html": "library/raw/lu4/npc/20540-gemstone-beast.html",
   "stats": {
-    "Location": "Заброшенный Угольный Рудник"
+    "Respawn Time": "20 seconds",
+    "Location": "Заброшенный Угольный Рудник",
+    "HP / MP": "314 / 153",
+    "P. Atk. / M. Atk.": "36 / 14",
+    "P. Def. / M. Def.": "80 / 61",
+    "Accuracy / Evasion": "45 / 45",
+    "Exp / SP": "344 / 34",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 12"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20540",
-      "type": "npc",
-      "id": 20540,
-      "name": "Lu4",
-      "url": "/lu4/npc/20540-gemstone-beast"
-    },
-    {
-      "key": "location:66",
-      "type": "location",
-      "id": 66,
-      "name": "Заброшенный Угольный Рудник",
-      "url": "/lu4/location/66-zabrosennyj-ugolnyj-rudnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:2386",
-      "type": "item",
-      "id": 2386,
-      "name": "Wooden Gaiters NG",
-      "url": "/lu4/item/2386-wooden-gaiters"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:736",
-      "type": "item",
-      "id": 736,
-      "name": "Scroll of Escape NG",
-      "url": "/lu4/item/736-scroll-of-escape"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -89,13 +58,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:30",
-      "type": "item",
-      "id": 30,
-      "name": "Hard Leather Pants NG",
-      "url": "/lu4/item/30-hard-leather-pants"
-    },
-    {
       "key": "item:23",
       "type": "item",
       "id": 23,
@@ -103,11 +65,39 @@
       "url": "/lu4/item/23-wooden-breastplate"
     },
     {
-      "key": "item:1896",
+      "key": "item:30",
       "type": "item",
-      "id": 1896,
-      "name": "Necklace of Anguish Chain NG",
-      "url": "/lu4/item/1896-necklace-of-anguish-chain"
+      "id": 30,
+      "name": "Hard Leather Pants NG",
+      "url": "/lu4/item/30-hard-leather-pants"
+    },
+    {
+      "key": "item:2386",
+      "type": "item",
+      "id": 2386,
+      "name": "Wooden Gaiters NG",
+      "url": "/lu4/item/2386-wooden-gaiters"
+    },
+    {
+      "key": "item:736",
+      "type": "item",
+      "id": 736,
+      "name": "Scroll of Escape NG",
+      "url": "/lu4/item/736-scroll-of-escape"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     },
     {
       "key": "item:1832",
@@ -115,6 +105,13 @@
       "id": 1832,
       "name": "Greater Antidote NG",
       "url": "/lu4/item/1832-greater-antidote"
+    },
+    {
+      "key": "item:1896",
+      "type": "item",
+      "id": 1896,
+      "name": "Necklace of Anguish Chain NG",
+      "url": "/lu4/item/1896-necklace-of-anguish-chain"
     }
   ]
 }

@@ -2,40 +2,30 @@
   "key": "npc:18276",
   "type": "npc",
   "id": 18276,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/18276-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/18276-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/18276-treasure-chest",
   "raw_html": "library/raw/lu4/npc/18276-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 563 / 1 060",
+    "P. Atk. / M. Atk.": "655 / 359",
+    "P. Def. / M. Def.": "324 / 262",
+    "Accuracy / Evasion": "87 / 87",
+    "Exp / SP": "3 499 / 279",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 54"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:18276",
-      "type": "npc",
-      "id": 18276,
-      "name": "Lu4",
-      "url": "/lu4/npc/18276-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:948",
-      "type": "item",
-      "id": 948,
-      "name": "Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:947",
-      "type": "item",
-      "id": 947,
-      "name": "Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:57",
@@ -45,11 +35,18 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1985",
+      "key": "item:947",
       "type": "item",
-      "id": 1985,
-      "name": "Theca Leather Gaiters Pattern NG",
-      "url": "/lu4/item/1985-theca-leather-gaiters-pattern"
+      "id": 947,
+      "name": "Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+    },
+    {
+      "key": "item:948",
+      "type": "item",
+      "id": 948,
+      "name": "Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
       "key": "item:1984",
@@ -57,6 +54,13 @@
       "id": 1984,
       "name": "Theca Leather Armor Pattern NG",
       "url": "/lu4/item/1984-theca-leather-armor-pattern"
+    },
+    {
+      "key": "item:1985",
+      "type": "item",
+      "id": 1985,
+      "name": "Theca Leather Gaiters Pattern NG",
+      "url": "/lu4/item/1985-theca-leather-gaiters-pattern"
     }
   ]
 }

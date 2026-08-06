@@ -2,63 +2,39 @@
   "key": "npc:34656",
   "type": "npc",
   "id": 34656,
-  "name": "Lu4 Wiki: NPC Red Fox",
+  "name": "Red Fox",
   "url": "/lu4/npc/34656-red-fox",
-  "source_url": "https://masterwork.wiki/lu4/npc/34656-red-fox",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/34656-red-fox",
   "raw_html": "library/raw/lu4/npc/34656-red-fox.html",
   "stats": {
-    "Location": "Лагерь Ящеров Мэль (+2) Лагерь Ящеров Мэль Земли Глудио Поселение Хатум"
+    "Respawn Time": "25 seconds",
+    "Location": "Лагерь Ящеров Мэль (+2) Лагерь Ящеров Мэль Земли Глудио Поселение Хатум",
+    "HP / MP": "954 / 444",
+    "P. Atk. / M. Atk.": "126 / 63",
+    "P. Def. / M. Def.": "146 / 115",
+    "Accuracy / Evasion": "63 / 63",
+    "Exp / SP": "1 002 / 100",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 30"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:34656",
-      "type": "npc",
-      "id": 34656,
-      "name": "Lu4",
-      "url": "/lu4/npc/34656-red-fox"
-    },
-    {
-      "key": "location:25",
-      "type": "location",
-      "id": 25,
-      "name": "Лагерь Ящеров Мэль",
-      "url": "/lu4/location/25-lager-aserov-mel"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:604",
-      "type": "location",
-      "id": 604,
-      "name": "Поселение Хатум",
-      "url": "/lu4/location/604-poselenie-hatum"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
-      "key": "item:1939",
+      "key": "item:57",
       "type": "item",
-      "id": 1939,
-      "name": "Mithril Banded Gaiters Material NG",
-      "url": "/lu4/item/1939-mithril-banded-gaiters-material"
-    },
-    {
-      "key": "item:1901",
-      "type": "item",
-      "id": 1901,
-      "name": "Tiger's Eye Earring Stone NG",
-      "url": "/lu4/item/1901-tigers-eye-earring-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1881",
@@ -96,13 +72,6 @@
       "url": "/lu4/item/1061-healing-potion"
     },
     {
-      "key": "item:849",
-      "type": "item",
-      "id": 849,
-      "name": "Tiger's Eye Earring D",
-      "url": "/lu4/item/849-tigers-eye-earring"
-    },
-    {
       "key": "item:628",
       "type": "item",
       "id": 628,
@@ -117,18 +86,25 @@
       "url": "/lu4/item/415-mithril-banded-gaiters"
     },
     {
-      "key": "item:57",
+      "key": "item:1939",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1939,
+      "name": "Mithril Banded Gaiters Material NG",
+      "url": "/lu4/item/1939-mithril-banded-gaiters-material"
     },
     {
-      "key": "item:2266",
+      "key": "item:849",
       "type": "item",
-      "id": 2266,
-      "name": "Recipe: Shilen Knife NG",
-      "url": "/lu4/item/2266-recipe-shilen-knife"
+      "id": 849,
+      "name": "Tiger's Eye Earring D",
+      "url": "/lu4/item/849-tigers-eye-earring"
+    },
+    {
+      "key": "item:1901",
+      "type": "item",
+      "id": 1901,
+      "name": "Tiger's Eye Earring Stone NG",
+      "url": "/lu4/item/1901-tigers-eye-earring-stone"
     },
     {
       "key": "item:1866",
@@ -136,6 +112,13 @@
       "id": 1866,
       "name": "Suede NG",
       "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:2266",
+      "type": "item",
+      "id": 2266,
+      "name": "Recipe: Shilen Knife NG",
+      "url": "/lu4/item/2266-recipe-shilen-knife"
     }
   ]
 }

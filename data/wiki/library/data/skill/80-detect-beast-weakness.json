@@ -1,0 +1,37 @@
+{
+  "key": "skill:80",
+  "type": "skill",
+  "id": 80,
+  "name": "Detect Beast Weakness",
+  "url": "/lu4/skill/80-detect-beast-weakness",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/80-detect-beast-weakness",
+  "raw_html": "library/raw/lu4/skill/80-detect-beast-weakness.html",
+  "stats": {
+    "Effect": "Increases attack and skills damage toward Beasts.",
+    "Consumes": "24 MP",
+    "Reuse Time": "3 seconds",
+    "Duration": "20 minutes",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "WarlordLv. 45GladiatorLv. 45",
+    "Type": "Physical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:3",
+      "type": "class",
+      "id": 3,
+      "name": "WarlordLv. 45",
+      "url": "/lu4/class/3-warlord"
+    },
+    {
+      "key": "class:2",
+      "type": "class",
+      "id": 2,
+      "name": "GladiatorLv. 45",
+      "url": "/lu4/class/2-gladiator"
+    }
+  ]
+}

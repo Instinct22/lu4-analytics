@@ -2,119 +2,60 @@
   "key": "npc:20779",
   "type": "npc",
   "id": 20779,
-  "name": "Lu4 Wiki: NPC Ragna Orc Seer",
+  "name": "Ragna Orc Seer",
   "url": "/lu4/npc/20779-ragna-orc-seer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20779-ragna-orc-seer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20779-ragna-orc-seer",
   "raw_html": "library/raw/lu4/npc/20779-ragna-orc-seer.html",
   "stats": {
-    "Location": "Плато Бессмертия (+1) Плато Бессмертия Плато Бессмертия, юг"
+    "Respawn Time": "20 seconds",
+    "Location": "Плато Бессмертия (+1) Плато Бессмертия Плато Бессмертия, юг",
+    "HP / MP": "1 462 / 571",
+    "P. Atk. / M. Atk.": "224 / 138",
+    "P. Def. / M. Def.": "249 / 188",
+    "Accuracy / Evasion": "75 / 74",
+    "Exp / SP": "1 561 / 156",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 39"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20779",
-      "type": "npc",
-      "id": 20779,
-      "name": "Lu4",
-      "url": "/lu4/npc/20779-ragna-orc-seer"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
-      "key": "location:191",
-      "type": "location",
-      "id": 191,
-      "name": "Плато Бессмертия, юг",
-      "url": "/lu4/location/191-plato-bessmertia-ug"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:2290",
-      "type": "item",
-      "id": 2290,
-      "name": "Recipe: Mithril Dagger NG",
-      "url": "/lu4/item/2290-recipe-mithril-dagger"
-    },
-    {
-      "key": "item:2286",
-      "type": "item",
-      "id": 2286,
-      "name": "Recipe: Bonebreaker NG",
-      "url": "/lu4/item/2286-recipe-bonebreaker"
-    },
-    {
-      "key": "item:2042",
-      "type": "item",
-      "id": 2042,
-      "name": "Crucifix of Blood Piece NG",
-      "url": "/lu4/item/2042-crucifix-of-blood-piece"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:318",
-      "type": "item",
-      "id": 318,
-      "name": "Crucifix of Blood D",
-      "url": "/lu4/item/318-crucifix-of-blood"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -124,11 +65,53 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2158",
+      "key": "item:318",
       "type": "item",
-      "id": 2158,
-      "name": "Recipe: Mithril Ring NG",
-      "url": "/lu4/item/2158-recipe-mithril-ring"
+      "id": 318,
+      "name": "Crucifix of Blood D",
+      "url": "/lu4/item/318-crucifix-of-blood"
+    },
+    {
+      "key": "item:2042",
+      "type": "item",
+      "id": 2042,
+      "name": "Crucifix of Blood Piece NG",
+      "url": "/lu4/item/2042-crucifix-of-blood-piece"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:2286",
+      "type": "item",
+      "id": 2286,
+      "name": "Recipe: Bonebreaker NG",
+      "url": "/lu4/item/2286-recipe-bonebreaker"
+    },
+    {
+      "key": "item:2290",
+      "type": "item",
+      "id": 2290,
+      "name": "Recipe: Mithril Dagger NG",
+      "url": "/lu4/item/2290-recipe-mithril-dagger"
     },
     {
       "key": "item:1904",
@@ -136,6 +119,13 @@
       "id": 1904,
       "name": "Elven Necklace Beads NG",
       "url": "/lu4/item/1904-elven-necklace-beads"
+    },
+    {
+      "key": "item:2158",
+      "type": "item",
+      "id": 2158,
+      "name": "Recipe: Mithril Ring NG",
+      "url": "/lu4/item/2158-recipe-mithril-ring"
     }
   ]
 }

@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Enchanted Gargoyle&#039;s Nail
+# Enchanted Gargoyle's Nail
 
-- Source: https://masterwork.wiki/lu4/item/2719-enchanted-gargoyles-nail
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2719-enchanted-gargoyles-nail
 - Path: /lu4/item/2719-enchanted-gargoyles-nail
 - Type: item
 - Key: item:2719
 
 ## Stats
+- Effect: The enchanted nails of a gargoyle. Gather 5 of these and take them to Elder Casian.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Enchanted Gargoyle&#039;s Nail
-Lu4
-Eternal
-MasterWork
-Enchanted Gargoyle's Nail
-NG
-Quest Item
-The enchanted nails of a gargoyle. Gather 5 of these and take them to Elder Casian.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-Trial of the Scholar
-35 ~ 85
-Quest
-Levels
-Trial of the Scholar
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Enchanted Gargoyle's Nail NG Quest Item The enchanted nails of a gargoyle. Gather 5 of these and take them to Elder Casian. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

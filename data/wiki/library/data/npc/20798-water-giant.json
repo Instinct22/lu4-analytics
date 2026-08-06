@@ -2,126 +2,74 @@
   "key": "npc:20798",
   "type": "npc",
   "id": 20798,
-  "name": "Lu4 Wiki: NPC Water Giant",
+  "name": "Water Giant",
   "url": "/lu4/npc/20798-water-giant",
-  "source_url": "https://masterwork.wiki/lu4/npc/20798-water-giant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20798-water-giant",
   "raw_html": "library/raw/lu4/npc/20798-water-giant.html",
   "stats": {
-    "Location": "Сады Богини Евы"
+    "Respawn Time": "50 seconds",
+    "Location": "Сады Богини Евы",
+    "HP / MP": "8 074 / 751",
+    "P. Atk. / M. Atk.": "373 / 195",
+    "P. Def. / M. Def.": "291 / 234",
+    "Accuracy / Evasion": "73 / 78",
+    "Exp / SP": "9 635 / 964",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% HP Increase (4x) Lv. 12 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 13 Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20798",
-      "type": "npc",
-      "id": 20798,
-      "name": "Lu4",
-      "url": "/lu4/npc/20798-water-giant"
-    },
-    {
-      "key": "location:121",
-      "type": "location",
-      "id": 121,
-      "name": "Сады Богини Евы",
-      "url": "/lu4/location/121-sady-bogini-evy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:2940",
-      "type": "item",
-      "id": 2940,
-      "name": "Dwarven Chain Boots Part NG",
-      "url": "/lu4/item/2940-dwarven-chain-boots-part"
-    },
-    {
-      "key": "item:2432",
-      "type": "item",
-      "id": 2432,
-      "name": "Dwarven Chain Boots C",
-      "url": "/lu4/item/2432-dwarven-chain-boots"
-    },
-    {
-      "key": "item:2084",
-      "type": "item",
-      "id": 2084,
-      "name": "Soulfire Dirk Blade NG",
-      "url": "/lu4/item/2084-soulfire-dirk-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1880",
@@ -145,6 +93,20 @@
       "url": "/lu4/item/1864-stem"
     },
     {
+      "key": "item:4043",
+      "type": "item",
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
+    },
+    {
       "key": "item:242",
       "type": "item",
       "id": 242,
@@ -152,11 +114,46 @@
       "url": "/lu4/item/242-soulfire-dirk"
     },
     {
-      "key": "item:57",
+      "key": "item:2084",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2084,
+      "name": "Soulfire Dirk Blade NG",
+      "url": "/lu4/item/2084-soulfire-dirk-blade"
+    },
+    {
+      "key": "item:2432",
+      "type": "item",
+      "id": 2432,
+      "name": "Dwarven Chain Boots C",
+      "url": "/lu4/item/2432-dwarven-chain-boots"
+    },
+    {
+      "key": "item:2940",
+      "type": "item",
+      "id": 2940,
+      "name": "Dwarven Chain Boots Part NG",
+      "url": "/lu4/item/2940-dwarven-chain-boots-part"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:4042",

@@ -1,0 +1,58 @@
+{
+  "key": "skill:3",
+  "type": "skill",
+  "id": 3,
+  "name": "Power Strike",
+  "url": "/lu4/skill/3-power-strike",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/3-power-strike",
+  "raw_html": "library/raw/lu4/skill/3-power-strike.html",
+  "stats": {
+    "Effect": "Delivers a powerful blow that strikes the target with 30 Power added to P. Atk. Over-hit and Critical hit are possible.",
+    "Consumes": "9 MP",
+    "Reuse Time": "3 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Cast Range": "70 (400)",
+    "Available For": "FighterLv. 3Elven FighterLv. 3Dark FighterLv. 3Orc FighterLv. 3Dwarven FighterLv. 3",
+    "Type": "Physical / Physical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:0",
+      "type": "class",
+      "id": 0,
+      "name": "FighterLv. 3",
+      "url": "/lu4/class/0-fighter"
+    },
+    {
+      "key": "class:18",
+      "type": "class",
+      "id": 18,
+      "name": "Elven FighterLv. 3",
+      "url": "/lu4/class/18-elvenfighter"
+    },
+    {
+      "key": "class:31",
+      "type": "class",
+      "id": 31,
+      "name": "Dark FighterLv. 3",
+      "url": "/lu4/class/31-darkfighter"
+    },
+    {
+      "key": "class:44",
+      "type": "class",
+      "id": 44,
+      "name": "Orc FighterLv. 3",
+      "url": "/lu4/class/44-orcfighter"
+    },
+    {
+      "key": "class:53",
+      "type": "class",
+      "id": 53,
+      "name": "Dwarven FighterLv. 3",
+      "url": "/lu4/class/53-dwarvenfighter"
+    }
+  ]
+}

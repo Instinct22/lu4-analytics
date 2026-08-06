@@ -2,75 +2,65 @@
   "key": "npc:21738",
   "type": "npc",
   "id": 21738,
-  "name": "Lu4 Wiki: NPC Forbidden Path Invader Disciple",
+  "name": "Forbidden Path Invader Disciple",
   "url": "/lu4/npc/21738-forbidden-path-invader-disciple",
-  "source_url": "https://masterwork.wiki/lu4/npc/21738-forbidden-path-invader-disciple",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21738-forbidden-path-invader-disciple",
   "raw_html": "library/raw/lu4/npc/21738-forbidden-path-invader-disciple.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "9 907 / 1 389",
+    "P. Atk. / M. Atk.": "883 / 577",
+    "P. Def. / M. Def.": "411 / 332",
+    "Accuracy / Evasion": "96 / 96",
+    "Exp / SP": "13 950 / 1 257",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 63"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21738",
-      "type": "npc",
-      "id": 21738,
-      "name": "Lu4",
-      "url": "/lu4/npc/21738-forbidden-path-invader-disciple"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32432",
-      "type": "item",
-      "id": 32432,
-      "name": "Unidentified Wizard's Tear B",
-      "url": "/lu4/item/32432-unidentified-wizards-tear"
-    },
-    {
-      "key": "item:32430",
-      "type": "item",
-      "id": 32430,
-      "name": "Unidentified Guardian Sword B",
-      "url": "/lu4/item/32430-unidentified-guardian-sword"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32322",
@@ -94,11 +84,18 @@
       "url": "/lu4/item/8330-guardian-sword-blade"
     },
     {
-      "key": "item:5452",
+      "key": "item:32432",
       "type": "item",
-      "id": 5452,
-      "name": "Recipe: Blood Tornado(60%) NG",
-      "url": "/lu4/item/5452-recipe-blood-tornado60"
+      "id": 32432,
+      "name": "Unidentified Wizard's Tear B",
+      "url": "/lu4/item/32432-unidentified-wizards-tear"
+    },
+    {
+      "key": "item:32430",
+      "type": "item",
+      "id": 32430,
+      "name": "Unidentified Guardian Sword B",
+      "url": "/lu4/item/32430-unidentified-guardian-sword"
     },
     {
       "key": "item:4114",
@@ -106,6 +103,13 @@
       "id": 4114,
       "name": "Sword of Damascus Blade NG",
       "url": "/lu4/item/4114-sword-of-damascus-blade"
+    },
+    {
+      "key": "item:5452",
+      "type": "item",
+      "id": 5452,
+      "name": "Recipe: Blood Tornado(60%) NG",
+      "url": "/lu4/item/5452-recipe-blood-tornado60"
     },
     {
       "key": "item:4040",
@@ -150,18 +154,18 @@
       "url": "/lu4/item/1343-silver-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:5444",
+      "key": "item:4091",
       "type": "item",
-      "id": 5444,
-      "name": "Recipe: Carnage Bow(60%) NG",
-      "url": "/lu4/item/5444-recipe-carnage-bow60"
+      "id": 4091,
+      "name": "Sealed Doom Gloves Part NG",
+      "url": "/lu4/item/4091-sealed-doom-gloves-part"
     },
     {
       "key": "item:4096",
@@ -171,11 +175,11 @@
       "url": "/lu4/item/4096-sealed-blue-wolf-gloves-fabric"
     },
     {
-      "key": "item:4091",
+      "key": "item:5444",
       "type": "item",
-      "id": 4091,
-      "name": "Sealed Doom Gloves Part NG",
-      "url": "/lu4/item/4091-sealed-doom-gloves-part"
+      "id": 5444,
+      "name": "Recipe: Carnage Bow(60%) NG",
+      "url": "/lu4/item/5444-recipe-carnage-bow60"
     }
   ]
 }

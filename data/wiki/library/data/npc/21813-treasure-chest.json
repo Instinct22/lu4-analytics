@@ -2,40 +2,37 @@
   "key": "npc:21813",
   "type": "npc",
   "id": 21813,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21813-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21813-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21813-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21813-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 806 / 1 168",
+    "P. Atk. / M. Atk.": "781 / 447",
+    "P. Def. / M. Def.": "358 / 291",
+    "Accuracy / Evasion": "90 / 90",
+    "Exp / SP": "3 898 / 324",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 57"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21813",
-      "type": "npc",
-      "id": 21813,
-      "name": "Lu4",
-      "url": "/lu4/npc/21813-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:5220",
+      "key": "item:57",
       "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1885",
@@ -52,6 +49,13 @@
       "url": "/lu4/item/1871-charcoal"
     },
     {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
       "key": "item:1866",
       "type": "item",
       "id": 1866,
@@ -59,11 +63,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:5220",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
     },
     {
       "key": "item:947",

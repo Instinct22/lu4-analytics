@@ -2,175 +2,67 @@
   "key": "npc:20578",
   "type": "npc",
   "id": 20578,
-  "name": "Lu4 Wiki: NPC Leto Lizardman Archer",
+  "name": "Leto Lizardman Archer",
   "url": "/lu4/npc/20578-leto-lizardman-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20578-leto-lizardman-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20578-leto-lizardman-archer",
   "raw_html": "library/raw/lu4/npc/20578-leto-lizardman-archer.html",
   "stats": {
-    "Location": "Долина Ящеров"
+    "Respawn Time": "19 seconds ± 3 seconds",
+    "Location": "Долина Ящеров",
+    "HP / MP": "1 272 / 514",
+    "P. Atk. / M. Atk.": "353 / 93",
+    "P. Def. / M. Def.": "188 / 157",
+    "Accuracy / Evasion": "72 / 71",
+    "Exp / SP": "1 357 / 136",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 36"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20578",
-      "type": "npc",
-      "id": 20578,
-      "name": "Lu4",
-      "url": "/lu4/npc/20578-leto-lizardman-archer"
-    },
-    {
-      "key": "location:102",
-      "type": "location",
-      "id": 102,
-      "name": "Долина Ящеров",
-      "url": "/lu4/location/102-dolina-aserov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:6037",
-      "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:2934",
-      "type": "item",
-      "id": 2934,
-      "name": "Plate Shield Fragment NG",
-      "url": "/lu4/item/2934-plate-shield-fragment"
-    },
-    {
-      "key": "item:2932",
-      "type": "item",
-      "id": 2932,
-      "name": "Plate Boots Design NG",
-      "url": "/lu4/item/2932-plate-boots-design"
-    },
-    {
-      "key": "item:2931",
-      "type": "item",
-      "id": 2931,
-      "name": "Salamander Skin Boot Lining NG",
-      "url": "/lu4/item/2931-salamander-skin-boot-lining"
-    },
-    {
-      "key": "item:2494",
-      "type": "item",
-      "id": 2494,
-      "name": "Plate Shield D",
-      "url": "/lu4/item/2494-plate-shield"
-    },
-    {
-      "key": "item:2428",
-      "type": "item",
-      "id": 2428,
-      "name": "Plate Boots D",
-      "url": "/lu4/item/2428-plate-boots"
-    },
-    {
-      "key": "item:2427",
-      "type": "item",
-      "id": 2427,
-      "name": "Salamander Skin Boots D",
-      "url": "/lu4/item/2427-salamander-skin-boots"
-    },
-    {
-      "key": "item:2055",
-      "type": "item",
-      "id": 2055,
-      "name": "Glaive Edge NG",
-      "url": "/lu4/item/2055-glaive-edge"
-    },
-    {
-      "key": "item:2048",
-      "type": "item",
-      "id": 2048,
-      "name": "Bonebreaker Head NG",
-      "url": "/lu4/item/2048-bonebreaker-head"
-    },
-    {
-      "key": "item:1957",
-      "type": "item",
-      "id": 1957,
-      "name": "Assault Boots Part NG",
-      "url": "/lu4/item/1957-assault-boots-part"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1868",
@@ -180,11 +72,88 @@
       "url": "/lu4/item/1868-thread"
     },
     {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1889",
+      "type": "item",
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:6037",
+      "type": "item",
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
+    },
+    {
       "key": "item:1125",
       "type": "item",
       "id": 1125,
-      "name": "Assault Boots D",
-      "url": "/lu4/item/1125-assault-boots"
+      "name": "Sage's Worn Boots D",
+      "url": "/lu4/item/1125-sages-worn-boots"
+    },
+    {
+      "key": "item:1957",
+      "type": "item",
+      "id": 1957,
+      "name": "Sage's Worn Boots Part NG",
+      "url": "/lu4/item/1957-sages-worn-boots-part"
+    },
+    {
+      "key": "item:2428",
+      "type": "item",
+      "id": 2428,
+      "name": "Half Plate Boots D",
+      "url": "/lu4/item/2428-half-plate-boots"
+    },
+    {
+      "key": "item:2932",
+      "type": "item",
+      "id": 2932,
+      "name": "Half Plate Boots Design NG",
+      "url": "/lu4/item/2932-half-plate-boots-design"
+    },
+    {
+      "key": "item:2427",
+      "type": "item",
+      "id": 2427,
+      "name": "Salamander Skin Boots D",
+      "url": "/lu4/item/2427-salamander-skin-boots"
+    },
+    {
+      "key": "item:2931",
+      "type": "item",
+      "id": 2931,
+      "name": "Salamander Skin Boot Lining NG",
+      "url": "/lu4/item/2931-salamander-skin-boot-lining"
+    },
+    {
+      "key": "item:159",
+      "type": "item",
+      "id": 159,
+      "name": "Bonebreaker D",
+      "url": "/lu4/item/159-bonebreaker"
+    },
+    {
+      "key": "item:2048",
+      "type": "item",
+      "id": 2048,
+      "name": "Bonebreaker Head NG",
+      "url": "/lu4/item/2048-bonebreaker-head"
     },
     {
       "key": "item:297",
@@ -194,11 +163,46 @@
       "url": "/lu4/item/297-glaive"
     },
     {
-      "key": "item:159",
+      "key": "item:2055",
       "type": "item",
-      "id": 159,
-      "name": "Bonebreaker D",
-      "url": "/lu4/item/159-bonebreaker"
+      "id": 2055,
+      "name": "Glaive Edge NG",
+      "url": "/lu4/item/2055-glaive-edge"
+    },
+    {
+      "key": "item:2494",
+      "type": "item",
+      "id": 2494,
+      "name": "Half Plate Shield D",
+      "url": "/lu4/item/2494-half-plate-shield"
+    },
+    {
+      "key": "item:2934",
+      "type": "item",
+      "id": 2934,
+      "name": "Half Plate Shield Fragment NG",
+      "url": "/lu4/item/2934-half-plate-shield-fragment"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
     },
     {
       "key": "item:2285",
@@ -220,13 +224,6 @@
       "id": 2058,
       "name": "Atuba Mace Head NG",
       "url": "/lu4/item/2058-atuba-mace-head"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
     }
   ]
 }

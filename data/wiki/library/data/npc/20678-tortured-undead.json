@@ -2,110 +2,79 @@
   "key": "npc:20678",
   "type": "npc",
   "id": 20678,
-  "name": "Lu4 Wiki: NPC Tortured Undead",
+  "name": "Tortured Undead",
   "url": "/lu4/npc/20678-tortured-undead",
-  "source_url": "https://masterwork.wiki/lu4/npc/20678-tortured-undead",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20678-tortured-undead",
   "raw_html": "library/raw/lu4/npc/20678-tortured-undead.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 489 / 1 025",
+    "P. Atk. / M. Atk.": "708 / 452",
+    "P. Def. / M. Def.": "276 / 211",
+    "Accuracy / Evasion": "86 / 86",
+    "Exp / SP": "2 852 / 285",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 9 Holy Vulnerability Lv. 1 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 53"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20678",
-      "type": "npc",
-      "id": 20678,
-      "name": "Lu4",
-      "url": "/lu4/npc/20678-tortured-undead"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:8335",
-      "type": "item",
-      "id": 8335,
-      "name": "Ecliptic Sword Blade NG",
-      "url": "/lu4/item/8335-ecliptic-sword-blade"
-    },
-    {
-      "key": "item:7888",
-      "type": "item",
-      "id": 7888,
-      "name": "Ecliptic Sword C",
-      "url": "/lu4/item/7888-ecliptic-sword"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -129,53 +98,18 @@
       "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:3017",
-      "type": "item",
-      "id": 3017,
-      "name": "Recipe: Divine Gloves NG",
-      "url": "/lu4/item/3017-recipe-divine-gloves"
-    },
-    {
-      "key": "item:2969",
-      "type": "item",
-      "id": 2969,
-      "name": "Yaksa Mace Head NG",
-      "url": "/lu4/item/2969-yaksa-mace-head"
-    },
-    {
-      "key": "item:2503",
-      "type": "item",
-      "id": 2503,
-      "name": "Yaksa Mace C",
-      "url": "/lu4/item/2503-yaksa-mace"
-    },
-    {
-      "key": "item:2360",
-      "type": "item",
-      "id": 2360,
-      "name": "Recipe: Orcish Poleaxe NG",
-      "url": "/lu4/item/2360-recipe-orcish-poleaxe"
-    },
-    {
-      "key": "item:2169",
-      "type": "item",
-      "id": 2169,
-      "name": "Recipe: Necklace of Seal NG",
-      "url": "/lu4/item/2169-recipe-necklace-of-seal"
-    },
-    {
-      "key": "item:2118",
-      "type": "item",
-      "id": 2118,
-      "name": "Demon's Staff Head NG",
-      "url": "/lu4/item/2118-demons-staff-head"
-    },
-    {
       "key": "item:1895",
       "type": "item",
       "id": 1895,
       "name": "Metallic Fiber NG",
       "url": "/lu4/item/1895-metallic-fiber"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:206",
@@ -185,18 +119,81 @@
       "url": "/lu4/item/206-demons-staff"
     },
     {
-      "key": "item:57",
+      "key": "item:2118",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2118,
+      "name": "Demon's Staff Head NG",
+      "url": "/lu4/item/2118-demons-staff-head"
     },
     {
-      "key": "item:8308",
+      "key": "item:7888",
       "type": "item",
-      "id": 8308,
-      "name": "Recipe: Ecliptic Axe (100%) NG",
-      "url": "/lu4/item/8308-recipe-ecliptic-axe-100"
+      "id": 7888,
+      "name": "Ecliptic Sword C",
+      "url": "/lu4/item/7888-ecliptic-sword"
+    },
+    {
+      "key": "item:8335",
+      "type": "item",
+      "id": 8335,
+      "name": "Ecliptic Sword Blade NG",
+      "url": "/lu4/item/8335-ecliptic-sword-blade"
+    },
+    {
+      "key": "item:2503",
+      "type": "item",
+      "id": 2503,
+      "name": "Yaksa Mace C",
+      "url": "/lu4/item/2503-yaksa-mace"
+    },
+    {
+      "key": "item:2969",
+      "type": "item",
+      "id": 2969,
+      "name": "Yaksa Mace Head NG",
+      "url": "/lu4/item/2969-yaksa-mace-head"
+    },
+    {
+      "key": "item:3017",
+      "type": "item",
+      "id": 3017,
+      "name": "Recipe: Divine Gloves NG",
+      "url": "/lu4/item/3017-recipe-divine-gloves"
+    },
+    {
+      "key": "item:2169",
+      "type": "item",
+      "id": 2169,
+      "name": "Recipe: Necklace of Seal NG",
+      "url": "/lu4/item/2169-recipe-necklace-of-seal"
+    },
+    {
+      "key": "item:2360",
+      "type": "item",
+      "id": 2360,
+      "name": "Recipe: Orcish Poleaxe NG",
+      "url": "/lu4/item/2360-recipe-orcish-poleaxe"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:3011",
@@ -206,11 +203,18 @@
       "url": "/lu4/item/3011-recipe-divine-boots"
     },
     {
-      "key": "item:2966",
+      "key": "item:8308",
       "type": "item",
-      "id": 2966,
-      "name": "Full Plate Shield Fragment NG",
-      "url": "/lu4/item/2966-full-plate-shield-fragment"
+      "id": 8308,
+      "name": "Recipe: Ecliptic Axe (100%) NG",
+      "url": "/lu4/item/8308-recipe-ecliptic-axe-100"
+    },
+    {
+      "key": "item:2119",
+      "type": "item",
+      "id": 2119,
+      "name": "Crystal Dagger Blade NG",
+      "url": "/lu4/item/2119-crystal-dagger-blade"
     },
     {
       "key": "item:2958",
@@ -220,11 +224,11 @@
       "url": "/lu4/item/2958-divine-boots-fabric"
     },
     {
-      "key": "item:2119",
+      "key": "item:2966",
       "type": "item",
-      "id": 2119,
-      "name": "Crystal Dagger Blade NG",
-      "url": "/lu4/item/2119-crystal-dagger-blade"
+      "id": 2966,
+      "name": "Full Plate Shield Fragment NG",
+      "url": "/lu4/item/2966-full-plate-shield-fragment"
     }
   ]
 }

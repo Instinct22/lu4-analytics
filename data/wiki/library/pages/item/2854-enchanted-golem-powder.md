@@ -1,68 +1,16 @@
-# Lu4 Wiki: Item Enchanted Golem Powder
+# Enchanted Golem Powder
 
-- Source: https://masterwork.wiki/lu4/item/2854-enchanted-golem-powder
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2854-enchanted-golem-powder
 - Path: /lu4/item/2854-enchanted-golem-powder
 - Type: item
 - Key: item:2854
 
 ## Stats
+- Effect: Stone powder obtained after slaying an enchanted stone golem. Gather 10 of these and take them to the Earth Snake.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Enchanted Golem Powder
-Lu4
-Eternal
-MasterWork
-Enchanted Golem Powder
-NG
-Quest Item
-Stone powder obtained after slaying an enchanted stone golem. Gather 10 of these and take them to the Earth Snake.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-MasterWork 2026
-All rights reserved
+Enchanted Golem Powder NG Quest Item Stone powder obtained after slaying an enchanted stone golem. Gather 10 of these and take them to the Earth Snake. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

@@ -1,78 +1,17 @@
-# Lu4 Wiki: Item Spellbook - Light Vortex
+# Spellbook - Light Vortex
 
-- Source: https://masterwork.wiki/lu4/item/7652-spellbook-light-vortex
+- Source: https://masterwork.wiki/lu4-b-w-c/item/7652-spellbook-light-vortex
 - Path: /lu4/item/7652-spellbook-light-vortex
 - Type: item
 - Key: item:7652
 
 ## Stats
+- Effect: Spellbook needed to learn Light Vortex. Used by Mystic Muses.
+- NPC Sell Price: 5 800 Adena
+- Weight: 120
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Other / Spellbook
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Spellbook - Light Vortex
-Lu4
-Eternal
-MasterWork
-Spellbook - Light Vortex
-NG
-Other / Spellbook
-Spellbook needed to learn Light Vortex. Used by Mystic Muses.
-NPC Sell Price
-5 800 Adena
-Weight
-120
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Drop
-NPC
-Amount
-Chance
-Hot Springs Nepenthes
-Lv. 75
-1
-0.611856%
-MasterWork 2026
-All rights reserved
+Spellbook - Light Vortex NG Other / Spellbook Spellbook needed to learn Light Vortex. Used by Mystic Muses. NPC Sell Price 5 800 Adena Weight 120 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

@@ -2,147 +2,67 @@
   "key": "npc:5020",
   "type": "npc",
   "id": 5020,
-  "name": "Lu4 Wiki: NPC Barrow Delver",
+  "name": "Barrow Delver",
   "url": "/lu4/npc/5020-barrow-delver",
-  "source_url": "https://masterwork.wiki/lu4/npc/5020-barrow-delver",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5020-barrow-delver",
   "raw_html": "library/raw/lu4/npc/5020-barrow-delver.html",
   "stats": {
-    "Location": "Кладбище (+1) Кладбище Земли Адена"
+    "Respawn Time": "25 seconds ± 3 seconds",
+    "Location": "Кладбище (+1) Кладбище Земли Адена",
+    "HP / MP": "6 244 / 1 110",
+    "P. Atk. / M. Atk.": "1 015 / 473",
+    "P. Def. / M. Def.": "337 / 302",
+    "Accuracy / Evasion": "92 / 92",
+    "Exp / SP": "6 778 / 678",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 59"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5020",
-      "type": "npc",
-      "id": 5020,
-      "name": "Lu4",
-      "url": "/lu4/npc/5020-barrow-delver"
-    },
-    {
-      "key": "location:71",
-      "type": "location",
-      "id": 71,
-      "name": "Кладбище",
-      "url": "/lu4/location/71-kladbise"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
-      "key": "item:32591",
+      "key": "item:57",
       "type": "item",
-      "id": 32591,
-      "name": "Unidentified Avadon Shield B",
-      "url": "/lu4/item/32591-unidentified-avadon-shield"
-    },
-    {
-      "key": "item:32356",
-      "type": "item",
-      "id": 32356,
-      "name": "Unidentified Zubei's Leather Shirt B",
-      "url": "/lu4/item/32356-unidentified-zubeis-leather-shirt"
-    },
-    {
-      "key": "item:32344",
-      "type": "item",
-      "id": 32344,
-      "name": "Unidentified Dark Elven Long Bow B",
-      "url": "/lu4/item/32344-unidentified-dark-elven-long-bow"
-    },
-    {
-      "key": "item:4439",
-      "type": "item",
-      "id": 4439,
-      "name": "Avadon Shield Fragment NG",
-      "url": "/lu4/item/4439-avadon-shield-fragment"
-    },
-    {
-      "key": "item:4112",
-      "type": "item",
-      "id": 4112,
-      "name": "Dark Elven Longbow Shaft NG",
-      "url": "/lu4/item/4112-dark-elven-longbow-shaft"
-    },
-    {
-      "key": "item:4066",
-      "type": "item",
-      "id": 4066,
-      "name": "Zubei's Leather Shirt Fabric NG",
-      "url": "/lu4/item/4066-zubeis-leather-shirt-fabric"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
-    },
-    {
-      "key": "item:1895",
-      "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
-    },
-    {
-      "key": "item:1876",
-      "type": "item",
-      "id": 1876,
-      "name": "Mithril Ore NG",
-      "url": "/lu4/item/1876-mithril-ore"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:947",
@@ -152,11 +72,81 @@
       "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:1868",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1876",
+      "type": "item",
+      "id": 1876,
+      "name": "Mithril Ore NG",
+      "url": "/lu4/item/1876-mithril-ore"
+    },
+    {
+      "key": "item:1895",
+      "type": "item",
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:32591",
+      "type": "item",
+      "id": 32591,
+      "name": "Unidentified Avadon Shield B",
+      "url": "/lu4/item/32591-unidentified-avadon-shield"
+    },
+    {
+      "key": "item:4439",
+      "type": "item",
+      "id": 4439,
+      "name": "Avadon Shield Fragment NG",
+      "url": "/lu4/item/4439-avadon-shield-fragment"
+    },
+    {
+      "key": "item:32344",
+      "type": "item",
+      "id": 32344,
+      "name": "Unidentified Dark Elven Long Bow B",
+      "url": "/lu4/item/32344-unidentified-dark-elven-long-bow"
+    },
+    {
+      "key": "item:4112",
+      "type": "item",
+      "id": 4112,
+      "name": "Dark Elven Longbow Shaft NG",
+      "url": "/lu4/item/4112-dark-elven-longbow-shaft"
+    },
+    {
+      "key": "item:32356",
+      "type": "item",
+      "id": 32356,
+      "name": "Unidentified Zubei's Leather Shirt B",
+      "url": "/lu4/item/32356-unidentified-zubeis-leather-shirt"
+    },
+    {
+      "key": "item:4066",
+      "type": "item",
+      "id": 4066,
+      "name": "Zubei's Leather Shirt Fabric NG",
+      "url": "/lu4/item/4066-zubeis-leather-shirt-fabric"
     },
     {
       "key": "item:4964",
@@ -180,18 +170,18 @@
       "url": "/lu4/item/4111-arthro-nail-blade"
     },
     {
-      "key": "item:4110",
-      "type": "item",
-      "id": 4110,
-      "name": "Hell Knife Edge NG",
-      "url": "/lu4/item/4110-hell-knife-edge"
-    },
-    {
       "key": "item:4071",
       "type": "item",
       "id": 4071,
       "name": "Avadon Robe Fabric NG",
       "url": "/lu4/item/4071-avadon-robe-fabric"
+    },
+    {
+      "key": "item:4110",
+      "type": "item",
+      "id": 4110,
+      "name": "Hell Knife Edge NG",
+      "url": "/lu4/item/4110-hell-knife-edge"
     }
   ]
 }

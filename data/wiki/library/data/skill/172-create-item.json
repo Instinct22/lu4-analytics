@@ -1,0 +1,36 @@
+{
+  "key": "skill:172",
+  "type": "skill",
+  "id": 172,
+  "name": "Create Item",
+  "url": "/lu4/skill/172-create-item",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/172-create-item",
+  "raw_html": "library/raw/lu4/skill/172-create-item.html",
+  "stats": {
+    "Effect": "Allows the user to manufacture level 1 items. Dwarven Manufacture size: +1 slot.",
+    "Consumes": "0 MP",
+    "Reuse Time": "0 seconds",
+    "Can be used on Olympiad": "No",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "Dwarven FighterLv. 5Dwarven MysticLv. 5",
+    "Type": "Passive / Equipment"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:53",
+      "type": "class",
+      "id": 53,
+      "name": "Dwarven FighterLv. 5",
+      "url": "/lu4/class/53-dwarvenfighter"
+    },
+    {
+      "key": "class:208",
+      "type": "class",
+      "id": 208,
+      "name": "Dwarven MysticLv. 5",
+      "url": "/lu4/class/208-dwarvenmystic"
+    }
+  ]
+}

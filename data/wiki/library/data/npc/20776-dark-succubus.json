@@ -2,91 +2,102 @@
   "key": "npc:20776",
   "type": "npc",
   "id": 20776,
-  "name": "Lu4 Wiki: NPC Dark Succubus",
+  "name": "Dark Succubus",
   "url": "/lu4/npc/20776-dark-succubus",
-  "source_url": "https://masterwork.wiki/lu4/npc/20776-dark-succubus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20776-dark-succubus",
   "raw_html": "library/raw/lu4/npc/20776-dark-succubus.html",
   "stats": {
-    "Location": "Темный Лес"
+    "Respawn Time": "15 seconds",
+    "Location": "Темный Лес",
+    "HP / MP": "1 081 / 236",
+    "P. Atk. / M. Atk.": "66 / 54",
+    "P. Def. / M. Def.": "112 / 74",
+    "Accuracy / Evasion": "53 / 53",
+    "Exp / SP": "1 083 / 108",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 13 Slightly Weak M. Def. Lv. 10 Slightly Strong P. Def. Lv. 12 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 20"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20776",
-      "type": "npc",
-      "id": 20776,
-      "name": "Lu4",
-      "url": "/lu4/npc/20776-dark-succubus"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
-      "key": "item:5158",
+      "key": "item:57",
       "type": "item",
-      "id": 5158,
-      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:1101",
+      "type": "item",
+      "id": 1101,
+      "name": "Tunic of Devotion NG",
+      "url": "/lu4/item/1101-tunic-of-devotion"
+    },
+    {
+      "key": "item:1104",
+      "type": "item",
+      "id": 1104,
+      "name": "Stockings of Devotion NG",
+      "url": "/lu4/item/1104-stockings-of-devotion"
     },
     {
       "key": "item:2140",
@@ -138,20 +149,6 @@
       "url": "/lu4/item/1832-greater-antidote"
     },
     {
-      "key": "item:1104",
-      "type": "item",
-      "id": 1104,
-      "name": "Stockings of Devotion NG",
-      "url": "/lu4/item/1104-stockings-of-devotion"
-    },
-    {
-      "key": "item:1101",
-      "type": "item",
-      "id": 1101,
-      "name": "Tunic of Devotion NG",
-      "url": "/lu4/item/1101-tunic-of-devotion"
-    },
-    {
       "key": "item:735",
       "type": "item",
       "id": 735,
@@ -159,18 +156,18 @@
       "url": "/lu4/item/735-alacrity-potion"
     },
     {
-      "key": "item:57",
+      "key": "item:5158",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5158,
+      "name": "Recipe: Spiritshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5158-recipe-spiritshot-d-compressed-package-100"
     },
     {
-      "key": "item:1897",
+      "key": "item:1865",
       "type": "item",
-      "id": 1897,
-      "name": "Necklace of Wisdom Chain NG",
-      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:1866",
@@ -180,11 +177,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:1865",
+      "key": "item:1897",
       "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
+      "id": 1897,
+      "name": "Necklace of Wisdom Chain NG",
+      "url": "/lu4/item/1897-necklace-of-wisdom-chain"
     }
   ]
 }

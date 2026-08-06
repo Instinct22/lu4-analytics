@@ -2,49 +2,45 @@
   "key": "npc:27187",
   "type": "npc",
   "id": 27187,
-  "name": "Lu4 Wiki: NPC Fairy Tree of Twilight",
+  "name": "Fairy Tree of Twilight",
   "url": "/lu4/npc/27187-fairy-tree-of-twilight",
-  "source_url": "https://masterwork.wiki/lu4/npc/27187-fairy-tree-of-twilight",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27187-fairy-tree-of-twilight",
   "raw_html": "library/raw/lu4/npc/27187-fairy-tree-of-twilight.html",
   "stats": {
-    "Location": "Долина Охотников"
+    "Respawn Time": "30 seconds",
+    "Location": "Долина Охотников",
+    "HP / MP": "2 650 / 1 096",
+    "P. Atk. / M. Atk.": "689 / 363",
+    "P. Def. / M. Def.": "325 / 263",
+    "Accuracy / Evasion": "88 / 88",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
+    "Type": "Plant, Lv. 55"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:27187",
-      "type": "npc",
-      "id": 27187,
-      "name": "Lu4",
-      "url": "/lu4/npc/27187-fairy-tree-of-twilight"
-    },
-    {
-      "key": "location:237",
-      "type": "location",
-      "id": 237,
-      "name": "Долина Охотников",
-      "url": "/lu4/location/237-dolina-ohotnikov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-plants/5"
+      "name": "Plants",
+      "url": "/lu4/skill/4416-plants"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "npc:27189",

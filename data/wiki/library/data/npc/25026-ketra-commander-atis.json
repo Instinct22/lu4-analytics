@@ -2,56 +2,51 @@
   "key": "npc:25026",
   "type": "npc",
   "id": 25026,
-  "name": "Lu4 Wiki: NPC Ketra Commander Atis",
+  "name": "Ketra Commander Atis",
   "url": "/lu4/npc/25026-ketra-commander-atis",
-  "source_url": "https://masterwork.wiki/lu4/npc/25026-ketra-commander-atis",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25026-ketra-commander-atis",
   "raw_html": "library/raw/lu4/npc/25026-ketra-commander-atis.html",
   "stats": {
-    "Location": "Лес Зла"
+    "HP / MP": "352 421 / 3 685",
+    "P. Atk. / M. Atk.": "2 788 / 1 251",
+    "P. Def. / M. Def.": "775 / 877",
+    "Accuracy / Evasion": "103 / 102",
+    "Exp / SP": "1 680 700 / 248 433",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 He is the Commander of the advance forces of the powerful Ketra Orc tribe, who hail from the Goddard Territory of Elmore Kingdom. He believes completely in the superiority of his tribe. He was dispatched to expand their influence upon Aden Kingdom. He greatly detests the Silenos as well as humans, and is a formidable enemy. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 49"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25026",
-      "type": "npc",
-      "id": 25026,
-      "name": "Lu4",
-      "url": "/lu4/npc/25026-ketra-commander-atis"
-    },
-    {
-      "key": "location:238",
-      "type": "location",
-      "id": 238,
-      "name": "Лес Зла",
-      "url": "/lu4/location/238-les-zla"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4799",
       "type": "skill",
       "id": 4799,
-      "name": "Raid Boss Lv. 1 He is the Commander of the advance forces of the powerful Ketra Orc tribe, who hail from the Goddard Territory of Elmore Kingdom. He believes completely in the superiority of his tribe. He was dispatched to expand their influence upon Aden Kingdom. He greatly detests the Silenos as well as humans, and is a formidable enemy.",
-      "url": "/lu4/skill/4799-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4799-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -59,83 +54,6 @@
       "id": 9910,
       "name": "Proof of Loyalty NG",
       "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:2917",
-      "type": "item",
-      "id": 2917,
-      "name": "Ring of Seal Gemstone NG",
-      "url": "/lu4/item/2917-ring-of-seal-gemstone"
-    },
-    {
-      "key": "item:2121",
-      "type": "item",
-      "id": 2121,
-      "name": "Eminence Bow Shaft NG",
-      "url": "/lu4/item/2121-eminence-bow-shaft"
-    },
-    {
-      "key": "item:2119",
-      "type": "item",
-      "id": 2119,
-      "name": "Crystal Dagger Blade NG",
-      "url": "/lu4/item/2119-crystal-dagger-blade"
-    },
-    {
-      "key": "item:1920",
-      "type": "item",
-      "id": 1920,
-      "name": "Necklace of Seal Chain NG",
-      "url": "/lu4/item/1920-necklace-of-seal-chain"
-    },
-    {
-      "key": "item:1918",
-      "type": "item",
-      "id": 1918,
-      "name": "Nassen's Earring Gemstone NG",
-      "url": "/lu4/item/1918-nassens-earring-gemstone"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:886",
-      "type": "item",
-      "id": 886,
-      "name": "Ring of Seal C",
-      "url": "/lu4/item/886-ring-of-seal"
-    },
-    {
-      "key": "item:855",
-      "type": "item",
-      "id": 855,
-      "name": "Nassen's Earring C",
-      "url": "/lu4/item/855-nassens-earring"
     },
     {
       "key": "item:286",
@@ -152,11 +70,88 @@
       "url": "/lu4/item/228-crystal-dagger"
     },
     {
+      "key": "item:2121",
+      "type": "item",
+      "id": 2121,
+      "name": "Eminence Bow Shaft NG",
+      "url": "/lu4/item/2121-eminence-bow-shaft"
+    },
+    {
+      "key": "item:2119",
+      "type": "item",
+      "id": 2119,
+      "name": "Crystal Dagger Blade NG",
+      "url": "/lu4/item/2119-crystal-dagger-blade"
+    },
+    {
       "key": "item:119",
       "type": "item",
       "id": 119,
       "name": "Necklace of Seal C",
       "url": "/lu4/item/119-necklace-of-seal"
+    },
+    {
+      "key": "item:855",
+      "type": "item",
+      "id": 855,
+      "name": "Nassen's Earring C",
+      "url": "/lu4/item/855-nassens-earring"
+    },
+    {
+      "key": "item:886",
+      "type": "item",
+      "id": 886,
+      "name": "Ring of Seal C",
+      "url": "/lu4/item/886-ring-of-seal"
+    },
+    {
+      "key": "item:1920",
+      "type": "item",
+      "id": 1920,
+      "name": "Necklace of Seal Chain NG",
+      "url": "/lu4/item/1920-necklace-of-seal-chain"
+    },
+    {
+      "key": "item:1918",
+      "type": "item",
+      "id": 1918,
+      "name": "Nassen's Earring Gemstone NG",
+      "url": "/lu4/item/1918-nassens-earring-gemstone"
+    },
+    {
+      "key": "item:2917",
+      "type": "item",
+      "id": 2917,
+      "name": "Ring of Seal Gemstone NG",
+      "url": "/lu4/item/2917-ring-of-seal-gemstone"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:951",
+      "type": "item",
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:6573",
+      "type": "item",
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "npc:25027",

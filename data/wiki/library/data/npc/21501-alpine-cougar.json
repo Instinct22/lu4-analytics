@@ -2,40 +2,44 @@
   "key": "npc:21501",
   "type": "npc",
   "id": 21501,
-  "name": "Lu4 Wiki: NPC Alpine Cougar",
+  "name": "Alpine Cougar",
   "url": "/lu4/npc/21501-alpine-cougar",
-  "source_url": "https://masterwork.wiki/lu4/npc/21501-alpine-cougar",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21501-alpine-cougar",
   "raw_html": "library/raw/lu4/npc/21501-alpine-cougar.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "7 568 / 1 618",
+    "P. Atk. / M. Atk.": "1 343 / 831",
+    "P. Def. / M. Def.": "469 / 399",
+    "Accuracy / Evasion": "102 / 102",
+    "Exp / SP": "16 605 / 1 624",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% HP Increase (2x) Lv. 10 Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 69"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21501",
-      "type": "npc",
-      "id": 21501,
-      "name": "Lu4",
-      "url": "/lu4/npc/21501-alpine-cougar"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "item:57",
@@ -45,11 +49,11 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:5521",
+      "key": "item:5440",
       "type": "item",
-      "id": 5521,
-      "name": "Sealed Tallum Plate Armor Pattern NG",
-      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
+      "id": 5440,
+      "name": "Recipe: Elysian(60%) NG",
+      "url": "/lu4/item/5440-recipe-elysian60"
     },
     {
       "key": "item:5520",
@@ -59,11 +63,11 @@
       "url": "/lu4/item/5520-sealed-dark-crystal-breastplate-pattern"
     },
     {
-      "key": "item:5440",
+      "key": "item:5521",
       "type": "item",
-      "id": 5440,
-      "name": "Recipe: Elysian(60%) NG",
-      "url": "/lu4/item/5440-recipe-elysian60"
+      "id": 5521,
+      "name": "Sealed Tallum Plate Armor Pattern NG",
+      "url": "/lu4/item/5521-sealed-tallum-plate-armor-pattern"
     }
   ]
 }

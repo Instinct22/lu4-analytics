@@ -2,103 +2,128 @@
   "key": "npc:21252",
   "type": "npc",
   "id": 21252,
-  "name": "Lu4 Wiki: NPC Crypt Guard",
+  "name": "Crypt Guard",
   "url": "/lu4/npc/21252-crypt-guard",
-  "source_url": "https://masterwork.wiki/lu4/npc/21252-crypt-guard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21252-crypt-guard",
   "raw_html": "library/raw/lu4/npc/21252-crypt-guard.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "15 449 / 1 494",
+    "P. Atk. / M. Atk.": "1 315 / 975",
+    "P. Def. / M. Def.": "429 / 313",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "20 845 / 2 064",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. Dagger Lv. 7 Daggers Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 70"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21252",
-      "type": "npc",
-      "id": 21252,
-      "name": "Lu4",
-      "url": "/lu4/npc/21252-crypt-guard"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Dagger Lv. 7 Daggers",
-      "url": "/lu4/skill/4415-dagger/7"
+      "name": "Dagger",
+      "url": "/lu4/skill/4415-dagger"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:5479",
+      "type": "item",
+      "id": 5479,
+      "name": "Sealed Tallum Leather Armor Pattern NG",
+      "url": "/lu4/item/5479-sealed-tallum-leather-armor-pattern"
+    },
+    {
+      "key": "item:5478",
+      "type": "item",
+      "id": 5478,
+      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
+      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
     },
     {
       "key": "item:32381",
@@ -127,27 +152,6 @@
       "id": 5482,
       "name": "Sealed Dark Crystal Leggings Design NG",
       "url": "/lu4/item/5482-sealed-dark-crystal-leggings-design"
-    },
-    {
-      "key": "item:5479",
-      "type": "item",
-      "id": 5479,
-      "name": "Sealed Tallum Leather Armor Pattern NG",
-      "url": "/lu4/item/5479-sealed-tallum-leather-armor-pattern"
-    },
-    {
-      "key": "item:5478",
-      "type": "item",
-      "id": 5478,
-      "name": "Sealed Dark Crystal Leather Armor Pattern NG",
-      "url": "/lu4/item/5478-sealed-dark-crystal-leather-armor-pattern"
-    },
-    {
-      "key": "item:5276",
-      "type": "item",
-      "id": 5276,
-      "name": "Recipe: Greater Spiritshot (A) Compressed Package(100%) NG",
-      "url": "/lu4/item/5276-recipe-greater-spiritshot-a-compressed-package100"
     },
     {
       "key": "item:4042",
@@ -192,18 +196,11 @@
       "url": "/lu4/item/1344-mithril-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:5276",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:5230",
-      "type": "item",
-      "id": 5230,
-      "name": "Recipe: Mithril Arrow (100%) NG",
-      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
+      "id": 5276,
+      "name": "Recipe: Greater Spiritshot (A) Compressed Package(100%) NG",
+      "url": "/lu4/item/5276-recipe-greater-spiritshot-a-compressed-package100"
     },
     {
       "key": "item:4053",
@@ -211,6 +208,13 @@
       "id": 4053,
       "name": "Ring of Black Ore Gemstone NG",
       "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
+    },
+    {
+      "key": "item:5230",
+      "type": "item",
+      "id": 5230,
+      "name": "Recipe: Mithril Arrow (100%) NG",
+      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
     }
   ]
 }

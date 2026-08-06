@@ -2,29 +2,33 @@
   "key": "item:4811",
   "type": "item",
   "id": 4811,
-  "name": "Lu4 Wiki: Item Crystallized Ice Bow",
+  "name": "Crystallized Ice Bow",
   "url": "/lu4/item/4811-crystallized-ice-bow",
-  "source_url": "https://masterwork.wiki/lu4/item/4811-crystallized-ice-bow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/4811-crystallized-ice-bow",
   "raw_html": "library/raw/lu4/item/4811-crystallized-ice-bow.html",
   "stats": {
+    "Effect": "<Passive Effect> Consumption MP for Physical skills -12%.",
+    "P. Atk. / M. Atk.": "220 / 61",
+    "Soulshot / Spiritshot Consume": "5 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "1790",
+    "P. Crit. Rate.": "12",
+    "Accuracy": "-4",
     "Item Skills": "Special Ability: Cheap Shot Lv. 2",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Original Item": "Crystallized Ice Bow C",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Bow / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:4811",
-      "type": "item",
-      "id": 4811,
-      "name": "Lu4",
-      "url": "/lu4/item/4811-crystallized-ice-bow"
-    },
-    {
       "key": "skill:24298",
       "type": "skill",
       "id": 24298,
-      "name": "Special Ability: Cheap Shot Lv. 2",
-      "url": "/lu4/skill/24298-special-ability-cheap-shot/2"
+      "name": "Special Ability: Cheap Shot",
+      "url": "/lu4/skill/24298-special-ability-cheap-shot"
     }
   ]
 }

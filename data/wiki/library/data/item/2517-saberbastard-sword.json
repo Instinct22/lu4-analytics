@@ -2,29 +2,31 @@
   "key": "item:2517",
   "type": "item",
   "id": 2517,
-  "name": "Lu4 Wiki: Item Saber*Bastard Sword",
+  "name": "Saber*Bastard Sword",
   "url": "/lu4/item/2517-saberbastard-sword",
-  "source_url": "https://masterwork.wiki/lu4/item/2517-saberbastard-sword",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2517-saberbastard-sword",
   "raw_html": "library/raw/lu4/item/2517-saberbastard-sword.html",
   "stats": {
+    "Effect": "<+4 Enchant Effect> Max HP +25%.",
+    "P. Atk. / M. Atk.": "83 / 41",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1510 Crystallization Failed Enchant +0 1510 - +1 1600 - +2 1690 - +3 1780 - +4 1960 1205 +5 2140 1385 +6 2320 1565 +7 2500 1745 +8 2680 1925 +9 2860 2105 +10 3040 2285 +11 3220 2465 +12 3400 2645",
+    "NPC Sell Price": "408 900 Adena",
+    "Weight": "2520",
+    "P. Crit. Rate.": "8",
     "Item Skills": "Special Ability: Health Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Dualsword / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:2517",
-      "type": "item",
-      "id": 2517,
-      "name": "Lu4",
-      "url": "/lu4/item/2517-saberbastard-sword"
-    },
-    {
       "key": "skill:24292",
       "type": "skill",
       "id": 24292,
-      "name": "Special Ability: Health Lv. 1",
-      "url": "/lu4/skill/24292-special-ability-health/1"
+      "name": "Special Ability: Health",
+      "url": "/lu4/skill/24292-special-ability-health"
     }
   ]
 }

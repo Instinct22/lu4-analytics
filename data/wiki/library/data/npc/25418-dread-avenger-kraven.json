@@ -2,84 +2,79 @@
   "key": "npc:25418",
   "type": "npc",
   "id": 25418,
-  "name": "Lu4 Wiki: NPC Dread Avenger Kraven",
+  "name": "Dread Avenger Kraven",
   "url": "/lu4/npc/25418-dread-avenger-kraven",
-  "source_url": "https://masterwork.wiki/lu4/npc/25418-dread-avenger-kraven",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25418-dread-avenger-kraven",
   "raw_html": "library/raw/lu4/npc/25418-dread-avenger-kraven.html",
   "stats": {
-    "Location": "Море Спор"
+    "HP / MP": "273 376 / 8 254",
+    "P. Atk. / M. Atk.": "1 202 / 234",
+    "P. Def. / M. Def.": "697 / 749",
+    "Accuracy / Evasion": "95 / 95",
+    "Exp / SP": "1 355 200 / 127 160",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Immortal Knight is searching for Orfen in the Sea of Spores. As a young adventurer, he and his lover joined the Sea of Spores Troops. Orfen's plot caused her death, however, and Kraven's sorrow and rage helped him gain an immortal body in order to revenge himself on Orfen with his sharp, fearsome blade. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25418",
-      "type": "npc",
-      "id": 25418,
-      "name": "Lu4",
-      "url": "/lu4/npc/25418-dread-avenger-kraven"
-    },
-    {
-      "key": "location:104",
-      "type": "location",
-      "id": 104,
-      "name": "Море Спор",
-      "url": "/lu4/location/104-more-spor"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4951",
       "type": "skill",
       "id": 4951,
-      "name": "Raid Boss Lv. 1 This Immortal Knight is searching for Orfen in the Sea of Spores. As a young adventurer, he and his lover joined the Sea of Spores Troops. Orfen's plot caused her death, however, and Kraven's sorrow and rage helped him gain an immortal body in order to revenge himself on Orfen with his sharp, fearsome blade.",
-      "url": "/lu4/skill/4951-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4951-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -89,41 +84,6 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6574",
-      "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:4055",
-      "type": "item",
-      "id": 4055,
-      "name": "Composite Shield Fragment NG",
-      "url": "/lu4/item/4055-composite-shield-fragment"
-    },
-    {
-      "key": "item:2957",
-      "type": "item",
-      "id": 2957,
-      "name": "Composite Helmet Design NG",
-      "url": "/lu4/item/2957-composite-helmet-design"
-    },
-    {
-      "key": "item:2105",
-      "type": "item",
-      "id": 2105,
-      "name": "Mace of Underworld Head NG",
-      "url": "/lu4/item/2105-mace-of-underworld-head"
-    },
-    {
       "key": "item:2104",
       "type": "item",
       "id": 2104,
@@ -131,32 +91,11 @@
       "url": "/lu4/item/2104-club-of-nature-head"
     },
     {
-      "key": "item:2103",
+      "key": "item:2105",
       "type": "item",
-      "id": 2103,
-      "name": "Sage's Staff Head NG",
-      "url": "/lu4/item/2103-sages-staff-head"
-    },
-    {
-      "key": "item:2102",
-      "type": "item",
-      "id": 2102,
-      "name": "Pa'agrian Hammer Head NG",
-      "url": "/lu4/item/2102-paagrian-hammer-head"
-    },
-    {
-      "key": "item:2100",
-      "type": "item",
-      "id": 2100,
-      "name": "Paradia Staff Head NG",
-      "url": "/lu4/item/2100-paradia-staff-head"
-    },
-    {
-      "key": "item:2099",
-      "type": "item",
-      "id": 2099,
-      "name": "Stick of Eternity Shaft NG",
-      "url": "/lu4/item/2099-stick-of-eternity-shaft"
+      "id": 2105,
+      "name": "Mace of Underworld Head NG",
+      "url": "/lu4/item/2105-mace-of-underworld-head"
     },
     {
       "key": "item:2098",
@@ -171,6 +110,90 @@
       "id": 2097,
       "name": "War Axe Blade NG",
       "url": "/lu4/item/2097-war-axe-blade"
+    },
+    {
+      "key": "item:162",
+      "type": "item",
+      "id": 162,
+      "name": "War Axe C",
+      "url": "/lu4/item/162-war-axe"
+    },
+    {
+      "key": "item:174",
+      "type": "item",
+      "id": 174,
+      "name": "Nirvana Axe C",
+      "url": "/lu4/item/174-nirvana-axe"
+    },
+    {
+      "key": "item:196",
+      "type": "item",
+      "id": 196,
+      "name": "Stick of Eternity C",
+      "url": "/lu4/item/196-stick-of-eternity"
+    },
+    {
+      "key": "item:197",
+      "type": "item",
+      "id": 197,
+      "name": "Paradia Staff C",
+      "url": "/lu4/item/197-paradia-staff"
+    },
+    {
+      "key": "item:199",
+      "type": "item",
+      "id": 199,
+      "name": "Pa'agrian Hammer C",
+      "url": "/lu4/item/199-paagrian-hammer"
+    },
+    {
+      "key": "item:200",
+      "type": "item",
+      "id": 200,
+      "name": "Sage's Staff C",
+      "url": "/lu4/item/200-sages-staff"
+    },
+    {
+      "key": "item:201",
+      "type": "item",
+      "id": 201,
+      "name": "Club of Nature C",
+      "url": "/lu4/item/201-club-of-nature"
+    },
+    {
+      "key": "item:202",
+      "type": "item",
+      "id": 202,
+      "name": "Mace of Underworld C",
+      "url": "/lu4/item/202-mace-of-underworld"
+    },
+    {
+      "key": "item:103",
+      "type": "item",
+      "id": 103,
+      "name": "Tower Shield C",
+      "url": "/lu4/item/103-tower-shield"
+    },
+    {
+      "key": "item:107",
+      "type": "item",
+      "id": 107,
+      "name": "Composite Shield C",
+      "url": "/lu4/item/107-composite-shield"
+    },
+    {
+      "key": "item:4055",
+      "type": "item",
+      "id": 4055,
+      "name": "Composite Shield Fragment NG",
+      "url": "/lu4/item/4055-composite-shield-fragment"
+    },
+    {
+      "key": "item:2957",
+      "type": "item",
+      "id": 2957,
+      "name": "Composite Helmet Design NG",
+      "url": "/lu4/item/2957-composite-helmet-design"
     },
     {
       "key": "item:1983",
@@ -192,34 +215,6 @@
       "id": 1149,
       "name": "Shining Circlet C",
       "url": "/lu4/item/1149-shining-circlet"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
-    },
-    {
-      "key": "item:517",
-      "type": "item",
-      "id": 517,
-      "name": "Composite Helmet C",
-      "url": "/lu4/item/517-composite-helmet"
-    },
-    {
-      "key": "item:202",
-      "type": "item",
-      "id": 202,
-      "name": "Mace of Underworld C",
-      "url": "/lu4/item/202-mace-of-underworld"
     },
     {
       "key": "npc:25419",

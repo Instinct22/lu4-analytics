@@ -2,63 +2,72 @@
   "key": "npc:25089",
   "type": "npc",
   "id": 25089,
-  "name": "Lu4 Wiki: NPC Soulless Wild Boar",
+  "name": "Soulless Wild Boar",
   "url": "/lu4/npc/25089-soulless-wild-boar",
-  "source_url": "https://masterwork.wiki/lu4/npc/25089-soulless-wild-boar",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25089-soulless-wild-boar",
   "raw_html": "library/raw/lu4/npc/25089-soulless-wild-boar.html",
   "stats": {
-    "Location": "Ангельский Водопад"
+    "HP / MP": "559 794 / 5 108",
+    "P. Atk. / M. Atk.": "4 131 / 4 156",
+    "P. Def. / M. Def.": "1 030 / 1 168",
+    "Accuracy / Evasion": "110 / 110",
+    "Exp / SP": "2 610 750 / 415 763",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A wild boar that had its soul stolen by an evil mystic's experiment, transforming the beast into a killing machine. It eventually killed the mystic, but this could not give it peace. It searches for a powerful entity that can finally give its soul rest. Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 59"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25089",
-      "type": "npc",
-      "id": 25089,
-      "name": "Lu4",
-      "url": "/lu4/npc/25089-soulless-wild-boar"
-    },
-    {
-      "key": "location:78",
-      "type": "location",
-      "id": 78,
-      "name": "Ангельский Водопад",
-      "url": "/lu4/location/78-angelskij-vodopad"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4822",
       "type": "skill",
       "id": 4822,
-      "name": "Raid Boss Lv. 1 A wild boar that had its soul stolen by an evil mystic's experiment, transforming the beast into a killing machine. It eventually killed the mystic, but this could not give it peace. It searches for a powerful entity that can finally give its soul rest.",
-      "url": "/lu4/skill/4822-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4822-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32534",
+      "key": "item:9910",
       "type": "item",
-      "id": 32534,
-      "name": "Unidentified Staff of Evil Spirits B",
-      "url": "/lu4/item/32534-unidentified-staff-of-evil-spirits"
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
+    },
+    {
+      "key": "item:32333",
+      "type": "item",
+      "id": 32333,
+      "name": "Unidentified Deadman's Glory B",
+      "url": "/lu4/item/32333-unidentified-deadmans-glory"
+    },
+    {
+      "key": "item:32334",
+      "type": "item",
+      "id": 32334,
+      "name": "Unidentified Art of Battle Axe B",
+      "url": "/lu4/item/32334-unidentified-art-of-battle-axe"
     },
     {
       "key": "item:32439",
@@ -75,25 +84,25 @@
       "url": "/lu4/item/32434-unidentified-kaim-vanuls-bones"
     },
     {
-      "key": "item:32334",
+      "key": "item:32534",
       "type": "item",
-      "id": 32334,
-      "name": "Unidentified Art of Battle Axe B",
-      "url": "/lu4/item/32334-unidentified-art-of-battle-axe"
+      "id": 32534,
+      "name": "Unidentified Staff of Evil Spirits B",
+      "url": "/lu4/item/32534-unidentified-staff-of-evil-spirits"
     },
     {
-      "key": "item:32333",
+      "key": "item:4116",
       "type": "item",
-      "id": 32333,
-      "name": "Unidentified Deadman's Glory B",
-      "url": "/lu4/item/32333-unidentified-deadmans-glory"
+      "id": 4116,
+      "name": "Deadman's Glory Stone NG",
+      "url": "/lu4/item/4116-deadmans-glory-stone"
     },
     {
-      "key": "item:9910",
+      "key": "item:4117",
       "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
+      "id": 4117,
+      "name": "Art of Battle Axe Blade NG",
+      "url": "/lu4/item/4117-art-of-battle-axe-blade"
     },
     {
       "key": "item:8348",
@@ -110,74 +119,11 @@
       "url": "/lu4/item/8340-bones-head-of-kaim-vanul"
     },
     {
-      "key": "item:6572",
-      "type": "item",
-      "id": 6572,
-      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
-    },
-    {
       "key": "item:4118",
       "type": "item",
       "id": 4118,
       "name": "Evil Spirit Head NG",
       "url": "/lu4/item/4118-evil-spirit-head"
-    },
-    {
-      "key": "item:4117",
-      "type": "item",
-      "id": 4117,
-      "name": "Art of Battle Axe Blade NG",
-      "url": "/lu4/item/4117-art-of-battle-axe-blade"
-    },
-    {
-      "key": "item:4116",
-      "type": "item",
-      "id": 4116,
-      "name": "Deadman's Glory Stone NG",
-      "url": "/lu4/item/4116-deadmans-glory-stone"
-    },
-    {
-      "key": "item:4054",
-      "type": "item",
-      "id": 4054,
-      "name": "Necklace of Black Ore Beads NG",
-      "url": "/lu4/item/4054-necklace-of-black-ore-beads"
-    },
-    {
-      "key": "item:4053",
-      "type": "item",
-      "id": 4053,
-      "name": "Ring of Black Ore Gemstone NG",
-      "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
-    },
-    {
-      "key": "item:4052",
-      "type": "item",
-      "id": 4052,
-      "name": "Earring of Black Ore Piece NG",
-      "url": "/lu4/item/4052-earring-of-black-ore-piece"
-    },
-    {
-      "key": "item:948",
-      "type": "item",
-      "id": 948,
-      "name": "Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:947",
-      "type": "item",
-      "id": 947,
-      "name": "Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
     },
     {
       "key": "item:926",
@@ -187,11 +133,60 @@
       "url": "/lu4/item/926-necklace-of-black-ore"
     },
     {
+      "key": "item:864",
+      "type": "item",
+      "id": 864,
+      "name": "Earring of Black Ore B",
+      "url": "/lu4/item/864-earring-of-black-ore"
+    },
+    {
       "key": "item:895",
       "type": "item",
       "id": 895,
       "name": "Ring of Black Ore B",
       "url": "/lu4/item/895-ring-of-black-ore"
+    },
+    {
+      "key": "item:4054",
+      "type": "item",
+      "id": 4054,
+      "name": "Necklace of Black Ore Beads NG",
+      "url": "/lu4/item/4054-necklace-of-black-ore-beads"
+    },
+    {
+      "key": "item:4052",
+      "type": "item",
+      "id": 4052,
+      "name": "Earring of Black Ore Piece NG",
+      "url": "/lu4/item/4052-earring-of-black-ore-piece"
+    },
+    {
+      "key": "item:4053",
+      "type": "item",
+      "id": 4053,
+      "name": "Ring of Black Ore Gemstone NG",
+      "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
+    },
+    {
+      "key": "item:948",
+      "type": "item",
+      "id": 948,
+      "name": "Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
+    },
+    {
+      "key": "item:6572",
+      "type": "item",
+      "id": 6572,
+      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
+    },
+    {
+      "key": "item:947",
+      "type": "item",
+      "id": 947,
+      "name": "Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
     },
     {
       "key": "npc:25090",

@@ -1,79 +1,22 @@
-# Lu4 Wiki: NPC Corpse of Hutaku
+# Corpse of Hutaku
 
-- Source: https://masterwork.wiki/lu4/npc/31074-corpse-of-hutaku
+- Source: https://masterwork.wiki/lu4-b-w-c/npc/31074-corpse-of-hutaku
 - Path: /lu4/npc/31074-corpse-of-hutaku
 - Type: npc
 - Key: npc:31074
 
 ## Stats
+- Respawn Time: 1 minute
 - Location: Остров Дьявола
+- HP / MP: 4 055 / 1 657
+- P. Atk. / M. Atk.: 1 311 / 776
+- P. Def. / M. Def.: 477 / 359
+- Accuracy / Evasion: 103 / 103
+- Exp / SP: 0 / 0
+- Attack Attribute: None
+- Defense Attributes: Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20
+- Skills: Orcs Lv. 17 Created by Pa'agrio, the Orcs are the physically strongest of all the races. They worship the spirits of the past and have a very tribal culture. Resist Full Magic Attack Lv. 1
+- Type: Orc, Lv. 70
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-NPCs (Lu4)
-Corpse of Hutaku
-Lu4
-Eternal
-MasterWork
-Corpse of Hutaku
-Orc, Lv. 70
-Остров Дьявола
-Respawn Time
-1 minute
-Location
-Остров Дьявола
-HP / MP
-4 055 / 1 657
-P. Atk. / M. Atk.
-1 311 / 776
-P. Def. / M. Def.
-477 / 359
-Accuracy / Evasion
-103 / 103
-Exp / SP
-0 / 0
-Attack Attribute
-None
-Defense Attributes
-Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20
-Skills
-Orcs
-Lv. 17
-Created by Pa'agrio, the Orcs are the physically strongest of all the races. They worship the spirits of the past and have a very tribal culture.
-Resist Full Magic Attack
-Lv. 1
-MasterWork 2026
-All rights reserved
+Corpse of Hutaku Orc, Lv. 70 Остров Дьявола Respawn Time 1 minute Location Остров Дьявола HP / MP 4 055 / 1 657 P. Atk. / M. Atk. 1 311 / 776 P. Def. / M. Def. 477 / 359 Accuracy / Evasion 103 / 103 Exp / SP 0 / 0 Attack Attribute None Defense Attributes Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20 Skills Orcs Lv. 17 Created by Pa'agrio, the Orcs are the physically strongest of all the races. They worship the spirits of the past and have a very tribal culture. Resist Full Magic Attack Lv. 1

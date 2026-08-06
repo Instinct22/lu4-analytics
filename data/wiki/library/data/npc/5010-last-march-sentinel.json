@@ -2,91 +2,60 @@
   "key": "npc:5010",
   "type": "npc",
   "id": 5010,
-  "name": "Lu4 Wiki: NPC Last March Sentinel",
+  "name": "Last March Sentinel",
   "url": "/lu4/npc/5010-last-march-sentinel",
-  "source_url": "https://masterwork.wiki/lu4/npc/5010-last-march-sentinel",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5010-last-march-sentinel",
   "raw_html": "library/raw/lu4/npc/5010-last-march-sentinel.html",
   "stats": {
-    "Location": "Равнины Неистовства"
+    "Respawn Time": "18 seconds ± 2 seconds",
+    "Location": "Равнины Неистовства",
+    "HP / MP": "2 101 / 1 110",
+    "P. Atk. / M. Atk.": "528 / 236",
+    "P. Def. / M. Def.": "291 / 214",
+    "Accuracy / Evasion": "81 / 81",
+    "Exp / SP": "2 301 / 230",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Slightly Strong P. Atk. Lv. 12 Slightly Strong P. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 48"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5010",
-      "type": "npc",
-      "id": 5010,
-      "name": "Lu4",
-      "url": "/lu4/npc/5010-last-march-sentinel"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:4055",
-      "type": "item",
-      "id": 4055,
-      "name": "Composite Shield Fragment NG",
-      "url": "/lu4/item/4055-composite-shield-fragment"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4040",
@@ -94,41 +63,6 @@
       "id": 4040,
       "name": "Mold Lubricant NG",
       "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:3007",
-      "type": "item",
-      "id": 3007,
-      "name": "Recipe: Theca Leather Boots NG",
-      "url": "/lu4/item/3007-recipe-theca-leather-boots"
-    },
-    {
-      "key": "item:2229",
-      "type": "item",
-      "id": 2229,
-      "name": "Recipe: Theca Leather Armor NG",
-      "url": "/lu4/item/2229-recipe-theca-leather-armor"
-    },
-    {
-      "key": "item:2222",
-      "type": "item",
-      "id": 2222,
-      "name": "Recipe: Composite Armor NG",
-      "url": "/lu4/item/2222-recipe-composite-armor"
-    },
-    {
-      "key": "item:2104",
-      "type": "item",
-      "id": 2104,
-      "name": "Club of Nature Head NG",
-      "url": "/lu4/item/2104-club-of-nature-head"
-    },
-    {
-      "key": "item:2098",
-      "type": "item",
-      "id": 2098,
-      "name": "Nirvana Axe Blade NG",
-      "url": "/lu4/item/2098-nirvana-axe-blade"
     },
     {
       "key": "item:1877",
@@ -159,11 +93,25 @@
       "url": "/lu4/item/1343-silver-arrow"
     },
     {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
       "key": "item:201",
       "type": "item",
       "id": 201,
       "name": "Club of Nature C",
       "url": "/lu4/item/201-club-of-nature"
+    },
+    {
+      "key": "item:2104",
+      "type": "item",
+      "id": 2104,
+      "name": "Club of Nature Head NG",
+      "url": "/lu4/item/2104-club-of-nature-head"
     },
     {
       "key": "item:174",
@@ -173,6 +121,13 @@
       "url": "/lu4/item/174-nirvana-axe"
     },
     {
+      "key": "item:2098",
+      "type": "item",
+      "id": 2098,
+      "name": "Nirvana Axe Blade NG",
+      "url": "/lu4/item/2098-nirvana-axe-blade"
+    },
+    {
       "key": "item:107",
       "type": "item",
       "id": 107,
@@ -180,11 +135,53 @@
       "url": "/lu4/item/107-composite-shield"
     },
     {
-      "key": "item:57",
+      "key": "item:4055",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4055,
+      "name": "Composite Shield Fragment NG",
+      "url": "/lu4/item/4055-composite-shield-fragment"
+    },
+    {
+      "key": "item:2222",
+      "type": "item",
+      "id": 2222,
+      "name": "Recipe: Composite Armor NG",
+      "url": "/lu4/item/2222-recipe-composite-armor"
+    },
+    {
+      "key": "item:3007",
+      "type": "item",
+      "id": 3007,
+      "name": "Recipe: Theca Leather Boots NG",
+      "url": "/lu4/item/3007-recipe-theca-leather-boots"
+    },
+    {
+      "key": "item:2229",
+      "type": "item",
+      "id": 2229,
+      "name": "Recipe: Theca Leather Armor NG",
+      "url": "/lu4/item/2229-recipe-theca-leather-armor"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:2341",
@@ -208,18 +205,18 @@
       "url": "/lu4/item/2092-homunkuluss-sword-blade"
     },
     {
-      "key": "item:1983",
-      "type": "item",
-      "id": 1983,
-      "name": "Shining Circlet Pattern NG",
-      "url": "/lu4/item/1983-shining-circlet-pattern"
-    },
-    {
       "key": "item:1981",
       "type": "item",
       "id": 1981,
       "name": "Composite Gauntlets Design NG",
       "url": "/lu4/item/1981-composite-gauntlets-design"
+    },
+    {
+      "key": "item:1983",
+      "type": "item",
+      "id": 1983,
+      "name": "Shining Circlet Pattern NG",
+      "url": "/lu4/item/1983-shining-circlet-pattern"
     }
   ]
 }

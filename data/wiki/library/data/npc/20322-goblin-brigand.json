@@ -2,70 +2,32 @@
   "key": "npc:20322",
   "type": "npc",
   "id": 20322,
-  "name": "Lu4 Wiki: NPC Goblin Brigand",
+  "name": "Goblin Brigand",
   "url": "/lu4/npc/20322-goblin-brigand",
-  "source_url": "https://masterwork.wiki/lu4/npc/20322-goblin-brigand",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20322-goblin-brigand",
   "raw_html": "library/raw/lu4/npc/20322-goblin-brigand.html",
   "stats": {
-    "Location": "Западные Рудники (+1) Западные Рудники Нейтральные Воды"
+    "Respawn Time": "10 seconds",
+    "Location": "Западные Рудники (+1) Западные Рудники Нейтральные Воды",
+    "HP / MP": "213 / 113",
+    "P. Atk. / M. Atk.": "21 / 9",
+    "P. Def. / M. Def.": "55 / 45",
+    "Accuracy / Evasion": "44 / 43",
+    "Exp / SP": "224 / 22",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 8"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20322",
-      "type": "npc",
-      "id": 20322,
-      "name": "Lu4",
-      "url": "/lu4/npc/20322-goblin-brigand"
-    },
-    {
-      "key": "location:200",
-      "type": "location",
-      "id": 200,
-      "name": "Западные Рудники",
-      "url": "/lu4/location/200-zapadnye-rudniki"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
-    },
-    {
-      "key": "item:2137",
-      "type": "item",
-      "id": 2137,
-      "name": "Recipe: Steel NG",
-      "url": "/lu4/item/2137-recipe-steel"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:215",
-      "type": "item",
-      "id": 215,
-      "name": "Doom Dagger NG",
-      "url": "/lu4/item/215-doom-dagger"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "item:57",
@@ -75,13 +37,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:17",
-      "type": "item",
-      "id": 17,
-      "name": "Wooden Arrow NG",
-      "url": "/lu4/item/17-wooden-arrow"
-    },
-    {
       "key": "item:12",
       "type": "item",
       "id": 12,
@@ -89,11 +44,46 @@
       "url": "/lu4/item/12-knife"
     },
     {
-      "key": "item:2005",
+      "key": "item:215",
       "type": "item",
-      "id": 2005,
-      "name": "Broadsword Blade NG",
-      "url": "/lu4/item/2005-broadsword-blade"
+      "id": 215,
+      "name": "Doom Dagger NG",
+      "url": "/lu4/item/215-doom-dagger"
+    },
+    {
+      "key": "item:17",
+      "type": "item",
+      "id": 17,
+      "name": "Wooden Arrow NG",
+      "url": "/lu4/item/17-wooden-arrow"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:2137",
+      "type": "item",
+      "id": 2137,
+      "name": "Recipe: Steel NG",
+      "url": "/lu4/item/2137-recipe-steel"
+    },
+    {
+      "key": "item:1796",
+      "type": "item",
+      "id": 1796,
+      "name": "Recipe: Leather Tunic NG",
+      "url": "/lu4/item/1796-recipe-leather-tunic"
     },
     {
       "key": "item:1870",
@@ -103,11 +93,11 @@
       "url": "/lu4/item/1870-coal"
     },
     {
-      "key": "item:1796",
+      "key": "item:2005",
       "type": "item",
-      "id": 1796,
-      "name": "Recipe: Leather Tunic NG",
-      "url": "/lu4/item/1796-recipe-leather-tunic"
+      "id": 2005,
+      "name": "Broadsword Blade NG",
+      "url": "/lu4/item/2005-broadsword-blade"
     }
   ]
 }

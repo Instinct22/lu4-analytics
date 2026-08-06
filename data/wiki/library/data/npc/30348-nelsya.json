@@ -2,42 +2,38 @@
   "key": "npc:30348",
   "type": "npc",
   "id": 30348,
-  "name": "Lu4 Wiki: NPC Nelsya",
+  "name": "Nelsya",
   "url": "/lu4/npc/30348-nelsya",
-  "source_url": "https://masterwork.wiki/lu4/npc/30348-nelsya",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30348-nelsya",
   "raw_html": "library/raw/lu4/npc/30348-nelsya.html",
   "stats": {
-    "Location": "Темный Лес"
+    "Respawn Time": "1 minute",
+    "Location": "Темный Лес",
+    "HP / MP": "4 550 / 2 063",
+    "P. Atk. / M. Atk.": "10 170 / 1 168",
+    "P. Def. / M. Def.": "586 / 413",
+    "Accuracy / Evasion": "128 / 125",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dark Elves Lv. 16 These Elves formed an alliance long ago and dedicated themselves to understanding the dark arts which were forbidden by their kin. Gradually they became darker in their appearance and personality as generations passed. They are now adept in the practice and usage of black magic and continue to worship Shilen's their God. Resist Full Magic Attack Lv. 1",
+    "Type": "Dark Elf, Lv. 80"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30348",
-      "type": "npc",
-      "id": 30348,
-      "name": "Lu4",
-      "url": "/lu4/npc/30348-nelsya"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dark Elves Lv. 16 These Elves formed an alliance long ago and dedicated themselves to understanding the dark arts which were forbidden by their kin. Gradually they became darker in their appearance and personality as generations passed. They are now adept in the practice and usage of black magic and continue to worship Shilen's their God.",
-      "url": "/lu4/skill/4416-dark-elves/16"
+      "name": "Dark Elves",
+      "url": "/lu4/skill/4416-dark-elves"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

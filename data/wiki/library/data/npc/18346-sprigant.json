@@ -2,96 +2,100 @@
   "key": "npc:18346",
   "type": "npc",
   "id": 18346,
-  "name": "Lu4 Wiki: NPC Sprigant",
+  "name": "Sprigant",
   "url": "/lu4/npc/18346-sprigant",
-  "source_url": "https://masterwork.wiki/lu4/npc/18346-sprigant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/18346-sprigant",
   "raw_html": "library/raw/lu4/npc/18346-sprigant.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 179 / 1 973",
+    "P. Atk. / M. Atk.": "2 080 / 1 391",
+    "P. Def. / M. Def.": "638 / 512",
+    "Accuracy / Evasion": "125 / 125",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire -13, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10% HP Increase (1/4x) Lv. 8 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Plants Lv. 33 Plants. Unknown Creature Lv. 24 An unknown life form that has never been discovered before. Sleep Resistance Lv. 5 Resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Etc., Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:18346",
-      "type": "npc",
-      "id": 18346,
-      "name": "Lu4",
-      "url": "/lu4/npc/18346-sprigant"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-plants/5"
+      "name": "Plants",
+      "url": "/lu4/skill/4416-plants"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1/4x) Lv. 8",
-      "url": "/lu4/skill/4408-hp-increase-14x/8"
+      "name": "HP Increase (1/4x)",
+      "url": "/lu4/skill/4408-hp-increase-14x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Plants Lv. 33 Plants.",
-      "url": "/lu4/skill/4417-plants/33"
+      "name": "Plants",
+      "url": "/lu4/skill/4417-plants"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "item:8787",
@@ -99,6 +103,13 @@
       "id": 8787,
       "name": "Sprigant's Fruit NG",
       "url": "/lu4/item/8787-sprigants-fruit"
+    },
+    {
+      "key": "item:6701",
+      "type": "item",
+      "id": 6701,
+      "name": "Sealed Imperial Crusader Breastplate Part NG",
+      "url": "/lu4/item/6701-sealed-imperial-crusader-breastplate-part"
     },
     {
       "key": "item:6901",
@@ -113,13 +124,6 @@
       "id": 6702,
       "name": "Sealed Imperial Crusader Gaiters Pattern NG",
       "url": "/lu4/item/6702-sealed-imperial-crusader-gaiters-pattern"
-    },
-    {
-      "key": "item:6701",
-      "type": "item",
-      "id": 6701,
-      "name": "Sealed Imperial Crusader Breastplate Part NG",
-      "url": "/lu4/item/6701-sealed-imperial-crusader-breastplate-part"
     }
   ]
 }

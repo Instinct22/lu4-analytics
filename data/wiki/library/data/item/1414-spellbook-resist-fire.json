@@ -2,27 +2,25 @@
   "key": "item:1414",
   "type": "item",
   "id": 1414,
-  "name": "Lu4 Wiki: Item Spellbook: Resist Fire",
+  "name": "Spellbook: Resist Fire",
   "url": "/lu4/item/1414-spellbook-resist-fire",
-  "source_url": "https://masterwork.wiki/lu4/item/1414-spellbook-resist-fire",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1414-spellbook-resist-fire",
   "raw_html": "library/raw/lu4/item/1414-spellbook-resist-fire.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Resist Fire'. Required: Sorcerer - Lv. 40 Prophet - Lv. 40 To obtain this item, hunt the Lienrik Lad found in Field of Silence.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:1414",
-      "type": "item",
-      "id": 1414,
-      "name": "Lu4",
-      "url": "/lu4/item/1414-spellbook-resist-fire"
-    },
-    {
       "key": "npc:21645",
       "type": "npc",
       "id": 21645,
-      "name": "Lienrik Lad Lv. 40",
+      "name": "Lienrik Lad",
       "url": "/lu4/npc/21645-lienrik-lad"
     }
   ]

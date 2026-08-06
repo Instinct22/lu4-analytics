@@ -2,140 +2,74 @@
   "key": "npc:20313",
   "type": "npc",
   "id": 20313,
-  "name": "Lu4 Wiki: NPC Rakeclaw Imp Chieftain",
+  "name": "Rakeclaw Imp Chieftain",
   "url": "/lu4/npc/20313-rakeclaw-imp-chieftain",
-  "source_url": "https://masterwork.wiki/lu4/npc/20313-rakeclaw-imp-chieftain",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20313-rakeclaw-imp-chieftain",
   "raw_html": "library/raw/lu4/npc/20313-rakeclaw-imp-chieftain.html",
   "stats": {
-    "Location": "Плато Бессмертия (+1) Плато Бессмертия Плато Бессмертия, север"
+    "Respawn Time": "20 seconds",
+    "Location": "Плато Бессмертия (+1) Плато Бессмертия Плато Бессмертия, север",
+    "HP / MP": "245 / 133",
+    "P. Atk. / M. Atk.": "29 / 14",
+    "P. Def. / M. Def.": "58 / 47",
+    "Accuracy / Evasion": "43 / 43",
+    "Exp / SP": "262 / 26",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 10"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20313",
-      "type": "npc",
-      "id": 20313,
-      "name": "Lu4",
-      "url": "/lu4/npc/20313-rakeclaw-imp-chieftain"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
-      "key": "location:189",
-      "type": "location",
-      "id": 189,
-      "name": "Плато Бессмертия, север",
-      "url": "/lu4/location/189-plato-bessmertia-sever"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:6037",
-      "type": "item",
-      "id": 6037,
-      "name": "Waking Scroll NG",
-      "url": "/lu4/item/6037-waking-scroll"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1790",
-      "type": "item",
-      "id": 1790,
-      "name": "Recipe: Dirk NG",
-      "url": "/lu4/item/1790-recipe-dirk"
-    },
-    {
-      "key": "item:1103",
-      "type": "item",
-      "id": 1103,
-      "name": "Cotton Stockings NG",
-      "url": "/lu4/item/1103-cotton-stockings"
-    },
-    {
-      "key": "item:1100",
-      "type": "item",
-      "id": 1100,
-      "name": "Cotton Tunic NG",
-      "url": "/lu4/item/1100-cotton-tunic"
-    },
-    {
-      "key": "item:463",
-      "type": "item",
-      "id": 463,
-      "name": "Feriotic Stockings NG",
-      "url": "/lu4/item/463-feriotic-stockings"
-    },
-    {
-      "key": "item:428",
-      "type": "item",
-      "id": 428,
-      "name": "Feriotic Tunic NG",
-      "url": "/lu4/item/428-feriotic-tunic"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -145,11 +79,67 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2006",
+      "key": "item:428",
       "type": "item",
-      "id": 2006,
-      "name": "Willow Staff Head NG",
-      "url": "/lu4/item/2006-willow-staff-head"
+      "id": 428,
+      "name": "Feriotic Tunic NG",
+      "url": "/lu4/item/428-feriotic-tunic"
+    },
+    {
+      "key": "item:463",
+      "type": "item",
+      "id": 463,
+      "name": "Feriotic Stockings NG",
+      "url": "/lu4/item/463-feriotic-stockings"
+    },
+    {
+      "key": "item:1100",
+      "type": "item",
+      "id": 1100,
+      "name": "Cotton Tunic NG",
+      "url": "/lu4/item/1100-cotton-tunic"
+    },
+    {
+      "key": "item:1103",
+      "type": "item",
+      "id": 1103,
+      "name": "Cotton Stockings NG",
+      "url": "/lu4/item/1103-cotton-stockings"
+    },
+    {
+      "key": "item:1790",
+      "type": "item",
+      "id": 1790,
+      "name": "Recipe: Dirk NG",
+      "url": "/lu4/item/1790-recipe-dirk"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:6037",
+      "type": "item",
+      "id": 6037,
+      "name": "Waking Scroll NG",
+      "url": "/lu4/item/6037-waking-scroll"
+    },
+    {
+      "key": "item:22",
+      "type": "item",
+      "id": 22,
+      "name": "Leather Shirt NG",
+      "url": "/lu4/item/22-leather-shirt"
     },
     {
       "key": "item:1814",
@@ -159,11 +149,11 @@
       "url": "/lu4/item/1814-recipe-leather"
     },
     {
-      "key": "item:22",
+      "key": "item:2006",
       "type": "item",
-      "id": 22,
-      "name": "Leather Shirt NG",
-      "url": "/lu4/item/22-leather-shirt"
+      "id": 2006,
+      "name": "Willow Staff Head NG",
+      "url": "/lu4/item/2006-willow-staff-head"
     }
   ]
 }

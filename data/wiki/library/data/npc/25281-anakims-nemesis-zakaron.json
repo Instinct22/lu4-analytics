@@ -2,145 +2,107 @@
   "key": "npc:25281",
   "type": "npc",
   "id": 25281,
-  "name": "Lu4 Wiki: NPC Anakim's Nemesis Zakaron",
+  "name": "Anakim's Nemesis Zakaron",
   "url": "/lu4/npc/25281-anakims-nemesis-zakaron",
-  "source_url": "https://masterwork.wiki/lu4/npc/25281-anakims-nemesis-zakaron",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25281-anakims-nemesis-zakaron",
   "raw_html": "library/raw/lu4/npc/25281-anakims-nemesis-zakaron.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 610 318 / 2 988",
+    "P. Atk. / M. Atk.": "24 379 / 42 496",
+    "P. Def. / M. Def.": "1 347 / 1 529",
+    "Accuracy / Evasion": "121 / 121",
+    "Exp / SP": "8 330 000 / 1 600 000",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -13, Unholy 189",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 The King of Bloody Lords, he was summoned by Marilion to help fend off an impending Nephilim attack. Terrifying in battle, he slew many Nephilim and dealt a grievous blow to the Army of Light. He was finally driven back by Anakim, who personally came to fight alongside the Nephilim, and fled to the Necropolis. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 70"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25281",
-      "type": "npc",
-      "id": 25281,
-      "name": "Lu4",
-      "url": "/lu4/npc/25281-anakims-nemesis-zakaron"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4895",
       "type": "skill",
       "id": 4895,
-      "name": "Raid Boss Lv. 1 The King of Bloody Lords, he was summoned by Marilion to help fend off an impending Nephilim attack. Terrifying in battle, he slew many Nephilim and dealt a grievous blow to the Army of Light. He was finally driven back by Anakim, who personally came to fight alongside the Nephilim, and fled to the Necropolis.",
-      "url": "/lu4/skill/4895-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4895-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:32393",
-      "type": "item",
-      "id": 32393,
-      "name": "Unidentified Sealed Majestic Boots A",
-      "url": "/lu4/item/32393-unidentified-sealed-majestic-boots"
-    },
-    {
-      "key": "item:32392",
-      "type": "item",
-      "id": 32392,
-      "name": "Unidentified Sealed Majestic Gauntlets A",
-      "url": "/lu4/item/32392-unidentified-sealed-majestic-gauntlets"
-    },
-    {
-      "key": "item:32388",
-      "type": "item",
-      "id": 32388,
-      "name": "Unidentified Sealed Boots of Nightmare A",
-      "url": "/lu4/item/32388-unidentified-sealed-boots-of-nightmare"
-    },
-    {
-      "key": "item:32387",
-      "type": "item",
-      "id": 32387,
-      "name": "Unidentified Sealed Gauntlets of Nightmare A",
-      "url": "/lu4/item/32387-unidentified-sealed-gauntlets-of-nightmare"
-    },
-    {
-      "key": "item:32347",
-      "type": "item",
-      "id": 32347,
-      "name": "Unidentified Soul Bow A",
-      "url": "/lu4/item/32347-unidentified-soul-bow"
-    },
-    {
-      "key": "item:32338",
-      "type": "item",
-      "id": 32338,
-      "name": "Unidentified Soul Separator A",
-      "url": "/lu4/item/32338-unidentified-soul-separator"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -150,18 +112,67 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6570",
+      "key": "item:8620",
       "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
     },
     {
-      "key": "item:6569",
+      "key": "item:8621",
       "type": "item",
-      "id": 6569,
-      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
+      "id": 8621,
+      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
+      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
+    },
+    {
+      "key": "item:10552",
+      "type": "item",
+      "id": 10552,
+      "name": "Spellbook: Fighter's Will NG",
+      "url": "/lu4/item/10552-spellbook-fighters-will"
+    },
+    {
+      "key": "item:10553",
+      "type": "item",
+      "id": 10553,
+      "name": "Spellbook: Archer's Will NG",
+      "url": "/lu4/item/10553-spellbook-archers-will"
+    },
+    {
+      "key": "item:14219",
+      "type": "item",
+      "id": 14219,
+      "name": "Spellbook: Magician's Will NG",
+      "url": "/lu4/item/14219-spellbook-magicians-will"
+    },
+    {
+      "key": "item:32338",
+      "type": "item",
+      "id": 32338,
+      "name": "Unidentified Soul Separator A",
+      "url": "/lu4/item/32338-unidentified-soul-separator"
+    },
+    {
+      "key": "item:32347",
+      "type": "item",
+      "id": 32347,
+      "name": "Unidentified Soul Bow A",
+      "url": "/lu4/item/32347-unidentified-soul-bow"
+    },
+    {
+      "key": "item:5448",
+      "type": "item",
+      "id": 5448,
+      "name": "Recipe: Soul Separator(60%) NG",
+      "url": "/lu4/item/5448-recipe-soul-separator60"
+    },
+    {
+      "key": "item:5442",
+      "type": "item",
+      "id": 5442,
+      "name": "Recipe: Soul Bow(60%) NG",
+      "url": "/lu4/item/5442-recipe-soul-bow60"
     },
     {
       "key": "item:5537",
@@ -178,46 +189,60 @@
       "url": "/lu4/item/5534-soul-bow-stave"
     },
     {
-      "key": "item:5515",
+      "key": "item:32392",
       "type": "item",
-      "id": 5515,
-      "name": "Sealed Majestic Gauntlets Design NG",
-      "url": "/lu4/item/5515-sealed-majestic-gauntlets-design"
+      "id": 32392,
+      "name": "Unidentified Sealed Majestic Gauntlets A",
+      "url": "/lu4/item/32392-unidentified-sealed-majestic-gauntlets"
     },
     {
-      "key": "item:5514",
+      "key": "item:32387",
       "type": "item",
-      "id": 5514,
-      "name": "Sealed Gauntlets of Nightmare Design NG",
-      "url": "/lu4/item/5514-sealed-gauntlets-of-nightmare-design"
+      "id": 32387,
+      "name": "Unidentified Sealed Gauntlets of Nightmare A",
+      "url": "/lu4/item/32387-unidentified-sealed-gauntlets-of-nightmare"
     },
     {
-      "key": "item:5503",
+      "key": "item:32393",
       "type": "item",
-      "id": 5503,
-      "name": "Sealed Majestic Boots Lining NG",
-      "url": "/lu4/item/5503-sealed-majestic-boots-lining"
+      "id": 32393,
+      "name": "Unidentified Sealed Majestic Boots A",
+      "url": "/lu4/item/32393-unidentified-sealed-majestic-boots"
     },
     {
-      "key": "item:5502",
+      "key": "item:32388",
       "type": "item",
-      "id": 5502,
-      "name": "Sealed Boots of Nightmare Lining NG",
-      "url": "/lu4/item/5502-sealed-boots-of-nightmare-lining"
+      "id": 32388,
+      "name": "Unidentified Sealed Boots of Nightmare A",
+      "url": "/lu4/item/32388-unidentified-sealed-boots-of-nightmare"
     },
     {
-      "key": "item:730",
+      "key": "item:5406",
       "type": "item",
-      "id": 730,
-      "name": "Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
+      "id": 5406,
+      "name": "Recipe: Sealed Majestic Gauntlets(60%) NG",
+      "url": "/lu4/item/5406-recipe-sealed-majestic-gauntlets60"
     },
     {
-      "key": "item:729",
+      "key": "item:5404",
       "type": "item",
-      "id": 729,
-      "name": "Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
+      "id": 5404,
+      "name": "Recipe: Sealed Gauntlets of Nightmare(60%) NG",
+      "url": "/lu4/item/5404-recipe-sealed-gauntlets-of-nightmare60"
+    },
+    {
+      "key": "item:5382",
+      "type": "item",
+      "id": 5382,
+      "name": "Recipe: Sealed Majestic Boots(60%) NG",
+      "url": "/lu4/item/5382-recipe-sealed-majestic-boots60"
+    },
+    {
+      "key": "item:5380",
+      "type": "item",
+      "id": 5380,
+      "name": "Recipe: Sealed Boots of Nightmare(60%) NG",
+      "url": "/lu4/item/5380-recipe-sealed-boots-of-nightmare60"
     }
   ]
 }

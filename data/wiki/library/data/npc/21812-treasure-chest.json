@@ -2,33 +2,37 @@
   "key": "npc:21812",
   "type": "npc",
   "id": 21812,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21812-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21812-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21812-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21812-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 563 / 1 060",
+    "P. Atk. / M. Atk.": "655 / 359",
+    "P. Def. / M. Def.": "324 / 262",
+    "Accuracy / Evasion": "87 / 87",
+    "Exp / SP": "3 499 / 279",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 54"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21812",
-      "type": "npc",
-      "id": 21812,
-      "name": "Lu4",
-      "url": "/lu4/npc/21812-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:4040",
+      "key": "item:57",
       "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2966",
@@ -87,18 +91,11 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:57",
+      "key": "item:4040",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:1985",
-      "type": "item",
-      "id": 1985,
-      "name": "Theca Leather Gaiters Pattern NG",
-      "url": "/lu4/item/1985-theca-leather-gaiters-pattern"
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
     },
     {
       "key": "item:1984",
@@ -106,6 +103,13 @@
       "id": 1984,
       "name": "Theca Leather Armor Pattern NG",
       "url": "/lu4/item/1984-theca-leather-armor-pattern"
+    },
+    {
+      "key": "item:1985",
+      "type": "item",
+      "id": 1985,
+      "name": "Theca Leather Gaiters Pattern NG",
+      "url": "/lu4/item/1985-theca-leather-gaiters-pattern"
     }
   ]
 }

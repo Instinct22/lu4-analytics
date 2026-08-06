@@ -2,47 +2,44 @@
   "key": "npc:25132",
   "type": "npc",
   "id": 25132,
-  "name": "Lu4 Wiki: NPC Gato's Marksman",
+  "name": "Gato's Marksman",
   "url": "/lu4/npc/25132-gatos-marksman",
-  "source_url": "https://masterwork.wiki/lu4/npc/25132-gatos-marksman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25132-gatos-marksman",
   "raw_html": "library/raw/lu4/npc/25132-gatos-marksman.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "25 079 / 751",
+    "P. Atk. / M. Atk.": "2 167 / 1 238",
+    "P. Def. / M. Def.": "473 / 470",
+    "Accuracy / Evasion": "85 / 94",
+    "Exp / SP": "0 / 852",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 49"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25132",
-      "type": "npc",
-      "id": 25132,
-      "name": "Lu4",
-      "url": "/lu4/npc/25132-gatos-marksman"
-    },
-    {
-      "key": "location:233",
-      "type": "location",
-      "id": 233,
-      "name": "Лес Разбойников",
-      "url": "/lu4/location/233-les-razbojnikov"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:1539",

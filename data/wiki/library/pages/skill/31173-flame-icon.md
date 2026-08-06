@@ -1,0 +1,20 @@
+# Flame Icon
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/31173-flame-icon
+- Path: /lu4/skill/31173-flame-icon
+- Type: skill
+- Key: skill:31173
+
+## Stats
+- Effect: For party members: Speed +10 Atk. Spd. +7% P. Def. +10% M. Def. +10% P. Crit. Rate with Swords, Daggers +20 P. Crit. Damage with Blunts, Fists +10% Resistance to debuffs +20% Incoming Heal Power -30%. Can't be used for 30 sec after joining a party. Skill only works while in a party with the caster. Only one of these effects can be active at a time: 'Flame Icon', 'Touch of Eva', or 'Spirit of Shillien'.
+- Consumes: 0 MP 650 HP
+- Reuse Time: 5 minutes
+- Duration: 30 seconds
+- Can be used on Olympiad: Yes
+- Attribute: None
+- Trait: trait_none
+- Available For: PaladinLv. 68
+- Type: Physical / Buff
+
+## Content
+Flame Icon Lv. 1 Physical / Buff For party members: Speed +10 Atk. Spd. +7% P. Def. +10% M. Def. +10% P. Crit. Rate with Swords, Daggers +20 P. Crit. Damage with Blunts, Fists +10% Resistance to debuffs +20% Incoming Heal Power -30%. Can't be used for 30 sec after joining a party. Skill only works while in a party with the caster. Only one of these effects can be active at a time: 'Flame Icon', 'Touch of Eva', or 'Spirit of Shillien'. Consumes 0 MP 650 HP Reuse Time 5 minutes Duration 30 seconds Can be used on Olympiad Yes Attribute None Trait trait_none Available For Paladin Lv. 68

@@ -2,96 +2,93 @@
   "key": "npc:21195",
   "type": "npc",
   "id": 21195,
-  "name": "Lu4 Wiki: NPC Gigant Commander",
+  "name": "Gigant Commander",
   "url": "/lu4/npc/21195-gigant-commander",
-  "source_url": "https://masterwork.wiki/lu4/npc/21195-gigant-commander",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21195-gigant-commander",
   "raw_html": "library/raw/lu4/npc/21195-gigant-commander.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "7 483 / 751",
+    "P. Atk. / M. Atk.": "573 / 288",
+    "P. Def. / M. Def.": "273 / 179",
+    "Accuracy / Evasion": "88 / 78",
+    "Exp / SP": "10 924 / 760",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Strong P. Def. Lv. 14 Slightly Weak M. Def. Lv. 9 Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks. Hold Resistance Lv. 3 Slightly resistant to Hold. Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 45"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21195",
-      "type": "npc",
-      "id": 21195,
-      "name": "Lu4",
-      "url": "/lu4/npc/21195-gigant-commander"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4336",
       "type": "skill",
       "id": 4336,
-      "name": "Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks.",
-      "url": "/lu4/skill/4336-dark-attack-vulnerability/2"
+      "name": "Dark Attack Vulnerability",
+      "url": "/lu4/skill/4336-dark-attack-vulnerability"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
-      "key": "item:8752",
+      "key": "item:6360",
       "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
-    },
-    {
-      "key": "item:6362",
-      "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
+      "id": 6360,
+      "name": "Blue Seal Stone NG",
+      "url": "/lu4/item/6360-blue-seal-stone"
     },
     {
       "key": "item:6361",
@@ -101,11 +98,32 @@
       "url": "/lu4/item/6361-green-seal-stone"
     },
     {
-      "key": "item:6360",
+      "key": "item:6362",
       "type": "item",
-      "id": 6360,
-      "name": "Blue Seal Stone NG",
-      "url": "/lu4/item/6360-blue-seal-stone"
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
+    },
+    {
+      "key": "item:281",
+      "type": "item",
+      "id": 281,
+      "name": "Crystallized Ice Bow C",
+      "url": "/lu4/item/281-crystallized-ice-bow"
+    },
+    {
+      "key": "item:2074",
+      "type": "item",
+      "id": 2074,
+      "name": "Crystallized Ice Bow Shaft NG",
+      "url": "/lu4/item/2074-crystallized-ice-bow-shaft"
+    },
+    {
+      "key": "item:8752",
+      "type": "item",
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
     },
     {
       "key": "item:6036",
@@ -136,13 +154,6 @@
       "url": "/lu4/item/2164-recipe-ring-of-protection"
     },
     {
-      "key": "item:2074",
-      "type": "item",
-      "id": 2074,
-      "name": "Crystallized Ice Bow Shaft NG",
-      "url": "/lu4/item/2074-crystallized-ice-bow-shaft"
-    },
-    {
       "key": "item:1895",
       "type": "item",
       "id": 1895,
@@ -171,11 +182,11 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:281",
+      "key": "item:440",
       "type": "item",
-      "id": 281,
-      "name": "Crystallized Ice Bow C",
-      "url": "/lu4/item/281-crystallized-ice-bow"
+      "id": 440,
+      "name": "Robe of Seal C",
+      "url": "/lu4/item/440-robe-of-seal"
     },
     {
       "key": "item:1908",
@@ -183,13 +194,6 @@
       "id": 1908,
       "name": "Moonstone Earring Wire NG",
       "url": "/lu4/item/1908-moonstone-earring-wire"
-    },
-    {
-      "key": "item:440",
-      "type": "item",
-      "id": 440,
-      "name": "Robe of Seal C",
-      "url": "/lu4/item/440-robe-of-seal"
     }
   ]
 }

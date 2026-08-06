@@ -2,126 +2,88 @@
   "key": "npc:20368",
   "type": "npc",
   "id": 20368,
-  "name": "Lu4 Wiki: NPC Grave Keeper",
+  "name": "Grave Keeper",
   "url": "/lu4/npc/20368-grave-keeper",
-  "source_url": "https://masterwork.wiki/lu4/npc/20368-grave-keeper",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20368-grave-keeper",
   "raw_html": "library/raw/lu4/npc/20368-grave-keeper.html",
   "stats": {
-    "Location": "Кайнак (+1) Кайнак Плато Бессмертия"
+    "Respawn Time": "35 seconds",
+    "Location": "Кайнак (+1) Кайнак Плато Бессмертия",
+    "HP / MP": "706 / 163",
+    "P. Atk. / M. Atk.": "31 / 14",
+    "P. Def. / M. Def.": "96 / 88",
+    "Accuracy / Evasion": "46 / 46",
+    "Exp / SP": "718 / 72",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 13 Strong M. Def. Lv. 15 Greater Bow/Crossbow Resistance Lv. 1 Highly resistant to Bow/Crossbows. Dagger/Rapier Resistance Lv. 2 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 13"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20368",
-      "type": "npc",
-      "id": 20368,
-      "name": "Lu4",
-      "url": "/lu4/npc/20368-grave-keeper"
-    },
-    {
-      "key": "location:60",
-      "type": "location",
-      "id": 60,
-      "name": "Кайнак",
-      "url": "/lu4/location/60-kajnak"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 15",
-      "url": "/lu4/skill/4413-strong-m-def/15"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 1 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/1"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 2 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/2"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1793",
-      "type": "item",
-      "id": 1793,
-      "name": "Recipe: Sword of Reflection NG",
-      "url": "/lu4/item/1793-recipe-sword-of-reflection"
-    },
-    {
-      "key": "item:271",
-      "type": "item",
-      "id": 271,
-      "name": "Hunting Bow NG",
-      "url": "/lu4/item/271-hunting-bow"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "item:57",
@@ -131,11 +93,32 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1873",
+      "key": "item:271",
       "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
+      "id": 271,
+      "name": "Hunting Bow NG",
+      "url": "/lu4/item/271-hunting-bow"
+    },
+    {
+      "key": "item:1793",
+      "type": "item",
+      "id": 1793,
+      "name": "Recipe: Sword of Reflection NG",
+      "url": "/lu4/item/1793-recipe-sword-of-reflection"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
     },
     {
       "key": "item:1833",
@@ -143,6 +126,13 @@
       "id": 1833,
       "name": "Bandage NG",
       "url": "/lu4/item/1833-bandage"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
     }
   ]
 }

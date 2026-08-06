@@ -2,173 +2,177 @@
   "key": "npc:20665",
   "type": "npc",
   "id": 20665,
-  "name": "Lu4 Wiki: NPC Taik Orc Supply",
+  "name": "Taik Orc Supply",
   "url": "/lu4/npc/20665-taik-orc-supply",
-  "source_url": "https://masterwork.wiki/lu4/npc/20665-taik-orc-supply",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20665-taik-orc-supply",
   "raw_html": "library/raw/lu4/npc/20665-taik-orc-supply.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 323 / 956",
+    "P. Atk. / M. Atk.": "445 / 257",
+    "P. Def. / M. Def.": "333 / 258",
+    "Accuracy / Evasion": "87 / 86",
+    "Exp / SP": "4 501 / 343",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 51"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20665",
-      "type": "npc",
-      "id": 20665,
-      "name": "Lu4",
-      "url": "/lu4/npc/20665-taik-orc-supply"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8614",
+      "key": "item:2105",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
+      "id": 2105,
+      "name": "Mace of Underworld Head NG",
+      "url": "/lu4/item/2105-mace-of-underworld-head"
     },
     {
-      "key": "item:8613",
+      "key": "item:2104",
       "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
+      "id": 2104,
+      "name": "Club of Nature Head NG",
+      "url": "/lu4/item/2104-club-of-nature-head"
     },
     {
-      "key": "item:8612",
+      "key": "item:2103",
       "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
+      "id": 2103,
+      "name": "Sage's Staff Head NG",
+      "url": "/lu4/item/2103-sages-staff-head"
     },
     {
-      "key": "item:8611",
+      "key": "item:2102",
       "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
+      "id": 2102,
+      "name": "Pa'agrian Hammer Head NG",
+      "url": "/lu4/item/2102-paagrian-hammer-head"
     },
     {
-      "key": "item:8610",
+      "key": "item:2100",
       "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+      "id": 2100,
+      "name": "Paradia Staff Head NG",
+      "url": "/lu4/item/2100-paradia-staff-head"
     },
     {
-      "key": "item:8609",
+      "key": "item:2099",
       "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
+      "id": 2099,
+      "name": "Stick of Eternity Shaft NG",
+      "url": "/lu4/item/2099-stick-of-eternity-shaft"
     },
     {
-      "key": "item:8608",
+      "key": "item:2098",
       "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
+      "id": 2098,
+      "name": "Nirvana Axe Blade NG",
+      "url": "/lu4/item/2098-nirvana-axe-blade"
     },
     {
-      "key": "item:8607",
+      "key": "item:2097",
       "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
+      "id": 2097,
+      "name": "War Axe Blade NG",
+      "url": "/lu4/item/2097-war-axe-blade"
     },
     {
-      "key": "item:8606",
+      "key": "item:196",
       "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
+      "id": 196,
+      "name": "Stick of Eternity C",
+      "url": "/lu4/item/196-stick-of-eternity"
     },
     {
-      "key": "item:8605",
+      "key": "item:174",
       "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
+      "id": 174,
+      "name": "Nirvana Axe C",
+      "url": "/lu4/item/174-nirvana-axe"
     },
     {
-      "key": "item:8604",
+      "key": "item:197",
       "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
+      "id": 197,
+      "name": "Paradia Staff C",
+      "url": "/lu4/item/197-paradia-staff"
     },
     {
-      "key": "item:8603",
+      "key": "item:199",
       "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
+      "id": 199,
+      "name": "Pa'agrian Hammer C",
+      "url": "/lu4/item/199-paagrian-hammer"
     },
     {
-      "key": "item:8602",
+      "key": "item:200",
       "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
+      "id": 200,
+      "name": "Sage's Staff C",
+      "url": "/lu4/item/200-sages-staff"
     },
     {
-      "key": "item:8601",
+      "key": "item:201",
       "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
+      "id": 201,
+      "name": "Club of Nature C",
+      "url": "/lu4/item/201-club-of-nature"
     },
     {
-      "key": "item:8600",
+      "key": "item:202",
       "type": "item",
-      "id": 8600,
-      "name": "Herb of Life NG",
-      "url": "/lu4/item/8600-herb-of-life"
+      "id": 202,
+      "name": "Mace of Underworld C",
+      "url": "/lu4/item/202-mace-of-underworld"
     },
     {
-      "key": "item:4125",
+      "key": "item:162",
       "type": "item",
-      "id": 4125,
-      "name": "Recipe: Maestro Mold (100%) NG",
-      "url": "/lu4/item/4125-recipe-maestro-mold-100"
+      "id": 162,
+      "name": "War Axe C",
+      "url": "/lu4/item/162-war-axe"
     },
     {
       "key": "item:4043",
@@ -185,11 +189,11 @@
       "url": "/lu4/item/4039-mold-glue"
     },
     {
-      "key": "item:3014",
+      "key": "item:4125",
       "type": "item",
-      "id": 3014,
-      "name": "Recipe: Full Plate Boots NG",
-      "url": "/lu4/item/3014-recipe-full-plate-boots"
+      "id": 4125,
+      "name": "Recipe: Maestro Mold (100%) NG",
+      "url": "/lu4/item/4125-recipe-maestro-mold-100"
     },
     {
       "key": "item:2359",
@@ -197,13 +201,6 @@
       "id": 2359,
       "name": "Recipe: Eminence Bow NG",
       "url": "/lu4/item/2359-recipe-eminence-bow"
-    },
-    {
-      "key": "item:2104",
-      "type": "item",
-      "id": 2104,
-      "name": "Club of Nature Head NG",
-      "url": "/lu4/item/2104-club-of-nature-head"
     }
   ]
 }

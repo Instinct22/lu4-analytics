@@ -2,194 +2,142 @@
   "key": "npc:22054",
   "type": "npc",
   "id": 22054,
-  "name": "Lu4 Wiki: NPC Horrifying Cannon Golem IV",
+  "name": "Horrifying Cannon Golem IV",
   "url": "/lu4/npc/22054-horrifying-cannon-golem-iv",
-  "source_url": "https://masterwork.wiki/lu4/npc/22054-horrifying-cannon-golem-iv",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22054-horrifying-cannon-golem-iv",
   "raw_html": "library/raw/lu4/npc/22054-horrifying-cannon-golem-iv.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 155 / 938",
+    "P. Atk. / M. Atk.": "614 / 265",
+    "P. Def. / M. Def.": "314 / 271",
+    "Accuracy / Evasion": "81 / 71",
+    "Exp / SP": "3 423 / 250",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Slightly Strong M. Def. Lv. 13 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. Dagger/Rapier Resistance Lv. 1 Resistant to Dagger/Rapier attacks. Greater Bleed Resistance Lv. 4 Highly resistant to Bleed. Fist Weapon Vulnerability Lv. 2 Vulnerable to Fist Weapons. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 48"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22054",
-      "type": "npc",
-      "id": 22054,
-      "name": "Lu4",
-      "url": "/lu4/npc/22054-horrifying-cannon-golem-iv"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 1 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/1"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4437",
       "type": "skill",
       "id": 4437,
-      "name": "Greater Bleed Resistance Lv. 4 Highly resistant to Bleed.",
-      "url": "/lu4/skill/4437-greater-bleed-resistance/4"
+      "name": "Greater Bleed Resistance",
+      "url": "/lu4/skill/4437-greater-bleed-resistance"
     },
     {
       "key": "skill:4457",
       "type": "skill",
       "id": 4457,
-      "name": "Fist Weapon Vulnerability Lv. 2 Vulnerable to Fist Weapons.",
-      "url": "/lu4/skill/4457-fist-weapon-vulnerability/2"
+      "name": "Fist Weapon Vulnerability",
+      "url": "/lu4/skill/4457-fist-weapon-vulnerability"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8614",
+      "key": "item:1126",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
+      "id": 1126,
+      "name": "Crimson Boots C",
+      "url": "/lu4/item/1126-crimson-boots"
     },
     {
-      "key": "item:8613",
+      "key": "item:1974",
       "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
+      "id": 1974,
+      "name": "Crimson Boot Fabric NG",
+      "url": "/lu4/item/1974-crimson-boot-fabric"
     },
     {
-      "key": "item:8612",
+      "key": "item:2434",
       "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
+      "id": 2434,
+      "name": "Rind Leather Boots C",
+      "url": "/lu4/item/2434-rind-leather-boots"
     },
     {
-      "key": "item:8611",
+      "key": "item:2948",
       "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
+      "id": 2948,
+      "name": "Rind Leather Boots Lining NG",
+      "url": "/lu4/item/2948-rind-leather-boots-lining"
     },
     {
-      "key": "item:8610",
+      "key": "item:2455",
       "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+      "id": 2455,
+      "name": "Plated Leather Gloves C",
+      "url": "/lu4/item/2455-plated-leather-gloves"
     },
     {
-      "key": "item:8609",
+      "key": "item:2946",
       "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
+      "id": 2946,
+      "name": "Plate Leather Gloves Design NG",
+      "url": "/lu4/item/2946-plate-leather-gloves-design"
     },
     {
-      "key": "item:8608",
+      "key": "item:2456",
       "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
+      "id": 2456,
+      "name": "Dwarven Chain Gauntlets C",
+      "url": "/lu4/item/2456-dwarven-chain-gauntlets"
     },
     {
-      "key": "item:8607",
+      "key": "item:2949",
       "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
+      "id": 2949,
+      "name": "Dwarven Chain Gauntlets Design NG",
+      "url": "/lu4/item/2949-dwarven-chain-gauntlets-design"
     },
     {
-      "key": "item:8606",
+      "key": "item:2457",
       "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
-    },
-    {
-      "key": "item:8600",
-      "type": "item",
-      "id": 8600,
-      "name": "Herb of Life NG",
-      "url": "/lu4/item/8600-herb-of-life"
-    },
-    {
-      "key": "item:4039",
-      "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
-    },
-    {
-      "key": "item:2951",
-      "type": "item",
-      "id": 2951,
-      "name": "Rind Leather Gloves Design NG",
-      "url": "/lu4/item/2951-rind-leather-gloves-design"
+      "id": 2457,
+      "name": "Gloves of Seal C",
+      "url": "/lu4/item/2457-gloves-of-seal"
     },
     {
       "key": "item:2950",
@@ -199,11 +147,74 @@
       "url": "/lu4/item/2950-gloves-of-seal-pattern"
     },
     {
-      "key": "item:4590",
+      "key": "item:2458",
       "type": "item",
-      "id": 4590,
-      "name": "Greater Dye of STR <Str+2 Dex-2> NG",
-      "url": "/lu4/item/4590-greater-dye-of-str-str2-dex-2"
+      "id": 2458,
+      "name": "Rind Leather Gloves C",
+      "url": "/lu4/item/2458-rind-leather-gloves"
+    },
+    {
+      "key": "item:2951",
+      "type": "item",
+      "id": 2951,
+      "name": "Rind Leather Gloves Design NG",
+      "url": "/lu4/item/2951-rind-leather-gloves-design"
+    },
+    {
+      "key": "item:8600",
+      "type": "item",
+      "id": 8600,
+      "name": "Herb of Life NG",
+      "url": "/lu4/item/8600-herb-of-life"
+    },
+    {
+      "key": "item:8601",
+      "type": "item",
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
+    },
+    {
+      "key": "item:8602",
+      "type": "item",
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
+    },
+    {
+      "key": "item:8607",
+      "type": "item",
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
+    },
+    {
+      "key": "item:8609",
+      "type": "item",
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
+    },
+    {
+      "key": "item:8603",
+      "type": "item",
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:1884",
+      "type": "item",
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
     },
     {
       "key": "item:1966",
@@ -213,11 +224,11 @@
       "url": "/lu4/item/1966-plated-leather-shirt-fragment"
     },
     {
-      "key": "item:1884",
+      "key": "item:4590",
       "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
+      "id": 4590,
+      "name": "Greater Dye of STR <Str+2 Dex-2> NG",
+      "url": "/lu4/item/4590-greater-dye-of-str-str2-dex-2"
     }
   ]
 }

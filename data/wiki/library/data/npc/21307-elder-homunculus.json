@@ -2,96 +2,107 @@
   "key": "npc:21307",
   "type": "npc",
   "id": 21307,
-  "name": "Lu4 Wiki: NPC Elder Homunculus",
+  "name": "Elder Homunculus",
   "url": "/lu4/npc/21307-elder-homunculus",
-  "source_url": "https://masterwork.wiki/lu4/npc/21307-elder-homunculus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21307-elder-homunculus",
   "raw_html": "library/raw/lu4/npc/21307-elder-homunculus.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "17 424 / 1 674",
+    "P. Atk. / M. Atk.": "1 877 / 1 341",
+    "P. Def. / M. Def.": "402 / 368",
+    "Accuracy / Evasion": "113 / 127",
+    "Exp / SP": "29 576 / 3 120",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire -5, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 9 Slightly Weak M. Def. Lv. 9 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. One-handed Sword Lv. 3 One-handed Sword Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks. High Lv. Lv. 4 NPC High Level",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 75"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21307",
-      "type": "npc",
-      "id": 21307,
-      "name": "Lu4",
-      "url": "/lu4/npc/21307-elder-homunculus"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 9",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/9"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 4 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/4"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32431",
@@ -99,34 +110,6 @@
       "id": 32431,
       "name": "Unidentified Infernal Master A",
       "url": "/lu4/item/32431-unidentified-infernal-master"
-    },
-    {
-      "key": "item:32330",
-      "type": "item",
-      "id": 32330,
-      "name": "Unidentified Elemental Sword A",
-      "url": "/lu4/item/32330-unidentified-elemental-sword"
-    },
-    {
-      "key": "item:32323",
-      "type": "item",
-      "id": 32323,
-      "name": "Unidentified Tallum Blade A",
-      "url": "/lu4/item/32323-unidentified-tallum-blade"
-    },
-    {
-      "key": "item:8331",
-      "type": "item",
-      "id": 8331,
-      "name": "Infernal Master Blade NG",
-      "url": "/lu4/item/8331-infernal-master-blade"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
     },
     {
       "key": "item:5548",
@@ -143,18 +126,25 @@
       "url": "/lu4/item/5547-elemental-sword-edge"
     },
     {
-      "key": "item:5277",
+      "key": "item:8331",
       "type": "item",
-      "id": 5277,
-      "name": "Recipe: Greater Spiritshot (S) Compressed Package(100%) NG",
-      "url": "/lu4/item/5277-recipe-greater-spiritshot-s-compressed-package100"
+      "id": 8331,
+      "name": "Infernal Master Blade NG",
+      "url": "/lu4/item/8331-infernal-master-blade"
     },
     {
-      "key": "item:4044",
+      "key": "item:32330",
       "type": "item",
-      "id": 4044,
-      "name": "Thons NG",
-      "url": "/lu4/item/4044-thons"
+      "id": 32330,
+      "name": "Unidentified Elemental Sword A",
+      "url": "/lu4/item/32330-unidentified-elemental-sword"
+    },
+    {
+      "key": "item:32323",
+      "type": "item",
+      "id": 32323,
+      "name": "Unidentified Tallum Blade A",
+      "url": "/lu4/item/32323-unidentified-tallum-blade"
     },
     {
       "key": "item:1889",
@@ -171,6 +161,13 @@
       "url": "/lu4/item/1873-silver-nugget"
     },
     {
+      "key": "item:5277",
+      "type": "item",
+      "id": 5277,
+      "name": "Recipe: Greater Spiritshot (S) Compressed Package(100%) NG",
+      "url": "/lu4/item/5277-recipe-greater-spiritshot-s-compressed-package100"
+    },
+    {
       "key": "item:1868",
       "type": "item",
       "id": 1868,
@@ -178,18 +175,18 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:5549",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     },
     {
-      "key": "item:5481",
+      "key": "item:4044",
       "type": "item",
-      "id": 5481,
-      "name": "Sealed Majestic Leather Armor Fabric NG",
-      "url": "/lu4/item/5481-sealed-majestic-leather-armor-fabric"
+      "id": 4044,
+      "name": "Thons NG",
+      "url": "/lu4/item/4044-thons"
     },
     {
       "key": "item:5480",
@@ -204,6 +201,13 @@
       "id": 1808,
       "name": "Recipe: Soulshot (S-Grade) NG",
       "url": "/lu4/item/1808-recipe-soulshot-s-grade"
+    },
+    {
+      "key": "item:5481",
+      "type": "item",
+      "id": 5481,
+      "name": "Sealed Majestic Leather Armor Fabric NG",
+      "url": "/lu4/item/5481-sealed-majestic-leather-armor-fabric"
     }
   ]
 }

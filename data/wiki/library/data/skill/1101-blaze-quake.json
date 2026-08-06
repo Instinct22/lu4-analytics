@@ -1,0 +1,30 @@
+{
+  "key": "skill:1101",
+  "type": "skill",
+  "id": 1101,
+  "name": "Blaze Quake",
+  "url": "/lu4/skill/1101-blaze-quake",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1101-blaze-quake",
+  "raw_html": "library/raw/lu4/skill/1101-blaze-quake.html",
+  "stats": {
+    "Effect": "Ignites nearby enemies, causing loss of 58 HP per second.",
+    "Consumes": "50 MP",
+    "Reuse Time": "4 seconds",
+    "Duration": "15 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "Fire 0",
+    "Trait": "trait_fire",
+    "Available For": "Orc ShamanLv. 25",
+    "Type": "Magical / Magical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:50",
+      "type": "class",
+      "id": 50,
+      "name": "Orc ShamanLv. 25",
+      "url": "/lu4/class/50-orcshaman"
+    }
+  ]
+}

@@ -2,77 +2,74 @@
   "key": "npc:25354",
   "type": "npc",
   "id": 25354,
-  "name": "Lu4 Wiki: NPC Gargoyle Lord Sirocco",
+  "name": "Gargoyle Lord Sirocco",
   "url": "/lu4/npc/25354-gargoyle-lord-sirocco",
-  "source_url": "https://masterwork.wiki/lu4/npc/25354-gargoyle-lord-sirocco",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25354-gargoyle-lord-sirocco",
   "raw_html": "library/raw/lu4/npc/25354-gargoyle-lord-sirocco.html",
   "stats": {
-    "Location": "Пустошь"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Пустошь",
+    "HP / MP": "165 290 / 8 254",
+    "P. Atk. / M. Atk.": "493 / 197",
+    "P. Def. / M. Def.": "514 / 551",
+    "Accuracy / Evasion": "86 / 86",
+    "Exp / SP": "857 500 / 138 419",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Gargoyle Lord rules the Gargoyles of the Wasteland. Strong-willed and confident, he resists the wishes of the Ancient Gargoyles. Rather than waiting for Shilen's resurrection, which he says may never occur, he is focused on building a Gargoyle kingdom now. Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 35"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25354",
-      "type": "npc",
-      "id": 25354,
-      "name": "Lu4",
-      "url": "/lu4/npc/25354-gargoyle-lord-sirocco"
-    },
-    {
-      "key": "location:15",
-      "type": "location",
-      "id": 15,
-      "name": "Пустошь",
-      "url": "/lu4/location/15-pustos"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4926",
       "type": "skill",
       "id": 4926,
-      "name": "Raid Boss Lv. 1 This Gargoyle Lord rules the Gargoyles of the Wasteland. Strong-willed and confident, he resists the wishes of the Ancient Gargoyles. Rather than waiting for Shilen's resurrection, which he says may never occur, he is focused on building a Gargoyle kingdom now.",
-      "url": "/lu4/skill/4926-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4926-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -82,53 +79,88 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:159",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 159,
+      "name": "Bonebreaker D",
+      "url": "/lu4/item/159-bonebreaker"
     },
     {
-      "key": "item:6575",
+      "key": "item:189",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 189,
+      "name": "Staff of Life D",
+      "url": "/lu4/item/189-staff-of-life"
     },
     {
-      "key": "item:2934",
+      "key": "item:190",
       "type": "item",
-      "id": 2934,
-      "name": "Plate Shield Fragment NG",
-      "url": "/lu4/item/2934-plate-shield-fragment"
+      "id": 190,
+      "name": "Atuba Mace D",
+      "url": "/lu4/item/190-atuba-mace"
     },
     {
-      "key": "item:2930",
+      "key": "item:187",
       "type": "item",
-      "id": 2930,
-      "name": "Plate Helmet Design NG",
-      "url": "/lu4/item/2930-plate-helmet-design"
+      "id": 187,
+      "name": "Atuba Hammer D",
+      "url": "/lu4/item/187-atuba-hammer"
     },
     {
-      "key": "item:2494",
+      "key": "item:2048",
       "type": "item",
-      "id": 2494,
-      "name": "Plate Shield D",
-      "url": "/lu4/item/2494-plate-shield"
+      "id": 2048,
+      "name": "Bonebreaker Head NG",
+      "url": "/lu4/item/2048-bonebreaker-head"
+    },
+    {
+      "key": "item:2051",
+      "type": "item",
+      "id": 2051,
+      "name": "Staff of Life Shaft NG",
+      "url": "/lu4/item/2051-staff-of-life-shaft"
+    },
+    {
+      "key": "item:2058",
+      "type": "item",
+      "id": 2058,
+      "name": "Atuba Mace Head NG",
+      "url": "/lu4/item/2058-atuba-mace-head"
+    },
+    {
+      "key": "item:2049",
+      "type": "item",
+      "id": 2049,
+      "name": "Atuba Hammer Head NG",
+      "url": "/lu4/item/2049-atuba-hammer-head"
     },
     {
       "key": "item:2412",
       "type": "item",
       "id": 2412,
-      "name": "Plate Helmet D",
-      "url": "/lu4/item/2412-plate-helmet"
+      "name": "Half Plate Helmet D",
+      "url": "/lu4/item/2412-half-plate-helmet"
     },
     {
-      "key": "item:1956",
+      "key": "item:2494",
       "type": "item",
-      "id": 1956,
-      "name": "Square Shield Fragment NG",
-      "url": "/lu4/item/1956-square-shield-fragment"
+      "id": 2494,
+      "name": "Half Plate Shield D",
+      "url": "/lu4/item/2494-half-plate-shield"
+    },
+    {
+      "key": "item:2930",
+      "type": "item",
+      "id": 2930,
+      "name": "Half Plate Helmet Design NG",
+      "url": "/lu4/item/2930-half-plate-helmet-design"
+    },
+    {
+      "key": "item:2934",
+      "type": "item",
+      "id": 2934,
+      "name": "Half Plate Shield Fragment NG",
+      "url": "/lu4/item/2934-half-plate-shield-fragment"
     },
     {
       "key": "item:956",
@@ -138,6 +170,13 @@
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     },
     {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
       "key": "item:955",
       "type": "item",
       "id": 955,
@@ -145,11 +184,11 @@
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
-      "key": "item:630",
+      "key": "item:6575",
       "type": "item",
-      "id": 630,
-      "name": "Square Shield D",
-      "url": "/lu4/item/630-square-shield"
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25355",

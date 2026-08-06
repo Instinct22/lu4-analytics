@@ -2,84 +2,38 @@
   "key": "npc:31850",
   "type": "npc",
   "id": 31850,
-  "name": "Lu4 Wiki: NPC Blight Treant",
+  "name": "Blight Treant",
   "url": "/lu4/npc/31850-blight-treant",
-  "source_url": "https://masterwork.wiki/lu4/npc/31850-blight-treant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/31850-blight-treant",
   "raw_html": "library/raw/lu4/npc/31850-blight-treant.html",
   "stats": {
-    "Location": "Сад Шилен (+6) Сад Шилен Темный Лес Нейтральные Воды Кровавые Топи Школа Темной Магии Гнездо Пауков Жертвенный Лес"
+    "Respawn Time": "1 minute",
+    "Location": "Сад Шилен (+6) Сад Шилен Темный Лес Нейтральные Воды Кровавые Топи Школа Темной Магии Гнездо Пауков Жертвенный Лес",
+    "HP / MP": "5 603 / 3 685",
+    "P. Atk. / M. Atk.": "2 119 / 21 316",
+    "P. Def. / M. Def.": "303 / 757",
+    "Accuracy / Evasion": "138 / 148",
+    "Exp / SP": "0 / 226",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 Resist Full Magic Attack Lv. 1",
+    "Type": "Elemental, Lv. 80"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:31850",
-      "type": "npc",
-      "id": 31850,
-      "name": "Lu4",
-      "url": "/lu4/npc/31850-blight-treant"
-    },
-    {
-      "key": "location:224",
-      "type": "location",
-      "id": 224,
-      "name": "Сад Шилен",
-      "url": "/lu4/location/224-sad-silen"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
-      "key": "location:106",
-      "type": "location",
-      "id": 106,
-      "name": "Кровавые Топи",
-      "url": "/lu4/location/106-krovavye-topi"
-    },
-    {
-      "key": "location:110",
-      "type": "location",
-      "id": 110,
-      "name": "Школа Темной Магии",
-      "url": "/lu4/location/110-skola-temnoj-magii"
-    },
-    {
-      "key": "location:218",
-      "type": "location",
-      "id": 218,
-      "name": "Гнездо Пауков",
-      "url": "/lu4/location/218-gnezdo-paukov"
-    },
-    {
-      "key": "location:227",
-      "type": "location",
-      "id": 227,
-      "name": "Жертвенный Лес",
-      "url": "/lu4/location/227-zertvennyj-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

@@ -2,28 +2,40 @@
   "key": "item:2923",
   "type": "item",
   "id": 2923,
-  "name": "Lu4 Wiki: Item Manticore Skin Boot Lining",
+  "name": "Manticore Skin Boot Lining",
   "url": "/lu4/item/2923-manticore-skin-boot-lining",
-  "source_url": "https://masterwork.wiki/lu4/item/2923-manticore-skin-boot-lining",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2923-manticore-skin-boot-lining",
   "raw_html": "library/raw/lu4/item/2923-manticore-skin-boot-lining.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "A key material for Dwarves to make Manticore Skin Boots.",
+    "NPC Sell Price": "740 Adena",
+    "Weight": "60",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Material"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:2923",
-      "type": "item",
-      "id": 2923,
-      "name": "Lu4",
-      "url": "/lu4/item/2923-manticore-skin-boot-lining"
+      "key": "npc:25501",
+      "type": "npc",
+      "id": 25501,
+      "name": "Boss Akata",
+      "url": "/lu4/npc/25501-boss-akata"
     },
     {
       "key": "npc:25169",
       "type": "npc",
       "id": 25169,
-      "name": "Ragraman Lv. 30",
+      "name": "Ragraman",
       "url": "/lu4/npc/25169-ragraman"
+    },
+    {
+      "key": "npc:25079",
+      "type": "npc",
+      "id": 25079,
+      "name": "Cat's Eye Bandit",
+      "url": "/lu4/npc/25079-cats-eye-bandit"
     },
     {
       "key": "npc:24256",
@@ -43,77 +55,77 @@
       "key": "npc:22045",
       "type": "npc",
       "id": 22045,
-      "name": "Dark Corpse Lv. 40",
+      "name": "Dark Corpse",
       "url": "/lu4/npc/22045-dark-corpse"
     },
     {
       "key": "npc:21807",
       "type": "npc",
       "id": 21807,
-      "name": "Treasure Chest Lv. 39",
+      "name": "Treasure Chest",
       "url": "/lu4/npc/21807-treasure-chest"
     },
     {
       "key": "npc:21687",
       "type": "npc",
       "id": 21687,
-      "name": "Dimension Invader Priest Lv. 40",
+      "name": "Dimension Invader Priest",
       "url": "/lu4/npc/21687-dimension-invader-priest"
     },
     {
       "key": "npc:20546",
       "type": "npc",
       "id": 20546,
-      "name": "Turek Orc Elder Lv. 32",
+      "name": "Turek Orc Elder",
       "url": "/lu4/npc/20546-turek-orc-elder"
     },
     {
       "key": "npc:20202",
       "type": "npc",
       "id": 20202,
-      "name": "Dead Seeker Lv. 34",
+      "name": "Dead Seeker",
       "url": "/lu4/npc/20202-dead-seeker"
     },
     {
       "key": "npc:20158",
       "type": "npc",
       "id": 20158,
-      "name": "Medusa Lv. 34",
+      "name": "Medusa",
       "url": "/lu4/npc/20158-medusa"
     },
     {
       "key": "npc:20084",
       "type": "npc",
       "id": 20084,
-      "name": "Ant Patrol Lv. 34",
+      "name": "Ant Patrol",
       "url": "/lu4/npc/20084-ant-patrol"
     },
     {
       "key": "npc:20078",
       "type": "npc",
       "id": 20078,
-      "name": "Whispering Wind Lv. 33",
+      "name": "Whispering Wind",
       "url": "/lu4/npc/20078-whispering-wind"
     },
     {
       "key": "npc:20549",
       "type": "npc",
       "id": 20549,
-      "name": "Ol Mahum Lord Lv. 34",
+      "name": "Ol Mahum Lord",
       "url": "/lu4/npc/20549-ol-mahum-lord"
     },
     {
       "key": "npc:20145",
       "type": "npc",
       "id": 20145,
-      "name": "Harpy Lv. 32",
+      "name": "Harpy",
       "url": "/lu4/npc/20145-harpy"
     },
     {
       "key": "npc:20083",
       "type": "npc",
       "id": 20083,
-      "name": "Granite Golem Lv. 33",
+      "name": "Granite Golem",
       "url": "/lu4/npc/20083-granite-golem"
     }
   ]

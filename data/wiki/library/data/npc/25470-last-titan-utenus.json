@@ -2,105 +2,114 @@
   "key": "npc:25470",
   "type": "npc",
   "id": 25470,
-  "name": "Lu4 Wiki: NPC Last Titan Utenus",
+  "name": "Last Titan Utenus",
   "url": "/lu4/npc/25470-last-titan-utenus",
-  "source_url": "https://masterwork.wiki/lu4/npc/25470-last-titan-utenus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25470-last-titan-utenus",
   "raw_html": "library/raw/lu4/npc/25470-last-titan-utenus.html",
   "stats": {
-    "Location": "Пещера Гигантов"
+    "HP / MP": "1 022 812 / 8 254",
+    "P. Atk. / M. Atk.": "12 136 / 2 474",
+    "P. Def. / M. Def.": "1 293 / 1 394",
+    "Accuracy / Evasion": "112 / 117",
+    "Exp / SP": "5 009 400 / 780 000",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 The last Giant hiding deep inside the Giants Cave. Although his body no better than other Lesser Giants, he possesses the secrets of the Ancient Giants' civilization. Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 66"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25470",
-      "type": "npc",
-      "id": 25470,
-      "name": "Lu4",
-      "url": "/lu4/npc/25470-last-titan-utenus"
-    },
-    {
-      "key": "location:69",
-      "type": "location",
-      "id": 69,
-      "name": "Пещера Гигантов",
-      "url": "/lu4/location/69-pesera-gigantov"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4967",
       "type": "skill",
       "id": 4967,
-      "name": "Raid Boss Lv. 1 The last Giant hiding deep inside the Giants Cave. Although his body no better than other Lesser Giants, he possesses the secrets of the Ancient Giants' civilization.",
-      "url": "/lu4/skill/4967-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4967-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:32378",
+      "key": "item:9910",
       "type": "item",
-      "id": 32378,
-      "name": "Unidentified Sealed Tallum Boots A",
-      "url": "/lu4/item/32378-unidentified-sealed-tallum-boots"
+      "id": 9910,
+      "name": "Proof of Loyalty NG",
+      "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:32377",
+      "key": "item:8620",
       "type": "item",
-      "id": 32377,
-      "name": "Unidentified Sealed Tallum Gloves A",
-      "url": "/lu4/item/32377-unidentified-sealed-tallum-gloves"
+      "id": 8620,
+      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
+      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
     },
     {
-      "key": "item:32373",
+      "key": "item:8621",
       "type": "item",
-      "id": 32373,
-      "name": "Unidentified Sealed Dark Crystal Boots A",
-      "url": "/lu4/item/32373-unidentified-sealed-dark-crystal-boots"
+      "id": 8621,
+      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
+      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
     },
     {
-      "key": "item:32372",
+      "key": "item:10552",
       "type": "item",
-      "id": 32372,
-      "name": "Unidentified Sealed Dark Crystal Gloves A",
-      "url": "/lu4/item/32372-unidentified-sealed-dark-crystal-gloves"
+      "id": 10552,
+      "name": "Spellbook: Fighter's Will NG",
+      "url": "/lu4/item/10552-spellbook-fighters-will"
+    },
+    {
+      "key": "item:10553",
+      "type": "item",
+      "id": 10553,
+      "name": "Spellbook: Archer's Will NG",
+      "url": "/lu4/item/10553-spellbook-archers-will"
+    },
+    {
+      "key": "item:14219",
+      "type": "item",
+      "id": 14219,
+      "name": "Spellbook: Magician's Will NG",
+      "url": "/lu4/item/14219-spellbook-magicians-will"
     },
     {
       "key": "item:32342",
@@ -117,67 +126,18 @@
       "url": "/lu4/item/32327-unidentified-halberd"
     },
     {
-      "key": "item:14219",
+      "key": "item:5452",
       "type": "item",
-      "id": 14219,
-      "name": "Spellbook: Magician's Will NG",
-      "url": "/lu4/item/14219-spellbook-magicians-will"
+      "id": 5452,
+      "name": "Recipe: Blood Tornado(60%) NG",
+      "url": "/lu4/item/5452-recipe-blood-tornado60"
     },
     {
-      "key": "item:10553",
+      "key": "item:5458",
       "type": "item",
-      "id": 10553,
-      "name": "Spellbook: Archer's Will NG",
-      "url": "/lu4/item/10553-spellbook-archers-will"
-    },
-    {
-      "key": "item:10552",
-      "type": "item",
-      "id": 10552,
-      "name": "Spellbook: Fighter's Will NG",
-      "url": "/lu4/item/10552-spellbook-fighters-will"
-    },
-    {
-      "key": "item:9910",
-      "type": "item",
-      "id": 9910,
-      "name": "Proof of Loyalty NG",
-      "url": "/lu4/item/9910-proof-of-loyalty"
-    },
-    {
-      "key": "item:8621",
-      "type": "item",
-      "id": 8621,
-      "name": "Ancient Book: Divine Inspiration (Original Version) 24th buff slot NG",
-      "url": "/lu4/item/8621-ancient-book-divine-inspiration-original-version"
-    },
-    {
-      "key": "item:8620",
-      "type": "item",
-      "id": 8620,
-      "name": "Ancient Book: Divine Inspiration (Manuscript) 23th buff slot NG",
-      "url": "/lu4/item/8620-ancient-book-divine-inspiration-manuscript"
-    },
-    {
-      "key": "item:6570",
-      "type": "item",
-      "id": 6570,
-      "name": "Blessed Scroll: Enchant Armor (A-Grade) NG",
-      "url": "/lu4/item/6570-blessed-scroll-enchant-armor-a-grade"
-    },
-    {
-      "key": "item:6569",
-      "type": "item",
-      "id": 6569,
-      "name": "Blessed Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/6569-blessed-scroll-enchant-weapon-a-grade"
-    },
-    {
-      "key": "item:5542",
-      "type": "item",
-      "id": 5542,
-      "name": "Halberd Edge NG",
-      "url": "/lu4/item/5542-halberd-edge"
+      "id": 5458,
+      "name": "Recipe: Halberd(60%) NG",
+      "url": "/lu4/item/5458-recipe-halberd60"
     },
     {
       "key": "item:5539",
@@ -187,32 +147,67 @@
       "url": "/lu4/item/5539-blood-tornado-edge"
     },
     {
-      "key": "item:5509",
+      "key": "item:5542",
       "type": "item",
-      "id": 5509,
-      "name": "Sealed Tallum Gloves Design NG",
-      "url": "/lu4/item/5509-sealed-tallum-gloves-design"
+      "id": 5542,
+      "name": "Halberd Edge NG",
+      "url": "/lu4/item/5542-halberd-edge"
     },
     {
-      "key": "item:5508",
+      "key": "item:32372",
       "type": "item",
-      "id": 5508,
-      "name": "Sealed Dark Crystal Gloves Design NG",
-      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
+      "id": 32372,
+      "name": "Unidentified Sealed Dark Crystal Gloves A",
+      "url": "/lu4/item/32372-unidentified-sealed-dark-crystal-gloves"
     },
     {
-      "key": "item:5497",
+      "key": "item:32377",
       "type": "item",
-      "id": 5497,
-      "name": "Sealed Tallum Boots Lining NG",
-      "url": "/lu4/item/5497-sealed-tallum-boots-lining"
+      "id": 32377,
+      "name": "Unidentified Sealed Tallum Gloves A",
+      "url": "/lu4/item/32377-unidentified-sealed-tallum-gloves"
     },
     {
-      "key": "item:5496",
+      "key": "item:32373",
       "type": "item",
-      "id": 5496,
-      "name": "Sealed Dark Crystal Boots Lining NG",
-      "url": "/lu4/item/5496-sealed-dark-crystal-boots-lining"
+      "id": 32373,
+      "name": "Unidentified Sealed Dark Crystal Boots A",
+      "url": "/lu4/item/32373-unidentified-sealed-dark-crystal-boots"
+    },
+    {
+      "key": "item:32378",
+      "type": "item",
+      "id": 32378,
+      "name": "Unidentified Sealed Tallum Boots A",
+      "url": "/lu4/item/32378-unidentified-sealed-tallum-boots"
+    },
+    {
+      "key": "item:5392",
+      "type": "item",
+      "id": 5392,
+      "name": "Recipe: Sealed Dark Crystal Gloves(60%) NG",
+      "url": "/lu4/item/5392-recipe-sealed-dark-crystal-gloves60"
+    },
+    {
+      "key": "item:5394",
+      "type": "item",
+      "id": 5394,
+      "name": "Recipe: Sealed Tallum Gloves(60%) NG",
+      "url": "/lu4/item/5394-recipe-sealed-tallum-gloves60"
+    },
+    {
+      "key": "item:5368",
+      "type": "item",
+      "id": 5368,
+      "name": "Recipe: Sealed Dark Crystal Boots(60%) NG",
+      "url": "/lu4/item/5368-recipe-sealed-dark-crystal-boots60"
+    },
+    {
+      "key": "item:5370",
+      "type": "item",
+      "id": 5370,
+      "name": "Recipe: Sealed Tallum Boots(60%) NG",
+      "url": "/lu4/item/5370-recipe-sealed-tallum-boots60"
     },
     {
       "key": "npc:25471",

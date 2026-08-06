@@ -2,84 +2,81 @@
   "key": "npc:20136",
   "type": "npc",
   "id": 20136,
-  "name": "Lu4 Wiki: NPC Death Knight",
+  "name": "Death Knight",
   "url": "/lu4/npc/20136-death-knight",
-  "source_url": "https://masterwork.wiki/lu4/npc/20136-death-knight",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20136-death-knight",
   "raw_html": "library/raw/lu4/npc/20136-death-knight.html",
   "stats": {
-    "Location": "Башня Крумы: 2-й этаж"
+    "Respawn Time": "1 minute ± 5 seconds",
+    "Location": "Башня Крумы: 2-й этаж",
+    "HP / MP": "8 981 / 921",
+    "P. Atk. / M. Atk.": "661 / 265",
+    "P. Def. / M. Def.": "335 / 193",
+    "Accuracy / Evasion": "83 / 83",
+    "Exp / SP": "11 460 / 1 146",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. HP Increase (4x) Lv. 12 Strong P. Atk. Lv. 14 Slightly Weak M. Def. Lv. 9 Slightly Strong P. Def. Lv. 13 Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 50"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20136",
-      "type": "npc",
-      "id": 20136,
-      "name": "Lu4",
-      "url": "/lu4/npc/20136-death-knight"
-    },
-    {
-      "key": "location:55",
-      "type": "location",
-      "id": 55,
-      "name": "Башня Крумы: 2-й этаж",
-      "url": "/lu4/location/55-basna-krumy-2-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5550",
@@ -96,46 +93,11 @@
       "url": "/lu4/item/4043-asofe"
     },
     {
-      "key": "item:2346",
+      "key": "item:1864",
       "type": "item",
-      "id": 2346,
-      "name": "Recipe: Fisted Blade NG",
-      "url": "/lu4/item/2346-recipe-fisted-blade"
-    },
-    {
-      "key": "item:2344",
-      "type": "item",
-      "id": 2344,
-      "name": "Recipe: Grace Dagger NG",
-      "url": "/lu4/item/2344-recipe-grace-dagger"
-    },
-    {
-      "key": "item:2327",
-      "type": "item",
-      "id": 2327,
-      "name": "Recipe: Caliburs NG",
-      "url": "/lu4/item/2327-recipe-caliburs"
-    },
-    {
-      "key": "item:2113",
-      "type": "item",
-      "id": 2113,
-      "name": "Scorpion Blade NG",
-      "url": "/lu4/item/2113-scorpion-blade"
-    },
-    {
-      "key": "item:2104",
-      "type": "item",
-      "id": 2104,
-      "name": "Club of Nature Head NG",
-      "url": "/lu4/item/2104-club-of-nature-head"
-    },
-    {
-      "key": "item:2096",
-      "type": "item",
-      "id": 2096,
-      "name": "Sword of Whispering Death Blade NG",
-      "url": "/lu4/item/2096-sword-of-whispering-death-blade"
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     },
     {
       "key": "item:1880",
@@ -152,18 +114,11 @@
       "url": "/lu4/item/1869-iron-ore"
     },
     {
-      "key": "item:1864",
+      "key": "item:49800",
       "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:301",
-      "type": "item",
-      "id": 301,
-      "name": "Scorpion C",
-      "url": "/lu4/item/301-scorpion"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:201",
@@ -173,6 +128,13 @@
       "url": "/lu4/item/201-club-of-nature"
     },
     {
+      "key": "item:2104",
+      "type": "item",
+      "id": 2104,
+      "name": "Club of Nature Head NG",
+      "url": "/lu4/item/2104-club-of-nature-head"
+    },
+    {
       "key": "item:145",
       "type": "item",
       "id": 145,
@@ -180,11 +142,53 @@
       "url": "/lu4/item/145-sword-of-whispering-death"
     },
     {
-      "key": "item:57",
+      "key": "item:2096",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2096,
+      "name": "Sword of Whispering Death Blade NG",
+      "url": "/lu4/item/2096-sword-of-whispering-death-blade"
+    },
+    {
+      "key": "item:301",
+      "type": "item",
+      "id": 301,
+      "name": "Scorpion C",
+      "url": "/lu4/item/301-scorpion"
+    },
+    {
+      "key": "item:2113",
+      "type": "item",
+      "id": 2113,
+      "name": "Scorpion Blade NG",
+      "url": "/lu4/item/2113-scorpion-blade"
+    },
+    {
+      "key": "item:2327",
+      "type": "item",
+      "id": 2327,
+      "name": "Recipe: Caliburs NG",
+      "url": "/lu4/item/2327-recipe-caliburs"
+    },
+    {
+      "key": "item:2346",
+      "type": "item",
+      "id": 2346,
+      "name": "Recipe: Fisted Blade NG",
+      "url": "/lu4/item/2346-recipe-fisted-blade"
+    },
+    {
+      "key": "item:2344",
+      "type": "item",
+      "id": 2344,
+      "name": "Recipe: Grace Dagger NG",
+      "url": "/lu4/item/2344-recipe-grace-dagger"
+    },
+    {
+      "key": "item:1539",
+      "type": "item",
+      "id": 1539,
+      "name": "Greater Healing Potion NG",
+      "url": "/lu4/item/1539-greater-healing-potion"
     },
     {
       "key": "item:4601",
@@ -201,13 +205,6 @@
       "url": "/lu4/item/4132-recipe-composite-shield-100"
     },
     {
-      "key": "item:2957",
-      "type": "item",
-      "id": 2957,
-      "name": "Composite Helmet Design NG",
-      "url": "/lu4/item/2957-composite-helmet-design"
-    },
-    {
       "key": "item:2331",
       "type": "item",
       "id": 2331,
@@ -215,11 +212,11 @@
       "url": "/lu4/item/2331-recipe-poleaxe"
     },
     {
-      "key": "item:2092",
+      "key": "item:2957",
       "type": "item",
-      "id": 2092,
-      "name": "Homunkulus's Sword Blade NG",
-      "url": "/lu4/item/2092-homunkuluss-sword-blade"
+      "id": 2957,
+      "name": "Composite Helmet Design NG",
+      "url": "/lu4/item/2957-composite-helmet-design"
     },
     {
       "key": "item:1980",
@@ -229,11 +226,11 @@
       "url": "/lu4/item/1980-demons-stocking-pattern"
     },
     {
-      "key": "item:1539",
+      "key": "item:2092",
       "type": "item",
-      "id": 1539,
-      "name": "Greater Healing Potion NG",
-      "url": "/lu4/item/1539-greater-healing-potion"
+      "id": 2092,
+      "name": "Homunkulus's Sword Blade NG",
+      "url": "/lu4/item/2092-homunkuluss-sword-blade"
     }
   ]
 }

@@ -1,0 +1,21 @@
+# Ice Vortex
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/1340-ice-vortex
+- Path: /lu4/skill/1340-ice-vortex
+- Type: skill
+- Key: skill:1340
+
+## Stats
+- Effect: Inflicts magic damage. Power: 126. Applies to enemy: Resistance to Water -15% Speed -30% Atk. Spd. -10% Cast. Spd. -10% Burns 12 MP every sec. Ignores Shield Defence. Over-hit is possible.
+- Consumes: 105 MP
+- Reuse Time: 15 seconds
+- Duration: 20 seconds
+- Can be used on Olympiad: Yes
+- Attribute: Water 0
+- Trait: trait_water
+- Cast Range: 900 (1400)
+- Available For: SpellsingerLv. 72
+- Type: Magical / Magical
+
+## Content
+Ice Vortex Lv. 1 Magical / Magical Inflicts magic damage. Power: 126. Applies to enemy: Resistance to Water -15% Speed -30% Atk. Spd. -10% Cast. Spd. -10% Burns 12 MP every sec. Ignores Shield Defence. Over-hit is possible. Consumes 105 MP Reuse Time 15 seconds Duration 20 seconds Can be used on Olympiad Yes Attribute Water 0 Trait trait_water Cast Range 900 (1400) Available For Spellsinger Lv. 72

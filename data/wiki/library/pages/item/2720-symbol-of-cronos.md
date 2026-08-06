@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Symbol of Cronos
+# Symbol of Cronos
 
-- Source: https://masterwork.wiki/lu4/item/2720-symbol-of-cronos
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2720-symbol-of-cronos
 - Path: /lu4/item/2720-symbol-of-cronos
 - Type: item
 - Key: item:2720
 
 ## Stats
+- Effect: The mark of Cronos, the top sage of the continent. Take this to Magister Mirien in the Town of Dion.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Symbol of Cronos
-Lu4
-Eternal
-MasterWork
-Symbol of Cronos
-NG
-Quest Item
-The mark of Cronos, the top sage of the continent. Take this to Magister Mirien in the Town of Dion.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Trial of the Scholar
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Symbol of Cronos NG Quest Item The mark of Cronos, the top sage of the continent. Take this to Magister Mirien in the Town of Dion. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

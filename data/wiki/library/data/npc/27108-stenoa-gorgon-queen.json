@@ -2,56 +2,53 @@
   "key": "npc:27108",
   "type": "npc",
   "id": 27108,
-  "name": "Lu4 Wiki: NPC Stenoa Gorgon Queen",
+  "name": "Stenoa Gorgon Queen",
   "url": "/lu4/npc/27108-stenoa-gorgon-queen",
-  "source_url": "https://masterwork.wiki/lu4/npc/27108-stenoa-gorgon-queen",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27108-stenoa-gorgon-queen",
   "raw_html": "library/raw/lu4/npc/27108-stenoa-gorgon-queen.html",
   "stats": {
-    "Location": "Сад Горгон"
+    "Respawn Time": "1 minute",
+    "Location": "Сад Горгон",
+    "HP / MP": "1 354 / 528",
+    "P. Atk. / M. Atk.": "227 / 110",
+    "P. Def. / M. Def.": "191 / 164",
+    "Accuracy / Evasion": "70 / 70",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets. One-handed Sword Lv. 3 One-handed Sword",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 37"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:27108",
-      "type": "npc",
-      "id": 27108,
-      "name": "Lu4",
-      "url": "/lu4/npc/27108-stenoa-gorgon-queen"
-    },
-    {
-      "key": "location:174",
-      "type": "location",
-      "id": 174,
-      "name": "Сад Горгон",
-      "url": "/lu4/location/174-sad-gorgon"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
-      "key": "item:39297",
+      "key": "item:39295",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
       "key": "item:39296",
@@ -61,11 +58,11 @@
       "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:39295",
+      "key": "item:39297",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "npc:27109",

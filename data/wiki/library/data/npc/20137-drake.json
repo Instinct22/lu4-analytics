@@ -2,112 +2,81 @@
   "key": "npc:20137",
   "type": "npc",
   "id": 20137,
-  "name": "Lu4 Wiki: NPC Drake",
+  "name": "Drake",
   "url": "/lu4/npc/20137-drake",
-  "source_url": "https://masterwork.wiki/lu4/npc/20137-drake",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20137-drake",
   "raw_html": "library/raw/lu4/npc/20137-drake.html",
   "stats": {
-    "Location": "Долина Драконов (+1) Долина Драконов Нейтральные Воды"
+    "Respawn Time": "1 minute, 25 seconds",
+    "Location": "Долина Драконов (+1) Долина Драконов Нейтральные Воды",
+    "HP / MP": "17 708 / 1 157",
+    "P. Atk. / M. Atk.": "916 / 649",
+    "P. Def. / M. Def.": "398 / 261",
+    "Accuracy / Evasion": "90 / 90",
+    "Exp / SP": "27 965 / 2 797",
+    "Attack Attribute": "Fire 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% HP Increase (6x) Lv. 14 Slightly Strong P. Atk. Lv. 13 Strong M. Atk. Lv. 14 Slightly Strong P. Def. Lv. 12 Slightly Weak M. Def. Lv. 10 Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Dragon, Lv. 57"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20137",
-      "type": "npc",
-      "id": 20137,
-      "name": "Lu4",
-      "url": "/lu4/npc/20137-drake"
-    },
-    {
-      "key": "location:12",
-      "type": "location",
-      "id": 12,
-      "name": "Долина Драконов",
-      "url": "/lu4/location/12-dolina-drakonov"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/3"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:32590",
+      "key": "item:57",
       "type": "item",
-      "id": 32590,
-      "name": "Unidentified Avadon Robe B",
-      "url": "/lu4/item/32590-unidentified-avadon-robe"
-    },
-    {
-      "key": "item:32339",
-      "type": "item",
-      "id": 32339,
-      "name": "Unidentified Hell Knife B",
-      "url": "/lu4/item/32339-unidentified-hell-knife"
-    },
-    {
-      "key": "item:32321",
-      "type": "item",
-      "id": 32321,
-      "name": "Unidentified Great Sword B",
-      "url": "/lu4/item/32321-unidentified-great-sword"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5550",
@@ -117,25 +86,11 @@
       "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
-      "key": "item:4110",
+      "key": "item:1864",
       "type": "item",
-      "id": 4110,
-      "name": "Hell Knife Edge NG",
-      "url": "/lu4/item/4110-hell-knife-edge"
-    },
-    {
-      "key": "item:4104",
-      "type": "item",
-      "id": 4104,
-      "name": "Great Sword Blade NG",
-      "url": "/lu4/item/4104-great-sword-blade"
-    },
-    {
-      "key": "item:4071",
-      "type": "item",
-      "id": 4071,
-      "name": "Avadon Robe Fabric NG",
-      "url": "/lu4/item/4071-avadon-robe-fabric"
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     },
     {
       "key": "item:4043",
@@ -159,18 +114,53 @@
       "url": "/lu4/item/1869-iron-ore"
     },
     {
-      "key": "item:1864",
+      "key": "item:6571",
       "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
+      "id": 6571,
+      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:32590",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32590,
+      "name": "Unidentified Avadon Robe B",
+      "url": "/lu4/item/32590-unidentified-avadon-robe"
+    },
+    {
+      "key": "item:4071",
+      "type": "item",
+      "id": 4071,
+      "name": "Avadon Robe Fabric NG",
+      "url": "/lu4/item/4071-avadon-robe-fabric"
+    },
+    {
+      "key": "item:32321",
+      "type": "item",
+      "id": 32321,
+      "name": "Unidentified Great Sword B",
+      "url": "/lu4/item/32321-unidentified-great-sword"
+    },
+    {
+      "key": "item:4104",
+      "type": "item",
+      "id": 4104,
+      "name": "Great Sword Blade NG",
+      "url": "/lu4/item/4104-great-sword-blade"
+    },
+    {
+      "key": "item:32339",
+      "type": "item",
+      "id": 32339,
+      "name": "Unidentified Hell Knife B",
+      "url": "/lu4/item/32339-unidentified-hell-knife"
+    },
+    {
+      "key": "item:4110",
+      "type": "item",
+      "id": 4110,
+      "name": "Hell Knife Edge NG",
+      "url": "/lu4/item/4110-hell-knife-edge"
     },
     {
       "key": "item:1877",

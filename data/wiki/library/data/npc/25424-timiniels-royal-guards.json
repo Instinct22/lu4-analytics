@@ -2,47 +2,44 @@
   "key": "npc:25424",
   "type": "npc",
   "id": 25424,
-  "name": "Lu4 Wiki: NPC Timiniel's Royal Guards",
+  "name": "Timiniel's Royal Guards",
   "url": "/lu4/npc/25424-timiniels-royal-guards",
-  "source_url": "https://masterwork.wiki/lu4/npc/25424-timiniels-royal-guards",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25424-timiniels-royal-guards",
   "raw_html": "library/raw/lu4/npc/25424-timiniels-royal-guards.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "26 550 / 2 063",
+    "P. Atk. / M. Atk.": "809 / 673",
+    "P. Def. / M. Def.": "552 / 554",
+    "Accuracy / Evasion": "93 / 103",
+    "Exp / SP": "0 / 1 172",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 60"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25424",
-      "type": "npc",
-      "id": 25424,
-      "name": "Lu4",
-      "url": "/lu4/npc/25424-timiniels-royal-guards"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:1539",

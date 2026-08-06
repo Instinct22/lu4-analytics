@@ -2,154 +2,88 @@
   "key": "npc:21090",
   "type": "npc",
   "id": 21090,
-  "name": "Lu4 Wiki: NPC Bloody Guardian",
+  "name": "Bloody Guardian",
   "url": "/lu4/npc/21090-bloody-guardian",
-  "source_url": "https://masterwork.wiki/lu4/npc/21090-bloody-guardian",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21090-bloody-guardian",
   "raw_html": "library/raw/lu4/npc/21090-bloody-guardian.html",
   "stats": {
-    "Location": "Логово Антараса"
+    "Respawn Time": "4 minutes, 10 seconds ± 20 seconds",
+    "Location": "Логово Антараса",
+    "HP / MP": "24 335 / 1 814",
+    "P. Atk. / M. Atk.": "2 530 / 2 087",
+    "P. Def. / M. Def.": "687 / 566",
+    "Accuracy / Evasion": "101 / 101",
+    "Exp / SP": "52 103 / 5 210",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 5, Unholy 40",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 16 Very Strong M. Atk. Lv. 16 Strong P. Def. Lv. 14 Strong M. Def. Lv. 14 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 68"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21090",
-      "type": "npc",
-      "id": 21090,
-      "name": "Lu4",
-      "url": "/lu4/npc/21090-bloody-guardian"
-    },
-    {
-      "key": "location:45",
-      "type": "location",
-      "id": 45,
-      "name": "Логово Антараса",
-      "url": "/lu4/location/45-logovo-antarasa"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Very Strong M. Atk. Lv. 16",
-      "url": "/lu4/skill/4411-very-strong-m-atk/16"
+      "name": "Very Strong M. Atk.",
+      "url": "/lu4/skill/4411-very-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32373",
-      "type": "item",
-      "id": 32373,
-      "name": "Unidentified Sealed Dark Crystal Boots A",
-      "url": "/lu4/item/32373-unidentified-sealed-dark-crystal-boots"
-    },
-    {
-      "key": "item:32330",
-      "type": "item",
-      "id": 32330,
-      "name": "Unidentified Elemental Sword A",
-      "url": "/lu4/item/32330-unidentified-elemental-sword"
-    },
-    {
-      "key": "item:6341",
-      "type": "item",
-      "id": 6341,
-      "name": "Sealed Phoenix Earring Gemstone NG",
-      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
-    },
-    {
-      "key": "item:6324",
-      "type": "item",
-      "id": 6324,
-      "name": "Sealed Phoenix Earring A",
-      "url": "/lu4/item/6324-sealed-phoenix-earring"
-    },
-    {
-      "key": "item:5547",
-      "type": "item",
-      "id": 5547,
-      "name": "Elemental Sword Edge NG",
-      "url": "/lu4/item/5547-elemental-sword-edge"
-    },
-    {
-      "key": "item:5496",
-      "type": "item",
-      "id": 5496,
-      "name": "Sealed Dark Crystal Boots Lining NG",
-      "url": "/lu4/item/5496-sealed-dark-crystal-boots-lining"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -187,32 +121,74 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:8346",
+      "key": "item:32330",
       "type": "item",
-      "id": 8346,
-      "name": "Hammer Piece of Destroyer NG",
-      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
+      "id": 32330,
+      "name": "Unidentified Elemental Sword A",
+      "url": "/lu4/item/32330-unidentified-elemental-sword"
     },
     {
-      "key": "item:5394",
+      "key": "item:5547",
       "type": "item",
-      "id": 5394,
-      "name": "Recipe: Sealed Tallum Gloves(60%) NG",
-      "url": "/lu4/item/5394-recipe-sealed-tallum-gloves60"
+      "id": 5547,
+      "name": "Elemental Sword Edge NG",
+      "url": "/lu4/item/5547-elemental-sword-edge"
     },
     {
-      "key": "item:5392",
+      "key": "item:32373",
       "type": "item",
-      "id": 5392,
-      "name": "Recipe: Sealed Dark Crystal Gloves(60%) NG",
-      "url": "/lu4/item/5392-recipe-sealed-dark-crystal-gloves60"
+      "id": 32373,
+      "name": "Unidentified Sealed Dark Crystal Boots A",
+      "url": "/lu4/item/32373-unidentified-sealed-dark-crystal-boots"
+    },
+    {
+      "key": "item:5496",
+      "type": "item",
+      "id": 5496,
+      "name": "Sealed Dark Crystal Boots Lining NG",
+      "url": "/lu4/item/5496-sealed-dark-crystal-boots-lining"
+    },
+    {
+      "key": "item:6324",
+      "type": "item",
+      "id": 6324,
+      "name": "Sealed Phoenix Earring A",
+      "url": "/lu4/item/6324-sealed-phoenix-earring"
+    },
+    {
+      "key": "item:6341",
+      "type": "item",
+      "id": 6341,
+      "name": "Sealed Phoenix Earring Gemstone NG",
+      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:4042",
@@ -227,6 +203,27 @@
       "id": 1872,
       "name": "Animal Bone NG",
       "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:5392",
+      "type": "item",
+      "id": 5392,
+      "name": "Recipe: Sealed Dark Crystal Gloves(60%) NG",
+      "url": "/lu4/item/5392-recipe-sealed-dark-crystal-gloves60"
+    },
+    {
+      "key": "item:5394",
+      "type": "item",
+      "id": 5394,
+      "name": "Recipe: Sealed Tallum Gloves(60%) NG",
+      "url": "/lu4/item/5394-recipe-sealed-tallum-gloves60"
+    },
+    {
+      "key": "item:8346",
+      "type": "item",
+      "id": 8346,
+      "name": "Hammer Piece of Destroyer NG",
+      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
     },
     {
       "key": "npc:21091",

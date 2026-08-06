@@ -2,42 +2,38 @@
   "key": "npc:27038",
   "type": "npc",
   "id": 27038,
-  "name": "Lu4 Wiki: NPC Cat's Eye Bandit",
+  "name": "Cat's Eye Bandit",
   "url": "/lu4/npc/27038-cats-eye-bandit",
-  "source_url": "https://masterwork.wiki/lu4/npc/27038-cats-eye-bandit",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27038-cats-eye-bandit",
   "raw_html": "library/raw/lu4/npc/27038-cats-eye-bandit.html",
   "stats": {
-    "Location": "Заброшенный Лагерь"
+    "Respawn Time": "10 seconds",
+    "Location": "Заброшенный Лагерь",
+    "HP / MP": "398 / 183",
+    "P. Atk. / M. Atk.": "41 / 19",
+    "P. Def. / M. Def.": "81 / 65",
+    "Accuracy / Evasion": "51 / 50",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
+    "Type": "Humanoid, Lv. 15"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:27038",
-      "type": "npc",
-      "id": 27038,
-      "name": "Lu4",
-      "url": "/lu4/npc/27038-cats-eye-bandit"
-    },
-    {
-      "key": "location:31",
-      "type": "location",
-      "id": 31,
-      "name": "Заброшенный Лагерь",
-      "url": "/lu4/location/31-zabrosennyj-lager"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     }
   ]
 }

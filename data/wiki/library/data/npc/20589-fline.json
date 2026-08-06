@@ -2,175 +2,81 @@
   "key": "npc:20589",
   "type": "npc",
   "id": 20589,
-  "name": "Lu4 Wiki: NPC Fline",
+  "name": "Fline",
   "url": "/lu4/npc/20589-fline",
-  "source_url": "https://masterwork.wiki/lu4/npc/20589-fline",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20589-fline",
   "raw_html": "library/raw/lu4/npc/20589-fline.html",
   "stats": {
-    "Location": "Волшебная Долина"
+    "Respawn Time": "33 seconds ± 5 seconds",
+    "Location": "Волшебная Долина",
+    "HP / MP": "3 773 / 751",
+    "P. Atk. / M. Atk.": "349 / 273",
+    "P. Def. / M. Def.": "280 / 204",
+    "Accuracy / Evasion": "73 / 83",
+    "Exp / SP": "4 043 / 404",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5 HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Sleep Resistance Lv. 4 Resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Elemental, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20589",
-      "type": "npc",
-      "id": 20589,
-      "name": "Lu4",
-      "url": "/lu4/npc/20589-fline"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Spirits Lv. 7 Takes 15% increased damage from attacks that are effective against Spirits. P. Def. +5% Evasion +5 Resistance to Derangement +20% Resistance to Sleep +20% M. Def. -5% Accuracy -5",
-      "url": "/lu4/skill/4416-spirits/7"
+      "name": "Spirits",
+      "url": "/lu4/skill/4416-spirits"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 4 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/4"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:3954",
-      "type": "item",
-      "id": 3954,
-      "name": "Recipe: Blessed Spiritshot C NG",
-      "url": "/lu4/item/3954-recipe-blessed-spiritshot-c"
-    },
-    {
-      "key": "item:2082",
-      "type": "item",
-      "id": 2082,
-      "name": "Cursed Staff Head NG",
-      "url": "/lu4/item/2082-cursed-staff-head"
-    },
-    {
-      "key": "item:2078",
-      "type": "item",
-      "id": 2078,
-      "name": "Katana Blade NG",
-      "url": "/lu4/item/2078-katana-blade"
-    },
-    {
-      "key": "item:1968",
-      "type": "item",
-      "id": 1968,
-      "name": "Dwarven Chain Mail Shirt Material NG",
-      "url": "/lu4/item/1968-dwarven-chain-mail-shirt-material"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1866",
@@ -180,11 +86,39 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:355",
+      "key": "item:1871",
       "type": "item",
-      "id": 355,
-      "name": "Dwarven Chain Mail Shirt C",
-      "url": "/lu4/item/355-dwarven-chain-mail-shirt"
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:3954",
+      "type": "item",
+      "id": 3954,
+      "name": "Recipe: Blessed Spiritshot C NG",
+      "url": "/lu4/item/3954-recipe-blessed-spiritshot-c"
     },
     {
       "key": "item:195",
@@ -194,6 +128,13 @@
       "url": "/lu4/item/195-cursed-staff"
     },
     {
+      "key": "item:2082",
+      "type": "item",
+      "id": 2082,
+      "name": "Cursed Staff Head NG",
+      "url": "/lu4/item/2082-cursed-staff-head"
+    },
+    {
       "key": "item:74",
       "type": "item",
       "id": 74,
@@ -201,11 +142,67 @@
       "url": "/lu4/item/74-katana"
     },
     {
-      "key": "item:57",
+      "key": "item:2078",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2078,
+      "name": "Katana Blade NG",
+      "url": "/lu4/item/2078-katana-blade"
+    },
+    {
+      "key": "item:355",
+      "type": "item",
+      "id": 355,
+      "name": "Dwarven Chain Mail Shirt C",
+      "url": "/lu4/item/355-dwarven-chain-mail-shirt"
+    },
+    {
+      "key": "item:1968",
+      "type": "item",
+      "id": 1968,
+      "name": "Dwarven Chain Mail Shirt Material NG",
+      "url": "/lu4/item/1968-dwarven-chain-mail-shirt-material"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:2322",

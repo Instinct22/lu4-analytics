@@ -2,105 +2,95 @@
   "key": "npc:20835",
   "type": "npc",
   "id": 20835,
-  "name": "Lu4 Wiki: NPC Zaken's Seer",
+  "name": "Zaken's Seer",
   "url": "/lu4/npc/20835-zakens-seer",
-  "source_url": "https://masterwork.wiki/lu4/npc/20835-zakens-seer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20835-zakens-seer",
   "raw_html": "library/raw/lu4/npc/20835-zakens-seer.html",
   "stats": {
-    "Location": "Остров Дьявола"
+    "Respawn Time": "1 minute",
+    "Location": "Остров Дьявола",
+    "HP / MP": "5 829 / 751",
+    "P. Atk. / M. Atk.": "446 / 273",
+    "P. Def. / M. Def.": "281 / 253",
+    "Accuracy / Evasion": "78 / 88",
+    "Exp / SP": "7 282 / 728",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 13 Strong P. Def. Lv. 14 Strong M. Def. Lv. 14 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20835",
-      "type": "npc",
-      "id": 20835,
-      "name": "Lu4",
-      "url": "/lu4/npc/20835-zakens-seer"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/3"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:4438",
+      "key": "item:57",
       "type": "item",
-      "id": 4438,
-      "name": "Knuckle Duster Edge NG",
-      "url": "/lu4/item/4438-knuckle-duster-edge"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:4233",
+      "key": "item:1865",
       "type": "item",
-      "id": 4233,
-      "name": "Knuckle Duster C",
-      "url": "/lu4/item/4233-knuckle-duster"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:3954",
@@ -115,34 +105,6 @@
       "id": 3033,
       "name": "Recipe: Spiritshot C NG",
       "url": "/lu4/item/3033-recipe-spiritshot-c"
-    },
-    {
-      "key": "item:2318",
-      "type": "item",
-      "id": 2318,
-      "name": "Recipe: Spirit Sword NG",
-      "url": "/lu4/item/2318-recipe-spirit-sword"
-    },
-    {
-      "key": "item:2221",
-      "type": "item",
-      "id": 2221,
-      "name": "Recipe: Rind Leather Gaiters NG",
-      "url": "/lu4/item/2221-recipe-rind-leather-gaiters"
-    },
-    {
-      "key": "item:2214",
-      "type": "item",
-      "id": 2214,
-      "name": "Recipe: Dwarven Chain Gaiters NG",
-      "url": "/lu4/item/2214-recipe-dwarven-chain-gaiters"
-    },
-    {
-      "key": "item:2085",
-      "type": "item",
-      "id": 2085,
-      "name": "Elemental Bow Shaft NG",
-      "url": "/lu4/item/2085-elemental-bow-shaft"
     },
     {
       "key": "item:1879",
@@ -166,11 +128,11 @@
       "url": "/lu4/item/1870-coal"
     },
     {
-      "key": "item:1865",
+      "key": "item:4040",
       "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
     },
     {
       "key": "item:282",
@@ -180,18 +142,46 @@
       "url": "/lu4/item/282-elemental-bow"
     },
     {
-      "key": "item:57",
+      "key": "item:2085",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2085,
+      "name": "Elemental Bow Shaft NG",
+      "url": "/lu4/item/2085-elemental-bow-shaft"
     },
     {
-      "key": "item:1968",
+      "key": "item:4233",
       "type": "item",
-      "id": 1968,
-      "name": "Dwarven Chain Mail Shirt Material NG",
-      "url": "/lu4/item/1968-dwarven-chain-mail-shirt-material"
+      "id": 4233,
+      "name": "Knuckle Duster C",
+      "url": "/lu4/item/4233-knuckle-duster"
+    },
+    {
+      "key": "item:4438",
+      "type": "item",
+      "id": 4438,
+      "name": "Knuckle Duster Edge NG",
+      "url": "/lu4/item/4438-knuckle-duster-edge"
+    },
+    {
+      "key": "item:2214",
+      "type": "item",
+      "id": 2214,
+      "name": "Recipe: Dwarven Chain Gaiters NG",
+      "url": "/lu4/item/2214-recipe-dwarven-chain-gaiters"
+    },
+    {
+      "key": "item:2221",
+      "type": "item",
+      "id": 2221,
+      "name": "Recipe: Rind Leather Gaiters NG",
+      "url": "/lu4/item/2221-recipe-rind-leather-gaiters"
+    },
+    {
+      "key": "item:2318",
+      "type": "item",
+      "id": 2318,
+      "name": "Recipe: Spirit Sword NG",
+      "url": "/lu4/item/2318-recipe-spirit-sword"
     },
     {
       "key": "item:1871",
@@ -199,6 +189,13 @@
       "id": 1871,
       "name": "Charcoal NG",
       "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1968",
+      "type": "item",
+      "id": 1968,
+      "name": "Dwarven Chain Mail Shirt Material NG",
+      "url": "/lu4/item/1968-dwarven-chain-mail-shirt-material"
     }
   ]
 }

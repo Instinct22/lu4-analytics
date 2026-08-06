@@ -2,42 +2,38 @@
   "key": "npc:30677",
   "type": "npc",
   "id": 30677,
-  "name": "Lu4 Wiki: NPC Flutter",
+  "name": "Flutter",
   "url": "/lu4/npc/30677-flutter",
-  "source_url": "https://masterwork.wiki/lu4/npc/30677-flutter",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30677-flutter",
   "raw_html": "library/raw/lu4/npc/30677-flutter.html",
   "stats": {
-    "Location": "Орен"
+    "Respawn Time": "1 minute",
+    "Location": "Орен",
+    "HP / MP": "3 977 / 1 657",
+    "P. Atk. / M. Atk.": "1 304 / 776",
+    "P. Def. / M. Def.": "482 / 364",
+    "Accuracy / Evasion": "106 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dwarves Lv. 18 Although unable to use magic, Dwarves are strong and good with their hands. They have sharp eyes and intelligent minds. Their business savvy is impressive, and they sometimes invent strange mechanical devices. Resist Full Magic Attack Lv. 1",
+    "Type": "Dwarf, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30677",
-      "type": "npc",
-      "id": 30677,
-      "name": "Lu4",
-      "url": "/lu4/npc/30677-flutter"
-    },
-    {
-      "key": "location:101",
-      "type": "location",
-      "id": 101,
-      "name": "Орен",
-      "url": "/lu4/location/101-oren"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dwarves Lv. 18 Although unable to use magic, Dwarves are strong and good with their hands. They have sharp eyes and intelligent minds. Their business savvy is impressive, and they sometimes invent strange mechanical devices.",
-      "url": "/lu4/skill/4416-dwarves/18"
+      "name": "Dwarves",
+      "url": "/lu4/skill/4416-dwarves"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

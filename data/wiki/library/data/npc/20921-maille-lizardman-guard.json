@@ -2,77 +2,81 @@
   "key": "npc:20921",
   "type": "npc",
   "id": 20921,
-  "name": "Lu4 Wiki: NPC Maille Lizardman Guard",
+  "name": "Maille Lizardman Guard",
   "url": "/lu4/npc/20921-maille-lizardman-guard",
-  "source_url": "https://masterwork.wiki/lu4/npc/20921-maille-lizardman-guard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20921-maille-lizardman-guard",
   "raw_html": "library/raw/lu4/npc/20921-maille-lizardman-guard.html",
   "stats": {
-    "Location": "Лагерь Ящеров Мэль"
+    "Respawn Time": "25 seconds",
+    "Location": "Лагерь Ящеров Мэль",
+    "HP / MP": "1 413 / 302",
+    "P. Atk. / M. Atk.": "96 / 41",
+    "P. Def. / M. Def.": "107 / 104",
+    "Accuracy / Evasion": "60 / 59",
+    "Exp / SP": "1 378 / 138",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 24"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20921",
-      "type": "npc",
-      "id": 20921,
-      "name": "Lu4",
-      "url": "/lu4/npc/20921-maille-lizardman-guard"
-    },
-    {
-      "key": "location:25",
-      "type": "location",
-      "id": 25,
-      "name": "Лагерь Ящеров Мэль",
-      "url": "/lu4/location/25-lager-aserov-mel"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:3032",
+      "key": "item:57",
       "type": "item",
-      "id": 3032,
-      "name": "Recipe: Spiritshot D NG",
-      "url": "/lu4/item/3032-recipe-spiritshot-d"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2025",
+      "key": "item:39",
       "type": "item",
-      "id": 2025,
-      "name": "Dwarven Trident Edge NG",
-      "url": "/lu4/item/2025-dwarven-trident-edge"
+      "id": 39,
+      "name": "Boots NG",
+      "url": "/lu4/item/39-boots"
+    },
+    {
+      "key": "item:51",
+      "type": "item",
+      "id": 51,
+      "name": "Bracer NG",
+      "url": "/lu4/item/51-bracer"
     },
     {
       "key": "item:1930",
@@ -82,11 +86,11 @@
       "url": "/lu4/item/1930-boot-lining"
     },
     {
-      "key": "item:1882",
+      "key": "item:1880",
       "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
     },
     {
       "key": "item:1881",
@@ -96,11 +100,18 @@
       "url": "/lu4/item/1881-coarse-bone-powder"
     },
     {
-      "key": "item:1880",
+      "key": "item:1882",
       "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:3032",
+      "type": "item",
+      "id": 3032,
+      "name": "Recipe: Spiritshot D NG",
+      "url": "/lu4/item/3032-recipe-spiritshot-d"
     },
     {
       "key": "item:1123",
@@ -108,6 +119,34 @@
       "id": 1123,
       "name": "Blue Buckskin Boots D",
       "url": "/lu4/item/1123-blue-buckskin-boots"
+    },
+    {
+      "key": "item:46",
+      "type": "item",
+      "id": 46,
+      "name": "Bronze Helmet D",
+      "url": "/lu4/item/46-bronze-helmet"
+    },
+    {
+      "key": "item:295",
+      "type": "item",
+      "id": 295,
+      "name": "Dwarven Trident D",
+      "url": "/lu4/item/295-dwarven-trident"
+    },
+    {
+      "key": "item:2025",
+      "type": "item",
+      "id": 2025,
+      "name": "Dwarven Trident Edge NG",
+      "url": "/lu4/item/2025-dwarven-trident-edge"
+    },
+    {
+      "key": "item:86",
+      "type": "item",
+      "id": 86,
+      "name": "Tomahawk D",
+      "url": "/lu4/item/86-tomahawk"
     },
     {
       "key": "item:848",
@@ -124,46 +163,18 @@
       "url": "/lu4/item/468-mystics-stockings"
     },
     {
-      "key": "item:295",
+      "key": "item:1864",
       "type": "item",
-      "id": 295,
-      "name": "Dwarven Trident D",
-      "url": "/lu4/item/295-dwarven-trident"
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:86",
+      "key": "item:1928",
       "type": "item",
-      "id": 86,
-      "name": "Tomahawk D",
-      "url": "/lu4/item/86-tomahawk"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:51",
-      "type": "item",
-      "id": 51,
-      "name": "Bracer NG",
-      "url": "/lu4/item/51-bracer"
-    },
-    {
-      "key": "item:46",
-      "type": "item",
-      "id": 46,
-      "name": "Bronze Helmet D",
-      "url": "/lu4/item/46-bronze-helmet"
-    },
-    {
-      "key": "item:39",
-      "type": "item",
-      "id": 39,
-      "name": "Boots NG",
-      "url": "/lu4/item/39-boots"
+      "id": 1928,
+      "name": "Piece Bone Gaiters Fragment NG",
+      "url": "/lu4/item/1928-piece-bone-gaiters-fragment"
     },
     {
       "key": "item:2181",
@@ -178,20 +189,6 @@
       "id": 2023,
       "name": "Conjuror's Staff Head NG",
       "url": "/lu4/item/2023-conjurors-staff-head"
-    },
-    {
-      "key": "item:1928",
-      "type": "item",
-      "id": 1928,
-      "name": "Piece Bone Gaiters Fragment NG",
-      "url": "/lu4/item/1928-piece-bone-gaiters-fragment"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
     }
   ]
 }

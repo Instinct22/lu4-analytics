@@ -2,98 +2,32 @@
   "key": "npc:20321",
   "type": "npc",
   "id": 20321,
-  "name": "Lu4 Wiki: NPC Goblin Thief",
+  "name": "Goblin Thief",
   "url": "/lu4/npc/20321-goblin-thief",
-  "source_url": "https://masterwork.wiki/lu4/npc/20321-goblin-thief",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20321-goblin-thief",
   "raw_html": "library/raw/lu4/npc/20321-goblin-thief.html",
   "stats": {
-    "Location": "Темный Лес"
+    "Respawn Time": "15 seconds",
+    "Location": "Темный Лес",
+    "HP / MP": "258 / 133",
+    "P. Atk. / M. Atk.": "25 / 11",
+    "P. Def. / M. Def.": "61 / 49",
+    "Accuracy / Evasion": "46 / 45",
+    "Exp / SP": "270 / 27",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 10"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20321",
-      "type": "npc",
-      "id": 20321,
-      "name": "Lu4",
-      "url": "/lu4/npc/20321-goblin-thief"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
-    },
-    {
-      "key": "item:2006",
-      "type": "item",
-      "id": 2006,
-      "name": "Willow Staff Head NG",
-      "url": "/lu4/item/2006-willow-staff-head"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1833",
-      "type": "item",
-      "id": 1833,
-      "name": "Bandage NG",
-      "url": "/lu4/item/1833-bandage"
-    },
-    {
-      "key": "item:1791",
-      "type": "item",
-      "id": 1791,
-      "name": "Recipe: Brandish NG",
-      "url": "/lu4/item/1791-recipe-brandish"
-    },
-    {
-      "key": "item:152",
-      "type": "item",
-      "id": 152,
-      "name": "Heavy Chisel NG",
-      "url": "/lu4/item/152-heavy-chisel"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "item:57",
@@ -103,13 +37,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8",
-      "type": "item",
-      "id": 8,
-      "name": "Willow Staff NG",
-      "url": "/lu4/item/8-willow-staff"
-    },
-    {
       "key": "item:5",
       "type": "item",
       "id": 5,
@@ -117,11 +44,81 @@
       "url": "/lu4/item/5-mace"
     },
     {
-      "key": "item:2005",
+      "key": "item:2006",
       "type": "item",
-      "id": 2005,
-      "name": "Broadsword Blade NG",
-      "url": "/lu4/item/2005-broadsword-blade"
+      "id": 2006,
+      "name": "Willow Staff Head NG",
+      "url": "/lu4/item/2006-willow-staff-head"
+    },
+    {
+      "key": "item:152",
+      "type": "item",
+      "id": 152,
+      "name": "Heavy Chisel NG",
+      "url": "/lu4/item/152-heavy-chisel"
+    },
+    {
+      "key": "item:8",
+      "type": "item",
+      "id": 8,
+      "name": "Willow Staff NG",
+      "url": "/lu4/item/8-willow-staff"
+    },
+    {
+      "key": "item:1791",
+      "type": "item",
+      "id": 1791,
+      "name": "Recipe: Brandish NG",
+      "url": "/lu4/item/1791-recipe-brandish"
+    },
+    {
+      "key": "item:1833",
+      "type": "item",
+      "id": 1833,
+      "name": "Bandage NG",
+      "url": "/lu4/item/1833-bandage"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1060",
+      "type": "item",
+      "id": 1060,
+      "name": "Lesser Healing Potion NG",
+      "url": "/lu4/item/1060-lesser-healing-potion"
     },
     {
       "key": "item:1870",
@@ -131,11 +128,11 @@
       "url": "/lu4/item/1870-coal"
     },
     {
-      "key": "item:1060",
+      "key": "item:2005",
       "type": "item",
-      "id": 1060,
-      "name": "Lesser Healing Potion NG",
-      "url": "/lu4/item/1060-lesser-healing-potion"
+      "id": 2005,
+      "name": "Broadsword Blade NG",
+      "url": "/lu4/item/2005-broadsword-blade"
     }
   ]
 }

@@ -2,41 +2,24 @@
   "key": "item:5472",
   "type": "item",
   "id": 5472,
-  "name": "Recipe",
+  "name": "Recipe: Metallic Thread(100%)",
   "url": "/lu4/item/5472-recipe-metallic-thread100",
-  "source_url": "https://masterwork.wiki/lu4/item/5472-recipe-metallic-thread100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5472-recipe-metallic-thread100",
   "raw_html": "library/raw/lu4/item/5472-recipe-metallic-thread100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Metallic Thread'. Requires Create Item - Skill Level 4 (Artisan Lv. 36). The success rate is 100%.",
+    "NPC Sell Price": "1 400 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "4",
     "MP Consume": "40",
     "Success Rate": "100%",
-    "Result": "Metallic Thread NG"
+    "Result": "Metallic Thread NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "5"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:5472",
-      "type": "item",
-      "id": 5472,
-      "name": "Lu4",
-      "url": "/lu4/item/5472-recipe-metallic-thread100"
-    },
     {
       "key": "item:1868",
       "type": "item",
@@ -62,14 +45,14 @@
       "key": "npc:20630",
       "type": "npc",
       "id": 20630,
-      "name": "Taik Orc Lv. 40",
+      "name": "Taik Orc",
       "url": "/lu4/npc/20630-taik-orc"
     },
     {
       "key": "npc:20090",
       "type": "npc",
       "id": 20090,
-      "name": "Noble Ant Leader Lv. 38",
+      "name": "Noble Ant Leader",
       "url": "/lu4/npc/20090-noble-ant-leader"
     }
   ]

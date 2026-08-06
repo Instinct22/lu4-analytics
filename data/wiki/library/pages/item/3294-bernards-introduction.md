@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Bernard&#039;s Introduction
+# Bernard's Introduction
 
-- Source: https://masterwork.wiki/lu4/item/3294-bernards-introduction
+- Source: https://masterwork.wiki/lu4-b-w-c/item/3294-bernards-introduction
 - Path: /lu4/item/3294-bernards-introduction
 - Type: item
 - Key: item:3294
 
 ## Stats
+- Effect: Take this letter and go to Sagittarius Hamil of the Village of Floran.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Bernard&#039;s Introduction
-Lu4
-Eternal
-MasterWork
-Bernard's Introduction
-NG
-Quest Item
-Take this letter and go to Sagittarius Hamil of the Village of Floran.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Test of Sagittarius
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Bernard's Introduction NG Quest Item Take this letter and go to Sagittarius Hamil of the Village of Floran. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

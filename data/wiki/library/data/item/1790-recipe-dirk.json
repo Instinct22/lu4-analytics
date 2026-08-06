@@ -2,48 +2,24 @@
   "key": "item:1790",
   "type": "item",
   "id": 1790,
-  "name": "Recipe",
+  "name": "Recipe: Dirk",
   "url": "/lu4/item/1790-recipe-dirk",
-  "source_url": "https://masterwork.wiki/lu4/item/1790-recipe-dirk",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/1790-recipe-dirk",
   "raw_html": "library/raw/lu4/item/1790-recipe-dirk.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Dirk'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "541 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "45",
     "Success Rate": "100%",
-    "Result": "Dirk NG"
+    "Result": "Dirk NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2009",
-      "type": "item",
-      "id": 2009,
-      "name": "Dirk Blade NG",
-      "amount": "2"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "80"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "80"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:1790",
-      "type": "item",
-      "id": 1790,
-      "name": "Lu4",
-      "url": "/lu4/item/1790-recipe-dirk"
-    },
     {
       "key": "item:2009",
       "type": "item",
@@ -76,28 +52,28 @@
       "key": "npc:20385",
       "type": "npc",
       "id": 20385,
-      "name": "Balor Orc Archer Lv. 8",
+      "name": "Balor Orc Archer",
       "url": "/lu4/npc/20385-balor-orc-archer"
     },
     {
       "key": "npc:20313",
       "type": "npc",
       "id": 20313,
-      "name": "Rakeclaw Imp Chieftain Lv. 10",
+      "name": "Rakeclaw Imp Chieftain",
       "url": "/lu4/npc/20313-rakeclaw-imp-chieftain"
     },
     {
       "key": "npc:20468",
       "type": "npc",
       "id": 20468,
-      "name": "Kaboo Orc Lv. 6",
+      "name": "Kaboo Orc",
       "url": "/lu4/npc/20468-kaboo-orc"
     },
     {
       "key": "npc:20361",
       "type": "npc",
       "id": 20361,
-      "name": "Tunath Orc Marksman Lv. 10",
+      "name": "Tunath Orc Marksman",
       "url": "/lu4/npc/20361-tunath-orc-marksman"
     }
   ]

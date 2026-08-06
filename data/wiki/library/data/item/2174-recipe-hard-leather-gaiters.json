@@ -2,48 +2,24 @@
   "key": "item:2174",
   "type": "item",
   "id": 2174,
-  "name": "Recipe",
+  "name": "Recipe: Hard Leather Gaiters",
   "url": "/lu4/item/2174-recipe-hard-leather-gaiters",
-  "source_url": "https://masterwork.wiki/lu4/item/2174-recipe-hard-leather-gaiters",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2174-recipe-hard-leather-gaiters",
   "raw_html": "library/raw/lu4/item/2174-recipe-hard-leather-gaiters.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Hard Leather Gaiters'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "230 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "72",
     "Success Rate": "100%",
-    "Result": "Hard Leather Gaiters NG"
+    "Result": "Hard Leather Gaiters NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1929",
-      "type": "item",
-      "id": 1929,
-      "name": "Hard Leather Gaiters Material NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "55"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "55"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2174",
-      "type": "item",
-      "id": 2174,
-      "name": "Lu4",
-      "url": "/lu4/item/2174-recipe-hard-leather-gaiters"
-    },
     {
       "key": "item:1929",
       "type": "item",
@@ -76,42 +52,42 @@
       "key": "npc:20380",
       "type": "npc",
       "id": 20380,
-      "name": "Stone Guardian Lv. 16",
+      "name": "Stone Guardian",
       "url": "/lu4/npc/20380-stone-guardian"
     },
     {
       "key": "npc:20335",
       "type": "npc",
       "id": 20335,
-      "name": "Grizzly Bear Lv. 17",
+      "name": "Grizzly Bear",
       "url": "/lu4/npc/20335-grizzly-bear"
     },
     {
       "key": "npc:20203",
       "type": "npc",
       "id": 20203,
-      "name": "Dion Grizzly Lv. 20",
+      "name": "Dion Grizzly",
       "url": "/lu4/npc/20203-dion-grizzly"
     },
     {
       "key": "npc:20047",
       "type": "npc",
       "id": 20047,
-      "name": "Sukar Wererat Leader Lv. 19",
+      "name": "Sukar Wererat Leader",
       "url": "/lu4/npc/20047-sukar-wererat-leader"
     },
     {
       "key": "npc:20038",
       "type": "npc",
       "id": 20038,
-      "name": "Venomous Spider Lv. 18",
+      "name": "Venomous Spider",
       "url": "/lu4/npc/20038-venomous-spider"
     },
     {
       "key": "npc:20345",
       "type": "npc",
       "id": 20345,
-      "name": "Dark Terror Lv. 16",
+      "name": "Dark Terror",
       "url": "/lu4/npc/20345-dark-terror"
     }
   ]

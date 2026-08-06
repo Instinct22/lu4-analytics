@@ -2,68 +2,30 @@
   "key": "npc:21806",
   "type": "npc",
   "id": 21806,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21806-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21806-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21806-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21806-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 278 / 514",
+    "P. Atk. / M. Atk.": "216 / 116",
+    "P. Def. / M. Def.": "191 / 150",
+    "Accuracy / Evasion": "69 / 69",
+    "Exp / SP": "1 555 / 94",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 36"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21806",
-      "type": "npc",
-      "id": 21806,
-      "name": "Lu4",
-      "url": "/lu4/npc/21806-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:2155",
-      "type": "item",
-      "id": 2155,
-      "name": "Recipe: Elven Ring NG",
-      "url": "/lu4/item/2155-recipe-elven-ring"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:628",
-      "type": "item",
-      "id": 628,
-      "name": "Hoplon D",
-      "url": "/lu4/item/628-hoplon"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:57",
@@ -78,6 +40,48 @@
       "id": 47,
       "name": "Mithril Helmet D",
       "url": "/lu4/item/47-mithril-helmet"
+    },
+    {
+      "key": "item:628",
+      "type": "item",
+      "id": 628,
+      "name": "Hoplon D",
+      "url": "/lu4/item/628-hoplon"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1880",
+      "type": "item",
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
+    },
+    {
+      "key": "item:2155",
+      "type": "item",
+      "id": 2155,
+      "name": "Recipe: Elven Ring NG",
+      "url": "/lu4/item/2155-recipe-elven-ring"
+    },
+    {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:1939",

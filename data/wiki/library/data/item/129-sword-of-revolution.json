@@ -2,24 +2,26 @@
   "key": "item:129",
   "type": "item",
   "id": 129,
-  "name": "Lu4 Wiki: Item Sword of Revolution",
+  "name": "Sword of Revolution",
   "url": "/lu4/item/129-sword-of-revolution",
-  "source_url": "https://masterwork.wiki/lu4/item/129-sword-of-revolution",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/129-sword-of-revolution",
   "raw_html": "library/raw/lu4/item/129-sword-of-revolution.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Focus: P. Crit. Rate +50. Haste: Atk. Spd. +7%. Health: Max HP +25%.",
+    "P. Atk. / M. Atk.": "79 / 47",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1983 Crystallization Failed Enchant +0 1983 - +1 2073 - +2 2163 - +3 2253 - +4 2433 1441 +5 2613 1621 +6 2793 1801 +7 2973 1981 +8 3153 2161 +9 3333 2341 +10 3513 2521 +11 3693 2701 +12 3873 2881",
+    "NPC Sell Price": "537 000 Adena",
+    "Weight": "1450",
+    "P. Crit. Rate.": "8",
     "Recipes": "Recipe: Sword of Revolution NG",
     "Soul Crystals": "Sword of Revolution Health D Sword of Revolution D Gemstone D NG (120 pcs.) Red Soul Crystal - Stage 3 NG Sword of Revolution Focus D Sword of Revolution D Gemstone D NG (120 pcs.) Green Soul Crystal - Stage 3 NG Sword of Revolution Haste D Sword of Revolution D Gemstone D NG (120 pcs.) Blue Soul Crystal - Stage 3 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Sword / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:129",
-      "type": "item",
-      "id": 129,
-      "name": "Lu4",
-      "url": "/lu4/item/129-sword-of-revolution"
-    },
     {
       "key": "item:2272",
       "type": "item",
@@ -77,59 +79,73 @@
       "url": "/lu4/item/4654-blue-soul-crystal-stage-3"
     },
     {
+      "key": "npc:25392",
+      "type": "npc",
+      "id": 25392,
+      "name": "Captain of Queen's Royal Guards",
+      "url": "/lu4/npc/25392-captain-of-queens-royal-guards"
+    },
+    {
       "key": "npc:25169",
       "type": "npc",
       "id": 25169,
-      "name": "Ragraman Lv. 30",
+      "name": "Ragraman",
       "url": "/lu4/npc/25169-ragraman"
+    },
+    {
+      "key": "npc:25004",
+      "type": "npc",
+      "id": 25004,
+      "name": "Turek Mercenary Captain",
+      "url": "/lu4/npc/25004-turek-mercenary-captain"
     },
     {
       "key": "npc:21273",
       "type": "npc",
       "id": 21273,
-      "name": "Cave Noble Ant Lv. 39",
+      "name": "Cave Noble Ant",
       "url": "/lu4/npc/21273-cave-noble-ant"
     },
     {
       "key": "npc:21145",
       "type": "npc",
       "id": 21145,
-      "name": "Catacomb Stakato Soldier Lv. 38",
+      "name": "Catacomb Stakato Soldier",
       "url": "/lu4/npc/21145-catacomb-stakato-soldier"
     },
     {
       "key": "npc:21104",
       "type": "npc",
       "id": 21104,
-      "name": "Delu Lizardman Supplier Lv. 32",
+      "name": "Delu Lizardman Supplier",
       "url": "/lu4/npc/21104-delu-lizardman-supplier"
     },
     {
       "key": "npc:21015",
       "type": "npc",
       "id": 21015,
-      "name": "Ol Mahum Van Leader Lv. 34",
+      "name": "Ol Mahum Van Leader",
       "url": "/lu4/npc/21015-ol-mahum-van-leader"
     },
     {
       "key": "npc:20928",
       "type": "npc",
       "id": 20928,
-      "name": "Hatu Weird Bee Lv. 34",
+      "name": "Hatu Weird Bee",
       "url": "/lu4/npc/20928-hatu-weird-bee"
     },
     {
       "key": "npc:20612",
       "type": "npc",
       "id": 20612,
-      "name": "Salamander Rowin Lv. 33",
+      "name": "Salamander Rowin",
       "url": "/lu4/npc/20612-salamander-rowin"
     },
     {
       "key": "npc:20145",
       "type": "npc",
       "id": 20145,
-      "name": "Harpy Lv. 32",
+      "name": "Harpy",
       "url": "/lu4/npc/20145-harpy"
     }
   ]

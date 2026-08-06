@@ -2,98 +2,94 @@
   "key": "npc:30071",
   "type": "npc",
   "id": 30071,
-  "name": "Lu4 Wiki: NPC Lucas",
+  "name": "Lucas",
   "url": "/lu4/npc/30071-lucas",
-  "source_url": "https://masterwork.wiki/lu4/npc/30071-lucas",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30071-lucas",
   "raw_html": "library/raw/lu4/npc/30071-lucas.html",
   "stats": {
-    "Location": "Дион"
+    "Respawn Time": "1 minute",
+    "Location": "Дион",
+    "HP / MP": "4 551 / 2 043",
+    "P. Atk. / M. Atk.": "3 002 / 2 748",
+    "P. Def. / M. Def.": "992 / 867",
+    "Accuracy / Evasion": "130 / 125",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 150, Water 150, Wind 150, Earth 150, Holy 150, Unholy 150",
+    "Skills": "Humans Lv. 14 The last race created by the gods, Humans won the race war for domination of the entire world. Their strong desire for domination is perhaps fueled by the fact that their life span is the shortest among all the races. HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Very Strong P. Atk. Lv. 16 Very Strong M. Atk. Lv. 16 Very Strong P. Def. Lv. 16 Very Strong M. Def. Lv. 16 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Resist Full Magic Attack Lv. 1",
+    "Type": "Human, Lv. 80"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30071",
-      "type": "npc",
-      "id": 30071,
-      "name": "Lu4",
-      "url": "/lu4/npc/30071-lucas"
-    },
-    {
-      "key": "location:48",
-      "type": "location",
-      "id": 48,
-      "name": "Дион",
-      "url": "/lu4/location/48-dion"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humans Lv. 14 The last race created by the gods, Humans won the race war for domination of the entire world. Their strong desire for domination is perhaps fueled by the fact that their life span is the shortest among all the races.",
-      "url": "/lu4/skill/4416-humans/14"
+      "name": "Humans",
+      "url": "/lu4/skill/4416-humans"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Very Strong M. Atk. Lv. 16",
-      "url": "/lu4/skill/4411-very-strong-m-atk/16"
+      "name": "Very Strong M. Atk.",
+      "url": "/lu4/skill/4411-very-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 16",
-      "url": "/lu4/skill/4413-very-strong-m-def/16"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

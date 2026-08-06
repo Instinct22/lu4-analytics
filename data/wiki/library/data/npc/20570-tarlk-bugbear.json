@@ -2,133 +2,32 @@
   "key": "npc:20570",
   "type": "npc",
   "id": 20570,
-  "name": "Lu4 Wiki: NPC Tarlk Bugbear",
+  "name": "Tarlk Bugbear",
   "url": "/lu4/npc/20570-tarlk-bugbear",
-  "source_url": "https://masterwork.wiki/lu4/npc/20570-tarlk-bugbear",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20570-tarlk-bugbear",
   "raw_html": "library/raw/lu4/npc/20570-tarlk-bugbear.html",
   "stats": {
-    "Location": "Земли Орена (+1) Земли Орена Лес Зла"
+    "Respawn Time": "19 seconds ± 4 seconds",
+    "Location": "Земли Орена (+1) Земли Орена Лес Зла",
+    "HP / MP": "2 171 / 819",
+    "P. Atk. / M. Atk.": "466 / 222",
+    "P. Def. / M. Def.": "257 / 207",
+    "Accuracy / Evasion": "75 / 80",
+    "Exp / SP": "2 301 / 230",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 47"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20570",
-      "type": "npc",
-      "id": 20570,
-      "name": "Lu4",
-      "url": "/lu4/npc/20570-tarlk-bugbear"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
-      "key": "location:238",
-      "type": "location",
-      "id": 238,
-      "name": "Лес Зла",
-      "url": "/lu4/location/238-les-zla"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:3000",
-      "type": "item",
-      "id": 3000,
-      "name": "Recipe: Dwarven Chain Shield NG",
-      "url": "/lu4/item/3000-recipe-dwarven-chain-shield"
-    },
-    {
-      "key": "item:2315",
-      "type": "item",
-      "id": 2315,
-      "name": "Recipe: Shamshir NG",
-      "url": "/lu4/item/2315-recipe-shamshir"
-    },
-    {
-      "key": "item:2163",
-      "type": "item",
-      "id": 2163,
-      "name": "Recipe: Earring of Protection NG",
-      "url": "/lu4/item/2163-recipe-earring-of-protection"
-    },
-    {
-      "key": "item:2083",
-      "type": "item",
-      "id": 2083,
-      "name": "Stiletto Edge NG",
-      "url": "/lu4/item/2083-stiletto-edge"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:227",
-      "type": "item",
-      "id": 227,
-      "name": "Stiletto C",
-      "url": "/lu4/item/227-stiletto"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "item:57",
@@ -138,11 +37,95 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:4438",
+      "key": "item:1866",
       "type": "item",
-      "id": 4438,
-      "name": "Knuckle Duster Edge NG",
-      "url": "/lu4/item/4438-knuckle-duster-edge"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1885",
+      "type": "item",
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:5220",
+      "type": "item",
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
+    },
+    {
+      "key": "item:227",
+      "type": "item",
+      "id": 227,
+      "name": "Stiletto C",
+      "url": "/lu4/item/227-stiletto"
+    },
+    {
+      "key": "item:2083",
+      "type": "item",
+      "id": 2083,
+      "name": "Stiletto Edge NG",
+      "url": "/lu4/item/2083-stiletto-edge"
+    },
+    {
+      "key": "item:3000",
+      "type": "item",
+      "id": 3000,
+      "name": "Recipe: Dwarven Chain Shield NG",
+      "url": "/lu4/item/3000-recipe-dwarven-chain-shield"
+    },
+    {
+      "key": "item:2163",
+      "type": "item",
+      "id": 2163,
+      "name": "Recipe: Earring of Protection NG",
+      "url": "/lu4/item/2163-recipe-earring-of-protection"
+    },
+    {
+      "key": "item:2315",
+      "type": "item",
+      "id": 2315,
+      "name": "Recipe: Shamshir NG",
+      "url": "/lu4/item/2315-recipe-shamshir"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:2994",
@@ -157,6 +140,13 @@
       "id": 2324,
       "name": "Recipe: Noble Elven Bow NG",
       "url": "/lu4/item/2324-recipe-noble-elven-bow"
+    },
+    {
+      "key": "item:4438",
+      "type": "item",
+      "id": 4438,
+      "name": "Knuckle Duster Edge NG",
+      "url": "/lu4/item/4438-knuckle-duster-edge"
     }
   ]
 }

@@ -2,56 +2,39 @@
   "key": "npc:20579",
   "type": "npc",
   "id": 20579,
-  "name": "Lu4 Wiki: NPC Leto Lizardman Soldier",
+  "name": "Leto Lizardman Soldier",
   "url": "/lu4/npc/20579-leto-lizardman-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/20579-leto-lizardman-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20579-leto-lizardman-soldier",
   "raw_html": "library/raw/lu4/npc/20579-leto-lizardman-soldier.html",
   "stats": {
-    "Location": "Долина Ящеров"
+    "Respawn Time": "19 seconds ± 3 seconds",
+    "Location": "Долина Ящеров",
+    "HP / MP": "1 354 / 533",
+    "P. Atk. / M. Atk.": "227 / 110",
+    "P. Def. / M. Def.": "181 / 149",
+    "Accuracy / Evasion": "73 / 72",
+    "Exp / SP": "1 422 / 142",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 37"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20579",
-      "type": "npc",
-      "id": 20579,
-      "name": "Lu4",
-      "url": "/lu4/npc/20579-leto-lizardman-soldier"
-    },
-    {
-      "key": "location:102",
-      "type": "location",
-      "id": 102,
-      "name": "Долина Ящеров",
-      "url": "/lu4/location/102-dolina-aserov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5549",
@@ -61,46 +44,11 @@
       "url": "/lu4/item/5549-metallic-thread"
     },
     {
-      "key": "item:2930",
+      "key": "item:1868",
       "type": "item",
-      "id": 2930,
-      "name": "Plate Helmet Design NG",
-      "url": "/lu4/item/2930-plate-helmet-design"
-    },
-    {
-      "key": "item:2412",
-      "type": "item",
-      "id": 2412,
-      "name": "Plate Helmet D",
-      "url": "/lu4/item/2412-plate-helmet"
-    },
-    {
-      "key": "item:2146",
-      "type": "item",
-      "id": 2146,
-      "name": "Recipe: Artisan's frame NG",
-      "url": "/lu4/item/2146-recipe-artisans-frame"
-    },
-    {
-      "key": "item:1956",
-      "type": "item",
-      "id": 1956,
-      "name": "Square Shield Fragment NG",
-      "url": "/lu4/item/1956-square-shield-fragment"
-    },
-    {
-      "key": "item:1952",
-      "type": "item",
-      "id": 1952,
-      "name": "Salamander Skin Mail Texture NG",
-      "url": "/lu4/item/1952-salamander-skin-mail-texture"
-    },
-    {
-      "key": "item:1889",
-      "type": "item",
-      "id": 1889,
-      "name": "Compound Braid NG",
-      "url": "/lu4/item/1889-compound-braid"
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:1873",
@@ -110,18 +58,32 @@
       "url": "/lu4/item/1873-silver-nugget"
     },
     {
-      "key": "item:1868",
+      "key": "item:1889",
       "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "id": 1889,
+      "name": "Compound Braid NG",
+      "url": "/lu4/item/1889-compound-braid"
     },
     {
-      "key": "item:630",
+      "key": "item:2146",
       "type": "item",
-      "id": 630,
-      "name": "Square Shield D",
-      "url": "/lu4/item/630-square-shield"
+      "id": 2146,
+      "name": "Recipe: Artisan's frame NG",
+      "url": "/lu4/item/2146-recipe-artisans-frame"
+    },
+    {
+      "key": "item:2412",
+      "type": "item",
+      "id": 2412,
+      "name": "Half Plate Helmet D",
+      "url": "/lu4/item/2412-half-plate-helmet"
+    },
+    {
+      "key": "item:2930",
+      "type": "item",
+      "id": 2930,
+      "name": "Half Plate Helmet Design NG",
+      "url": "/lu4/item/2930-half-plate-helmet-design"
     },
     {
       "key": "item:396",
@@ -131,11 +93,46 @@
       "url": "/lu4/item/396-salamander-skin-mail"
     },
     {
-      "key": "item:57",
+      "key": "item:1952",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1952,
+      "name": "Salamander Skin Mail Texture NG",
+      "url": "/lu4/item/1952-salamander-skin-mail-texture"
+    },
+    {
+      "key": "item:630",
+      "type": "item",
+      "id": 630,
+      "name": "Square Shield D",
+      "url": "/lu4/item/630-square-shield"
+    },
+    {
+      "key": "item:1956",
+      "type": "item",
+      "id": 1956,
+      "name": "Square Shield Fragment NG",
+      "url": "/lu4/item/1956-square-shield-fragment"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:3020",
@@ -152,18 +149,18 @@
       "url": "/lu4/item/2986-recipe-sages-worn-gloves"
     },
     {
-      "key": "item:2052",
-      "type": "item",
-      "id": 2052,
-      "name": "Mithril Dagger Blade NG",
-      "url": "/lu4/item/2052-mithril-dagger-blade"
-    },
-    {
       "key": "item:1950",
       "type": "item",
       "id": 1950,
       "name": "Half Plate Temper NG",
       "url": "/lu4/item/1950-half-plate-temper"
+    },
+    {
+      "key": "item:2052",
+      "type": "item",
+      "id": 2052,
+      "name": "Mithril Dagger Blade NG",
+      "url": "/lu4/item/2052-mithril-dagger-blade"
     }
   ]
 }

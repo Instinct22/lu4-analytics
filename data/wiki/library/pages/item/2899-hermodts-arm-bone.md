@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Hermodt&#039;s Arm Bone
+# Hermodt's Arm Bone
 
-- Source: https://masterwork.wiki/lu4/item/2899-hermodts-arm-bone
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2899-hermodts-arm-bone
 - Path: /lu4/item/2899-hermodts-arm-bone
 - Type: item
 - Key: item:2899
 
 ## Stats
+- Effect: The arm bones of Hermodt, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Manakia.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Hermodt&#039;s Arm Bone
-Lu4
-Eternal
-MasterWork
-Hermodt's Arm Bone
-NG
-Quest Item
-The arm bones of Hermodt, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Manakia.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Test of the War Spirit
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Hermodt's Arm Bone NG Quest Item The arm bones of Hermodt, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Manakia. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

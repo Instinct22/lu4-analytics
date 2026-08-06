@@ -2,182 +2,53 @@
   "key": "npc:20671",
   "type": "npc",
   "id": 20671,
-  "name": "Lu4 Wiki: NPC Kadios",
+  "name": "Kadios",
   "url": "/lu4/npc/20671-kadios",
-  "source_url": "https://masterwork.wiki/lu4/npc/20671-kadios",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20671-kadios",
   "raw_html": "library/raw/lu4/npc/20671-kadios.html",
   "stats": {
-    "Location": "Запретные Врата (+1) Запретные Врата Кладбище"
+    "Respawn Time": "25 seconds ± 5 seconds",
+    "Location": "Запретные Врата (+1) Запретные Врата Кладбище",
+    "HP / MP": "3 200 / 1 351",
+    "P. Atk. / M. Atk.": "1 283 / 1 033",
+    "P. Def. / M. Def.": "448 / 353",
+    "Accuracy / Evasion": "97 / 102",
+    "Exp / SP": "3 641 / 364",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong M. Atk. Lv. 12 Slightly Strong P. Atk. Lv. 12",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 64"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20671",
-      "type": "npc",
-      "id": 20671,
-      "name": "Lu4",
-      "url": "/lu4/npc/20671-kadios"
-    },
-    {
-      "key": "location:75",
-      "type": "location",
-      "id": 75,
-      "name": "Запретные Врата",
-      "url": "/lu4/location/75-zapretnye-vrata"
-    },
-    {
-      "key": "location:71",
-      "type": "location",
-      "id": 71,
-      "name": "Кладбище",
-      "url": "/lu4/location/71-kladbise"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32400",
-      "type": "item",
-      "id": 32400,
-      "name": "Unidentified Sealed Blue Wolf Gloves B",
-      "url": "/lu4/item/32400-unidentified-sealed-blue-wolf-gloves"
-    },
-    {
-      "key": "item:32366",
-      "type": "item",
-      "id": 32366,
-      "name": "Unidentified Doom Helmet B",
-      "url": "/lu4/item/32366-unidentified-doom-helmet"
-    },
-    {
-      "key": "item:32322",
-      "type": "item",
-      "id": 32322,
-      "name": "Unidentified Sword of Damascus B",
-      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
-    },
-    {
-      "key": "item:5007",
-      "type": "item",
-      "id": 5007,
-      "name": "Recipe: Bow of Peril (60%) NG",
-      "url": "/lu4/item/5007-recipe-bow-of-peril-60"
-    },
-    {
-      "key": "item:5001",
-      "type": "item",
-      "id": 5001,
-      "name": "Recipe: Lance (60%) NG",
-      "url": "/lu4/item/5001-recipe-lance-60"
-    },
-    {
-      "key": "item:4992",
-      "type": "item",
-      "id": 4992,
-      "name": "Recipe: Sealed Blue Wolf Boots (60%) NG",
-      "url": "/lu4/item/4992-recipe-sealed-blue-wolf-boots-60"
-    },
-    {
-      "key": "item:4114",
-      "type": "item",
-      "id": 4114,
-      "name": "Sword of Damascus Blade NG",
-      "url": "/lu4/item/4114-sword-of-damascus-blade"
-    },
-    {
-      "key": "item:4096",
-      "type": "item",
-      "id": 4096,
-      "name": "Sealed Blue Wolf Gloves Fabric NG",
-      "url": "/lu4/item/4096-sealed-blue-wolf-gloves-fabric"
-    },
-    {
-      "key": "item:4089",
-      "type": "item",
-      "id": 4089,
-      "name": "Doom Helmet Pattern NG",
-      "url": "/lu4/item/4089-doom-helmet-pattern"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4040",
@@ -194,11 +65,123 @@
       "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:4987",
+      "key": "item:4043",
       "type": "item",
-      "id": 4987,
-      "name": "Recipe: Tunic of Doom (60%) NG",
-      "url": "/lu4/item/4987-recipe-tunic-of-doom-60"
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32366",
+      "type": "item",
+      "id": 32366,
+      "name": "Unidentified Doom Helmet B",
+      "url": "/lu4/item/32366-unidentified-doom-helmet"
+    },
+    {
+      "key": "item:4089",
+      "type": "item",
+      "id": 4089,
+      "name": "Doom Helmet Pattern NG",
+      "url": "/lu4/item/4089-doom-helmet-pattern"
+    },
+    {
+      "key": "item:32400",
+      "type": "item",
+      "id": 32400,
+      "name": "Unidentified Sealed Blue Wolf Gloves B",
+      "url": "/lu4/item/32400-unidentified-sealed-blue-wolf-gloves"
+    },
+    {
+      "key": "item:4096",
+      "type": "item",
+      "id": 4096,
+      "name": "Sealed Blue Wolf Gloves Fabric NG",
+      "url": "/lu4/item/4096-sealed-blue-wolf-gloves-fabric"
+    },
+    {
+      "key": "item:32322",
+      "type": "item",
+      "id": 32322,
+      "name": "Unidentified Sword of Damascus B",
+      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
+    },
+    {
+      "key": "item:4114",
+      "type": "item",
+      "id": 4114,
+      "name": "Sword of Damascus Blade NG",
+      "url": "/lu4/item/4114-sword-of-damascus-blade"
+    },
+    {
+      "key": "item:4992",
+      "type": "item",
+      "id": 4992,
+      "name": "Recipe: Sealed Blue Wolf Boots (60%) NG",
+      "url": "/lu4/item/4992-recipe-sealed-blue-wolf-boots-60"
+    },
+    {
+      "key": "item:5007",
+      "type": "item",
+      "id": 5007,
+      "name": "Recipe: Bow of Peril (60%) NG",
+      "url": "/lu4/item/5007-recipe-bow-of-peril-60"
+    },
+    {
+      "key": "item:5001",
+      "type": "item",
+      "id": 5001,
+      "name": "Recipe: Lance (60%) NG",
+      "url": "/lu4/item/5001-recipe-lance-60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
     },
     {
       "key": "item:4981",
@@ -208,11 +191,11 @@
       "url": "/lu4/item/4981-recipe-blue-wolf-breastplate-60"
     },
     {
-      "key": "item:4115",
+      "key": "item:4987",
       "type": "item",
-      "id": 4115,
-      "name": "Lance Blade NG",
-      "url": "/lu4/item/4115-lance-blade"
+      "id": 4987,
+      "name": "Recipe: Tunic of Doom (60%) NG",
+      "url": "/lu4/item/4987-recipe-tunic-of-doom-60"
     },
     {
       "key": "item:4088",
@@ -220,6 +203,13 @@
       "id": 4088,
       "name": "Blue Wolf Helmet Design NG",
       "url": "/lu4/item/4088-blue-wolf-helmet-design"
+    },
+    {
+      "key": "item:4115",
+      "type": "item",
+      "id": 4115,
+      "name": "Lance Blade NG",
+      "url": "/lu4/item/4115-lance-blade"
     },
     {
       "key": "item:4083",

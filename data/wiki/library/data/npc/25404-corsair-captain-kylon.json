@@ -2,84 +2,81 @@
   "key": "npc:25404",
   "type": "npc",
   "id": 25404,
-  "name": "Lu4 Wiki: NPC Corsair Captain Kylon",
+  "name": "Corsair Captain Kylon",
   "url": "/lu4/npc/25404-corsair-captain-kylon",
-  "source_url": "https://masterwork.wiki/lu4/npc/25404-corsair-captain-kylon",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25404-corsair-captain-kylon",
   "raw_html": "library/raw/lu4/npc/25404-corsair-captain-kylon.html",
   "stats": {
-    "Location": "Земли Гирана"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Земли Гирана",
+    "HP / MP": "148 508 / 8 254",
+    "P. Atk. / M. Atk.": "417 / 58",
+    "P. Def. / M. Def.": "478 / 512",
+    "Accuracy / Evasion": "84 / 84",
+    "Exp / SP": "762 300 / 73 993",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This pirate once ruled the South Sea of Giran along with Pirate King Zaken. Calling himself Zaken's only rival, he raided the Pirate King's headquarters after hearing the news that Zaken was missing. Instead of treasure, he and his mean were struck down by Zaken's curse. Now an undead, his sole aim is to take his revenge on Zaken someday. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 33"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25404",
-      "type": "npc",
-      "id": 25404,
-      "name": "Lu4",
-      "url": "/lu4/npc/25404-corsair-captain-kylon"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4946",
       "type": "skill",
       "id": 4946,
-      "name": "Raid Boss Lv. 1 This pirate once ruled the South Sea of Giran along with Pirate King Zaken. Calling himself Zaken's only rival, he raided the Pirate King's headquarters after hearing the news that Zaken was missing. Instead of treasure, he and his mean were struck down by Zaken's curse. Now an undead, his sole aim is to take his revenge on Zaken someday.",
-      "url": "/lu4/skill/4946-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4946-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -89,74 +86,88 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:280",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 280,
+      "name": "Light Crossbow D",
+      "url": "/lu4/item/280-light-crossbow"
     },
     {
-      "key": "item:6575",
+      "key": "item:225",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 225,
+      "name": "Mithril Dagger D",
+      "url": "/lu4/item/225-mithril-dagger"
     },
     {
-      "key": "item:2967",
+      "key": "item:262",
       "type": "item",
-      "id": 2967,
-      "name": "Elven Long Sword Blade NG",
-      "url": "/lu4/item/2967-elven-long-sword-blade"
+      "id": 262,
+      "name": "Scallop Jamadhr D",
+      "url": "/lu4/item/262-scallop-jamadhr"
     },
     {
-      "key": "item:2934",
+      "key": "item:297",
       "type": "item",
-      "id": 2934,
-      "name": "Plate Shield Fragment NG",
-      "url": "/lu4/item/2934-plate-shield-fragment"
+      "id": 297,
+      "name": "Glaive D",
+      "url": "/lu4/item/297-glaive"
     },
     {
-      "key": "item:2930",
+      "key": "item:2054",
       "type": "item",
-      "id": 2930,
-      "name": "Plate Helmet Design NG",
-      "url": "/lu4/item/2930-plate-helmet-design"
+      "id": 2054,
+      "name": "Light Crossbow Shaft NG",
+      "url": "/lu4/item/2054-light-crossbow-shaft"
     },
     {
-      "key": "item:2499",
+      "key": "item:2052",
       "type": "item",
-      "id": 2499,
-      "name": "Elven Long Sword D",
-      "url": "/lu4/item/2499-elven-long-sword"
+      "id": 2052,
+      "name": "Mithril Dagger Blade NG",
+      "url": "/lu4/item/2052-mithril-dagger-blade"
     },
     {
-      "key": "item:2494",
+      "key": "item:2053",
       "type": "item",
-      "id": 2494,
-      "name": "Plate Shield D",
-      "url": "/lu4/item/2494-plate-shield"
+      "id": 2053,
+      "name": "Scallop Jamadhr Edge NG",
+      "url": "/lu4/item/2053-scallop-jamadhr-edge"
+    },
+    {
+      "key": "item:2055",
+      "type": "item",
+      "id": 2055,
+      "name": "Glaive Edge NG",
+      "url": "/lu4/item/2055-glaive-edge"
     },
     {
       "key": "item:2412",
       "type": "item",
       "id": 2412,
-      "name": "Plate Helmet D",
-      "url": "/lu4/item/2412-plate-helmet"
+      "name": "Half Plate Helmet D",
+      "url": "/lu4/item/2412-half-plate-helmet"
     },
     {
-      "key": "item:2047",
+      "key": "item:2494",
       "type": "item",
-      "id": 2047,
-      "name": "Claymore Blade NG",
-      "url": "/lu4/item/2047-claymore-blade"
+      "id": 2494,
+      "name": "Half Plate Shield D",
+      "url": "/lu4/item/2494-half-plate-shield"
     },
     {
-      "key": "item:1956",
+      "key": "item:2930",
       "type": "item",
-      "id": 1956,
-      "name": "Square Shield Fragment NG",
-      "url": "/lu4/item/1956-square-shield-fragment"
+      "id": 2930,
+      "name": "Half Plate Helmet Design NG",
+      "url": "/lu4/item/2930-half-plate-helmet-design"
+    },
+    {
+      "key": "item:2934",
+      "type": "item",
+      "id": 2934,
+      "name": "Half Plate Shield Fragment NG",
+      "url": "/lu4/item/2934-half-plate-shield-fragment"
     },
     {
       "key": "item:956",
@@ -166,6 +177,13 @@
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
     },
     {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
       "key": "item:955",
       "type": "item",
       "id": 955,
@@ -173,18 +191,11 @@
       "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
-      "key": "item:630",
+      "key": "item:6575",
       "type": "item",
-      "id": 630,
-      "name": "Square Shield D",
-      "url": "/lu4/item/630-square-shield"
-    },
-    {
-      "key": "item:70",
-      "type": "item",
-      "id": 70,
-      "name": "Claymore D",
-      "url": "/lu4/item/70-claymore"
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25405",

@@ -2,40 +2,36 @@
   "key": "npc:29016",
   "type": "npc",
   "id": 29016,
-  "name": "Lu4 Wiki: NPC Raikel Leos",
+  "name": "Raikel Leos",
   "url": "/lu4/npc/29016-raikel-leos",
-  "source_url": "https://masterwork.wiki/lu4/npc/29016-raikel-leos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/29016-raikel-leos",
   "raw_html": "library/raw/lu4/npc/29016-raikel-leos.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "48 497 / 887",
+    "P. Atk. / M. Atk.": "4 371 / 8 258",
+    "P. Def. / M. Def.": "600 / 402",
+    "Accuracy / Evasion": "85 / 85",
+    "Exp / SP": "0 / 1",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Resist Full Magic Attack Lv. 1",
+    "Type": "Beast, Lv. 52"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:29016",
-      "type": "npc",
-      "id": 29016,
-      "name": "Lu4",
-      "url": "/lu4/npc/29016-raikel-leos"
-    },
-    {
-      "key": "location:104",
-      "type": "location",
-      "id": 104,
-      "name": "Море Спор",
-      "url": "/lu4/location/104-more-spor"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

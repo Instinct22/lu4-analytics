@@ -2,124 +2,93 @@
   "key": "npc:20654",
   "type": "npc",
   "id": 20654,
-  "name": "Lu4 Wiki: NPC Lesser Giant Soldier",
+  "name": "Lesser Giant Soldier",
   "url": "/lu4/npc/20654-lesser-giant-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/20654-lesser-giant-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20654-lesser-giant-soldier",
   "raw_html": "library/raw/lu4/npc/20654-lesser-giant-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "10 331 / 1 351",
+    "P. Atk. / M. Atk.": "1 488 / 758",
+    "P. Def. / M. Def.": "562 / 274",
+    "Accuracy / Evasion": "90 / 95",
+    "Exp / SP": "18 672 / 1 662",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10% HP Increase (3x) Lv. 11 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Very Strong P. Def. Lv. 16 Slightly Weak M. Def. Lv. 9 Greater Hold Resistance Lv. 2 Highly resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Giant, Lv. 62"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20654",
-      "type": "npc",
-      "id": 20654,
-      "name": "Lu4",
-      "url": "/lu4/npc/20654-lesser-giant-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Giants Lv. 11 Takes 15% increased damage from attacks that are effective against Giants. P. Atk. +7% Max HP +7% Attack Range +15 Resistance to Shock +20% Resistance to Dagger +10% Resistance to Dual Dagger +10% Accuracy -5 Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-giants/11"
+      "name": "Giants",
+      "url": "/lu4/skill/4416-giants"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 2 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/2"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:32589",
+      "key": "item:4085",
       "type": "item",
-      "id": 32589,
-      "name": "Unidentified Tunic of Doom B",
-      "url": "/lu4/item/32589-unidentified-tunic-of-doom"
+      "id": 4085,
+      "name": "Tunic of Doom Pattern NG",
+      "url": "/lu4/item/4085-tunic-of-doom-pattern"
     },
     {
-      "key": "item:32588",
+      "key": "item:4084",
       "type": "item",
-      "id": 32588,
-      "name": "Unidentified Blue Wolf Tunic B",
-      "url": "/lu4/item/32588-unidentified-blue-wolf-tunic"
-    },
-    {
-      "key": "item:32363",
-      "type": "item",
-      "id": 32363,
-      "name": "Unidentified Stockings of Doom B",
-      "url": "/lu4/item/32363-unidentified-stockings-of-doom"
-    },
-    {
-      "key": "item:32362",
-      "type": "item",
-      "id": 32362,
-      "name": "Unidentified Blue Wolf Stockings B",
-      "url": "/lu4/item/32362-unidentified-blue-wolf-stockings"
-    },
-    {
-      "key": "item:6036",
-      "type": "item",
-      "id": 6036,
-      "name": "Greater Magic Haste Potion NG",
-      "url": "/lu4/item/6036-greater-magic-haste-potion"
-    },
-    {
-      "key": "item:5276",
-      "type": "item",
-      "id": 5276,
-      "name": "Recipe: Greater Spiritshot (A) Compressed Package(100%) NG",
-      "url": "/lu4/item/5276-recipe-greater-spiritshot-a-compressed-package100"
-    },
-    {
-      "key": "item:4624",
-      "type": "item",
-      "id": 4624,
-      "name": "Greater Dye of WIT <Wit+4 Men-4> NG",
-      "url": "/lu4/item/4624-greater-dye-of-wit-wit4-men-4"
+      "id": 4084,
+      "name": "Blue Wolf Tunic Fabric NG",
+      "url": "/lu4/item/4084-blue-wolf-tunic-fabric"
     },
     {
       "key": "item:4087",
@@ -136,18 +105,53 @@
       "url": "/lu4/item/4086-blue-wolf-stockings-pattern"
     },
     {
-      "key": "item:4085",
+      "key": "item:32363",
       "type": "item",
-      "id": 4085,
-      "name": "Tunic of Doom Pattern NG",
-      "url": "/lu4/item/4085-tunic-of-doom-pattern"
+      "id": 32363,
+      "name": "Unidentified Stockings of Doom B",
+      "url": "/lu4/item/32363-unidentified-stockings-of-doom"
     },
     {
-      "key": "item:4084",
+      "key": "item:32362",
       "type": "item",
-      "id": 4084,
-      "name": "Blue Wolf Tunic Fabric NG",
-      "url": "/lu4/item/4084-blue-wolf-tunic-fabric"
+      "id": 32362,
+      "name": "Unidentified Blue Wolf Stockings B",
+      "url": "/lu4/item/32362-unidentified-blue-wolf-stockings"
+    },
+    {
+      "key": "item:32589",
+      "type": "item",
+      "id": 32589,
+      "name": "Unidentified Tunic of Doom B",
+      "url": "/lu4/item/32589-unidentified-tunic-of-doom"
+    },
+    {
+      "key": "item:32588",
+      "type": "item",
+      "id": 32588,
+      "name": "Unidentified Blue Wolf Tunic B",
+      "url": "/lu4/item/32588-unidentified-blue-wolf-tunic"
+    },
+    {
+      "key": "item:4624",
+      "type": "item",
+      "id": 4624,
+      "name": "Greater Dye of WIT <Wit+4 Men-4> NG",
+      "url": "/lu4/item/4624-greater-dye-of-wit-wit4-men-4"
+    },
+    {
+      "key": "item:6036",
+      "type": "item",
+      "id": 6036,
+      "name": "Greater Magic Haste Potion NG",
+      "url": "/lu4/item/6036-greater-magic-haste-potion"
+    },
+    {
+      "key": "item:5276",
+      "type": "item",
+      "id": 5276,
+      "name": "Recipe: Greater Spiritshot (A) Compressed Package(100%) NG",
+      "url": "/lu4/item/5276-recipe-greater-spiritshot-a-compressed-package100"
     },
     {
       "key": "item:4044",
@@ -178,18 +182,18 @@
       "url": "/lu4/item/1894-crafted-leather"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:5230",
+      "key": "item:4052",
       "type": "item",
-      "id": 5230,
-      "name": "Recipe: Mithril Arrow (100%) NG",
-      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
+      "id": 4052,
+      "name": "Earring of Black Ore Piece NG",
+      "url": "/lu4/item/4052-earring-of-black-ore-piece"
     },
     {
       "key": "item:4064",
@@ -199,11 +203,11 @@
       "url": "/lu4/item/4064-avadon-breastplate-part"
     },
     {
-      "key": "item:4052",
+      "key": "item:5230",
       "type": "item",
-      "id": 4052,
-      "name": "Earring of Black Ore Piece NG",
-      "url": "/lu4/item/4052-earring-of-black-ore-piece"
+      "id": 5230,
+      "name": "Recipe: Mithril Arrow (100%) NG",
+      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
     }
   ]
 }

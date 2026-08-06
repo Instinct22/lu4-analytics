@@ -2,140 +2,81 @@
   "key": "npc:20353",
   "type": "npc",
   "id": 20353,
-  "name": "Lu4 Wiki: NPC Dre Vanul Beholder",
+  "name": "Dre Vanul Beholder",
   "url": "/lu4/npc/20353-dre-vanul-beholder",
-  "source_url": "https://masterwork.wiki/lu4/npc/20353-dre-vanul-beholder",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20353-dre-vanul-beholder",
   "raw_html": "library/raw/lu4/npc/20353-dre-vanul-beholder.html",
   "stats": {
-    "Location": "Эльфийская Крепость"
+    "Respawn Time": "50 seconds",
+    "Location": "Эльфийская Крепость",
+    "HP / MP": "2 326 / 252",
+    "P. Atk. / M. Atk.": "57 / 38",
+    "P. Def. / M. Def.": "116 / 94",
+    "Accuracy / Evasion": "54 / 54",
+    "Exp / SP": "2 432 / 243",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 21"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20353",
-      "type": "npc",
-      "id": 20353,
-      "name": "Lu4",
-      "url": "/lu4/npc/20353-dre-vanul-beholder"
-    },
-    {
-      "key": "location:114",
-      "type": "location",
-      "id": 114,
-      "name": "Эльфийская Крепость",
-      "url": "/lu4/location/114-elfijskaa-krepost"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
-    },
-    {
-      "key": "item:5273",
-      "type": "item",
-      "id": 5273,
-      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
-      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
-    },
-    {
-      "key": "item:3953",
-      "type": "item",
-      "id": 3953,
-      "name": "Recipe: Blessed Spiritshot D NG",
-      "url": "/lu4/item/3953-recipe-blessed-spiritshot-d"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:847",
-      "type": "item",
-      "id": 847,
-      "name": "Red Crescent Earring D",
-      "url": "/lu4/item/847-red-crescent-earring"
-    },
-    {
-      "key": "item:376",
-      "type": "item",
-      "id": 376,
-      "name": "Iron Plate Gaiters D",
-      "url": "/lu4/item/376-iron-plate-gaiters"
-    },
-    {
-      "key": "item:178",
-      "type": "item",
-      "id": 178,
-      "name": "Bone Staff D",
-      "url": "/lu4/item/178-bone-staff"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "item:57",
@@ -150,6 +91,62 @@
       "id": 16,
       "name": "Great Spear NG",
       "url": "/lu4/item/16-great-spear"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:3953",
+      "type": "item",
+      "id": 3953,
+      "name": "Recipe: Blessed Spiritshot D NG",
+      "url": "/lu4/item/3953-recipe-blessed-spiritshot-d"
+    },
+    {
+      "key": "item:5273",
+      "type": "item",
+      "id": 5273,
+      "name": "Recipe: Greater Spiritshot (D) Compressed Package(100%) NG",
+      "url": "/lu4/item/5273-recipe-greater-spiritshot-d-compressed-package100"
+    },
+    {
+      "key": "item:178",
+      "type": "item",
+      "id": 178,
+      "name": "Bone Staff D",
+      "url": "/lu4/item/178-bone-staff"
+    },
+    {
+      "key": "item:376",
+      "type": "item",
+      "id": 376,
+      "name": "Iron Plate Gaiters D",
+      "url": "/lu4/item/376-iron-plate-gaiters"
+    },
+    {
+      "key": "item:847",
+      "type": "item",
+      "id": 847,
+      "name": "Red Crescent Earring D",
+      "url": "/lu4/item/847-red-crescent-earring"
     }
   ]
 }

@@ -2,98 +2,88 @@
   "key": "npc:20836",
   "type": "npc",
   "id": 20836,
-  "name": "Lu4 Wiki: NPC Pirate Zombie",
+  "name": "Pirate Zombie",
   "url": "/lu4/npc/20836-pirate-zombie",
-  "source_url": "https://masterwork.wiki/lu4/npc/20836-pirate-zombie",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20836-pirate-zombie",
   "raw_html": "library/raw/lu4/npc/20836-pirate-zombie.html",
   "stats": {
-    "Location": "Земли Гирана (+2) Земли Гирана Тоннель Пиратов Остров Дьявола"
+    "Respawn Time": "1 minute, 10 seconds",
+    "Location": "Земли Гирана (+2) Земли Гирана Тоннель Пиратов Остров Дьявола",
+    "HP / MP": "7 255 / 719",
+    "P. Atk. / M. Atk.": "419 / 227",
+    "P. Def. / M. Def.": "306 / 170",
+    "Accuracy / Evasion": "77 / 77",
+    "Exp / SP": "8 930 / 893",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Strong P. Def. Lv. 14 Slightly Weak M. Def. Lv. 10 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20836",
-      "type": "npc",
-      "id": 20836,
-      "name": "Lu4",
-      "url": "/lu4/npc/20836-pirate-zombie"
-    },
-    {
-      "key": "location:4",
-      "type": "location",
-      "id": 4,
-      "name": "Земли Гирана",
-      "url": "/lu4/location/4-zemli-girana"
-    },
-    {
-      "key": "location:124",
-      "type": "location",
-      "id": 124,
-      "name": "Тоннель Пиратов",
-      "url": "/lu4/location/124-tonnel-piratov"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2251",
@@ -101,27 +91,6 @@
       "id": 2251,
       "name": "Recipe: Steel Arrow NG",
       "url": "/lu4/item/2251-recipe-steel-arrow"
-    },
-    {
-      "key": "item:2081",
-      "type": "item",
-      "id": 2081,
-      "name": "Raid Sword Blade NG",
-      "url": "/lu4/item/2081-raid-sword-blade"
-    },
-    {
-      "key": "item:2079",
-      "type": "item",
-      "id": 2079,
-      "name": "Bec De Corbin Blade NG",
-      "url": "/lu4/item/2079-bec-de-corbin-blade"
-    },
-    {
-      "key": "item:1911",
-      "type": "item",
-      "id": 1911,
-      "name": "Earring of Protection Gemstone NG",
-      "url": "/lu4/item/1911-earring-of-protection-gemstone"
     },
     {
       "key": "item:1881",
@@ -152,11 +121,18 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:853",
+      "key": "item:94",
       "type": "item",
-      "id": 853,
-      "name": "Earring of Protection C",
-      "url": "/lu4/item/853-earring-of-protection"
+      "id": 94,
+      "name": "Bec de Corbin C",
+      "url": "/lu4/item/94-bec-de-corbin"
+    },
+    {
+      "key": "item:2079",
+      "type": "item",
+      "id": 2079,
+      "name": "Bec De Corbin Blade NG",
+      "url": "/lu4/item/2079-bec-de-corbin-blade"
     },
     {
       "key": "item:133",
@@ -166,18 +142,25 @@
       "url": "/lu4/item/133-raid-sword"
     },
     {
-      "key": "item:94",
+      "key": "item:2081",
       "type": "item",
-      "id": 94,
-      "name": "Bec de Corbin C",
-      "url": "/lu4/item/94-bec-de-corbin"
+      "id": 2081,
+      "name": "Raid Sword Blade NG",
+      "url": "/lu4/item/2081-raid-sword-blade"
     },
     {
-      "key": "item:57",
+      "key": "item:853",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 853,
+      "name": "Earring of Protection C",
+      "url": "/lu4/item/853-earring-of-protection"
+    },
+    {
+      "key": "item:1911",
+      "type": "item",
+      "id": 1911,
+      "name": "Earring of Protection Gemstone NG",
+      "url": "/lu4/item/1911-earring-of-protection-gemstone"
     },
     {
       "key": "item:1874",

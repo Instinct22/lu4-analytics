@@ -2,140 +2,81 @@
   "key": "npc:34644",
   "type": "npc",
   "id": 34644,
-  "name": "Lu4 Wiki: NPC Crimson Redeye Bat",
+  "name": "Crimson Redeye Bat",
   "url": "/lu4/npc/34644-crimson-redeye-bat",
-  "source_url": "https://masterwork.wiki/lu4/npc/34644-crimson-redeye-bat",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/34644-crimson-redeye-bat",
   "raw_html": "library/raw/lu4/npc/34644-crimson-redeye-bat.html",
   "stats": {
-    "Location": "Темный Лес (+2) Темный Лес Жертвенный Лес Алтарь Ритуалов"
+    "Respawn Time": "35 seconds",
+    "Location": "Темный Лес (+2) Темный Лес Жертвенный Лес Алтарь Ритуалов",
+    "HP / MP": "1 536 / 283",
+    "P. Atk. / M. Atk.": "46 / 24",
+    "P. Def. / M. Def.": "123 / 95",
+    "Accuracy / Evasion": "52 / 52",
+    "Exp / SP": "1 537 / 154",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 9 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 13 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 19"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:34644",
-      "type": "npc",
-      "id": 34644,
-      "name": "Lu4",
-      "url": "/lu4/npc/34644-crimson-redeye-bat"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
-      "key": "location:227",
-      "type": "location",
-      "id": 227,
-      "name": "Жертвенный Лес",
-      "url": "/lu4/location/227-zertvennyj-les"
-    },
-    {
-      "key": "location:109",
-      "type": "location",
-      "id": 109,
-      "name": "Алтарь Ритуалов",
-      "url": "/lu4/location/109-altar-ritualov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 9",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/9"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:5268",
-      "type": "item",
-      "id": 5268,
-      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
-    },
-    {
-      "key": "item:2501",
-      "type": "item",
-      "id": 2501,
-      "name": "Bone Club NG",
-      "url": "/lu4/item/2501-bone-club"
-    },
-    {
-      "key": "item:2252",
-      "type": "item",
-      "id": 2252,
-      "name": "Recipe: Iron Hammer NG",
-      "url": "/lu4/item/2252-recipe-iron-hammer"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:176",
-      "type": "item",
-      "id": 176,
-      "name": "Apprentice's Staff NG",
-      "url": "/lu4/item/176-apprentices-staff"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -145,11 +86,53 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1924",
+      "key": "item:176",
       "type": "item",
-      "id": 1924,
-      "name": "Leather Helmet Design NG",
-      "url": "/lu4/item/1924-leather-helmet-design"
+      "id": 176,
+      "name": "Apprentice's Staff NG",
+      "url": "/lu4/item/176-apprentices-staff"
+    },
+    {
+      "key": "item:2501",
+      "type": "item",
+      "id": 2501,
+      "name": "Bone Club NG",
+      "url": "/lu4/item/2501-bone-club"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:2252",
+      "type": "item",
+      "id": 2252,
+      "name": "Recipe: Iron Hammer NG",
+      "url": "/lu4/item/2252-recipe-iron-hammer"
+    },
+    {
+      "key": "item:5268",
+      "type": "item",
+      "id": 5268,
+      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
+    },
+    {
+      "key": "item:44",
+      "type": "item",
+      "id": 44,
+      "name": "Leather Helmet NG",
+      "url": "/lu4/item/44-leather-helmet"
     },
     {
       "key": "item:1872",
@@ -159,11 +142,11 @@
       "url": "/lu4/item/1872-animal-bone"
     },
     {
-      "key": "item:44",
+      "key": "item:1924",
       "type": "item",
-      "id": 44,
-      "name": "Leather Helmet NG",
-      "url": "/lu4/item/44-leather-helmet"
+      "id": 1924,
+      "name": "Leather Helmet Design NG",
+      "url": "/lu4/item/1924-leather-helmet-design"
     }
   ]
 }

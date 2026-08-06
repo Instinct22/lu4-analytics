@@ -2,196 +2,95 @@
   "key": "npc:20559",
   "type": "npc",
   "id": 20559,
-  "name": "Lu4 Wiki: NPC Rotting Golem",
+  "name": "Rotting Golem",
   "url": "/lu4/npc/20559-rotting-golem",
-  "source_url": "https://masterwork.wiki/lu4/npc/20559-rotting-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20559-rotting-golem",
   "raw_html": "library/raw/lu4/npc/20559-rotting-golem.html",
   "stats": {
-    "Location": "Море Спор"
+    "Respawn Time": "30 seconds",
+    "Location": "Море Спор",
+    "HP / MP": "3 737 / 719",
+    "P. Atk. / M. Atk.": "328 / 255",
+    "P. Def. / M. Def.": "297 / 245",
+    "Accuracy / Evasion": "77 / 77",
+    "Exp / SP": "4 247 / 425",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Def. Lv. 13 Strong M. Def. Lv. 14 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Bleed Resistance Lv. 5 Resistant to Bleed.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20559",
-      "type": "npc",
-      "id": 20559,
-      "name": "Lu4",
-      "url": "/lu4/npc/20559-rotting-golem"
-    },
-    {
-      "key": "location:104",
-      "type": "location",
-      "id": 104,
-      "name": "Море Спор",
-      "url": "/lu4/location/104-more-spor"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5154",
-      "type": "item",
-      "id": 5154,
-      "name": "Recipe: Soulshot (C) Compressed Package (100%) NG",
-      "url": "/lu4/item/5154-recipe-soulshot-c-compressed-package-100"
-    },
-    {
-      "key": "item:4440",
-      "type": "item",
-      "id": 4440,
-      "name": "Recipe: Knuckle Duster NG",
-      "url": "/lu4/item/4440-recipe-knuckle-duster"
-    },
-    {
-      "key": "item:2317",
-      "type": "item",
-      "id": 2317,
-      "name": "Recipe: Bec de Corbin NG",
-      "url": "/lu4/item/2317-recipe-bec-de-corbin"
-    },
-    {
-      "key": "item:2220",
-      "type": "item",
-      "id": 2220,
-      "name": "Recipe: Rind Leather Armor NG",
-      "url": "/lu4/item/2220-recipe-rind-leather-armor"
-    },
-    {
-      "key": "item:2086",
-      "type": "item",
-      "id": 2086,
-      "name": "Noble Elven Bow Shaft NG",
-      "url": "/lu4/item/2086-noble-elven-bow-shaft"
-    },
-    {
-      "key": "item:2080",
-      "type": "item",
-      "id": 2080,
-      "name": "Spirit Sword Blade NG",
-      "url": "/lu4/item/2080-spirit-sword-blade"
-    },
-    {
-      "key": "item:2077",
-      "type": "item",
-      "id": 2077,
-      "name": "Shamshir Blade NG",
-      "url": "/lu4/item/2077-shamshir-blade"
-    },
-    {
-      "key": "item:1895",
-      "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
-    },
-    {
-      "key": "item:285",
-      "type": "item",
-      "id": 285,
-      "name": "Noble Elven Bow C",
-      "url": "/lu4/item/285-noble-elven-bow"
-    },
-    {
-      "key": "item:131",
-      "type": "item",
-      "id": 131,
-      "name": "Spirit Sword C",
-      "url": "/lu4/item/131-spirit-sword"
-    },
-    {
-      "key": "item:73",
-      "type": "item",
-      "id": 73,
-      "name": "Shamshir C",
-      "url": "/lu4/item/73-shamshir"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "item:57",
@@ -201,18 +100,102 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:3002",
+      "key": "item:1895",
       "type": "item",
-      "id": 3002,
-      "name": "Recipe: Dwarven Chain Gloves NG",
-      "url": "/lu4/item/3002-recipe-dwarven-chain-gloves"
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
     },
     {
-      "key": "item:3000",
+      "key": "item:5154",
       "type": "item",
-      "id": 3000,
-      "name": "Recipe: Dwarven Chain Shield NG",
-      "url": "/lu4/item/3000-recipe-dwarven-chain-shield"
+      "id": 5154,
+      "name": "Recipe: Soulshot (C) Compressed Package (100%) NG",
+      "url": "/lu4/item/5154-recipe-soulshot-c-compressed-package-100"
+    },
+    {
+      "key": "item:285",
+      "type": "item",
+      "id": 285,
+      "name": "Noble Elven Bow C",
+      "url": "/lu4/item/285-noble-elven-bow"
+    },
+    {
+      "key": "item:2086",
+      "type": "item",
+      "id": 2086,
+      "name": "Noble Elven Bow Shaft NG",
+      "url": "/lu4/item/2086-noble-elven-bow-shaft"
+    },
+    {
+      "key": "item:73",
+      "type": "item",
+      "id": 73,
+      "name": "Shamshir C",
+      "url": "/lu4/item/73-shamshir"
+    },
+    {
+      "key": "item:2077",
+      "type": "item",
+      "id": 2077,
+      "name": "Shamshir Blade NG",
+      "url": "/lu4/item/2077-shamshir-blade"
+    },
+    {
+      "key": "item:131",
+      "type": "item",
+      "id": 131,
+      "name": "Spirit Sword C",
+      "url": "/lu4/item/131-spirit-sword"
+    },
+    {
+      "key": "item:2080",
+      "type": "item",
+      "id": 2080,
+      "name": "Spirit Sword Blade NG",
+      "url": "/lu4/item/2080-spirit-sword-blade"
+    },
+    {
+      "key": "item:2317",
+      "type": "item",
+      "id": 2317,
+      "name": "Recipe: Bec de Corbin NG",
+      "url": "/lu4/item/2317-recipe-bec-de-corbin"
+    },
+    {
+      "key": "item:4440",
+      "type": "item",
+      "id": 4440,
+      "name": "Recipe: Knuckle Duster NG",
+      "url": "/lu4/item/4440-recipe-knuckle-duster"
+    },
+    {
+      "key": "item:2220",
+      "type": "item",
+      "id": 2220,
+      "name": "Recipe: Rind Leather Armor NG",
+      "url": "/lu4/item/2220-recipe-rind-leather-armor"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:1873",
@@ -220,6 +203,20 @@
       "id": 1873,
       "name": "Silver Nugget NG",
       "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:3002",
+      "type": "item",
+      "id": 3002,
+      "name": "Recipe: Dwarven Chain Gauntlets NG",
+      "url": "/lu4/item/3002-recipe-dwarven-chain-gauntlets"
+    },
+    {
+      "key": "item:3000",
+      "type": "item",
+      "id": 3000,
+      "name": "Recipe: Dwarven Chain Shield NG",
+      "url": "/lu4/item/3000-recipe-dwarven-chain-shield"
     }
   ]
 }

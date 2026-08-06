@@ -2,103 +2,107 @@
   "key": "npc:25523",
   "type": "npc",
   "id": 25523,
-  "name": "Lu4 Wiki: NPC Plague Golem",
+  "name": "Plague Golem",
   "url": "/lu4/npc/25523-plague-golem",
-  "source_url": "https://masterwork.wiki/lu4/npc/25523-plague-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25523-plague-golem",
   "raw_html": "library/raw/lu4/npc/25523-plague-golem.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 393 767 / 3 202",
+    "P. Atk. / M. Atk.": "34 592 / 52 581",
+    "P. Def. / M. Def.": "1 609 / 1 652",
+    "Accuracy / Evasion": "131 / 131",
+    "Exp / SP": "6 750 000 / 920 130",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Golem was originally a follower of Argos during the war between Giants and Humans. He remained with his master after Argos' imprisonment by Einhasad into the cliff wall. He has devolved to the point that he no longer resembles a Lesser Giant and isn't sure why he is still there. Even Daimon the White-eyed cannot harm him in the Wall of Argos. Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. Bare Hands Lv. 1 Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 75"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25523",
-      "type": "npc",
-      "id": 25523,
-      "name": "Lu4",
-      "url": "/lu4/npc/25523-plague-golem"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:5034",
       "type": "skill",
       "id": 5034,
-      "name": "Raid Boss Lv. 1 This Golem was originally a follower of Argos during the war between Giants and Humans. He remained with his master after Argos' imprisonment by Einhasad into the cliff wall. He has devolved to the point that he no longer resembles a Lesser Giant and isn't sure why he is still there. Even Daimon the White-eyed cannot harm him in the Wall of Argos.",
-      "url": "/lu4/skill/5034-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/5034-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Bare Hands Lv. 1",
-      "url": "/lu4/skill/4415-bare-hands/1"
+      "name": "Bare Hands",
+      "url": "/lu4/skill/4415-bare-hands"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -108,46 +112,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6726",
+      "key": "item:6688",
       "type": "item",
-      "id": 6726,
-      "name": "Sealed Tateossian Necklace S",
-      "url": "/lu4/item/6726-sealed-tateossian-necklace"
-    },
-    {
-      "key": "item:6725",
-      "type": "item",
-      "id": 6725,
-      "name": "Sealed Tateossian Ring S",
-      "url": "/lu4/item/6725-sealed-tateossian-ring"
-    },
-    {
-      "key": "item:6724",
-      "type": "item",
-      "id": 6724,
-      "name": "Sealed Tateossian Earring S",
-      "url": "/lu4/item/6724-sealed-tateossian-earring"
-    },
-    {
-      "key": "item:6700",
-      "type": "item",
-      "id": 6700,
-      "name": "Sealed Tateossian Necklace Chain NG",
-      "url": "/lu4/item/6700-sealed-tateossian-necklace-chain"
-    },
-    {
-      "key": "item:6699",
-      "type": "item",
-      "id": 6699,
-      "name": "Sealed Tateossian Ring Gem NG",
-      "url": "/lu4/item/6699-sealed-tateossian-ring-gem"
-    },
-    {
-      "key": "item:6698",
-      "type": "item",
-      "id": 6698,
-      "name": "Sealed Tateossian Earring Part NG",
-      "url": "/lu4/item/6698-sealed-tateossian-earring-part"
+      "id": 6688,
+      "name": "Forgotten Blade Edge NG",
+      "url": "/lu4/item/6688-forgotten-blade-edge"
     },
     {
       "key": "item:6696",
@@ -157,25 +126,46 @@
       "url": "/lu4/item/6696-heavens-divider-edge"
     },
     {
-      "key": "item:6688",
+      "key": "item:6726",
       "type": "item",
-      "id": 6688,
-      "name": "Forgotten Blade Edge NG",
-      "url": "/lu4/item/6688-forgotten-blade-edge"
+      "id": 6726,
+      "name": "Sealed Tateossian Necklace S",
+      "url": "/lu4/item/6726-sealed-tateossian-necklace"
     },
     {
-      "key": "item:6578",
+      "key": "item:6724",
       "type": "item",
-      "id": 6578,
-      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+      "id": 6724,
+      "name": "Sealed Tateossian Earring S",
+      "url": "/lu4/item/6724-sealed-tateossian-earring"
     },
     {
-      "key": "item:6577",
+      "key": "item:6725",
       "type": "item",
-      "id": 6577,
-      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
-      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
+      "id": 6725,
+      "name": "Sealed Tateossian Ring S",
+      "url": "/lu4/item/6725-sealed-tateossian-ring"
+    },
+    {
+      "key": "item:6700",
+      "type": "item",
+      "id": 6700,
+      "name": "Sealed Tateossian Necklace Chain NG",
+      "url": "/lu4/item/6700-sealed-tateossian-necklace-chain"
+    },
+    {
+      "key": "item:6698",
+      "type": "item",
+      "id": 6698,
+      "name": "Sealed Tateossian Earring Part NG",
+      "url": "/lu4/item/6698-sealed-tateossian-earring-part"
+    },
+    {
+      "key": "item:6699",
+      "type": "item",
+      "id": 6699,
+      "name": "Sealed Tateossian Ring Gem NG",
+      "url": "/lu4/item/6699-sealed-tateossian-ring-gem"
     },
     {
       "key": "item:960",
@@ -185,11 +175,25 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
+      "key": "item:6578",
+      "type": "item",
+      "id": 6578,
+      "name": "Blessed Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/6578-blessed-scroll-enchant-armor-s-grade"
+    },
+    {
       "key": "item:959",
       "type": "item",
       "id": 959,
       "name": "Scroll: Enchant Weapon (S-Grade) NG",
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
+    },
+    {
+      "key": "item:6577",
+      "type": "item",
+      "id": 6577,
+      "name": "Blessed Scroll: Enchant Weapon (S-Grade) NG",
+      "url": "/lu4/item/6577-blessed-scroll-enchant-weapon-s-grade"
     }
   ]
 }

@@ -2,154 +2,88 @@
   "key": "npc:21010",
   "type": "npc",
   "id": 21010,
-  "name": "Lu4 Wiki: NPC Doom Warrior",
+  "name": "Doom Warrior",
   "url": "/lu4/npc/21010-doom-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/21010-doom-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21010-doom-warrior",
   "raw_html": "library/raw/lu4/npc/21010-doom-warrior.html",
   "stats": {
-    "Location": "Поле Брани (+2) Поле Брани Земли Адена Кладбище"
+    "Respawn Time": "45 seconds ± 5 seconds",
+    "Location": "Поле Брани (+2) Поле Брани Земли Адена Кладбище",
+    "HP / MP": "7 897 / 1 426",
+    "P. Atk. / M. Atk.": "1 695 / 835",
+    "P. Def. / M. Def.": "465 / 347",
+    "Accuracy / Evasion": "100 / 100",
+    "Exp / SP": "10 046 / 1 005",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Holy Vulnerability Lv. 1 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 67"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21010",
-      "type": "npc",
-      "id": 21010,
-      "name": "Lu4",
-      "url": "/lu4/npc/21010-doom-warrior"
-    },
-    {
-      "key": "location:188",
-      "type": "location",
-      "id": 188,
-      "name": "Поле Брани",
-      "url": "/lu4/location/188-pole-brani"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
-      "key": "location:71",
-      "type": "location",
-      "id": 71,
-      "name": "Кладбище",
-      "url": "/lu4/location/71-kladbise"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:32535",
+      "key": "item:57",
       "type": "item",
-      "id": 32535,
-      "name": "Unidentified Dasparion's Staff A",
-      "url": "/lu4/item/32535-unidentified-dasparions-staff"
-    },
-    {
-      "key": "item:32431",
-      "type": "item",
-      "id": 32431,
-      "name": "Unidentified Infernal Master A",
-      "url": "/lu4/item/32431-unidentified-infernal-master"
-    },
-    {
-      "key": "item:32330",
-      "type": "item",
-      "id": 32330,
-      "name": "Unidentified Elemental Sword A",
-      "url": "/lu4/item/32330-unidentified-elemental-sword"
-    },
-    {
-      "key": "item:14207",
-      "type": "item",
-      "id": 14207,
-      "name": "Spellbook: Deflect Magic NG",
-      "url": "/lu4/item/14207-spellbook-deflect-magic"
-    },
-    {
-      "key": "item:8882",
-      "type": "item",
-      "id": 8882,
-      "name": "Spellbook: Salvation NG",
-      "url": "/lu4/item/8882-spellbook-salvation"
-    },
-    {
-      "key": "item:8331",
-      "type": "item",
-      "id": 8331,
-      "name": "Infernal Master Blade NG",
-      "url": "/lu4/item/8331-infernal-master-blade"
-    },
-    {
-      "key": "item:7676",
-      "type": "item",
-      "id": 7676,
-      "name": "Amulet: Seal of Despair NG",
-      "url": "/lu4/item/7676-amulet-seal-of-despair"
-    },
-    {
-      "key": "item:7647",
-      "type": "item",
-      "id": 7647,
-      "name": "Spellbook: Curse of Abyss NG",
-      "url": "/lu4/item/7647-spellbook-curse-of-abyss"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5549",
@@ -159,53 +93,11 @@
       "url": "/lu4/item/5549-metallic-thread"
     },
     {
-      "key": "item:5547",
-      "type": "item",
-      "id": 5547,
-      "name": "Elemental Sword Edge NG",
-      "url": "/lu4/item/5547-elemental-sword-edge"
-    },
-    {
-      "key": "item:5543",
-      "type": "item",
-      "id": 5543,
-      "name": "Dasparion's Staff Head NG",
-      "url": "/lu4/item/5543-dasparions-staff-head"
-    },
-    {
-      "key": "item:5438",
-      "type": "item",
-      "id": 5438,
-      "name": "Recipe: Meteor Shower(60%) NG",
-      "url": "/lu4/item/5438-recipe-meteor-shower60"
-    },
-    {
-      "key": "item:5426",
-      "type": "item",
-      "id": 5426,
-      "name": "Recipe: Sealed Dark Crystal Helmet(60%) NG",
-      "url": "/lu4/item/5426-recipe-sealed-dark-crystal-helmet60"
-    },
-    {
-      "key": "item:5418",
-      "type": "item",
-      "id": 5418,
-      "name": "Recipe: Sealed Tallum Plate Armor(60%) NG",
-      "url": "/lu4/item/5418-recipe-sealed-tallum-plate-armor60"
-    },
-    {
       "key": "item:4044",
       "type": "item",
       "id": 4044,
       "name": "Thons NG",
       "url": "/lu4/item/4044-thons"
-    },
-    {
-      "key": "item:3956",
-      "type": "item",
-      "id": 3956,
-      "name": "Recipe: Blessed Spiritshot A NG",
-      "url": "/lu4/item/3956-recipe-blessed-spiritshot-a"
     },
     {
       "key": "item:1889",
@@ -229,18 +121,109 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:3956",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 3956,
+      "name": "Recipe: Blessed Spiritshot A NG",
+      "url": "/lu4/item/3956-recipe-blessed-spiritshot-a"
     },
     {
-      "key": "item:6341",
+      "key": "item:32535",
       "type": "item",
-      "id": 6341,
-      "name": "Sealed Phoenix Earring Gemstone NG",
-      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
+      "id": 32535,
+      "name": "Unidentified Dasparion's Staff A",
+      "url": "/lu4/item/32535-unidentified-dasparions-staff"
+    },
+    {
+      "key": "item:5543",
+      "type": "item",
+      "id": 5543,
+      "name": "Dasparion's Staff Head NG",
+      "url": "/lu4/item/5543-dasparions-staff-head"
+    },
+    {
+      "key": "item:32330",
+      "type": "item",
+      "id": 32330,
+      "name": "Unidentified Elemental Sword A",
+      "url": "/lu4/item/32330-unidentified-elemental-sword"
+    },
+    {
+      "key": "item:5547",
+      "type": "item",
+      "id": 5547,
+      "name": "Elemental Sword Edge NG",
+      "url": "/lu4/item/5547-elemental-sword-edge"
+    },
+    {
+      "key": "item:32431",
+      "type": "item",
+      "id": 32431,
+      "name": "Unidentified Infernal Master A",
+      "url": "/lu4/item/32431-unidentified-infernal-master"
+    },
+    {
+      "key": "item:8331",
+      "type": "item",
+      "id": 8331,
+      "name": "Infernal Master Blade NG",
+      "url": "/lu4/item/8331-infernal-master-blade"
+    },
+    {
+      "key": "item:5438",
+      "type": "item",
+      "id": 5438,
+      "name": "Recipe: Meteor Shower(60%) NG",
+      "url": "/lu4/item/5438-recipe-meteor-shower60"
+    },
+    {
+      "key": "item:5426",
+      "type": "item",
+      "id": 5426,
+      "name": "Recipe: Sealed Dark Crystal Helmet(60%) NG",
+      "url": "/lu4/item/5426-recipe-sealed-dark-crystal-helmet60"
+    },
+    {
+      "key": "item:5418",
+      "type": "item",
+      "id": 5418,
+      "name": "Recipe: Sealed Tallum Plate Armor(60%) NG",
+      "url": "/lu4/item/5418-recipe-sealed-tallum-plate-armor60"
+    },
+    {
+      "key": "item:8882",
+      "type": "item",
+      "id": 8882,
+      "name": "Spellbook: Salvation NG",
+      "url": "/lu4/item/8882-spellbook-salvation"
+    },
+    {
+      "key": "item:7676",
+      "type": "item",
+      "id": 7676,
+      "name": "Amulet: Seal of Despair NG",
+      "url": "/lu4/item/7676-amulet-seal-of-despair"
+    },
+    {
+      "key": "item:7647",
+      "type": "item",
+      "id": 7647,
+      "name": "Spellbook: Curse of Abyss NG",
+      "url": "/lu4/item/7647-spellbook-curse-of-abyss"
+    },
+    {
+      "key": "item:14207",
+      "type": "item",
+      "id": 14207,
+      "name": "Spellbook: Deflect Magic NG",
+      "url": "/lu4/item/14207-spellbook-deflect-magic"
+    },
+    {
+      "key": "item:1807",
+      "type": "item",
+      "id": 1807,
+      "name": "Recipe: Soulshot (A-Grade) NG",
+      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
     },
     {
       "key": "item:6331",
@@ -250,11 +233,18 @@
       "url": "/lu4/item/6331-recipe-sealed-phoenix-earring70"
     },
     {
-      "key": "item:5509",
+      "key": "item:5428",
       "type": "item",
-      "id": 5509,
-      "name": "Sealed Tallum Gloves Design NG",
-      "url": "/lu4/item/5509-sealed-tallum-gloves-design"
+      "id": 5428,
+      "name": "Recipe: Sealed Tallum Helmet(60%) NG",
+      "url": "/lu4/item/5428-recipe-sealed-tallum-helmet60"
+    },
+    {
+      "key": "item:6341",
+      "type": "item",
+      "id": 6341,
+      "name": "Sealed Phoenix Earring Gemstone NG",
+      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
     },
     {
       "key": "item:5497",
@@ -264,18 +254,11 @@
       "url": "/lu4/item/5497-sealed-tallum-boots-lining"
     },
     {
-      "key": "item:5428",
+      "key": "item:5509",
       "type": "item",
-      "id": 5428,
-      "name": "Recipe: Sealed Tallum Helmet(60%) NG",
-      "url": "/lu4/item/5428-recipe-sealed-tallum-helmet60"
-    },
-    {
-      "key": "item:1807",
-      "type": "item",
-      "id": 1807,
-      "name": "Recipe: Soulshot (A-Grade) NG",
-      "url": "/lu4/item/1807-recipe-soulshot-a-grade"
+      "id": 5509,
+      "name": "Sealed Tallum Gloves Design NG",
+      "url": "/lu4/item/5509-sealed-tallum-gloves-design"
     }
   ]
 }

@@ -1,0 +1,17 @@
+# Unidentified Sealed Majestic Boots
+
+- Source: https://masterwork.wiki/lu4-b-w-c/item/32393-unidentified-sealed-majestic-boots
+- Path: /lu4/item/32393-unidentified-sealed-majestic-boots
+- Type: item
+- Key: item:32393
+
+## Stats
+- Effect: Double-click to identify this item. It can be either normal or foundation.
+- Weight: 10
+- Item Skills: Identify Sealed Majestic Boots Lv. 1
+- Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: A
+- Type: Other
+
+## Content
+Unidentified Sealed Majestic Boots A Other Double-click to identify this item. It can be either normal or foundation. Weight 10 Item Skills Identify Sealed Majestic Boots Lv. 1 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

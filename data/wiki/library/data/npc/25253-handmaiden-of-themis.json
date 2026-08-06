@@ -2,61 +2,57 @@
   "key": "npc:25253",
   "type": "npc",
   "id": 25253,
-  "name": "Lu4 Wiki: NPC Handmaiden of Themis",
+  "name": "Handmaiden of Themis",
   "url": "/lu4/npc/25253-handmaiden-of-themis",
-  "source_url": "https://masterwork.wiki/lu4/npc/25253-handmaiden-of-themis",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25253-handmaiden-of-themis",
   "raw_html": "library/raw/lu4/npc/25253-handmaiden-of-themis.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "62 337 / 1 657",
+    "P. Atk. / M. Atk.": "5 009 / 20 995",
+    "P. Def. / M. Def.": "792 / 799",
+    "Accuracy / Evasion": "102 / 112",
+    "Exp / SP": "0 / 2 260",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Resist Full Magic Attack Lv. 1",
+    "Type": "Demonic, Lv. 69"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25253",
-      "type": "npc",
-      "id": 25253,
-      "name": "Lu4",
-      "url": "/lu4/npc/25253-handmaiden-of-themis"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:1344",
-      "type": "item",
-      "id": 1344,
-      "name": "Mithril Arrow A",
-      "url": "/lu4/item/1344-mithril-arrow"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

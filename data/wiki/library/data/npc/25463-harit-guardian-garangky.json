@@ -2,77 +2,51 @@
   "key": "npc:25463",
   "type": "npc",
   "id": 25463,
-  "name": "Lu4 Wiki: NPC Harit Guardian Garangky",
+  "name": "Harit Guardian Garangky",
   "url": "/lu4/npc/25463-harit-guardian-garangky",
-  "source_url": "https://masterwork.wiki/lu4/npc/25463-harit-guardian-garangky",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25463-harit-guardian-garangky",
   "raw_html": "library/raw/lu4/npc/25463-harit-guardian-garangky.html",
   "stats": {
-    "Location": "Земли Адена"
+    "HP / MP": "514 810 / 8 254",
+    "P. Atk. / M. Atk.": "3 678 / 1 128",
+    "P. Def. / M. Def.": "949 / 1 076",
+    "Accuracy / Evasion": "107 / 107",
+    "Exp / SP": "2 352 000 / 221 098",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 The son of Fierce Tiger King Angel, called the Guardian of Harit Lizardmen, he was sent by his father to help the Harit Lizardmen who had protected Anghel Waterfall for generations. Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 56"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25463",
-      "type": "npc",
-      "id": 25463,
-      "name": "Lu4",
-      "url": "/lu4/npc/25463-harit-guardian-garangky"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4965",
       "type": "skill",
       "id": 4965,
-      "name": "Raid Boss Lv. 1 The son of Fierce Tiger King Angel, called the Guardian of Harit Lizardmen, he was sent by his father to help the Harit Lizardmen who had protected Anghel Waterfall for generations.",
-      "url": "/lu4/skill/4965-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4965-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:32432",
-      "type": "item",
-      "id": 32432,
-      "name": "Unidentified Wizard's Tear B",
-      "url": "/lu4/item/32432-unidentified-wizards-tear"
-    },
-    {
-      "key": "item:32430",
-      "type": "item",
-      "id": 32430,
-      "name": "Unidentified Guardian Sword B",
-      "url": "/lu4/item/32430-unidentified-guardian-sword"
-    },
-    {
-      "key": "item:32322",
-      "type": "item",
-      "id": 32322,
-      "name": "Unidentified Sword of Damascus B",
-      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -82,32 +56,25 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:8336",
+      "key": "item:32322",
       "type": "item",
-      "id": 8336,
-      "name": "Blade of the Wizard's Tear NG",
-      "url": "/lu4/item/8336-blade-of-the-wizards-tear"
+      "id": 32322,
+      "name": "Unidentified Sword of Damascus B",
+      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
     },
     {
-      "key": "item:8330",
+      "key": "item:32430",
       "type": "item",
-      "id": 8330,
-      "name": "Guardian Sword Blade NG",
-      "url": "/lu4/item/8330-guardian-sword-blade"
+      "id": 32430,
+      "name": "Unidentified Guardian Sword B",
+      "url": "/lu4/item/32430-unidentified-guardian-sword"
     },
     {
-      "key": "item:6572",
+      "key": "item:32432",
       "type": "item",
-      "id": 6572,
-      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:6571",
-      "type": "item",
-      "id": 6571,
-      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
+      "id": 32432,
+      "name": "Unidentified Wizard's Tear B",
+      "url": "/lu4/item/32432-unidentified-wizards-tear"
     },
     {
       "key": "item:4114",
@@ -117,39 +84,18 @@
       "url": "/lu4/item/4114-sword-of-damascus-blade"
     },
     {
-      "key": "item:4054",
+      "key": "item:8330",
       "type": "item",
-      "id": 4054,
-      "name": "Necklace of Black Ore Beads NG",
-      "url": "/lu4/item/4054-necklace-of-black-ore-beads"
+      "id": 8330,
+      "name": "Guardian Sword Blade NG",
+      "url": "/lu4/item/8330-guardian-sword-blade"
     },
     {
-      "key": "item:4053",
+      "key": "item:8336",
       "type": "item",
-      "id": 4053,
-      "name": "Ring of Black Ore Gemstone NG",
-      "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
-    },
-    {
-      "key": "item:4052",
-      "type": "item",
-      "id": 4052,
-      "name": "Earring of Black Ore Piece NG",
-      "url": "/lu4/item/4052-earring-of-black-ore-piece"
-    },
-    {
-      "key": "item:948",
-      "type": "item",
-      "id": 948,
-      "name": "Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:947",
-      "type": "item",
-      "id": 947,
-      "name": "Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+      "id": 8336,
+      "name": "Blade of the Wizard's Tear NG",
+      "url": "/lu4/item/8336-blade-of-the-wizards-tear"
     },
     {
       "key": "item:926",
@@ -159,6 +105,13 @@
       "url": "/lu4/item/926-necklace-of-black-ore"
     },
     {
+      "key": "item:864",
+      "type": "item",
+      "id": 864,
+      "name": "Earring of Black Ore B",
+      "url": "/lu4/item/864-earring-of-black-ore"
+    },
+    {
       "key": "item:895",
       "type": "item",
       "id": 895,
@@ -166,11 +119,53 @@
       "url": "/lu4/item/895-ring-of-black-ore"
     },
     {
-      "key": "item:864",
+      "key": "item:4054",
       "type": "item",
-      "id": 864,
-      "name": "Earring of Black Ore B",
-      "url": "/lu4/item/864-earring-of-black-ore"
+      "id": 4054,
+      "name": "Necklace of Black Ore Beads NG",
+      "url": "/lu4/item/4054-necklace-of-black-ore-beads"
+    },
+    {
+      "key": "item:4052",
+      "type": "item",
+      "id": 4052,
+      "name": "Earring of Black Ore Piece NG",
+      "url": "/lu4/item/4052-earring-of-black-ore-piece"
+    },
+    {
+      "key": "item:4053",
+      "type": "item",
+      "id": 4053,
+      "name": "Ring of Black Ore Gemstone NG",
+      "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
+    },
+    {
+      "key": "item:948",
+      "type": "item",
+      "id": 948,
+      "name": "Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
+    },
+    {
+      "key": "item:6572",
+      "type": "item",
+      "id": 6572,
+      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
+    },
+    {
+      "key": "item:947",
+      "type": "item",
+      "id": 947,
+      "name": "Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+    },
+    {
+      "key": "item:6571",
+      "type": "item",
+      "id": 6571,
+      "name": "Blessed Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/6571-blessed-scroll-enchant-weapon-b-grade"
     },
     {
       "key": "npc:25464",

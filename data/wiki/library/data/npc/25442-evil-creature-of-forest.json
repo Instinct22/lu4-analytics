@@ -2,47 +2,44 @@
   "key": "npc:25442",
   "type": "npc",
   "id": 25442,
-  "name": "Lu4 Wiki: NPC Evil Creature of Forest",
+  "name": "Evil Creature of Forest",
   "url": "/lu4/npc/25442-evil-creature-of-forest",
-  "source_url": "https://masterwork.wiki/lu4/npc/25442-evil-creature-of-forest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25442-evil-creature-of-forest",
   "raw_html": "library/raw/lu4/npc/25442-evil-creature-of-forest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "14 519 / 2 063",
+    "P. Atk. / M. Atk.": "257 / 128",
+    "P. Def. / M. Def.": "390 / 386",
+    "Accuracy / Evasion": "77 / 87",
+    "Exp / SP": "0 / 636",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "C",
+    "Type": "Animal, Lv. 44"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25442",
-      "type": "npc",
-      "id": 25442,
-      "name": "Lu4",
-      "url": "/lu4/npc/25442-evil-creature-of-forest"
-    },
-    {
-      "key": "location:237",
-      "type": "location",
-      "id": 237,
-      "name": "Долина Охотников",
-      "url": "/lu4/location/237-dolina-ohotnikov"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:1342",

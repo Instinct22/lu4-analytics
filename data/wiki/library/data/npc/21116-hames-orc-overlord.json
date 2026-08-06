@@ -2,175 +2,74 @@
   "key": "npc:21116",
   "type": "npc",
   "id": 21116,
-  "name": "Lu4 Wiki: NPC Hames Orc Overlord",
+  "name": "Hames Orc Overlord",
   "url": "/lu4/npc/21116-hames-orc-overlord",
-  "source_url": "https://masterwork.wiki/lu4/npc/21116-hames-orc-overlord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21116-hames-orc-overlord",
   "raw_html": "library/raw/lu4/npc/21116-hames-orc-overlord.html",
   "stats": {
-    "Location": "Раскаленные Топи (+1) Раскаленные Топи Земли Адена"
+    "Respawn Time": "45 seconds ± 5 seconds",
+    "Location": "Раскаленные Топи (+1) Раскаленные Топи Земли Адена",
+    "HP / MP": "10 469 / 1 674",
+    "P. Atk. / M. Atk.": "2 018 / 1 043",
+    "P. Def. / M. Def.": "720 / 450",
+    "Accuracy / Evasion": "116 / 105",
+    "Exp / SP": "13 568 / 1 357",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak M. Def. Lv. 10 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. Mental Attack Resistance Lv. 3 Provides resistance against mental attack.",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 75"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21116",
-      "type": "npc",
-      "id": 21116,
-      "name": "Lu4",
-      "url": "/lu4/npc/21116-hames-orc-overlord"
-    },
-    {
-      "key": "location:95",
-      "type": "location",
-      "id": 95,
-      "name": "Раскаленные Топи",
-      "url": "/lu4/location/95-raskalennye-topi"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 3 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/3"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39375",
-      "type": "item",
-      "id": 39375,
-      "name": "Spellbook: Eclipse NG",
-      "url": "/lu4/item/39375-spellbook-eclipse"
-    },
-    {
-      "key": "item:32347",
-      "type": "item",
-      "id": 32347,
-      "name": "Unidentified Soul Bow A",
-      "url": "/lu4/item/32347-unidentified-soul-bow"
-    },
-    {
-      "key": "item:14213",
-      "type": "item",
-      "id": 14213,
-      "name": "Spellbook: Enlightenment NG",
-      "url": "/lu4/item/14213-spellbook-enlightenment"
-    },
-    {
-      "key": "item:14212",
-      "type": "item",
-      "id": 14212,
-      "name": "Spellbook: Enlightenment NG",
-      "url": "/lu4/item/14212-spellbook-enlightenment"
-    },
-    {
-      "key": "item:14208",
-      "type": "item",
-      "id": 14208,
-      "name": "Spellbook: Final Secret NG",
-      "url": "/lu4/item/14208-spellbook-final-secret"
-    },
-    {
-      "key": "item:6346",
-      "type": "item",
-      "id": 6346,
-      "name": "Sealed Majestic Ring Gemstone NG",
-      "url": "/lu4/item/6346-sealed-majestic-ring-gemstone"
-    },
-    {
-      "key": "item:6342",
-      "type": "item",
-      "id": 6342,
-      "name": "Sealed Majestic Earring Gemstone NG",
-      "url": "/lu4/item/6342-sealed-majestic-earring-gemstone"
-    },
-    {
-      "key": "item:6328",
-      "type": "item",
-      "id": 6328,
-      "name": "Sealed Majestic Ring A",
-      "url": "/lu4/item/6328-sealed-majestic-ring"
-    },
-    {
-      "key": "item:6327",
-      "type": "item",
-      "id": 6327,
-      "name": "Sealed Majestic Earring A",
-      "url": "/lu4/item/6327-sealed-majestic-earring"
-    },
-    {
-      "key": "item:5534",
-      "type": "item",
-      "id": 5534,
-      "name": "Soul Bow Stave NG",
-      "url": "/lu4/item/5534-soul-bow-stave"
-    },
-    {
-      "key": "item:5464",
-      "type": "item",
-      "id": 5464,
-      "name": "Recipe: Dark Legion's Edge(60%) NG",
-      "url": "/lu4/item/5464-recipe-dark-legions-edge60"
-    },
-    {
-      "key": "item:5380",
-      "type": "item",
-      "id": 5380,
-      "name": "Recipe: Sealed Boots of Nightmare(60%) NG",
-      "url": "/lu4/item/5380-recipe-sealed-boots-of-nightmare60"
-    },
-    {
-      "key": "item:5338",
-      "type": "item",
-      "id": 5338,
-      "name": "Recipe: Sealed Majestic Leather Armor(60%) NG",
-      "url": "/lu4/item/5338-recipe-sealed-majestic-leather-armor60"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -208,11 +107,123 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:5464",
+      "type": "item",
+      "id": 5464,
+      "name": "Recipe: Dark Legion's Edge(60%) NG",
+      "url": "/lu4/item/5464-recipe-dark-legions-edge60"
+    },
+    {
+      "key": "item:5380",
+      "type": "item",
+      "id": 5380,
+      "name": "Recipe: Sealed Boots of Nightmare(60%) NG",
+      "url": "/lu4/item/5380-recipe-sealed-boots-of-nightmare60"
+    },
+    {
+      "key": "item:5338",
+      "type": "item",
+      "id": 5338,
+      "name": "Recipe: Sealed Majestic Leather Armor(60%) NG",
+      "url": "/lu4/item/5338-recipe-sealed-majestic-leather-armor60"
+    },
+    {
+      "key": "item:6327",
+      "type": "item",
+      "id": 6327,
+      "name": "Sealed Majestic Earring A",
+      "url": "/lu4/item/6327-sealed-majestic-earring"
+    },
+    {
+      "key": "item:6342",
+      "type": "item",
+      "id": 6342,
+      "name": "Sealed Majestic Earring Gemstone NG",
+      "url": "/lu4/item/6342-sealed-majestic-earring-gemstone"
+    },
+    {
+      "key": "item:6328",
+      "type": "item",
+      "id": 6328,
+      "name": "Sealed Majestic Ring A",
+      "url": "/lu4/item/6328-sealed-majestic-ring"
+    },
+    {
+      "key": "item:6346",
+      "type": "item",
+      "id": 6346,
+      "name": "Sealed Majestic Ring Gemstone NG",
+      "url": "/lu4/item/6346-sealed-majestic-ring-gemstone"
+    },
+    {
+      "key": "item:32347",
+      "type": "item",
+      "id": 32347,
+      "name": "Unidentified Soul Bow A",
+      "url": "/lu4/item/32347-unidentified-soul-bow"
+    },
+    {
+      "key": "item:5534",
+      "type": "item",
+      "id": 5534,
+      "name": "Soul Bow Stave NG",
+      "url": "/lu4/item/5534-soul-bow-stave"
+    },
+    {
+      "key": "item:39375",
+      "type": "item",
+      "id": 39375,
+      "name": "Spellbook: Eclipse NG",
+      "url": "/lu4/item/39375-spellbook-eclipse"
+    },
+    {
+      "key": "item:14213",
+      "type": "item",
+      "id": 14213,
+      "name": "Spellbook: Enlightenment NG",
+      "url": "/lu4/item/14213-spellbook-enlightenment"
+    },
+    {
+      "key": "item:14212",
+      "type": "item",
+      "id": 14212,
+      "name": "Spellbook: Enlightenment NG",
+      "url": "/lu4/item/14212-spellbook-enlightenment"
+    },
+    {
+      "key": "item:14208",
+      "type": "item",
+      "id": 14208,
+      "name": "Spellbook: Final Secret NG",
+      "url": "/lu4/item/14208-spellbook-final-secret"
+    },
+    {
+      "key": "item:729",
+      "type": "item",
+      "id": 729,
+      "name": "Scroll: Enchant Weapon (A-Grade) NG",
+      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
+    },
+    {
+      "key": "item:5404",
+      "type": "item",
+      "id": 5404,
+      "name": "Recipe: Sealed Gauntlets of Nightmare(60%) NG",
+      "url": "/lu4/item/5404-recipe-sealed-gauntlets-of-nightmare60"
+    },
+    {
+      "key": "item:5462",
+      "type": "item",
+      "id": 5462,
+      "name": "Recipe: Branch of the Mother Tree(60%) NG",
+      "url": "/lu4/item/5462-recipe-branch-of-the-mother-tree60"
     },
     {
       "key": "item:5514",
@@ -234,27 +245,6 @@
       "id": 5488,
       "name": "Sealed Majestic Robe Fabric NG",
       "url": "/lu4/item/5488-sealed-majestic-robe-fabric"
-    },
-    {
-      "key": "item:5462",
-      "type": "item",
-      "id": 5462,
-      "name": "Recipe: Branch of the Mother Tree(60%) NG",
-      "url": "/lu4/item/5462-recipe-branch-of-the-mother-tree60"
-    },
-    {
-      "key": "item:5404",
-      "type": "item",
-      "id": 5404,
-      "name": "Recipe: Sealed Gauntlets of Nightmare(60%) NG",
-      "url": "/lu4/item/5404-recipe-sealed-gauntlets-of-nightmare60"
-    },
-    {
-      "key": "item:729",
-      "type": "item",
-      "id": 729,
-      "name": "Scroll: Enchant Weapon (A-Grade) NG",
-      "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     }
   ]
 }

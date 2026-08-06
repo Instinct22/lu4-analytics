@@ -2,126 +2,74 @@
   "key": "npc:20246",
   "type": "npc",
   "id": 20246,
-  "name": "Lu4 Wiki: NPC Cave Keeper",
+  "name": "Cave Keeper",
   "url": "/lu4/npc/20246-cave-keeper",
-  "source_url": "https://masterwork.wiki/lu4/npc/20246-cave-keeper",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20246-cave-keeper",
   "raw_html": "library/raw/lu4/npc/20246-cave-keeper.html",
   "stats": {
-    "Location": "Долина Драконов (+1) Долина Драконов Нейтральные Воды"
+    "Respawn Time": "1 minute, 5 seconds",
+    "Location": "Долина Драконов (+1) Долина Драконов Нейтральные Воды",
+    "HP / MP": "14 465 / 1 192",
+    "P. Atk. / M. Atk.": "837 / 428",
+    "P. Def. / M. Def.": "319 / 377",
+    "Accuracy / Evasion": "91 / 91",
+    "Exp / SP": "20 866 / 2 087",
+    "Attack Attribute": "Earth 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (5x) Lv. 13 Slightly Strong P. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Strong M. Def. Lv. 13 Dagger Lv. 7 Daggers",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 58"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20246",
-      "type": "npc",
-      "id": 20246,
-      "name": "Lu4",
-      "url": "/lu4/npc/20246-cave-keeper"
-    },
-    {
-      "key": "location:12",
-      "type": "location",
-      "id": 12,
-      "name": "Долина Драконов",
-      "url": "/lu4/location/12-dolina-drakonov"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Dagger Lv. 7 Daggers",
-      "url": "/lu4/skill/4415-dagger/7"
+      "name": "Dagger",
+      "url": "/lu4/skill/4415-dagger"
     },
     {
-      "key": "item:32593",
+      "key": "item:57",
       "type": "item",
-      "id": 32593,
-      "name": "Unidentified Zubei's Shield B",
-      "url": "/lu4/item/32593-unidentified-zubeis-shield"
-    },
-    {
-      "key": "item:32356",
-      "type": "item",
-      "id": 32356,
-      "name": "Unidentified Zubei's Leather Shirt B",
-      "url": "/lu4/item/32356-unidentified-zubeis-leather-shirt"
-    },
-    {
-      "key": "item:32335",
-      "type": "item",
-      "id": 32335,
-      "name": "Unidentified Kris B",
-      "url": "/lu4/item/32335-unidentified-kris"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:4109",
-      "type": "item",
-      "id": 4109,
-      "name": "Kris Edge NG",
-      "url": "/lu4/item/4109-kris-edge"
-    },
-    {
-      "key": "item:4101",
-      "type": "item",
-      "id": 4101,
-      "name": "Zubei's Shield Fragment NG",
-      "url": "/lu4/item/4101-zubeis-shield-fragment"
-    },
-    {
-      "key": "item:4066",
-      "type": "item",
-      "id": 4066,
-      "name": "Zubei's Leather Shirt Fabric NG",
-      "url": "/lu4/item/4066-zubeis-leather-shirt-fabric"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -152,11 +100,53 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:57",
+      "key": "item:5550",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
+    },
+    {
+      "key": "item:32335",
+      "type": "item",
+      "id": 32335,
+      "name": "Unidentified Kris B",
+      "url": "/lu4/item/32335-unidentified-kris"
+    },
+    {
+      "key": "item:4109",
+      "type": "item",
+      "id": 4109,
+      "name": "Kris Edge NG",
+      "url": "/lu4/item/4109-kris-edge"
+    },
+    {
+      "key": "item:32356",
+      "type": "item",
+      "id": 32356,
+      "name": "Unidentified Zubei's Leather Shirt B",
+      "url": "/lu4/item/32356-unidentified-zubeis-leather-shirt"
+    },
+    {
+      "key": "item:4066",
+      "type": "item",
+      "id": 4066,
+      "name": "Zubei's Leather Shirt Fabric NG",
+      "url": "/lu4/item/4066-zubeis-leather-shirt-fabric"
+    },
+    {
+      "key": "item:32593",
+      "type": "item",
+      "id": 32593,
+      "name": "Unidentified Zubei's Shield B",
+      "url": "/lu4/item/32593-unidentified-zubeis-shield"
+    },
+    {
+      "key": "item:4101",
+      "type": "item",
+      "id": 4101,
+      "name": "Zubei's Shield Fragment NG",
+      "url": "/lu4/item/4101-zubeis-shield-fragment"
     },
     {
       "key": "item:2964",

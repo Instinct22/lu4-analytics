@@ -1,78 +1,16 @@
-# Lu4 Wiki: Item Power of Earth
+# Power of Earth
 
-- Source: https://masterwork.wiki/lu4/item/35508-power-of-earth
+- Source: https://masterwork.wiki/lu4-b-w-c/item/35508-power-of-earth
 - Path: /lu4/item/35508-power-of-earth
 - Type: item
 - Key: item:35508
 
 ## Stats
+- Effect: A rare ore that contains the energy of the Earth. Collect 10 pieces and take them to the blacksmith Altran in Talking Island Village.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Power of Earth
-Lu4
-Eternal
-MasterWork
-Power of Earth
-NG
-Quest Item
-A rare ore that contains the energy of the Earth. Collect 10 pieces and take them to the blacksmith Altran in Talking Island Village.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-Trial of Geomancer
-18 ~ 85
-Quest
-Levels
-Trial of Geomancer
-18 ~ 85
-MasterWork 2026
-All rights reserved
+Power of Earth NG Quest Item A rare ore that contains the energy of the Earth. Collect 10 pieces and take them to the blacksmith Altran in Talking Island Village. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

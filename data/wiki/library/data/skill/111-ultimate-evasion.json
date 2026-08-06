@@ -1,0 +1,44 @@
+{
+  "key": "skill:111",
+  "type": "skill",
+  "id": 111,
+  "name": "Ultimate Evasion",
+  "url": "/lu4/skill/111-ultimate-evasion",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/111-ultimate-evasion",
+  "raw_html": "library/raw/lu4/skill/111-ultimate-evasion.html",
+  "stats": {
+    "Effect": "Evasion +20 Chance to evade P./M. Skills +25% Resistance to buff-canceling attacks +80%.",
+    "Consumes": "13 MP",
+    "Reuse Time": "15 minutes",
+    "Duration": "30 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "RogueLv. 28Elven ScoutLv. 28AssassinLv. 28",
+    "Type": "Physical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:7",
+      "type": "class",
+      "id": 7,
+      "name": "RogueLv. 28",
+      "url": "/lu4/class/7-rogue"
+    },
+    {
+      "key": "class:22",
+      "type": "class",
+      "id": 22,
+      "name": "Elven ScoutLv. 28",
+      "url": "/lu4/class/22-elvenscout"
+    },
+    {
+      "key": "class:35",
+      "type": "class",
+      "id": 35,
+      "name": "AssassinLv. 28",
+      "url": "/lu4/class/35-assasin"
+    }
+  ]
+}

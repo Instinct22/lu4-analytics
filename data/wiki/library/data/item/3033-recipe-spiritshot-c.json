@@ -2,41 +2,24 @@
   "key": "item:3033",
   "type": "item",
   "id": 3033,
-  "name": "Recipe",
+  "name": "Recipe: Spiritshot C",
   "url": "/lu4/item/3033-recipe-spiritshot-c",
-  "source_url": "https://masterwork.wiki/lu4/item/3033-recipe-spiritshot-c",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/3033-recipe-spiritshot-c",
   "raw_html": "library/raw/lu4/item/3033-recipe-spiritshot-c.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Spiritshot (C-Grade)'. Requires Create Item - Skill Level 4 (Artisan Lv. 36). The success rate is 100%.",
+    "NPC Sell Price": "15 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "4",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Spiritshot (C-Grade) C (270 pcs.)"
+    "Result": "Spiritshot (C-Grade) C (270 pcs.)",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:3031",
-      "type": "item",
-      "id": 3031,
-      "name": "Spirit Ore NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1459",
-      "type": "item",
-      "id": 1459,
-      "name": "Crystal (C-Grade) C",
-      "amount": "1"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:3033",
-      "type": "item",
-      "id": 3033,
-      "name": "Lu4",
-      "url": "/lu4/item/3033-recipe-spiritshot-c"
-    },
     {
       "key": "item:3031",
       "type": "item",
@@ -62,28 +45,28 @@
       "key": "npc:21609",
       "type": "npc",
       "id": 21609,
-      "name": "Zaken's Watchman Lv. 45",
+      "name": "Zaken's Watchman",
       "url": "/lu4/npc/21609-zakens-watchman"
     },
     {
       "key": "npc:21608",
       "type": "npc",
       "id": 21608,
-      "name": "Zaken's Watchman Lv. 45",
+      "name": "Zaken's Watchman",
       "url": "/lu4/npc/21608-zakens-watchman"
     },
     {
       "key": "npc:20835",
       "type": "npc",
       "id": 20835,
-      "name": "Zaken's Seer Lv. 45",
+      "name": "Zaken's Seer",
       "url": "/lu4/npc/20835-zakens-seer"
     },
     {
       "key": "npc:20796",
       "type": "npc",
       "id": 20796,
-      "name": "Blade Stakato Warrior Lv. 43",
+      "name": "Blade Stakato Warrior",
       "url": "/lu4/npc/20796-blade-stakato-warrior"
     }
   ]

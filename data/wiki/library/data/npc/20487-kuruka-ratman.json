@@ -2,112 +2,67 @@
   "key": "npc:20487",
   "type": "npc",
   "id": 20487,
-  "name": "Lu4 Wiki: NPC Kuruka Ratman",
+  "name": "Kuruka Ratman",
   "url": "/lu4/npc/20487-kuruka-ratman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20487-kuruka-ratman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20487-kuruka-ratman",
   "raw_html": "library/raw/lu4/npc/20487-kuruka-ratman.html",
   "stats": {
-    "Location": "Кайнак (+1) Кайнак Плато Бессмертия"
+    "Respawn Time": "35 seconds",
+    "Location": "Кайнак (+1) Кайнак Плато Бессмертия",
+    "HP / MP": "853 / 193",
+    "P. Atk. / M. Atk.": "39 / 19",
+    "P. Def. / M. Def.": "93 / 75",
+    "Accuracy / Evasion": "52 / 51",
+    "Exp / SP": "805 / 80",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 16"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20487",
-      "type": "npc",
-      "id": 20487,
-      "name": "Lu4",
-      "url": "/lu4/npc/20487-kuruka-ratman"
-    },
-    {
-      "key": "location:60",
-      "type": "location",
-      "id": 60,
-      "name": "Кайнак",
-      "url": "/lu4/location/60-kajnak"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1800",
-      "type": "item",
-      "id": 1800,
-      "name": "Recipe: Piece Bone Breastplate NG",
-      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
-    },
-    {
-      "key": "item:218",
-      "type": "item",
-      "id": 218,
-      "name": "Throwing Knife NG",
-      "url": "/lu4/item/218-throwing-knife"
-    },
-    {
-      "key": "item:217",
-      "type": "item",
-      "id": 217,
-      "name": "Shining Knife NG",
-      "url": "/lu4/item/217-shining-knife"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -117,11 +72,46 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2136",
+      "key": "item:217",
       "type": "item",
-      "id": 2136,
-      "name": "Recipe: Cokes NG",
-      "url": "/lu4/item/2136-recipe-cokes"
+      "id": 217,
+      "name": "Shining Knife NG",
+      "url": "/lu4/item/217-shining-knife"
+    },
+    {
+      "key": "item:218",
+      "type": "item",
+      "id": 218,
+      "name": "Throwing Knife NG",
+      "url": "/lu4/item/218-throwing-knife"
+    },
+    {
+      "key": "item:1800",
+      "type": "item",
+      "id": 1800,
+      "name": "Recipe: Piece Bone Breastplate NG",
+      "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1060",
+      "type": "item",
+      "id": 1060,
+      "name": "Lesser Healing Potion NG",
+      "url": "/lu4/item/1060-lesser-healing-potion"
     },
     {
       "key": "item:1897",
@@ -131,11 +121,11 @@
       "url": "/lu4/item/1897-necklace-of-wisdom-chain"
     },
     {
-      "key": "item:1060",
+      "key": "item:2136",
       "type": "item",
-      "id": 1060,
-      "name": "Lesser Healing Potion NG",
-      "url": "/lu4/item/1060-lesser-healing-potion"
+      "id": 2136,
+      "name": "Recipe: Cokes NG",
+      "url": "/lu4/item/2136-recipe-cokes"
     }
   ]
 }

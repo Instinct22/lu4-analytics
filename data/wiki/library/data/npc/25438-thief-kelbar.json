@@ -2,63 +2,58 @@
   "key": "npc:25438",
   "type": "npc",
   "id": 25438,
-  "name": "Lu4 Wiki: NPC Thief Kelbar",
+  "name": "Thief Kelbar",
   "url": "/lu4/npc/25438-thief-kelbar",
-  "source_url": "https://masterwork.wiki/lu4/npc/25438-thief-kelbar",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25438-thief-kelbar",
   "raw_html": "library/raw/lu4/npc/25438-thief-kelbar.html",
   "stats": {
-    "Location": "Долина Охотников"
+    "HP / MP": "273 376 / 8 254",
+    "P. Atk. / M. Atk.": "1 202 / 234",
+    "P. Def. / M. Def.": "662 / 749",
+    "Accuracy / Evasion": "98 / 97",
+    "Exp / SP": "1 355 200 / 127 160",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This legendary Ratman Bandit became famous for invading the Guild of Hunter's Village and stealing the Guild's symbol, the Legendary Bow. Unlike other Ratman Bandits, he has outsmarted many hunters of Hunter's Village through his bold and elaborate plans. Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25438",
-      "type": "npc",
-      "id": 25438,
-      "name": "Lu4",
-      "url": "/lu4/npc/25438-thief-kelbar"
-    },
-    {
-      "key": "location:237",
-      "type": "location",
-      "id": 237,
-      "name": "Долина Охотников",
-      "url": "/lu4/location/237-dolina-ohotnikov"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4957",
       "type": "skill",
       "id": 4957,
-      "name": "Raid Boss Lv. 1 This legendary Ratman Bandit became famous for invading the Guild of Hunter's Village and stealing the Guild's symbol, the Legendary Bow. Unlike other Ratman Bandits, he has outsmarted many hunters of Hunter's Village through his bold and elaborate plans.",
-      "url": "/lu4/skill/4957-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4957-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -68,18 +63,11 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6574",
+      "key": "item:283",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:6573",
-      "type": "item",
-      "id": 6573,
-      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
+      "id": 283,
+      "name": "Akat Long Bow C",
+      "url": "/lu4/item/283-akat-long-bow"
     },
     {
       "key": "item:2109",
@@ -87,6 +75,13 @@
       "id": 2109,
       "name": "Akat Longbow Shaft NG",
       "url": "/lu4/item/2109-akat-longbow-shaft"
+    },
+    {
+      "key": "item:60",
+      "type": "item",
+      "id": 60,
+      "name": "Composite Armor C",
+      "url": "/lu4/item/60-composite-armor"
     },
     {
       "key": "item:1977",
@@ -103,6 +98,13 @@
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
+      "key": "item:6574",
+      "type": "item",
+      "id": 6574,
+      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+    },
+    {
       "key": "item:951",
       "type": "item",
       "id": 951,
@@ -110,18 +112,11 @@
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
-      "key": "item:283",
+      "key": "item:6573",
       "type": "item",
-      "id": 283,
-      "name": "Akat Long Bow C",
-      "url": "/lu4/item/283-akat-long-bow"
-    },
-    {
-      "key": "item:60",
-      "type": "item",
-      "id": 60,
-      "name": "Composite Armor C",
-      "url": "/lu4/item/60-composite-armor"
+      "id": 6573,
+      "name": "Blessed Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
       "key": "npc:25439",

@@ -2,68 +2,58 @@
   "key": "npc:18117",
   "type": "npc",
   "id": 18117,
-  "name": "Lu4 Wiki: NPC Treasures of the Festival",
+  "name": "Treasures of the Festival",
   "url": "/lu4/npc/18117-treasures-of-the-festival",
-  "source_url": "https://masterwork.wiki/lu4/npc/18117-treasures-of-the-festival",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/18117-treasures-of-the-festival",
   "raw_html": "library/raw/lu4/npc/18117-treasures-of-the-festival.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 719 / 1 389",
+    "P. Atk. / M. Atk.": "0 / 0",
+    "P. Def. / M. Def.": "367 / 598",
+    "Accuracy / Evasion": "96 / 106",
+    "Exp / SP": "396 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Very Strong M. Def. Lv. 17 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 63"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:18117",
-      "type": "npc",
-      "id": 18117,
-      "name": "Lu4",
-      "url": "/lu4/npc/18117-treasures-of-the-festival"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Very Strong M. Def. Lv. 17",
-      "url": "/lu4/skill/4413-very-strong-m-def/17"
+      "name": "Very Strong M. Def.",
+      "url": "/lu4/skill/4413-very-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:1539",
+      "key": "item:734",
       "type": "item",
-      "id": 1539,
-      "name": "Greater Healing Potion NG",
-      "url": "/lu4/item/1539-greater-healing-potion"
-    },
-    {
-      "key": "item:948",
-      "type": "item",
-      "id": 948,
-      "name": "Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:947",
-      "type": "item",
-      "id": 947,
-      "name": "Scroll: Enchant Weapon (B-Grade) NG",
-      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+      "id": 734,
+      "name": "Haste Potion NG",
+      "url": "/lu4/item/734-haste-potion"
     },
     {
       "key": "item:735",
@@ -73,11 +63,25 @@
       "url": "/lu4/item/735-alacrity-potion"
     },
     {
-      "key": "item:734",
+      "key": "item:947",
       "type": "item",
-      "id": 734,
-      "name": "Haste Potion NG",
-      "url": "/lu4/item/734-haste-potion"
+      "id": 947,
+      "name": "Scroll: Enchant Weapon (B-Grade) NG",
+      "url": "/lu4/item/947-scroll-enchant-weapon-b-grade"
+    },
+    {
+      "key": "item:948",
+      "type": "item",
+      "id": 948,
+      "name": "Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
+    },
+    {
+      "key": "item:1539",
+      "type": "item",
+      "id": 1539,
+      "name": "Greater Healing Potion NG",
+      "url": "/lu4/item/1539-greater-healing-potion"
     }
   ]
 }

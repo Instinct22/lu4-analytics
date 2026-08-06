@@ -2,133 +2,95 @@
   "key": "npc:21075",
   "type": "npc",
   "id": 21075,
-  "name": "Lu4 Wiki: NPC Slaughter Bathin",
+  "name": "Slaughter Bathin",
   "url": "/lu4/npc/21075-slaughter-bathin",
-  "source_url": "https://masterwork.wiki/lu4/npc/21075-slaughter-bathin",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21075-slaughter-bathin",
   "raw_html": "library/raw/lu4/npc/21075-slaughter-bathin.html",
   "stats": {
-    "Location": "Башня Дерзости: 2-й этаж"
+    "Respawn Time": "7 minutes ± 1 minute",
+    "Location": "Башня Дерзости: 2-й этаж",
+    "HP / MP": "26 544 / 1 389",
+    "P. Atk. / M. Atk.": "1 941 / 667",
+    "P. Def. / M. Def.": "616 / 499",
+    "Accuracy / Evasion": "96 / 96",
+    "Exp / SP": "55 518 / 5 552",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (8x) Lv. 16 Very Strong P. Atk. Lv. 16 Strong P. Def. Lv. 15 Strong M. Def. Lv. 15 Holy Vulnerability Lv. 1 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 63"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21075",
-      "type": "npc",
-      "id": 21075,
-      "name": "Lu4",
-      "url": "/lu4/npc/21075-slaughter-bathin"
-    },
-    {
-      "key": "location:85",
-      "type": "location",
-      "id": 85,
-      "name": "Башня Дерзости: 2-й этаж",
-      "url": "/lu4/location/85-basna-derzosti-2-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (8x) Lv. 16",
-      "url": "/lu4/skill/4408-hp-increase-8x/16"
+      "name": "HP Increase (8x)",
+      "url": "/lu4/skill/4408-hp-increase-8x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 15",
-      "url": "/lu4/skill/4413-strong-m-def/15"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
-      "key": "item:32404",
+      "key": "item:57",
       "type": "item",
-      "id": 32404,
-      "name": "Unidentified Sealed Blue Wolf Boots B",
-      "url": "/lu4/item/32404-unidentified-sealed-blue-wolf-boots"
-    },
-    {
-      "key": "item:32365",
-      "type": "item",
-      "id": 32365,
-      "name": "Unidentified Blue Wolf Helmet B",
-      "url": "/lu4/item/32365-unidentified-blue-wolf-helmet"
-    },
-    {
-      "key": "item:32322",
-      "type": "item",
-      "id": 32322,
-      "name": "Unidentified Sword of Damascus B",
-      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
-    },
-    {
-      "key": "item:4114",
-      "type": "item",
-      "id": 4114,
-      "name": "Sword of Damascus Blade NG",
-      "url": "/lu4/item/4114-sword-of-damascus-blade"
-    },
-    {
-      "key": "item:4090",
-      "type": "item",
-      "id": 4090,
-      "name": "Sealed Blue Wolf Boots Design NG",
-      "url": "/lu4/item/4090-sealed-blue-wolf-boots-design"
-    },
-    {
-      "key": "item:4088",
-      "type": "item",
-      "id": 4088,
-      "name": "Blue Wolf Helmet Design NG",
-      "url": "/lu4/item/4088-blue-wolf-helmet-design"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -166,11 +128,46 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:32365",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32365,
+      "name": "Unidentified Blue Wolf Helmet B",
+      "url": "/lu4/item/32365-unidentified-blue-wolf-helmet"
+    },
+    {
+      "key": "item:4088",
+      "type": "item",
+      "id": 4088,
+      "name": "Blue Wolf Helmet Design NG",
+      "url": "/lu4/item/4088-blue-wolf-helmet-design"
+    },
+    {
+      "key": "item:32404",
+      "type": "item",
+      "id": 32404,
+      "name": "Unidentified Sealed Blue Wolf Boots B",
+      "url": "/lu4/item/32404-unidentified-sealed-blue-wolf-boots"
+    },
+    {
+      "key": "item:4090",
+      "type": "item",
+      "id": 4090,
+      "name": "Sealed Blue Wolf Boots Design NG",
+      "url": "/lu4/item/4090-sealed-blue-wolf-boots-design"
+    },
+    {
+      "key": "item:32322",
+      "type": "item",
+      "id": 32322,
+      "name": "Unidentified Sword of Damascus B",
+      "url": "/lu4/item/32322-unidentified-sword-of-damascus"
+    },
+    {
+      "key": "item:4114",
+      "type": "item",
+      "id": 4114,
+      "name": "Sword of Damascus Blade NG",
+      "url": "/lu4/item/4114-sword-of-damascus-blade"
     },
     {
       "key": "item:5006",

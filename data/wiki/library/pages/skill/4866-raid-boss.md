@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4866-raid-boss
+- Path: /lu4/skill/4866-raid-boss
+- Type: skill
+- Key: skill:4866
+
+## Stats
+- Effect: As Water Dragon Fafurion's lieutenant, this Evil Spirit defeated countless disciples of the gods. Known as Sika of Storm during the War of the Gods, he is a veteran warrior and an engaging storyteller. Currently, he travels the world and tells stories at the command of Fafurion.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability As Water Dragon Fafurion's lieutenant, this Evil Spirit defeated countless disciples of the gods. Known as Sika of Storm during the War of the Gods, he is a veteran warrior and an engaging storyteller. Currently, he travels the world and tells stories at the command of Fafurion. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

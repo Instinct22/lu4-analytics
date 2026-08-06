@@ -2,124 +2,100 @@
   "key": "npc:21158",
   "type": "npc",
   "id": 21158,
-  "name": "Lu4 Wiki: NPC Hell Keeper Crimson Doll",
+  "name": "Hell Keeper Crimson Doll",
   "url": "/lu4/npc/21158-hell-keeper-crimson-doll",
-  "source_url": "https://masterwork.wiki/lu4/npc/21158-hell-keeper-crimson-doll",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21158-hell-keeper-crimson-doll",
   "raw_html": "library/raw/lu4/npc/21158-hell-keeper-crimson-doll.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "14 504 / 1 541",
+    "P. Atk. / M. Atk.": "1 003 / 665",
+    "P. Def. / M. Def.": "562 / 414",
+    "Accuracy / Evasion": "100 / 100",
+    "Exp / SP": "20 533 / 1 952",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Hold Resistance Lv. 3 Slightly resistant to Hold. Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 67"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21158",
-      "type": "npc",
-      "id": 21158,
-      "name": "Lu4",
-      "url": "/lu4/npc/21158-hell-keeper-crimson-doll"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32360",
-      "type": "item",
-      "id": 32360,
-      "name": "Unidentified Leather Armor of Doom B",
-      "url": "/lu4/item/32360-unidentified-leather-armor-of-doom"
-    },
-    {
-      "key": "item:32359",
-      "type": "item",
-      "id": 32359,
-      "name": "Unidentified Blue Wolf Leather Armor B",
-      "url": "/lu4/item/32359-unidentified-blue-wolf-leather-armor"
-    },
-    {
-      "key": "item:8487",
-      "type": "item",
-      "id": 8487,
-      "name": "Recipe: Destroyer Hammer (60%) NG",
-      "url": "/lu4/item/8487-recipe-destroyer-hammer-60"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4083",
@@ -136,11 +112,18 @@
       "url": "/lu4/item/4082-blue-wolf-leather-armor-texture"
     },
     {
-      "key": "item:4043",
+      "key": "item:32360",
       "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
+      "id": 32360,
+      "name": "Unidentified Leather Armor of Doom B",
+      "url": "/lu4/item/32360-unidentified-leather-armor-of-doom"
+    },
+    {
+      "key": "item:32359",
+      "type": "item",
+      "id": 32359,
+      "name": "Unidentified Blue Wolf Leather Armor B",
+      "url": "/lu4/item/32359-unidentified-blue-wolf-leather-armor"
     },
     {
       "key": "item:1880",
@@ -164,6 +147,13 @@
       "url": "/lu4/item/1864-stem"
     },
     {
+      "key": "item:4043",
+      "type": "item",
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
       "key": "item:1830",
       "type": "item",
       "id": 1830,
@@ -178,18 +168,25 @@
       "url": "/lu4/item/1344-mithril-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:5550",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
-      "key": "item:5230",
+      "key": "item:8487",
       "type": "item",
-      "id": 5230,
-      "name": "Recipe: Mithril Arrow (100%) NG",
-      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
+      "id": 8487,
+      "name": "Recipe: Destroyer Hammer (60%) NG",
+      "url": "/lu4/item/8487-recipe-destroyer-hammer-60"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:4053",
@@ -197,6 +194,13 @@
       "id": 4053,
       "name": "Ring of Black Ore Gemstone NG",
       "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
+    },
+    {
+      "key": "item:5230",
+      "type": "item",
+      "id": 5230,
+      "name": "Recipe: Mithril Arrow (100%) NG",
+      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
     }
   ]
 }

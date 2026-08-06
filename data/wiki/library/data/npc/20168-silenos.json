@@ -2,126 +2,39 @@
   "key": "npc:20168",
   "type": "npc",
   "id": 20168,
-  "name": "Lu4 Wiki: NPC Silenos",
+  "name": "Silenos",
   "url": "/lu4/npc/20168-silenos",
-  "source_url": "https://masterwork.wiki/lu4/npc/20168-silenos",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20168-silenos",
   "raw_html": "library/raw/lu4/npc/20168-silenos.html",
   "stats": {
-    "Location": "Земли Диона (+1) Земли Диона Равнины Диона"
+    "Respawn Time": "17 seconds",
+    "Location": "Земли Диона (+1) Земли Диона Равнины Диона",
+    "HP / MP": "954 / 405",
+    "P. Atk. / M. Atk.": "126 / 63",
+    "P. Def. / M. Def.": "146 / 115",
+    "Accuracy / Evasion": "66 / 65",
+    "Exp / SP": "1 002 / 100",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 30"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20168",
-      "type": "npc",
-      "id": 20168,
-      "name": "Lu4",
-      "url": "/lu4/npc/20168-silenos"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
-      "key": "location:241",
-      "type": "location",
-      "id": 241,
-      "name": "Равнины Диона",
-      "url": "/lu4/location/241-ravniny-diona"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:2030",
-      "type": "item",
-      "id": 2030,
-      "name": "Tome of Blood Page NG",
-      "url": "/lu4/item/2030-tome-of-blood-page"
-    },
-    {
-      "key": "item:2029",
-      "type": "item",
-      "id": 2029,
-      "name": "Gastraphetes Shaft NG",
-      "url": "/lu4/item/2029-gastraphetes-shaft"
-    },
-    {
-      "key": "item:1938",
-      "type": "item",
-      "id": 1938,
-      "name": "Mithril Banded Mail Material NG",
-      "url": "/lu4/item/1938-mithril-banded-mail-material"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "url": "/lu4/item/1879-cokes"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1865",
@@ -131,25 +44,32 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
-      "key": "item:628",
+      "key": "item:1870",
       "type": "item",
-      "id": 628,
-      "name": "Hoplon D",
-      "url": "/lu4/item/628-hoplon"
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
     },
     {
-      "key": "item:393",
+      "key": "item:1875",
       "type": "item",
-      "id": 393,
-      "name": "Mithril Banded Mail D",
-      "url": "/lu4/item/393-mithril-banded-mail"
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:317",
+      "key": "item:1879",
       "type": "item",
-      "id": 317,
-      "name": "Tome of Blood D",
-      "url": "/lu4/item/317-tome-of-blood"
+      "id": 1879,
+      "name": "Cokes NG",
+      "url": "/lu4/item/1879-cokes"
+    },
+    {
+      "key": "item:127",
+      "type": "item",
+      "id": 127,
+      "name": "Crimson Sword D",
+      "url": "/lu4/item/127-crimson-sword"
     },
     {
       "key": "item:296",
@@ -166,32 +86,95 @@
       "url": "/lu4/item/278-gastraphetes"
     },
     {
-      "key": "item:127",
+      "key": "item:2029",
       "type": "item",
-      "id": 127,
-      "name": "Crimson Sword D",
-      "url": "/lu4/item/127-crimson-sword"
+      "id": 2029,
+      "name": "Gastraphetes Shaft NG",
+      "url": "/lu4/item/2029-gastraphetes-shaft"
     },
     {
-      "key": "item:57",
+      "key": "item:317",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 317,
+      "name": "Tome of Blood D",
+      "url": "/lu4/item/317-tome-of-blood"
     },
     {
-      "key": "item:2280",
+      "key": "item:2030",
       "type": "item",
-      "id": 2280,
-      "name": "Recipe: Crucifix of Blood NG",
-      "url": "/lu4/item/2280-recipe-crucifix-of-blood"
+      "id": 2030,
+      "name": "Tome of Blood Page NG",
+      "url": "/lu4/item/2030-tome-of-blood-page"
     },
     {
-      "key": "item:1877",
+      "key": "item:628",
       "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
+      "id": 628,
+      "name": "Hoplon D",
+      "url": "/lu4/item/628-hoplon"
+    },
+    {
+      "key": "item:393",
+      "type": "item",
+      "id": 393,
+      "name": "Mithril Banded Mail D",
+      "url": "/lu4/item/393-mithril-banded-mail"
+    },
+    {
+      "key": "item:1938",
+      "type": "item",
+      "id": 1938,
+      "name": "Mithril Banded Mail Material NG",
+      "url": "/lu4/item/1938-mithril-banded-mail-material"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "item:1061",
@@ -201,11 +184,18 @@
       "url": "/lu4/item/1061-healing-potion"
     },
     {
-      "key": "item:955",
+      "key": "item:1877",
       "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:2280",
+      "type": "item",
+      "id": 2280,
+      "name": "Recipe: Crucifix of Blood NG",
+      "url": "/lu4/item/2280-recipe-crucifix-of-blood"
     }
   ]
 }

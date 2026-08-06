@@ -2,61 +2,93 @@
   "key": "npc:21272",
   "type": "npc",
   "id": 21272,
-  "name": "Lu4 Wiki: NPC Cave Ant Soldier",
+  "name": "Cave Ant Soldier",
   "url": "/lu4/npc/21272-cave-ant-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21272-cave-ant-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21272-cave-ant-soldier",
   "raw_html": "library/raw/lu4/npc/21272-cave-ant-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 342 / 552",
+    "P. Atk. / M. Atk.": "243 / 118",
+    "P. Def. / M. Def.": "196 / 154",
+    "Accuracy / Evasion": "71 / 76",
+    "Exp / SP": "1 409 / 141",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 38"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21272",
-      "type": "npc",
-      "id": 21272,
-      "name": "Lu4",
-      "url": "/lu4/npc/21272-cave-ant-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39296",
+      "key": "item:1864",
       "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:39295",
+      "key": "item:1869",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
-      "key": "item:2984",
+      "key": "item:1878",
       "type": "item",
-      "id": 2984,
-      "name": "Recipe: Salamander Skin Boots NG",
-      "url": "/lu4/item/2984-recipe-salamander-skin-boots"
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:1884",
+      "type": "item",
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
+    },
+    {
+      "key": "item:187",
+      "type": "item",
+      "id": 187,
+      "name": "Atuba Hammer D",
+      "url": "/lu4/item/187-atuba-hammer"
+    },
+    {
+      "key": "item:2049",
+      "type": "item",
+      "id": 2049,
+      "name": "Atuba Hammer Head NG",
+      "url": "/lu4/item/2049-atuba-hammer-head"
+    },
+    {
+      "key": "item:2499",
+      "type": "item",
+      "id": 2499,
+      "name": "Elven Long Sword D",
+      "url": "/lu4/item/2499-elven-long-sword"
     },
     {
       "key": "item:2967",
@@ -66,11 +98,18 @@
       "url": "/lu4/item/2967-elven-long-sword-blade"
     },
     {
-      "key": "item:2499",
+      "key": "item:262",
       "type": "item",
-      "id": 2499,
-      "name": "Elven Long Sword D",
-      "url": "/lu4/item/2499-elven-long-sword"
+      "id": 262,
+      "name": "Scallop Jamadhr D",
+      "url": "/lu4/item/262-scallop-jamadhr"
+    },
+    {
+      "key": "item:2053",
+      "type": "item",
+      "id": 2053,
+      "name": "Scallop Jamadhr Edge NG",
+      "url": "/lu4/item/2053-scallop-jamadhr-edge"
     },
     {
       "key": "item:2296",
@@ -83,71 +122,36 @@
       "key": "item:2208",
       "type": "item",
       "id": 2208,
-      "name": "Recipe: Ogre Power Gauntlets NG",
-      "url": "/lu4/item/2208-recipe-ogre-power-gauntlets"
+      "name": "Recipe: Salamander Skin Gloves NG",
+      "url": "/lu4/item/2208-recipe-salamander-skin-gloves"
     },
     {
-      "key": "item:2053",
+      "key": "item:2984",
       "type": "item",
-      "id": 2053,
-      "name": "Scallop Jamadhr Edge NG",
-      "url": "/lu4/item/2053-scallop-jamadhr-edge"
+      "id": 2984,
+      "name": "Recipe: Salamander Skin Boots NG",
+      "url": "/lu4/item/2984-recipe-salamander-skin-boots"
     },
     {
-      "key": "item:2049",
+      "key": "item:39295",
       "type": "item",
-      "id": 2049,
-      "name": "Atuba Hammer Head NG",
-      "url": "/lu4/item/2049-atuba-hammer-head"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:1884",
+      "key": "item:39296",
       "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:1878",
+      "key": "item:39297",
       "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:262",
-      "type": "item",
-      "id": 262,
-      "name": "Scallop Jamadhr D",
-      "url": "/lu4/item/262-scallop-jamadhr"
-    },
-    {
-      "key": "item:187",
-      "type": "item",
-      "id": 187,
-      "name": "Atuba Hammer D",
-      "url": "/lu4/item/187-atuba-hammer"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:2290",
@@ -164,18 +168,18 @@
       "url": "/lu4/item/2050-ghost-staff-head"
     },
     {
-      "key": "item:1952",
-      "type": "item",
-      "id": 1952,
-      "name": "Salamander Skin Mail Texture NG",
-      "url": "/lu4/item/1952-salamander-skin-mail-texture"
-    },
-    {
       "key": "item:1905",
       "type": "item",
       "id": 1905,
       "name": "Omen Beast's Eye Earring Gemstone NG",
       "url": "/lu4/item/1905-omen-beasts-eye-earring-gemstone"
+    },
+    {
+      "key": "item:1952",
+      "type": "item",
+      "id": 1952,
+      "name": "Salamander Skin Mail Texture NG",
+      "url": "/lu4/item/1952-salamander-skin-mail-texture"
     }
   ]
 }

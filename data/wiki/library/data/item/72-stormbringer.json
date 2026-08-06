@@ -2,24 +2,26 @@
   "key": "item:72",
   "type": "item",
   "id": 72,
-  "name": "Lu4 Wiki: Item Stormbringer",
+  "name": "Stormbringer",
   "url": "/lu4/item/72-stormbringer",
-  "source_url": "https://masterwork.wiki/lu4/item/72-stormbringer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/72-stormbringer",
   "raw_html": "library/raw/lu4/item/72-stormbringer.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Haste: Atk. Spd. +7%. Health: Max HP +25%. Focus: P. Crit. Rate +60.",
+    "P. Atk. / M. Atk.": "107 / 61",
+    "Soulshot / Spiritshot Consume": "2 / 2",
+    "Crystal Amount": "705 Crystallization Failed Enchant +0 705 - +1 750 - +2 795 - +3 840 - +4 930 577 +5 1020 667 +6 1110 757 +7 1200 847 +8 1290 937 +9 1380 1027 +10 1470 1117 +11 1560 1207 +12 1650 1297",
+    "NPC Sell Price": "881 450 Adena",
+    "Weight": "1430",
+    "P. Crit. Rate.": "8",
     "Recipes": "Recipe: Stormbringer NG",
     "Soul Crystals": "Stormbringer Haste C Stormbringer C Gemstone C NG (97 pcs.) Red Soul Crystal - Stage 5 NG Stormbringer Focus C Stormbringer C Gemstone C NG (97 pcs.) Green Soul Crystal - Stage 5 NG Stormbringer Health C Stormbringer C Gemstone C NG (97 pcs.) Blue Soul Crystal - Stage 5 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Sword / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:72",
-      "type": "item",
-      "id": 72,
-      "name": "Lu4",
-      "url": "/lu4/item/72-stormbringer"
-    },
     {
       "key": "item:2298",
       "type": "item",
@@ -77,52 +79,59 @@
       "url": "/lu4/item/4656-blue-soul-crystal-stage-5"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25410",
       "type": "npc",
       "id": 25410,
-      "name": "Road Scavenger Leader Lv. 40",
+      "name": "Road Scavenger Leader",
       "url": "/lu4/npc/25410-road-scavenger-leader"
     },
     {
       "key": "npc:25082",
       "type": "npc",
       "id": 25082,
-      "name": "Leader of Cat Gang Lv. 39",
+      "name": "Leader of Cat Gang",
       "url": "/lu4/npc/25082-leader-of-cat-gang"
     },
     {
       "key": "npc:21035",
       "type": "npc",
       "id": 21035,
-      "name": "Catherok Lv. 42",
+      "name": "Catherok",
       "url": "/lu4/npc/21035-catherok"
     },
     {
       "key": "npc:20630",
       "type": "npc",
       "id": 20630,
-      "name": "Taik Orc Lv. 40",
+      "name": "Taik Orc",
       "url": "/lu4/npc/20630-taik-orc"
     },
     {
       "key": "npc:20584",
       "type": "npc",
       "id": 20584,
-      "name": "Timak Orc Archer Lv. 41",
+      "name": "Timak Orc Archer",
       "url": "/lu4/npc/20584-timak-orc-archer"
     },
     {
       "key": "npc:20557",
       "type": "npc",
       "id": 20557,
-      "name": "Dire Wyrm Lv. 42",
+      "name": "Dire Wyrm",
       "url": "/lu4/npc/20557-dire-wyrm"
     },
     {
       "key": "npc:20214",
       "type": "npc",
       "id": 20214,
-      "name": "Excuro Lv. 41",
+      "name": "Excuro",
       "url": "/lu4/npc/20214-excuro"
     }
   ]

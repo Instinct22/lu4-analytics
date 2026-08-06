@@ -2,40 +2,30 @@
   "key": "npc:18272",
   "type": "npc",
   "id": 18272,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/18272-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/18272-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/18272-treasure-chest",
   "raw_html": "library/raw/lu4/npc/18272-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 661 / 654",
+    "P. Atk. / M. Atk.": "318 / 159",
+    "P. Def. / M. Def.": "225 / 178",
+    "Accuracy / Evasion": "75 / 75",
+    "Exp / SP": "2 116 / 141",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 42"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:18272",
-      "type": "npc",
-      "id": 18272,
-      "name": "Lu4",
-      "url": "/lu4/npc/18272-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
-    },
-    {
-      "key": "item:952",
-      "type": "item",
-      "id": 952,
-      "name": "Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:951",
-      "type": "item",
-      "id": 951,
-      "name": "Scroll: Enchant Weapon (C-Grade) NG",
-      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:57",
@@ -45,11 +35,25 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1905",
+      "key": "item:951",
       "type": "item",
-      "id": 1905,
-      "name": "Omen Beast's Eye Earring Gemstone NG",
-      "url": "/lu4/item/1905-omen-beasts-eye-earring-gemstone"
+      "id": 951,
+      "name": "Scroll: Enchant Weapon (C-Grade) NG",
+      "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
+    },
+    {
+      "key": "item:952",
+      "type": "item",
+      "id": 952,
+      "name": "Scroll: Enchant Armor (C-Grade) NG",
+      "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
     },
     {
       "key": "item:1871",
@@ -59,11 +63,11 @@
       "url": "/lu4/item/1871-charcoal"
     },
     {
-      "key": "item:1866",
+      "key": "item:1905",
       "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
+      "id": 1905,
+      "name": "Omen Beast's Eye Earring Gemstone NG",
+      "url": "/lu4/item/1905-omen-beasts-eye-earring-gemstone"
     }
   ]
 }

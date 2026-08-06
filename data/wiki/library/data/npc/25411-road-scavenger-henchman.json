@@ -2,47 +2,44 @@
   "key": "npc:25411",
   "type": "npc",
   "id": 25411,
-  "name": "Lu4 Wiki: NPC Road Scavenger Henchman",
+  "name": "Road Scavenger Henchman",
   "url": "/lu4/npc/25411-road-scavenger-henchman",
-  "source_url": "https://masterwork.wiki/lu4/npc/25411-road-scavenger-henchman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25411-road-scavenger-henchman",
   "raw_html": "library/raw/lu4/npc/25411-road-scavenger-henchman.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "21 960 / 2 063",
+    "P. Atk. / M. Atk.": "507 / 640",
+    "P. Def. / M. Def.": "347 / 342",
+    "Accuracy / Evasion": "75 / 84",
+    "Exp / SP": "0 / 464",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "D",
+    "Type": "Humanoid, Lv. 39"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25411",
-      "type": "npc",
-      "id": 25411,
-      "name": "Lu4",
-      "url": "/lu4/npc/25411-road-scavenger-henchman"
-    },
-    {
-      "key": "location:46",
-      "type": "location",
-      "id": 46,
-      "name": "Долина Смерти",
-      "url": "/lu4/location/46-dolina-smerti"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:1341",

@@ -2,119 +2,123 @@
   "key": "npc:20846",
   "type": "npc",
   "id": 20846,
-  "name": "Lu4 Wiki: NPC Doll Blader",
+  "name": "Doll Blader",
   "url": "/lu4/npc/20846-doll-blader",
-  "source_url": "https://masterwork.wiki/lu4/npc/20846-doll-blader",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20846-doll-blader",
   "raw_html": "library/raw/lu4/npc/20846-doll-blader.html",
   "stats": {
-    "Location": "Остров Дьявола"
+    "Respawn Time": "1 minute, 10 seconds",
+    "Location": "Остров Дьявола",
+    "HP / MP": "9 954 / 1 025",
+    "P. Atk. / M. Atk.": "800 / 333",
+    "P. Def. / M. Def.": "322 / 323",
+    "Accuracy / Evasion": "86 / 96",
+    "Exp / SP": "14 319 / 1 432",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Strong P. Atk. Lv. 14 Strong P. Def. Lv. 14 Strong M. Def. Lv. 14 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Greater Sleep Resistance Lv. 2 Highly resistant to Sleep. Greater Hold Resistance Lv. 2 Highly resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 53"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20846",
-      "type": "npc",
-      "id": 20846,
-      "name": "Lu4",
-      "url": "/lu4/npc/20846-doll-blader"
-    },
-    {
-      "key": "location:119",
-      "type": "location",
-      "id": 119,
-      "name": "Остров Дьявола",
-      "url": "/lu4/location/119-ostrov-davola"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
       "key": "skill:4439",
       "type": "skill",
       "id": 4439,
-      "name": "Greater Hold Resistance Lv. 2 Highly resistant to Hold.",
-      "url": "/lu4/skill/4439-greater-hold-resistance/2"
+      "name": "Greater Hold Resistance",
+      "url": "/lu4/skill/4439-greater-hold-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
     },
     {
       "key": "item:4043",
@@ -131,69 +135,6 @@
       "url": "/lu4/item/4039-mold-glue"
     },
     {
-      "key": "item:2964",
-      "type": "item",
-      "id": 2964,
-      "name": "Divine Gloves Pattern NG",
-      "url": "/lu4/item/2964-divine-gloves-pattern"
-    },
-    {
-      "key": "item:2963",
-      "type": "item",
-      "id": 2963,
-      "name": "Full Plate Gauntlets Part NG",
-      "url": "/lu4/item/2963-full-plate-gauntlets-part"
-    },
-    {
-      "key": "item:2961",
-      "type": "item",
-      "id": 2961,
-      "name": "Full Plate Boots Part NG",
-      "url": "/lu4/item/2961-full-plate-boots-part"
-    },
-    {
-      "key": "item:2463",
-      "type": "item",
-      "id": 2463,
-      "name": "Divine Gloves C",
-      "url": "/lu4/item/2463-divine-gloves"
-    },
-    {
-      "key": "item:2462",
-      "type": "item",
-      "id": 2462,
-      "name": "Full Plate Gauntlets C",
-      "url": "/lu4/item/2462-full-plate-gauntlets"
-    },
-    {
-      "key": "item:2438",
-      "type": "item",
-      "id": 2438,
-      "name": "Full Plate Boots C",
-      "url": "/lu4/item/2438-full-plate-boots"
-    },
-    {
-      "key": "item:2234",
-      "type": "item",
-      "id": 2234,
-      "name": "Recipe: Divine Stockings NG",
-      "url": "/lu4/item/2234-recipe-divine-stockings"
-    },
-    {
-      "key": "item:2120",
-      "type": "item",
-      "id": 2120,
-      "name": "Great Pata Blade NG",
-      "url": "/lu4/item/2120-great-pata-blade"
-    },
-    {
-      "key": "item:1920",
-      "type": "item",
-      "id": 1920,
-      "name": "Necklace of Seal Chain NG",
-      "url": "/lu4/item/1920-necklace-of-seal-chain"
-    },
-    {
       "key": "item:1874",
       "type": "item",
       "id": 1874,
@@ -208,11 +149,60 @@
       "url": "/lu4/item/1870-coal"
     },
     {
-      "key": "item:1865",
+      "key": "item:49800",
       "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:2234",
+      "type": "item",
+      "id": 2234,
+      "name": "Recipe: Divine Stockings NG",
+      "url": "/lu4/item/2234-recipe-divine-stockings"
+    },
+    {
+      "key": "item:2463",
+      "type": "item",
+      "id": 2463,
+      "name": "Divine Gloves C",
+      "url": "/lu4/item/2463-divine-gloves"
+    },
+    {
+      "key": "item:2964",
+      "type": "item",
+      "id": 2964,
+      "name": "Divine Gloves Pattern NG",
+      "url": "/lu4/item/2964-divine-gloves-pattern"
+    },
+    {
+      "key": "item:2462",
+      "type": "item",
+      "id": 2462,
+      "name": "Full Plate Gauntlets C",
+      "url": "/lu4/item/2462-full-plate-gauntlets"
+    },
+    {
+      "key": "item:2963",
+      "type": "item",
+      "id": 2963,
+      "name": "Full Plate Gauntlets Part NG",
+      "url": "/lu4/item/2963-full-plate-gauntlets-part"
+    },
+    {
+      "key": "item:2438",
+      "type": "item",
+      "id": 2438,
+      "name": "Full Plate Boots C",
+      "url": "/lu4/item/2438-full-plate-boots"
+    },
+    {
+      "key": "item:2961",
+      "type": "item",
+      "id": 2961,
+      "name": "Full Plate Boots Part NG",
+      "url": "/lu4/item/2961-full-plate-boots-part"
     },
     {
       "key": "item:266",
@@ -222,6 +212,13 @@
       "url": "/lu4/item/266-great-pata"
     },
     {
+      "key": "item:2120",
+      "type": "item",
+      "id": 2120,
+      "name": "Great Pata Blade NG",
+      "url": "/lu4/item/2120-great-pata-blade"
+    },
+    {
       "key": "item:119",
       "type": "item",
       "id": 119,
@@ -229,11 +226,11 @@
       "url": "/lu4/item/119-necklace-of-seal"
     },
     {
-      "key": "item:57",
+      "key": "item:1920",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1920,
+      "name": "Necklace of Seal Chain NG",
+      "url": "/lu4/item/1920-necklace-of-seal-chain"
     },
     {
       "key": "item:4042",
@@ -264,18 +261,18 @@
       "url": "/lu4/item/2121-eminence-bow-shaft"
     },
     {
-      "key": "item:2115",
-      "type": "item",
-      "id": 2115,
-      "name": "Samurai Longsword Blade NG",
-      "url": "/lu4/item/2115-samurai-longsword-blade"
-    },
-    {
       "key": "item:2112",
       "type": "item",
       "id": 2112,
       "name": "Pa'agrian Axe Blade NG",
       "url": "/lu4/item/2112-paagrian-axe-blade"
+    },
+    {
+      "key": "item:2115",
+      "type": "item",
+      "id": 2115,
+      "name": "Samurai Longsword Blade NG",
+      "url": "/lu4/item/2115-samurai-longsword-blade"
     }
   ]
 }

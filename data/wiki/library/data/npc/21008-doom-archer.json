@@ -2,168 +2,81 @@
   "key": "npc:21008",
   "type": "npc",
   "id": 21008,
-  "name": "Lu4 Wiki: NPC Doom Archer",
+  "name": "Doom Archer",
   "url": "/lu4/npc/21008-doom-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21008-doom-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21008-doom-archer",
   "raw_html": "library/raw/lu4/npc/21008-doom-archer.html",
   "stats": {
-    "Location": "Поле Брани"
+    "Respawn Time": "30 seconds ± 5 seconds",
+    "Location": "Поле Брани",
+    "HP / MP": "3 154 / 1 351",
+    "P. Atk. / M. Atk.": "2 352 / 606",
+    "P. Def. / M. Def.": "347 / 287",
+    "Accuracy / Evasion": "95 / 95",
+    "Exp / SP": "3 508 / 351",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Holy Vulnerability Lv. 1 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 62"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21008",
-      "type": "npc",
-      "id": 21008,
-      "name": "Lu4",
-      "url": "/lu4/npc/21008-doom-archer"
-    },
-    {
-      "key": "location:188",
-      "type": "location",
-      "id": 188,
-      "name": "Поле Брани",
-      "url": "/lu4/location/188-pole-brani"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32589",
-      "type": "item",
-      "id": 32589,
-      "name": "Unidentified Tunic of Doom B",
-      "url": "/lu4/item/32589-unidentified-tunic-of-doom"
-    },
-    {
-      "key": "item:32430",
-      "type": "item",
-      "id": 32430,
-      "name": "Unidentified Guardian Sword B",
-      "url": "/lu4/item/32430-unidentified-guardian-sword"
-    },
-    {
-      "key": "item:32345",
-      "type": "item",
-      "id": 32345,
-      "name": "Unidentified Bow of Peril B",
-      "url": "/lu4/item/32345-unidentified-bow-of-peril"
-    },
-    {
-      "key": "item:8330",
-      "type": "item",
-      "id": 8330,
-      "name": "Guardian Sword Blade NG",
-      "url": "/lu4/item/8330-guardian-sword-blade"
-    },
-    {
-      "key": "item:4998",
-      "type": "item",
-      "id": 4998,
-      "name": "Recipe: Sealed Blue Wolf Gloves (60%) NG",
-      "url": "/lu4/item/4998-recipe-sealed-blue-wolf-gloves-60"
-    },
-    {
-      "key": "item:4975",
-      "type": "item",
-      "id": 4975,
-      "name": "Recipe: Necklace of Black Ore (70%) NG",
-      "url": "/lu4/item/4975-recipe-necklace-of-black-ore-70"
-    },
-    {
-      "key": "item:4974",
-      "type": "item",
-      "id": 4974,
-      "name": "Recipe: Ring of Black Ore (70%) NG",
-      "url": "/lu4/item/4974-recipe-ring-of-black-ore-70"
-    },
-    {
-      "key": "item:4121",
-      "type": "item",
-      "id": 4121,
-      "name": "Bow of Peril Shaft NG",
-      "url": "/lu4/item/4121-bow-of-peril-shaft"
-    },
-    {
-      "key": "item:4085",
-      "type": "item",
-      "id": 4085,
-      "name": "Tunic of Doom Pattern NG",
-      "url": "/lu4/item/4085-tunic-of-doom-pattern"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1894",
@@ -171,6 +84,13 @@
       "id": 1894,
       "name": "Crafted Leather NG",
       "url": "/lu4/item/1894-crafted-leather"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
     },
     {
       "key": "item:1882",
@@ -201,11 +121,88 @@
       "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:32430",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32430,
+      "name": "Unidentified Guardian Sword B",
+      "url": "/lu4/item/32430-unidentified-guardian-sword"
+    },
+    {
+      "key": "item:8330",
+      "type": "item",
+      "id": 8330,
+      "name": "Guardian Sword Blade NG",
+      "url": "/lu4/item/8330-guardian-sword-blade"
+    },
+    {
+      "key": "item:32345",
+      "type": "item",
+      "id": 32345,
+      "name": "Unidentified Bow of Peril B",
+      "url": "/lu4/item/32345-unidentified-bow-of-peril"
+    },
+    {
+      "key": "item:4121",
+      "type": "item",
+      "id": 4121,
+      "name": "Bow of Peril Shaft NG",
+      "url": "/lu4/item/4121-bow-of-peril-shaft"
+    },
+    {
+      "key": "item:32589",
+      "type": "item",
+      "id": 32589,
+      "name": "Unidentified Tunic of Doom B",
+      "url": "/lu4/item/32589-unidentified-tunic-of-doom"
+    },
+    {
+      "key": "item:4085",
+      "type": "item",
+      "id": 4085,
+      "name": "Tunic of Doom Pattern NG",
+      "url": "/lu4/item/4085-tunic-of-doom-pattern"
+    },
+    {
+      "key": "item:4998",
+      "type": "item",
+      "id": 4998,
+      "name": "Recipe: Sealed Blue Wolf Gloves (60%) NG",
+      "url": "/lu4/item/4998-recipe-sealed-blue-wolf-gloves-60"
+    },
+    {
+      "key": "item:4975",
+      "type": "item",
+      "id": 4975,
+      "name": "Recipe: Necklace of Black Ore (70%) NG",
+      "url": "/lu4/item/4975-recipe-necklace-of-black-ore-70"
+    },
+    {
+      "key": "item:4974",
+      "type": "item",
+      "id": 4974,
+      "name": "Recipe: Ring of Black Ore (70%) NG",
+      "url": "/lu4/item/4974-recipe-ring-of-black-ore-70"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:5003",
@@ -229,18 +226,18 @@
       "url": "/lu4/item/4116-deadmans-glory-stone"
     },
     {
-      "key": "item:4115",
-      "type": "item",
-      "id": 4115,
-      "name": "Lance Blade NG",
-      "url": "/lu4/item/4115-lance-blade"
-    },
-    {
       "key": "item:4089",
       "type": "item",
       "id": 4089,
       "name": "Doom Helmet Pattern NG",
       "url": "/lu4/item/4089-doom-helmet-pattern"
+    },
+    {
+      "key": "item:4115",
+      "type": "item",
+      "id": 4115,
+      "name": "Lance Blade NG",
+      "url": "/lu4/item/4115-lance-blade"
     }
   ]
 }

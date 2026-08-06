@@ -2,146 +2,24 @@
   "key": "item:2999",
   "type": "item",
   "id": 2999,
-  "name": "Recipe",
+  "name": "Recipe: Plated Leather Gloves",
   "url": "/lu4/item/2999-recipe-plated-leather-gloves",
-  "source_url": "https://masterwork.wiki/lu4/item/2999-recipe-plated-leather-gloves",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2999-recipe-plated-leather-gloves",
   "raw_html": "library/raw/lu4/item/2999-recipe-plated-leather-gloves.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Plated Leather Gloves'. Requires Create Item - Skill Level 4 (Artisan Lv. 36). The success rate is 100%.",
+    "NPC Sell Price": "1 490 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "4",
     "MP Consume": "144",
     "Success Rate": "100%",
-    "Result": "Plated Leather Gloves C"
+    "Result": "Plated Leather Gloves C",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:2999",
-      "type": "item",
-      "id": 2999,
-      "name": "Recipe: Plated Leather Gloves NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:2946",
-      "type": "item",
-      "id": 2946,
-      "name": "Plate Leather Gloves Design NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1894",
-      "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "3.2"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "16"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "16"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "amount": "40"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "amount": "192"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "32"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "1"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "10"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1459",
-      "type": "item",
-      "id": 1459,
-      "name": "Crystal (C-Grade) C",
-      "amount": "10"
-    },
-    {
-      "key": "item:2131",
-      "type": "item",
-      "id": 2131,
-      "name": "Gemstone C NG",
-      "amount": "3"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2999",
-      "type": "item",
-      "id": 2999,
-      "name": "Lu4",
-      "url": "/lu4/item/2999-recipe-plated-leather-gloves"
-    },
     {
       "key": "item:2946",
       "type": "item",
@@ -265,28 +143,28 @@
       "key": "npc:20763",
       "type": "npc",
       "id": 20763,
-      "name": "Lord of the Plains Lv. 40",
+      "name": "Lord of the Plains",
       "url": "/lu4/npc/20763-lord-of-the-plains"
     },
     {
       "key": "npc:20314",
       "type": "npc",
       "id": 20314,
-      "name": "Great White Shark Lv. 42",
+      "name": "Great White Shark",
       "url": "/lu4/npc/20314-great-white-shark"
     },
     {
       "key": "npc:20832",
       "type": "npc",
       "id": 20832,
-      "name": "Zaken's Pikeman Lv. 43",
+      "name": "Zaken's Pikeman",
       "url": "/lu4/npc/20832-zakens-pikeman"
     },
     {
       "key": "npc:20582",
       "type": "npc",
       "id": 20582,
-      "name": "Leto Lizardman Overlord Lv. 40",
+      "name": "Leto Lizardman Overlord",
       "url": "/lu4/npc/20582-leto-lizardman-overlord"
     }
   ]

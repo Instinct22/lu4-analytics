@@ -2,112 +2,60 @@
   "key": "npc:20096",
   "type": "npc",
   "id": 20096,
-  "name": "Lu4 Wiki: NPC Orc Lieutenant",
+  "name": "Orc Lieutenant",
   "url": "/lu4/npc/20096-orc-lieutenant",
-  "source_url": "https://masterwork.wiki/lu4/npc/20096-orc-lieutenant",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20096-orc-lieutenant",
   "raw_html": "library/raw/lu4/npc/20096-orc-lieutenant.html",
   "stats": {
-    "Location": "Говорящий Остров (север)"
+    "Respawn Time": "15 seconds",
+    "Location": "Говорящий Остров (север)",
+    "HP / MP": "286 / 143",
+    "P. Atk. / M. Atk.": "25 / 11",
+    "P. Def. / M. Def.": "71 / 58",
+    "Accuracy / Evasion": "47 / 46",
+    "Exp / SP": "305 / 30",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 11"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20096",
-      "type": "npc",
-      "id": 20096,
-      "name": "Lu4",
-      "url": "/lu4/npc/20096-orc-lieutenant"
-    },
-    {
-      "key": "location:259",
-      "type": "location",
-      "id": 259,
-      "name": "Говорящий Остров (север)",
-      "url": "/lu4/location/259-govorasij-ostrov-sever"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
-    },
-    {
-      "key": "item:1921",
-      "type": "item",
-      "id": 1921,
-      "name": "Leather Shoes Texture NG",
-      "url": "/lu4/item/1921-leather-shoes-texture"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
-    },
-    {
-      "key": "item:736",
-      "type": "item",
-      "id": 736,
-      "name": "Scroll of Escape NG",
-      "url": "/lu4/item/736-scroll-of-escape"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "item:57",
@@ -117,13 +65,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:49",
-      "type": "item",
-      "id": 49,
-      "name": "Gloves NG",
-      "url": "/lu4/item/49-gloves"
-    },
-    {
       "key": "item:37",
       "type": "item",
       "id": 37,
@@ -131,11 +72,60 @@
       "url": "/lu4/item/37-leather-shoes"
     },
     {
-      "key": "item:1799",
+      "key": "item:1921",
       "type": "item",
-      "id": 1799,
-      "name": "Recipe: Leather Gloves NG",
-      "url": "/lu4/item/1799-recipe-leather-gloves"
+      "id": 1921,
+      "name": "Leather Shoes Texture NG",
+      "url": "/lu4/item/1921-leather-shoes-texture"
+    },
+    {
+      "key": "item:49",
+      "type": "item",
+      "id": 49,
+      "name": "Gloves NG",
+      "url": "/lu4/item/49-gloves"
+    },
+    {
+      "key": "item:736",
+      "type": "item",
+      "id": 736,
+      "name": "Scroll of Escape NG",
+      "url": "/lu4/item/736-scroll-of-escape"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:1792",
@@ -143,6 +133,13 @@
       "id": 1792,
       "name": "Recipe: Short Spear NG",
       "url": "/lu4/item/1792-recipe-short-spear"
+    },
+    {
+      "key": "item:1799",
+      "type": "item",
+      "id": 1799,
+      "name": "Recipe: Leather Gloves NG",
+      "url": "/lu4/item/1799-recipe-leather-gloves"
     }
   ]
 }

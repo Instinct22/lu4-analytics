@@ -2,40 +2,37 @@
   "key": "npc:25191",
   "type": "npc",
   "id": 25191,
-  "name": "Lu4 Wiki: NPC Mumu's Warrior",
+  "name": "Mumu's Warrior",
   "url": "/lu4/npc/25191-mumus-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/25191-mumus-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25191-mumus-warrior",
   "raw_html": "library/raw/lu4/npc/25191-mumus-warrior.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "15 775 / 477",
+    "P. Atk. / M. Atk.": "212 / 175",
+    "P. Def. / M. Def.": "315 / 263",
+    "Accuracy / Evasion": "66 / 66",
+    "Exp / SP": "0 / 300",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "D",
+    "Type": "Animal, Lv. 33"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25191",
-      "type": "npc",
-      "id": 25191,
-      "name": "Lu4",
-      "url": "/lu4/npc/25191-mumus-warrior"
-    },
-    {
-      "key": "location:9",
-      "type": "location",
-      "id": 9,
-      "name": "Земли Иннадрила",
-      "url": "/lu4/location/9-zemli-innadrila"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:1341",

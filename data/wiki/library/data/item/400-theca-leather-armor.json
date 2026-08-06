@@ -2,24 +2,23 @@
   "key": "item:400",
   "type": "item",
   "id": 400,
-  "name": "Lu4 Wiki: Item Theca Leather Armor",
+  "name": "Theca Leather Armor",
   "url": "/lu4/item/400-theca-leather-armor",
-  "source_url": "https://masterwork.wiki/lu4/item/400-theca-leather-armor",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/400-theca-leather-armor",
   "raw_html": "library/raw/lu4/item/400-theca-leather-armor.html",
   "stats": {
+    "P. Def.": "106",
+    "Crystal Amount": "254 Crystallization Failed Enchant +0 254 - +1 260 - +2 266 - +3 272 - +4 290 163 +5 308 181 +6 326 199 +7 344 217 +8 362 235",
+    "NPC Sell Price": "317 500 Adena",
+    "Weight": "4370",
     "Set Part": "Theca Leather Armor C",
     "Recipes": "Recipe: Theca Leather Armor NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / Light / Upper Body"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:400",
-      "type": "item",
-      "id": 400,
-      "name": "Lu4",
-      "url": "/lu4/item/400-theca-leather-armor"
-    },
     {
       "key": "set:21",
       "type": "set",
@@ -35,59 +34,80 @@
       "url": "/lu4/item/2229-recipe-theca-leather-armor"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25158",
       "type": "npc",
       "id": 25158,
-      "name": "King Tarlk Lv. 48",
+      "name": "King Tarlk",
       "url": "/lu4/npc/25158-king-tarlk"
     },
     {
       "key": "npc:21633",
       "type": "npc",
       "id": 21633,
-      "name": "Doll Blader Lv. 53",
+      "name": "Doll Blader",
       "url": "/lu4/npc/21633-doll-blader"
     },
     {
       "key": "npc:21632",
       "type": "npc",
       "id": 21632,
-      "name": "Doll Blader Lv. 53",
+      "name": "Doll Blader",
       "url": "/lu4/npc/21632-doll-blader"
     },
     {
       "key": "npc:21625",
       "type": "npc",
       "id": 21625,
-      "name": "Zaken's Elite Guard Lv. 50",
+      "name": "Zaken's Elite Guard",
       "url": "/lu4/npc/21625-zakens-elite-guard"
     },
     {
       "key": "npc:21619",
       "type": "npc",
       "id": 21619,
-      "name": "Pit Archer Lv. 48",
+      "name": "Pit Archer",
       "url": "/lu4/npc/21619-pit-archer"
     },
     {
       "key": "npc:21152",
       "type": "npc",
       "id": 21152,
-      "name": "Purgatory Wisp Lv. 53",
+      "name": "Purgatory Wisp",
       "url": "/lu4/npc/21152-purgatory-wisp"
     },
     {
       "key": "npc:20753",
       "type": "npc",
       "id": 20753,
-      "name": "Dark Lord Lv. 50",
+      "name": "Dark Lord",
       "url": "/lu4/npc/20753-dark-lord"
     },
     {
       "key": "npc:20240",
       "type": "npc",
       "id": 20240,
-      "name": "Royal Cave Servant Lv. 51",
+      "name": "Royal Cave Servant",
       "url": "/lu4/npc/20240-royal-cave-servant"
     }
   ]

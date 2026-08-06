@@ -2,131 +2,79 @@
   "key": "npc:21697",
   "type": "npc",
   "id": 21697,
-  "name": "Lu4 Wiki: NPC Dimension Invader Elite Soldier",
+  "name": "Dimension Invader Elite Soldier",
   "url": "/lu4/npc/21697-dimension-invader-elite-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21697-dimension-invader-elite-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21697-dimension-invader-elite-soldier",
   "raw_html": "library/raw/lu4/npc/21697-dimension-invader-elite-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "468 / 751",
+    "P. Atk. / M. Atk.": "315 / 144",
+    "P. Def. / M. Def.": "330 / 261",
+    "Accuracy / Evasion": "78 / 78",
+    "Exp / SP": "630 / 44",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (1/4x) Lv. 8 Weak P. Atk. Lv. 8 Weak M. Atk. Lv. 8 Strong P. Def. Lv. 14 Strong M. Def. Lv. 14 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 45"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21697",
-      "type": "npc",
-      "id": 21697,
-      "name": "Lu4",
-      "url": "/lu4/npc/21697-dimension-invader-elite-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1/4x) Lv. 8",
-      "url": "/lu4/skill/4408-hp-increase-14x/8"
+      "name": "HP Increase (1/4x)",
+      "url": "/lu4/skill/4408-hp-increase-14x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Weak P. Atk. Lv. 8",
-      "url": "/lu4/skill/4410-weak-p-atk/8"
+      "name": "Weak P. Atk.",
+      "url": "/lu4/skill/4410-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Weak M. Atk. Lv. 8",
-      "url": "/lu4/skill/4411-weak-m-atk/8"
+      "name": "Weak M. Atk.",
+      "url": "/lu4/skill/4411-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
-    },
-    {
-      "key": "item:4039",
-      "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
-    },
-    {
-      "key": "item:2219",
-      "type": "item",
-      "id": 2219,
-      "name": "Recipe: Crimson Boots NG",
-      "url": "/lu4/item/2219-recipe-crimson-boots"
-    },
-    {
-      "key": "item:2073",
-      "type": "item",
-      "id": 2073,
-      "name": "Chakram Edge NG",
-      "url": "/lu4/item/2073-chakram-edge"
-    },
-    {
-      "key": "item:1884",
-      "type": "item",
-      "id": 1884,
-      "name": "Cord NG",
-      "url": "/lu4/item/1884-cord"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "url": "/lu4/item/1878-braided-hemp"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:263",
-      "type": "item",
-      "id": 263,
-      "name": "Chakram C",
-      "url": "/lu4/item/263-chakram"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "item:57",
@@ -136,11 +84,67 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2216",
+      "key": "item:263",
       "type": "item",
-      "id": 2216,
-      "name": "Recipe: Great Helmet NG",
-      "url": "/lu4/item/2216-recipe-great-helmet"
+      "id": 263,
+      "name": "Chakram C",
+      "url": "/lu4/item/263-chakram"
+    },
+    {
+      "key": "item:2073",
+      "type": "item",
+      "id": 2073,
+      "name": "Chakram Edge NG",
+      "url": "/lu4/item/2073-chakram-edge"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1878",
+      "type": "item",
+      "id": 1878,
+      "name": "Braided Hemp NG",
+      "url": "/lu4/item/1878-braided-hemp"
+    },
+    {
+      "key": "item:1884",
+      "type": "item",
+      "id": 1884,
+      "name": "Cord NG",
+      "url": "/lu4/item/1884-cord"
+    },
+    {
+      "key": "item:2219",
+      "type": "item",
+      "id": 2219,
+      "name": "Recipe: Crimson Boots NG",
+      "url": "/lu4/item/2219-recipe-crimson-boots"
+    },
+    {
+      "key": "item:4039",
+      "type": "item",
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
+    },
+    {
+      "key": "item:1964",
+      "type": "item",
+      "id": 1964,
+      "name": "Eldarake Temper NG",
+      "url": "/lu4/item/1964-eldarake-temper"
     },
     {
       "key": "item:2059",
@@ -150,11 +154,11 @@
       "url": "/lu4/item/2059-flamberge-blade"
     },
     {
-      "key": "item:1964",
+      "key": "item:2216",
       "type": "item",
-      "id": 1964,
-      "name": "Eldarake Temper NG",
-      "url": "/lu4/item/1964-eldarake-temper"
+      "id": 2216,
+      "name": "Recipe: Great Helmet NG",
+      "url": "/lu4/item/2216-recipe-great-helmet"
     }
   ]
 }

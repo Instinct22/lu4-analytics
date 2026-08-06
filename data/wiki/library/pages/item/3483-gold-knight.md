@@ -1,80 +1,17 @@
-# Lu4 Wiki: Item Gold Knight
+# Gold Knight
 
-- Source: https://masterwork.wiki/lu4/item/3483-gold-knight
+- Source: https://masterwork.wiki/lu4-b-w-c/item/3483-gold-knight
 - Path: /lu4/item/3483-gold-knight
 - Type: item
 - Key: item:3483
 
 ## Stats
+- Effect: Low-grade coin
+- NPC Sell Price: 50 Adena
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Other
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Gold Knight
-Lu4
-Eternal
-MasterWork
-Gold Knight
-NG
-Other
-Low-grade coin
-NPC Sell Price
-50 Adena
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Target for Quest
-Used in Quests
-Quest
-Levels
-Coins of Magic
-40 ~ 60
-Quest
-Levels
-Coins of Magic
-40 ~ 60
-MasterWork 2026
-All rights reserved
+Gold Knight NG Other Low-grade coin NPC Sell Price 50 Adena Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

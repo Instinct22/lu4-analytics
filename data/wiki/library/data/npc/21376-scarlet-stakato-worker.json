@@ -2,96 +2,107 @@
   "key": "npc:21376",
   "type": "npc",
   "id": 21376,
-  "name": "Lu4 Wiki: NPC Scarlet Stakato Worker",
+  "name": "Scarlet Stakato Worker",
   "url": "/lu4/npc/21376-scarlet-stakato-worker",
-  "source_url": "https://masterwork.wiki/lu4/npc/21376-scarlet-stakato-worker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21376-scarlet-stakato-worker",
   "raw_html": "library/raw/lu4/npc/21376-scarlet-stakato-worker.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "22 143 / 1 784",
+    "P. Atk. / M. Atk.": "1 972 / 1 337",
+    "P. Def. / M. Def.": "481 / 425",
+    "Accuracy / Evasion": "122 / 126",
+    "Exp / SP": "71 773 / 3 860",
+    "Attack Attribute": "Earth 50",
+    "Defense Attributes": "Fire 20, Water 20, Wind 0, Earth 93, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. High Lv. Lv. 5 NPC High Level",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 78"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21376",
-      "type": "npc",
-      "id": 21376,
-      "name": "Lu4",
-      "url": "/lu4/npc/21376-scarlet-stakato-worker"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 5 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/5"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32337",
@@ -108,32 +119,11 @@
       "url": "/lu4/item/5536-bloody-orchid-head"
     },
     {
-      "key": "item:4041",
+      "key": "item:1867",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:3036",
-      "type": "item",
-      "id": 3036,
-      "name": "Recipe: Spiritshot S NG",
-      "url": "/lu4/item/3036-recipe-spiritshot-s"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "url": "/lu4/item/1881-coarse-bone-powder"
-    },
-    {
-      "key": "item:1875",
-      "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:1872",
@@ -143,18 +133,32 @@
       "url": "/lu4/item/1872-animal-bone"
     },
     {
-      "key": "item:1867",
+      "key": "item:1875",
       "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:57",
+      "key": "item:1881",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
+    },
+    {
+      "key": "item:3036",
+      "type": "item",
+      "id": 3036,
+      "name": "Recipe: Spiritshot S NG",
+      "url": "/lu4/item/3036-recipe-spiritshot-s"
+    },
+    {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
       "key": "item:5544",

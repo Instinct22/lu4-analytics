@@ -2,96 +2,100 @@
   "key": "npc:21739",
   "type": "npc",
   "id": 21739,
-  "name": "Lu4 Wiki: NPC Forbidden Path Invader Berserker",
+  "name": "Forbidden Path Invader Berserker",
   "url": "/lu4/npc/21739-forbidden-path-invader-berserker",
-  "source_url": "https://masterwork.wiki/lu4/npc/21739-forbidden-path-invader-berserker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21739-forbidden-path-invader-berserker",
   "raw_html": "library/raw/lu4/npc/21739-forbidden-path-invader-berserker.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "10 395 / 1 464",
+    "P. Atk. / M. Atk.": "684 / 524",
+    "P. Def. / M. Def.": "634 / 425",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "18 474 / 1 716",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 9 Slightly Weak M. Atk. Lv. 9 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 13 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Damage Shield Lv. 1 Reflects back a portion of damage inflicted by the enemy P. Atk.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 65"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21739",
-      "type": "npc",
-      "id": 21739,
-      "name": "Lu4",
-      "url": "/lu4/npc/21739-forbidden-path-invader-berserker"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 9",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/9"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 9",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/9"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4095",
       "type": "skill",
       "id": 4095,
-      "name": "Damage Shield Lv. 1 Reflects back a portion of damage inflicted by the enemy P. Atk.",
-      "url": "/lu4/skill/4095-damage-shield/1"
+      "name": "Damage Shield",
+      "url": "/lu4/skill/4095-damage-shield"
     },
     {
-      "key": "item:5220",
+      "key": "item:57",
       "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4054",
@@ -99,6 +103,27 @@
       "id": 4054,
       "name": "Necklace of Black Ore Beads NG",
       "url": "/lu4/item/4054-necklace-of-black-ore-beads"
+    },
+    {
+      "key": "item:864",
+      "type": "item",
+      "id": 864,
+      "name": "Earring of Black Ore B",
+      "url": "/lu4/item/864-earring-of-black-ore"
+    },
+    {
+      "key": "item:895",
+      "type": "item",
+      "id": 895,
+      "name": "Ring of Black Ore B",
+      "url": "/lu4/item/895-ring-of-black-ore"
+    },
+    {
+      "key": "item:926",
+      "type": "item",
+      "id": 926,
+      "name": "Necklace of Black Ore B",
+      "url": "/lu4/item/926-necklace-of-black-ore"
     },
     {
       "key": "item:4053",
@@ -150,27 +175,6 @@
       "url": "/lu4/item/1343-silver-arrow"
     },
     {
-      "key": "item:926",
-      "type": "item",
-      "id": 926,
-      "name": "Necklace of Black Ore B",
-      "url": "/lu4/item/926-necklace-of-black-ore"
-    },
-    {
-      "key": "item:895",
-      "type": "item",
-      "id": 895,
-      "name": "Ring of Black Ore B",
-      "url": "/lu4/item/895-ring-of-black-ore"
-    },
-    {
-      "key": "item:864",
-      "type": "item",
-      "id": 864,
-      "name": "Earring of Black Ore B",
-      "url": "/lu4/item/864-earring-of-black-ore"
-    },
-    {
       "key": "item:730",
       "type": "item",
       "id": 730,
@@ -178,18 +182,11 @@
       "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:5220",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:5156",
-      "type": "item",
-      "id": 5156,
-      "name": "Recipe: Soulshot (A) Compressed Package (100%) NG",
-      "url": "/lu4/item/5156-recipe-soulshot-a-compressed-package-100"
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
     },
     {
       "key": "item:4089",
@@ -197,6 +194,13 @@
       "id": 4089,
       "name": "Doom Helmet Pattern NG",
       "url": "/lu4/item/4089-doom-helmet-pattern"
+    },
+    {
+      "key": "item:5156",
+      "type": "item",
+      "id": 5156,
+      "name": "Recipe: Soulshot (A) Compressed Package (100%) NG",
+      "url": "/lu4/item/5156-recipe-soulshot-a-compressed-package-100"
     }
   ]
 }

@@ -2,147 +2,74 @@
   "key": "npc:20433",
   "type": "npc",
   "id": 20433,
-  "name": "Lu4 Wiki: NPC Festering Bat",
+  "name": "Festering Bat",
   "url": "/lu4/npc/20433-festering-bat",
-  "source_url": "https://masterwork.wiki/lu4/npc/20433-festering-bat",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20433-festering-bat",
   "raw_html": "library/raw/lu4/npc/20433-festering-bat.html",
   "stats": {
-    "Location": "Нейтральные Воды (+2) Нейтральные Воды Кровавые Топи Темный Лес"
+    "Respawn Time": "15 seconds",
+    "Location": "Нейтральные Воды (+2) Нейтральные Воды Кровавые Топи Темный Лес",
+    "HP / MP": "343 / 163",
+    "P. Atk. / M. Atk.": "39 / 20",
+    "P. Def. / M. Def.": "69 / 53",
+    "Accuracy / Evasion": "46 / 46",
+    "Exp / SP": "368 / 37",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 13"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20433",
-      "type": "npc",
-      "id": 20433,
-      "name": "Lu4",
-      "url": "/lu4/npc/20433-festering-bat"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
-      "key": "location:106",
-      "type": "location",
-      "id": 106,
-      "name": "Кровавые Топи",
-      "url": "/lu4/location/106-krovavye-topi"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
-    },
-    {
-      "key": "item:1923",
-      "type": "item",
-      "id": 1923,
-      "name": "Leather Stockings Pattern NG",
-      "url": "/lu4/item/1923-leather-stockings-pattern"
-    },
-    {
-      "key": "item:1922",
-      "type": "item",
-      "id": 1922,
-      "name": "Leather Tunic Pattern NG",
-      "url": "/lu4/item/1922-leather-tunic-pattern"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1794",
-      "type": "item",
-      "id": 1794,
-      "name": "Recipe: Forest Bow NG",
-      "url": "/lu4/item/1794-recipe-forest-bow"
-    },
-    {
-      "key": "item:735",
-      "type": "item",
-      "id": 735,
-      "name": "Alacrity Potion NG",
-      "url": "/lu4/item/735-alacrity-potion"
-    },
-    {
-      "key": "item:464",
-      "type": "item",
-      "id": 464,
-      "name": "Leather Stockings NG",
-      "url": "/lu4/item/464-leather-stockings"
-    },
-    {
-      "key": "item:429",
-      "type": "item",
-      "id": 429,
-      "name": "Leather Tunic NG",
-      "url": "/lu4/item/429-leather-tunic"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
       "key": "item:57",
@@ -152,11 +79,60 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:1921",
+      "key": "item:429",
       "type": "item",
-      "id": 1921,
-      "name": "Leather Shoes Texture NG",
-      "url": "/lu4/item/1921-leather-shoes-texture"
+      "id": 429,
+      "name": "Leather Tunic NG",
+      "url": "/lu4/item/429-leather-tunic"
+    },
+    {
+      "key": "item:464",
+      "type": "item",
+      "id": 464,
+      "name": "Leather Stockings NG",
+      "url": "/lu4/item/464-leather-stockings"
+    },
+    {
+      "key": "item:1922",
+      "type": "item",
+      "id": 1922,
+      "name": "Leather Tunic Pattern NG",
+      "url": "/lu4/item/1922-leather-tunic-pattern"
+    },
+    {
+      "key": "item:1923",
+      "type": "item",
+      "id": 1923,
+      "name": "Leather Stockings Pattern NG",
+      "url": "/lu4/item/1923-leather-stockings-pattern"
+    },
+    {
+      "key": "item:735",
+      "type": "item",
+      "id": 735,
+      "name": "Alacrity Potion NG",
+      "url": "/lu4/item/735-alacrity-potion"
+    },
+    {
+      "key": "item:1794",
+      "type": "item",
+      "id": 1794,
+      "name": "Recipe: Forest Bow NG",
+      "url": "/lu4/item/1794-recipe-forest-bow"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
     },
     {
       "key": "item:1864",
@@ -164,6 +140,13 @@
       "id": 1864,
       "name": "Stem NG",
       "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1921",
+      "type": "item",
+      "id": 1921,
+      "name": "Leather Shoes Texture NG",
+      "url": "/lu4/item/1921-leather-shoes-texture"
     }
   ]
 }

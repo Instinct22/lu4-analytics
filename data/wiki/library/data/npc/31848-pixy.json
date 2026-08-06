@@ -2,49 +2,38 @@
   "key": "npc:31848",
   "type": "npc",
   "id": 31848,
-  "name": "Lu4 Wiki: NPC Pixy",
+  "name": "Pixy",
   "url": "/lu4/npc/31848-pixy",
-  "source_url": "https://masterwork.wiki/lu4/npc/31848-pixy",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/31848-pixy",
   "raw_html": "library/raw/lu4/npc/31848-pixy.html",
   "stats": {
-    "Location": "Тень Древа Жизни (+1) Тень Древа Жизни Эльфийский Лес"
+    "Respawn Time": "1 minute",
+    "Location": "Тень Древа Жизни (+1) Тень Древа Жизни Эльфийский Лес",
+    "HP / MP": "4 839 / 3 685",
+    "P. Atk. / M. Atk.": "2 331 / 21 316",
+    "P. Def. / M. Def.": "289 / 837",
+    "Accuracy / Evasion": "143 / 143",
+    "Exp / SP": "0 / 226",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% Resist Full Magic Attack Lv. 1",
+    "Type": "Fairy, Lv. 80"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:31848",
-      "type": "npc",
-      "id": 31848,
-      "name": "Lu4",
-      "url": "/lu4/npc/31848-pixy"
-    },
-    {
-      "key": "location:111",
-      "type": "location",
-      "id": 111,
-      "name": "Тень Древа Жизни",
-      "url": "/lu4/location/111-ten-dreva-zizni"
-    },
-    {
-      "key": "location:6",
-      "type": "location",
-      "id": 6,
-      "name": "Эльфийский Лес",
-      "url": "/lu4/location/6-elfijskij-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

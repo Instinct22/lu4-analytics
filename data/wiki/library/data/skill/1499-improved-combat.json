@@ -1,0 +1,52 @@
+{
+  "key": "skill:1499",
+  "type": "skill",
+  "id": 1499,
+  "name": "Improved Combat",
+  "url": "/lu4/skill/1499-improved-combat",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1499-improved-combat",
+  "raw_html": "library/raw/lu4/skill/1499-improved-combat.html",
+  "stats": {
+    "Effect": "Combines 'Might' and 'Shield' effects. P. Atk. +6% P. Def. +6%.",
+    "Consumes": "15 MP",
+    "Reuse Time": "2 seconds",
+    "Duration": "20 minutes",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Cast Range": "400 (900)",
+    "Available For": "MageLv. 7Elven MageLv. 7Dark MageLv. 7Dwarven MysticLv. 7",
+    "Type": "Magical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:10",
+      "type": "class",
+      "id": 10,
+      "name": "MageLv. 7",
+      "url": "/lu4/class/10-mage"
+    },
+    {
+      "key": "class:25",
+      "type": "class",
+      "id": 25,
+      "name": "Elven MageLv. 7",
+      "url": "/lu4/class/25-elvenmage"
+    },
+    {
+      "key": "class:38",
+      "type": "class",
+      "id": 38,
+      "name": "Dark MageLv. 7",
+      "url": "/lu4/class/38-darkmage"
+    },
+    {
+      "key": "class:208",
+      "type": "class",
+      "id": 208,
+      "name": "Dwarven MysticLv. 7",
+      "url": "/lu4/class/208-dwarvenmystic"
+    }
+  ]
+}

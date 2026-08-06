@@ -1,80 +1,17 @@
-# Lu4 Wiki: Item B-Grade Item Set Box (Magic Use)
+# B-Grade Item Set Box (Magic Use)
 
-- Source: https://masterwork.wiki/lu4/item/9133-b-grade-item-set-box-magic-use
+- Source: https://masterwork.wiki/lu4-b-w-c/item/9133-b-grade-item-set-box-magic-use
 - Path: /lu4/item/9133-b-grade-item-set-box-magic-use
 - Type: item
 - Key: item:9133
 
 ## Stats
+- Effect: One can receive B-grade Supplies for Wizards by double clicking. (Can be used when the weight gauge is below 80% and there are more than 10 empty inventory slots.)
+- Weight: 100
 - Item Skills: Event Item Lv. 34
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Other
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-B-Grade Item Set Box (Magic Use)
-Lu4
-Eternal
-MasterWork
-B-Grade Item Set Box (Magic Use)
-NG
-Other
-One can receive B-grade Supplies for Wizards by double clicking. (Can be used when the weight gauge is below 80% and there are more than 10 empty inventory slots.)
-Weight
-100
-Item Skills
-Event Item
-Lv. 34
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Contains
-Item
-Amount
-Get Type
-Spiritshot (B-Grade)
-B
-500
-Guaranteed
-MasterWork 2026
-All rights reserved
+B-Grade Item Set Box (Magic Use) NG Other One can receive B-grade Supplies for Wizards by double clicking. (Can be used when the weight gauge is below 80% and there are more than 10 empty inventory slots.) Weight 100 Item Skills Event Item Lv. 34 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

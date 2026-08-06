@@ -2,96 +2,121 @@
   "key": "npc:21386",
   "type": "npc",
   "id": 21386,
-  "name": "Lu4 Wiki: NPC Magma Golem",
+  "name": "Magma Golem",
   "url": "/lu4/npc/21386-magma-golem",
-  "source_url": "https://masterwork.wiki/lu4/npc/21386-magma-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21386-magma-golem",
   "raw_html": "library/raw/lu4/npc/21386-magma-golem.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "24 210 / 1 935",
+    "P. Atk. / M. Atk.": "3 020 / 1 538",
+    "P. Def. / M. Def.": "955 / 489",
+    "Accuracy / Evasion": "125 / 132",
+    "Exp / SP": "65 069 / 5 205",
+    "Attack Attribute": "Fire 50",
+    "Defense Attributes": "Fire 80, Water -5, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Strong P. Def. Lv. 15 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 6 Blunt Weapons Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. High Lv. Lv. 7 NPC High Level",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21386",
-      "type": "npc",
-      "id": 21386,
-      "name": "Lu4",
-      "url": "/lu4/npc/21386-magma-golem"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 6 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/6"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 7 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/7"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:6711",
+      "type": "item",
+      "id": 6711,
+      "name": "Sealed Major Arcana Robe Part NG",
+      "url": "/lu4/item/6711-sealed-major-arcana-robe-part"
+    },
+    {
+      "key": "item:5487",
+      "type": "item",
+      "id": 5487,
+      "name": "Sealed Robe of Nightmare Fabric NG",
+      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
     },
     {
       "key": "item:32397",
@@ -108,13 +133,6 @@
       "url": "/lu4/item/32396-unidentified-sealed-robe-of-nightmare"
     },
     {
-      "key": "item:6711",
-      "type": "item",
-      "id": 6711,
-      "name": "Sealed Major Arcana Robe Part NG",
-      "url": "/lu4/item/6711-sealed-major-arcana-robe-part"
-    },
-    {
       "key": "item:5488",
       "type": "item",
       "id": 5488,
@@ -122,11 +140,11 @@
       "url": "/lu4/item/5488-sealed-majestic-robe-fabric"
     },
     {
-      "key": "item:5487",
+      "key": "item:1877",
       "type": "item",
-      "id": 5487,
-      "name": "Sealed Robe of Nightmare Fabric NG",
-      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
     },
     {
       "key": "item:4041",
@@ -134,20 +152,6 @@
       "id": 4041,
       "name": "Mold Hardener NG",
       "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
     },
     {
       "key": "item:1871",
@@ -171,11 +175,11 @@
       "url": "/lu4/item/959-scroll-enchant-weapon-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:4040",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
     },
     {
       "key": "item:5537",

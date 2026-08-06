@@ -2,110 +2,135 @@
   "key": "npc:21413",
   "type": "npc",
   "id": 21413,
-  "name": "Lu4 Wiki: NPC Ustralith",
+  "name": "Ustralith",
   "url": "/lu4/npc/21413-ustralith",
-  "source_url": "https://masterwork.wiki/lu4/npc/21413-ustralith",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21413-ustralith",
   "raw_html": "library/raw/lu4/npc/21413-ustralith.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "22 329 / 1 935",
+    "P. Atk. / M. Atk.": "1 904 / 1 538",
+    "P. Def. / M. Def.": "546 / 489",
+    "Accuracy / Evasion": "125 / 137",
+    "Exp / SP": "37 226 / 4 225",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Standard Type Lv. 2 Normal P. Def. and Evasion. Dagger Lv. 7 Daggers Greater Bleed Resistance Lv. 4 Highly resistant to Bleed. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. High Lv. Lv. 7 NPC High Level",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21413",
-      "type": "npc",
-      "id": 21413,
-      "name": "Lu4",
-      "url": "/lu4/npc/21413-ustralith"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Dagger Lv. 7 Daggers",
-      "url": "/lu4/skill/4415-dagger/7"
+      "name": "Dagger",
+      "url": "/lu4/skill/4415-dagger"
     },
     {
       "key": "skill:4437",
       "type": "skill",
       "id": 4437,
-      "name": "Greater Bleed Resistance Lv. 4 Highly resistant to Bleed.",
-      "url": "/lu4/skill/4437-greater-bleed-resistance/4"
+      "name": "Greater Bleed Resistance",
+      "url": "/lu4/skill/4437-greater-bleed-resistance"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 7 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/7"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:5527",
+      "type": "item",
+      "id": 5527,
+      "name": "Sealed Helm of Nightmare Design NG",
+      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
+    },
+    {
+      "key": "item:5495",
+      "type": "item",
+      "id": 5495,
+      "name": "Sealed Shield of Nightmare Fragment NG",
+      "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
     },
     {
       "key": "item:32391",
@@ -134,27 +159,6 @@
       "id": 5528,
       "name": "Sealed Majestic Circlet Design NG",
       "url": "/lu4/item/5528-sealed-majestic-circlet-design"
-    },
-    {
-      "key": "item:5527",
-      "type": "item",
-      "id": 5527,
-      "name": "Sealed Helm of Nightmare Design NG",
-      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
-    },
-    {
-      "key": "item:5495",
-      "type": "item",
-      "id": 5495,
-      "name": "Sealed Shield of Nightmare Fragment NG",
-      "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
     },
     {
       "key": "item:1895",
@@ -199,11 +203,11 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:4042",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
     },
     {
       "key": "item:5545",

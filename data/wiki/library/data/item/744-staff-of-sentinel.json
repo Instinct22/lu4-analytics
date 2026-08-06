@@ -2,36 +2,31 @@
   "key": "item:744",
   "type": "item",
   "id": 744,
-  "name": "Lu4 Wiki: Item Staff of Sentinel",
+  "name": "Staff of Sentinel",
   "url": "/lu4/item/744-staff-of-sentinel",
-  "source_url": "https://masterwork.wiki/lu4/item/744-staff-of-sentinel",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/744-staff-of-sentinel",
   "raw_html": "library/raw/lu4/item/744-staff-of-sentinel.html",
   "stats": {
+    "Effect": "A staff issued to those magicians that have been acknowledged as protectors of the woods.",
+    "P. Atk. / M. Atk.": "13 / 15",
+    "Soulshot / Spiritshot Consume": "1 / 1",
+    "NPC Sell Price": "12 900 Adena",
+    "Weight": "1800",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Item Skills": "Magic Essence Lv. 1",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Weapon / Blunt / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:744",
-      "type": "item",
-      "id": 744,
-      "name": "Lu4",
-      "url": "/lu4/item/744-staff-of-sentinel"
-    },
-    {
       "key": "skill:24479",
       "type": "skill",
       "id": 24479,
-      "name": "Magic Essence Lv. 1",
-      "url": "/lu4/skill/24479-magic-essence/1"
-    },
-    {
-      "key": "quest:102",
-      "type": "quest",
-      "id": 102,
-      "name": "Sea of Spores Fever",
-      "url": "/lu4/quest/102-sea-of-spores-fever"
+      "name": "Magic Essence",
+      "url": "/lu4/skill/24479-magic-essence"
     }
   ]
 }

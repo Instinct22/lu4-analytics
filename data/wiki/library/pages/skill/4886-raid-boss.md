@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4886-raid-boss
+- Path: /lu4/skill/4886-raid-boss
+- Type: skill
+- Key: skill:4886
+
+## Stats
+- Effect: This Iron Giant was supposedly made by Devil Beleth. Given the power of artificial intelligence, he is a Golem designed to manage other Golems. Due to Beleth' caprice, however, he was sealed up and put on standby. During his inactivity, he began to be worshipped as an idol by low-Lv. Orcs who gathered near him. Now re-activated, he believes that he has become the God of Orcs.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability This Iron Giant was supposedly made by Devil Beleth. Given the power of artificial intelligence, he is a Golem designed to manage other Golems. Due to Beleth' caprice, however, he was sealed up and put on standby. During his inactivity, he began to be worshipped as an idol by low-Lv. Orcs who gathered near him. Now re-activated, he believes that he has become the God of Orcs. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

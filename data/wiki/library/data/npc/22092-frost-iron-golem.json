@@ -2,82 +2,128 @@
   "key": "npc:22092",
   "type": "npc",
   "id": 22092,
-  "name": "Lu4 Wiki: NPC Frost Iron Golem",
+  "name": "Frost Iron Golem",
   "url": "/lu4/npc/22092-frost-iron-golem",
-  "source_url": "https://masterwork.wiki/lu4/npc/22092-frost-iron-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22092-frost-iron-golem",
   "raw_html": "library/raw/lu4/npc/22092-frost-iron-golem.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "1 531 / 1 364",
+    "P. Atk. / M. Atk.": "923 / 514",
+    "P. Def. / M. Def.": "364 / 621",
+    "Accuracy / Evasion": "92 / 92",
+    "Exp / SP": "3 067 / 262",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1/2x) Lv. 9 Extremely Strong M. Def. Lv. 19 Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 2 Vulnerable to Blunt Weapons. Greater Bleed Resistance Lv. 4 Highly resistant to Bleed. Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 59"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22092",
-      "type": "npc",
-      "id": 22092,
-      "name": "Lu4",
-      "url": "/lu4/npc/22092-frost-iron-golem"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1/2x) Lv. 9",
-      "url": "/lu4/skill/4408-hp-increase-12x/9"
+      "name": "HP Increase (1/2x)",
+      "url": "/lu4/skill/4408-hp-increase-12x"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Extremely Strong M. Def. Lv. 19",
-      "url": "/lu4/skill/4413-extremely-strong-m-def/19"
+      "name": "Extremely Strong M. Def.",
+      "url": "/lu4/skill/4413-extremely-strong-m-def"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 2 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/2"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4437",
       "type": "skill",
       "id": 4437,
-      "name": "Greater Bleed Resistance Lv. 4 Highly resistant to Bleed.",
-      "url": "/lu4/skill/4437-greater-bleed-resistance/4"
+      "name": "Greater Bleed Resistance",
+      "url": "/lu4/skill/4437-greater-bleed-resistance"
     },
     {
       "key": "skill:4444",
       "type": "skill",
       "id": 4444,
-      "name": "Greater Bow/Crossbow Resistance Lv. 2 Highly resistant to Bow/Crossbows.",
-      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance/2"
+      "name": "Greater Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4444-greater-bowcrossbow-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:32594",
+      "key": "item:4108",
       "type": "item",
-      "id": 32594,
-      "name": "Unidentified Avadon Breastplate B",
-      "url": "/lu4/item/32594-unidentified-avadon-breastplate"
+      "id": 4108,
+      "name": "Sword of Valhalla Blade NG",
+      "url": "/lu4/item/4108-sword-of-valhalla-blade"
+    },
+    {
+      "key": "item:4107",
+      "type": "item",
+      "id": 4107,
+      "name": "Keshanberk Blade NG",
+      "url": "/lu4/item/4107-keshanberk-blade"
+    },
+    {
+      "key": "item:4104",
+      "type": "item",
+      "id": 4104,
+      "name": "Great Sword Blade NG",
+      "url": "/lu4/item/4104-great-sword-blade"
+    },
+    {
+      "key": "item:4065",
+      "type": "item",
+      "id": 4065,
+      "name": "Avadon Gaiters Material NG",
+      "url": "/lu4/item/4065-avadon-gaiters-material"
+    },
+    {
+      "key": "item:4064",
+      "type": "item",
+      "id": 4064,
+      "name": "Avadon Breastplate Part NG",
+      "url": "/lu4/item/4064-avadon-breastplate-part"
+    },
+    {
+      "key": "item:4057",
+      "type": "item",
+      "id": 4057,
+      "name": "Zubei's Gaiter Material NG",
+      "url": "/lu4/item/4057-zubeis-gaiter-material"
+    },
+    {
+      "key": "item:4056",
+      "type": "item",
+      "id": 4056,
+      "name": "Zubei's Breastplate Part NG",
+      "url": "/lu4/item/4056-zubeis-breastplate-part"
     },
     {
       "key": "item:32353",
@@ -85,6 +131,13 @@
       "id": 32353,
       "name": "Unidentified Avadon Gaiters B",
       "url": "/lu4/item/32353-unidentified-avadon-gaiters"
+    },
+    {
+      "key": "item:32594",
+      "type": "item",
+      "id": 32594,
+      "name": "Unidentified Avadon Breastplate B",
+      "url": "/lu4/item/32594-unidentified-avadon-breastplate"
     },
     {
       "key": "item:32352",
@@ -101,95 +154,11 @@
       "url": "/lu4/item/32350-unidentified-zubeis-breastplate"
     },
     {
-      "key": "item:8614",
+      "key": "item:8600",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
-    },
-    {
-      "key": "item:8613",
-      "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
-    },
-    {
-      "key": "item:8612",
-      "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
-    },
-    {
-      "key": "item:8611",
-      "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
-    },
-    {
-      "key": "item:8610",
-      "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
-    },
-    {
-      "key": "item:8609",
-      "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
-    },
-    {
-      "key": "item:8608",
-      "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
+      "id": 8600,
+      "name": "Herb of Life NG",
+      "url": "/lu4/item/8600-herb-of-life"
     },
     {
       "key": "item:8601",
@@ -199,25 +168,46 @@
       "url": "/lu4/item/8601-greater-herb-of-life"
     },
     {
-      "key": "item:8600",
+      "key": "item:8602",
       "type": "item",
-      "id": 8600,
-      "name": "Herb of Life NG",
-      "url": "/lu4/item/8600-herb-of-life"
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
     },
     {
-      "key": "item:8314",
+      "key": "item:8607",
       "type": "item",
-      "id": 8314,
-      "name": "Recipe: Spiritual Eye (60%) NG",
-      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
     },
     {
-      "key": "item:4158",
+      "key": "item:8609",
       "type": "item",
-      "id": 4158,
-      "name": "Recipe: Doom Plate Armor (100%) NG",
-      "url": "/lu4/item/4158-recipe-doom-plate-armor-100"
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
+    },
+    {
+      "key": "item:8603",
+      "type": "item",
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:8605",
+      "type": "item",
+      "id": 8605,
+      "name": "Superior Herb of Mana NG",
+      "url": "/lu4/item/8605-superior-herb-of-mana"
     },
     {
       "key": "item:4157",
@@ -227,11 +217,18 @@
       "url": "/lu4/item/4157-recipe-blue-wolf-gaiters-100"
     },
     {
-      "key": "item:4065",
+      "key": "item:4158",
       "type": "item",
-      "id": 4065,
-      "name": "Avadon Gaiters Material NG",
-      "url": "/lu4/item/4065-avadon-gaiters-material"
+      "id": 4158,
+      "name": "Recipe: Doom Plate Armor (100%) NG",
+      "url": "/lu4/item/4158-recipe-doom-plate-armor-100"
+    },
+    {
+      "key": "item:8314",
+      "type": "item",
+      "id": 8314,
+      "name": "Recipe: Spiritual Eye (60%) NG",
+      "url": "/lu4/item/8314-recipe-spiritual-eye-60"
     },
     {
       "key": "npc:22091",

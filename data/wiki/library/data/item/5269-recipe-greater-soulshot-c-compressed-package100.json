@@ -2,55 +2,24 @@
   "key": "item:5269",
   "type": "item",
   "id": 5269,
-  "name": "Recipe",
+  "name": "Recipe: Greater Soulshot (C) Compressed Package(100%)",
   "url": "/lu4/item/5269-recipe-greater-soulshot-c-compressed-package100",
-  "source_url": "https://masterwork.wiki/lu4/item/5269-recipe-greater-soulshot-c-compressed-package100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5269-recipe-greater-soulshot-c-compressed-package100",
   "raw_html": "library/raw/lu4/item/5269-recipe-greater-soulshot-c-compressed-package100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Greater Compressed Package of Soulshots (C-Grade)'. Requires Create Item - Skill Level 4 (Artisan Lv. 36). The success rate is 100%.",
+    "NPC Sell Price": "30 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "4",
     "MP Consume": "180",
     "Success Rate": "100%",
-    "Result": "Greater Compressed Package of Soulshots (C-Grade) NG"
+    "Result": "Greater Compressed Package of Soulshots (C-Grade) NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1464",
-      "type": "item",
-      "id": 1464,
-      "name": "Soulshot (C-Grade) C",
-      "amount": "1000"
-    },
-    {
-      "key": "item:1785",
-      "type": "item",
-      "id": 1785,
-      "name": "Soul Ore NG",
-      "amount": "25"
-    },
-    {
-      "key": "item:1459",
-      "type": "item",
-      "id": 1459,
-      "name": "Crystal (C-Grade) C",
-      "amount": "1.6666666666667"
-    },
-    {
-      "key": "item:5193",
-      "type": "item",
-      "id": 5193,
-      "name": "Rope of Magic (C-Grade) NG",
-      "amount": "25"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:5269",
-      "type": "item",
-      "id": 5269,
-      "name": "Lu4",
-      "url": "/lu4/item/5269-recipe-greater-soulshot-c-compressed-package100"
-    },
     {
       "key": "item:1464",
       "type": "item",
@@ -90,35 +59,35 @@
       "key": "npc:20770",
       "type": "npc",
       "id": 20770,
-      "name": "Timak Orc Troop Archer Lv. 41",
+      "name": "Timak Orc Troop Archer",
       "url": "/lu4/npc/20770-timak-orc-troop-archer"
     },
     {
       "key": "npc:20769",
       "type": "npc",
       "id": 20769,
-      "name": "Timak Orc Troop Warrior Lv. 43",
+      "name": "Timak Orc Troop Warrior",
       "url": "/lu4/npc/20769-timak-orc-troop-warrior"
     },
     {
       "key": "npc:20601",
       "type": "npc",
       "id": 20601,
-      "name": "Tamlin Orc Lv. 41",
+      "name": "Tamlin Orc",
       "url": "/lu4/npc/20601-tamlin-orc"
     },
     {
       "key": "npc:20216",
       "type": "npc",
       "id": 20216,
-      "name": "Ricenseo Lv. 43",
+      "name": "Ricenseo",
       "url": "/lu4/npc/20216-ricenseo"
     },
     {
       "key": "npc:20214",
       "type": "npc",
       "id": 20214,
-      "name": "Excuro Lv. 41",
+      "name": "Excuro",
       "url": "/lu4/npc/20214-excuro"
     }
   ]

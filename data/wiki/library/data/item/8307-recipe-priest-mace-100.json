@@ -2,118 +2,24 @@
   "key": "item:8307",
   "type": "item",
   "id": 8307,
-  "name": "Recipe",
+  "name": "Recipe: Priest Mace (100%)",
   "url": "/lu4/item/8307-recipe-priest-mace-100",
-  "source_url": "https://masterwork.wiki/lu4/item/8307-recipe-priest-mace-100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8307-recipe-priest-mace-100",
   "raw_html": "library/raw/lu4/item/8307-recipe-priest-mace-100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Priest Mace'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "14 000 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "120",
     "Success Rate": "100%",
-    "Result": "Priest Mace D"
+    "Result": "Priest Mace D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:8337",
-      "type": "item",
-      "id": 8337,
-      "name": "Priest Mace Head NG",
-      "amount": "7"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "640"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "640"
-    },
-    {
-      "key": "item:1879",
-      "type": "item",
-      "id": 1879,
-      "name": "Cokes NG",
-      "amount": "128"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "384"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "amount": "384"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "amount": "64"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "amount": "64"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "640"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "amount": "192"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "430"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "139"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:8307",
-      "type": "item",
-      "id": 8307,
-      "name": "Lu4",
-      "url": "/lu4/item/8307-recipe-priest-mace-100"
-    },
     {
       "key": "item:8337",
       "type": "item",
@@ -216,28 +122,28 @@
       "key": "npc:20755",
       "type": "npc",
       "id": 20755,
-      "name": "Talakin Lv. 30",
+      "name": "Talakin",
       "url": "/lu4/npc/20755-talakin"
     },
     {
       "key": "npc:20072",
       "type": "npc",
       "id": 20072,
-      "name": "Basilisk Lv. 28",
+      "name": "Basilisk",
       "url": "/lu4/npc/20072-basilisk"
     },
     {
       "key": "npc:20230",
       "type": "npc",
       "id": 20230,
-      "name": "Marsh Stakato Worker Lv. 31",
+      "name": "Marsh Stakato Worker",
       "url": "/lu4/npc/20230-marsh-stakato-worker"
     },
     {
       "key": "npc:20074",
       "type": "npc",
       "id": 20074,
-      "name": "Androscorpio Lv. 29",
+      "name": "Androscorpio",
       "url": "/lu4/npc/20074-androscorpio"
     }
   ]

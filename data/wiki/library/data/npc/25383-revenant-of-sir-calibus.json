@@ -2,75 +2,79 @@
   "key": "npc:25383",
   "type": "npc",
   "id": 25383,
-  "name": "Lu4 Wiki: NPC Revenant of Sir Calibus",
+  "name": "Revenant of Sir Calibus",
   "url": "/lu4/npc/25383-revenant-of-sir-calibus",
-  "source_url": "https://masterwork.wiki/lu4/npc/25383-revenant-of-sir-calibus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25383-revenant-of-sir-calibus",
   "raw_html": "library/raw/lu4/npc/25383-revenant-of-sir-calibus.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "156 584 / 8 254",
+    "P. Atk. / M. Atk.": "454 / 66",
+    "P. Def. / M. Def.": "496 / 531",
+    "Accuracy / Evasion": "85 / 85",
+    "Exp / SP": "982 600 / 76 283",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Knight was executed after siding with the peasants during the Dion Peasant Riot against the brutal Duke Ashton. He slew Guillotine after the latter killed the captured peasant rebels and their families, and for that was brutally executed. He became a ghost because of his undying rage over Ashton's injustice. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 34"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25383",
-      "type": "npc",
-      "id": 25383,
-      "name": "Lu4",
-      "url": "/lu4/npc/25383-revenant-of-sir-calibus"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4937",
       "type": "skill",
       "id": 4937,
-      "name": "Raid Boss Lv. 1 This Knight was executed after siding with the peasants during the Dion Peasant Riot against the brutal Duke Ashton. He slew Guillotine after the latter killed the captured peasant rebels and their families, and for that was brutally executed. He became a ghost because of his undying rage over Ashton's injustice.",
-      "url": "/lu4/skill/4937-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4937-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 3 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/3"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -80,60 +84,46 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:2499",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 2499,
+      "name": "Elven Long Sword D",
+      "url": "/lu4/item/2499-elven-long-sword"
     },
     {
-      "key": "item:6575",
+      "key": "item:70",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 70,
+      "name": "Claymore D",
+      "url": "/lu4/item/70-claymore"
     },
     {
-      "key": "item:2052",
+      "key": "item:321",
       "type": "item",
-      "id": 2052,
-      "name": "Mithril Dagger Blade NG",
-      "url": "/lu4/item/2052-mithril-dagger-blade"
+      "id": 321,
+      "name": "Demon Fangs D",
+      "url": "/lu4/item/321-demon-fangs"
     },
     {
-      "key": "item:1907",
+      "key": "item:2967",
       "type": "item",
-      "id": 1907,
-      "name": "Necklace of Darkness Gem NG",
-      "url": "/lu4/item/1907-necklace-of-darkness-gem"
+      "id": 2967,
+      "name": "Elven Long Sword Blade NG",
+      "url": "/lu4/item/2967-elven-long-sword-blade"
     },
     {
-      "key": "item:1906",
+      "key": "item:2047",
       "type": "item",
-      "id": 1906,
-      "name": "Mithril Ring Wire NG",
-      "url": "/lu4/item/1906-mithril-ring-wire"
+      "id": 2047,
+      "name": "Claymore Blade NG",
+      "url": "/lu4/item/2047-claymore-blade"
     },
     {
-      "key": "item:1905",
+      "key": "item:2046",
       "type": "item",
-      "id": 1905,
-      "name": "Omen Beast's Eye Earring Gemstone NG",
-      "url": "/lu4/item/1905-omen-beasts-eye-earring-gemstone"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+      "id": 2046,
+      "name": "Demon Fangs Part NG",
+      "url": "/lu4/item/2046-demon-fangs-part"
     },
     {
       "key": "item:914",
@@ -143,13 +133,6 @@
       "url": "/lu4/item/914-necklace-of-darkness"
     },
     {
-      "key": "item:882",
-      "type": "item",
-      "id": 882,
-      "name": "Mithril Ring D",
-      "url": "/lu4/item/882-mithril-ring"
-    },
-    {
       "key": "item:851",
       "type": "item",
       "id": 851,
@@ -157,11 +140,60 @@
       "url": "/lu4/item/851-omen-beasts-eye-earring"
     },
     {
-      "key": "item:225",
+      "key": "item:882",
       "type": "item",
-      "id": 225,
-      "name": "Mithril Dagger D",
-      "url": "/lu4/item/225-mithril-dagger"
+      "id": 882,
+      "name": "Mithril Ring D",
+      "url": "/lu4/item/882-mithril-ring"
+    },
+    {
+      "key": "item:1907",
+      "type": "item",
+      "id": 1907,
+      "name": "Necklace of Darkness Gem NG",
+      "url": "/lu4/item/1907-necklace-of-darkness-gem"
+    },
+    {
+      "key": "item:1905",
+      "type": "item",
+      "id": 1905,
+      "name": "Omen Beast's Eye Earring Gemstone NG",
+      "url": "/lu4/item/1905-omen-beasts-eye-earring-gemstone"
+    },
+    {
+      "key": "item:1906",
+      "type": "item",
+      "id": 1906,
+      "name": "Mithril Ring Wire NG",
+      "url": "/lu4/item/1906-mithril-ring-wire"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25384",

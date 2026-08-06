@@ -2,24 +2,23 @@
   "key": "item:603",
   "type": "item",
   "id": 603,
-  "name": "Lu4 Wiki: Item Divine Boots",
+  "name": "Divine Boots",
   "url": "/lu4/item/603-divine-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/603-divine-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/603-divine-boots",
   "raw_html": "library/raw/lu4/item/603-divine-boots.html",
   "stats": {
+    "P. Def.": "39",
+    "Crystal Amount": "143 Crystallization Failed Enchant +0 143 - +1 149 - +2 155 - +3 161 - +4 179 107 +5 197 125 +6 215 143 +7 233 161 +8 251 179",
+    "NPC Sell Price": "137 550 Adena",
+    "Weight": "1200",
     "Set Part": "Divine Tunic C",
     "Recipes": "Recipe: Divine Boots NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Boots"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:603",
-      "type": "item",
-      "id": 603,
-      "name": "Lu4",
-      "url": "/lu4/item/603-divine-boots"
-    },
     {
       "key": "set:24",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:507",
       "type": "set",
       "id": 507,
-      "name": "",
+      "name": "set:507",
       "url": "/lu4/set/507"
     },
     {
@@ -45,49 +44,63 @@
       "key": "npc:36616",
       "type": "npc",
       "id": 36616,
-      "name": "Fianna Arinel Lv. 50",
+      "name": "Fianna Arinel",
       "url": "/lu4/npc/36616-fianna-arinel"
+    },
+    {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
     },
     {
       "key": "npc:25412",
       "type": "npc",
       "id": 25412,
-      "name": "Necrosentinel Royal Guard Lv. 47",
+      "name": "Necrosentinel Royal Guard",
       "url": "/lu4/npc/25412-necrosentinel-royal-guard"
     },
     {
       "key": "npc:20642",
       "type": "npc",
       "id": 20642,
-      "name": "Harit Lizardman Archer Lv. 52",
+      "name": "Harit Lizardman Archer",
       "url": "/lu4/npc/20642-harit-lizardman-archer"
     },
     {
       "key": "npc:20597",
       "type": "npc",
       "id": 20597,
-      "name": "Valley Treant Elder Lv. 53",
+      "name": "Valley Treant Elder",
       "url": "/lu4/npc/20597-valley-treant-elder"
     },
     {
       "key": "npc:20241",
       "type": "npc",
       "id": 20241,
-      "name": "Hunter Gargoyle Lv. 53",
+      "name": "Hunter Gargoyle",
       "url": "/lu4/npc/20241-hunter-gargoyle"
     },
     {
       "key": "npc:20161",
       "type": "npc",
       "id": 20161,
-      "name": "Oel Mahum Lv. 53",
+      "name": "Oel Mahum",
       "url": "/lu4/npc/20161-oel-mahum"
     },
     {
       "key": "npc:5084",
       "type": "npc",
       "id": 5084,
-      "name": "Blackbanner Poacher Lv. 55",
+      "name": "Blackbanner Poacher",
       "url": "/lu4/npc/5084-blackbanner-poacher"
     }
   ]

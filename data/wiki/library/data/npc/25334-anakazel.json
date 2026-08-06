@@ -2,75 +2,72 @@
   "key": "npc:25334",
   "type": "npc",
   "id": 25334,
-  "name": "Lu4 Wiki: NPC Anakazel",
+  "name": "Anakazel",
   "url": "/lu4/npc/25334-anakazel",
-  "source_url": "https://masterwork.wiki/lu4/npc/25334-anakazel",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25334-anakazel",
   "raw_html": "library/raw/lu4/npc/25334-anakazel.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "306 698 / 8 254",
+    "P. Atk. / M. Atk.": "697 / 407",
+    "P. Def. / M. Def.": "542 / 612",
+    "Accuracy / Evasion": "89 / 89",
+    "Exp / SP": "892 440 / 99 116",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A being that tries to invade the real world by crossing the Dimensional Rift along with the otherworldly devils. Due to the influence of the rift where time and space are distorted, it has a very unstable shape. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Resist Full Magic Attack Lv. 1",
+    "Grade": "C",
+    "Type": "Demonic, Lv. 38"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25334",
-      "type": "npc",
-      "id": 25334,
-      "name": "Lu4",
-      "url": "/lu4/npc/25334-anakazel"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4916",
       "type": "skill",
       "id": 4916,
-      "name": "Raid Boss Lv. 1 A being that tries to invade the real world by crossing the Dimensional Rift along with the otherworldly devils. Due to the influence of the rift where time and space are distorted, it has a very unstable shape.",
-      "url": "/lu4/skill/4916-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4916-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:2935",
+      "key": "item:397",
       "type": "item",
-      "id": 2935,
-      "name": "Reinforced Mithril Gaiters Fragment NG",
-      "url": "/lu4/item/2935-reinforced-mithril-gaiters-fragment"
-    },
-    {
-      "key": "item:2387",
-      "type": "item",
-      "id": 2387,
-      "name": "Reinforced Mithril Gaiters C",
-      "url": "/lu4/item/2387-reinforced-mithril-gaiters"
+      "id": 397,
+      "name": "Reinforced Mithril Shirt C",
+      "url": "/lu4/item/397-reinforced-mithril-shirt"
     },
     {
       "key": "item:1961",
@@ -80,18 +77,25 @@
       "url": "/lu4/item/1961-reinforced-mithril-shirt-fabric"
     },
     {
+      "key": "item:2387",
+      "type": "item",
+      "id": 2387,
+      "name": "Reinforced Mithril Gaiters C",
+      "url": "/lu4/item/2387-reinforced-mithril-gaiters"
+    },
+    {
+      "key": "item:2935",
+      "type": "item",
+      "id": 2935,
+      "name": "Reinforced Mithril Gaiters Fragment NG",
+      "url": "/lu4/item/2935-reinforced-mithril-gaiters-fragment"
+    },
+    {
       "key": "item:952",
       "type": "item",
       "id": 952,
       "name": "Scroll: Enchant Armor (C-Grade) NG",
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
-    },
-    {
-      "key": "item:397",
-      "type": "item",
-      "id": 397,
-      "name": "Reinforced Mithril Shirt C",
-      "url": "/lu4/item/397-reinforced-mithril-shirt"
     }
   ]
 }

@@ -2,24 +2,26 @@
   "key": "item:70",
   "type": "item",
   "id": 70,
-  "name": "Lu4 Wiki: Item Claymore",
+  "name": "Claymore",
   "url": "/lu4/item/70-claymore",
-  "source_url": "https://masterwork.wiki/lu4/item/70-claymore",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/70-claymore",
   "raw_html": "library/raw/lu4/item/70-claymore.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Health: Max HP +25%. Haste: Atk. Spd. +7%. Focus: P. Crit. Rate +50.",
+    "P. Atk. / M. Atk.": "112 / 54",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "2561 Crystallization Failed Enchant +0 2561 - +1 2651 - +2 2741 - +3 2831 - +4 3011 1730 +5 3191 1910 +6 3371 2090 +7 3551 2270 +8 3731 2450 +9 3911 2630 +10 4091 2810 +11 4271 2990 +12 4451 3170",
+    "NPC Sell Price": "693 500 Adena",
+    "Weight": "2090",
+    "P. Crit. Rate.": "8",
     "Recipes": "Recipe: Claymore NG",
     "Soul Crystals": "Claymore Health D Claymore D Gemstone D NG (150 pcs.) Red Soul Crystal - Stage 4 NG Claymore Focus D Claymore D Gemstone D NG (150 pcs.) Green Soul Crystal - Stage 4 NG Claymore Haste D Claymore D Gemstone D NG (150 pcs.) Blue Soul Crystal - Stage 4 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Sword / Two-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:70",
-      "type": "item",
-      "id": 70,
-      "name": "Lu4",
-      "url": "/lu4/item/70-claymore"
-    },
     {
       "key": "item:2285",
       "type": "item",
@@ -77,66 +79,94 @@
       "url": "/lu4/item/4655-blue-soul-crystal-stage-4"
     },
     {
-      "key": "npc:25404",
-      "type": "npc",
-      "id": 25404,
-      "name": "Corsair Captain Kylon Lv. 33",
-      "url": "/lu4/npc/25404-corsair-captain-kylon"
-    },
-    {
       "key": "npc:25398",
       "type": "npc",
       "id": 25398,
-      "name": "Beleth's Eye Lv. 35",
+      "name": "Beleth's Eye",
       "url": "/lu4/npc/25398-beleths-eye"
+    },
+    {
+      "key": "npc:25385",
+      "type": "npc",
+      "id": 25385,
+      "name": "Evil Spirit Tempest",
+      "url": "/lu4/npc/25385-evil-spirit-tempest"
+    },
+    {
+      "key": "npc:25383",
+      "type": "npc",
+      "id": 25383,
+      "name": "Revenant of Sir Calibus",
+      "url": "/lu4/npc/25383-revenant-of-sir-calibus"
+    },
+    {
+      "key": "npc:25189",
+      "type": "npc",
+      "id": 25189,
+      "name": "Cronos's Servitor Mumu",
+      "url": "/lu4/npc/25189-cronoss-servitor-mumu"
+    },
+    {
+      "key": "npc:25185",
+      "type": "npc",
+      "id": 25185,
+      "name": "Tasaba Patriarch Hellena",
+      "url": "/lu4/npc/25185-tasaba-patriarch-hellena"
+    },
+    {
+      "key": "npc:25128",
+      "type": "npc",
+      "id": 25128,
+      "name": "Vuku Grand Seer Gharmash",
+      "url": "/lu4/npc/25128-vuku-grand-seer-gharmash"
     },
     {
       "key": "npc:25098",
       "type": "npc",
       "id": 25098,
-      "name": "Sejarr's Servitor Lv. 35",
+      "name": "Sejarr's Servitor",
       "url": "/lu4/npc/25098-sejarrs-servitor"
     },
     {
       "key": "npc:21699",
       "type": "npc",
       "id": 21699,
-      "name": "Dimension Invader Warrior Lv. 43",
+      "name": "Dimension Invader Warrior",
       "url": "/lu4/npc/21699-dimension-invader-warrior"
     },
     {
       "key": "npc:21643",
       "type": "npc",
       "id": 21643,
-      "name": "Tasaba Lizardman Sniper Lv. 39",
+      "name": "Tasaba Lizardman Sniper",
       "url": "/lu4/npc/21643-tasaba-lizardman-sniper"
     },
     {
       "key": "npc:21026",
       "type": "npc",
       "id": 21026,
-      "name": "Singing Wind Lv. 39",
+      "name": "Singing Wind",
       "url": "/lu4/npc/21026-singing-wind"
     },
     {
       "key": "npc:20581",
       "type": "npc",
       "id": 20581,
-      "name": "Leto Lizardman Shaman Lv. 39",
+      "name": "Leto Lizardman Shaman",
       "url": "/lu4/npc/20581-leto-lizardman-shaman"
     },
     {
       "key": "npc:20553",
       "type": "npc",
       "id": 20553,
-      "name": "Windsus Lv. 39",
+      "name": "Windsus",
       "url": "/lu4/npc/20553-windsus"
     },
     {
       "key": "npc:20552",
       "type": "npc",
       "id": 20552,
-      "name": "Fettered Soul Lv. 38",
+      "name": "Fettered Soul",
       "url": "/lu4/npc/20552-fettered-soul"
     }
   ]

@@ -2,82 +2,79 @@
   "key": "npc:21700",
   "type": "npc",
   "id": 21700,
-  "name": "Lu4 Wiki: NPC Dimension Invader Elite Soldier",
+  "name": "Dimension Invader Elite Soldier",
   "url": "/lu4/npc/21700-dimension-invader-elite-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21700-dimension-invader-elite-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21700-dimension-invader-elite-soldier",
   "raw_html": "library/raw/lu4/npc/21700-dimension-invader-elite-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "9 158 / 589",
+    "P. Atk. / M. Atk.": "192 / 106",
+    "P. Def. / M. Def.": "301 / 197",
+    "Accuracy / Evasion": "73 / 73",
+    "Exp / SP": "12 421 / 798",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (6x) Lv. 14 Slightly Weak P. Atk. Lv. 9 Slightly Weak M. Atk. Lv. 9 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 13 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 40"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21700",
-      "type": "npc",
-      "id": 21700,
-      "name": "Lu4",
-      "url": "/lu4/npc/21700-dimension-invader-elite-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 9",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/9"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 9",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/9"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
-    },
-    {
-      "key": "item:6668",
-      "type": "item",
-      "id": 6668,
-      "name": "Deluxe Chest Key - Grade 4 NG",
-      "url": "/lu4/item/6668-deluxe-chest-key-grade-4"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "item:57",
@@ -87,11 +84,11 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:6036",
+      "key": "item:6668",
       "type": "item",
-      "id": 6036,
-      "name": "Greater Magic Haste Potion NG",
-      "url": "/lu4/item/6036-greater-magic-haste-potion"
+      "id": 6668,
+      "name": "Deluxe Chest Key - Grade 4 NG",
+      "url": "/lu4/item/6668-deluxe-chest-key-grade-4"
     },
     {
       "key": "item:1902",
@@ -99,6 +96,13 @@
       "id": 1902,
       "name": "Elven Earring Beads NG",
       "url": "/lu4/item/1902-elven-earring-beads"
+    },
+    {
+      "key": "item:6036",
+      "type": "item",
+      "id": 6036,
+      "name": "Greater Magic Haste Potion NG",
+      "url": "/lu4/item/6036-greater-magic-haste-potion"
     }
   ]
 }

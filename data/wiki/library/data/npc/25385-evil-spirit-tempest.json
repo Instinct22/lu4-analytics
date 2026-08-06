@@ -2,70 +2,67 @@
   "key": "npc:25385",
   "type": "npc",
   "id": 25385,
-  "name": "Lu4 Wiki: NPC Evil Spirit Tempest",
+  "name": "Evil Spirit Tempest",
   "url": "/lu4/npc/25385-evil-spirit-tempest",
-  "source_url": "https://masterwork.wiki/lu4/npc/25385-evil-spirit-tempest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25385-evil-spirit-tempest",
   "raw_html": "library/raw/lu4/npc/25385-evil-spirit-tempest.html",
   "stats": {
-    "Location": "Земля Казненных"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Земля Казненных",
+    "HP / MP": "174 647 / 8 254",
+    "P. Atk. / M. Atk.": "536 / 92",
+    "P. Def. / M. Def.": "506 / 571",
+    "Accuracy / Evasion": "87 / 87",
+    "Exp / SP": "907 200 / 80 701",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 This Devil sustains himself from the storm of hatred and grudges that abound in the ghosts who roam the Execution Grounds. Standing at the center of the Execution Grounds, he controls the ghosts. There is a rumor that Ashton's brutal temperament stemmed in part from this Evil Spirit Tempest. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 36"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25385",
-      "type": "npc",
-      "id": 25385,
-      "name": "Lu4",
-      "url": "/lu4/npc/25385-evil-spirit-tempest"
-    },
-    {
-      "key": "location:51",
-      "type": "location",
-      "id": 51,
-      "name": "Земля Казненных",
-      "url": "/lu4/location/51-zemla-kaznennyh"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4938",
       "type": "skill",
       "id": 4938,
-      "name": "Raid Boss Lv. 1 This Devil sustains himself from the storm of hatred and grudges that abound in the ghosts who roam the Execution Grounds. Standing at the center of the Execution Grounds, he controls the ghosts. There is a rumor that Ashton's brutal temperament stemmed in part from this Evil Spirit Tempest.",
-      "url": "/lu4/skill/4938-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4938-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -75,39 +72,60 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:2499",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 2499,
+      "name": "Elven Long Sword D",
+      "url": "/lu4/item/2499-elven-long-sword"
     },
     {
-      "key": "item:6575",
+      "key": "item:70",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 70,
+      "name": "Claymore D",
+      "url": "/lu4/item/70-claymore"
     },
     {
-      "key": "item:2933",
+      "key": "item:321",
       "type": "item",
-      "id": 2933,
-      "name": "Sage's Worn Gloves Lining NG",
-      "url": "/lu4/item/2933-sages-worn-gloves-lining"
+      "id": 321,
+      "name": "Demon Fangs D",
+      "url": "/lu4/item/321-demon-fangs"
     },
     {
-      "key": "item:2932",
+      "key": "item:2967",
       "type": "item",
-      "id": 2932,
-      "name": "Plate Boots Design NG",
-      "url": "/lu4/item/2932-plate-boots-design"
+      "id": 2967,
+      "name": "Elven Long Sword Blade NG",
+      "url": "/lu4/item/2967-elven-long-sword-blade"
     },
     {
-      "key": "item:2931",
+      "key": "item:2047",
       "type": "item",
-      "id": 2931,
-      "name": "Salamander Skin Boot Lining NG",
-      "url": "/lu4/item/2931-salamander-skin-boot-lining"
+      "id": 2047,
+      "name": "Claymore Blade NG",
+      "url": "/lu4/item/2047-claymore-blade"
+    },
+    {
+      "key": "item:2046",
+      "type": "item",
+      "id": 2046,
+      "name": "Demon Fangs Part NG",
+      "url": "/lu4/item/2046-demon-fangs-part"
+    },
+    {
+      "key": "item:61",
+      "type": "item",
+      "id": 61,
+      "name": "Half Plate Gauntlets D",
+      "url": "/lu4/item/61-half-plate-gauntlets"
+    },
+    {
+      "key": "item:607",
+      "type": "item",
+      "id": 607,
+      "name": "Salamander Skin Gloves D",
+      "url": "/lu4/item/607-salamander-skin-gloves"
     },
     {
       "key": "item:2451",
@@ -120,8 +138,8 @@
       "key": "item:2428",
       "type": "item",
       "id": 2428,
-      "name": "Plate Boots D",
-      "url": "/lu4/item/2428-plate-boots"
+      "name": "Half Plate Boots D",
+      "url": "/lu4/item/2428-half-plate-boots"
     },
     {
       "key": "item:2427",
@@ -131,39 +149,53 @@
       "url": "/lu4/item/2427-salamander-skin-boots"
     },
     {
-      "key": "item:2054",
+      "key": "item:1125",
       "type": "item",
-      "id": 2054,
-      "name": "Light Crossbow Shaft NG",
-      "url": "/lu4/item/2054-light-crossbow-shaft"
-    },
-    {
-      "key": "item:1963",
-      "type": "item",
-      "id": 1963,
-      "name": "Ogre Power Gauntlets Part NG",
-      "url": "/lu4/item/1963-ogre-power-gauntlets-part"
-    },
-    {
-      "key": "item:1957",
-      "type": "item",
-      "id": 1957,
-      "name": "Assault Boots Part NG",
-      "url": "/lu4/item/1957-assault-boots-part"
+      "id": 1125,
+      "name": "Sage's Worn Boots D",
+      "url": "/lu4/item/1125-sages-worn-boots"
     },
     {
       "key": "item:1949",
       "type": "item",
       "id": 1949,
-      "name": "Mithril Gloves Design NG",
-      "url": "/lu4/item/1949-mithril-gloves-design"
+      "name": "Half Plate Gauntlets Design NG",
+      "url": "/lu4/item/1949-half-plate-gauntlets-design"
     },
     {
-      "key": "item:1125",
+      "key": "item:1963",
       "type": "item",
-      "id": 1125,
-      "name": "Assault Boots D",
-      "url": "/lu4/item/1125-assault-boots"
+      "id": 1963,
+      "name": "Salamander Skin Gloves Part NG",
+      "url": "/lu4/item/1963-salamander-skin-gloves-part"
+    },
+    {
+      "key": "item:2933",
+      "type": "item",
+      "id": 2933,
+      "name": "Sage's Worn Gloves Lining NG",
+      "url": "/lu4/item/2933-sages-worn-gloves-lining"
+    },
+    {
+      "key": "item:2932",
+      "type": "item",
+      "id": 2932,
+      "name": "Half Plate Boots Design NG",
+      "url": "/lu4/item/2932-half-plate-boots-design"
+    },
+    {
+      "key": "item:2931",
+      "type": "item",
+      "id": 2931,
+      "name": "Salamander Skin Boot Lining NG",
+      "url": "/lu4/item/2931-salamander-skin-boot-lining"
+    },
+    {
+      "key": "item:1957",
+      "type": "item",
+      "id": 1957,
+      "name": "Sage's Worn Boots Part NG",
+      "url": "/lu4/item/1957-sages-worn-boots-part"
     },
     {
       "key": "item:956",
@@ -171,34 +203,6 @@
       "id": 956,
       "name": "Scroll: Enchant Armor (D-Grade) NG",
       "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:607",
-      "type": "item",
-      "id": 607,
-      "name": "Ogre Power Gauntlets D",
-      "url": "/lu4/item/607-ogre-power-gauntlets"
-    },
-    {
-      "key": "item:280",
-      "type": "item",
-      "id": 280,
-      "name": "Light Crossbow D",
-      "url": "/lu4/item/280-light-crossbow"
-    },
-    {
-      "key": "item:61",
-      "type": "item",
-      "id": 61,
-      "name": "Mithril Plate Gloves D",
-      "url": "/lu4/item/61-mithril-plate-gloves"
     },
     {
       "key": "npc:25386",

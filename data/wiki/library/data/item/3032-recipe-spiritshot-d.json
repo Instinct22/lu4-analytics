@@ -2,41 +2,24 @@
   "key": "item:3032",
   "type": "item",
   "id": 3032,
-  "name": "Recipe",
+  "name": "Recipe: Spiritshot D",
   "url": "/lu4/item/3032-recipe-spiritshot-d",
-  "source_url": "https://masterwork.wiki/lu4/item/3032-recipe-spiritshot-d",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/3032-recipe-spiritshot-d",
   "raw_html": "library/raw/lu4/item/3032-recipe-spiritshot-d.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Spiritshot (D-Grade)'. Requires Create Item - Skill Level 2 (Artisan Lv. 20). The success rate is 100%.",
+    "NPC Sell Price": "2 500 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "2",
     "MP Consume": "60",
     "Success Rate": "100%",
-    "Result": "Spiritshot (D-Grade) D (140 pcs.)"
+    "Result": "Spiritshot (D-Grade) D (140 pcs.)",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:3031",
-      "type": "item",
-      "id": 3031,
-      "name": "Spirit Ore NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "1"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:3032",
-      "type": "item",
-      "id": 3032,
-      "name": "Lu4",
-      "url": "/lu4/item/3032-recipe-spiritshot-d"
-    },
     {
       "key": "item:3031",
       "type": "item",
@@ -62,49 +45,49 @@
       "key": "npc:21129",
       "type": "npc",
       "id": 21129,
-      "name": "Kerope Werewolf Chief Lv. 23",
+      "name": "Kerope Werewolf Chief",
       "url": "/lu4/npc/21129-kerope-werewolf-chief"
     },
     {
       "key": "npc:20921",
       "type": "npc",
       "id": 20921,
-      "name": "Maille Lizardman Guard Lv. 24",
+      "name": "Maille Lizardman Guard",
       "url": "/lu4/npc/20921-maille-lizardman-guard"
     },
     {
       "key": "npc:20338",
       "type": "npc",
       "id": 20338,
-      "name": "Nightmare Weaver Lv. 21",
+      "name": "Nightmare Weaver",
       "url": "/lu4/npc/20338-nightmare-weaver"
     },
     {
       "key": "npc:20155",
       "type": "npc",
       "id": 20155,
-      "name": "Mandragora Sapling Lv. 23",
+      "name": "Mandragora Sapling",
       "url": "/lu4/npc/20155-mandragora-sapling"
     },
     {
       "key": "npc:20059",
       "type": "npc",
       "id": 20059,
-      "name": "Hungry Eye Lv. 22",
+      "name": "Hungry Eye",
       "url": "/lu4/npc/20059-hungry-eye"
     },
     {
       "key": "npc:20507",
       "type": "npc",
       "id": 20507,
-      "name": "Ruin Imp Elder Lv. 21",
+      "name": "Ruin Imp Elder",
       "url": "/lu4/npc/20507-ruin-imp-elder"
     },
     {
       "key": "npc:20054",
       "type": "npc",
       "id": 20054,
-      "name": "Ruin Spartoi Lv. 21",
+      "name": "Ruin Spartoi",
       "url": "/lu4/npc/20054-ruin-spartoi"
     }
   ]

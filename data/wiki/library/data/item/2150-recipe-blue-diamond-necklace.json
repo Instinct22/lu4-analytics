@@ -2,48 +2,24 @@
   "key": "item:2150",
   "type": "item",
   "id": 2150,
-  "name": "Recipe",
+  "name": "Recipe: Blue Diamond Necklace",
   "url": "/lu4/item/2150-recipe-blue-diamond-necklace",
-  "source_url": "https://masterwork.wiki/lu4/item/2150-recipe-blue-diamond-necklace",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2150-recipe-blue-diamond-necklace",
   "raw_html": "library/raw/lu4/item/2150-recipe-blue-diamond-necklace.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Blue Diamond Necklace'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "213 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "72",
     "Success Rate": "100%",
-    "Result": "Blue Diamond Necklace NG"
+    "Result": "Blue Diamond Necklace NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1898",
-      "type": "item",
-      "id": 1898,
-      "name": "Blue Diamond Necklace Gem NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "80"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "16"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2150",
-      "type": "item",
-      "id": 2150,
-      "name": "Lu4",
-      "url": "/lu4/item/2150-recipe-blue-diamond-necklace"
-    },
     {
       "key": "item:1898",
       "type": "item",
@@ -76,56 +52,56 @@
       "key": "npc:20782",
       "type": "npc",
       "id": 20782,
-      "name": "Ol Mahum Novice Lv. 17",
+      "name": "Ol Mahum Novice",
       "url": "/lu4/npc/20782-ol-mahum-novice"
     },
     {
       "key": "npc:20350",
       "type": "npc",
       "id": 20350,
-      "name": "Cave Fang Spider Lv. 16",
+      "name": "Cave Fang Spider",
       "url": "/lu4/npc/20350-cave-fang-spider"
     },
     {
       "key": "npc:20109",
       "type": "npc",
       "id": 20109,
-      "name": "Salamander Lv. 17",
+      "name": "Salamander",
       "url": "/lu4/npc/20109-salamander"
     },
     {
       "key": "npc:20051",
       "type": "npc",
       "id": 20051,
-      "name": "Skeleton Bowman Lv. 20",
+      "name": "Skeleton Bowman",
       "url": "/lu4/npc/20051-skeleton-bowman"
     },
     {
       "key": "npc:20045",
       "type": "npc",
       "id": 20045,
-      "name": "Skeleton Scout Lv. 19",
+      "name": "Skeleton Scout",
       "url": "/lu4/npc/20045-skeleton-scout"
     },
     {
       "key": "npc:20506",
       "type": "npc",
       "id": 20506,
-      "name": "Ruin Imp Lv. 17",
+      "name": "Ruin Imp",
       "url": "/lu4/npc/20506-ruin-imp"
     },
     {
       "key": "npc:20292",
       "type": "npc",
       "id": 20292,
-      "name": "Enku Orc Shaman Lv. 20",
+      "name": "Enku Orc Shaman",
       "url": "/lu4/npc/20292-enku-orc-shaman"
     },
     {
       "key": "npc:20106",
       "type": "npc",
       "id": 20106,
-      "name": "Talon Spider Lv. 16",
+      "name": "Talon Spider",
       "url": "/lu4/npc/20106-talon-spider"
     }
   ]

@@ -2,103 +2,107 @@
   "key": "npc:33976",
   "type": "npc",
   "id": 33976,
-  "name": "Lu4 Wiki: NPC",
+  "name": "Undead, Lv. 72",
   "url": "/lu4/npc/33976",
-  "source_url": "https://masterwork.wiki/lu4/npc/33976",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/33976",
   "raw_html": "library/raw/lu4/npc/33976.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "25 000 / 3 885",
+    "P. Atk. / M. Atk.": "2 826 / 2 657",
+    "P. Def. / M. Def.": "961 / 560",
+    "Accuracy / Evasion": "142 / 107",
+    "Exp / SP": "71 622 / 6 250",
+    "Attack Attribute": "Unholy 50",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Lethal Immunity Lv. 1 Not today. Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 12 Strong P. Def. Lv. 14 Slightly Strong M. Def. Lv. 12 Skill_32534 Lv. 1 Sleep Resistance Lv. 3 Slightly resistant to Sleep. High Stun Attack Resistance Lv. 1 Resistant to Stun. Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
+    "Grade": "S",
+    "Type": "Undead, Lv. 72"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:33976",
-      "type": "npc",
-      "id": 33976,
-      "name": "Lu4",
-      "url": "/lu4/npc/33976"
-    },
     {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:27919",
       "type": "skill",
       "id": 27919,
-      "name": "Lethal Immunity Lv. 1 Not today.",
-      "url": "/lu4/skill/27919-lethal-immunity/1"
+      "name": "Lethal Immunity",
+      "url": "/lu4/skill/27919-lethal-immunity"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:32534",
       "type": "skill",
       "id": 32534,
-      "name": "Skill_32534 Lv. 1",
-      "url": "/lu4/skill/32534-skill32534/1"
+      "name": "Skill_32534",
+      "url": "/lu4/skill/32534-skill32534"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4435",
       "type": "skill",
       "id": 4435,
-      "name": "High Stun Attack Resistance Lv. 1 Resistant to Stun.",
-      "url": "/lu4/skill/4435-high-stun-attack-resistance/1"
+      "name": "High Stun Attack Resistance",
+      "url": "/lu4/skill/4435-high-stun-attack-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "item:14680",

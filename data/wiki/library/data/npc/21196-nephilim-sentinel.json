@@ -2,89 +2,86 @@
   "key": "npc:21196",
   "type": "npc",
   "id": 21196,
-  "name": "Lu4 Wiki: NPC Nephilim Sentinel",
+  "name": "Nephilim Sentinel",
   "url": "/lu4/npc/21196-nephilim-sentinel",
-  "source_url": "https://masterwork.wiki/lu4/npc/21196-nephilim-sentinel",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21196-nephilim-sentinel",
   "raw_html": "library/raw/lu4/npc/21196-nephilim-sentinel.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "8 361 / 852",
+    "P. Atk. / M. Atk.": "703 / 370",
+    "P. Def. / M. Def.": "222 / 201",
+    "Accuracy / Evasion": "91 / 91",
+    "Exp / SP": "12 372 / 904",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Strong P. Def. Lv. 14 Slightly Weak M. Def. Lv. 9 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks. Hold Resistance Lv. 5 Resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Angel, Lv. 48"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21196",
-      "type": "npc",
-      "id": 21196,
-      "name": "Lu4",
-      "url": "/lu4/npc/21196-nephilim-sentinel"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4336",
       "type": "skill",
       "id": 4336,
-      "name": "Dark Attack Vulnerability Lv. 2 Vulnerable to Dark attacks.",
-      "url": "/lu4/skill/4336-dark-attack-vulnerability/2"
+      "name": "Dark Attack Vulnerability",
+      "url": "/lu4/skill/4336-dark-attack-vulnerability"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
-    },
-    {
-      "key": "item:6362",
-      "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "item:6361",
@@ -94,18 +91,18 @@
       "url": "/lu4/item/6361-green-seal-stone"
     },
     {
-      "key": "item:4041",
+      "key": "item:6362",
       "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
     },
     {
-      "key": "item:4040",
+      "key": "item:227",
       "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
+      "id": 227,
+      "name": "Stiletto C",
+      "url": "/lu4/item/227-stiletto"
     },
     {
       "key": "item:2084",
@@ -122,18 +119,11 @@
       "url": "/lu4/item/2083-stiletto-edge"
     },
     {
-      "key": "item:1877",
+      "key": "item:242",
       "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
+      "id": 242,
+      "name": "Soulfire Dirk C",
+      "url": "/lu4/item/242-soulfire-dirk"
     },
     {
       "key": "item:1866",
@@ -143,6 +133,20 @@
       "url": "/lu4/item/1866-suede"
     },
     {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
       "key": "item:951",
       "type": "item",
       "id": 951,
@@ -150,25 +154,25 @@
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
-      "key": "item:242",
+      "key": "item:4040",
       "type": "item",
-      "id": 242,
-      "name": "Soulfire Dirk C",
-      "url": "/lu4/item/242-soulfire-dirk"
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
     },
     {
-      "key": "item:227",
+      "key": "item:4041",
       "type": "item",
-      "id": 227,
-      "name": "Stiletto C",
-      "url": "/lu4/item/227-stiletto"
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
-      "key": "item:2167",
+      "key": "item:1911",
       "type": "item",
-      "id": 2167,
-      "name": "Recipe: Ring of Ages NG",
-      "url": "/lu4/item/2167-recipe-ring-of-ages"
+      "id": 1911,
+      "name": "Earring of Protection Gemstone NG",
+      "url": "/lu4/item/1911-earring-of-protection-gemstone"
     },
     {
       "key": "item:2166",
@@ -178,11 +182,11 @@
       "url": "/lu4/item/2166-recipe-earring-of-seal-100"
     },
     {
-      "key": "item:1911",
+      "key": "item:2167",
       "type": "item",
-      "id": 1911,
-      "name": "Earring of Protection Gemstone NG",
-      "url": "/lu4/item/1911-earring-of-protection-gemstone"
+      "id": 2167,
+      "name": "Recipe: Ring of Ages NG",
+      "url": "/lu4/item/2167-recipe-ring-of-ages"
     }
   ]
 }

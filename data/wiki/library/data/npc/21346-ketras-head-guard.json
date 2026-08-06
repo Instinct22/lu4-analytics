@@ -2,152 +2,93 @@
   "key": "npc:21346",
   "type": "npc",
   "id": 21346,
-  "name": "Lu4 Wiki: NPC Ketra's Head Guard",
+  "name": "Ketra's Head Guard",
   "url": "/lu4/npc/21346-ketras-head-guard",
-  "source_url": "https://masterwork.wiki/lu4/npc/21346-ketras-head-guard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21346-ketras-head-guard",
   "raw_html": "library/raw/lu4/npc/21346-ketras-head-guard.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "9 724 / 2 052",
+    "P. Atk. / M. Atk.": "2 401 / 1 079",
+    "P. Def. / M. Def.": "728 / 729",
+    "Accuracy / Evasion": "128 / 135",
+    "Exp / SP": "24 558 / 2 888",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 MP Increase (1x) Lv. 1 Slightly Weak P. Atk. Lv. 9 Slightly Weak M. Atk. Lv. 9 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 13 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 6 Blunt Weapons High Lv. Lv. 8 NPC High Level",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21346",
-      "type": "npc",
-      "id": 21346,
-      "name": "Lu4",
-      "url": "/lu4/npc/21346-ketras-head-guard"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 9",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/9"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 9",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/9"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 6 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/6"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 8 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/8"
-    },
-    {
-      "key": "item:32349",
-      "type": "item",
-      "id": 32349,
-      "name": "Unidentified Tallum Glaive A",
-      "url": "/lu4/item/32349-unidentified-tallum-glaive"
-    },
-    {
-      "key": "item:5541",
-      "type": "item",
-      "id": 5541,
-      "name": "Tallum Glaive Edge NG",
-      "url": "/lu4/item/5541-tallum-glaive-edge"
-    },
-    {
-      "key": "item:1873",
-      "type": "item",
-      "id": 1873,
-      "name": "Silver Nugget NG",
-      "url": "/lu4/item/1873-silver-nugget"
-    },
-    {
-      "key": "item:1868",
-      "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1344",
-      "type": "item",
-      "id": 1344,
-      "name": "Mithril Arrow A",
-      "url": "/lu4/item/1344-mithril-arrow"
-    },
-    {
-      "key": "item:960",
-      "type": "item",
-      "id": 960,
-      "name": "Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
       "key": "item:57",
@@ -157,11 +98,74 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:6697",
+      "key": "item:5541",
       "type": "item",
-      "id": 6697,
-      "name": "Arcana Mace Head NG",
-      "url": "/lu4/item/6697-arcana-mace-head"
+      "id": 5541,
+      "name": "Tallum Glaive Edge NG",
+      "url": "/lu4/item/5541-tallum-glaive-edge"
+    },
+    {
+      "key": "item:32349",
+      "type": "item",
+      "id": 32349,
+      "name": "Unidentified Tallum Glaive A",
+      "url": "/lu4/item/32349-unidentified-tallum-glaive"
+    },
+    {
+      "key": "item:960",
+      "type": "item",
+      "id": 960,
+      "name": "Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
+    },
+    {
+      "key": "item:1344",
+      "type": "item",
+      "id": 1344,
+      "name": "Mithril Arrow A",
+      "url": "/lu4/item/1344-mithril-arrow"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
+    },
+    {
+      "key": "item:1873",
+      "type": "item",
+      "id": 1873,
+      "name": "Silver Nugget NG",
+      "url": "/lu4/item/1873-silver-nugget"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:6695",
+      "type": "item",
+      "id": 6695,
+      "name": "Demon Splinter Blade NG",
+      "url": "/lu4/item/6695-demon-splinter-blade"
     },
     {
       "key": "item:6696",
@@ -171,11 +175,11 @@
       "url": "/lu4/item/6696-heavens-divider-edge"
     },
     {
-      "key": "item:6695",
+      "key": "item:6697",
       "type": "item",
-      "id": 6695,
-      "name": "Demon Splinter Blade NG",
-      "url": "/lu4/item/6695-demon-splinter-blade"
+      "id": 6697,
+      "name": "Arcana Mace Head NG",
+      "url": "/lu4/item/6697-arcana-mace-head"
     }
   ]
 }

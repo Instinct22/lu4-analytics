@@ -2,61 +2,65 @@
   "key": "npc:25047",
   "type": "npc",
   "id": 25047,
-  "name": "Lu4 Wiki: NPC Karte",
+  "name": "Karte",
   "url": "/lu4/npc/25047-karte",
-  "source_url": "https://masterwork.wiki/lu4/npc/25047-karte",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25047-karte",
   "raw_html": "library/raw/lu4/npc/25047-karte.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "704 842 / 1 660",
+    "P. Atk. / M. Atk.": "802 / 201",
+    "P. Def. / M. Def.": "1 408 / 1 831",
+    "Accuracy / Evasion": "106 / 106",
+    "Exp / SP": "1 779 430 / 185 123",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 A General of Elmoreden who obtained an immortal body through a pact with the Devil Kernon. Stubborn to a fault, he opposed the construction of the Tower of Insolence. His stance spared him of Einhasad's rage. However, he has lost his king and country. He despises those who betrayed his king and built their own kingdom. As a loyal servant of the empire, he yearns for the day when he may once again find and serve his true king. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 55"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25047",
-      "type": "npc",
-      "id": 25047,
-      "name": "Lu4",
-      "url": "/lu4/npc/25047-karte"
-    },
     {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4806",
       "type": "skill",
       "id": 4806,
-      "name": "Raid Boss Lv. 1 A General of Elmoreden who obtained an immortal body through a pact with the Devil Kernon. Stubborn to a fault, he opposed the construction of the Tower of Insolence. His stance spared him of Einhasad's rage. However, he has lost his king and country. He despises those who betrayed his king and built their own kingdom. As a loyal servant of the empire, he yearns for the day when he may once again find and serve his true king.",
-      "url": "/lu4/skill/4806-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4806-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:49800",
@@ -66,46 +70,95 @@
       "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:32595",
+      "key": "item:2119",
       "type": "item",
-      "id": 32595,
-      "name": "Unidentified Zubei's Helmet B",
-      "url": "/lu4/item/32595-unidentified-zubeis-helmet"
+      "id": 2119,
+      "name": "Crystal Dagger Blade NG",
+      "url": "/lu4/item/2119-crystal-dagger-blade"
     },
     {
-      "key": "item:32364",
+      "key": "item:2955",
       "type": "item",
-      "id": 32364,
-      "name": "Unidentified Avadon Circlet B",
-      "url": "/lu4/item/32364-unidentified-avadon-circlet"
+      "id": 2955,
+      "name": "Theca Leather Gloves Texture NG",
+      "url": "/lu4/item/2955-theca-leather-gloves-texture"
     },
     {
-      "key": "item:6574",
+      "key": "item:2961",
       "type": "item",
-      "id": 6574,
-      "name": "Blessed Scroll: Enchant Armor (C-Grade) NG",
-      "url": "/lu4/item/6574-blessed-scroll-enchant-armor-c-grade"
+      "id": 2961,
+      "name": "Full Plate Boots Part NG",
+      "url": "/lu4/item/2961-full-plate-boots-part"
     },
     {
-      "key": "item:4612",
+      "key": "item:2960",
       "type": "item",
-      "id": 4612,
-      "name": "Greater Dye of WIT <Wit+3 Men-3> NG",
-      "url": "/lu4/item/4612-greater-dye-of-wit-wit3-men-3"
+      "id": 2960,
+      "name": "Drake Leather Boots Design NG",
+      "url": "/lu4/item/2960-drake-leather-boots-design"
     },
     {
-      "key": "item:4611",
+      "key": "item:2963",
       "type": "item",
-      "id": 4611,
-      "name": "Greater Dye of WIT <Wit+3 Int-3> NG",
-      "url": "/lu4/item/4611-greater-dye-of-wit-wit3-int-3"
+      "id": 2963,
+      "name": "Full Plate Gauntlets Part NG",
+      "url": "/lu4/item/2963-full-plate-gauntlets-part"
     },
     {
-      "key": "item:4610",
+      "key": "item:2954",
       "type": "item",
-      "id": 4610,
-      "name": "Greater Dye of MEN <Men+3 Wit-3> NG",
-      "url": "/lu4/item/4610-greater-dye-of-men-men3-wit-3"
+      "id": 2954,
+      "name": "Theca Leather Boots Texture NG",
+      "url": "/lu4/item/2954-theca-leather-boots-texture"
+    },
+    {
+      "key": "item:2463",
+      "type": "item",
+      "id": 2463,
+      "name": "Divine Gloves C",
+      "url": "/lu4/item/2463-divine-gloves"
+    },
+    {
+      "key": "item:2462",
+      "type": "item",
+      "id": 2462,
+      "name": "Full Plate Gauntlets C",
+      "url": "/lu4/item/2462-full-plate-gauntlets"
+    },
+    {
+      "key": "item:2461",
+      "type": "item",
+      "id": 2461,
+      "name": "Drake Leather Gloves C",
+      "url": "/lu4/item/2461-drake-leather-gloves"
+    },
+    {
+      "key": "item:2460",
+      "type": "item",
+      "id": 2460,
+      "name": "Theca Leather Gloves C",
+      "url": "/lu4/item/2460-theca-leather-gloves"
+    },
+    {
+      "key": "item:2438",
+      "type": "item",
+      "id": 2438,
+      "name": "Full Plate Boots C",
+      "url": "/lu4/item/2438-full-plate-boots"
+    },
+    {
+      "key": "item:2437",
+      "type": "item",
+      "id": 2437,
+      "name": "Drake Leather Boots C",
+      "url": "/lu4/item/2437-drake-leather-boots"
+    },
+    {
+      "key": "item:2436",
+      "type": "item",
+      "id": 2436,
+      "name": "Theca Leather Boots C",
+      "url": "/lu4/item/2436-theca-leather-boots"
     },
     {
       "key": "item:2964",
@@ -113,6 +166,27 @@
       "id": 2964,
       "name": "Divine Gloves Pattern NG",
       "url": "/lu4/item/2964-divine-gloves-pattern"
+    },
+    {
+      "key": "item:2962",
+      "type": "item",
+      "id": 2962,
+      "name": "Drake Leather Gloves Design NG",
+      "url": "/lu4/item/2962-drake-leather-gloves-design"
+    },
+    {
+      "key": "item:228",
+      "type": "item",
+      "id": 228,
+      "name": "Crystal Dagger C",
+      "url": "/lu4/item/228-crystal-dagger"
+    },
+    {
+      "key": "item:4610",
+      "type": "item",
+      "id": 4610,
+      "name": "Greater Dye of MEN <Men+3 Wit-3> NG",
+      "url": "/lu4/item/4610-greater-dye-of-men-men3-wit-3"
     },
     {
       "key": "npc:25048",

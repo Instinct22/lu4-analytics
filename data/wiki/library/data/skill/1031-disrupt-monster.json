@@ -1,0 +1,44 @@
+{
+  "key": "skill:1031",
+  "type": "skill",
+  "id": 1031,
+  "name": "Disrupt Monster",
+  "url": "/lu4/skill/1031-disrupt-monster",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1031-disrupt-monster",
+  "raw_html": "library/raw/lu4/skill/1031-disrupt-monster.html",
+  "stats": {
+    "Effect": "Inflicts holy damage on the target with 19 Power added to M. Atk.",
+    "Consumes": "18 MP",
+    "Reuse Time": "1 second",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "Holy 0",
+    "Trait": "trait_holy",
+    "Cast Range": "400 (900)",
+    "Available For": "ClericLv. 20Elven OracleLv. 20Shillien OracleLv. 20",
+    "Type": "Magical / Magical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:15",
+      "type": "class",
+      "id": 15,
+      "name": "ClericLv. 20",
+      "url": "/lu4/class/15-cleric"
+    },
+    {
+      "key": "class:29",
+      "type": "class",
+      "id": 29,
+      "name": "Elven OracleLv. 20",
+      "url": "/lu4/class/29-oracle"
+    },
+    {
+      "key": "class:42",
+      "type": "class",
+      "id": 42,
+      "name": "Shillien OracleLv. 20",
+      "url": "/lu4/class/42-shillienoracle"
+    }
+  ]
+}

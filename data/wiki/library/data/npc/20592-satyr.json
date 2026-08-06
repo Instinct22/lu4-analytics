@@ -2,147 +2,67 @@
   "key": "npc:20592",
   "type": "npc",
   "id": 20592,
-  "name": "Lu4 Wiki: NPC Satyr",
+  "name": "Satyr",
   "url": "/lu4/npc/20592-satyr",
-  "source_url": "https://masterwork.wiki/lu4/npc/20592-satyr",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20592-satyr",
   "raw_html": "library/raw/lu4/npc/20592-satyr.html",
   "stats": {
-    "Location": "Волшебная Долина"
+    "Respawn Time": "42 seconds ± 5 seconds",
+    "Location": "Волшебная Долина",
+    "HP / MP": "5 989 / 852",
+    "P. Atk. / M. Atk.": "413 / 236",
+    "P. Def. / M. Def.": "291 / 247",
+    "Accuracy / Evasion": "81 / 81",
+    "Exp / SP": "6 418 / 642",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10% HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Fairy, Lv. 48"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20592",
-      "type": "npc",
-      "id": 20592,
-      "name": "Lu4",
-      "url": "/lu4/npc/20592-satyr"
-    },
-    {
-      "key": "location:103",
-      "type": "location",
-      "id": 103,
-      "name": "Волшебная Долина",
-      "url": "/lu4/location/103-volsebnaa-dolina"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Fairies Lv. 13 Takes 15% increased damage from attacks that are effective against Fairies. M. Def. +5% Atk. Spd. +5% Resistance to Wind +10% Resistance to Speed Down -20% Max HP -5% Resistance to Earth -10%",
-      "url": "/lu4/skill/4416-fairies/13"
+      "name": "Fairies",
+      "url": "/lu4/skill/4416-fairies"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:2955",
-      "type": "item",
-      "id": 2955,
-      "name": "Theca Leather Gloves Texture NG",
-      "url": "/lu4/item/2955-theca-leather-gloves-texture"
-    },
-    {
-      "key": "item:2460",
-      "type": "item",
-      "id": 2460,
-      "name": "Theca Leather Gloves C",
-      "url": "/lu4/item/2460-theca-leather-gloves"
-    },
-    {
-      "key": "item:2114",
-      "type": "item",
-      "id": 2114,
-      "name": "Widowmaker Head NG",
-      "url": "/lu4/item/2114-widowmaker-head"
-    },
-    {
-      "key": "item:2107",
-      "type": "item",
-      "id": 2107,
-      "name": "Dark Screamer Edge NG",
-      "url": "/lu4/item/2107-dark-screamer-edge"
-    },
-    {
-      "key": "item:2094",
-      "type": "item",
-      "id": 2094,
-      "name": "Sword of Limit Blade NG",
-      "url": "/lu4/item/2094-sword-of-limit-blade"
-    },
-    {
-      "key": "item:2091",
-      "type": "item",
-      "id": 2091,
-      "name": "Tsurugi Blade NG",
-      "url": "/lu4/item/2091-tsurugi-blade"
-    },
-    {
-      "key": "item:1985",
-      "type": "item",
-      "id": 1985,
-      "name": "Theca Leather Gaiters Pattern NG",
-      "url": "/lu4/item/1985-theca-leather-gaiters-pattern"
-    },
-    {
-      "key": "item:1881",
-      "type": "item",
-      "id": 1881,
-      "name": "Coarse Bone Powder NG",
-      "url": "/lu4/item/1881-coarse-bone-powder"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1875",
@@ -150,6 +70,13 @@
       "id": 1875,
       "name": "Stone of Purity NG",
       "url": "/lu4/item/1875-stone-of-purity"
+    },
+    {
+      "key": "item:1881",
+      "type": "item",
+      "id": 1881,
+      "name": "Coarse Bone Powder NG",
+      "url": "/lu4/item/1881-coarse-bone-powder"
     },
     {
       "key": "item:1872",
@@ -166,18 +93,11 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:420",
+      "key": "item:4041",
       "type": "item",
-      "id": 420,
-      "name": "Theca Leather Gaiters C",
-      "url": "/lu4/item/420-theca-leather-gaiters"
-    },
-    {
-      "key": "item:303",
-      "type": "item",
-      "id": 303,
-      "name": "Widow Maker C",
-      "url": "/lu4/item/303-widow-maker"
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
     },
     {
       "key": "item:233",
@@ -187,11 +107,25 @@
       "url": "/lu4/item/233-dark-screamer"
     },
     {
+      "key": "item:2107",
+      "type": "item",
+      "id": 2107,
+      "name": "Dark Screamer Edge NG",
+      "url": "/lu4/item/2107-dark-screamer-edge"
+    },
+    {
       "key": "item:132",
       "type": "item",
       "id": 132,
       "name": "Sword of Limit C",
       "url": "/lu4/item/132-sword-of-limit"
+    },
+    {
+      "key": "item:2094",
+      "type": "item",
+      "id": 2094,
+      "name": "Sword of Limit Blade NG",
+      "url": "/lu4/item/2094-sword-of-limit-blade"
     },
     {
       "key": "item:77",
@@ -201,18 +135,81 @@
       "url": "/lu4/item/77-tsurugi"
     },
     {
+      "key": "item:2091",
+      "type": "item",
+      "id": 2091,
+      "name": "Tsurugi Blade NG",
+      "url": "/lu4/item/2091-tsurugi-blade"
+    },
+    {
+      "key": "item:303",
+      "type": "item",
+      "id": 303,
+      "name": "Widow Maker C",
+      "url": "/lu4/item/303-widow-maker"
+    },
+    {
+      "key": "item:2114",
+      "type": "item",
+      "id": 2114,
+      "name": "Widowmaker Head NG",
+      "url": "/lu4/item/2114-widowmaker-head"
+    },
+    {
+      "key": "item:420",
+      "type": "item",
+      "id": 420,
+      "name": "Theca Leather Gaiters C",
+      "url": "/lu4/item/420-theca-leather-gaiters"
+    },
+    {
+      "key": "item:1985",
+      "type": "item",
+      "id": 1985,
+      "name": "Theca Leather Gaiters Pattern NG",
+      "url": "/lu4/item/1985-theca-leather-gaiters-pattern"
+    },
+    {
+      "key": "item:2460",
+      "type": "item",
+      "id": 2460,
+      "name": "Theca Leather Gloves C",
+      "url": "/lu4/item/2460-theca-leather-gloves"
+    },
+    {
+      "key": "item:2955",
+      "type": "item",
+      "id": 2955,
+      "name": "Theca Leather Gloves Texture NG",
+      "url": "/lu4/item/2955-theca-leather-gloves-texture"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:1880",
+      "type": "item",
+      "id": 1880,
+      "name": "Steel NG",
+      "url": "/lu4/item/1880-steel"
+    },
+    {
       "key": "item:3021",
       "type": "item",
       "id": 3021,
       "name": "Recipe: Dwarven War Hammer NG",
       "url": "/lu4/item/3021-recipe-dwarven-war-hammer"
-    },
-    {
-      "key": "item:2954",
-      "type": "item",
-      "id": 2954,
-      "name": "Theca Leather Boots Texture NG",
-      "url": "/lu4/item/2954-theca-leather-boots-texture"
     },
     {
       "key": "item:2223",
@@ -222,13 +219,6 @@
       "url": "/lu4/item/2223-recipe-tower-shield"
     },
     {
-      "key": "item:2096",
-      "type": "item",
-      "id": 2096,
-      "name": "Sword of Whispering Death Blade NG",
-      "url": "/lu4/item/2096-sword-of-whispering-death-blade"
-    },
-    {
       "key": "item:1977",
       "type": "item",
       "id": 1977,
@@ -236,11 +226,18 @@
       "url": "/lu4/item/1977-composite-armor-temper"
     },
     {
-      "key": "item:1880",
+      "key": "item:2096",
       "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "url": "/lu4/item/1880-steel"
+      "id": 2096,
+      "name": "Sword of Whispering Death Blade NG",
+      "url": "/lu4/item/2096-sword-of-whispering-death-blade"
+    },
+    {
+      "key": "item:2954",
+      "type": "item",
+      "id": 2954,
+      "name": "Theca Leather Boots Texture NG",
+      "url": "/lu4/item/2954-theca-leather-boots-texture"
     }
   ]
 }

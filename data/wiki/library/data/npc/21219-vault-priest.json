@@ -2,82 +2,58 @@
   "key": "npc:21219",
   "type": "npc",
   "id": 21219,
-  "name": "Lu4 Wiki: NPC Vault Priest",
+  "name": "Vault Priest",
   "url": "/lu4/npc/21219-vault-priest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21219-vault-priest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21219-vault-priest",
   "raw_html": "library/raw/lu4/npc/21219-vault-priest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "8 064 / 819",
+    "P. Atk. / M. Atk.": "453 / 254",
+    "P. Def. / M. Def.": "189 / 218",
+    "Accuracy / Evasion": "80 / 90",
+    "Exp / SP": "9 584 / 684",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 47"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21219",
-      "type": "npc",
-      "id": 21219,
-      "name": "Lu4",
-      "url": "/lu4/npc/21219-vault-priest"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
-    },
-    {
-      "key": "item:5813",
-      "type": "item",
-      "id": 5813,
-      "name": "Spellbook: Servitor Cure NG",
-      "url": "/lu4/item/5813-spellbook-servitor-cure"
-    },
-    {
-      "key": "item:5812",
-      "type": "item",
-      "id": 5812,
-      "name": "Spellbook: Servitor Empowerment NG",
-      "url": "/lu4/item/5812-spellbook-servitor-empowerment"
-    },
-    {
-      "key": "item:1970",
-      "type": "item",
-      "id": 1970,
-      "name": "Robe of Seal Fabric NG",
-      "url": "/lu4/item/1970-robe-of-seal-fabric"
-    },
-    {
-      "key": "item:440",
-      "type": "item",
-      "id": 440,
-      "name": "Robe of Seal C",
-      "url": "/lu4/item/440-robe-of-seal"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "item:57",
@@ -87,11 +63,39 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2166",
+      "key": "item:440",
       "type": "item",
-      "id": 2166,
-      "name": "Recipe: Earring of Seal (100%) NG",
-      "url": "/lu4/item/2166-recipe-earring-of-seal-100"
+      "id": 440,
+      "name": "Robe of Seal C",
+      "url": "/lu4/item/440-robe-of-seal"
+    },
+    {
+      "key": "item:1970",
+      "type": "item",
+      "id": 1970,
+      "name": "Robe of Seal Fabric NG",
+      "url": "/lu4/item/1970-robe-of-seal-fabric"
+    },
+    {
+      "key": "item:5812",
+      "type": "item",
+      "id": 5812,
+      "name": "Spellbook: Servitor Empowerment NG",
+      "url": "/lu4/item/5812-spellbook-servitor-empowerment"
+    },
+    {
+      "key": "item:5813",
+      "type": "item",
+      "id": 5813,
+      "name": "Spellbook: Servitor Cure NG",
+      "url": "/lu4/item/5813-spellbook-servitor-cure"
+    },
+    {
+      "key": "item:1911",
+      "type": "item",
+      "id": 1911,
+      "name": "Earring of Protection Gemstone NG",
+      "url": "/lu4/item/1911-earring-of-protection-gemstone"
     },
     {
       "key": "item:1912",
@@ -101,11 +105,11 @@
       "url": "/lu4/item/1912-ring-of-protection-gemstone"
     },
     {
-      "key": "item:1911",
+      "key": "item:2166",
       "type": "item",
-      "id": 1911,
-      "name": "Earring of Protection Gemstone NG",
-      "url": "/lu4/item/1911-earring-of-protection-gemstone"
+      "id": 2166,
+      "name": "Recipe: Earring of Seal (100%) NG",
+      "url": "/lu4/item/2166-recipe-earring-of-seal-100"
     }
   ]
 }

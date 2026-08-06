@@ -2,70 +2,39 @@
   "key": "npc:20381",
   "type": "npc",
   "id": 20381,
-  "name": "Lu4 Wiki: NPC Vaiss Orc",
+  "name": "Vaiss Orc",
   "url": "/lu4/npc/20381-vaiss-orc",
-  "source_url": "https://masterwork.wiki/lu4/npc/20381-vaiss-orc",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20381-vaiss-orc",
   "raw_html": "library/raw/lu4/npc/20381-vaiss-orc.html",
   "stats": {
-    "Location": "Школа Темной Магии"
+    "Respawn Time": "35 seconds",
+    "Location": "Школа Темной Магии",
+    "HP / MP": "515 / 133",
+    "P. Atk. / M. Atk.": "25 / 11",
+    "P. Def. / M. Def.": "61 / 49",
+    "Accuracy / Evasion": "46 / 45",
+    "Exp / SP": "470 / 47",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 10"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20381",
-      "type": "npc",
-      "id": 20381,
-      "name": "Lu4",
-      "url": "/lu4/npc/20381-vaiss-orc"
-    },
-    {
-      "key": "location:110",
-      "type": "location",
-      "id": 110,
-      "name": "Школа Темной Магии",
-      "url": "/lu4/location/110-skola-temnoj-magii"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
-    },
-    {
-      "key": "item:2136",
-      "type": "item",
-      "id": 2136,
-      "name": "Recipe: Cokes NG",
-      "url": "/lu4/item/2136-recipe-cokes"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:99",
-      "type": "item",
-      "id": 99,
-      "name": "Apprentice's Spellbook NG",
-      "url": "/lu4/item/99-apprentices-spellbook"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "item:57",
@@ -75,11 +44,39 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:2006",
+      "key": "item:99",
       "type": "item",
-      "id": 2006,
-      "name": "Willow Staff Head NG",
-      "url": "/lu4/item/2006-willow-staff-head"
+      "id": 99,
+      "name": "Apprentice's Spellbook NG",
+      "url": "/lu4/item/99-apprentices-spellbook"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:2136",
+      "type": "item",
+      "id": 2136,
+      "name": "Recipe: Cokes NG",
+      "url": "/lu4/item/2136-recipe-cokes"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     },
     {
       "key": "item:1875",
@@ -89,11 +86,11 @@
       "url": "/lu4/item/1875-stone-of-purity"
     },
     {
-      "key": "item:1867",
+      "key": "item:2006",
       "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 2006,
+      "name": "Willow Staff Head NG",
+      "url": "/lu4/item/2006-willow-staff-head"
     }
   ]
 }

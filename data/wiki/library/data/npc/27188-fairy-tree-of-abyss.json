@@ -2,77 +2,53 @@
   "key": "npc:27188",
   "type": "npc",
   "id": 27188,
-  "name": "Lu4 Wiki: NPC Fairy Tree of Abyss",
+  "name": "Fairy Tree of Abyss",
   "url": "/lu4/npc/27188-fairy-tree-of-abyss",
-  "source_url": "https://masterwork.wiki/lu4/npc/27188-fairy-tree-of-abyss",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/27188-fairy-tree-of-abyss",
   "raw_html": "library/raw/lu4/npc/27188-fairy-tree-of-abyss.html",
   "stats": {
-    "Location": "Долина Охотников"
+    "Respawn Time": "30 seconds",
+    "Location": "Долина Охотников",
+    "HP / MP": "2 650 / 1 096",
+    "P. Atk. / M. Atk.": "689 / 363",
+    "P. Def. / M. Def.": "325 / 263",
+    "Accuracy / Evasion": "88 / 88",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10% I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Plant, Lv. 55"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:27188",
-      "type": "npc",
-      "id": 27188,
-      "name": "Lu4",
-      "url": "/lu4/npc/27188-fairy-tree-of-abyss"
-    },
-    {
-      "key": "location:237",
-      "type": "location",
-      "id": 237,
-      "name": "Долина Охотников",
-      "url": "/lu4/location/237-dolina-ohotnikov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-plants/5"
+      "name": "Plants",
+      "url": "/lu4/skill/4416-plants"
     },
     {
       "key": "skill:24578",
       "type": "skill",
       "id": 24578,
-      "name": "I See You Lv. 1 No shadow can hide you from its gaze. Allows this creature to detect invisible targets.",
-      "url": "/lu4/skill/24578-i-see-you/1"
+      "name": "I See You",
+      "url": "/lu4/skill/24578-i-see-you"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
-      "key": "item:39300",
+      "key": "item:39295",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
       "key": "item:39296",
@@ -82,11 +58,32 @@
       "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:39295",
+      "key": "item:39297",
       "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "npc:27189",

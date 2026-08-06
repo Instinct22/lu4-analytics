@@ -2,161 +2,102 @@
   "key": "npc:21085",
   "type": "npc",
   "id": 21085,
-  "name": "Lu4 Wiki: NPC Bloody Sniper",
+  "name": "Bloody Sniper",
   "url": "/lu4/npc/21085-bloody-sniper",
-  "source_url": "https://masterwork.wiki/lu4/npc/21085-bloody-sniper",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21085-bloody-sniper",
   "raw_html": "library/raw/lu4/npc/21085-bloody-sniper.html",
   "stats": {
-    "Location": "Логово Антараса"
+    "Respawn Time": "3 minutes, 30 seconds ± 25 seconds",
+    "Location": "Логово Антараса",
+    "HP / MP": "20 211 / 1 651",
+    "P. Atk. / M. Atk.": "6 617 / 710",
+    "P. Def. / M. Def.": "559 / 306",
+    "Accuracy / Evasion": "97 / 97",
+    "Exp / SP": "32 979 / 3 298",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 5, Unholy 40",
+    "Skills": "Mental Attack Resistance Lv. 4 Provides resistance against mental attack. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks. Bow Lv. 9 Bows HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 14 Slightly Weak M. Def. Lv. 10 Strong P. Def. Lv. 14",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 64"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21085",
-      "type": "npc",
-      "id": 21085,
-      "name": "Lu4",
-      "url": "/lu4/npc/21085-bloody-sniper"
-    },
-    {
-      "key": "location:45",
-      "type": "location",
-      "id": 45,
-      "name": "Логово Антараса",
-      "url": "/lu4/location/45-logovo-antarasa"
-    },
-    {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 4 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/4"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 3 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/3"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Bow Lv. 9 Bows",
-      "url": "/lu4/skill/4415-bow/9"
+      "name": "Bow",
+      "url": "/lu4/skill/4415-bow"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 14",
-      "url": "/lu4/skill/4412-strong-p-def/14"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32534",
-      "type": "item",
-      "id": 32534,
-      "name": "Unidentified Staff of Evil Spirits B",
-      "url": "/lu4/item/32534-unidentified-staff-of-evil-spirits"
-    },
-    {
-      "key": "item:32430",
-      "type": "item",
-      "id": 32430,
-      "name": "Unidentified Guardian Sword B",
-      "url": "/lu4/item/32430-unidentified-guardian-sword"
-    },
-    {
-      "key": "item:32333",
-      "type": "item",
-      "id": 32333,
-      "name": "Unidentified Deadman's Glory B",
-      "url": "/lu4/item/32333-unidentified-deadmans-glory"
-    },
-    {
-      "key": "item:8330",
-      "type": "item",
-      "id": 8330,
-      "name": "Guardian Sword Blade NG",
-      "url": "/lu4/item/8330-guardian-sword-blade"
-    },
-    {
-      "key": "item:6036",
-      "type": "item",
-      "id": 6036,
-      "name": "Greater Magic Haste Potion NG",
-      "url": "/lu4/item/6036-greater-magic-haste-potion"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:4118",
-      "type": "item",
-      "id": 4118,
-      "name": "Evil Spirit Head NG",
-      "url": "/lu4/item/4118-evil-spirit-head"
-    },
-    {
-      "key": "item:4116",
-      "type": "item",
-      "id": 4116,
-      "name": "Deadman's Glory Stone NG",
-      "url": "/lu4/item/4116-deadmans-glory-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4044",
@@ -187,11 +128,67 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:5549",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:6036",
+      "type": "item",
+      "id": 6036,
+      "name": "Greater Magic Haste Potion NG",
+      "url": "/lu4/item/6036-greater-magic-haste-potion"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:32333",
+      "type": "item",
+      "id": 32333,
+      "name": "Unidentified Deadman's Glory B",
+      "url": "/lu4/item/32333-unidentified-deadmans-glory"
+    },
+    {
+      "key": "item:4116",
+      "type": "item",
+      "id": 4116,
+      "name": "Deadman's Glory Stone NG",
+      "url": "/lu4/item/4116-deadmans-glory-stone"
+    },
+    {
+      "key": "item:32430",
+      "type": "item",
+      "id": 32430,
+      "name": "Unidentified Guardian Sword B",
+      "url": "/lu4/item/32430-unidentified-guardian-sword"
+    },
+    {
+      "key": "item:8330",
+      "type": "item",
+      "id": 8330,
+      "name": "Guardian Sword Blade NG",
+      "url": "/lu4/item/8330-guardian-sword-blade"
+    },
+    {
+      "key": "item:32534",
+      "type": "item",
+      "id": 32534,
+      "name": "Unidentified Staff of Evil Spirits B",
+      "url": "/lu4/item/32534-unidentified-staff-of-evil-spirits"
+    },
+    {
+      "key": "item:4118",
+      "type": "item",
+      "id": 4118,
+      "name": "Evil Spirit Head NG",
+      "url": "/lu4/item/4118-evil-spirit-head"
     }
   ]
 }

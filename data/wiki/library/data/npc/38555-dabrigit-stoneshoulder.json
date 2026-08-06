@@ -2,98 +2,94 @@
   "key": "npc:38555",
   "type": "npc",
   "id": 38555,
-  "name": "Lu4 Wiki: NPC Dabrigit Stoneshoulder",
+  "name": "Dabrigit Stoneshoulder",
   "url": "/lu4/npc/38555-dabrigit-stoneshoulder",
-  "source_url": "https://masterwork.wiki/lu4/npc/38555-dabrigit-stoneshoulder",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/38555-dabrigit-stoneshoulder",
   "raw_html": "library/raw/lu4/npc/38555-dabrigit-stoneshoulder.html",
   "stats": {
-    "Location": "Глудин"
+    "Respawn Time": "1 minute",
+    "Location": "Глудин",
+    "HP / MP": "6 573 / 2 211",
+    "P. Atk. / M. Atk.": "2 183 / 1 295",
+    "P. Def. / M. Def.": "579 / 506",
+    "Accuracy / Evasion": "106 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dwarves Lv. 18 Although unable to use magic, Dwarves are strong and good with their hands. They have sharp eyes and intelligent minds. Their business savvy is impressive, and they sometimes invent strange mechanical devices. HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Mystic Immunity Lv. 1 Grants complete immunity to Buffs and Debuffs.",
+    "Type": "Dwarf, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:38555",
-      "type": "npc",
-      "id": 38555,
-      "name": "Lu4",
-      "url": "/lu4/npc/38555-dabrigit-stoneshoulder"
-    },
-    {
-      "key": "location:21",
-      "type": "location",
-      "id": 21,
-      "name": "Глудин",
-      "url": "/lu4/location/21-gludin"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dwarves Lv. 18 Although unable to use magic, Dwarves are strong and good with their hands. They have sharp eyes and intelligent minds. Their business savvy is impressive, and they sometimes invent strange mechanical devices.",
-      "url": "/lu4/skill/4416-dwarves/18"
+      "name": "Dwarves",
+      "url": "/lu4/skill/4416-dwarves"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4390",
       "type": "skill",
       "id": 4390,
-      "name": "Mystic Immunity Lv. 1 Grants complete immunity to Buffs and Debuffs.",
-      "url": "/lu4/skill/4390-mystic-immunity/1"
+      "name": "Mystic Immunity",
+      "url": "/lu4/skill/4390-mystic-immunity"
     }
   ]
 }

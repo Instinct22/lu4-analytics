@@ -2,63 +2,81 @@
   "key": "npc:20092",
   "type": "npc",
   "id": 20092,
-  "name": "Lu4 Wiki: NPC Monster Eye",
+  "name": "Monster Eye",
   "url": "/lu4/npc/20092-monster-eye",
-  "source_url": "https://masterwork.wiki/lu4/npc/20092-monster-eye",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20092-monster-eye",
   "raw_html": "library/raw/lu4/npc/20092-monster-eye.html",
   "stats": {
-    "Location": "Эльфийские Руины"
+    "Respawn Time": "30 seconds",
+    "Location": "Эльфийские Руины",
+    "HP / MP": "531 / 133",
+    "P. Atk. / M. Atk.": "25 / 11",
+    "P. Def. / M. Def.": "68 / 49",
+    "Accuracy / Evasion": "43 / 43",
+    "Exp / SP": "484 / 48",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks. Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 10"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20092",
-      "type": "npc",
-      "id": 20092,
-      "name": "Lu4",
-      "url": "/lu4/npc/20092-monster-eye"
-    },
-    {
-      "key": "location:32",
-      "type": "location",
-      "id": 32,
-      "name": "Эльфийские Руины",
-      "url": "/lu4/location/32-elfijskie-ruiny"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4281",
       "type": "skill",
       "id": 4281,
-      "name": "Wind Attack Vulnerability Lv. 1 Vulnerable to Wind attacks.",
-      "url": "/lu4/skill/4281-wind-attack-vulnerability/1"
+      "name": "Wind Attack Vulnerability",
+      "url": "/lu4/skill/4281-wind-attack-vulnerability"
     },
     {
       "key": "skill:4276",
       "type": "skill",
       "id": 4276,
-      "name": "Bow/Crossbow Vulnerability Lv. 1 Weak against Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4276-bowcrossbow-vulnerability/1"
+      "name": "Bow/Crossbow Vulnerability",
+      "url": "/lu4/skill/4276-bowcrossbow-vulnerability"
     },
     {
-      "key": "item:2137",
+      "key": "item:57",
       "type": "item",
-      "id": 2137,
-      "name": "Recipe: Steel NG",
-      "url": "/lu4/item/2137-recipe-steel"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:113",
+      "type": "item",
+      "id": 113,
+      "name": "Mystic's Earring NG",
+      "url": "/lu4/item/113-mystics-earring"
+    },
+    {
+      "key": "item:875",
+      "type": "item",
+      "id": 875,
+      "name": "Ring of Knowledge NG",
+      "url": "/lu4/item/875-ring-of-knowledge"
+    },
+    {
+      "key": "item:906",
+      "type": "item",
+      "id": 906,
+      "name": "Necklace of Knowledge NG",
+      "url": "/lu4/item/906-necklace-of-knowledge"
     },
     {
       "key": "item:1872",
@@ -96,39 +114,18 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
-      "key": "item:906",
+      "key": "item:2137",
       "type": "item",
-      "id": 906,
-      "name": "Necklace of Knowledge NG",
-      "url": "/lu4/item/906-necklace-of-knowledge"
+      "id": 2137,
+      "name": "Recipe: Steel NG",
+      "url": "/lu4/item/2137-recipe-steel"
     },
     {
-      "key": "item:875",
+      "key": "item:1666",
       "type": "item",
-      "id": 875,
-      "name": "Ring of Knowledge NG",
-      "url": "/lu4/item/875-ring-of-knowledge"
-    },
-    {
-      "key": "item:113",
-      "type": "item",
-      "id": 113,
-      "name": "Mystic's Earring NG",
-      "url": "/lu4/item/113-mystics-earring"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:2005",
-      "type": "item",
-      "id": 2005,
-      "name": "Broadsword Blade NG",
-      "url": "/lu4/item/2005-broadsword-blade"
+      "id": 1666,
+      "name": "Recipe: Wooden Arrow NG",
+      "url": "/lu4/item/1666-recipe-wooden-arrow"
     },
     {
       "key": "item:1866",
@@ -138,11 +135,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:1666",
+      "key": "item:2005",
       "type": "item",
-      "id": 1666,
-      "name": "Recipe: Wooden Arrow NG",
-      "url": "/lu4/item/1666-recipe-wooden-arrow"
+      "id": 2005,
+      "name": "Broadsword Blade NG",
+      "url": "/lu4/item/2005-broadsword-blade"
     }
   ]
 }

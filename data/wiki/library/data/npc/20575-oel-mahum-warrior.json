@@ -2,105 +2,67 @@
   "key": "npc:20575",
   "type": "npc",
   "id": 20575,
-  "name": "Lu4 Wiki: NPC Oel Mahum Warrior",
+  "name": "Oel Mahum Warrior",
   "url": "/lu4/npc/20575-oel-mahum-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/20575-oel-mahum-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20575-oel-mahum-warrior",
   "raw_html": "library/raw/lu4/npc/20575-oel-mahum-warrior.html",
   "stats": {
-    "Location": "Лес Разбойников"
+    "Respawn Time": "40 seconds",
+    "Location": "Лес Разбойников",
+    "HP / MP": "5 138 / 1 060",
+    "P. Atk. / M. Atk.": "749 / 343",
+    "P. Def. / M. Def.": "270 / 230",
+    "Accuracy / Evasion": "90 / 89",
+    "Exp / SP": "5 499 / 550",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 54"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20575",
-      "type": "npc",
-      "id": 20575,
-      "name": "Lu4",
-      "url": "/lu4/npc/20575-oel-mahum-warrior"
-    },
-    {
-      "key": "location:233",
-      "type": "location",
-      "id": 233,
-      "name": "Лес Разбойников",
-      "url": "/lu4/location/233-les-razbojnikov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:5530",
-      "type": "item",
-      "id": 5530,
-      "name": "Berserker Blade Edge NG",
-      "url": "/lu4/item/5530-berserker-blade-edge"
-    },
-    {
-      "key": "item:5286",
-      "type": "item",
-      "id": 5286,
-      "name": "Berserker Blade C",
-      "url": "/lu4/item/5286-berserker-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5165",
@@ -131,48 +93,6 @@
       "url": "/lu4/item/4039-mold-glue"
     },
     {
-      "key": "item:2970",
-      "type": "item",
-      "id": 2970,
-      "name": "Recipe: Ring of Seal NG",
-      "url": "/lu4/item/2970-recipe-ring-of-seal"
-    },
-    {
-      "key": "item:2962",
-      "type": "item",
-      "id": 2962,
-      "name": "Drake Leather Gloves Design NG",
-      "url": "/lu4/item/2962-drake-leather-gloves-design"
-    },
-    {
-      "key": "item:2461",
-      "type": "item",
-      "id": 2461,
-      "name": "Drake Leather Gloves C",
-      "url": "/lu4/item/2461-drake-leather-gloves"
-    },
-    {
-      "key": "item:2358",
-      "type": "item",
-      "id": 2358,
-      "name": "Recipe: Great Pata NG",
-      "url": "/lu4/item/2358-recipe-great-pata"
-    },
-    {
-      "key": "item:2354",
-      "type": "item",
-      "id": 2354,
-      "name": "Recipe: Deadman's Staff NG",
-      "url": "/lu4/item/2354-recipe-deadmans-staff"
-    },
-    {
-      "key": "item:1918",
-      "type": "item",
-      "id": 1918,
-      "name": "Nassen's Earring Gemstone NG",
-      "url": "/lu4/item/1918-nassens-earring-gemstone"
-    },
-    {
       "key": "item:1874",
       "type": "item",
       "id": 1874,
@@ -194,6 +114,41 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:5286",
+      "type": "item",
+      "id": 5286,
+      "name": "Berserker Blade C",
+      "url": "/lu4/item/5286-berserker-blade"
+    },
+    {
+      "key": "item:5530",
+      "type": "item",
+      "id": 5530,
+      "name": "Berserker Blade Edge NG",
+      "url": "/lu4/item/5530-berserker-blade-edge"
+    },
+    {
+      "key": "item:2461",
+      "type": "item",
+      "id": 2461,
+      "name": "Drake Leather Gloves C",
+      "url": "/lu4/item/2461-drake-leather-gloves"
+    },
+    {
+      "key": "item:2962",
+      "type": "item",
+      "id": 2962,
+      "name": "Drake Leather Gloves Design NG",
+      "url": "/lu4/item/2962-drake-leather-gloves-design"
+    },
+    {
       "key": "item:855",
       "type": "item",
       "id": 855,
@@ -201,11 +156,53 @@
       "url": "/lu4/item/855-nassens-earring"
     },
     {
-      "key": "item:8338",
+      "key": "item:1918",
       "type": "item",
-      "id": 8338,
-      "name": "Axe of Eclipse Head NG",
-      "url": "/lu4/item/8338-axe-of-eclipse-head"
+      "id": 1918,
+      "name": "Nassen's Earring Gemstone NG",
+      "url": "/lu4/item/1918-nassens-earring-gemstone"
+    },
+    {
+      "key": "item:2354",
+      "type": "item",
+      "id": 2354,
+      "name": "Recipe: Deadman's Staff NG",
+      "url": "/lu4/item/2354-recipe-deadmans-staff"
+    },
+    {
+      "key": "item:2358",
+      "type": "item",
+      "id": 2358,
+      "name": "Recipe: Great Pata NG",
+      "url": "/lu4/item/2358-recipe-great-pata"
+    },
+    {
+      "key": "item:2970",
+      "type": "item",
+      "id": 2970,
+      "name": "Recipe: Ring of Seal NG",
+      "url": "/lu4/item/2970-recipe-ring-of-seal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:1806",
+      "type": "item",
+      "id": 1806,
+      "name": "Recipe: Soulshot (B-Grade) NG",
+      "url": "/lu4/item/1806-recipe-soulshot-b-grade"
     },
     {
       "key": "item:4598",
@@ -229,6 +226,13 @@
       "url": "/lu4/item/2231-recipe-full-plate-armor"
     },
     {
+      "key": "item:8338",
+      "type": "item",
+      "id": 8338,
+      "name": "Axe of Eclipse Head NG",
+      "url": "/lu4/item/8338-axe-of-eclipse-head"
+    },
+    {
       "key": "item:2121",
       "type": "item",
       "id": 2121,
@@ -241,13 +245,6 @@
       "id": 1920,
       "name": "Necklace of Seal Chain NG",
       "url": "/lu4/item/1920-necklace-of-seal-chain"
-    },
-    {
-      "key": "item:1806",
-      "type": "item",
-      "id": 1806,
-      "name": "Recipe: Soulshot (B-Grade) NG",
-      "url": "/lu4/item/1806-recipe-soulshot-b-grade"
     }
   ]
 }

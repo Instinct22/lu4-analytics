@@ -2,42 +2,38 @@
   "key": "npc:30584",
   "type": "npc",
   "id": 30584,
-  "name": "Lu4 Wiki: NPC Vapook",
+  "name": "Vapook",
   "url": "/lu4/npc/30584-vapook",
-  "source_url": "https://masterwork.wiki/lu4/npc/30584-vapook",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30584-vapook",
   "raw_html": "library/raw/lu4/npc/30584-vapook.html",
   "stats": {
-    "Location": "Деревня Орков"
+    "Respawn Time": "1 minute",
+    "Location": "Деревня Орков",
+    "HP / MP": "4 778 / 2 063",
+    "P. Atk. / M. Atk.": "10 178 / 1 158",
+    "P. Def. / M. Def.": "591 / 408",
+    "Accuracy / Evasion": "125 / 125",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Orcs Lv. 17 Created by Pa'agrio, the Orcs are the physically strongest of all the races. They worship the spirits of the past and have a very tribal culture. Resist Full Magic Attack Lv. 1",
+    "Type": "Orc, Lv. 80"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30584",
-      "type": "npc",
-      "id": 30584,
-      "name": "Lu4",
-      "url": "/lu4/npc/30584-vapook"
-    },
-    {
-      "key": "location:62",
-      "type": "location",
-      "id": 62,
-      "name": "Деревня Орков",
-      "url": "/lu4/location/62-derevna-orkov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Orcs Lv. 17 Created by Pa'agrio, the Orcs are the physically strongest of all the races. They worship the spirits of the past and have a very tribal culture.",
-      "url": "/lu4/skill/4416-orcs/17"
+      "name": "Orcs",
+      "url": "/lu4/skill/4416-orcs"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

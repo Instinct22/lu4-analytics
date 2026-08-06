@@ -2,82 +2,86 @@
   "key": "npc:22100",
   "type": "npc",
   "id": 22100,
-  "name": "Lu4 Wiki: NPC Freya's Gardener",
+  "name": "Freya's Gardener",
   "url": "/lu4/npc/22100-freyas-gardener",
-  "source_url": "https://masterwork.wiki/lu4/npc/22100-freyas-gardener",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22100-freyas-gardener",
   "raw_html": "library/raw/lu4/npc/22100-freyas-gardener.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "190 458 / 1 323",
+    "P. Atk. / M. Atk.": "1 854 / 479",
+    "P. Def. / M. Def.": "417 / 633",
+    "Accuracy / Evasion": "91 / 81",
+    "Exp / SP": "32 900 / 2 605",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (8x) Lv. 16 Extremely Strong P. Atk. Lv. 19 Extremely Strong M. Def. Lv. 20 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Spear Resistance Lv. 5 Resistant to spear/pole arm attacks.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 58"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22100",
-      "type": "npc",
-      "id": 22100,
-      "name": "Lu4",
-      "url": "/lu4/npc/22100-freyas-gardener"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (8x) Lv. 16",
-      "url": "/lu4/skill/4408-hp-increase-8x/16"
+      "name": "HP Increase (8x)",
+      "url": "/lu4/skill/4408-hp-increase-8x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Extremely Strong P. Atk. Lv. 19",
-      "url": "/lu4/skill/4410-extremely-strong-p-atk/19"
+      "name": "Extremely Strong P. Atk.",
+      "url": "/lu4/skill/4410-extremely-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Extremely Strong M. Def. Lv. 20",
-      "url": "/lu4/skill/4413-extremely-strong-m-def/20"
+      "name": "Extremely Strong M. Def.",
+      "url": "/lu4/skill/4413-extremely-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4379",
       "type": "skill",
       "id": 4379,
-      "name": "Spear Resistance Lv. 5 Resistant to spear/pole arm attacks.",
-      "url": "/lu4/skill/4379-spear-resistance/5"
+      "name": "Spear Resistance",
+      "url": "/lu4/skill/4379-spear-resistance"
     },
     {
-      "key": "item:4067",
+      "key": "item:57",
       "type": "item",
-      "id": 4067,
-      "name": "Zubei's Leather Gaiter Texture NG",
-      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4066",
@@ -87,11 +91,11 @@
       "url": "/lu4/item/4066-zubeis-leather-shirt-fabric"
     },
     {
-      "key": "item:1877",
+      "key": "item:4067",
       "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
+      "id": 4067,
+      "name": "Zubei's Leather Gaiter Texture NG",
+      "url": "/lu4/item/4067-zubeis-leather-gaiter-texture"
     },
     {
       "key": "item:1871",
@@ -108,11 +112,11 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:1877",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
     },
     {
       "key": "npc:22099",

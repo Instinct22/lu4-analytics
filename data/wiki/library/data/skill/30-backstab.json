@@ -1,0 +1,51 @@
+{
+  "key": "skill:30",
+  "type": "skill",
+  "id": 30,
+  "name": "Backstab",
+  "url": "/lu4/skill/30-backstab",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/30-backstab",
+  "raw_html": "library/raw/lu4/skill/30-backstab.html",
+  "stats": {
+    "Effect": "Supplements P. Atk. with 1107 Power to strike an enemy's unprotected back. Available when equipped with a dagger or a dual dagger. Over-hit, critical hit and half-kill are possible.",
+    "Consumes": "54 MP",
+    "Reuse Time": "3 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Cast Range": "85 (400)",
+    "Available For": "Treasure HunterLv. 40Plains WalkerLv. 40Abyss WalkerLv. 40Bounty HunterLv. 40",
+    "Type": "Physical / Physical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:8",
+      "type": "class",
+      "id": 8,
+      "name": "Treasure HunterLv. 40",
+      "url": "/lu4/class/8-treasurehunter"
+    },
+    {
+      "key": "class:23",
+      "type": "class",
+      "id": 23,
+      "name": "Plains WalkerLv. 40",
+      "url": "/lu4/class/23-plainwalker"
+    },
+    {
+      "key": "class:36",
+      "type": "class",
+      "id": 36,
+      "name": "Abyss WalkerLv. 40",
+      "url": "/lu4/class/36-abysswalker"
+    },
+    {
+      "key": "class:55",
+      "type": "class",
+      "id": 55,
+      "name": "Bounty HunterLv. 40",
+      "url": "/lu4/class/55-bountyhunter"
+    }
+  ]
+}

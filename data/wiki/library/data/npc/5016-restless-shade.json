@@ -2,147 +2,60 @@
   "key": "npc:5016",
   "type": "npc",
   "id": 5016,
-  "name": "Lu4 Wiki: NPC Restless Shade",
+  "name": "Restless Shade",
   "url": "/lu4/npc/5016-restless-shade",
-  "source_url": "https://masterwork.wiki/lu4/npc/5016-restless-shade",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5016-restless-shade",
   "raw_html": "library/raw/lu4/npc/5016-restless-shade.html",
   "stats": {
-    "Location": "Равнины Неистовства (+1) Равнины Неистовства Кладбище"
+    "Respawn Time": "15 seconds ± 3 seconds",
+    "Location": "Равнины Неистовства (+1) Равнины Неистовства Кладбище",
+    "HP / MP": "2 951 / 1 110",
+    "P. Atk. / M. Atk.": "802 / 426",
+    "P. Def. / M. Def.": "355 / 286",
+    "Accuracy / Evasion": "90 / 90",
+    "Exp / SP": "3 247 / 325",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Grumpy Lv. 1 Strikes without warning. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 57"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5016",
-      "type": "npc",
-      "id": 5016,
-      "name": "Lu4",
-      "url": "/lu4/npc/5016-restless-shade"
-    },
-    {
-      "key": "location:212",
-      "type": "location",
-      "id": 212,
-      "name": "Равнины Неистовства",
-      "url": "/lu4/location/212-ravniny-neistovstva"
-    },
-    {
-      "key": "location:71",
-      "type": "location",
-      "id": 71,
-      "name": "Кладбище",
-      "url": "/lu4/location/71-kladbise"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:27918",
       "type": "skill",
       "id": 27918,
-      "name": "Grumpy Lv. 1 Strikes without warning.",
-      "url": "/lu4/skill/27918-grumpy/1"
+      "name": "Grumpy",
+      "url": "/lu4/skill/27918-grumpy"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32593",
-      "type": "item",
-      "id": 32593,
-      "name": "Unidentified Zubei's Shield B",
-      "url": "/lu4/item/32593-unidentified-zubeis-shield"
-    },
-    {
-      "key": "item:32402",
-      "type": "item",
-      "id": 32402,
-      "name": "Unidentified Sealed Zubei's Boots B",
-      "url": "/lu4/item/32402-unidentified-sealed-zubeis-boots"
-    },
-    {
-      "key": "item:4101",
-      "type": "item",
-      "id": 4101,
-      "name": "Zubei's Shield Fragment NG",
-      "url": "/lu4/item/4101-zubeis-shield-fragment"
-    },
-    {
-      "key": "item:4097",
-      "type": "item",
-      "id": 4097,
-      "name": "Sealed Zubei's Boots Design NG",
-      "url": "/lu4/item/4097-sealed-zubeis-boots-design"
-    },
-    {
-      "key": "item:4050",
-      "type": "item",
-      "id": 4050,
-      "name": "Adamantite Ring Wire NG",
-      "url": "/lu4/item/4050-adamantite-ring-wire"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4043",
@@ -180,6 +93,13 @@
       "url": "/lu4/item/1865-varnish"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
       "key": "item:887",
       "type": "item",
       "id": 887,
@@ -187,11 +107,81 @@
       "url": "/lu4/item/887-adamantite-ring"
     },
     {
-      "key": "item:57",
+      "key": "item:4050",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 4050,
+      "name": "Adamantite Ring Wire NG",
+      "url": "/lu4/item/4050-adamantite-ring-wire"
+    },
+    {
+      "key": "item:32402",
+      "type": "item",
+      "id": 32402,
+      "name": "Unidentified Sealed Zubei's Boots B",
+      "url": "/lu4/item/32402-unidentified-sealed-zubeis-boots"
+    },
+    {
+      "key": "item:4097",
+      "type": "item",
+      "id": 4097,
+      "name": "Sealed Zubei's Boots Design NG",
+      "url": "/lu4/item/4097-sealed-zubeis-boots-design"
+    },
+    {
+      "key": "item:32593",
+      "type": "item",
+      "id": 32593,
+      "name": "Unidentified Zubei's Shield B",
+      "url": "/lu4/item/32593-unidentified-zubeis-shield"
+    },
+    {
+      "key": "item:4101",
+      "type": "item",
+      "id": 4101,
+      "name": "Zubei's Shield Fragment NG",
+      "url": "/lu4/item/4101-zubeis-shield-fragment"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:4970",
@@ -201,18 +191,18 @@
       "url": "/lu4/item/4970-recipe-arthro-nail-60"
     },
     {
-      "key": "item:4100",
-      "type": "item",
-      "id": 4100,
-      "name": "Sealed Zubei's Gauntlets Part NG",
-      "url": "/lu4/item/4100-sealed-zubeis-gauntlets-part"
-    },
-    {
       "key": "item:4070",
       "type": "item",
       "id": 4070,
       "name": "Stockings of Zubei Fabric NG",
       "url": "/lu4/item/4070-stockings-of-zubei-fabric"
+    },
+    {
+      "key": "item:4100",
+      "type": "item",
+      "id": 4100,
+      "name": "Sealed Zubei's Gauntlets Part NG",
+      "url": "/lu4/item/4100-sealed-zubeis-gauntlets-part"
     }
   ]
 }

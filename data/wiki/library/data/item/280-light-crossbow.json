@@ -2,24 +2,27 @@
   "key": "item:280",
   "type": "item",
   "id": 280,
-  "name": "Lu4 Wiki: Item Light Crossbow",
+  "name": "Light Crossbow",
   "url": "/lu4/item/280-light-crossbow",
-  "source_url": "https://masterwork.wiki/lu4/item/280-light-crossbow",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/280-light-crossbow",
   "raw_html": "library/raw/lu4/item/280-light-crossbow.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Guidance: Accuracy +5. Quick Recovery: Bow Reuse Delay -15%. Cheap Shot: Consumption MP for Physical skills -12%.",
+    "P. Atk. / M. Atk.": "191 / 54",
+    "Soulshot / Spiritshot Consume": "7 / 3",
+    "Crystal Amount": "2561 Crystallization Failed Enchant +0 2561 - +1 2651 - +2 2741 - +3 2831 - +4 3011 1730 +5 3191 1910 +6 3371 2090 +7 3551 2270 +8 3731 2450 +9 3911 2630 +10 4091 2810 +11 4271 2990 +12 4451 3170",
+    "NPC Sell Price": "693 500 Adena",
+    "Weight": "1810",
+    "P. Crit. Rate.": "12",
+    "Accuracy": "-4",
     "Recipes": "Recipe: Light Crossbow NG",
     "Soul Crystals": "Light Crossbow Guidance D Light Crossbow D Gemstone D NG (150 pcs.) Red Soul Crystal - Stage 4 NG Light Crossbow Cheap Shot D Light Crossbow D Gemstone D NG (150 pcs.) Green Soul Crystal - Stage 4 NG Light Crossbow Quick Recovery D Light Crossbow D Gemstone D NG (150 pcs.) Blue Soul Crystal - Stage 4 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Bow / Two-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:280",
-      "type": "item",
-      "id": 280,
-      "name": "Lu4",
-      "url": "/lu4/item/280-light-crossbow"
-    },
     {
       "key": "item:2292",
       "type": "item",
@@ -77,66 +80,87 @@
       "url": "/lu4/item/4655-blue-soul-crystal-stage-4"
     },
     {
-      "key": "npc:25385",
+      "key": "npc:25404",
       "type": "npc",
-      "id": 25385,
-      "name": "Evil Spirit Tempest Lv. 36",
-      "url": "/lu4/npc/25385-evil-spirit-tempest"
+      "id": 25404,
+      "name": "Corsair Captain Kylon",
+      "url": "/lu4/npc/25404-corsair-captain-kylon"
     },
     {
-      "key": "npc:25189",
+      "key": "npc:25388",
       "type": "npc",
-      "id": 25189,
-      "name": "Cronos's Servitor Mumu Lv. 34",
-      "url": "/lu4/npc/25189-cronoss-servitor-mumu"
+      "id": 25388,
+      "name": "Red Eye Captain Trakia",
+      "url": "/lu4/npc/25388-red-eye-captain-trakia"
     },
     {
-      "key": "npc:25185",
+      "key": "npc:25211",
       "type": "npc",
-      "id": 25185,
-      "name": "Tasaba Patriarch Hellena Lv. 35",
-      "url": "/lu4/npc/25185-tasaba-patriarch-hellena"
+      "id": 25211,
+      "name": "Sebek",
+      "url": "/lu4/npc/25211-sebek"
+    },
+    {
+      "key": "npc:25152",
+      "type": "npc",
+      "id": 25152,
+      "name": "Flame Lord Shadar",
+      "url": "/lu4/npc/25152-flame-lord-shadar"
+    },
+    {
+      "key": "npc:25063",
+      "type": "npc",
+      "id": 25063,
+      "name": "Chertuba of Great Soul",
+      "url": "/lu4/npc/25063-chertuba-of-great-soul"
+    },
+    {
+      "key": "npc:25023",
+      "type": "npc",
+      "id": 25023,
+      "name": "Stakato Queen Zyrnna",
+      "url": "/lu4/npc/25023-stakato-queen-zyrnna"
     },
     {
       "key": "npc:21686",
       "type": "npc",
       "id": 21686,
-      "name": "Dimension Invader Shaman Lv. 43",
+      "name": "Dimension Invader Shaman",
       "url": "/lu4/npc/21686-dimension-invader-shaman"
     },
     {
       "key": "npc:21642",
       "type": "npc",
       "id": 21642,
-      "name": "Tasaba Lizardman Sniper Lv. 39",
+      "name": "Tasaba Lizardman Sniper",
       "url": "/lu4/npc/21642-tasaba-lizardman-sniper"
     },
     {
       "key": "npc:21270",
       "type": "npc",
       "id": 21270,
-      "name": "Cave Ant Soldier Lv. 38",
+      "name": "Cave Ant Soldier",
       "url": "/lu4/npc/21270-cave-ant-soldier"
     },
     {
       "key": "npc:20990",
       "type": "npc",
       "id": 20990,
-      "name": "Pageos Lv. 38",
+      "name": "Pageos",
       "url": "/lu4/npc/20990-pageos"
     },
     {
       "key": "npc:20791",
       "type": "npc",
       "id": 20791,
-      "name": "Crokian Warrior Lv. 38",
+      "name": "Crokian Warrior",
       "url": "/lu4/npc/20791-crokian-warrior"
     },
     {
       "key": "npc:20785",
       "type": "npc",
       "id": 20785,
-      "name": "Tasaba Lizardman Shaman Lv. 37",
+      "name": "Tasaba Lizardman Shaman",
       "url": "/lu4/npc/20785-tasaba-lizardman-shaman"
     }
   ]

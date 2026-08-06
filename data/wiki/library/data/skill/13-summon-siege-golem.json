@@ -1,0 +1,36 @@
+{
+  "key": "skill:13",
+  "type": "skill",
+  "id": 13,
+  "name": "Summon Siege Golem",
+  "url": "/lu4/skill/13-summon-siege-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/13-summon-siege-golem",
+  "raw_html": "library/raw/lu4/skill/13-summon-siege-golem.html",
+  "stats": {
+    "Effect": "Summons siege weapon. Consumes 40 Gemstones: C-Grade every minute.",
+    "Consumes": "530 MP , Crystal (C-Grade), 180 pcs.",
+    "Reuse Time": "5 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "WarsmithLv. 49",
+    "Type": "Special / Physical"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "item:1459",
+      "type": "item",
+      "id": 1459,
+      "name": "Crystal (C-Grade), 180 pcs.",
+      "url": "/lu4/item/1459-crystal-c-grade"
+    },
+    {
+      "key": "class:57",
+      "type": "class",
+      "id": 57,
+      "name": "WarsmithLv. 49",
+      "url": "/lu4/class/57-warsmith"
+    }
+  ]
+}

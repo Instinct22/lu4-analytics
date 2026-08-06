@@ -2,24 +2,27 @@
   "key": "item:7890",
   "type": "item",
   "id": 7890,
-  "name": "Lu4 Wiki: Item Priest Mace",
+  "name": "Priest Mace",
   "url": "/lu4/item/7890-priest-mace",
-  "source_url": "https://masterwork.wiki/lu4/item/7890-priest-mace",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/7890-priest-mace",
   "raw_html": "library/raw/lu4/item/7890-priest-mace.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Acumen: Casting Spd. +15%. Mana Up: Max MP +30%. Conversion: Max HP -40%, Max MP +60%.",
+    "P. Atk. / M. Atk.": "63 / 63",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1983 Crystallization Failed Enchant +0 1983 - +1 2073 - +2 2163 - +3 2253 - +4 2433 1441 +5 2613 1621 +6 2793 1801 +7 2973 1981 +8 3153 2161 +9 3333 2341 +10 3513 2521 +11 3693 2701 +12 3873 2881",
+    "NPC Sell Price": "537 000 Adena",
+    "Weight": "1720",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Recipes": "Recipe: Priest Mace (100%) NG",
     "Soul Crystals": "Priest Mace Acumen D Gemstone D NG (120 pcs.) Red Soul Crystal - Stage 3 NG Priest Mace D Priest Mace Conversion D Gemstone D NG (120 pcs.) Green Soul Crystal - Stage 3 NG Priest Mace D Priest Mace Mana Up D Gemstone D NG (120 pcs.) Blue Soul Crystal - Stage 3 NG Priest Mace D",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "D",
+    "Type": "Weapon / Blunt / One-handed"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:7890",
-      "type": "item",
-      "id": 7890,
-      "name": "Lu4",
-      "url": "/lu4/item/7890-priest-mace"
-    },
     {
       "key": "item:8307",
       "type": "item",
@@ -80,35 +83,35 @@
       "key": "npc:20750",
       "type": "npc",
       "id": 20750,
-      "name": "Fire Archer Lv. 29",
+      "name": "Fire Archer",
       "url": "/lu4/npc/20750-fire-archer"
     },
     {
       "key": "npc:20199",
       "type": "npc",
       "id": 20199,
-      "name": "Amber Basilisk Lv. 30",
+      "name": "Amber Basilisk",
       "url": "/lu4/npc/20199-amber-basilisk"
     },
     {
       "key": "npc:20198",
       "type": "npc",
       "id": 20198,
-      "name": "Neer Ghoul Berserker Lv. 29",
+      "name": "Neer Ghoul Berserker",
       "url": "/lu4/npc/20198-neer-ghoul-berserker"
     },
     {
       "key": "npc:20191",
       "type": "npc",
       "id": 20191,
-      "name": "Skeleton Raider Lv. 30",
+      "name": "Skeleton Raider",
       "url": "/lu4/npc/20191-skeleton-raider"
     },
     {
       "key": "npc:20157",
       "type": "npc",
       "id": 20157,
-      "name": "Marsh Stakato Lv. 29",
+      "name": "Marsh Stakato",
       "url": "/lu4/npc/20157-marsh-stakato"
     }
   ]

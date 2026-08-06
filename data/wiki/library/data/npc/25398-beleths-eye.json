@@ -2,56 +2,53 @@
   "key": "npc:25398",
   "type": "npc",
   "id": 25398,
-  "name": "Lu4 Wiki: NPC Beleth's Eye",
+  "name": "Beleth's Eye",
   "url": "/lu4/npc/25398-beleths-eye",
-  "source_url": "https://masterwork.wiki/lu4/npc/25398-beleths-eye",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25398-beleths-eye",
   "raw_html": "library/raw/lu4/npc/25398-beleths-eye.html",
   "stats": {
-    "Location": "Равнины Диона"
+    "Respawn Time": "6 hours ± 2 hours",
+    "Location": "Равнины Диона",
+    "HP / MP": "170 249 / 8 254",
+    "P. Atk. / M. Atk.": "493 / 70",
+    "P. Def. / M. Def.": "539 / 551",
+    "Accuracy / Evasion": "86 / 86",
+    "Exp / SP": "857 500 / 78 199",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Raid Boss Lv. 1 Raid Boss reward chance is reduced based on the level difference. Boss is higher: +5 - 85%, +6 - 70%, +7 - 50%, +8 - 35%. Player is higher: +6 - 85%, +7 - 70%, +8 - 50%. If player is 9 or more levels higher, Raid Curse is applied. Raid Boss Lv. 1 One of the Monster Eyes who acted as a spy for Devil Beleth during his failed rebellion. Now that Beleth is sealed away, the Eye is responsible for providing Beleth' followers with information. Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 35"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:25398",
-      "type": "npc",
-      "id": 25398,
-      "name": "Lu4",
-      "url": "/lu4/npc/25398-beleths-eye"
-    },
-    {
-      "key": "location:241",
-      "type": "location",
-      "id": 241,
-      "name": "Равнины Диона",
-      "url": "/lu4/location/241-ravniny-diona"
-    },
-    {
       "key": "skill:4494",
       "type": "skill",
       "id": 4494,
-      "name": "Raid Boss Lv. 1 If the person who made the greatest contribution is 3 or more Lv.s higher than the raid monster, then the item/Adena rewards will decrease. If the difference is 9 or more Lv.s, the monster will drop nothing at all.",
-      "url": "/lu4/skill/4494-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4494-raid-boss"
     },
     {
       "key": "skill:4944",
       "type": "skill",
       "id": 4944,
-      "name": "Raid Boss Lv. 1 One of the Monster Eyes who acted as a spy for Devil Beleth during his failed rebellion. Now that Beleth is sealed away, the Eye is responsible for providing Beleth' followers with information.",
-      "url": "/lu4/skill/4944-raid-boss/1"
+      "name": "Raid Boss",
+      "url": "/lu4/skill/4944-raid-boss"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:9910",
@@ -61,18 +58,25 @@
       "url": "/lu4/item/9910-proof-of-loyalty"
     },
     {
-      "key": "item:6576",
+      "key": "item:2499",
       "type": "item",
-      "id": 6576,
-      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+      "id": 2499,
+      "name": "Elven Long Sword D",
+      "url": "/lu4/item/2499-elven-long-sword"
     },
     {
-      "key": "item:6575",
+      "key": "item:70",
       "type": "item",
-      "id": 6575,
-      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
+      "id": 70,
+      "name": "Claymore D",
+      "url": "/lu4/item/70-claymore"
+    },
+    {
+      "key": "item:321",
+      "type": "item",
+      "id": 321,
+      "name": "Demon Fangs D",
+      "url": "/lu4/item/321-demon-fangs"
     },
     {
       "key": "item:2967",
@@ -82,13 +86,6 @@
       "url": "/lu4/item/2967-elven-long-sword-blade"
     },
     {
-      "key": "item:2499",
-      "type": "item",
-      "id": 2499,
-      "name": "Elven Long Sword D",
-      "url": "/lu4/item/2499-elven-long-sword"
-    },
-    {
       "key": "item:2047",
       "type": "item",
       "id": 2047,
@@ -96,39 +93,11 @@
       "url": "/lu4/item/2047-claymore-blade"
     },
     {
-      "key": "item:1951",
+      "key": "item:2046",
       "type": "item",
-      "id": 1951,
-      "name": "Plate Gaiters Part NG",
-      "url": "/lu4/item/1951-plate-gaiters-part"
-    },
-    {
-      "key": "item:1950",
-      "type": "item",
-      "id": 1950,
-      "name": "Half Plate Temper NG",
-      "url": "/lu4/item/1950-half-plate-temper"
-    },
-    {
-      "key": "item:956",
-      "type": "item",
-      "id": 956,
-      "name": "Scroll: Enchant Armor (D-Grade) NG",
-      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
-    },
-    {
-      "key": "item:955",
-      "type": "item",
-      "id": 955,
-      "name": "Scroll: Enchant Weapon (D-Grade) NG",
-      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
-    },
-    {
-      "key": "item:380",
-      "type": "item",
-      "id": 380,
-      "name": "Plate Gaiters D",
-      "url": "/lu4/item/380-plate-gaiters"
+      "id": 2046,
+      "name": "Demon Fangs Part NG",
+      "url": "/lu4/item/2046-demon-fangs-part"
     },
     {
       "key": "item:353",
@@ -138,11 +107,53 @@
       "url": "/lu4/item/353-half-plate-armor"
     },
     {
-      "key": "item:70",
+      "key": "item:380",
       "type": "item",
-      "id": 70,
-      "name": "Claymore D",
-      "url": "/lu4/item/70-claymore"
+      "id": 380,
+      "name": "Half Plate Gaiters D",
+      "url": "/lu4/item/380-half-plate-gaiters"
+    },
+    {
+      "key": "item:1950",
+      "type": "item",
+      "id": 1950,
+      "name": "Half Plate Temper NG",
+      "url": "/lu4/item/1950-half-plate-temper"
+    },
+    {
+      "key": "item:1951",
+      "type": "item",
+      "id": 1951,
+      "name": "Half Plate Gaiters Part NG",
+      "url": "/lu4/item/1951-half-plate-gaiters-part"
+    },
+    {
+      "key": "item:956",
+      "type": "item",
+      "id": 956,
+      "name": "Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/956-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:6576",
+      "type": "item",
+      "id": 6576,
+      "name": "Blessed Scroll: Enchant Armor (D-Grade) NG",
+      "url": "/lu4/item/6576-blessed-scroll-enchant-armor-d-grade"
+    },
+    {
+      "key": "item:955",
+      "type": "item",
+      "id": 955,
+      "name": "Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/955-scroll-enchant-weapon-d-grade"
+    },
+    {
+      "key": "item:6575",
+      "type": "item",
+      "id": 6575,
+      "name": "Blessed Scroll: Enchant Weapon (D-Grade) NG",
+      "url": "/lu4/item/6575-blessed-scroll-enchant-weapon-d-grade"
     },
     {
       "key": "npc:25399",

@@ -2,31 +2,34 @@
   "key": "item:200",
   "type": "item",
   "id": 200,
-  "name": "Lu4 Wiki: Item Sage&#039;s Staff",
+  "name": "Sage's Staff",
   "url": "/lu4/item/200-sages-staff",
-  "source_url": "https://masterwork.wiki/lu4/item/200-sages-staff",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/200-sages-staff",
   "raw_html": "library/raw/lu4/item/200-sages-staff.html",
   "stats": {
+    "Effect": "<Available Soul Crystals> Magic Hold: Casts 'Dryad Root' Lv.21 on target with 10% chance. Acumen: Casting Spd. +15%. Empower: M. Atk. +20%, Consumption MP for Magic skills +10%.",
+    "P. Atk. / M. Atk.": "135 / 111",
+    "Soulshot / Spiritshot Consume": "3 / 3",
+    "Crystal Amount": "1322 Crystallization Failed Enchant +0 1322 - +1 1367 - +2 1412 - +3 1457 - +4 1547 886 +5 1637 976 +6 1727 1066 +7 1817 1156 +8 1907 1246 +9 1997 1336 +10 2087 1426 +11 2177 1516 +12 2267 1606",
+    "NPC Sell Price": "1 652 150 Adena",
+    "Weight": "1000",
+    "P. Crit. Rate.": "4",
+    "Accuracy": "5",
     "Item Skills": "Magic Essence Lv. 1",
     "Recipes": "Recipe: Sage's Staff NG",
     "Soul Crystals": "Sage's Staff Magic Hold C Sage's Staff C Gemstone C NG (306 pcs.) Red Soul Crystal - Stage 7 NG Sage's Staff Empower C Sage's Staff C Gemstone C NG (306 pcs.) Green Soul Crystal - Stage 7 NG Sage's Staff Acumen C Sage's Staff C Gemstone C NG (306 pcs.) Blue Soul Crystal - Stage 7 NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Weapon / Blunt / Two-handed"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:200",
-      "type": "item",
-      "id": 200,
-      "name": "Lu4",
-      "url": "/lu4/item/200-sages-staff"
-    },
-    {
       "key": "skill:24479",
       "type": "skill",
       "id": 24479,
-      "name": "Magic Essence Lv. 1",
-      "url": "/lu4/skill/24479-magic-essence/1"
+      "name": "Magic Essence",
+      "url": "/lu4/skill/24479-magic-essence"
     },
     {
       "key": "item:2341",
@@ -85,66 +88,87 @@
       "url": "/lu4/item/4658-blue-soul-crystal-stage-7"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25418",
       "type": "npc",
       "id": 25418,
-      "name": "Dread Avenger Kraven Lv. 44",
+      "name": "Dread Avenger Kraven",
       "url": "/lu4/npc/25418-dread-avenger-kraven"
     },
     {
       "key": "npc:25395",
       "type": "npc",
       "id": 25395,
-      "name": "Archon Suscepter Lv. 45",
+      "name": "Archon Suscepter",
       "url": "/lu4/npc/25395-archon-suscepter"
     },
     {
       "key": "npc:21725",
       "type": "npc",
       "id": 21725,
-      "name": "Purgatory Invader Elite Soldier Lv. 50",
+      "name": "Purgatory Invader Elite Soldier",
       "url": "/lu4/npc/21725-purgatory-invader-elite-soldier"
     },
     {
       "key": "npc:21622",
       "type": "npc",
       "id": 21622,
-      "name": "Greater Musveren Lv. 49",
+      "name": "Greater Musveren",
       "url": "/lu4/npc/21622-greater-musveren"
     },
     {
       "key": "npc:20998",
       "type": "npc",
       "id": 20998,
-      "name": "Cruel Punisher Lv. 52",
+      "name": "Cruel Punisher",
       "url": "/lu4/npc/20998-cruel-punisher"
     },
     {
       "key": "npc:20995",
       "type": "npc",
       "id": 20995,
-      "name": "Garden Guard Lv. 48",
+      "name": "Garden Guard",
       "url": "/lu4/npc/20995-garden-guard"
     },
     {
       "key": "npc:20665",
       "type": "npc",
       "id": 20665,
-      "name": "Taik Orc Supply Lv. 51",
+      "name": "Taik Orc Supply",
       "url": "/lu4/npc/20665-taik-orc-supply"
     },
     {
       "key": "npc:20640",
       "type": "npc",
       "id": 20640,
-      "name": "Harit Lizardman Lv. 50",
+      "name": "Harit Lizardman",
       "url": "/lu4/npc/20640-harit-lizardman"
     },
     {
       "key": "npc:20595",
       "type": "npc",
       "id": 20595,
-      "name": "Fline Elder Lv. 51",
+      "name": "Fline Elder",
       "url": "/lu4/npc/20595-fline-elder"
     }
   ]

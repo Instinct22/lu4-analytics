@@ -2,63 +2,60 @@
   "key": "npc:20239",
   "type": "npc",
   "id": 20239,
-  "name": "Lu4 Wiki: NPC Cave Servant Captain",
+  "name": "Cave Servant Captain",
   "url": "/lu4/npc/20239-cave-servant-captain",
-  "source_url": "https://masterwork.wiki/lu4/npc/20239-cave-servant-captain",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20239-cave-servant-captain",
   "raw_html": "library/raw/lu4/npc/20239-cave-servant-captain.html",
   "stats": {
-    "Location": "Долина Драконов"
+    "Respawn Time": "1 minute",
+    "Location": "Долина Драконов",
+    "HP / MP": "9 739 / 878",
+    "P. Atk. / M. Atk.": "445 / 238",
+    "P. Def. / M. Def.": "358 / 314",
+    "Accuracy / Evasion": "82 / 82",
+    "Exp / SP": "11 881 / 1 188",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -20, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 Slightly Strong P. Def. Lv. 13 Slightly Strong M. Def. Lv. 13",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 49"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20239",
-      "type": "npc",
-      "id": 20239,
-      "name": "Lu4",
-      "url": "/lu4/npc/20239-cave-servant-captain"
-    },
-    {
-      "key": "location:12",
-      "type": "location",
-      "id": 12,
-      "name": "Долина Драконов",
-      "url": "/lu4/location/12-dolina-drakonov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:8752",
+      "key": "item:57",
       "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -66,48 +63,6 @@
       "id": 4041,
       "name": "Mold Hardener NG",
       "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:2332",
-      "type": "item",
-      "id": 2332,
-      "name": "Recipe: Sword of Limit NG",
-      "url": "/lu4/item/2332-recipe-sword-of-limit"
-    },
-    {
-      "key": "item:2230",
-      "type": "item",
-      "id": 2230,
-      "name": "Recipe: Theca Leather Gaiters NG",
-      "url": "/lu4/item/2230-recipe-theca-leather-gaiters"
-    },
-    {
-      "key": "item:2228",
-      "type": "item",
-      "id": 2228,
-      "name": "Recipe: Shining Circlet NG",
-      "url": "/lu4/item/2228-recipe-shining-circlet"
-    },
-    {
-      "key": "item:2105",
-      "type": "item",
-      "id": 2105,
-      "name": "Mace of Underworld Head NG",
-      "url": "/lu4/item/2105-mace-of-underworld-head"
-    },
-    {
-      "key": "item:2098",
-      "type": "item",
-      "id": 2098,
-      "name": "Nirvana Axe Blade NG",
-      "url": "/lu4/item/2098-nirvana-axe-blade"
-    },
-    {
-      "key": "item:1972",
-      "type": "item",
-      "id": 1972,
-      "name": "Knight's Shield Fragment NG",
-      "url": "/lu4/item/1972-knights-shield-fragment"
     },
     {
       "key": "item:1881",
@@ -145,11 +100,25 @@
       "url": "/lu4/item/952-scroll-enchant-armor-c-grade"
     },
     {
+      "key": "item:8752",
+      "type": "item",
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
+    },
+    {
       "key": "item:632",
       "type": "item",
       "id": 632,
       "name": "Knight's Shield C",
       "url": "/lu4/item/632-knights-shield"
+    },
+    {
+      "key": "item:1972",
+      "type": "item",
+      "id": 1972,
+      "name": "Knight's Shield Fragment NG",
+      "url": "/lu4/item/1972-knights-shield-fragment"
     },
     {
       "key": "item:202",
@@ -159,6 +128,13 @@
       "url": "/lu4/item/202-mace-of-underworld"
     },
     {
+      "key": "item:2105",
+      "type": "item",
+      "id": 2105,
+      "name": "Mace of Underworld Head NG",
+      "url": "/lu4/item/2105-mace-of-underworld-head"
+    },
+    {
       "key": "item:174",
       "type": "item",
       "id": 174,
@@ -166,18 +142,32 @@
       "url": "/lu4/item/174-nirvana-axe"
     },
     {
-      "key": "item:57",
+      "key": "item:2098",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2098,
+      "name": "Nirvana Axe Blade NG",
+      "url": "/lu4/item/2098-nirvana-axe-blade"
     },
     {
-      "key": "item:2957",
+      "key": "item:2228",
       "type": "item",
-      "id": 2957,
-      "name": "Composite Helmet Design NG",
-      "url": "/lu4/item/2957-composite-helmet-design"
+      "id": 2228,
+      "name": "Recipe: Shining Circlet NG",
+      "url": "/lu4/item/2228-recipe-shining-circlet"
+    },
+    {
+      "key": "item:2332",
+      "type": "item",
+      "id": 2332,
+      "name": "Recipe: Sword of Limit NG",
+      "url": "/lu4/item/2332-recipe-sword-of-limit"
+    },
+    {
+      "key": "item:2230",
+      "type": "item",
+      "id": 2230,
+      "name": "Recipe: Theca Leather Gaiters NG",
+      "url": "/lu4/item/2230-recipe-theca-leather-gaiters"
     },
     {
       "key": "item:2342",
@@ -194,11 +184,11 @@
       "url": "/lu4/item/2334-recipe-sword-of-whispering-death"
     },
     {
-      "key": "item:2091",
+      "key": "item:2957",
       "type": "item",
-      "id": 2091,
-      "name": "Tsurugi Blade NG",
-      "url": "/lu4/item/2091-tsurugi-blade"
+      "id": 2957,
+      "name": "Composite Helmet Design NG",
+      "url": "/lu4/item/2957-composite-helmet-design"
     },
     {
       "key": "item:1915",
@@ -206,6 +196,13 @@
       "id": 1915,
       "name": "Ring of Ages Gemstone NG",
       "url": "/lu4/item/1915-ring-of-ages-gemstone"
+    },
+    {
+      "key": "item:2091",
+      "type": "item",
+      "id": 2091,
+      "name": "Tsurugi Blade NG",
+      "url": "/lu4/item/2091-tsurugi-blade"
     }
   ]
 }

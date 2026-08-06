@@ -2,133 +2,88 @@
   "key": "npc:20085",
   "type": "npc",
   "id": 20085,
-  "name": "Lu4 Wiki: NPC Puncher",
+  "name": "Puncher",
   "url": "/lu4/npc/20085-puncher",
-  "source_url": "https://masterwork.wiki/lu4/npc/20085-puncher",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20085-puncher",
   "raw_html": "library/raw/lu4/npc/20085-puncher.html",
   "stats": {
-    "Location": "Пустошь (+1) Пустошь Муравейник"
+    "Respawn Time": "30 seconds",
+    "Location": "Пустошь (+1) Пустошь Муравейник",
+    "HP / MP": "2 438 / 477",
+    "P. Atk. / M. Atk.": "182 / 125",
+    "P. Def. / M. Def.": "165 / 174",
+    "Accuracy / Evasion": "67 / 67",
+    "Exp / SP": "2 631 / 263",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Strong M. Def. Lv. 14 Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks. Dagger/Rapier Resistance Lv. 2 Resistant to Dagger/Rapier attacks. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 34"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20085",
-      "type": "npc",
-      "id": 20085,
-      "name": "Lu4",
-      "url": "/lu4/npc/20085-puncher"
-    },
-    {
-      "key": "location:15",
-      "type": "location",
-      "id": 15,
-      "name": "Пустошь",
-      "url": "/lu4/location/15-pustos"
-    },
-    {
-      "key": "location:17",
-      "type": "location",
-      "id": 17,
-      "name": "Муравейник",
-      "url": "/lu4/location/17-muravejnik"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 4 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/4"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4273",
       "type": "skill",
       "id": 4273,
-      "name": "Dagger/Rapier Resistance Lv. 2 Resistant to Dagger/Rapier attacks.",
-      "url": "/lu4/skill/4273-daggerrapier-resistance/2"
+      "name": "Dagger/Rapier Resistance",
+      "url": "/lu4/skill/4273-daggerrapier-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:2978",
+      "key": "item:57",
       "type": "item",
-      "id": 2978,
-      "name": "Recipe: Elven Mithril Boots NG",
-      "url": "/lu4/item/2978-recipe-elven-mithril-boots"
-    },
-    {
-      "key": "item:2191",
-      "type": "item",
-      "id": 2191,
-      "name": "Recipe: RIP Gauntlets NG",
-      "url": "/lu4/item/2191-recipe-rip-gauntlets"
-    },
-    {
-      "key": "item:2190",
-      "type": "item",
-      "id": 2190,
-      "name": "Recipe: Mithril Stockings NG",
-      "url": "/lu4/item/2190-recipe-mithril-stockings"
-    },
-    {
-      "key": "item:2040",
-      "type": "item",
-      "id": 2040,
-      "name": "Reinforced Long Bow Shaft NG",
-      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
-    },
-    {
-      "key": "item:2036",
-      "type": "item",
-      "id": 2036,
-      "name": "Skull Breaker Head NG",
-      "url": "/lu4/item/2036-skull-breaker-head"
-    },
-    {
-      "key": "item:1904",
-      "type": "item",
-      "id": 1904,
-      "name": "Elven Necklace Beads NG",
-      "url": "/lu4/item/1904-elven-necklace-beads"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1874",
@@ -159,11 +114,11 @@
       "url": "/lu4/item/913-elven-necklace"
     },
     {
-      "key": "item:279",
+      "key": "item:1904",
       "type": "item",
-      "id": 279,
-      "name": "Reinforced Long Bow D",
-      "url": "/lu4/item/279-reinforced-long-bow"
+      "id": 1904,
+      "name": "Elven Necklace Beads NG",
+      "url": "/lu4/item/1904-elven-necklace-beads"
     },
     {
       "key": "item:169",
@@ -173,18 +128,46 @@
       "url": "/lu4/item/169-skull-breaker"
     },
     {
-      "key": "item:57",
+      "key": "item:2036",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2036,
+      "name": "Skull Breaker Head NG",
+      "url": "/lu4/item/2036-skull-breaker-head"
     },
     {
-      "key": "item:2925",
+      "key": "item:279",
       "type": "item",
-      "id": 2925,
-      "name": "Elven Mithril Boots Design NG",
-      "url": "/lu4/item/2925-elven-mithril-boots-design"
+      "id": 279,
+      "name": "Reinforced Long Bow D",
+      "url": "/lu4/item/279-reinforced-long-bow"
+    },
+    {
+      "key": "item:2040",
+      "type": "item",
+      "id": 2040,
+      "name": "Reinforced Long Bow Shaft NG",
+      "url": "/lu4/item/2040-reinforced-long-bow-shaft"
+    },
+    {
+      "key": "item:2978",
+      "type": "item",
+      "id": 2978,
+      "name": "Recipe: Elven Mithril Boots NG",
+      "url": "/lu4/item/2978-recipe-elven-mithril-boots"
+    },
+    {
+      "key": "item:2191",
+      "type": "item",
+      "id": 2191,
+      "name": "Recipe: RIP Gauntlets NG",
+      "url": "/lu4/item/2191-recipe-rip-gauntlets"
+    },
+    {
+      "key": "item:2190",
+      "type": "item",
+      "id": 2190,
+      "name": "Recipe: Mithril Stockings NG",
+      "url": "/lu4/item/2190-recipe-mithril-stockings"
     },
     {
       "key": "item:2270",
@@ -192,6 +175,13 @@
       "id": 2270,
       "name": "Recipe: Goat Head Staff NG",
       "url": "/lu4/item/2270-recipe-goat-head-staff"
+    },
+    {
+      "key": "item:2925",
+      "type": "item",
+      "id": 2925,
+      "name": "Elven Mithril Boots Design NG",
+      "url": "/lu4/item/2925-elven-mithril-boots-design"
     },
     {
       "key": "item:2033",

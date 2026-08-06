@@ -2,54 +2,65 @@
   "key": "npc:21745",
   "type": "npc",
   "id": 21745,
-  "name": "Lu4 Wiki: NPC Forbidden Path Invader Warrior",
+  "name": "Forbidden Path Invader Warrior",
   "url": "/lu4/npc/21745-forbidden-path-invader-warrior",
-  "source_url": "https://masterwork.wiki/lu4/npc/21745-forbidden-path-invader-warrior",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21745-forbidden-path-invader-warrior",
   "raw_html": "library/raw/lu4/npc/21745-forbidden-path-invader-warrior.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "19 813 / 1 389",
+    "P. Atk. / M. Atk.": "883 / 577",
+    "P. Def. / M. Def.": "411 / 332",
+    "Accuracy / Evasion": "96 / 96",
+    "Exp / SP": "31 763 / 2 868",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (6x) Lv. 14 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 63"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21745",
-      "type": "npc",
-      "id": 21745,
-      "name": "Lu4",
-      "url": "/lu4/npc/21745-forbidden-path-invader-warrior"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32341",
@@ -57,13 +68,6 @@
       "id": 32341,
       "name": "Unidentified Bellion Cestus B",
       "url": "/lu4/item/32341-unidentified-bellion-cestus"
-    },
-    {
-      "key": "item:5460",
-      "type": "item",
-      "id": 5460,
-      "name": "Recipe: Dasparion's Staff(60%) NG",
-      "url": "/lu4/item/5460-recipe-dasparions-staff60"
     },
     {
       "key": "item:4120",
@@ -115,18 +119,18 @@
       "url": "/lu4/item/1343-silver-arrow"
     },
     {
-      "key": "item:57",
+      "key": "item:5460",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5460,
+      "name": "Recipe: Dasparion's Staff(60%) NG",
+      "url": "/lu4/item/5460-recipe-dasparions-staff60"
     },
     {
-      "key": "item:5452",
+      "key": "item:4114",
       "type": "item",
-      "id": 5452,
-      "name": "Recipe: Blood Tornado(60%) NG",
-      "url": "/lu4/item/5452-recipe-blood-tornado60"
+      "id": 4114,
+      "name": "Sword of Damascus Blade NG",
+      "url": "/lu4/item/4114-sword-of-damascus-blade"
     },
     {
       "key": "item:5446",
@@ -136,11 +140,11 @@
       "url": "/lu4/item/5446-recipe-bloody-orchid60"
     },
     {
-      "key": "item:4114",
+      "key": "item:5452",
       "type": "item",
-      "id": 4114,
-      "name": "Sword of Damascus Blade NG",
-      "url": "/lu4/item/4114-sword-of-damascus-blade"
+      "id": 5452,
+      "name": "Recipe: Blood Tornado(60%) NG",
+      "url": "/lu4/item/5452-recipe-blood-tornado60"
     }
   ]
 }

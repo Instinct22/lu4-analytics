@@ -2,42 +2,38 @@
   "key": "npc:30751",
   "type": "npc",
   "id": 30751,
-  "name": "Lu4 Wiki: NPC Suzet",
+  "name": "Suzet",
   "url": "/lu4/npc/30751-suzet",
-  "source_url": "https://masterwork.wiki/lu4/npc/30751-suzet",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/30751-suzet",
   "raw_html": "library/raw/lu4/npc/30751-suzet.html",
   "stats": {
-    "Location": "Долина Смерти"
+    "Respawn Time": "1 minute",
+    "Location": "Долина Смерти",
+    "HP / MP": "4 055 / 1 657",
+    "P. Atk. / M. Atk.": "1 304 / 776",
+    "P. Def. / M. Def.": "501 / 346",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "0 / 0",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10% Resist Full Magic Attack Lv. 1",
+    "Type": "Dragon, Lv. 70"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:30751",
-      "type": "npc",
-      "id": 30751,
-      "name": "Lu4",
-      "url": "/lu4/npc/30751-suzet"
-    },
-    {
-      "key": "location:46",
-      "type": "location",
-      "id": 46,
-      "name": "Долина Смерти",
-      "url": "/lu4/location/46-dolina-smerti"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Dragons Lv. 10 Takes 15% increased damage from attacks that are effective against Dragons. P. Def. +5% Max HP +5% Attack Range +30 Resistance to Hold +15% Resistance to Bow +10% Resistance to Crossbow +10% M. Def. -5% Resistance to Sword -10% Resistance to Dual Sword -10%",
-      "url": "/lu4/skill/4416-dragons/10"
+      "name": "Dragons",
+      "url": "/lu4/skill/4416-dragons"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

@@ -2,131 +2,100 @@
   "key": "npc:21790",
   "type": "npc",
   "id": 21790,
-  "name": "Lu4 Wiki: NPC Messenger Invader Elite Soldier",
+  "name": "Messenger Invader Elite Soldier",
   "url": "/lu4/npc/21790-messenger-invader-elite-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21790-messenger-invader-elite-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21790-messenger-invader-elite-soldier",
   "raw_html": "library/raw/lu4/npc/21790-messenger-invader-elite-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "2 321 / 1 896",
+    "P. Atk. / M. Atk.": "2 406 / 1 906",
+    "P. Def. / M. Def.": "476 / 411",
+    "Accuracy / Evasion": "125 / 131",
+    "Exp / SP": "5 529 / 621",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (1/2x) Lv. 9 MP Increase (1x) Lv. 1 Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Weak P. Def. Lv. 8 Weak M. Def. Lv. 8 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword High Lv. Lv. 6 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21790",
-      "type": "npc",
-      "id": 21790,
-      "name": "Lu4",
-      "url": "/lu4/npc/21790-messenger-invader-elite-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1/2x) Lv. 9",
-      "url": "/lu4/skill/4408-hp-increase-12x/9"
+      "name": "HP Increase (1/2x)",
+      "url": "/lu4/skill/4408-hp-increase-12x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Weak P. Def. Lv. 8",
-      "url": "/lu4/skill/4412-weak-p-def/8"
+      "name": "Weak P. Def.",
+      "url": "/lu4/skill/4412-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 6 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/6"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32393",
-      "type": "item",
-      "id": 32393,
-      "name": "Unidentified Sealed Majestic Boots A",
-      "url": "/lu4/item/32393-unidentified-sealed-majestic-boots"
-    },
-    {
-      "key": "item:32392",
-      "type": "item",
-      "id": 32392,
-      "name": "Unidentified Sealed Majestic Gauntlets A",
-      "url": "/lu4/item/32392-unidentified-sealed-majestic-gauntlets"
-    },
-    {
-      "key": "item:32388",
-      "type": "item",
-      "id": 32388,
-      "name": "Unidentified Sealed Boots of Nightmare A",
-      "url": "/lu4/item/32388-unidentified-sealed-boots-of-nightmare"
-    },
-    {
-      "key": "item:32387",
-      "type": "item",
-      "id": 32387,
-      "name": "Unidentified Sealed Gauntlets of Nightmare A",
-      "url": "/lu4/item/32387-unidentified-sealed-gauntlets-of-nightmare"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5515",
@@ -155,6 +124,34 @@
       "id": 5502,
       "name": "Sealed Boots of Nightmare Lining NG",
       "url": "/lu4/item/5502-sealed-boots-of-nightmare-lining"
+    },
+    {
+      "key": "item:32393",
+      "type": "item",
+      "id": 32393,
+      "name": "Unidentified Sealed Majestic Boots A",
+      "url": "/lu4/item/32393-unidentified-sealed-majestic-boots"
+    },
+    {
+      "key": "item:32392",
+      "type": "item",
+      "id": 32392,
+      "name": "Unidentified Sealed Majestic Gauntlets A",
+      "url": "/lu4/item/32392-unidentified-sealed-majestic-gauntlets"
+    },
+    {
+      "key": "item:32388",
+      "type": "item",
+      "id": 32388,
+      "name": "Unidentified Sealed Boots of Nightmare A",
+      "url": "/lu4/item/32388-unidentified-sealed-boots-of-nightmare"
+    },
+    {
+      "key": "item:32387",
+      "type": "item",
+      "id": 32387,
+      "name": "Unidentified Sealed Gauntlets of Nightmare A",
+      "url": "/lu4/item/32387-unidentified-sealed-gauntlets-of-nightmare"
     },
     {
       "key": "item:4043",
@@ -199,18 +196,18 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:5550",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
-      "key": "item:5487",
+      "key": "item:49800",
       "type": "item",
-      "id": 5487,
-      "name": "Sealed Robe of Nightmare Fabric NG",
-      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:5282",
@@ -218,6 +215,13 @@
       "id": 5282,
       "name": "Recipe: Greater Blessed Spiritshot (S) Compressed Package(100%) NG",
       "url": "/lu4/item/5282-recipe-greater-blessed-spiritshot-s-compressed-package100"
+    },
+    {
+      "key": "item:5487",
+      "type": "item",
+      "id": 5487,
+      "name": "Sealed Robe of Nightmare Fabric NG",
+      "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
     }
   ]
 }

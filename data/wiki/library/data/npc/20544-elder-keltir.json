@@ -2,84 +2,60 @@
   "key": "npc:20544",
   "type": "npc",
   "id": 20544,
-  "name": "Lu4 Wiki: NPC Elder Keltir",
+  "name": "Elder Keltir",
   "url": "/lu4/npc/20544-elder-keltir",
-  "source_url": "https://masterwork.wiki/lu4/npc/20544-elder-keltir",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20544-elder-keltir",
   "raw_html": "library/raw/lu4/npc/20544-elder-keltir.html",
   "stats": {
-    "Location": "Говорящий Остров (восток)"
+    "Respawn Time": "12 seconds",
+    "Location": "Говорящий Остров (восток)",
+    "HP / MP": "106 / 67",
+    "P. Atk. / M. Atk.": "14 / 6",
+    "P. Def. / M. Def.": "38 / 30",
+    "Accuracy / Evasion": "36 / 36",
+    "Exp / SP": "113 / 11",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10% Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 3"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20544",
-      "type": "npc",
-      "id": 20544,
-      "name": "Lu4",
-      "url": "/lu4/npc/20544-elder-keltir"
-    },
-    {
-      "key": "location:262",
-      "type": "location",
-      "id": 262,
-      "name": "Говорящий Остров (восток)",
-      "url": "/lu4/location/262-govorasij-ostrov-vostok"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1788",
-      "type": "item",
-      "id": 1788,
-      "name": "Recipe: Bow NG",
-      "url": "/lu4/item/1788-recipe-bow"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -89,13 +65,6 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:28",
-      "type": "item",
-      "id": 28,
-      "name": "Pants NG",
-      "url": "/lu4/item/28-pants"
-    },
-    {
       "key": "item:21",
       "type": "item",
       "id": 21,
@@ -103,11 +72,32 @@
       "url": "/lu4/item/21-shirt"
     },
     {
-      "key": "item:1872",
+      "key": "item:28",
       "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
+      "id": 28,
+      "name": "Pants NG",
+      "url": "/lu4/item/28-pants"
+    },
+    {
+      "key": "item:1788",
+      "type": "item",
+      "id": 1788,
+      "name": "Recipe: Bow NG",
+      "url": "/lu4/item/1788-recipe-bow"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:1870",
@@ -115,6 +105,13 @@
       "id": 1870,
       "name": "Coal NG",
       "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
     }
   ]
 }

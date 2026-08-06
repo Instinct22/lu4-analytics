@@ -2,166 +2,114 @@
   "key": "npc:21508",
   "type": "npc",
   "id": 21508,
-  "name": "Lu4 Wiki: NPC Splinter Stakato",
+  "name": "Splinter Stakato",
   "url": "/lu4/npc/21508-splinter-stakato",
-  "source_url": "https://masterwork.wiki/lu4/npc/21508-splinter-stakato",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21508-splinter-stakato",
   "raw_html": "library/raw/lu4/npc/21508-splinter-stakato.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 368 / 1 502",
+    "P. Atk. / M. Atk.": "1 170 / 696",
+    "P. Def. / M. Def.": "327 / 438",
+    "Accuracy / Evasion": "99 / 114",
+    "Exp / SP": "8 452 / 796",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong M. Def. Lv. 13 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks. Hold Resistance Lv. 3 Slightly resistant to Hold. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 66"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21508",
-      "type": "npc",
-      "id": 21508,
-      "name": "Lu4",
-      "url": "/lu4/npc/21508-splinter-stakato"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 13",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/13"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 5 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/5"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 3 Slightly resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/3"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:8614",
+      "key": "item:4054",
       "type": "item",
-      "id": 8614,
-      "name": "Herb of Recovery NG",
-      "url": "/lu4/item/8614-herb-of-recovery"
+      "id": 4054,
+      "name": "Necklace of Black Ore Beads NG",
+      "url": "/lu4/item/4054-necklace-of-black-ore-beads"
     },
     {
-      "key": "item:8613",
+      "key": "item:4053",
       "type": "item",
-      "id": 8613,
-      "name": "Herb of the Mystic NG",
-      "url": "/lu4/item/8613-herb-of-the-mystic"
+      "id": 4053,
+      "name": "Ring of Black Ore Gemstone NG",
+      "url": "/lu4/item/4053-ring-of-black-ore-gemstone"
     },
     {
-      "key": "item:8612",
+      "key": "item:4052",
       "type": "item",
-      "id": 8612,
-      "name": "Herb of the Warrior NG",
-      "url": "/lu4/item/8612-herb-of-the-warrior"
+      "id": 4052,
+      "name": "Earring of Black Ore Piece NG",
+      "url": "/lu4/item/4052-earring-of-black-ore-piece"
     },
     {
-      "key": "item:8611",
+      "key": "item:864",
       "type": "item",
-      "id": 8611,
-      "name": "Herb of Speed NG",
-      "url": "/lu4/item/8611-herb-of-speed"
+      "id": 864,
+      "name": "Earring of Black Ore B",
+      "url": "/lu4/item/864-earring-of-black-ore"
     },
     {
-      "key": "item:8610",
+      "key": "item:926",
       "type": "item",
-      "id": 8610,
-      "name": "Herb of Critical Attack - Probability NG",
-      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+      "id": 926,
+      "name": "Necklace of Black Ore B",
+      "url": "/lu4/item/926-necklace-of-black-ore"
     },
     {
-      "key": "item:8609",
+      "key": "item:895",
       "type": "item",
-      "id": 8609,
-      "name": "Herb of Casting Spd. NG",
-      "url": "/lu4/item/8609-herb-of-casting-spd"
-    },
-    {
-      "key": "item:8608",
-      "type": "item",
-      "id": 8608,
-      "name": "Herb of Alacrity NG",
-      "url": "/lu4/item/8608-herb-of-alacrity"
-    },
-    {
-      "key": "item:8607",
-      "type": "item",
-      "id": 8607,
-      "name": "Herb of Magic NG",
-      "url": "/lu4/item/8607-herb-of-magic"
-    },
-    {
-      "key": "item:8606",
-      "type": "item",
-      "id": 8606,
-      "name": "Herb of Power NG",
-      "url": "/lu4/item/8606-herb-of-power"
-    },
-    {
-      "key": "item:8605",
-      "type": "item",
-      "id": 8605,
-      "name": "Superior Herb of Mana NG",
-      "url": "/lu4/item/8605-superior-herb-of-mana"
-    },
-    {
-      "key": "item:8604",
-      "type": "item",
-      "id": 8604,
-      "name": "Greater Herb of Mana NG",
-      "url": "/lu4/item/8604-greater-herb-of-mana"
-    },
-    {
-      "key": "item:8603",
-      "type": "item",
-      "id": 8603,
-      "name": "Herb of Mana NG",
-      "url": "/lu4/item/8603-herb-of-mana"
-    },
-    {
-      "key": "item:8602",
-      "type": "item",
-      "id": 8602,
-      "name": "Superior Herb of Life NG",
-      "url": "/lu4/item/8602-superior-herb-of-life"
-    },
-    {
-      "key": "item:8601",
-      "type": "item",
-      "id": 8601,
-      "name": "Greater Herb of Life NG",
-      "url": "/lu4/item/8601-greater-herb-of-life"
+      "id": 895,
+      "name": "Ring of Black Ore B",
+      "url": "/lu4/item/895-ring-of-black-ore"
     },
     {
       "key": "item:8600",
@@ -171,32 +119,95 @@
       "url": "/lu4/item/8600-herb-of-life"
     },
     {
-      "key": "item:5550",
+      "key": "item:8601",
       "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 8601,
+      "name": "Greater Herb of Life NG",
+      "url": "/lu4/item/8601-greater-herb-of-life"
     },
     {
-      "key": "item:5549",
+      "key": "item:8602",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
+      "id": 8602,
+      "name": "Superior Herb of Life NG",
+      "url": "/lu4/item/8602-superior-herb-of-life"
     },
     {
-      "key": "item:5466",
+      "key": "item:8607",
       "type": "item",
-      "id": 5466,
-      "name": "Recipe: Sword of Miracles(60%) NG",
-      "url": "/lu4/item/5466-recipe-sword-of-miracles60"
+      "id": 8607,
+      "name": "Herb of Magic NG",
+      "url": "/lu4/item/8607-herb-of-magic"
     },
     {
-      "key": "item:5444",
+      "key": "item:8609",
       "type": "item",
-      "id": 5444,
-      "name": "Recipe: Carnage Bow(60%) NG",
-      "url": "/lu4/item/5444-recipe-carnage-bow60"
+      "id": 8609,
+      "name": "Herb of Casting Spd. NG",
+      "url": "/lu4/item/8609-herb-of-casting-spd"
+    },
+    {
+      "key": "item:8603",
+      "type": "item",
+      "id": 8603,
+      "name": "Herb of Mana NG",
+      "url": "/lu4/item/8603-herb-of-mana"
+    },
+    {
+      "key": "item:8604",
+      "type": "item",
+      "id": 8604,
+      "name": "Greater Herb of Mana NG",
+      "url": "/lu4/item/8604-greater-herb-of-mana"
+    },
+    {
+      "key": "item:8605",
+      "type": "item",
+      "id": 8605,
+      "name": "Superior Herb of Mana NG",
+      "url": "/lu4/item/8605-superior-herb-of-mana"
+    },
+    {
+      "key": "item:8606",
+      "type": "item",
+      "id": 8606,
+      "name": "Herb of Power NG",
+      "url": "/lu4/item/8606-herb-of-power"
+    },
+    {
+      "key": "item:8608",
+      "type": "item",
+      "id": 8608,
+      "name": "Herb of Alacrity NG",
+      "url": "/lu4/item/8608-herb-of-alacrity"
+    },
+    {
+      "key": "item:8610",
+      "type": "item",
+      "id": 8610,
+      "name": "Herb of Critical Attack - Probability NG",
+      "url": "/lu4/item/8610-herb-of-critical-attack-probability"
+    },
+    {
+      "key": "item:8611",
+      "type": "item",
+      "id": 8611,
+      "name": "Herb of Speed NG",
+      "url": "/lu4/item/8611-herb-of-speed"
+    },
+    {
+      "key": "item:8612",
+      "type": "item",
+      "id": 8612,
+      "name": "Herb of the Warrior NG",
+      "url": "/lu4/item/8612-herb-of-the-warrior"
+    },
+    {
+      "key": "item:4120",
+      "type": "item",
+      "id": 4120,
+      "name": "Bellion Cestus Edge NG",
+      "url": "/lu4/item/4120-bellion-cestus-edge"
     },
     {
       "key": "item:4121",
@@ -206,11 +217,11 @@
       "url": "/lu4/item/4121-bow-of-peril-shaft"
     },
     {
-      "key": "item:4120",
+      "key": "item:5444",
       "type": "item",
-      "id": 4120,
-      "name": "Bellion Cestus Edge NG",
-      "url": "/lu4/item/4120-bellion-cestus-edge"
+      "id": 5444,
+      "name": "Recipe: Carnage Bow(60%) NG",
+      "url": "/lu4/item/5444-recipe-carnage-bow60"
     }
   ]
 }

@@ -2,133 +2,95 @@
   "key": "npc:20204",
   "type": "npc",
   "id": 20204,
-  "name": "Lu4 Wiki: NPC Bloody Bee",
+  "name": "Bloody Bee",
   "url": "/lu4/npc/20204-bloody-bee",
-  "source_url": "https://masterwork.wiki/lu4/npc/20204-bloody-bee",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20204-bloody-bee",
   "raw_html": "library/raw/lu4/npc/20204-bloody-bee.html",
   "stats": {
-    "Location": "Земли Диона (+4) Земли Диона Земли Глудио Туманные Горы Охотничьи Угодья Зла Равнины Диона"
+    "Respawn Time": "15 seconds",
+    "Location": "Земли Диона (+4) Земли Диона Земли Глудио Туманные Горы Охотничьи Угодья Зла Равнины Диона",
+    "HP / MP": "632 / 285",
+    "P. Atk. / M. Atk.": "88 / 48",
+    "P. Def. / M. Def.": "108 / 82",
+    "Accuracy / Evasion": "56 / 61",
+    "Exp / SP": "678 / 68",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 23"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20204",
-      "type": "npc",
-      "id": 20204,
-      "name": "Lu4",
-      "url": "/lu4/npc/20204-bloody-bee"
-    },
-    {
-      "key": "location:3",
-      "type": "location",
-      "id": 3,
-      "name": "Земли Диона",
-      "url": "/lu4/location/3-zemli-diona"
-    },
-    {
-      "key": "location:2",
-      "type": "location",
-      "id": 2,
-      "name": "Земли Глудио",
-      "url": "/lu4/location/2-zemli-gludio"
-    },
-    {
-      "key": "location:10",
-      "type": "location",
-      "id": 10,
-      "name": "Туманные Горы",
-      "url": "/lu4/location/10-tumannye-gory"
-    },
-    {
-      "key": "location:229",
-      "type": "location",
-      "id": 229,
-      "name": "Охотничьи Угодья Зла",
-      "url": "/lu4/location/229-ohotnici-ugoda-zla"
-    },
-    {
-      "key": "location:241",
-      "type": "location",
-      "id": 241,
-      "name": "Равнины Диона",
-      "url": "/lu4/location/241-ravniny-diona"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4279",
       "type": "skill",
       "id": 4279,
-      "name": "Fire Vulnerability Lv. 1 Vulnerable to Fire attacks.",
-      "url": "/lu4/skill/4279-fire-vulnerability/1"
+      "name": "Fire Vulnerability",
+      "url": "/lu4/skill/4279-fire-vulnerability"
     },
     {
-      "key": "item:8332",
+      "key": "item:57",
       "type": "item",
-      "id": 8332,
-      "name": "Priest Sword Blade NG",
-      "url": "/lu4/item/8332-priest-sword-blade"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:7885",
+      "key": "item:846",
       "type": "item",
-      "id": 7885,
-      "name": "Priest Sword D",
-      "url": "/lu4/item/7885-priest-sword"
+      "id": 846,
+      "name": "Coral Earring NG",
+      "url": "/lu4/item/846-coral-earring"
     },
     {
-      "key": "item:3953",
+      "key": "item:878",
       "type": "item",
-      "id": 3953,
-      "name": "Recipe: Blessed Spiritshot D NG",
-      "url": "/lu4/item/3953-recipe-blessed-spiritshot-d"
+      "id": 878,
+      "name": "Blue Coral Ring NG",
+      "url": "/lu4/item/878-blue-coral-ring"
     },
     {
-      "key": "item:2256",
+      "key": "item:909",
       "type": "item",
-      "id": 2256,
-      "name": "Recipe: Assassin Knife NG",
-      "url": "/lu4/item/2256-recipe-assassin-knife"
-    },
-    {
-      "key": "item:2255",
-      "type": "item",
-      "id": 2255,
-      "name": "Recipe: Saber NG",
-      "url": "/lu4/item/2255-recipe-saber"
+      "id": 909,
+      "name": "Blue Diamond Necklace NG",
+      "url": "/lu4/item/909-blue-diamond-necklace"
     },
     {
       "key": "item:1898",
@@ -166,25 +128,11 @@
       "url": "/lu4/item/1832-greater-antidote"
     },
     {
-      "key": "item:909",
+      "key": "item:3953",
       "type": "item",
-      "id": 909,
-      "name": "Blue Diamond Necklace NG",
-      "url": "/lu4/item/909-blue-diamond-necklace"
-    },
-    {
-      "key": "item:878",
-      "type": "item",
-      "id": 878,
-      "name": "Blue Coral Ring NG",
-      "url": "/lu4/item/878-blue-coral-ring"
-    },
-    {
-      "key": "item:846",
-      "type": "item",
-      "id": 846,
-      "name": "Coral Earring NG",
-      "url": "/lu4/item/846-coral-earring"
+      "id": 3953,
+      "name": "Recipe: Blessed Spiritshot D NG",
+      "url": "/lu4/item/3953-recipe-blessed-spiritshot-d"
     },
     {
       "key": "item:178",
@@ -201,25 +149,39 @@
       "url": "/lu4/item/101-scroll-of-wisdom"
     },
     {
-      "key": "item:57",
+      "key": "item:7885",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 7885,
+      "name": "Priest Sword D",
+      "url": "/lu4/item/7885-priest-sword"
     },
     {
-      "key": "item:8343",
+      "key": "item:8332",
       "type": "item",
-      "id": 8343,
-      "name": "Titan Hammer Piece NG",
-      "url": "/lu4/item/8343-titan-hammer-piece"
+      "id": 8332,
+      "name": "Priest Sword Blade NG",
+      "url": "/lu4/item/8332-priest-sword-blade"
     },
     {
-      "key": "item:2258",
+      "key": "item:2256",
       "type": "item",
-      "id": 2258,
-      "name": "Recipe: Temptation of Abyss NG",
-      "url": "/lu4/item/2258-recipe-temptation-of-abyss"
+      "id": 2256,
+      "name": "Recipe: Assassin Knife NG",
+      "url": "/lu4/item/2256-recipe-assassin-knife"
+    },
+    {
+      "key": "item:2255",
+      "type": "item",
+      "id": 2255,
+      "name": "Recipe: Saber NG",
+      "url": "/lu4/item/2255-recipe-saber"
+    },
+    {
+      "key": "item:1868",
+      "type": "item",
+      "id": 1868,
+      "name": "Thread NG",
+      "url": "/lu4/item/1868-thread"
     },
     {
       "key": "item:2014",
@@ -229,11 +191,11 @@
       "url": "/lu4/item/2014-iron-hammer-head"
     },
     {
-      "key": "item:1868",
+      "key": "item:2258",
       "type": "item",
-      "id": 1868,
-      "name": "Thread NG",
-      "url": "/lu4/item/1868-thread"
+      "id": 2258,
+      "name": "Recipe: Temptation of Abyss NG",
+      "url": "/lu4/item/2258-recipe-temptation-of-abyss"
     }
   ]
 }

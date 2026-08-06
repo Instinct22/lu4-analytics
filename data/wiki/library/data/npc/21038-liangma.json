@@ -2,182 +2,67 @@
   "key": "npc:21038",
   "type": "npc",
   "id": 21038,
-  "name": "Lu4 Wiki: NPC Liangma",
+  "name": "Liangma",
   "url": "/lu4/npc/21038-liangma",
-  "source_url": "https://masterwork.wiki/lu4/npc/21038-liangma",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21038-liangma",
   "raw_html": "library/raw/lu4/npc/21038-liangma.html",
   "stats": {
-    "Location": "Башня Крумы: 2-й этаж"
+    "Respawn Time": "1 minute ± 5 seconds",
+    "Location": "Башня Крумы: 2-й этаж",
+    "HP / MP": "8 957 / 887",
+    "P. Atk. / M. Atk.": "581 / 350",
+    "P. Def. / M. Def.": "257 / 220",
+    "Accuracy / Evasion": "82 / 86",
+    "Exp / SP": "11 082 / 1 108",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Evasion Lv. 1 Increases P. Evasion by 4. Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 49"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21038",
-      "type": "npc",
-      "id": 21038,
-      "name": "Lu4",
-      "url": "/lu4/npc/21038-liangma"
-    },
-    {
-      "key": "location:55",
-      "type": "location",
-      "id": 55,
-      "name": "Башня Крумы: 2-й этаж",
-      "url": "/lu4/location/55-basna-krumy-2-j-etaz"
-    },
-    {
       "key": "skill:4093",
       "type": "skill",
       "id": 4093,
-      "name": "Evasion Lv. 1 Increases P. Evasion by 4.",
-      "url": "/lu4/skill/4093-evasion/1"
+      "name": "Evasion",
+      "url": "/lu4/skill/4093-evasion"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
-    },
-    {
-      "key": "item:39300",
-      "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:2957",
-      "type": "item",
-      "id": 2957,
-      "name": "Composite Helmet Design NG",
-      "url": "/lu4/item/2957-composite-helmet-design"
-    },
-    {
-      "key": "item:2952",
-      "type": "item",
-      "id": 2952,
-      "name": "Demon's Boots Fabric NG",
-      "url": "/lu4/item/2952-demons-boots-fabric"
-    },
-    {
-      "key": "item:2435",
-      "type": "item",
-      "id": 2435,
-      "name": "Demon's Boots C",
-      "url": "/lu4/item/2435-demons-boots"
-    },
-    {
-      "key": "item:2091",
-      "type": "item",
-      "id": 2091,
-      "name": "Tsurugi Blade NG",
-      "url": "/lu4/item/2091-tsurugi-blade"
-    },
-    {
-      "key": "item:1895",
-      "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
-    },
-    {
-      "key": "item:517",
-      "type": "item",
-      "id": 517,
-      "name": "Composite Helmet C",
-      "url": "/lu4/item/517-composite-helmet"
-    },
-    {
-      "key": "item:77",
-      "type": "item",
-      "id": 77,
-      "name": "Tsurugi C",
-      "url": "/lu4/item/77-tsurugi"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "item:57",
@@ -187,11 +72,130 @@
       "url": "/lu4/item/57-adena"
     },
     {
+      "key": "item:1895",
+      "type": "item",
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:4043",
+      "type": "item",
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:517",
+      "type": "item",
+      "id": 517,
+      "name": "Composite Helmet C",
+      "url": "/lu4/item/517-composite-helmet"
+    },
+    {
+      "key": "item:2957",
+      "type": "item",
+      "id": 2957,
+      "name": "Composite Helmet Design NG",
+      "url": "/lu4/item/2957-composite-helmet-design"
+    },
+    {
+      "key": "item:2435",
+      "type": "item",
+      "id": 2435,
+      "name": "Demon's Boots C",
+      "url": "/lu4/item/2435-demons-boots"
+    },
+    {
+      "key": "item:2952",
+      "type": "item",
+      "id": 2952,
+      "name": "Demon's Boots Fabric NG",
+      "url": "/lu4/item/2952-demons-boots-fabric"
+    },
+    {
+      "key": "item:77",
+      "type": "item",
+      "id": 77,
+      "name": "Tsurugi C",
+      "url": "/lu4/item/77-tsurugi"
+    },
+    {
+      "key": "item:2091",
+      "type": "item",
+      "id": 2091,
+      "name": "Tsurugi Blade NG",
+      "url": "/lu4/item/2091-tsurugi-blade"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
+    },
+    {
       "key": "item:5231",
       "type": "item",
       "id": 5231,
       "name": "Recipe: Metal Hardener (100%) NG",
       "url": "/lu4/item/5231-recipe-metal-hardener-100"
+    },
+    {
+      "key": "item:2342",
+      "type": "item",
+      "id": 2342,
+      "name": "Recipe: Club of Nature NG",
+      "url": "/lu4/item/2342-recipe-club-of-nature"
     },
     {
       "key": "item:2345",
@@ -201,11 +205,11 @@
       "url": "/lu4/item/2345-recipe-dark-screamer"
     },
     {
-      "key": "item:2342",
+      "key": "item:1914",
       "type": "item",
-      "id": 2342,
-      "name": "Recipe: Club of Nature NG",
-      "url": "/lu4/item/2342-recipe-club-of-nature"
+      "id": 1914,
+      "name": "Earring of Seal Gemstone NG",
+      "url": "/lu4/item/1914-earring-of-seal-gemstone"
     },
     {
       "key": "item:2108",
@@ -220,13 +224,6 @@
       "id": 2106,
       "name": "Grace Dagger Edge NG",
       "url": "/lu4/item/2106-grace-dagger-edge"
-    },
-    {
-      "key": "item:1914",
-      "type": "item",
-      "id": 1914,
-      "name": "Earring of Seal Gemstone NG",
-      "url": "/lu4/item/1914-earring-of-seal-gemstone"
     }
   ]
 }

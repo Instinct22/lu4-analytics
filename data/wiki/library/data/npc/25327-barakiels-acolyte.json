@@ -2,40 +2,44 @@
   "key": "npc:25327",
   "type": "npc",
   "id": 25327,
-  "name": "Lu4 Wiki: NPC Barakiel's Acolyte",
+  "name": "Barakiel's Acolyte",
   "url": "/lu4/npc/25327-barakiels-acolyte",
-  "source_url": "https://masterwork.wiki/lu4/npc/25327-barakiels-acolyte",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25327-barakiels-acolyte",
   "raw_html": "library/raw/lu4/npc/25327-barakiels-acolyte.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "46 520 / 2 063",
+    "P. Atk. / M. Atk.": "3 876 / 12 563",
+    "P. Def. / M. Def.": "860 / 866",
+    "Accuracy / Evasion": "121 / 121",
+    "Exp / SP": "0 / 2 260",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Resist Full Magic Attack Lv. 1",
+    "Grade": "A",
+    "Type": "Angel, Lv. 74"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25327",
-      "type": "npc",
-      "id": 25327,
-      "name": "Lu4",
-      "url": "/lu4/npc/25327-barakiels-acolyte"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Angels Lv. 8 Takes 15% increased damage from attacks that are effective against Angels. M. Def. +5% Accuracy +10 Resistance to Holy +10% Atk. Spd. -5% Resistance to Dark -10% Resistance to debuffs +15%",
-      "url": "/lu4/skill/4416-angels/8"
+      "name": "Angels",
+      "url": "/lu4/skill/4416-angels"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:1344",

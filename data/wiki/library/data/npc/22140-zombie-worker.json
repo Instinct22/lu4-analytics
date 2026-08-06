@@ -2,131 +2,107 @@
   "key": "npc:22140",
   "type": "npc",
   "id": 22140,
-  "name": "Lu4 Wiki: NPC Zombie Worker",
+  "name": "Zombie Worker",
   "url": "/lu4/npc/22140-zombie-worker",
-  "source_url": "https://masterwork.wiki/lu4/npc/22140-zombie-worker",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22140-zombie-worker",
   "raw_html": "library/raw/lu4/npc/22140-zombie-worker.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "18 568 / 2 084",
+    "P. Atk. / M. Atk.": "1 851 / 1 191",
+    "P. Def. / M. Def.": "685 / 620",
+    "Accuracy / Evasion": "125 / 121",
+    "Exp / SP": "54 607 / 2 600",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -10, Unholy 60",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion. One-handed Sword Lv. 3 One-handed Sword Undead Lv. 35 Undead. High Lv. Lv. 6 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22140",
-      "type": "npc",
-      "id": 22140,
-      "name": "Lu4",
-      "url": "/lu4/npc/22140-zombie-worker"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Heavy Armor Type Lv. 1 Strong P. Def. and weak Evasion.",
-      "url": "/lu4/skill/4414-heavy-armor-type/1"
+      "name": "Heavy Armor Type",
+      "url": "/lu4/skill/4414-heavy-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Undead Lv. 35 Undead.",
-      "url": "/lu4/skill/4417-undead/35"
+      "name": "Undead",
+      "url": "/lu4/skill/4417-undead"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 6 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/6"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32393",
-      "type": "item",
-      "id": 32393,
-      "name": "Unidentified Sealed Majestic Boots A",
-      "url": "/lu4/item/32393-unidentified-sealed-majestic-boots"
-    },
-    {
-      "key": "item:32392",
-      "type": "item",
-      "id": 32392,
-      "name": "Unidentified Sealed Majestic Gauntlets A",
-      "url": "/lu4/item/32392-unidentified-sealed-majestic-gauntlets"
-    },
-    {
-      "key": "item:32388",
-      "type": "item",
-      "id": 32388,
-      "name": "Unidentified Sealed Boots of Nightmare A",
-      "url": "/lu4/item/32388-unidentified-sealed-boots-of-nightmare"
-    },
-    {
-      "key": "item:8273",
-      "type": "item",
-      "id": 8273,
-      "name": "Anteroom Key NG",
-      "url": "/lu4/item/8273-anteroom-key"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5515",
@@ -157,46 +133,46 @@
       "url": "/lu4/item/5502-sealed-boots-of-nightmare-lining"
     },
     {
+      "key": "item:32393",
+      "type": "item",
+      "id": 32393,
+      "name": "Unidentified Sealed Majestic Boots A",
+      "url": "/lu4/item/32393-unidentified-sealed-majestic-boots"
+    },
+    {
+      "key": "item:32392",
+      "type": "item",
+      "id": 32392,
+      "name": "Unidentified Sealed Majestic Gauntlets A",
+      "url": "/lu4/item/32392-unidentified-sealed-majestic-gauntlets"
+    },
+    {
+      "key": "item:32388",
+      "type": "item",
+      "id": 32388,
+      "name": "Unidentified Sealed Boots of Nightmare A",
+      "url": "/lu4/item/32388-unidentified-sealed-boots-of-nightmare"
+    },
+    {
+      "key": "item:8273",
+      "type": "item",
+      "id": 8273,
+      "name": "Anteroom Key NG",
+      "url": "/lu4/item/8273-anteroom-key"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
       "key": "item:4041",
       "type": "item",
       "id": 4041,
       "name": "Mold Hardener NG",
       "url": "/lu4/item/4041-mold-hardener"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1344",
-      "type": "item",
-      "id": 1344,
-      "name": "Mithril Arrow A",
-      "url": "/lu4/item/1344-mithril-arrow"
     },
     {
       "key": "item:960",
@@ -206,18 +182,39 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:1344",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1344,
+      "name": "Mithril Arrow A",
+      "url": "/lu4/item/1344-mithril-arrow"
     },
     {
-      "key": "item:5495",
+      "key": "item:1866",
       "type": "item",
-      "id": 5495,
-      "name": "Sealed Shield of Nightmare Fragment NG",
-      "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
     },
     {
       "key": "item:5488",
@@ -225,6 +222,13 @@
       "id": 5488,
       "name": "Sealed Majestic Robe Fabric NG",
       "url": "/lu4/item/5488-sealed-majestic-robe-fabric"
+    },
+    {
+      "key": "item:5495",
+      "type": "item",
+      "id": 5495,
+      "name": "Sealed Shield of Nightmare Fragment NG",
+      "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
     },
     {
       "key": "item:730",

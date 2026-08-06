@@ -2,104 +2,24 @@
   "key": "item:2195",
   "type": "item",
   "id": 2195,
-  "name": "Recipe",
+  "name": "Recipe: Half Plate Armor",
   "url": "/lu4/item/2195-recipe-half-plate-armor",
-  "source_url": "https://masterwork.wiki/lu4/item/2195-recipe-half-plate-armor",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2195-recipe-half-plate-armor",
   "raw_html": "library/raw/lu4/item/2195-recipe-half-plate-armor.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Half Plate Armor'. Requires Create Item - Skill Level 3 (Artisan Lv. 28). The success rate is 100%.",
+    "NPC Sell Price": "3 910 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "3",
     "MP Consume": "129",
     "Success Rate": "100%",
-    "Result": "Half Plate Armor D"
+    "Result": "Half Plate Armor D",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1950",
-      "type": "item",
-      "id": 1950,
-      "name": "Half Plate Temper NG",
-      "amount": "8"
-    },
-    {
-      "key": "item:1883",
-      "type": "item",
-      "id": 1883,
-      "name": "Steel Mold NG",
-      "amount": "3"
-    },
-    {
-      "key": "item:1878",
-      "type": "item",
-      "id": 1878,
-      "name": "Braided Hemp NG",
-      "amount": "15"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "amount": "75"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "15"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "amount": "15"
-    },
-    {
-      "key": "item:1880",
-      "type": "item",
-      "id": 1880,
-      "name": "Steel NG",
-      "amount": "70"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "amount": "350"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "amount": "350"
-    },
-    {
-      "key": "item:1458",
-      "type": "item",
-      "id": 1458,
-      "name": "Crystal (D-Grade) D",
-      "amount": "120"
-    },
-    {
-      "key": "item:2130",
-      "type": "item",
-      "id": 2130,
-      "name": "Gemstone D NG",
-      "amount": "32"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2195",
-      "type": "item",
-      "id": 2195,
-      "name": "Lu4",
-      "url": "/lu4/item/2195-recipe-half-plate-armor"
-    },
     {
       "key": "item:1950",
       "type": "item",
@@ -181,35 +101,35 @@
       "key": "npc:21694",
       "type": "npc",
       "id": 21694,
-      "name": "Dimension Invader Food Lv. 40",
+      "name": "Dimension Invader Food",
       "url": "/lu4/npc/21694-dimension-invader-food"
     },
     {
       "key": "npc:20789",
       "type": "npc",
       "id": 20789,
-      "name": "Crokian Lv. 36",
+      "name": "Crokian",
       "url": "/lu4/npc/20789-crokian"
     },
     {
       "key": "npc:20551",
       "type": "npc",
       "id": 20551,
-      "name": "Road Scavenger Lv. 37",
+      "name": "Road Scavenger",
       "url": "/lu4/npc/20551-road-scavenger"
     },
     {
       "key": "npc:21641",
       "type": "npc",
       "id": 21641,
-      "name": "Ogre Lv. 38",
+      "name": "Ogre",
       "url": "/lu4/npc/21641-ogre"
     },
     {
       "key": "npc:21269",
       "type": "npc",
       "id": 21269,
-      "name": "Cave Ant Lv. 37",
+      "name": "Cave Ant",
       "url": "/lu4/npc/21269-cave-ant"
     }
   ]

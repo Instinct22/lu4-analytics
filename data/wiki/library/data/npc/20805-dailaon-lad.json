@@ -2,70 +2,53 @@
   "key": "npc:20805",
   "type": "npc",
   "id": 20805,
-  "name": "Lu4 Wiki: NPC Dailaon Lad",
+  "name": "Dailaon Lad",
   "url": "/lu4/npc/20805-dailaon-lad",
-  "source_url": "https://masterwork.wiki/lu4/npc/20805-dailaon-lad",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20805-dailaon-lad",
   "raw_html": "library/raw/lu4/npc/20805-dailaon-lad.html",
   "stats": {
-    "Location": "Остров Аллигаторов"
+    "Respawn Time": "30 seconds",
+    "Location": "Остров Аллигаторов",
+    "HP / MP": "3 274 / 654",
+    "P. Atk. / M. Atk.": "707 / 157",
+    "P. Def. / M. Def.": "215 / 175",
+    "Accuracy / Evasion": "75 / 75",
+    "Exp / SP": "3 442 / 344",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 13",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 42"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20805",
-      "type": "npc",
-      "id": 20805,
-      "name": "Lu4",
-      "url": "/lu4/npc/20805-dailaon-lad"
-    },
-    {
-      "key": "location:120",
-      "type": "location",
-      "id": 120,
-      "name": "Остров Аллигаторов",
-      "url": "/lu4/location/120-ostrov-alligatorov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5164",
@@ -73,76 +56,6 @@
       "id": 5164,
       "name": "Recipe: Blessed Spiritshot (C) Compressed Package (100%) NG",
       "url": "/lu4/item/5164-recipe-blessed-spiritshot-c-compressed-package-100"
-    },
-    {
-      "key": "item:4926",
-      "type": "item",
-      "id": 4926,
-      "name": "Amulet: Soul Guard NG",
-      "url": "/lu4/item/4926-amulet-soul-guard"
-    },
-    {
-      "key": "item:3112",
-      "type": "item",
-      "id": 3112,
-      "name": "Amulet: Vision of Pa'agrio NG",
-      "url": "/lu4/item/3112-amulet-vision-of-paagrio"
-    },
-    {
-      "key": "item:3080",
-      "type": "item",
-      "id": 3080,
-      "name": "Spellbook: Sleeping Cloud NG",
-      "url": "/lu4/item/3080-spellbook-sleeping-cloud"
-    },
-    {
-      "key": "item:3057",
-      "type": "item",
-      "id": 3057,
-      "name": "Spellbook: Summon Reanimated Man NG",
-      "url": "/lu4/item/3057-spellbook-summon-reanimated-man"
-    },
-    {
-      "key": "item:2988",
-      "type": "item",
-      "id": 2988,
-      "name": "Recipe: Reinforced Mithril Gaiters NG",
-      "url": "/lu4/item/2988-recipe-reinforced-mithril-gaiters"
-    },
-    {
-      "key": "item:2300",
-      "type": "item",
-      "id": 2300,
-      "name": "Recipe: Scythe NG",
-      "url": "/lu4/item/2300-recipe-scythe"
-    },
-    {
-      "key": "item:2207",
-      "type": "item",
-      "id": 2207,
-      "name": "Recipe: Karmian Tunic NG",
-      "url": "/lu4/item/2207-recipe-karmian-tunic"
-    },
-    {
-      "key": "item:2066",
-      "type": "item",
-      "id": 2066,
-      "name": "Heavy Doom Hammer Head NG",
-      "url": "/lu4/item/2066-heavy-doom-hammer-head"
-    },
-    {
-      "key": "item:2064",
-      "type": "item",
-      "id": 2064,
-      "name": "Silver Axe Head NG",
-      "url": "/lu4/item/2064-silver-axe-head"
-    },
-    {
-      "key": "item:1909",
-      "type": "item",
-      "id": 1909,
-      "name": "Aquastone Ring Wire NG",
-      "url": "/lu4/item/1909-aquastone-ring-wire"
     },
     {
       "key": "item:1895",
@@ -159,11 +72,25 @@
       "url": "/lu4/item/883-aquastone-ring"
     },
     {
+      "key": "item:1909",
+      "type": "item",
+      "id": 1909,
+      "name": "Aquastone Ring Wire NG",
+      "url": "/lu4/item/1909-aquastone-ring-wire"
+    },
+    {
       "key": "item:191",
       "type": "item",
       "id": 191,
       "name": "Heavy Doom Hammer C",
       "url": "/lu4/item/191-heavy-doom-hammer"
+    },
+    {
+      "key": "item:2066",
+      "type": "item",
+      "id": 2066,
+      "name": "Heavy Doom Hammer Head NG",
+      "url": "/lu4/item/2066-heavy-doom-hammer-head"
     },
     {
       "key": "item:161",
@@ -173,11 +100,81 @@
       "url": "/lu4/item/161-silver-axe"
     },
     {
-      "key": "item:57",
+      "key": "item:2064",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2064,
+      "name": "Silver Axe Head NG",
+      "url": "/lu4/item/2064-silver-axe-head"
+    },
+    {
+      "key": "item:2207",
+      "type": "item",
+      "id": 2207,
+      "name": "Recipe: Karmian Tunic NG",
+      "url": "/lu4/item/2207-recipe-karmian-tunic"
+    },
+    {
+      "key": "item:2300",
+      "type": "item",
+      "id": 2300,
+      "name": "Recipe: Scythe NG",
+      "url": "/lu4/item/2300-recipe-scythe"
+    },
+    {
+      "key": "item:2988",
+      "type": "item",
+      "id": 2988,
+      "name": "Recipe: Reinforced Mithril Gaiters NG",
+      "url": "/lu4/item/2988-recipe-reinforced-mithril-gaiters"
+    },
+    {
+      "key": "item:3112",
+      "type": "item",
+      "id": 3112,
+      "name": "Amulet: Vision of Pa'agrio NG",
+      "url": "/lu4/item/3112-amulet-vision-of-paagrio"
+    },
+    {
+      "key": "item:3080",
+      "type": "item",
+      "id": 3080,
+      "name": "Spellbook: Sleeping Cloud NG",
+      "url": "/lu4/item/3080-spellbook-sleeping-cloud"
+    },
+    {
+      "key": "item:4926",
+      "type": "item",
+      "id": 4926,
+      "name": "Amulet: Soul Guard NG",
+      "url": "/lu4/item/4926-amulet-soul-guard"
+    },
+    {
+      "key": "item:3057",
+      "type": "item",
+      "id": 3057,
+      "name": "Spellbook: Summon Reanimated Man NG",
+      "url": "/lu4/item/3057-spellbook-summon-reanimated-man"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:3954",
@@ -187,18 +184,18 @@
       "url": "/lu4/item/3954-recipe-blessed-spiritshot-c"
     },
     {
-      "key": "item:2997",
-      "type": "item",
-      "id": 2997,
-      "name": "Recipe: Karmian Gloves NG",
-      "url": "/lu4/item/2997-recipe-karmian-gloves"
-    },
-    {
       "key": "item:2307",
       "type": "item",
       "id": 2307,
       "name": "Recipe: Heavy Doom Axe NG",
       "url": "/lu4/item/2307-recipe-heavy-doom-axe"
+    },
+    {
+      "key": "item:2997",
+      "type": "item",
+      "id": 2997,
+      "name": "Recipe: Karmian Gloves NG",
+      "url": "/lu4/item/2997-recipe-karmian-gloves"
     },
     {
       "key": "item:1959",

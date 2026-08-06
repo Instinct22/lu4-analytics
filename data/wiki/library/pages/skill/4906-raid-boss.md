@@ -1,0 +1,18 @@
+# Raid Boss
+
+- Source: https://masterwork.wiki/lu4-b-w-c/skill/4906-raid-boss
+- Path: /lu4/skill/4906-raid-boss
+- Type: skill
+- Key: skill:4906
+
+## Stats
+- Effect: Fire Spirit summoned by Ketra Orcs' Guide of Dead Souls Asefa. Possessed with a strong propensity to wildness and violence, he tends to burn or destroy anything near him. He gave Ketra's Chief Brakki the power of the beasts, and is the power source of spells used by Asefa.
+- Consumes: 0 MP
+- Reuse Time: 0 seconds
+- Can be used on Olympiad: No
+- Attribute: None
+- Trait: trait_none
+- Type: Passive / Ability
+
+## Content
+Raid Boss Lv. 1 Passive / Ability Fire Spirit summoned by Ketra Orcs' Guide of Dead Souls Asefa. Possessed with a strong propensity to wildness and violence, he tends to burn or destroy anything near him. He gave Ketra's Chief Brakki the power of the beasts, and is the power source of spells used by Asefa. Consumes 0 MP Reuse Time 0 seconds Can be used on Olympiad No Attribute None Trait trait_none

@@ -2,98 +2,116 @@
   "key": "npc:20345",
   "type": "npc",
   "id": 20345,
-  "name": "Lu4 Wiki: NPC Dark Terror",
+  "name": "Dark Terror",
   "url": "/lu4/npc/20345-dark-terror",
-  "source_url": "https://masterwork.wiki/lu4/npc/20345-dark-terror",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20345-dark-terror",
   "raw_html": "library/raw/lu4/npc/20345-dark-terror.html",
   "stats": {
-    "Location": "Эльфийская Крепость (+1) Эльфийская Крепость Нейтральные Воды"
+    "Respawn Time": "35 seconds",
+    "Location": "Эльфийская Крепость (+1) Эльфийская Крепость Нейтральные Воды",
+    "HP / MP": "853 / 193",
+    "P. Atk. / M. Atk.": "50 / 26",
+    "P. Def. / M. Def.": "80 / 62",
+    "Accuracy / Evasion": "49 / 49",
+    "Exp / SP": "811 / 81",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 16"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20345",
-      "type": "npc",
-      "id": 20345,
-      "name": "Lu4",
-      "url": "/lu4/npc/20345-dark-terror"
-    },
-    {
-      "key": "location:114",
-      "type": "location",
-      "id": 114,
-      "name": "Эльфийская Крепость",
-      "url": "/lu4/location/114-elfijskaa-krepost"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:5268",
+      "key": "item:57",
       "type": "item",
-      "id": 5268,
-      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:24",
+      "type": "item",
+      "id": 24,
+      "name": "Bone Breastplate NG",
+      "url": "/lu4/item/24-bone-breastplate"
+    },
+    {
+      "key": "item:31",
+      "type": "item",
+      "id": 31,
+      "name": "Bone Gaiters NG",
+      "url": "/lu4/item/31-bone-gaiters"
+    },
+    {
+      "key": "item:390",
+      "type": "item",
+      "id": 390,
+      "name": "Cotton Shirt NG",
+      "url": "/lu4/item/390-cotton-shirt"
+    },
+    {
+      "key": "item:412",
+      "type": "item",
+      "id": 412,
+      "name": "Cotton Pants NG",
+      "url": "/lu4/item/412-cotton-pants"
     },
     {
       "key": "item:1871",
@@ -124,46 +142,18 @@
       "url": "/lu4/item/1800-recipe-piece-bone-breastplate"
     },
     {
-      "key": "item:412",
+      "key": "item:5268",
       "type": "item",
-      "id": 412,
-      "name": "Cotton Pants NG",
-      "url": "/lu4/item/412-cotton-pants"
+      "id": 5268,
+      "name": "Recipe: Greater Soulshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5268-recipe-greater-soulshot-d-compressed-package-100"
     },
     {
-      "key": "item:390",
+      "key": "item:1925",
       "type": "item",
-      "id": 390,
-      "name": "Cotton Shirt NG",
-      "url": "/lu4/item/390-cotton-shirt"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:31",
-      "type": "item",
-      "id": 31,
-      "name": "Bone Gaiters NG",
-      "url": "/lu4/item/31-bone-gaiters"
-    },
-    {
-      "key": "item:24",
-      "type": "item",
-      "id": 24,
-      "name": "Bone Breastplate NG",
-      "url": "/lu4/item/24-bone-breastplate"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
+      "id": 1925,
+      "name": "Leather Gloves Lining NG",
+      "url": "/lu4/item/1925-leather-gloves-lining"
     },
     {
       "key": "item:2174",
@@ -173,11 +163,11 @@
       "url": "/lu4/item/2174-recipe-hard-leather-gaiters"
     },
     {
-      "key": "item:1925",
+      "key": "item:5220",
       "type": "item",
-      "id": 1925,
-      "name": "Leather Gloves Lining NG",
-      "url": "/lu4/item/1925-leather-gloves-lining"
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
     }
   ]
 }

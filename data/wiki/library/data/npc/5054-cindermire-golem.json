@@ -2,161 +2,81 @@
   "key": "npc:5054",
   "type": "npc",
   "id": 5054,
-  "name": "Lu4 Wiki: NPC Cindermire Golem",
+  "name": "Cindermire Golem",
   "url": "/lu4/npc/5054-cindermire-golem",
-  "source_url": "https://masterwork.wiki/lu4/npc/5054-cindermire-golem",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5054-cindermire-golem",
   "raw_html": "library/raw/lu4/npc/5054-cindermire-golem.html",
   "stats": {
-    "Location": "Раскаленные Топи"
+    "Respawn Time": "45 seconds ± 5 seconds",
+    "Location": "Раскаленные Топи",
+    "HP / MP": "9 862 / 1 110",
+    "P. Atk. / M. Atk.": "1 866 / 918",
+    "P. Def. / M. Def.": "709 / 506",
+    "Accuracy / Evasion": "107 / 107",
+    "Exp / SP": "13 484 / 1 348",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Def. Lv. 12 Slightly Strong P. Def. Lv. 12 Bow/Crossbow Resistance Lv. 2 Resistant to Bow/Crossbow attacks. Stun Attack Resistance Lv. 5 Resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 72"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:5054",
-      "type": "npc",
-      "id": 5054,
-      "name": "Lu4",
-      "url": "/lu4/npc/5054-cindermire-golem"
-    },
-    {
-      "key": "location:95",
-      "type": "location",
-      "id": 95,
-      "name": "Раскаленные Топи",
-      "url": "/lu4/location/95-raskalennye-topi"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4071",
       "type": "skill",
       "id": 4071,
-      "name": "Bow/Crossbow Resistance Lv. 2 Resistant to Bow/Crossbow attacks.",
-      "url": "/lu4/skill/4071-bowcrossbow-resistance/2"
+      "name": "Bow/Crossbow Resistance",
+      "url": "/lu4/skill/4071-bowcrossbow-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32368",
-      "type": "item",
-      "id": 32368,
-      "name": "Unidentified Meteor Shower A",
-      "url": "/lu4/item/32368-unidentified-meteor-shower"
-    },
-    {
-      "key": "item:32327",
-      "type": "item",
-      "id": 32327,
-      "name": "Unidentified Halberd A",
-      "url": "/lu4/item/32327-unidentified-halberd"
-    },
-    {
-      "key": "item:10106",
-      "type": "item",
-      "id": 10106,
-      "name": "Amulet: Seal of Blockade NG",
-      "url": "/lu4/item/10106-amulet-seal-of-blockade"
-    },
-    {
-      "key": "item:8905",
-      "type": "item",
-      "id": 8905,
-      "name": "Spellbook: Purification Field NG",
-      "url": "/lu4/item/8905-spellbook-purification-field"
-    },
-    {
-      "key": "item:8877",
-      "type": "item",
-      "id": 8877,
-      "name": "Spellbook: Soul of the Phoenix NG",
-      "url": "/lu4/item/8877-spellbook-soul-of-the-phoenix"
-    },
-    {
-      "key": "item:8300",
-      "type": "item",
-      "id": 8300,
-      "name": "Recipe: Infernal Master (60%) NG",
-      "url": "/lu4/item/8300-recipe-infernal-master-60"
-    },
-    {
-      "key": "item:7651",
-      "type": "item",
-      "id": 7651,
-      "name": "Spellbook: Wind Vortex NG",
-      "url": "/lu4/item/7651-spellbook-wind-vortex"
-    },
-    {
-      "key": "item:5542",
-      "type": "item",
-      "id": 5542,
-      "name": "Halberd Edge NG",
-      "url": "/lu4/item/5542-halberd-edge"
-    },
-    {
-      "key": "item:5532",
-      "type": "item",
-      "id": 5532,
-      "name": "Meteor Shower Head NG",
-      "url": "/lu4/item/5532-meteor-shower-head"
-    },
-    {
-      "key": "item:5460",
-      "type": "item",
-      "id": 5460,
-      "name": "Recipe: Dasparion's Staff(60%) NG",
-      "url": "/lu4/item/5460-recipe-dasparions-staff60"
-    },
-    {
-      "key": "item:5444",
-      "type": "item",
-      "id": 5444,
-      "name": "Recipe: Carnage Bow(60%) NG",
-      "url": "/lu4/item/5444-recipe-carnage-bow60"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4044",
@@ -187,6 +107,13 @@
       "url": "/lu4/item/1894-crafted-leather"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
       "key": "item:729",
       "type": "item",
       "id": 729,
@@ -194,32 +121,81 @@
       "url": "/lu4/item/729-scroll-enchant-weapon-a-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:32327",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32327,
+      "name": "Unidentified Halberd A",
+      "url": "/lu4/item/32327-unidentified-halberd"
     },
     {
-      "key": "item:6343",
+      "key": "item:5542",
       "type": "item",
-      "id": 6343,
-      "name": "Sealed Phoenix Necklace Beads NG",
-      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
+      "id": 5542,
+      "name": "Halberd Edge NG",
+      "url": "/lu4/item/5542-halberd-edge"
     },
     {
-      "key": "item:5535",
+      "key": "item:32368",
       "type": "item",
-      "id": 5535,
-      "name": "Carnage Bow Stave NG",
-      "url": "/lu4/item/5535-carnage-bow-stave"
+      "id": 32368,
+      "name": "Unidentified Meteor Shower A",
+      "url": "/lu4/item/32368-unidentified-meteor-shower"
     },
     {
-      "key": "item:5526",
+      "key": "item:5532",
       "type": "item",
-      "id": 5526,
-      "name": "Sealed Tallum Helm Design NG",
-      "url": "/lu4/item/5526-sealed-tallum-helm-design"
+      "id": 5532,
+      "name": "Meteor Shower Head NG",
+      "url": "/lu4/item/5532-meteor-shower-head"
+    },
+    {
+      "key": "item:5444",
+      "type": "item",
+      "id": 5444,
+      "name": "Recipe: Carnage Bow(60%) NG",
+      "url": "/lu4/item/5444-recipe-carnage-bow60"
+    },
+    {
+      "key": "item:5460",
+      "type": "item",
+      "id": 5460,
+      "name": "Recipe: Dasparion's Staff(60%) NG",
+      "url": "/lu4/item/5460-recipe-dasparions-staff60"
+    },
+    {
+      "key": "item:8300",
+      "type": "item",
+      "id": 8300,
+      "name": "Recipe: Infernal Master (60%) NG",
+      "url": "/lu4/item/8300-recipe-infernal-master-60"
+    },
+    {
+      "key": "item:8905",
+      "type": "item",
+      "id": 8905,
+      "name": "Spellbook: Purification Field NG",
+      "url": "/lu4/item/8905-spellbook-purification-field"
+    },
+    {
+      "key": "item:10106",
+      "type": "item",
+      "id": 10106,
+      "name": "Amulet: Seal of Blockade NG",
+      "url": "/lu4/item/10106-amulet-seal-of-blockade"
+    },
+    {
+      "key": "item:8877",
+      "type": "item",
+      "id": 8877,
+      "name": "Spellbook: Soul of the Phoenix NG",
+      "url": "/lu4/item/8877-spellbook-soul-of-the-phoenix"
+    },
+    {
+      "key": "item:7651",
+      "type": "item",
+      "id": 7651,
+      "name": "Spellbook: Wind Vortex NG",
+      "url": "/lu4/item/7651-spellbook-wind-vortex"
     },
     {
       "key": "item:5416",
@@ -234,6 +210,27 @@
       "id": 5392,
       "name": "Recipe: Sealed Dark Crystal Gloves(60%) NG",
       "url": "/lu4/item/5392-recipe-sealed-dark-crystal-gloves60"
+    },
+    {
+      "key": "item:5535",
+      "type": "item",
+      "id": 5535,
+      "name": "Carnage Bow Stave NG",
+      "url": "/lu4/item/5535-carnage-bow-stave"
+    },
+    {
+      "key": "item:6343",
+      "type": "item",
+      "id": 6343,
+      "name": "Sealed Phoenix Necklace Beads NG",
+      "url": "/lu4/item/6343-sealed-phoenix-necklace-beads"
+    },
+    {
+      "key": "item:5526",
+      "type": "item",
+      "id": 5526,
+      "name": "Sealed Tallum Helm Design NG",
+      "url": "/lu4/item/5526-sealed-tallum-helm-design"
     }
   ]
 }

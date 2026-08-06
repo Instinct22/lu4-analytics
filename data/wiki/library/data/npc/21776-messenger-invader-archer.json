@@ -2,117 +2,107 @@
   "key": "npc:21776",
   "type": "npc",
   "id": 21776,
-  "name": "Lu4 Wiki: NPC Messenger Invader Archer",
+  "name": "Messenger Invader Archer",
   "url": "/lu4/npc/21776-messenger-invader-archer",
-  "source_url": "https://masterwork.wiki/lu4/npc/21776-messenger-invader-archer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21776-messenger-invader-archer",
   "raw_html": "library/raw/lu4/npc/21776-messenger-invader-archer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "14 433 / 2 012",
+    "P. Atk. / M. Atk.": "5 769 / 2 097",
+    "P. Def. / M. Def.": "640 / 472",
+    "Accuracy / Evasion": "125 / 143",
+    "Exp / SP": "28 326 / 3 291",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 MP Increase (1x) Lv. 1 Strong P. Atk. Lv. 14 Strong M. Atk. Lv. 14 Slightly Strong P. Def. Lv. 13 Weak M. Def. Lv. 8 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Bow Lv. 9 Bows Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons. High Lv. Lv. 8 NPC High Level",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21776",
-      "type": "npc",
-      "id": 21776,
-      "name": "Lu4",
-      "url": "/lu4/npc/21776-messenger-invader-archer"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 14",
-      "url": "/lu4/skill/4410-strong-p-atk/14"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Weak M. Def. Lv. 8",
-      "url": "/lu4/skill/4413-weak-m-def/8"
+      "name": "Weak M. Def.",
+      "url": "/lu4/skill/4413-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Bow Lv. 9 Bows",
-      "url": "/lu4/skill/4415-bow/9"
+      "name": "Bow",
+      "url": "/lu4/skill/4415-bow"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 8 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/8"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32397",
-      "type": "item",
-      "id": 32397,
-      "name": "Unidentified Sealed Majestic Robe A",
-      "url": "/lu4/item/32397-unidentified-sealed-majestic-robe"
-    },
-    {
-      "key": "item:32396",
-      "type": "item",
-      "id": 32396,
-      "name": "Unidentified Sealed Robe of Nightmare A",
-      "url": "/lu4/item/32396-unidentified-sealed-robe-of-nightmare"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5488",
@@ -127,6 +117,20 @@
       "id": 5487,
       "name": "Sealed Robe of Nightmare Fabric NG",
       "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
+    },
+    {
+      "key": "item:32397",
+      "type": "item",
+      "id": 32397,
+      "name": "Unidentified Sealed Majestic Robe A",
+      "url": "/lu4/item/32397-unidentified-sealed-majestic-robe"
+    },
+    {
+      "key": "item:32396",
+      "type": "item",
+      "id": 32396,
+      "name": "Unidentified Sealed Robe of Nightmare A",
+      "url": "/lu4/item/32396-unidentified-sealed-robe-of-nightmare"
     },
     {
       "key": "item:4042",
@@ -178,18 +182,18 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
-      "key": "item:6709",
+      "key": "item:6707",
       "type": "item",
-      "id": 6709,
-      "name": "Sealed Draconic Leather Boots Design NG",
-      "url": "/lu4/item/6709-sealed-draconic-leather-boots-design"
+      "id": 6707,
+      "name": "Sealed Draconic Leather Armor Part NG",
+      "url": "/lu4/item/6707-sealed-draconic-leather-armor-part"
     },
     {
       "key": "item:6708",
@@ -199,11 +203,11 @@
       "url": "/lu4/item/6708-sealed-draconic-leather-gloves-fabric"
     },
     {
-      "key": "item:6707",
+      "key": "item:6709",
       "type": "item",
-      "id": 6707,
-      "name": "Sealed Draconic Leather Armor Part NG",
-      "url": "/lu4/item/6707-sealed-draconic-leather-armor-part"
+      "id": 6709,
+      "name": "Sealed Draconic Leather Boots Design NG",
+      "url": "/lu4/item/6709-sealed-draconic-leather-boots-design"
     }
   ]
 }

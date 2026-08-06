@@ -2,91 +2,74 @@
   "key": "npc:20923",
   "type": "npc",
   "id": 20923,
-  "name": "Lu4 Wiki: NPC Maille Lizardman Shaman",
+  "name": "Maille Lizardman Shaman",
   "url": "/lu4/npc/20923-maille-lizardman-shaman",
-  "source_url": "https://masterwork.wiki/lu4/npc/20923-maille-lizardman-shaman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20923-maille-lizardman-shaman",
   "raw_html": "library/raw/lu4/npc/20923-maille-lizardman-shaman.html",
   "stats": {
-    "Location": "Лагерь Ящеров Мэль"
+    "Respawn Time": "25 seconds",
+    "Location": "Лагерь Ящеров Мэль",
+    "HP / MP": "1 624 / 371",
+    "P. Atk. / M. Atk.": "84 / 86",
+    "P. Def. / M. Def.": "127 / 108",
+    "Accuracy / Evasion": "63 / 62",
+    "Exp / SP": "1 611 / 161",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (2x) Lv. 10 Slightly Weak P. Atk. Lv. 10 Slightly Strong M. Atk. Lv. 13",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 27"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20923",
-      "type": "npc",
-      "id": 20923,
-      "name": "Lu4",
-      "url": "/lu4/npc/20923-maille-lizardman-shaman"
-    },
-    {
-      "key": "location:25",
-      "type": "location",
-      "id": 25,
-      "name": "Лагерь Ящеров Мэль",
-      "url": "/lu4/location/25-lager-aserov-mel"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
-      "key": "item:5550",
+      "key": "item:57",
       "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:5549",
+      "key": "item:735",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
+      "id": 735,
+      "name": "Alacrity Potion NG",
+      "url": "/lu4/item/735-alacrity-potion"
     },
     {
-      "key": "item:2021",
+      "key": "item:1875",
       "type": "item",
-      "id": 2021,
-      "name": "Spinebone Sword Blade NG",
-      "url": "/lu4/item/2021-spinebone-sword-blade"
-    },
-    {
-      "key": "item:1900",
-      "type": "item",
-      "id": 1900,
-      "name": "Enchanted Necklace Chain NG",
-      "url": "/lu4/item/1900-enchanted-necklace-chain"
-    },
-    {
-      "key": "item:1885",
-      "type": "item",
-      "id": 1885,
-      "name": "High-Grade Suede NG",
-      "url": "/lu4/item/1885-high-grade-suede"
+      "id": 1875,
+      "name": "Stone of Purity NG",
+      "url": "/lu4/item/1875-stone-of-purity"
     },
     {
       "key": "item:1879",
@@ -96,11 +79,25 @@
       "url": "/lu4/item/1879-cokes"
     },
     {
-      "key": "item:1875",
+      "key": "item:1885",
       "type": "item",
-      "id": 1875,
-      "name": "Stone of Purity NG",
-      "url": "/lu4/item/1875-stone-of-purity"
+      "id": 1885,
+      "name": "High-Grade Suede NG",
+      "url": "/lu4/item/1885-high-grade-suede"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
+    },
+    {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:1123",
@@ -117,18 +114,11 @@
       "url": "/lu4/item/911-enchanted-necklace"
     },
     {
-      "key": "item:735",
+      "key": "item:1900",
       "type": "item",
-      "id": 735,
-      "name": "Alacrity Potion NG",
-      "url": "/lu4/item/735-alacrity-potion"
-    },
-    {
-      "key": "item:259",
-      "type": "item",
-      "id": 259,
-      "name": "Single-Edged Jamadhr D",
-      "url": "/lu4/item/259-single-edged-jamadhr"
+      "id": 1900,
+      "name": "Enchanted Necklace Chain NG",
+      "url": "/lu4/item/1900-enchanted-necklace-chain"
     },
     {
       "key": "item:181",
@@ -138,6 +128,13 @@
       "url": "/lu4/item/181-mace-of-miracle"
     },
     {
+      "key": "item:259",
+      "type": "item",
+      "id": 259,
+      "name": "Single-Edged Jamadhr D",
+      "url": "/lu4/item/259-single-edged-jamadhr"
+    },
+    {
       "key": "item:125",
       "type": "item",
       "id": 125,
@@ -145,18 +142,18 @@
       "url": "/lu4/item/125-spinebone-sword"
     },
     {
-      "key": "item:57",
+      "key": "item:2021",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2021,
+      "name": "Spinebone Sword Blade NG",
+      "url": "/lu4/item/2021-spinebone-sword-blade"
     },
     {
-      "key": "item:3953",
+      "key": "item:1869",
       "type": "item",
-      "id": 3953,
-      "name": "Recipe: Blessed Spiritshot D NG",
-      "url": "/lu4/item/3953-recipe-blessed-spiritshot-d"
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:1872",
@@ -166,11 +163,11 @@
       "url": "/lu4/item/1872-animal-bone"
     },
     {
-      "key": "item:1869",
+      "key": "item:3953",
       "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
+      "id": 3953,
+      "name": "Recipe: Blessed Spiritshot D NG",
+      "url": "/lu4/item/3953-recipe-blessed-spiritshot-d"
     }
   ]
 }

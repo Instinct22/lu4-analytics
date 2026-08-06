@@ -2,126 +2,88 @@
   "key": "npc:20797",
   "type": "npc",
   "id": 20797,
-  "name": "Lu4 Wiki: NPC Blade Stakato Drone",
+  "name": "Blade Stakato Drone",
   "url": "/lu4/npc/20797-blade-stakato-drone",
-  "source_url": "https://masterwork.wiki/lu4/npc/20797-blade-stakato-drone",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20797-blade-stakato-drone",
   "raw_html": "library/raw/lu4/npc/20797-blade-stakato-drone.html",
   "stats": {
-    "Location": "Сады Богини Евы"
+    "Respawn Time": "1 minute",
+    "Location": "Сады Богини Евы",
+    "HP / MP": "8 616 / 719",
+    "P. Atk. / M. Atk.": "364 / 291",
+    "P. Def. / M. Def.": "220 / 170",
+    "Accuracy / Evasion": "77 / 92",
+    "Exp / SP": "11 960 / 1 196",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% HP Increase (5x) Lv. 13 Strong M. Atk. Lv. 14 Slightly Strong P. Def. Lv. 12 Slightly Weak M. Def. Lv. 10 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Bug, Lv. 44"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20797",
-      "type": "npc",
-      "id": 20797,
-      "name": "Lu4",
-      "url": "/lu4/npc/20797-blade-stakato-drone"
-    },
-    {
-      "key": "location:121",
-      "type": "location",
-      "id": 121,
-      "name": "Сады Богини Евы",
-      "url": "/lu4/location/121-sady-bogini-evy"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Strong M. Atk. Lv. 14",
-      "url": "/lu4/skill/4411-strong-m-atk/14"
+      "name": "Strong M. Atk.",
+      "url": "/lu4/skill/4411-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 2 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/2"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
-      "key": "item:5550",
+      "key": "item:57",
       "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
-    },
-    {
-      "key": "item:2948",
-      "type": "item",
-      "id": 2948,
-      "name": "Rind Leather Boots Lining NG",
-      "url": "/lu4/item/2948-rind-leather-boots-lining"
-    },
-    {
-      "key": "item:2941",
-      "type": "item",
-      "id": 2941,
-      "name": "Boots of Seal Pattern NG",
-      "url": "/lu4/item/2941-boots-of-seal-pattern"
-    },
-    {
-      "key": "item:2434",
-      "type": "item",
-      "id": 2434,
-      "name": "Rind Leather Boots C",
-      "url": "/lu4/item/2434-rind-leather-boots"
-    },
-    {
-      "key": "item:2433",
-      "type": "item",
-      "id": 2433,
-      "name": "Boots of Seal C",
-      "url": "/lu4/item/2433-boots-of-seal"
-    },
-    {
-      "key": "item:1970",
-      "type": "item",
-      "id": 1970,
-      "name": "Robe of Seal Fabric NG",
-      "url": "/lu4/item/1970-robe-of-seal-fabric"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1880",
@@ -145,6 +107,41 @@
       "url": "/lu4/item/1864-stem"
     },
     {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
+    },
+    {
+      "key": "item:2433",
+      "type": "item",
+      "id": 2433,
+      "name": "Boots of Seal C",
+      "url": "/lu4/item/2433-boots-of-seal"
+    },
+    {
+      "key": "item:2941",
+      "type": "item",
+      "id": 2941,
+      "name": "Boots of Seal Pattern NG",
+      "url": "/lu4/item/2941-boots-of-seal-pattern"
+    },
+    {
+      "key": "item:2434",
+      "type": "item",
+      "id": 2434,
+      "name": "Rind Leather Boots C",
+      "url": "/lu4/item/2434-rind-leather-boots"
+    },
+    {
+      "key": "item:2948",
+      "type": "item",
+      "id": 2948,
+      "name": "Rind Leather Boots Lining NG",
+      "url": "/lu4/item/2948-rind-leather-boots-lining"
+    },
+    {
       "key": "item:440",
       "type": "item",
       "id": 440,
@@ -152,11 +149,11 @@
       "url": "/lu4/item/440-robe-of-seal"
     },
     {
-      "key": "item:57",
+      "key": "item:1970",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1970,
+      "name": "Robe of Seal Fabric NG",
+      "url": "/lu4/item/1970-robe-of-seal-fabric"
     }
   ]
 }

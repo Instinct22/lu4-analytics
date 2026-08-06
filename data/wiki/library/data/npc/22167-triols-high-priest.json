@@ -2,110 +2,107 @@
   "key": "npc:22167",
   "type": "npc",
   "id": 22167,
-  "name": "Lu4 Wiki: NPC Triol's High Priest",
+  "name": "Triol's High Priest",
   "url": "/lu4/npc/22167-triols-high-priest",
-  "source_url": "https://masterwork.wiki/lu4/npc/22167-triols-high-priest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22167-triols-high-priest",
   "raw_html": "library/raw/lu4/npc/22167-triols-high-priest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "24 988 / 2 386",
+    "P. Atk. / M. Atk.": "2 184 / 1 464",
+    "P. Def. / M. Def.": "666 / 806",
+    "Accuracy / Evasion": "128 / 137",
+    "Exp / SP": "73 494 / 7 349",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 80",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword Humanoids Lv. 26 Humanoids. High Lv. Lv. 10 NPC High Level",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22167",
-      "type": "npc",
-      "id": 22167,
-      "name": "Lu4",
-      "url": "/lu4/npc/22167-triols-high-priest"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Humanoids Lv. 26 Humanoids.",
-      "url": "/lu4/skill/4417-humanoids/26"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4417-humanoids"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 10 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/10"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
-      "key": "item:32397",
+      "key": "item:57",
       "type": "item",
-      "id": 32397,
-      "name": "Unidentified Sealed Majestic Robe A",
-      "url": "/lu4/item/32397-unidentified-sealed-majestic-robe"
-    },
-    {
-      "key": "item:7916",
-      "type": "item",
-      "id": 7916,
-      "name": "Dark Shard NG",
-      "url": "/lu4/item/7916-dark-shard"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5488",
@@ -120,6 +117,13 @@
       "id": 5487,
       "name": "Sealed Robe of Nightmare Fabric NG",
       "url": "/lu4/item/5487-sealed-robe-of-nightmare-fabric"
+    },
+    {
+      "key": "item:32397",
+      "type": "item",
+      "id": 32397,
+      "name": "Unidentified Sealed Majestic Robe A",
+      "url": "/lu4/item/32397-unidentified-sealed-majestic-robe"
     },
     {
       "key": "item:4044",
@@ -157,18 +161,18 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:7916",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 7916,
+      "name": "Dark Shard NG",
+      "url": "/lu4/item/7916-dark-shard"
     },
     {
-      "key": "item:6712",
+      "key": "item:6710",
       "type": "item",
-      "id": 6712,
-      "name": "Sealed Major Arcana Gloves fabric NG",
-      "url": "/lu4/item/6712-sealed-major-arcana-gloves-fabric"
+      "id": 6710,
+      "name": "Sealed Draconic Leather Helmet Pattern NG",
+      "url": "/lu4/item/6710-sealed-draconic-leather-helmet-pattern"
     },
     {
       "key": "item:6711",
@@ -178,11 +182,11 @@
       "url": "/lu4/item/6711-sealed-major-arcana-robe-part"
     },
     {
-      "key": "item:6710",
+      "key": "item:6712",
       "type": "item",
-      "id": 6710,
-      "name": "Sealed Draconic Leather Helmet Pattern NG",
-      "url": "/lu4/item/6710-sealed-draconic-leather-helmet-pattern"
+      "id": 6712,
+      "name": "Sealed Major Arcana Gloves fabric NG",
+      "url": "/lu4/item/6712-sealed-major-arcana-gloves-fabric"
     }
   ]
 }

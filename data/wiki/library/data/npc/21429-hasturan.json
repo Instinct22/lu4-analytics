@@ -2,103 +2,114 @@
   "key": "npc:21429",
   "type": "npc",
   "id": 21429,
-  "name": "Lu4 Wiki: NPC Hasturan",
+  "name": "Hasturan",
   "url": "/lu4/npc/21429-hasturan",
-  "source_url": "https://masterwork.wiki/lu4/npc/21429-hasturan",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21429-hasturan",
   "raw_html": "library/raw/lu4/npc/21429-hasturan.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "24 055 / 2 012",
+    "P. Atk. / M. Atk.": "2 483 / 1 188",
+    "P. Def. / M. Def.": "656 / 649",
+    "Accuracy / Evasion": "125 / 133",
+    "Exp / SP": "38 234 / 4 445",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -34, Unholy 184",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (5x) Lv. 13 MP Increase (1x) Lv. 1 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 6 Blunt Weapons Sleep Resistance Lv. 3 Slightly resistant to Sleep. Vampiric Attack Lv. 1 Absorbs the enemy's HP with each attack. High Lv. Lv. 8 NPC High Level",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21429",
-      "type": "npc",
-      "id": 21429,
-      "name": "Lu4",
-      "url": "/lu4/npc/21429-hasturan"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 6 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/6"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4233",
       "type": "skill",
       "id": 4233,
-      "name": "Vampiric Attack Lv. 1 Absorbs the enemy's HP with each attack.",
-      "url": "/lu4/skill/4233-vampiric-attack/1"
+      "name": "Vampiric Attack",
+      "url": "/lu4/skill/4233-vampiric-attack"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 8 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/8"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:32338",
@@ -106,13 +117,6 @@
       "id": 32338,
       "name": "Unidentified Soul Separator A",
       "url": "/lu4/item/32338-unidentified-soul-separator"
-    },
-    {
-      "key": "item:5549",
-      "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
     },
     {
       "key": "item:5537",
@@ -164,18 +168,18 @@
       "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:5549",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     },
     {
-      "key": "item:6703",
+      "key": "item:6701",
       "type": "item",
-      "id": 6703,
-      "name": "Sealed Imperial Crusader Gauntlets Design NG",
-      "url": "/lu4/item/6703-sealed-imperial-crusader-gauntlets-design"
+      "id": 6701,
+      "name": "Sealed Imperial Crusader Breastplate Part NG",
+      "url": "/lu4/item/6701-sealed-imperial-crusader-breastplate-part"
     },
     {
       "key": "item:6702",
@@ -185,11 +189,11 @@
       "url": "/lu4/item/6702-sealed-imperial-crusader-gaiters-pattern"
     },
     {
-      "key": "item:6701",
+      "key": "item:6703",
       "type": "item",
-      "id": 6701,
-      "name": "Sealed Imperial Crusader Breastplate Part NG",
-      "url": "/lu4/item/6701-sealed-imperial-crusader-breastplate-part"
+      "id": 6703,
+      "name": "Sealed Imperial Crusader Gauntlets Design NG",
+      "url": "/lu4/item/6703-sealed-imperial-crusader-gauntlets-design"
     }
   ]
 }

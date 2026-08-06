@@ -2,82 +2,114 @@
   "key": "npc:21760",
   "type": "npc",
   "id": 21760,
-  "name": "Lu4 Wiki: NPC Dark Omen Invader Soldier",
+  "name": "Dark Omen Invader Soldier",
   "url": "/lu4/npc/21760-dark-omen-invader-soldier",
-  "source_url": "https://masterwork.wiki/lu4/npc/21760-dark-omen-invader-soldier",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21760-dark-omen-invader-soldier",
   "raw_html": "library/raw/lu4/npc/21760-dark-omen-invader-soldier.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "11 587 / 1 494",
+    "P. Atk. / M. Atk.": "1 314 / 780",
+    "P. Def. / M. Def.": "477 / 348",
+    "Accuracy / Evasion": "103 / 103",
+    "Exp / SP": "17 505 / 1 734",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 53",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Sword Lv. 3 One-handed Sword",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 70"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21760",
-      "type": "npc",
-      "id": 21760,
-      "name": "Lu4",
-      "url": "/lu4/npc/21760-dark-omen-invader-soldier"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Sword Lv. 3 One-handed Sword",
-      "url": "/lu4/skill/4415-one-handed-sword/3"
+      "name": "One-handed Sword",
+      "url": "/lu4/skill/4415-one-handed-sword"
+    },
+    {
+      "key": "item:57",
+      "type": "item",
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:5508",
+      "type": "item",
+      "id": 5508,
+      "name": "Sealed Dark Crystal Gloves Design NG",
+      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
+    },
+    {
+      "key": "item:5497",
+      "type": "item",
+      "id": 5497,
+      "name": "Sealed Tallum Boots Lining NG",
+      "url": "/lu4/item/5497-sealed-tallum-boots-lining"
+    },
+    {
+      "key": "item:5496",
+      "type": "item",
+      "id": 5496,
+      "name": "Sealed Dark Crystal Boots Lining NG",
+      "url": "/lu4/item/5496-sealed-dark-crystal-boots-lining"
     },
     {
       "key": "item:32378",
@@ -115,34 +147,6 @@
       "url": "/lu4/item/5509-sealed-tallum-gloves-design"
     },
     {
-      "key": "item:5508",
-      "type": "item",
-      "id": 5508,
-      "name": "Sealed Dark Crystal Gloves Design NG",
-      "url": "/lu4/item/5508-sealed-dark-crystal-gloves-design"
-    },
-    {
-      "key": "item:5497",
-      "type": "item",
-      "id": 5497,
-      "name": "Sealed Tallum Boots Lining NG",
-      "url": "/lu4/item/5497-sealed-tallum-boots-lining"
-    },
-    {
-      "key": "item:5496",
-      "type": "item",
-      "id": 5496,
-      "name": "Sealed Dark Crystal Boots Lining NG",
-      "url": "/lu4/item/5496-sealed-dark-crystal-boots-lining"
-    },
-    {
-      "key": "item:5448",
-      "type": "item",
-      "id": 5448,
-      "name": "Recipe: Soul Separator(60%) NG",
-      "url": "/lu4/item/5448-recipe-soul-separator60"
-    },
-    {
       "key": "item:5220",
       "type": "item",
       "id": 5220,
@@ -155,6 +159,13 @@
       "id": 4041,
       "name": "Mold Hardener NG",
       "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
+      "key": "item:5448",
+      "type": "item",
+      "id": 5448,
+      "name": "Recipe: Soul Separator(60%) NG",
+      "url": "/lu4/item/5448-recipe-soul-separator60"
     },
     {
       "key": "item:1885",
@@ -176,13 +187,6 @@
       "id": 1866,
       "name": "Suede NG",
       "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5532",

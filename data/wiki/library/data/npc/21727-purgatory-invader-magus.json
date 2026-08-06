@@ -2,75 +2,100 @@
   "key": "npc:21727",
   "type": "npc",
   "id": 21727,
-  "name": "Lu4 Wiki: NPC Purgatory Invader Magus",
+  "name": "Purgatory Invader Magus",
   "url": "/lu4/npc/21727-purgatory-invader-magus",
-  "source_url": "https://masterwork.wiki/lu4/npc/21727-purgatory-invader-magus",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21727-purgatory-invader-magus",
   "raw_html": "library/raw/lu4/npc/21727-purgatory-invader-magus.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "14 884 / 1 025",
+    "P. Atk. / M. Atk.": "615 / 343",
+    "P. Def. / M. Def.": "215 / 253",
+    "Accuracy / Evasion": "86 / 96",
+    "Exp / SP": "20 789 / 1 632",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Sleep Resistance Lv. 3 Slightly resistant to Sleep. Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 53"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21727",
-      "type": "npc",
-      "id": 21727,
-      "name": "Lu4",
-      "url": "/lu4/npc/21727-purgatory-invader-magus"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 3 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/3"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:119",
+      "type": "item",
+      "id": 119,
+      "name": "Necklace of Seal C",
+      "url": "/lu4/item/119-necklace-of-seal"
+    },
+    {
+      "key": "item:855",
+      "type": "item",
+      "id": 855,
+      "name": "Nassen's Earring C",
+      "url": "/lu4/item/855-nassens-earring"
+    },
+    {
+      "key": "item:886",
+      "type": "item",
+      "id": 886,
+      "name": "Ring of Seal C",
+      "url": "/lu4/item/886-ring-of-seal"
     },
     {
       "key": "item:2917",
@@ -108,32 +133,11 @@
       "url": "/lu4/item/951-scroll-enchant-weapon-c-grade"
     },
     {
-      "key": "item:886",
+      "key": "item:49800",
       "type": "item",
-      "id": 886,
-      "name": "Ring of Seal C",
-      "url": "/lu4/item/886-ring-of-seal"
-    },
-    {
-      "key": "item:855",
-      "type": "item",
-      "id": 855,
-      "name": "Nassen's Earring C",
-      "url": "/lu4/item/855-nassens-earring"
-    },
-    {
-      "key": "item:119",
-      "type": "item",
-      "id": 119,
-      "name": "Necklace of Seal C",
-      "url": "/lu4/item/119-necklace-of-seal"
-    },
-    {
-      "key": "item:57",
-      "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
     },
     {
       "key": "item:1984",

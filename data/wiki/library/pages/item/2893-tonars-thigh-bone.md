@@ -1,73 +1,16 @@
-# Lu4 Wiki: Item Tonar&#039;s Thigh Bone
+# Tonar's Thigh Bone
 
-- Source: https://masterwork.wiki/lu4/item/2893-tonars-thigh-bone
+- Source: https://masterwork.wiki/lu4-b-w-c/item/2893-tonars-thigh-bone
 - Path: /lu4/item/2893-tonars-thigh-bone
 - Type: item
 - Key: item:2893
 
 ## Stats
+- Effect: The thigh bones of Tonar, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Pekiron.
+- Weight: 0
 - Restrictions: Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use
+- Grade: NG
+- Type: Quest Item
 
 ## Content
-Lu4
-Lu4
-Eternal
-MasterWork
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-Search
-Ctrl+K
-English
-English
-Русский
-Українська
-Start to Play
-Classes
-Skills
-Items
-NPC
-Quests
-Articles
-English
-English
-Русский
-Українська
-Search
-Lu4
-Lu4
-Eternal
-MasterWork
-Start to Play
-Main
-Items (Lu4)
-Tonar&#039;s Thigh Bone
-Lu4
-Eternal
-MasterWork
-Tonar's Thigh Bone
-NG
-Quest Item
-The thigh bones of Tonar, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Pekiron.
-Weight
-0
-Restrictions
-Private Warehouse
-Clan Warehouse
-Transfer within Game Account
-Trade
-Drop
-Private Store
-Enchant
-Attribute
-Olympiad Use
-Used in Quests
-Quest
-Levels
-Test of the War Spirit
-35 ~ 85
-MasterWork 2026
-All rights reserved
+Tonar's Thigh Bone NG Quest Item The thigh bones of Tonar, an ancient Orc hero. Take this, along with the additional 4 remains, to Seer Pekiron. Weight 0 Restrictions Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use

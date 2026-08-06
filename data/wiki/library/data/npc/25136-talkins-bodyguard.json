@@ -2,40 +2,37 @@
   "key": "npc:25136",
   "type": "npc",
   "id": 25136,
-  "name": "Lu4 Wiki: NPC Talkin's Bodyguard",
+  "name": "Talkin's Bodyguard",
   "url": "/lu4/npc/25136-talkins-bodyguard",
-  "source_url": "https://masterwork.wiki/lu4/npc/25136-talkins-bodyguard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/25136-talkins-bodyguard",
   "raw_html": "library/raw/lu4/npc/25136-talkins-bodyguard.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "10 979 / 921",
+    "P. Atk. / M. Atk.": "254 / 159",
+    "P. Def. / M. Def.": "408 / 342",
+    "Accuracy / Evasion": "75 / 74",
+    "Exp / SP": "0 / 464",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 39"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:25136",
-      "type": "npc",
-      "id": 25136,
-      "name": "Lu4",
-      "url": "/lu4/npc/25136-talkins-bodyguard"
-    },
-    {
-      "key": "location:102",
-      "type": "location",
-      "id": 102,
-      "name": "Долина Ящеров",
-      "url": "/lu4/location/102-dolina-aserov"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "item:6036",

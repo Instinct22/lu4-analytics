@@ -2,166 +2,65 @@
   "key": "npc:20975",
   "type": "npc",
   "id": 20975,
-  "name": "Lu4 Wiki: NPC Spiteful Soul Wizard",
+  "name": "Spiteful Soul Wizard",
   "url": "/lu4/npc/20975-spiteful-soul-wizard",
-  "source_url": "https://masterwork.wiki/lu4/npc/20975-spiteful-soul-wizard",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20975-spiteful-soul-wizard",
   "raw_html": "library/raw/lu4/npc/20975-spiteful-soul-wizard.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "7 110 / 1 389",
+    "P. Atk. / M. Atk.": "1 294 / 914",
+    "P. Def. / M. Def.": "480 / 354",
+    "Accuracy / Evasion": "98 / 98",
+    "Exp / SP": "7 848 / 785",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 Slightly Strong M. Atk. Lv. 12 Dark Attack Lv. 1 Unleashes a dark attack. Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 65"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:20975",
-      "type": "npc",
-      "id": 20975,
-      "name": "Lu4",
-      "url": "/lu4/npc/20975-spiteful-soul-wizard"
-    },
-    {
-      "key": "location:188",
-      "type": "location",
-      "id": 188,
-      "name": "Поле Брани",
-      "url": "/lu4/location/188-pole-brani"
-    },
-    {
-      "key": "location:8",
-      "type": "location",
-      "id": 8,
-      "name": "Земли Адена",
-      "url": "/lu4/location/8-zemli-adena"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 1 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/1"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
-      "key": "item:39297",
+      "key": "item:57",
       "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:32405",
-      "type": "item",
-      "id": 32405,
-      "name": "Unidentified Sealed Doom Boots B",
-      "url": "/lu4/item/32405-unidentified-sealed-doom-boots"
-    },
-    {
-      "key": "item:32362",
-      "type": "item",
-      "id": 32362,
-      "name": "Unidentified Blue Wolf Stockings B",
-      "url": "/lu4/item/32362-unidentified-blue-wolf-stockings"
-    },
-    {
-      "key": "item:32333",
-      "type": "item",
-      "id": 32333,
-      "name": "Unidentified Deadman's Glory B",
-      "url": "/lu4/item/32333-unidentified-deadmans-glory"
-    },
-    {
-      "key": "item:5220",
-      "type": "item",
-      "id": 5220,
-      "name": "Metal Hardener NG",
-      "url": "/lu4/item/5220-metal-hardener"
-    },
-    {
-      "key": "item:5003",
-      "type": "item",
-      "id": 5003,
-      "name": "Recipe: Art of Battle Axe (60%) NG",
-      "url": "/lu4/item/5003-recipe-art-of-battle-axe-60"
-    },
-    {
-      "key": "item:4984",
-      "type": "item",
-      "id": 4984,
-      "name": "Recipe: Blue Wolf Leather Armor (60%) NG",
-      "url": "/lu4/item/4984-recipe-blue-wolf-leather-armor-60"
-    },
-    {
-      "key": "item:4982",
-      "type": "item",
-      "id": 4982,
-      "name": "Recipe: Blue Wolf Gaiters (60%) NG",
-      "url": "/lu4/item/4982-recipe-blue-wolf-gaiters-60"
-    },
-    {
-      "key": "item:4116",
-      "type": "item",
-      "id": 4116,
-      "name": "Deadman's Glory Stone NG",
-      "url": "/lu4/item/4116-deadmans-glory-stone"
-    },
-    {
-      "key": "item:4099",
-      "type": "item",
-      "id": 4099,
-      "name": "Sealed Doom Boots Part NG",
-      "url": "/lu4/item/4099-sealed-doom-boots-part"
-    },
-    {
-      "key": "item:4086",
-      "type": "item",
-      "id": 4086,
-      "name": "Blue Wolf Stockings Pattern NG",
-      "url": "/lu4/item/4086-blue-wolf-stockings-pattern"
-    },
-    {
-      "key": "item:4041",
-      "type": "item",
-      "id": 4041,
-      "name": "Mold Hardener NG",
-      "url": "/lu4/item/4041-mold-hardener"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1885",
@@ -178,6 +77,13 @@
       "url": "/lu4/item/1871-charcoal"
     },
     {
+      "key": "item:4041",
+      "type": "item",
+      "id": 4041,
+      "name": "Mold Hardener NG",
+      "url": "/lu4/item/4041-mold-hardener"
+    },
+    {
       "key": "item:1866",
       "type": "item",
       "id": 1866,
@@ -185,25 +91,95 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:5220",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5220,
+      "name": "Metal Hardener NG",
+      "url": "/lu4/item/5220-metal-hardener"
     },
     {
-      "key": "item:8348",
+      "key": "item:32362",
       "type": "item",
-      "id": 8348,
-      "name": "Star Buster Head NG",
-      "url": "/lu4/item/8348-star-buster-head"
+      "id": 32362,
+      "name": "Unidentified Blue Wolf Stockings B",
+      "url": "/lu4/item/32362-unidentified-blue-wolf-stockings"
     },
     {
-      "key": "item:5001",
+      "key": "item:4086",
       "type": "item",
-      "id": 5001,
-      "name": "Recipe: Lance (60%) NG",
-      "url": "/lu4/item/5001-recipe-lance-60"
+      "id": 4086,
+      "name": "Blue Wolf Stockings Pattern NG",
+      "url": "/lu4/item/4086-blue-wolf-stockings-pattern"
+    },
+    {
+      "key": "item:32333",
+      "type": "item",
+      "id": 32333,
+      "name": "Unidentified Deadman's Glory B",
+      "url": "/lu4/item/32333-unidentified-deadmans-glory"
+    },
+    {
+      "key": "item:4116",
+      "type": "item",
+      "id": 4116,
+      "name": "Deadman's Glory Stone NG",
+      "url": "/lu4/item/4116-deadmans-glory-stone"
+    },
+    {
+      "key": "item:32405",
+      "type": "item",
+      "id": 32405,
+      "name": "Unidentified Sealed Doom Boots B",
+      "url": "/lu4/item/32405-unidentified-sealed-doom-boots"
+    },
+    {
+      "key": "item:4099",
+      "type": "item",
+      "id": 4099,
+      "name": "Sealed Doom Boots Part NG",
+      "url": "/lu4/item/4099-sealed-doom-boots-part"
+    },
+    {
+      "key": "item:5003",
+      "type": "item",
+      "id": 5003,
+      "name": "Recipe: Art of Battle Axe (60%) NG",
+      "url": "/lu4/item/5003-recipe-art-of-battle-axe-60"
+    },
+    {
+      "key": "item:4982",
+      "type": "item",
+      "id": 4982,
+      "name": "Recipe: Blue Wolf Gaiters (60%) NG",
+      "url": "/lu4/item/4982-recipe-blue-wolf-gaiters-60"
+    },
+    {
+      "key": "item:4984",
+      "type": "item",
+      "id": 4984,
+      "name": "Recipe: Blue Wolf Leather Armor (60%) NG",
+      "url": "/lu4/item/4984-recipe-blue-wolf-leather-armor-60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:4998",
@@ -213,11 +189,11 @@
       "url": "/lu4/item/4998-recipe-sealed-blue-wolf-gloves-60"
     },
     {
-      "key": "item:4119",
+      "key": "item:5001",
       "type": "item",
-      "id": 4119,
-      "name": "Demon's Dagger Edge NG",
-      "url": "/lu4/item/4119-demons-dagger-edge"
+      "id": 5001,
+      "name": "Recipe: Lance (60%) NG",
+      "url": "/lu4/item/5001-recipe-lance-60"
     },
     {
       "key": "item:4084",
@@ -225,6 +201,20 @@
       "id": 4084,
       "name": "Blue Wolf Tunic Fabric NG",
       "url": "/lu4/item/4084-blue-wolf-tunic-fabric"
+    },
+    {
+      "key": "item:4119",
+      "type": "item",
+      "id": 4119,
+      "name": "Demon's Dagger Edge NG",
+      "url": "/lu4/item/4119-demons-dagger-edge"
+    },
+    {
+      "key": "item:8348",
+      "type": "item",
+      "id": 8348,
+      "name": "Star Buster Head NG",
+      "url": "/lu4/item/8348-star-buster-head"
     }
   ]
 }

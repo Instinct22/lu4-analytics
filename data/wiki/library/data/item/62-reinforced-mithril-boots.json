@@ -2,24 +2,23 @@
   "key": "item:62",
   "type": "item",
   "id": 62,
-  "name": "Lu4 Wiki: Item Reinforced Mithril Boots",
+  "name": "Reinforced Mithril Boots",
   "url": "/lu4/item/62-reinforced-mithril-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/62-reinforced-mithril-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/62-reinforced-mithril-boots",
   "raw_html": "library/raw/lu4/item/62-reinforced-mithril-boots.html",
   "stats": {
+    "P. Def.": "32",
+    "Crystal Amount": "39 Crystallization Failed Enchant +0 39 - +1 45 - +2 51 - +3 57 - +4 75 55 +5 93 73 +6 111 91 +7 129 109 +8 147 127",
+    "NPC Sell Price": "48 550 Adena",
+    "Weight": "1230",
     "Set Part": "Reinforced Mithril Shirt C",
     "Recipes": "Recipe: Reinforced Mithril Boots NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Boots"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:62",
-      "type": "item",
-      "id": 62,
-      "name": "Lu4",
-      "url": "/lu4/item/62-reinforced-mithril-boots"
-    },
     {
       "key": "set:12",
       "type": "set",
@@ -35,73 +34,80 @@
       "url": "/lu4/item/2203-recipe-reinforced-mithril-boots"
     },
     {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25504",
       "type": "npc",
       "id": 25504,
-      "name": "Nellis' Vengeful Spirit Lv. 39",
+      "name": "Nellis' Vengeful Spirit",
       "url": "/lu4/npc/25504-nellis-vengeful-spirit"
     },
     {
       "key": "npc:25487",
       "type": "npc",
       "id": 25487,
-      "name": "Water Spirit Lian Lv. 40",
+      "name": "Water Spirit Lian",
       "url": "/lu4/npc/25487-water-spirit-lian"
     },
     {
       "key": "npc:25115",
       "type": "npc",
       "id": 25115,
-      "name": "Icarus Sample 1 Lv. 40",
+      "name": "Icarus Sample 1",
       "url": "/lu4/npc/25115-icarus-sample-1"
     },
     {
       "key": "npc:21809",
       "type": "npc",
       "id": 21809,
-      "name": "Treasure Chest Lv. 45",
+      "name": "Treasure Chest",
       "url": "/lu4/npc/21809-treasure-chest"
     },
     {
       "key": "npc:21604",
       "type": "npc",
       "id": 21604,
-      "name": "Zaken's Elite Pikeman Lv. 43",
+      "name": "Zaken's Elite Pikeman",
       "url": "/lu4/npc/21604-zakens-elite-pikeman"
     },
     {
       "key": "npc:20937",
       "type": "npc",
       "id": 20937,
-      "name": "Tanor Silenos Grunt Lv. 42",
+      "name": "Tanor Silenos Grunt",
       "url": "/lu4/npc/20937-tanor-silenos-grunt"
     },
     {
       "key": "npc:20837",
       "type": "npc",
       "id": 20837,
-      "name": "Tainted Ogre Lv. 45",
+      "name": "Tainted Ogre",
       "url": "/lu4/npc/20837-tainted-ogre"
     },
     {
       "key": "npc:20796",
       "type": "npc",
       "id": 20796,
-      "name": "Blade Stakato Warrior Lv. 43",
+      "name": "Blade Stakato Warrior",
       "url": "/lu4/npc/20796-blade-stakato-warrior"
     },
     {
       "key": "npc:20763",
       "type": "npc",
       "id": 20763,
-      "name": "Lord of the Plains Lv. 40",
+      "name": "Lord of the Plains",
       "url": "/lu4/npc/20763-lord-of-the-plains"
     },
     {
       "key": "npc:20602",
       "type": "npc",
       "id": 20602,
-      "name": "Tamlin Orc Archer Lv. 42",
+      "name": "Tamlin Orc Archer",
       "url": "/lu4/npc/20602-tamlin-orc-archer"
     }
   ]

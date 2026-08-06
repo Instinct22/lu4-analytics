@@ -2,133 +2,81 @@
   "key": "npc:20216",
   "type": "npc",
   "id": 20216,
-  "name": "Lu4 Wiki: NPC Ricenseo",
+  "name": "Ricenseo",
   "url": "/lu4/npc/20216-ricenseo",
-  "source_url": "https://masterwork.wiki/lu4/npc/20216-ricenseo",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20216-ricenseo",
   "raw_html": "library/raw/lu4/npc/20216-ricenseo.html",
   "stats": {
-    "Location": "Башня Крумы: 3-й этаж"
+    "Respawn Time": "1 minute, 10 seconds ± 5 seconds",
+    "Location": "Башня Крумы: 3-й этаж",
+    "HP / MP": "8 967 / 686",
+    "P. Atk. / M. Atk.": "409 / 237",
+    "P. Def. / M. Def.": "216 / 164",
+    "Accuracy / Evasion": "76 / 76",
+    "Exp / SP": "12 087 / 1 209",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (5x) Lv. 13 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10 Stun Attack Resistance Lv. 1 Slightly resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 43"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20216",
-      "type": "npc",
-      "id": 20216,
-      "name": "Lu4",
-      "url": "/lu4/npc/20216-ricenseo"
-    },
-    {
-      "key": "location:56",
-      "type": "location",
-      "id": 56,
-      "name": "Башня Крумы: 3-й этаж",
-      "url": "/lu4/location/56-basna-krumy-3-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 1 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/1"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
-      "key": "item:5269",
+      "key": "item:57",
       "type": "item",
-      "id": 5269,
-      "name": "Recipe: Greater Soulshot (C) Compressed Package(100%) NG",
-      "url": "/lu4/item/5269-recipe-greater-soulshot-c-compressed-package100"
-    },
-    {
-      "key": "item:2076",
-      "type": "item",
-      "id": 2076,
-      "name": "Body Slasher Blade NG",
-      "url": "/lu4/item/2076-body-slasher-blade"
-    },
-    {
-      "key": "item:2070",
-      "type": "item",
-      "id": 2070,
-      "name": "Cursed Dagger Blade NG",
-      "url": "/lu4/item/2070-cursed-dagger-blade"
-    },
-    {
-      "key": "item:2062",
-      "type": "item",
-      "id": 2062,
-      "name": "Scythe Edge NG",
-      "url": "/lu4/item/2062-scythe-edge"
-    },
-    {
-      "key": "item:1909",
-      "type": "item",
-      "id": 1909,
-      "name": "Aquastone Ring Wire NG",
-      "url": "/lu4/item/1909-aquastone-ring-wire"
-    },
-    {
-      "key": "item:1894",
-      "type": "item",
-      "id": 1894,
-      "name": "Crafted Leather NG",
-      "url": "/lu4/item/1894-crafted-leather"
-    },
-    {
-      "key": "item:1882",
-      "type": "item",
-      "id": 1882,
-      "name": "Leather NG",
-      "url": "/lu4/item/1882-leather"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1867",
@@ -138,11 +86,46 @@
       "url": "/lu4/item/1867-animal-skin"
     },
     {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:1882",
+      "type": "item",
+      "id": 1882,
+      "name": "Leather NG",
+      "url": "/lu4/item/1882-leather"
+    },
+    {
+      "key": "item:1894",
+      "type": "item",
+      "id": 1894,
+      "name": "Crafted Leather NG",
+      "url": "/lu4/item/1894-crafted-leather"
+    },
+    {
+      "key": "item:5269",
+      "type": "item",
+      "id": 5269,
+      "name": "Recipe: Greater Soulshot (C) Compressed Package(100%) NG",
+      "url": "/lu4/item/5269-recipe-greater-soulshot-c-compressed-package100"
+    },
+    {
       "key": "item:883",
       "type": "item",
       "id": 883,
       "name": "Aquastone Ring C",
       "url": "/lu4/item/883-aquastone-ring"
+    },
+    {
+      "key": "item:1909",
+      "type": "item",
+      "id": 1909,
+      "name": "Aquastone Ring Wire NG",
+      "url": "/lu4/item/1909-aquastone-ring-wire"
     },
     {
       "key": "item:302",
@@ -152,11 +135,25 @@
       "url": "/lu4/item/302-body-slasher"
     },
     {
+      "key": "item:2076",
+      "type": "item",
+      "id": 2076,
+      "name": "Body Slasher Blade NG",
+      "url": "/lu4/item/2076-body-slasher-blade"
+    },
+    {
       "key": "item:226",
       "type": "item",
       "id": 226,
       "name": "Cursed Dagger C",
       "url": "/lu4/item/226-cursed-dagger"
+    },
+    {
+      "key": "item:2070",
+      "type": "item",
+      "id": 2070,
+      "name": "Cursed Dagger Blade NG",
+      "url": "/lu4/item/2070-cursed-dagger-blade"
     },
     {
       "key": "item:96",
@@ -166,11 +163,11 @@
       "url": "/lu4/item/96-scythe"
     },
     {
-      "key": "item:57",
+      "key": "item:2062",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2062,
+      "name": "Scythe Edge NG",
+      "url": "/lu4/item/2062-scythe-edge"
     }
   ]
 }

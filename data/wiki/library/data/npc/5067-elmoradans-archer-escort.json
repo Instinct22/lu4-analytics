@@ -2,138 +2,100 @@
   "key": "npc:5067",
   "type": "npc",
   "id": 5067,
-  "name": "Lu4 Wiki: NPC Elmoradan's Archer Escort",
+  "name": "Elmoradan's Archer Escort",
   "url": "/lu4/npc/5067-elmoradans-archer-escort",
-  "source_url": "https://masterwork.wiki/lu4/npc/5067-elmoradans-archer-escort",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/5067-elmoradans-archer-escort",
   "raw_html": "library/raw/lu4/npc/5067-elmoradans-archer-escort.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "25 632 / 1 110",
+    "P. Atk. / M. Atk.": "8 233 / 1 526",
+    "P. Def. / M. Def.": "625 / 630",
+    "Accuracy / Evasion": "99 / 109",
+    "Exp / SP": "62 981 / 6 298",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge. Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Bleed Resistance Lv. 5 Resistant to Bleed. Mental Attack Resistance Lv. 5 Provides resistance against mental attack. Hold Resistance Lv. 5 Resistant to Hold. Paralyze Resistance Lv. 5 Resistant to paralyzing attacks. Stun Attack Resistance Lv. 5 Resistant to Stun. Sleep Resistance Lv. 5 Resistant to Sleep. Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 66"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:5067",
-      "type": "npc",
-      "id": 5067,
-      "name": "Lu4",
-      "url": "/lu4/npc/5067-elmoradans-archer-escort"
-    },
-    {
-      "key": "location:87",
-      "type": "location",
-      "id": 87,
-      "name": "Башня Дерзости: 4-й этаж",
-      "url": "/lu4/location/87-basna-derzosti-4-j-etaz"
-    },
     {
       "key": "skill:27943",
       "type": "skill",
       "id": 27943,
-      "name": "Elite Monster Lv. 1 A strong opponent with special abilities. Be prepared for a serious challenge.",
-      "url": "/lu4/skill/27943-elite-monster/1"
+      "name": "Elite Monster",
+      "url": "/lu4/skill/27943-elite-monster"
     },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4284",
       "type": "skill",
       "id": 4284,
-      "name": "Bleed Resistance Lv. 5 Resistant to Bleed.",
-      "url": "/lu4/skill/4284-bleed-resistance/5"
+      "name": "Bleed Resistance",
+      "url": "/lu4/skill/4284-bleed-resistance"
     },
     {
       "key": "skill:4389",
       "type": "skill",
       "id": 4389,
-      "name": "Mental Attack Resistance Lv. 5 Provides resistance against mental attack.",
-      "url": "/lu4/skill/4389-mental-attack-resistance/5"
+      "name": "Mental Attack Resistance",
+      "url": "/lu4/skill/4389-mental-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "skill:4388",
       "type": "skill",
       "id": 4388,
-      "name": "Paralyze Resistance Lv. 5 Resistant to paralyzing attacks.",
-      "url": "/lu4/skill/4388-paralyze-resistance/5"
+      "name": "Paralyze Resistance",
+      "url": "/lu4/skill/4388-paralyze-resistance"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4285",
       "type": "skill",
       "id": 4285,
-      "name": "Sleep Resistance Lv. 5 Resistant to Sleep.",
-      "url": "/lu4/skill/4285-sleep-resistance/5"
+      "name": "Sleep Resistance",
+      "url": "/lu4/skill/4285-sleep-resistance"
     },
     {
       "key": "skill:14765",
       "type": "skill",
       "id": 14765,
-      "name": "Vampiric Rage Resistance Lv. 3 Reduces Vampiric Rage effects received by this creature by 50%.",
-      "url": "/lu4/skill/14765-vampiric-rage-resistance/3"
+      "name": "Vampiric Rage Resistance",
+      "url": "/lu4/skill/14765-vampiric-rage-resistance"
     },
     {
-      "key": "item:32382",
+      "key": "item:57",
       "type": "item",
-      "id": 32382,
-      "name": "Unidentified Sealed Tallum Tunic A",
-      "url": "/lu4/item/32382-unidentified-sealed-tallum-tunic"
-    },
-    {
-      "key": "item:32371",
-      "type": "item",
-      "id": 32371,
-      "name": "Unidentified Sealed Dark Crystal Helmet A",
-      "url": "/lu4/item/32371-unidentified-sealed-dark-crystal-helmet"
-    },
-    {
-      "key": "item:32323",
-      "type": "item",
-      "id": 32323,
-      "name": "Unidentified Tallum Blade A",
-      "url": "/lu4/item/32323-unidentified-tallum-blade"
-    },
-    {
-      "key": "item:5548",
-      "type": "item",
-      "id": 5548,
-      "name": "Tallum Blade Edge NG",
-      "url": "/lu4/item/5548-tallum-blade-edge"
-    },
-    {
-      "key": "item:5525",
-      "type": "item",
-      "id": 5525,
-      "name": "Sealed Dark Crystal Helmet Design NG",
-      "url": "/lu4/item/5525-sealed-dark-crystal-helmet-design"
-    },
-    {
-      "key": "item:5485",
-      "type": "item",
-      "id": 5485,
-      "name": "Sealed Tallum Tunic Texture NG",
-      "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4041",
@@ -171,11 +133,46 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:57",
+      "key": "item:32371",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32371,
+      "name": "Unidentified Sealed Dark Crystal Helmet A",
+      "url": "/lu4/item/32371-unidentified-sealed-dark-crystal-helmet"
+    },
+    {
+      "key": "item:5525",
+      "type": "item",
+      "id": 5525,
+      "name": "Sealed Dark Crystal Helmet Design NG",
+      "url": "/lu4/item/5525-sealed-dark-crystal-helmet-design"
+    },
+    {
+      "key": "item:32382",
+      "type": "item",
+      "id": 32382,
+      "name": "Unidentified Sealed Tallum Tunic A",
+      "url": "/lu4/item/32382-unidentified-sealed-tallum-tunic"
+    },
+    {
+      "key": "item:5485",
+      "type": "item",
+      "id": 5485,
+      "name": "Sealed Tallum Tunic Texture NG",
+      "url": "/lu4/item/5485-sealed-tallum-tunic-texture"
+    },
+    {
+      "key": "item:32323",
+      "type": "item",
+      "id": 32323,
+      "name": "Unidentified Tallum Blade A",
+      "url": "/lu4/item/32323-unidentified-tallum-blade"
+    },
+    {
+      "key": "item:5548",
+      "type": "item",
+      "id": 5548,
+      "name": "Tallum Blade Edge NG",
+      "url": "/lu4/item/5548-tallum-blade-edge"
     }
   ]
 }

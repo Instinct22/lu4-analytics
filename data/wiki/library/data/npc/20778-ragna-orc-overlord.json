@@ -2,77 +2,67 @@
   "key": "npc:20778",
   "type": "npc",
   "id": 20778,
-  "name": "Lu4 Wiki: NPC Ragna Orc Overlord",
+  "name": "Ragna Orc Overlord",
   "url": "/lu4/npc/20778-ragna-orc-overlord",
-  "source_url": "https://masterwork.wiki/lu4/npc/20778-ragna-orc-overlord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20778-ragna-orc-overlord",
   "raw_html": "library/raw/lu4/npc/20778-ragna-orc-overlord.html",
   "stats": {
-    "Location": "Плато Бессмертия (+1) Плато Бессмертия Плато Бессмертия, юг"
+    "Respawn Time": "20 seconds",
+    "Location": "Плато Бессмертия (+1) Плато Бессмертия Плато Бессмертия, юг",
+    "HP / MP": "1 462 / 571",
+    "P. Atk. / M. Atk.": "224 / 138",
+    "P. Def. / M. Def.": "249 / 188",
+    "Accuracy / Evasion": "75 / 74",
+    "Exp / SP": "1 561 / 156",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 39"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20778",
-      "type": "npc",
-      "id": 20778,
-      "name": "Lu4",
-      "url": "/lu4/npc/20778-ragna-orc-overlord"
-    },
-    {
-      "key": "location:190",
-      "type": "location",
-      "id": 190,
-      "name": "Плато Бессмертия",
-      "url": "/lu4/location/190-plato-bessmertia"
-    },
-    {
-      "key": "location:191",
-      "type": "location",
-      "id": 191,
-      "name": "Плато Бессмертия, юг",
-      "url": "/lu4/location/191-plato-bessmertia-ug"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
-      "key": "item:2919",
+      "key": "item:57",
       "type": "item",
-      "id": 2919,
-      "name": "Brigandine Gaiters Material NG",
-      "url": "/lu4/item/2919-brigandine-gaiters-material"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:2918",
@@ -96,25 +86,11 @@
       "url": "/lu4/item/2377-mithril-scale-gaiters"
     },
     {
-      "key": "item:2289",
+      "key": "item:2919",
       "type": "item",
-      "id": 2289,
-      "name": "Recipe: Staff of Life NG",
-      "url": "/lu4/item/2289-recipe-staff-of-life"
-    },
-    {
-      "key": "item:2288",
-      "type": "item",
-      "id": 2288,
-      "name": "Recipe: Ghost Staff NG",
-      "url": "/lu4/item/2288-recipe-ghost-staff"
-    },
-    {
-      "key": "item:2202",
-      "type": "item",
-      "id": 2202,
-      "name": "Recipe: Assault Boots NG",
-      "url": "/lu4/item/2202-recipe-assault-boots"
+      "id": 2919,
+      "name": "Brigandine Gaiters Material NG",
+      "url": "/lu4/item/2919-brigandine-gaiters-material"
     },
     {
       "key": "item:1941",
@@ -124,11 +100,32 @@
       "url": "/lu4/item/1941-brigandine-breastplate-temper"
     },
     {
+      "key": "item:352",
+      "type": "item",
+      "id": 352,
+      "name": "Brigandine Breastplate D",
+      "url": "/lu4/item/352-brigandine-breastplate"
+    },
+    {
       "key": "item:1877",
       "type": "item",
       "id": 1877,
       "name": "Adamantite Nugget NG",
       "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:2288",
+      "type": "item",
+      "id": 2288,
+      "name": "Recipe: Ghost Staff NG",
+      "url": "/lu4/item/2288-recipe-ghost-staff"
+    },
+    {
+      "key": "item:2289",
+      "type": "item",
+      "id": 2289,
+      "name": "Recipe: Staff of Life NG",
+      "url": "/lu4/item/2289-recipe-staff-of-life"
     },
     {
       "key": "item:1871",
@@ -145,25 +142,18 @@
       "url": "/lu4/item/1866-suede"
     },
     {
-      "key": "item:352",
+      "key": "item:2202",
       "type": "item",
-      "id": 352,
-      "name": "Brigandine Breastplate D",
-      "url": "/lu4/item/352-brigandine-breastplate"
+      "id": 2202,
+      "name": "Recipe: Sage's Worn Boots NG",
+      "url": "/lu4/item/2202-recipe-sages-worn-boots"
     },
     {
-      "key": "item:57",
+      "key": "item:1902",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:2290",
-      "type": "item",
-      "id": 2290,
-      "name": "Recipe: Mithril Dagger NG",
-      "url": "/lu4/item/2290-recipe-mithril-dagger"
+      "id": 1902,
+      "name": "Elven Earring Beads NG",
+      "url": "/lu4/item/1902-elven-earring-beads"
     },
     {
       "key": "item:1903",
@@ -173,11 +163,11 @@
       "url": "/lu4/item/1903-elven-ring-piece"
     },
     {
-      "key": "item:1902",
+      "key": "item:2290",
       "type": "item",
-      "id": 1902,
-      "name": "Elven Earring Beads NG",
-      "url": "/lu4/item/1902-elven-earring-beads"
+      "id": 2290,
+      "name": "Recipe: Mithril Dagger NG",
+      "url": "/lu4/item/2290-recipe-mithril-dagger"
     }
   ]
 }

@@ -2,140 +2,88 @@
   "key": "npc:21089",
   "type": "npc",
   "id": 21089,
-  "name": "Lu4 Wiki: NPC Bloody Lord",
+  "name": "Bloody Lord",
   "url": "/lu4/npc/21089-bloody-lord",
-  "source_url": "https://masterwork.wiki/lu4/npc/21089-bloody-lord",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21089-bloody-lord",
   "raw_html": "library/raw/lu4/npc/21089-bloody-lord.html",
   "stats": {
-    "Location": "Логово Антараса"
+    "Respawn Time": "2 minutes, 20 seconds",
+    "Location": "Логово Антараса",
+    "HP / MP": "24 335 / 1 651",
+    "P. Atk. / M. Atk.": "2 530 / 879",
+    "P. Def. / M. Def.": "854 / 515",
+    "Accuracy / Evasion": "101 / 101",
+    "Exp / SP": "49 855 / 4 985",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 5, Unholy 40",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 Very Strong P. Atk. Lv. 16 Very Strong P. Def. Lv. 16 Strong M. Def. Lv. 14 Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage. Critical Chance Lv. 1 Increases P. Atk. Critical Rate. High Stun Attack Resistance Lv. 3 Highly resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 68"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:21089",
-      "type": "npc",
-      "id": 21089,
-      "name": "Lu4",
-      "url": "/lu4/npc/21089-bloody-lord"
-    },
-    {
-      "key": "location:45",
-      "type": "location",
-      "id": 45,
-      "name": "Логово Антараса",
-      "url": "/lu4/location/45-logovo-antarasa"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Very Strong P. Atk. Lv. 16",
-      "url": "/lu4/skill/4410-very-strong-p-atk/16"
+      "name": "Very Strong P. Atk.",
+      "url": "/lu4/skill/4410-very-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Very Strong P. Def. Lv. 16",
-      "url": "/lu4/skill/4412-very-strong-p-def/16"
+      "name": "Very Strong P. Def.",
+      "url": "/lu4/skill/4412-very-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4085",
       "type": "skill",
       "id": 4085,
-      "name": "Critical Damage Lv. 1 Deals significant P. Atk. Critical Damage.",
-      "url": "/lu4/skill/4085-critical-damage/1"
+      "name": "Critical Damage",
+      "url": "/lu4/skill/4085-critical-damage"
     },
     {
       "key": "skill:4086",
       "type": "skill",
       "id": 4086,
-      "name": "Critical Chance Lv. 1 Increases P. Atk. Critical Rate.",
-      "url": "/lu4/skill/4086-critical-chance/1"
+      "name": "Critical Chance",
+      "url": "/lu4/skill/4086-critical-chance"
     },
     {
       "key": "skill:4435",
       "type": "skill",
       "id": 4435,
-      "name": "High Stun Attack Resistance Lv. 3 Highly resistant to Stun.",
-      "url": "/lu4/skill/4435-high-stun-attack-resistance/3"
+      "name": "High Stun Attack Resistance",
+      "url": "/lu4/skill/4435-high-stun-attack-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32437",
-      "type": "item",
-      "id": 32437,
-      "name": "Unidentified Destroyer Hammer A",
-      "url": "/lu4/item/32437-unidentified-destroyer-hammer"
-    },
-    {
-      "key": "item:32377",
-      "type": "item",
-      "id": 32377,
-      "name": "Unidentified Sealed Tallum Gloves A",
-      "url": "/lu4/item/32377-unidentified-sealed-tallum-gloves"
-    },
-    {
-      "key": "item:32370",
-      "type": "item",
-      "id": 32370,
-      "name": "Unidentified Sealed Dark Crystal Gaiters A",
-      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
-    },
-    {
-      "key": "item:8752",
-      "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
-    },
-    {
-      "key": "item:8346",
-      "type": "item",
-      "id": 8346,
-      "name": "Hammer Piece of Destroyer NG",
-      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
-    },
-    {
-      "key": "item:5524",
-      "type": "item",
-      "id": 5524,
-      "name": "Sealed Dark Crystal Gaiters Pattern NG",
-      "url": "/lu4/item/5524-sealed-dark-crystal-gaiters-pattern"
-    },
-    {
-      "key": "item:5509",
-      "type": "item",
-      "id": 5509,
-      "name": "Sealed Tallum Gloves Design NG",
-      "url": "/lu4/item/5509-sealed-tallum-gloves-design"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4042",
@@ -173,11 +121,67 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:49800",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:8752",
+      "type": "item",
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
+    },
+    {
+      "key": "item:32437",
+      "type": "item",
+      "id": 32437,
+      "name": "Unidentified Destroyer Hammer A",
+      "url": "/lu4/item/32437-unidentified-destroyer-hammer"
+    },
+    {
+      "key": "item:8346",
+      "type": "item",
+      "id": 8346,
+      "name": "Hammer Piece of Destroyer NG",
+      "url": "/lu4/item/8346-hammer-piece-of-destroyer"
+    },
+    {
+      "key": "item:32370",
+      "type": "item",
+      "id": 32370,
+      "name": "Unidentified Sealed Dark Crystal Gaiters A",
+      "url": "/lu4/item/32370-unidentified-sealed-dark-crystal-gaiters"
+    },
+    {
+      "key": "item:5524",
+      "type": "item",
+      "id": 5524,
+      "name": "Sealed Dark Crystal Gaiters Pattern NG",
+      "url": "/lu4/item/5524-sealed-dark-crystal-gaiters-pattern"
+    },
+    {
+      "key": "item:32377",
+      "type": "item",
+      "id": 32377,
+      "name": "Unidentified Sealed Tallum Gloves A",
+      "url": "/lu4/item/32377-unidentified-sealed-tallum-gloves"
+    },
+    {
+      "key": "item:5509",
+      "type": "item",
+      "id": 5509,
+      "name": "Sealed Tallum Gloves Design NG",
+      "url": "/lu4/item/5509-sealed-tallum-gloves-design"
+    },
+    {
+      "key": "item:5550",
+      "type": "item",
+      "id": 5550,
+      "name": "Durable Metal Plate NG",
+      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:6569",
@@ -192,13 +196,6 @@
       "id": 6329,
       "name": "Recipe: Sealed Phoenix Necklace(70%) NG",
       "url": "/lu4/item/6329-recipe-sealed-phoenix-necklace70"
-    },
-    {
-      "key": "item:5550",
-      "type": "item",
-      "id": 5550,
-      "name": "Durable Metal Plate NG",
-      "url": "/lu4/item/5550-durable-metal-plate"
     },
     {
       "key": "item:5521",

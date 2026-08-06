@@ -2,105 +2,67 @@
   "key": "npc:20218",
   "type": "npc",
   "id": 20218,
-  "name": "Lu4 Wiki: NPC Premo",
+  "name": "Premo",
   "url": "/lu4/npc/20218-premo",
-  "source_url": "https://masterwork.wiki/lu4/npc/20218-premo",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20218-premo",
   "raw_html": "library/raw/lu4/npc/20218-premo.html",
   "stats": {
-    "Location": "Башня Крумы: 3-й этаж"
+    "Respawn Time": "1 minute, 10 seconds ± 5 seconds",
+    "Location": "Башня Крумы: 3-й этаж",
+    "HP / MP": "9 433 / 751",
+    "P. Atk. / M. Atk.": "465 / 195",
+    "P. Def. / M. Def.": "291 / 195",
+    "Accuracy / Evasion": "78 / 78",
+    "Exp / SP": "13 038 / 1 304",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10% HP Increase (5x) Lv. 13 Slightly Strong P. Atk. Lv. 13 Slightly Strong P. Def. Lv. 13 Stun Attack Resistance Lv. 1 Slightly resistant to Stun.",
+    "Grade": "NG",
+    "Type": "Beast, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20218",
-      "type": "npc",
-      "id": 20218,
-      "name": "Lu4",
-      "url": "/lu4/npc/20218-premo"
-    },
-    {
-      "key": "location:56",
-      "type": "location",
-      "id": 56,
-      "name": "Башня Крумы: 3-й этаж",
-      "url": "/lu4/location/56-basna-krumy-3-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Beast Lv. 3 Takes 15% increased damage from attacks that are effective against Beasts. Critical Damage +7.5% Atk. Spd. +5% Speed +5 Resistance to Derangement +20% Resistance to Sword +10% Resistance to Dual Sword +10% Resistance to Bleed -10% Resistance to Dagger -10% Resistance to Dual Dagger -10%",
-      "url": "/lu4/skill/4416-beast/3"
+      "name": "Beast",
+      "url": "/lu4/skill/4416-beast"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (5x) Lv. 13",
-      "url": "/lu4/skill/4408-hp-increase-5x/13"
+      "name": "HP Increase (5x)",
+      "url": "/lu4/skill/4408-hp-increase-5x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 13",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/13"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 1 Slightly resistant to Sleep.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/1"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
-      "key": "item:4039",
+      "key": "item:57",
       "type": "item",
-      "id": 4039,
-      "name": "Mold Glue NG",
-      "url": "/lu4/item/4039-mold-glue"
-    },
-    {
-      "key": "item:2950",
-      "type": "item",
-      "id": 2950,
-      "name": "Gloves of Seal Pattern NG",
-      "url": "/lu4/item/2950-gloves-of-seal-pattern"
-    },
-    {
-      "key": "item:2941",
-      "type": "item",
-      "id": 2941,
-      "name": "Boots of Seal Pattern NG",
-      "url": "/lu4/item/2941-boots-of-seal-pattern"
-    },
-    {
-      "key": "item:2457",
-      "type": "item",
-      "id": 2457,
-      "name": "Gloves of Seal C",
-      "url": "/lu4/item/2457-gloves-of-seal"
-    },
-    {
-      "key": "item:2433",
-      "type": "item",
-      "id": 2433,
-      "name": "Boots of Seal C",
-      "url": "/lu4/item/2433-boots-of-seal"
-    },
-    {
-      "key": "item:1969",
-      "type": "item",
-      "id": 1969,
-      "name": "Dwarven Chain Gaiters Material NG",
-      "url": "/lu4/item/1969-dwarven-chain-gaiters-material"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:1884",
@@ -131,6 +93,41 @@
       "url": "/lu4/item/1864-stem"
     },
     {
+      "key": "item:4039",
+      "type": "item",
+      "id": 4039,
+      "name": "Mold Glue NG",
+      "url": "/lu4/item/4039-mold-glue"
+    },
+    {
+      "key": "item:2433",
+      "type": "item",
+      "id": 2433,
+      "name": "Boots of Seal C",
+      "url": "/lu4/item/2433-boots-of-seal"
+    },
+    {
+      "key": "item:2941",
+      "type": "item",
+      "id": 2941,
+      "name": "Boots of Seal Pattern NG",
+      "url": "/lu4/item/2941-boots-of-seal-pattern"
+    },
+    {
+      "key": "item:2457",
+      "type": "item",
+      "id": 2457,
+      "name": "Gloves of Seal C",
+      "url": "/lu4/item/2457-gloves-of-seal"
+    },
+    {
+      "key": "item:2950",
+      "type": "item",
+      "id": 2950,
+      "name": "Gloves of Seal Pattern NG",
+      "url": "/lu4/item/2950-gloves-of-seal-pattern"
+    },
+    {
       "key": "item:382",
       "type": "item",
       "id": 382,
@@ -138,11 +135,11 @@
       "url": "/lu4/item/382-dwarven-chain-gaiters"
     },
     {
-      "key": "item:57",
+      "key": "item:1969",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 1969,
+      "name": "Dwarven Chain Gaiters Material NG",
+      "url": "/lu4/item/1969-dwarven-chain-gaiters-material"
     },
     {
       "key": "item:1876",

@@ -2,34 +2,32 @@
   "key": "item:5815",
   "type": "item",
   "id": 5815,
-  "name": "Lu4 Wiki: Item Spellbook: Wild Magic",
+  "name": "Spellbook: Wild Magic",
   "url": "/lu4/item/5815-spellbook-wild-magic",
-  "source_url": "https://masterwork.wiki/lu4/item/5815-spellbook-wild-magic",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/5815-spellbook-wild-magic",
   "raw_html": "library/raw/lu4/item/5815-spellbook-wild-magic.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Wild Magic'. Required: Elven Elder - Lv. 52 Shillien Elder - Lv. 52 To obtain this item, hunt the Sanhidro found in Skyshadow Meadow.",
+    "NPC Sell Price": "3 850 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:5815",
-      "type": "item",
-      "id": 5815,
-      "name": "Lu4",
-      "url": "/lu4/item/5815-spellbook-wild-magic"
-    },
-    {
       "key": "npc:21249",
       "type": "npc",
       "id": 21249,
-      "name": "Crypt Sage Lv. 62",
+      "name": "Crypt Sage",
       "url": "/lu4/npc/21249-crypt-sage"
     },
     {
       "key": "npc:20946",
       "type": "npc",
       "id": 20946,
-      "name": "Sanhidro Lv. 52",
+      "name": "Sanhidro",
       "url": "/lu4/npc/20946-sanhidro"
     }
   ]

@@ -2,77 +2,81 @@
   "key": "npc:20039",
   "type": "npc",
   "id": 20039,
-  "name": "Lu4 Wiki: NPC Scavenger Wererat",
+  "name": "Scavenger Wererat",
   "url": "/lu4/npc/20039-scavenger-wererat",
-  "source_url": "https://masterwork.wiki/lu4/npc/20039-scavenger-wererat",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20039-scavenger-wererat",
   "raw_html": "library/raw/lu4/npc/20039-scavenger-wererat.html",
   "stats": {
-    "Location": "Нейтральная Зона (+1) Нейтральная Зона Темный Лес"
+    "Respawn Time": "17 seconds",
+    "Location": "Нейтральная Зона (+1) Нейтральная Зона Темный Лес",
+    "HP / MP": "483 / 214",
+    "P. Atk. / M. Atk.": "58 / 31",
+    "P. Def. / M. Def.": "84 / 68",
+    "Accuracy / Evasion": "54 / 53",
+    "Exp / SP": "518 / 52",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 18"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20039",
-      "type": "npc",
-      "id": 20039,
-      "name": "Lu4",
-      "url": "/lu4/npc/20039-scavenger-wererat"
-    },
-    {
-      "key": "location:11",
-      "type": "location",
-      "id": 11,
-      "name": "Нейтральная Зона",
-      "url": "/lu4/location/11-nejtralnaa-zona"
-    },
-    {
-      "key": "location:5",
-      "type": "location",
-      "id": 5,
-      "name": "Темный Лес",
-      "url": "/lu4/location/5-temnyj-les"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
-      "key": "item:2175",
+      "key": "item:57",
       "type": "item",
-      "id": 2175,
-      "name": "Recipe: Boots NG",
-      "url": "/lu4/item/2175-recipe-boots"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
+    },
+    {
+      "key": "item:44",
+      "type": "item",
+      "id": 44,
+      "name": "Leather Helmet NG",
+      "url": "/lu4/item/44-leather-helmet"
+    },
+    {
+      "key": "item:102",
+      "type": "item",
+      "id": 102,
+      "name": "Round Shield NG",
+      "url": "/lu4/item/102-round-shield"
     },
     {
       "key": "item:1924",
@@ -80,6 +84,13 @@
       "id": 1924,
       "name": "Leather Helmet Design NG",
       "url": "/lu4/item/1924-leather-helmet-design"
+    },
+    {
+      "key": "item:945",
+      "type": "item",
+      "id": 945,
+      "name": "Skeleton Buckler NG",
+      "url": "/lu4/item/945-skeleton-buckler"
     },
     {
       "key": "item:1873",
@@ -117,13 +128,6 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:945",
-      "type": "item",
-      "id": 945,
-      "name": "Skeleton Buckler NG",
-      "url": "/lu4/item/945-skeleton-buckler"
-    },
-    {
       "key": "item:735",
       "type": "item",
       "id": 735,
@@ -131,32 +135,18 @@
       "url": "/lu4/item/735-alacrity-potion"
     },
     {
-      "key": "item:102",
+      "key": "item:2175",
       "type": "item",
-      "id": 102,
-      "name": "Round Shield NG",
-      "url": "/lu4/item/102-round-shield"
+      "id": 2175,
+      "name": "Recipe: Boots NG",
+      "url": "/lu4/item/2175-recipe-boots"
     },
     {
-      "key": "item:57",
+      "key": "item:1801",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
-    },
-    {
-      "key": "item:44",
-      "type": "item",
-      "id": 44,
-      "name": "Leather Helmet NG",
-      "url": "/lu4/item/44-leather-helmet"
-    },
-    {
-      "key": "item:2011",
-      "type": "item",
-      "id": 2011,
-      "name": "Short Spear Edge NG",
-      "url": "/lu4/item/2011-short-spear-edge"
+      "id": 1801,
+      "name": "Recipe: Piece Bone Gaiters NG",
+      "url": "/lu4/item/1801-recipe-piece-bone-gaiters"
     },
     {
       "key": "item:1872",
@@ -166,11 +156,11 @@
       "url": "/lu4/item/1872-animal-bone"
     },
     {
-      "key": "item:1801",
+      "key": "item:2011",
       "type": "item",
-      "id": 1801,
-      "name": "Recipe: Piece Bone Gaiters NG",
-      "url": "/lu4/item/1801-recipe-piece-bone-gaiters"
+      "id": 2011,
+      "name": "Short Spear Edge NG",
+      "url": "/lu4/item/2011-short-spear-edge"
     }
   ]
 }

@@ -2,42 +2,38 @@
   "key": "npc:29017",
   "type": "npc",
   "id": 29017,
-  "name": "Lu4 Wiki: NPC Riba",
+  "name": "Riba",
   "url": "/lu4/npc/29017-riba",
-  "source_url": "https://masterwork.wiki/lu4/npc/29017-riba",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/29017-riba",
   "raw_html": "library/raw/lu4/npc/29017-riba.html",
   "stats": {
-    "Location": "Нейтральные Воды"
+    "Respawn Time": "6 minutes ± 20 seconds",
+    "Location": "Нейтральные Воды",
+    "HP / MP": "24 739 / 852",
+    "P. Atk. / M. Atk.": "3 030 / 207",
+    "P. Def. / M. Def.": "582 / 466",
+    "Accuracy / Evasion": "85 / 90",
+    "Exp / SP": "0 / 1",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10% Resist Full Magic Attack Lv. 1",
+    "Type": "Bug, Lv. 52"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:29017",
-      "type": "npc",
-      "id": 29017,
-      "name": "Lu4",
-      "url": "/lu4/npc/29017-riba"
-    },
-    {
-      "key": "location:0",
-      "type": "location",
-      "id": 0,
-      "name": "Нейтральные Воды",
-      "url": "/lu4/location/0-nejtralnye-vody"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Bugs Lv. 12 Takes 15% increased damage from attacks that are effective against Bugs. Speed +5 Evasion +5 P. Skill Evasion +3% M. Skill Evasion +3% Resistance to Spear +10% Max HP -5% Resistance to Fire -10% Resistance to Fist -10%",
-      "url": "/lu4/skill/4416-bugs/12"
+      "name": "Bugs",
+      "url": "/lu4/skill/4416-bugs"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     }
   ]
 }

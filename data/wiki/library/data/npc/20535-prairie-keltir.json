@@ -2,63 +2,32 @@
   "key": "npc:20535",
   "type": "npc",
   "id": 20535,
-  "name": "Lu4 Wiki: NPC Prairie Keltir",
+  "name": "Prairie Keltir",
   "url": "/lu4/npc/20535-prairie-keltir",
-  "source_url": "https://masterwork.wiki/lu4/npc/20535-prairie-keltir",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20535-prairie-keltir",
   "raw_html": "library/raw/lu4/npc/20535-prairie-keltir.html",
   "stats": {
-    "Location": "Долина Героев (+1) Долина Героев Деревня Орков"
+    "Respawn Time": "10 seconds",
+    "Location": "Долина Героев (+1) Долина Героев Деревня Орков",
+    "HP / MP": "84 / 58",
+    "P. Atk. / M. Atk.": "10 / 4",
+    "P. Def. / M. Def.": "39 / 31",
+    "Accuracy / Evasion": "35 / 35",
+    "Exp / SP": "88 / 9",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
+    "Grade": "NG",
+    "Type": "Animal, Lv. 2"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20535",
-      "type": "npc",
-      "id": 20535,
-      "name": "Lu4",
-      "url": "/lu4/npc/20535-prairie-keltir"
-    },
-    {
-      "key": "location:197",
-      "type": "location",
-      "id": 197,
-      "name": "Долина Героев",
-      "url": "/lu4/location/197-dolina-geroev"
-    },
-    {
-      "key": "location:62",
-      "type": "location",
-      "id": 62,
-      "name": "Деревня Орков",
-      "url": "/lu4/location/62-derevna-orkov"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Animals Lv. 4 Takes 15% increased damage from attacks that are effective against Animals. P. Crit. Rate +25 Speed +5 P. Def. -5% Resistance to Bleed -15% Resistance to Speed Down +20% Resistance to Bow -10%",
-      "url": "/lu4/skill/4416-animals/4"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1865",
-      "type": "item",
-      "id": 1865,
-      "name": "Varnish NG",
-      "url": "/lu4/item/1865-varnish"
-    },
-    {
-      "key": "item:1786",
-      "type": "item",
-      "id": 1786,
-      "name": "Recipe: Broad Sword NG",
-      "url": "/lu4/item/1786-recipe-broad-sword"
+      "name": "Animals",
+      "url": "/lu4/skill/4416-animals"
     },
     {
       "key": "item:57",
@@ -68,18 +37,18 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:28",
-      "type": "item",
-      "id": 28,
-      "name": "Pants NG",
-      "url": "/lu4/item/28-pants"
-    },
-    {
       "key": "item:21",
       "type": "item",
       "id": 21,
       "name": "Shirt NG",
       "url": "/lu4/item/21-shirt"
+    },
+    {
+      "key": "item:28",
+      "type": "item",
+      "id": 28,
+      "name": "Pants NG",
+      "url": "/lu4/item/28-pants"
     },
     {
       "key": "item:17",
@@ -89,11 +58,32 @@
       "url": "/lu4/item/17-wooden-arrow"
     },
     {
-      "key": "item:1867",
+      "key": "item:1786",
       "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "id": 1786,
+      "name": "Recipe: Broad Sword NG",
+      "url": "/lu4/item/1786-recipe-broad-sword"
+    },
+    {
+      "key": "item:1865",
+      "type": "item",
+      "id": 1865,
+      "name": "Varnish NG",
+      "url": "/lu4/item/1865-varnish"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:36",
+      "type": "item",
+      "id": 36,
+      "name": "Leather Sandals NG",
+      "url": "/lu4/item/36-leather-sandals"
     },
     {
       "key": "item:1787",
@@ -103,11 +93,11 @@
       "url": "/lu4/item/1787-recipe-willow-staff"
     },
     {
-      "key": "item:36",
+      "key": "item:1867",
       "type": "item",
-      "id": 36,
-      "name": "Leather Sandals NG",
-      "url": "/lu4/item/36-leather-sandals"
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
     }
   ]
 }

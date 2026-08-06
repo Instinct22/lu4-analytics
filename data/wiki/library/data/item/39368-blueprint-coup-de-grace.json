@@ -2,27 +2,25 @@
   "key": "item:39368",
   "type": "item",
   "id": 39368,
-  "name": "Lu4 Wiki: Item Blueprint: Coup De Grace",
+  "name": "Blueprint: Coup De Grace",
   "url": "/lu4/item/39368-blueprint-coup-de-grace",
-  "source_url": "https://masterwork.wiki/lu4/item/39368-blueprint-coup-de-grace",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/39368-blueprint-coup-de-grace",
   "raw_html": "library/raw/lu4/item/39368-blueprint-coup-de-grace.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Blueprint needed to learn 'Coup De Grace'. Required: Bounty Hunter - Lv. 62 To obtain this item, hunt the Blackveil Revenant found in The cemetery.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:39368",
-      "type": "item",
-      "id": 39368,
-      "name": "Lu4",
-      "url": "/lu4/item/39368-blueprint-coup-de-grace"
-    },
-    {
       "key": "npc:5022",
       "type": "npc",
       "id": 5022,
-      "name": "Blackveil Revenant Lv. 60",
+      "name": "Blackveil Revenant",
       "url": "/lu4/npc/5022-blackveil-revenant"
     }
   ]

@@ -2,40 +2,37 @@
   "key": "npc:21815",
   "type": "npc",
   "id": 21815,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21815-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21815-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21815-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21815-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "3 302 / 1 389",
+    "P. Atk. / M. Atk.": "1 008 / 577",
+    "P. Def. / M. Def.": "411 / 332",
+    "Accuracy / Evasion": "96 / 96",
+    "Exp / SP": "4 762 / 430",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Resist Full Magic Attack Lv. 1",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 63"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21815",
-      "type": "npc",
-      "id": 21815,
-      "name": "Lu4",
-      "url": "/lu4/npc/21815-treasure-chest"
-    },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
-      "key": "item:5549",
+      "key": "item:57",
       "type": "item",
-      "id": 5549,
-      "name": "Metallic Thread NG",
-      "url": "/lu4/item/5549-metallic-thread"
-    },
-    {
-      "key": "item:5230",
-      "type": "item",
-      "id": 5230,
-      "name": "Recipe: Mithril Arrow (100%) NG",
-      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4044",
@@ -66,11 +63,18 @@
       "url": "/lu4/item/1868-thread"
     },
     {
-      "key": "item:57",
+      "key": "item:5230",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 5230,
+      "name": "Recipe: Mithril Arrow (100%) NG",
+      "url": "/lu4/item/5230-recipe-mithril-arrow-100"
+    },
+    {
+      "key": "item:5549",
+      "type": "item",
+      "id": 5549,
+      "name": "Metallic Thread NG",
+      "url": "/lu4/item/5549-metallic-thread"
     }
   ]
 }

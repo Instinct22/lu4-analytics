@@ -2,140 +2,109 @@
   "key": "npc:20367",
   "type": "npc",
   "id": 20367,
-  "name": "Lu4 Wiki: NPC Merkenis's Escort",
+  "name": "Merkenis's Escort",
   "url": "/lu4/npc/20367-merkeniss-escort",
-  "source_url": "https://masterwork.wiki/lu4/npc/20367-merkeniss-escort",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20367-merkeniss-escort",
   "raw_html": "library/raw/lu4/npc/20367-merkeniss-escort.html",
   "stats": {
-    "Location": "Школа Темной Магии"
+    "Respawn Time": "45 seconds",
+    "Location": "Школа Темной Магии",
+    "HP / MP": "1 621 / 236",
+    "P. Atk. / M. Atk.": "52 / 26",
+    "P. Def. / M. Def.": "118 / 91",
+    "Accuracy / Evasion": "53 / 53",
+    "Exp / SP": "1 589 / 159",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (3x) Lv. 11 Slightly Weak P. Atk. Lv. 10 Slightly Weak M. Atk. Lv. 10 Slightly Strong P. Def. Lv. 12 Slightly Strong M. Def. Lv. 12 Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack. Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 20"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20367",
-      "type": "npc",
-      "id": 20367,
-      "name": "Lu4",
-      "url": "/lu4/npc/20367-merkeniss-escort"
-    },
-    {
-      "key": "location:110",
-      "type": "location",
-      "id": 110,
-      "name": "Школа Темной Магии",
-      "url": "/lu4/location/110-skola-temnoj-magii"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (3x) Lv. 11",
-      "url": "/lu4/skill/4408-hp-increase-3x/11"
+      "name": "HP Increase (3x)",
+      "url": "/lu4/skill/4408-hp-increase-3x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Weak P. Atk. Lv. 10",
-      "url": "/lu4/skill/4410-slightly-weak-p-atk/10"
+      "name": "Slightly Weak P. Atk.",
+      "url": "/lu4/skill/4410-slightly-weak-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Weak M. Atk. Lv. 10",
-      "url": "/lu4/skill/4411-slightly-weak-m-atk/10"
+      "name": "Slightly Weak M. Atk.",
+      "url": "/lu4/skill/4411-slightly-weak-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Strong M. Def. Lv. 12",
-      "url": "/lu4/skill/4413-slightly-strong-m-def/12"
+      "name": "Slightly Strong M. Def.",
+      "url": "/lu4/skill/4413-slightly-strong-m-def"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4274",
       "type": "skill",
       "id": 4274,
-      "name": "Blunt Weapon Vulnerability Lv. 1 Vulnerable to Blunt Weapons.",
-      "url": "/lu4/skill/4274-blunt-weapon-vulnerability/1"
+      "name": "Blunt Weapon Vulnerability",
+      "url": "/lu4/skill/4274-blunt-weapon-vulnerability"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:39299",
+      "key": "item:44",
       "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
+      "id": 44,
+      "name": "Leather Helmet NG",
+      "url": "/lu4/item/44-leather-helmet"
     },
     {
-      "key": "item:39298",
+      "key": "item:102",
       "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:5153",
-      "type": "item",
-      "id": 5153,
-      "name": "Recipe: Soulshot (D) Compressed Package (100%) NG",
-      "url": "/lu4/item/5153-recipe-soulshot-d-compressed-package-100"
+      "id": 102,
+      "name": "Round Shield NG",
+      "url": "/lu4/item/102-round-shield"
     },
     {
       "key": "item:1924",
@@ -143,6 +112,13 @@
       "id": 1924,
       "name": "Leather Helmet Design NG",
       "url": "/lu4/item/1924-leather-helmet-design"
+    },
+    {
+      "key": "item:945",
+      "type": "item",
+      "id": 945,
+      "name": "Skeleton Buckler NG",
+      "url": "/lu4/item/945-skeleton-buckler"
     },
     {
       "key": "item:1878",
@@ -166,13 +142,6 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:945",
-      "type": "item",
-      "id": 945,
-      "name": "Skeleton Buckler NG",
-      "url": "/lu4/item/945-skeleton-buckler"
-    },
-    {
       "key": "item:735",
       "type": "item",
       "id": 735,
@@ -180,32 +149,53 @@
       "url": "/lu4/item/735-alacrity-potion"
     },
     {
-      "key": "item:102",
+      "key": "item:5153",
       "type": "item",
-      "id": 102,
-      "name": "Round Shield NG",
-      "url": "/lu4/item/102-round-shield"
+      "id": 5153,
+      "name": "Recipe: Soulshot (D) Compressed Package (100%) NG",
+      "url": "/lu4/item/5153-recipe-soulshot-d-compressed-package-100"
     },
     {
-      "key": "item:57",
+      "key": "item:39295",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
     },
     {
-      "key": "item:44",
+      "key": "item:39296",
       "type": "item",
-      "id": 44,
-      "name": "Leather Helmet NG",
-      "url": "/lu4/item/44-leather-helmet"
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
     },
     {
-      "key": "item:1896",
+      "key": "item:39297",
       "type": "item",
-      "id": 1896,
-      "name": "Necklace of Anguish Chain NG",
-      "url": "/lu4/item/1896-necklace-of-anguish-chain"
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:1832",
@@ -213,6 +203,13 @@
       "id": 1832,
       "name": "Greater Antidote NG",
       "url": "/lu4/item/1832-greater-antidote"
+    },
+    {
+      "key": "item:1896",
+      "type": "item",
+      "id": 1896,
+      "name": "Necklace of Anguish Chain NG",
+      "url": "/lu4/item/1896-necklace-of-anguish-chain"
     }
   ]
 }

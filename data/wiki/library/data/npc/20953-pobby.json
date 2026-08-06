@@ -2,161 +2,60 @@
   "key": "npc:20953",
   "type": "npc",
   "id": 20953,
-  "name": "Lu4 Wiki: NPC Pobby",
+  "name": "Pobby",
   "url": "/lu4/npc/20953-pobby",
-  "source_url": "https://masterwork.wiki/lu4/npc/20953-pobby",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20953-pobby",
   "raw_html": "library/raw/lu4/npc/20953-pobby.html",
   "stats": {
-    "Location": "Школа Полномочий (+1) Школа Полномочий Земли Орена"
+    "Respawn Time": "37 seconds ± 5 seconds",
+    "Location": "Школа Полномочий (+1) Школа Полномочий Земли Орена",
+    "HP / MP": "2 811 / 1 168",
+    "P. Atk. / M. Atk.": "764 / 406",
+    "P. Def. / M. Def.": "293 / 278",
+    "Accuracy / Evasion": "90 / 100",
+    "Exp / SP": "3 092 / 309",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10% Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Poison Resistance Lv. 5 Resistant to Poison attack. Hold Resistance Lv. 4 Resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Plant, Lv. 57"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20953",
-      "type": "npc",
-      "id": 20953,
-      "name": "Lu4",
-      "url": "/lu4/npc/20953-pobby"
-    },
-    {
-      "key": "location:105",
-      "type": "location",
-      "id": 105,
-      "name": "Школа Полномочий",
-      "url": "/lu4/location/105-skola-polnomocij"
-    },
-    {
-      "key": "location:7",
-      "type": "location",
-      "id": 7,
-      "name": "Земли Орена",
-      "url": "/lu4/location/7-zemli-orena"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Plants Lv. 5 Takes 15% increased damage from attacks that are effective against Plants. HP Recovery +10% Resistance to Poison +20% Resistance to Knockback +20% Resistance to Fist +10% Speed -5 Resistance to Fire -10% Resistance to Spear -10%",
-      "url": "/lu4/skill/4416-plants/5"
+      "name": "Plants",
+      "url": "/lu4/skill/4416-plants"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4277",
       "type": "skill",
       "id": 4277,
-      "name": "Poison Resistance Lv. 5 Resistant to Poison attack.",
-      "url": "/lu4/skill/4277-poison-resistance/5"
+      "name": "Poison Resistance",
+      "url": "/lu4/skill/4277-poison-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 4 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/4"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
-      "key": "item:39371",
+      "key": "item:57",
       "type": "item",
-      "id": 39371,
-      "name": "Spellbook: Earth Eruption NG",
-      "url": "/lu4/item/39371-spellbook-earth-eruption"
-    },
-    {
-      "key": "item:32587",
-      "type": "item",
-      "id": 32587,
-      "name": "Unidentified Tunic of Zubei B",
-      "url": "/lu4/item/32587-unidentified-tunic-of-zubei"
-    },
-    {
-      "key": "item:32339",
-      "type": "item",
-      "id": 32339,
-      "name": "Unidentified Hell Knife B",
-      "url": "/lu4/item/32339-unidentified-hell-knife"
-    },
-    {
-      "key": "item:32329",
-      "type": "item",
-      "id": 32329,
-      "name": "Unidentified Sword of Valhalla B",
-      "url": "/lu4/item/32329-unidentified-sword-of-valhalla"
-    },
-    {
-      "key": "item:8389",
-      "type": "item",
-      "id": 8389,
-      "name": "Spellbook: Greater Shield NG",
-      "url": "/lu4/item/8389-spellbook-greater-shield"
-    },
-    {
-      "key": "item:8388",
-      "type": "item",
-      "id": 8388,
-      "name": "Spellbook: Greater Might NG",
-      "url": "/lu4/item/8388-spellbook-greater-might"
-    },
-    {
-      "key": "item:6572",
-      "type": "item",
-      "id": 6572,
-      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
-    },
-    {
-      "key": "item:4972",
-      "type": "item",
-      "id": 4972,
-      "name": "Recipe: Great Axe (60%) NG",
-      "url": "/lu4/item/4972-recipe-great-axe-60"
-    },
-    {
-      "key": "item:4941",
-      "type": "item",
-      "id": 4941,
-      "name": "Recipe: Zubei's Gaiters (60%) NG",
-      "url": "/lu4/item/4941-recipe-zubeis-gaiters-60"
-    },
-    {
-      "key": "item:4936",
-      "type": "item",
-      "id": 4936,
-      "name": "Recipe: Avadon Shield (60%) NG",
-      "url": "/lu4/item/4936-recipe-avadon-shield-60"
-    },
-    {
-      "key": "item:4911",
-      "type": "item",
-      "id": 4911,
-      "name": "Spellbook: Curse Disease NG",
-      "url": "/lu4/item/4911-spellbook-curse-disease"
-    },
-    {
-      "key": "item:4110",
-      "type": "item",
-      "id": 4110,
-      "name": "Hell Knife Edge NG",
-      "url": "/lu4/item/4110-hell-knife-edge"
-    },
-    {
-      "key": "item:4108",
-      "type": "item",
-      "id": 4108,
-      "name": "Sword of Valhalla Blade NG",
-      "url": "/lu4/item/4108-sword-of-valhalla-blade"
-    },
-    {
-      "key": "item:4069",
-      "type": "item",
-      "id": 4069,
-      "name": "Tunic of Zubei Fabric NG",
-      "url": "/lu4/item/4069-tunic-of-zubei-fabric"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:4039",
@@ -194,39 +93,109 @@
       "url": "/lu4/item/1864-stem"
     },
     {
-      "key": "item:57",
+      "key": "item:6572",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 6572,
+      "name": "Blessed Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/6572-blessed-scroll-enchant-armor-b-grade"
     },
     {
-      "key": "item:8310",
+      "key": "item:32339",
       "type": "item",
-      "id": 8310,
-      "name": "Recipe: Spell Breaker (60%) NG",
-      "url": "/lu4/item/8310-recipe-spell-breaker-60"
+      "id": 32339,
+      "name": "Unidentified Hell Knife B",
+      "url": "/lu4/item/32339-unidentified-hell-knife"
     },
     {
-      "key": "item:4958",
+      "key": "item:4110",
       "type": "item",
-      "id": 4958,
-      "name": "Recipe: Sealed Zubei's Boots (60%) NG",
-      "url": "/lu4/item/4958-recipe-sealed-zubeis-boots-60"
+      "id": 4110,
+      "name": "Hell Knife Edge NG",
+      "url": "/lu4/item/4110-hell-knife-edge"
     },
     {
-      "key": "item:4107",
+      "key": "item:32329",
       "type": "item",
-      "id": 4107,
-      "name": "Keshanberk Blade NG",
-      "url": "/lu4/item/4107-keshanberk-blade"
+      "id": 32329,
+      "name": "Unidentified Sword of Valhalla B",
+      "url": "/lu4/item/32329-unidentified-sword-of-valhalla"
     },
     {
-      "key": "item:4064",
+      "key": "item:4108",
       "type": "item",
-      "id": 4064,
-      "name": "Avadon Breastplate Part NG",
-      "url": "/lu4/item/4064-avadon-breastplate-part"
+      "id": 4108,
+      "name": "Sword of Valhalla Blade NG",
+      "url": "/lu4/item/4108-sword-of-valhalla-blade"
+    },
+    {
+      "key": "item:32587",
+      "type": "item",
+      "id": 32587,
+      "name": "Unidentified Tunic of Zubei B",
+      "url": "/lu4/item/32587-unidentified-tunic-of-zubei"
+    },
+    {
+      "key": "item:4069",
+      "type": "item",
+      "id": 4069,
+      "name": "Tunic of Zubei Fabric NG",
+      "url": "/lu4/item/4069-tunic-of-zubei-fabric"
+    },
+    {
+      "key": "item:4936",
+      "type": "item",
+      "id": 4936,
+      "name": "Recipe: Avadon Shield (60%) NG",
+      "url": "/lu4/item/4936-recipe-avadon-shield-60"
+    },
+    {
+      "key": "item:4972",
+      "type": "item",
+      "id": 4972,
+      "name": "Recipe: Great Axe (60%) NG",
+      "url": "/lu4/item/4972-recipe-great-axe-60"
+    },
+    {
+      "key": "item:4941",
+      "type": "item",
+      "id": 4941,
+      "name": "Recipe: Zubei's Gaiters (60%) NG",
+      "url": "/lu4/item/4941-recipe-zubeis-gaiters-60"
+    },
+    {
+      "key": "item:4911",
+      "type": "item",
+      "id": 4911,
+      "name": "Spellbook: Curse Disease NG",
+      "url": "/lu4/item/4911-spellbook-curse-disease"
+    },
+    {
+      "key": "item:39371",
+      "type": "item",
+      "id": 39371,
+      "name": "Spellbook: Earth Eruption NG",
+      "url": "/lu4/item/39371-spellbook-earth-eruption"
+    },
+    {
+      "key": "item:8388",
+      "type": "item",
+      "id": 8388,
+      "name": "Spellbook: Greater Might NG",
+      "url": "/lu4/item/8388-spellbook-greater-might"
+    },
+    {
+      "key": "item:8389",
+      "type": "item",
+      "id": 8389,
+      "name": "Spellbook: Greater Shield NG",
+      "url": "/lu4/item/8389-spellbook-greater-shield"
+    },
+    {
+      "key": "item:948",
+      "type": "item",
+      "id": 948,
+      "name": "Scroll: Enchant Armor (B-Grade) NG",
+      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
     },
     {
       "key": "item:3955",
@@ -236,11 +205,32 @@
       "url": "/lu4/item/3955-recipe-blessed-spiritshot-b"
     },
     {
-      "key": "item:948",
+      "key": "item:4958",
       "type": "item",
-      "id": 948,
-      "name": "Scroll: Enchant Armor (B-Grade) NG",
-      "url": "/lu4/item/948-scroll-enchant-armor-b-grade"
+      "id": 4958,
+      "name": "Recipe: Sealed Zubei's Boots (60%) NG",
+      "url": "/lu4/item/4958-recipe-sealed-zubeis-boots-60"
+    },
+    {
+      "key": "item:8310",
+      "type": "item",
+      "id": 8310,
+      "name": "Recipe: Spell Breaker (60%) NG",
+      "url": "/lu4/item/8310-recipe-spell-breaker-60"
+    },
+    {
+      "key": "item:4064",
+      "type": "item",
+      "id": 4064,
+      "name": "Avadon Breastplate Part NG",
+      "url": "/lu4/item/4064-avadon-breastplate-part"
+    },
+    {
+      "key": "item:4107",
+      "type": "item",
+      "id": 4107,
+      "name": "Keshanberk Blade NG",
+      "url": "/lu4/item/4107-keshanberk-blade"
     },
     {
       "key": "npc:20952",

@@ -2,147 +2,81 @@
   "key": "npc:20819",
   "type": "npc",
   "id": 20819,
-  "name": "Lu4 Wiki: NPC Archer of Abyss",
+  "name": "Archer of Abyss",
   "url": "/lu4/npc/20819-archer-of-abyss",
-  "source_url": "https://masterwork.wiki/lu4/npc/20819-archer-of-abyss",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20819-archer-of-abyss",
   "raw_html": "library/raw/lu4/npc/20819-archer-of-abyss.html",
   "stats": {
-    "Location": "Башня Дерзости: 4-й этаж"
+    "Respawn Time": "3 minutes, 5 seconds ± 20 seconds",
+    "Location": "Башня Дерзости: 4-й этаж",
+    "HP / MP": "21 937 / 1 464",
+    "P. Atk. / M. Atk.": "3 562 / 788",
+    "P. Def. / M. Def.": "686 / 473",
+    "Accuracy / Evasion": "99 / 99",
+    "Exp / SP": "43 255 / 4 325",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (6x) Lv. 14 Strong P. Atk. Lv. 15 Strong M. Def. Lv. 14 Strong P. Def. Lv. 15 Stun Attack Resistance Lv. 5 Resistant to Stun. Greater Sleep Resistance Lv. 3 Highly resistant to Sleep.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 66"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20819",
-      "type": "npc",
-      "id": 20819,
-      "name": "Lu4",
-      "url": "/lu4/npc/20819-archer-of-abyss"
-    },
-    {
-      "key": "location:87",
-      "type": "location",
-      "id": 87,
-      "name": "Башня Дерзости: 4-й этаж",
-      "url": "/lu4/location/87-basna-derzosti-4-j-etaz"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (6x) Lv. 14",
-      "url": "/lu4/skill/4408-hp-increase-6x/14"
+      "name": "HP Increase (6x)",
+      "url": "/lu4/skill/4408-hp-increase-6x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Strong P. Atk. Lv. 15",
-      "url": "/lu4/skill/4410-strong-p-atk/15"
+      "name": "Strong P. Atk.",
+      "url": "/lu4/skill/4410-strong-p-atk"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Strong M. Def. Lv. 14",
-      "url": "/lu4/skill/4413-strong-m-def/14"
+      "name": "Strong M. Def.",
+      "url": "/lu4/skill/4413-strong-m-def"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Strong P. Def. Lv. 15",
-      "url": "/lu4/skill/4412-strong-p-def/15"
+      "name": "Strong P. Def.",
+      "url": "/lu4/skill/4412-strong-p-def"
     },
     {
       "key": "skill:4225",
       "type": "skill",
       "id": 4225,
-      "name": "Stun Attack Resistance Lv. 5 Resistant to Stun.",
-      "url": "/lu4/skill/4225-stun-attack-resistance/5"
+      "name": "Stun Attack Resistance",
+      "url": "/lu4/skill/4225-stun-attack-resistance"
     },
     {
       "key": "skill:4438",
       "type": "skill",
       "id": 4438,
-      "name": "Greater Sleep Resistance Lv. 3 Highly resistant to Sleep.",
-      "url": "/lu4/skill/4438-greater-sleep-resistance/3"
+      "name": "Greater Sleep Resistance",
+      "url": "/lu4/skill/4438-greater-sleep-resistance"
     },
     {
-      "key": "item:49800",
+      "key": "item:57",
       "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
-    },
-    {
-      "key": "item:39290",
-      "type": "item",
-      "id": 39290,
-      "name": "Black Dimensional Stone NG",
-      "url": "/lu4/item/39290-black-dimensional-stone"
-    },
-    {
-      "key": "item:32383",
-      "type": "item",
-      "id": 32383,
-      "name": "Unidentified Sealed Tallum Stockings A",
-      "url": "/lu4/item/32383-unidentified-sealed-tallum-stockings"
-    },
-    {
-      "key": "item:6331",
-      "type": "item",
-      "id": 6331,
-      "name": "Recipe: Sealed Phoenix Earring(70%) NG",
-      "url": "/lu4/item/6331-recipe-sealed-phoenix-earring70"
-    },
-    {
-      "key": "item:5489",
-      "type": "item",
-      "id": 5489,
-      "name": "Sealed Tallum Stockings Fabric NG",
-      "url": "/lu4/item/5489-sealed-tallum-stockings-fabric"
-    },
-    {
-      "key": "item:5418",
-      "type": "item",
-      "id": 5418,
-      "name": "Recipe: Sealed Tallum Plate Armor(60%) NG",
-      "url": "/lu4/item/5418-recipe-sealed-tallum-plate-armor60"
-    },
-    {
-      "key": "item:5334",
-      "type": "item",
-      "id": 5334,
-      "name": "Recipe: Sealed Tallum Leather Armor(60%) NG",
-      "url": "/lu4/item/5334-recipe-sealed-tallum-leather-armor60"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:5220",
@@ -180,6 +114,20 @@
       "url": "/lu4/item/1874-oriharukon-ore"
     },
     {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:39290",
+      "type": "item",
+      "id": 39290,
+      "name": "Black Dimensional Stone NG",
+      "url": "/lu4/item/39290-black-dimensional-stone"
+    },
+    {
       "key": "item:730",
       "type": "item",
       "id": 730,
@@ -187,18 +135,60 @@
       "url": "/lu4/item/730-scroll-enchant-armor-a-grade"
     },
     {
-      "key": "item:57",
+      "key": "item:32383",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 32383,
+      "name": "Unidentified Sealed Tallum Stockings A",
+      "url": "/lu4/item/32383-unidentified-sealed-tallum-stockings"
     },
     {
-      "key": "item:8331",
+      "key": "item:5489",
       "type": "item",
-      "id": 8331,
-      "name": "Infernal Master Blade NG",
-      "url": "/lu4/item/8331-infernal-master-blade"
+      "id": 5489,
+      "name": "Sealed Tallum Stockings Fabric NG",
+      "url": "/lu4/item/5489-sealed-tallum-stockings-fabric"
+    },
+    {
+      "key": "item:6331",
+      "type": "item",
+      "id": 6331,
+      "name": "Recipe: Sealed Phoenix Earring(70%) NG",
+      "url": "/lu4/item/6331-recipe-sealed-phoenix-earring70"
+    },
+    {
+      "key": "item:5334",
+      "type": "item",
+      "id": 5334,
+      "name": "Recipe: Sealed Tallum Leather Armor(60%) NG",
+      "url": "/lu4/item/5334-recipe-sealed-tallum-leather-armor60"
+    },
+    {
+      "key": "item:5418",
+      "type": "item",
+      "id": 5418,
+      "name": "Recipe: Sealed Tallum Plate Armor(60%) NG",
+      "url": "/lu4/item/5418-recipe-sealed-tallum-plate-armor60"
+    },
+    {
+      "key": "item:39295",
+      "type": "item",
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
     },
     {
       "key": "item:8314",
@@ -208,18 +198,25 @@
       "url": "/lu4/item/8314-recipe-spiritual-eye-60"
     },
     {
-      "key": "item:6341",
-      "type": "item",
-      "id": 6341,
-      "name": "Sealed Phoenix Earring Gemstone NG",
-      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
-    },
-    {
       "key": "item:5364",
       "type": "item",
       "id": 5364,
       "name": "Recipe: Sealed Dark Crystal Shield(60%) NG",
       "url": "/lu4/item/5364-recipe-sealed-dark-crystal-shield60"
+    },
+    {
+      "key": "item:8331",
+      "type": "item",
+      "id": 8331,
+      "name": "Infernal Master Blade NG",
+      "url": "/lu4/item/8331-infernal-master-blade"
+    },
+    {
+      "key": "item:6341",
+      "type": "item",
+      "id": 6341,
+      "name": "Sealed Phoenix Earring Gemstone NG",
+      "url": "/lu4/item/6341-sealed-phoenix-earring-gemstone"
     }
   ]
 }

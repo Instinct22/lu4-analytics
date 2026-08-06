@@ -2,187 +2,100 @@
   "key": "npc:21822",
   "type": "npc",
   "id": 21822,
-  "name": "Lu4 Wiki: NPC Treasure Chest",
+  "name": "Treasure Chest",
   "url": "/lu4/npc/21822-treasure-chest",
-  "source_url": "https://masterwork.wiki/lu4/npc/21822-treasure-chest",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21822-treasure-chest",
   "raw_html": "library/raw/lu4/npc/21822-treasure-chest.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "5 106 / 2 092",
+    "P. Atk. / M. Atk.": "2 087 / 1 402",
+    "P. Def. / M. Def.": "683 / 590",
+    "Accuracy / Evasion": "137 / 145",
+    "Exp / SP": "8 467 / 996",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (1x) Lv. 1 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. One-handed Blunt Weapons Lv. 5 Blunt Weapons Resist Full Magic Attack Lv. 1 High Lv. Lv. 8 NPC High Level",
+    "Grade": "NG",
+    "Type": "Construct, Lv. 84"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21822",
-      "type": "npc",
-      "id": 21822,
-      "name": "Lu4",
-      "url": "/lu4/npc/21822-treasure-chest"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Magic Creatures Lv. 2 Takes 15% increased damage from attacks that are effective against Magic Creatures. P. Def. +5% Max HP +3% Received Critical Damage -10% Received M. Crit. Damage -10% Resistance to Bleed +20% Resistance to Bow +10% Resistance to Crossbow +10% Speed -5 Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-magic-creatures/2"
+      "name": "Magic Creatures",
+      "url": "/lu4/skill/4416-magic-creatures"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4408-hp-increase-1x/1"
+      "name": "HP Increase (1x)",
+      "url": "/lu4/skill/4408-hp-increase-1x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "One-handed Blunt Weapons Lv. 5 Blunt Weapons",
-      "url": "/lu4/skill/4415-one-handed-blunt-weapons/5"
+      "name": "One-handed Blunt Weapons",
+      "url": "/lu4/skill/4415-one-handed-blunt-weapons"
     },
     {
       "key": "skill:4045",
       "type": "skill",
       "id": 4045,
-      "name": "Resist Full Magic Attack Lv. 1",
-      "url": "/lu4/skill/4045-resist-full-magic-attack/1"
+      "name": "Resist Full Magic Attack",
+      "url": "/lu4/skill/4045-resist-full-magic-attack"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 8 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/8"
-    },
-    {
-      "key": "item:49800",
-      "type": "item",
-      "id": 49800,
-      "name": "Chest with Life Stone NG",
-      "url": "/lu4/item/49800-chest-with-life-stone"
-    },
-    {
-      "key": "item:32391",
-      "type": "item",
-      "id": 32391,
-      "name": "Unidentified Sealed Majestic Circlet A",
-      "url": "/lu4/item/32391-unidentified-sealed-majestic-circlet"
-    },
-    {
-      "key": "item:32389",
-      "type": "item",
-      "id": 32389,
-      "name": "Unidentified Sealed Shield of Nightmare A",
-      "url": "/lu4/item/32389-unidentified-sealed-shield-of-nightmare"
-    },
-    {
-      "key": "item:32386",
-      "type": "item",
-      "id": 32386,
-      "name": "Unidentified Sealed Helm of Nightmare A",
-      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
-    },
-    {
-      "key": "item:8752",
-      "type": "item",
-      "id": 8752,
-      "name": "High-Grade Life Stone NG",
-      "url": "/lu4/item/8752-high-grade-life-stone"
-    },
-    {
-      "key": "item:5528",
-      "type": "item",
-      "id": 5528,
-      "name": "Sealed Majestic Circlet Design NG",
-      "url": "/lu4/item/5528-sealed-majestic-circlet-design"
-    },
-    {
-      "key": "item:5527",
-      "type": "item",
-      "id": 5527,
-      "name": "Sealed Helm of Nightmare Design NG",
-      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
-    },
-    {
-      "key": "item:5495",
-      "type": "item",
-      "id": 5495,
-      "name": "Sealed Shield of Nightmare Fragment NG",
-      "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
-    },
-    {
-      "key": "item:4043",
-      "type": "item",
-      "id": 4043,
-      "name": "Asofe NG",
-      "url": "/lu4/item/4043-asofe"
-    },
-    {
-      "key": "item:4042",
-      "type": "item",
-      "id": 4042,
-      "name": "Enria NG",
-      "url": "/lu4/item/4042-enria"
-    },
-    {
-      "key": "item:4040",
-      "type": "item",
-      "id": 4040,
-      "name": "Mold Lubricant NG",
-      "url": "/lu4/item/4040-mold-lubricant"
-    },
-    {
-      "key": "item:1895",
-      "type": "item",
-      "id": 1895,
-      "name": "Metallic Fiber NG",
-      "url": "/lu4/item/1895-metallic-fiber"
-    },
-    {
-      "key": "item:960",
-      "type": "item",
-      "id": 960,
-      "name": "Scroll: Enchant Armor (S-Grade) NG",
-      "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
       "key": "item:57",
@@ -192,11 +105,102 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:6690",
+      "key": "item:32389",
       "type": "item",
-      "id": 6690,
-      "name": "Imperial Staff Head NG",
-      "url": "/lu4/item/6690-imperial-staff-head"
+      "id": 32389,
+      "name": "Unidentified Sealed Shield of Nightmare A",
+      "url": "/lu4/item/32389-unidentified-sealed-shield-of-nightmare"
+    },
+    {
+      "key": "item:5495",
+      "type": "item",
+      "id": 5495,
+      "name": "Sealed Shield of Nightmare Fragment NG",
+      "url": "/lu4/item/5495-sealed-shield-of-nightmare-fragment"
+    },
+    {
+      "key": "item:32386",
+      "type": "item",
+      "id": 32386,
+      "name": "Unidentified Sealed Helm of Nightmare A",
+      "url": "/lu4/item/32386-unidentified-sealed-helm-of-nightmare"
+    },
+    {
+      "key": "item:5527",
+      "type": "item",
+      "id": 5527,
+      "name": "Sealed Helm of Nightmare Design NG",
+      "url": "/lu4/item/5527-sealed-helm-of-nightmare-design"
+    },
+    {
+      "key": "item:32391",
+      "type": "item",
+      "id": 32391,
+      "name": "Unidentified Sealed Majestic Circlet A",
+      "url": "/lu4/item/32391-unidentified-sealed-majestic-circlet"
+    },
+    {
+      "key": "item:5528",
+      "type": "item",
+      "id": 5528,
+      "name": "Sealed Majestic Circlet Design NG",
+      "url": "/lu4/item/5528-sealed-majestic-circlet-design"
+    },
+    {
+      "key": "item:1895",
+      "type": "item",
+      "id": 1895,
+      "name": "Metallic Fiber NG",
+      "url": "/lu4/item/1895-metallic-fiber"
+    },
+    {
+      "key": "item:4040",
+      "type": "item",
+      "id": 4040,
+      "name": "Mold Lubricant NG",
+      "url": "/lu4/item/4040-mold-lubricant"
+    },
+    {
+      "key": "item:4042",
+      "type": "item",
+      "id": 4042,
+      "name": "Enria NG",
+      "url": "/lu4/item/4042-enria"
+    },
+    {
+      "key": "item:4043",
+      "type": "item",
+      "id": 4043,
+      "name": "Asofe NG",
+      "url": "/lu4/item/4043-asofe"
+    },
+    {
+      "key": "item:960",
+      "type": "item",
+      "id": 960,
+      "name": "Scroll: Enchant Armor (S-Grade) NG",
+      "url": "/lu4/item/960-scroll-enchant-armor-s-grade"
+    },
+    {
+      "key": "item:49800",
+      "type": "item",
+      "id": 49800,
+      "name": "Chest with Life Stone NG",
+      "url": "/lu4/item/49800-chest-with-life-stone"
+    },
+    {
+      "key": "item:8752",
+      "type": "item",
+      "id": 8752,
+      "name": "High-Grade Life Stone NG",
+      "url": "/lu4/item/8752-high-grade-life-stone"
+    },
+    {
+      "key": "item:6688",
+      "type": "item",
+      "id": 6688,
+      "name": "Forgotten Blade Edge NG",
+      "url": "/lu4/item/6688-forgotten-blade-edge"
     },
     {
       "key": "item:6689",
@@ -206,11 +210,11 @@
       "url": "/lu4/item/6689-basalt-battlehammer-head"
     },
     {
-      "key": "item:6688",
+      "key": "item:6690",
       "type": "item",
-      "id": 6688,
-      "name": "Forgotten Blade Edge NG",
-      "url": "/lu4/item/6688-forgotten-blade-edge"
+      "id": 6690,
+      "name": "Imperial Staff Head NG",
+      "url": "/lu4/item/6690-imperial-staff-head"
     }
   ]
 }

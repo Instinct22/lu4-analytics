@@ -2,34 +2,32 @@
   "key": "item:8882",
   "type": "item",
   "id": 8882,
-  "name": "Lu4 Wiki: Item Spellbook: Salvation",
+  "name": "Spellbook: Salvation",
   "url": "/lu4/item/8882-spellbook-salvation",
-  "source_url": "https://masterwork.wiki/lu4/item/8882-spellbook-salvation",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/8882-spellbook-salvation",
   "raw_html": "library/raw/lu4/item/8882-spellbook-salvation.html",
   "stats": {
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Effect": "Spellbook needed to learn 'Salvation'. Required: Bishop - Lv. 68 To obtain this item, hunt the Doom Warrior found in Fields of Massacre.",
+    "NPC Sell Price": "1 600 Adena",
+    "Weight": "120",
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "NG",
+    "Type": "Other / Spellbook"
   },
   "materials": [],
   "links": [
     {
-      "key": "item:8882",
-      "type": "item",
-      "id": 8882,
-      "name": "Lu4",
-      "url": "/lu4/item/8882-spellbook-salvation"
-    },
-    {
       "key": "npc:22201",
       "type": "npc",
       "id": 22201,
-      "name": "Ornithomimus Lv. 80",
+      "name": "Ornithomimus",
       "url": "/lu4/npc/22201-ornithomimus"
     },
     {
       "key": "npc:21010",
       "type": "npc",
       "id": 21010,
-      "name": "Doom Warrior Lv. 67",
+      "name": "Doom Warrior",
       "url": "/lu4/npc/21010-doom-warrior"
     }
   ]

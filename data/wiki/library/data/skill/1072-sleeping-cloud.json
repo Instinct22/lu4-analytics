@@ -1,0 +1,45 @@
+{
+  "key": "skill:1072",
+  "type": "skill",
+  "id": 1072,
+  "name": "Sleeping Cloud",
+  "url": "/lu4/skill/1072-sleeping-cloud",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/1072-sleeping-cloud",
+  "raw_html": "library/raw/lu4/skill/1072-sleeping-cloud.html",
+  "stats": {
+    "Effect": "Causes nearby enemies to fall asleep.",
+    "Consumes": "59 MP",
+    "Reuse Time": "8 seconds",
+    "Duration": "30 seconds",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_sleep",
+    "Cast Range": "500 (1000)",
+    "Available For": "SorcererLv. 44SpellsingerLv. 44TerramancerLv. 44",
+    "Type": "Magical / Debuff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:12",
+      "type": "class",
+      "id": 12,
+      "name": "SorcererLv. 44",
+      "url": "/lu4/class/12-sorcerer"
+    },
+    {
+      "key": "class:27",
+      "type": "class",
+      "id": 27,
+      "name": "SpellsingerLv. 44",
+      "url": "/lu4/class/27-spellsinger"
+    },
+    {
+      "key": "class:210",
+      "type": "class",
+      "id": 210,
+      "name": "TerramancerLv. 44",
+      "url": "/lu4/class/210-terramancer"
+    }
+  ]
+}

@@ -2,145 +2,100 @@
   "key": "npc:22148",
   "type": "npc",
   "id": 22148,
-  "name": "Lu4 Wiki: NPC Triol's Believer",
+  "name": "Triol's Believer",
   "url": "/lu4/npc/22148-triols-believer",
-  "source_url": "https://masterwork.wiki/lu4/npc/22148-triols-believer",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/22148-triols-believer",
   "raw_html": "library/raw/lu4/npc/22148-triols-believer.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "19 029 / 2 169",
+    "P. Atk. / M. Atk.": "1 951 / 1 270",
+    "P. Def. / M. Def.": "586 / 692",
+    "Accuracy / Evasion": "128 / 136",
+    "Exp / SP": "69 957 / 3 320",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 20, Earth 20, Holy -32, Unholy 80",
+    "Skills": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10% HP Increase (4x) Lv. 12 MP Increase (1x) Lv. 1 Average P. Atk. Lv. 11 Average M. Atk. Lv. 11 Average P. Def. Lv. 11 Average M. Def. Lv. 11 Standard Type Lv. 2 Normal P. Def. and Evasion. Spear Lv. 11 Spears Humanoids Lv. 26 Humanoids. High Lv. Lv. 9 NPC High Level",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 80"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:22148",
-      "type": "npc",
-      "id": 22148,
-      "name": "Lu4",
-      "url": "/lu4/npc/22148-triols-believer"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Humanoids Lv. 6 Takes 15% increased damage from attacks that are effective against Humanoids. Atk. Spd. +2.5% Accuracy +3 Evasion +2 P. Def. -5% Received Critical Damage +5% Resistance to Bleed -10%",
-      "url": "/lu4/skill/4416-humanoids/6"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4416-humanoids"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4409",
       "type": "skill",
       "id": 4409,
-      "name": "MP Increase (1x) Lv. 1",
-      "url": "/lu4/skill/4409-mp-increase-1x/1"
+      "name": "MP Increase (1x)",
+      "url": "/lu4/skill/4409-mp-increase-1x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Average P. Atk. Lv. 11",
-      "url": "/lu4/skill/4410-average-p-atk/11"
+      "name": "Average P. Atk.",
+      "url": "/lu4/skill/4410-average-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Average M. Atk. Lv. 11",
-      "url": "/lu4/skill/4411-average-m-atk/11"
+      "name": "Average M. Atk.",
+      "url": "/lu4/skill/4411-average-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Average P. Def. Lv. 11",
-      "url": "/lu4/skill/4412-average-p-def/11"
+      "name": "Average P. Def.",
+      "url": "/lu4/skill/4412-average-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Average M. Def. Lv. 11",
-      "url": "/lu4/skill/4413-average-m-def/11"
+      "name": "Average M. Def.",
+      "url": "/lu4/skill/4413-average-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Standard Type Lv. 2 Normal P. Def. and Evasion.",
-      "url": "/lu4/skill/4414-standard-type/2"
+      "name": "Standard Type",
+      "url": "/lu4/skill/4414-standard-type"
     },
     {
       "key": "skill:4415",
       "type": "skill",
       "id": 4415,
-      "name": "Spear Lv. 11 Spears",
-      "url": "/lu4/skill/4415-spear/11"
+      "name": "Spear",
+      "url": "/lu4/skill/4415-spear"
     },
     {
       "key": "skill:4417",
       "type": "skill",
       "id": 4417,
-      "name": "Humanoids Lv. 26 Humanoids.",
-      "url": "/lu4/skill/4417-humanoids/26"
+      "name": "Humanoids",
+      "url": "/lu4/skill/4417-humanoids"
     },
     {
       "key": "skill:4789",
       "type": "skill",
       "id": 4789,
-      "name": "High Lv. Lv. 9 NPC High Level",
-      "url": "/lu4/skill/4789-high-lv/9"
-    },
-    {
-      "key": "item:7916",
-      "type": "item",
-      "id": 7916,
-      "name": "Dark Shard NG",
-      "url": "/lu4/item/7916-dark-shard"
-    },
-    {
-      "key": "item:5538",
-      "type": "item",
-      "id": 5538,
-      "name": "Dragon Grinder Edge NG",
-      "url": "/lu4/item/5538-dragon-grinder-edge"
-    },
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "url": "/lu4/item/1872-animal-bone"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1870",
-      "type": "item",
-      "id": 1870,
-      "name": "Coal NG",
-      "url": "/lu4/item/1870-coal"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1867",
-      "type": "item",
-      "id": 1867,
-      "name": "Animal Skin NG",
-      "url": "/lu4/item/1867-animal-skin"
+      "name": "High Lv.",
+      "url": "/lu4/skill/4789-high-lv"
     },
     {
       "key": "item:57",
@@ -150,11 +105,53 @@
       "url": "/lu4/item/57-adena"
     },
     {
-      "key": "item:5481",
+      "key": "item:5538",
       "type": "item",
-      "id": 5481,
-      "name": "Sealed Majestic Leather Armor Fabric NG",
-      "url": "/lu4/item/5481-sealed-majestic-leather-armor-fabric"
+      "id": 5538,
+      "name": "Dragon Grinder Edge NG",
+      "url": "/lu4/item/5538-dragon-grinder-edge"
+    },
+    {
+      "key": "item:1867",
+      "type": "item",
+      "id": 1867,
+      "name": "Animal Skin NG",
+      "url": "/lu4/item/1867-animal-skin"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
+    },
+    {
+      "key": "item:1870",
+      "type": "item",
+      "id": 1870,
+      "name": "Coal NG",
+      "url": "/lu4/item/1870-coal"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1872",
+      "type": "item",
+      "id": 1872,
+      "name": "Animal Bone NG",
+      "url": "/lu4/item/1872-animal-bone"
+    },
+    {
+      "key": "item:7916",
+      "type": "item",
+      "id": 7916,
+      "name": "Dark Shard NG",
+      "url": "/lu4/item/7916-dark-shard"
     },
     {
       "key": "item:5480",
@@ -169,6 +166,13 @@
       "id": 1808,
       "name": "Recipe: Soulshot (S-Grade) NG",
       "url": "/lu4/item/1808-recipe-soulshot-s-grade"
+    },
+    {
+      "key": "item:5481",
+      "type": "item",
+      "id": 5481,
+      "name": "Sealed Majestic Leather Armor Fabric NG",
+      "url": "/lu4/item/5481-sealed-majestic-leather-armor-fabric"
     }
   ]
 }

@@ -2,24 +2,23 @@
   "key": "item:2436",
   "type": "item",
   "id": 2436,
-  "name": "Lu4 Wiki: Item Theca Leather Boots",
+  "name": "Theca Leather Boots",
   "url": "/lu4/item/2436-theca-leather-boots",
-  "source_url": "https://masterwork.wiki/lu4/item/2436-theca-leather-boots",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2436-theca-leather-boots",
   "raw_html": "library/raw/lu4/item/2436-theca-leather-boots.html",
   "stats": {
+    "P. Def.": "36",
+    "Crystal Amount": "85 Crystallization Failed Enchant +0 85 - +1 91 - +2 97 - +3 103 - +4 121 78 +5 139 96 +6 157 114 +7 175 132 +8 193 150",
+    "NPC Sell Price": "105 800 Adena",
+    "Weight": "1210",
     "Set Part": "Theca Leather Armor C",
     "Recipes": "Recipe: Theca Leather Boots NG",
-    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use"
+    "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
+    "Grade": "C",
+    "Type": "Armor / None / Boots"
   },
   "materials": [],
   "links": [
-    {
-      "key": "item:2436",
-      "type": "item",
-      "id": 2436,
-      "name": "Lu4",
-      "url": "/lu4/item/2436-theca-leather-boots"
-    },
     {
       "key": "set:21",
       "type": "set",
@@ -31,7 +30,7 @@
       "key": "set:845",
       "type": "set",
       "id": 845,
-      "name": "",
+      "name": "set:845",
       "url": "/lu4/set/845"
     },
     {
@@ -42,66 +41,87 @@
       "url": "/lu4/item/3007-recipe-theca-leather-boots"
     },
     {
+      "key": "npc:29014",
+      "type": "npc",
+      "id": 29014,
+      "name": "Orfen",
+      "url": "/lu4/npc/29014-orfen"
+    },
+    {
+      "key": "npc:29006",
+      "type": "npc",
+      "id": 29006,
+      "name": "Core",
+      "url": "/lu4/npc/29006-core"
+    },
+    {
+      "key": "npc:29001",
+      "type": "npc",
+      "id": 29001,
+      "name": "Queen Ant",
+      "url": "/lu4/npc/29001-queen-ant"
+    },
+    {
       "key": "npc:25047",
       "type": "npc",
       "id": 25047,
-      "name": "Karte Lv. 55",
+      "name": "Karte",
       "url": "/lu4/npc/25047-karte"
     },
     {
       "key": "npc:25044",
       "type": "npc",
       "id": 25044,
-      "name": "Bariona Lv. 55",
+      "name": "Bariona",
       "url": "/lu4/npc/25044-bariona"
     },
     {
       "key": "npc:21719",
       "type": "npc",
       "id": 21719,
-      "name": "Purgatory Invader Elite Soldier Lv. 55",
+      "name": "Purgatory Invader Elite Soldier",
       "url": "/lu4/npc/21719-purgatory-invader-elite-soldier"
     },
     {
       "key": "npc:21636",
       "type": "npc",
       "id": 21636,
-      "name": "Veil Master Lv. 54",
+      "name": "Veil Master",
       "url": "/lu4/npc/21636-veil-master"
     },
     {
       "key": "npc:21635",
       "type": "npc",
       "id": 21635,
-      "name": "Veil Master Lv. 54",
+      "name": "Veil Master",
       "url": "/lu4/npc/21635-veil-master"
     },
     {
       "key": "npc:21261",
       "type": "npc",
       "id": 21261,
-      "name": "Ol Mahum Transcender Lv. 50",
+      "name": "Ol Mahum Transcender",
       "url": "/lu4/npc/21261-ol-mahum-transcender"
     },
     {
       "key": "npc:20801",
       "type": "npc",
       "id": 20801,
-      "name": "Theeder Piker Lv. 48",
+      "name": "Theeder Piker",
       "url": "/lu4/npc/20801-theeder-piker"
     },
     {
       "key": "npc:20571",
       "type": "npc",
       "id": 20571,
-      "name": "Tarlk Bugbear Warrior Lv. 48",
+      "name": "Tarlk Bugbear Warrior",
       "url": "/lu4/npc/20571-tarlk-bugbear-warrior"
     },
     {
       "key": "npc:20221",
       "type": "npc",
       "id": 20221,
-      "name": "Perum Lv. 48",
+      "name": "Perum",
       "url": "/lu4/npc/20221-perum"
     }
   ]

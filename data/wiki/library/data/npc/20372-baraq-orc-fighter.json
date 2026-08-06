@@ -2,98 +2,67 @@
   "key": "npc:20372",
   "type": "npc",
   "id": 20372,
-  "name": "Lu4 Wiki: NPC Baraq Orc Fighter",
+  "name": "Baraq Orc Fighter",
   "url": "/lu4/npc/20372-baraq-orc-fighter",
-  "source_url": "https://masterwork.wiki/lu4/npc/20372-baraq-orc-fighter",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20372-baraq-orc-fighter",
   "raw_html": "library/raw/lu4/npc/20372-baraq-orc-fighter.html",
   "stats": {
-    "Location": "Эльфийская Крепость"
+    "Respawn Time": "35 seconds",
+    "Location": "Эльфийская Крепость",
+    "HP / MP": "515 / 133",
+    "P. Atk. / M. Atk.": "29 / 14",
+    "P. Def. / M. Def.": "58 / 45",
+    "Accuracy / Evasion": "43 / 43",
+    "Exp / SP": "481 / 48",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% HP Increase (2x) Lv. 10 Slightly Strong P. Atk. Lv. 12 Slightly Strong M. Atk. Lv. 12 Slightly Weak P. Def. Lv. 10 Slightly Weak M. Def. Lv. 10",
+    "Grade": "NG",
+    "Type": "Humanoid, Lv. 10"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20372",
-      "type": "npc",
-      "id": 20372,
-      "name": "Lu4",
-      "url": "/lu4/npc/20372-baraq-orc-fighter"
-    },
-    {
-      "key": "location:114",
-      "type": "location",
-      "id": 114,
-      "name": "Эльфийская Крепость",
-      "url": "/lu4/location/114-elfijskaa-krepost"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (2x) Lv. 10",
-      "url": "/lu4/skill/4408-hp-increase-2x/10"
+      "name": "HP Increase (2x)",
+      "url": "/lu4/skill/4408-hp-increase-2x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 12",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/12"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 12",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/12"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Weak P. Def. Lv. 10",
-      "url": "/lu4/skill/4412-slightly-weak-p-def/10"
+      "name": "Slightly Weak P. Def.",
+      "url": "/lu4/skill/4412-slightly-weak-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 10",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/10"
-    },
-    {
-      "key": "item:2005",
-      "type": "item",
-      "id": 2005,
-      "name": "Broadsword Blade NG",
-      "url": "/lu4/item/2005-broadsword-blade"
-    },
-    {
-      "key": "item:1869",
-      "type": "item",
-      "id": 1869,
-      "name": "Iron Ore NG",
-      "url": "/lu4/item/1869-iron-ore"
-    },
-    {
-      "key": "item:1864",
-      "type": "item",
-      "id": 1864,
-      "name": "Stem NG",
-      "url": "/lu4/item/1864-stem"
-    },
-    {
-      "key": "item:1814",
-      "type": "item",
-      "id": 1814,
-      "name": "Recipe: Leather NG",
-      "url": "/lu4/item/1814-recipe-leather"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "item:57",
@@ -108,6 +77,34 @@
       "id": 3,
       "name": "Broadsword NG",
       "url": "/lu4/item/3-broadsword"
+    },
+    {
+      "key": "item:2005",
+      "type": "item",
+      "id": 2005,
+      "name": "Broadsword Blade NG",
+      "url": "/lu4/item/2005-broadsword-blade"
+    },
+    {
+      "key": "item:1814",
+      "type": "item",
+      "id": 1814,
+      "name": "Recipe: Leather NG",
+      "url": "/lu4/item/1814-recipe-leather"
+    },
+    {
+      "key": "item:1864",
+      "type": "item",
+      "id": 1864,
+      "name": "Stem NG",
+      "url": "/lu4/item/1864-stem"
+    },
+    {
+      "key": "item:1869",
+      "type": "item",
+      "id": 1869,
+      "name": "Iron Ore NG",
+      "url": "/lu4/item/1869-iron-ore"
     },
     {
       "key": "item:1870",

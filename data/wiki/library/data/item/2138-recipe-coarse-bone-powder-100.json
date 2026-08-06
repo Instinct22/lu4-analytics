@@ -2,34 +2,24 @@
   "key": "item:2138",
   "type": "item",
   "id": 2138,
-  "name": "Recipe",
+  "name": "Recipe: Coarse Bone Powder (100%)",
   "url": "/lu4/item/2138-recipe-coarse-bone-powder-100",
-  "source_url": "https://masterwork.wiki/lu4/item/2138-recipe-coarse-bone-powder-100",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/item/2138-recipe-coarse-bone-powder-100",
   "raw_html": "library/raw/lu4/item/2138-recipe-coarse-bone-powder-100.html",
   "stats": {
+    "Effect": "For Dwarves only. Recipe for crafting 'Coarse Bone Powder'. Requires Create Item - Skill Level 1 (Dwarven Fighter Lv. 5). The success rate is 100%.",
+    "NPC Sell Price": "340 Adena",
+    "Weight": "30",
     "Restrictions": "Private Warehouse Clan Warehouse Transfer within Game Account Trade Drop Private Store Enchant Attribute Olympiad Use",
     "Level": "1",
     "MP Consume": "10",
     "Success Rate": "100%",
-    "Result": "Coarse Bone Powder NG"
+    "Result": "Coarse Bone Powder NG",
+    "Grade": "NG",
+    "Type": "Other / Recipe"
   },
-  "materials": [
-    {
-      "key": "item:1872",
-      "type": "item",
-      "id": 1872,
-      "name": "Animal Bone NG",
-      "amount": "10"
-    }
-  ],
+  "materials": [],
   "links": [
-    {
-      "key": "item:2138",
-      "type": "item",
-      "id": 2138,
-      "name": "Lu4",
-      "url": "/lu4/item/2138-recipe-coarse-bone-powder-100"
-    },
     {
       "key": "item:1872",
       "type": "item",
@@ -48,28 +38,28 @@
       "key": "npc:20427",
       "type": "npc",
       "id": 20427,
-      "name": "Evil Eye Watcher Lv. 10",
+      "name": "Evil Eye Watcher",
       "url": "/lu4/npc/20427-evil-eye-watcher"
     },
     {
       "key": "npc:20326",
       "type": "npc",
       "id": 20326,
-      "name": "Goblin Scout Lv. 8",
+      "name": "Goblin Scout",
       "url": "/lu4/npc/20326-goblin-scout"
     },
     {
       "key": "npc:20093",
       "type": "npc",
       "id": 20093,
-      "name": "Orc Fighter Lv. 10",
+      "name": "Orc Fighter",
       "url": "/lu4/npc/20093-orc-fighter"
     },
     {
       "key": "npc:20447",
       "type": "npc",
       "id": 20447,
-      "name": "Utuku Orc Archer Lv. 8",
+      "name": "Utuku Orc Archer",
       "url": "/lu4/npc/20447-utuku-orc-archer"
     }
   ]

@@ -1,0 +1,44 @@
+{
+  "key": "skill:99",
+  "type": "skill",
+  "id": 99,
+  "name": "Rapid Shot",
+  "url": "/lu4/skill/99-rapid-shot",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/skill/99-rapid-shot",
+  "raw_html": "library/raw/lu4/skill/99-rapid-shot.html",
+  "stats": {
+    "Effect": "Atk. Spd. with Bow +8%.",
+    "Consumes": "14 MP",
+    "Reuse Time": "3 seconds",
+    "Duration": "20 minutes",
+    "Can be used on Olympiad": "Yes",
+    "Attribute": "None",
+    "Trait": "trait_none",
+    "Available For": "RogueLv. 32Elven ScoutLv. 32AssassinLv. 32",
+    "Type": "Physical / Buff"
+  },
+  "materials": [],
+  "links": [
+    {
+      "key": "class:7",
+      "type": "class",
+      "id": 7,
+      "name": "RogueLv. 32",
+      "url": "/lu4/class/7-rogue"
+    },
+    {
+      "key": "class:22",
+      "type": "class",
+      "id": 22,
+      "name": "Elven ScoutLv. 32",
+      "url": "/lu4/class/22-elvenscout"
+    },
+    {
+      "key": "class:35",
+      "type": "class",
+      "id": 35,
+      "name": "AssassinLv. 32",
+      "url": "/lu4/class/35-assasin"
+    }
+  ]
+}

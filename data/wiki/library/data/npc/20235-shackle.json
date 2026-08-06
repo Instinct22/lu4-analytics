@@ -2,98 +2,53 @@
   "key": "npc:20235",
   "type": "npc",
   "id": 20235,
-  "name": "Lu4 Wiki: NPC Shackle",
+  "name": "Shackle",
   "url": "/lu4/npc/20235-shackle",
-  "source_url": "https://masterwork.wiki/lu4/npc/20235-shackle",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/20235-shackle",
   "raw_html": "library/raw/lu4/npc/20235-shackle.html",
   "stats": {
-    "Location": "Долина Драконов (+1) Долина Драконов Кратер Башни Слоновой Кости"
+    "Respawn Time": "20 seconds",
+    "Location": "Долина Драконов (+1) Долина Драконов Кратер Башни Слоновой Кости",
+    "HP / MP": "1 887 / 751",
+    "P. Atk. / M. Atk.": "388 / 195",
+    "P. Def. / M. Def.": "243 / 195",
+    "Accuracy / Evasion": "78 / 78",
+    "Exp / SP": "2 000 / 200",
+    "Attack Attribute": "Unholy 20",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10% Holy Vulnerability Lv. 2 Vulnerable to Divinity attack. Dark Attack Lv. 1 Unleashes a dark attack.",
+    "Grade": "NG",
+    "Type": "Undead, Lv. 45"
   },
   "materials": [],
   "links": [
     {
-      "key": "npc:20235",
-      "type": "npc",
-      "id": 20235,
-      "name": "Lu4",
-      "url": "/lu4/npc/20235-shackle"
-    },
-    {
-      "key": "location:12",
-      "type": "location",
-      "id": 12,
-      "name": "Долина Драконов",
-      "url": "/lu4/location/12-dolina-drakonov"
-    },
-    {
-      "key": "location:239",
-      "type": "location",
-      "id": 239,
-      "name": "Кратер Башни Слоновой Кости",
-      "url": "/lu4/location/239-krater-basni-slonovoj-kosti"
-    },
-    {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Undead Lv. 1 Takes 15% increased damage from attacks that are effective against Undead. HP Recovery +10% Received P. Crit. Rate -5 Received Critical Damage -5% Received M. Crit. Damage -5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +3% Resistance to Bleed +20% Resistance to Holy -10%",
-      "url": "/lu4/skill/4416-undead/1"
+      "name": "Undead",
+      "url": "/lu4/skill/4416-undead"
     },
     {
       "key": "skill:4275",
       "type": "skill",
       "id": 4275,
-      "name": "Holy Vulnerability Lv. 2 Vulnerable to Divinity attack.",
-      "url": "/lu4/skill/4275-holy-vulnerability/2"
+      "name": "Holy Vulnerability",
+      "url": "/lu4/skill/4275-holy-vulnerability"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
-      "key": "item:39300",
+      "key": "item:57",
       "type": "item",
-      "id": 39300,
-      "name": "Key Imprint Rare NG",
-      "url": "/lu4/item/39300-key-imprint"
-    },
-    {
-      "key": "item:39299",
-      "type": "item",
-      "id": 39299,
-      "name": "Key Imprint Uncommon NG",
-      "url": "/lu4/item/39299-key-imprint"
-    },
-    {
-      "key": "item:39298",
-      "type": "item",
-      "id": 39298,
-      "name": "Key Imprint Common NG",
-      "url": "/lu4/item/39298-key-imprint"
-    },
-    {
-      "key": "item:39297",
-      "type": "item",
-      "id": 39297,
-      "name": "Pure Mana Crystal NG",
-      "url": "/lu4/item/39297-pure-mana-crystal"
-    },
-    {
-      "key": "item:39296",
-      "type": "item",
-      "id": 39296,
-      "name": "Saturated Mana Crystal NG",
-      "url": "/lu4/item/39296-saturated-mana-crystal"
-    },
-    {
-      "key": "item:39295",
-      "type": "item",
-      "id": 39295,
-      "name": "Mana Crystal NG",
-      "url": "/lu4/item/39295-mana-crystal"
+      "id": 57,
+      "name": "Adena NG",
+      "url": "/lu4/item/57-adena"
     },
     {
       "key": "item:8752",
@@ -110,13 +65,6 @@
       "url": "/lu4/item/6573-blessed-scroll-enchant-weapon-c-grade"
     },
     {
-      "key": "item:2948",
-      "type": "item",
-      "id": 2948,
-      "name": "Rind Leather Boots Lining NG",
-      "url": "/lu4/item/2948-rind-leather-boots-lining"
-    },
-    {
       "key": "item:2434",
       "type": "item",
       "id": 2434,
@@ -124,18 +72,11 @@
       "url": "/lu4/item/2434-rind-leather-boots"
     },
     {
-      "key": "item:2083",
+      "key": "item:2948",
       "type": "item",
-      "id": 2083,
-      "name": "Stiletto Edge NG",
-      "url": "/lu4/item/2083-stiletto-edge"
-    },
-    {
-      "key": "item:1970",
-      "type": "item",
-      "id": 1970,
-      "name": "Robe of Seal Fabric NG",
-      "url": "/lu4/item/1970-robe-of-seal-fabric"
+      "id": 2948,
+      "name": "Rind Leather Boots Lining NG",
+      "url": "/lu4/item/2948-rind-leather-boots-lining"
     },
     {
       "key": "item:440",
@@ -145,6 +86,13 @@
       "url": "/lu4/item/440-robe-of-seal"
     },
     {
+      "key": "item:1970",
+      "type": "item",
+      "id": 1970,
+      "name": "Robe of Seal Fabric NG",
+      "url": "/lu4/item/1970-robe-of-seal-fabric"
+    },
+    {
       "key": "item:227",
       "type": "item",
       "id": 227,
@@ -152,18 +100,53 @@
       "url": "/lu4/item/227-stiletto"
     },
     {
-      "key": "item:57",
+      "key": "item:2083",
       "type": "item",
-      "id": 57,
-      "name": "Adena NG",
-      "url": "/lu4/item/57-adena"
+      "id": 2083,
+      "name": "Stiletto Edge NG",
+      "url": "/lu4/item/2083-stiletto-edge"
     },
     {
-      "key": "item:2323",
+      "key": "item:39295",
       "type": "item",
-      "id": 2323,
-      "name": "Recipe: Elemental Bow NG",
-      "url": "/lu4/item/2323-recipe-elemental-bow"
+      "id": 39295,
+      "name": "Mana Crystal NG",
+      "url": "/lu4/item/39295-mana-crystal"
+    },
+    {
+      "key": "item:39296",
+      "type": "item",
+      "id": 39296,
+      "name": "Saturated Mana Crystal NG",
+      "url": "/lu4/item/39296-saturated-mana-crystal"
+    },
+    {
+      "key": "item:39297",
+      "type": "item",
+      "id": 39297,
+      "name": "Pure Mana Crystal NG",
+      "url": "/lu4/item/39297-pure-mana-crystal"
+    },
+    {
+      "key": "item:39298",
+      "type": "item",
+      "id": 39298,
+      "name": "Key Imprint Common NG",
+      "url": "/lu4/item/39298-key-imprint"
+    },
+    {
+      "key": "item:39299",
+      "type": "item",
+      "id": 39299,
+      "name": "Key Imprint Uncommon NG",
+      "url": "/lu4/item/39299-key-imprint"
+    },
+    {
+      "key": "item:39300",
+      "type": "item",
+      "id": 39300,
+      "name": "Key Imprint Rare NG",
+      "url": "/lu4/item/39300-key-imprint"
     },
     {
       "key": "item:2320",
@@ -171,6 +154,13 @@
       "id": 2320,
       "name": "Recipe: Cursed Staff NG",
       "url": "/lu4/item/2320-recipe-cursed-staff"
+    },
+    {
+      "key": "item:2323",
+      "type": "item",
+      "id": 2323,
+      "name": "Recipe: Elemental Bow NG",
+      "url": "/lu4/item/2323-recipe-elemental-bow"
     },
     {
       "key": "item:2088",

@@ -2,103 +2,93 @@
   "key": "npc:21172",
   "type": "npc",
   "id": 21172,
-  "name": "Lu4 Wiki: NPC Lith Patrolman",
+  "name": "Lith Patrolman",
   "url": "/lu4/npc/21172-lith-patrolman",
-  "source_url": "https://masterwork.wiki/lu4/npc/21172-lith-patrolman",
+  "source_url": "https://masterwork.wiki/lu4-b-w-c/npc/21172-lith-patrolman",
   "raw_html": "library/raw/lu4/npc/21172-lith-patrolman.html",
-  "stats": {},
+  "stats": {
+    "HP / MP": "5 846 / 571",
+    "P. Atk. / M. Atk.": "348 / 229",
+    "P. Def. / M. Def.": "137 / 145",
+    "Accuracy / Evasion": "72 / 82",
+    "Exp / SP": "7 888 / 500",
+    "Attack Attribute": "None",
+    "Defense Attributes": "Fire 20, Water 20, Wind 53, Earth 20, Holy 20, Unholy 20",
+    "Skills": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10% HP Increase (4x) Lv. 12 Slightly Strong P. Atk. Lv. 13 Slightly Strong M. Atk. Lv. 13 Slightly Strong P. Def. Lv. 12 Slightly Weak M. Def. Lv. 9 Light Armor Type Lv. 3 Weak P. Def. and strong Evasion. Dark Attack Lv. 1 Unleashes a dark attack. Dark Attack Resistance Lv. 5 Resistant to Dark attacks. Hold Resistance Lv. 5 Resistant to Hold.",
+    "Grade": "NG",
+    "Type": "Demonic, Lv. 39"
+  },
   "materials": [],
   "links": [
-    {
-      "key": "npc:21172",
-      "type": "npc",
-      "id": 21172,
-      "name": "Lu4",
-      "url": "/lu4/npc/21172-lith-patrolman"
-    },
     {
       "key": "skill:4416",
       "type": "skill",
       "id": 4416,
-      "name": "Demons Lv. 9 Takes 15% increased damage from attacks that are effective against Demons. M. Atk. +10 Atk. Spd. +5% Vampiric Rage effect +1% Bow Skill Vampiric Rage effect +2% Resistance to Dark +10% P. Def. -5% Resistance to Holy -10% Resistance to Blunt -10% Resistance to Dual Blunt -10%",
-      "url": "/lu4/skill/4416-demons/9"
+      "name": "Demons",
+      "url": "/lu4/skill/4416-demons"
     },
     {
       "key": "skill:4408",
       "type": "skill",
       "id": 4408,
-      "name": "HP Increase (4x) Lv. 12",
-      "url": "/lu4/skill/4408-hp-increase-4x/12"
+      "name": "HP Increase (4x)",
+      "url": "/lu4/skill/4408-hp-increase-4x"
     },
     {
       "key": "skill:4410",
       "type": "skill",
       "id": 4410,
-      "name": "Slightly Strong P. Atk. Lv. 13",
-      "url": "/lu4/skill/4410-slightly-strong-p-atk/13"
+      "name": "Slightly Strong P. Atk.",
+      "url": "/lu4/skill/4410-slightly-strong-p-atk"
     },
     {
       "key": "skill:4411",
       "type": "skill",
       "id": 4411,
-      "name": "Slightly Strong M. Atk. Lv. 13",
-      "url": "/lu4/skill/4411-slightly-strong-m-atk/13"
+      "name": "Slightly Strong M. Atk.",
+      "url": "/lu4/skill/4411-slightly-strong-m-atk"
     },
     {
       "key": "skill:4412",
       "type": "skill",
       "id": 4412,
-      "name": "Slightly Strong P. Def. Lv. 12",
-      "url": "/lu4/skill/4412-slightly-strong-p-def/12"
+      "name": "Slightly Strong P. Def.",
+      "url": "/lu4/skill/4412-slightly-strong-p-def"
     },
     {
       "key": "skill:4413",
       "type": "skill",
       "id": 4413,
-      "name": "Slightly Weak M. Def. Lv. 9",
-      "url": "/lu4/skill/4413-slightly-weak-m-def/9"
+      "name": "Slightly Weak M. Def.",
+      "url": "/lu4/skill/4413-slightly-weak-m-def"
     },
     {
       "key": "skill:4414",
       "type": "skill",
       "id": 4414,
-      "name": "Light Armor Type Lv. 3 Weak P. Def. and strong Evasion.",
-      "url": "/lu4/skill/4414-light-armor-type/3"
+      "name": "Light Armor Type",
+      "url": "/lu4/skill/4414-light-armor-type"
     },
     {
       "key": "skill:4278",
       "type": "skill",
       "id": 4278,
-      "name": "Dark Attack Lv. 1 Unleashes a dark attack.",
-      "url": "/lu4/skill/4278-dark-attack/1"
+      "name": "Dark Attack",
+      "url": "/lu4/skill/4278-dark-attack"
     },
     {
       "key": "skill:4333",
       "type": "skill",
       "id": 4333,
-      "name": "Dark Attack Resistance Lv. 5 Resistant to Dark attacks.",
-      "url": "/lu4/skill/4333-dark-attack-resistance/5"
+      "name": "Dark Attack Resistance",
+      "url": "/lu4/skill/4333-dark-attack-resistance"
     },
     {
       "key": "skill:4287",
       "type": "skill",
       "id": 4287,
-      "name": "Hold Resistance Lv. 5 Resistant to Hold.",
-      "url": "/lu4/skill/4287-hold-resistance/5"
-    },
-    {
-      "key": "item:6362",
-      "type": "item",
-      "id": 6362,
-      "name": "Red Seal Stone NG",
-      "url": "/lu4/item/6362-red-seal-stone"
-    },
-    {
-      "key": "item:6361",
-      "type": "item",
-      "id": 6361,
-      "name": "Green Seal Stone NG",
-      "url": "/lu4/item/6361-green-seal-stone"
+      "name": "Hold Resistance",
+      "url": "/lu4/skill/4287-hold-resistance"
     },
     {
       "key": "item:6360",
@@ -108,11 +98,25 @@
       "url": "/lu4/item/6360-blue-seal-stone"
     },
     {
-      "key": "item:2147",
+      "key": "item:6361",
       "type": "item",
-      "id": 2147,
-      "name": "Recipe: Blacksmith's frame NG",
-      "url": "/lu4/item/2147-recipe-blacksmiths-frame"
+      "id": 6361,
+      "name": "Green Seal Stone NG",
+      "url": "/lu4/item/6361-green-seal-stone"
+    },
+    {
+      "key": "item:6362",
+      "type": "item",
+      "id": 6362,
+      "name": "Red Seal Stone NG",
+      "url": "/lu4/item/6362-red-seal-stone"
+    },
+    {
+      "key": "item:88",
+      "type": "item",
+      "id": 88,
+      "name": "Morning Star D",
+      "url": "/lu4/item/88-morning-star"
     },
     {
       "key": "item:2037",
@@ -150,53 +154,11 @@
       "url": "/lu4/item/2031-morning-star-head"
     },
     {
-      "key": "item:1877",
-      "type": "item",
-      "id": 1877,
-      "name": "Adamantite Nugget NG",
-      "url": "/lu4/item/1877-adamantite-nugget"
-    },
-    {
-      "key": "item:1871",
-      "type": "item",
-      "id": 1871,
-      "name": "Charcoal NG",
-      "url": "/lu4/item/1871-charcoal"
-    },
-    {
-      "key": "item:1866",
-      "type": "item",
-      "id": 1866,
-      "name": "Suede NG",
-      "url": "/lu4/item/1866-suede"
-    },
-    {
-      "key": "item:1341",
-      "type": "item",
-      "id": 1341,
-      "name": "Bone Arrow D",
-      "url": "/lu4/item/1341-bone-arrow"
-    },
-    {
-      "key": "item:172",
-      "type": "item",
-      "id": 172,
-      "name": "Heavy Bone Club D",
-      "url": "/lu4/item/172-heavy-bone-club"
-    },
-    {
       "key": "item:169",
       "type": "item",
       "id": 169,
       "name": "Skull Breaker D",
       "url": "/lu4/item/169-skull-breaker"
-    },
-    {
-      "key": "item:158",
-      "type": "item",
-      "id": 158,
-      "name": "Tarbar D",
-      "url": "/lu4/item/158-tarbar"
     },
     {
       "key": "item:90",
@@ -206,18 +168,60 @@
       "url": "/lu4/item/90-goat-head-staff"
     },
     {
-      "key": "item:88",
+      "key": "item:158",
       "type": "item",
-      "id": 88,
-      "name": "Morning Star D",
-      "url": "/lu4/item/88-morning-star"
+      "id": 158,
+      "name": "Tarbar D",
+      "url": "/lu4/item/158-tarbar"
     },
     {
-      "key": "item:2145",
+      "key": "item:172",
       "type": "item",
-      "id": 2145,
-      "name": "Recipe: Mithril Alloy NG",
-      "url": "/lu4/item/2145-recipe-mithril-alloy"
+      "id": 172,
+      "name": "Heavy Bone Club D",
+      "url": "/lu4/item/172-heavy-bone-club"
+    },
+    {
+      "key": "item:2147",
+      "type": "item",
+      "id": 2147,
+      "name": "Recipe: Blacksmith's frame NG",
+      "url": "/lu4/item/2147-recipe-blacksmiths-frame"
+    },
+    {
+      "key": "item:1871",
+      "type": "item",
+      "id": 1871,
+      "name": "Charcoal NG",
+      "url": "/lu4/item/1871-charcoal"
+    },
+    {
+      "key": "item:1341",
+      "type": "item",
+      "id": 1341,
+      "name": "Bone Arrow D",
+      "url": "/lu4/item/1341-bone-arrow"
+    },
+    {
+      "key": "item:1866",
+      "type": "item",
+      "id": 1866,
+      "name": "Suede NG",
+      "url": "/lu4/item/1866-suede"
+    },
+    {
+      "key": "item:1877",
+      "type": "item",
+      "id": 1877,
+      "name": "Adamantite Nugget NG",
+      "url": "/lu4/item/1877-adamantite-nugget"
+    },
+    {
+      "key": "item:1825",
+      "type": "item",
+      "id": 1825,
+      "name": "Recipe: Oriharukon NG",
+      "url": "/lu4/item/1825-recipe-oriharukon"
     },
     {
       "key": "item:1902",
@@ -227,11 +231,11 @@
       "url": "/lu4/item/1902-elven-earring-beads"
     },
     {
-      "key": "item:1825",
+      "key": "item:2145",
       "type": "item",
-      "id": 1825,
-      "name": "Recipe: Oriharukon NG",
-      "url": "/lu4/item/1825-recipe-oriharukon"
+      "id": 2145,
+      "name": "Recipe: Mithril Alloy NG",
+      "url": "/lu4/item/2145-recipe-mithril-alloy"
     }
   ]
 }
