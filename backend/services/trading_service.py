@@ -10,6 +10,7 @@ from fastapi import HTTPException
 from sqlalchemy import func, or_, select
 from sqlalchemy.orm import Session, selectinload
 
+from models.preferences import UserPreference
 from models.trading import TradingCharacter, TradingInventoryLine, TradingSnapshot
 from models.wiki import WikiEntity
 from schemas.trading_inventory import (
@@ -22,6 +23,8 @@ from schemas.trading_inventory import (
     InventoryScanResponse,
     ItemCatalogHit,
     ItemSearchHit,
+    WarehouseSyncRequest,
+    WarehouseSyncResponse,
 )
 from services import craft_service, market_service
 from services.name_matching import normalize_product_name, unescape_text
@@ -31,6 +34,9 @@ VALID_TRADE_MODES = frozenset({"sell", "buy"})
 MASTER_COIN_EXTERNAL_ID = 4037
 MASTER_COIN_NAME = "Master Coin"
 WALLET_ITEM_NAMES = frozenset({"adena", "master coin", "mastercoin", "mc"})
+WAREHOUSE_ADENA_KEY = "adena"
+WAREHOUSE_MASTER_COIN_KEY = "master_coin"
+CRAFT_OWNED_SCOPE = "craft_owned"
 
 
 def _dec(value: Decimal | int | float | str | None) -> Decimal:
@@ -94,6 +100,7 @@ def _character_out(char: TradingCharacter) -> CharacterOut:
         master_coin_adena=master_adena,
         description=char.description,
         trade_mode=mode,  # type: ignore[arg-type]
+        is_main=bool(getattr(char, "is_main", False)) and char.kind == "bank",
         adena_in_items=sell_value,
         buy_cost=buy_cost,
         total_adena=clean + sell_value + master_adena - buy_cost,
@@ -135,6 +142,7 @@ def create_character(db: Session, body: CharacterCreate, user_id: uuid.UUID) -> 
         master_coin_price=Decimal("0"),
         description=None,
         trade_mode="sell",
+        is_main=False,
         sort_order=int(max_order or -1) + 1,
         updated_by_user_id=user_id,
     )
@@ -219,6 +227,224 @@ def update_character(
         .where(TradingCharacter.id == char.id)
     ).one()
     return _character_out(char)
+
+
+def set_character_main(
+    db: Session,
+    character_id: uuid.UUID,
+    is_main: bool,
+    user_id: uuid.UUID,
+) -> CharacterOut:
+    char = db.scalars(
+        select(TradingCharacter)
+        .options(selectinload(TradingCharacter.items))
+        .where(TradingCharacter.id == character_id)
+    ).first()
+    if char is None:
+        raise HTTPException(status_code=404, detail="Character not found")
+    if char.kind != "bank":
+        raise HTTPException(status_code=400, detail="Main можно выбрать только у персонажа Банка")
+
+    if is_main:
+        others = db.scalars(
+            select(TradingCharacter).where(
+                TradingCharacter.kind == "bank",
+                TradingCharacter.is_main.is_(True),
+                TradingCharacter.id != char.id,
+            )
+        ).all()
+        for other in others:
+            other.is_main = False
+
+    char.is_main = bool(is_main)
+    char.updated_by_user_id = user_id
+    db.commit()
+    char = db.scalars(
+        select(TradingCharacter)
+        .options(selectinload(TradingCharacter.items))
+        .where(TradingCharacter.id == char.id)
+    ).one()
+    return _character_out(char)
+
+
+def _get_main_bank(db: Session) -> TradingCharacter:
+    char = db.scalars(
+        select(TradingCharacter)
+        .options(selectinload(TradingCharacter.items))
+        .where(TradingCharacter.kind == "bank", TradingCharacter.is_main.is_(True))
+        .limit(1)
+    ).first()
+    if char is None:
+        raise HTTPException(status_code=400, detail="Не выбран Main персонаж в Банке")
+    return char
+
+
+def _warehouse_wallet_value(payload: dict, key: str) -> Decimal:
+    raw = payload.get(key, 0)
+    try:
+        value = Decimal(str(raw))
+    except Exception:
+        return Decimal("0")
+    return value if value > 0 else Decimal("0")
+
+
+def _warehouse_items(payload: dict) -> dict[int, int]:
+    items: dict[int, int] = {}
+    for key, raw in (payload or {}).items():
+        if key in {WAREHOUSE_ADENA_KEY, WAREHOUSE_MASTER_COIN_KEY}:
+            continue
+        try:
+            eid = int(key)
+        except (TypeError, ValueError):
+            continue
+        if eid <= 0 or eid == MASTER_COIN_EXTERNAL_ID:
+            continue
+        try:
+            qty = int(raw)
+        except (TypeError, ValueError):
+            continue
+        if qty > 0:
+            items[eid] = items.get(eid, 0) + qty
+    return items
+
+
+def _build_warehouse_payload(
+    items: dict[int, int],
+    adena: Decimal,
+    master_coin: Decimal,
+) -> dict[str, int]:
+    payload: dict[str, int] = {
+        str(eid): int(qty)
+        for eid, qty in sorted(items.items())
+        if qty > 0 and eid > 0 and eid != MASTER_COIN_EXTERNAL_ID
+    }
+    adena_i = int(adena)
+    master_i = int(master_coin)
+    if adena_i > 0:
+        payload[WAREHOUSE_ADENA_KEY] = adena_i
+    if master_i > 0:
+        payload[WAREHOUSE_MASTER_COIN_KEY] = master_i
+    return payload
+
+
+def _put_craft_owned(db: Session, user_id: uuid.UUID, payload: dict) -> dict:
+    row = db.get(UserPreference, (user_id, CRAFT_OWNED_SCOPE))
+    if row is None:
+        row = UserPreference(user_id=user_id, scope=CRAFT_OWNED_SCOPE, payload=payload)
+        db.add(row)
+    else:
+        row.payload = payload
+    db.flush()
+    return dict(row.payload or {})
+
+
+def _name_for_external_id(db: Session, external_id: int) -> str:
+    entity = db.scalars(
+        select(WikiEntity)
+        .where(WikiEntity.entity_type == "item")
+        .where(WikiEntity.external_id == external_id)
+        .limit(1)
+    ).first()
+    if entity is not None:
+        return unescape_text(entity.display_name) or f"#{external_id}"
+
+    materials = craft_service.resource_materials(db).get("materials") or []
+    for material in materials:
+        eid = material.get("id")
+        name = (material.get("name") or "").strip()
+        if eid is None or not name:
+            continue
+        if int(eid) == external_id:
+            return name
+    if external_id == MASTER_COIN_EXTERNAL_ID:
+        return MASTER_COIN_NAME
+    return f"#{external_id}"
+
+
+def sync_warehouse(
+    db: Session,
+    user_id: uuid.UUID,
+    body: WarehouseSyncRequest,
+) -> WarehouseSyncResponse:
+    char = _get_main_bank(db)
+
+    if body.direction == "to_warehouse":
+        items: dict[int, int] = {}
+        for line in char.items or []:
+            if (line.list_kind or "sell") != "sell":
+                continue
+            eid = int(line.item_external_id)
+            qty = int(line.quantity or 0)
+            if eid <= 0 or eid == MASTER_COIN_EXTERNAL_ID or qty <= 0:
+                continue
+            items[eid] = items.get(eid, 0) + qty
+
+        adena = _dec(char.clean_adena)
+        master = _dec(getattr(char, "master_coin", 0))
+        payload = _build_warehouse_payload(items, adena, master)
+        warehouse = _put_craft_owned(db, user_id, payload)
+        char.updated_by_user_id = user_id
+        db.commit()
+        return WarehouseSyncResponse(
+            direction="to_warehouse",
+            character_id=char.id,
+            character_nick=char.nick,
+            item_count=len(items),
+            adena=adena,
+            master_coin=master,
+            warehouse=warehouse,
+            character=_character_out(char),
+        )
+
+    # to_bank: replace Main sell inventory + wallet from warehouse
+    pref = db.get(UserPreference, (user_id, CRAFT_OWNED_SCOPE))
+    owned = dict(pref.payload) if pref and isinstance(pref.payload, dict) else {}
+    items = _warehouse_items(owned)
+    adena = _warehouse_wallet_value(owned, WAREHOUSE_ADENA_KEY)
+    master = _warehouse_wallet_value(owned, WAREHOUSE_MASTER_COIN_KEY)
+
+    char.clean_adena = adena
+    char.master_coin = master
+    mc_prices = _unit_prices_for_ids(db, [MASTER_COIN_EXTERNAL_ID])
+    market_mc_price = mc_prices.get(MASTER_COIN_EXTERNAL_ID, Decimal("0"))
+    if market_mc_price > 0:
+        char.master_coin_price = market_mc_price
+    char.updated_by_user_id = user_id
+
+    price_map = _unit_prices_for_ids(db, list(items.keys()))
+    buy_kept = [line for line in list(char.items or []) if line.list_kind == "buy"]
+    char.items.clear()
+    db.flush()
+    for line in buy_kept:
+        char.items.append(line)
+
+    sell_inputs = [
+        InventoryLineIn(
+            item_external_id=eid,
+            item_name=_name_for_external_id(db, eid),
+            quantity=qty,
+            unit_price=price_map.get(eid, Decimal("0")),
+        )
+        for eid, qty in sorted(items.items())
+    ]
+    _append_lines(char, sell_inputs, "sell")
+    db.commit()
+
+    char = db.scalars(
+        select(TradingCharacter)
+        .options(selectinload(TradingCharacter.items))
+        .where(TradingCharacter.id == char.id)
+    ).one()
+    return WarehouseSyncResponse(
+        direction="to_bank",
+        character_id=char.id,
+        character_nick=char.nick,
+        item_count=len(items),
+        adena=adena,
+        master_coin=master,
+        warehouse=_build_warehouse_payload(items, adena, master),
+        character=_character_out(char),
+    )
 
 
 def search_items(db: Session, q: str, limit: int = 30) -> list[ItemSearchHit]:
@@ -318,6 +544,7 @@ def _snapshot_payload(db: Session) -> dict:
                 "master_coin_adena": str(c.master_coin_adena),
                 "description": c.description or "",
                 "trade_mode": c.trade_mode,
+                "is_main": bool(c.is_main),
                 "adena_in_items": str(c.adena_in_items),
                 "buy_cost": str(c.buy_cost),
                 "total_adena": str(c.total_adena),
@@ -507,6 +734,7 @@ def upsert_inventory_scan(db: Session, body: InventoryScanRequest) -> InventoryS
             master_coin_price=Decimal("0"),
             description=None,
             trade_mode="sell",
+            is_main=False,
             sort_order=int(max_order or -1) + 1,
             updated_by_user_id=None,
         )

@@ -60,8 +60,8 @@ export async function getTrades(params: Record<string, unknown>) {
   return data;
 }
 
-export async function getPricesByIds(ids: string) {
-  const { data } = await api.get("/market/prices-by-ids", { params: { ids } });
+export async function getPricesByIds(ids: string, period: string = "main") {
+  const { data } = await api.get("/market/prices-by-ids", { params: { ids, period } });
   return data;
 }
 

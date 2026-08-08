@@ -6,9 +6,16 @@ import uuid
 
 from fastapi import APIRouter, Depends, Query
 
-from api.deps import CurrentUser, DbSession, require_permission, verify_api_key
+from api.deps import (
+    CurrentUser,
+    DbSession,
+    require_all_permissions,
+    require_permission,
+    verify_api_key,
+)
 from schemas.trading_inventory import (
     CharacterCreate,
+    CharacterMainUpdate,
     CharacterOut,
     CharacterUpdate,
     CharactersResponse,
@@ -20,6 +27,8 @@ from schemas.trading_inventory import (
     SnapshotDetailResponse,
     SnapshotListItem,
     SnapshotsListResponse,
+    WarehouseSyncRequest,
+    WarehouseSyncResponse,
 )
 from services import trading_service
 
@@ -27,6 +36,10 @@ router = APIRouter()
 
 require_read = require_permission("nav.trading")
 require_write = require_permission("feature.trading_write")
+require_warehouse_sync = require_all_permissions(
+    "feature.trading_write",
+    "feature.craft_warehouse",
+)
 
 
 @router.post(
@@ -73,6 +86,29 @@ def update_character(
 )
 def delete_character(character_id: uuid.UUID, db: DbSession):
     trading_service.delete_character(db, character_id)
+
+
+@router.put(
+    "/characters/{character_id}/main",
+    response_model=CharacterOut,
+    dependencies=[Depends(require_warehouse_sync)],
+)
+def set_character_main(
+    character_id: uuid.UUID,
+    body: CharacterMainUpdate,
+    db: DbSession,
+    user: CurrentUser,
+):
+    return trading_service.set_character_main(db, character_id, body.is_main, user.id)
+
+
+@router.post(
+    "/sync-warehouse",
+    response_model=WarehouseSyncResponse,
+    dependencies=[Depends(require_warehouse_sync)],
+)
+def sync_warehouse(body: WarehouseSyncRequest, db: DbSession, user: CurrentUser):
+    return trading_service.sync_warehouse(db, user.id, body)
 
 
 @router.get(

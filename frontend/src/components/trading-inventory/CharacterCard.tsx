@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { useMutation } from "@tanstack/react-query";
 import { getPricesByIds } from "../../api/market";
 import {
+  setTradingCharacterMain,
   updateTradingCharacter,
   type InventoryLine,
   type InventoryLineInput,
@@ -14,6 +15,7 @@ import {
   useTradingItemClipboard,
   setTradingItemClipboard,
 } from "../../lib/tradingItemClipboard";
+import { ItemIcon } from "../craft/CraftCostBar";
 import { ConfirmDialog } from "../ui";
 import TradingItemSelect from "./TradingItemSelect";
 
@@ -32,9 +34,12 @@ type Props = {
   character: TradingCharacter;
   canWrite: boolean;
   readOnly?: boolean;
+  /** Show Main checkbox (bank ↔ warehouse sync). Requires warehouse sync rights. */
+  showMain?: boolean;
   onDeleted?: (id: string) => void;
   onSaved?: (character: TradingCharacter) => void;
   onDeleteRequest?: (id: string) => Promise<void>;
+  onMainChanged?: () => void;
 };
 
 function formatAdena(value: number) {
@@ -78,12 +83,16 @@ export default function CharacterCard({
   character,
   canWrite,
   readOnly = false,
+  showMain = false,
   onSaved,
   onDeleteRequest,
+  onMainChanged,
 }: Props) {
   const editable = canWrite && !readOnly;
   const isMerchant = character.kind === "merchant";
+  const isBank = character.kind === "bank";
   const [open, setOpen] = useState(false);
+  const [isMain, setIsMain] = useState(() => Boolean(character.is_main));
   const [cleanAdena, setCleanAdena] = useState(() => Math.round(Number(character.clean_adena) || 0));
   const [masterCoin, setMasterCoin] = useState(() => Math.round(Number(character.master_coin) || 0));
   const [masterCoinPrice, setMasterCoinPrice] = useState(() =>
@@ -113,11 +122,23 @@ export default function CharacterCard({
     setTradeMode(character.kind === "merchant" ? character.trade_mode || "sell" : "sell");
     setSellLines(toEditable(character.sell_items?.length ? character.sell_items : character.items));
     setBuyLines(toEditable(character.buy_items));
+    setIsMain(Boolean(character.is_main));
     setDirty(false);
     setError("");
     setCopyHint("");
     fetchedMcPriceFor.current = null;
   }, [character]);
+
+  const mainMut = useMutation({
+    mutationFn: (next: boolean) => setTradingCharacterMain(character.id, next),
+    onSuccess: (saved) => {
+      setIsMain(Boolean(saved.is_main));
+      setError("");
+      onSaved?.(saved);
+      onMainChanged?.();
+    },
+    onError: () => setError("Не удалось изменить Main"),
+  });
 
   // Pull market MC→adena price when saved price is empty
   useEffect(() => {
@@ -274,6 +295,11 @@ export default function CharacterCard({
             <div className="flex flex-wrap items-baseline justify-between gap-2">
               <div className="flex min-w-0 flex-wrap items-center gap-2">
                 <h3 className="text-sm font-semibold text-zinc-100">{character.nick}</h3>
+                {isMain && isBank ? (
+                  <span className="rounded-md bg-emerald-500/15 px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wide text-emerald-300">
+                    Main
+                  </span>
+                ) : null}
                 {isMerchant ? (
                   <span
                     className={`rounded-md px-2 py-0.5 text-[0.65rem] font-semibold uppercase tracking-wide ${
@@ -358,6 +384,20 @@ export default function CharacterCard({
                 );
               })}
             </div>
+          ) : null}
+
+          {showMain && isBank ? (
+            <label className="flex w-fit items-center gap-2 text-sm text-zinc-300">
+              <input
+                type="checkbox"
+                className="h-4 w-4 rounded border-zinc-600 bg-zinc-900 text-amber-500 focus:ring-amber-500/40"
+                checked={isMain}
+                disabled={!editable || mainMut.isPending || readOnly}
+                onChange={(e) => mainMut.mutate(e.target.checked)}
+              />
+              <span>Main</span>
+              <span className="text-xs text-zinc-500">для синхронизации со складом</span>
+            </label>
           ) : null}
 
           {editable ? (
@@ -473,16 +513,20 @@ export default function CharacterCard({
                     return (
                     <tr key={line.key} className="text-zinc-300">
                       <td className="px-3 py-2">
-                        <div className="flex items-start gap-2">
-                          {unmatched ? (
-                            <span
-                              className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-rose-500"
-                              title="Предмет не найден в каталоге"
-                              aria-label="Не найден в каталоге"
+                        <div className="flex items-center gap-2.5">
+                          <div className="relative shrink-0">
+                            <ItemIcon
+                              id={unmatched ? null : line.item_external_id}
+                              size={36}
                             />
-                          ) : (
-                            <span className="mt-1.5 h-2 w-2 shrink-0" aria-hidden />
-                          )}
+                            {unmatched ? (
+                              <span
+                                className="absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full bg-rose-500 ring-2 ring-zinc-950"
+                                title="Предмет не найден в каталоге"
+                                aria-label="Не найден в каталоге"
+                              />
+                            ) : null}
+                          </div>
                           <div className="min-w-0">
                             <div className="font-medium text-zinc-200">{line.item_name}</div>
                             <div className="text-xs text-zinc-600">
@@ -689,6 +733,7 @@ export function characterFromSnapshot(
     master_coin_price?: string | number;
     description?: string;
     trade_mode?: TradeMode;
+    is_main?: boolean;
     sell_items?: Array<{
       item_external_id: number;
       item_name: string;
@@ -733,6 +778,7 @@ export function characterFromSnapshot(
     master_coin_adena,
     description: row.description || null,
     trade_mode,
+    is_main: Boolean(row.is_main) && row.kind === "bank",
     adena_in_items,
     buy_cost,
     total_adena: clean_adena + adena_in_items + master_coin_adena - buy_cost,

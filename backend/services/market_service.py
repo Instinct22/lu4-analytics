@@ -198,7 +198,59 @@ def market_items(db: Session, q: str | None, limit: int) -> MarketItemsResponse:
     return MarketItemsResponse(items=items[:limit])
 
 
-def prices_by_ids(db: Session, ids: str) -> dict[str, dict]:
+PRICES_BY_IDS_WINDOW_HOURS: dict[str, int] = {
+    "1h": 1,
+    "12h": 12,
+    "1d": 24,
+}
+PRICES_BY_IDS_PERIODS = frozenset({"main", *PRICES_BY_IDS_WINDOW_HOURS})
+RECENT_UNIQUE_SELLERS = 20
+
+
+def _empty_price_row() -> dict:
+    return {
+        "day_vwap": None,
+        "recent_vwap": None,
+        "window_vwap": None,
+        "avg_price": None,
+        "last_price": None,
+        "npc_sell": None,
+    }
+
+
+def _group_records_by_entity(
+    records: list[MarketRecord],
+) -> dict[uuid.UUID, list[MarketRecord]]:
+    by_entity: dict[uuid.UUID, list[MarketRecord]] = defaultdict(list)
+    for record in records:
+        if record.entity_id is not None:
+            by_entity[record.entity_id].append(record)
+    return by_entity
+
+
+def _vwap_float(lots: list[MarketRecord]) -> float | None:
+    vwap = aggregate_lots(lots)["vwap"]
+    return float(vwap) if vwap is not None else None
+
+
+def _recent_unique_lots(
+    latest_lots: list[MarketRecord],
+    *,
+    limit: int = RECENT_UNIQUE_SELLERS,
+) -> list[MarketRecord]:
+    ordered = sorted(latest_lots, key=lambda r: r.recorded_at, reverse=True)
+    return ordered[:limit]
+
+
+def prices_by_ids(db: Session, ids: str, period: str = "main") -> dict[str, dict]:
+    resolved = (period or "main").strip().lower()
+    if resolved not in PRICES_BY_IDS_PERIODS:
+        raise AppError(
+            f"Unsupported period: {period}",
+            code="bad_request",
+            status_code=400,
+        )
+
     id_list: list[int] = []
     for part in ids.split(","):
         part = part.strip()
@@ -229,6 +281,41 @@ def prices_by_ids(db: Session, ids: str) -> dict[str, dict]:
     stats_by_entity = {s.entity_id: s for s in stats_rows}
 
     now = datetime.now(timezone.utc)
+    result: dict[str, dict] = {}
+
+    if resolved != "main":
+        hours = PRICES_BY_IDS_WINDOW_HOURS[resolved]
+        cutoff = now - timedelta(hours=hours)
+        records_by_entity: dict[uuid.UUID, list[MarketRecord]] = defaultdict(list)
+        if entity_ids:
+            window_records = db.scalars(
+                select(MarketRecord)
+                .where(MarketRecord.entity_id.in_(entity_ids))
+                .where(MarketRecord.side == "sell")
+                .where(MarketRecord.recorded_at >= cutoff)
+                .order_by(MarketRecord.recorded_at.desc())
+            ).all()
+            records_by_entity = _group_records_by_entity(window_records)
+
+        for ext_id in id_list:
+            entity = entity_by_ext.get(ext_id)
+            if not entity:
+                result[str(ext_id)] = _empty_price_row()
+                continue
+            st = stats_by_entity.get(entity.id)
+            window_vwap = _vwap_float(
+                latest_lots_per_seller(records_by_entity.get(entity.id, []))
+            )
+            result[str(ext_id)] = {
+                "day_vwap": None,
+                "recent_vwap": None,
+                "window_vwap": window_vwap,
+                "avg_price": float(st.avg_price) if st and st.avg_price is not None else None,
+                "last_price": float(st.last_price) if st and st.last_price is not None else None,
+                "npc_sell": _parse_npc_sell(entity.stats),
+            }
+        return result
+
     cutoff = now - timedelta(hours=24)
     records_by_entity: dict[uuid.UUID, list[MarketRecord]] = defaultdict(list)
     if entity_ids:
@@ -239,22 +326,49 @@ def prices_by_ids(db: Session, ids: str) -> dict[str, dict]:
             .where(MarketRecord.recorded_at >= cutoff)
             .order_by(MarketRecord.recorded_at.desc())
         ).all()
-        for record in day_records:
-            if record.entity_id is not None:
-                records_by_entity[record.entity_id].append(record)
+        records_by_entity = _group_records_by_entity(day_records)
 
-    empty = {"day_vwap": None, "avg_price": None, "last_price": None, "npc_sell": None}
-    result: dict[str, dict] = {}
+    day_vwap_by_entity: dict[uuid.UUID, float | None] = {}
+    missing_for_recent: list[uuid.UUID] = []
+    for entity in entities:
+        day_vwap = _vwap_float(latest_lots_per_seller(records_by_entity.get(entity.id, [])))
+        day_vwap_by_entity[entity.id] = day_vwap
+        if day_vwap is None:
+            missing_for_recent.append(entity.id)
+
+    recent_by_entity: dict[uuid.UUID, list[MarketRecord]] = defaultdict(list)
+    if missing_for_recent:
+        latest_rows = db.scalars(
+            select(MarketRecord)
+            .distinct(MarketRecord.entity_id, MarketRecord.seller_id)
+            .where(MarketRecord.entity_id.in_(missing_for_recent))
+            .where(MarketRecord.side == "sell")
+            .order_by(
+                MarketRecord.entity_id,
+                MarketRecord.seller_id,
+                MarketRecord.recorded_at.desc(),
+            )
+        ).all()
+        for record in latest_rows:
+            if record.entity_id is not None:
+                recent_by_entity[record.entity_id].append(record)
+
     for ext_id in id_list:
         entity = entity_by_ext.get(ext_id)
         if not entity:
-            result[str(ext_id)] = dict(empty)
+            result[str(ext_id)] = _empty_price_row()
             continue
         st = stats_by_entity.get(entity.id)
-        day_agg = aggregate_lots(latest_lots_per_seller(records_by_entity.get(entity.id, [])))
-        day_vwap = day_agg["vwap"]
+        day_vwap = day_vwap_by_entity.get(entity.id)
+        recent_vwap = None
+        if day_vwap is None:
+            recent_vwap = _vwap_float(
+                _recent_unique_lots(recent_by_entity.get(entity.id, []))
+            )
         result[str(ext_id)] = {
-            "day_vwap": float(day_vwap) if day_vwap is not None else None,
+            "day_vwap": day_vwap,
+            "recent_vwap": recent_vwap,
+            "window_vwap": None,
             "avg_price": float(st.avg_price) if st and st.avg_price is not None else None,
             "last_price": float(st.last_price) if st and st.last_price is not None else None,
             "npc_sell": _parse_npc_sell(entity.stats),

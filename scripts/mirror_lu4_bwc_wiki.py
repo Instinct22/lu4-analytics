@@ -19,8 +19,8 @@ Scope:
 Usage:
   py -3 scripts/mirror_lu4_bwc_wiki.py                  # full / resume crawl
   py -3 scripts/mirror_lu4_bwc_wiki.py --build-index    # hash existing HTML
-  py -3 scripts/mirror_lu4_bwc_wiki.py --recheck        # update only changed
   py -3 scripts/mirror_lu4_bwc_wiki.py --recheck --discover
+      # freshness check + fill missing drop/spoil pagination + find new pages
   py -3 scripts/mirror_lu4_bwc_wiki.py --repair-pagination
   py -3 scripts/mirror_lu4_bwc_wiki.py --status
 
@@ -786,10 +786,15 @@ def _force_requeue_html(state: CrawlState, url: str) -> bool:
     return True
 
 
-def revive_missing_html(state: CrawlState) -> int:
-    """Requeue visited/failed HTML URLs that have no local file on disk."""
-    with state.lock:
-        candidates = list(state.visited) + list(state.failed.keys())
+def revive_missing_html(state: CrawlState, prior: CrawlState | None = None) -> int:
+    """Requeue visited/failed HTML URLs that have no local file on disk.
+
+    When ``prior`` is set (e.g. recheck with a fresh state), candidates are taken
+    from that previous crawl state.
+    """
+    source = prior if prior is not None else state
+    with source.lock:
+        candidates = list(source.visited) + list(source.failed.keys())
     revived = 0
     seen: set[str] = set()
     for url in candidates:
@@ -806,6 +811,65 @@ def revive_missing_html(state: CrawlState) -> int:
         if _force_requeue_html(state, preferred):
             revived += 1
     return revived
+
+
+def revive_missing_from_index(state: CrawlState, index: PageIndex) -> int:
+    """Requeue indexed URLs whose HTML file is missing on disk."""
+    revived = 0
+    for url in index.urls():
+        preferred = prefer_bwc_html_url(url)
+        local = url_to_local_path(preferred, is_html=True)
+        if local.is_file() and local.stat().st_size > 0:
+            continue
+        if _force_requeue_html(state, preferred):
+            revived += 1
+    return revived
+
+
+def apply_pagination_repair(
+    state: CrawlState,
+    index: PageIndex,
+    *,
+    prior: CrawlState | None = None,
+) -> dict[str, int]:
+    """Revive missing HTML + reseed drop/spoil pager edges into ``state``."""
+    missing_visited = revive_missing_html(state, prior=prior)
+    missing_index = revive_missing_from_index(state, index)
+    pager = repair_pagination_seeds(state)
+    return {
+        "missing_visited": missing_visited,
+        "missing_index": missing_index,
+        "pager_seeds": pager,
+    }
+
+
+def enqueue_discovered_html(
+    state: CrawlState,
+    index: PageIndex,
+    html_links: set[str],
+) -> int:
+    """Enqueue unknown or on-disk-missing HTML links (fills pagination gaps)."""
+    queued = 0
+    for link in html_links:
+        if not should_fetch_html(link, index):
+            continue
+        preferred = prefer_bwc_html_url(link)
+        local = url_to_local_path(preferred, is_html=True)
+        missing_file = not (local.is_file() and local.stat().st_size > 0)
+        unknown = index.get(preferred) is None and index.get(link) is None
+        if not (missing_file or unknown):
+            continue
+        if missing_file:
+            if _force_requeue_html(state, preferred):
+                queued += 1
+            continue
+        with state.lock:
+            already = preferred in state.frontier_set or preferred in state.visited
+        if already:
+            continue
+        state.enqueue_html(preferred)
+        queued += 1
+    return queued
 
 
 def repair_pagination_seeds(state: CrawlState, *, min_edge: int = 8) -> int:
@@ -1420,15 +1484,11 @@ def commit_html_page(
     )
 
     if recheck_mode:
-        if changed or is_new:
-            for link in html_links:
-                if not should_fetch_html(link, index):
-                    continue
-                if index.get(link) is None:
-                    state.enqueue_html(link)
-            if not skip_assets:
-                for link in asset_links:
-                    state.enqueue_asset(link)
+        # Always fill gaps: unknown URLs or files missing on disk (pagination).
+        enqueue_discovered_html(state, index, html_links)
+        if not skip_assets:
+            for link in asset_links:
+                state.enqueue_asset(link)
     else:
         for link in html_links:
             if should_fetch_html(link, index):
@@ -1574,6 +1634,21 @@ def process_html(
             state.mark_html_done(original_url, url)
             if gamma_fallback and chronicle_from_path(urlparse(url).path) == CHRONICLE:
                 delete_gamma_duplicates_for_bwc(url, index, state)
+            # 304 has no body — rediscover missing pagination from local HTML.
+            if recheck_mode:
+                local_existing = url_to_local_path(url, is_html=True)
+                if local_existing.is_file() and local_existing.stat().st_size > 0:
+                    try:
+                        raw = local_existing.read_text(encoding="utf-8", errors="replace")
+                    except OSError:
+                        raw = ""
+                    if raw:
+                        body_local = strip_saved_banner(raw)
+                        html_links, asset_links = extract_urls(body_local, url)
+                        enqueue_discovered_html(state, index, html_links)
+                        if not skip_assets:
+                            for link in asset_links:
+                                state.enqueue_asset(link)
             return
 
         final_url = result.final_url
@@ -1670,6 +1745,12 @@ def process_html(
             state.mark_html_done(original_url, url, final_canon)
             if chronicle_from_path(path) == CHRONICLE:
                 delete_gamma_duplicates_for_bwc(final_canon, index, state)
+            # Unchanged body still yields missing drop/spoil links after &amp; fix.
+            html_links, asset_links = extract_urls(body_text, final_canon)
+            enqueue_discovered_html(state, index, html_links)
+            if not skip_assets:
+                for link in asset_links:
+                    state.enqueue_asset(link)
             return
 
         write_html(local, source_url=url, body=result.body, final_url=final_canon)
@@ -1930,12 +2011,14 @@ def run_crawl(args: argparse.Namespace) -> int:
         if len(index) == 0:
             log("Page index empty. Run --build-index first (or finish a crawl that fills it).")
             return 1
+        prior = load_state() if STATE_PATH.exists() else None
         state = CrawlState()
         queued = 0
         for url in index.urls():
             if should_fetch_html(url, index):
                 state.enqueue_html(url)
                 queued += 1
+        # Full freshness pass always walks listing/search to find new entities.
         if args.discover:
             for seed in seed_urls():
                 state.enqueue_html(seed)
@@ -1944,9 +2027,17 @@ def run_crawl(args: argparse.Namespace) -> int:
         promoted = queue_bwc_promotions_from_gamma(state, index)
         if promoted:
             log(f"Queued {promoted} b-w-c promotions for existing lu4-gamma pages")
+        # Always repair pagination gaps during recheck (missing files + pager edges).
+        repair = apply_pagination_repair(state, index, prior=prior)
+        log(
+            f"Recheck repair: missing_visited={repair['missing_visited']} "
+            f"missing_index={repair['missing_index']} "
+            f"pager_seeds={repair['pager_seeds']}"
+        )
         log(
             f"Recheck mode: {queued} indexed URLs queued"
             + (" + discover seeds" if args.discover else "")
+            + f" frontier={len(state.frontier)}"
         )
     else:
         for seed in seed_urls():
@@ -1962,13 +2053,13 @@ def run_crawl(args: argparse.Namespace) -> int:
             save_state(state)
         # Heal incomplete drop/spoil pagination from earlier buggy runs.
         if args.repair_pagination or not args.fresh:
-            missing = revive_missing_html(state)
-            if missing:
-                log(f"Revived {missing} visited/failed URLs missing on disk")
-            pager = repair_pagination_seeds(state)
-            if pager:
-                log(f"Reseeded {pager} drop/spoil pagination edge pages for rediscovery")
-            if missing or pager:
+            repair = apply_pagination_repair(state, index, prior=None)
+            if any(repair.values()):
+                log(
+                    f"Pagination repair: missing_visited={repair['missing_visited']} "
+                    f"missing_index={repair['missing_index']} "
+                    f"pager_seeds={repair['pager_seeds']}"
+                )
                 save_state(state)
 
     html_workers = max(1, args.html_workers)
@@ -2195,7 +2286,10 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument(
         "--recheck",
         action="store_true",
-        help="Incremental update: recheck indexed pages, download only if changed",
+        help=(
+            "Incremental update: recheck indexed pages, download only if changed; "
+            "also repairs missing HTML and drop/spoil pagination gaps"
+        ),
     )
     p.add_argument(
         "--discover",
@@ -2223,8 +2317,8 @@ def build_parser() -> argparse.ArgumentParser:
         "--repair-pagination",
         action="store_true",
         help=(
-            "Force requeue of missing visited HTML and drop/spoil pager edges, "
-            "then crawl (also runs automatically on resume)"
+            "Force requeue of missing visited HTML and drop/spoil pager edges "
+            "(also included automatically with --recheck and on crawl resume)"
         ),
     )
     p.add_argument("--delay", type=float, default=None, help=argparse.SUPPRESS)

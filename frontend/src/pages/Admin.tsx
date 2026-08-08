@@ -56,6 +56,7 @@ const FALLBACK_PERMISSION_GROUPS = [
       "feature.craft_prices",
       "feature.craft_bulk",
       "feature.craft_warehouse",
+      "feature.craft_appraisal",
     ],
   },
   {
@@ -91,6 +92,7 @@ const PERMISSION_REQUIRES: Record<string, string> = {
   "feature.raid_timers_write": "feature.raid_timers_view",
   "feature.raid_visibility": "nav.raid_bosses",
   "feature.trading_write": "nav.trading",
+  "feature.craft_appraisal": "nav.craft",
 };
 
 function applyPermissionRules(draft: Record<string, boolean>): Record<string, boolean> {

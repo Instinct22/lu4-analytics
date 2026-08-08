@@ -11,6 +11,7 @@ router = APIRouter()
 CatalogUser = Annotated[User, Depends(require_any_permission("nav.craft", "nav.items"))]
 ResourcesUser = Annotated[User, Depends(require_permission("nav.resources"))]
 PricesUser = Annotated[User, Depends(require_permission("feature.craft_prices"))]
+AppraisalUser = Annotated[User, Depends(require_permission("feature.craft_appraisal"))]
 
 
 @router.get("/catalog")
@@ -60,3 +61,14 @@ def get_profitability(
     min_margin: float | None = Query(None),
 ):
     return craft_service.profitability(db, limit=limit, min_margin=min_margin)
+
+
+@router.get("/appraisal")
+def get_appraisal(
+    db: DbSession,
+    user: AppraisalUser,
+    grade: str = Query("C", pattern="^(NG|D|C|B|A|S)$"),
+    item_type: str = Query("weapon", alias="type", pattern="^(weapon|armor|jewelry)$"),
+    limit: int = Query(100, ge=1, le=500),
+):
+    return craft_service.appraisal(db, grade=grade, item_type=item_type, limit=limit)

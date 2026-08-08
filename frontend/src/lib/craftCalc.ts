@@ -78,10 +78,21 @@ export interface SetMeta {
   memberNames?: Record<string, string>;
 }
 
+export type CraftPricePeriod = "main" | "1h" | "12h" | "1d";
+
+export const CRAFT_PRICE_PERIODS: { key: CraftPricePeriod; label: string }[] = [
+  { key: "main", label: "Main" },
+  { key: "1h", label: "1ч" },
+  { key: "12h", label: "12ч" },
+  { key: "1d", label: "1д" },
+];
+
 export interface PriceInfo {
   day_vwap?: number | null;
-  avg_price: number | null;
-  last_price: number | null;
+  recent_vwap?: number | null;
+  window_vwap?: number | null;
+  avg_price?: number | null;
+  last_price?: number | null;
   npc_sell: number | null;
 }
 
@@ -155,13 +166,16 @@ export function formatVariantRate(variant: CatalogVariant | undefined): string {
 export function ownedToRemaining(owned: Record<string, number>): Map<number, number> {
   const remaining = new Map<number, number>();
   for (const [k, v] of Object.entries(owned)) {
+    const id = Number(k);
+    if (!Number.isFinite(id) || id <= 0) continue;
     const n = Math.floor(Number(v));
-    if (n > 0) remaining.set(Number(k), n);
+    if (n > 0) remaining.set(id, n);
   }
   return remaining;
 }
 
-export const MARKET_MARKUP = 1.5;
+/** NPC shop buy estimate: SellPrice × 2 × 1.2 */
+export const MARKET_MARKUP = 2.4;
 
 export function itemInfo(catalog: CraftCatalog, id: number): CatalogItem {
   return (
@@ -356,13 +370,17 @@ export function effectivePrice(
   prices: Record<string, PriceInfo>,
   manual: Record<string, number>,
   catalog?: CraftCatalog,
+  period: CraftPricePeriod = "main",
 ): number | null {
   const mk = String(id);
   if (manual[mk] != null && manual[mk] > 0) return manual[mk];
   const p = prices[mk];
+  if (period !== "main") {
+    if (p?.window_vwap != null && p.window_vwap > 0) return p.window_vwap;
+    return null;
+  }
   if (p?.day_vwap != null && p.day_vwap > 0) return p.day_vwap;
-  if (p?.last_price != null && p.last_price > 0) return p.last_price;
-  if (p?.avg_price != null && p.avg_price > 0) return p.avg_price;
+  if (p?.recent_vwap != null && p.recent_vwap > 0) return p.recent_vwap;
   const npc = p?.npc_sell ?? (catalog ? itemInfo(catalog, id).npc_sell : null);
   if (npc != null && npc > 0) return npc * MARKET_MARKUP;
   return null;
@@ -373,12 +391,13 @@ export function treeCost(
   catalog: CraftCatalog,
   prices: Record<string, PriceInfo>,
   manual: Record<string, number>,
+  period: CraftPricePeriod = "main",
 ): { cost: number | null; crafted: Set<number> } {
   if (node.net <= 0 || (node.recipeScroll && !node.recipeConsumed)) {
     return { cost: 0, crafted: new Set() };
   }
 
-  const buy = effectivePrice(node.id, prices, manual, catalog);
+  const buy = effectivePrice(node.id, prices, manual, catalog, period);
   const buyTot = buy != null ? buy * node.net : null;
 
   if (node.base || node.children.length === 0) {
@@ -389,7 +408,7 @@ export function treeCost(
   let ok = true;
   const crafted = new Set<number>();
   for (const c of node.children) {
-    const cc = treeCost(c, catalog, prices, manual);
+    const cc = treeCost(c, catalog, prices, manual, period);
     if (cc.cost == null) {
       ok = false;
       break;
@@ -417,17 +436,39 @@ export function walkLeaves(
   prices: Record<string, PriceInfo>,
   manual: Record<string, number>,
   acc: LeafAcc,
+  period: CraftPricePeriod = "main",
 ) {
   if (node.net <= 0) return;
   const craftableNode = !node.base && node.children.length > 0;
   if (craftableNode) {
-    for (const c of node.children) walkLeaves(c, catalog, prices, manual, acc);
+    for (const c of node.children) walkLeaves(c, catalog, prices, manual, acc, period);
     return;
   }
   if (node.recipeScroll && !node.recipeConsumed) return;
-  const b = effectivePrice(node.id, prices, manual, catalog);
+  const b = effectivePrice(node.id, prices, manual, catalog, period);
   if (b == null) acc.missing.add(node.id);
   acc.craftAll += (b ?? 0) * node.net;
+}
+
+/** Full craft cost from base (non-craftable) mats — ignores warehouse stock. */
+export function craftCostFromBaseMaterials(
+  catalog: CraftCatalog,
+  productId: number,
+  qty: number,
+  prices: Record<string, PriceInfo>,
+  manual: Record<string, number>,
+  period: CraftPricePeriod = "main",
+  variantIdx = 0,
+  chosenVariants: Record<string, number> = {},
+): { cost: number | null; missing: Set<number> } {
+  const fullTree = buildTree(catalog, productId, qty, {}, variantIdx, chosenVariants);
+  if (!fullTree) return { cost: null, missing: new Set() };
+  const acc: LeafAcc = { craftAll: 0, recipes: 0, missing: new Set() };
+  walkLeaves(fullTree, catalog, prices, manual, acc, period);
+  if (acc.missing.size > 0 && acc.craftAll === 0) {
+    return { cost: null, missing: acc.missing };
+  }
+  return { cost: acc.craftAll, missing: acc.missing };
 }
 
 export function shoppingItems(catalog: CraftCatalog, tree: CalcNode): RollupEntry[] {
@@ -522,6 +563,7 @@ export function warehouseTotalValue(
   owned: Record<string, number>,
   prices: Record<string, PriceInfo>,
   manual: Record<string, number>,
+  period: CraftPricePeriod = "main",
 ): { total: number | null; partial: boolean } {
   let total = 0;
   let pricedAny = false;
@@ -533,7 +575,7 @@ export function warehouseTotalValue(
     const id = Number(key);
     if (!Number.isFinite(id)) continue;
 
-    const price = effectivePrice(id, prices, manual, catalog);
+    const price = effectivePrice(id, prices, manual, catalog, period);
     if (price == null) {
       partial = true;
       continue;

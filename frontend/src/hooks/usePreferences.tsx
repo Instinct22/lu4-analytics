@@ -11,6 +11,7 @@ import {
 import {
   getPreferences,
   patchPreference,
+  putPreference,
   type CraftCartLine,
   type CraftCartPayload,
   type PreferenceScope,
@@ -122,6 +123,7 @@ function isRemoteNewer(remoteAt: string | undefined, localAt: string | undefined
 interface PreferencesContextType {
   scopes: ScopeState;
   setScope: <S extends PreferenceScope>(scope: S, value: ScopePayload[S]) => void;
+  replaceScope: <S extends PreferenceScope>(scope: S, value: ScopePayload[S]) => Promise<void>;
   synced: boolean;
   saveError: string | null;
 }
@@ -326,6 +328,27 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
     [flushPatch],
   );
 
+  const replaceScope = useCallback(
+    async <S extends PreferenceScope>(scope: S, value: ScopePayload[S]) => {
+      window.clearTimeout(timers.current[scope]);
+      timers.current[scope] = undefined;
+      pendingPatchRef.current[scope] = undefined;
+      setScopes((prev) => ({ ...prev, [scope]: value }));
+      writeLocal(scope, value);
+      if (!canSyncScope(scope)) return;
+      try {
+        const response = await putPreference(scope, value);
+        if (response.updated_at) {
+          serverUpdatedAtRef.current[scope] = response.updated_at;
+        }
+        setSaveError(null);
+      } catch {
+        setSaveError("Не удалось сохранить настройки. Проверьте соединение.");
+      }
+    },
+    [canSyncScope],
+  );
+
   useEffect(
     () => () => {
       Object.values(timers.current).forEach((id) => {
@@ -336,8 +359,8 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
   );
 
   const value = useMemo(
-    () => ({ scopes, setScope, synced, saveError }),
-    [scopes, setScope, synced, saveError],
+    () => ({ scopes, setScope, replaceScope, synced, saveError }),
+    [scopes, setScope, replaceScope, synced, saveError],
   );
   return <PreferencesContext.Provider value={value}>{children}</PreferencesContext.Provider>;
 }
@@ -345,14 +368,18 @@ export function PreferencesProvider({ children }: { children: ReactNode }) {
 /** Current value of one scope plus a setter that syncs to the server. */
 export function usePreference<S extends PreferenceScope>(
   scope: S,
-): [ScopePayload[S], (next: ScopePayload[S]) => void] {
+): [ScopePayload[S], (next: ScopePayload[S]) => void, (next: ScopePayload[S]) => Promise<void>] {
   const ctx = useContext(PreferencesContext);
   if (!ctx) throw new Error("usePreference must be used within PreferencesProvider");
   const setValue = useCallback(
     (next: ScopePayload[S]) => ctx.setScope(scope, next),
     [ctx, scope],
   );
-  return [ctx.scopes[scope], setValue];
+  const replaceValue = useCallback(
+    (next: ScopePayload[S]) => ctx.replaceScope(scope, next),
+    [ctx, scope],
+  );
+  return [ctx.scopes[scope], setValue, replaceValue];
 }
 
 /** Typed shortcut for the mass-craft cart scope. */

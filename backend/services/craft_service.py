@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
-from sqlalchemy import Numeric, cast, func, select
+from collections import defaultdict
+
+from sqlalchemy import Numeric, cast, func, or_, select
 from sqlalchemy.orm import Session
 
 from models.analytics import AnalyticsDataset, ItemStatistics
@@ -10,8 +12,23 @@ from models.craft import CraftItem, CraftMaterialSource, CraftRecipe, CraftRecip
 from models.item_encyclopedia import ItemEncyclopedia
 from models.wiki import EntityLink, WikiEntity
 from services.encyclopedia_lib import sanitize_item_payload
+from services.market_service import prices_by_ids
 from services.normalizers.craft import CATALOG_META_KEY, RESOURCES_META_KEY
 from services.normalizers.items_encyclopedia import _level_from_wiki_text, resolve_npc_wiki_meta
+
+#: NPC shop buy estimate: SellPrice × 2 × 1.2
+SHOP_MARKUP = 2.4
+
+GRADE_CRYSTAL_IDS: dict[str, int] = {
+    "D": 1458,
+    "C": 1459,
+    "B": 1460,
+    "A": 1461,
+    "S": 1462,
+}
+
+APPRAISAL_TYPES = frozenset({"weapon", "armor", "jewelry"})
+APPRAISAL_GRADES = frozenset({"NG", "D", "C", "B", "A", "S"})
 
 
 def _meta(db: Session, key: str) -> dict:
@@ -457,3 +474,257 @@ def profitability(db: Session, limit: int = 100, min_margin: float | None = None
             }
         )
     return {"recipes": result}
+
+
+def _resolve_main_unit_price(row: dict | None) -> float | None:
+    """Main craft pricing: market VWAP → recent → NPC shop estimate."""
+    market = _resolve_market_unit_price(row)
+    if market is not None:
+        return market
+    npc = row.get("npc_sell") if row else None
+    if npc is not None and float(npc) > 0:
+        return float(npc) * SHOP_MARKUP
+    return None
+
+
+def _resolve_market_unit_price(row: dict | None) -> float | None:
+    """Trader market only — never fill with NPC shop price."""
+    if not row:
+        return None
+    for key in ("day_vwap", "recent_vwap"):
+        val = row.get(key)
+        if val is not None and float(val) > 0:
+            return float(val)
+    return None
+
+
+def _shop_price(npc_sell: int | float | None) -> float | None:
+    if npc_sell is None:
+        return None
+    value = float(npc_sell)
+    if value <= 0:
+        return None
+    return value * SHOP_MARKUP
+
+
+def _crystal_amount(stats: dict | None) -> int | None:
+    if not isinstance(stats, dict):
+        return None
+    raw = stats.get("crystals")
+    if raw is None:
+        return None
+    try:
+        amount = int(raw)
+    except (TypeError, ValueError):
+        return None
+    return amount if amount > 0 else None
+
+
+def _collect_base_amounts(
+    tree: list,
+    crafts: float,
+    recipes_by_product: dict[int, list],
+    *,
+    depth: int = 0,
+) -> dict[int, float]:
+    """Walk recipe tree; accumulate only non-craftable / leaf materials × qty.
+
+    Baked ``children`` amounts are already scaled for the parent line (same as
+    the frontend calculator). Separate recipe expansion uses per-1-item trees,
+    so those are multiplied by how many intermediates are needed.
+    """
+    totals: dict[int, float] = defaultdict(float)
+    if crafts <= 0:
+        return totals
+    for node in tree or []:
+        if not isinstance(node, dict):
+            continue
+        mid = node.get("id")
+        if not isinstance(mid, int):
+            continue
+        amount = float(node.get("amount") or 1)
+        need = amount * crafts
+        children = node.get("children") or []
+        if children:
+            # Keep product-level scale; child amounts are pre-scaled in the blob.
+            for mat_id, qty in _collect_base_amounts(
+                children, crafts, recipes_by_product, depth=depth + 1
+            ).items():
+                totals[mat_id] += qty
+            continue
+        variants = recipes_by_product.get(mid) if depth < 12 else None
+        if variants:
+            nested = variants[0].tree or []
+            for mat_id, qty in _collect_base_amounts(
+                nested, need, recipes_by_product, depth=depth + 1
+            ).items():
+                totals[mat_id] += qty
+            continue
+        totals[mid] += need
+    return totals
+
+
+def _type_filter(item_type: str):
+    if item_type == "weapon":
+        return or_(
+            CraftItem.category.startswith("weapons/"),
+            CraftItem.type.ilike("Weapon%"),
+        )
+    if item_type == "armor":
+        return or_(
+            CraftItem.category.startswith("armors/"),
+            CraftItem.type.ilike("Armor%"),
+        )
+    # jewelry
+    return or_(
+        CraftItem.category == "other/jewelry",
+        CraftItem.type.ilike("Accessory%"),
+        CraftItem.type.ilike("%Jewelry%"),
+    )
+
+
+def appraisal(
+    db: Session,
+    *,
+    grade: str,
+    item_type: str,
+    limit: int = 100,
+) -> dict:
+    """Most profitable craftable items for the grade/type filter."""
+    grade_key = (grade or "").strip().upper()
+    type_key = (item_type or "").strip().lower()
+    if grade_key not in APPRAISAL_GRADES:
+        grade_key = "C"
+    if type_key not in APPRAISAL_TYPES:
+        type_key = "weapon"
+
+    product_ids = list(
+        db.scalars(
+            select(CraftRecipe.product_external_id)
+            .join(CraftItem, CraftItem.external_id == CraftRecipe.product_external_id)
+            .where(CraftItem.grade == grade_key)
+            .where(_type_filter(type_key))
+            .distinct()
+        ).all()
+    )
+    if not product_ids:
+        return {"grade": grade_key, "type": type_key, "items": []}
+
+    products = db.scalars(select(CraftItem).where(CraftItem.external_id.in_(product_ids))).all()
+    recipes = db.scalars(
+        select(CraftRecipe)
+        .where(CraftRecipe.product_external_id.in_(product_ids))
+        .order_by(CraftRecipe.product_external_id, CraftRecipe.variant_index)
+    ).all()
+    recipes_by_product: dict[int, list[CraftRecipe]] = defaultdict(list)
+    for recipe in recipes:
+        recipes_by_product[recipe.product_external_id].append(recipe)
+
+    # All craftable products (for nested expansion of intermediate crafts).
+    all_recipes = db.scalars(
+        select(CraftRecipe).order_by(CraftRecipe.product_external_id, CraftRecipe.variant_index)
+    ).all()
+    all_recipes_by_product: dict[int, list[CraftRecipe]] = defaultdict(list)
+    for recipe in all_recipes:
+        all_recipes_by_product[recipe.product_external_id].append(recipe)
+
+    base_needs_by_key: dict[tuple[int, int], dict[int, float]] = {}
+    price_ids: set[int] = set(product_ids)
+    crystal_id = GRADE_CRYSTAL_IDS.get(grade_key)
+    if crystal_id is not None:
+        price_ids.add(crystal_id)
+
+    for product in products:
+        for recipe in recipes_by_product.get(product.external_id, []):
+            bases = _collect_base_amounts(recipe.tree or [], 1.0, all_recipes_by_product)
+            base_needs_by_key[(product.external_id, recipe.variant_index)] = bases
+            price_ids.update(bases.keys())
+
+    price_map = (
+        prices_by_ids(db, ",".join(str(i) for i in sorted(price_ids)), "main")
+        if price_ids
+        else {}
+    )
+
+    crystal_unit = None
+    if crystal_id is not None:
+        crow = price_map.get(str(crystal_id))
+        if crow and crow.get("day_vwap") is not None and float(crow["day_vwap"]) > 0:
+            crystal_unit = float(crow["day_vwap"])
+
+    def _margin(sell: float | None, craft_cost: float | None) -> tuple[float | None, float | None]:
+        if sell is None or craft_cost is None:
+            return None, None
+        margin = sell - craft_cost
+        pct = round(margin / craft_cost * 100, 2) if craft_cost > 0 else None
+        return margin, pct
+
+    items_out: list[dict] = []
+    for product in products:
+        variants = recipes_by_product.get(product.external_id, [])
+        for recipe in variants:
+            bases = base_needs_by_key.get((product.external_id, recipe.variant_index), {})
+            craft_cost: float | None = 0.0
+            for mid, qty in bases.items():
+                unit = _resolve_main_unit_price(price_map.get(str(mid)))
+                if unit is None:
+                    craft_cost = None
+                    break
+                craft_cost += unit * qty
+
+            market_unit = _resolve_market_unit_price(price_map.get(str(product.external_id)))
+            yield_amount = int(recipe.yield_amount or 1)
+            market_price = market_unit * yield_amount if market_unit is not None else None
+            shop_price = _shop_price(product.npc_sell)
+
+            crystals = _crystal_amount(product.stats)
+            crystal_price = (
+                crystals * crystal_unit
+                if crystals is not None and crystal_unit is not None
+                else None
+            )
+
+            margin_market, margin_market_pct = _margin(market_price, craft_cost)
+            margin_shop, margin_shop_pct = _margin(shop_price, craft_cost)
+            margin_crystal, margin_crystal_pct = _margin(crystal_price, craft_cost)
+
+            items_out.append(
+                {
+                    "product_id": product.external_id,
+                    "product_name": product.name,
+                    "grade": product.grade,
+                    "type": product.type,
+                    "category": product.category,
+                    "variant_index": recipe.variant_index,
+                    "rate": float(recipe.rate) if recipe.rate is not None else None,
+                    "yield": yield_amount,
+                    "craft_cost": craft_cost,
+                    "market_price": market_price,
+                    "shop_price": shop_price,
+                    "crystal_amount": crystals,
+                    "crystal_price": crystal_price,
+                    "margin_market": margin_market,
+                    "margin_market_pct": margin_market_pct,
+                    "margin_shop": margin_shop,
+                    "margin_shop_pct": margin_shop_pct,
+                    "margin_crystal": margin_crystal,
+                    "margin_crystal_pct": margin_crystal_pct,
+                    # Keep legacy key for sorting / older clients (= craft→market).
+                    "margin": margin_market,
+                    "margin_pct": margin_market_pct,
+                }
+            )
+
+    items_out.sort(
+        key=lambda r: (
+            0 if r.get("margin_market") is not None else 1,
+            -(r["margin_market"] if r.get("margin_market") is not None else 0),
+            r["product_name"],
+            r["variant_index"],
+        )
+    )
+    return {
+        "grade": grade_key,
+        "type": type_key,
+        "items": items_out[: max(1, min(limit, 500))],
+    }

@@ -6,7 +6,7 @@ import uuid
 from datetime import datetime
 from decimal import Decimal
 
-from sqlalchemy import DateTime, ForeignKey, Integer, Numeric, String, Text, func
+from sqlalchemy import Boolean, DateTime, ForeignKey, Integer, Numeric, String, Text, func
 from sqlalchemy.dialects.postgresql import JSONB, UUID
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
@@ -25,6 +25,8 @@ class TradingCharacter(Base):
     description: Mapped[str | None] = mapped_column(Text, nullable=True)
     # sell | buy — merchants only; bank always sell
     trade_mode: Mapped[str] = mapped_column(String(16), nullable=False, default="sell")
+    # At most one bank character should be marked main (for warehouse sync)
+    is_main: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False, index=True)
     sort_order: Mapped[int] = mapped_column(Integer, nullable=False, default=0)
     updated_by_user_id: Mapped[uuid.UUID | None] = mapped_column(
         UUID(as_uuid=True), ForeignKey("users.id", ondelete="SET NULL"), nullable=True

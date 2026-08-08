@@ -16,6 +16,7 @@ const Statistics = lazy(() => import("./pages/Statistics"));
 const SearchPage = lazy(() => import("./pages/Search"));
 const CraftPage = lazy(() => import("./pages/Craft"));
 const CraftBulkPage = lazy(() => import("./pages/CraftBulk"));
+const CraftAppraisalPage = lazy(() => import("./pages/CraftAppraisal"));
 const WeaponUpgradesPage = lazy(() => import("./pages/WeaponUpgrades"));
 const ItemsPage = lazy(() => import("./pages/Items"));
 const ResourcesPage = lazy(() => import("./pages/Resources"));
@@ -121,6 +122,14 @@ export default function App() {
                   <RequireAnyPermission permissions={["feature.craft_bulk", "feature.craft_warehouse"]}>
                     <CraftBulkPage />
                   </RequireAnyPermission>
+                }
+              />
+              <Route
+                path="/craft/appraisal"
+                element={
+                  <RequirePermission permission="feature.craft_appraisal">
+                    <CraftAppraisalPage />
+                  </RequirePermission>
                 }
               />
               <Route path="/craft/upgrades/magic" element={<Navigate to="/craft/upgrades" replace />} />

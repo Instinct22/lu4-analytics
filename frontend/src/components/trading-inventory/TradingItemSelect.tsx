@@ -6,6 +6,7 @@ import {
   type ItemCatalogHit,
   type ItemSearchHit,
 } from "../../api/trading";
+import { ItemIcon } from "../craft/CraftCostBar";
 
 export type TradingSelectItem = ItemSearchHit & {
   custom?: boolean;
@@ -247,9 +248,10 @@ function Section({
               type="button"
               role="option"
               onClick={() => onPick(item)}
-              className="flex w-full items-center justify-between gap-3 px-3 py-2.5 text-left text-zinc-300 transition-colors hover:bg-zinc-900/80"
+              className="flex w-full items-center gap-3 px-3 py-2 text-left text-zinc-300 transition-colors hover:bg-zinc-900/80"
             >
-              <span className="truncate text-sm font-medium">{item.display_name}</span>
+              <ItemIcon id={item.external_id} size={28} />
+              <span className="min-w-0 flex-1 truncate text-sm font-medium">{item.display_name}</span>
               <span className="shrink-0 text-xs tabular-nums text-zinc-500">#{item.external_id}</span>
             </button>
           </li>

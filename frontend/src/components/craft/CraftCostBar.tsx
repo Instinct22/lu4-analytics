@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import { mediaUrl } from "../../api/client";
 import { useAuth } from "../../hooks/useAuth";
 import {
+  CRAFT_PRICE_PERIODS,
+  craftCostFromBaseMaterials,
   effectivePrice,
   formatPrice,
   GRADE_COLORS,
-  itemInfo,
-  treeCost,
-  walkLeaves,
   type CalcNode,
   type CraftCatalog,
+  type CraftPricePeriod,
   type PriceInfo,
 } from "../../lib/craftCalc";
 
@@ -18,32 +18,88 @@ interface Props {
   tree: CalcNode;
   prices: Record<string, PriceInfo>;
   manual: Record<string, number>;
+  period: CraftPricePeriod;
+  onPeriodChange: (period: CraftPricePeriod) => void;
+  variantIdx?: number;
+  chosenVariants?: Record<string, number>;
 }
 
-export default function CraftCostBar({ catalog, tree, prices, manual }: Props) {
-  const cheapest = treeCost(tree, catalog, prices, manual).cost;
-  const leafAcc = { craftAll: 0, recipes: 0, missing: new Set<number>() };
-  walkLeaves(tree, catalog, prices, manual, leafAcc);
+function formatCostLabel(value: number | null): string {
+  if (value == null) return "Нет цены";
+  return formatPrice(value);
+}
+
+export default function CraftCostBar({
+  catalog,
+  tree,
+  prices,
+  manual,
+  period,
+  onPeriodChange,
+  variantIdx = 0,
+  chosenVariants = {},
+}: Props) {
+  const { cost: craftFromResources, missing } = craftCostFromBaseMaterials(
+    catalog,
+    tree.id,
+    tree.want > 0 ? tree.want : 1,
+    prices,
+    manual,
+    period,
+    variantIdx,
+    chosenVariants,
+  );
+
+  const marketUnit = effectivePrice(tree.id, prices, manual, catalog, period);
+  const marketQty = tree.want > 0 ? tree.want : tree.net;
+  const marketTotal = marketUnit != null ? marketUnit * marketQty : null;
 
   return (
     <div className="mb-4 space-y-2">
-      <div className="flex items-center justify-between rounded-xl border border-amber-900/40 bg-amber-950/30 px-4 py-3">
+      <div className="flex flex-wrap gap-1 rounded-xl bg-zinc-800/80 p-1">
+        {CRAFT_PRICE_PERIODS.map((p) => (
+          <button
+            key={p.key}
+            type="button"
+            className={`flex-1 rounded-lg px-2 py-1.5 text-xs font-semibold transition-colors ${
+              period === p.key
+                ? "bg-amber-600 text-zinc-950 shadow-sm"
+                : "text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
+            }`}
+            onClick={() => onPeriodChange(p.key)}
+          >
+            {p.label}
+          </button>
+        ))}
+      </div>
+      <div className="flex items-center justify-between gap-3 rounded-xl border border-amber-900/40 bg-amber-950/30 px-4 py-3">
         <span className="text-xs font-bold uppercase tracking-wide text-amber-200/70">
           Ориентировочная стоимость
         </span>
-        <span className="text-lg font-bold tabular-nums text-amber-300">
-          {cheapest != null ? formatPrice(cheapest) : "—"}
-          {leafAcc.missing.size > 0 && (
-            <span className="ml-2 text-xs font-normal text-zinc-500">
-              ({leafAcc.missing.size} без цены)
+        <div className="flex flex-wrap items-end justify-end gap-x-5 gap-y-1 text-right">
+          <div>
+            <span className="block text-[0.65rem] font-medium uppercase tracking-wide text-amber-200/50">
+              Крафт из ресурсов
             </span>
-          )}
-        </span>
+            <span className="text-lg font-bold tabular-nums text-amber-300">
+              {formatCostLabel(craftFromResources)}
+              {missing.size > 0 && craftFromResources != null && (
+                <span className="ml-2 text-xs font-normal text-zinc-500">
+                  ({missing.size} без цены)
+                </span>
+              )}
+            </span>
+          </div>
+          <div>
+            <span className="block text-[0.65rem] font-medium uppercase tracking-wide text-amber-200/50">
+              Рынок (API)
+            </span>
+            <span className="text-lg font-bold tabular-nums text-amber-300">
+              {formatCostLabel(marketTotal)}
+            </span>
+          </div>
+        </div>
       </div>
-      <p className="text-xs text-zinc-500">
-        Покупка базовых материалов:{" "}
-        <span className="font-semibold text-zinc-200">{formatPrice(leafAcc.craftAll)}</span>
-      </p>
     </div>
   );
 }
@@ -97,6 +153,7 @@ export function ItemPrice({
   catalog,
   prices,
   manual,
+  period = "main",
   className = "text-xs font-semibold tabular-nums text-amber-400",
 }: {
   id: number;
@@ -104,11 +161,12 @@ export function ItemPrice({
   catalog: CraftCatalog;
   prices: Record<string, PriceInfo>;
   manual: Record<string, number>;
+  period?: CraftPricePeriod;
   className?: string;
 }) {
   const { hasPermission } = useAuth();
-  const p = effectivePrice(id, prices, manual, catalog);
-  if (p == null) return <span className="text-xs text-zinc-600">—</span>;
+  const p = effectivePrice(id, prices, manual, catalog, period);
+  if (p == null) return <span className="text-xs text-zinc-600">Нет цены</span>;
   const label = formatPrice(p * qty);
   const canLink = hasPermission("feature.craft_prices") && hasPermission("nav.charts");
   if (canLink) {
@@ -219,4 +277,3 @@ export function HaveInput({
     </div>
   );
 }
-

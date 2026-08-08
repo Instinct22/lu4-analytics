@@ -37,6 +37,7 @@ PERMISSIONS = (
     "feature.craft_prices",
     "feature.craft_bulk",
     "feature.craft_warehouse",
+    "feature.craft_appraisal",
     "feature.raid_timers_view",
     "feature.raid_route",
     "feature.raid_timers_write",
@@ -67,6 +68,7 @@ PERMISSION_LABELS = {
     "feature.craft_prices": "Цены в крафте",
     "feature.craft_bulk": "Доступ к мультикрафту",
     "feature.craft_warehouse": "Доступ к складу",
+    "feature.craft_appraisal": "Оценка крафта",
     "feature.raid_timers_view": "Доступ к таймерам РБ",
     "feature.raid_route": "Доступ к маршруту РБ",
     "feature.raid_timers_write": "Управление временем респа РБ",
@@ -113,6 +115,7 @@ DEFAULT_PERMISSION_GROUPS: list[dict] = [
             "feature.craft_prices",
             "feature.craft_bulk",
             "feature.craft_warehouse",
+            "feature.craft_appraisal",
         ],
     },
     {

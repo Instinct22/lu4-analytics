@@ -9,6 +9,7 @@ import {
   variantsFor,
   type CalcNode,
   type CraftCatalog,
+  type CraftPricePeriod,
 } from "../../lib/craftCalc";
 import { currentReturnPath, itemPagePath } from "../../lib/internalNav";
 import { masterworkItemUrl } from "../../lib/itemEncyclopedia";
@@ -50,6 +51,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
   const [tab, setTab] = useState<"tree" | "list">("tree");
   const [showPrices, setShowPrices] = useState(false);
   const [priceEdit, setPriceEdit] = useState<Record<string, string>>({});
+  const [pricePeriod, setPricePeriod] = useState<CraftPricePeriod>("main");
 
   const variants = variantsFor(catalog, productId);
   const product = itemInfo(catalog, productId);
@@ -73,10 +75,16 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
   const allIds = useMemo(() => {
     const s = new Set<number>([productId]);
     if (tree) collectIds(tree, s);
+    // Full recipe tree (no warehouse) so craft-cost prices stay available when stock covers mats.
+    const fullTree = buildTree(catalog, productId, qty, {}, variantIdx, chosenVariants);
+    if (fullTree) collectIds(fullTree, s);
     return [...s];
-  }, [tree, productId]);
+  }, [tree, productId, catalog, qty, variantIdx, chosenVariants]);
 
-  const { serverPrices, manual, setManualPrice } = useCraftPrices(canSeePrices ? allIds : []);
+  const { serverPrices, manual, setManualPrice } = useCraftPrices(
+    canSeePrices ? allIds : [],
+    pricePeriod,
+  );
 
   const onOwnedChange = (id: number, val: number) => {
     const next = { ...owned };
@@ -254,7 +262,16 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
         )}
 
         {canSeePrices && (
-          <CraftCostBar catalog={catalog} tree={tree} prices={serverPrices} manual={manual} />
+          <CraftCostBar
+            catalog={catalog}
+            tree={tree}
+            prices={serverPrices}
+            manual={manual}
+            period={pricePeriod}
+            onPeriodChange={setPricePeriod}
+            variantIdx={variantIdx}
+            chosenVariants={chosenVariants}
+          />
         )}
 
         <CraftItemDescription catalog={catalog} id={productId} />
@@ -287,6 +304,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
                   owned={owned}
                   onOwnedChange={onOwnedChange}
                   showPrices={canSeePrices}
+                  period={pricePeriod}
                 />
               ))}
             </div>
@@ -304,6 +322,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
               manual={manual}
               onOwnedChange={onOwnedChange}
               showPrices={canSeePrices}
+              period={pricePeriod}
             />
           </div>
         </div>
@@ -327,6 +346,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
                       owned={owned}
                       onOwnedChange={onOwnedChange}
                       showPrices={canSeePrices}
+                      period={pricePeriod}
                     />
                   ))}
                 </div>
@@ -342,6 +362,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
                   manual={manual}
                   onOwnedChange={onOwnedChange}
                   showPrices={canSeePrices}
+                  period={pricePeriod}
                 />
               </div>
             }

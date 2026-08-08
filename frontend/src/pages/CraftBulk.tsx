@@ -12,7 +12,17 @@ import { useCraftCart } from "../hooks/useCraftCart";
 import { useCraftCatalog } from "../hooks/useCraftCatalog";
 import { useCraftPrices } from "../hooks/useCraftPrices";
 import { usePreference } from "../hooks/usePreferences";
-import { buildMultiCraftRollup, applyWarehouseConsumption, computeWarehouseConsumption } from "../lib/craftCalc";
+import {
+  applyWarehouseConsumption,
+  buildMultiCraftRollup,
+  computeWarehouseConsumption,
+  CRAFT_PRICE_PERIODS,
+  type CraftPricePeriod,
+} from "../lib/craftCalc";
+
+function collectRollupIds(rollup: { id: number }[], into: Set<number>) {
+  for (const e of rollup) into.add(e.id);
+}
 
 type BulkTab = "warehouse" | "crafts" | "shopping";
 
@@ -26,7 +36,9 @@ export default function CraftBulkPage() {
   const { entries, remove, setQty, isEmpty } = useCraftCart();
   const [searchParams] = useSearchParams();
   const [owned, setOwned] = usePreference("craft_owned");
+  const canSyncBank = canWarehouse && hasPermission("feature.trading_write");
   const [chosenVariants] = usePreference("craft_variants");
+  const [pricePeriod, setPricePeriod] = useState<CraftPricePeriod>("main");
   const tabParam = searchParams.get("tab");
 
   const resolveTab = useCallback((): BulkTab => {
@@ -57,17 +69,23 @@ export default function CraftBulkPage() {
 
   const allMaterialIds = useMemo(() => {
     const ids = new Set<number>();
-    if (canBulk) {
-      for (const e of rollup) ids.add(e.id);
+    if (canBulk && bulkCatalog && !isEmpty) {
+      collectRollupIds(rollup, ids);
+      // Full mats ignoring warehouse — needed for craft-cost pricing.
+      collectRollupIds(buildMultiCraftRollup(bulkCatalog, entries, {}, chosenVariants), ids);
+      for (const e of entries) ids.add(e.productId);
     }
     for (const [k] of Object.entries(owned)) {
       const n = Number(k);
       if (Number.isFinite(n)) ids.add(n);
     }
     return [...ids];
-  }, [canBulk, rollup, owned]);
+  }, [canBulk, bulkCatalog, isEmpty, rollup, entries, owned, chosenVariants]);
 
-  const { serverPrices, manual } = useCraftPrices(canSeePrices ? allMaterialIds : []);
+  const { serverPrices, manual } = useCraftPrices(
+    canSeePrices ? allMaterialIds : [],
+    pricePeriod,
+  );
 
   const onOwnedChange = (id: number, val: number) => {
     const next = { ...owned };
@@ -111,13 +129,34 @@ export default function CraftBulkPage() {
     return (
       <div className="min-h-full">
         <PageHeader title="Склад ресурсов" />
+        {canSeePrices && (
+          <div className="mb-4 flex flex-wrap gap-1 rounded-xl bg-zinc-800/80 p-1">
+            {CRAFT_PRICE_PERIODS.map((p) => (
+              <button
+                key={p.key}
+                type="button"
+                className={`flex-1 rounded-lg px-2 py-1.5 text-xs font-semibold transition-colors ${
+                  pricePeriod === p.key
+                    ? "bg-amber-600 text-zinc-950 shadow-sm"
+                    : "text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
+                }`}
+                onClick={() => setPricePeriod(p.key)}
+              >
+                {p.label}
+              </button>
+            ))}
+          </div>
+        )}
         <CraftWarehousePanel
           catalog={baseCatalog}
           owned={owned}
           onOwnedChange={onOwnedChange}
+          onOwnedReplace={setOwned}
           prices={serverPrices}
           manual={manual}
           showPrices={canSeePrices}
+          period={pricePeriod}
+          canSyncBank={canSyncBank}
         />
       </div>
     );
@@ -125,6 +164,25 @@ export default function CraftBulkPage() {
 
   const catalog = bulkCatalog ?? baseCatalog;
   const loadingRecipes = !isEmpty && recipesLoading;
+
+  const periodChips = canSeePrices ? (
+    <div className="mb-3 flex flex-wrap gap-1 rounded-xl bg-zinc-800/80 p-1">
+      {CRAFT_PRICE_PERIODS.map((p) => (
+        <button
+          key={p.key}
+          type="button"
+          className={`flex-1 rounded-lg px-2 py-1.5 text-xs font-semibold transition-colors ${
+            pricePeriod === p.key
+              ? "bg-amber-600 text-zinc-950 shadow-sm"
+              : "text-zinc-400 hover:bg-zinc-800 hover:text-zinc-200"
+          }`}
+          onClick={() => setPricePeriod(p.key)}
+        >
+          {p.label}
+        </button>
+      ))}
+    </div>
+  ) : null;
 
   const tabBtn = (id: BulkTab, label: string) => (
     <button
@@ -162,6 +220,7 @@ export default function CraftBulkPage() {
               </span>
             )}
           </div>
+          {periodChips}
           <CraftShoppingList
             catalog={catalog}
             entries={rollup}
@@ -170,6 +229,7 @@ export default function CraftBulkPage() {
             manual={manual}
             onOwnedChange={onOwnedChange}
             showPrices={canSeePrices}
+            period={pricePeriod}
             title="Общий список покупок"
             subtitle="Материалы для всех крафтов в корзине с учётом склада"
           />
@@ -180,6 +240,7 @@ export default function CraftBulkPage() {
 
   const craftsSection = (
     <div className="rounded-xl border border-zinc-800/80 bg-zinc-900/40 p-3">
+      {periodChips}
       <CraftBulkCartList
         catalog={catalog}
         entries={entries}
@@ -193,6 +254,7 @@ export default function CraftBulkPage() {
         onCraft={handleCraft}
         showPrices={canSeePrices}
         showApproxCost
+        period={pricePeriod}
         recipesLoading={loadingRecipes}
       />
     </div>
@@ -212,14 +274,20 @@ export default function CraftBulkPage() {
 
       <div className="lg:hidden">
         {canWarehouse && tab === "warehouse" && (
-          <CraftWarehousePanel
-            catalog={catalog}
-            owned={owned}
-            onOwnedChange={onOwnedChange}
-            prices={serverPrices}
-            manual={manual}
-            showPrices={canSeePrices}
-          />
+          <>
+            {periodChips}
+            <CraftWarehousePanel
+              catalog={catalog}
+              owned={owned}
+              onOwnedChange={onOwnedChange}
+              onOwnedReplace={setOwned}
+              prices={serverPrices}
+              manual={manual}
+              showPrices={canSeePrices}
+              period={pricePeriod}
+              canSyncBank={canSyncBank}
+            />
+          </>
         )}
         {canBulk && tab === "crafts" && craftsSection}
         {canBulk && tab === "shopping" && shoppingSection}
@@ -235,9 +303,12 @@ export default function CraftBulkPage() {
                 catalog={catalog}
                 owned={owned}
                 onOwnedChange={onOwnedChange}
+                onOwnedReplace={setOwned}
                 prices={serverPrices}
                 manual={manual}
                 showPrices={canSeePrices}
+                period={pricePeriod}
+                canSyncBank={canSyncBank}
               />
             }
             right={

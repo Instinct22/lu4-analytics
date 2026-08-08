@@ -84,8 +84,9 @@ def prices_by_ids(
     db: DbSession,
     user: PricesByIdsUser,
     ids: str = Query(..., description="Comma-separated item external IDs"),
+    period: str = Query("main", pattern="^(main|1h|12h|1d)$"),
 ):
-    return market_service.prices_by_ids(db, ids)
+    return market_service.prices_by_ids(db, ids, period)
 
 
 @router.get("/chart", response_model=TradingChartResponse)

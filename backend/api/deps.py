@@ -109,6 +109,18 @@ def require_any_permission(*permissions: str) -> Callable:
     return dependency
 
 
+def require_all_permissions(*permissions: str) -> Callable:
+    def dependency(user: CurrentUser, db: DbSession) -> User:
+        if is_superadmin(user.role):
+            return user
+        perms = get_role_permissions(db, user.role)
+        if not all(p in perms for p in permissions):
+            raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Forbidden")
+        return user
+
+    return dependency
+
+
 def ensure_role_permissions_seeded(db: Session) -> None:
     """Insert missing (role, permission) rows with defaults."""
     from core.permissions import ROLES

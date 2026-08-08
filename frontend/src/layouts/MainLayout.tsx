@@ -40,6 +40,7 @@ const craftGroup: NavGroup = {
   children: [
     { to: "/craft", label: "Крафт предметов", icon: "⚒", permission: "nav.craft", end: true },
     { to: "/craft/upgrades", label: "Апгрейд NG/D", icon: "↑", permission: "nav.craft" },
+    { to: "/craft/appraisal", label: "Оценка", icon: "◎", permission: "feature.craft_appraisal" },
     { to: "/craft/bulk", label: "Мультикрафт", icon: "☰", permission: "feature.craft_bulk" },
     { to: "/craft/bulk?tab=warehouse", label: "Склад", icon: "▦", permission: "feature.craft_warehouse" },
   ],

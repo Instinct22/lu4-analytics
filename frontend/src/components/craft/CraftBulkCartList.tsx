@@ -2,16 +2,18 @@ import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   buildTree,
+  cartEntryKey,
+  craftCostFromBaseMaterials,
+  effectivePrice,
   formatPrice,
+  formatVariantRate,
   isCraftable,
   isCraftReady,
   itemInfo,
-  treeCost,
-  cartEntryKey,
-  formatVariantRate,
   variantsFor,
   type CartEntry,
   type CraftCatalog,
+  type CraftPricePeriod,
   type PriceInfo,
 } from "../../lib/craftCalc";
 import { GradePill, ItemIcon } from "./CraftCostBar";
@@ -32,6 +34,7 @@ interface Props {
   onCraft: (productId: number, variantIdx: number) => void;
   showPrices?: boolean;
   showApproxCost?: boolean;
+  period?: CraftPricePeriod;
   recipesLoading?: boolean;
 }
 
@@ -48,6 +51,7 @@ function CraftBulkCartRow({
   onCraft,
   showPrices,
   showApproxCost = true,
+  period = "main",
 }: {
   catalog: CraftCatalog;
   entry: CartEntry;
@@ -61,6 +65,7 @@ function CraftBulkCartRow({
   onCraft: (productId: number, variantIdx: number) => void;
   showPrices?: boolean;
   showApproxCost?: boolean;
+  period?: CraftPricePeriod;
 }) {
   const [expanded, setExpanded] = useState(false);
   const [detailTab, setDetailTab] = useState<"tree" | "list">("tree");
@@ -81,9 +86,34 @@ function CraftBulkCartRow({
   );
 
   const approxCost = useMemo(() => {
-    if (!tree) return null;
-    return treeCost(tree, catalog, prices, manual).cost;
-  }, [tree, catalog, prices, manual]);
+    if (!craftable) return null;
+    return craftCostFromBaseMaterials(
+      catalog,
+      entry.productId,
+      entry.qty,
+      prices,
+      manual,
+      period,
+      variantIdx,
+      chosenVariants,
+    ).cost;
+  }, [
+    craftable,
+    catalog,
+    entry.productId,
+    entry.qty,
+    prices,
+    manual,
+    period,
+    variantIdx,
+    chosenVariants,
+  ]);
+
+  const marketCost = useMemo(() => {
+    const unit = effectivePrice(entry.productId, prices, manual, catalog, period);
+    if (unit == null) return null;
+    return unit * entry.qty;
+  }, [entry.productId, entry.qty, catalog, prices, manual, period]);
 
   const canCraft = useMemo(
     () => Boolean(tree && isCraftReady(catalog, tree)),
@@ -138,9 +168,11 @@ function CraftBulkCartRow({
         </div>
         {showApproxCost && (
           <div className="shrink-0 text-right" title="Ориентировочная стоимость крафта">
-            <span className="block text-[0.6rem] uppercase tracking-wide text-zinc-600">~стоимость</span>
+            <span className="block text-[0.6rem] uppercase tracking-wide text-zinc-600">крафт / рынок</span>
             <span className="text-sm font-semibold tabular-nums text-amber-400/90">
-              {approxCost != null ? formatPrice(approxCost) : "—"}
+              {approxCost != null ? formatPrice(approxCost) : "Нет цены"}
+              <span className="mx-1 text-zinc-600">/</span>
+              {marketCost != null ? formatPrice(marketCost) : "Нет цены"}
             </span>
           </div>
         )}
@@ -205,6 +237,7 @@ function CraftBulkCartRow({
                     owned={owned}
                     onOwnedChange={onOwnedChange}
                     showPrices={showPrices}
+                    period={period}
                   />
                 ))}
               </div>
@@ -217,6 +250,7 @@ function CraftBulkCartRow({
               prices={prices}
               manual={manual}
               onOwnedChange={onOwnedChange}
+              period={period}
               showPrices={showPrices}
               title=""
             />
@@ -246,6 +280,7 @@ export default function CraftBulkCartList({
   onCraft,
   showPrices = false,
   showApproxCost = true,
+  period = "main",
   recipesLoading = false,
 }: Props) {
   if (entries.length === 0) {
@@ -283,6 +318,7 @@ export default function CraftBulkCartList({
           onCraft={onCraft}
           showPrices={showPrices}
           showApproxCost={showApproxCost}
+          period={period}
         />
       ))}
     </div>

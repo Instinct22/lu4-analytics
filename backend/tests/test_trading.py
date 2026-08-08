@@ -16,6 +16,7 @@ from schemas.trading_inventory import (
     InventoryLineIn,
     InventoryScanItem,
     InventoryScanRequest,
+    WarehouseSyncRequest,
 )
 from services import trading_service
 
@@ -30,6 +31,7 @@ def _char(**kwargs):
         master_coin_price=Decimal("0"),
         description=None,
         trade_mode="sell",
+        is_main=False,
         sort_order=0,
         updated_at=None,
         items=[],
@@ -135,8 +137,49 @@ def test_snapshot_payload_shape():
     assert row["master_coin"] == "2"
     assert row["master_coin_price"] == "50"
     assert row["master_coin_adena"] == "100"
+    assert row["is_main"] is False
     assert row["sell_items"][0]["item_external_id"] == 4037
     assert "adena_in_items" in row
+
+
+def test_character_out_is_main_only_for_bank():
+    bank = _char(is_main=True)
+    merchant = _char(kind="merchant", is_main=True)
+    assert trading_service._character_out(bank).is_main is True
+    assert trading_service._character_out(merchant).is_main is False
+
+
+def test_warehouse_payload_helpers():
+    payload = trading_service._build_warehouse_payload(
+        {1864: 5, 4037: 9},
+        Decimal("1000"),
+        Decimal("3"),
+    )
+    assert payload["1864"] == 5
+    assert payload["adena"] == 1000
+    assert payload["master_coin"] == 3
+    assert "4037" not in payload  # MC stays in wallet keys only when built from items+wallet
+
+    items = trading_service._warehouse_items(
+        {"1864": 5, "adena": 1000, "master_coin": 3, "4037": 9, "bad": 1}
+    )
+    assert items == {1864: 5}
+    assert trading_service._warehouse_wallet_value({"adena": 1000}, "adena") == Decimal("1000")
+
+
+def test_sync_warehouse_requires_main():
+    db = MagicMock()
+    result = MagicMock()
+    result.first.return_value = None
+    db.scalars.return_value = result
+    with pytest.raises(HTTPException) as exc:
+        trading_service.sync_warehouse(
+            db,
+            uuid.uuid4(),
+            WarehouseSyncRequest(direction="to_warehouse"),
+        )
+    assert exc.value.status_code == 400
+    assert "Main" in exc.value.detail
 
 
 def test_update_character_not_found():

@@ -23,6 +23,7 @@ export type TradingCharacter = {
   master_coin_adena: number;
   description: string | null;
   trade_mode: TradeMode;
+  is_main?: boolean;
   adena_in_items: number;
   buy_cost: number;
   total_adena: number;
@@ -31,6 +32,19 @@ export type TradingCharacter = {
   sell_items: InventoryLine[];
   buy_items: InventoryLine[];
   items: InventoryLine[];
+};
+
+export type WarehouseSyncDirection = "to_warehouse" | "to_bank";
+
+export type WarehouseSyncResult = {
+  direction: WarehouseSyncDirection;
+  character_id: string;
+  character_nick: string;
+  item_count: number;
+  adena: number;
+  master_coin: number;
+  warehouse: Record<string, number>;
+  character: TradingCharacter | null;
 };
 
 export type InventoryLineInput = {
@@ -63,6 +77,7 @@ export type SnapshotPayloadCharacter = {
   master_coin_adena?: string | number;
   description?: string;
   trade_mode?: TradeMode;
+  is_main?: boolean;
   adena_in_items?: string | number;
   buy_cost?: string | number;
   total_adena?: string | number;
@@ -117,6 +132,20 @@ export async function updateTradingCharacter(
 
 export async function deleteTradingCharacter(id: string) {
   await api.delete(`/trading/characters/${id}`);
+}
+
+export async function setTradingCharacterMain(id: string, isMain: boolean) {
+  const { data } = await api.put<TradingCharacter>(`/trading/characters/${id}/main`, {
+    is_main: isMain,
+  });
+  return data;
+}
+
+export async function syncTradingWarehouse(direction: WarehouseSyncDirection) {
+  const { data } = await api.post<WarehouseSyncResult>("/trading/sync-warehouse", {
+    direction,
+  });
+  return data;
 }
 
 export async function searchTradingItems(q: string, limit = 30) {

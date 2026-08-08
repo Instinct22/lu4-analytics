@@ -6,6 +6,7 @@ import {
   shoppingItems,
   type CalcNode,
   type CraftCatalog,
+  type CraftPricePeriod,
   type PriceInfo,
   type RollupEntry,
 } from "../../lib/craftCalc";
@@ -23,6 +24,7 @@ interface Props {
   manual: Record<string, number>;
   onOwnedChange: (id: number, val: number) => void;
   showPrices?: boolean;
+  period?: CraftPricePeriod;
   title?: string;
   subtitle?: string;
 }
@@ -35,6 +37,7 @@ function ShoppingRow({
   manual,
   onOwnedChange,
   showPrices = false,
+  period = "main",
 }: {
   entry: RollupEntry;
   catalog: CraftCatalog;
@@ -43,6 +46,7 @@ function ShoppingRow({
   manual: Record<string, number>;
   onOwnedChange: (id: number, val: number) => void;
   showPrices?: boolean;
+  period?: CraftPricePeriod;
 }) {
   const [expanded, setExpanded] = useState(false);
   const info = itemInfo(catalog, entry.id);
@@ -113,6 +117,7 @@ function ShoppingRow({
               catalog={catalog}
               prices={prices}
               manual={manual}
+              period={period}
               className="text-sm font-semibold tabular-nums text-amber-400"
             />
           )}
@@ -134,6 +139,7 @@ function ShoppingRow({
               onOwnedChange={onOwnedChange}
               depth={0}
               showPrices={showPrices}
+              period={period}
             />
           ))}
         </div>
@@ -151,6 +157,7 @@ export default function CraftShoppingList({
   manual,
   onOwnedChange,
   showPrices = false,
+  period = "main",
   title = "Список покупок",
   subtitle = "Одинаковые ресурсы из разных веток объединены. Разверните крафтовые — чтобы увидеть состав.",
 }: Props) {
@@ -179,6 +186,7 @@ export default function CraftShoppingList({
           manual={manual}
           onOwnedChange={onOwnedChange}
           showPrices={showPrices}
+          period={period}
         />
       ))}
     </div>

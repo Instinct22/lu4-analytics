@@ -6,6 +6,7 @@ import {
   itemInfo,
   type CalcNode,
   type CraftCatalog,
+  type CraftPricePeriod,
   type PriceInfo,
 } from "../../lib/craftCalc";
 import { GradePill, HaveInput, ItemIcon, ItemPrice } from "./CraftCostBar";
@@ -21,6 +22,7 @@ interface Props {
   onOwnedChange: (id: number, val: number) => void;
   depth?: number;
   showPrices?: boolean;
+  period?: CraftPricePeriod;
 }
 
 export default function CraftTreeNode({
@@ -32,6 +34,7 @@ export default function CraftTreeNode({
   onOwnedChange,
   depth = 0,
   showPrices = false,
+  period = "main",
 }: Props) {
   const info = itemInfo(catalog, node.id);
   const hasChildren = node.children.length > 0;
@@ -39,12 +42,12 @@ export default function CraftTreeNode({
   const craftable = isCraftable(catalog, node.id) && hasChildren;
   const covered = node.want > node.net;
 
-  const buyPrice = showPrices ? effectivePrice(node.id, prices, manual, catalog) : null;
+  const buyPrice = showPrices ? effectivePrice(node.id, prices, manual, catalog, period) : null;
   let craftSubtotal = 0;
   let craftOk = true;
   if (showPrices) {
     for (const c of node.children) {
-      const p = effectivePrice(c.id, prices, manual, catalog);
+      const p = effectivePrice(c.id, prices, manual, catalog, period);
       if (p == null) craftOk = false;
       else craftSubtotal += p * c.net;
     }
@@ -114,6 +117,7 @@ export default function CraftTreeNode({
               catalog={catalog}
               prices={prices}
               manual={manual}
+              period={period}
             />
           )}
         </div>
@@ -128,6 +132,7 @@ export default function CraftTreeNode({
             manual={manual}
             owned={owned}
             onOwnedChange={onOwnedChange}
+            period={period}
             depth={depth + 1}
             showPrices={showPrices}
           />

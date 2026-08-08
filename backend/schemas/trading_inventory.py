@@ -46,6 +46,10 @@ class CharacterUpdate(BaseModel):
     buy_items: list[InventoryLineIn] = Field(default_factory=list)
 
 
+class CharacterMainUpdate(BaseModel):
+    is_main: bool
+
+
 class CharacterOut(BaseModel):
     id: uuid.UUID
     kind: CharacterKind
@@ -56,6 +60,7 @@ class CharacterOut(BaseModel):
     master_coin_adena: Decimal = Decimal("0")
     description: str | None
     trade_mode: TradeMode
+    is_main: bool = False
     adena_in_items: Decimal
     buy_cost: Decimal
     total_adena: Decimal
@@ -65,6 +70,24 @@ class CharacterOut(BaseModel):
     buy_items: list[InventoryLineOut] = Field(default_factory=list)
     # Active list for the current trade_mode (compat / convenience)
     items: list[InventoryLineOut] = Field(default_factory=list)
+
+
+SyncDirection = Literal["to_warehouse", "to_bank"]
+
+
+class WarehouseSyncRequest(BaseModel):
+    direction: SyncDirection
+
+
+class WarehouseSyncResponse(BaseModel):
+    direction: SyncDirection
+    character_id: uuid.UUID
+    character_nick: str
+    item_count: int
+    adena: Decimal
+    master_coin: Decimal
+    warehouse: dict[str, float | int] = Field(default_factory=dict)
+    character: CharacterOut | None = None
 
 
 class CharactersResponse(BaseModel):
