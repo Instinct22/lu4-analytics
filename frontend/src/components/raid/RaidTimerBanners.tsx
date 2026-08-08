@@ -13,19 +13,38 @@ type Props = {
   active: Entry[];
   waiting: Entry[];
   overdue: Entry[];
+  notesByBossId: Map<number, string>;
   onSelect: (id: number) => void;
   canClear?: boolean;
   onClear?: (bossId: number) => void;
 };
 
-function Chip({ entry, onSelect }: { entry: Entry; onSelect: (id: number) => void }) {
+function BossChipLabel({ name, note }: { name: string; note?: string }) {
+  const label = note ? `${name} (${note})` : name;
+  return (
+    <span className="max-w-[12rem] truncate text-xs text-zinc-200" title={label}>
+      {name}
+      {note ? <span className="text-zinc-400"> ({note})</span> : null}
+    </span>
+  );
+}
+
+function Chip({
+  entry,
+  note,
+  onSelect,
+}: {
+  entry: Entry;
+  note?: string;
+  onSelect: (id: number) => void;
+}) {
   return (
     <button
       type="button"
       onClick={() => onSelect(entry.boss.id)}
       className="inline-flex items-center gap-2 rounded-xl bg-zinc-950/50 px-2.5 py-1.5 text-left ring-1 ring-zinc-700/70 transition hover:ring-amber-500/40"
     >
-      <span className="max-w-[10rem] truncate text-xs text-zinc-200">{entry.boss.name}</span>
+      <BossChipLabel name={entry.boss.name} note={note} />
       <span className={`font-mono text-xs font-semibold tabular-nums ${entry.timer.colorClass}`}>
         {entry.timer.display}
       </span>
@@ -35,11 +54,13 @@ function Chip({ entry, onSelect }: { entry: Entry; onSelect: (id: number) => voi
 
 function OverdueChip({
   entry,
+  note,
   onSelect,
   onRequestClear,
   canClear,
 }: {
   entry: Entry;
+  note?: string;
   onSelect: (id: number) => void;
   onRequestClear: (entry: Entry) => void;
   canClear: boolean;
@@ -56,7 +77,7 @@ function OverdueChip({
         onClick={() => onSelect(entry.boss.id)}
         className="inline-flex items-center gap-2 px-2.5 py-1.5 text-left transition hover:bg-red-950/30"
       >
-        <span className="max-w-[10rem] truncate text-xs text-zinc-200">{entry.boss.name}</span>
+        <BossChipLabel name={entry.boss.name} note={note} />
         <span className={`font-mono text-xs font-semibold tabular-nums ${entry.timer.colorClass}`}>
           {entry.timer.display}
         </span>
@@ -129,6 +150,7 @@ export default function RaidTimerBanners({
   active,
   waiting,
   overdue,
+  notesByBossId,
   onSelect,
   canClear = false,
   onClear,
@@ -213,7 +235,12 @@ export default function RaidTimerBanners({
             </div>
             <div className="flex flex-wrap gap-2 border-t border-amber-500/15 px-4 py-3">
               {sortedActive.map((e) => (
-                <Chip key={e.boss.id} entry={e} onSelect={onSelect} />
+                <Chip
+                  key={e.boss.id}
+                  entry={e}
+                  note={notesByBossId.get(e.boss.id)}
+                  onSelect={onSelect}
+                />
               ))}
             </div>
           </div>
@@ -230,7 +257,12 @@ export default function RaidTimerBanners({
             borderClassName="border-zinc-800/80"
           >
             {sortedWaiting.map((e) => (
-              <Chip key={e.boss.id} entry={e} onSelect={onSelect} />
+              <Chip
+                key={e.boss.id}
+                entry={e}
+                note={notesByBossId.get(e.boss.id)}
+                onSelect={onSelect}
+              />
             ))}
           </CollapsibleTimerSection>
         )}
@@ -260,6 +292,7 @@ export default function RaidTimerBanners({
               <OverdueChip
                 key={e.boss.id}
                 entry={e}
+                note={notesByBossId.get(e.boss.id)}
                 onSelect={onSelect}
                 onRequestClear={(entry) =>
                   setPendingClear({
