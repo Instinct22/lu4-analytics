@@ -52,7 +52,7 @@ export default function RaidBossesPage() {
   });
 
   const bosses = payload?.bosses ?? EMPTY_BOSSES;
-  const { snapshots, startFromInput, startAuto, clearTimer } = useRaidTimers(
+  const { snapshots, notesByBossId, startFromInput, startAuto, clearTimer, saveNote } = useRaidTimers(
     bosses,
     canWrite,
     canViewTimers,
@@ -210,6 +210,7 @@ export default function RaidBossesPage() {
               {filtered.map((boss) => {
                 const active = !settingsOpen && boss.id === selectedId;
                 const timer = snapshots.get(boss.id);
+                const note = notesByBossId.get(boss.id);
                 return (
                   <li key={boss.id}>
                     <button
@@ -233,12 +234,24 @@ export default function RaidBossesPage() {
                           </span>
                         )}
                       </span>
-                      {canViewTimers && timer && (
-                        <span
-                          className={`shrink-0 font-mono text-xs font-semibold tabular-nums ${timer.colorClass}`}
-                        >
-                          {timer.display}
-                        </span>
+                      {canViewTimers && (note || timer) && (
+                        <div className="flex shrink-0 items-center justify-end gap-2">
+                          {note && (
+                            <span
+                              className="max-w-[8rem] truncate text-xs text-zinc-300"
+                              title={note}
+                            >
+                              {note}
+                            </span>
+                          )}
+                          {timer && (
+                            <span
+                              className={`font-mono text-xs font-semibold tabular-nums ${timer.colorClass}`}
+                            >
+                              {timer.display}
+                            </span>
+                          )}
+                        </div>
                       )}
                     </button>
                   </li>
@@ -279,12 +292,15 @@ export default function RaidBossesPage() {
               <RaidBossDetail
                 boss={selected}
                 timer={canViewTimers ? snapshots.get(selected.id) ?? null : null}
+                note={notesByBossId.get(selected.id) ?? ""}
                 canWrite={canWrite}
+                canViewTimers={canViewTimers}
                 canViewRoute={canViewRoute}
                 onClose={() => setSelectedId(null)}
                 onStart={(hhmm) => startFromInput(selected.id, hhmm)}
                 onAuto={() => startAuto(selected.id)}
                 onClear={() => clearTimer(selected.id)}
+                onNoteChange={(value) => saveNote(selected.id, value)}
               />
             ) : null}
           </div>

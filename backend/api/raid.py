@@ -2,13 +2,13 @@ import uuid
 from datetime import datetime, timezone
 
 from fastapi import APIRouter, Depends, HTTPException, Request
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from sqlalchemy import select
 
 from api.deps import CurrentUser, DbSession, require_permission, user_has_permission
 from core.client_ip import client_ip
 from models.analytics import AnalyticsDataset
-from models.raid import RaidBoss, RaidBossTimer
+from models.raid import RaidBoss, RaidBossNote, RaidBossTimer
 from models.raid_timer_log import RaidTimerLog
 from services.admin_settings import get_raid_hidden, set_raid_hidden
 
@@ -34,6 +34,13 @@ class TimerIn(BaseModel):
 
 class RaidVisibilityIn(BaseModel):
     hiddenIds: list[int]
+
+
+class NoteIn(BaseModel):
+    note: str = Field(default="", max_length=120)
+
+
+NOTE_MAX_LEN = 120
 
 
 def _log_timer_action(
@@ -88,6 +95,13 @@ def _timer_json(timer: RaidBossTimer) -> dict:
         "bossId": timer.boss_external_id,
         "killedAt": timer.killed_at.isoformat(),
         "updatedAt": timer.updated_at.isoformat() if timer.updated_at else None,
+    }
+
+
+def _note_json(note: RaidBossNote) -> dict:
+    return {
+        "bossId": note.boss_external_id,
+        "note": note.note or "",
     }
 
 
@@ -155,6 +169,41 @@ def clear_timer(boss_id: int, request: Request, db: DbSession, user: CurrentUser
         db.delete(timer)
         db.commit()
     return {"bossId": boss_id, "cleared": True}
+
+
+@router.get("/notes", dependencies=[Depends(require_read)])
+def list_notes(db: DbSession, user: CurrentUser):
+    if not user_has_permission(db, user, "feature.raid_timers_view"):
+        return {"notes": []}
+    notes = db.scalars(select(RaidBossNote)).all()
+    return {"notes": [_note_json(n) for n in notes if n.note]}
+
+
+@router.put("/notes/{boss_id}", dependencies=[Depends(require_write)])
+def set_note(boss_id: int, body: NoteIn, db: DbSession, user: CurrentUser):
+    boss = db.get(RaidBoss, boss_id)
+    if boss is None:
+        raise HTTPException(status_code=404, detail="Boss not found")
+
+    text = body.note.strip()
+    if len(text) > NOTE_MAX_LEN:
+        raise HTTPException(status_code=400, detail=f"Note exceeds {NOTE_MAX_LEN} characters")
+
+    row = db.get(RaidBossNote, boss_id)
+    if not text:
+        if row is not None:
+            db.delete(row)
+            db.commit()
+        return {"bossId": boss_id, "note": ""}
+
+    if row is None:
+        row = RaidBossNote(boss_external_id=boss_id)
+        db.add(row)
+    row.note = text
+    row.updated_by_user_id = user.id
+    db.commit()
+    db.refresh(row)
+    return _note_json(row)
 
 
 @router.get("/visibility", dependencies=[Depends(require_read)])

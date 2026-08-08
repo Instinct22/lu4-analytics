@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { clearRaidTimer, getRaidTimers, setRaidTimer } from "../api/raid";
+import { clearRaidTimer, getRaidNotes, getRaidTimers, putRaidNote, setRaidTimer } from "../api/raid";
 import type { RaidBoss } from "../lib/raidBosses";
 import {
   bossRespawn,
@@ -12,6 +12,7 @@ import {
 } from "../lib/raidTimers";
 
 const TIMERS_KEY = ["raid", "timers"];
+const NOTES_KEY = ["raid", "notes"];
 
 /** Timers are shared by the whole server, so they live in the database. */
 export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean, canView = true) {
@@ -25,6 +26,13 @@ export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean, canView = t
     enabled: canView,
   });
 
+  const { data: notes = [] } = useQuery({
+    queryKey: NOTES_KEY,
+    queryFn: getRaidNotes,
+    refetchInterval: 30_000,
+    enabled: canView,
+  });
+
   useEffect(() => {
     const id = window.setInterval(() => setNow(Date.now()), 1000);
     return () => window.clearInterval(id);
@@ -32,6 +40,10 @@ export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean, canView = t
 
   const invalidate = useCallback(() => {
     void queryClient.invalidateQueries({ queryKey: TIMERS_KEY });
+  }, [queryClient]);
+
+  const invalidateNotes = useCallback(() => {
+    void queryClient.invalidateQueries({ queryKey: NOTES_KEY });
   }, [queryClient]);
 
   const saveMutation = useMutation({
@@ -45,11 +57,25 @@ export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean, canView = t
     onSuccess: invalidate,
   });
 
+  const noteMutation = useMutation({
+    mutationFn: ({ bossId, note }: { bossId: number; note: string }) => putRaidNote(bossId, note),
+    onSuccess: invalidateNotes,
+  });
+
   const bossById = useMemo(() => {
     const map = new Map<number, RaidBoss>();
     for (const b of bosses) map.set(b.id, b);
     return map;
   }, [bosses]);
+
+  const notesByBossId = useMemo(() => {
+    const out = new Map<number, string>();
+    for (const entry of notes) {
+      const text = entry.note?.trim();
+      if (text) out.set(entry.bossId, text);
+    }
+    return out;
+  }, [notes]);
 
   const snapshots = useMemo(() => {
     const out = new Map<number, TimerSnapshot>();
@@ -120,13 +146,24 @@ export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean, canView = t
     [clearMutation],
   );
 
+  const saveNote = useCallback(
+    (bossId: number, note: string) => {
+      if (!canWrite) return;
+      noteMutation.mutate({ bossId, note });
+    },
+    [canWrite, noteMutation],
+  );
+
   return {
     snapshots,
     timers,
+    notesByBossId,
     now,
     startFromInput,
     startAuto,
     clearTimer,
+    saveNote,
     isSaving: saveMutation.isPending || clearMutation.isPending,
+    isSavingNote: noteMutation.isPending,
   };
 }
