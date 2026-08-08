@@ -1,11 +1,14 @@
-"""Reads over the normalized craft tables."""
-
 from __future__ import annotations
 
-from sqlalchemy import Numeric, cast, func, select
+from collections import defaultdict
+from datetime import datetime
+
+from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
-from models.analytics import AnalyticsDataset, ItemStatistics
+from calculations.npc_prices import compute_npc_buy
+from calculations.trading_analytics import batch_period_prices, resolve_time_range
+from models.analytics import AnalyticsDataset
 from models.craft import CraftItem, CraftMaterialSource, CraftRecipe, CraftRecipeMaterial
 from models.item_encyclopedia import ItemEncyclopedia
 from models.wiki import EntityLink, WikiEntity
@@ -28,6 +31,9 @@ def _item_json(item: CraftItem, *, with_text: bool, icon: str | None = None) -> 
         "category": item.category,
         "set_name": item.set_name,
         "npc_sell": item.npc_sell,
+        "npc_buy": item.npc_buy
+        if item.npc_buy is not None
+        else compute_npc_buy(item.npc_sell, item.grade, item.category),
         "url": item.url,
         "is_recipe_scroll": item.is_recipe_scroll,
         "stats": item.stats,
@@ -354,106 +360,182 @@ def npc_materials(db: Session, npc_id: int) -> dict:
     }
 
 
-#: Market fallback for items nobody trades: NPC sell price times a markup.
-MARKET_MARKUP = 1.5
+#: Category prefixes for profitability filters (matches craft picker tabs).
+CATEGORY_PREFIXES: dict[str, str] = {
+    "weapons": "weapons/",
+    "armors": "armors/",
+    "jewelry": "other/jewelry",
+    "materials": "materials/",
+    "other": "other/",
+}
 
 
-def profitability(db: Session, limit: int = 100, min_margin: float | None = None) -> dict:
-    """Craft margin per recipe, computed in SQL instead of in the browser.
+def _matches_categories(category: str, categories: list[str] | None) -> bool:
+    if not categories:
+        return True
+    for key in categories:
+        prefix = CATEGORY_PREFIXES.get(key)
+        if prefix and category.startswith(prefix):
+            return True
+    return False
 
-    Material cost uses direct materials only: nested crafts are an option, not
-    an obligation, and buying the direct ingredients is the baseline strategy.
-    """
-    market_price = func.coalesce(ItemStatistics.avg_price, ItemStatistics.last_price)
-    item_price = func.coalesce(
-        market_price,
-        cast(CraftItem.npc_sell, Numeric(14, 2)) * MARKET_MARKUP,
+
+def _product_kind(category: str) -> str:
+    return "material" if category.startswith("materials/") else "item"
+
+
+def _material_cost(
+    materials: list[tuple[int, int]],
+    prices: dict[int, dict[str, float | None]],
+    basis: str,
+) -> float | None:
+    total = 0.0
+    for material_id, amount in materials:
+        value = prices.get(material_id, {}).get(basis)
+        if value is None:
+            return None
+        total += value * amount
+    return total
+
+
+def _margin(revenue: float | None, cost: float | None) -> float | None:
+    if revenue is None or cost is None:
+        return None
+    return revenue - cost
+
+
+def profitability(
+    db: Session,
+    *,
+    period: str = "1d",
+    from_date: datetime | None = None,
+    to_date: datetime | None = None,
+    grades: list[str] | None = None,
+    categories: list[str] | None = None,
+) -> dict:
+    """Craft margin per recipe with period-based market prices and NPC sell."""
+    start, end = resolve_time_range(period, from_date, to_date)
+
+    query = select(CraftRecipe, CraftItem).join(
+        CraftItem, CraftItem.external_id == CraftRecipe.product_external_id
     )
+    if grades:
+        query = query.where(CraftItem.grade.in_(grades))
 
-    price_of_item = (
-        select(
-            CraftItem.external_id.label("external_id"),
-            item_price.label("price"),
-        )
-        .outerjoin(
-            WikiEntity,
-            (WikiEntity.entity_type == "item")
-            & (WikiEntity.external_id == CraftItem.external_id),
-        )
-        .outerjoin(
-            ItemStatistics,
-            (ItemStatistics.entity_id == WikiEntity.id) & (ItemStatistics.period == "all"),
-        )
-        .subquery("item_price")
-    )
+    recipe_rows = db.execute(query).all()
+    recipe_rows = [
+        (recipe, item)
+        for recipe, item in recipe_rows
+        if _matches_categories(item.category, categories)
+    ]
+    if not recipe_rows:
+        return {"period": period, "from": start.isoformat(), "to": end.isoformat(), "total": 0, "recipes": []}
 
-    material_cost = (
-        select(
-            CraftRecipeMaterial.recipe_id.label("recipe_id"),
-            func.sum(CraftRecipeMaterial.amount * price_of_item.c.price).label("cost"),
-            func.count(price_of_item.c.price).label("priced"),
-            func.count(CraftRecipeMaterial.id).label("total"),
-        )
-        .outerjoin(
-            price_of_item,
-            price_of_item.c.external_id == CraftRecipeMaterial.material_external_id,
-        )
+    recipe_ids = [recipe.id for recipe, _ in recipe_rows]
+    material_rows = db.scalars(
+        select(CraftRecipeMaterial)
+        .where(CraftRecipeMaterial.recipe_id.in_(recipe_ids))
         .where(CraftRecipeMaterial.is_direct.is_(True))
-        .group_by(CraftRecipeMaterial.recipe_id)
-        .subquery("material_cost")
-    )
+    ).all()
+    materials_by_recipe: dict[int, list[tuple[int, int]]] = defaultdict(list)
+    for row in material_rows:
+        materials_by_recipe[row.recipe_id].append((row.material_external_id, row.amount))
 
-    product_price = price_of_item.alias("product_price")
+    external_ids: set[int] = set()
+    for _recipe, item in recipe_rows:
+        external_ids.add(item.external_id)
+    for mats in materials_by_recipe.values():
+        for material_id, _amount in mats:
+            external_ids.add(material_id)
 
-    query = (
-        select(
-            CraftRecipe.product_external_id,
-            CraftItem.name,
-            CraftItem.grade,
-            CraftRecipe.variant_index,
-            CraftRecipe.yield_amount,
-            product_price.c.price,
-            material_cost.c.cost,
-            material_cost.c.priced,
-            material_cost.c.total,
-        )
-        .join(CraftItem, CraftItem.external_id == CraftRecipe.product_external_id)
-        .join(material_cost, material_cost.c.recipe_id == CraftRecipe.id)
-        .outerjoin(product_price, product_price.c.external_id == CraftRecipe.product_external_id)
-        .where(
-            product_price.c.price.is_not(None),
-            material_cost.c.cost.is_not(None),
-            material_cost.c.priced == material_cost.c.total,
-        )
-    )
+    period_prices = batch_period_prices(db, list(external_ids), start, end)
+    craft_items = db.scalars(
+        select(CraftItem).where(CraftItem.external_id.in_(external_ids))
+    ).all()
+    craft_by_ext = {item.external_id: item for item in craft_items}
 
-    revenue = product_price.c.price * CraftRecipe.yield_amount
-    margin = revenue - material_cost.c.cost
-    if min_margin is not None:
-        query = query.where(margin >= min_margin)
-    query = query.order_by(margin.desc()).limit(limit)
+    def _npc_buy_value(item: CraftItem | None) -> float | None:
+        if item is None:
+            return None
+        value = item.npc_buy
+        if value is None:
+            value = compute_npc_buy(item.npc_sell, item.grade, item.category)
+        return float(value) if value is not None else None
 
-    rows = db.execute(query).all()
+    def prices_for(ext_id: int) -> dict[str, float | None]:
+        market = period_prices.get(ext_id, {})
+        craft_item = craft_by_ext.get(ext_id)
+        npc = craft_item.npc_sell if craft_item else None
+        return {
+            "avg": market.get("avg_price"),
+            "last": market.get("last_price"),
+            "npc": float(npc) if npc is not None else None,
+            "npc_buy": _npc_buy_value(craft_item),
+        }
+
     result = []
-    for product_id, name, grade, variant, yield_amount, price, cost, _priced, _total in rows:
-        revenue_value = float(price) * yield_amount
-        cost_value = float(cost)
+    for recipe, item in recipe_rows:
+        mats = materials_by_recipe.get(recipe.id, [])
+        product = prices_for(item.external_id)
+        yield_amount = recipe.yield_amount
+
+        revenue_avg = (
+            product["avg"] * yield_amount if product["avg"] is not None else None
+        )
+        revenue_last = (
+            product["last"] * yield_amount if product["last"] is not None else None
+        )
+        revenue_npc = (
+            product["npc"] * yield_amount if product["npc"] is not None else None
+        )
+        revenue_npc_buy = (
+            product["npc_buy"] * yield_amount if product["npc_buy"] is not None else None
+        )
+
+        mat_prices = {mid: prices_for(mid) for mid, _ in mats}
+        cost_avg = _material_cost(mats, mat_prices, "avg") if mats else 0.0
+        cost_last = _material_cost(mats, mat_prices, "last") if mats else 0.0
+        cost_npc = _material_cost(mats, mat_prices, "npc") if mats else 0.0
+        cost_npc_buy = _material_cost(mats, mat_prices, "npc_buy") if mats else 0.0
+
         result.append(
             {
-                "product_id": product_id,
-                "product_name": name,
-                "grade": grade,
-                "variant_index": variant,
+                "product_id": item.external_id,
+                "product_name": item.name,
+                "grade": item.grade,
+                "category": item.category,
+                "kind": _product_kind(item.category),
+                "variant_index": recipe.variant_index,
                 "yield": yield_amount,
-                "unit_price": float(price),
-                "revenue": revenue_value,
-                "material_cost": cost_value,
-                "margin": revenue_value - cost_value,
-                "margin_pct": (
-                    round((revenue_value - cost_value) / cost_value * 100, 2)
-                    if cost_value > 0
-                    else None
-                ),
+                "avg_price": product["avg"],
+                "last_price": product["last"],
+                "npc_sell": product["npc"],
+                "npc_buy": product["npc_buy"],
+                "revenue_avg": revenue_avg,
+                "revenue_last": revenue_last,
+                "revenue_npc": revenue_npc,
+                "revenue_npc_buy": revenue_npc_buy,
+                "material_cost_avg": cost_avg,
+                "material_cost_last": cost_last,
+                "material_cost_npc": cost_npc,
+                "material_cost_npc_buy": cost_npc_buy,
+                "margin_avg": _margin(revenue_avg, cost_avg),
+                "margin_last": _margin(revenue_last, cost_last),
+                "margin_npc": _margin(revenue_npc, cost_npc),
+                "margin_npc_buy": _margin(revenue_npc_buy, cost_npc_buy),
             }
         )
-    return {"recipes": result}
+
+    result.sort(
+        key=lambda row: (
+            row["margin_avg"] is None,
+            -(row["margin_avg"] if row["margin_avg"] is not None else float("-inf")),
+        )
+    )
+    return {
+        "period": period,
+        "from": start.isoformat(),
+        "to": end.isoformat(),
+        "total": len(result),
+        "recipes": result,
+    }

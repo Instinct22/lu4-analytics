@@ -1,3 +1,4 @@
+from datetime import datetime
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, HTTPException, Query
@@ -56,7 +57,19 @@ def get_material_sources(material_id: int, db: DbSession, user: ResourcesUser):
 def get_profitability(
     db: DbSession,
     user: PricesUser,
-    limit: int = Query(100, ge=1, le=500),
-    min_margin: float | None = Query(None),
+    period: str = Query("1d"),
+    from_date: datetime | None = Query(None, alias="from"),
+    to_date: datetime | None = Query(None, alias="to"),
+    grades: str | None = Query(None),
+    categories: str | None = Query(None),
 ):
-    return craft_service.profitability(db, limit=limit, min_margin=min_margin)
+    grade_list = [g.strip() for g in grades.split(",") if g.strip()] if grades else None
+    category_list = [c.strip() for c in categories.split(",") if c.strip()] if categories else None
+    return craft_service.profitability(
+        db,
+        period=period,
+        from_date=from_date,
+        to_date=to_date,
+        grades=grade_list,
+        categories=category_list,
+    )

@@ -29,14 +29,17 @@ const analyticsGroup: NavGroup = {
     { to: "/charts", label: "Графики", icon: "◉", permission: "nav.charts" },
     { to: "/statistics", label: "Статистика", icon: "▤", permission: "nav.statistics" },
     {
-      to: "/statistics/craft-profitability",
+      to: "/craft-profitability",
       label: "Прибыльность крафта",
       icon: "₳",
       permission: "feature.craft_prices",
     },
   ],
   isActive: (pathname) =>
-    pathname === "/" || pathname === "/charts" || pathname.startsWith("/statistics"),
+    pathname === "/" ||
+    pathname === "/charts" ||
+    pathname === "/statistics" ||
+    pathname === "/craft-profitability",
 };
 
 const craftGroup: NavGroup = {
@@ -49,7 +52,7 @@ const craftGroup: NavGroup = {
     { to: "/craft/bulk", label: "Мультикрафт", icon: "☰", permission: "feature.craft_bulk" },
     { to: "/craft/bulk?tab=warehouse", label: "Склад", icon: "▦", permission: "feature.craft_warehouse" },
   ],
-  isActive: (pathname) => pathname.startsWith("/craft"),
+  isActive: (pathname) => pathname === "/craft" || pathname.startsWith("/craft/"),
 };
 
 const adminGroup: NavGroup = {

@@ -10,6 +10,7 @@ from sqlalchemy.orm import Session
 from models.analytics import AnalyticsDataset
 from models.craft import CraftItem, CraftRecipe
 from models.item_encyclopedia import ItemEncyclopedia
+from calculations.npc_prices import compute_npc_buy
 from services.encyclopedia_lib import sanitize_item_payload
 from services.normalizers.craft import CATALOG_META_KEY
 from services.normalizers.items_encyclopedia import ENCYCLOPEDIA_META_KEY
@@ -40,6 +41,7 @@ def _light_item(row: ItemEncyclopedia) -> dict:
         "icon": row.icon,
         "slug": payload.get("slug"),
         "npc_sell": payload.get("npc_sell"),
+        "npc_buy": payload.get("npc_buy"),
         "category": payload.get("category"),
         "set_name": payload.get("set_name"),
         "stats": stats,
@@ -60,6 +62,9 @@ def _craft_item_json(item: CraftItem, *, icon: str | None = None) -> dict:
         "category": item.category,
         "set_name": item.set_name,
         "npc_sell": item.npc_sell,
+        "npc_buy": item.npc_buy
+        if item.npc_buy is not None
+        else compute_npc_buy(item.npc_sell, item.grade, item.category),
         "url": item.url,
         "is_recipe_scroll": item.is_recipe_scroll,
         "stats": item.stats,

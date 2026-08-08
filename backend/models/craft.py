@@ -17,6 +17,7 @@ class CraftItem(Base):
     category: Mapped[str] = mapped_column(String(96), nullable=False, default="", index=True)
     set_name: Mapped[str | None] = mapped_column(String(255), nullable=True, index=True)
     npc_sell: Mapped[int | None] = mapped_column(Integer, nullable=True)
+    npc_buy: Mapped[int | None] = mapped_column(Integer, nullable=True)
     url: Mapped[str] = mapped_column(Text, nullable=False, default="")
     is_recipe_scroll: Mapped[bool] = mapped_column(Boolean, nullable=False, default=False)
     description: Mapped[str | None] = mapped_column(Text, nullable=True)

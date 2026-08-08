@@ -497,3 +497,49 @@ def build_items_overview(db: Session, from_date: datetime, to_date: datetime, li
             }
         )
     return items
+
+
+def batch_period_prices(
+    db: Session,
+    external_ids: list[int],
+    start: datetime,
+    end: datetime,
+) -> dict[int, dict[str, float | None]]:
+    """Average and last trade price per wiki item external_id within [start, end]."""
+    if not external_ids:
+        return {}
+
+    entities = db.scalars(
+        select(WikiEntity).where(
+            WikiEntity.entity_type == "item",
+            WikiEntity.external_id.in_(external_ids),
+        )
+    ).all()
+    entity_to_ext = {
+        entity.id: entity.external_id for entity in entities if entity.external_id is not None
+    }
+
+    records_by_entity: dict[uuid.UUID, list[MarketRecord]] = defaultdict(list)
+    if entity_to_ext:
+        records = db.scalars(
+            select(MarketRecord)
+            .where(MarketRecord.entity_id.in_(entity_to_ext.keys()))
+            .where(MarketRecord.recorded_at >= start)
+            .where(MarketRecord.recorded_at <= end)
+            .order_by(MarketRecord.recorded_at)
+        ).all()
+        for record in records:
+            if record.entity_id is not None:
+                records_by_entity[record.entity_id].append(record)
+
+    out: dict[int, dict[str, float | None]] = {
+        ext_id: {"avg_price": None, "last_price": None} for ext_id in external_ids
+    }
+    for entity_id, ext_id in entity_to_ext.items():
+        rows = records_by_entity.get(entity_id, [])
+        if not rows:
+            continue
+        prices = [float(row.price) for row in rows]
+        out[ext_id]["avg_price"] = round(sum(prices) / len(prices), 2)
+        out[ext_id]["last_price"] = float(rows[-1].price)
+    return out

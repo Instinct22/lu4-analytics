@@ -15,6 +15,7 @@ export interface CatalogItem {
   category: string;
   set_name: string | null;
   npc_sell: number | null;
+  npc_buy?: number | null;
   url: string;
   is_recipe_scroll: boolean;
   icon?: string;
@@ -83,6 +84,7 @@ export interface PriceInfo {
   avg_price: number | null;
   last_price: number | null;
   npc_sell: number | null;
+  npc_buy?: number | null;
 }
 
 export interface CalcNode {

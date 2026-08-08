@@ -2,9 +2,14 @@
 
 from __future__ import annotations
 
+import uuid
+from datetime import datetime, timedelta, timezone
 from types import SimpleNamespace
+from unittest.mock import MagicMock
 
+from api.deps import get_current_user, hash_password
 from models.craft import CraftItem, CraftMaterialSource, CraftRecipe, CraftRecipeMaterial
+from models.user import User
 from services.normalizers.craft import (
     CATALOG_META_KEY,
     RESOURCES_META_KEY,
@@ -389,6 +394,75 @@ def test_npc_materials_endpoint_names_materials(client, mock_db):
 def test_profitability_requires_price_permission(client, mock_db, test_user):
     test_user.role = "driver"
     assert client.get("/api/craft/profitability").status_code == 403
+
+
+def test_profitability_grade_filter(client, mock_db, test_user):
+    from main import app
+
+    plain_user = User(
+        id=uuid.uuid4(),
+        username="member",
+        password_hash=hash_password("secret"),
+        role="user",
+        is_active=True,
+        created_at=datetime.now(timezone.utc),
+    )
+    app.dependency_overrides[get_current_user] = lambda: plain_user
+
+    recipe = SimpleNamespace(id=1, product_external_id=100, variant_index=0, yield_amount=1)
+    item_d = SimpleNamespace(
+        external_id=100,
+        name="D Sword",
+        grade="D",
+        category="weapons/sword",
+        npc_sell=1000,
+    )
+    item_c = SimpleNamespace(
+        external_id=200,
+        name="C Sword",
+        grade="C",
+        category="weapons/sword",
+        npc_sell=2000,
+    )
+
+    def execute_side(_stmt):
+        return SimpleNamespace(all=lambda: [(recipe, item_d)])
+
+    mock_db.execute.side_effect = execute_side
+    mock_db.scalars.side_effect = lambda _stmt: SimpleNamespace(all=lambda: [])
+
+    r = client.get("/api/craft/profitability", params={"grades": "D"})
+    assert r.status_code == 200
+    body = r.json()
+    assert "recipes" in body
+    assert body["period"] == "1d"
+
+    app.dependency_overrides[get_current_user] = lambda: test_user
+
+
+def test_batch_period_prices_avg_and_last():
+    from calculations.trading_analytics import batch_period_prices
+    from uuid import uuid4
+
+    entity_id = uuid4()
+    ext_id = 57
+    entity = SimpleNamespace(id=entity_id, external_id=ext_id, entity_type="item")
+    now = datetime.now(timezone.utc)
+    records = [
+        SimpleNamespace(entity_id=entity_id, price=100, recorded_at=now - timedelta(hours=2)),
+        SimpleNamespace(entity_id=entity_id, price=200, recorded_at=now - timedelta(hours=1)),
+    ]
+
+    db = MagicMock()
+    db.scalars.side_effect = [
+        SimpleNamespace(all=lambda: [entity]),
+        SimpleNamespace(all=lambda: records),
+    ]
+
+    start = now - timedelta(hours=3)
+    result = batch_period_prices(db, [ext_id], start, now)
+    assert result[ext_id]["avg_price"] == 150.0
+    assert result[ext_id]["last_price"] == 200.0
 
 
 def test_resources_require_nav_permission(client, mock_db, test_user):

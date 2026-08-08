@@ -174,6 +174,7 @@ function catalogItemFromEntry(entry: ItemCatalogEntry, catalog: CraftCatalog): C
     category: entry.category || "",
     set_name: entry.set_name ?? null,
     npc_sell: entry.npc_sell ?? null,
+    npc_buy: entry.npc_buy ?? null,
     url: "",
     is_recipe_scroll: false,
     icon: entry.icon ?? undefined,

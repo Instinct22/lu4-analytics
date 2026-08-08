@@ -126,6 +126,14 @@ def build_catalog(wiki_root: Path = WIKI) -> dict:
     enrich_set_meta(payload["setMeta"], items, wiki_root, set_pages, craftable_ids)
     apply_set_names(items, payload["sets"])
     apply_categories(payload)
+    try:
+        from npc_prices import apply_npc_buy_to_item
+
+        for item in payload["items"].values():
+            if isinstance(item, dict):
+                apply_npc_buy_to_item(item)
+    except ImportError:
+        pass
     return payload
 
 

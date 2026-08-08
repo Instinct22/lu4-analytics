@@ -108,12 +108,16 @@ export default function App() {
                 }
               />
               <Route
-                path="/statistics/craft-profitability"
+                path="/craft-profitability"
                 element={
                   <RequirePermission permission="feature.craft_prices">
                     <CraftProfitabilityPage />
                   </RequirePermission>
                 }
+              />
+              <Route
+                path="/statistics/craft-profitability"
+                element={<Navigate to="/craft-profitability" replace />}
               />
               <Route
                 path="/search"

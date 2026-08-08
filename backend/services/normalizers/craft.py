@@ -13,6 +13,7 @@ from typing import Any, Iterator
 from sqlalchemy import delete
 from sqlalchemy.orm import Session
 
+from calculations.npc_prices import compute_npc_buy
 from models.craft import CraftItem, CraftMaterialSource, CraftRecipe, CraftRecipeMaterial
 from services.dataset_import import upsert_blob
 
@@ -57,6 +58,12 @@ def normalize_craft_catalog(db: Session, payload: Any) -> None:
                 category=item.get("category") or "",
                 set_name=item.get("set_name"),
                 npc_sell=item.get("npc_sell"),
+                npc_buy=item.get("npc_buy")
+                or compute_npc_buy(
+                    item.get("npc_sell"),
+                    item.get("grade") or "",
+                    item.get("category") or "",
+                ),
                 url=item.get("url") or "",
                 is_recipe_scroll=bool(item.get("is_recipe_scroll")),
                 description=item.get("description"),

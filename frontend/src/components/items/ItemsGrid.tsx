@@ -66,6 +66,11 @@ export default function ItemsGrid({ items, selectedId, craftableIds, onSelect, c
                 {it.npc_sell != null && (
                   <span className="tabular-nums text-amber-500/80">{formatNpcPrice(it.npc_sell)}</span>
                 )}
+                {it.npc_buy != null && (
+                  <span className="tabular-nums text-sky-400/80" title="Покупка у NPC">
+                    {formatNpcPrice(it.npc_buy)}
+                  </span>
+                )}
               </div>
             </div>
           </button>

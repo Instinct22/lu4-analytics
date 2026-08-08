@@ -135,7 +135,16 @@ def normalize_item(item: dict[str, Any]) -> dict[str, Any]:
             if isinstance(variant, dict):
                 variant.pop("url", None)
 
+    _apply_npc_buy_fields(out)
     return out
+
+
+def _apply_npc_buy_fields(item: dict[str, Any]) -> None:
+    try:
+        from npc_prices import apply_npc_buy_to_item
+    except ImportError:
+        return
+    apply_npc_buy_to_item(item)
 
 
 def build_craft_bundle(payload: dict[str, Any]) -> dict[str, Any]:
@@ -189,6 +198,7 @@ def build_craft_bundle(payload: dict[str, Any]) -> dict[str, Any]:
             "category": item.get("category"),
             "set_name": item.get("set_name"),
             "npc_sell": item.get("npc_sell"),
+            "npc_buy": item.get("npc_buy"),
             "is_recipe_scroll": item.get("is_recipe_scroll"),
             "description": item.get("description") or item.get("effects"),
             "stats": item.get("stats"),
@@ -295,6 +305,10 @@ def finalize_payload(payload: dict[str, Any], *, craft_catalog: dict | None = No
             ci = catalog_items.get(str(iid)) or catalog_items.get(iid)
             if isinstance(ci, dict) and ci.get("category"):
                 item["category"] = ci["category"]
+
+    for item in items_out.values():
+        if isinstance(item, dict):
+            _apply_npc_buy_fields(item)
 
     counts = {"gear": 0, "other": 0, "excluded": 0}
     for item in items_out.values():

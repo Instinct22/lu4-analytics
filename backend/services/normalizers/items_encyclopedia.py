@@ -22,6 +22,7 @@ from services.import_service import rematch_market_records
 from services.name_matching import clean_display_name, normalize_product_name
 from services.normalizers.craft import CATALOG_META_KEY, _npc_level
 from calculations.price_stats import recalculate_item_statistics
+from calculations.npc_prices import compute_npc_buy
 
 ENCYCLOPEDIA_META_KEY = "items_encyclopedia_meta"
 _NPC_LEVEL_RE = re.compile(r"Lv\.\s*(\d+)", re.IGNORECASE)
@@ -235,6 +236,13 @@ def _import_craft_from_encyclopedia(db: Session, payload: dict[str, Any]) -> Non
         if iid not in referenced:
             continue
         clean = sanitize_item_payload(item)
+        npc_buy = clean.get("npc_buy")
+        if npc_buy is None:
+            npc_buy = compute_npc_buy(
+                clean.get("npc_sell"),
+                clean.get("grade") or "",
+                clean.get("category") or "",
+            )
         db.add(
             CraftItem(
                 external_id=iid,
@@ -244,6 +252,7 @@ def _import_craft_from_encyclopedia(db: Session, payload: dict[str, Any]) -> Non
                 category=clean.get("category") or "",
                 set_name=clean.get("set_name"),
                 npc_sell=clean.get("npc_sell"),
+                npc_buy=npc_buy,
                 url="",
                 is_recipe_scroll=bool(clean.get("is_recipe_scroll")),
                 description=clean.get("description") or clean.get("effects"),

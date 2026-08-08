@@ -32,6 +32,7 @@ export interface ItemEncyclopediaEntry {
   url?: string;
   slug?: string;
   npc_sell?: number | null;
+  npc_buy?: number | null;
   category?: string;
   set_name?: string | null;
   stats?: Record<string, number>;
@@ -105,6 +106,7 @@ export interface ItemCatalogEntry {
   icon?: string | null;
   url?: string;
   npc_sell?: number | null;
+  npc_buy?: number | null;
   category?: string;
   set_name?: string | null;
   stats?: Record<string, number>;

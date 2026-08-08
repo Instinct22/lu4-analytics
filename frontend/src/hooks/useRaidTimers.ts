@@ -31,6 +31,7 @@ export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean, canView = t
     queryFn: getRaidNotes,
     refetchInterval: 30_000,
     enabled: canView,
+    placeholderData: (prev) => prev,
   });
 
   useEffect(() => {
@@ -117,6 +118,14 @@ export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean, canView = t
     })();
   }, [canWrite, isSuccess, timers, invalidate]);
 
+  const clearNote = useCallback(
+    (bossId: number) => {
+      if (!canWrite) return;
+      noteMutation.mutate({ bossId, note: "" });
+    },
+    [canWrite, noteMutation],
+  );
+
   const startFromInput = useCallback(
     (bossId: number, hhmm: string) => {
       const boss = bossById.get(bossId);
@@ -124,9 +133,10 @@ export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean, canView = t
       const killed = parseKillTimeInput(hhmm);
       if (!killed) return false;
       saveMutation.mutate({ bossId, killedAt: killed });
+      clearNote(bossId);
       return true;
     },
-    [bossById, saveMutation],
+    [bossById, saveMutation, clearNote],
   );
 
   const startAuto = useCallback(
@@ -134,16 +144,18 @@ export function useRaidTimers(bosses: RaidBoss[], canWrite: boolean, canView = t
       const boss = bossById.get(bossId);
       if (!boss || !bossRespawn(boss)) return false;
       saveMutation.mutate({ bossId, killedAt: new Date() });
+      clearNote(bossId);
       return true;
     },
-    [bossById, saveMutation],
+    [bossById, saveMutation, clearNote],
   );
 
   const clearTimer = useCallback(
     (bossId: number) => {
       clearMutation.mutate(bossId);
+      clearNote(bossId);
     },
-    [clearMutation],
+    [clearMutation, clearNote],
   );
 
   const saveNote = useCallback(

@@ -17,6 +17,7 @@ from calculations.craft_monitor import (
     latest_lots_per_seller,
 )
 from calculations.market_timeline import INTERVAL_SECONDS, build_market_timeline
+from calculations.npc_prices import compute_npc_buy
 from calculations.top_offers import build_top_offers
 from calculations.trading_analytics import (
     apply_variant_filters,
@@ -31,6 +32,7 @@ from calculations.trading_analytics import (
 )
 from core.errors import AppError
 from models.analytics import ItemStatistics
+from models.craft import CraftItem
 from models.market import MarketRecord, Seller
 from models.wiki import WikiEntity
 from services.import_service import _pick_canonical_entity
@@ -243,21 +245,49 @@ def prices_by_ids(db: Session, ids: str) -> dict[str, dict]:
             if record.entity_id is not None:
                 records_by_entity[record.entity_id].append(record)
 
-    empty = {"day_vwap": None, "avg_price": None, "last_price": None, "npc_sell": None}
+    craft_rows = (
+        db.scalars(select(CraftItem).where(CraftItem.external_id.in_(id_list))).all()
+        if id_list
+        else []
+    )
+    craft_by_ext = {row.external_id: row for row in craft_rows}
+
+    empty = {
+        "day_vwap": None,
+        "avg_price": None,
+        "last_price": None,
+        "npc_sell": None,
+        "npc_buy": None,
+    }
     result: dict[str, dict] = {}
     for ext_id in id_list:
         entity = entity_by_ext.get(ext_id)
+        craft_item = craft_by_ext.get(ext_id)
         if not entity:
             result[str(ext_id)] = dict(empty)
             continue
         st = stats_by_entity.get(entity.id)
         day_agg = aggregate_lots(latest_lots_per_seller(records_by_entity.get(entity.id, [])))
         day_vwap = day_agg["vwap"]
+        npc_sell = _parse_npc_sell(entity.stats)
+        if npc_sell is None and craft_item and craft_item.npc_sell is not None:
+            npc_sell = float(craft_item.npc_sell)
+        npc_buy = None
+        if craft_item:
+            buy_val = craft_item.npc_buy
+            if buy_val is None:
+                buy_val = compute_npc_buy(
+                    craft_item.npc_sell,
+                    craft_item.grade,
+                    craft_item.category,
+                )
+            npc_buy = float(buy_val) if buy_val is not None else None
         result[str(ext_id)] = {
             "day_vwap": float(day_vwap) if day_vwap is not None else None,
             "avg_price": float(st.avg_price) if st and st.avg_price is not None else None,
             "last_price": float(st.last_price) if st and st.last_price is not None else None,
-            "npc_sell": _parse_npc_sell(entity.stats),
+            "npc_sell": npc_sell,
+            "npc_buy": npc_buy,
         }
     return result
 

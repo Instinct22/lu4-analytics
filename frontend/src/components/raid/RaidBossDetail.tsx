@@ -79,12 +79,18 @@ export default function RaidBossDetail({
   const [clearConfirmOpen, setClearConfirmOpen] = useState(false);
   const [noteInput, setNoteInput] = useState(note);
   const noteSaveTimer = useRef<number | null>(null);
+  const pendingNoteRef = useRef<string | null>(null);
 
   useEffect(() => {
     setTimeInput(formatHm(new Date()));
     setInputError("");
     setNoteInput(note);
-  }, [boss.id, note]);
+    pendingNoteRef.current = null;
+    if (noteSaveTimer.current != null) {
+      window.clearTimeout(noteSaveTimer.current);
+      noteSaveTimer.current = null;
+    }
+  }, [boss.id]);
 
   useEffect(
     () => () => {
@@ -93,17 +99,39 @@ export default function RaidBossDetail({
     [],
   );
 
+  const cancelPendingNoteSave = () => {
+    if (noteSaveTimer.current != null) {
+      window.clearTimeout(noteSaveTimer.current);
+      noteSaveTimer.current = null;
+    }
+    pendingNoteRef.current = null;
+  };
+
   const queueNoteSave = (value: string) => {
     if (!canWrite) return;
+    pendingNoteRef.current = value;
     if (noteSaveTimer.current != null) window.clearTimeout(noteSaveTimer.current);
     noteSaveTimer.current = window.setTimeout(() => {
-      onNoteChange(value);
+      noteSaveTimer.current = null;
+      if (pendingNoteRef.current === null) return;
+      onNoteChange(pendingNoteRef.current);
+      pendingNoteRef.current = null;
     }, NOTE_DEBOUNCE_MS);
   };
 
   const handleStart = () => {
+    cancelPendingNoteSave();
     const ok = onStart(timeInput);
+    if (ok) setNoteInput("");
     setInputError(ok ? "" : "Введите время в формате HH:MM");
+  };
+
+  const handleAuto = () => {
+    cancelPendingNoteSave();
+    const ok = onAuto();
+    if (ok) setNoteInput("");
+    setTimeInput(formatHm(new Date()));
+    setInputError("");
   };
 
   const bossImage = raidBossImageUrl(boss.image);
@@ -205,11 +233,7 @@ export default function RaidBossDetail({
               <button
                 type="button"
                 className="btn-ghost !px-3 !py-1.5 text-xs"
-                onClick={() => {
-                  onAuto();
-                  setTimeInput(formatHm(new Date()));
-                  setInputError("");
-                }}
+                onClick={handleAuto}
                 title="Записать текущее время и начать отсчёт от мин. респа"
               >
                 Авто
@@ -379,7 +403,9 @@ export default function RaidBossDetail({
       confirmLabel="Сбросить"
       tone="danger"
       onConfirm={() => {
+        cancelPendingNoteSave();
         onClear();
+        setNoteInput("");
         setClearConfirmOpen(false);
       }}
       onCancel={() => setClearConfirmOpen(false)}
