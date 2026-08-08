@@ -162,6 +162,7 @@ export default function RaidBossesPage() {
           active={bannerGroups.active}
           waiting={bannerGroups.waiting}
           overdue={bannerGroups.overdue}
+          notesByBossId={notesByBossId}
           onSelect={selectBoss}
           canClear={canWrite}
           onClear={clearTimer}
