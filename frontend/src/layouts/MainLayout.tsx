@@ -28,9 +28,15 @@ const analyticsGroup: NavGroup = {
     { to: "/", label: "Dashboard", icon: "◈", permission: "nav.dashboard", end: true },
     { to: "/charts", label: "Графики", icon: "◉", permission: "nav.charts" },
     { to: "/statistics", label: "Статистика", icon: "▤", permission: "nav.statistics" },
+    {
+      to: "/statistics/craft-profitability",
+      label: "Прибыльность крафта",
+      icon: "₳",
+      permission: "feature.craft_prices",
+    },
   ],
   isActive: (pathname) =>
-    pathname === "/" || pathname === "/charts" || pathname === "/statistics",
+    pathname === "/" || pathname === "/charts" || pathname.startsWith("/statistics"),
 };
 
 const craftGroup: NavGroup = {

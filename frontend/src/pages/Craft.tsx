@@ -3,7 +3,6 @@ import { useSearchParams } from "react-router-dom";
 import CraftCalculator from "../components/craft/CraftCalculator";
 import CraftCartWidget from "../components/craft/CraftCartWidget";
 import CraftPicker from "../components/craft/CraftPicker";
-import CraftProfitability from "../components/craft/CraftProfitability";
 import { ErrorState, LoadingState, PageHeader } from "../components/ui";
 import { useCraftCatalog, useCraftProduct } from "../hooks/useCraftCatalog";
 import { isCraftable, itemInfo } from "../lib/craftCalc";
@@ -105,12 +104,6 @@ export default function CraftPage() {
           </div>
         ) : null}
       </div>
-
-      {selectedId == null && (
-        <div className="mt-5">
-          <CraftProfitability onSelect={select} />
-        </div>
-      )}
     </div>
   );
 }

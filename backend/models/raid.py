@@ -28,6 +28,26 @@ class RaidBoss(Base):
     )
 
 
+class RaidBossNote(Base):
+    """One shared comment per boss, independent of the kill timer."""
+
+    __tablename__ = "raid_boss_notes"
+
+    boss_external_id: Mapped[int] = mapped_column(
+        Integer,
+        ForeignKey("raid_bosses.external_id", ondelete="CASCADE"),
+        primary_key=True,
+        autoincrement=False,
+    )
+    note: Mapped[str | None] = mapped_column(Text, nullable=True)
+    updated_by_user_id: Mapped[uuid.UUID | None] = mapped_column(
+        UUID(as_uuid=True), ForeignKey("users.id", ondelete="SET NULL"), nullable=True
+    )
+    updated_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), server_default=func.now(), onupdate=func.now(), nullable=False
+    )
+
+
 class RaidBossTimer(Base):
     """One row per boss: kill times are shared by the whole server."""
 

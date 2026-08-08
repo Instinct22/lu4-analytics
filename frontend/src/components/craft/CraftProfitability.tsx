@@ -1,17 +1,15 @@
 import { useQuery } from "@tanstack/react-query";
+import { useNavigate } from "react-router-dom";
 import { getCraftProfitability } from "../../api/craft";
 import { ItemIcon } from "./CraftCostBar";
-
-interface Props {
-  onSelect: (productId: number) => void;
-}
 
 function money(value: number): string {
   return Math.round(value).toLocaleString("ru-RU");
 }
 
 /** Margins come from SQL over market statistics, not from the browser. */
-export default function CraftProfitability({ onSelect }: Props) {
+export default function CraftProfitability() {
+  const navigate = useNavigate();
   const { data, isLoading, isError } = useQuery({
     queryKey: ["craft", "profitability", 25],
     queryFn: () => getCraftProfitability(25),
@@ -56,7 +54,7 @@ export default function CraftProfitability({ onSelect }: Props) {
                       <ItemIcon id={row.product_id} size={28} />
                       <button
                         type="button"
-                        onClick={() => onSelect(row.product_id)}
+                        onClick={() => navigate(`/craft?id=${row.product_id}`)}
                         className="text-left font-medium text-sky-400 hover:underline"
                       >
                         {row.product_name}

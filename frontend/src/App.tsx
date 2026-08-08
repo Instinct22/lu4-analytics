@@ -13,6 +13,7 @@ const Dashboard = lazy(() => import("./pages/Dashboard"));
 const Charts = lazy(() => import("./pages/Charts"));
 const WikiArticle = lazy(() => import("./pages/WikiArticle"));
 const Statistics = lazy(() => import("./pages/Statistics"));
+const CraftProfitabilityPage = lazy(() => import("./pages/CraftProfitabilityPage"));
 const SearchPage = lazy(() => import("./pages/Search"));
 const CraftPage = lazy(() => import("./pages/Craft"));
 const CraftBulkPage = lazy(() => import("./pages/CraftBulk"));
@@ -103,6 +104,14 @@ export default function App() {
                 element={
                   <RequirePermission permission="nav.statistics">
                     <Statistics />
+                  </RequirePermission>
+                }
+              />
+              <Route
+                path="/statistics/craft-profitability"
+                element={
+                  <RequirePermission permission="feature.craft_prices">
+                    <CraftProfitabilityPage />
                   </RequirePermission>
                 }
               />

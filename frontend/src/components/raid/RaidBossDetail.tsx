@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { RaidBoss } from "../../lib/raidBosses";
 import { bossRespawn, formatHm, maskTimeInput } from "../../lib/raidTimers";
 import type { TimerSnapshot } from "../../lib/raidTimers";
@@ -45,34 +45,61 @@ function DropIcon({ itemId, icon, name }: { itemId?: number | null; icon?: strin
 type Props = {
   boss: RaidBoss;
   timer: TimerSnapshot | null;
+  note: string;
   canWrite: boolean;
+  canViewTimers?: boolean;
   canViewRoute?: boolean;
   onClose: () => void;
   onStart: (hhmm: string) => boolean;
   onAuto: () => boolean;
   onClear: () => void;
+  onNoteChange: (note: string) => void;
 };
+
+const NOTE_DEBOUNCE_MS = 400;
+const NOTE_MAX_LEN = 120;
 
 export default function RaidBossDetail({
   boss,
   timer,
+  note,
   canWrite,
+  canViewTimers = true,
   canViewRoute = true,
   onClose,
   onStart,
   onAuto,
   onClear,
+  onNoteChange,
 }: Props) {
   const s = boss.stats;
   const respawn = bossRespawn(boss);
   const [timeInput, setTimeInput] = useState(() => formatHm(new Date()));
   const [inputError, setInputError] = useState("");
   const [clearConfirmOpen, setClearConfirmOpen] = useState(false);
+  const [noteInput, setNoteInput] = useState(note);
+  const noteSaveTimer = useRef<number | null>(null);
 
   useEffect(() => {
     setTimeInput(formatHm(new Date()));
     setInputError("");
-  }, [boss.id]);
+    setNoteInput(note);
+  }, [boss.id, note]);
+
+  useEffect(
+    () => () => {
+      if (noteSaveTimer.current != null) window.clearTimeout(noteSaveTimer.current);
+    },
+    [],
+  );
+
+  const queueNoteSave = (value: string) => {
+    if (!canWrite) return;
+    if (noteSaveTimer.current != null) window.clearTimeout(noteSaveTimer.current);
+    noteSaveTimer.current = window.setTimeout(() => {
+      onNoteChange(value);
+    }, NOTE_DEBOUNCE_MS);
+  };
 
   const handleStart = () => {
     const ok = onStart(timeInput);
@@ -209,6 +236,37 @@ export default function RaidBossDetail({
             </p>
           )}
         </div>
+
+        {canViewTimers && (
+        <div className="mt-3 rounded-xl bg-zinc-950/50 p-3 ring-1 ring-zinc-800/80">
+          <p className="mb-2 text-[0.65rem] font-medium uppercase tracking-wider text-zinc-500">
+            Комментарий
+          </p>
+          {canWrite ? (
+            <input
+              className="input !py-2 text-base"
+              value={noteInput}
+              onChange={(e) => {
+                const value = e.target.value.slice(0, NOTE_MAX_LEN);
+                setNoteInput(value);
+                queueNoteSave(value);
+              }}
+              placeholder="Текст для списка боссов…"
+              maxLength={NOTE_MAX_LEN}
+              aria-label="Комментарий к боссу"
+            />
+          ) : noteInput ? (
+            <p className="text-base text-zinc-200">{noteInput}</p>
+          ) : (
+            <p className="text-xs text-zinc-500">Комментарий не задан.</p>
+          )}
+          {canWrite && (
+            <p className="mt-1.5 text-[0.65rem] text-zinc-600">
+              Общий для сервера · {noteInput.length}/{NOTE_MAX_LEN}
+            </p>
+          )}
+        </div>
+        )}
       </div>
 
       <div className="min-h-0 flex-1 space-y-5 overflow-y-auto overscroll-contain p-4">

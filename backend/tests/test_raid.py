@@ -184,3 +184,102 @@ def test_user_role_can_read_and_write_timers(client, mock_db):
     assert client.get("/api/raid/bosses").status_code == 200
     # Boss lookup fails, but the permission gate has already been passed.
     assert client.post("/api/raid/timers/1", json={}).status_code == 404
+
+
+def test_notes_endpoint_lists_rows(client, mock_db, test_user):
+    from main import app
+
+    plain_user = User(
+        id=uuid.uuid4(),
+        username="member",
+        password_hash=hash_password("secret"),
+        role="user",
+        is_active=True,
+        created_at=datetime.now(timezone.utc),
+    )
+    app.dependency_overrides[get_current_user] = lambda: plain_user
+
+    note = SimpleNamespace(boss_external_id=25372, note="farm tonight")
+    mock_db.scalars.side_effect = scalars_by_model({"RaidBossTimer": [], "RaidBossNote": [note]})
+    r = client.get("/api/raid/notes")
+    assert r.status_code == 200
+    assert r.json()["notes"] == [{"bossId": 25372, "note": "farm tonight"}]
+
+    app.dependency_overrides[get_current_user] = lambda: test_user
+
+
+def test_set_note_creates_and_clears(client, mock_db, test_user):
+    from main import app
+
+    plain_user = User(
+        id=uuid.uuid4(),
+        username="member",
+        password_hash=hash_password("secret"),
+        role="user",
+        is_active=True,
+        created_at=datetime.now(timezone.utc),
+    )
+    app.dependency_overrides[get_current_user] = lambda: plain_user
+
+    boss = SimpleNamespace(external_id=25372, name="Discarded Guardian")
+    stored = {"row": None}
+
+    def get_side(model, pk):
+        if model.__name__ == "RaidBoss":
+            return boss if pk == 25372 else None
+        if model.__name__ == "RaidBossNote":
+            return stored["row"]
+        return None
+
+    mock_db.get.side_effect = get_side
+
+    r = client.put("/api/raid/notes/25372", json={"note": "check window"})
+    assert r.status_code == 200
+    assert r.json() == {"bossId": 25372, "note": "check window"}
+    assert mock_db.add.called
+    assert mock_db.commit.called
+
+    stored["row"] = SimpleNamespace(boss_external_id=25372, note="check window")
+    r = client.put("/api/raid/notes/25372", json={"note": ""})
+    assert r.status_code == 200
+    assert r.json() == {"bossId": 25372, "note": ""}
+    assert mock_db.delete.called
+
+    app.dependency_overrides[get_current_user] = lambda: test_user
+
+
+def test_set_note_rejects_unknown_boss(client, mock_db, test_user):
+    from main import app
+
+    plain_user = User(
+        id=uuid.uuid4(),
+        username="member",
+        password_hash=hash_password("secret"),
+        role="user",
+        is_active=True,
+        created_at=datetime.now(timezone.utc),
+    )
+    app.dependency_overrides[get_current_user] = lambda: plain_user
+    mock_db.get.return_value = None
+    r = client.put("/api/raid/notes/1", json={"note": "x"})
+    assert r.status_code == 404
+
+    app.dependency_overrides[get_current_user] = lambda: test_user
+
+
+def test_driver_cannot_write_notes(client, test_user):
+    from main import app
+
+    driver = User(
+        id=uuid.uuid4(),
+        username="driver",
+        password_hash=hash_password("secret"),
+        role="driver",
+        is_active=True,
+        created_at=datetime.now(timezone.utc),
+    )
+    app.dependency_overrides[get_current_user] = lambda: driver
+
+    assert client.put("/api/raid/notes/1", json={"note": "x"}).status_code == 403
+
+    app.dependency_overrides[get_current_user] = lambda: test_user
