@@ -28,6 +28,7 @@ export type ProfitabilityRow = {
   revenue_npc: number | null;
   revenue_npc_buy: number | null;
   material_cost_avg: number | null;
+  material_cost_avg_incomplete?: boolean;
   material_cost_last: number | null;
   material_cost_npc: number | null;
   material_cost_npc_buy: number | null;

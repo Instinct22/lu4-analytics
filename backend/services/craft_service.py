@@ -388,13 +388,27 @@ def _material_cost(
     materials: list[tuple[int, int]],
     prices: dict[int, dict[str, float | None]],
     basis: str,
-) -> float | None:
+) -> tuple[float, bool]:
+    """Sum material prices; second value is True when any ingredient lacks a price."""
     total = 0.0
+    incomplete = False
     for material_id, amount in materials:
         value = prices.get(material_id, {}).get(basis)
         if value is None:
-            return None
+            incomplete = True
+            continue
         total += value * amount
+    return total, incomplete
+
+
+def _material_cost_strict(
+    materials: list[tuple[int, int]],
+    prices: dict[int, dict[str, float | None]],
+    basis: str,
+) -> float | None:
+    total, incomplete = _material_cost(materials, prices, basis)
+    if incomplete:
+        return None
     return total
 
 
@@ -493,10 +507,14 @@ def profitability(
         )
 
         mat_prices = {mid: prices_for(mid) for mid, _ in mats}
-        cost_avg = _material_cost(mats, mat_prices, "avg") if mats else 0.0
-        cost_last = _material_cost(mats, mat_prices, "last") if mats else 0.0
-        cost_npc = _material_cost(mats, mat_prices, "npc") if mats else 0.0
-        cost_npc_buy = _material_cost(mats, mat_prices, "npc_buy") if mats else 0.0
+        if mats:
+            cost_avg, cost_avg_incomplete = _material_cost(mats, mat_prices, "avg")
+        else:
+            cost_avg, cost_avg_incomplete = 0.0, False
+        cost_last = _material_cost_strict(mats, mat_prices, "last") if mats else 0.0
+        cost_npc = _material_cost_strict(mats, mat_prices, "npc") if mats else 0.0
+        cost_npc_buy = _material_cost_strict(mats, mat_prices, "npc_buy") if mats else 0.0
+        cost_avg_strict = None if cost_avg_incomplete else cost_avg
 
         result.append(
             {
@@ -516,10 +534,11 @@ def profitability(
                 "revenue_npc": revenue_npc,
                 "revenue_npc_buy": revenue_npc_buy,
                 "material_cost_avg": cost_avg,
+                "material_cost_avg_incomplete": cost_avg_incomplete,
                 "material_cost_last": cost_last,
                 "material_cost_npc": cost_npc,
                 "material_cost_npc_buy": cost_npc_buy,
-                "margin_avg": _margin(revenue_avg, cost_avg),
+                "margin_avg": _margin(revenue_avg, cost_avg_strict),
                 "margin_last": _margin(revenue_last, cost_last),
                 "margin_npc": _margin(revenue_npc, cost_npc),
                 "margin_npc_buy": _margin(revenue_npc_buy, cost_npc_buy),

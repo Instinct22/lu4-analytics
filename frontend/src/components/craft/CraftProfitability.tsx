@@ -24,11 +24,6 @@ function money(value: number | null | undefined): string {
   return Math.round(value).toLocaleString("ru-RU");
 }
 
-function marginClass(value: number | null | undefined): string {
-  if (value == null) return "text-zinc-500";
-  return value >= 0 ? "text-emerald-400" : "text-rose-400";
-}
-
 function FilterChip({
   active,
   label,
@@ -67,14 +62,7 @@ type SortKey =
   | "revenue_last"
   | "revenue_npc"
   | "revenue_npc_buy"
-  | "material_cost_avg"
-  | "material_cost_last"
-  | "material_cost_npc"
-  | "material_cost_npc_buy"
-  | "margin_avg"
-  | "margin_last"
-  | "margin_npc"
-  | "margin_npc_buy";
+  | "material_cost_avg";
 
 const TEXT_SORT_KEYS = new Set<SortKey>(["product_name", "grade", "kind"]);
 
@@ -121,6 +109,7 @@ function SortableTh({
   sortOrder,
   onSort,
   align = "left",
+  highlight = false,
 }: {
   label: string;
   sortKey: SortKey;
@@ -128,16 +117,23 @@ function SortableTh({
   sortOrder: "asc" | "desc";
   onSort: (key: SortKey) => void;
   align?: "left" | "right";
+  highlight?: boolean;
 }) {
   const active = sortBy === sortKey;
   return (
-    <th className={`px-3 py-2 ${align === "right" ? "text-right" : "text-left"}`}>
+    <th
+      className={`px-3 py-2 ${align === "right" ? "text-right" : "text-left"} ${
+        highlight ? "bg-amber-500/10" : ""
+      }`}
+    >
       <button
         type="button"
         onClick={() => onSort(sortKey)}
-        className={`inline-flex max-w-full items-center gap-0.5 transition-colors hover:text-zinc-300 ${
-          align === "right" ? "ml-auto" : ""
-        } ${active ? "text-zinc-300" : ""}`}
+        className={`inline-flex max-w-full items-center gap-0.5 transition-colors ${
+          highlight ? "font-semibold text-amber-400 hover:text-amber-300" : "hover:text-zinc-300"
+        } ${align === "right" ? "ml-auto" : ""} ${active && !highlight ? "text-zinc-300" : ""} ${
+          active && highlight ? "text-amber-300" : ""
+        }`}
       >
         <span>{label}</span>
         {active && <span aria-hidden>{sortOrder === "asc" ? "↑" : "↓"}</span>}
@@ -231,7 +227,7 @@ export default function CraftProfitability() {
           <h3 className="text-lg font-semibold text-zinc-50">Прибыльность крафта</h3>
           <p className="mt-1 text-sm text-zinc-500">
             Предметы и крафтовые ресурсы. Цены за выбранный период по данным рынка; NPC sell — из
-            каталога.
+            каталога. Ингредиенты (ср.) — сумма средних цен прямых материалов рецепта.
           </p>
         </div>
 
@@ -284,7 +280,7 @@ export default function CraftProfitability() {
       ) : (
         <>
           <div className="list-scroll overflow-auto">
-            <table className="w-full min-w-[1280px] text-sm">
+            <table className="w-full min-w-[820px] text-sm">
             <thead className="sticky top-0 z-10 bg-zinc-950/95 text-left text-xs uppercase tracking-wider text-zinc-500 backdrop-blur-sm">
               <tr className="border-b border-zinc-800/80">
                 <SortableTh
@@ -341,68 +337,13 @@ export default function CraftProfitability() {
                   align="right"
                 />
                 <SortableTh
-                  label="Мат. ср."
+                  label="Ингредиенты (ср.)"
                   sortKey="material_cost_avg"
                   sortBy={sortBy}
                   sortOrder={sortOrder}
                   onSort={toggleSort}
                   align="right"
-                />
-                <SortableTh
-                  label="Мат. посл."
-                  sortKey="material_cost_last"
-                  sortBy={sortBy}
-                  sortOrder={sortOrder}
-                  onSort={toggleSort}
-                  align="right"
-                />
-                <SortableTh
-                  label="Мат. NPC"
-                  sortKey="material_cost_npc"
-                  sortBy={sortBy}
-                  sortOrder={sortOrder}
-                  onSort={toggleSort}
-                  align="right"
-                />
-                <SortableTh
-                  label="Мат. NPC buy"
-                  sortKey="material_cost_npc_buy"
-                  sortBy={sortBy}
-                  sortOrder={sortOrder}
-                  onSort={toggleSort}
-                  align="right"
-                />
-                <SortableTh
-                  label="Маржа ср."
-                  sortKey="margin_avg"
-                  sortBy={sortBy}
-                  sortOrder={sortOrder}
-                  onSort={toggleSort}
-                  align="right"
-                />
-                <SortableTh
-                  label="Маржа посл."
-                  sortKey="margin_last"
-                  sortBy={sortBy}
-                  sortOrder={sortOrder}
-                  onSort={toggleSort}
-                  align="right"
-                />
-                <SortableTh
-                  label="Маржа NPC sell"
-                  sortKey="margin_npc"
-                  sortBy={sortBy}
-                  sortOrder={sortOrder}
-                  onSort={toggleSort}
-                  align="right"
-                />
-                <SortableTh
-                  label="Маржа NPC buy"
-                  sortKey="margin_npc_buy"
-                  sortBy={sortBy}
-                  sortOrder={sortOrder}
-                  onSort={toggleSort}
-                  align="right"
+                  highlight
                 />
               </tr>
             </thead>
@@ -441,37 +382,19 @@ export default function CraftProfitability() {
                   <td className="px-3 py-2 text-right tabular-nums text-zinc-300">
                     {money(row.revenue_npc_buy)}
                   </td>
-                  <td className="px-3 py-2 text-right tabular-nums text-zinc-400">
+                  <td
+                    className={`px-3 py-2 text-right tabular-nums font-medium bg-amber-500/5 ${
+                      row.material_cost_avg_incomplete
+                        ? "text-amber-400"
+                        : "text-amber-300/90"
+                    }`}
+                    title={
+                      row.material_cost_avg_incomplete
+                        ? "Не у всех ингредиентов есть цена за период — показана частичная сумма"
+                        : undefined
+                    }
+                  >
                     {money(row.material_cost_avg)}
-                  </td>
-                  <td className="px-3 py-2 text-right tabular-nums text-zinc-400">
-                    {money(row.material_cost_last)}
-                  </td>
-                  <td className="px-3 py-2 text-right tabular-nums text-zinc-400">
-                    {money(row.material_cost_npc)}
-                  </td>
-                  <td className="px-3 py-2 text-right tabular-nums text-zinc-400">
-                    {money(row.material_cost_npc_buy)}
-                  </td>
-                  <td
-                    className={`px-3 py-2 text-right font-semibold tabular-nums ${marginClass(row.margin_avg)}`}
-                  >
-                    {money(row.margin_avg)}
-                  </td>
-                  <td
-                    className={`px-3 py-2 text-right font-semibold tabular-nums ${marginClass(row.margin_last)}`}
-                  >
-                    {money(row.margin_last)}
-                  </td>
-                  <td
-                    className={`px-3 py-2 text-right font-semibold tabular-nums ${marginClass(row.margin_npc)}`}
-                  >
-                    {money(row.margin_npc)}
-                  </td>
-                  <td
-                    className={`px-3 py-2 text-right font-semibold tabular-nums ${marginClass(row.margin_npc_buy)}`}
-                  >
-                    {money(row.margin_npc_buy)}
                   </td>
                 </tr>
               ))}
