@@ -30,7 +30,7 @@ def _lot(
     )
 
 
-def _setup_db(*, entities, stats=None, records=None):
+def _setup_db(*, entities, stats=None, records=None, craft_items=None):
     db = MagicMock()
     entities_result = MagicMock()
     entities_result.all.return_value = entities
@@ -38,7 +38,9 @@ def _setup_db(*, entities, stats=None, records=None):
     stats_result.all.return_value = stats or []
     records_result = MagicMock()
     records_result.all.return_value = records or []
-    db.scalars.side_effect = [entities_result, stats_result, records_result]
+    craft_result = MagicMock()
+    craft_result.all.return_value = craft_items or []
+    db.scalars.side_effect = [entities_result, stats_result, records_result, craft_result]
     return db
 
 
@@ -108,7 +110,29 @@ def test_prices_by_ids_ignores_lots_older_than_24h():
     assert result["1001"]["last_price"] == 60.0
     assert result["1001"]["npc_sell"] is None
     # Ensure cutoff used in query path (24h window)
-    assert db.scalars.call_count == 3
+    assert db.scalars.call_count == 4
+
+
+def test_prices_by_ids_gemstone_uses_static_price():
+    entity_id = uuid.uuid4()
+    now = datetime(2026, 8, 4, 12, 0, tzinfo=timezone.utc)
+    entity = SimpleNamespace(
+        id=entity_id,
+        external_id=2130,
+        entity_type="item",
+        stats={"NPC Sell Price": "500"},
+    )
+    db = _setup_db(entities=[entity], stats=[], records=[])
+
+    with patch("services.market_service.datetime") as mock_dt:
+        mock_dt.now.return_value = now
+        mock_dt.side_effect = lambda *a, **k: datetime(*a, **k)
+        result = prices_by_ids(db, "2130")
+
+    assert result["2130"]["day_vwap"] == 1200.0
+    assert result["2130"]["avg_price"] == 1200.0
+    assert result["2130"]["last_price"] == 1200.0
+    assert result["2130"]["npc_sell"] == 500.0
 
 
 def test_prices_by_ids_unknown_external_id():
@@ -125,6 +149,7 @@ def test_prices_by_ids_unknown_external_id():
         "avg_price": None,
         "last_price": None,
         "npc_sell": None,
+        "npc_buy": None,
     }
 
 

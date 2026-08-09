@@ -7,6 +7,7 @@ from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from calculations.npc_prices import compute_npc_buy
+from calculations.static_prices import resolve_avg_price
 from calculations.trading_analytics import batch_period_prices, resolve_time_range
 from models.analytics import AnalyticsDataset
 from models.craft import CraftItem, CraftMaterialSource, CraftRecipe, CraftRecipeMaterial
@@ -412,6 +413,29 @@ def _material_cost_strict(
     return total
 
 
+def _material_breakdown(
+    materials: list[tuple[int, int]],
+    prices: dict[int, dict[str, float | None]],
+    craft_by_ext: dict[int, CraftItem],
+    basis: str,
+) -> list[dict]:
+    lines: list[dict] = []
+    for material_id, amount in materials:
+        unit_price = prices.get(material_id, {}).get(basis)
+        craft_item = craft_by_ext.get(material_id)
+        line_total = unit_price * amount if unit_price is not None else None
+        lines.append(
+            {
+                "material_id": material_id,
+                "material_name": craft_item.name if craft_item else f"#{material_id}",
+                "amount": amount,
+                "unit_price": unit_price,
+                "line_total": line_total,
+            }
+        )
+    return lines
+
+
 def _margin(revenue: float | None, cost: float | None) -> float | None:
     if revenue is None or cost is None:
         return None
@@ -480,8 +504,9 @@ def profitability(
         market = period_prices.get(ext_id, {})
         craft_item = craft_by_ext.get(ext_id)
         npc = craft_item.npc_sell if craft_item else None
+        avg = resolve_avg_price(ext_id, market.get("avg_price"))
         return {
-            "avg": market.get("avg_price"),
+            "avg": avg,
             "last": market.get("last_price"),
             "npc": float(npc) if npc is not None else None,
             "npc_buy": _npc_buy_value(craft_item),
@@ -535,6 +560,9 @@ def profitability(
                 "revenue_npc_buy": revenue_npc_buy,
                 "material_cost_avg": cost_avg,
                 "material_cost_avg_incomplete": cost_avg_incomplete,
+                "material_ingredients": _material_breakdown(
+                    mats, mat_prices, craft_by_ext, "avg"
+                ),
                 "material_cost_last": cost_last,
                 "material_cost_npc": cost_npc,
                 "material_cost_npc_buy": cost_npc_buy,
@@ -542,6 +570,11 @@ def profitability(
                 "margin_last": _margin(revenue_last, cost_last),
                 "margin_npc": _margin(revenue_npc, cost_npc),
                 "margin_npc_buy": _margin(revenue_npc_buy, cost_npc_buy),
+                "margin_npc_buy_ingredients": (
+                    None
+                    if revenue_npc_buy is None or cost_avg == 0
+                    else revenue_npc_buy - cost_avg
+                ),
             }
         )
 

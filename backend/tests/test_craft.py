@@ -465,6 +465,63 @@ def test_batch_period_prices_avg_and_last():
     assert result[ext_id]["last_price"] == 200.0
 
 
+def test_material_breakdown_full_partial_and_empty():
+    from services.craft_service import _material_breakdown
+
+    stem = SimpleNamespace(name="Stem")
+    ore = SimpleNamespace(name="Iron Ore")
+    craft_by_ext = {1864: stem, 1869: ore}
+    prices = {
+        1864: {"avg": 10.0},
+        1869: {"avg": 25.0},
+    }
+    materials = [(1864, 2), (1869, 1)]
+
+    full = _material_breakdown(materials, prices, craft_by_ext, "avg")
+    assert full == [
+        {
+            "material_id": 1864,
+            "material_name": "Stem",
+            "amount": 2,
+            "unit_price": 10.0,
+            "line_total": 20.0,
+        },
+        {
+            "material_id": 1869,
+            "material_name": "Iron Ore",
+            "amount": 1,
+            "unit_price": 25.0,
+            "line_total": 25.0,
+        },
+    ]
+
+    partial_prices = {
+        1864: {"avg": 10.0},
+        1869: {"avg": None},
+    }
+    partial = _material_breakdown(materials, partial_prices, craft_by_ext, "avg")
+    assert partial[0]["line_total"] == 20.0
+    assert partial[1]["unit_price"] is None
+    assert partial[1]["line_total"] is None
+
+    assert _material_breakdown([], prices, craft_by_ext, "avg") == []
+
+
+def test_margin_npc_buy_ingredients_calculation():
+    def margin_npc_buy_ingredients(
+        revenue_npc_buy: float | None, cost_avg: float
+    ) -> float | None:
+        if revenue_npc_buy is None or cost_avg == 0:
+            return None
+        return revenue_npc_buy - cost_avg
+
+    assert margin_npc_buy_ingredients(1000, 700) == 300
+    assert margin_npc_buy_ingredients(500, 800) == -300
+    assert margin_npc_buy_ingredients(None, 700) is None
+    assert margin_npc_buy_ingredients(1000, 0) is None
+    assert margin_npc_buy_ingredients(1000, 400) == 600
+
+
 def test_resources_require_nav_permission(client, mock_db, test_user):
     test_user.role = "driver"
     assert client.get("/api/craft/resources").status_code == 403

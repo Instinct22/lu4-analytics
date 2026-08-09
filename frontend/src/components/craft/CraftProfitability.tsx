@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { useNavigate } from "react-router-dom";
-import { getCraftProfitability, type ProfitabilityRow } from "../../api/craft";
+import { getCraftProfitability, type MaterialIngredient, type ProfitabilityRow } from "../../api/craft";
 import PeriodSelector from "../trading/PeriodSelector";
 import { PeriodState } from "../trading/periodUtils";
 import { GradePill, ItemIcon } from "./CraftCostBar";
@@ -22,6 +22,30 @@ const defaultPeriod = (): PeriodState => ({ period: "1d", from: "", to: "" });
 function money(value: number | null | undefined): string {
   if (value == null) return "—";
   return Math.round(value).toLocaleString("ru-RU");
+}
+
+function marginClass(value: number | null | undefined): string {
+  if (value == null) return "text-zinc-500";
+  return value >= 0 ? "text-emerald-400 font-semibold" : "text-rose-400 font-semibold";
+}
+
+function marginPercent(
+  margin: number | null | undefined,
+  cost: number | null | undefined,
+): number | null {
+  if (margin == null || cost == null || cost === 0) return null;
+  return (margin / cost) * 100;
+}
+
+function formatMargin(
+  margin: number | null | undefined,
+  cost: number | null | undefined,
+): string {
+  if (margin == null || cost === 0) return "—";
+  const pct = marginPercent(margin, cost);
+  const base = money(margin);
+  if (pct == null) return base;
+  return `${base} (${Math.round(pct).toLocaleString("ru-RU")}%)`;
 }
 
 function FilterChip({
@@ -62,7 +86,8 @@ type SortKey =
   | "revenue_last"
   | "revenue_npc"
   | "revenue_npc_buy"
-  | "material_cost_avg";
+  | "material_cost_avg"
+  | "margin_npc_buy_ingredients";
 
 const TEXT_SORT_KEYS = new Set<SortKey>(["product_name", "grade", "kind"]);
 
@@ -100,6 +125,88 @@ function compareRows(a: ProfitabilityRow, b: ProfitabilityRow, key: SortKey, ord
     default:
       return compareNumeric(a[key], b[key], order);
   }
+}
+
+function IngredientCostCell({
+  total,
+  incomplete,
+  ingredients,
+}: {
+  total: number | null;
+  incomplete?: boolean;
+  ingredients?: MaterialIngredient[];
+}) {
+  const hasIngredients = (ingredients?.length ?? 0) > 0;
+  const valueClass = incomplete ? "text-amber-400" : "text-amber-300/90";
+
+  return (
+    <td className="relative px-3 py-2 text-right tabular-nums font-medium bg-amber-500/5">
+      <div
+        className={`group inline-block ${hasIngredients ? "cursor-help" : ""}`}
+        tabIndex={hasIngredients ? 0 : undefined}
+      >
+        <span className={valueClass}>{money(total)}</span>
+        {hasIngredients && (
+          <div className="pointer-events-none absolute right-0 top-full z-50 mt-1 hidden min-w-[16rem] group-hover:block group-focus-within:block">
+            <div className="overflow-hidden rounded-xl border border-zinc-700/80 bg-zinc-900 text-left shadow-xl ring-1 ring-zinc-800">
+              <table className="w-full text-xs normal-case">
+                <thead>
+                  <tr className="border-b border-zinc-800/80 text-[0.65rem] uppercase tracking-wider text-zinc-500">
+                    <th className="px-2.5 py-1.5 text-left font-medium">Ингредиент</th>
+                    <th className="px-2 py-1.5 text-right font-medium">Кол-во</th>
+                    <th className="px-2.5 py-1.5 text-right font-medium">Сумма</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {ingredients!.map((item) => {
+                    const missingPrice = item.unit_price == null;
+                    return (
+                      <tr
+                        key={item.material_id}
+                        className="border-t border-zinc-800/50 first:border-t-0"
+                      >
+                        <td className="px-2.5 py-1.5">
+                          <div
+                            className={`flex items-center gap-1.5 ${
+                              missingPrice ? "text-amber-400" : "text-zinc-200"
+                            }`}
+                          >
+                            <ItemIcon id={item.material_id} size={20} />
+                            <span className="max-w-[8rem] truncate" title={item.material_name}>
+                              {item.material_name}
+                            </span>
+                          </div>
+                        </td>
+                        <td
+                          className={`px-2 py-1.5 text-right tabular-nums ${
+                            missingPrice ? "text-amber-400" : "text-zinc-400"
+                          }`}
+                        >
+                          × {item.amount.toLocaleString("ru-RU")}
+                        </td>
+                        <td
+                          className={`px-2.5 py-1.5 text-right font-medium tabular-nums ${
+                            missingPrice ? "text-amber-400" : "text-zinc-200"
+                          }`}
+                        >
+                          {money(item.line_total)}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+              {incomplete && (
+                <p className="border-t border-zinc-800/80 px-2.5 py-1.5 text-[0.65rem] text-amber-400">
+                  Не у всех ингредиентов есть цена за период
+                </p>
+              )}
+            </div>
+          </div>
+        )}
+      </div>
+    </td>
+  );
 }
 
 function SortableTh({
@@ -280,7 +387,7 @@ export default function CraftProfitability() {
       ) : (
         <>
           <div className="list-scroll overflow-auto">
-            <table className="w-full min-w-[820px] text-sm">
+            <table className="w-full min-w-[920px] text-sm">
             <thead className="sticky top-0 z-10 bg-zinc-950/95 text-left text-xs uppercase tracking-wider text-zinc-500 backdrop-blur-sm">
               <tr className="border-b border-zinc-800/80">
                 <SortableTh
@@ -345,6 +452,14 @@ export default function CraftProfitability() {
                   align="right"
                   highlight
                 />
+                <SortableTh
+                  label="NPC buy − ингр."
+                  sortKey="margin_npc_buy_ingredients"
+                  sortBy={sortBy}
+                  sortOrder={sortOrder}
+                  onSort={toggleSort}
+                  align="right"
+                />
               </tr>
             </thead>
             <tbody>
@@ -382,19 +497,22 @@ export default function CraftProfitability() {
                   <td className="px-3 py-2 text-right tabular-nums text-zinc-300">
                     {money(row.revenue_npc_buy)}
                   </td>
+                  <IngredientCostCell
+                    total={row.material_cost_avg}
+                    incomplete={row.material_cost_avg_incomplete}
+                    ingredients={row.material_ingredients}
+                  />
                   <td
-                    className={`px-3 py-2 text-right tabular-nums font-medium bg-amber-500/5 ${
-                      row.material_cost_avg_incomplete
-                        ? "text-amber-400"
-                        : "text-amber-300/90"
-                    }`}
+                    className={`px-3 py-2 text-right tabular-nums ${marginClass(
+                      row.margin_npc_buy_ingredients,
+                    )}`}
                     title={
                       row.material_cost_avg_incomplete
-                        ? "Не у всех ингредиентов есть цена за период — показана частичная сумма"
+                        ? "Частичная маржа — не у всех ингредиентов есть цена за период"
                         : undefined
                     }
                   >
-                    {money(row.material_cost_avg)}
+                    {formatMargin(row.margin_npc_buy_ingredients, row.material_cost_avg)}
                   </td>
                 </tr>
               ))}

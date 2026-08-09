@@ -11,6 +11,14 @@ export type RecipeClosure = {
   items: Record<string, CatalogItem>;
 };
 
+export type MaterialIngredient = {
+  material_id: number;
+  material_name: string;
+  amount: number;
+  unit_price: number | null;
+  line_total: number | null;
+};
+
 export type ProfitabilityRow = {
   product_id: number;
   product_name: string;
@@ -29,6 +37,7 @@ export type ProfitabilityRow = {
   revenue_npc_buy: number | null;
   material_cost_avg: number | null;
   material_cost_avg_incomplete?: boolean;
+  material_ingredients?: MaterialIngredient[];
   material_cost_last: number | null;
   material_cost_npc: number | null;
   material_cost_npc_buy: number | null;
@@ -36,6 +45,7 @@ export type ProfitabilityRow = {
   margin_last: number | null;
   margin_npc: number | null;
   margin_npc_buy: number | null;
+  margin_npc_buy_ingredients: number | null;
 };
 
 export type CraftProfitabilityPayload = {

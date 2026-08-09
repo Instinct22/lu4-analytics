@@ -18,6 +18,7 @@ from calculations.craft_monitor import (
 )
 from calculations.market_timeline import INTERVAL_SECONDS, build_market_timeline
 from calculations.npc_prices import compute_npc_buy
+from calculations.static_prices import static_avg_price
 from calculations.top_offers import build_top_offers
 from calculations.trading_analytics import (
     apply_variant_filters,
@@ -282,10 +283,11 @@ def prices_by_ids(db: Session, ids: str) -> dict[str, dict]:
                     craft_item.category,
                 )
             npc_buy = float(buy_val) if buy_val is not None else None
+        static = static_avg_price(ext_id)
         result[str(ext_id)] = {
-            "day_vwap": float(day_vwap) if day_vwap is not None else None,
-            "avg_price": float(st.avg_price) if st and st.avg_price is not None else None,
-            "last_price": float(st.last_price) if st and st.last_price is not None else None,
+            "day_vwap": static if static is not None else (float(day_vwap) if day_vwap is not None else None),
+            "avg_price": static if static is not None else (float(st.avg_price) if st and st.avg_price is not None else None),
+            "last_price": static if static is not None else (float(st.last_price) if st and st.last_price is not None else None),
             "npc_sell": npc_sell,
             "npc_buy": npc_buy,
         }
