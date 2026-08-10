@@ -391,9 +391,26 @@ def test_npc_materials_endpoint_names_materials(client, mock_db):
     assert body["drops"] == []
 
 
-def test_profitability_requires_price_permission(client, mock_db, test_user):
+def test_profitability_requires_nav_permission(client, mock_db, test_user):
     test_user.role = "driver"
     assert client.get("/api/craft/profitability").status_code == 403
+
+
+def test_profitability_split_from_craft_prices(client, mock_db, test_user):
+    from main import app
+    from models.permissions import RolePermission
+
+    test_user.role = "driver"
+    mock_db.scalars.side_effect = scalars_by_model(
+        {
+            "RolePermission": [
+                RolePermission(role="driver", permission="feature.craft_prices", allowed=True),
+                RolePermission(role="driver", permission="nav.craft_profitability", allowed=False),
+            ],
+        }
+    )
+    assert client.get("/api/craft/profitability").status_code == 403
+    app.dependency_overrides[get_current_user] = lambda: test_user
 
 
 def test_profitability_grade_filter(client, mock_db, test_user):
@@ -449,8 +466,8 @@ def test_batch_period_prices_avg_and_last():
     entity = SimpleNamespace(id=entity_id, external_id=ext_id, entity_type="item")
     now = datetime.now(timezone.utc)
     records = [
-        SimpleNamespace(entity_id=entity_id, price=100, recorded_at=now - timedelta(hours=2)),
-        SimpleNamespace(entity_id=entity_id, price=200, recorded_at=now - timedelta(hours=1)),
+        SimpleNamespace(entity_id=entity_id, price=100, side="sell", recorded_at=now - timedelta(hours=2)),
+        SimpleNamespace(entity_id=entity_id, price=200, side="sell", recorded_at=now - timedelta(hours=1)),
     ]
 
     db = MagicMock()
@@ -463,6 +480,34 @@ def test_batch_period_prices_avg_and_last():
     result = batch_period_prices(db, [ext_id], start, now)
     assert result[ext_id]["avg_price"] == 150.0
     assert result[ext_id]["last_price"] == 200.0
+
+
+def test_batch_period_prices_excludes_outlier():
+    from calculations.trading_analytics import batch_period_prices
+    from uuid import uuid4
+
+    entity_id = uuid4()
+    ext_id = 57
+    entity = SimpleNamespace(id=entity_id, external_id=ext_id, entity_type="item")
+    now = datetime.now(timezone.utc)
+    records = [
+        SimpleNamespace(entity_id=entity_id, price=1000, side="sell", recorded_at=now - timedelta(hours=5)),
+        SimpleNamespace(entity_id=entity_id, price=1100, side="sell", recorded_at=now - timedelta(hours=4)),
+        SimpleNamespace(entity_id=entity_id, price=1050, side="sell", recorded_at=now - timedelta(hours=3)),
+        SimpleNamespace(entity_id=entity_id, price=1020, side="sell", recorded_at=now - timedelta(hours=2)),
+        SimpleNamespace(entity_id=entity_id, price=111111, side="sell", recorded_at=now - timedelta(hours=1)),
+    ]
+
+    db = MagicMock()
+    db.scalars.side_effect = [
+        SimpleNamespace(all=lambda: [entity]),
+        SimpleNamespace(all=lambda: records),
+    ]
+
+    start = now - timedelta(hours=6)
+    result = batch_period_prices(db, [ext_id], start, now)
+    assert result[ext_id]["avg_price"] == 1042.5
+    assert result[ext_id]["last_price"] == 1020.0
 
 
 def test_material_breakdown_full_partial_and_empty():

@@ -11,6 +11,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from calculations.trading_analytics import PERIOD_HOURS
+from calculations.price_outliers import without_outliers
 from models.market import MarketRecord
 from models.wiki import WikiEntity
 from services.admin_settings import get_craft_monitor
@@ -140,13 +141,15 @@ def build_craft_monitor_cards(
             )
             continue
 
-        records = list(
-            db.scalars(
-                select(MarketRecord)
-                .where(MarketRecord.entity_id == entity.id)
-                .where(MarketRecord.side == "sell")
-                .order_by(MarketRecord.recorded_at.desc())
-            ).all()
+        records = without_outliers(
+            list(
+                db.scalars(
+                    select(MarketRecord)
+                    .where(MarketRecord.entity_id == entity.id)
+                    .where(MarketRecord.side == "sell")
+                    .order_by(MarketRecord.recorded_at.desc())
+                ).all()
+            )
         )
 
         current = aggregate_lots(latest_lots_per_seller(records))

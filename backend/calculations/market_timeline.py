@@ -7,6 +7,7 @@ from decimal import Decimal
 from typing import Literal
 
 from core.currency import normalize_currency
+from calculations.price_outliers import remove_outliers
 
 IntervalKey = Literal["5s", "15s", "1m", "5m", "30m", "1h"]
 
@@ -18,25 +19,6 @@ INTERVAL_SECONDS: dict[IntervalKey, int] = {
     "30m": 1800,
     "1h": 3600,
 }
-
-
-def remove_outliers(values: list[float]) -> list[float]:
-    if len(values) < 4:
-        return values
-
-    sorted_vals = sorted(values)
-    q1_index = len(sorted_vals) // 4
-    q3_index = (3 * len(sorted_vals)) // 4
-    q1 = sorted_vals[q1_index]
-    q3 = sorted_vals[q3_index]
-    iqr = q3 - q1
-    if iqr == 0:
-        return values
-
-    lower = q1 - 1.5 * iqr
-    upper = q3 + 1.5 * iqr
-    filtered = [value for value in values if lower <= value <= upper]
-    return filtered or values
 
 
 def unit_price(record_price: Decimal, quantity: int | None) -> float:

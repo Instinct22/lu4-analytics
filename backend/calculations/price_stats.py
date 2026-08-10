@@ -7,6 +7,7 @@ from sqlalchemy.orm import Session
 from models.analytics import ItemStatistics
 from models.market import ImportLog, MarketRecord
 from models.wiki import WikiEntity
+from calculations.price_outliers import partition_market_records
 
 
 PERIODS = {
@@ -45,14 +46,19 @@ def recalculate_item_statistics(db: Session, entity_id) -> None:
             stats.computed_at = now
             continue
 
-        prices = [r.price for r in records]
+        clean_records, _ = partition_market_records(records)
+        if not clean_records:
+            clean_records = records
+        clean_records = sorted(clean_records, key=lambda r: r.recorded_at)
+
+        prices = [r.price for r in clean_records]
         stats.min_price = min(prices)
         stats.max_price = max(prices)
         stats.avg_price = sum(prices) / len(prices)
-        stats.seller_count = len({r.seller_id for r in records})
-        stats.last_price = records[-1].price
-        if len(records) >= 2 and records[0].price and records[0].price != 0:
-            change = ((records[-1].price - records[0].price) / records[0].price) * 100
+        stats.seller_count = len({r.seller_id for r in clean_records})
+        stats.last_price = clean_records[-1].price
+        if len(clean_records) >= 2 and clean_records[0].price and clean_records[0].price != 0:
+            change = ((clean_records[-1].price - clean_records[0].price) / clean_records[0].price) * 100
             stats.price_change_pct = Decimal(str(round(max(-999_999.99, min(999_999.99, float(change))), 2)))
         else:
             stats.price_change_pct = None

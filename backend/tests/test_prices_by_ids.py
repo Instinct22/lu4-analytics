@@ -80,6 +80,44 @@ def test_prices_by_ids_day_vwap_from_latest_sell_lots():
     assert result["57"]["npc_sell"] == 100.0
 
 
+def test_prices_by_ids_day_vwap_excludes_outlier_lot():
+    entity_id = uuid.uuid4()
+    sellers = [uuid.uuid4() for _ in range(6)]
+    now = datetime(2026, 8, 4, 12, 0, tzinfo=timezone.utc)
+    entity = SimpleNamespace(
+        id=entity_id,
+        external_id=57,
+        entity_type="item",
+        stats={"NPC Sell Price": "100"},
+    )
+    records = [
+        _lot(
+            entity_id=entity_id,
+            seller_id=sellers[i],
+            price=1000 + i * 10,
+            quantity=1,
+            recorded_at=now - timedelta(hours=1, minutes=i),
+        )
+        for i in range(5)
+    ] + [
+        _lot(
+            entity_id=entity_id,
+            seller_id=sellers[5],
+            price=111111,
+            quantity=1,
+            recorded_at=now - timedelta(minutes=10),
+        )
+    ]
+    db = _setup_db(entities=[entity], stats=[], records=records)
+
+    with patch("services.market_service.datetime") as mock_dt:
+        mock_dt.now.return_value = now
+        mock_dt.side_effect = lambda *a, **k: datetime(*a, **k)
+        result = prices_by_ids(db, "57")
+
+    assert result["57"]["day_vwap"] == 1020.0
+
+
 def test_prices_by_ids_ignores_lots_older_than_24h():
     entity_id = uuid.uuid4()
     s1 = uuid.uuid4()

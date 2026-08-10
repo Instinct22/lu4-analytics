@@ -32,7 +32,7 @@ const analyticsGroup: NavGroup = {
       to: "/craft-profitability",
       label: "Прибыльность крафта",
       icon: "₳",
-      permission: "feature.craft_prices",
+      permission: "nav.craft_profitability",
     },
   ],
   isActive: (pathname) =>

@@ -65,3 +65,20 @@ export function periodQueryParams(state: PeriodState): Record<string, string> {
   }
   return { period: "1d" };
 }
+
+/** Format for `<input type="datetime-local">`. */
+export function dateToDatetimeLocal(d: Date): string {
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+/** Custom period from a chart zoom selection. */
+export function zoomPeriod(from: Date, to: Date): PeriodState {
+  const start = from.getTime() <= to.getTime() ? from : to;
+  const end = from.getTime() <= to.getTime() ? to : from;
+  return {
+    period: "custom",
+    from: dateToDatetimeLocal(start),
+    to: dateToDatetimeLocal(end),
+  };
+}

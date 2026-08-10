@@ -32,7 +32,30 @@ export async function getMarketTimeline(params: {
 
 export async function getMarketChart(params: Record<string, unknown>) {
   const { data } = await api.get("/market/chart", { params });
-  return data;
+  return data as TradingChartResponse;
+}
+
+export interface ChartDealPoint {
+  recorded_at: string;
+  price: number | string;
+  quantity: number;
+  side: string | null;
+  seller_name: string;
+  total_cost: number | string;
+}
+
+export interface TradingChartResponse {
+  entity_id: string;
+  from_date: string;
+  to_date: string;
+  deals: ChartDealPoint[];
+  volume_buckets: Array<{
+    bucket_start: string;
+    buy_volume: number;
+    sell_volume: number;
+  }>;
+  excluded_outlier_count?: number;
+  outlier_deals?: ChartDealPoint[];
 }
 
 export async function getMarketAnalytics(params: Record<string, unknown>) {

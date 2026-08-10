@@ -76,6 +76,7 @@ export function defaultHomePath(permissions: string[] | undefined): string {
     ["nav.character", "/character"],
     ["nav.charts", "/charts"],
     ["nav.statistics", "/statistics"],
+    ["nav.craft_profitability", "/craft-profitability"],
     ["nav.resources", "/resources"],
     ["nav.quests", "/quests"],
     ["nav.search", "/search"],

@@ -217,6 +217,7 @@ export interface MarketRecordAdminItem {
   side: string | null;
   quantity: number | null;
   recorded_at: string;
+  is_outlier?: boolean;
 }
 
 export interface MarketRecordsResponse {
@@ -236,6 +237,7 @@ export interface MarketRecordsFilters {
   currency?: string;
   side?: string;
   quantity?: string;
+  outliers_only?: boolean;
 }
 
 export interface MarketRecordUpdateItem {
@@ -254,9 +256,14 @@ export async function listMarketRecords(
   limit = 50,
   filters: MarketRecordsFilters = {},
 ) {
-  const params: Record<string, string | number> = { page, limit };
+  const params: Record<string, string | number | boolean> = { page, limit };
   for (const [key, value] of Object.entries(filters)) {
-    if (value != null && String(value).trim() !== "") {
+    if (value == null) continue;
+    if (typeof value === "boolean") {
+      if (value) params[key] = true;
+      continue;
+    }
+    if (String(value).trim() !== "") {
       params[key] = String(value).trim();
     }
   }

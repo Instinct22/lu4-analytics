@@ -9,6 +9,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from calculations.craft_monitor import _decimal, _quantity, latest_lots_per_seller
+from calculations.price_outliers import without_outliers
 from core.currency import normalize_currency
 from models.market import MarketRecord, Seller
 
@@ -30,7 +31,7 @@ def build_top_offers(
     if to_date is not None:
         stmt = stmt.where(MarketRecord.recorded_at <= to_date)
     records = list(db.scalars(stmt.order_by(MarketRecord.recorded_at.desc())).all())
-    adena_records = [r for r in records if normalize_currency(r.currency) == "adena"]
+    adena_records = [r for r in without_outliers(records) if normalize_currency(r.currency) == "adena"]
 
     sell_lots = latest_lots_per_seller(adena_records, side="sell")
     buy_lots = latest_lots_per_seller(adena_records, side="buy")

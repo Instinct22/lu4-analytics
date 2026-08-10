@@ -3,13 +3,15 @@
 from __future__ import annotations
 
 import uuid
-from datetime import datetime
+from collections import defaultdict
+from datetime import datetime, timedelta, timezone
 from decimal import Decimal
 
 from fastapi import HTTPException, status
 from sqlalchemy import String, cast, func, or_, select
 from sqlalchemy.orm import Session
 
+from calculations.price_outliers import is_market_record_outlier, partition_market_records
 from core.currency import normalize_currency
 from models.market import MarketRecord, Seller
 from models.wiki import WikiEntity
@@ -113,6 +115,55 @@ def _apply_filters(
     return query, count_query
 
 
+OUTLIER_LOOKBACK_DAYS = 30
+
+
+def _collect_outlier_ids(db: Session) -> set[uuid.UUID]:
+    cutoff = datetime.now(timezone.utc) - timedelta(days=OUTLIER_LOOKBACK_DAYS)
+    records = db.scalars(
+        select(MarketRecord)
+        .where(MarketRecord.entity_id.is_not(None))
+        .where(MarketRecord.recorded_at >= cutoff)
+    ).all()
+
+    by_key: dict[tuple[uuid.UUID, str | None], list[MarketRecord]] = defaultdict(list)
+    for record in records:
+        by_key[(record.entity_id, record.side)].append(record)
+
+    outlier_ids: set[uuid.UUID] = set()
+    for group in by_key.values():
+        _, outliers = partition_market_records(group)
+        outlier_ids.update(record.id for record in outliers)
+    return outlier_ids
+
+
+def _batch_outlier_flags(db: Session, records: list[MarketRecord]) -> dict[uuid.UUID, bool]:
+    entity_ids = {record.entity_id for record in records if record.entity_id is not None}
+    if not entity_ids:
+        return {record.id: False for record in records}
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=OUTLIER_LOOKBACK_DAYS)
+    peers = db.scalars(
+        select(MarketRecord)
+        .where(MarketRecord.entity_id.in_(entity_ids))
+        .where(MarketRecord.recorded_at >= cutoff)
+    ).all()
+
+    peers_by_key: dict[tuple[uuid.UUID, str | None], list[MarketRecord]] = defaultdict(list)
+    for peer in peers:
+        if peer.entity_id is not None:
+            peers_by_key[(peer.entity_id, peer.side)].append(peer)
+
+    return {
+        record.id: (
+            is_market_record_outlier(record, peers_by_key.get((record.entity_id, record.side), []))
+            if record.entity_id is not None
+            else False
+        )
+        for record in records
+    }
+
+
 def list_market_records(
     db: Session,
     *,
@@ -127,7 +178,13 @@ def list_market_records(
     currency: str | None = None,
     side: str | None = None,
     quantity: str | None = None,
+    outliers_only: bool = False,
 ) -> MarketRecordsResponse:
+    if outliers_only:
+        outlier_ids = _collect_outlier_ids(db)
+        if not outlier_ids:
+            return MarketRecordsResponse(items=[], total=0, page=page, limit=limit)
+
     query = (
         select(MarketRecord, Seller.name, WikiEntity.display_name)
         .join(Seller, MarketRecord.seller_id == Seller.id)
@@ -139,6 +196,10 @@ def list_market_records(
         .join(Seller, MarketRecord.seller_id == Seller.id)
         .outerjoin(WikiEntity, MarketRecord.entity_id == WikiEntity.id)
     )
+
+    if outliers_only:
+        query = query.where(MarketRecord.id.in_(outlier_ids))
+        count_query = count_query.where(MarketRecord.id.in_(outlier_ids))
 
     query, count_query = _apply_filters(
         query,
@@ -161,6 +222,13 @@ def list_market_records(
         .limit(limit)
     ).all()
 
+    page_records = [record for record, _, _ in rows]
+    outlier_flags = (
+        {record.id: True for record in page_records}
+        if outliers_only
+        else _batch_outlier_flags(db, page_records)
+    )
+
     items = [
         MarketRecordAdminItem(
             id=record.id,
@@ -173,6 +241,7 @@ def list_market_records(
             side=record.side,
             quantity=record.quantity,
             recorded_at=record.recorded_at,
+            is_outlier=outlier_flags.get(record.id, False),
         )
         for record, seller_name, item_name in rows
     ]

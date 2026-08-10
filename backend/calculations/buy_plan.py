@@ -9,6 +9,7 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from calculations.craft_monitor import _decimal, _quantity, latest_lots_per_seller
+from calculations.price_outliers import without_outliers
 from models.market import MarketRecord, Seller
 
 
@@ -22,7 +23,7 @@ def build_buy_plan(db: Session, entity_id: uuid.UUID, quantity: int) -> dict:
             .order_by(MarketRecord.recorded_at.desc())
         ).all()
     )
-    lots = latest_lots_per_seller(records)
+    lots = latest_lots_per_seller(without_outliers(records))
     lots.sort(key=lambda r: (float(r.price), -_quantity(r)))
 
     seller_ids = {lot.seller_id for lot in lots}

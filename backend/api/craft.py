@@ -11,7 +11,7 @@ router = APIRouter()
 
 CatalogUser = Annotated[User, Depends(require_any_permission("nav.craft", "nav.items"))]
 ResourcesUser = Annotated[User, Depends(require_permission("nav.resources"))]
-PricesUser = Annotated[User, Depends(require_permission("feature.craft_prices"))]
+ProfitabilityUser = Annotated[User, Depends(require_permission("nav.craft_profitability"))]
 
 
 @router.get("/catalog")
@@ -56,7 +56,7 @@ def get_material_sources(material_id: int, db: DbSession, user: ResourcesUser):
 @router.get("/profitability")
 def get_profitability(
     db: DbSession,
-    user: PricesUser,
+    user: ProfitabilityUser,
     period: str = Query("1d"),
     from_date: datetime | None = Query(None, alias="from"),
     to_date: datetime | None = Query(None, alias="to"),

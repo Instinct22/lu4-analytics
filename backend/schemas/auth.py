@@ -201,6 +201,7 @@ class MarketRecordAdminItem(BaseModel):
     side: str | None = None
     quantity: int | None = None
     recorded_at: datetime
+    is_outlier: bool = False
 
 
 class MarketRecordsResponse(BaseModel):

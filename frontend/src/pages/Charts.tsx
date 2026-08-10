@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { useSearchParams } from "react-router-dom";
 import {
@@ -24,7 +24,7 @@ import OrderBook from "../components/trading/OrderBook";
 import { PeriodState } from "../components/trading/PeriodSelector";
 import TradeChart from "../components/trading/TradeChart";
 import TradesTable from "../components/trading/TradesTable";
-import { periodQueryParams } from "../components/trading/periodUtils";
+import { periodQueryParams, zoomPeriod } from "../components/trading/periodUtils";
 import { ErrorState, LoadingState, PageHeader } from "../components/ui";
 import { useChartHeight } from "../hooks/useMediaQuery";
 
@@ -56,8 +56,30 @@ export default function Charts() {
     enchantLevel: null,
   });
   const [period, setPeriod] = useState<PeriodState>(defaultPeriod);
+  const [zoomStack, setZoomStack] = useState<PeriodState[]>([]);
   const [openSections, setOpenSections] = useState(defaultOpen);
   const chartHeight = useChartHeight(420);
+
+  const handlePeriodChange = useCallback((next: PeriodState) => {
+    setZoomStack([]);
+    setPeriod(next);
+  }, []);
+
+  const handleChartZoom = useCallback(
+    (from: Date, to: Date) => {
+      setZoomStack((prev) => [...prev, period]);
+      setPeriod(zoomPeriod(from, to));
+    },
+    [period],
+  );
+
+  const handleZoomReset = useCallback(() => {
+    setZoomStack((prev) => {
+      if (!prev.length) return prev;
+      setPeriod(prev[prev.length - 1]);
+      return prev.slice(0, -1);
+    });
+  }, []);
 
   const paramExternalId = useMemo(() => {
     const raw = searchParams.get("external_id");
@@ -204,7 +226,7 @@ export default function Charts() {
         selectedId={entityId}
         onSelect={handleOverviewSelect}
         period={period}
-        onPeriodChange={setPeriod}
+        onPeriodChange={handlePeriodChange}
         open={openSections.craft}
         onToggle={() => toggleSection("craft")}
       />
@@ -223,7 +245,7 @@ export default function Charts() {
             open={openSections.analytics}
             onToggle={() => toggleSection("analytics")}
             period={period}
-            onPeriodChange={setPeriod}
+            onPeriodChange={handlePeriodChange}
           >
             <AnalyticsPanel data={analytics} />
           </ChartsSection>
@@ -233,7 +255,7 @@ export default function Charts() {
             open={openSections.chart}
             onToggle={() => toggleSection("chart")}
             period={period}
-            onPeriodChange={setPeriod}
+            onPeriodChange={handlePeriodChange}
           >
             {chartLoading ? (
               <LoadingState />
@@ -243,7 +265,11 @@ export default function Charts() {
               <TradeChart
                 deals={chartData?.deals ?? []}
                 volumeBuckets={chartData?.volume_buckets ?? []}
+                excludedOutlierCount={chartData?.excluded_outlier_count ?? 0}
+                outlierDeals={chartData?.outlier_deals ?? []}
                 height={chartHeight}
+                onZoomRange={handleChartZoom}
+                onZoomReset={zoomStack.length > 0 ? handleZoomReset : undefined}
               />
             )}
           </ChartsSection>
@@ -253,7 +279,7 @@ export default function Charts() {
             open={openSections.trades}
             onToggle={() => toggleSection("trades")}
             period={period}
-            onPeriodChange={setPeriod}
+            onPeriodChange={handlePeriodChange}
           >
             <div className="grid gap-6 xl:grid-cols-2">
               <TradesTable
@@ -286,7 +312,7 @@ export default function Charts() {
             open={openSections.orderBook}
             onToggle={() => toggleSection("orderBook")}
             period={period}
-            onPeriodChange={setPeriod}
+            onPeriodChange={handlePeriodChange}
           >
             <OrderBook
               buys={(orderBook?.buys ?? []).map((l: { price: number; volume: number }) => ({
@@ -305,7 +331,7 @@ export default function Charts() {
             open={openSections.lucky}
             onToggle={() => toggleSection("lucky")}
             period={period}
-            onPeriodChange={setPeriod}
+            onPeriodChange={handlePeriodChange}
           >
             <LuckyMoments events={luckyMoments?.events ?? []} />
           </ChartsSection>

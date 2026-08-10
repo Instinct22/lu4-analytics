@@ -11,6 +11,7 @@ interface TradeRow {
   quantity: number;
   price: number;
   total_cost: number;
+  is_outlier?: boolean;
   soul_crystal: string | null;
   rarity: string | null;
   armor_class: string | null;
@@ -38,7 +39,7 @@ const VISIBLE_ROWS = 12;
 
 /** Shared column track — header and every row must use the exact same template. */
 const COLS =
-  "grid-cols-[10rem_minmax(0,1fr)_4.75rem_5.25rem_6.5rem] min-[520px]:grid-cols-[10.5rem_minmax(0,1.2fr)_5rem_5.5rem_7rem]";
+  "grid-cols-[10rem_minmax(0,1fr)_4.75rem_8.5rem_7rem] min-[520px]:grid-cols-[10.5rem_minmax(0,1.2fr)_5rem_9rem_7rem]";
 
 function formatPrice(value: number): string {
   return Number(value).toLocaleString("ru-RU", { maximumFractionDigits: 2 });
@@ -184,11 +185,11 @@ export default function TradesTable({
       <div
         ref={scrollRef}
         onScroll={rows.length ? onScroll : undefined}
-        className="overflow-y-auto overflow-x-hidden rounded-xl border border-zinc-800/80 [scrollbar-gutter:stable]"
+        className="overflow-y-auto overflow-x-auto rounded-xl border border-zinc-800/80 [scrollbar-gutter:stable]"
         style={{ height: HEADER_HEIGHT + ROW_HEIGHT * VISIBLE_ROWS }}
       >
         <div
-          className={`sticky top-0 z-10 grid ${COLS} border-b border-zinc-800/80 bg-zinc-950`}
+          className={`sticky top-0 z-10 grid ${COLS} min-w-[34rem] border-b border-zinc-800/80 bg-zinc-950`}
           style={{ height: HEADER_HEIGHT }}
         >
           <button
@@ -233,7 +234,7 @@ export default function TradesTable({
               {rows.slice(virtualRows.start, virtualRows.end).map((row) => (
                 <div
                   key={row.id}
-                  className={`grid ${COLS} items-center border-b border-zinc-800/60 hover:bg-zinc-900/50`}
+                  className={`grid ${COLS} min-w-[34rem] items-center border-b border-zinc-800/60 hover:bg-zinc-900/50`}
                   style={{ height: ROW_HEIGHT }}
                 >
                   <div className="min-w-0 truncate px-2 text-sm tabular-nums text-zinc-400">
@@ -305,8 +306,16 @@ export default function TradesTable({
                   <div className="min-w-0 truncate px-2 text-right text-sm tabular-nums text-zinc-300">
                     {row.quantity.toLocaleString("ru-RU")}
                   </div>
-                  <div className="min-w-0 truncate px-2 text-right text-sm tabular-nums text-zinc-200">
-                    {formatPrice(row.price)}
+                  <div
+                    className="flex min-w-0 items-center justify-end gap-1.5 px-2 text-right text-sm tabular-nums text-zinc-200"
+                    title={formatPrice(row.price)}
+                  >
+                    <span className="shrink-0">{formatPrice(row.price)}</span>
+                    {row.is_outlier ? (
+                      <span className="shrink-0 rounded border border-amber-500/40 bg-amber-500/10 px-1 py-0.5 text-[0.6rem] font-medium uppercase leading-none tracking-wide text-amber-300">
+                        выброс
+                      </span>
+                    ) : null}
                   </div>
                   <div className="min-w-0 truncate px-2 text-right text-sm tabular-nums text-amber-400/90">
                     {formatPrice(row.total_cost)}

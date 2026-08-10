@@ -17,6 +17,7 @@ from calculations.craft_monitor import (
     latest_lots_per_seller,
 )
 from calculations.market_timeline import INTERVAL_SECONDS, build_market_timeline
+from calculations.price_outliers import outlier_ids, partition_market_records, without_outliers
 from calculations.npc_prices import compute_npc_buy
 from calculations.static_prices import static_avg_price
 from calculations.top_offers import build_top_offers
@@ -87,6 +88,13 @@ def get_item_or_404(db: Session, entity_id: uuid.UUID) -> WikiEntity:
     if entity is None:
         raise AppError("Item not found", code="not_found", status_code=404)
     return entity
+
+
+def _split_outliers(
+    records: list[MarketRecord],
+) -> tuple[list[MarketRecord], list[MarketRecord], int]:
+    clean, outliers = partition_market_records(records)
+    return clean, outliers, len(outliers)
 
 
 def _timeline_side_series(raw: dict[str, list[dict]]) -> MarketTimelineSideSeries:
@@ -268,7 +276,9 @@ def prices_by_ids(db: Session, ids: str) -> dict[str, dict]:
             result[str(ext_id)] = dict(empty)
             continue
         st = stats_by_entity.get(entity.id)
-        day_agg = aggregate_lots(latest_lots_per_seller(records_by_entity.get(entity.id, [])))
+        day_agg = aggregate_lots(
+            latest_lots_per_seller(without_outliers(records_by_entity.get(entity.id, [])))
+        )
         day_vwap = day_agg["vwap"]
         npc_sell = _parse_npc_sell(entity.stats)
         if npc_sell is None and craft_item and craft_item.npc_sell is not None:
@@ -312,12 +322,15 @@ def trading_chart(
         db, entity_id, start, end,
         soul_crystal=soul_crystal, enchant_level=enchant_level, rarity=rarity, armor_class=armor_class, sealed=sealed,
     )
+    clean, outliers, excluded_count = _split_outliers(records)
     return TradingChartResponse(
         entity_id=entity_id,
         from_date=start,
         to_date=end,
-        deals=[ChartDealPoint(**d) for d in build_chart_deals(records, seller_names)],
-        volume_buckets=[VolumeBucket(**b) for b in build_volume_buckets(records)],
+        deals=[ChartDealPoint(**d) for d in build_chart_deals(clean, seller_names)],
+        volume_buckets=[VolumeBucket(**b) for b in build_volume_buckets(clean)],
+        excluded_outlier_count=excluded_count,
+        outlier_deals=[ChartDealPoint(**d) for d in build_chart_deals(outliers, seller_names)],
     )
 
 
@@ -339,13 +352,15 @@ def trading_analytics(
         db, entity_id, start, end,
         soul_crystal=soul_crystal, enchant_level=enchant_level, rarity=rarity, armor_class=armor_class, sealed=sealed,
     )
-    stats = compute_analytics(records)
+    clean, _, excluded_count = _split_outliers(records)
+    stats = compute_analytics(clean)
     max_price_deal = stats.pop("max_price_deal")
     max_volume_deal = stats.pop("max_volume_deal")
     return TradingAnalyticsResponse(
         **stats,
         max_price_deal=DealHighlight(**max_price_deal) if max_price_deal else None,
         max_volume_deal=DealHighlight(**max_volume_deal) if max_volume_deal else None,
+        excluded_outlier_count=excluded_count,
     )
 
 
@@ -367,7 +382,8 @@ def order_book(
         db, entity_id, start, end,
         soul_crystal=soul_crystal, enchant_level=enchant_level, rarity=rarity, armor_class=armor_class, sealed=sealed,
     )
-    book = build_order_book(records)
+    clean, _, _ = _split_outliers(records)
+    book = build_order_book(clean)
     return OrderBookResponse(
         buys=[OrderBookLevel(**level) for level in book["buys"]],
         sells=[OrderBookLevel(**level) for level in book["sells"]],
@@ -392,7 +408,8 @@ def lucky_moments(
         db, entity_id, start, end,
         soul_crystal=soul_crystal, enchant_level=enchant_level, rarity=rarity, armor_class=armor_class, sealed=sealed,
     )
-    events = detect_lucky_moments(records, seller_names)
+    clean, _, _ = _split_outliers(records)
+    events = detect_lucky_moments(clean, seller_names)
     return LuckyMomentsResponse(events=[LuckyMomentEvent(**e) for e in events])
 
 
@@ -525,6 +542,12 @@ def list_trades(
     get_item_or_404(db, entity_id)
     start, end = resolve_time_range(period, from_date, to_date)
 
+    all_records, _ = fetch_records(
+        db, entity_id, start, end,
+        soul_crystal=soul_crystal, enchant_level=enchant_level, rarity=rarity, armor_class=armor_class, sealed=sealed,
+    )
+    outlier_id_set = outlier_ids(all_records)
+
     query = (
         select(MarketRecord, Seller.name)
         .join(Seller, MarketRecord.seller_id == Seller.id)
@@ -577,6 +600,7 @@ def list_trades(
             armor_class=record.armor_class,
             sealed=record.sealed,
             enchant_level=record.enchant_level,
+            is_outlier=record.id in outlier_id_set,
         )
         for record, seller_name in rows
     ]

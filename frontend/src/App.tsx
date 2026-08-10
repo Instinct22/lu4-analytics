@@ -110,7 +110,7 @@ export default function App() {
               <Route
                 path="/craft-profitability"
                 element={
-                  <RequirePermission permission="feature.craft_prices">
+                  <RequirePermission permission="nav.craft_profitability">
                     <CraftProfitabilityPage />
                   </RequirePermission>
                 }

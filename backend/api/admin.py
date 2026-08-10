@@ -291,6 +291,7 @@ def admin_list_market_records(
     currency: str | None = Query(None, max_length=32),
     side: str | None = Query(None, max_length=16),
     quantity: str | None = Query(None, max_length=32),
+    outliers_only: bool = Query(False),
 ):
     _require_superadmin(admin)
     return list_market_records(
@@ -306,6 +307,7 @@ def admin_list_market_records(
         currency=currency,
         side=side,
         quantity=quantity,
+        outliers_only=outliers_only,
     )
 
 

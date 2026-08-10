@@ -29,7 +29,7 @@ const FALLBACK_PERMISSION_GROUPS = [
   {
     id: "analytics",
     label: "Аналитика",
-    permissions: ["nav.dashboard", "nav.charts", "nav.statistics"],
+    permissions: ["nav.dashboard", "nav.charts", "nav.statistics", "nav.craft_profitability"],
   },
   {
     id: "raid",

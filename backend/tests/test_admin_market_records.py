@@ -196,3 +196,80 @@ def test_market_records_bulk_update(client, mock_db, superadmin_user):
     assert record.seller_id == seller.id
     mock_db.commit.assert_called()
     app.dependency_overrides.clear()
+
+
+def _make_record(price: str, entity_id: uuid.UUID | None = None, side: str = "sell"):
+    return SimpleNamespace(
+        id=uuid.uuid4(),
+        entity_id=entity_id or uuid.uuid4(),
+        side=side,
+        price=Decimal(price),
+        recorded_at=datetime.now(timezone.utc),
+    )
+
+
+def test_collect_outlier_ids_flags_extreme_price():
+    from services.admin_market_records import _collect_outlier_ids
+
+    entity_id = uuid.uuid4()
+    outlier = _make_record("111111", entity_id=entity_id)
+    peers = [
+        _make_record("1000", entity_id=entity_id),
+        _make_record("1100", entity_id=entity_id),
+        _make_record("1050", entity_id=entity_id),
+        _make_record("1020", entity_id=entity_id),
+        outlier,
+    ]
+    db = MagicMock()
+    db.scalars.return_value.all.return_value = peers
+
+    outlier_ids = _collect_outlier_ids(db)
+    assert outlier.id in outlier_ids
+    assert len(outlier_ids) == 1
+
+
+def test_list_market_records_outliers_only_empty():
+    from services.admin_market_records import list_market_records
+
+    db = MagicMock()
+    db.scalars.return_value.all.return_value = []
+
+    response = list_market_records(db, page=1, limit=50, outliers_only=True)
+    assert response.total == 0
+    assert response.items == []
+    db.execute.assert_not_called()
+
+
+def test_list_market_records_outliers_only_filters_query(client, mock_db, superadmin_user):
+    from services import admin_market_records
+
+    app.dependency_overrides[get_current_user] = lambda: superadmin_user
+    outlier_id = uuid.uuid4()
+    entity_id = uuid.uuid4()
+    outlier = SimpleNamespace(
+        id=outlier_id,
+        entity_id=entity_id,
+        product_name_raw="Gemstone C",
+        price=Decimal("111111"),
+        currency="adena",
+        side="sell",
+        quantity=1,
+        recorded_at=datetime(2026, 8, 3, 12, 0, tzinfo=timezone.utc),
+    )
+
+    with pytest.MonkeyPatch.context() as mp:
+        mp.setattr(admin_market_records, "_collect_outlier_ids", lambda _db: {outlier_id})
+        mock_db.scalar.return_value = 1
+        exec_result = MagicMock()
+        exec_result.all.return_value = [(outlier, "sadqgez", "Gemstone C")]
+        mock_db.execute.return_value = exec_result
+
+        r = client.get("/api/admin/market-records", params={"outliers_only": True})
+
+    assert r.status_code == 200
+    body = r.json()
+    assert body["total"] == 1
+    assert len(body["items"]) == 1
+    assert body["items"][0]["id"] == str(outlier_id)
+    assert body["items"][0]["is_outlier"] is True
+    app.dependency_overrides.clear()

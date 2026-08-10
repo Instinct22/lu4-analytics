@@ -64,3 +64,28 @@ export function normalizeLevelRange(raw: unknown): LevelRange | null {
   if (!Number.isFinite(obj.min) || !Number.isFinite(obj.max)) return null;
   return clampLevelRange({ min: Math.round(obj.min), max: Math.round(obj.max) });
 }
+
+/** Keep only digits while typing a level (1–99). */
+export function sanitizeLevelDraft(raw: string): string {
+  return raw.replace(/\D/g, "").slice(0, 2);
+}
+
+/** Parse and clamp a level field on blur/Enter; invalid input keeps current range. */
+export function commitLevelField(
+  raw: string,
+  field: "min" | "max",
+  current: LevelRange,
+  sliderMin: number,
+  sliderMax: number,
+): LevelRange {
+  const trimmed = raw.trim();
+  if (trimmed === "") return current;
+  const parsed = parseInt(trimmed, 10);
+  if (!Number.isFinite(parsed)) return current;
+
+  const clamped = Math.max(sliderMin, Math.min(parsed, sliderMax));
+  if (field === "min") {
+    return { ...current, min: Math.min(clamped, current.max) };
+  }
+  return { ...current, max: Math.max(clamped, current.min) };
+}

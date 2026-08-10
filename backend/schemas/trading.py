@@ -33,6 +33,7 @@ class TradingAnalyticsResponse(BaseModel):
     sell_count: int
     buy_sell_spread: Decimal | None
     total_value: Decimal | None
+    excluded_outlier_count: int = 0
 
 
 class ChartDealPoint(BaseModel):
@@ -56,6 +57,8 @@ class TradingChartResponse(BaseModel):
     to_date: datetime
     deals: list[ChartDealPoint]
     volume_buckets: list[VolumeBucket]
+    excluded_outlier_count: int = 0
+    outlier_deals: list[ChartDealPoint] = []
 
 
 class OrderBookLevel(BaseModel):
@@ -160,6 +163,7 @@ class TradeRecordItem(BaseModel):
     armor_class: str | None = None
     sealed: bool | None = None
     enchant_level: int | None = None
+    is_outlier: bool = False
 
 
 class TradesListResponse(BaseModel):

@@ -12,6 +12,7 @@ from typing import Literal
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
+from calculations.price_outliers import partition_market_records, without_outliers
 from models.market import MarketRecord, Seller
 from models.wiki import WikiEntity
 
@@ -462,10 +463,13 @@ def build_items_overview(db: Session, from_date: datetime, to_date: datetime, li
         records, _ = fetch_records(db, row.id, from_date, to_date)
         if not records:
             continue
-        sorted_records = sorted(records, key=lambda r: r.recorded_at)
+        clean_records = without_outliers(records)
+        sorted_records = sorted(clean_records, key=lambda r: r.recorded_at)
         first_price = float(sorted_records[0].price)
         last_price = float(sorted_records[-1].price)
         change_pct = ((last_price - first_price) / first_price * 100) if first_price else 0
+        deal_count = len(clean_records)
+        total_volume = sum(_quantity(r) for r in clean_records)
 
         # Sparkline: up to 20 bucket medians
         bucket_count = min(20, len(sorted_records))
@@ -491,8 +495,8 @@ def build_items_overview(db: Session, from_date: datetime, to_date: datetime, li
                 "display_name": row.display_name,
                 "current_price": _decimal(last_price),
                 "price_change_pct": _decimal(change_pct),
-                "total_volume": int(row.total_volume or 0),
-                "deal_count": row.deal_count,
+                "total_volume": total_volume,
+                "deal_count": deal_count,
                 "sparkline": sparkline,
             }
         )
@@ -536,7 +540,7 @@ def batch_period_prices(
         ext_id: {"avg_price": None, "last_price": None} for ext_id in external_ids
     }
     for entity_id, ext_id in entity_to_ext.items():
-        rows = records_by_entity.get(entity_id, [])
+        rows = without_outliers(records_by_entity.get(entity_id, []))
         if not rows:
             continue
         prices = [float(row.price) for row in rows]

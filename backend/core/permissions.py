@@ -24,6 +24,7 @@ PERMISSIONS = (
     "nav.dashboard",
     "nav.charts",
     "nav.statistics",
+    "nav.craft_profitability",
     "nav.craft",
     "nav.items",
     "nav.character",
@@ -54,6 +55,7 @@ PERMISSION_LABELS = {
     "nav.dashboard": "Dashboard",
     "nav.charts": "Графики",
     "nav.statistics": "Статистика",
+    "nav.craft_profitability": "Прибыльность крафта",
     "nav.craft": "Крафт",
     "nav.items": "Предметы",
     "nav.character": "Персонаж",
@@ -86,7 +88,7 @@ DEFAULT_PERMISSION_GROUPS: list[dict] = [
     {
         "id": "analytics",
         "label": "Аналитика",
-        "permissions": ["nav.dashboard", "nav.charts", "nav.statistics"],
+        "permissions": ["nav.dashboard", "nav.charts", "nav.statistics", "nav.craft_profitability"],
     },
     {
         "id": "raid",
