@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import RaidBossDetail from "../components/raid/RaidBossDetail";
 import RaidBossMap from "../components/raid/RaidBossMap";
+import RaidSoundToggle from "../components/raid/RaidSoundToggle";
 import RaidTimerBanners from "../components/raid/RaidTimerBanners";
 import RaidVisibilitySettings from "../components/raid/RaidVisibilitySettings";
 import LevelRangeControl from "../components/settings/LevelRangeControl";
@@ -10,6 +11,7 @@ import { PageHeader } from "../components/ui";
 import { getRaidBosses, getRaidVisibility, putRaidVisibility } from "../api/raid";
 import { useAuth } from "../hooks/useAuth";
 import { useLevelRange } from "../hooks/useLevelRange";
+import { useRaidTimerSoundAlerts, useRaidTimerSounds } from "../hooks/useRaidTimerSounds";
 import { useRaidTimers } from "../hooks/useRaidTimers";
 import type { RaidBoss } from "../lib/raidBosses";
 
@@ -57,6 +59,8 @@ export default function RaidBossesPage() {
     canWrite,
     canViewTimers,
   );
+  const { enabled: soundEnabled, toggleEnabled: toggleSound } = useRaidTimerSounds();
+  useRaidTimerSoundAlerts(snapshots, canViewTimers && soundEnabled);
 
   const hiddenIds = useMemo(() => new Set(visibility?.hiddenIds ?? []), [visibility]);
 
@@ -144,13 +148,18 @@ export default function RaidBossesPage() {
   return (
     <div className="min-h-full">
       <PageHeader title="Рейд Боссы">
-        <p className="text-sm text-zinc-500">
-          {isLoading
-            ? "Загрузка…"
-            : `${filtered.length} из ${visibleBosses.length}${
-                hiddenIds.size > 0 ? ` · скрыто ${hiddenIds.size}` : ""
-              } · карта и дроп`}
-        </p>
+        <div className="flex flex-col items-start gap-3 sm:items-end">
+          {canViewTimers && (
+            <RaidSoundToggle enabled={soundEnabled} onToggle={toggleSound} />
+          )}
+          <p className="text-sm text-zinc-500">
+            {isLoading
+              ? "Загрузка…"
+              : `${filtered.length} из ${visibleBosses.length}${
+                  hiddenIds.size > 0 ? ` · скрыто ${hiddenIds.size}` : ""
+                } · карта и дроп`}
+          </p>
+        </div>
       </PageHeader>
 
       {isError && (
