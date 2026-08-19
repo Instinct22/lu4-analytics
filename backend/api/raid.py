@@ -5,7 +5,9 @@ from fastapi import APIRouter, Depends, HTTPException, Request
 from pydantic import BaseModel, Field
 from sqlalchemy import select
 
-from api.deps import CurrentUser, DbSession, require_permission, user_has_permission
+from api.deps import CurrentUser, DbSession, require_permission, require_raid_life_read, user_has_permission
+from schemas.raid_life import RaidBossLifeResponse
+from services.raid_timers import build_boss_life_list
 from core.client_ip import client_ip
 from models.analytics import AnalyticsDataset
 from models.raid import RaidBoss, RaidBossNote, RaidBossTimer
@@ -124,6 +126,11 @@ def list_timers(db: DbSession, user: CurrentUser):
         return {"timers": []}
     timers = db.scalars(select(RaidBossTimer)).all()
     return {"timers": [_timer_json(t) for t in timers]}
+
+
+@router.get("/boss-life", response_model=RaidBossLifeResponse)
+def list_boss_life(db: DbSession, _auth=Depends(require_raid_life_read())):
+    return RaidBossLifeResponse(bosses=build_boss_life_list(db))
 
 
 @router.post("/timers/{boss_id}", dependencies=[Depends(require_write)])

@@ -20,6 +20,7 @@ import {
   type RolePermissions,
 } from "../api/admin";
 import type { Role } from "../api/auth";
+import AdminApiTokens from "../components/admin/AdminApiTokens";
 import AdminMarketRecords from "../components/admin/AdminMarketRecords";
 import { PageHeader, LoadingState } from "../components/ui";
 import { useAuth } from "../hooks/useAuth";
@@ -66,7 +67,7 @@ const FALLBACK_PERMISSION_GROUPS = [
   {
     id: "administration",
     label: "Администрирование",
-    permissions: ["nav.admin", "admin.users_quick_create", "admin.roles_manage", "admin.logs_view", "admin.level_preset", "admin.level_restriction"],
+    permissions: ["nav.admin", "admin.users_quick_create", "admin.roles_manage", "admin.logs_view", "admin.level_preset", "admin.level_restriction", "admin.api_tokens_manage"],
   },
 ] as const;
 
@@ -113,7 +114,7 @@ function isPermissionDisabled(permission: string, draft: Record<string, boolean>
   return Boolean(required && !draft[required]);
 }
 
-type AdminTab = "users" | "roles" | "publicRoles" | "customRoles" | "logs" | "database";
+type AdminTab = "users" | "roles" | "publicRoles" | "customRoles" | "logs" | "database" | "apiTokens";
 type LogSubTab = "logins" | "raids" | "creations";
 
 function formatLoginAt(iso: string) {
@@ -138,6 +139,7 @@ export default function AdminPage() {
   const qc = useQueryClient();
   const canManageRoles = hasPermission("admin.roles_manage");
   const canViewLogs = hasPermission("admin.logs_view");
+  const canManageApiTokens = hasPermission("admin.api_tokens_manage");
   const canQuickCreate = hasPermission("admin.users_quick_create");
   const [tab, setTab] = useState<AdminTab>("users");
   const [logSubTab, setLogSubTab] = useState<LogSubTab>("logins");
@@ -228,10 +230,11 @@ export default function AdminPage() {
       return canManageRoles && tab === "roles" ? "roles" : "users";
     }
     if (tab === "database" && !isSuperadmin) return "users";
+    if (tab === "apiTokens" && !canManageApiTokens) return "users";
     if (tab === "logs" && !canViewLogs) return "users";
     if (tab === "roles" && !canManageRoles) return "users";
     return tab;
-  }, [tab, isSuperadmin, canManageRoles, canViewLogs]);
+  }, [tab, isSuperadmin, canManageRoles, canViewLogs, canManageApiTokens]);
 
   const createMut = useMutation({
     mutationFn: createUser,
@@ -412,6 +415,7 @@ export default function AdminPage() {
     { id: "customRoles", label: "Создание ролей", show: isSuperadmin },
     { id: "logs", label: "Журналы", show: canViewLogs },
     { id: "database", label: "База данных", show: isSuperadmin },
+    { id: "apiTokens", label: "API-токены", show: canManageApiTokens },
   ];
   const loginTotal = loginLogsQuery.data?.total ?? 0;
   const loginTotalPages = Math.max(1, Math.ceil(loginTotal / (loginLogsQuery.data?.limit ?? LOGIN_LOGS_LIMIT)));
@@ -1225,6 +1229,8 @@ export default function AdminPage() {
       )}
 
       {activeTab === "database" && isSuperadmin && <AdminMarketRecords />}
+
+      {activeTab === "apiTokens" && canManageApiTokens && <AdminApiTokens />}
 
       {quickCreateOpen && quickCreateResult && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4">

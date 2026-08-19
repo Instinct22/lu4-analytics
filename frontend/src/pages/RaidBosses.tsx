@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import RaidBossDetail from "../components/raid/RaidBossDetail";
 import RaidBossMap from "../components/raid/RaidBossMap";
-import RaidSoundToggle from "../components/raid/RaidSoundToggle";
+import RaidSoundSettings from "../components/raid/RaidSoundSettings";
 import RaidTimerBanners from "../components/raid/RaidTimerBanners";
 import RaidVisibilitySettings from "../components/raid/RaidVisibilitySettings";
 import LevelRangeControl from "../components/settings/LevelRangeControl";
@@ -59,7 +59,15 @@ export default function RaidBossesPage() {
     canWrite,
     canViewTimers,
   );
-  const { enabled: soundEnabled, toggleEnabled: toggleSound } = useRaidTimerSounds();
+  const {
+    enabled: soundEnabled,
+    toggleEnabled: toggleSound,
+    soonSoundId,
+    windowSoundId,
+    setSoonSound,
+    setWindowSound,
+    previewSound,
+  } = useRaidTimerSounds();
   useRaidTimerSoundAlerts(snapshots, canViewTimers && soundEnabled);
 
   const hiddenIds = useMemo(() => new Set(visibility?.hiddenIds ?? []), [visibility]);
@@ -150,7 +158,15 @@ export default function RaidBossesPage() {
       <PageHeader title="Рейд Боссы">
         <div className="flex flex-col items-start gap-3 sm:items-end">
           {canViewTimers && (
-            <RaidSoundToggle enabled={soundEnabled} onToggle={toggleSound} />
+            <RaidSoundSettings
+              enabled={soundEnabled}
+              soonSoundId={soonSoundId}
+              windowSoundId={windowSoundId}
+              onToggleEnabled={toggleSound}
+              onSoonChange={setSoonSound}
+              onWindowChange={setWindowSound}
+              onPreview={previewSound}
+            />
           )}
           <p className="text-sm text-zinc-500">
             {isLoading

@@ -1,13 +1,13 @@
 from fastapi import APIRouter, Depends
 
-from api.deps import CurrentUser, DbSession, verify_api_key
+from api.deps import CurrentUser, DbSession, require_api_scope
 from schemas.import_ import ImportLogResponse, ImportRequest, ImportResponse
 from services import import_service
 
 router = APIRouter()
 
 
-@router.post("", response_model=ImportResponse, dependencies=[Depends(verify_api_key)])
+@router.post("", response_model=ImportResponse, dependencies=[Depends(require_api_scope("import"))])
 def import_records(body: ImportRequest, db: DbSession):
     return import_service.import_price_records(db, body)
 

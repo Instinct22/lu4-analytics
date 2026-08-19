@@ -280,6 +280,60 @@ export async function bulkUpdateMarketRecords(items: MarketRecordUpdateItem[]) {
   return data as { updated: number };
 }
 
+export type ApiTokenScope = "import" | "market_scan" | "trading_scan" | "raid_life";
+
+export interface ApiTokenScopeItem {
+  scope: ApiTokenScope;
+  label: string;
+}
+
+export interface ApiTokenItem {
+  id: string;
+  name: string;
+  token_prefix: string;
+  scopes: string[];
+  created_by_id: string | null;
+  created_at: string;
+  last_used_at: string | null;
+  expires_at: string | null;
+  revoked_at: string | null;
+  is_active: boolean;
+}
+
+export interface ApiTokensListResponse {
+  items: ApiTokenItem[];
+  legacy_key_configured: boolean;
+}
+
+export interface CreateApiTokenResult {
+  token: string;
+  item: ApiTokenItem;
+}
+
+export async function getApiTokenScopes() {
+  const { data } = await api.get("/admin/api-tokens/scopes");
+  return data as { items: ApiTokenScopeItem[] };
+}
+
+export async function listApiTokens() {
+  const { data } = await api.get("/admin/api-tokens");
+  return data as ApiTokensListResponse;
+}
+
+export async function createApiToken(body: {
+  name: string;
+  scopes: ApiTokenScope[];
+  expires_at?: string | null;
+}) {
+  const { data } = await api.post("/admin/api-tokens", body);
+  return data as CreateApiTokenResult;
+}
+
+export async function revokeApiToken(tokenId: string) {
+  const { data } = await api.delete(`/admin/api-tokens/${tokenId}`);
+  return data as ApiTokenItem;
+}
+
 export async function bulkDeleteMarketRecords(ids: string[]) {
   const { data } = await api.post("/admin/market-records/bulk-delete", { ids });
   return data as { deleted: number };

@@ -1,13 +1,18 @@
 import type { TimerPhase, TimerSnapshot } from "./raidTimers";
-
-export const RAID_SOUND_SOON_URL = "/sound/pesik-pesik-av-av-av.mp3";
-export const RAID_SOUND_WINDOW_URL = "/sound/okhaeshechki-dattebaeshechki-poanimeshimsia.mp3";
+import {
+  DEFAULT_SOON_SOUND_ID,
+  DEFAULT_WINDOW_SOUND_ID,
+  getRaidSoundById,
+  getRaidSoundUrl,
+} from "./raidSoundCatalog";
 
 export const RAID_TIMER_SOUNDS_STORAGE_KEY = "lu4.raid_timer_sounds_enabled";
+export const RAID_TIMER_SOUND_SOON_KEY = "lu4.raid_timer_sound_soon";
+export const RAID_TIMER_SOUND_WINDOW_KEY = "lu4.raid_timer_sound_window";
 
 export type TrackedPhase = TimerPhase | "idle";
-
 export type PhaseAlert = "soon" | "window";
+export type SoundSelectionPhase = PhaseAlert;
 
 export function readRaidTimerSoundsEnabled(): boolean {
   try {
@@ -23,6 +28,35 @@ export function writeRaidTimerSoundsEnabled(enabled: boolean): void {
   } catch {
     // Private mode or quota — ignore.
   }
+}
+
+export function readRaidTimerSoundSelection(phase: SoundSelectionPhase): string {
+  const key = phase === "soon" ? RAID_TIMER_SOUND_SOON_KEY : RAID_TIMER_SOUND_WINDOW_KEY;
+  const fallback = phase === "soon" ? DEFAULT_SOON_SOUND_ID : DEFAULT_WINDOW_SOUND_ID;
+  try {
+    const raw = localStorage.getItem(key);
+    if (raw && getRaidSoundById(raw)) return raw;
+  } catch {
+    // ignore
+  }
+  return fallback;
+}
+
+export function writeRaidTimerSoundSelection(phase: SoundSelectionPhase, id: string): void {
+  if (!getRaidSoundById(id)) return;
+  const key = phase === "soon" ? RAID_TIMER_SOUND_SOON_KEY : RAID_TIMER_SOUND_WINDOW_KEY;
+  try {
+    localStorage.setItem(key, id);
+  } catch {
+    // ignore
+  }
+}
+
+export function getSoundUrlForAlert(alert: PhaseAlert): string {
+  if (alert === "soon") {
+    return getRaidSoundUrl(readRaidTimerSoundSelection("soon"), DEFAULT_SOON_SOUND_ID);
+  }
+  return getRaidSoundUrl(readRaidTimerSoundSelection("window"), DEFAULT_WINDOW_SOUND_ID);
 }
 
 /** Build tracked phase map from current snapshots (no alerts). */
@@ -75,28 +109,30 @@ export function detectPhaseAlerts(
   return alerts;
 }
 
-const audioByAlert: Partial<Record<PhaseAlert, HTMLAudioElement>> = {};
+const audioByUrl = new Map<string, HTMLAudioElement>();
+let previewAudio: HTMLAudioElement | null = null;
+let previewPlayingId: string | null = null;
 
-function getAudio(alert: PhaseAlert): HTMLAudioElement {
-  let audio = audioByAlert[alert];
+function getAudioForUrl(url: string): HTMLAudioElement {
+  let audio = audioByUrl.get(url);
   if (!audio) {
-    audio = new Audio(alert === "soon" ? RAID_SOUND_SOON_URL : RAID_SOUND_WINDOW_URL);
+    audio = new Audio(url);
     audio.preload = "auto";
-    audioByAlert[alert] = audio;
+    audioByUrl.set(url, audio);
   }
   return audio;
 }
 
 export function preloadRaidTimerSounds(): void {
-  getAudio("soon");
-  getAudio("window");
+  getAudioForUrl(getSoundUrlForAlert("soon"));
+  getAudioForUrl(getSoundUrlForAlert("window"));
 }
 
 /** Warm up autoplay after an explicit user gesture (toggle ON). */
 export async function unlockRaidTimerSounds(): Promise<void> {
   preloadRaidTimerSounds();
   for (const alert of ["soon", "window"] as const) {
-    const audio = getAudio(alert);
+    const audio = getAudioForUrl(getSoundUrlForAlert(alert));
     try {
       audio.currentTime = 0;
       audio.volume = 0.001;
@@ -111,9 +147,42 @@ export async function unlockRaidTimerSounds(): Promise<void> {
 }
 
 export function playPhaseAlert(alert: PhaseAlert): void {
-  const audio = getAudio(alert);
+  stopSoundPreview();
+  const audio = getAudioForUrl(getSoundUrlForAlert(alert));
   audio.currentTime = 0;
   void audio.play().catch(() => {
     // Autoplay blocked or missing file — ignore.
   });
+}
+
+export function stopSoundPreview(): void {
+  if (!previewAudio) return;
+  previewAudio.pause();
+  previewAudio.currentTime = 0;
+  previewPlayingId = null;
+}
+
+export function isSoundPreviewPlaying(id: string): boolean {
+  return previewPlayingId === id && previewAudio != null && !previewAudio.paused;
+}
+
+export function playSoundPreview(id: string): void {
+  const entry = getRaidSoundById(id);
+  if (!entry) return;
+
+  if (isSoundPreviewPlaying(id)) {
+    stopSoundPreview();
+    return;
+  }
+
+  stopSoundPreview();
+  previewAudio = getAudioForUrl(entry.url);
+  previewPlayingId = id;
+  previewAudio.currentTime = 0;
+  void previewAudio.play().catch(() => {
+    previewPlayingId = null;
+  });
+  previewAudio.onended = () => {
+    if (previewPlayingId === id) previewPlayingId = null;
+  };
 }

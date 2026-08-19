@@ -132,5 +132,66 @@ def ensure_role_permissions_seeded(db: Session) -> None:
 
 
 def verify_api_key(x_api_key: Annotated[str | None, Header()] = None) -> None:
+    """Legacy helper — prefer require_api_scope for scoped endpoints."""
     if not x_api_key or x_api_key != settings.import_api_key:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid API key")
+
+
+def require_api_scope(scope: str) -> Callable:
+    from services.api_tokens import verify_api_token
+
+    def dependency(db: DbSession, x_api_key: Annotated[str | None, Header(alias="X-Api-Key")] = None) -> None:
+        if not x_api_key:
+            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid API key")
+        result = verify_api_token(db, x_api_key, scope)
+        if result.ok:
+            return
+        if result.missing_scope:
+            raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Insufficient API token scope")
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid API key")
+
+    return dependency
+
+
+def require_raid_life_read() -> Callable:
+    from services.api_tokens import verify_api_token
+
+    def dependency(
+        db: DbSession,
+        credentials: Annotated[HTTPAuthorizationCredentials | None, Depends(security)],
+        x_api_key: Annotated[str | None, Header(alias="X-Api-Key")] = None,
+    ) -> User | None:
+        if x_api_key:
+            result = verify_api_token(db, x_api_key, "raid_life")
+            if result.ok:
+                return None
+            if result.missing_scope:
+                raise HTTPException(
+                    status_code=status.HTTP_403_FORBIDDEN,
+                    detail="Insufficient API token scope",
+                )
+            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid API key")
+
+        if credentials is None:
+            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Not authenticated")
+
+        try:
+            payload = jwt.decode(
+                credentials.credentials,
+                settings.jwt_secret,
+                algorithms=[settings.jwt_algorithm],
+            )
+            if payload.get("type") != "access":
+                raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token type")
+            user_id = uuid.UUID(payload["sub"])
+        except (JWTError, ValueError, KeyError) as exc:
+            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token") from exc
+
+        user = db.get(User, user_id)
+        if user is None or not user.is_active:
+            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="User not found")
+        if not user_has_permission(db, user, "feature.raid_timers_view"):
+            raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Forbidden")
+        return user
+
+    return dependency

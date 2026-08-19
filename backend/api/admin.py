@@ -82,8 +82,27 @@ from services.custom_roles import (
     list_custom_roles,
     role_label,
 )
+from services.api_tokens import (
+    create_api_token,
+    legacy_key_configured,
+    list_api_tokens,
+    list_scope_catalog,
+    revoke_api_token,
+)
+from schemas.api_token import (
+    ApiTokenItem,
+    ApiTokenScopesResponse,
+    ApiTokensListResponse,
+    CreateApiTokenRequest,
+    CreateApiTokenResponse,
+)
 
 router = APIRouter()
+
+
+def _require_api_tokens_manage(user: User, db: DbSession) -> None:
+    if not user_has_permission(db, user, "admin.api_tokens_manage"):
+        raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Forbidden")
 
 
 def _require_superadmin(user: User) -> None:
@@ -637,3 +656,38 @@ def update_role_permissions(
         label=role_label(db, role),
         permissions=entries,
     )
+
+
+@router.get("/api-tokens/scopes", response_model=ApiTokenScopesResponse)
+def get_api_token_scopes(db: DbSession, admin: User = Depends(require_permission("nav.admin"))):
+    _require_api_tokens_manage(admin, db)
+    return ApiTokenScopesResponse(items=list_scope_catalog())
+
+
+@router.get("/api-tokens", response_model=ApiTokensListResponse)
+def list_api_tokens_admin(db: DbSession, admin: User = Depends(require_permission("nav.admin"))):
+    _require_api_tokens_manage(admin, db)
+    return ApiTokensListResponse(
+        items=list_api_tokens(db),
+        legacy_key_configured=legacy_key_configured(),
+    )
+
+
+@router.post("/api-tokens", response_model=CreateApiTokenResponse)
+def create_api_token_admin(
+    body: CreateApiTokenRequest,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_api_tokens_manage(admin, db)
+    return create_api_token(db, body, admin)
+
+
+@router.delete("/api-tokens/{token_id}", response_model=ApiTokenItem)
+def revoke_api_token_admin(
+    token_id: uuid.UUID,
+    db: DbSession,
+    admin: User = Depends(require_permission("nav.admin")),
+):
+    _require_api_tokens_manage(admin, db)
+    return revoke_api_token(db, token_id)

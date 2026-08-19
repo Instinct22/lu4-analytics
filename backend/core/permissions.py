@@ -49,6 +49,7 @@ PERMISSIONS = (
     "admin.users_quick_create",
     "admin.level_preset",
     "admin.level_restriction",
+    "admin.api_tokens_manage",
 )
 
 PERMISSION_LABELS = {
@@ -80,6 +81,7 @@ PERMISSION_LABELS = {
     "admin.users_quick_create": "Быстрое создание",
     "admin.level_preset": "Предустановка уровня",
     "admin.level_restriction": "Ограничение уровня",
+    "admin.api_tokens_manage": "Управление API-токенами",
 }
 
 DEFAULT_PUBLIC_ROLES: tuple[str, ...] = ("user", "driver", "other")
@@ -125,7 +127,7 @@ DEFAULT_PERMISSION_GROUPS: list[dict] = [
     {
         "id": "administration",
         "label": "Администрирование",
-        "permissions": ["nav.admin", "admin.users_quick_create", "admin.roles_manage", "admin.logs_view", "admin.level_preset", "admin.level_restriction"],
+        "permissions": ["nav.admin", "admin.users_quick_create", "admin.roles_manage", "admin.logs_view", "admin.level_preset", "admin.level_restriction", "admin.api_tokens_manage"],
     },
 ]
 

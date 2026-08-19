@@ -3,15 +3,23 @@ import type { TimerSnapshot } from "../lib/raidTimers";
 import {
   detectPhaseAlerts,
   playPhaseAlert,
+  playSoundPreview,
+  readRaidTimerSoundSelection,
   readRaidTimerSoundsEnabled,
   snapshotPhases,
+  stopSoundPreview,
   unlockRaidTimerSounds,
+  writeRaidTimerSoundSelection,
   writeRaidTimerSoundsEnabled,
   type TrackedPhase,
 } from "../lib/raidTimerSounds";
 
 export function useRaidTimerSounds() {
   const [enabled, setEnabledState] = useState(() => readRaidTimerSoundsEnabled());
+  const [soonSoundId, setSoonSoundIdState] = useState(() => readRaidTimerSoundSelection("soon"));
+  const [windowSoundId, setWindowSoundIdState] = useState(() => readRaidTimerSoundSelection("window"));
+
+  useEffect(() => () => stopSoundPreview(), []);
 
   const setEnabled = useCallback((value: boolean) => {
     setEnabledState(value);
@@ -32,7 +40,30 @@ export function useRaidTimerSounds() {
     });
   }, []);
 
-  return { enabled, setEnabled, toggleEnabled };
+  const setSoonSound = useCallback((id: string) => {
+    writeRaidTimerSoundSelection("soon", id);
+    setSoonSoundIdState(id);
+  }, []);
+
+  const setWindowSound = useCallback((id: string) => {
+    writeRaidTimerSoundSelection("window", id);
+    setWindowSoundIdState(id);
+  }, []);
+
+  const previewSound = useCallback((id: string) => {
+    playSoundPreview(id);
+  }, []);
+
+  return {
+    enabled,
+    setEnabled,
+    toggleEnabled,
+    soonSoundId,
+    windowSoundId,
+    setSoonSound,
+    setWindowSound,
+    previewSound,
+  };
 }
 
 export function useRaidTimerSoundAlerts(
