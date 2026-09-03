@@ -140,7 +140,7 @@ function CraftBulkCartRow({
           <div className="shrink-0 text-right" title="Ориентировочная стоимость крафта">
             <span className="block text-[0.6rem] uppercase tracking-wide text-zinc-600">~стоимость</span>
             <span className="text-sm font-semibold tabular-nums text-amber-400/90">
-              {approxCost != null ? formatPrice(approxCost) : "—"}
+              {approxCost != null && approxCost > 0 ? formatPrice(approxCost) : "—"}
             </span>
           </div>
         )}

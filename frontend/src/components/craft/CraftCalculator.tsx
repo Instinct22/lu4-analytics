@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import {
   applyWarehouseConsumption,
+  activeCraftManual,
   buildTree,
   computeWarehouseConsumption,
   isCraftReady,
@@ -48,7 +49,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
   const [chosenVariants, setChosenVariants] = usePreference("craft_variants");
   const [variantIdx, setVariantIdx] = useState(0);
   const [tab, setTab] = useState<"tree" | "list">("tree");
-  const [showPrices, setShowPrices] = useState(false);
+  const [manualPricesActive, setManualPricesActive] = useState(false);
   const [priceEdit, setPriceEdit] = useState<Record<string, string>>({});
 
   const variants = variantsFor(catalog, productId);
@@ -77,6 +78,10 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
   }, [tree, productId]);
 
   const { serverPrices, manual, setManualPrice } = useCraftPrices(canSeePrices ? allIds : []);
+  const activeManual = useMemo(
+    () => activeCraftManual(manual, manualPricesActive),
+    [manual, manualPricesActive],
+  );
 
   const onOwnedChange = (id: number, val: number) => {
     const next = { ...owned };
@@ -222,17 +227,23 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
           {canSeePrices && (
             <button
               type="button"
-              className="rounded-lg border border-zinc-700 bg-zinc-800/80 px-3 py-1 text-xs font-medium text-zinc-300 transition-colors hover:border-amber-500/50"
-              onClick={() => setShowPrices(!showPrices)}
+              className={`rounded-lg border px-3 py-1 text-xs font-semibold transition-colors ${
+                manualPricesActive
+                  ? "border-amber-500 bg-amber-600 text-zinc-950"
+                  : "border-zinc-700 bg-zinc-800/80 text-zinc-300 hover:border-amber-500/50"
+              }`}
+              onClick={() => setManualPricesActive(!manualPricesActive)}
             >
-              {showPrices ? "Скрыть цены" : "Задать цены"}
+              {manualPricesActive ? "Ручные цены вкл." : "Задать цены"}
             </button>
           )}
         </div>
 
-        {canSeePrices && showPrices && (
+        {canSeePrices && manualPricesActive && (
           <div className="mb-4 rounded-xl border border-zinc-800/80 bg-zinc-900/50 p-3">
-            <p className="mb-2 text-xs text-zinc-500">Ручные цены переопределяют рынок</p>
+            <p className="mb-2 text-xs text-zinc-500">
+              Ручные цены переопределяют VWAP продаж за 24 ч
+            </p>
             <div className="grid max-h-40 gap-2 overflow-y-auto sm:grid-cols-2">
               {allIds.slice(0, 40).map((id) => {
                 const info = itemInfo(catalog, id);
@@ -254,7 +265,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
         )}
 
         {canSeePrices && (
-          <CraftCostBar catalog={catalog} tree={tree} prices={serverPrices} manual={manual} />
+          <CraftCostBar catalog={catalog} tree={tree} prices={serverPrices} manual={activeManual} />
         )}
 
         <CraftItemDescription catalog={catalog} id={productId} />
@@ -283,7 +294,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
                   node={ch}
                   catalog={catalog}
                   prices={serverPrices}
-                  manual={manual}
+                  manual={activeManual}
                   owned={owned}
                   onOwnedChange={onOwnedChange}
                   showPrices={canSeePrices}
@@ -301,7 +312,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
               tree={tree}
               owned={owned}
               prices={serverPrices}
-              manual={manual}
+              manual={activeManual}
               onOwnedChange={onOwnedChange}
               showPrices={canSeePrices}
             />
@@ -323,7 +334,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
                       node={ch}
                       catalog={catalog}
                       prices={serverPrices}
-                      manual={manual}
+                      manual={activeManual}
                       owned={owned}
                       onOwnedChange={onOwnedChange}
                       showPrices={canSeePrices}
@@ -339,7 +350,7 @@ export default function CraftCalculator({ catalog, productId, onClose }: Props) 
                   tree={tree}
                   owned={owned}
                   prices={serverPrices}
-                  manual={manual}
+                  manual={activeManual}
                   onOwnedChange={onOwnedChange}
                   showPrices={canSeePrices}
                 />

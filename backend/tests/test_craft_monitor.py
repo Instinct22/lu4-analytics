@@ -1,4 +1,4 @@
-"""Craft monitor settings + latest-per-seller aggregation."""
+"""Craft monitor settings + period VWAP aggregation."""
 
 from __future__ import annotations
 
@@ -130,6 +130,90 @@ def test_craft_monitor_periods_include_extended():
     assert CRAFT_MONITOR_PERIOD_HOURS["3h"] == 3
     assert CRAFT_MONITOR_PERIOD_HOURS["1d"] == 24
     assert CRAFT_MONITOR_PERIOD_HOURS["3d"] == 72
+
+
+def test_build_craft_monitor_cards_ignores_stale_outside_period():
+    entity_id = uuid.uuid4()
+    s1 = uuid.uuid4()
+    s2 = uuid.uuid4()
+    now = datetime(2026, 8, 3, 12, 0, tzinfo=timezone.utc)
+    entity = SimpleNamespace(
+        id=entity_id,
+        external_id=1001,
+        display_name="Varnish",
+        entity_type="item",
+    )
+    records = [
+        _lot(seller_id=s1, price=459, quantity=100, recorded_at=now - timedelta(days=30)),
+        _lot(seller_id=s2, price=2100, quantity=50, recorded_at=now - timedelta(hours=2)),
+        _lot(seller_id=s2, price=2200, quantity=30, recorded_at=now - timedelta(minutes=30)),
+    ]
+
+    db = MagicMock()
+    entities_result = MagicMock()
+    entities_result.all.return_value = [entity]
+    records_result = MagicMock()
+    records_result.all.return_value = records
+
+    db.scalars.side_effect = [entities_result, records_result]
+
+    with (
+        patch(
+            "calculations.craft_monitor.get_craft_monitor",
+            return_value={"selectedIds": [1001]},
+        ),
+        patch("calculations.craft_monitor.datetime") as mock_dt,
+    ):
+        mock_dt.now.return_value = now
+        cards = build_craft_monitor_cards(db, period="1d")
+
+    assert len(cards) == 1
+    card = cards[0]
+    # Only deals within 24h: (2100*50 + 2200*30) / 80 = 2137.50
+    assert card["vwap"] == Decimal("2137.50")
+    assert card["total_quantity"] == 80
+    assert card["seller_count"] == 1
+
+
+def test_build_craft_monitor_cards_includes_buy_and_sell_vwap():
+    entity_id = uuid.uuid4()
+    s1 = uuid.uuid4()
+    s2 = uuid.uuid4()
+    now = datetime(2026, 8, 3, 12, 0, tzinfo=timezone.utc)
+    entity = SimpleNamespace(
+        id=entity_id,
+        external_id=1001,
+        display_name="Varnish",
+        entity_type="item",
+    )
+    records = [
+        _lot(seller_id=s1, price=2200, quantity=30, recorded_at=now - timedelta(minutes=30), side="sell"),
+        _lot(seller_id=s2, price=1800, quantity=100, recorded_at=now - timedelta(minutes=20), side="buy"),
+    ]
+
+    db = MagicMock()
+    entities_result = MagicMock()
+    entities_result.all.return_value = [entity]
+    records_result = MagicMock()
+    records_result.all.return_value = records
+
+    db.scalars.side_effect = [entities_result, records_result]
+
+    with (
+        patch(
+            "calculations.craft_monitor.get_craft_monitor",
+            return_value={"selectedIds": [1001]},
+        ),
+        patch("calculations.craft_monitor.datetime") as mock_dt,
+    ):
+        mock_dt.now.return_value = now
+        cards = build_craft_monitor_cards(db, period="1d")
+
+    assert len(cards) == 1
+    card = cards[0]
+    assert card["vwap"] == Decimal("1892.31")
+    assert card["total_quantity"] == 130
+    assert card["seller_count"] == 2
 
 
 def test_build_craft_monitor_cards_change_pct():

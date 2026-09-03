@@ -32,7 +32,7 @@ export default function CraftCostBar({ catalog, tree, prices, manual }: Props) {
           Ориентировочная стоимость
         </span>
         <span className="text-lg font-bold tabular-nums text-amber-300">
-          {cheapest != null ? formatPrice(cheapest) : "—"}
+          {cheapest > 0 ? formatPrice(cheapest) : "—"}
           {leafAcc.missing.size > 0 && (
             <span className="ml-2 text-xs font-normal text-zinc-500">
               ({leafAcc.missing.size} без цены)
@@ -94,6 +94,7 @@ export function GradePill({ grade }: { grade: string }) {
 export function ItemPrice({
   id,
   qty,
+  totalAmount,
   catalog,
   prices,
   manual,
@@ -101,6 +102,7 @@ export function ItemPrice({
 }: {
   id: number;
   qty: number;
+  totalAmount?: number | null;
   catalog: CraftCatalog;
   prices: Record<string, PriceInfo>;
   manual: Record<string, number>;
@@ -108,8 +110,9 @@ export function ItemPrice({
 }) {
   const { hasPermission } = useAuth();
   const p = effectivePrice(id, prices, manual, catalog);
-  if (p == null) return <span className="text-xs text-zinc-600">—</span>;
-  const label = formatPrice(p * qty);
+  const total = totalAmount ?? (p != null ? p * qty : null);
+  if (total == null) return <span className="text-xs text-zinc-600">—</span>;
+  const label = formatPrice(total);
   const canLink = hasPermission("feature.craft_prices") && hasPermission("nav.charts");
   if (canLink) {
     return (
@@ -122,6 +125,42 @@ export function ItemPrice({
     );
   }
   return <span className={className}>{label}</span>;
+}
+
+export function CraftBuyCompare({
+  compare,
+}: {
+  compare: {
+    craftTotal: number | null;
+    buyTotal: number | null;
+    cheaper: "craft" | "buy" | null;
+  };
+}) {
+  const { craftTotal, buyTotal, cheaper } = compare;
+  if (craftTotal == null || buyTotal == null) return null;
+
+  const chip = (kind: "craft" | "buy", label: string, value: number) => {
+    const active = cheaper === kind;
+    return (
+      <span
+        className={`inline-flex items-center gap-1 rounded-md border px-1.5 py-0.5 tabular-nums ${
+          active
+            ? "border-emerald-500/40 bg-emerald-500/10 text-emerald-300"
+            : "border-zinc-700/80 bg-zinc-900/60 text-zinc-500"
+        }`}
+      >
+        <span className="text-[0.6rem] font-semibold uppercase tracking-wide">{label}</span>
+        <span className={active ? "font-semibold" : ""}>{formatPrice(value)}</span>
+      </span>
+    );
+  };
+
+  return (
+    <div className="flex flex-wrap items-center justify-end gap-1">
+      {chip("craft", "Крафт", craftTotal)}
+      {chip("buy", "Купить", buyTotal)}
+    </div>
+  );
 }
 
 export function HaveInput({

@@ -128,8 +128,10 @@ export default function CraftWarehousePanel({
                     <span className="font-semibold text-zinc-100">{info.name}</span>
                     <GradePill grade={info.grade} />
                   </div>
-                  {showPrices && lineTotal != null && (
-                    <p className="text-xs tabular-nums text-zinc-500">{formatPrice(lineTotal)}</p>
+                  {showPrices && (
+                    <p className="text-xs tabular-nums text-zinc-500">
+                      {lineTotal != null ? formatPrice(lineTotal) : "—"}
+                    </p>
                   )}
                 </div>
                 <HaveInput

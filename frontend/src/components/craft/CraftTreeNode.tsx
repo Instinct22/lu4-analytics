@@ -1,14 +1,13 @@
 import { useState } from "react";
 import {
-  effectivePrice,
-  formatPrice,
+  compareCraftBuyCost,
   isCraftable,
   itemInfo,
   type CalcNode,
   type CraftCatalog,
   type PriceInfo,
 } from "../../lib/craftCalc";
-import { GradePill, HaveInput, ItemIcon, ItemPrice } from "./CraftCostBar";
+import { CraftBuyCompare, GradePill, HaveInput, ItemIcon, ItemPrice } from "./CraftCostBar";
 import CraftItemLink from "./CraftItemLink";
 import ExpandChevron from "./ExpandChevron";
 
@@ -38,17 +37,17 @@ export default function CraftTreeNode({
   const [expanded, setExpanded] = useState(false);
   const craftable = isCraftable(catalog, node.id) && hasChildren;
   const covered = node.want > node.net;
+  const compare = showPrices
+    ? compareCraftBuyCost(node, catalog, prices, manual)
+    : null;
 
-  const buyPrice = showPrices ? effectivePrice(node.id, prices, manual, catalog) : null;
-  let craftSubtotal = 0;
-  let craftOk = true;
-  if (showPrices) {
-    for (const c of node.children) {
-      const p = effectivePrice(c.id, prices, manual, catalog);
-      if (p == null) craftOk = false;
-      else craftSubtotal += p * c.net;
-    }
-  }
+  const showCompare =
+    compare != null &&
+    compare.craftable &&
+    compare.craftOk &&
+    compare.craftTotal != null &&
+    compare.buyTotal != null &&
+    node.net > 0;
 
   return (
     <div style={{ marginLeft: depth * 14 }}>
@@ -102,15 +101,12 @@ export default function CraftTreeNode({
               onChange={(v) => onOwnedChange(node.id, v)}
             />
           </label>
-          {showPrices && craftable && craftOk && buyPrice != null && node.net > 0 && (
-            <span className="text-[0.65rem] text-zinc-600">
-              крафт {formatPrice(craftSubtotal)} · купить {formatPrice(buyPrice * node.net)}
-            </span>
-          )}
+          {showCompare && compare && <CraftBuyCompare compare={compare} />}
           {showPrices && node.net > 0 && (
             <ItemPrice
               id={node.id}
               qty={node.net}
+              totalAmount={compare?.bestTotal}
               catalog={catalog}
               prices={prices}
               manual={manual}

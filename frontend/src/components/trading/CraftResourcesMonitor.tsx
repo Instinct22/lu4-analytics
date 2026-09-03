@@ -15,7 +15,7 @@ interface Props {
 
 function formatPrice(value: number | string | null): string {
   if (value == null) return "—";
-  return Number(value).toLocaleString("ru-RU", { maximumFractionDigits: 0 });
+  return Math.round(Number(value)).toLocaleString("ru-RU", { maximumFractionDigits: 0 });
 }
 
 function ChangeBadge({ value }: { value: number | string | null }) {
@@ -107,7 +107,7 @@ export default function CraftResourcesMonitor({
           <div className="min-w-0">
             <h3 className="text-sm font-semibold text-zinc-200">Крафт-ресурсы</h3>
             <p className="mt-0.5 text-xs text-zinc-500">
-              VWAP и объём по последним лотам продавцов · % за выбранный период
+              VWAP и объём за выбранный период · % к предыдущему периоду
             </p>
           </div>
         </button>

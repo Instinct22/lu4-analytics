@@ -163,7 +163,75 @@ export function ownedToRemaining(owned: Record<string, number>): Map<number, num
   return remaining;
 }
 
-export const MARKET_MARKUP = 1.5;
+export function effectivePrice(
+  id: number,
+  prices: Record<string, PriceInfo>,
+  manual: Record<string, number>,
+  _catalog?: CraftCatalog,
+): number | null {
+  const mk = String(id);
+  if (manual[mk] != null && manual[mk] > 0) return manual[mk];
+  const dayVwap = prices[mk]?.day_vwap;
+  if (dayVwap != null && dayVwap > 0) return dayVwap;
+  return null;
+}
+
+/** Manual overrides apply only when the user enabled «Задать цены». */
+export function activeCraftManual(
+  manual: Record<string, number>,
+  useManual: boolean,
+): Record<string, number> {
+  return useManual ? manual : {};
+}
+
+export interface CraftBuyCompare {
+  craftTotal: number | null;
+  buyTotal: number | null;
+  bestTotal: number | null;
+  craftOk: boolean;
+  craftable: boolean;
+  cheaper: "craft" | "buy" | null;
+}
+
+/** Shallow craft (direct children) vs buy totals for a tree node. */
+export function compareCraftBuyCost(
+  node: CalcNode,
+  catalog: CraftCatalog,
+  prices: Record<string, PriceInfo>,
+  manual: Record<string, number>,
+): CraftBuyCompare {
+  const craftable = isCraftable(catalog, node.id) && node.children.length > 0;
+  let craftSubtotal = 0;
+  let craftOk = true;
+
+  if (craftable) {
+    for (const child of node.children) {
+      const unit = effectivePrice(child.id, prices, manual, catalog);
+      if (unit == null) craftOk = false;
+      else craftSubtotal += unit * child.net;
+    }
+  }
+
+  const unitBuy = effectivePrice(node.id, prices, manual, catalog);
+  const buyTotal = unitBuy != null && node.net > 0 ? unitBuy * node.net : null;
+  const craftTotal = craftable && craftOk && node.net > 0 ? craftSubtotal : null;
+
+  let bestTotal: number | null = null;
+  let cheaper: "craft" | "buy" | null = null;
+
+  if (buyTotal != null && craftTotal != null) {
+    bestTotal = Math.min(buyTotal, craftTotal);
+    cheaper = craftTotal <= buyTotal ? "craft" : "buy";
+  } else if (buyTotal != null) {
+    bestTotal = buyTotal;
+    cheaper = "buy";
+  } else if (craftTotal != null && craftTotal > 0) {
+    bestTotal = craftTotal;
+    cheaper = "craft";
+  }
+
+  return { craftTotal, buyTotal, bestTotal, craftOk, craftable, cheaper };
+}
 
 export function itemInfo(catalog: CraftCatalog, id: number): CatalogItem {
   return (
@@ -353,29 +421,12 @@ export function buildMultiCraftRollup(
   });
 }
 
-export function effectivePrice(
-  id: number,
-  prices: Record<string, PriceInfo>,
-  manual: Record<string, number>,
-  catalog?: CraftCatalog,
-): number | null {
-  const mk = String(id);
-  if (manual[mk] != null && manual[mk] > 0) return manual[mk];
-  const p = prices[mk];
-  if (p?.day_vwap != null && p.day_vwap > 0) return p.day_vwap;
-  if (p?.last_price != null && p.last_price > 0) return p.last_price;
-  if (p?.avg_price != null && p.avg_price > 0) return p.avg_price;
-  const npc = p?.npc_sell ?? (catalog ? itemInfo(catalog, id).npc_sell : null);
-  if (npc != null && npc > 0) return npc * MARKET_MARKUP;
-  return null;
-}
-
 export function treeCost(
   node: CalcNode,
   catalog: CraftCatalog,
   prices: Record<string, PriceInfo>,
   manual: Record<string, number>,
-): { cost: number | null; crafted: Set<number> } {
+): { cost: number; crafted: Set<number> } {
   if (node.net <= 0 || (node.recipeScroll && !node.recipeConsumed)) {
     return { cost: 0, crafted: new Set() };
   }
@@ -384,27 +435,27 @@ export function treeCost(
   const buyTot = buy != null ? buy * node.net : null;
 
   if (node.base || node.children.length === 0) {
-    return { cost: buyTot, crafted: new Set() };
+    return { cost: buyTot ?? 0, crafted: new Set() };
   }
 
   let craft = 0;
-  let ok = true;
   const crafted = new Set<number>();
   for (const c of node.children) {
     const cc = treeCost(c, catalog, prices, manual);
-    if (cc.cost == null) {
-      ok = false;
-      break;
-    }
     craft += cc.cost;
     cc.crafted.forEach((x) => crafted.add(x));
   }
 
-  if (ok && (buyTot == null || craft <= buyTot)) {
-    crafted.add(node.id);
-    return { cost: craft, crafted };
+  if (buyTot == null || craft <= buyTot) {
+    if (craft > 0 || buyTot == null) {
+      crafted.add(node.id);
+      return { cost: craft, crafted };
+    }
   }
-  return { cost: buyTot, crafted: new Set() };
+  if (buyTot != null) {
+    return { cost: buyTot, crafted: new Set() };
+  }
+  return { cost: craft, crafted: new Set() };
 }
 
 export interface LeafAcc {

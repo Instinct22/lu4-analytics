@@ -1,4 +1,4 @@
-"""Craft resource market monitor: latest-per-seller VWAP, qty, period change %."""
+"""Craft resource market monitor: period VWAP, qty, period change %."""
 
 from __future__ import annotations
 
@@ -10,8 +10,8 @@ from typing import Literal
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from calculations.trading_analytics import PERIOD_HOURS
-from calculations.price_outliers import without_outliers
+from calculations.trading_analytics import PERIOD_HOURS, compute_analytics
+from calculations.price_outliers import partition_market_records
 from models.market import MarketRecord
 from models.wiki import WikiEntity
 from services.admin_settings import get_craft_monitor
@@ -73,7 +73,7 @@ def aggregate_lots(lots: list[MarketRecord]) -> dict:
     return {
         "vwap": _decimal(vwap) if vwap is not None else None,
         "total_quantity": total_qty,
-        "seller_count": len(lots),
+        "seller_count": len({lot.seller_id for lot in lots}),
     }
 
 
@@ -86,22 +86,61 @@ def price_change_pct(current_vwap: Decimal | None, previous_vwap: Decimal | None
     return _decimal((float(current_vwap) - prev) / prev * 100)
 
 
+def resolve_craft_monitor_range(
+    period: str | None,
+    from_date: datetime | None,
+    to_date: datetime | None,
+) -> tuple[datetime, datetime, datetime, datetime]:
+    """Return (current_start, current_end, previous_start, previous_end) for craft monitor."""
+    now = datetime.now(timezone.utc)
+    if from_date and to_date:
+        span = to_date - from_date
+        if span.total_seconds() <= 0:
+            return from_date, to_date, from_date, from_date
+        previous_start = from_date - span
+        return from_date, to_date, previous_start, from_date
+
+    hours = CRAFT_MONITOR_PERIOD_HOURS.get(period or "1h")
+    if hours is None:
+        hours = PERIOD_HOURS.get(period or "1h", 1)
+    delta = timedelta(hours=hours)
+    current_end = now
+    current_start = now - delta
+    previous_start = current_start - delta
+    return current_start, current_end, previous_start, current_start
+
+
 def resolve_craft_monitor_cutoff(
     period: str | None,
     from_date: datetime | None,
     to_date: datetime | None,
 ) -> datetime:
-    """Cutoff timestamp for the previous VWAP snapshot."""
-    now = datetime.now(timezone.utc)
-    if from_date and to_date:
-        span = to_date - from_date
-        if span.total_seconds() <= 0:
-            return from_date
-        return to_date - span
-    hours = CRAFT_MONITOR_PERIOD_HOURS.get(period or "1h")
-    if hours is None:
-        hours = PERIOD_HOURS.get(period or "1h", 1)
-    return now - timedelta(hours=hours)
+    """Start of the current craft-monitor period (kept for tests and callers)."""
+    current_start, _, _, _ = resolve_craft_monitor_range(period, from_date, to_date)
+    return current_start
+
+
+def _records_in_period(
+    records: list[MarketRecord],
+    start: datetime,
+    end: datetime,
+    *,
+    end_inclusive: bool = True,
+) -> list[MarketRecord]:
+    if end_inclusive:
+        return [record for record in records if start <= record.recorded_at <= end]
+    return [record for record in records if start <= record.recorded_at < end]
+
+
+def _period_stats(records: list[MarketRecord]) -> dict:
+    """Same VWAP/volume as trading analytics for a filtered record set."""
+    clean, _ = partition_market_records(records)
+    stats = compute_analytics(clean)
+    return {
+        "vwap": stats["vwap"],
+        "total_quantity": stats["total_volume"] or 0,
+        "seller_count": stats["unique_sellers"],
+    }
 
 
 def build_craft_monitor_cards(
@@ -110,7 +149,9 @@ def build_craft_monitor_cards(
     from_date: datetime | None = None,
     to_date: datetime | None = None,
 ) -> list[dict]:
-    cutoff = resolve_craft_monitor_cutoff(period, from_date, to_date)
+    current_start, current_end, previous_start, previous_end = resolve_craft_monitor_range(
+        period, from_date, to_date
+    )
 
     selected_ids = get_craft_monitor(db)["selectedIds"]
     if not selected_ids:
@@ -141,19 +182,21 @@ def build_craft_monitor_cards(
             )
             continue
 
-        records = without_outliers(
-            list(
-                db.scalars(
-                    select(MarketRecord)
-                    .where(MarketRecord.entity_id == entity.id)
-                    .where(MarketRecord.side == "sell")
-                    .order_by(MarketRecord.recorded_at.desc())
-                ).all()
-            )
+        records = list(
+            db.scalars(
+                select(MarketRecord)
+                .where(MarketRecord.entity_id == entity.id)
+                .where(MarketRecord.side.is_not(None))
+                .where(MarketRecord.recorded_at >= previous_start)
+                .where(MarketRecord.recorded_at <= current_end)
+                .order_by(MarketRecord.recorded_at.desc())
+            ).all()
         )
 
-        current = aggregate_lots(latest_lots_per_seller(records))
-        previous = aggregate_lots(latest_lots_per_seller(records, as_of=cutoff))
+        current = _period_stats(_records_in_period(records, current_start, current_end))
+        previous = _period_stats(
+            _records_in_period(records, previous_start, previous_end, end_inclusive=False)
+        )
         change = price_change_pct(current["vwap"], previous["vwap"])
 
         cards.append(

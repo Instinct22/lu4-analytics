@@ -12,7 +12,7 @@ import { useCraftCart } from "../hooks/useCraftCart";
 import { useCraftCatalog } from "../hooks/useCraftCatalog";
 import { useCraftPrices } from "../hooks/useCraftPrices";
 import { usePreference } from "../hooks/usePreferences";
-import { buildMultiCraftRollup, applyWarehouseConsumption, computeWarehouseConsumption } from "../lib/craftCalc";
+import { buildMultiCraftRollup, applyWarehouseConsumption, computeWarehouseConsumption, activeCraftManual } from "../lib/craftCalc";
 
 type BulkTab = "warehouse" | "crafts" | "shopping";
 
@@ -37,6 +37,7 @@ export default function CraftBulkPage() {
   }, [tabParam, canWarehouse, canBulk]);
 
   const [tab, setTab] = useState<BulkTab>(resolveTab);
+  const [manualPricesActive, setManualPricesActive] = useState(false);
 
   useEffect(() => {
     setTab(resolveTab());
@@ -68,6 +69,10 @@ export default function CraftBulkPage() {
   }, [canBulk, rollup, owned]);
 
   const { serverPrices, manual } = useCraftPrices(canSeePrices ? allMaterialIds : []);
+  const activeManual = useMemo(
+    () => activeCraftManual(manual, manualPricesActive),
+    [manual, manualPricesActive],
+  );
 
   const onOwnedChange = (id: number, val: number) => {
     const next = { ...owned };
@@ -107,16 +112,30 @@ export default function CraftBulkPage() {
     );
   }
 
+  const manualPriceToggle = canSeePrices ? (
+    <button
+      type="button"
+      className={`rounded-lg border px-3 py-1.5 text-xs font-semibold transition-colors ${
+        manualPricesActive
+          ? "border-amber-500 bg-amber-600 text-zinc-950"
+          : "border-zinc-700 bg-zinc-800/80 text-zinc-300 hover:border-amber-500/50"
+      }`}
+      onClick={() => setManualPricesActive(!manualPricesActive)}
+    >
+      {manualPricesActive ? "Ручные цены вкл." : "Задать цены"}
+    </button>
+  ) : null;
+
   if (warehouseOnly) {
     return (
       <div className="min-h-full">
-        <PageHeader title="Склад ресурсов" />
+        <PageHeader title="Склад ресурсов">{manualPriceToggle}</PageHeader>
         <CraftWarehousePanel
           catalog={baseCatalog}
           owned={owned}
           onOwnedChange={onOwnedChange}
           prices={serverPrices}
-          manual={manual}
+          manual={activeManual}
           showPrices={canSeePrices}
         />
       </div>
@@ -167,7 +186,7 @@ export default function CraftBulkPage() {
             entries={rollup}
             owned={owned}
             prices={serverPrices}
-            manual={manual}
+            manual={activeManual}
             onOwnedChange={onOwnedChange}
             showPrices={canSeePrices}
             title="Общий список покупок"
@@ -186,7 +205,7 @@ export default function CraftBulkPage() {
         owned={owned}
         chosenVariants={chosenVariants}
         prices={serverPrices}
-        manual={manual}
+        manual={activeManual}
         onOwnedChange={onOwnedChange}
         onQtyChange={setQty}
         onRemove={remove}
@@ -201,7 +220,10 @@ export default function CraftBulkPage() {
   return (
     <div className="min-h-full">
       <PageHeader title="Массовый крафт">
-        <CraftCartWidget catalog={catalog} />
+        <div className="flex flex-wrap items-center gap-2">
+          {manualPriceToggle}
+          <CraftCartWidget catalog={catalog} />
+        </div>
       </PageHeader>
 
       <div className="mb-4 flex gap-1 rounded-xl bg-zinc-800/80 p-1 lg:hidden">
@@ -217,7 +239,7 @@ export default function CraftBulkPage() {
             owned={owned}
             onOwnedChange={onOwnedChange}
             prices={serverPrices}
-            manual={manual}
+            manual={activeManual}
             showPrices={canSeePrices}
           />
         )}
@@ -236,7 +258,7 @@ export default function CraftBulkPage() {
                 owned={owned}
                 onOwnedChange={onOwnedChange}
                 prices={serverPrices}
-                manual={manual}
+                manual={activeManual}
                 showPrices={canSeePrices}
               />
             }
