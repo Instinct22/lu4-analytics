@@ -61,6 +61,22 @@ class TradingChartResponse(BaseModel):
     outlier_deals: list[ChartDealPoint] = []
 
 
+class DailyAvgPricePoint(BaseModel):
+    day: datetime
+    buy_avg_price: Decimal | None
+    sell_avg_price: Decimal | None
+    buy_deal_count: int
+    sell_deal_count: int
+
+
+class DailyAvgPricesResponse(BaseModel):
+    entity_id: uuid.UUID
+    from_date: datetime
+    to_date: datetime
+    points: list[DailyAvgPricePoint]
+    excluded_outlier_count: int = 0
+
+
 class OrderBookLevel(BaseModel):
     price: Decimal
     volume: int

@@ -16,7 +16,7 @@ from calculations.price_outliers import partition_market_records, without_outlie
 from models.market import MarketRecord, Seller
 from models.wiki import WikiEntity
 
-PeriodKey = Literal["1h", "2h", "3h", "6h", "12h", "1d", "24h", "3d", "7d", "30d"]
+PeriodKey = Literal["1h", "2h", "3h", "6h", "12h", "1d", "24h", "2d", "3d", "7d", "14d", "30d"]
 
 PERIOD_HOURS: dict[str, int] = {
     "1h": 1,
@@ -26,8 +26,10 @@ PERIOD_HOURS: dict[str, int] = {
     "12h": 12,
     "1d": 24,
     "24h": 24,
+    "2d": 48,
     "3d": 72,
     "7d": 168,
+    "14d": 336,
     "30d": 720,
 }
 
@@ -204,6 +206,43 @@ def build_volume_buckets(records: list[MarketRecord], bucket_count: int = 40) ->
             buckets[idx]["sell_volume"] += vol
 
     return [buckets[i] for i in sorted(buckets)]
+
+
+def _record_day(record: MarketRecord) -> datetime:
+    ts = record.recorded_at
+    if ts.tzinfo is None:
+        ts = ts.replace(tzinfo=timezone.utc)
+    day = ts.astimezone(timezone.utc).date()
+    return datetime(day.year, day.month, day.day, tzinfo=timezone.utc)
+
+
+def build_daily_avg_prices(records: list[MarketRecord]) -> list[dict]:
+    if not records:
+        return []
+
+    by_day: dict[datetime, dict[str, list[float]]] = defaultdict(
+        lambda: {"buy": [], "sell": []},
+    )
+    for record in records:
+        if record.side not in {"buy", "sell"}:
+            continue
+        by_day[_record_day(record)][record.side].append(float(record.price))
+
+    points: list[dict] = []
+    for day in sorted(by_day):
+        sides = by_day[day]
+        buy_prices = sides["buy"]
+        sell_prices = sides["sell"]
+        points.append(
+            {
+                "day": day,
+                "buy_avg_price": _decimal(sum(buy_prices) / len(buy_prices)) if buy_prices else None,
+                "sell_avg_price": _decimal(sum(sell_prices) / len(sell_prices)) if sell_prices else None,
+                "buy_deal_count": len(buy_prices),
+                "sell_deal_count": len(sell_prices),
+            }
+        )
+    return points
 
 
 def detect_lucky_moments(records: list[MarketRecord], seller_names: dict[uuid.UUID, str]) -> list[dict]:

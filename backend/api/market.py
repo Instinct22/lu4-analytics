@@ -12,6 +12,7 @@ from schemas.market import MarketItemsResponse, MarketTimelineResponse, MarketVa
 from schemas.trading import (
     BuyPlanResponse,
     CraftMonitorResponse,
+    DailyAvgPricesResponse,
     ItemsOverviewResponse,
     LuckyMomentsResponse,
     OrderBookResponse,
@@ -107,6 +108,25 @@ def trading_chart(
     )
 
 
+@router.get("/daily-avg-prices", response_model=DailyAvgPricesResponse)
+def daily_avg_prices(
+    db: DbSession,
+    user: MarketUser,
+    entity_id: uuid.UUID,
+    period: str = Query("24h"),
+    from_date: datetime | None = Query(None, alias="from"),
+    to_date: datetime | None = Query(None, alias="to"),
+    soul_crystal: str | None = Query(None),
+    enchant_level: str | None = Query(None),
+    rarity: str | None = Query(None),
+    armor_class: str | None = Query(None),
+    sealed: str | None = Query(None),
+):
+    return market_service.daily_avg_prices(
+        db, entity_id, period, from_date, to_date, soul_crystal, enchant_level, rarity, armor_class, sealed
+    )
+
+
 @router.get("/analytics", response_model=TradingAnalyticsResponse)
 def trading_analytics(
     db: DbSession,
@@ -180,7 +200,7 @@ def items_overview(
 def craft_monitor(
     db: DbSession,
     user: MarketUser,
-    period: str = Query("1d", pattern="^(1h|2h|3h|6h|12h|1d|3d)$"),
+    period: str = Query("1d"),
     from_date: datetime | None = Query(None, alias="from"),
     to_date: datetime | None = Query(None, alias="to"),
 ):

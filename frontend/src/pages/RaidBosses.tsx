@@ -5,7 +5,7 @@ import RaidBossDetail from "../components/raid/RaidBossDetail";
 import RaidBossMap from "../components/raid/RaidBossMap";
 import RaidSoundSettings from "../components/raid/RaidSoundSettings";
 import RaidTimerBanners from "../components/raid/RaidTimerBanners";
-import RaidVisibilitySettings from "../components/raid/RaidVisibilitySettings";
+import RaidVisibilitySettingsPopover from "../components/raid/RaidVisibilitySettingsPopover";
 import LevelRangeControl from "../components/settings/LevelRangeControl";
 import { PageHeader } from "../components/ui";
 import { getRaidBosses, getRaidVisibility, putRaidVisibility } from "../api/raid";
@@ -22,7 +22,6 @@ const SAVE_DEBOUNCE_MS = 400;
 export default function RaidBossesPage() {
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState<number | null>(null);
-  const [settingsOpen, setSettingsOpen] = useState(false);
   const { hasPermission } = useAuth();
   const canWrite = hasPermission("feature.raid_timers_write");
   const canViewTimers = hasPermission("feature.raid_timers_view");
@@ -125,15 +124,7 @@ export default function RaidBossesPage() {
     [],
   );
 
-  const openSettings = () => {
-    setSelectedId(null);
-    setSettingsOpen(true);
-  };
-
-  const closeSettings = () => setSettingsOpen(false);
-
   const selectBoss = (id: number) => {
-    setSettingsOpen(false);
     setSelectedId(id);
   };
 
@@ -151,7 +142,7 @@ export default function RaidBossesPage() {
     }, SAVE_DEBOUNCE_MS);
   };
 
-  const showRightPanel = settingsOpen || selected != null;
+  const showDetailPanel = selected != null;
 
   return (
     <div className="min-h-full">
@@ -208,13 +199,12 @@ export default function RaidBossesPage() {
                 <span>Уровень</span>
                 <span className="flex items-center gap-2">
                   {canManageVisibility && (
-                    <button
-                      type="button"
-                      onClick={openSettings}
-                      className="text-amber-400/80 hover:text-amber-300"
-                    >
-                      Список РБ
-                    </button>
+                    <RaidVisibilitySettingsPopover
+                      bosses={bosses}
+                      hiddenIds={hiddenIds}
+                      onToggle={toggleVisibility}
+                      saving={visibilityMutation.isPending}
+                    />
                   )}
                   <Link to="/settings" className="text-amber-400/80 hover:text-amber-300">
                     Настройки
@@ -234,7 +224,7 @@ export default function RaidBossesPage() {
           <div className="panel max-h-[28rem] overflow-y-auto xl:max-h-[calc(100vh-17rem)]">
             <ul className="divide-y divide-zinc-800/70">
               {filtered.map((boss) => {
-                const active = !settingsOpen && boss.id === selectedId;
+                const active = boss.id === selectedId;
                 const timer = snapshots.get(boss.id);
                 const note = notesByBossId.get(boss.id);
                 return (
@@ -297,40 +287,30 @@ export default function RaidBossesPage() {
             <RaidBossMap
               payload={payload}
               bosses={filtered}
-              selectedId={settingsOpen ? null : selectedId}
+              selectedId={selectedId}
               onSelect={selectBoss}
               timers={canViewTimers ? snapshots : new Map()}
             />
           )}
         </div>
 
-        {showRightPanel && (
+        {showDetailPanel && selected ? (
           <div className="flex h-[min(40rem,calc(100vh-8rem))] w-full shrink-0 flex-col xl:h-[calc(100vh-12rem)] xl:w-[26rem] 2xl:w-[32rem]">
-            {settingsOpen && canManageVisibility ? (
-              <RaidVisibilitySettings
-                bosses={bosses}
-                hiddenIds={hiddenIds}
-                onToggle={toggleVisibility}
-                onClose={closeSettings}
-                saving={visibilityMutation.isPending}
-              />
-            ) : selected ? (
-              <RaidBossDetail
-                boss={selected}
-                timer={canViewTimers ? snapshots.get(selected.id) ?? null : null}
-                note={notesByBossId.get(selected.id) ?? ""}
-                canWrite={canWrite}
-                canViewTimers={canViewTimers}
-                canViewRoute={canViewRoute}
-                onClose={() => setSelectedId(null)}
-                onStart={(hhmm) => startFromInput(selected.id, hhmm)}
-                onAuto={() => startAuto(selected.id)}
-                onClear={() => clearTimer(selected.id)}
-                onNoteChange={(value) => saveNote(selected.id, value)}
-              />
-            ) : null}
+            <RaidBossDetail
+              boss={selected}
+              timer={canViewTimers ? snapshots.get(selected.id) ?? null : null}
+              note={notesByBossId.get(selected.id) ?? ""}
+              canWrite={canWrite}
+              canViewTimers={canViewTimers}
+              canViewRoute={canViewRoute}
+              onClose={() => setSelectedId(null)}
+              onStart={(hhmm) => startFromInput(selected.id, hhmm)}
+              onAuto={() => startAuto(selected.id)}
+              onClear={() => clearTimer(selected.id)}
+              onNoteChange={(value) => saveNote(selected.id, value)}
+            />
           </div>
-        )}
+        ) : null}
       </div>
     </div>
   );

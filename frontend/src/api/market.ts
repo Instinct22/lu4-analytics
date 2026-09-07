@@ -63,6 +63,27 @@ export async function getMarketAnalytics(params: Record<string, unknown>) {
   return data;
 }
 
+export interface DailyAvgPricePoint {
+  day: string;
+  buy_avg_price: number | string | null;
+  sell_avg_price: number | string | null;
+  buy_deal_count: number;
+  sell_deal_count: number;
+}
+
+export interface DailyAvgPricesResponse {
+  entity_id: string;
+  from_date: string;
+  to_date: string;
+  points: DailyAvgPricePoint[];
+  excluded_outlier_count?: number;
+}
+
+export async function getDailyAvgPrices(params: Record<string, unknown>) {
+  const { data } = await api.get("/market/daily-avg-prices", { params });
+  return data as DailyAvgPricesResponse;
+}
+
 export async function getOrderBook(params: Record<string, unknown>) {
   const { data } = await api.get("/market/order-book", { params });
   return data;
@@ -88,7 +109,19 @@ export async function getPricesByIds(ids: string) {
   return data;
 }
 
-export type CraftMonitorPeriod = "1h" | "2h" | "3h" | "6h" | "12h" | "1d" | "3d" | "custom";
+export type CraftMonitorPeriod =
+  | "1h"
+  | "2h"
+  | "3h"
+  | "6h"
+  | "12h"
+  | "1d"
+  | "2d"
+  | "3d"
+  | "7d"
+  | "14d"
+  | "30d"
+  | "custom";
 
 export interface CraftMonitorCard {
   external_id: number;

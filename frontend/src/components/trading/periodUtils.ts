@@ -5,7 +5,11 @@ export const PERIOD_PRESETS = [
   { key: "6h", label: "6ч" },
   { key: "12h", label: "12ч" },
   { key: "1d", label: "1д" },
+  { key: "2d", label: "2д" },
   { key: "3d", label: "3д" },
+  { key: "7d", label: "Неделя" },
+  { key: "14d", label: "2 нед." },
+  { key: "30d", label: "Месяц" },
 ] as const;
 
 export type PeriodKey = (typeof PERIOD_PRESETS)[number]["key"] | "custom";
@@ -23,7 +27,11 @@ const PERIOD_HOURS: Record<Exclude<PeriodKey, "custom">, number> = {
   "6h": 6,
   "12h": 12,
   "1d": 24,
+  "2d": 48,
   "3d": 72,
+  "7d": 168,
+  "14d": 336,
+  "30d": 720,
 };
 
 /** Bucket step for market timeline charts, derived from the selected period length. */

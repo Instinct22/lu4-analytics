@@ -342,7 +342,7 @@ export default function CraftProfitability() {
           <p className="mb-2 text-[0.65rem] font-medium uppercase tracking-wider text-zinc-500">
             Период
           </p>
-          <PeriodSelector value={period} onChange={setPeriod} />
+          <PeriodSelector value={period} onChange={setPeriod} align="start" />
         </div>
 
         <div>

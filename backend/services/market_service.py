@@ -24,12 +24,14 @@ from calculations.top_offers import build_top_offers
 from calculations.trading_analytics import (
     apply_variant_filters,
     build_chart_deals,
+    build_daily_avg_prices,
     build_items_overview,
     build_order_book,
     build_volume_buckets,
     compute_analytics,
     detect_lucky_moments,
     fetch_records,
+    PERIOD_HOURS,
     resolve_time_range,
 )
 from core.errors import AppError
@@ -53,6 +55,8 @@ from schemas.trading import (
     ChartDealPoint,
     CraftMonitorCard,
     CraftMonitorResponse,
+    DailyAvgPricePoint,
+    DailyAvgPricesResponse,
     DealHighlight,
     ItemOverviewCard,
     ItemsOverviewResponse,
@@ -334,6 +338,34 @@ def trading_chart(
     )
 
 
+def daily_avg_prices(
+    db: Session,
+    entity_id: uuid.UUID,
+    period: str,
+    from_date: datetime | None,
+    to_date: datetime | None,
+    soul_crystal: str | None = None,
+    enchant_level: int | str | None = None,
+    rarity: str | None = None,
+    armor_class: str | None = None,
+    sealed: str | bool | None = None,
+) -> DailyAvgPricesResponse:
+    get_item_or_404(db, entity_id)
+    start, end = resolve_time_range(period, from_date, to_date)
+    records, _ = fetch_records(
+        db, entity_id, start, end,
+        soul_crystal=soul_crystal, enchant_level=enchant_level, rarity=rarity, armor_class=armor_class, sealed=sealed,
+    )
+    clean, _, excluded_count = _split_outliers(records)
+    return DailyAvgPricesResponse(
+        entity_id=entity_id,
+        from_date=start,
+        to_date=end,
+        points=[DailyAvgPricePoint(**point) for point in build_daily_avg_prices(clean)],
+        excluded_outlier_count=excluded_count,
+    )
+
+
 def trading_analytics(
     db: Session,
     entity_id: uuid.UUID,
@@ -463,7 +495,7 @@ def craft_monitor(
 ) -> CraftMonitorResponse:
     if from_date and to_date:
         resolved = "custom"
-    elif period in CRAFT_MONITOR_PERIOD_HOURS:
+    elif period in CRAFT_MONITOR_PERIOD_HOURS or period in PERIOD_HOURS:
         resolved = period
     else:
         raise AppError(

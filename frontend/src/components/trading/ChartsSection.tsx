@@ -22,7 +22,7 @@ export default function ChartsSection({
 }: Props) {
   return (
     <div className="card !p-0 overflow-hidden">
-      <div className="flex flex-wrap items-start justify-between gap-3 border-b border-zinc-800/80 px-4 py-3">
+      <div className="flex flex-col gap-3 border-b border-zinc-800/80 px-4 py-3 sm:flex-row sm:items-start sm:justify-between">
         <button
           type="button"
           onClick={onToggle}
@@ -37,7 +37,7 @@ export default function ChartsSection({
             {description ? <p className="mt-0.5 text-xs text-zinc-500">{description}</p> : null}
           </div>
         </button>
-        <PeriodSelector value={period} onChange={onPeriodChange} stopPropagation />
+        <PeriodSelector value={period} onChange={onPeriodChange} stopPropagation align="end" />
       </div>
       {open ? <div className="p-4">{children}</div> : null}
     </div>

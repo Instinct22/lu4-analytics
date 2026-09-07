@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { useSearchParams } from "react-router-dom";
 import {
+  getDailyAvgPrices,
   getLuckyMoments,
   getMarketAnalytics,
   getMarketChart,
@@ -14,6 +15,7 @@ import VariantFilter, { VariantSelection } from "../components/trading/VariantFi
 import AnalyticsPanel from "../components/trading/AnalyticsPanel";
 import ChartsSection from "../components/trading/ChartsSection";
 import CraftResourcesMonitor from "../components/trading/CraftResourcesMonitor";
+import DailyAvgPriceChart from "../components/trading/DailyAvgPriceChart";
 import {
   GatherBuyControls,
   GatherBuyResult,
@@ -34,11 +36,12 @@ const defaultPeriod = (): PeriodState => ({
   to: "",
 });
 
-type SectionKey = "craft" | "analytics" | "chart" | "trades" | "orderBook" | "lucky";
+type SectionKey = "craft" | "analytics" | "dailyAvg" | "chart" | "trades" | "orderBook" | "lucky";
 
 const defaultOpen: Record<SectionKey, boolean> = {
   craft: true,
   analytics: true,
+  dailyAvg: true,
   chart: true,
   trades: true,
   orderBook: true,
@@ -154,6 +157,12 @@ export default function Charts() {
     enabled: queryEnabled,
   });
 
+  const { data: dailyAvgPrices, isLoading: dailyAvgLoading, error: dailyAvgError } = useQuery({
+    queryKey: ["daily-avg-prices", entityId, periodParams, variantParams],
+    queryFn: () => getDailyAvgPrices({ entity_id: entityId, ...periodParams, ...variantParams }),
+    enabled: queryEnabled,
+  });
+
   const { data: orderBook } = useQuery({
     queryKey: ["trading-order-book", entityId, periodParams, variantParams],
     queryFn: () => getOrderBook({ entity_id: entityId, ...periodParams, ...variantParams }),
@@ -248,6 +257,27 @@ export default function Charts() {
             onPeriodChange={handlePeriodChange}
           >
             <AnalyticsPanel data={analytics} />
+          </ChartsSection>
+
+          <ChartsSection
+            title="Средняя цена по дням"
+            description="Линейный график средней цены buy и sell по календарным дням"
+            open={openSections.dailyAvg}
+            onToggle={() => toggleSection("dailyAvg")}
+            period={period}
+            onPeriodChange={handlePeriodChange}
+          >
+            {dailyAvgLoading ? (
+              <LoadingState />
+            ) : dailyAvgError ? (
+              <ErrorState message="Ошибка загрузки графика средней цены" />
+            ) : (
+              <DailyAvgPriceChart
+                points={dailyAvgPrices?.points ?? []}
+                excludedOutlierCount={dailyAvgPrices?.excluded_outlier_count ?? 0}
+                height={chartHeight}
+              />
+            )}
           </ChartsSection>
 
           <ChartsSection

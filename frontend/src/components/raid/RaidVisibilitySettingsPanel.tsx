@@ -4,11 +4,10 @@ import { raidBossImageUrl } from "../../lib/raidTimers";
 
 type Props = {
   bosses: RaidBoss[];
-  /** Boss ids currently hidden from the main list. */
   hiddenIds: Set<number>;
   onToggle: (bossId: number, visible: boolean) => void;
-  onClose: () => void;
   saving?: boolean;
+  listMaxHeight?: string;
 };
 
 function ToggleSwitch({
@@ -48,12 +47,12 @@ function ToggleSwitch({
   );
 }
 
-export default function RaidVisibilitySettings({
+export default function RaidVisibilitySettingsPanel({
   bosses,
   hiddenIds,
   onToggle,
-  onClose,
   saving = false,
+  listMaxHeight = "max-h-[min(22rem,45vh)]",
 }: Props) {
   const [query, setQuery] = useState("");
 
@@ -77,34 +76,25 @@ export default function RaidVisibilitySettings({
   const visibleCount = bosses.length - hiddenIds.size;
 
   return (
-    <div className="panel flex h-full min-h-0 flex-col overflow-hidden">
-      <div className="shrink-0 border-b border-zinc-800/80 p-4">
-        <div className="mb-3 flex items-start justify-between gap-2">
-          <div className="min-w-0 flex-1">
-            <h3 className="text-lg font-semibold text-zinc-50">Список рейд-боссов</h3>
-            <p className="mt-1 text-sm text-zinc-500">
-              Включённые боссы видны всем · {visibleCount} из {bosses.length}
-              {saving ? " · сохранение…" : ""}
-            </p>
-          </div>
-          <button
-            type="button"
-            onClick={onClose}
-            className="btn-ghost shrink-0 px-2.5 py-1 text-xs text-zinc-400"
-            aria-label="Закрыть"
-          >
-            ✕
-          </button>
-        </div>
-        <input
-          className="input"
-          placeholder="Поиск по имени или локации…"
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
+    <div className="space-y-3">
+      <div>
+        <p className="text-sm font-medium text-zinc-100">Список рейд-боссов</p>
+        <p className="mt-0.5 text-xs text-zinc-500">
+          Включённые боссы видны всем · {visibleCount} из {bosses.length}
+          {saving ? " · сохранение…" : ""}
+        </p>
       </div>
 
-      <ul className="min-h-0 flex-1 divide-y divide-zinc-800/70 overflow-y-auto">
+      <input
+        className="input text-sm"
+        placeholder="Поиск по имени или локации…"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
+
+      <ul
+        className={`divide-y divide-zinc-800/70 overflow-y-auto rounded-xl border border-zinc-800/80 ${listMaxHeight}`}
+      >
         {sorted.map((boss) => {
           const visible = !hiddenIds.has(boss.id);
           const image = raidBossImageUrl(boss.image);
@@ -113,7 +103,7 @@ export default function RaidVisibilitySettings({
             <li key={boss.id}>
               <div
                 className={[
-                  "flex items-center gap-3 px-3 py-2.5 transition-colors",
+                  "flex items-center gap-3 px-3 py-2 transition-colors",
                   visible ? "hover:bg-zinc-800/40" : "bg-zinc-950/40 opacity-70 hover:opacity-100",
                 ].join(" ")}
               >
@@ -121,12 +111,12 @@ export default function RaidVisibilitySettings({
                   <img
                     src={image}
                     alt=""
-                    className="h-10 w-10 shrink-0 rounded-lg object-cover ring-1 ring-zinc-700/80"
+                    className="h-9 w-9 shrink-0 rounded-lg object-cover ring-1 ring-zinc-700/80"
                     loading="lazy"
                     referrerPolicy="no-referrer"
                   />
                 ) : (
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-zinc-800/80 text-[0.65rem] text-zinc-500 ring-1 ring-zinc-700/80">
+                  <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-zinc-800/80 text-[0.65rem] text-zinc-500 ring-1 ring-zinc-700/80">
                     RB
                   </div>
                 )}
@@ -159,7 +149,7 @@ export default function RaidVisibilitySettings({
           );
         })}
         {sorted.length === 0 && (
-          <li className="px-4 py-8 text-center text-sm text-zinc-500">Ничего не найдено</li>
+          <li className="px-3 py-8 text-center text-sm text-zinc-500">Ничего не найдено</li>
         )}
       </ul>
     </div>

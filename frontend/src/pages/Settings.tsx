@@ -5,7 +5,6 @@ import {
   updateAdminLevelPreset,
   updateAdminLevelRestriction,
 } from "../api/admin";
-import CraftMonitorSettings from "../components/settings/CraftMonitorSettings";
 import LevelRangeControl from "../components/settings/LevelRangeControl";
 import { PageHeader } from "../components/ui";
 import { useAuth } from "../hooks/useAuth";
@@ -163,8 +162,6 @@ export default function SettingsPage() {
             />
           )}
         </div>
-
-        {isSuperadmin && <CraftMonitorSettings />}
       </div>
     </div>
   );
