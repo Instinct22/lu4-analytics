@@ -281,7 +281,7 @@ def test_item_endpoint_404(client, mock_db):
     assert client.get("/api/craft/items/999").status_code == 404
 
 
-def test_material_sources_endpoint_groups_by_kind(client, mock_db):
+def test_material_sources_endpoint_groups_by_kind(craft_client, mock_db):
     rows = [
         SimpleNamespace(
             source_kind="spoil",
@@ -293,7 +293,7 @@ def test_material_sources_endpoint_groups_by_kind(client, mock_db):
             amount="1",
             chance_text="30%",
             chance_val=30.0,
-            locations=[],
+            locations=[{"name": "Gludio", "url": "/lu4/map/1"}],
         ),
         SimpleNamespace(
             source_kind="drop",
@@ -310,14 +310,13 @@ def test_material_sources_endpoint_groups_by_kind(client, mock_db):
     ]
     mock_db.scalars.side_effect = scalars_by_model({"CraftMaterialSource": rows})
 
-    r = client.get("/api/craft/resources/30/sources")
+    r = craft_client.get("/api/craft/resources/30/sources")
     assert r.status_code == 200
     body = r.json()
     assert [s["npc_id"] for s in body["spoil"]] == [500]
-    assert [s["npc_id"] for s in body["drop"]] == [501]
-    # The wiki writes levels as "Lv. 12"; the UI filters on plain numbers.
+    assert body["drop"] == []
     assert body["spoil"][0]["npc_level"] == "12"
-    assert body["drop"][0]["npc_level"] == "unknown"
+    assert body["spoil"][0]["locations"] == [{"name": "Gludio", "url": "/lu4/map/1"}]
 
 
 def test_npc_materials_endpoint_is_not_shadowed_by_material_route(client, mock_db):

@@ -15,7 +15,7 @@ from sqlalchemy.orm import Session
 from config import settings
 from models.craft import CraftItem, CraftMaterialSource, CraftRecipe, CraftRecipeMaterial
 from models.item_encyclopedia import ItemEncyclopedia
-from models.wiki import WikiEntity
+from models.wiki import EntityLink, WikiEntity
 from services.dataset_import import register_normalizer, upsert_blob
 from services.encyclopedia_lib import sanitize_item_payload
 from services.import_service import rematch_market_records
@@ -189,6 +189,66 @@ def _source_locations(source: dict[str, Any], wiki: dict[str, Any] | None) -> li
     if wiki and wiki.get("locations"):
         return list(wiki["locations"])
     return []
+
+
+def _npc_locations_from_db(db: Session, npc_id: int) -> list[dict[str, str]]:
+    """Location links for one NPC from wiki_entities + entity_links."""
+    entity = db.scalar(
+        select(WikiEntity).where(
+            WikiEntity.entity_type == "npc",
+            WikiEntity.external_id == npc_id,
+        )
+    )
+    if entity is None:
+        return []
+    links = db.scalars(select(EntityLink).where(EntityLink.source_entity_id == entity.id)).all()
+    if not links:
+        return []
+    target_ids = {link.target_entity_id for link in links}
+    locations_by_id = {
+        t.id: t
+        for t in db.scalars(
+            select(WikiEntity).where(
+                WikiEntity.id.in_(target_ids),
+                WikiEntity.entity_type == "location",
+            )
+        ).all()
+    }
+    locations: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for link in links:
+        target = locations_by_id.get(link.target_entity_id)
+        if target is None:
+            continue
+        name = (target.display_name or target.name or "").strip()
+        url = _clean_wiki_path(target.url)
+        key = url or name
+        if not name or key in seen:
+            continue
+        seen.add(key)
+        locations.append({"name": name, "url": url})
+    return locations
+
+
+def npc_has_location(db: Session, npc_id: int) -> bool:
+    """True when the NPC has at least one location in wiki JSON or imported entity links."""
+    if _source_locations({}, resolve_npc_wiki_meta(npc_id)):
+        return True
+    return bool(_npc_locations_from_db(db, npc_id))
+
+
+def _source_has_location(db: Session, source: dict[str, Any]) -> bool:
+    if _source_locations(source, None):
+        return True
+    npc_id = source.get("npc_id")
+    if not isinstance(npc_id, int):
+        return False
+    return npc_has_location(db, npc_id)
+
+
+def _sources_with_location(db: Session, rows: Any) -> list[dict]:
+    """Usable drop/spoil rows that have a resolvable farm location."""
+    return [source for source in _usable_sources(rows) if _source_has_location(db, source)]
 
 
 def _flatten_tree(nodes: list, depth: int = 0) -> Iterator[tuple[int, int, bool]]:
@@ -440,10 +500,13 @@ def _import_material_sources_from_encyclopedia(db: Session, payload: dict[str, A
         iid = item.get("id") if isinstance(item.get("id"), int) else int(raw_id)
         if usage.get(iid, 0) < _MIN_CRAFT_USAGE:
             continue
-        drops = _usable_sources(item.get("drops"))
-        spoils = _usable_sources(item.get("spoils"))
-        if not drops and not spoils:
+        raw_drops = _usable_sources(item.get("drops"))
+        raw_spoils = _usable_sources(item.get("spoils"))
+        if not raw_drops and not raw_spoils:
             continue
+
+        drops = _sources_with_location(db, raw_drops)
+        spoils = _sources_with_location(db, raw_spoils)
 
         section = _material_section(item)
         craft = item.get("craft") if isinstance(item.get("craft"), dict) else {}
@@ -559,6 +622,12 @@ def normalize_items_encyclopedia(db: Session, payload: Any) -> None:
             continue
         external_id = item.get("id") if isinstance(item.get("id"), int) else int(raw_id)
         clean = sanitize_item_payload(item)
+        for field in ("drops", "spoils"):
+            rows = clean.get(field)
+            if isinstance(rows, list):
+                clean[field] = _sources_with_location(db, rows)
+        clean["has_drop"] = bool(clean.get("drops"))
+        clean["has_spoil"] = bool(clean.get("spoils"))
         db.add(
             ItemEncyclopedia(
                 external_id=external_id,

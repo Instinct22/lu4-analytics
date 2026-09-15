@@ -286,6 +286,15 @@ def _source_json(row: CraftMaterialSource, meta: dict | None = None) -> dict:
     }
 
 
+def _located_sources(rows: list, meta: dict) -> list[dict]:
+    located: list[dict] = []
+    for row in rows:
+        data = _source_json(row, meta.get(row.npc_external_id))
+        if data.get("locations"):
+            located.append(data)
+    return located
+
+
 def material_sources(db: Session, material_id: int) -> dict:
     rows = db.scalars(
         select(CraftMaterialSource)
@@ -293,10 +302,12 @@ def material_sources(db: Session, material_id: int) -> dict:
         .order_by(CraftMaterialSource.sort_order)
     ).all()
     meta = _npc_meta_lookup(db, {r.npc_external_id for r in rows if r.npc_external_id is not None})
+    spoil_rows = [r for r in rows if r.source_kind == "spoil"]
+    drop_rows = [r for r in rows if r.source_kind == "drop"]
     return {
         "material_id": material_id,
-        "spoil": [_source_json(r, meta.get(r.npc_external_id)) for r in rows if r.source_kind == "spoil"],
-        "drop": [_source_json(r, meta.get(r.npc_external_id)) for r in rows if r.source_kind == "drop"],
+        "spoil": _located_sources(spoil_rows, meta),
+        "drop": _located_sources(drop_rows, meta),
     }
 
 

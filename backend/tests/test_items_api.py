@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from unittest.mock import MagicMock
+from unittest.mock import MagicMock, patch
 
 import pytest
 
@@ -125,3 +125,42 @@ def test_browse_returns_gear_craft_slice():
     assert result["craft"]["sets"]["Bone Set"] == [10]
     assert result["duals"] is not None
     assert result["craft"]["byProduct"] == {}
+
+
+def test_item_sources_excludes_mobs_without_location():
+    row = MagicMock()
+    row.external_id = 4052
+    row.payload = {
+        "drops": [
+            {
+                "npc_id": 500,
+                "npc_name": "Goblin",
+                "npc_level": 12,
+                "npc_level_raw": "Lv. 12",
+                "amount": "1",
+                "chance": "30%",
+            },
+            {
+                "npc_id": 21181,
+                "npc_name": "Lilim Assassin",
+                "npc_level": 66,
+                "npc_level_raw": "Lv. 66",
+                "amount": "1",
+                "chance": "0.01%",
+            },
+        ],
+        "spoils": [],
+    }
+
+    db = MagicMock()
+    db.get.return_value = row
+
+    with patch(
+        "services.items_service._npc_meta_lookup",
+        return_value={500: {"locations": [{"name": "Gludio", "url": "/lu4/location/1"}]}},
+    ):
+        result = items_service.item_sources(db, 4052)
+
+    assert result is not None
+    assert [source["npc_id"] for source in result["drops"]] == [500]
+    assert result["spoils"] == []

@@ -11,6 +11,7 @@ from models.analytics import AnalyticsDataset
 from models.craft import CraftItem, CraftRecipe
 from models.item_encyclopedia import ItemEncyclopedia
 from calculations.npc_prices import compute_npc_buy
+from services.craft_service import _npc_meta_lookup
 from services.encyclopedia_lib import sanitize_item_payload
 from services.normalizers.craft import CATALOG_META_KEY
 from services.normalizers.items_encyclopedia import ENCYCLOPEDIA_META_KEY
@@ -189,13 +190,38 @@ def item_detail(db: Session, external_id: int) -> dict | None:
     return out
 
 
+def _filter_sources_with_locations(db: Session, rows: list) -> list:
+    if not rows:
+        return []
+    npc_ids = {
+        int(row["npc_id"])
+        for row in rows
+        if isinstance(row, dict) and isinstance(row.get("npc_id"), int)
+    }
+    meta = _npc_meta_lookup(db, npc_ids)
+    filtered: list = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        npc_id = row.get("npc_id")
+        if not isinstance(npc_id, int):
+            continue
+        inline = row.get("locations")
+        locations = inline if isinstance(inline, list) and inline else (meta.get(npc_id) or {}).get("locations") or []
+        if locations:
+            filtered.append(row)
+    return filtered
+
+
 def item_sources(db: Session, external_id: int) -> dict | None:
     row = db.get(ItemEncyclopedia, external_id)
     if row is None:
         return None
     payload = sanitize_item_payload(row.payload or {})
+    drops = _filter_sources_with_locations(db, payload.get("drops") or [])
+    spoils = _filter_sources_with_locations(db, payload.get("spoils") or [])
     return {
         "id": row.external_id,
-        "drops": payload.get("drops") or [],
-        "spoils": payload.get("spoils") or [],
+        "drops": drops,
+        "spoils": spoils,
     }
