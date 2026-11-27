@@ -67,7 +67,17 @@ export default function RaidBossesPage() {
     setWindowSound,
     previewSound,
   } = useRaidTimerSounds();
-  useRaidTimerSoundAlerts(snapshots, canViewTimers && soundEnabled);
+  const [repeatSound, setRepeatSound] = useState(() => {
+    try { return localStorage.getItem("lu4.raid_repeat_sound") === "1"; }
+    catch { return false; }
+  });
+  const toggleRepeatSound = () => {
+    const next = !repeatSound;
+    setRepeatSound(next);
+    try { localStorage.setItem("lu4.raid_repeat_sound", next ? "1" : "0"); }
+    catch { /* The setting still applies for this visit. */ }
+  };
+  const { pending, acknowledge } = useRaidTimerSoundAlerts(snapshots, canViewTimers && soundEnabled, repeatSound);
 
   const hiddenIds = useMemo(() => new Set(visibility?.hiddenIds ?? []), [visibility]);
 
@@ -151,6 +161,8 @@ export default function RaidBossesPage() {
           {canViewTimers && (
             <RaidSoundSettings
               enabled={soundEnabled}
+              repeat={repeatSound}
+              onToggleRepeat={toggleRepeatSound}
               soonSoundId={soonSoundId}
               windowSoundId={windowSoundId}
               onToggleEnabled={toggleSound}
@@ -168,6 +180,15 @@ export default function RaidBossesPage() {
           </p>
         </div>
       </PageHeader>
+
+      {canViewTimers && pending && (
+        <div role="alert" className="card mb-4 flex flex-wrap items-center gap-4 border-amber-500/50">
+          <span>Сработало оповещение таймера РБ</span>
+          <button type="button" className="btn-primary" onClick={acknowledge}>
+            Подтвердить и выключить звук
+          </button>
+        </div>
+      )}
 
       {isError && (
         <div className="card mb-5 text-sm text-red-400">Не удалось загрузить рейд-боссов.</div>

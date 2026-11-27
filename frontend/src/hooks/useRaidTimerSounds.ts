@@ -8,6 +8,7 @@ import {
   readRaidTimerSoundsEnabled,
   snapshotPhases,
   stopSoundPreview,
+  stopPhaseAlert,
   unlockRaidTimerSounds,
   writeRaidTimerSoundSelection,
   writeRaidTimerSoundsEnabled,
@@ -69,7 +70,19 @@ export function useRaidTimerSounds() {
 export function useRaidTimerSoundAlerts(
   snapshots: Map<number, TimerSnapshot>,
   enabled: boolean,
+  repeat: boolean,
 ) {
+  const [pending, setPending] = useState(false);
+  const acknowledge = useCallback(() => {
+    stopPhaseAlert();
+    setPending(false);
+  }, []);
+
+  useEffect(() => {
+    if (!enabled || !repeat) acknowledge();
+    return stopPhaseAlert;
+  }, [enabled, repeat, acknowledge]);
+
   const prevPhasesRef = useRef<Map<number, TrackedPhase>>(new Map());
   const initializedRef = useRef(false);
 
@@ -89,7 +102,9 @@ export function useRaidTimerSoundAlerts(
 
     const alerts = detectPhaseAlerts(prevPhasesRef.current, snapshots);
     for (const alert of alerts) {
-      playPhaseAlert(alert);
+      playPhaseAlert(alert, repeat);
+      if (repeat) setPending(true);
     }
-  }, [snapshots, enabled]);
+  }, [snapshots, enabled, repeat]);
+  return { pending, acknowledge };
 }

@@ -110,6 +110,16 @@ export function detectPhaseAlerts(
 }
 
 const audioByUrl = new Map<string, HTMLAudioElement>();
+let activeAlert: HTMLAudioElement | null = null;
+
+export function stopPhaseAlert(): void {
+  if (!activeAlert) return;
+  activeAlert.pause();
+  activeAlert.loop = false;
+  activeAlert.currentTime = 0;
+  activeAlert = null;
+}
+
 let previewAudio: HTMLAudioElement | null = null;
 let previewPlayingId: string | null = null;
 
@@ -146,9 +156,13 @@ export async function unlockRaidTimerSounds(): Promise<void> {
   }
 }
 
-export function playPhaseAlert(alert: PhaseAlert): void {
+export function playPhaseAlert(alert: PhaseAlert, repeat = false): void {
+  stopPhaseAlert();
   stopSoundPreview();
   const audio = getAudioForUrl(getSoundUrlForAlert(alert));
+  activeAlert = audio;
+  audio.loop = repeat;
+  audio.volume = 1;
   audio.currentTime = 0;
   void audio.play().catch(() => {
     // Autoplay blocked or missing file — ignore.
@@ -176,7 +190,7 @@ export function playSoundPreview(id: string): void {
   }
 
   stopSoundPreview();
-  previewAudio = getAudioForUrl(entry.url);
+  previewAudio = new Audio(entry.url);
   previewPlayingId = id;
   previewAudio.currentTime = 0;
   void previewAudio.play().catch(() => {

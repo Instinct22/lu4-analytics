@@ -59,6 +59,12 @@ type Props = {
 const NOTE_DEBOUNCE_MS = 400;
 const NOTE_MAX_LEN = 120;
 
+function formatWindowTime(ms: number): string {
+  const minutes = Math.round(ms / 60000);
+  const hours = Math.floor(minutes / 60);
+  return minutes % 60 ? `${hours} ч ${minutes % 60} мин` : `${hours} ч`;
+}
+
 export default function RaidBossDetail({
   boss,
   timer,
@@ -259,7 +265,7 @@ export default function RaidBossDetail({
           {inputError && <p className="mt-1.5 text-xs text-red-400">{inputError}</p>}
           {respawn && (
             <p className="mt-2 text-[0.7rem] text-zinc-600">
-              Окно: {(respawn.minMs / 3_600_000).toFixed(0)}–{(respawn.maxMs / 3_600_000).toFixed(0)} ч после килла
+              Окно: {formatWindowTime(respawn.minMs)} – {formatWindowTime(respawn.maxMs)} после килла
             </p>
           )}
         </div>
@@ -296,6 +302,7 @@ export default function RaidBossDetail({
         )}
       </div>
 
+      {boss.bossType !== "Таймер" && <>
       <div className="min-h-0 flex-1 space-y-5 overflow-y-auto overscroll-contain p-4">
         <section>
           <h4 className="mb-2 text-xs font-medium uppercase tracking-wider text-zinc-500">Характеристики</h4>
@@ -415,6 +422,7 @@ export default function RaidBossDetail({
           Masterwork Wiki
         </a>
       </div>
+      </>}
     </div>
 
     <ConfirmDialog

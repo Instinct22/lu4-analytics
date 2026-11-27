@@ -4,6 +4,8 @@ import { isSoundPreviewPlaying, stopSoundPreview } from "../../lib/raidTimerSoun
 
 type Props = {
   enabled: boolean;
+  repeat: boolean;
+  onToggleRepeat: () => void;
   soonSoundId: string;
   windowSoundId: string;
   onToggleEnabled: () => void;
@@ -73,6 +75,8 @@ function SoundRow({
 
 export default function RaidSoundSettings({
   enabled,
+  repeat,
+  onToggleRepeat,
   soonSoundId,
   windowSoundId,
   onToggleEnabled,
@@ -166,6 +170,10 @@ export default function RaidSoundSettings({
             </button>
           </div>
 
+          <label className="mb-4 flex items-center gap-2 text-sm text-zinc-200">
+            <input type="checkbox" role="switch" checked={repeat} onChange={onToggleRepeat} />
+            Повторять звук до подтверждения
+          </label>
           <div className="space-y-4">
             <SoundRow
               label="За 30 мин (Скоро)"
