@@ -302,7 +302,7 @@ export default function RaidBossDetail({
         )}
       </div>
 
-      {boss.bossType !== "Таймер" && <>
+      {boss.bossType !== "Кастомный РБ" && <>
       <div className="min-h-0 flex-1 space-y-5 overflow-y-auto overscroll-contain p-4">
         <section>
           <h4 className="mb-2 text-xs font-medium uppercase tracking-wider text-zinc-500">Характеристики</h4>
