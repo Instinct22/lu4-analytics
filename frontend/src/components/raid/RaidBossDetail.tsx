@@ -158,9 +158,12 @@ export default function RaidBossDetail({
             <div className="min-w-0 flex-1">
               <h3 className="truncate text-lg font-semibold text-zinc-50">{boss.name}</h3>
               <p className="mt-1 text-sm text-amber-400/90">
-                Raid Boss · Lv. {boss.level ?? "?"}
+                {boss.bossType ?? "Raid Boss"} · Lv. {boss.level ?? "?"}{boss.race && ` · ${boss.race}`}
               </p>
               {boss.location && <p className="mt-1 text-xs text-zinc-500">{boss.location}</p>}
+              {boss.detailsPending && (
+                <p className="mt-1 text-xs text-amber-400">По B-W-C сверены только название и уровень.</p>
+              )}
               {boss.respawn && (
                 <p className="mt-2 inline-flex rounded-lg bg-amber-500/10 px-2 py-1 text-xs font-medium text-amber-300 ring-1 ring-amber-500/20">
                   Респаун: {boss.respawn}
@@ -316,6 +319,22 @@ export default function RaidBossDetail({
           )}
         </section>
 
+        {!!boss.minions?.length && (
+          <section>
+            <h4 className="mb-2 text-xs font-medium uppercase tracking-wider text-zinc-500">Прислужники</h4>
+            {boss.minions.map((npc, i) => (
+              <p key={i} className="text-sm text-zinc-300">{npc.name} · Lv. {npc.level}</p>
+            ))}
+          </section>
+        )}
+        {!!boss.soulCrystals?.length && (
+          <section>
+            <h4 className="mb-2 text-xs font-medium uppercase tracking-wider text-zinc-500">Прокачка кристалла души</h4>
+            {boss.soulCrystals.map((crystal, i) => (
+              <p key={i} className="text-sm text-zinc-300">{crystal.steps.join(" → ")} · {crystal.chance}</p>
+            ))}
+          </section>
+        )}
         {canViewRoute && boss.howToReach && (
           <section className="rounded-xl bg-amber-500/10 p-3 ring-1 ring-amber-500/25">
             <h4 className="mb-2 text-xs font-medium uppercase tracking-wider text-amber-400">
@@ -341,6 +360,7 @@ export default function RaidBossDetail({
                   <p className="text-sm font-medium text-zinc-200">
                     {sk.name}
                     {sk.level != null ? <span className="ml-1 text-zinc-500">Lv. {sk.level}</span> : null}
+                    {sk.active && <span className="ml-2 text-xs text-zinc-500">Активный</span>}
                   </p>
                   {sk.desc && <p className="mt-1 text-xs leading-relaxed text-zinc-500">{sk.desc}</p>}
                 </li>
@@ -349,15 +369,16 @@ export default function RaidBossDetail({
           </section>
         )}
 
-        {boss.drops.length > 0 && (
-          <section>
-            <h4 className="mb-2 text-xs font-medium uppercase tracking-wider text-zinc-500">Дроп</h4>
+        {([["Дроп", boss.drops], ["Спойл", boss.spoils ?? []]] as const).map(([title, groups]) => (
+          <section key={title}>
+            <h4 className="mb-2 text-xs font-medium uppercase tracking-wider text-zinc-500">{title}</h4>
+            {groups.length === 0 && <p className="text-sm text-zinc-500">{boss.detailsPending ? "Нет проверенных данных" : "Нет предметов"}</p>}
             <div className="space-y-3">
-              {boss.drops.map((group, gi) => (
+              {groups.map((group, gi) => (
                 <div key={gi} className="overflow-hidden rounded-xl ring-1 ring-zinc-800/80">
-                  <div className="bg-zinc-900/80 px-3 py-1.5 text-[0.7rem] text-zinc-500">
+                  {group.groupChance && <div className="bg-zinc-900/80 px-3 py-1.5 text-[0.7rem] text-zinc-500">
                     Группа · шанс {group.groupChance ?? "—"}
-                  </div>
+                  </div>}
                   <ul className="divide-y divide-zinc-800/60">
                     {group.items.map((it, ii) => (
                       <li key={`${it.name}-${ii}`} className="flex items-center gap-2.5 px-3 py-1.5">
@@ -381,7 +402,7 @@ export default function RaidBossDetail({
               ))}
             </div>
           </section>
-        )}
+        ))}
       </div>
 
       <div className="shrink-0 border-t border-zinc-800/80 p-3">

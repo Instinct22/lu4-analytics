@@ -138,19 +138,23 @@ jobs:
       github.ref == 'refs/heads/main' &&
       needs.build.result == 'success'
     runs-on: ubuntu-latest
+    timeout-minutes: 55
+    concurrency:
+      group: lu4-production
+      cancel-in-progress: false
     steps:
-      - name: Deploy to production
-        uses: appleboy/ssh-action@v1.2.0
-        with:
-          host: 31.76.7.61
-          username: root
-          password: ${{ secrets.DEPLOY_SSH_PASSWORD }}
-          script_stop: true
-          script: |
-            set -euo pipefail
-            cd /opt/test
-            docker compose -f docker-compose.prod.yml pull
-            docker compose -f docker-compose.prod.yml up -d --force-recreate
+      - name: Deploy to production and check application health
+        env:
+          DEPLOY_KEY: ${{ secrets.LU4_DEPLOY_KEY }}
+        run: |
+          set -euo pipefail
+          umask 077
+          key=$(mktemp)
+          trap 'rm -f "$key"' EXIT
+          printf '%s\n' "$DEPLOY_KEY" > "$key"
+          mkdir -p ~/.ssh
+          printf '%s\n' '31.76.69.197 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKuiqKdKlng6V6Z+QV+0lZ9d9bejbsj1+9vFZ+JDizaLRieDXZiuN5zkSUFebiM/LklfrcqJ19xxkgDfuXBhgX8=' > ~/.ssh/lu4_known_hosts
+          ssh -i "$key" -o BatchMode=yes -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile=~/.ssh/lu4_known_hosts root@31.76.69.197 deploy
 
   cleanup-pr-tags:
     if: |

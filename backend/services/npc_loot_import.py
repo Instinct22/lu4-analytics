@@ -51,6 +51,8 @@ def import_npc_loot(db: Session) -> tuple[int, int]:
         select(WikiEntity.external_id, WikiEntity.url).where(
             WikiEntity.entity_type == "npc",
             WikiEntity.external_id.is_not(None),
+            # B-W-C raid loot is imported from the paginated raid dataset.
+            ~WikiEntity.url.startswith("/lu4-b-w-c/npc/"),
         )
     ).all()
 

@@ -86,6 +86,13 @@ def _boss_json(boss: RaidBoss, *, include_route: bool) -> dict:
         "lore": payload.get("lore"),
         "skills": payload.get("skills") or [],
         "drops": payload.get("drops") or [],
+        "spoils": payload.get("spoils") or [],
+        "race": payload.get("race"),
+        "bossType": payload.get("bossType"),
+        "spawnPoints": payload.get("spawnPoints") or [],
+        "minions": payload.get("minions") or [],
+        "soulCrystals": payload.get("soulCrystals") or [],
+        "detailsPending": payload.get("detailsPending", False),
     }
     if include_route:
         data["howToReach"] = payload.get("howToReach")

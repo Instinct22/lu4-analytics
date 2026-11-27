@@ -13,6 +13,7 @@ export type RaidBossDropGroup = {
 };
 
 export type RaidBossSkill = {
+  active?: boolean;
   name: string;
   level: number | null;
   desc: string | null;
@@ -37,8 +38,8 @@ export type RaidBoss = {
   id: number;
   name: string;
   level: number | null;
-  x: number;
-  y: number;
+  x: number | null;
+  y: number | null;
   image: string | null;
   wikiUrl: string;
   location: string | null;
@@ -51,6 +52,13 @@ export type RaidBoss = {
   howToReach?: string | null;
   skills: RaidBossSkill[];
   drops: RaidBossDropGroup[];
+  spoils?: RaidBossDropGroup[];
+  race?: string | null;
+  bossType?: string | null;
+  detailsPending?: boolean;
+  minions?: { name: string; level: number; url: string }[];
+  soulCrystals?: { steps: string[]; chance: string }[];
+  spawnPoints?: { mapX: number; mapY: number }[];
 };
 
 export type RaidBossesPayload = {

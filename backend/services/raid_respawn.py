@@ -19,6 +19,8 @@ def parse_respawn(raw: str | None) -> tuple[int, int] | None:
         return None
     # Scraped sources sometimes lose the ± character to a replacement glyph.
     text = raw.replace("\ufffd", "±").strip()
+    text = re.sub(r"час(?:ов|а)?\b", "hours", text, flags=re.I)
+    text = re.sub(r"минут(?:ы|а)?\b", "minutes", text, flags=re.I)
     if text.lower() == "fixed":
         return None
 

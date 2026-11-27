@@ -71,7 +71,7 @@ export default function RaidBossMap({ payload, bosses, selectedId, onSelect, tim
     if (selectedId == null) return;
     const boss = bosses.find((b) => b.id === selectedId) ?? payload.bosses.find((b) => b.id === selectedId);
     const el = viewportRef.current;
-    if (!boss || !el) return;
+    if (!boss || boss.x == null || boss.y == null || !el) return;
     setOffset({
       x: el.clientWidth / 2 - boss.x * scale,
       y: el.clientHeight / 2 - boss.y * scale,
@@ -114,7 +114,11 @@ export default function RaidBossMap({ payload, bosses, selectedId, onSelect, tim
     setDragging(false);
   };
 
-  const markers = useMemo(() => bosses, [bosses]);
+  const markers = useMemo(() => bosses.flatMap((boss) =>
+    boss.spawnPoints?.length
+      ? boss.spawnPoints.map((point) => ({ ...boss, x: point.mapX, y: point.mapY }))
+      : boss.x != null && boss.y != null ? [{ ...boss, x: boss.x, y: boss.y }] : []
+  ), [bosses]);
 
   const overlays = useMemo(() => {
     return markers
